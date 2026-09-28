@@ -2,29 +2,64 @@
   "version": "1.0.0",
   "last_updated": "2025-01-20T10:00:00Z",
   "app_min_version": "1.0",
+  "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
   "kelas": [
     {
       "kelas": 10,
       "deskripsi": "Fondasi Matematika",
+      "emoji": "📗",
+      "warna": "#4CAF50",
       "kategori": [
         {
           "nama": "Aljabar",
           "emoji": "📐",
           "warna": "#4CAF50",
-          "jumlah_bab": 1,
-          "file": "kelas10/aljabar.json",
-          "versi": "1.0.0"
+          "file_materi": "kelas10/aljabar/materi.json",
+          "versi": "1.0.0",
+          "paket": [
+            {
+              "id": "10-aljabar-1",
+              "nama": "Aljabar 1",
+              "deskripsi": "Latihan dasar persamaan linear",
+              "file": "kelas10/aljabar/paket/aljabar-1.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "10-aljabar-2",
+              "nama": "Aljabar 2",
+              "deskripsi": "Latihan persamaan kuadrat",
+              "file": "kelas10/aljabar/paket/aljabar-2.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "10-aljabar-3",
+              "nama": "Aljabar 3",
+              "deskripsi": "Latihan campuran & aplikasi",
+              "file": "kelas10/aljabar/paket/aljabar-3.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            }
+          ]
         }
       ]
     },
     {
       "kelas": 11,
       "deskripsi": "Lanjutan & Analisis",
+      "emoji": "📘",
+      "warna": "#5B8DEF",
       "kategori": []
     },
     {
       "kelas": 12,
       "deskripsi": "Persiapan Ujian",
+      "emoji": "📕",
+      "warna": "#FF6B1A",
       "kategori": []
     }
   ]
