@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-20T10:00:00Z",
+  "app_min_version": "1.0",
+  "kelas": [
+    {
+      "kelas": 10,
+      "deskripsi": "Fondasi Matematika",
+      "kategori": [
+        {
+          "nama": "Aljabar",
+          "emoji": "📐",
+          "warna": "#4CAF50",
+          "jumlah_bab": 1,
+          "file": "kelas10/aljabar.json",
+          "versi": "1.0.0"
+        }
+      ]
+    },
+    {
+      "kelas": 11,
+      "deskripsi": "Lanjutan & Analisis",
+      "kategori": []
+    },
+    {
+      "kelas": 12,
+      "deskripsi": "Persiapan Ujian",
+      "kategori": []
+    }
+  ]
+}
