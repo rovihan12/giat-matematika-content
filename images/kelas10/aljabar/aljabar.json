@@ -1,0 +1,64 @@
+{
+  "kelas": 10,
+  "kategori": "Aljabar",
+  "emoji": "📐",
+  "warna": "#4CAF50",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "10-aljabar-01",
+      "nomor": 1,
+      "judul": "Persamaan Linear Satu Variabel",
+      "deskripsi": "Konsep dasar & penyelesaian persamaan linear",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Pengertian Persamaan Linear"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Persamaan linear satu variabel adalah persamaan yang dapat ditulis dalam bentuk $ax + b = 0$ dengan $a \\neq 0$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "ax + b = 0 \\quad \\Rightarrow \\quad x = \\frac{-b}{a}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Sifat-Sifat"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Jika $a = b$, maka $a + c = b + c$.",
+            "Jika $a = b$ dan $c \\neq 0$, maka $a \\cdot c = b \\cdot c$."
+          ]
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\sum_{i=1}^{n} x_i = x_1 + x_2 + \\cdots + x_n"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int_{a}^{b} f(x) \\, dx = F(b) - F(a)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} \\frac{1}{x} = 0"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\sin^2 \\theta + \\cos^2 \\theta = 1"
+        }
+      ]
+    }
+  ]
+}
