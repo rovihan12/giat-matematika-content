@@ -9,7 +9,7 @@
       "id": "10-aljabar-bab-01",
       "nomor": 1,
       "judul": "Persamaan Linear Satu Variabel",
-      "deskripsi": "Konsep dasar & penyelesaian",
+      "deskripsi": "Konsep dasar persamaan linear satu variabel",
       "estimasi_menit": 15,
       "konten": [
         {
@@ -23,30 +23,39 @@
         },
         {
           "tipe": "formula_block",
-          "latex": "x = \\frac{-b}{a}"
-        },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/aljabar/grafik-linear.png",
-          "caption": "Grafik persamaan linear $y = 2x + 4$",
-          "width": "full"
+          "latex": "ax + b = 0 \\quad \\Rightarrow \\quad x = \\frac{-b}{a}"
         },
         {
           "tipe": "heading",
           "level": 3,
-          "text": "Sifat-Sifat"
+          "text": "Sifat-Sifat Persamaan Linear"
         },
         {
           "tipe": "list",
           "ordered": false,
           "items": [
-            "Jika $a = b$, maka $a + c = b + c$",
-            "Jika $a = b$, maka $a \\cdot c = b \\cdot c$ untuk $c \\neq 0$"
+            "Jika $a = b$, maka $a + c = b + c$ untuk setiap $c$",
+            "Jika $a = b$, maka $a \\cdot c = b \\cdot c$ untuk $c \\neq 0$",
+            "Jika $a = b$ dan $b = c$, maka $a = c$"
           ]
         },
         {
           "tipe": "heading",
           "level": 3,
+          "text": "Contoh Soal"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1",
+          "konten": [
+            { "tipe": "paragraph", "text": "Selesaikan $3x + 6 = 0$" },
+            { "tipe": "formula_block", "latex": "3x = -6" },
+            { "tipe": "formula_block", "latex": "x = \\frac{-6}{3} = -2" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
           "text": "Simbol Matematika"
         },
         {
@@ -60,10 +69,6 @@
         {
           "tipe": "formula_block",
           "latex": "\\lim_{x \\to \\infty} \\frac{1}{x} = 0"
-        },
-        {
-          "tipe": "formula_block",
-          "latex": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}"
         }
       ]
     }
