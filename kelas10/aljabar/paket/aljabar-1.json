@@ -8,7 +8,7 @@
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "10-aljabar-1-soal-001",
+      "id": "10-aljabar-1-001",
       "pertanyaan": [
         {
           "tipe": "paragraph",
@@ -23,61 +23,86 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        {
-          "tipe": "paragraph",
-          "text": "Persamaan awal: $2x + 8 = 0$"
-        },
-        {
-          "tipe": "paragraph",
-          "text": "Kurangi kedua ruas dengan 8: $2x = -8$"
-        },
-        {
-          "tipe": "formula_block",
-          "latex": "x = \\frac{-8}{2} = -4"
-        },
-        {
-          "tipe": "paragraph",
-          "text": "Jadi, nilai $x = -4$."
-        }
+        { "tipe": "paragraph", "text": "Persamaan awal: $2x + 8 = 0$" },
+        { "tipe": "paragraph", "text": "Kurangi kedua ruas dengan 8: $2x = -8$" },
+        { "tipe": "formula_block", "latex": "x = \\frac{-8}{2} = -4" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x = -4$." }
       ]
     },
     {
-      "id": "10-aljabar-1-soal-002",
+      "id": "10-aljabar-1-002",
       "pertanyaan": [
         {
           "tipe": "paragraph",
-          "text": "Perhatikan grafik fungsi linear berikut!"
-        },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/aljabar/grafik-linear.png",
-          "caption": "Grafik $y = f(x)$"
-        },
-        {
-          "tipe": "paragraph",
-          "text": "Tentukan titik potong dengan sumbu X."
+          "text": "Selesaikan persamaan $3(x - 2) = 12$."
         }
       ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(-2, 0)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, -2)$" }],
-        [{ "tipe": "paragraph", "text": "$(2, 0)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, 2)$" }]
+        [{ "tipe": "paragraph", "text": "$x = 6$" }],
+        [{ "tipe": "paragraph", "text": "$x = 4$" }],
+        [{ "tipe": "paragraph", "text": "$x = 2$" }],
+        [{ "tipe": "paragraph", "text": "$x = 8$" }]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        {
-          "tipe": "paragraph",
-          "text": "Titik potong sumbu X terjadi saat $y = 0$."
-        },
-        {
-          "tipe": "formula_block",
-          "latex": "0 = 2x + 4 \\Rightarrow x = -2"
-        },
-        {
-          "tipe": "paragraph",
-          "text": "Jadi titik potongnya adalah $(-2, 0)$."
-        }
+        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan 3: $x - 2 = 4$" },
+        { "tipe": "paragraph", "text": "Tambahkan 2: $x = 6$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x = 6$." }
+      ]
+    },
+    {
+      "id": "10-aljabar-1-003",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $5x - 3 = 2x + 9$, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x = 4$" }],
+        [{ "tipe": "paragraph", "text": "$x = 3$" }],
+        [{ "tipe": "paragraph", "text": "$x = 2$" }],
+        [{ "tipe": "paragraph", "text": "$x = 5$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pindahkan $2x$ ke kiri: $5x - 2x - 3 = 9$" },
+        { "tipe": "paragraph", "text": "Sederhanakan: $3x - 3 = 9$" },
+        { "tipe": "paragraph", "text": "Tambahkan 3: $3x = 12$" },
+        { "tipe": "formula_block", "latex": "x = \\frac{12}{3} = 4" }
+      ]
+    },
+    {
+      "id": "10-aljabar-1-004",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\frac{x + 4}{3} = 5$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x = 11$" }],
+        [{ "tipe": "paragraph", "text": "$x = 15$" }],
+        [{ "tipe": "paragraph", "text": "$x = 19$" }],
+        [{ "tipe": "paragraph", "text": "$x = 6$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kalikan kedua ruas dengan 3: $x + 4 = 15$" },
+        { "tipe": "paragraph", "text": "Kurangi 4: $x = 11$" }
+      ]
+    },
+    {
+      "id": "10-aljabar-1-005",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Umur Ayah 3 kali umur Adi. Jika jumlah umur mereka 48 tahun, umur Adi adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "12 tahun" }],
+        [{ "tipe": "paragraph", "text": "14 tahun" }],
+        [{ "tipe": "paragraph", "text": "16 tahun" }],
+        [{ "tipe": "paragraph", "text": "18 tahun" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal umur Adi = $x$, maka umur Ayah = $3x$." },
+        { "tipe": "formula_block", "latex": "x + 3x = 48" },
+        { "tipe": "formula_block", "latex": "4x = 48 \\Rightarrow x = 12" },
+        { "tipe": "paragraph", "text": "Jadi, umur Adi 12 tahun." }
       ]
     }
   ]
