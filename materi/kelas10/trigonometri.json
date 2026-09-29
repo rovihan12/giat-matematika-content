@@ -3,7 +3,7 @@
   "kategori": "Trigonometri",
   "emoji": "📈",
   "warna": "#9C27B0",
-  "versi": "1.0.3",
+  "versi": "1.0.4",
   "bab": [
     {
       "id": "10-trig-bab-01",
@@ -416,8 +416,24 @@
         {
           "tipe": "image",
           "src": "images/kelas10/trigonometri/identitas-trigonometri.png",
-          "caption": "Visualisasi identitas sin²θ + cos²θ = 1 pada lingkaran satuan",
-          "width": "medium"
+          "caption": "Visualisasi identitas Pythagoras pada lingkaran satuan: segitiga siku-siku dengan sisi miring 1, sisi horizontal cos θ = 0,6, dan sisi vertikal sin θ = 0,8. Berlaku (cos θ)² + (sin θ)² = 1² sehingga sin²θ + cos²θ = 1",
+          "width": "full"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perhatikan gambar di atas. Segitiga siku-siku di dalam lingkaran satuan memiliki sisi miring $1$, sisi horizontal $\\cos\\theta$, dan sisi vertikal $\\sin\\theta$. Menurut <b>Teorema Pythagoras</b>, kuadrat sisi miring sama dengan jumlah kuadrat kedua sisi lainnya, sehingga berlaku:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(\\cos\\theta)^2 + (\\sin\\theta)^2 = 1^2"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\sin^2\\theta + \\cos^2\\theta = 1"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sebagai contoh pada gambar, jika $\\cos\\theta = 0{,}6$ dan $\\sin\\theta = 0{,}8$, maka $0{,}6^2 + 0{,}8^2 = 0{,}36 + 0{,}64 = 1$. Benar, bukan?"
         },
         {
           "tipe": "paragraph",
