@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-01-20T10:00:00Z",
+  "last_updated": "2025-01-15",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
   "kelas": [
@@ -11,37 +11,127 @@
       "warna": "#4CAF50",
       "kategori": [
         {
-          "nama": "Aljabar",
+          "nama": "Eksponen dan Logaritma",
           "emoji": "📐",
           "warna": "#4CAF50",
-          "file_materi": "kelas10/aljabar/materi.json",
+          "file_materi": "materi/kelas10/eksponen-logaritma.json",
           "versi": "1.0.0",
           "paket": [
             {
-              "id": "10-aljabar-1",
-              "nama": "Aljabar 1",
-              "deskripsi": "Latihan dasar persamaan linear",
-              "file": "kelas10/aljabar/paket/aljabar-1.json",
+              "id": "eksponen-logaritma-paket-01",
+              "nama": "Paket 1 - Eksponen Dasar",
+              "deskripsi": "Sifat-sifat eksponen dan operasinya",
+              "file": "soal/kelas10/eksponen-logaritma-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "MUDAH",
               "versi": "1.0.0"
-            },
+            }
+          ]
+        },
+        {
+          "nama": "Barisan dan Deret",
+          "emoji": "📊",
+          "warna": "#2196F3",
+          "file_materi": "materi/kelas10/barisan-deret.json",
+          "versi": "1.0.0",
+          "paket": [
             {
-              "id": "10-aljabar-2",
-              "nama": "Aljabar 2",
-              "deskripsi": "Latihan persamaan kuadrat",
-              "file": "kelas10/aljabar/paket/aljabar-2.json",
+              "id": "barisan-deret-paket-01",
+              "nama": "Paket 1 - Aritmatika",
+              "deskripsi": "Barisan dan deret aritmatika",
+              "file": "soal/kelas10/barisan-deret-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
-            },
+            }
+          ]
+        },
+        {
+          "nama": "Trigonometri",
+          "emoji": "📈",
+          "warna": "#9C27B0",
+          "file_materi": "materi/kelas10/trigonometri.json",
+          "versi": "1.0.0",
+          "paket": [
             {
-              "id": "10-aljabar-3",
-              "nama": "Aljabar 3",
-              "deskripsi": "Latihan campuran & aplikasi",
-              "file": "kelas10/aljabar/paket/aljabar-3.json",
+              "id": "trigonometri-paket-01",
+              "nama": "Paket 1 - Perbandingan Trigonometri",
+              "deskripsi": "Sin, cos, tan pada segitiga siku-siku",
+              "file": "soal/kelas10/trigonometri-paket-01.json",
               "jumlah_soal": 10,
-              "tingkat": "SULIT",
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            }
+          ]
+        },
+        {
+          "nama": "Sistem Persamaan dan Pertidaksamaan Linear",
+          "emoji": "🔷",
+          "warna": "#FF9800",
+          "file_materi": "materi/kelas10/sistem-persamaan-linear.json",
+          "versi": "1.0.0",
+          "paket": [
+            {
+              "id": "sistem-persamaan-linear-paket-01",
+              "nama": "Paket 1 - SPLDV",
+              "deskripsi": "Sistem persamaan linear dua variabel",
+              "file": "soal/kelas10/sistem-persamaan-linear-paket-01.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            }
+          ]
+        },
+        {
+          "nama": "Fungsi Kuadrat",
+          "emoji": "📉",
+          "warna": "#E91E63",
+          "file_materi": "materi/kelas10/fungsi-kuadrat.json",
+          "versi": "1.0.0",
+          "paket": [
+            {
+              "id": "fungsi-kuadrat-paket-01",
+              "nama": "Paket 1 - Grafik Fungsi Kuadrat",
+              "deskripsi": "Menggambar dan menganalisis grafik",
+              "file": "soal/kelas10/fungsi-kuadrat-paket-01.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            }
+          ]
+        },
+        {
+          "nama": "Statistika",
+          "emoji": "📊",
+          "warna": "#00897B",
+          "file_materi": "materi/kelas10/statistika.json",
+          "versi": "1.0.0",
+          "paket": [
+            {
+              "id": "statistika-paket-01",
+              "nama": "Paket 1 - Penyajian Data",
+              "deskripsi": "Mean, median, modus",
+              "file": "soal/kelas10/statistika-paket-01.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            }
+          ]
+        },
+        {
+          "nama": "Peluang",
+          "emoji": "🎲",
+          "warna": "#00BCD4",
+          "file_materi": "materi/kelas10/peluang.json",
+          "versi": "1.0.0",
+          "paket": [
+            {
+              "id": "peluang-paket-01",
+              "nama": "Paket 1 - Peluang Dasar",
+              "deskripsi": "Ruang sampel dan kejadian",
+              "file": "soal/kelas10/peluang-paket-01.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
               "versi": "1.0.0"
             }
           ]
