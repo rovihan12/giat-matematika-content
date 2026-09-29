@@ -3,7 +3,7 @@
   "kategori": "Trigonometri",
   "emoji": "📈",
   "warna": "#9C27B0",
-  "versi": "1.0.4",
+  "versi": "1.0.5",
   "bab": [
     {
       "id": "10-trig-bab-01",
@@ -238,6 +238,7 @@
           "judul": "Contoh 3: Soal Cerita — Tinggi Pohon",
           "konten": [
             { "tipe": "paragraph", "text": "Seorang siswa berdiri 12 meter dari pohon. Ia melihat puncak pohon dengan sudut elevasi $60^\\circ$. Berapa tinggi pohon tersebut?" },
+            { "tipe": "image", "src": "images/kelas10/trigonometri/soal-cerita-tinggi-pohon.png", "caption": "Ilustrasi soal: siswa berjarak 12 m dari pohon, sudut elevasi 60° ke puncak pohon, tinggi pohon = t", "width": "full" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Jarak siswa ke pohon = sisi samping = 12 m. Tinggi pohon = sisi depan." },
             { "tipe": "formula_block", "latex": "\\tan 60^\\circ = \\dfrac{t}{12} \\Rightarrow t = 12 \\cdot \\sqrt{3} \\approx 20{,}78 \\text{ m}" },
@@ -555,7 +556,7 @@
         {
           "tipe": "image",
           "src": "images/kelas10/trigonometri/grafik-sin-cos.png",
-          "caption": "Grafik y = sin x dan y = cos x pada interval 0° sampai 360°",
+          "caption": "Grafik y = sin x (biru) dan y = cos x (oranye) pada interval 0° sampai 360°. Keduanya memiliki amplitudo 1 dan periode 360°",
           "width": "full"
         },
         {
@@ -571,6 +572,10 @@
             "$y = \\cos x$ mulai dari $(0, 1)$ — turun dulu lalu naik",
             "Grafik $\\cos x$ = grafik $\\sin x$ yang digeser $90^\\circ$ ke kiri"
           ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perhatikan gambar di atas. Pada $x = 0^\\circ$: $\\sin 0^\\circ = 0$ (kurva biru mulai dari titik asal) sedangkan $\\cos 0^\\circ = 1$ (kurva oranye mulai dari puncak). Keduanya berpotongan di $x = 45^\\circ$ dan $x = 225^\\circ$."
         },
         {
           "tipe": "heading",
@@ -589,6 +594,16 @@
             "Tidak memiliki amplitudo (nilai bisa sangat besar)",
             "Ada asimtot di $x = 90^\\circ + k \\cdot 180^\\circ$"
           ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/grafik-tan.png",
+          "caption": "Grafik y = tan x pada interval [-360°, 360°]. Garis putus-putus merah adalah asimtot vertikal di x = -270°, -90°, 90°, dan 270°",
+          "width": "full"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perhatikan gambar di atas. Kurva $y = \\tan x$ terputus di setiap asimtot, dan tiap bagian kurva disebut satu <b>cabang</b>. Satu cabang lengkap terjadi setiap interval $180^\\circ$."
         },
         {
           "tipe": "heading",
@@ -658,12 +673,12 @@
         {
           "tipe": "image",
           "src": "images/kelas10/trigonometri/segitiga-aturan-sinus.png",
-          "caption": "Segitiga ABC dengan sisi a, b, c dan sudut A, B, C",
-          "width": "medium"
+          "caption": "Segitiga sembarang ABC dengan sisi a (di depan sudut A), sisi b (di depan sudut B), sisi c (di depan sudut C), dan garis tinggi h dari titik A ke sisi a",
+          "width": "full"
         },
         {
           "tipe": "paragraph",
-          "text": "Pada segitiga ABC: sisi $a$ di depan sudut $A$, sisi $b$ di depan sudut $B$, sisi $c$ di depan sudut $C$."
+          "text": "Perhatikan gambar di atas. Pada segitiga ABC: sisi $a$ di depan sudut $A$, sisi $b$ di depan sudut $B$, sisi $c$ di depan sudut $C$. Garis $h$ adalah garis tinggi dari titik $A$ ke sisi $a$. Dengan garis tinggi inilah kita bisa menurunkan aturan sinus dan aturan cosinus."
         },
         {
           "tipe": "heading",
@@ -832,6 +847,7 @@
           "judul": "Contoh: Tinggi Menara",
           "konten": [
             { "tipe": "paragraph", "text": "Seorang surveyor berdiri 50 meter dari kaki menara. Ia mengukur sudut elevasi ke puncak menara sebesar $45^\\circ$. Berapa tinggi menara?" },
+            { "tipe": "image", "src": "images/kelas10/trigonometri/soal-cerita-tinggi-menara.png", "caption": "Ilustrasi soal: surveyor berjarak 50 m dari menara, sudut elevasi 45° ke puncak menara, tinggi menara = t", "width": "full" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "formula_block", "latex": "\\tan 45^\\circ = \\dfrac{t}{50} \\Rightarrow t = 50 \\cdot 1 = 50 \\text{ m}" },
             { "tipe": "paragraph", "text": "Jadi tinggi menara $50$ meter." }
