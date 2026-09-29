@@ -3,7 +3,7 @@
   "kategori": "Trigonometri",
   "emoji": "📈",
   "warna": "#9C27B0",
-  "versi": "1.0.2",
+  "versi": "1.0.3",
   "bab": [
     {
       "id": "10-trig-bab-01",
@@ -194,7 +194,7 @@
         },
         {
           "tipe": "image",
-          "src": "images/kelas10/trigonometri/tabel-sudut-istimewa.jpg",
+          "src": "images/kelas10/trigonometri/tabel-sudut-istimewa.png",
           "caption": "Tabel nilai sin, cos, dan tan untuk sudut istimewa 0°, 30°, 45°, 60°, dan 90°",
           "width": "full"
         },
@@ -308,12 +308,12 @@
         {
           "tipe": "image",
           "src": "images/kelas10/trigonometri/kuadran-tanda.png",
-          "caption": "Tanda sin, cos, tan di setiap kuadran — All-Sin-Tan-Cos",
-          "width": "medium"
+          "caption": "Diagram tanda trigonometri di empat kuadran: Kuadran I (ALL +), Kuadran II (SIN +), Kuadran III (TAN +), Kuadran IV (COS +) — konsep All-Sin-Tan-Cos",
+          "width": "full"
         },
         {
           "tipe": "paragraph",
-          "text": "<b>Cara mudah mengingat:</b> gunakan urutan <b>All-Sin-Tan-Cos</b> (dibaca \"All Students Take Calculus\") mulai dari kuadran I searah jarum jam."
+          "text": "Perhatikan diagram di atas. Setiap kuadran memiliki warna berbeda dan hanya fungsi trigonometri tertentu yang bernilai positif di kuadran tersebut. <b>Cara mudah mengingat:</b> gunakan urutan <b>All-Sin-Tan-Cos</b> (dibaca \"All Students Take Calculus\") mulai dari kuadran I berlawanan arah jarum jam."
         },
         {
           "tipe": "heading",
