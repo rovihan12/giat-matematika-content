@@ -1,1 +1,666 @@
-
+{
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "emoji": "📊",
+  "warna": "#2196F3",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "10-barisan-bab-01",
+      "nomor": 1,
+      "judul": "Pengertian Barisan dan Deret",
+      "deskripsi": "Konsep dasar barisan bilangan dan deret",
+      "estimasi_menit": 12,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Barisan?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bayangkan kamu sedang menabung. Hari pertama kamu menabung Rp1.000, hari kedua Rp2.000, hari ketiga Rp3.000, dan seterusnya. Kumpulan angka $1.000, 2.000, 3.000, \\ldots$ inilah yang disebut **barisan bilangan**."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Barisan bilangan** adalah urutan bilangan yang memiliki pola tertentu. Setiap bilangan dalam barisan disebut **suku**, dilambangkan dengan $U_1, U_2, U_3, \\ldots, U_n$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "U_1, \\; U_2, \\; U_3, \\; \\ldots, \\; U_n"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Keterangan: $U_1$ = suku pertama, $U_2$ = suku kedua, $U_n$ = suku ke-$n$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Deret?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Deret** adalah jumlah dari suku-suku barisan. Jika barisan ditulis dengan koma, deret ditulis dengan tanda tambah."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S_n = U_1 + U_2 + U_3 + \\cdots + U_n"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Keterangan: $S_n$ = jumlah $n$ suku pertama."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Perbedaan Barisan dan Deret"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "**Barisan**: $2, 4, 6, 8, 10$ (dipisah koma)",
+            "**Deret**: $2 + 4 + 6 + 8 + 10 = 30$ (dijumlahkan)"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Menentukan Pola",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan dua suku berikutnya dari barisan $1, 4, 7, 10, \\ldots$" },
+            { "tipe": "paragraph", "text": "Perhatikan pola: setiap suku bertambah $3$ dari suku sebelumnya." },
+            { "tipe": "paragraph", "text": "Jadi: $10 + 3 = 13$ dan $13 + 3 = 16$." },
+            { "tipe": "paragraph", "text": "Dua suku berikutnya adalah $13$ dan $16$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Barisan vs Deret",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui barisan $3, 6, 9, 12, 15$. Tentukan:" },
+            { "tipe": "paragraph", "text": "a. Suku ke-3 → $U_3 = 9$" },
+            { "tipe": "paragraph", "text": "b. Jumlah 5 suku pertama → $S_5 = 3 + 6 + 9 + 12 + 15 = 45$" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Barisan = urutan bilangan dengan pola",
+            "Deret = jumlah suku-suku barisan",
+            "Suku dilambangkan $U_n$, jumlah suku dilambangkan $S_n$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-02",
+      "nomor": 2,
+      "judul": "Barisan Aritmatika",
+      "deskripsi": "Barisan dengan beda tetap antar suku",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Pengertian Barisan Aritmatika"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Barisan aritmatika** adalah barisan yang selisih antara dua suku berurutan selalu **tetap**. Selisih ini disebut **beda** dan dilambangkan dengan $b$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "b = U_2 - U_1 = U_3 - U_2 = U_n - U_{n-1}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: $3, 7, 11, 15, 19, \\ldots$ memiliki beda $b = 4$ karena setiap suku bertambah $4$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Ciri-Ciri Barisan Aritmatika"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Selisih dua suku berurutan selalu sama",
+            "Jika $b > 0$ → barisan naik",
+            "Jika $b < 0$ → barisan turun",
+            "Jika $b = 0$ → barisan konstan"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rumus Suku ke-n Barisan Aritmatika"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika suku pertama $a$ dan beda $b$, maka suku ke-$n$ dirumuskan:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "U_n = a + (n - 1) \\cdot b"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Keterangan:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$U_n$ = suku ke-$n$",
+            "$a$ = suku pertama ($U_1$)",
+            "$b$ = beda",
+            "$n$ = nomor suku"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Cara Menentukan Beda"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "b = \\dfrac{U_m - U_n}{m - n}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Rumus ini berguna jika yang diketahui bukan dua suku berurutan."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Suku ke-n (Sederhana)",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan suku ke-10 dari barisan $3, 7, 11, 15, \\ldots$" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Suku pertama $a = 3$, beda $b = 7 - 3 = 4$." },
+            { "tipe": "formula_block", "latex": "U_{10} = 3 + (10 - 1) \\cdot 4 = 3 + 36 = 39" },
+            { "tipe": "paragraph", "text": "Jadi suku ke-10 adalah $39$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Mencari Beda dari Dua Suku",
+          "konten": [
+            { "tipe": "paragraph", "text": "Suku ke-3 barisan aritmatika adalah $11$ dan suku ke-7 adalah $27$. Tentukan suku pertama dan beda." },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "formula_block", "latex": "U_3 = a + 2b = 11" },
+            { "tipe": "formula_block", "latex": "U_7 = a + 6b = 27" },
+            { "tipe": "paragraph", "text": "Kurangkan kedua persamaan:" },
+            { "tipe": "formula_block", "latex": "4b = 16 \\Rightarrow b = 4" },
+            { "tipe": "paragraph", "text": "Substitusi ke $a + 2b = 11$: $a + 8 = 11 \\Rightarrow a = 3$." },
+            { "tipe": "paragraph", "text": "Jadi suku pertama $a = 3$ dan beda $b = 4$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Soal Cerita",
+          "konten": [
+            { "tipe": "paragraph", "text": "Kursi bioskop disusun baris demi baris. Baris pertama 12 kursi, baris kedua 15 kursi, baris ketiga 18 kursi, dan seterusnya. Berapa banyak kursi di baris ke-20?" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Barisan: $12, 15, 18, \\ldots$ → $a = 12$, $b = 3$." },
+            { "tipe": "formula_block", "latex": "U_{20} = 12 + (20 - 1) \\cdot 3 = 12 + 57 = 69" },
+            { "tipe": "paragraph", "text": "Jadi baris ke-20 memiliki $69$ kursi." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Barisan aritmatika: beda antar suku selalu tetap",
+            "Rumus suku ke-n: $U_n = a + (n-1)b$",
+            "Beda: $b = U_n - U_{n-1}$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-03",
+      "nomor": 3,
+      "judul": "Deret Aritmatika",
+      "deskripsi": "Jumlah suku-suku barisan aritmatika",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Pengertian Deret Aritmatika"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Deret aritmatika** adalah jumlah dari suku-suku barisan aritmatika. Jika barisan aritmatika $U_1, U_2, U_3, \\ldots$, maka deretnya adalah $U_1 + U_2 + U_3 + \\cdots$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rumus Jumlah n Suku Pertama"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada dua rumus yang bisa digunakan, pilih yang lebih praktis sesuai soal:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S_n = \\dfrac{n}{2}(2a + (n - 1) \\cdot b)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S_n = \\dfrac{n}{2}(a + U_n)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Tips memilih rumus:**"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Jika diketahui $a$ dan $b$ → pakai rumus pertama",
+            "Jika diketahui $a$ dan $U_n$ → pakai rumus kedua",
+            "Jika $U_n$ belum diketahui tapi $a$, $b$, dan $n$ diketahui → cari $U_n$ dulu, lalu pakai rumus kedua"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Suku ke-n dari Deret"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Hubungan antara suku dan jumlah suku:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "U_n = S_n - S_{n-1}"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Jumlah n Suku Pertama",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung jumlah 20 suku pertama dari deret $5 + 8 + 11 + \\cdots$" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Diketahui $a = 5$, $b = 3$, $n = 20$." },
+            { "tipe": "formula_block", "latex": "S_{20} = \\dfrac{20}{2}(2 \\cdot 5 + 19 \\cdot 3)" },
+            { "tipe": "formula_block", "latex": "S_{20} = 10(10 + 57) = 10 \\cdot 67 = 670" },
+            { "tipe": "paragraph", "text": "Jadi jumlah 20 suku pertama adalah $670$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Mencari n Jika Sn Diketahui",
+          "konten": [
+            { "tipe": "paragraph", "text": "Berapa banyak suku pada deret $2 + 5 + 8 + \\cdots$ yang jumlahnya $155$?" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Diketahui $a = 2$, $b = 3$, $S_n = 155$." },
+            { "tipe": "formula_block", "latex": "\\dfrac{n}{2}(2 \\cdot 2 + (n - 1) \\cdot 3) = 155" },
+            { "tipe": "formula_block", "latex": "n(4 + 3n - 3) = 310" },
+            { "tipe": "formula_block", "latex": "3n^2 + n - 310 = 0" },
+            { "tipe": "paragraph", "text": "Faktorkan: $(3n + 31)(n - 10) = 0$. Karena $n$ harus positif, maka $n = 10$." },
+            { "tipe": "paragraph", "text": "Jadi deret tersebut memiliki $10$ suku." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Soal Cerita",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah pabrik memproduksi 200 unit di bulan pertama. Setiap bulan produksi naik 25 unit. Berapa total produksi selama 1 tahun (12 bulan)?" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Diketahui $a = 200$, $b = 25$, $n = 12$." },
+            { "tipe": "formula_block", "latex": "S_{12} = \\dfrac{12}{2}(2 \\cdot 200 + 11 \\cdot 25)" },
+            { "tipe": "formula_block", "latex": "S_{12} = 6(400 + 275) = 6 \\cdot 675 = 4050" },
+            { "tipe": "paragraph", "text": "Jadi total produksi selama 1 tahun adalah $4.050$ unit." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Deret aritmatika = jumlah suku barisan aritmatika",
+            "Rumus: $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ atau $S_n = \\dfrac{n}{2}(a + U_n)$",
+            "Hubungan: $U_n = S_n - S_{n-1}$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-04",
+      "nomor": 4,
+      "judul": "Barisan Geometri",
+      "deskripsi": "Barisan dengan rasio tetap antar suku",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Pengertian Barisan Geometri"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Barisan geometri** adalah barisan yang perbandingan antara dua suku berurutan selalu **tetap**. Perbandingan ini disebut **rasio** dan dilambangkan dengan $r$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "r = \\dfrac{U_2}{U_1} = \\dfrac{U_3}{U_2} = \\dfrac{U_n}{U_{n-1}}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: $2, 6, 18, 54, \\ldots$ memiliki rasio $r = 3$ karena setiap suku dikali $3$ dari suku sebelumnya."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Ciri-Ciri Barisan Geometri"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Perbandingan dua suku berurutan selalu sama",
+            "Jika $r > 1$ → barisan naik",
+            "Jika $0 < r < 1$ → barisan turun",
+            "Jika $r < 0$ → barisan bergantian tanda"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rumus Suku ke-n Barisan Geometri"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "U_n = a \\cdot r^{n-1}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Keterangan: $a$ = suku pertama, $r$ = rasio, $n$ = nomor suku."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Cara Menentukan Rasio"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "r = \\sqrt[m-n]{\\dfrac{U_m}{U_n}}"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Suku ke-n",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan suku ke-6 dari barisan $2, 6, 18, 54, \\ldots$" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Suku pertama $a = 2$, rasio $r = \\dfrac{6}{2} = 3$." },
+            { "tipe": "formula_block", "latex": "U_6 = 2 \\cdot 3^{6-1} = 2 \\cdot 3^5 = 2 \\cdot 243 = 486" },
+            { "tipe": "paragraph", "text": "Jadi suku ke-6 adalah $486$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Mencari Rasio",
+          "konten": [
+            { "tipe": "paragraph", "text": "Suku ke-2 barisan geometri adalah $6$ dan suku ke-5 adalah $162$. Tentukan rasio." },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "formula_block", "latex": "\\dfrac{U_5}{U_2} = r^{5-2} = r^3" },
+            { "tipe": "formula_block", "latex": "\\dfrac{162}{6} = 27 = r^3 \\Rightarrow r = 3" },
+            { "tipe": "paragraph", "text": "Jadi rasio $r = 3$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Soal Cerita (Pertumbuhan)",
+          "konten": [
+            { "tipe": "paragraph", "text": "Bakteri berkembang biak dengan membelah diri setiap 20 menit. Jika awalnya ada 5 bakteri, berapa banyak bakteri setelah 2 jam?" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "2 jam = 120 menit, jadi terjadi $\\dfrac{120}{20} = 6$ kali pembelahan. Setiap kali membelah, jumlahnya menjadi 2 kali." },
+            { "tipe": "paragraph", "text": "Barisan: $5, 10, 20, \\ldots$ → $a = 5$, $r = 2$, $n = 7$ (termasuk awal)." },
+            { "tipe": "formula_block", "latex": "U_7 = 5 \\cdot 2^{7-1} = 5 \\cdot 64 = 320" },
+            { "tipe": "paragraph", "text": "Jadi setelah 2 jam ada $320$ bakteri." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Barisan geometri: rasio antar suku selalu tetap",
+            "Rumus suku ke-n: $U_n = a \\cdot r^{n-1}$",
+            "Rasio: $r = \\dfrac{U_n}{U_{n-1}}$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-05",
+      "nomor": 5,
+      "judul": "Deret Geometri",
+      "deskripsi": "Jumlah suku-suku barisan geometri",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Pengertian Deret Geometri"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Deret geometri** adalah jumlah dari suku-suku barisan geometri."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rumus Jumlah n Suku Pertama"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Tergantung nilai rasio $r$, rumusnya berbeda:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S_n = \\dfrac{a(r^n - 1)}{r - 1}, \\quad \\text{untuk } r > 1"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S_n = \\dfrac{a(1 - r^n)}{1 - r}, \\quad \\text{untuk } r < 1"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Deret Geometri Tak Hingga"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika $|r| < 1$ dan $n \\to \\infty$, maka $r^n \\to 0$, sehingga:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S_\\infty = \\dfrac{a}{1 - r}, \\quad |r| < 1"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "**Penting:** Deret geometri tak hingga hanya konvergen (memiliki jumlah) jika $|r| < 1$."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Jumlah n Suku Pertama",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung jumlah 6 suku pertama dari deret $3 + 6 + 12 + \\cdots$" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Diketahui $a = 3$, $r = 2$, $n = 6$. Karena $r > 1$:" },
+            { "tipe": "formula_block", "latex": "S_6 = \\dfrac{3(2^6 - 1)}{2 - 1} = 3(64 - 1) = 3 \\cdot 63 = 189" },
+            { "tipe": "paragraph", "text": "Jadi jumlah 6 suku pertama adalah $189$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Deret Geometri Tak Hingga",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $S_\\infty$ dari $4 + 2 + 1 + \\dfrac{1}{2} + \\cdots$" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Diketahui $a = 4$, $r = \\dfrac{2}{4} = \\dfrac{1}{2}$. Karena $|r| < 1$:" },
+            { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{4}{1 - \\frac{1}{2}} = \\dfrac{4}{\\frac{1}{2}} = 8" },
+            { "tipe": "paragraph", "text": "Jadi jumlah tak hingganya adalah $8$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Soal Cerita (Bunga Majemuk)",
+          "konten": [
+            { "tipe": "paragraph", "text": "Uang Rp1.000.000 ditabung dengan bunga majemuk 10% per tahun. Berapa jumlah uang setelah 3 tahun?" },
+            { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+            { "tipe": "paragraph", "text": "Setiap tahun uang menjadi $1{,}1$ kali lipat. Barisan: $1.000.000, 1.100.000, 1.210.000, \\ldots$" },
+            { "tipe": "formula_block", "latex": "U_4 = 1.000.000 \\cdot (1{,}1)^3 = 1.000.000 \\cdot 1{,}331 = 1.331.000" },
+            { "tipe": "paragraph", "text": "Jadi setelah 3 tahun uang menjadi Rp1.331.000." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Deret geometri = jumlah suku barisan geometri",
+            "Rumus: $S_n = \\dfrac{a(r^n - 1)}{r - 1}$ untuk $r > 1$, atau $S_n = \\dfrac{a(1 - r^n)}{1 - r}$ untuk $r < 1$",
+            "Deret geometri tak hingga: $S_\\infty = \\dfrac{a}{1 - r}$ jika $|r| < 1$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-06",
+      "nomor": 6,
+      "judul": "Penerapan Barisan dan Deret",
+      "deskripsi": "Aplikasi dalam kehidupan sehari-hari",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Penerapan dalam Kehidupan Nyata"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Barisan dan deret bukan hanya teori di buku. Banyak fenomena nyata yang mengikuti pola aritmatika atau geometri."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Tabungan dan Bunga"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "**Bunga tunggal** → mengikuti barisan aritmatika",
+            "**Bunga majemuk** → mengikuti barisan geometri"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Bunga Tunggal",
+          "konten": [
+            { "tipe": "paragraph", "text": "Bu Ani menabung Rp2.000.000 dengan bunga tunggal 5% per tahun. Berapa tabungan setelah 4 tahun?" },
+            { "tipe": "paragraph", "text": "Bunga per tahun = $5\\% \\times 2.000.000 = 100.000$." },
+            { "tipe": "paragraph", "text": "Barisan: $2.000.000, 2.100.000, 2.200.000, \\ldots$ → $a = 2.000.000$, $b = 100.000$." },
+            { "tipe": "formula_block", "latex": "U_5 = 2.000.000 + (5-1) \\cdot 100.000 = 2.400.000" },
+            { "tipe": "paragraph", "text": "Jadi setelah 4 tahun tabungan menjadi Rp2.400.000." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Pertumbuhan dan Peluruhan"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "**Pertumbuhan** (populasi, bakteri): $M_n = M_0(1 + i)^n$",
+            "**Peluruhan** (radioaktif, penyusutan): $M_n = M_0(1 - i)^n$"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Peluruhan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Zat radioaktif 200 gram menyusut 10% setiap tahun. Berapa massa setelah 3 tahun?" },
+            { "tipe": "formula_block", "latex": "M_3 = 200(1 - 0{,}1)^3 = 200(0{,}9)^3 = 200 \\cdot 0{,}729 = 145{,}8 \\text{ gram}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Susunan Kursi / Bangku"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Gedung Pertunjukan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Baris pertama 20 kursi, setiap baris berikutnya bertambah 4 kursi. Jika ada 15 baris, berapa total kursi?" },
+            { "tipe": "formula_block", "latex": "S_{15} = \\dfrac{15}{2}(2 \\cdot 20 + 14 \\cdot 4) = 7{,}5(40 + 56) = 7{,}5 \\cdot 96 = 720" },
+            { "tipe": "paragraph", "text": "Jadi total ada $720$ kursi." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Mengerjakan Soal"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "**Baca soal teliti** — tentukan apakah aritmatika atau geometri",
+            "**Tulis yang diketahui** — $a$, $b$/$r$, $n$, atau $U_n$/$S_n$",
+            "**Pilih rumus yang tepat** — sesuaikan dengan yang ditanya",
+            "**Substitusi dan hitung** — hati-hati dengan operasi hitung",
+            "**Cek kembali** — pastikan jawaban masuk akal"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "**Aritmatika**: beda tetap → $U_n = a + (n-1)b$",
+            "**Geometri**: rasio tetap → $U_n = a \\cdot r^{n-1}$",
+            "**Deret aritmatika**: $S_n = \\dfrac{n}{2}(2a + (n-1)b)$",
+            "**Deret geometri**: $S_n = \\dfrac{a(r^n - 1)}{r - 1}$ atau $\\dfrac{a(1 - r^n)}{1 - r}$",
+            "**Tak hingga**: $S_\\infty = \\dfrac{a}{1 - r}$, syarat $|r| < 1$",
+            "Aplikasi: tabungan, pertumbuhan, peluruhan, susunan kursi"
+          ]
+        }
+      ]
+    }
+  ]
+}
