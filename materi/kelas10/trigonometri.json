@@ -18,16 +18,6 @@
           "text": "Apa Itu Sudut?"
         },
         {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/sudut.jpg",
-          "caption": "Ilustrasi putaran: 1/360, 1/4, 1/2, dan 1 putaran penuh",
-          "width": "full"
-        },
-        {
-          "tipe": "formula_block",
-          "latex": "180^\\circ = \\pi \\text{ radian}"
-        },
-        {
           "tipe": "paragraph",
           "text": "Sudut adalah daerah yang dibentuk oleh dua sinar garis yang bertemu di satu titik (titik sudut). Dalam trigonometri, kita sering mengukur sudut dalam dua satuan: **derajat** ($^\\circ$) dan **radian** (rad)."
         },
@@ -36,15 +26,19 @@
           "text": "Bayangkan kamu memutar sebuah jarum jam dari posisi 12 kembali ke 12. Putaran penuh itu besarnya $360^\\circ$ atau $2\\pi$ radian."
         },
         {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/sudut-derajat-radian.png",
-          "caption": "Satu putaran penuh = 360° = 2π radian",
-          "width": "medium"
-        },
-        {
           "tipe": "heading",
           "level": 3,
           "text": "Hubungan Derajat dan Radian"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sudut.jpg",
+          "caption": "Ilustrasi putaran: 1/360, 1/4, 1/2, dan 1 putaran penuh",
+          "width": "full"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perhatikan gambar di atas. Satu putaran penuh ($360^\\circ$) dapat dibagi menjadi bagian-bagian yang lebih kecil. Setengah putaran = $180^\\circ$, seperempat putaran = $90^\\circ$, dan seterusnya."
         },
         {
           "tipe": "formula_block",
@@ -145,12 +139,6 @@
           ]
         },
         {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/segitiga-siku-siku.png",
-          "caption": "Segitiga siku-siku dengan sisi depan, samping, dan miring",
-          "width": "medium"
-        },
-        {
           "tipe": "heading",
           "level": 2,
           "text": "Definisi Sin, Cos, Tan"
@@ -199,12 +187,6 @@
           "text": "Sudut $30^\\circ$, $45^\\circ$, dan $60^\\circ$ disebut sudut istimewa karena nilainya bisa dihitung dengan mudah tanpa kalkulator."
         },
         {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/sudut-istimewa.png",
-          "caption": "Tabel nilai sin, cos, tan untuk sudut istimewa",
-          "width": "full"
-        },
-        {
           "tipe": "heading",
           "level": 3,
           "text": "Tabel Nilai Sudut Istimewa"
@@ -243,7 +225,6 @@
           "judul": "Contoh 3: Soal Cerita — Tinggi Pohon",
           "konten": [
             { "tipe": "paragraph", "text": "Seorang siswa berdiri 12 meter dari pohon. Ia melihat puncak pohon dengan sudut elevasi $60^\\circ$. Berapa tinggi pohon tersebut?" },
-            { "tipe": "image", "src": "images/kelas10/trigonometri/contoh-tinggi-pohon.png", "caption": "Ilustrasi soal tinggi pohon", "width": "medium" },
             { "tipe": "paragraph", "text": "**Penyelesaian:**" },
             { "tipe": "paragraph", "text": "Jarak siswa ke pohon = sisi samping = 12 m. Tinggi pohon = sisi depan." },
             { "tipe": "formula_block", "latex": "\\tan 60^\\circ = \\dfrac{t}{12} \\Rightarrow t = 12 \\cdot \\sqrt{3} \\approx 20{,}78 \\text{ m}" },
@@ -283,12 +264,6 @@
           "text": "Untuk memahami sudut yang lebih besar dari $90^\\circ$, kita gunakan **lingkaran satuan** — lingkaran berjari-jari 1 yang berpusat di titik asal $(0,0)$."
         },
         {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/lingkaran-satuan.png",
-          "caption": "Lingkaran satuan dengan koordinat (cos θ, sin θ)",
-          "width": "medium"
-        },
-        {
           "tipe": "paragraph",
           "text": "Jika sudut $\\theta$ diukur dari sumbu X positif berlawanan arah jarum jam, maka titik pada lingkaran memiliki koordinat $(\\cos\\theta, \\sin\\theta)$."
         },
@@ -310,12 +285,6 @@
             "**Kuadran III** ($180^\\circ - 270^\\circ$): hanya tan yang positif",
             "**Kuadran IV** ($270^\\circ - 360^\\circ$): hanya cos yang positif"
           ]
-        },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/kuadran-tanda.png",
-          "caption": "Tanda sin, cos, tan di setiap kuadran — \"All-Sin-Tan-Cos\"",
-          "width": "medium"
         },
         {
           "tipe": "paragraph",
@@ -418,12 +387,6 @@
         {
           "tipe": "formula_block",
           "latex": "\\sin^2 \\theta + \\cos^2 \\theta = 1"
-        },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/identitas-trigonometri.png",
-          "caption": "Visualisasi identitas sin²θ + cos²θ = 1 pada lingkaran satuan",
-          "width": "medium"
         },
         {
           "tipe": "paragraph",
@@ -543,12 +506,6 @@
           ]
         },
         {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/grafik-sin-cos.png",
-          "caption": "Grafik y = sin x dan y = cos x pada interval 0° sampai 360°",
-          "width": "full"
-        },
-        {
           "tipe": "heading",
           "level": 3,
           "text": "Perbedaan Grafik Sin dan Cos"
@@ -644,12 +601,6 @@
         {
           "tipe": "paragraph",
           "text": "Untuk segitiga siku-siku, kita pakai sin, cos, tan. Tapi bagaimana kalau segitiganya **sembarang** (tidak siku-siku)? Kita gunakan **aturan sinus** dan **aturan cosinus**."
-        },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/segitiga-aturan-sinus.png",
-          "caption": "Segitiga ABC dengan sisi a, b, c dan sudut A, B, C",
-          "width": "medium"
         },
         {
           "tipe": "paragraph",
