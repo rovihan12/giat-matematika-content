@@ -3,7 +3,7 @@
   "kategori": "Trigonometri",
   "emoji": "📈",
   "warna": "#9C27B0",
-  "versi": "1.0.1",
+  "versi": "1.0.2",
   "bab": [
     {
       "id": "10-trig-bab-01",
@@ -279,12 +279,12 @@
         {
           "tipe": "image",
           "src": "images/kelas10/trigonometri/lingkaran-satuan.png",
-          "caption": "Lingkaran satuan dengan koordinat (cos θ, sin θ)",
+          "caption": "Lingkaran satuan berjari-jari 1: titik P(cos θ, sin θ) dengan proyeksi cos θ pada sumbu X dan sin θ pada sumbu Y",
           "width": "medium"
         },
         {
           "tipe": "paragraph",
-          "text": "Jika sudut $\\theta$ diukur dari sumbu X positif berlawanan arah jarum jam, maka titik pada lingkaran memiliki koordinat $(\\cos\\theta, \\sin\\theta)$."
+          "text": "Perhatikan gambar di atas. Jika sudut $\\theta$ diukur dari sumbu X positif berlawanan arah jarum jam, maka titik P pada lingkaran memiliki koordinat $(\\cos\\theta, \\sin\\theta)$. Proyeksi ke sumbu X adalah $\\cos\\theta$, dan proyeksi ke sumbu Y adalah $\\sin\\theta$."
         },
         {
           "tipe": "heading",
