@@ -1,1 +1,709 @@
-
+{
+  "kelas": 10,
+  "kategori": "Peluang",
+  "emoji": "🎲",
+  "warna": "#FF6B1A",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "10-plg-bab-01",
+      "nomor": 1,
+      "judul": "Ruang Sampel dan Kejadian",
+      "deskripsi": "Konsep dasar percobaan, ruang sampel, dan titik sampel",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Percobaan?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dalam statistika dan peluang, <b>percobaan</b> adalah kegiatan yang dilakukan untuk mengamati hasil tertentu. Contohnya: melempar koin, melempar dadu, atau mengambil bola dari kotak."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Setiap percobaan punya <b>hasil</b> yang bisa bermacam-macam. Nah, kumpulan semua hasil yang mungkin inilah yang disebut <b>ruang sampel</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Istilah Penting"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Percobaan</b> — kegiatan yang menghasilkan hasil tertentu (mis. melempar dadu)",
+            "<b>Titik sampel</b> — satu hasil tunggal dari percobaan (mis. muncul angka 3)",
+            "<b>Ruang sampel ($S$)</b> — himpunan semua titik sampel yang mungkin",
+            "<b>Kejadian ($A$)</b> — himpunan bagian dari ruang sampel (mis. muncul angka genap)"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Notasi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$S$ = ruang sampel",
+            "$n(S)$ = banyaknya titik sampel di ruang sampel",
+            "$A$ = kejadian yang diamati",
+            "$n(A)$ = banyaknya titik sampel di kejadian $A$"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Contoh Ruang Sampel"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Melempar Satu Koin"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Hasilnya hanya <b>Angka (A)</b> atau <b>Gambar (G)</b>." },
+        {
+          "tipe": "formula_block",
+          "latex": "S = \\{A, G\\}, \\quad n(S) = 2"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Melempar Satu Dadu"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Hasilnya angka 1 sampai 6." },
+        {
+          "tipe": "formula_block",
+          "latex": "S = \\{1, 2, 3, 4, 5, 6\\}, \\quad n(S) = 6"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Melempar Dua Koin Sekaligus"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Setiap koin punya 2 kemungkinan, jadi total $2 \\times 2 = 4$ kemungkinan:" },
+        {
+          "tipe": "formula_block",
+          "latex": "S = \\{AA, AG, GA, GG\\}, \\quad n(S) = 4"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Melempar Dua Dadu Sekaligus"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Setiap dadu punya 6 kemungkinan, jadi total $6 \\times 6 = 36$ kemungkinan. Ruang sampelnya bisa ditulis sebagai tabel:" },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/peluang/ruang-sampel-dua-dadu.png",
+          "caption": "Tabel ruang sampel pelemparan dua dadu — total 36 titik sampel. Baris = dadu pertama, kolom = dadu kedua",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Menentukan Ruang Sampel",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah kantong berisi 3 bola berwarna Merah (M), Kuning (K), dan Hijau (H). Jika diambil satu bola, tentukan ruang sampel dan $n(S)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Bola yang mungkin terambil: M, K, atau H." },
+            { "tipe": "formula_block", "latex": "S = \\{M, K, H\\}, \\quad n(S) = 3" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Ruang sampel</b> = himpunan semua hasil yang mungkin",
+            "<b>Titik sampel</b> = satu hasil tunggal",
+            "<b>Kejadian</b> = himpunan bagian dari ruang sampel",
+            "Notasi: $S$ = ruang sampel, $n(S)$ = banyak titik sampel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-02",
+      "nomor": 2,
+      "judul": "Peluang Suatu Kejadian",
+      "deskripsi": "Menghitung peluang dengan pendekatan klasik",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Definisi Peluang"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Peluang</b> (probabilitas) adalah ukuran seberapa besar kemungkinan suatu kejadian terjadi. Nilainya selalu antara <b>0 dan 1</b>." },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A) = \\dfrac{n(A)}{n(S)}"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$P(A)$ = peluang kejadian $A$",
+            "$n(A)$ = banyak titik sampel kejadian $A$",
+            "$n(S)$ = banyak titik sampel ruang sampel"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Rentang Nilai Peluang"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "0 \\leq P(A) \\leq 1"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$P(A) = 0$ → kejadian <b>mustahil</b> terjadi",
+            "$P(A) = 1$ → kejadian <b>pasti</b> terjadi",
+            "$P(A) = 0{,}5$ → kejadian <b>seimbang</b> (mis. lempar koin)"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Peluang Komplemen"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Komplemen kejadian $A$ (ditulis $A'$ atau $A^c$) adalah kejadian <b>selain</b> $A$. Hubungannya:" },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A') = 1 - P(A)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ini sangat berguna kalau menghitung $P(A')$ lebih mudah daripada $P(A)$." },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Peluang Dadu",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Berapa peluang muncul angka prima?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Ruang sampel: $S = \\{1, 2, 3, 4, 5, 6\\}$, jadi $n(S) = 6$." },
+            { "tipe": "paragraph", "text": "Angka prima pada dadu: 2, 3, 5. Jadi $A = \\{2, 3, 5\\}$, $n(A) = 3$." },
+            { "tipe": "formula_block", "latex": "P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Peluang Kelereng",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah kantong berisi 5 kelereng merah, 3 kelereng biru, dan 2 kelereng hijau. Jika diambil satu kelereng secara acak, berapa peluang terambil kelereng biru?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Total kelereng: $n(S) = 5 + 3 + 2 = 10$." },
+            { "tipe": "paragraph", "text": "Kelereng biru: $n(A) = 3$." },
+            { "tipe": "formula_block", "latex": "P(A) = \\dfrac{3}{10} = 0{,}3" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Komplemen",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Berapa peluang muncul <b>bukan</b> angka 6?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Peluang muncul angka 6: $P(\\text{6}) = \\dfrac{1}{6}$." },
+            { "tipe": "paragraph", "text": "Peluang bukan 6:" },
+            { "tipe": "formula_block", "latex": "P(\\text{bukan 6}) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Frekuensi Harapan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau percobaan dilakukan $n$ kali, banyaknya kejadian $A$ yang diharapkan muncul disebut <b>frekuensi harapan</b>." },
+        {
+          "tipe": "formula_block",
+          "latex": "F_h(A) = n \\times P(A)"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 4: Frekuensi Harapan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah dadu dilempar 120 kali. Berapa frekuensi harapan muncul angka ganjil?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Angka ganjil: 1, 3, 5 → $n(A) = 3$, $P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}$." },
+            { "tipe": "formula_block", "latex": "F_h = 120 \\times \\dfrac{1}{2} = 60" },
+            { "tipe": "paragraph", "text": "Jadi diharapkan muncul angka ganjil sebanyak <b>60 kali</b>." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Peluang: $P(A) = \\dfrac{n(A)}{n(S)}$",
+            "Nilai peluang selalu $0 \\leq P(A) \\leq 1$",
+            "Komplemen: $P(A') = 1 - P(A)$",
+            "Frekuensi harapan: $F_h(A) = n \\times P(A)$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-03",
+      "nomor": 3,
+      "judul": "Kejadian Majemuk: Gabungan",
+      "deskripsi": "Peluang kejadian A atau B (union)",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kejadian Saling Lepas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua kejadian $A$ dan $B$ disebut <b>saling lepas</b> jika keduanya <b>tidak bisa terjadi bersamaan</b>. Artinya, $A \\cap B = \\emptyset$." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/peluang/saling-lepas.png",
+          "caption": "Diagram Venn dua kejadian saling lepas — tidak ada irisan antara $A$ dan $B$",
+          "width": "medium"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: pada pelemparan dadu, kejadian \"muncul angka 1\" dan \"muncul angka 6\" saling lepas karena tidak mungkin muncul keduanya sekaligus." },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A \\cup B) = P(A) + P(B)"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kejadian Tidak Saling Lepas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $A$ dan $B$ <b>bisa terjadi bersamaan</b>, maka ada irisan $A \\cap B$. Rumusnya:" },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/peluang/tidak-saling-lepas.png",
+          "caption": "Diagram Venn dua kejadian tidak saling lepas — ada irisan antara $A$ dan $B$",
+          "width": "medium"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kenapa dikurangi? Karena irisan $A \\cap B$ terhitung <b>dua kali</b> (sekali di $P(A)$, sekali di $P(B)$), jadi perlu dikurangi sekali." },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Saling Lepas",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Berapa peluang muncul angka 2 atau angka 5?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kejadian \"muncul 2\" dan \"muncul 5\" saling lepas." },
+            { "tipe": "formula_block", "latex": "P(2 \\cup 5) = P(2) + P(5) = \\dfrac{1}{6} + \\dfrac{1}{6} = \\dfrac{2}{6} = \\dfrac{1}{3}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Tidak Saling Lepas",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Berapa peluang muncul angka prima atau angka genap?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Angka prima: $A = \\{2, 3, 5\\}$, $P(A) = \\dfrac{3}{6}$." },
+            { "tipe": "paragraph", "text": "Angka genap: $B = \\{2, 4, 6\\}$, $P(B) = \\dfrac{3}{6}$." },
+            { "tipe": "paragraph", "text": "Irisan: $A \\cap B = \\{2\\}$, $P(A \\cap B) = \\dfrac{1}{6}$." },
+            { "tipe": "formula_block", "latex": "P(A \\cup B) = \\dfrac{3}{6} + \\dfrac{3}{6} - \\dfrac{1}{6} = \\dfrac{5}{6}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Kartu Bridge",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dari satu set kartu bridge (52 kartu), diambil satu kartu acak. Berapa peluang terambil kartu As atau kartu hati (heart)?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kartu As ada 4: $P(A) = \\dfrac{4}{52}$." },
+            { "tipe": "paragraph", "text": "Kartu hati ada 13: $P(H) = \\dfrac{13}{52}$." },
+            { "tipe": "paragraph", "text": "As hati ada 1: $P(A \\cap H) = \\dfrac{1}{52}$." },
+            { "tipe": "formula_block", "latex": "P(A \\cup H) = \\dfrac{4}{52} + \\dfrac{13}{52} - \\dfrac{1}{52} = \\dfrac{16}{52} = \\dfrac{4}{13}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Saling lepas: $P(A \\cup B) = P(A) + P(B)$",
+            "Tidak saling lepas: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$",
+            "Cek dulu apakah $A$ dan $B$ bisa terjadi bersamaan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-04",
+      "nomor": 4,
+      "judul": "Kejadian Majemuk: Irisan (Saling Bebas)",
+      "deskripsi": "Peluang kejadian A dan B (intersection)",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kejadian Saling Bebas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua kejadian $A$ dan $B$ disebut <b>saling bebas</b> (independen) jika terjadinya salah satu <b>tidak mempengaruhi</b> peluang yang lain." },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: melempar dua koin berbeda. Hasil koin pertama tidak mempengaruhi koin kedua." },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A \\cap B) = P(A) \\times P(B)"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Cara Cek Saling Bebas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua kejadian saling bebas jika dan hanya jika:" },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A \\cap B) = P(A) \\times P(B)"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kejadian Tidak Saling Bebas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $A$ mempengaruhi $B$, kita pakai <b>peluang bersyarat</b>:" },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A \\cap B) = P(A) \\times P(B | A)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "$P(B|A)$ dibaca \"peluang $B$ terjadi, jika diketahui $A$ sudah terjadi\"." },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Dua Koin",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dua koin dilempar bersamaan. Berapa peluang keduanya muncul Gambar (G)?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kejadian saling bebas (koin 1 tidak mempengaruhi koin 2)." },
+            { "tipe": "formula_block", "latex": "P(G_1 \\cap G_2) = P(G_1) \\times P(G_2) = \\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Dua Dadu",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dua dadu dilempar bersamaan. Berapa peluang muncul angka 3 pada dadu pertama dan angka 5 pada dadu kedua?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "P(3_1 \\cap 5_2) = \\dfrac{1}{6} \\times \\dfrac{1}{6} = \\dfrac{1}{36}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Lampu Rusak",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah kotak berisi 10 lampu, 3 di antaranya rusak. Jika diambil 2 lampu satu per satu <b>tanpa pengembalian</b>, berapa peluang keduanya rusak?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kejadian <b>tidak saling bebas</b> karena setelah mengambil lampu pertama, jumlah total berkurang." },
+            { "tipe": "paragraph", "text": "Peluang lampu pertama rusak: $P(A) = \\dfrac{3}{10}$." },
+            { "tipe": "paragraph", "text": "Setelah 1 lampu rusak diambil, sisa 2 rusak dari 9 lampu: $P(B|A) = \\dfrac{2}{9}$." },
+            { "tipe": "formula_block", "latex": "P(A \\cap B) = \\dfrac{3}{10} \\times \\dfrac{2}{9} = \\dfrac{6}{90} = \\dfrac{1}{15}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Saling bebas: $P(A \\cap B) = P(A) \\times P(B)$",
+            "Tidak saling bebas: $P(A \\cap B) = P(A) \\times P(B|A)$",
+            "Cek dulu: apakah kejadian pertama mempengaruhi yang kedua?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-05",
+      "nomor": 5,
+      "judul": "Permutasi dan Kombinasi",
+      "deskripsi": "Menghitung banyak susunan dan pilihan",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Aturan Perkalian"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau suatu kejadian punya $m$ cara dan kejadian lain punya $n$ cara, maka total cara melakukan keduanya adalah $m \\times n$." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\text{Total cara} = m \\times n"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Notasi Faktorial"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Faktorial dari bilangan bulat positif $n$ (ditulis $n!$) adalah hasil kali $n$ dengan semua bilangan bulat positif di bawahnya." },
+        {
+          "tipe": "formula_block",
+          "latex": "n! = n \\times (n-1) \\times (n-2) \\times \\cdots \\times 1"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$. Dan $0! = 1$ (sudah didefinisikan)." },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Permutasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Permutasi</b> adalah susunan objek dengan <b>memperhatikan urutan</b>. Contoh: susunan juara 1, 2, 3 — (A, B, C) berbeda dengan (B, A, C)." },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Rumus Permutasi $n$ Objek dari $r$ Pilihan"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "P(n, r) = \\dfrac{n!}{(n-r)!}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Permutasi dengan Unsur Sama"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau ada objek yang sama, bagi dengan faktorial jumlah objek yang sama." },
+        {
+          "tipe": "formula_block",
+          "latex": "P = \\dfrac{n!}{k_1! \\cdot k_2! \\cdots k_m!}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: banyak susunan huruf dari \"BUKU\" (ada 2 huruf U):" },
+        {
+          "tipe": "formula_block",
+          "latex": "P = \\dfrac{4!}{2!} = \\dfrac{24}{2} = 12"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Permutasi Siklis (Melingkar)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau objek disusun melingkar, rumusnya berbeda:" },
+        {
+          "tipe": "formula_block",
+          "latex": "P_{\\text{siklis}} = (n - 1)!"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kombinasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Kombinasi</b> adalah pemilihan objek <b>tanpa memperhatikan urutan</b>. Contoh: memilih 3 orang dari 5 untuk jadi tim — (A, B, C) sama saja dengan (B, A, C)." },
+        {
+          "tipe": "formula_block",
+          "latex": "C(n, r) = \\dfrac{n!}{r! (n-r)!}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Perbedaan Permutasi vs Kombinasi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Permutasi</b> — urutan <b>penting</b> (mis. susunan juara, password, urutan duduk)",
+            "<b>Kombinasi</b> — urutan <b>tidak penting</b> (mis. memilih tim, memilih menu, memilih angka lotre)"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Permutasi Sederhana",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dari 5 siswa akan dipilih 3 untuk menjadi Ketua, Sekretaris, dan Bendahara. Berapa banyak susunan yang mungkin?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Urutan penting (jabatan berbeda), maka gunakan permutasi." },
+            { "tipe": "formula_block", "latex": "P(5, 3) = \\dfrac{5!}{(5-3)!} = \\dfrac{5!}{2!} = \\dfrac{120}{2} = 60" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Kombinasi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dari 7 siswa akan dipilih 3 untuk mengikuti lomba. Berapa banyak cara memilihnya?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Urutan tidak penting, gunakan kombinasi." },
+            { "tipe": "formula_block", "latex": "C(7, 3) = \\dfrac{7!}{3! \\cdot 4!} = \\dfrac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Permutasi Siklis",
+          "konten": [
+            { "tipe": "paragraph", "text": "5 orang akan duduk melingkar. Berapa banyak susunan duduk yang mungkin?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "P_{\\text{siklis}} = (5-1)! = 4! = 24" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Faktorial: $n! = n \\times (n-1) \\times \\cdots \\times 1$",
+            "Permutasi (urutan penting): $P(n, r) = \\dfrac{n!}{(n-r)!}$",
+            "Kombinasi (urutan tidak penting): $C(n, r) = \\dfrac{n!}{r!(n-r)!}$",
+            "Permutasi siklis: $(n-1)!$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-06",
+      "nomor": 6,
+      "judul": "Peluang Kejadian Majemuk Kompleks",
+      "deskripsi": "Menggabungkan konsep peluang, permutasi, dan kombinasi",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Peluang dengan Kombinasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sering kali menghitung $n(S)$ dan $n(A)$ lebih mudah dengan <b>kombinasi</b> — khususnya ketika kita mengambil beberapa objek sekaligus tanpa memperhatikan urutan." },
+        {
+          "tipe": "formula_block",
+          "latex": "P(A) = \\dfrac{C(n_A, r_A)}{C(n_S, r_S)}"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Peluang Kejadian Bersyarat"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $B$ hanya terjadi <b>setelah</b> $A$ terjadi, kita gunakan rumus:" },
+        {
+          "tipe": "formula_block",
+          "latex": "P(B|A) = \\dfrac{P(A \\cap B)}{P(A)}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Rumus ini penting untuk soal bertingkat, misal \"ambil bola dua kali tanpa pengembalian\"." },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Ambil Bola dengan Kombinasi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah kotak berisi 4 bola merah dan 6 bola biru. Diambil 3 bola sekaligus. Berapa peluang terambil 2 merah dan 1 biru?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Total cara ambil 3 dari 10: $n(S) = C(10, 3) = 120$." },
+            { "tipe": "paragraph", "text": "Cara ambil 2 merah dari 4: $C(4, 2) = 6$." },
+            { "tipe": "paragraph", "text": "Cara ambil 1 biru dari 6: $C(6, 1) = 6$." },
+            { "tipe": "paragraph", "text": "Total cara ambil 2 merah + 1 biru: $n(A) = 6 \\times 6 = 36$." },
+            { "tipe": "formula_block", "latex": "P(A) = \\dfrac{36}{120} = \\dfrac{3}{10}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Bersyarat",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dari 20 siswa, 12 suka matematika, 8 suka fisika, dan 5 suka keduanya. Jika dipilih satu siswa secara acak, berapa peluang siswa itu suka matematika jika diketahui suka fisika?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Misal $M$ = suka matematika, $F$ = suka fisika." },
+            { "tipe": "formula_block", "latex": "P(M|F) = \\dfrac{P(M \\cap F)}{P(F)}" },
+            { "tipe": "formula_block", "latex": "P(M \\cap F) = \\dfrac{5}{20} = \\dfrac{1}{4}, \\quad P(F) = \\dfrac{8}{20} = \\dfrac{2}{5}" },
+            { "tipe": "formula_block", "latex": "P(M|F) = \\dfrac{1/4}{2/5} = \\dfrac{1}{4} \\times \\dfrac{5}{2} = \\dfrac{5}{8}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Peluang Bertingkat",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah kantong berisi 5 bola merah dan 3 bola putih. Diambil 2 bola satu per satu tanpa pengembalian. Berapa peluang bola pertama merah dan bola kedua putih?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Peluang bola pertama merah: $P(M_1) = \\dfrac{5}{8}$." },
+            { "tipe": "paragraph", "text": "Setelah 1 merah diambil, sisa 4 merah, 3 putih dari 7 bola: $P(P_2|M_1) = \\dfrac{3}{7}$." },
+            { "tipe": "formula_block", "latex": "P(M_1 \\cap P_2) = \\dfrac{5}{8} \\times \\dfrac{3}{7} = \\dfrac{15}{56}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Peluang dengan kombinasi: bandingkan $C(n_A, r_A)$ dengan $C(n_S, r_S)$",
+            "Peluang bersyarat: $P(B|A) = \\dfrac{P(A \\cap B)}{P(A)}$",
+            "Untuk kejadian bertingkat tanpa pengembalian, hitung peluang tiap tahap lalu kalikan"
+          ]
+        }
+      ]
+    }
+  ]
+}
