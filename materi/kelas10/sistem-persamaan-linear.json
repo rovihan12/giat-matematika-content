@@ -3,7 +3,7 @@
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
   "emoji": "🔷",
   "warna": "#FF9800",
-  "versi": "1.0.1",
+  "versi": "1.0.2",
   "bab": [
     {
       "id": "10-spl-bab-01",
@@ -531,9 +531,22 @@
           "items": [
             "Ubah pertidaksamaan menjadi persamaan (ganti $\\leq$ atau $\\geq$ dengan $=$)",
             "Gambar garis pada bidang kartesius — cari titik potong sumbu X dan sumbu Y",
-            "Tentukan <b>daerah</b> yang memenuhi: ambil <b>titik uji</b> (biasanya $(0,0)$)",
-            "Jika titik uji memenuhi → arsir daerah yang memuat titik uji; kalau tidak → arsir daerah sebaliknya"
+            "Pilih <b>titik uji</b> di luar garis (biasanya titik yang mudah, mis. $(0,0)$ atau $(1,1)$)",
+            "Substitusi titik uji ke pertidaksamaan: jika memenuhi → arsir daerah yang memuat titik uji; kalau tidak → arsir daerah sebaliknya"
           ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Apa Itu Titik Uji?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Titik uji</b> adalah titik sembarang yang kita pakai untuk mengecek di mana letak daerah penyelesaian. Kita <b>bebas memilih titik mana saja</b> yang tidak terletak tepat di garis batas — yang penting bisa dihitung dengan mudah. Titik $(0,0)$ sering dipilih karena paling simpel, tapi titik lain seperti $(1,1)$ juga sah."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Yang penting: hasil uji di <b>satu titik</b> berlaku untuk <b>seluruh daerah</b> di sisi yang sama. Jadi kita tidak perlu menguji semua titik — cukup satu saja."
         },
         {
           "tipe": "heading",
@@ -551,19 +564,20 @@
         {
           "tipe": "image",
           "src": "images/kelas10/sistem-persamaan-linear/sptldv-daerah.png",
-          "caption": "Contoh daerah penyelesaian sistem pertidaksamaan: $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$. Titik uji $(1, 1)$ memenuhi karena $1 + 1 = 2 \\leq 4$",
+          "caption": "Contoh daerah penyelesaian sistem pertidaksamaan: $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$. Titik uji $(1, 1)$ dipilih untuk pengecekan karena $1 + 1 = 2 \\leq 4$ ✓",
           "width": "full"
         },
         {
           "tipe": "example",
-          "judul": "Contoh 1: Dua Pertidaksamaan",
+          "judul": "Contoh 1: Titik Uji (1,1)",
           "konten": [
-            { "tipe": "paragraph", "text": "Tentukan daerah penyelesaian dari $x + y \\leq 4$ dan $x \\geq 0$." },
+            { "tipe": "paragraph", "text": "Tentukan daerah penyelesaian dari $x + y \\leq 4$, $x \\geq 0$, dan $y \\geq 0$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Garis $x + y = 4$ memotong sumbu X di $(4,0)$ dan sumbu Y di $(0,4)$." },
-            { "tipe": "paragraph", "text": "Uji titik $(0,0)$: $0 + 0 = 0 \\leq 4$ ✓ (memenuhi)." },
-            { "tipe": "paragraph", "text": "Jadi daerah yang memuat $(0,0)$ adalah solusi dari pertidaksamaan pertama." },
-            { "tipe": "paragraph", "text": "Ditambah $x \\geq 0$ (sisi kanan sumbu Y)." },
+            { "tipe": "paragraph", "text": "Pilih titik uji $(1, 1)$ — bukan $(0,0)$ karena kita ingin menunjukkan bahwa titik uji bisa di mana saja. Substitusi ke $x + y \\leq 4$:" },
+            { "tipe": "formula_block", "latex": "1 + 1 = 2 \\leq 4 \\quad \\checkmark" },
+            { "tipe": "paragraph", "text": "Karena $(1,1)$ memenuhi, maka daerah yang memuat $(1,1)$ adalah daerah penyelesaian." },
+            { "tipe": "paragraph", "text": "Ditambah kendala $x \\geq 0$ dan $y \\geq 0$ (kuadran I)." },
             { "tipe": "paragraph", "text": "Daerah penyelesaian = segitiga di kuadran I dengan titik sudut $(0,0)$, $(4,0)$, $(0,4)$." }
           ]
         },
@@ -588,7 +602,7 @@
           "ordered": false,
           "items": [
             "SPtLDV solusinya berupa <b>daerah</b>, bukan titik",
-            "Gambar setiap garis, lalu uji dengan titik uji",
+            "<b>Titik uji</b> dipilih sembarang (yang mudah dihitung) untuk menentukan sisi daerah penyelesaian",
             "Garis penuh untuk $\\leq, \\geq$; garis putus untuk $<, >$",
             "Sering digunakan dalam <b>program linear</b> (optimasi)"
           ]
