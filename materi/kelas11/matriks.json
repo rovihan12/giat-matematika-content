@@ -1,0 +1,900 @@
+{
+  "kelas": 11,
+  "kategori": "Matriks",
+  "emoji": "🔢",
+  "warna": "#9C27B0",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "11-mat-bab-01",
+      "nomor": 1,
+      "judul": "Pengertian dan Notasi Matriks",
+      "deskripsi": "Definisi, ordo, dan jenis-jenis matriks",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Matriks?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Matriks</b> adalah susunan bilangan dalam bentuk <b>baris dan kolom</b> yang membentuk persegi panjang, diapit oleh tanda kurung. Bilangan-bilangan di dalamnya disebut <b>elemen</b> atau <b>unsur</b> matriks."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh sederhana: nilai ulangan 4 siswa untuk 3 mata pelajaran bisa disusun sebagai matriks. Setiap baris = 1 siswa, setiap kolom = 1 mata pelajaran."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Notasi Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks biasanya ditulis dengan huruf kapital, dan elemennya dengan huruf kecil disertai indeks baris-kolom."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A = \\begin{pmatrix} a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Elemen $a_{ij}$ berarti elemen di <b>baris ke-$i$</b> dan <b>kolom ke-$j$</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Ordo Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Ordo</b> matriks menunjukkan ukuran: <b>jumlah baris × jumlah kolom</b>."
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Matriks $A$ di atas berordo $2 \\times 3$ — 2 baris, 3 kolom",
+            "Ordo selalu ditulis <b>baris dulu, kolom kemudian</b>",
+            "Total elemen = baris × kolom"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Jenis-Jenis Matriks"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Matriks Baris"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks yang hanya terdiri dari 1 baris. Ordo: $1 \\times n$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A = \\begin{pmatrix} 1 & 2 & 3 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Matriks Kolom"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks yang hanya terdiri dari 1 kolom. Ordo: $m \\times 1$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "B = \\begin{pmatrix} 4 \\\\ 5 \\\\ 6 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Matriks Persegi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks dengan jumlah baris = jumlah kolom. Ordo: $n \\times n$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "C = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Matriks Diagonal"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks persegi dengan elemen di luar diagonal utama = 0."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "D = \\begin{pmatrix} 3 & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 7 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "5. Matriks Identitas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks diagonal dengan semua elemen diagonal utama = 1. Dilambangkan $I$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "6. Matriks Nol"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Semua elemennya 0. Dilambangkan $O$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "O = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "7. Matriks Transpose"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks yang diperoleh dengan menukar baris dan kolom. Dilambangkan $A^T$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\Rightarrow A^T = \\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kesamaan Dua Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua matriks dikatakan <b>sama</b> jika:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Ordo keduanya sama",
+            "Setiap elemen yang bersesuaian sama nilainya"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Kesamaan Matriks",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $\\begin{pmatrix} x + 1 & 3 \\\\ 4 & 2y \\end{pmatrix} = \\begin{pmatrix} 5 & 3 \\\\ 4 & 6 \\end{pmatrix}$. Tentukan $x$ dan $y$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Karena matriks sama, elemen yang bersesuaian harus sama:" },
+            { "tipe": "list", "ordered": false, "items": [
+              "Kiri atas: $x + 1 = 5 \\Rightarrow x = 4$",
+              "Kanan bawah: $2y = 6 \\Rightarrow y = 3$"
+            ]},
+            { "tipe": "paragraph", "text": "Jadi $x = 4$ dan $y = 3$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Matriks = susunan bilangan dalam baris & kolom",
+            "Ordo = baris × kolom",
+            "Jenis matriks: baris, kolom, persegi, diagonal, identitas, nol, transpose",
+            "Dua matriks sama jika ordo sama & semua elemen sama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mat-bab-02",
+      "nomor": 2,
+      "judul": "Operasi pada Matriks",
+      "deskripsi": "Penjumlahan, pengurangan, dan perkalian matriks",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Penjumlahan dan Pengurangan Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua matriks bisa dijumlahkan atau dikurangkan hanya jika <b>ordonya sama</b>. Caranya: jumlahkan/kurangkan elemen yang bersesuaian."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} + \\begin{pmatrix} e & f \\\\ g & h \\end{pmatrix} = \\begin{pmatrix} a+e & b+f \\\\ c+g & d+h \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Sifat Penjumlahan Matriks"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Komutatif</b>: $A + B = B + A$",
+            "<b>Asosiatif</b>: $(A + B) + C = A + (B + C)$",
+            "Punya elemen identitas: $A + O = A$",
+            "Punya invers penjumlahan: $A + (-A) = O$"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Perkalian Matriks dengan Skalar"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Skalar adalah konstanta (angka tunggal). Kalikan skalar dengan <b>setiap elemen</b> matriks."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "k \\cdot \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} ka & kb \\\\ kc & kd \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Perkalian Dua Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perkalian dua matriks $A \\cdot B$ hanya bisa dilakukan jika <b>jumlah kolom $A$ = jumlah baris $B$</b>."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ordo hasil: (baris $A$) × (kolom $B$)."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Cara Menghitung"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Elemen hasil di posisi $(i, j)$ = jumlah perkalian baris ke-$i$ dari $A$ dengan kolom ke-$j$ dari $B$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} e & f \\\\ g & h \\end{pmatrix} = \\begin{pmatrix} ae+bg & af+bh \\\\ ce+dg & cf+dh \\end{pmatrix}"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matriks/perkalian-matriks.png",
+          "caption": "Ilustrasi perkalian matriks — baris × kolom: elemen hasil $(i, j)$ = jumlah dari perkalian elemen baris $i$ matriks pertama dengan elemen kolom $j$ matriks kedua",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Sifat Perkalian Matriks"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Asosiatif</b>: $(AB)C = A(BC)$",
+            "<b>Distributif</b>: $A(B + C) = AB + AC$",
+            "❌ <b>Tidak komutatif</b>: $AB \\neq BA$ secara umum",
+            "$AI = IA = A$ (matriks identitas sebagai identitas perkalian)"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Penjumlahan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix}$. Hitung $A + B$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "A + B = \\begin{pmatrix} 1+5 & 2+6 \\\\ 3+7 & 4+8 \\end{pmatrix} = \\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Perkalian Skalar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $3A$ jika $A = \\begin{pmatrix} 2 & -1 \\\\ 0 & 4 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "3A = \\begin{pmatrix} 3(2) & 3(-1) \\\\ 3(0) & 3(4) \\end{pmatrix} = \\begin{pmatrix} 6 & -3 \\\\ 0 & 12 \\end{pmatrix}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Perkalian Matriks",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $AB$ jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Elemen $(1,1)$: $1(5) + 2(7) = 5 + 14 = 19$." },
+            { "tipe": "paragraph", "text": "Elemen $(1,2)$: $1(6) + 2(8) = 6 + 16 = 22$." },
+            { "tipe": "paragraph", "text": "Elemen $(2,1)$: $3(5) + 4(7) = 15 + 28 = 43$." },
+            { "tipe": "paragraph", "text": "Elemen $(2,2)$: $3(6) + 4(8) = 18 + 32 = 50$." },
+            { "tipe": "formula_block", "latex": "AB = \\begin{pmatrix} 19 & 22 \\\\ 43 & 50 \\end{pmatrix}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Penjumlahan/pengurangan: ordo sama, jumlahkan elemen bersesuaian",
+            "Perkalian skalar: kalikan setiap elemen",
+            "Perkalian matriks: kolom $A$ = baris $B$; baris × kolom",
+            "Perkalian matriks tidak komutatif"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mat-bab-03",
+      "nomor": 3,
+      "judul": "Determinan Matriks",
+      "deskripsi": "Menghitung determinan matriks 2×2 dan 3×3",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Determinan?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Determinan</b> adalah nilai skalar yang dihitung dari elemen-elemen matriks persegi. Dilambangkan $\\det(A)$ atau $|A|$. Determinan penting karena menentukan apakah matriks punya invers atau tidak."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Determinan Matriks 2×2"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\det(A) = |A| = ad - bc"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Hafalan mudah: <b>kali diagonal utama − kali diagonal samping</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Determinan Matriks 3×3"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada 2 metode utama: <b>aturan Sarrus</b> dan <b>ekspansi kofaktor</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Metode 1: Aturan Sarrus"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Khusus untuk matriks 3×3, cara paling cepat. Untuk matriks $A = \\begin{pmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{pmatrix}$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\det(A) = aei + bfg + cdh - ceg - afh - bdi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Cara visual: tulis ulang dua kolom pertama di sebelah kanan matriks, lalu jumlahkan hasil kali 3 diagonal ke kanan dan kurangi hasil kali 3 diagonal ke kiri."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matriks/aturan-sarrus.png",
+          "caption": "Ilustrasi aturan Sarrus — tulis ulang 2 kolom pertama, lalu jumlahkan 3 diagonal kanan dan kurangi 3 diagonal kiri",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Metode 2: Ekspansi Kofaktor"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Pilih satu baris atau kolom, lalu ekspansi berdasarkan minor dan kofaktor. Cocok untuk matriks berukuran lebih besar."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\det(A) = \\sum_{j=1}^{n} a_{ij} \\cdot C_{ij}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "$C_{ij} = (-1)^{i+j} M_{ij}$ adalah kofaktor, dan $M_{ij}$ adalah minor (determinan sub-matriks setelah menghapus baris $i$ dan kolom $j$)."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Sifat-Sifat Determinan"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\det(A^T) = \\det(A)$",
+            "$\\det(AB) = \\det(A) \\cdot \\det(B)$",
+            "Kalau ada baris/kolom yang semua nol → $\\det = 0$",
+            "Kalau ada 2 baris/kolom yang sama → $\\det = 0$",
+            "Kalau 2 baris/kolom ditukar → tanda $\\det$ berubah"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Determinan 2×2",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\det(A)$ untuk $A = \\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\det(A) = 3(6) - 4(5) = 18 - 20 = -2" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Determinan 3×3 (Sarrus)",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan determinan dari $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Gunakan aturan Sarrus:" },
+            { "tipe": "formula_block", "latex": "\\det(A) = 1(5)(9) + 2(6)(7) + 3(4)(8) - 3(5)(7) - 1(6)(8) - 2(4)(9)" },
+            { "tipe": "formula_block", "latex": "= 45 + 84 + 96 - 105 - 48 - 72 = 0" },
+            { "tipe": "paragraph", "text": "Jadi $\\det(A) = 0$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kapan Determinan = 0?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $\\det(A) = 0$, matriks tersebut disebut <b>matriks singular</b> — artinya <b>tidak punya invers</b>. Ini mirip dengan pembagian nol dalam bilangan biasa."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Determinan 2×2: $ad - bc$",
+            "Determinan 3×3: aturan Sarrus atau ekspansi kofaktor",
+            "Sifat utama: $\\det(AB) = \\det(A) \\det(B)$",
+            "Kalau $\\det = 0$ → matriks singular, tidak punya invers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mat-bab-04",
+      "nomor": 4,
+      "judul": "Invers Matriks",
+      "deskripsi": "Mencari invers matriks 2×2 dan 3×3",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Invers Matriks?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Invers matriks</b> $A$ adalah matriks $A^{-1}$ yang memenuhi $A \\cdot A^{-1} = A^{-1} \\cdot A = I$ (matriks identitas). Analog dengan bilangan: $3 \\times \\frac{1}{3} = 1$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Tidak semua matriks punya invers. Matriks yang punya invers disebut <b>nonsingular</b> ($\\det \\neq 0$). Matriks singular ($\\det = 0$) tidak punya invers."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Invers Matriks 2×2"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ dengan $\\det(A) = ad - bc \\neq 0$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A^{-1} = \\dfrac{1}{ad - bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Trik mudah: <b>tukar posisi diagonal utama, ubah tanda diagonal samping, bagi dengan determinan</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Invers Matriks 3×3"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk matriks 3×3, gunakan rumus:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A^{-1} = \\dfrac{1}{\\det(A)} \\cdot \\text{adj}(A)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "$\\text{adj}(A)$ adalah <b>adjoin</b> = transpose dari matriks kofaktor. Langkahnya cukup panjang, jadi lebih praktis pakai metode <b>eliminasi Gauss-Jordan</b> untuk soal ujian."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Metode Gauss-Jordan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bentuk matriks diperbesar $[A | I]$, lalu lakukan operasi baris elementer sampai menjadi $[I | A^{-1}]$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Sifat-Sifat Invers"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$(A^{-1})^{-1} = A$",
+            "$(AB)^{-1} = B^{-1} A^{-1}$ (perhatikan urutannya!)",
+            "$(A^T)^{-1} = (A^{-1})^T$",
+            "$\\det(A^{-1}) = \\dfrac{1}{\\det(A)}$"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Invers 2×2",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan invers dari $A = \\begin{pmatrix} 3 & 4 \\\\ 5 & 6 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Determinan: $\\det(A) = 3(6) - 4(5) = -2$." },
+            { "tipe": "paragraph", "text": "Karena $\\det \\neq 0$, invers ada:" },
+            { "tipe": "formula_block", "latex": "A^{-1} = \\dfrac{1}{-2} \\begin{pmatrix} 6 & -4 \\\\ -5 & 3 \\end{pmatrix} = \\begin{pmatrix} -3 & 2 \\\\ 2{,}5 & -1{,}5 \\end{pmatrix}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Matriks Singular",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan apakah $A = \\begin{pmatrix} 2 & 4 \\\\ 1 & 2 \\end{pmatrix}$ punya invers." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\det(A) = 2(2) - 4(1) = 4 - 4 = 0" },
+            { "tipe": "paragraph", "text": "Karena $\\det = 0$, matriks ini <b>singular</b> dan <b>tidak punya invers</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Menyelesaikan SPL dengan Invers",
+          "konten": [
+            { "tipe": "paragraph", "text": "Selesaikan sistem $\\begin{cases} 2x + y = 7 \\\\ x + 3y = 11 \\end{cases}$ menggunakan invers matriks." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Bentuk matriks: $\\begin{pmatrix} 2 & 1 \\\\ 1 & 3 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 11 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "Determinan: $\\det = 6 - 1 = 5$." },
+            { "tipe": "formula_block", "latex": "\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\dfrac{1}{5} \\begin{pmatrix} 3 & -1 \\\\ -1 & 2 \\end{pmatrix} \\begin{pmatrix} 7 \\\\ 11 \\end{pmatrix}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{1}{5} \\begin{pmatrix} 3(7) - 1(11) \\\\ -1(7) + 2(11) \\end{pmatrix} = \\dfrac{1}{5} \\begin{pmatrix} 10 \\\\ 15 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Jadi $x = 2$ dan $y = 3$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Invers: $A \\cdot A^{-1} = I$",
+            "Invers 2×2: tukar diagonal, ubah tanda, bagi determinan",
+            "Invers ada hanya kalau $\\det \\neq 0$",
+            "Aplikasi: menyelesaikan SPL dengan cara matriks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mat-bab-05",
+      "nomor": 5,
+      "judul": "Penyelesaian Sistem Persamaan Linear dengan Matriks",
+      "deskripsi": "Menggunakan matriks untuk menyelesaikan SPL",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "SPL dalam Bentuk Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sistem persamaan linear (SPL) bisa ditulis dalam bentuk matriks $AX = B$, dengan:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$A$ = matriks koefisien",
+            "$X$ = matriks variabel (kolom)",
+            "$B$ = matriks konstanta (kolom)"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh SPL:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{cases} 2x + y = 7 \\\\ x + 3y = 11 \\end{cases}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bentuk matriksnya:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\underbrace{\\begin{pmatrix} 2 & 1 \\\\ 1 & 3 \\end{pmatrix}}_{A} \\underbrace{\\begin{pmatrix} x \\\\ y \\end{pmatrix}}_{X} = \\underbrace{\\begin{pmatrix} 7 \\\\ 11 \\end{pmatrix}}_{B}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Solusi dengan Invers"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $\\det(A) \\neq 0$, maka:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "X = A^{-1} B"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Solusi dengan Aturan Cramer"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Metode lain yang populer, khususnya untuk SPL dengan 2 atau 3 variabel. Untuk SPL 2 variabel:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "x = \\dfrac{D_x}{D}, \\quad y = \\dfrac{D_y}{D}"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$D$ = determinan matriks koefisien",
+            "$D_x$ = determinan dengan kolom $x$ diganti kolom konstanta",
+            "$D_y$ = determinan dengan kolom $y$ diganti kolom konstanta"
+          ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matriks/aturan-cramer.png",
+          "caption": "Ilustrasi aturan Cramer untuk SPL 2 variabel — $D$, $D_x$, dan $D_y$ dihitung dari determinan matriks yang berbeda",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Aturan Cramer 2 Variabel",
+          "konten": [
+            { "tipe": "paragraph", "text": "Selesaikan $\\begin{cases} 2x + y = 7 \\\\ x + 3y = 11 \\end{cases}$ dengan aturan Cramer." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "D = \\begin{vmatrix} 2 & 1 \\\\ 1 & 3 \\end{vmatrix} = 6 - 1 = 5" },
+            { "tipe": "formula_block", "latex": "D_x = \\begin{vmatrix} 7 & 1 \\\\ 11 & 3 \\end{vmatrix} = 21 - 11 = 10" },
+            { "tipe": "formula_block", "latex": "D_y = \\begin{vmatrix} 2 & 7 \\\\ 1 & 11 \\end{vmatrix} = 22 - 7 = 15" },
+            { "tipe": "formula_block", "latex": "x = \\dfrac{D_x}{D} = \\dfrac{10}{5} = 2, \\quad y = \\dfrac{D_y}{D} = \\dfrac{15}{5} = 3" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: SPL 3 Variabel",
+          "konten": [
+            { "tipe": "paragraph", "text": "Selesaikan: $\\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases}$" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Hitung $D$ dengan Sarrus:" },
+            { "tipe": "formula_block", "latex": "D = \\begin{vmatrix} 1 & 1 & 1 \\\\ 2 & -1 & 1 \\\\ 1 & 2 & -1 \\end{vmatrix}" },
+            { "tipe": "formula_block", "latex": "= 1(1)(1) + 1(1)(1) + 1(2)(2) - 1(-1)(1) - 1(1)(2) - 1(2)(1)" },
+            { "tipe": "formula_block", "latex": "= 1 + 1 + 4 + 1 - 2 - 2 = 3" },
+            { "tipe": "paragraph", "text": "Hitung $D_x$, $D_y$, $D_z$ dengan cara serupa (ganti kolom yang sesuai)." },
+            { "tipe": "formula_block", "latex": "D_x = \\begin{vmatrix} 6 & 1 & 1 \\\\ 3 & -1 & 1 \\\\ 2 & 2 & -1 \\end{vmatrix} = 6 + 2 + 6 + 2 - 12 + 3 = 7" },
+            { "tipe": "formula_block", "latex": "D_y = \\begin{vmatrix} 1 & 6 & 1 \\\\ 2 & 3 & 1 \\\\ 1 & 2 & -1 \\end{vmatrix} = -3 + 6 + 4 + 3 - 2 + 12 = 20" },
+            { "tipe": "formula_block", "latex": "D_z = \\begin{vmatrix} 1 & 1 & 6 \\\\ 2 & -1 & 3 \\\\ 1 & 2 & 2 \\end{vmatrix} = -2 + 3 + 24 + 6 - 6 - 4 = 21" },
+            { "tipe": "paragraph", "text": "Hasil:" },
+            { "tipe": "formula_block", "latex": "x = \\dfrac{7}{3}, \\quad y = \\dfrac{20}{3}, \\quad z = \\dfrac{21}{3} = 7" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kapan Pakai Metode Apa?"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Substitusi/eliminasi</b> — untuk SPL sederhana (2-3 variabel)",
+            "<b>Invers matriks</b> — kalau perlu bentuk $X = A^{-1}B$",
+            "<b>Aturan Cramer</b> — elegan untuk SPL 2-3 variabel, mudah dihafal",
+            "<b>Gauss-Jordan</b> — untuk SPL besar atau sistem dengan banyak variabel"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Jenis Solusi SPL"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\det(A) \\neq 0$ → solusi <b>tunggal</b>",
+            "$\\det(A) = 0$ dan konsisten → solusi <b>tak hingga</b>",
+            "$\\det(A) = 0$ dan tidak konsisten → <b>tidak ada solusi</b>"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "SPL dapat ditulis dalam bentuk $AX = B$",
+            "Solusi: $X = A^{-1}B$",
+            "Aturan Cramer: $x = D_x / D$, dst.",
+            "Determinan menentukan jumlah solusi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mat-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Matriks di Kehidupan Nyata",
+      "deskripsi": "Penerapan matriks di berbagai bidang",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Matriks di Sekitar Kita"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks bukan cuma alat matematika — dia adalah <b>bahasa universal</b> untuk memproses informasi dalam jumlah besar. Komputer, HP, dan AI modern semuanya bekerja dengan matriks."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Grafika Komputer dan Game"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Setiap kali kamu memutar karakter di game 3D, memutar kamera, atau melakukan efek zoom — itu semua adalah operasi <b>transformasi matriks</b> pada koordinat titik. GPU di HP kamu bisa melakukan jutaan operasi matriks per detik."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Kecerdasan Buatan (AI)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jaringan saraf (neural network) di AI modern pada dasarnya adalah <b>perkalian matriks besar</b>. ChatGPT, pengenal wajah, dan sistem rekomendasi semua dibangun dengan matriks."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Ekonomi dan Bisnis"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Analisis input-output ekonomi menggunakan matriks untuk memodelkan hubungan antar sektor. Misalnya: berapa banyak baja yang dibutuhkan industri otomotif, dll."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Kriptografi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks dipakai untuk <b>mengenkripsi pesan</b>. Kalau kamu punya matriks kunci dan inversnya, kamu bisa menyandikan dan mendekripsi pesan dengan aman."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "5. Statistik dan Machine Learning"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Data dalam jumlah besar (mis. gambar, teks) direpresentasikan sebagai matriks. Algoritma machine learning memproses matriks ini untuk belajar pola."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Analisis Penjualan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah toko punya 3 cabang. Penjualan 4 jenis barang (A, B, C, D) per cabang dalam sebulan (dalam unit):" },
+            { "tipe": "formula_block", "latex": "P = \\begin{pmatrix} 10 & 20 & 15 & 5 \\\\ 8 & 15 & 20 & 10 \\\\ 12 & 18 & 14 & 8 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Harga per unit barang: A = Rp10.000, B = Rp15.000, C = Rp12.000, D = Rp20.000." },
+            { "tipe": "paragraph", "text": "Total penjualan per cabang = matriks $P$ dikalikan vektor harga:" },
+            { "tipe": "formula_block", "latex": "\\begin{pmatrix} 10 & 20 & 15 & 5 \\\\ 8 & 15 & 20 & 10 \\\\ 12 & 18 & 14 & 8 \\end{pmatrix} \\begin{pmatrix} 10000 \\\\ 15000 \\\\ 12000 \\\\ 20000 \\end{pmatrix}" },
+            { "tipe": "formula_block", "latex": "= \\begin{pmatrix} 700000 \\\\ 775000 \\\\ 762000 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Jadi cabang 1 = Rp700.000, cabang 2 = Rp775.000, cabang 3 = Rp762.000." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Rotasi dalam Grafika Komputer",
+          "konten": [
+            { "tipe": "paragraph", "text": "Untuk memutar titik $(x, y)$ sebesar $\\theta$ derajat berlawanan arah jarum jam, gunakan matriks rotasi:" },
+            { "tipe": "formula_block", "latex": "R = \\begin{pmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Contoh: putar titik $(1, 0)$ sebesar $90^\\circ$:" },
+            { "tipe": "formula_block", "latex": "R \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Hasilnya titik $(0, 1)$ — benar, karena memutar $(1, 0)$ sebesar 90° berlawanan arah jarum jam menghasilkan titik di atas." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Belajar Matriks"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Hafal rumus 2×2</b> — determinan & invers sangat sering keluar",
+            "<b>Latihan Sarrus</b> sampai mahir untuk determinan 3×3",
+            "<b>Pahami konsep</b> bukan sekadar hafal rumus",
+            "<b>Gunakan aplikasi</b> — Excel, GeoGebra, atau calculator untuk verifikasi"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Matriks = susunan bilangan berbentuk baris × kolom",
+            "Operasi: penjumlahan, pengurangan, perkalian, transpose",
+            "Determinan & invers kunci untuk menyelesaikan SPL",
+            "Aplikasi luas: grafika, AI, ekonomi, kriptografi"
+          ]
+        }
+      ]
+    }
+  ]
+}
