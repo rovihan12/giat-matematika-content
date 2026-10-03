@@ -210,13 +210,30 @@
         }
       ]
     },
+  {
+  "kelas": 11,
+  "deskripsi": "Lanjutan & Analisis",
+  "emoji": "📘",
+  "warna": "#5B8DEF",
+  "kategori": [
     {
-      "kelas": 11,
-      "deskripsi": "Lanjutan & Analisis",
-      "emoji": "📘",
+      "nama": "Limit Fungsi",
+      "emoji": "📈",
       "warna": "#5B8DEF",
-      "kategori": []
+      "file_materi": "materi/kelas11/limit-fungsi.json",
+      "versi": "1.0.0",
+      "paket": []
     },
+    {
+      "nama": "Turunan (Diferensial)",
+      "emoji": "📉",
+      "warna": "#FF6B1A",
+      "file_materi": "materi/kelas11/turunan.json",
+      "versi": "1.0.0",
+      "paket": []
+    }
+  ]
+},
     {
       "kelas": 12,
       "deskripsi": "Persiapan Ujian",
