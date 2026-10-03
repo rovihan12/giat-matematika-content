@@ -1,0 +1,621 @@
+{
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "emoji": "🔗",
+  "warna": "#5B8DEF",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "11-kfi-bab-01",
+      "nomor": 1,
+      "judul": "Fungsi dan Bukan Fungsi",
+      "deskripsi": "Memahami definisi fungsi, domain, kodomain, dan range",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Fungsi?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Fungsi</b> adalah relasi khusus yang memetakan <b>setiap</b> anggota domain ke <b>tepat satu</b> anggota kodomain. Bayangkan fungsi seperti mesin: masukkan satu input, keluar satu output."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau ada satu input yang punya dua output, itu <b>bukan fungsi</b>. Tapi kalau dua input berbeda punya output yang sama, itu masih fungsi."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Istilah Penting"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Domain</b> — daerah asal (input). Contoh: himpunan A",
+            "<b>Kodomain</b> — daerah kawan (output potensial). Contoh: himpunan B",
+            "<b>Range</b> — daerah hasil (output aktual). Subset dari kodomain"
+          ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/komposisi-fungsi-invers/diagram-panah-fungsi.png",
+          "caption": "Diagram panah fungsi f: A → B. Domain = {1, 2, 3}, Kodomain = {a, b, c, d}, Range = {a, b, c}",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Cara Membedakan Fungsi vs Bukan Fungsi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Fungsi</b> — setiap anggota domain punya <b>tepat satu</b> panah keluar",
+            "<b>Bukan fungsi</b> — ada anggota domain yang punya <b>lebih dari satu</b> panah keluar, atau tidak punya panah"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Fungsi atau Bukan?",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui relasi dari A = {1, 2, 3} ke B = {a, b, c} sebagai berikut:" },
+            { "tipe": "list", "ordered": false, "items": [
+              "Relasi 1: (1,a), (2,b), (3,c) → <b>Fungsi</b> ✓",
+              "Relasi 2: (1,a), (1,b), (2,c) → <b>Bukan fungsi</b> ✗ (1 punya dua output)",
+              "Relasi 3: (1,a), (2,a), (3,a) → <b>Fungsi</b> ✓ (dua input boleh punya output sama)"
+            ]}
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Notasi Fungsi"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "f: A \\to B, \\quad x \\mapsto f(x)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dibaca: fungsi $f$ memetakan himpunan $A$ ke himpunan $B$, dengan $x$ dipetakan ke $f(x)$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Fungsi = relasi khusus: setiap domain punya tepat satu output",
+            "Domain = input, Kodomain = output potensial, Range = output aktual",
+            "Untuk cek fungsi: lihat panah keluar dari domain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-kfi-bab-02",
+      "nomor": 2,
+      "judul": "Operasi Aljabar Fungsi",
+      "deskripsi": "Penjumlahan, pengurangan, perkalian, dan pembagian fungsi",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Operasi pada Fungsi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua fungsi atau lebih bisa digabungkan dengan operasi aljabar: penjumlahan, pengurangan, perkalian, dan pembagian. Hasilnya adalah <b>fungsi baru</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Rumus Operasi Fungsi"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(f + g)(x) = f(x) + g(x)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(f - g)(x) = f(x) - g(x)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(f \\cdot g)(x) = f(x) \\cdot g(x)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\left(\\dfrac{f}{g}\\right)(x) = \\dfrac{f(x)}{g(x)}, \\quad g(x) \\neq 0"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "⚠️ <b>Perhatian:</b> untuk pembagian, domain fungsi baru harus mengecualikan nilai $x$ yang membuat $g(x) = 0$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Domain Hasil Operasi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Domain $(f + g)$, $(f - g)$, dan $(f \\cdot g)$ = irisan domain $f$ dan $g$",
+            "Domain $\\dfrac{f}{g}$ = irisan domain $f$ dan $g$, kecuali nilai yang membuat $g(x) = 0$"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Operasi Fungsi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $f(x) = 2x + 3$ dan $g(x) = x^2 - 1$. Tentukan $(f+g)(x)$, $(f-g)(x)$, $(f \\cdot g)(x)$, dan $\\left(\\dfrac{f}{g}\\right)(x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "(f + g)(x) = (2x + 3) + (x^2 - 1) = x^2 + 2x + 2" },
+            { "tipe": "formula_block", "latex": "(f - g)(x) = (2x + 3) - (x^2 - 1) = -x^2 + 2x + 4" },
+            { "tipe": "formula_block", "latex": "(f \\cdot g)(x) = (2x + 3)(x^2 - 1) = 2x^3 + 3x^2 - 2x - 3" },
+            { "tipe": "formula_block", "latex": "\\left(\\dfrac{f}{g}\\right)(x) = \\dfrac{2x + 3}{x^2 - 1}, \\quad x \\neq \\pm 1" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Operasi fungsi menghasilkan fungsi baru",
+            "Domain hasil = irisan domain, dengan pengecualian untuk pembagian",
+            "Perhatikan nilai $x$ yang membuat penyebut nol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-kfi-bab-03",
+      "nomor": 3,
+      "judul": "Komposisi Fungsi",
+      "deskripsi": "Menggabungkan dua fungsi atau lebih",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Komposisi Fungsi?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Komposisi fungsi</b> adalah operasi menggabungkan dua fungsi dengan cara <b>memasukkan output fungsi pertama ke input fungsi kedua</b>. Hasilnya adalah fungsi baru."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Notasi komposisi: $(f \\circ g)(x)$ dibaca \"$f$ komposisi $g$\" atau \"$f$ bulat $g$\". Ini berarti <b>kerjakan $g$ dulu</b>, baru hasilnya dimasukkan ke $f$."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/komposisi-fungsi-invers/komposisi-fungsi.png",
+          "caption": "Diagram panah komposisi fungsi: x → g(x) → f(g(x)). Fungsi g dikerjakan terlebih dahulu, lalu hasilnya dimasukkan ke fungsi f",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Rumus Komposisi"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(f \\circ g)(x) = f(g(x))"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(g \\circ f)(x) = g(f(x))"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "⚠️ <b>Penting:</b> $(f \\circ g)(x)$ <b>tidak sama</b> dengan $(g \\circ f)(x)$. Urutan komposisi berpengaruh!"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Syarat Komposisi Fungsi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$(f \\circ g)(x)$ terdefinisi jika $g(x)$ berada di domain $f$",
+            "Domain $(f \\circ g)$ = semua $x$ di domain $g$ sehingga $g(x)$ ada di domain $f$"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Komposisi Fungsi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $f(x) = 2x + 1$ dan $g(x) = x^2$. Tentukan $(f \\circ g)(x)$ dan $(g \\circ f)(x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "$(f \\circ g)(x) = f(g(x)) = f(x^2) = 2(x^2) + 1 = 2x^2 + 1$" },
+            { "tipe": "paragraph", "text": "$(g \\circ f)(x) = g(f(x)) = g(2x+1) = (2x+1)^2 = 4x^2 + 4x + 1$" },
+            { "tipe": "paragraph", "text": "Terlihat bahwa $(f \\circ g)(x) \\neq (g \\circ f)(x)$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Mencari Fungsi dari Komposisi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $(f \\circ g)(x) = 6x + 5$ dan $g(x) = 2x - 1$. Tentukan $f(x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Misalkan $y = g(x) = 2x - 1$. Maka $x = \\dfrac{y + 1}{2}$." },
+            { "tipe": "paragraph", "text": "Substitusi ke $(f \\circ g)(x) = f(g(x)) = 6x + 5$:" },
+            { "tipe": "formula_block", "latex": "f(y) = 6\\left(\\dfrac{y + 1}{2}\\right) + 5 = 3(y + 1) + 5 = 3y + 8" },
+            { "tipe": "paragraph", "text": "Jadi $f(x) = 3x + 8$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Sifat-Sifat Komposisi Fungsi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Tidak komutatif: $(f \\circ g) \\neq (g \\circ f)$",
+            "Asosiatif: $((f \\circ g) \\circ h) = (f \\circ (g \\circ h))$",
+            "Ada identitas: $(f \\circ I) = (I \\circ f) = f$, dengan $I(x) = x$"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Komposisi: $(f \\circ g)(x) = f(g(x))$",
+            "Urutan berpengaruh — tidak komutatif",
+            "Untuk mencari $f(x)$ dari $(f \\circ g)(x)$ dan $g(x)$: misalkan $y = g(x)$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-kfi-bab-04",
+      "nomor": 4,
+      "judul": "Fungsi Invers",
+      "deskripsi": "Konsep invers fungsi dan cara menentukannya",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Fungsi Invers?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Fungsi invers</b> adalah fungsi yang <b>membalikkan</b> operasi fungsi asal. Jika $f$ memetakan $x$ ke $y$, maka $f^{-1}$ memetakan $y$ kembali ke $x$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Notasi $f^{-1}$ dibaca \"$f$ invers\". ⚠️ Angka $-1$ di sini <b>bukan pangkat</b>, melainkan simbol invers."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/komposisi-fungsi-invers/fungsi-invers.png",
+          "caption": "Diagram panah fungsi invers: f memetakan x ke y, sedangkan f⁻¹ memetakan y kembali ke x",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Syarat Fungsi Memiliki Invers"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Suatu fungsi memiliki invers jika dan hanya jika fungsi tersebut <b>bijektif</b> (injektif sekaligus surjektif)."
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Injektif (satu-satu)</b> — setiap anggota kodomain dipetakan paling banyak satu kali",
+            "<b>Surjektif (pada)</b> — setiap anggota kodomain punya pasangan di domain",
+            "<b>Bijektif</b> — injektif sekaligus surjektif"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Hubungan Fungsi dan Inversnya"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "f(f^{-1}(x)) = x \\quad \\text{dan} \\quad f^{-1}(f(x)) = x"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Artinya: kalau kita terapkan fungsi lalu inversnya, kita kembali ke titik awal."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Cara Mencari Fungsi Invers"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "Tulis $y = f(x)$",
+            "Ubah persamaan sehingga $x$ menjadi subjek (nyatakan $x$ dalam $y$)",
+            "Ganti $y$ dengan $x$ dan $x$ dengan $f^{-1}(x)$"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Invers Fungsi Linear",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan invers dari $f(x) = 3x - 6$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Tulis $y = 3x - 6$." },
+            { "tipe": "paragraph", "text": "Nyatakan $x$:" },
+            { "tipe": "formula_block", "latex": "y + 6 = 3x \\Rightarrow x = \\dfrac{y + 6}{3}" },
+            { "tipe": "paragraph", "text": "Ganti $y$ dengan $x$:" },
+            { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{x + 6}{3}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Invers Fungsi Rasional",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan invers dari $f(x) = \\dfrac{2x + 1}{x - 3}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Tulis $y = \\dfrac{2x + 1}{x - 3}$." },
+            { "tipe": "paragraph", "text": "Kalikan silang:" },
+            { "tipe": "formula_block", "latex": "y(x - 3) = 2x + 1 \\Rightarrow yx - 3y = 2x + 1" },
+            { "tipe": "paragraph", "text": "Kumpulkan suku $x$:" },
+            { "tipe": "formula_block", "latex": "yx - 2x = 3y + 1 \\Rightarrow x(y - 2) = 3y + 1" },
+            { "tipe": "formula_block", "latex": "x = \\dfrac{3y + 1}{y - 2}" },
+            { "tipe": "paragraph", "text": "Ganti $y$ dengan $x$:" },
+            { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{3x + 1}{x - 2}, \\quad x \\neq 2" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Invers Fungsi Kuadrat (Domain Terbatas)",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan invers dari $f(x) = x^2 + 2$ untuk $x \\geq 0$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Tulis $y = x^2 + 2$." },
+            { "tipe": "formula_block", "latex": "y - 2 = x^2 \\Rightarrow x = \\sqrt{y - 2}" },
+            { "tipe": "paragraph", "text": "Karena $x \\geq 0$, ambil akar positif." },
+            { "tipe": "formula_block", "latex": "f^{-1}(x) = \\sqrt{x - 2}, \\quad x \\geq 2" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Invers fungsi membalikkan operasi fungsi asal",
+            "Syarat: fungsi harus bijektif",
+            "Cara: tulis $y = f(x)$, nyatakan $x$, lalu tukar variabel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-kfi-bab-05",
+      "nomor": 5,
+      "judul": "Invers dari Komposisi Fungsi",
+      "deskripsi": "Menentukan invers dari fungsi komposisi",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Invers Komposisi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika $(f \\circ g)(x)$ adalah komposisi fungsi, maka inversnya adalah:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(f \\circ g)^{-1}(x) = (g^{-1} \\circ f^{-1})(x)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perhatikan urutannya <b>dibalik</b>: invers dari $f \\circ g$ adalah $g^{-1} \\circ f^{-1}$, bukan $f^{-1} \\circ g^{-1}$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Analogi Sederhana"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bayangkan kamu memakai kaos kaki lalu sepatu. Untuk melepas, kamu harus melepas <b>sepatu dulu</b>, baru kaos kaki. Urutan kebalikan inilah yang terjadi pada invers komposisi."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Invers Komposisi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $f(x) = 2x + 1$ dan $g(x) = x - 3$. Tentukan $(f \\circ g)^{-1}(x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Cara 1 — hitung dulu $(f \\circ g)(x)$:" },
+            { "tipe": "formula_block", "latex": "(f \\circ g)(x) = f(g(x)) = 2(x - 3) + 1 = 2x - 5" },
+            { "tipe": "paragraph", "text": "Inverskan:" },
+            { "tipe": "formula_block", "latex": "y = 2x - 5 \\Rightarrow x = \\dfrac{y + 5}{2}" },
+            { "tipe": "formula_block", "latex": "(f \\circ g)^{-1}(x) = \\dfrac{x + 5}{2}" },
+            { "tipe": "paragraph", "text": "Cara 2 — pakai rumus $(g^{-1} \\circ f^{-1})(x)$:" },
+            { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{x - 1}{2}, \\quad g^{-1}(x) = x + 3" },
+            { "tipe": "formula_block", "latex": "(g^{-1} \\circ f^{-1})(x) = g^{-1}(f^{-1}(x)) = \\dfrac{x - 1}{2} + 3 = \\dfrac{x + 5}{2}" },
+            { "tipe": "paragraph", "text": "Hasilnya sama ✓" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Invers komposisi: $(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$",
+            "Urutan dibalik — ingat analogi kaos kaki & sepatu",
+            "Bisa dihitung dengan 2 cara: langsung atau pakai rumus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-kfi-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi dalam Kehidupan Nyata",
+      "deskripsi": "Penerapan komposisi dan invers fungsi",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Fungsi di Sekitar Kita"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Komposisi dan invers fungsi bukan cuma teori. Banyak situasi nyata bisa dimodelkan dengan fungsi — dari diskon belanja sampai konversi satuan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Diskon Berlapis"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau toko memberi diskon 20% lalu tambahan potongan Rp25.000, kita bisa memodelkannya sebagai komposisi fungsi. Urutan diskon mempengaruhi harga akhir."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "f(x) = 0{,}8x \\quad \\text{(diskon 20\\%)}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "g(x) = x - 25.000 \\quad \\text{(potongan Rp25.000)}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika diskon dulu baru potongan: $(g \\circ f)(x) = g(f(x)) = 0{,}8x - 25.000$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika potongan dulu baru diskon: $(f \\circ g)(x) = f(g(x)) = 0{,}8(x - 25.000) = 0{,}8x - 20.000$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Hasilnya <b>berbeda</b>! Urutan komposisi berpengaruh."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Konversi Suhu"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Konversi Celsius ke Fahrenheit adalah fungsi: $F(C) = \\frac{9}{5}C + 32$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Inversnya — konversi Fahrenheit ke Celsius — adalah:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "C(F) = \\frac{5}{9}(F - 32)"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Pajak Setelah Diskon"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau harga barang dikenai diskon dulu, baru pajak 11%, maka:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "f(x) = 0{,}9x \\quad \\text{(diskon 10\\%)}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "g(x) = 1{,}11x \\quad \\text{(pajak 11\\%)}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(g \\circ f)(x) = 1{,}11 \\cdot 0{,}9x = 0{,}999x"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Harga akhir ≈ 99,9% dari harga asli."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Diskon Berlapis",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah baju berharga Rp200.000. Toko memberi diskon 20%, lalu tambahan diskon 10% dari harga setelah diskon pertama. Berapa harga akhirnya?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Fungsi diskon 20%: $f(x) = 0{,}8x$." },
+            { "tipe": "paragraph", "text": "Fungsi diskon 10%: $g(x) = 0{,}9x$." },
+            { "tipe": "paragraph", "text": "Komposisi: $(g \\circ f)(x) = g(f(x)) = 0{,}9 \\cdot 0{,}8x = 0{,}72x$." },
+            { "tipe": "formula_block", "latex": "(g \\circ f)(200.000) = 0{,}72 \\times 200.000 = 144.000" },
+            { "tipe": "paragraph", "text": "Jadi harga akhirnya <b>Rp144.000</b>." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Menghadapi Soal Cerita"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Identifikasi input & output</b> — apa yang dimasukkan, apa yang dihasilkan?",
+            "<b>Tentukan urutan operasi</b> — mana yang terjadi dulu?",
+            "<b>Susun fungsi</b> — ubah kalimat jadi rumus matematika",
+            "<b>Gunakan komposisi atau invers</b> sesuai kebutuhan",
+            "<b>Cek hasil</b> — apakah masuk akal dengan konteks?"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Komposisi fungsi: menggabungkan fungsi berurutan",
+            "Invers fungsi: membalikkan operasi fungsi",
+            "Aplikasi: diskon, pajak, konversi satuan",
+            "Urutan operasi mempengaruhi hasil akhir"
+          ]
+        }
+      ]
+    }
+  ]
+}
