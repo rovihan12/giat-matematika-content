@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "last_updated": "2026-10-02",
+  "version": "3.0.0",
+  "last_updated": "2026-10-03",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
   "kelas": [
@@ -105,7 +105,7 @@
           "emoji": "🔷",
           "warna": "#FF9800",
           "file_materi": "materi/kelas10/sistem-persamaan-linear.json",
-          "versi": "1.0.0",
+          "versi": "1.0.2",
           "paket": [
             {
               "id": "sistem-persamaan-linear-paket-01",
@@ -132,7 +132,7 @@
           "emoji": "📉",
           "warna": "#3F51B5",
           "file_materi": "materi/kelas10/fungsi-kuadrat.json",
-          "versi": "1.0.0",
+          "versi": "1.0.1",
           "paket": [
             {
               "id": "fungsi-kuadrat-paket-01",
@@ -210,36 +210,85 @@
         }
       ]
     },
-  {
-  "kelas": 11,
-  "deskripsi": "Lanjutan & Analisis",
-  "emoji": "📘",
-  "warna": "#5B8DEF",
-  "kategori": [
     {
-      "nama": "Limit Fungsi",
-      "emoji": "📈",
+      "kelas": 11,
+      "deskripsi": "Lanjutan & Analisis",
+      "emoji": "📘",
       "warna": "#5B8DEF",
-      "file_materi": "materi/kelas11/limit-fungsi.json",
-      "versi": "1.0.0",
-      "paket": []
+      "kategori": [
+        {
+          "nama": "Komposisi Fungsi dan Fungsi Invers",
+          "emoji": "🔗",
+          "warna": "#5B8DEF",
+          "file_materi": "materi/kelas11/komposisi-fungsi-invers.json",
+          "versi": "1.0.0",
+          "paket": []
+        },
+        {
+          "nama": "Lingkaran",
+          "emoji": "⭕",
+          "warna": "#9C27B0",
+          "file_materi": "materi/kelas11/lingkaran.json",
+          "versi": "1.0.0",
+          "paket": []
+        },
+        {
+          "nama": "Statistika Lanjutan",
+          "emoji": "📈",
+          "warna": "#00897B",
+          "file_materi": "materi/kelas11/statistika-lanjutan.json",
+          "versi": "1.0.0",
+          "paket": []
+        },
+        {
+          "nama": "Matematika Tingkat Lanjut",
+          "emoji": "🎓",
+          "warna": "#7E57C2",
+          "file_materi": "materi/kelas11/matematika-tingkat-lanjut.json",
+          "versi": "1.0.0",
+          "paket": []
+        }
+      ]
     },
-    {
-      "nama": "Turunan (Diferensial)",
-      "emoji": "📉",
-      "warna": "#FF6B1A",
-      "file_materi": "materi/kelas11/turunan.json",
-      "versi": "1.0.0",
-      "paket": []
-    }
-  ]
-},
     {
       "kelas": 12,
       "deskripsi": "Persiapan Ujian",
       "emoji": "📕",
       "warna": "#FF6B1A",
-      "kategori": []
+      "kategori": [
+        {
+          "nama": "Limit Fungsi",
+          "emoji": "♾️",
+          "warna": "#FF6B1A",
+          "file_materi": "materi/kelas12/limit-fungsi.json",
+          "versi": "1.0.0",
+          "paket": []
+        },
+        {
+          "nama": "Turunan Fungsi",
+          "emoji": "📐",
+          "warna": "#E53935",
+          "file_materi": "materi/kelas12/turunan-fungsi.json",
+          "versi": "1.0.0",
+          "paket": []
+        },
+        {
+          "nama": "Integral Fungsi",
+          "emoji": "∫",
+          "warna": "#00897B",
+          "file_materi": "materi/kelas12/integral-fungsi.json",
+          "versi": "1.0.0",
+          "paket": []
+        },
+        {
+          "nama": "Matematika Tingkat Lanjut",
+          "emoji": "🎓",
+          "warna": "#7E57C2",
+          "file_materi": "materi/kelas12/matematika-tingkat-lanjut.json",
+          "versi": "1.0.0",
+          "paket": []
+        }
+      ]
     }
   ]
 }
