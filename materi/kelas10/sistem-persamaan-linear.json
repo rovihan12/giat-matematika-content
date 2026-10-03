@@ -3,7 +3,7 @@
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
   "emoji": "🔷",
   "warna": "#FF9800",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "bab": [
     {
       "id": "10-spl-bab-01",
@@ -36,7 +36,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "dengan $a \\neq 0$, dan $a$, $b$ adalah konstanta. Solusinya adalah nilai $x$ yang memenuhi persamaan." },
+          "text": "dengan $a \\neq 0$, dan $a$, $b$ adalah konstanta. Solusinya adalah nilai $x$ yang memenuhi persamaan."
+        },
         {
           "tipe": "heading",
           "level": 2,
@@ -44,7 +45,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Persamaan tetap <b>setara</b> (nilai solusinya sama) jika kita melakukan operasi yang sama pada kedua ruas:" },
+          "text": "Persamaan tetap <b>setara</b> (nilai solusinya sama) jika kita melakukan operasi yang sama pada kedua ruas:"
+        },
         {
           "tipe": "list",
           "ordered": false,
@@ -121,7 +123,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "<b>Sistem Persamaan Linear Dua Variabel (SPLDV)</b> adalah kumpulan <b>dua atau lebih</b> persamaan linear yang memiliki <b>dua variabel yang sama</b>. Solusinya adalah nilai $(x, y)$ yang memenuhi <b>semua</b> persamaan sekaligus." },
+          "text": "<b>Sistem Persamaan Linear Dua Variabel (SPLDV)</b> adalah kumpulan <b>dua atau lebih</b> persamaan linear yang memiliki <b>dua variabel yang sama</b>. Solusinya adalah nilai $(x, y)$ yang memenuhi <b>semua</b> persamaan sekaligus."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -133,7 +136,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "dengan $a_1, a_2, b_1, b_2 \\neq 0$ dan $x, y$ adalah variabel." },
+          "text": "dengan $a_1, a_2, b_1, b_2 \\neq 0$ dan $x, y$ adalah variabel."
+        },
         {
           "tipe": "heading",
           "level": 2,
@@ -146,11 +150,12 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Ubah satu persamaan menjadi bentuk $x = \\ldots$ atau $y = \\ldots$, lalu substitusikan ke persamaan lain." },
+          "text": "Ubah satu persamaan menjadi bentuk $x = \\ldots$ atau $y = \\ldots$, lalu substitusikan ke persamaan lain."
+        },
         {
           "tipe": "image",
           "src": "images/kelas10/sistem-persamaan-linear/spldv-substitusi.png",
-          "caption": "Ilustrasi metode substitusi: dari satu persamaan, nyatakan salah satu variabel, lalu gantikan di persamaan lain",
+          "caption": "Ilustrasi metode substitusi: dari satu persamaan, nyatakan salah satu variabel, lalu gantikan di persamaan lain untuk memperoleh nilai variabel lainnya",
           "width": "full"
         },
         {
@@ -160,11 +165,12 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Hilangkan salah satu variabel dengan cara menjumlahkan atau mengurangkan kedua persamaan (setelah menyamakan koefisien)." },
+          "text": "Hilangkan salah satu variabel dengan cara menjumlahkan atau mengurangkan kedua persamaan (setelah menyamakan koefisien)."
+        },
         {
           "tipe": "image",
           "src": "images/kelas10/sistem-persamaan-linear/spldv-eliminasi.png",
-          "caption": "Ilustrasi metode eliminasi: samakan koefisien salah satu variabel, lalu jumlahkan/kurangkan kedua persamaan",
+          "caption": "Ilustrasi metode eliminasi: samakan koefisien salah satu variabel, lalu jumlahkan/kurangkan kedua persamaan sehingga variabel tersebut hilang",
           "width": "full"
         },
         {
@@ -174,11 +180,12 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Gambar kedua garis pada bidang kartesius. Titik potong kedua garis adalah solusinya." },
+          "text": "Gambar kedua garis pada bidang kartesius. Titik potong kedua garis adalah solusinya."
+        },
         {
           "tipe": "image",
           "src": "images/kelas10/sistem-persamaan-linear/spldv-grafik.png",
-          "caption": "Solusi SPLDV secara grafik = titik potong dua garis. Contoh: $x + y = 5$ dan $x - y = 1$ berpotongan di $(3, 2)$",
+          "caption": "Solusi SPLDV secara grafik = titik potong dua garis. Contoh: $x + y = 5$ dan $x - y = 1$ berpotongan di titik $(3, 2)$",
           "width": "full"
         },
         {
@@ -205,7 +212,8 @@
             { "tipe": "paragraph", "text": "Substitusi ke persamaan kedua:" },
             { "tipe": "formula_block", "latex": "(7 - y) - y = 3" },
             { "tipe": "formula_block", "latex": "7 - 2y = 3 \\Rightarrow -2y = -4 \\Rightarrow y = 2" },
-            { "tipe": "paragraph", "text": "Substitusi balik: $x = 7 - 2 = 5$." },
+            { "tipe": "paragraph", "text": "Substitusi balik ke $x = 7 - y$:" },
+            { "tipe": "formula_block", "latex": "x = 7 - 2 = 5" },
             { "tipe": "paragraph", "text": "Jadi solusinya $x = 5$ dan $y = 2$, ditulis $(5, 2)$." }
           ]
         },
@@ -219,7 +227,7 @@
             { "tipe": "formula_block", "latex": "\\begin{cases} 2x + 3y = 12 \\\\ 3x - 3y = 3 \\end{cases}" },
             { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan (eliminasi $y$):" },
             { "tipe": "formula_block", "latex": "5x = 15 \\Rightarrow x = 3" },
-            { "tipe": "paragraph", "text": "Substitusi $x = 3$ ke $x - y = 1$:" },
+            { "tipe": "paragraph", "text": "Substitusi balik $x = 3$ ke persamaan $x - y = 1$:" },
             { "tipe": "formula_block", "latex": "3 - y = 1 \\Rightarrow y = 2" },
             { "tipe": "paragraph", "text": "Jadi solusinya $(3, 2)$." }
           ]
@@ -228,22 +236,16 @@
           "tipe": "example",
           "judul": "Contoh 3: Soal Cerita",
           "konten": [
-            { "tipe": "paragraph", "text": "Harga 2 buku dan 3 pensil adalah Rp18.000. Harga 3 buku dan 1 pensil adalah Rp19.000. Tentukan harga satu buku dan satu pensil." },
+            { "tipe": "paragraph", "text": "Harga 2 buku dan 3 pensil adalah Rp19.000. Harga 3 buku dan 1 pensil adalah Rp18.000. Tentukan harga satu buku dan satu pensil." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Misalkan $x$ = harga buku, $y$ = harga pensil (dalam ribuan rupiah)." },
-            { "tipe": "formula_block", "latex": "\\begin{cases} 2x + 3y = 18 \\\\ 3x + y = 19 \\end{cases}" },
-            { "tipe": "paragraph", "text": "Dari persamaan kedua: $y = 19 - 3x$." },
+            { "tipe": "formula_block", "latex": "\\begin{cases} 2x + 3y = 19 \\\\ 3x + y = 18 \\end{cases}" },
+            { "tipe": "paragraph", "text": "Dari persamaan kedua: $y = 18 - 3x$." },
             { "tipe": "paragraph", "text": "Substitusi ke persamaan pertama:" },
-            { "tipe": "formula_block", "latex": "2x + 3(19 - 3x) = 18" },
-            { "tipe": "formula_block", "latex": "2x + 57 - 9x = 18 \\Rightarrow -7x = -39 \\Rightarrow x = \\dfrac{39}{7}" },
-            { "tipe": "paragraph", "text": "Hmm, hasilnya tidak bulat. Mari periksa ulang..." },
-            { "tipe": "paragraph", "text": "Eh, seharusnya: $3x + y = 19 \\Rightarrow y = 19 - 3x$. Substitusi:" },
-            { "tipe": "formula_block", "latex": "2x + 3(19 - 3x) = 18 \\Rightarrow 2x + 57 - 9x = 18 \\Rightarrow -7x = -39" },
-            { "tipe": "paragraph", "text": "Karena hasilnya pecahan, mari kita ubah soal agar hasilnya bulat. Misal harga 2 buku + 3 pensil = Rp19.000 dan 3 buku + 1 pensil = Rp18.000." },
-            { "tipe": "paragraph", "text": "Dengan $\\begin{cases} 2x + 3y = 19 \\\\ 3x + y = 18 \\end{cases}$, maka $y = 18 - 3x$. Substitusi:" },
-            { "tipe": "formula_block", "latex": "2x + 3(18 - 3x) = 19 \\Rightarrow 2x + 54 - 9x = 19 \\Rightarrow -7x = -35 \\Rightarrow x = 5" },
-            { "tipe": "formula_block", "latex": "y = 18 - 3(5) = 3" },
-            { "tipe": "paragraph", "text": "Jadi harga 1 buku = Rp5.000 dan 1 pensil = Rp3.000." }
+            { "tipe": "formula_block", "latex": "2x + 3(18 - 3x) = 19" },
+            { "tipe": "formula_block", "latex": "2x + 54 - 9x = 19 \\Rightarrow -7x = -35 \\Rightarrow x = 5" },
+            { "tipe": "paragraph", "text": "Substitusi balik: $y = 18 - 3(5) = 18 - 15 = 3$." },
+            { "tipe": "paragraph", "text": "Jadi harga 1 buku = <b>Rp5.000</b> dan 1 pensil = <b>Rp3.000</b>." }
           ]
         },
         {
@@ -277,7 +279,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "<b>SPLTV</b> adalah kumpulan <b>tiga persamaan linear</b> dengan <b>tiga variabel yang sama</b> (mis. $x, y, z$). Solusinya adalah $(x, y, z)$ yang memenuhi ketiga persamaan sekaligus." },
+          "text": "<b>SPLTV</b> adalah kumpulan <b>tiga persamaan linear</b> dengan <b>tiga variabel yang sama</b> (mis. $x, y, z$). Solusinya adalah $(x, y, z)$ yang memenuhi ketiga persamaan sekaligus."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -309,7 +312,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Kunci SPLTV: saat mengeliminasi dari dua pasangan persamaan, <b>variabel yang dieliminasi harus sama</b>. Kalau tidak, hasilnya tidak akan konsisten." },
+          "text": "Kunci SPLTV: saat mengeliminasi dari dua pasangan persamaan, <b>variabel yang dieliminasi harus sama</b>. Kalau tidak, hasilnya tidak akan konsisten."
+        },
         {
           "tipe": "example",
           "judul": "Contoh 1: SPLTV Sederhana",
@@ -332,17 +336,18 @@
           "tipe": "example",
           "judul": "Contoh 2: Soal Cerita SPLTV",
           "konten": [
-            { "tipe": "paragraph", "text": "Tiga bersaudara — Ani, Budi, dan Citra — memiliki total uang Rp60.000. Uang Ani Rp5.000 lebih banyak dari Budi. Uang Citra dua kali uang Budi. Berapa uang masing-masing?" },
+            { "tipe": "paragraph", "text": "Tiga bersaudara — Ani, Budi, dan Citra — memiliki total uang Rp65.000. Uang Ani Rp5.000 lebih banyak dari Budi. Uang Citra dua kali uang Budi. Berapa uang masing-masing?" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Misalkan $a$ = uang Ani, $b$ = uang Budi, $c$ = uang Citra (dalam ribuan rupiah)." },
-            { "tipe": "formula_block", "latex": "\\begin{cases} a + b + c = 60 \\\\ a - b = 5 \\\\ c = 2b \\end{cases}" },
+            { "tipe": "formula_block", "latex": "\\begin{cases} a + b + c = 65 \\\\ a - b = 5 \\\\ c = 2b \\end{cases}" },
+            { "tipe": "paragraph", "text": "Dari persamaan kedua: $a = b + 5$." },
             { "tipe": "paragraph", "text": "Substitusi $a = b + 5$ dan $c = 2b$ ke persamaan pertama:" },
-            { "tipe": "formula_block", "latex": "(b + 5) + b + 2b = 60" },
-            { "tipe": "formula_block", "latex": "4b + 5 = 60 \\Rightarrow 4b = 55 \\Rightarrow b = 13{,}75" },
-            { "tipe": "paragraph", "text": "Hmm, hasilnya pecahan. Mari kita ubah soal agar rapi. Misal total Rp65.000:" },
-            { "tipe": "formula_block", "latex": "(b + 5) + b + 2b = 65 \\Rightarrow 4b = 60 \\Rightarrow b = 15" },
-            { "tipe": "formula_block", "latex": "a = 20, \\quad c = 30" },
-            { "tipe": "paragraph", "text": "Jadi: Ani = Rp20.000, Budi = Rp15.000, Citra = Rp30.000." }
+            { "tipe": "formula_block", "latex": "(b + 5) + b + 2b = 65" },
+            { "tipe": "formula_block", "latex": "4b + 5 = 65 \\Rightarrow 4b = 60 \\Rightarrow b = 15" },
+            { "tipe": "paragraph", "text": "Substitusi balik:" },
+            { "tipe": "formula_block", "latex": "a = b + 5 = 15 + 5 = 20" },
+            { "tipe": "formula_block", "latex": "c = 2b = 2(15) = 30" },
+            { "tipe": "paragraph", "text": "Jadi: Ani = <b>Rp20.000</b>, Budi = <b>Rp15.000</b>, Citra = <b>Rp30.000</b>." }
           ]
         },
         {
@@ -375,7 +380,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "<b>Pertidaksamaan</b> mirip persamaan, tapi menggunakan tanda <b>ketidaksamaan</b> bukan tanda sama dengan." },
+          "text": "<b>Pertidaksamaan</b> mirip persamaan, tapi menggunakan tanda <b>ketidaksamaan</b> bukan tanda sama dengan."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -416,7 +422,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "⚠️ <b>Perhatian:</b> yang paling sering salah adalah saat mengalikan atau membagi dengan bilangan negatif — tanda harus dibalik!" },
+          "text": "⚠️ <b>Perhatian:</b> yang paling sering salah adalah saat mengalikan atau membagi dengan bilangan negatif — tanda harus dibalik!"
+        },
         {
           "tipe": "heading",
           "level": 2,
@@ -424,7 +431,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Solusi pertidaksamaan biasanya ditulis dalam bentuk <b>interval</b>:" },
+          "text": "Solusi pertidaksamaan biasanya ditulis dalam bentuk <b>interval</b>:"
+        },
         {
           "tipe": "list",
           "ordered": false,
@@ -501,7 +509,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "<b>Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)</b> adalah kumpulan dua atau lebih pertidaksamaan linear dengan dua variabel. Solusinya bukan titik, melainkan <b>daerah</b> di bidang kartesius yang memenuhi semua pertidaksamaan." },
+          "text": "<b>Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)</b> adalah kumpulan dua atau lebih pertidaksamaan linear dengan dua variabel. Solusinya bukan titik, melainkan <b>daerah</b> di bidang kartesius yang memenuhi semua pertidaksamaan."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -542,7 +551,7 @@
         {
           "tipe": "image",
           "src": "images/kelas10/sistem-persamaan-linear/sptldv-daerah.png",
-          "caption": "Contoh daerah penyelesaian sistem pertidaksamaan: $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$",
+          "caption": "Contoh daerah penyelesaian sistem pertidaksamaan: $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$. Titik uji $(1, 1)$ memenuhi karena $1 + 1 = 2 \\leq 4$",
           "width": "full"
         },
         {
@@ -564,9 +573,9 @@
           "konten": [
             { "tipe": "paragraph", "text": "Seorang pedagang menjual dua jenis kue. Kue A butuh 200g tepung dan 100g gula. Kue B butuh 100g tepung dan 200g gula. Persediaan: 4kg tepung dan 4kg gula. Tuliskan model matematikanya." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "paragraph", "text": "Misal $x$ = jumlah kue A, $y$ = jumlah kue B (dalam satuan yang konsisten)." },
+            { "tipe": "paragraph", "text": "Misal $x$ = jumlah kue A, $y$ = jumlah kue B (dalam satuan 100g)." },
             { "tipe": "formula_block", "latex": "\\begin{cases} 2x + y \\leq 40 \\\\ x + 2y \\leq 40 \\\\ x \\geq 0 \\\\ y \\geq 0 \\end{cases}" },
-            { "tipe": "paragraph", "text": "(konversi gram ke satuan 100g: 4kg = 40 × 100g)" }
+            { "tipe": "paragraph", "text": "(konversi: 4 kg = 40 × 100 gram)" }
           ]
         },
         {
@@ -600,7 +609,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Sistem persamaan linear adalah salah satu alat paling praktis dalam matematika. Banyak masalah nyata bisa diselesaikan dengan memodelkannya sebagai SPLDV atau SPLTV." },
+          "text": "Sistem persamaan linear adalah salah satu alat paling praktis dalam matematika. Banyak masalah nyata bisa diselesaikan dengan memodelkannya sebagai SPLDV atau SPLTV."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -608,7 +618,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Ketika kita tahu total harga beberapa kombinasi barang, kita bisa menentukan harga satuan tiap barang." },
+          "text": "Ketika kita tahu total harga beberapa kombinasi barang, kita bisa menentukan harga satuan tiap barang."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -616,7 +627,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Mencampur dua larutan dengan konsentrasi berbeda untuk mendapatkan konsentrasi tertentu — ini SPLDV klasik." },
+          "text": "Mencampur dua larutan dengan konsentrasi berbeda untuk mendapatkan konsentrasi tertentu — ini SPLDV klasik."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -624,7 +636,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Dua kendaraan bergerak dari titik berbeda. Kapan dan di mana mereka bertemu? Ini bisa diselesaikan dengan SPLDV." },
+          "text": "Dua kendaraan bergerak dari titik berbeda. Kapan dan di mana mereka bertemu? Ini bisa diselesaikan dengan SPLDV."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -632,7 +645,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Pabrik ingin memaksimalkan keuntungan dengan kendala bahan baku. Ini adalah aplikasi SPtLDV (program linear)." },
+          "text": "Pabrik ingin memaksimalkan keuntungan dengan kendala bahan baku. Ini adalah aplikasi SPtLDV (program linear)."
+        },
         {
           "tipe": "example",
           "judul": "Contoh 1: Masalah Campuran",
@@ -668,11 +682,18 @@
             { "tipe": "paragraph", "text": "Sebuah toko roti membuat dua jenis roti. Roti A butuh 2 jam fermentasi, roti B butuh 1 jam. Tersedia 8 jam. Roti A untung Rp3.000, roti B untung Rp2.000. Kalau minimal harus bikin 2 roti B, berapa roti A dan B untuk keuntungan maksimum?" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Model: maksimumkan $L = 3000x + 2000y$ dengan kendala:" },
-            { "tipe": "formula_block", "latex": "\\begin{cases} 2x + y \\leq 8 \\\\ y \\geq 2 \\\\ x, y \\geq 0 \\end{cases}" },
-            { "tipe": "paragraph", "text": "Titik-titik sudut daerah: $(0, 2)$, $(4, 0)$, $(3, 2)$, $(0, 8)$ — cek yang memenuhi $2x+y \\leq 8$ dan $y \\geq 2$." },
-            { "tipe": "paragraph", "text": "Kandidat titik sudut: $(0, 2)$, $(3, 2)$, $(0, 8)$ tidak memenuhi (y=8 > batas)." },
-            { "tipe": "paragraph", "text": "Cek titik-titik: $(0, 2)$ → $L = 4000$; $(3, 2)$ → $L = 13000$." },
-            { "tipe": "paragraph", "text": "Jadi keuntungan maksimum saat membuat <b>3 roti A dan 2 roti B</b> = Rp13.000." }
+            { "tipe": "formula_block", "latex": "\\begin{cases} 2x + y \\leq 8 \\\\ y \\geq 2 \\\\ x \\geq 0 \\\\ y \\geq 0 \\end{cases}" },
+            { "tipe": "paragraph", "text": "Titik sudut daerah penyelesaian yang memenuhi semua kendala:" },
+            { "tipe": "list", "ordered": false, "items": [
+              "$(0, 2)$ — dari $y = 2$ dan $x = 0$",
+              "$(3, 2)$ — dari $2x + y = 8$ dan $y = 2$",
+              "$(4, 2)$ — cek: $2(4) + 2 = 10 > 8$, tidak memenuhi"
+            ]},
+            { "tipe": "paragraph", "text": "Titik sudut yang memenuhi: $(0, 2)$ dan $(3, 2)$." },
+            { "tipe": "paragraph", "text": "Cek nilai keuntungan:" },
+            { "tipe": "formula_block", "latex": "L(0, 2) = 3000(0) + 2000(2) = 4000" },
+            { "tipe": "formula_block", "latex": "L(3, 2) = 3000(3) + 2000(2) = 9000 + 4000 = 13000" },
+            { "tipe": "paragraph", "text": "Jadi keuntungan maksimum saat membuat <b>3 roti A dan 2 roti B</b> = <b>Rp13.000</b>." }
           ]
         },
         {
