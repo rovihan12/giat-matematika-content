@@ -1,0 +1,854 @@
+{
+  "kelas": 11,
+  "kategori": "Limit Fungsi",
+  "emoji": "📈",
+  "warna": "#5B8DEF",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "11-lim-bab-01",
+      "nomor": 1,
+      "judul": "Pengertian Limit",
+      "deskripsi": "Konsep dasar limit dan pendekatan nilai",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Limit?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Limit</b> adalah konsep dasar dalam kalkulus yang menggambarkan <b>nilai pendekatan</b> suatu fungsi ketika variabelnya mendekati nilai tertentu. Kata \"limit\" berarti \"batas\"."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bayangkan kamu berjalan mendekati pintu. Semakin dekat, kamu semakin dekat dengan pintu — tapi tidak harus benar-benar menyentuhnya. Nah, <b>pintu itu</b> adalah limit-nya."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Notasi Limit"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} f(x) = L"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dibaca: \"limit dari $f(x)$ ketika $x$ mendekati $a$ adalah $L$\". Artinya, ketika $x$ semakin dekat ke $a$ (dari kiri atau kanan), nilai $f(x)$ semakin dekat ke $L$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Contoh Sederhana"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Perhatikan fungsi $f(x) = 2x + 1$. Berapa nilai $f(x)$ ketika $x$ mendekati 3?"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$x = 2{,}9 \\Rightarrow f(2{,}9) = 6{,}8$",
+            "$x = 2{,}99 \\Rightarrow f(2{,}99) = 6{,}98$",
+            "$x = 2{,}999 \\Rightarrow f(2{,}999) = 6{,}998$",
+            "$x = 3{,}001 \\Rightarrow f(3{,}001) = 7{,}002$",
+            "$x = 3{,}01 \\Rightarrow f(3{,}01) = 7{,}02$"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Semakin dekat $x$ ke 3, semakin dekat $f(x)$ ke <b>7</b>. Jadi:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 3} (2x + 1) = 7"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Limit Kiri dan Limit Kanan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada dua cara mendekati nilai $a$: <b>dari kiri</b> ($x < a$) dan <b>dari kanan</b> ($x > a$)."
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Limit kiri</b>: $\\lim_{x \\to a^-} f(x)$ — mendekati dari sisi kiri",
+            "<b>Limit kanan</b>: $\\lim_{x \\to a^+} f(x)$ — mendekati dari sisi kanan"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sebuah limit <b>ada</b> jika dan hanya jika limit kiri = limit kanan:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} f(x) = L \\iff \\lim_{x \\to a^-} f(x) = \\lim_{x \\to a^+} f(x) = L"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/limit-fungsi/limit-kiri-kanan.png",
+          "caption": "Ilustrasi limit kiri dan limit kanan — grafik fungsi dengan pendekatan dari dua arah menuju titik $(a, L)$",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Limit Kiri dan Kanan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diberikan fungsi $f(x) = \\begin{cases} x + 1, & x < 2 \\\\ 3x - 3, & x \\geq 2 \\end{cases}$. Tentukan $\\lim_{x \\to 2} f(x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Limit kiri (gunakan $x + 1$ karena $x < 2$):" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 2^-} (x + 1) = 2 + 1 = 3" },
+            { "tipe": "paragraph", "text": "Limit kanan (gunakan $3x - 3$ karena $x \\geq 2$):" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 2^+} (3x - 3) = 3(2) - 3 = 3" },
+            { "tipe": "paragraph", "text": "Karena limit kiri = limit kanan = 3, maka $\\lim_{x \\to 2} f(x) = 3$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kapan Limit Tidak Ada?"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Limit kiri $\\neq$ limit kanan (fungsi \"melompat\")",
+            "Fungsi menuju tak hingga ($\\pm\\infty$) di sekitar titik tersebut",
+            "Fungsi berosilasi sangat cepat (mis. $\\sin(1/x)$ di sekitar 0)"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Limit = nilai pendekatan fungsi",
+            "Notasi: $\\lim_{x \\to a} f(x) = L$",
+            "Limit ada jika limit kiri = limit kanan",
+            "Limit bisa tidak ada jika ada lompatan atau menuju tak hingga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lim-bab-02",
+      "nomor": 2,
+      "judul": "Sifat-Sifat Limit",
+      "deskripsi": "Aturan-aturan dasar dalam menghitung limit",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Sifat-Sifat Limit Fungsi Aljabar"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada beberapa sifat dasar limit yang sangat membantu dalam perhitungan. Kalau $\\lim_{x \\to a} f(x) = L$ dan $\\lim_{x \\to a} g(x) = M$:"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Limit Konstanta"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} k = k"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Limit Identitas"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} x = a"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Limit Penjumlahan/Pengurangan"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} [f(x) \\pm g(x)] = L \\pm M"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Limit Perkalian"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} [f(x) \\cdot g(x)] = L \\cdot M"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "5. Limit Pembagian"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} \\dfrac{f(x)}{g(x)} = \\dfrac{L}{M}, \\quad M \\neq 0"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "6. Limit Pangkat"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} [f(x)]^n = L^n"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "7. Limit Bentuk Akar"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to a} \\sqrt[n]{f(x)} = \\sqrt[n]{L}"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Metode Substitusi Langsung"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk fungsi yang <b>kontinu</b> (tidak ada pembagian nol, akar negatif, dll.), kita bisa langsung <b>substitusi</b> nilai $x = a$."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Substitusi Langsung",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 2} (3x^2 - 4x + 1)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Substitusi langsung $x = 2$:" },
+            { "tipe": "formula_block", "latex": "= 3(2)^2 - 4(2) + 1 = 12 - 8 + 1 = 5" },
+            { "tipe": "paragraph", "text": "Jadi $\\lim_{x \\to 2} (3x^2 - 4x + 1) = 5$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Limit Perkalian & Pembagian",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 3} \\dfrac{x^2 - 4}{x + 1}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Penyebut tidak nol saat $x = 3$, jadi substitusi langsung:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{3^2 - 4}{3 + 1} = \\dfrac{9 - 4}{4} = \\dfrac{5}{4}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Bentuk Akar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 5} \\sqrt{x^2 - 9}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "= \\sqrt{5^2 - 9} = \\sqrt{25 - 9} = \\sqrt{16} = 4" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kapan Substitusi Langsung Gagal?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Substitusi langsung <b>gagal</b> ketika menghasilkan bentuk <b>tak tentu</b>:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\dfrac{0}{0}$ — bentuk tak tentu (paling sering)",
+            "$\\dfrac{\\infty}{\\infty}$ — bentuk tak tentu",
+            "$\\infty - \\infty$ — bentuk tak tentu",
+            "$0 \\cdot \\infty$ — bentuk tak tentu"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk kasus ini, kita perlu <b>manipulasi aljabar</b> atau <b>aturan L'Hôpital</b>. Ini akan dibahas di bab selanjutnya."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Limit punya 7 sifat dasar (konstanta, identitas, penjumlahan, perkalian, pembagian, pangkat, akar)",
+            "Kalau fungsi kontinu, pakai <b>substitusi langsung</b>",
+            "Kalau hasilnya $\\frac{0}{0}$ atau bentuk tak tentu lain, perlu metode khusus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lim-bab-03",
+      "nomor": 3,
+      "judul": "Limit Bentuk Tak Tentu 0/0",
+      "deskripsi": "Metode pemfaktoran dan perkalian sekawan",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Mengapa 0/0 Disebut \"Tak Tentu\"?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bentuk $\\dfrac{0}{0}$ disebut <b>tak tentu</b> karena hasilnya bisa bermacam-macam, tergantung fungsinya. Bisa jadi hasilnya 0, 1, 5, atau bahkan tidak ada. Karena itu, kita tidak bisa langsung menyimpulkan hasilnya."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada 2 metode utama untuk menyelesaikan limit bentuk $\\dfrac{0}{0}$: <b>pemfaktoran</b> dan <b>perkalian sekawan</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Metode 1: Pemfaktoran"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau pembilang dan penyebut bisa difaktorkan, faktorkan dulu lalu <b>coret faktor yang sama</b>."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Pemfaktoran Sederhana",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 2} \\dfrac{x^2 - 4}{x - 2}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kalau substitusi langsung $x = 2$: $\\dfrac{4 - 4}{2 - 2} = \\dfrac{0}{0}$ (tak tentu)." },
+            { "tipe": "paragraph", "text": "Faktorkan pembilang:" },
+            { "tipe": "formula_block", "latex": "\\dfrac{x^2 - 4}{x - 2} = \\dfrac{(x - 2)(x + 2)}{x - 2}" },
+            { "tipe": "paragraph", "text": "Coret faktor $(x - 2)$:" },
+            { "tipe": "formula_block", "latex": "= x + 2" },
+            { "tipe": "paragraph", "text": "Substitusi $x = 2$:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 2} (x + 2) = 2 + 2 = 4" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Faktorkan dengan Rumus ABC",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 3} \\dfrac{x^2 - 5x + 6}{x^2 - 9}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Substitusi $x = 3$: $\\dfrac{9 - 15 + 6}{9 - 9} = \\dfrac{0}{0}$ (tak tentu)." },
+            { "tipe": "paragraph", "text": "Faktorkan pembilang: $x^2 - 5x + 6 = (x - 2)(x - 3)$." },
+            { "tipe": "paragraph", "text": "Faktorkan penyebut: $x^2 - 9 = (x - 3)(x + 3)$." },
+            { "tipe": "formula_block", "latex": "= \\dfrac{(x - 2)(x - 3)}{(x - 3)(x + 3)} = \\dfrac{x - 2}{x + 3}" },
+            { "tipe": "paragraph", "text": "Substitusi $x = 3$:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{3 - 2}{3 + 3} = \\dfrac{1}{6}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Metode 2: Perkalian Sekawan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau ada <b>bentuk akar</b>, kita kalikan dengan <b>sekawan</b>-nya. Sekawan dari $(a - \\sqrt{b})$ adalah $(a + \\sqrt{b})$, dan sebaliknya."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Perkalian Sekawan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 0} \\dfrac{\\sqrt{x + 4} - 2}{x}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Substitusi $x = 0$: $\\dfrac{2 - 2}{0} = \\dfrac{0}{0}$ (tak tentu)." },
+            { "tipe": "paragraph", "text": "Kalikan pembilang & penyebut dengan sekawan $(\\sqrt{x + 4} + 2)$:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{(\\sqrt{x + 4} - 2)(\\sqrt{x + 4} + 2)}{x(\\sqrt{x + 4} + 2)}" },
+            { "tipe": "paragraph", "text": "Gunakan $(a-b)(a+b) = a^2 - b^2$ di pembilang:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{(x + 4) - 4}{x(\\sqrt{x + 4} + 2)} = \\dfrac{x}{x(\\sqrt{x + 4} + 2)}" },
+            { "tipe": "paragraph", "text": "Coret $x$:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{1}{\\sqrt{x + 4} + 2}" },
+            { "tipe": "paragraph", "text": "Substitusi $x = 0$:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{1}{\\sqrt{4} + 2} = \\dfrac{1}{4}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kapan Pakai Metode Apa?"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Pemfaktoran</b> — kalau pembilang & penyebut berbentuk polinomial (bisa difaktorkan)",
+            "<b>Perkalian sekawan</b> — kalau ada bentuk akar ($\\sqrt{\\ldots}$)"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Bentuk $\\frac{0}{0}$ disebut tak tentu",
+            "Metode 1: <b>Pemfaktoran</b> — faktorkan, coret faktor sama, substitusi",
+            "Metode 2: <b>Perkalian sekawan</b> — untuk bentuk akar",
+            "Setelah manipulasi, substitusi langsung bisa dipakai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lim-bab-04",
+      "nomor": 4,
+      "judul": "Limit Fungsi Trigonometri",
+      "deskripsi": "Limit fungsi sin, cos, tan dengan sifat khusus",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Limit Dasar Trigonometri"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada 3 limit dasar trigonometri yang wajib dihafal. Ketiganya menggunakan sudut dalam <b>radian</b>."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 0} \\dfrac{\\sin x}{x} = 1"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 0} \\dfrac{x}{\\sin x} = 1"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 0} \\dfrac{\\tan x}{x} = 1"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dari ketiga limit dasar ini, kita bisa menurunkan banyak limit trigonometri lainnya."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Limit Kosinus"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 0} \\dfrac{1 - \\cos x}{x} = 0"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ini bisa dibuktikan dengan mengalikan sekawan $(1 + \\cos x)$ dan menggunakan identitas $\\sin^2 x + \\cos^2 x = 1$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Limit dengan Sudut Berbentuk $ax$"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau sudutnya berbentuk $ax$ (dengan $a$ konstanta), maka:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 0} \\dfrac{\\sin ax}{bx} = \\dfrac{a}{b}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to 0} \\dfrac{\\tan ax}{bx} = \\dfrac{a}{b}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Pola mudahnya: <b>koefisien pembilang ÷ koefisien penyebut</b>."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/limit-fungsi/limit-sin-x.png",
+          "caption": "Grafik $y = \\sin x$ dan garis $y = x$ di sekitar titik asal — keduanya berimpit saat $x \\to 0$, membuktikan $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Limit Dasar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 0} \\dfrac{\\sin 5x}{3x}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Gunakan rumus $\\lim_{x \\to 0} \\dfrac{\\sin ax}{bx} = \\dfrac{a}{b}$ dengan $a = 5$ dan $b = 3$:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 0} \\dfrac{\\sin 5x}{3x} = \\dfrac{5}{3}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Kalikan dengan Pecahan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 0} \\dfrac{\\sin 3x \\cdot \\tan 2x}{4x^2}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Pisahkan menjadi perkalian dua limit:" },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to 0} \\dfrac{\\sin 3x}{x} \\cdot \\lim_{x \\to 0} \\dfrac{\\tan 2x}{4x}" },
+            { "tipe": "paragraph", "text": "Pecah $\sin 3x$:" },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to 0} \\dfrac{\\sin 3x}{3x} \\cdot \\dfrac{3x}{x} = 3" },
+            { "tipe": "paragraph", "text": "Pecah $\\tan 2x$:" },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to 0} \\dfrac{\\tan 2x}{2x} \\cdot \\dfrac{2x}{4x} = \\dfrac{2}{4} = \\dfrac{1}{2}" },
+            { "tipe": "paragraph", "text": "Kalikan hasilnya:" },
+            { "tipe": "formula_block", "latex": "3 \\times \\dfrac{1}{2} = \\dfrac{3}{2}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Limit Kosinus",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to 0} \\dfrac{1 - \\cos 2x}{x^2}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Gunakan identitas $\\cos 2x = 1 - 2\\sin^2 x$, maka $1 - \\cos 2x = 2\\sin^2 x$." },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to 0} \\dfrac{2\\sin^2 x}{x^2} = 2 \\cdot \\left(\\lim_{x \\to 0} \\dfrac{\\sin x}{x}\\right)^2" },
+            { "tipe": "formula_block", "latex": "= 2 \\cdot 1^2 = 2" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Limit dasar: $\\lim_{x \\to 0} \\frac{\\sin x}{x} = \\lim_{x \\to 0} \\frac{\\tan x}{x} = 1$",
+            "Untuk sudut $ax$: $\\lim_{x \\to 0} \\frac{\\sin ax}{bx} = \\frac{a}{b}$",
+            "Gunakan identitas trigonometri untuk menyederhanakan",
+            "Sudut dalam <b>radian</b>, bukan derajat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lim-bab-05",
+      "nomor": 5,
+      "judul": "Limit di Tak Hingga",
+      "deskripsi": "Limit ketika x menuju tak hingga",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Limit di Tak Hingga?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Limit di tak hingga adalah limit yang variabelnya menuju $+\\infty$ atau $-\\infty$, bukan menuju angka tertentu. Ini menggambarkan <b>perilaku jangka panjang</b> suatu fungsi."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} f(x) = ?"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Limit Dasar di Tak Hingga"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} \\dfrac{1}{x} = 0"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} \\dfrac{k}{x^n} = 0, \\quad n > 0"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Semakin besar $x$, semakin kecil nilai $1/x$. Mendekati nol, tapi tidak pernah benar-benar nol."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Limit Fungsi Rasional di Tak Hingga"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk fungsi rasional $\\dfrac{f(x)}{g(x)}$ dengan $f$ dan $g$ polinomial, ada 3 kasus berdasarkan derajat tertinggi:"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Kasus 1: Derajat Pembilang < Derajat Penyebut"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} \\dfrac{f(x)}{g(x)} = 0"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Kasus 2: Derajat Pembilang = Derajat Penyebut"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} \\dfrac{f(x)}{g(x)} = \\dfrac{\\text{koefisien tertinggi pembilang}}{\\text{koefisien tertinggi penyebut}}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Kasus 3: Derajat Pembilang > Derajat Penyebut"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\lim_{x \\to \\infty} \\dfrac{f(x)}{g(x)} = \\pm\\infty"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Tanda $\\pm$ tergantung koefisien tertinggi dan arah $x$ (positif atau negatif)."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/limit-fungsi/limit-tak-hingga.png",
+          "caption": "Perbandingan grafik fungsi rasional di tak hingga: derajat bawah lebih kecil → menuju 0; derajat sama → menuju konstanta; derajat atas lebih besar → menuju tak hingga",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Derajat Sama",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to \\infty} \\dfrac{3x^2 + 2x - 5}{2x^2 - x + 1}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Derajat pembilang = derajat penyebut = 2." },
+            { "tipe": "paragraph", "text": "Ambil perbandingan koefisien tertinggi:" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{3}{2}" },
+            { "tipe": "paragraph", "text": "Jadi limitnya adalah $\\dfrac{3}{2}$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Derajat Pembilang Lebih Kecil",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to \\infty} \\dfrac{2x + 3}{x^2 - 4}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Derajat pembilang = 1, derajat penyebut = 2." },
+            { "tipe": "paragraph", "text": "Karena derajat atas < derajat bawah:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to \\infty} \\dfrac{2x + 3}{x^2 - 4} = 0" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Derajat Pembilang Lebih Besar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to \\infty} \\dfrac{x^3 + 1}{x^2 + 2}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Derajat pembilang = 3, derajat penyebut = 2." },
+            { "tipe": "paragraph", "text": "Karena derajat atas > derajat bawah:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to \\infty} \\dfrac{x^3 + 1}{x^2 + 2} = \\infty" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Limit Bentuk Akar di Tak Hingga"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk bentuk akar, gunakan trik <b>bagi dengan pangkat tertinggi</b> atau <b>kalikan sekawan</b>."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 4: Bentuk Akar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\lim_{x \\to \\infty} (\\sqrt{x^2 + 3x} - x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Bentuk $\\infty - \\infty$ (tak tentu). Kalikan dengan sekawan:" },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to \\infty} \\dfrac{(\\sqrt{x^2 + 3x} - x)(\\sqrt{x^2 + 3x} + x)}{\\sqrt{x^2 + 3x} + x}" },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to \\infty} \\dfrac{x^2 + 3x - x^2}{\\sqrt{x^2 + 3x} + x} = \\lim_{x \\to \\infty} \\dfrac{3x}{\\sqrt{x^2 + 3x} + x}" },
+            { "tipe": "paragraph", "text": "Bagi pembilang & penyebut dengan $x$ (karena $x \\to +\\infty$, $\\sqrt{x^2} = x$):" },
+            { "tipe": "formula_block", "latex": "= \\lim_{x \\to \\infty} \\dfrac{3}{\\sqrt{1 + 3/x} + 1} = \\dfrac{3}{1 + 1} = \\dfrac{3}{2}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Limit dasar: $\\lim_{x \\to \\infty} \\frac{1}{x^n} = 0$",
+            "Derajat atas < bawah → limit = 0",
+            "Derajat atas = bawah → limit = perbandingan koefisien tertinggi",
+            "Derajat atas > bawah → limit = $\\pm\\infty$",
+            "Untuk bentuk akar, kalikan sekawan atau bagi pangkat tertinggi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lim-bab-06",
+      "nomor": 6,
+      "judul": "Kontinuitas Fungsi",
+      "deskripsi": "Kapan fungsi disebut kontinu dan penerapannya",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Fungsi Kontinu?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Fungsi disebut <b>kontinu</b> di titik $x = a$ kalau grafiknya <b>tidak terputus</b> di titik itu — bisa digambar tanpa mengangkat pensil dari kertas."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Syarat Kontinuitas"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Fungsi $f(x)$ kontinu di $x = a$ jika dan hanya jika <b>ketiga syarat</b> ini terpenuhi:"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "$f(a)$ <b>terdefinisi</b> (ada nilainya)",
+            "$\\lim_{x \\to a} f(x)$ <b>ada</b> (limit kiri = limit kanan)",
+            "$\\lim_{x \\to a} f(x) = f(a)$ (nilai limit sama dengan nilai fungsi)"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika salah satu syarat tidak terpenuhi, fungsi <b>tidak kontinu</b> (diskontinu) di titik tersebut."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/limit-fungsi/kontinuitas.png",
+          "caption": "Tiga jenis diskontinuitas: (1) lubang — limit ada tapi f(a) tidak ada; (2) lompatan — limit kiri ≠ limit kanan; (3) asimtot — fungsi menuju tak hingga",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Jenis-Jenis Diskontinuitas"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Diskontinuitas yang Dapat Dihilangkan (Lubang)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Terjadi kalau $\\lim_{x \\to a} f(x)$ ada, tapi $f(a)$ tidak terdefinisi. Contoh: $f(x) = \\dfrac{x^2 - 1}{x - 1}$ di $x = 1$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Fungsi ini punya lubang di $x = 1$ (limit = 2, tapi $f(1)$ tidak terdefinisi). Bisa \"diperbaiki\" dengan mendefinisikan ulang $f(1) = 2$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Diskontinuitas Lompatan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Limit kiri $\\neq$ limit kanan. Grafik fungsi \"melompat\" dari satu nilai ke nilai lain. Tidak bisa diperbaiki."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Diskontinuitas Tak Hingga"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Fungsi menuju $\\pm\\infty$ di sekitar titik tersebut. Contoh: $f(x) = \\dfrac{1}{x}$ di $x = 0$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Kontinuitas Fungsi Umum"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Polinomial</b> $f(x) = ax^n + \\ldots$ → kontinu di semua titik",
+            "<b>Rasional</b> $f(x) = \\frac{p(x)}{q(x)}$ → kontinu kecuali di $q(x) = 0$",
+            "<b>Trigonometri</b> $\\sin x$, $\\cos x$ → kontinu di semua titik. $\\tan x$ tidak kontinu di $x = \\frac{\\pi}{2} + k\\pi$",
+            "<b>Eksponen & logaritma</b> → kontinu di domain masing-masing"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Cek Kontinuitas",
+          "konten": [
+            { "tipe": "paragraph", "text": "Apakah $f(x) = x^2 - 3x + 2$ kontinu di $x = 2$?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Cek 3 syarat:" },
+            { "tipe": "list", "ordered": false, "items": [
+              "Syarat 1: $f(2) = 4 - 6 + 2 = 0$ ✅ terdefinisi",
+              "Syarat 2: $\\lim_{x \\to 2} (x^2 - 3x + 2) = 0$ ✅ ada",
+              "Syarat 3: $\\lim_{x \\to 2} f(x) = f(2) = 0$ ✅ sama"
+            ]},
+            { "tipe": "paragraph", "text": "Kesimpulan: fungsi <b>kontinu</b> di $x = 2$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Fungsi Tidak Kontinu",
+          "konten": [
+            { "tipe": "paragraph", "text": "Apakah $f(x) = \\dfrac{x - 1}{x^2 - 1}$ kontinu di $x = 1$?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Substitusi $x = 1$: $f(1) = \\dfrac{0}{0}$ <b>tidak terdefinisi</b>." },
+            { "tipe": "paragraph", "text": "Syarat 1 gagal. Jadi fungsi <b>tidak kontinu</b> di $x = 1$ (ada lubang)." },
+            { "tipe": "paragraph", "text": "Tapi limitnya ada:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 1} \\dfrac{x - 1}{(x-1)(x+1)} = \\lim_{x \\to 1} \\dfrac{1}{x + 1} = \\dfrac{1}{2}" },
+            { "tipe": "paragraph", "text": "Jadi ini diskontinuitas yang dapat dihilangkan (lubang) — bisa diperbaiki dengan mendefinisikan $f(1) = \\frac{1}{2}$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Mencari Nilai agar Kontinu",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan nilai $k$ agar fungsi $f(x) = \\begin{cases} x^2 + 1, & x < 2 \\\\ kx, & x \\geq 2 \\end{cases}$ kontinu di $x = 2$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Syarat kontinu: limit kiri = limit kanan = nilai fungsi di $x = 2$." },
+            { "tipe": "paragraph", "text": "Limit kiri:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 2^-} (x^2 + 1) = 4 + 1 = 5" },
+            { "tipe": "paragraph", "text": "Limit kanan dan nilai fungsi:" },
+            { "tipe": "formula_block", "latex": "\\lim_{x \\to 2^+} (kx) = 2k, \\quad f(2) = 2k" },
+            { "tipe": "paragraph", "text": "Agar kontinu: $2k = 5 \\Rightarrow k = \\dfrac{5}{2}$." },
+            { "tipe": "paragraph", "text": "Jadi nilai $k$ yang memenuhi adalah $\\dfrac{5}{2}$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Fungsi kontinu = grafiknya tidak terputus",
+            "3 syarat kontinu: $f(a)$ ada, $\\lim f(x)$ ada, keduanya sama",
+            "Tiga jenis diskontinuitas: lubang, lompatan, tak hingga",
+            "Polinomial, sin, cos selalu kontinu di mana saja"
+          ]
+        }
+      ]
+    }
+  ]
+}
