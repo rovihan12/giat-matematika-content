@@ -1,0 +1,813 @@
+{
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "emoji": "📐",
+  "warna": "#E53935",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "12-trn-bab-01",
+      "nomor": 1,
+      "judul": "Konsep Dasar Turunan",
+      "deskripsi": "Definisi turunan sebagai limit dan makna geometrisnya",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Turunan?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Turunan</b> (derivatif) adalah laju perubahan suatu fungsi terhadap variabelnya. Konsep ini dibangun di atas <b>limit</b>. Secara geometris, turunan di satu titik = <b>kemiringan garis singgung</b> di titik itu."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh intuitif: kalau $s(t)$ menyatakan posisi benda pada waktu $t$, maka turunannya $s'(t)$ menyatakan <b>kecepatan</b> benda pada saat itu."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Definisi Formal"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "f'(x) = \\lim_{h \\to 0} \\dfrac{f(x + h) - f(x)}{h}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Notasi turunan: $f'(x)$, $\\dfrac{dy}{dx}$, atau $y'$ — semuanya berarti sama."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/turunan-fungsi/konsep-turunan.png",
+          "caption": "Turunan sebagai kemiringan garis singgung. Garis secan (melalui dua titik) berubah menjadi garis singgung saat h → 0",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Makna Geometris: Garis Singgung"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bayangkan kurva $y = f(x)$. Ambil dua titik: $(x, f(x))$ dan $(x + h, f(x+h))$. Garis yang menghubungkan keduanya disebut <b>garis secan</b> dengan kemiringan:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "m = \\dfrac{f(x + h) - f(x)}{h}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $h \\to 0$, garis secan berubah menjadi <b>garis singgung</b> di titik $x$. Kemiringannya adalah $f'(x)$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Persamaan Garis Singgung"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "y - f(a) = f'(a)(x - a)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Garis singgung di titik $(a, f(a))$ memiliki kemiringan $f'(a)$."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Turunan sebagai Laju Perubahan"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Fisika</b>: turunan posisi = kecepatan; turunan kecepatan = percepatan",
+            "<b>Ekonomi</b>: turunan biaya total = biaya marginal",
+            "<b>Biologi</b>: turunan populasi = laju pertumbuhan",
+            "<b>Kimia</b>: turunan konsentrasi = laju reaksi"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Turunan dengan Definisi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan turunan dari $f(x) = x^2$ dengan menggunakan definisi limit." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "f'(x) = \\lim_{h \\to 0} \\dfrac{(x+h)^2 - x^2}{h}" },
+            { "tipe": "formula_block", "latex": "= \\lim_{h \\to 0} \\dfrac{x^2 + 2xh + h^2 - x^2}{h}" },
+            { "tipe": "formula_block", "latex": "= \\lim_{h \\to 0} \\dfrac{2xh + h^2}{h} = \\lim_{h \\to 0} (2x + h)" },
+            { "tipe": "formula_block", "latex": "= 2x" },
+            { "tipe": "paragraph", "text": "Jadi $f'(x) = 2x$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Garis Singgung",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan persamaan garis singgung kurva $y = x^2$ di titik $(2, 4)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Turunan: $y' = 2x$." },
+            { "tipe": "paragraph", "text": "Kemiringan di $x = 2$: $m = 2(2) = 4$." },
+            { "tipe": "paragraph", "text": "Persamaan garis singgung:" },
+            { "tipe": "formula_block", "latex": "y - 4 = 4(x - 2)" },
+            { "tipe": "formula_block", "latex": "y = 4x - 4" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Turunan = laju perubahan fungsi = kemiringan garis singgung",
+            "Definisi: $f'(x) = \\lim_{h \\to 0} \\dfrac{f(x+h) - f(x)}{h}$",
+            "Notasi: $f'(x)$, $\\dfrac{dy}{dx}$, atau $y'$",
+            "Aplikasi: kecepatan, biaya marginal, laju pertumbuhan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-02",
+      "nomor": 2,
+      "judul": "Aturan Turunan Dasar",
+      "deskripsi": "Rumus turunan untuk berbagai jenis fungsi",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Aturan Turunan yang Wajib Dihafal"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Menghitung turunan dengan definisi limit itu <b>lama</b>. Untungnya ada aturan-aturan praktis yang bisa langsung dipakai."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Aturan Konstanta"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(c) = 0"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Turunan konstanta selalu nol — konstanta tidak berubah."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Aturan Pangkat"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(x^n) = n \\cdot x^{n-1}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Contoh: $\\dfrac{d}{dx}(x^5) = 5x^4$. Turunkan pangkat, kurangi pangkat dengan 1."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Aturan Kelipatan Konstanta"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(c \\cdot f(x)) = c \\cdot f'(x)"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Aturan Jumlah dan Selisih"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}[f(x) \\pm g(x)] = f'(x) \\pm g'(x)"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "5. Aturan Perkalian (Product Rule)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}[f(x) \\cdot g(x)] = f'(x) g(x) + f(x) g'(x)"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "6. Aturan Pembagian (Quotient Rule)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}\\left[\\dfrac{f(x)}{g(x)}\\right] = \\dfrac{f'(x) g(x) - f(x) g'(x)}{[g(x)]^2}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "7. Aturan Rantai (Chain Rule)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk fungsi komposisi. Turunkan fungsi luar dulu (dengan argumen tetap), lalu kalikan dengan turunan fungsi dalam."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/turunan-fungsi/aturan-turunan.png",
+          "caption": "Tujuh aturan dasar turunan: konstanta, pangkat, kelipatan, jumlah/selisih, perkalian, pembagian, dan rantai",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Turunan Fungsi Trigonometri"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(\\sin x) = \\cos x"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(\\cos x) = -\\sin x"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(\\tan x) = \\sec^2 x"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Turunan Fungsi Eksponensial dan Logaritma"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(e^x) = e^x"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(a^x) = a^x \\ln a"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}(\\ln x) = \\dfrac{1}{x}"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Aturan Pangkat & Jumlah",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan turunan dari $f(x) = 3x^4 - 2x^3 + 5x - 7$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "f'(x) = 12x^3 - 6x^2 + 5" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Aturan Perkalian",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan turunan dari $f(x) = (x^2 + 1)(x^3 - 2)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Misalkan $u = x^2 + 1$ dan $v = x^3 - 2$." },
+            { "tipe": "paragraph", "text": "$u' = 2x$, $v' = 3x^2$." },
+            { "tipe": "formula_block", "latex": "f'(x) = u'v + uv'" },
+            { "tipe": "formula_block", "latex": "= (2x)(x^3 - 2) + (x^2 + 1)(3x^2)" },
+            { "tipe": "formula_block", "latex": "= 2x^4 - 4x + 3x^4 + 3x^2 = 5x^4 + 3x^2 - 4x" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Aturan Rantai",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan turunan dari $f(x) = (2x + 1)^5$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Fungsi luar: $u^5$ dengan $u = 2x + 1$." },
+            { "tipe": "paragraph", "text": "Turunan fungsi luar: $5u^4$." },
+            { "tipe": "paragraph", "text": "Turunan fungsi dalam: $u' = 2$." },
+            { "tipe": "formula_block", "latex": "f'(x) = 5(2x+1)^4 \\cdot 2 = 10(2x+1)^4" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Pangkat: $\\dfrac{d}{dx}(x^n) = nx^{n-1}$",
+            "Perkalian: $(uv)' = u'v + uv'$",
+            "Pembagian: $(u/v)' = (u'v - uv')/v^2$",
+            "Rantai: $\\dfrac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$",
+            "Trigonometri: $(\\sin x)' = \\cos x$, $(\\cos x)' = -\\sin x$",
+            "Eksponen: $(e^x)' = e^x$, $(\\ln x)' = 1/x$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-03",
+      "nomor": 3,
+      "judul": "Turunan Tingkat Tinggi",
+      "deskripsi": "Turunan kedua, ketiga, dan seterusnya",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Turunan Tingkat Tinggi?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Turunan bisa diturunkan <b>lagi</b>. Turunan dari turunan disebut <b>turunan kedua</b>, dan seterusnya. Notasinya: $f''(x)$, $f'''(x)$, atau $f^{(n)}(x)$ untuk orde ke-$n$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Notasi"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "y', y'', y''', \\ldots, y^{(n)}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{dy}{dx}, \\dfrac{d^2y}{dx^2}, \\dfrac{d^3y}{dx^3}, \\ldots"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Makna Fisik Turunan Kedua"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau posisi $s(t)$ punya turunan pertama = <b>kecepatan</b>, maka turunan kedua = <b>percepatan</b>."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "s'(t) = v(t) \\quad \\text{(kecepatan)}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "s''(t) = v'(t) = a(t) \\quad \\text{(percepatan)}"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Turunan Kedua",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan turunan pertama dan kedua dari $f(x) = x^4 - 3x^2 + 2x$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "f'(x) = 4x^3 - 6x + 2" },
+            { "tipe": "formula_block", "latex": "f''(x) = 12x^2 - 6" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Aplikasi Fisika",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah benda bergerak dengan posisi $s(t) = t^3 - 6t^2 + 9t$ (dalam meter, t detik). Tentukan kecepatan dan percepatan pada $t = 2$ detik." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kecepatan:" },
+            { "tipe": "formula_block", "latex": "v(t) = s'(t) = 3t^2 - 12t + 9" },
+            { "tipe": "formula_block", "latex": "v(2) = 12 - 24 + 9 = -3 \\text{ m/detik}" },
+            { "tipe": "paragraph", "text": "Percepatan:" },
+            { "tipe": "formula_block", "latex": "a(t) = s''(t) = 6t - 12" },
+            { "tipe": "formula_block", "latex": "a(2) = 0 \\text{ m/detik}^2" },
+            { "tipe": "paragraph", "text": "Pada $t = 2$, benda bergerak mundur dengan kecepatan 3 m/detik, dan percepatannya nol." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Turunan kedua: turunan dari turunan pertama",
+            "Notasi: $f''(x)$ atau $\\dfrac{d^2y}{dx^2}$",
+            "Fisika: posisi → kecepatan → percepatan",
+            "Turunan tingkat tinggi sering muncul di aplikasi teknik"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-04",
+      "nomor": 4,
+      "judul": "Aplikasi Turunan: Nilai Ekstrem",
+      "deskripsi": "Menentukan nilai maksimum dan minimum fungsi",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Nilai Ekstrem?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Nilai ekstrem</b> adalah nilai <b>maksimum</b> atau <b>minimum</b> suatu fungsi. Turunan membantu kita menemukannya — ini salah satu aplikasi paling penting dari turunan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Titik Stasioner"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Titik stasioner adalah titik di mana turunan pertama = 0:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "f'(x) = 0"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Di titik ini, garis singgung <b>horizontal</b>. Ada 3 jenis titik stasioner:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Maksimum lokal</b>: puncak 'bukit', fungsi naik lalu turun",
+            "<b>Minimum lokal</b>: dasar 'lembah', fungsi turun lalu naik",
+            "<b>Titik belok</b>: fungsi berhenti sesaat lalu lanjut naik/turun"
+          ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/turunan-fungsi/titik-stasioner.png",
+          "caption": "Tiga jenis titik stasioner pada kurva: maksimum lokal (puncak), minimum lokal (lembah), dan titik belok (inflection point)",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Uji Turunan Pertama"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk menentukan jenis titik stasioner, periksa tanda $f'(x)$ di sekitar titik itu:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$f'$ berubah dari <b>+</b> ke <b>−</b> → <b>maksimum lokal</b>",
+            "$f'$ berubah dari <b>−</b> ke <b>+</b> → <b>minimum lokal</b>",
+            "Tanda $f'$ tidak berubah → <b>titik belok</b>"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Uji Turunan Kedua"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Cara lebih cepat: hitung $f''(x)$ di titik stasioner:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$f''(a) < 0$ → <b>maksimum lokal</b> (kurva cekung ke bawah)",
+            "$f''(a) > 0$ → <b>minimum lokal</b> (kurva cekung ke atas)",
+            "$f''(a) = 0$ → uji lebih lanjut (kemungkinan titik belok)"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Langkah Mencari Nilai Ekstrem"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "Cari turunan pertama $f'(x)$",
+            "Selesaikan $f'(x) = 0$ untuk dapat titik stasioner",
+            "Uji jenis titik stasioner (dengan turunan pertama atau kedua)",
+            "Substitusi titik stasioner ke $f(x)$ untuk mendapat nilai ekstrem"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Maksimum Lokal",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan nilai ekstrem dari $f(x) = -x^2 + 4x + 1$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Turunan:" },
+            { "tipe": "formula_block", "latex": "f'(x) = -2x + 4" },
+            { "tipe": "paragraph", "text": "Set $f'(x) = 0$:" },
+            { "tipe": "formula_block", "latex": "-2x + 4 = 0 \\Rightarrow x = 2" },
+            { "tipe": "paragraph", "text": "Uji turunan kedua: $f''(x) = -2 < 0$ → maksimum lokal." },
+            { "tipe": "paragraph", "text": "Nilai maksimum:" },
+            { "tipe": "formula_block", "latex": "f(2) = -4 + 8 + 1 = 5" },
+            { "tipe": "paragraph", "text": "Jadi nilai maksimum lokal = <b>5</b> di $x = 2$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Minimum Lokal",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan nilai ekstrem dari $f(x) = x^3 - 3x^2 + 4$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Turunan:" },
+            { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 6x = 3x(x - 2)" },
+            { "tipe": "paragraph", "text": "Set $f'(x) = 0$: $x = 0$ atau $x = 2$." },
+            { "tipe": "paragraph", "text": "Turunan kedua: $f''(x) = 6x - 6$." },
+            { "tipe": "list", "ordered": false, "items": [
+              "$f''(0) = -6 < 0$ → maksimum lokal di $x = 0$, nilai $f(0) = 4$",
+              "$f''(2) = 6 > 0$ → minimum lokal di $x = 2$, nilai $f(2) = 0$"
+            ]},
+            { "tipe": "paragraph", "text": "Jadi: maksimum lokal = 4 di $x = 0$, minimum lokal = 0 di $x = 2$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Aplikasi: Soal Cerita Optimasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Banyak masalah nyata melibatkan <b>optimasi</b> (mencari nilai maksimum atau minimum). Turunan adalah alat utamanya."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Optimasi Bisnis",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah perusahaan memiliki fungsi keuntungan $L(x) = -2x^2 + 200x - 3000$ (dalam ribu rupiah), di mana $x$ adalah jumlah unit yang diproduksi. Tentukan jumlah produksi yang memberi keuntungan maksimum." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Turunan: $L'(x) = -4x + 200$." },
+            { "tipe": "paragraph", "text": "Set $L'(x) = 0$: $x = 50$." },
+            { "tipe": "paragraph", "text": "Uji turunan kedua: $L''(x) = -4 < 0$ → maksimum." },
+            { "tipe": "paragraph", "text": "Keuntungan maksimum:" },
+            { "tipe": "formula_block", "latex": "L(50) = -2(50)^2 + 200(50) - 3000 = 2000" },
+            { "tipe": "paragraph", "text": "Jadi keuntungan maksimum = <b>Rp2.000.000</b> saat produksi 50 unit." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Titik stasioner: $f'(x) = 0$",
+            "Uji turunan kedua: $f'' < 0$ → maks, $f'' > 0$ → min",
+            "Aplikasi: optimasi bisnis, jarak minimum, luas maksimum",
+            "Selalu cek domain fungsi dalam konteks soal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-05",
+      "nomor": 5,
+      "judul": "Aplikasi Turunan: Kecepatan & Percepatan",
+      "deskripsi": "Turunan dalam gerak benda",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Gerak Lurus dan Turunan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dalam fisika, gerak benda bisa dijelaskan dengan tiga besaran utama yang saling terkait melalui turunan."
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Posisi</b> $s(t)$ — jarak benda dari titik acuan pada waktu $t$",
+            "<b>Kecepatan</b> $v(t) = s'(t)$ — laju perubahan posisi",
+            "<b>Percepatan</b> $a(t) = v'(t) = s''(t)$ — laju perubahan kecepatan"
+          ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/turunan-fungsi/kecepatan-percepatan.png",
+          "caption": "Hubungan posisi, kecepatan, dan percepatan melalui turunan. Posisi diturunkan menjadi kecepatan, kecepatan diturunkan menjadi percepatan",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Tanda Kecepatan dan Percepatan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Tanda $v(t)$ dan $a(t)$ memberi informasi tentang gerak:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$v > 0$ → benda bergerak <b>maju</b> (ke arah positif)",
+            "$v < 0$ → benda bergerak <b>mundur</b>",
+            "$v = 0$ → benda <b>berhenti sesaat</b> (berbalik arah)",
+            "$a > 0$ → benda <b>dipercepat</b>",
+            "$a < 0$ → benda <b>diperlambat</b> (deselerasi)"
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Analisis Gerak",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah partikel bergerak sepanjang garis dengan posisi $s(t) = t^3 - 6t^2 + 9t$ (meter, t detik). Tentukan kapan partikel berhenti dan berapa kecepatannya saat $t = 4$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kecepatan:" },
+            { "tipe": "formula_block", "latex": "v(t) = s'(t) = 3t^2 - 12t + 9 = 3(t-1)(t-3)" },
+            { "tipe": "paragraph", "text": "Partikel berhenti saat $v(t) = 0$, yaitu $t = 1$ atau $t = 3$." },
+            { "tipe": "paragraph", "text": "Kecepatan saat $t = 4$:" },
+            { "tipe": "formula_block", "latex": "v(4) = 3(16) - 12(4) + 9 = 48 - 48 + 9 = 9 \\text{ m/detik}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Kapan Benda Dipercepat?",
+          "konten": [
+            { "tipe": "paragraph", "text": "Dari contoh sebelumnya, tentukan interval waktu saat benda dipercepat." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Percepatan: $a(t) = v'(t) = 6t - 12$." },
+            { "tipe": "paragraph", "text": "Benda dipercepat saat $a(t) > 0$:" },
+            { "tipe": "formula_block", "latex": "6t - 12 > 0 \\Rightarrow t > 2" },
+            { "tipe": "paragraph", "text": "Jadi benda dipercepat pada interval $t > 2$ detik." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Posisi $s(t)$ → kecepatan $v(t) = s'(t)$ → percepatan $a(t) = s''(t)$",
+            "Benda berhenti saat $v(t) = 0$",
+            "Dipercepat saat $a > 0$, diperlambat saat $a < 0$",
+            "Turunan membantu menganalisis gerak secara lengkap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Turunan di Berbagai Bidang",
+      "deskripsi": "Penerapan turunan di ekonomi, biologi, dan teknologi",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Turunan di Sekitar Kita"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Turunan bukan hanya alat matematika — ini bahasa universal untuk menyatakan <b>perubahan</b>. Hampir semua bidang sains & teknologi memakai turunan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Ekonomi: Biaya Marginal"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $C(x)$ adalah biaya total produksi $x$ unit, maka biaya marginal adalah:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "MC(x) = C'(x)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Biaya marginal menyatakan <b>biaya tambahan</b> untuk memproduksi 1 unit ekstra. Ini membantu perusahaan menentukan tingkat produksi optimal."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Biologi: Laju Pertumbuhan Populasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau $P(t)$ adalah populasi pada waktu $t$, maka laju pertumbuhannya adalah $P'(t)$. Model logistik populasi:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{dP}{dt} = rP\\left(1 - \\dfrac{P}{K}\\right)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "dengan $r$ = laju intrinsik dan $K$ = kapasitas lingkungan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Fisika: Hukum Pendinginan Newton"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{dT}{dt} = -k(T - T_{\\text{lingkungan}})"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Laju pendinginan sebanding dengan perbedaan suhu antara objek dan lingkungannya."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Teknologi: Machine Learning"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Algoritma <b>gradient descent</b> — yang melatih AI seperti ChatGPT — menggunakan turunan untuk memperkecil error model. Inti dari deep learning adalah turunan parsial dari miliaran parameter."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "5. Grafika Komputer"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Turunan dipakai untuk menentukan <b>normal vektor</b> di permukaan 3D, sehingga pencahayaan dan bayangan terlihat realistis dalam game dan film animasi."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Biaya Marginal",
+          "konten": [
+            { "tipe": "paragraph", "text": "Biaya total produksi $x$ unit barang adalah $C(x) = 0{,}01x^3 - 0{,}5x^2 + 100x + 5000$ (dalam ribuan rupiah). Tentukan biaya marginal saat produksi 20 unit." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "C'(x) = 0{,}03x^2 - x + 100" },
+            { "tipe": "formula_block", "latex": "C'(20) = 0{,}03(400) - 20 + 100 = 12 - 20 + 100 = 92" },
+            { "tipe": "paragraph", "text": "Jadi biaya marginal = <b>Rp92.000 per unit</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Bola Dilempar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Bola dilempar vertikal dengan ketinggian $h(t) = 20t - 5t^2$ meter. Tentukan ketinggian maksimum dan kapan bola mencapai tanah." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kecepatan: $v(t) = h'(t) = 20 - 10t$." },
+            { "tipe": "paragraph", "text": "Ketinggian maksimum saat $v(t) = 0$:" },
+            { "tipe": "formula_block", "latex": "20 - 10t = 0 \\Rightarrow t = 2" },
+            { "tipe": "formula_block", "latex": "h(2) = 40 - 20 = 20 \\text{ meter}" },
+            { "tipe": "paragraph", "text": "Bola mencapai tanah saat $h(t) = 0$:" },
+            { "tipe": "formula_block", "latex": "20t - 5t^2 = 0 \\Rightarrow 5t(4 - t) = 0" },
+            { "tipe": "paragraph", "text": "Jadi $t = 4$ detik (selain $t = 0$ saat awal)." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Belajar Turunan"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Hafal aturan dasar</b> — pangkat, perkalian, pembagian, rantai",
+            "<b>Latihan banyak variasi</b> — fungsi aljabar, trig, eksponen",
+            "<b>Pahami konsep geometris</b> — turunan = kemiringan garis singgung",
+            "<b>Terapkan ke soal cerita</b> — optimasi, kecepatan, biaya",
+            "<b>Kaitkan dengan limit</b> — turunan adalah limit dari selisih"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Turunan: laju perubahan fungsi terhadap variabelnya",
+            "Aturan: pangkat, perkalian, pembagian, rantai",
+            "Aplikasi: optimasi, kecepatan, biaya marginal, AI",
+            "Turunan adalah fondasi kalkulus & banyak teknologi modern"
+          ]
+        }
+      ]
+    }
+  ]
+}
