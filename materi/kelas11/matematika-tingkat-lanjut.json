@@ -1,0 +1,953 @@
+{
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "emoji": "🎓",
+  "warna": "#7E57C2",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "11-mtl-bab-01",
+      "nomor": 1,
+      "judul": "Bilangan Kompleks",
+      "deskripsi": "Mengenal bilangan imajiner dan operasinya",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Mengapa Perlu Bilangan Kompleks?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Selama ini kita tahu bahwa akar kuadrat dari bilangan negatif <b>tidak terdefinisi</b> di bilangan real. Contoh: $\\sqrt{-1}$ tidak punya solusi real. Tapi di banyak bidang — listrik, fisika kuantum, dan pemrosesan sinyal — kita butuh bilangan yang bisa menangani ini."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Solusinya: perluas sistem bilangan. Kita perkenalkan <b>satuan imajiner</b> $i$, yang didefinisikan sebagai $\\sqrt{-1}$. Dengan ini, $\\sqrt{-4} = 2i$, dan seterusnya."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Definisi Bilangan Kompleks"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "z = a + bi"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$a$ = bagian real (Re(z))",
+            "$b$ = bagian imajiner (Im(z))",
+            "$i$ = satuan imajiner, dengan $i^2 = -1$"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika $b = 0$, maka $z$ adalah bilangan real biasa. Jika $a = 0$ dan $b \\neq 0$, maka $z$ disebut <b>bilangan imajiner murni</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Bidang Kompleks (Diagram Argand)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bilangan kompleks bisa digambarkan sebagai titik di <b>bidang kompleks</b>: sumbu X untuk bagian real, sumbu Y untuk bagian imajiner."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matematika-tingkat-lanjutan/bidang-kompleks.png",
+          "caption": "Diagram Argand: bilangan kompleks z = a + bi digambarkan sebagai titik (a, b) di bidang kompleks",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Operasi pada Bilangan Kompleks"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Penjumlahan dan Pengurangan"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(a + bi) + (c + di) = (a + c) + (b + d)i"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(a + bi) - (c + di) = (a - c) + (b - d)i"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jumlahkan bagian real dengan real, imajiner dengan imajiner."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Perkalian"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(a + bi)(c + di) = ac + adi + bci + bdi^2"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Karena $i^2 = -1$, hasil akhirnya:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "= (ac - bd) + (ad + bc)i"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Pembagian"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk membagi, kalikan dengan <b>konjugat</b> penyebutnya."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Konjugat dari $z = a + bi$ adalah $\\bar{z} = a - bi$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{a + bi}{c + di} = \\dfrac{(a + bi)(c - di)}{(c + di)(c - di)} = \\dfrac{(ac + bd) + (bc - ad)i}{c^2 + d^2}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Modulus dan Konjugat"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "|z| = \\sqrt{a^2 + b^2}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Modulus $|z|$ menyatakan <b>jarak</b> titik $z$ dari titik asal."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "z \\cdot \\bar{z} = |z|^2 = a^2 + b^2"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Operasi Dasar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $z_1 = 3 + 2i$ dan $z_2 = 1 - 4i$. Tentukan $z_1 + z_2$, $z_1 - z_2$, dan $z_1 \\cdot z_2$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "z_1 + z_2 = (3 + 1) + (2 + (-4))i = 4 - 2i" },
+            { "tipe": "formula_block", "latex": "z_1 - z_2 = (3 - 1) + (2 - (-4))i = 2 + 6i" },
+            { "tipe": "formula_block", "latex": "z_1 \\cdot z_2 = (3 + 2i)(1 - 4i) = 3 - 12i + 2i - 8i^2" },
+            { "tipe": "formula_block", "latex": "= 3 - 10i + 8 = 11 - 10i" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Pembagian",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $\\dfrac{2 + i}{1 - i}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\dfrac{2 + i}{1 - i} = \\dfrac{(2 + i)(1 + i)}{(1 - i)(1 + i)} = \\dfrac{2 + 2i + i + i^2}{1 + 1}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{2 + 3i - 1}{2} = \\dfrac{1 + 3i}{2} = \\dfrac{1}{2} + \\dfrac{3}{2}i" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Modulus",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan modulus dari $z = 5 - 12i$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "|z| = \\sqrt{5^2 + (-12)^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Bentuk Polar dan Eksponen"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Selain bentuk $a + bi$, bilangan kompleks juga bisa dinyatakan dalam <b>bentuk polar</b>:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "z = r(\\cos\\theta + i\\sin\\theta) = re^{i\\theta}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "dengan $r = |z|$ dan $\\theta$ adalah <b>argumen</b> (sudut dari sumbu X positif). Bentuk ini sangat berguna untuk perkalian, pembagian, dan pemangkatan bilangan kompleks."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Rumus Euler"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "e^{i\\theta} = \\cos\\theta + i\\sin\\theta"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Salah satu rumus paling indah dalam matematika — menghubungkan bilangan eksponensial dengan trigonometri. Untuk $\\theta = \\pi$: $e^{i\\pi} + 1 = 0$, dikenal sebagai <b>identitas Euler</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Bilangan kompleks: $z = a + bi$ dengan $i^2 = -1$",
+            "Diagram Argand: bidang X-Y dengan sumbu real & imajiner",
+            "Operasi: +, −, ×, ÷ dengan konjugat untuk pembagian",
+            "Modulus: $|z| = \\sqrt{a^2 + b^2}$",
+            "Bentuk polar: $z = re^{i\\theta}$"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mtl-bab-02",
+      "nomor": 2,
+      "judul": "Polinomial",
+      "deskripsi": "Suku banyak, akar, dan operasinya",
+      "estimasi_menit": 22,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Polinomial?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Polinomial</b> (suku banyak) adalah ekspresi matematika yang terdiri dari variabel berpangkat bulat non-negatif dengan koefisien. Bentuk umumnya:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "P(x) = a_n x^n + a_{n-1} x^{n-1} + \\cdots + a_1 x + a_0"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$n$ = derajat polinomial (pangkat tertinggi)",
+            "$a_n$ = koefisien utama, dengan $a_n \\neq 0$",
+            "$a_0$ = konstanta"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Operasi pada Polinomial"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Penjumlahan & Pengurangan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jumlahkan/pengurangkan suku-suku yang <b>sejenis</b> (variabel & pangkat sama)."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Perkalian"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalikan setiap suku dari polinomial pertama dengan setiap suku dari polinomial kedua, lalu sederhanakan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Pembagian"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Pembagian polinomial bisa dilakukan dengan <b>pembagian panjang</b> atau <b>skema Horner</b>."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "P(x) = (x - k) \\cdot H(x) + S"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$P(x)$ = polinomial yang dibagi",
+            "$(x - k)$ = pembagi",
+            "$H(x)$ = hasil bagi",
+            "$S$ = sisa pembagian"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Teorema Sisa dan Teorema Faktor"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Teorema Sisa"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika $P(x)$ dibagi dengan $(x - k)$, maka <b>sisanya</b> adalah $P(k)$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "S = P(k)"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Teorema Faktor"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "$(x - k)$ adalah <b>faktor</b> dari $P(x)$ jika dan hanya jika $P(k) = 0$."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matematika-tingkat-lanjutan/skema-horner.png",
+          "caption": "Skema Horner untuk pembagian polinomial dengan (x - k). Koefisien disusun berurutan, dan hasil bagi serta sisa diperoleh dari perhitungan bertahap",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Pembagian dengan Horner",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan hasil dan sisa pembagian $P(x) = 2x^3 - 3x^2 + 4x - 5$ oleh $(x - 2)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Koefisien: 2, −3, 4, −5. Nilai $k = 2$." },
+            { "tipe": "paragraph", "text": "Skema Horner:" },
+            { "tipe": "formula_block", "latex": "\\begin{array}{c|cccc} & 2 & -3 & 4 & -5 \\\\ 2 & & 4 & 2 & 12 \\\\ \\hline & 2 & 1 & 6 & 7 \\end{array}" },
+            { "tipe": "paragraph", "text": "Hasil bagi: $2x^2 + x + 6$, Sisa: $7$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Teorema Sisa",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan sisa pembagian $P(x) = x^3 - 4x^2 + 5x - 2$ oleh $(x - 3)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Menurut teorema sisa, $S = P(3)$:" },
+            { "tipe": "formula_block", "latex": "P(3) = 27 - 36 + 15 - 2 = 4" },
+            { "tipe": "paragraph", "text": "Jadi sisanya adalah <b>4</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Teorema Faktor",
+          "konten": [
+            { "tipe": "paragraph", "text": "Selidiki apakah $(x - 1)$ adalah faktor dari $P(x) = x^3 - 6x^2 + 11x - 6$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Hitung $P(1)$:" },
+            { "tipe": "formula_block", "latex": "P(1) = 1 - 6 + 11 - 6 = 0" },
+            { "tipe": "paragraph", "text": "Karena $P(1) = 0$, maka $(x - 1)$ adalah <b>faktor</b> dari $P(x)$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Akar-Akar Polinomial"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Akar polinomial adalah nilai $x$ yang membuat $P(x) = 0$. Untuk polinomial berderajat $n$, ada <b>tepat $n$ akar</b> (dihitung dengan multiplisitas)."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Hubungan Akar dan Koefisien (Vieta)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk polinomial kuadrat $ax^2 + bx + c = 0$ dengan akar $x_1, x_2$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "x_1 + x_2 = -\\dfrac{b}{a}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "x_1 \\cdot x_2 = \\dfrac{c}{a}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk kubik $ax^3 + bx^2 + cx + d = 0$ dengan akar $x_1, x_2, x_3$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "x_1 + x_2 + x_3 = -\\dfrac{b}{a}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "x_1 x_2 + x_1 x_3 + x_2 x_3 = \\dfrac{c}{a}"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "x_1 x_2 x_3 = -\\dfrac{d}{a}"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Polinomial: $P(x) = a_n x^n + \\cdots + a_1 x + a_0$",
+            "Teorema sisa: $S = P(k)$ jika dibagi $(x - k)$",
+            "Teorema faktor: $(x - k)$ faktor jika $P(k) = 0$",
+            "Hubungan Vieta menghubungkan akar & koefisien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mtl-bab-03",
+      "nomor": 3,
+      "judul": "Matriks",
+      "deskripsi": "Operasi matriks dan penerapannya",
+      "estimasi_menit": 22,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Matriks?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Matriks</b> adalah susunan bilangan berbentuk persegi panjang yang disusun dalam baris dan kolom. Matriks sangat berguna untuk menyelesaikan sistem persamaan linear, transformasi geometri, dan grafika komputer."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A = \\begin{pmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & \\ddots & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Matriks di atas memiliki $m$ baris dan $n$ kolom, disebut matriks berordo $m \\times n$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Jenis-Jenis Matriks"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Matriks persegi</b> — jumlah baris = jumlah kolom",
+            "<b>Matriks diagonal</b> — elemen di luar diagonal utama nol",
+            "<b>Matriks identitas ($I$)</b> — diagonal utama 1, sisanya 0",
+            "<b>Matriks nol</b> — semua elemen 0",
+            "<b>Matriks simetris</b> — $A = A^T$"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Operasi pada Matriks"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Penjumlahan & Pengurangan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua matriks bisa dijumlahkan/dikurangkan jika <b>ordonya sama</b>. Operasi dilakukan elemen per elemen."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Perkalian dengan Skalar"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Setiap elemen dikalikan dengan skalar $k$: $(kA)_{ij} = k \\cdot a_{ij}$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Perkalian Dua Matriks"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dua matriks bisa dikalikan jika <b>jumlah kolom matriks pertama = jumlah baris matriks kedua</b>. Jika $A$ berordo $m \\times n$ dan $B$ berordo $n \\times p$, maka $AB$ berordo $m \\times p$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "(AB)_{ij} = \\sum_{k=1}^{n} a_{ik} b_{kj}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "⚠️ <b>Penting:</b> perkalian matriks <b>tidak komutatif</b> — $AB \\neq BA$ (pada umumnya)."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Determinan dan Invers"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Determinan Matriks 2×2"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\det(A) = \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Invers Matriks 2×2"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Invers matriks $A$ ada jika $\\det(A) \\neq 0$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "A^{-1} = \\dfrac{1}{ad - bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sifat penting: $A \\cdot A^{-1} = A^{-1} \\cdot A = I$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Determinan Matriks 3×3"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk matriks 3×3, gunakan <b>aturan Sarrus</b> atau <b>ekspansi kofaktor</b>."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\det(A) = a(ei - fh) - b(di - fg) + c(dh - eg)"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matematika-tingkat-lanjutan/aturan-sarrus.png",
+          "caption": "Aturan Sarrus untuk menghitung determinan matriks 3×3 dengan menjumlahkan hasil kali diagonal turun dan mengurangkan hasil kali diagonal naik",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Penerapan: Menyelesaikan SPLDV"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sistem persamaan linear bisa diselesaikan dengan <b>invers matriks</b> atau <b>aturan Cramer</b>."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk sistem $\\begin{cases} ax + by = p \\\\ cx + dy = q \\end{cases}$:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} p \\\\ q \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Solusi: $\\begin{pmatrix} x \\\\ y \\end{pmatrix} = A^{-1} \\begin{pmatrix} p \\\\ q \\end{pmatrix}$."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Operasi Matriks",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 0 & -1 \\\\ 2 & 5 \\end{pmatrix}$. Tentukan $A + B$ dan $A \\cdot B$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "A + B = \\begin{pmatrix} 1+0 & 2+(-1) \\\\ 3+2 & 4+5 \\end{pmatrix} = \\begin{pmatrix} 1 & 1 \\\\ 5 & 9 \\end{pmatrix}" },
+            { "tipe": "formula_block", "latex": "A \\cdot B = \\begin{pmatrix} 1(0)+2(2) & 1(-1)+2(5) \\\\ 3(0)+4(2) & 3(-1)+4(5) \\end{pmatrix} = \\begin{pmatrix} 4 & 9 \\\\ 8 & 17 \\end{pmatrix}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Determinan & Invers",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan invers dari $A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\det(A) = 2(3) - 1(5) = 6 - 5 = 1" },
+            { "tipe": "formula_block", "latex": "A^{-1} = \\dfrac{1}{1} \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: SPLDV dengan Matriks",
+          "konten": [
+            { "tipe": "paragraph", "text": "Selesaikan $\\begin{cases} 2x + y = 7 \\\\ 5x + 3y = 18 \\end{cases}$ dengan matriks." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Dari contoh sebelumnya, $A^{-1} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$." },
+            { "tipe": "formula_block", "latex": "\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} 7 \\\\ 18 \\end{pmatrix} = \\begin{pmatrix} 21 - 18 \\\\ -35 + 36 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Jadi $x = 3$ dan $y = 1$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Matriks: susunan bilangan dalam baris & kolom",
+            "Penjumlahan: ordo harus sama; perkalian: kolom A = baris B",
+            "Determinan 2×2: $ad - bc$",
+            "Invers: $A^{-1} = \\dfrac{1}{\\det(A)} \\text{adj}(A)$",
+            "Aplikasi: menyelesaikan SPLDV, transformasi geometri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mtl-bab-04",
+      "nomor": 4,
+      "judul": "Transformasi Geometri",
+      "deskripsi": "Translasi, refleksi, rotasi, dan dilatasi",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Transformasi Geometri?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Transformasi geometri</b> adalah perubahan posisi, ukuran, atau orientasi suatu objek di bidang. Ada 4 jenis transformasi dasar: <b>translasi</b>, <b>refleksi</b>, <b>rotasi</b>, dan <b>dilatasi</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "1. Translasi (Pergeseran)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Translasi menggeser titik sejauh vektor tertentu tanpa mengubah bentuk atau ukuran."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix} + \\begin{pmatrix} a \\\\ b \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Titik $(x, y)$ digeser sejauh $a$ satuan horizontal dan $b$ satuan vertikal."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "2. Refleksi (Pencerminan)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Refleksi mencerminkan titik terhadap garis tertentu. Rumus tergantung sumbu cerminnya."
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Terhadap sumbu X: $(x, y) \\to (x, -y)$",
+            "Terhadap sumbu Y: $(x, y) \\to (-x, y)$",
+            "Terhadap garis $y = x$: $(x, y) \\to (y, x)$",
+            "Terhadap garis $y = -x$: $(x, y) \\to (-y, -x)$",
+            "Terhadap titik asal: $(x, y) \\to (-x, -y)$"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "3. Rotasi (Perputaran)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Rotasi memutar titik terhadap pusat tertentu (biasanya titik asal) sebesar sudut $\\theta$."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Rotasi $90^\\circ$ berlawanan arah jarum jam:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} -y \\\\ x \\end{pmatrix}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Secara umum, rotasi $\\theta$ berlawanan arah jarum jam:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = \\begin{pmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix}"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "4. Dilatasi (Perkalian)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dilatasi memperbesar atau memperkecil objek terhadap pusat tertentu dengan faktor skala $k$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = k \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} kx \\\\ ky \\end{pmatrix}"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matematika-tingkat-lanjutan/transformasi-geometri.png",
+          "caption": "Empat jenis transformasi geometri: translasi (geser), refleksi (cermin), rotasi (putar), dan dilatasi (perbesar/perkecil)",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Translasi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Titik $A(3, 5)$ ditranslasi oleh vektor $\\begin{pmatrix} 2 \\\\ -4 \\end{pmatrix}$. Tentukan bayangannya." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "A' = \\begin{pmatrix} 3 + 2 \\\\ 5 - 4 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 1 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Jadi bayangannya $A'(5, 1)$." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Refleksi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan bayangan $B(4, -2)$ jika dicerminkan terhadap sumbu X." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Refleksi terhadap sumbu X: $(x, y) \\to (x, -y)$." },
+            { "tipe": "formula_block", "latex": "B' = (4, 2)" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Rotasi",
+          "konten": [
+            { "tipe": "paragraph", "text": "Titik $C(2, 3)$ dirotasi $90^\\circ$ berlawanan arah jarum jam terhadap titik asal. Tentukan bayangannya." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "C' = \\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}" },
+            { "tipe": "paragraph", "text": "Jadi bayangannya $C'(-3, 2)$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Komposisi Transformasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Beberapa transformasi bisa digabungkan. Misal titik $A$ ditranslasi dulu oleh $T_1$, lalu dirotasi oleh $R$ — hasil akhirnya adalah $(R \\circ T_1)(A)$. Komposisi transformasi bisa direpresentasikan sebagai perkalian matriks."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Translasi: geser titik sejauh vektor tertentu",
+            "Refleksi: cerminkan terhadap garis/titik",
+            "Rotasi: putar sebesar sudut $\\theta$ terhadap pusat",
+            "Dilatasi: perbesar/perkecil dengan faktor $k$",
+            "Semua transformasi bisa direpresentasikan dengan matriks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-mtl-bab-05",
+      "nomor": 5,
+      "judul": "Fungsi dan Pemodelan",
+      "deskripsi": "Menggunakan fungsi untuk memodelkan situasi nyata",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Fungsi sebagai Alat Pemodelan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Di dunia nyata, banyak fenomena bisa <b>dimodelkan</b> dengan fungsi matematika. Tujuannya: memahami pola, memprediksi masa depan, atau mengambil keputusan. Ini disebut <b>pemodelan matematika</b>."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Jenis-Jenis Fungsi untuk Pemodelan"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "<b>Fungsi linear</b>: $f(x) = ax + b$ — pertumbuhan konstan (mis. tarif taksi)",
+            "<b>Fungsi kuadrat</b>: $f(x) = ax^2 + bx + c$ — lintasan parabola (mis. proyektil)",
+            "<b>Fungsi eksponensial</b>: $f(x) = a \\cdot b^x$ — pertumbuhan/peluruhan (mis. populasi, bunga majemuk)",
+            "<b>Fungsi logaritma</b>: $f(x) = \\log_b(x)$ — kebalikan dari eksponensial",
+            "<b>Fungsi trigonometri</b>: $f(x) = A\\sin(Bx + C)$ — pola berulang (mis. gelombang, suara)"
+          ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/matematika-tingkat-lanjutan/jenis-fungsi-pemodelan.png",
+          "caption": "Empat jenis fungsi yang sering dipakai untuk pemodelan: linear (pertumbuhan konstan), kuadrat (parabola), eksponensial (pertumbuhan cepat), dan logaritma (pertumbuhan melambat)",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Langkah-Langkah Pemodelan"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Identifikasi masalah</b> — apa yang mau dimodelkan?",
+            "<b>Tentukan variabel</b> — variabel bebas (input) & terikat (output)",
+            "<b>Pilih jenis fungsi</b> — sesuai pola data",
+            "<b>Tentukan parameter</b> — cari nilai koefisien dari data",
+            "<b>Evaluasi model</b> — seberapa akurat model terhadap data asli?",
+            "<b>Interpretasi hasil</b> — apa arti modelnya dalam konteks?"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Contoh Pemodelan: Pertumbuhan Populasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Populasi bakteri berlipat ganda setiap 20 menit. Jika awalnya ada 100 bakteri, kita bisa memodelkan jumlahnya setelah $t$ menit:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "P(t) = 100 \\cdot 2^{t/20}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Model ini adalah fungsi <b>eksponensial</b> karena pertumbuhannya sebanding dengan populasi saat ini."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Bunga Majemuk"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Uang di bank dengan bunga majemuk juga dimodelkan dengan fungsi eksponensial:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "M(t) = M_0 (1 + r)^t"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$M_0$ = modal awal",
+            "$r$ = suku bunga per periode",
+            "$t$ = jumlah periode"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Peluruhan Radioaktif"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Zat radioaktif meluruh dengan laju yang sebanding dengan jumlah zat saat ini:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "N(t) = N_0 \\cdot e^{-\\lambda t}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "dengan $\\lambda$ adalah <b>konstanta peluruhan</b>. Model ini juga eksponensial, tapi dengan pangkat negatif (menurun)."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Bunga Majemuk",
+          "konten": [
+            { "tipe": "paragraph", "text": "Uang Rp10.000.000 diinvestasikan dengan bunga majemuk 8% per tahun. Berapa nilainya setelah 5 tahun?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "M(5) = 10.000.000 \\cdot (1 + 0{,}08)^5" },
+            { "tipe": "formula_block", "latex": "M(5) = 10.000.000 \\cdot (1{,}08)^5 \\approx 10.000.000 \\cdot 1{,}4693" },
+            { "tipe": "formula_block", "latex": "M(5) \\approx 14.693.000" },
+            { "tipe": "paragraph", "text": "Jadi nilainya sekitar <b>Rp14.693.000</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Peluruhan Zat",
+          "konten": [
+            { "tipe": "paragraph", "text": "Suatu zat radioaktif memiliki waktu paruh 10 tahun. Jika awalnya ada 80 gram, berapa gram yang tersisa setelah 30 tahun?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Setiap 10 tahun, jumlah zat berkurang setengah. Setelah 30 tahun = 3 × 10 tahun:" },
+            { "tipe": "formula_block", "latex": "N(30) = 80 \\cdot \\left(\\dfrac{1}{2}\\right)^3 = 80 \\cdot \\dfrac{1}{8} = 10 \\text{ gram}" },
+            { "tipe": "paragraph", "text": "Jadi tersisa <b>10 gram</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Model Biaya",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah perusahaan taksi online menetapkan tarif awal Rp8.000 dan tarif per kilometer Rp4.500. Tentukan model biaya perjalanan sejauh $x$ km, dan hitung biaya perjalanan 12 km." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Model: fungsi linear." },
+            { "tipe": "formula_block", "latex": "B(x) = 8.000 + 4.500x" },
+            { "tipe": "paragraph", "text": "Untuk $x = 12$:" },
+            { "tipe": "formula_block", "latex": "B(12) = 8.000 + 4.500(12) = 8.000 + 54.000 = 62.000" },
+            { "tipe": "paragraph", "text": "Jadi biayanya <b>Rp62.000</b>." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Membuat Model yang Baik"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Mulai dari data</b> — plot dulu, baru tentukan jenis fungsi",
+            "<b>Jangan terlalu rumit</b> — model yang sederhana sering lebih berguna",
+            "<b>Cek asumsi</b> — apakah ada batasan yang perlu dipertimbangkan?",
+            "<b>Validasi</b> — bandingkan prediksi dengan data nyata",
+            "<b>Sebutkan keterbatasan</b> — setiap model punya asumsi yang bisa dilanggar"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Pemodelan = menggunakan matematika untuk memahami situasi nyata",
+            "Jenis fungsi: linear, kuadrat, eksponensial, logaritma, trigonometri",
+            "Langkah: identifikasi → pilih fungsi → tentukan parameter → evaluasi",
+            "Aplikasi: populasi, keuangan, peluruhan, biaya, dan banyak lagi"
+          ]
+        }
+      ]
+    }
+  ]
+}
