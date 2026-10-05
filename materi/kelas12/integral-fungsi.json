@@ -1,0 +1,790 @@
+{
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "emoji": "∫",
+  "warna": "#00897B",
+  "versi": "1.0.0",
+  "bab": [
+    {
+      "id": "12-int-bab-01",
+      "nomor": 1,
+      "judul": "Konsep Dasar Integral",
+      "deskripsi": "Integral sebagai anti-turunan dan notasi integral",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Integral?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Integral</b> adalah operasi kebalikan dari turunan. Kalau turunan mencari laju perubahan, integral mencari <b>fungsi asal</b> dari laju perubahannya. Karena itu integral sering disebut <b>anti-turunan</b>."
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bayangkan kamu tahu kecepatan sebuah mobil setiap saat. Kalau kamu ingin tahu <b>posisi</b> mobil itu di waktu tertentu, kamu butuh integral. Ini kenapa integral sangat penting di fisika dan teknik."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Notasi Integral"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int f(x) \\, dx = F(x) + C"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\int$ = simbol integral",
+            "$f(x)$ = integran (fungsi yang diintegralkan)",
+            "$dx$ = variabel integrasi",
+            "$F(x)$ = anti-turunan dari $f(x)$",
+            "$C$ = konstanta integrasi"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kenapa ada $+ C$? Karena turunan dari konstanta apa pun adalah nol. Jadi $F(x)$, $F(x) + 1$, $F(x) + 100$, semuanya punya turunan yang sama, yaitu $f(x)$. Karena itu integral disebut <b>integral tak tentu</b> — hasilnya keluarga fungsi."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Integral vs Turunan"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/integral-turunan.png",
+          "caption": "Hubungan turunan dan integral: turunan mencari laju perubahan (turun), integral mencari fungsi asal (naik)",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Verifikasi: Integral dan Turunan Saling Membatalkan"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\dfrac{d}{dx}\\left[\\int f(x) \\, dx\\right] = f(x)"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int f'(x) \\, dx = f(x) + C"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Artinya: kalau kita turunkan hasil integral, kita kembali ke fungsi asal. Begitu juga sebaliknya."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Integral Sederhana",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int 2x \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Cari fungsi yang turunannya $2x$. Karena turunan $x^2$ adalah $2x$, maka:" },
+            { "tipe": "formula_block", "latex": "\\int 2x \\, dx = x^2 + C" },
+            { "tipe": "paragraph", "text": "<b>Cek:</b> $\\dfrac{d}{dx}(x^2 + C) = 2x$ ✓" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Integral Konstanta",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int 5 \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Cari fungsi yang turunannya 5. Karena turunan $5x$ adalah 5:" },
+            { "tipe": "formula_block", "latex": "\\int 5 \\, dx = 5x + C" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Integral Pangkat",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int x^3 \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Kita tahu turunan $x^4$ adalah $4x^3$, jadi turunan $\\dfrac{1}{4}x^4$ adalah $x^3$." },
+            { "tipe": "formula_block", "latex": "\\int x^3 \\, dx = \\dfrac{1}{4}x^4 + C" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Integral = anti-turunan (operasi kebalikan turunan)",
+            "Notasi: $\\int f(x) \\, dx = F(x) + C$",
+            "Ada $+ C$ karena turunan konstanta = 0",
+            "Integral dan turunan saling membatalkan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-02",
+      "nomor": 2,
+      "judul": "Integral Tak Tentu",
+      "deskripsi": "Rumus dasar integral dan sifat-sifatnya",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rumus Dasar Integral"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk menghitung integral dengan cepat, kita butuh <b>rumus dasar</b>. Rumus ini diperoleh dari aturan turunan yang kita balik."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Aturan Pangkat"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int x^n \\, dx = \\dfrac{x^{n+1}}{n+1} + C, \\quad n \\neq -1"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ini rumus yang paling sering dipakai. Naikkan pangkat satu, lalu bagi dengan pangkat baru."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Integral Konstanta"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int c \\, dx = cx + C"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Integral $1/x$"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\dfrac{1}{x} \\, dx = \\ln |x| + C"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ini kasus khusus dari aturan pangkat. Karena $n = -1$, tidak bisa pakai $x^{n+1}/(n+1)$. Solusinya adalah $\\ln |x|$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Sifat-Sifat Integral"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\int [f(x) + g(x)] \\, dx = \\int f(x) \\, dx + \\int g(x) \\, dx$",
+            "$\\int [f(x) - g(x)] \\, dx = \\int f(x) \\, dx - \\int g(x) \\, dx$",
+            "$\\int c \\cdot f(x) \\, dx = c \\int f(x) \\, dx$"
+          ]
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Integral bersifat <b>linear</b> — bisa dipecah per suku, dan konstanta bisa dikeluarkan."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/rumus-dasar-integral.png",
+          "caption": "Rumus dasar integral tak tentu: aturan pangkat, konstanta, dan kasus khusus 1/x",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Aturan Pangkat",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int x^5 \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\int x^5 \\, dx = \\dfrac{x^6}{6} + C" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Kombinasi Beberapa Suku",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int (3x^2 + 4x - 5) \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Integralkan tiap suku:" },
+            { "tipe": "formula_block", "latex": "= 3 \\cdot \\dfrac{x^3}{3} + 4 \\cdot \\dfrac{x^2}{2} - 5x + C" },
+            { "tipe": "formula_block", "latex": "= x^3 + 2x^2 - 5x + C" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Integral dengan Akar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int \\sqrt{x} \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Ubah akar menjadi pangkat: $\\sqrt{x} = x^{1/2}$." },
+            { "tipe": "formula_block", "latex": "\\int x^{1/2} \\, dx = \\dfrac{x^{3/2}}{3/2} + C = \\dfrac{2}{3}x^{3/2} + C" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{2}{3}x\\sqrt{x} + C" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 4: Integral 1/x",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int \\dfrac{3}{x} \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\int \\dfrac{3}{x} \\, dx = 3 \\ln |x| + C" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Menentukan Konstanta C"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau ada kondisi tambahan (nilai fungsi di satu titik), kita bisa menentukan nilai $C$ yang spesifik."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 5: Menentukan C",
+          "konten": [
+            { "tipe": "paragraph", "text": "Diketahui $f'(x) = 2x + 1$ dan $f(0) = 3$. Tentukan $f(x)$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "f(x) = \\int (2x + 1) \\, dx = x^2 + x + C" },
+            { "tipe": "paragraph", "text": "Gunakan $f(0) = 3$:" },
+            { "tipe": "formula_block", "latex": "0 + 0 + C = 3 \\Rightarrow C = 3" },
+            { "tipe": "paragraph", "text": "Jadi $f(x) = x^2 + x + 3$." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Aturan pangkat: $\\int x^n \\, dx = \\dfrac{x^{n+1}}{n+1} + C$ untuk $n \\neq -1$",
+            "Integral $1/x$: $\\int \\dfrac{1}{x} \\, dx = \\ln|x| + C$",
+            "Integral bersifat linear (bisa dipecah per suku)",
+            "Konstanta $C$ bisa dicari dengan kondisi awal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-03",
+      "nomor": 3,
+      "judul": "Integral Fungsi Trigonometri",
+      "deskripsi": "Integral sin, cos, tan dan kombinasinya",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rumus Integral Trigonometri"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sama seperti turunan, integral fungsi trigonometri juga punya rumus khas. Rumus ini diperoleh dengan membalik aturan turunan."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\sin x \\, dx = -\\cos x + C"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\cos x \\, dx = \\sin x + C"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\sec^2 x \\, dx = \\tan x + C"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "⚠️ <b>Perhatian:</b> perhatikan tanda negatif pada integral $\\sin x$. Ini karena turunan $\\cos x$ adalah $-\\sin x$, jadi integral $\\sin x$ adalah $-\\cos x$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Integral Fungsi Trigonometri Lanjutan"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\tan x \\, dx = -\\ln|\\cos x| + C"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\csc^2 x \\, dx = -\\cot x + C"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\sec x \\cdot \\tan x \\, dx = \\sec x + C"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Integral Trigonometri dengan Aturan Rantai"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika sudut bukan $x$ melainkan $ax + b$, gunakan aturan rantai versi integral:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\sin(ax + b) \\, dx = -\\dfrac{1}{a}\\cos(ax + b) + C"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\cos(ax + b) \\, dx = \\dfrac{1}{a}\\sin(ax + b) + C"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int \\sec^2(ax + b) \\, dx = \\dfrac{1}{a}\\tan(ax + b) + C"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/integral-trigonometri.png",
+          "caption": "Rumus integral fungsi trigonometri dasar dan modifikasi dengan aturan rantai",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Integral Sinus",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int \\sin(3x) \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\int \\sin(3x) \\, dx = -\\dfrac{1}{3}\\cos(3x) + C" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Kombinasi Sin & Cos",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int (2\\cos x + 3\\sin x) \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "= 2\\sin x + 3(-\\cos x) + C = 2\\sin x - 3\\cos x + C" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Integral Sec Kuadrat",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan $\\int \\sec^2(2x) \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\int \\sec^2(2x) \\, dx = \\dfrac{1}{2}\\tan(2x) + C" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\int \\sin x \\, dx = -\\cos x + C$",
+            "$\\int \\cos x \\, dx = \\sin x + C$",
+            "$\\int \\sec^2 x \\, dx = \\tan x + C$",
+            "Untuk sudut $ax + b$: bagi dengan $a$ di depan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-04",
+      "nomor": 4,
+      "judul": "Integral Tentu",
+      "deskripsi": "Integral dengan batas atas dan bawah",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Apa Itu Integral Tentu?"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "<b>Integral tentu</b> adalah integral yang punya <b>batas atas</b> dan <b>batas bawah</b>. Hasilnya berupa <b>angka</b>, bukan fungsi. Integral tentu biasanya dipakai untuk menghitung <b>luas daerah</b> di bawah kurva."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Notasi Integral Tentu"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int_a^b f(x) \\, dx"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$a$ = batas bawah",
+            "$b$ = batas atas",
+            "$f(x)$ = integran"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Teorema Dasar Kalkulus"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika $F(x)$ adalah anti-turunan dari $f(x)$, maka:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\int_a^b f(x) \\, dx = F(b) - F(a)"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Inilah <b>Teorema Dasar Kalkulus</b> — jembatan antara turunan dan integral. Sangat penting!"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Sifat Integral Tentu"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\int_a^a f(x) \\, dx = 0$",
+            "$\\int_a^b f(x) \\, dx = -\\int_b^a f(x) \\, dx$",
+            "$\\int_a^b [f(x) + g(x)] \\, dx = \\int_a^b f(x) \\, dx + \\int_a^b g(x) \\, dx$",
+            "$\\int_a^b f(x) \\, dx = \\int_a^c f(x) \\, dx + \\int_c^b f(x) \\, dx$"
+          ]
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/integral-tentu.png",
+          "caption": "Integral tentu dari a ke b: luas daerah di bawah kurva f(x) antara x = a dan x = b",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Integral Tentu Sederhana",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $\\int_0^3 2x \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\int_0^3 2x \\, dx = [x^2]_0^3 = 3^2 - 0^2 = 9" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Integral Tentu Trigonometri",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $\\int_0^{\\pi/2} \\cos x \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "= [\\sin x]_0^{\\pi/2} = \\sin\\dfrac{\\pi}{2} - \\sin 0 = 1 - 0 = 1" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Integral Tentu Polinomial",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung $\\int_1^2 (3x^2 + 2x) \\, dx$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "= [x^3 + x^2]_1^2 = (8 + 4) - (1 + 1) = 12 - 2 = 10" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Integral tentu: $\\int_a^b f(x) \\, dx$",
+            "Teorema dasar kalkulus: $\\int_a^b f(x) \\, dx = F(b) - F(a)$",
+            "Hasil integral tentu = angka (bukan fungsi + C)",
+            "Integral tentu dipakai untuk menghitung luas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-05",
+      "nomor": 5,
+      "judul": "Aplikasi Integral: Luas Daerah",
+      "deskripsi": "Menghitung luas daerah di bawah kurva",
+      "estimasi_menit": 20,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Luas Daerah di Bawah Kurva"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Salah satu aplikasi paling penting dari integral tentu adalah menghitung <b>luas daerah</b> di antara kurva dan sumbu X. Ini karena integral pada dasarnya adalah <b>penjumlahan area sangat kecil</b> (lebar $dx$)."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Luas di Atas Sumbu X"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika kurva berada <b>di atas</b> sumbu X pada interval $[a, b]$, maka luas daerah = integral tentu:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "L = \\int_a^b f(x) \\, dx"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Luas di Bawah Sumbu X"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika kurva berada <b>di bawah</b> sumbu X, integral tentu akan bernilai <b>negatif</b>. Karena luas selalu positif, gunakan nilai mutlak:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "L = -\\int_a^b f(x) \\, dx"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/luas-daerah.png",
+          "caption": "Luas daerah di bawah kurva dihitung dengan integral tentu. Kurva di atas sumbu X → luas positif; kurva di bawah sumbu X → gunakan nilai mutlak",
+          "width": "full"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Luas Antara Dua Kurva"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika ada dua kurva $y_1 = f(x)$ dan $y_2 = g(x)$, dan $f(x) \\geq g(x)$ pada interval $[a, b]$, maka luas daerah di antara keduanya adalah:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "L = \\int_a^b [f(x) - g(x)] \\, dx"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Batas $a$ dan $b$ biasanya adalah titik potong kedua kurva (di mana $f(x) = g(x)$)."
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/luas-antara-kurva.png",
+          "caption": "Luas antara dua kurva f(x) dan g(x) dari a sampai b, di mana f(x) ≥ g(x)",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Luas di Bawah Parabola",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung luas daerah di bawah kurva $y = x^2$ dari $x = 0$ sampai $x = 3$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "L = \\int_0^3 x^2 \\, dx = \\left[\\dfrac{x^3}{3}\\right]_0^3 = \\dfrac{27}{3} - 0 = 9" },
+            { "tipe": "paragraph", "text": "Jadi luasnya = <b>9 satuan luas</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Luas antara Dua Kurva",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung luas daerah yang dibatasi oleh $y = x^2$ dan $y = x$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Cari titik potong: $x^2 = x \\Rightarrow x^2 - x = 0 \\Rightarrow x(x - 1) = 0$." },
+            { "tipe": "paragraph", "text": "Jadi $x = 0$ atau $x = 1$." },
+            { "tipe": "paragraph", "text": "Pada interval $[0, 1]$, $x \\geq x^2$, maka:" },
+            { "tipe": "formula_block", "latex": "L = \\int_0^1 (x - x^2) \\, dx = \\left[\\dfrac{x^2}{2} - \\dfrac{x^3}{3}\\right]_0^1" },
+            { "tipe": "formula_block", "latex": "= \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) - 0 = \\dfrac{1}{6}" }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Luas di Bawah Sumbu X",
+          "konten": [
+            { "tipe": "paragraph", "text": "Hitung luas daerah yang dibatasi kurva $y = x^2 - 4$ dan sumbu X pada interval $[-2, 2]$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Pada interval $[-2, 2]$, kurva berada <b>di bawah</b> sumbu X. Maka:" },
+            { "tipe": "formula_block", "latex": "L = -\\int_{-2}^2 (x^2 - 4) \\, dx = -\\left[\\dfrac{x^3}{3} - 4x\\right]_{-2}^2" },
+            { "tipe": "formula_block", "latex": "= -\\left[\\left(\\dfrac{8}{3} - 8\\right) - \\left(-\\dfrac{8}{3} + 8\\right)\\right]" },
+            { "tipe": "formula_block", "latex": "= -\\left[\\dfrac{16}{3} - 16\\right] = \\dfrac{32}{3}" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Luas di bawah kurva = integral tentu (bila di atas sumbu X)",
+            "Kurva di bawah sumbu X → gunakan nilai mutlak",
+            "Luas antara dua kurva: $\\int_a^b [f(x) - g(x)] \\, dx$",
+            "Batas $a$ dan $b$ = titik potong kurva"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Integral di Kehidupan Nyata",
+      "deskripsi": "Penerapan integral dalam sains, teknologi, dan ekonomi",
+      "estimasi_menit": 15,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Integral di Sekitar Kita"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Integral bukan sekadar hitungan abstrak. Ini adalah <b>alat universal</b> untuk memahami akumulasi, area, dan volume di dunia nyata — dari fisika sampai kecerdasan buatan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Fisika: Perpindahan & Kerja"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika kecepatan $v(t)$ diketahui, perpindahan total dari $t = a$ sampai $t = b$ adalah:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "s = \\int_a^b v(t) \\, dt"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Begitu juga dengan kerja (usaha) — integral dari gaya terhadap perpindahan."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Ekonomi: Total Pendapatan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika fungsi permintaan $D(q)$ diketahui, total pendapatan (revenue) dari penjualan $0$ sampai $Q$ unit adalah:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "R = \\int_0^Q D(q) \\, dq"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Biologi: Total Pertumbuhan Populasi"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jika laju pertumbuhan bakteri $r(t)$ diketahui, jumlah total bakteri setelah waktu $T$ adalah integral dari $r(t)$ dari 0 sampai $T$."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Teknologi: Pengolahan Sinyal & AI"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Di <b>pengolahan sinyal</b>, integral Fourier digunakan untuk memfilter suara & gambar. Di <b>machine learning</b>, integral dipakai untuk menghitung fungsi distribusi probabilitas."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "5. Teknik: Volume Benda Putar"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Integral dipakai untuk menghitung <b>volume</b> benda yang dihasilkan dari memutar kurva. Rumusnya:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "V = \\pi \\int_a^b [f(x)]^2 \\, dx"
+        },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral-fungsi/aplikasi-integral.png",
+          "caption": "Empat aplikasi integral: fisika (perpindahan), ekonomi (total pendapatan), biologi (pertumbuhan populasi), dan teknologi (volume & sinyal)",
+          "width": "full"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Perpindahan Benda",
+          "konten": [
+            { "tipe": "paragraph", "text": "Kecepatan sebuah benda dinyatakan $v(t) = 3t^2 + 2t$ (m/detik). Tentukan jarak yang ditempuh dari $t = 0$ sampai $t = 3$ detik." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "s = \\int_0^3 (3t^2 + 2t) \\, dt = [t^3 + t^2]_0^3" },
+            { "tipe": "formula_block", "latex": "= (27 + 9) - 0 = 36 \\text{ meter}" },
+            { "tipe": "paragraph", "text": "Jadi jarak yang ditempuh = <b>36 meter</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Volume Benda Putar",
+          "konten": [
+            { "tipe": "paragraph", "text": "Tentukan volume benda putar yang dibentuk dari kurva $y = x$ yang diputar mengelilingi sumbu X dari $x = 0$ sampai $x = 2$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "V = \\pi \\int_0^2 x^2 \\, dx = \\pi \\left[\\dfrac{x^3}{3}\\right]_0^2" },
+            { "tipe": "formula_block", "latex": "= \\pi \\cdot \\dfrac{8}{3} = \\dfrac{8\\pi}{3}" },
+            { "tipe": "paragraph", "text": "Jadi volumenya = $\\dfrac{8\\pi}{3}$ satuan volume." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Total Pendapatan",
+          "konten": [
+            { "tipe": "paragraph", "text": "Fungsi permintaan suatu produk adalah $D(q) = 100 - 2q$ (rupiah per unit). Tentukan total pendapatan saat menjual 20 unit." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "R = \\int_0^{20} (100 - 2q) \\, dq = [100q - q^2]_0^{20}" },
+            { "tipe": "formula_block", "latex": "= (2000 - 400) - 0 = 1600" },
+            { "tipe": "paragraph", "text": "Jadi total pendapatan = <b>Rp1.600</b>." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Belajar Integral"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Hafal rumus dasar</b> — pangkat, trigonometri, 1/x",
+            "<b>Ingat + C</b> — jangan lupa konstanta integral",
+            "<b>Perhatikan tanda</b> — khususnya integral sin/cos",
+            "<b>Latihan luas daerah</b> — aplikasi paling sering di ujian",
+            "<b>Visualisasi grafik</b> — bantu pahami konsep luas"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Integral = anti-turunan",
+            "Integral tak tentu: hasil + C",
+            "Integral tentu: hasil = angka",
+            "Aplikasi: luas, volume, perpindahan, pendapatan, dan banyak lagi"
+          ]
+        }
+      ]
+    }
+  ]
+}
