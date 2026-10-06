@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "4.0.0",
   "last_updated": "2026-10-06",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
@@ -14,14 +14,14 @@
           "nama": "Eksponen dan Logaritma",
           "emoji": "📐",
           "warna": "#4CAF50",
-          "file_materi": "materi/kelas10/eksponen-logaritma.json",
+          "file_materi": "kelas10/eksponen-logaritma/eksponen-logaritma.json",
           "versi": "1.0.2",
           "paket": [
             {
               "id": "eksponen-logaritma-paket-01",
               "nama": "Paket 1 - Eksponen Dasar",
               "deskripsi": "Sifat-sifat eksponen dan operasinya",
-              "file": "soal/kelas10/eksponen-logaritma-paket-01.json",
+              "file": "kelas10/eksponen-logaritma/eksponen-logaritma-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "MUDAH",
               "versi": "1.0.0"
@@ -30,7 +30,7 @@
               "id": "eksponen-logaritma-paket-02",
               "nama": "Paket 2 - Logaritma",
               "deskripsi": "Sifat-sifat logaritma dan penerapannya",
-              "file": "soal/kelas10/eksponen-logaritma-paket-02.json",
+              "file": "kelas10/eksponen-logaritma/eksponen-logaritma-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -39,7 +39,7 @@
               "id": "eksponen-logaritma-paket-03",
               "nama": "Paket 3 - Campuran",
               "deskripsi": "Soal campuran eksponen dan logaritma",
-              "file": "soal/kelas10/eksponen-logaritma-paket-03.json",
+              "file": "kelas10/eksponen-logaritma/eksponen-logaritma-paket-03.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -50,14 +50,14 @@
           "nama": "Barisan dan Deret",
           "emoji": "📊",
           "warna": "#2196F3",
-          "file_materi": "materi/kelas10/barisan-deret.json",
+          "file_materi": "kelas10/barisan-deret/barisan-deret.json",
           "versi": "1.0.1",
           "paket": [
             {
               "id": "barisan-deret-paket-01",
               "nama": "Paket 1 - Aritmatika",
               "deskripsi": "Barisan dan deret aritmatika",
-              "file": "soal/kelas10/barisan-deret-paket-01.json",
+              "file": "kelas10/barisan-deret/barisan-deret-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "MUDAH",
               "versi": "1.0.0"
@@ -66,7 +66,7 @@
               "id": "barisan-deret-paket-02",
               "nama": "Paket 2 - Geometri",
               "deskripsi": "Barisan dan deret geometri",
-              "file": "soal/kelas10/barisan-deret-paket-02.json",
+              "file": "kelas10/barisan-deret/barisan-deret-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -77,14 +77,14 @@
           "nama": "Trigonometri",
           "emoji": "📈",
           "warna": "#9C27B0",
-          "file_materi": "materi/kelas10/trigonometri.json",
+          "file_materi": "kelas10/trigonometri/trigonometri.json",
           "versi": "1.0.6",
           "paket": [
             {
               "id": "trigonometri-paket-01",
               "nama": "Paket 1 - Perbandingan",
               "deskripsi": "Sin, cos, tan pada segitiga siku-siku",
-              "file": "soal/kelas10/trigonometri-paket-01.json",
+              "file": "kelas10/trigonometri/trigonometri-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -93,7 +93,7 @@
               "id": "trigonometri-paket-02",
               "nama": "Paket 2 - Sudut Istimewa",
               "deskripsi": "Nilai sudut-sudut istimewa",
-              "file": "soal/kelas10/trigonometri-paket-02.json",
+              "file": "kelas10/trigonometri/trigonometri-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -104,14 +104,14 @@
           "nama": "Sistem Persamaan dan Pertidaksamaan Linear",
           "emoji": "🔷",
           "warna": "#FF9800",
-          "file_materi": "materi/kelas10/sistem-persamaan-linear.json",
+          "file_materi": "kelas10/sistem-persamaan-linear/sistem-persamaan-linear.json",
           "versi": "1.0.3",
           "paket": [
             {
               "id": "sistem-persamaan-linear-paket-01",
               "nama": "Paket 1 - SPLDV",
               "deskripsi": "Sistem persamaan linear dua variabel",
-              "file": "soal/kelas10/sistem-persamaan-linear-paket-01.json",
+              "file": "kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -120,7 +120,7 @@
               "id": "sistem-persamaan-linear-paket-02",
               "nama": "Paket 2 - SPLTV",
               "deskripsi": "Sistem persamaan linear tiga variabel",
-              "file": "soal/kelas10/sistem-persamaan-linear-paket-02.json",
+              "file": "kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -131,14 +131,14 @@
           "nama": "Fungsi Kuadrat",
           "emoji": "📉",
           "warna": "#3F51B5",
-          "file_materi": "materi/kelas10/fungsi-kuadrat.json",
+          "file_materi": "kelas10/fungsi-kuadrat/fungsi-kuadrat.json",
           "versi": "1.0.1",
           "paket": [
             {
               "id": "fungsi-kuadrat-paket-01",
               "nama": "Paket 1 - Grafik",
               "deskripsi": "Menggambar dan menganalisis grafik",
-              "file": "soal/kelas10/fungsi-kuadrat-paket-01.json",
+              "file": "kelas10/fungsi-kuadrat/fungsi-kuadrat-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -147,7 +147,7 @@
               "id": "fungsi-kuadrat-paket-02",
               "nama": "Paket 2 - Akar & Diskriminan",
               "deskripsi": "Mencari akar dan diskriminan",
-              "file": "soal/kelas10/fungsi-kuadrat-paket-02.json",
+              "file": "kelas10/fungsi-kuadrat/fungsi-kuadrat-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -158,14 +158,14 @@
           "nama": "Statistika",
           "emoji": "📊",
           "warna": "#00897B",
-          "file_materi": "materi/kelas10/statistika.json",
+          "file_materi": "kelas10/statistika/statistika.json",
           "versi": "1.0.1",
           "paket": [
             {
               "id": "statistika-paket-01",
               "nama": "Paket 1 - Penyajian Data",
               "deskripsi": "Tabel, diagram, dan grafik",
-              "file": "soal/kelas10/statistika-paket-01.json",
+              "file": "kelas10/statistika/statistika-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "MUDAH",
               "versi": "1.0.0"
@@ -174,7 +174,7 @@
               "id": "statistika-paket-02",
               "nama": "Paket 2 - Mean, Median, Modus",
               "deskripsi": "Ukuran pemusatan data",
-              "file": "soal/kelas10/statistika-paket-02.json",
+              "file": "kelas10/statistika/statistika-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -185,14 +185,14 @@
           "nama": "Peluang",
           "emoji": "🎲",
           "warna": "#00BCD4",
-          "file_materi": "materi/kelas10/peluang.json",
+          "file_materi": "kelas10/peluang/peluang.json",
           "versi": "1.0.1",
           "paket": [
             {
               "id": "peluang-paket-01",
               "nama": "Paket 1 - Peluang Dasar",
               "deskripsi": "Ruang sampel dan kejadian",
-              "file": "soal/kelas10/peluang-paket-01.json",
+              "file": "kelas10/peluang/peluang-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "MUDAH",
               "versi": "1.0.0"
@@ -201,7 +201,7 @@
               "id": "peluang-paket-02",
               "nama": "Paket 2 - Kejadian Majemuk",
               "deskripsi": "Peluang kejadian saling lepas & bebas",
-              "file": "soal/kelas10/peluang-paket-02.json",
+              "file": "kelas10/peluang/peluang-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -220,14 +220,14 @@
           "nama": "Komposisi Fungsi dan Fungsi Invers",
           "emoji": "🔗",
           "warna": "#5B8DEF",
-          "file_materi": "materi/kelas11/komposisi-fungsi-invers.json",
+          "file_materi": "kelas11/komposisi-fungsi-invers/komposisi-fungsi-invers.json",
           "versi": "1.0.0",
           "paket": [
             {
               "id": "komposisi-fungsi-invers-paket-01",
               "nama": "Paket 1 - Fungsi & Komposisi",
               "deskripsi": "Fungsi, operasi, dan komposisi",
-              "file": "soal/kelas11/komposisi-fungsi-invers-paket-01.json",
+              "file": "kelas11/komposisi-fungsi-invers/komposisi-fungsi-invers-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -236,7 +236,7 @@
               "id": "komposisi-fungsi-invers-paket-02",
               "nama": "Paket 2 - Fungsi Invers",
               "deskripsi": "Invers fungsi dan komposisinya",
-              "file": "soal/kelas11/komposisi-fungsi-invers-paket-02.json",
+              "file": "kelas11/komposisi-fungsi-invers/komposisi-fungsi-invers-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -247,14 +247,14 @@
           "nama": "Lingkaran",
           "emoji": "⭕",
           "warna": "#9C27B0",
-          "file_materi": "materi/kelas11/lingkaran.json",
+          "file_materi": "kelas11/lingkaran/lingkaran.json",
           "versi": "1.0.0",
           "paket": [
             {
               "id": "lingkaran-paket-01",
               "nama": "Paket 1 - Unsur & Sudut",
               "deskripsi": "Unsur lingkaran, sudut pusat & keliling",
-              "file": "soal/kelas11/lingkaran-paket-01.json",
+              "file": "kelas11/lingkaran/lingkaran-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -263,7 +263,7 @@
               "id": "lingkaran-paket-02",
               "nama": "Paket 2 - Persamaan & Garis Singgung",
               "deskripsi": "Persamaan lingkaran dan garis singgung",
-              "file": "soal/kelas11/lingkaran-paket-02.json",
+              "file": "kelas11/lingkaran/lingkaran-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -274,14 +274,14 @@
           "nama": "Statistika Lanjutan",
           "emoji": "📈",
           "warna": "#00897B",
-          "file_materi": "materi/kelas11/statistika-lanjutan.json",
+          "file_materi": "kelas11/statistika-lanjutan/statistika-lanjutan.json",
           "versi": "1.0.0",
           "paket": [
             {
               "id": "statistika-lanjutan-paket-01",
               "nama": "Paket 1 - Distribusi & Bivariat",
               "deskripsi": "Distribusi data, histogram, diagram pencar",
-              "file": "soal/kelas11/statistika-lanjutan-paket-01.json",
+              "file": "kelas11/statistika-lanjutan/statistika-lanjutan-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -290,7 +290,7 @@
               "id": "statistika-lanjutan-paket-02",
               "nama": "Paket 2 - Regresi Linear",
               "deskripsi": "Regresi linear dan interpretasi",
-              "file": "soal/kelas11/statistika-lanjutan-paket-02.json",
+              "file": "kelas11/statistika-lanjutan/statistika-lanjutan-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -301,7 +301,7 @@
           "nama": "Matematika Tingkat Lanjut",
           "emoji": "🎓",
           "warna": "#7E57C2",
-          "file_materi": "materi/kelas11/matematika-tingkat-lanjut.json",
+          "file_materi": "kelas11/matematika-tingkat-lanjut/matematika-tingkat-lanjut.json",
           "versi": "1.0.0",
           "paket": []
         }
@@ -317,14 +317,14 @@
           "nama": "Limit Fungsi",
           "emoji": "♾️",
           "warna": "#FF6B1A",
-          "file_materi": "materi/kelas12/limit-fungsi.json",
+          "file_materi": "kelas12/limit-fungsi/limit-fungsi.json",
           "versi": "1.0.0",
           "paket": [
             {
               "id": "limit-fungsi-paket-01",
               "nama": "Paket 1 - Limit Aljabar",
               "deskripsi": "Limit fungsi aljabar dengan berbagai metode",
-              "file": "soal/kelas12/limit-fungsi-paket-01.json",
+              "file": "kelas12/limit-fungsi/limit-fungsi-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -333,7 +333,7 @@
               "id": "limit-fungsi-paket-02",
               "nama": "Paket 2 - Limit Trigonometri & Tak Hingga",
               "deskripsi": "Limit trigonometri dan limit tak hingga",
-              "file": "soal/kelas12/limit-fungsi-paket-02.json",
+              "file": "kelas12/limit-fungsi/limit-fungsi-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -344,14 +344,14 @@
           "nama": "Turunan Fungsi",
           "emoji": "📐",
           "warna": "#E53935",
-          "file_materi": "materi/kelas12/turunan-fungsi.json",
+          "file_materi": "kelas12/turunan-fungsi/turunan-fungsi.json",
           "versi": "1.0.0",
           "paket": [
             {
               "id": "turunan-fungsi-paket-01",
               "nama": "Paket 1 - Aturan Turunan",
               "deskripsi": "Aturan dasar turunan (pangkat, perkalian, rantai)",
-              "file": "soal/kelas12/turunan-fungsi-paket-01.json",
+              "file": "kelas12/turunan-fungsi/turunan-fungsi-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -360,7 +360,7 @@
               "id": "turunan-fungsi-paket-02",
               "nama": "Paket 2 - Aplikasi Turunan",
               "deskripsi": "Garis singgung, nilai ekstrem, optimasi",
-              "file": "soal/kelas12/turunan-fungsi-paket-02.json",
+              "file": "kelas12/turunan-fungsi/turunan-fungsi-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -371,14 +371,14 @@
           "nama": "Integral Fungsi",
           "emoji": "∫",
           "warna": "#00897B",
-          "file_materi": "materi/kelas12/integral-fungsi.json",
+          "file_materi": "kelas12/integral-fungsi/integral-fungsi.json",
           "versi": "1.0.0",
           "paket": [
             {
               "id": "integral-fungsi-paket-01",
               "nama": "Paket 1 - Integral Tak Tentu",
               "deskripsi": "Integral dasar (pangkat, trigonometri)",
-              "file": "soal/kelas12/integral-fungsi-paket-01.json",
+              "file": "kelas12/integral-fungsi/integral-fungsi-paket-01.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
               "versi": "1.0.0"
@@ -387,7 +387,7 @@
               "id": "integral-fungsi-paket-02",
               "nama": "Paket 2 - Integral Tentu & Aplikasi",
               "deskripsi": "Integral tentu, luas daerah, volume",
-              "file": "soal/kelas12/integral-fungsi-paket-02.json",
+              "file": "kelas12/integral-fungsi/integral-fungsi-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
@@ -398,7 +398,7 @@
           "nama": "Matematika Tingkat Lanjut",
           "emoji": "🎓",
           "warna": "#7E57C2",
-          "file_materi": "materi/kelas12/matematika-tingkat-lanjut.json",
+          "file_materi": "kelas12/matematika-tingkat-lanjut/matematika-tingkat-lanjut.json",
           "versi": "1.0.0",
           "paket": []
         }
