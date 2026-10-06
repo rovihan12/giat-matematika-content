@@ -1,0 +1,210 @@
+{
+  "id": "statistika-lanjutan-paket-01",
+  "nama": "Paket 1 - Distribusi & Bivariat",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "deskripsi": "Distribusi data, histogram, dan diagram pencar",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "stal-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua kelompok data memiliki mean yang sama, tetapi bentuk distribusinya berbeda. Distribusi yang memiliki **ekor panjang di kanan** disebut distribusi..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Simetris" }],
+        [{ "tipe": "paragraph", "text": "Menceng kanan" }],
+        [{ "tipe": "paragraph", "text": "Menceng kiri" }],
+        [{ "tipe": "paragraph", "text": "Bimodal" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk distribusi:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "**Simetris** — ekor seimbang kiri & kanan",
+          "**Menceng kanan** — ekor panjang di kanan, peak di kiri",
+          "**Menceng kiri** — ekor panjang di kiri, peak di kanan"
+        ]}
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stal-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada distribusi yang **menceng kanan**, urutan yang benar dari kiri ke kanan adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Modus, median, mean" }],
+        [{ "tipe": "paragraph", "text": "Mean, median, modus" }],
+        [{ "tipe": "paragraph", "text": "Mean, modus, median" }],
+        [{ "tipe": "paragraph", "text": "Median, modus, mean" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pada distribusi menceng kanan:" },
+        { "tipe": "formula_block", "latex": "\\text{Modus} < \\text{Median} < \\text{Mean}" },
+        { "tipe": "paragraph", "text": "Urutan dari kiri ke kanan: modus, median, mean." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stal-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perbedaan utama antara **histogram** dan **diagram batang** adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Histogram hanya untuk data kategorik" }],
+        [{ "tipe": "paragraph", "text": "Batang histogram saling menempel, diagram batang berjarak" }],
+        [{ "tipe": "paragraph", "text": "Diagram batang tidak punya sumbu Y" }],
+        [{ "tipe": "paragraph", "text": "Histogram selalu berbentuk simetris" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Histogram** — batang **saling menempel** (tidak ada jarak), untuk data berkelompok kontinu." },
+        { "tipe": "paragraph", "text": "**Diagram batang** — batang **berjarak**, untuk data kategorik." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stal-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "paragraph", "text": "Nilai 60–69: 4 siswa, 70–79: 8 siswa, 80–89: 12 siswa, 90–99: 6 siswa." },
+        { "tipe": "paragraph", "text": "Modus dari data tersebut terletak pada kelas interval..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "60–69" }],
+        [{ "tipe": "paragraph", "text": "70–79" }],
+        [{ "tipe": "paragraph", "text": "80–89" }],
+        [{ "tipe": "paragraph", "text": "90–99" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Modus = nilai dengan frekuensi tertinggi." },
+        { "tipe": "paragraph", "text": "Frekuensi tertinggi = 12 (kelas 80–89)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stal-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram pencar (scatter plot) menunjukkan hubungan antara jam belajar ($x$) dan nilai ujian ($y$). Titik-titik cenderung mengarah dari kiri bawah ke kanan atas. Jenis korelasi tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Korelasi positif" }],
+        [{ "tipe": "paragraph", "text": "Korelasi negatif" }],
+        [{ "tipe": "paragraph", "text": "Tidak ada korelasi" }],
+        [{ "tipe": "paragraph", "text": "Korelasi sempurna" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika $x$ naik dan $y$ juga naik, maka **korelasi positif**." },
+        { "tipe": "paragraph", "text": "Visual: titik-titik mengarah dari **kiri bawah ke kanan atas**." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stal-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram pencar menunjukkan titik-titik yang **sangat rapat** mengikuti pola garis lurus naik. Kekuatan korelasinya adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Korelasi lemah" }],
+        [{ "tipe": "paragraph", "text": "Korelasi sedang" }],
+        [{ "tipe": "paragraph", "text": "Korelasi kuat" }],
+        [{ "tipe": "paragraph", "text": "Tidak ada korelasi" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kekuatan korelasi dilihat dari **kerapatan** titik-titik terhadap pola:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "**Sangat rapat** → korelasi **kuat**",
+          "**Agak tersebar** → korelasi **sedang**",
+          "**Sangat tersebar** → korelasi **lemah**"
+        ]}
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stal-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah penelitian menemukan bahwa penjualan es krim dan jumlah orang tenggelam berkorelasi positif. Kesimpulan yang **paling tepat** adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Es krim menyebabkan orang tenggelam" }],
+        [{ "tipe": "paragraph", "text": "Ada hubungan sebab-akibat langsung" }],
+        [{ "tipe": "paragraph", "text": "Keduanya berkorelasi karena faktor musim panas, bukan sebab-akibat" }],
+        [{ "tipe": "paragraph", "text": "Data penelitian salah" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Korelasi ≠ kausalitas.**" },
+        { "tipe": "paragraph", "text": "Penjelasan yang paling masuk akal: saat musim panas, orang lebih banyak beli es krim **DAN** lebih banyak berenang → risiko tenggelam naik. **Musim panas** adalah variabel perancu." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stal-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan data bivariat berikut (jam belajar $x$, nilai ujian $y$):" },
+        { "tipe": "list", "ordered": false, "items": [
+          "(2, 60), (3, 65), (4, 70), (5, 75), (6, 80)"
+        ]},
+        { "tipe": "paragraph", "text": "Hubungan antara jam belajar dan nilai ujian adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Korelasi positif kuat" }],
+        [{ "tipe": "paragraph", "text": "Korelasi negatif kuat" }],
+        [{ "tipe": "paragraph", "text": "Tidak ada korelasi" }],
+        [{ "tipe": "paragraph", "text": "Korelasi positif lemah" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Setiap kenaikan 1 jam belajar, nilai naik 5 poin." },
+        { "tipe": "paragraph", "text": "Titik-titik membentuk garis lurus sempurna → **korelasi positif kuat**." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stal-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah diagram pencar menunjukkan titik-titik yang **tersebar acak** tanpa pola tertentu. Nilai koefisien korelasinya mendekati..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "-1" }],
+        [{ "tipe": "paragraph", "text": "0" }],
+        [{ "tipe": "paragraph", "text": "0,5" }],
+        [{ "tipe": "paragraph", "text": "1" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Koefisien korelasi ($r$) berkisar antara -1 sampai 1:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "$r = 1$ → korelasi positif sempurna",
+          "$r = -1$ → korelasi negatif sempurna",
+          "$r = 0$ → **tidak ada korelasi**"
+        ]}
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stal-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah penelitian melaporkan $r^2 = 0{,}85$ untuk hubungan antara jam belajar dan nilai ujian. Arti dari nilai tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "85% variasi nilai ujian bisa dijelaskan oleh variasi jam belajar" }],
+        [{ "tipe": "paragraph", "text": "15% siswa tidak lulus" }],
+        [{ "tipe": "paragraph", "text": "Ada 85 siswa yang lulus" }],
+        [{ "tipe": "paragraph", "text": "Korelasi sebesar 0,85" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$r^2$ = koefisien determinasi, menunjukkan **seberapa besar variasi $y$ dijelaskan oleh $x$**." },
+        { "tipe": "paragraph", "text": "$r^2 = 0{,}85$ artinya **85% variasi nilai ujian** bisa dijelaskan oleh jam belajar. Sisanya 15% dipengaruhi faktor lain." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
