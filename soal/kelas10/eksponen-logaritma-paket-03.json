@@ -65,7 +65,7 @@
     {
       "id": "eks-03-04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $^2\\log 5 = p$. Nilai $^2\\log 50$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $^2\\log 5 = p$. Nilai $^2\\log 10$ adalah..." }
       ],
       "pilihan": [
         [{ "tipe": "paragraph", "text": "$p + 1$" }],
@@ -75,14 +75,8 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktorkan 50 = 25 × 2:" },
-        { "tipe": "formula_block", "latex": "^2\\log 50 = ^2\\log (25 \\times 2) = ^2\\log 25 + ^2\\log 2" },
-        { "tipe": "paragraph", "text": "Karena $^2\\log 25 = ^2\\log 5^2 = 2 \\cdot ^2\\log 5 = 2p$:" },
-        { "tipe": "formula_block", "latex": "= 2p + 1" },
-        { "tipe": "paragraph", "text": "Hmm, hasilnya $2p + 1$, bukan $p + 1$." },
-        { "tipe": "paragraph", "text": "Koreksi: faktorkan dengan cara lain. $50 = 5 \\times 10$ tidak membantu. Coba dengan basis yang berbeda." },
-        { "tipe": "paragraph", "text": "Sebenarnya, mari kita cek ulang: soal ini punya jawaban yang salah di kunci. Jawaban benar adalah $2p + 1$, tapi pilihan tidak ada. Mari ubah soalnya agar sesuai." },
-        { "tipe": "paragraph", "text": "Soal yang benar seharusnya: $^2\\log 10 = ^2\\log (2 \\times 5) = 1 + p$. Jadi jawabannya $p + 1$." }
+        { "tipe": "paragraph", "text": "Faktorkan 10 = 5 × 2:" },
+        { "tipe": "formula_block", "latex": "^2\\log 10 = ^2\\log (5 \\times 2) = ^2\\log 5 + ^2\\log 2 = p + 1" }
       ],
       "tingkat": "SULIT"
     },
