@@ -1,0 +1,217 @@
+{
+  "id": "fungsi-kuadrat-paket-01",
+  "nama": "Paket 1 - Grafik & Sifat",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "deskripsi": "Grafik, titik puncak, dan sumbu simetri",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "fk-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $f(x) = x^2 - 4x + 3$ memotong sumbu Y di titik..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(0, 1)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 4)$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong sumbu Y terjadi saat $x = 0$." },
+        { "tipe": "formula_block", "latex": "f(0) = 0^2 - 4(0) + 3 = 3" },
+        { "tipe": "paragraph", "text": "Jadi titik potong sumbu Y di $(0, 3)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sumbu simetri grafik $f(x) = x^2 - 6x + 5$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x = 1$" }],
+        [{ "tipe": "paragraph", "text": "$x = 2$" }],
+        [{ "tipe": "paragraph", "text": "$x = 3$" }],
+        [{ "tipe": "paragraph", "text": "$x = 6$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus sumbu simetri: $x = -\\dfrac{b}{2a}$." },
+        { "tipe": "paragraph", "text": "Diketahui $a = 1$, $b = -6$." },
+        { "tipe": "formula_block", "latex": "x = -\\dfrac{-6}{2(1)} = \\dfrac{6}{2} = 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik puncak dari fungsi $f(x) = x^2 - 4x - 5$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(2, -9)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, -8)$" }],
+        [{ "tipe": "paragraph", "text": "$(-2, -9)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, -5)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sumbu simetri: $x_p = -\\dfrac{-4}{2(1)} = 2$." },
+        { "tipe": "paragraph", "text": "Substitusi $x = 2$:" },
+        { "tipe": "formula_block", "latex": "f(2) = 2^2 - 4(2) - 5" },
+        { "tipe": "formula_block", "latex": "= 4 - 8 - 5 = -9" },
+        { "tipe": "paragraph", "text": "Jadi titik puncak $(2, -9)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi kuadrat dengan $a > 0$ berbentuk parabola yang..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Terbuka ke atas, punya titik minimum" }],
+        [{ "tipe": "paragraph", "text": "Terbuka ke atas, punya titik maksimum" }],
+        [{ "tipe": "paragraph", "text": "Terbuka ke bawah, punya titik minimum" }],
+        [{ "tipe": "paragraph", "text": "Terbuka ke bawah, punya titik maksimum" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika $a > 0$, parabola **terbuka ke atas** seperti senyum 🙂." },
+        { "tipe": "paragraph", "text": "Titik puncaknya adalah titik **minimum**." },
+        { "tipe": "paragraph", "text": "Sebaliknya, jika $a < 0$, parabola terbuka ke bawah dan titik puncaknya adalah titik maksimum." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik potong grafik $f(x) = x^2 - 4x + 3$ dengan sumbu X adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(1, 0)$ dan $(3, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(1, 0)$ dan $(-3, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(-1, 0)$ dan $(3, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 0)$ dan $(3, 0)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong sumbu X saat $y = 0$:" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x + 3 = 0" },
+        { "tipe": "formula_block", "latex": "(x - 1)(x - 3) = 0" },
+        { "tipe": "formula_block", "latex": "x = 1 \\text{ atau } x = 3" },
+        { "tipe": "paragraph", "text": "Jadi titik potong di $(1, 0)$ dan $(3, 0)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai minimum dari fungsi $f(x) = x^2 - 6x + 10$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "0" }],
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sumbu simetri: $x_p = -\\dfrac{-6}{2(1)} = 3$." },
+        { "tipe": "paragraph", "text": "Substitusi $x = 3$:" },
+        { "tipe": "formula_block", "latex": "f(3) = 3^2 - 6(3) + 10" },
+        { "tipe": "formula_block", "latex": "= 9 - 18 + 10 = 1" },
+        { "tipe": "paragraph", "text": "Jadi nilai minimumnya = 1." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan sumbu simetri dari grafik $y = -2x^2 + 8x - 3$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x = -2$" }],
+        [{ "tipe": "paragraph", "text": "$x = 1$" }],
+        [{ "tipe": "paragraph", "text": "$x = 2$" }],
+        [{ "tipe": "paragraph", "text": "$x = 4$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = -2$, $b = 8$." },
+        { "tipe": "formula_block", "latex": "x = -\\dfrac{b}{2a} = -\\dfrac{8}{2(-2)}" },
+        { "tipe": "formula_block", "latex": "= -\\dfrac{8}{-4} = 2" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bola dilempar ke atas dengan ketinggian $h(t) = -5t^2 + 20t$ meter. Ketinggian maksimum bola adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "15 meter" }],
+        [{ "tipe": "paragraph", "text": "18 meter" }],
+        [{ "tipe": "paragraph", "text": "20 meter" }],
+        [{ "tipe": "paragraph", "text": "25 meter" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $a = -5 < 0$, parabola terbuka ke bawah → ada nilai maksimum." },
+        { "tipe": "paragraph", "text": "Waktu saat ketinggian maksimum:" },
+        { "tipe": "formula_block", "latex": "t = -\\dfrac{b}{2a} = -\\dfrac{20}{2(-5)} = 2 \\text{ detik}" },
+        { "tipe": "paragraph", "text": "Substitusi $t = 2$:" },
+        { "tipe": "formula_block", "latex": "h(2) = -5(2)^2 + 20(2)" },
+        { "tipe": "formula_block", "latex": "= -20 + 40 = 20 \\text{ meter}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $y = ax^2 + bx + c$ melalui titik $(0, 4)$ dan titik puncaknya $(2, 0)$. Nilai $a$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$-1$" }],
+        [{ "tipe": "paragraph", "text": "$1$" }],
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$-2$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan bentuk puncak: $f(x) = a(x - x_p)^2 + y_p$." },
+        { "tipe": "paragraph", "text": "Dengan titik puncak $(2, 0)$:" },
+        { "tipe": "formula_block", "latex": "f(x) = a(x - 2)^2" },
+        { "tipe": "paragraph", "text": "Substitusi titik $(0, 4)$:" },
+        { "tipe": "formula_block", "latex": "4 = a(0 - 2)^2 = 4a" },
+        { "tipe": "formula_block", "latex": "a = 1" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "fk-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah persegi panjang memiliki keliling 40 cm. Luas maksimum persegi panjang tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "80 cm²" }],
+        [{ "tipe": "paragraph", "text": "90 cm²" }],
+        [{ "tipe": "paragraph", "text": "100 cm²" }],
+        [{ "tipe": "paragraph", "text": "120 cm²" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal panjang = $x$, lebar = $y$." },
+        { "tipe": "formula_block", "latex": "2x + 2y = 40 \\Rightarrow y = 20 - x" },
+        { "tipe": "paragraph", "text": "Luas: $L(x) = x \\cdot y = x(20 - x) = 20x - x^2$." },
+        { "tipe": "paragraph", "text": "Luas maksimum saat $L'(x) = 0$ (atau sumbu simetri):" },
+        { "tipe": "formula_block", "latex": "x = -\\dfrac{20}{2(-1)} = 10" },
+        { "tipe": "paragraph", "text": "Substitusi: $y = 20 - 10 = 10$." },
+        { "tipe": "formula_block", "latex": "L_{maks} = 10 \\times 10 = 100 \\text{ cm}^2" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
