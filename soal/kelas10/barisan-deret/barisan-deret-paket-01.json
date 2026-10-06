@@ -1,0 +1,212 @@
+{
+  "id": "barisan-deret-paket-01",
+  "nama": "Paket 1 - Aritmatika",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "deskripsi": "Barisan dan deret aritmatika",
+  "tingkat": "MUDAH",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bar-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-10 dari barisan $3, 7, 11, 15, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "39" }],
+        [{ "tipe": "paragraph", "text": "40" }],
+        [{ "tipe": "paragraph", "text": "41" }],
+        [{ "tipe": "paragraph", "text": "42" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Suku pertama $a = 3$, beda $b = 7 - 3 = 4$." },
+        { "tipe": "formula_block", "latex": "U_{10} = a + (10-1)b" },
+        { "tipe": "formula_block", "latex": "= 3 + 9 \\cdot 4" },
+        { "tipe": "formula_block", "latex": "= 3 + 36" },
+        { "tipe": "formula_block", "latex": "= 39" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Beda dari barisan aritmatika $5, 9, 13, 17, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "6" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Beda = selisih dua suku berurutan:" },
+        { "tipe": "formula_block", "latex": "b = U_2 - U_1 = 9 - 5 = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-15 dari barisan $2, 5, 8, 11, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "41" }],
+        [{ "tipe": "paragraph", "text": "43" }],
+        [{ "tipe": "paragraph", "text": "44" }],
+        [{ "tipe": "paragraph", "text": "47" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 2$, $b = 3$." },
+        { "tipe": "formula_block", "latex": "U_{15} = 2 + (15-1) \\cdot 3" },
+        { "tipe": "formula_block", "latex": "= 2 + 14 \\cdot 3" },
+        { "tipe": "formula_block", "latex": "= 2 + 42 = 44" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-3 barisan aritmatika adalah 11 dan suku ke-7 adalah 27. Beda barisan tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus $b = \\dfrac{U_m - U_n}{m - n}$:" },
+        { "tipe": "formula_block", "latex": "b = \\dfrac{U_7 - U_3}{7 - 3}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{27 - 11}{4} = \\dfrac{16}{4} = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 10 suku pertama dari deret $1 + 4 + 7 + 10 + \\cdots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "140" }],
+        [{ "tipe": "paragraph", "text": "145" }],
+        [{ "tipe": "paragraph", "text": "150" }],
+        [{ "tipe": "paragraph", "text": "155" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 1$, $b = 3$, $n = 10$." },
+        { "tipe": "formula_block", "latex": "S_n = \\dfrac{n}{2}(2a + (n-1)b)" },
+        { "tipe": "formula_block", "latex": "S_{10} = \\dfrac{10}{2}(2 \\cdot 1 + 9 \\cdot 3)" },
+        { "tipe": "formula_block", "latex": "= 5(2 + 27) = 5 \\cdot 29 = 145" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-20 dari barisan aritmatika dengan suku pertama 5 dan beda 4 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "75" }],
+        [{ "tipe": "paragraph", "text": "80" }],
+        [{ "tipe": "paragraph", "text": "81" }],
+        [{ "tipe": "paragraph", "text": "85" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "U_{20} = 5 + (20-1) \\cdot 4" },
+        { "tipe": "formula_block", "latex": "= 5 + 19 \\cdot 4" },
+        { "tipe": "formula_block", "latex": "= 5 + 76 = 81" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada barisan aritmatika, $U_5 = 21$ dan $U_{10} = 41$. Suku pertama barisan tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "6" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cari beda dulu:" },
+        { "tipe": "formula_block", "latex": "b = \\dfrac{U_{10} - U_5}{10 - 5} = \\dfrac{41 - 21}{5} = 4" },
+        { "tipe": "paragraph", "text": "Substitusi ke $U_5 = a + 4b$:" },
+        { "tipe": "formula_block", "latex": "21 = a + 4 \\cdot 4" },
+        { "tipe": "formula_block", "latex": "21 = a + 16 \\Rightarrow a = 5" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah semua bilangan asli antara 1 dan 100 yang habis dibagi 3 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "1584" }],
+        [{ "tipe": "paragraph", "text": "1683" }],
+        [{ "tipe": "paragraph", "text": "1782" }],
+        [{ "tipe": "paragraph", "text": "1881" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bilangan habis dibagi 3: $3, 6, 9, \\ldots, 99$." },
+        { "tipe": "paragraph", "text": "Ini barisan aritmatika dengan $a = 3$, $b = 3$, $U_n = 99$." },
+        { "tipe": "paragraph", "text": "Cari banyak suku:" },
+        { "tipe": "formula_block", "latex": "99 = 3 + (n-1) \\cdot 3" },
+        { "tipe": "formula_block", "latex": "99 = 3n \\Rightarrow n = 33" },
+        { "tipe": "paragraph", "text": "Jumlahkan:" },
+        { "tipe": "formula_block", "latex": "S_{33} = \\dfrac{33}{2}(3 + 99)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{33}{2} \\cdot 102 = 1683" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kursi pertunjukan disusun baris demi baris. Baris pertama 12 kursi, baris kedua 15 kursi, baris ketiga 18 kursi, dan seterusnya. Banyak kursi pada baris ke-10 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "36" }],
+        [{ "tipe": "paragraph", "text": "39" }],
+        [{ "tipe": "paragraph", "text": "42" }],
+        [{ "tipe": "paragraph", "text": "45" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Barisan: $12, 15, 18, \\ldots$ → $a = 12$, $b = 3$." },
+        { "tipe": "formula_block", "latex": "U_{10} = 12 + (10-1) \\cdot 3" },
+        { "tipe": "formula_block", "latex": "= 12 + 9 \\cdot 3 = 12 + 27 = 39" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-8 barisan aritmatika adalah 30. Jika suku pertama 2, maka jumlah 8 suku pertama adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "112" }],
+        [{ "tipe": "paragraph", "text": "124" }],
+        [{ "tipe": "paragraph", "text": "128" }],
+        [{ "tipe": "paragraph", "text": "132" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $U_8 = 30$, $a = 2$, $n = 8$." },
+        { "tipe": "paragraph", "text": "Gunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$:" },
+        { "tipe": "formula_block", "latex": "S_8 = \\dfrac{8}{2}(2 + 30)" },
+        { "tipe": "formula_block", "latex": "= 4 \\cdot 32 = 128" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
