@@ -1,0 +1,199 @@
+{
+  "id": "statistika-paket-01",
+  "nama": "Paket 1 - Penyajian Data",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "deskripsi": "Tabel, diagram, dan penyajian data",
+  "tingkat": "MUDAH",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "stat-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data yang berupa angka disebut data..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Kualitatif" }],
+        [{ "tipe": "paragraph", "text": "Kuantitatif" }],
+        [{ "tipe": "paragraph", "text": "Sekunder" }],
+        [{ "tipe": "paragraph", "text": "Primer" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Berdasarkan sifatnya, data dibagi menjadi:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "**Data kuantitatif** — berupa angka (mis. tinggi badan, nilai ujian)",
+          "**Data kualitatif** — berupa kategori (mis. warna favorit, jenis kelamin)"
+        ]}
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seluruh objek yang diteliti dalam statistika disebut..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Sampel" }],
+        [{ "tipe": "paragraph", "text": "Populasi" }],
+        [{ "tipe": "paragraph", "text": "Data" }],
+        [{ "tipe": "paragraph", "text": "Datum" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "list", "ordered": false, "items": [
+          "**Populasi** — seluruh objek yang diteliti",
+          "**Sampel** — bagian dari populasi yang diukur"
+        ]}
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram yang paling cocok untuk menunjukkan proporsi bagian dari keseluruhan adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Diagram batang" }],
+        [{ "tipe": "paragraph", "text": "Diagram garis" }],
+        [{ "tipe": "paragraph", "text": "Diagram lingkaran" }],
+        [{ "tipe": "paragraph", "text": "Histogram" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diagram lingkaran (pie chart) menunjukkan **proporsi** dari keseluruhan. Satu lingkaran penuh = 360° = 100%." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perbedaan utama histogram dengan diagram batang adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Histogram tidak punya sumbu Y" }],
+        [{ "tipe": "paragraph", "text": "Batang histogram saling menempel" }],
+        [{ "tipe": "paragraph", "text": "Histogram hanya untuk data kualitatif" }],
+        [{ "tipe": "paragraph", "text": "Diagram batang tidak punya label" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Histogram** — batang **saling menempel** (tidak ada jarak). Dipakai untuk data berkelompok yang kontinu." },
+        { "tipe": "paragraph", "text": "**Diagram batang** — batang **berjarak**. Dipakai untuk data kategorik." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram yang paling cocok untuk menunjukkan tren penjualan per bulan adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Diagram batang" }],
+        [{ "tipe": "paragraph", "text": "Diagram garis" }],
+        [{ "tipe": "paragraph", "text": "Diagram lingkaran" }],
+        [{ "tipe": "paragraph", "text": "Piktogram" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Diagram garis** cocok untuk data yang **berurutan waktu** (mis. penjualan per bulan, suhu harian, jumlah penduduk per tahun)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 200 siswa, 80 suka basket, 60 suka futsal, 40 suka voli, dan 20 suka bulu tangkis. Besar sudut sektor untuk basket adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$72^\\circ$" }],
+        [{ "tipe": "paragraph", "text": "$108^\\circ$" }],
+        [{ "tipe": "paragraph", "text": "$144^\\circ$" }],
+        [{ "tipe": "paragraph", "text": "$180^\\circ$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\text{Sudut} = \\dfrac{\\text{frekuensi}}{\\text{total}} \\times 360^\\circ" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{80}{200} \\times 360^\\circ" },
+        { "tipe": "formula_block", "latex": "= 0{,}4 \\times 360^\\circ = 144^\\circ" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stat-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data yang dikumpulkan sendiri oleh peneliti disebut data..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Sekunder" }],
+        [{ "tipe": "paragraph", "text": "Primer" }],
+        [{ "tipe": "paragraph", "text": "Kualitatif" }],
+        [{ "tipe": "paragraph", "text": "Kuantitatif" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Berdasarkan cara memperolehnya:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "**Data primer** — dikumpulkan sendiri (wawancara, kuesioner, observasi)",
+          "**Data sekunder** — diperoleh dari sumber yang sudah ada (BPS, artikel)"
+        ]}
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada tabel distribusi frekuensi 50–59, 60–69, 70–79, 80–89, 90–99, titik tengah kelas 70–79 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "73" }],
+        [{ "tipe": "paragraph", "text": "74" }],
+        [{ "tipe": "paragraph", "text": "74,5" }],
+        [{ "tipe": "paragraph", "text": "75" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah = rata-rata batas bawah & atas." },
+        { "tipe": "paragraph", "text": "Batas bawah = 70, batas atas = 79." },
+        { "tipe": "formula_block", "latex": "\\text{Titik tengah} = \\dfrac{70 + 79}{2} = \\dfrac{149}{2} = 74{,}5" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stat-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah survei dilakukan dengan mengirim kuesioner ke 100 siswa dari total 2000 siswa di sekolah. Bagian 100 siswa tersebut disebut..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Populasi" }],
+        [{ "tipe": "paragraph", "text": "Sampel" }],
+        [{ "tipe": "paragraph", "text": "Data primer" }],
+        [{ "tipe": "paragraph", "text": "Data sekunder" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Sampel** adalah bagian dari populasi yang benar-benar diukur. Di sini: 100 siswa." },
+        { "tipe": "paragraph", "text": "**Populasi** = seluruh 2000 siswa." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kelebihan menggunakan sampel dibandingkan meneliti seluruh populasi adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Hasilnya selalu lebih akurat" }],
+        [{ "tipe": "paragraph", "text": "Lebih hemat waktu, biaya, dan tenaga" }],
+        [{ "tipe": "paragraph", "text": "Tidak perlu analisis statistik" }],
+        [{ "tipe": "paragraph", "text": "Selalu mewakili seluruh populasi" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Meneliti seluruh populasi sering **terlalu mahal**, **lama**, dan **tidak praktis**." },
+        { "tipe": "paragraph", "text": "Sampel yang dipilih dengan baik (acak & representatif) bisa **mewakili populasi** dengan **waktu & biaya lebih sedikit**." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
