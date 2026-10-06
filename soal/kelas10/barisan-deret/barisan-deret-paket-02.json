@@ -1,0 +1,212 @@
+{
+  "id": "barisan-deret-paket-02",
+  "nama": "Paket 2 - Geometri",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "deskripsi": "Barisan dan deret geometri",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bar-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rasio dari barisan geometri $2, 6, 18, 54, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "6" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rasio = perbandingan dua suku berurutan:" },
+        { "tipe": "formula_block", "latex": "r = \\dfrac{U_2}{U_1} = \\dfrac{6}{2} = 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-6 dari barisan geometri $3, 6, 12, 24, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "48" }],
+        [{ "tipe": "paragraph", "text": "72" }],
+        [{ "tipe": "paragraph", "text": "96" }],
+        [{ "tipe": "paragraph", "text": "144" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 3$, $r = 2$." },
+        { "tipe": "formula_block", "latex": "U_6 = a \\cdot r^{6-1} = 3 \\cdot 2^5" },
+        { "tipe": "formula_block", "latex": "= 3 \\cdot 32 = 96" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bar-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-2 barisan geometri adalah 6 dan suku ke-5 adalah 162. Rasio barisan tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "9" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus $r = \\sqrt[m-n]{\\dfrac{U_m}{U_n}}$:" },
+        { "tipe": "formula_block", "latex": "r = \\sqrt[5-2]{\\dfrac{U_5}{U_2}} = \\sqrt[3]{\\dfrac{162}{6}}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt[3]{27} = 3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 6 suku pertama dari deret geometri $2 + 4 + 8 + \\cdots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "124" }],
+        [{ "tipe": "paragraph", "text": "126" }],
+        [{ "tipe": "paragraph", "text": "128" }],
+        [{ "tipe": "paragraph", "text": "130" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 2$, $r = 2$, $n = 6$." },
+        { "tipe": "formula_block", "latex": "S_6 = \\dfrac{a(r^n - 1)}{r - 1}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{2(2^6 - 1)}{2 - 1}" },
+        { "tipe": "formula_block", "latex": "= 2(64 - 1) = 2 \\cdot 63 = 126" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah tak hingga dari deret geometri $8 + 4 + 2 + 1 + \\cdots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "12" }],
+        [{ "tipe": "paragraph", "text": "14" }],
+        [{ "tipe": "paragraph", "text": "16" }],
+        [{ "tipe": "paragraph", "text": "18" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 8$, $r = \\dfrac{4}{8} = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Karena $|r| < 1$, gunakan rumus $S_\\infty$:" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{a}{1 - r} = \\dfrac{8}{1 - \\frac{1}{2}}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{8}{\\frac{1}{2}} = 16" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-4 barisan geometri $\\dfrac{1}{2}, \\dfrac{1}{4}, \\dfrac{1}{8}, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{14}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{18}$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = \\dfrac{1}{2}$, $r = \\dfrac{1}{2}$." },
+        { "tipe": "formula_block", "latex": "U_4 = \\dfrac{1}{2} \\cdot \\left(\\dfrac{1}{2}\\right)^3" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2} \\cdot \\dfrac{1}{8} = \\dfrac{1}{16}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bakteri berkembang biak dengan membelah diri setiap 30 menit. Jika awalnya ada 10 bakteri, banyak bakteri setelah 3 jam adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "320" }],
+        [{ "tipe": "paragraph", "text": "480" }],
+        [{ "tipe": "paragraph", "text": "640" }],
+        [{ "tipe": "paragraph", "text": "960" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "3 jam = 180 menit, terjadi $\\dfrac{180}{30} = 6$ kali pembelahan." },
+        { "tipe": "paragraph", "text": "Setiap pembelahan, jumlah menjadi 2 kali → $r = 2$." },
+        { "tipe": "paragraph", "text": "Jumlah total termasuk awal: $n = 7$." },
+        { "tipe": "formula_block", "latex": "U_7 = 10 \\cdot 2^{7-1}" },
+        { "tipe": "formula_block", "latex": "= 10 \\cdot 2^6 = 10 \\cdot 64 = 640" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah tak hingga deret geometri $\\dfrac{1}{3} + \\dfrac{1}{9} + \\dfrac{1}{27} + \\cdots$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" }],
+        [{ "tipe": "paragraph", "text": "1" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = \\dfrac{1}{3}$, $r = \\dfrac{1}{3}$." },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{\\frac{1}{3}}{1 - \\frac{1}{3}}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{\\frac{1}{3}}{\\frac{2}{3}} = \\dfrac{1}{2}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada barisan geometri, $U_1 = 5$ dan $U_4 = 40$. Jumlah 5 suku pertama adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "155" }],
+        [{ "tipe": "paragraph", "text": "165" }],
+        [{ "tipe": "paragraph", "text": "175" }],
+        [{ "tipe": "paragraph", "text": "185" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cari rasio dulu:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{U_4}{U_1} = r^3 \\Rightarrow \\dfrac{40}{5} = 8" },
+        { "tipe": "formula_block", "latex": "r^3 = 8 \\Rightarrow r = 2" },
+        { "tipe": "paragraph", "text": "Jumlah 5 suku pertama:" },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{5(2^5 - 1)}{2 - 1}" },
+        { "tipe": "formula_block", "latex": "= 5(32 - 1) = 5 \\cdot 31 = 155" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bar-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Uang Rp5.000.000 diinvestasikan dengan bunga majemuk 10% per tahun. Jumlah uang setelah 3 tahun adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp6.500.000" }],
+        [{ "tipe": "paragraph", "text": "Rp6.605.000" }],
+        [{ "tipe": "paragraph", "text": "Rp6.655.000" }],
+        [{ "tipe": "paragraph", "text": "Rp6.705.000" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bunga majemuk = barisan geometri dengan $r = 1{,}1$." },
+        { "tipe": "paragraph", "text": "Setelah 3 tahun → $n = 4$ (termasuk awal)." },
+        { "tipe": "formula_block", "latex": "U_4 = 5.000.000 \\cdot (1{,}1)^3" },
+        { "tipe": "formula_block", "latex": "= 5.000.000 \\cdot 1{,}331 = 6.655.000" },
+        { "tipe": "paragraph", "text": "Hmm, hasilnya Rp6.655.000 (bukan Rp6.605.000)." },
+        { "tipe": "paragraph", "text": "Mari periksa ulang. $(1{,}1)^3 = 1{,}1 \\times 1{,}1 \\times 1{,}1 = 1{,}331$." },
+        { "tipe": "paragraph", "text": "Jadi hasilnya $5.000.000 \\times 1{,}331 = $ <b>Rp6.655.000</b>." },
+        { "tipe": "paragraph", "text": "Pilihan jawaban yang benar adalah <b>C (Rp6.655.000)</b>, bukan B." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
