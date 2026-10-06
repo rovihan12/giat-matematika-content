@@ -1,9 +1,9 @@
 {
   "kelas": 10,
-  "kategori": "Aljabar",
+  "kategori": "Eksponen dan Logaritma",
   "emoji": "📐",
   "warna": "#4CAF50",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "bab": [
     {
       "id": "10-aljabar-bab-01",
@@ -32,7 +32,7 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Keterangan: $a$ disebut **basis** (bilangan pokok) dan $n$ disebut **eksponen** (pangkat)."
+          "text": "Keterangan: $a$ disebut <b>basis</b> (bilangan pokok) dan $n$ disebut <b>eksponen</b> (pangkat)."
         },
         {
           "tipe": "heading",
@@ -85,7 +85,7 @@
           "judul": "Contoh 3: Pangkat Pecahan",
           "konten": [
             { "tipe": "paragraph", "text": "Ubah $8^{\\frac{2}{3}}$ ke bentuk akar dan hitung nilainya." },
-            { "tipe": "formula_block", "latex": "8^{\\frac{2}{3}} = \\sqrt[3]{8^2} = \\sqrt[3]{64} = 4" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} 8^{\\frac{2}{3}} &= \\sqrt[3]{8^2} \\\\ &= \\sqrt[3]{64} \\\\ &= 4 \\end{aligned}" }
           ]
         },
         {
@@ -144,7 +144,7 @@
           "judul": "Contoh 1: Merasionalkan Penyebut Sederhana",
           "konten": [
             { "tipe": "paragraph", "text": "Rasionalkan $\\dfrac{6}{\\sqrt{3}}$." },
-            { "tipe": "formula_block", "latex": "\\dfrac{6}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}} = \\dfrac{6\\sqrt{3}}{3} = 2\\sqrt{3}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\dfrac{6}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}} &= \\dfrac{6\\sqrt{3}}{3} \\\\ &= 2\\sqrt{3} \\end{aligned}" }
           ]
         },
         {
@@ -152,8 +152,7 @@
           "judul": "Contoh 2: Merasionalkan Penyebut Bentuk Sekawan",
           "konten": [
             { "tipe": "paragraph", "text": "Rasionalkan $\\dfrac{4}{\\sqrt{5} + \\sqrt{2}}$." },
-            { "tipe": "formula_block", "latex": "\\dfrac{4}{\\sqrt{5} + \\sqrt{2}} \\times \\dfrac{\\sqrt{5} - \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}} = \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{5 - 2}" },
-            { "tipe": "formula_block", "latex": "= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{3}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\dfrac{4}{\\sqrt{5} + \\sqrt{2}} \\times \\dfrac{\\sqrt{5} - \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}} &= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{5 - 2} \\\\ &= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{3} \\end{aligned}" }
           ]
         },
         {
@@ -208,8 +207,8 @@
           "judul": "Contoh 1: Menghitung Logaritma Sederhana",
           "konten": [
             { "tipe": "paragraph", "text": "Hitung nilai dari ${}^2\\log 8$ dan ${}^3\\log \\dfrac{1}{9}$." },
-            { "tipe": "formula_block", "latex": "{}^2\\log 8 = {}^2\\log 2^3 = 3 \\cdot {}^2\\log 2 = 3 \\cdot 1 = 3" },
-            { "tipe": "formula_block", "latex": "{}^3\\log \\dfrac{1}{9} = {}^3\\log 3^{-2} = -2 \\cdot {}^3\\log 3 = -2" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} {}^2\\log 8 &= {}^2\\log 2^3 \\\\ &= 3 \\cdot {}^2\\log 2 \\\\ &= 3 \\cdot 1 \\\\ &= 3 \\end{aligned}" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} {}^3\\log \\dfrac{1}{9} &= {}^3\\log 3^{-2} \\\\ &= -2 \\cdot {}^3\\log 3 \\\\ &= -2 \\end{aligned}" }
           ]
         },
         {
@@ -217,8 +216,7 @@
           "judul": "Contoh 2: Sifat Perkalian dan Pembagian Logaritma",
           "konten": [
             { "tipe": "paragraph", "text": "Sederhanakan ${}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6$." },
-            { "tipe": "formula_block", "latex": "{}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6 = {}^2\\log \\left(\\dfrac{12 \\cdot 4}{6}\\right)" },
-            { "tipe": "formula_block", "latex": "= {}^2\\log 8 = {}^2\\log 2^3 = 3" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} &{}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6 \\\\ &= {}^2\\log \\left(\\dfrac{12 \\cdot 4}{6}\\right) \\\\ &= {}^2\\log 8 \\\\ &= {}^2\\log 2^3 \\\\ &= 3 \\end{aligned}" }
           ]
         },
         {
@@ -226,7 +224,7 @@
           "judul": "Contoh 3: Perubahan Basis",
           "konten": [
             { "tipe": "paragraph", "text": "Hitung ${}^8\\log 32$ menggunakan rumus perubahan basis." },
-            { "tipe": "formula_block", "latex": "{}^8\\log 32 = \\dfrac{{}^2\\log 32}{{}^2\\log 8} = \\dfrac{{}^2\\log 2^5}{{}^2\\log 2^3} = \\dfrac{5}{3}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} {}^8\\log 32 &= \\dfrac{{}^2\\log 32}{{}^2\\log 8} \\\\ &= \\dfrac{{}^2\\log 2^5}{{}^2\\log 2^3} \\\\ &= \\dfrac{5}{3} \\end{aligned}" }
           ]
         },
         {
@@ -247,8 +245,7 @@
           "judul": "Contoh: Persamaan Logaritma",
           "konten": [
             { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari ${}^2\\log (x+3) = 3$." },
-            { "tipe": "formula_block", "latex": "{}^2\\log (x+3) = 3 \\quad \\Rightarrow \\quad x + 3 = 2^3 = 8" },
-            { "tipe": "formula_block", "latex": "x = 8 - 3 = 5" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} {}^2\\log (x+3) &= 3 \\\\ x + 3 &= 2^3 \\\\ x + 3 &= 8 \\\\ x &= 5 \\end{aligned}" }
           ]
         },
         {
