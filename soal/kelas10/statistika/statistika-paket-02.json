@@ -1,0 +1,218 @@
+{
+  "id": "statistika-paket-02",
+  "nama": "Paket 2 - Mean, Median, Modus",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "deskripsi": "Ukuran pemusatan data",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "stat-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Mean dari data 4, 6, 8, 10, 12 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "7" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "9" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{4 + 6 + 8 + 10 + 12}{5}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{40}{5} = 8" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data 7, 3, 5, 9, 8 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "7" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "9" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan data dulu: 3, 5, 7, 8, 9." },
+        { "tipe": "paragraph", "text": "Karena $n = 5$ (ganjil), median = data ke-$\\dfrac{5+1}{2} = 3$." },
+        { "tipe": "paragraph", "text": "Median = 7." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data 3, 5, 3, 7, 3, 5, 4 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "7" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung frekuensi tiap nilai:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "3 muncul 3 kali",
+          "4 muncul 1 kali",
+          "5 muncul 2 kali",
+          "7 muncul 1 kali"
+        ]},
+        { "tipe": "paragraph", "text": "Nilai paling sering muncul = 3. Jadi modus = 3." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data 2, 4, 6, 8, 10, 12 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "7" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "9" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data sudah urut. $n = 6$ (genap)." },
+        { "tipe": "paragraph", "text": "Median = rata-rata data ke-3 dan ke-4:" },
+        { "tipe": "formula_block", "latex": "M_e = \\dfrac{6 + 8}{2} = \\dfrac{14}{2} = 7" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Mean dari data 5, 7, 8, 6, 9, 7 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "7" }],
+        [{ "tipe": "paragraph", "text": "7,5" }],
+        [{ "tipe": "paragraph", "text": "8" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{5 + 7 + 8 + 6 + 9 + 7}{6}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{42}{6} = 7" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "stat-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai ulangan 10 siswa: 7, 8, 6, 9, 7, 8, 7, 10, 8, 7. Modus dari data tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "7" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "9" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung frekuensi:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "6 muncul 1 kali",
+          "7 muncul 4 kali",
+          "8 muncul 3 kali",
+          "9 muncul 1 kali",
+          "10 muncul 1 kali"
+        ]},
+        { "tipe": "paragraph", "text": "Modus = 7 (muncul paling banyak)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stat-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diberikan tabel frekuensi nilai ulangan 30 siswa: 60–69 (4 siswa), 70–79 (8 siswa), 80–89 (12 siswa), 90–99 (6 siswa). Mean data tersebut kira-kira adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "78" }],
+        [{ "tipe": "paragraph", "text": "79" }],
+        [{ "tipe": "paragraph", "text": "81" }],
+        [{ "tipe": "paragraph", "text": "83" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan titik tengah tiap kelas: 64,5; 74,5; 84,5; 94,5." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{\\sum f_i \\cdot x_i}{\\sum f_i}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{4(64{,}5) + 8(74{,}5) + 12(84{,}5) + 6(94{,}5)}{30}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{258 + 596 + 1014 + 567}{30}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{2435}{30} \\approx 81{,}17" },
+        { "tipe": "paragraph", "text": "Jadi rata-rata ≈ **81,17**." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stat-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data dengan mean 60. Jika setiap nilai data ditambah 5, maka mean baru adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "55" }],
+        [{ "tipe": "paragraph", "text": "60" }],
+        [{ "tipe": "paragraph", "text": "65" }],
+        [{ "tipe": "paragraph", "text": "70" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap data ditambah konstanta $c$, maka mean juga bertambah $c$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{baru} = \\bar{x}_{lama} + c" },
+        { "tipe": "formula_block", "latex": "= 60 + 5 = 65" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stat-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua kelas memiliki nilai rata-rata yang sama, yaitu 75. Kelas A simpangan bakunya 3, Kelas B simpangan bakunya 12. Kesimpulan yang tepat adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Kelas A lebih konsisten" }],
+        [{ "tipe": "paragraph", "text": "Kelas B lebih konsisten" }],
+        [{ "tipe": "paragraph", "text": "Kedua kelas sama-sama konsisten" }],
+        [{ "tipe": "paragraph", "text": "Tidak bisa disimpulkan" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Simpangan baku mengukur **sebaran** data. Semakin **kecil**, semakin **konsisten**." },
+        { "tipe": "paragraph", "text": "Kelas A: $S = 3$ → data **rapat** di sekitar mean → **konsisten**." },
+        { "tipe": "paragraph", "text": "Kelas B: $S = 12$ → data **tersebar** jauh → **kurang konsisten**." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "stat-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai ulangan 8 siswa: 65, 70, 75, 75, 80, 85, 85, 90. Pernyataan yang benar adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Mean = median = modus" }],
+        [{ "tipe": "paragraph", "text": "Mean = 78, median = 77,5, modus = 75 dan 85" }],
+        [{ "tipe": "paragraph", "text": "Mean = 78, median = 75, modus = 85" }],
+        [{ "tipe": "paragraph", "text": "Mean = 80, median = 77,5, modus = 75" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data: 65, 70, 75, 75, 80, 85, 85, 90." },
+        { "tipe": "paragraph", "text": "**Mean:**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{65+70+75+75+80+85+85+90}{8}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{625}{8} = 78{,}125 \\approx 78" },
+        { "tipe": "paragraph", "text": "**Median** ($n = 8$, genap): rata-rata data ke-4 & ke-5:" },
+        { "tipe": "formula_block", "latex": "M_e = \\dfrac{75 + 80}{2} = 77{,}5" },
+        { "tipe": "paragraph", "text": "**Modus:** nilai yang paling sering muncul. 75 dan 85 sama-sama muncul 2 kali → **bimodal**." },
+        { "tipe": "paragraph", "text": "Jadi jawaban yang benar: mean ≈ 78, median = 77,5, modus = 75 dan 85." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
