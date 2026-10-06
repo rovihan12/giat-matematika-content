@@ -3,7 +3,7 @@
   "kategori": "Fungsi Kuadrat",
   "emoji": "📊",
   "warna": "#5B8DEF",
-  "versi": "1.0.1",
+  "versi": "1.0.2",
   "bab": [
     {
       "id": "10-fk-bab-01",
@@ -198,12 +198,12 @@
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Langkah 1 — Titik potong sumbu Y: $f(0) = 3$, jadi titik $(0, 3)$." },
             { "tipe": "paragraph", "text": "Langkah 2 — Titik potong sumbu X: selesaikan $x^2 - 4x + 3 = 0$." },
-            { "tipe": "formula_block", "latex": "(x - 1)(x - 3) = 0 \\Rightarrow x = 1 \\text{ atau } x = 3" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} (x - 1)(x - 3) &= 0 \\\\ x = 1 \\quad &\\text{atau} \\quad x = 3 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi titik potong sumbu X di $(1, 0)$ dan $(3, 0)$." },
             { "tipe": "paragraph", "text": "Langkah 3 — Sumbu simetri:" },
             { "tipe": "formula_block", "latex": "x = -\\dfrac{b}{2a} = -\\dfrac{-4}{2 \\cdot 1} = 2" },
             { "tipe": "paragraph", "text": "Langkah 4 — Titik puncak: substitusi $x = 2$ ke fungsi." },
-            { "tipe": "formula_block", "latex": "f(2) = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} f(2) &= (2)^2 - 4(2) + 3 \\\\ &= 4 - 8 + 3 \\\\ &= -1 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Titik puncak = $(2, -1)$, dan karena $a > 0$, ini adalah titik <b>minimum</b>." },
             { "tipe": "image", "src": "images/kelas10/fungsi-kuadrat/titik-puncak.png", "caption": "Grafik fungsi $f(x) = x^2 - 4x + 3$ dengan titik puncak (minimum) di $(2, -1)$. Sumbu simetri di $x = 2$ ditandai garis putus-putus orange, memotong sumbu X di $(1, 0)$ dan $(3, 0)$, serta sumbu Y di $(0, 3)$", "width": "full" }
           ]
@@ -299,7 +299,7 @@
             { "tipe": "paragraph", "text": "Sumbu simetri:" },
             { "tipe": "formula_block", "latex": "x_p = -\\dfrac{-6}{2 \\cdot 1} = 3" },
             { "tipe": "paragraph", "text": "Nilai $y_p$ dengan substitusi:" },
-            { "tipe": "formula_block", "latex": "y_p = f(3) = 3^2 - 6(3) + 5 = 9 - 18 + 5 = -4" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} y_p &= f(3) \\\\ &= 3^2 - 6(3) + 5 \\\\ &= 9 - 18 + 5 \\\\ &= -4 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi titik puncak = $(3, -4)$. Karena $a > 0$, ini adalah titik <b>minimum</b>." }
           ]
         },
@@ -311,7 +311,7 @@
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Diketahui $a = -2$, $b = 8$, $c = -3$." },
             { "tipe": "formula_block", "latex": "x_p = -\\dfrac{8}{2 \\cdot (-2)} = -\\dfrac{8}{-4} = 2" },
-            { "tipe": "formula_block", "latex": "y_p = f(2) = -2(2)^2 + 8(2) - 3 = -8 + 16 - 3 = 5" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} y_p &= f(2) \\\\ &= -2(2)^2 + 8(2) - 3 \\\\ &= -8 + 16 - 3 \\\\ &= 5 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi titik puncak = $(2, 5)$. Karena $a < 0$, ini adalah titik <b>maksimum</b>." }
           ]
         },
@@ -409,7 +409,7 @@
             { "tipe": "paragraph", "text": "Tentukan jenis akar dari $x^2 - 5x + 6 = 0$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Diketahui $a = 1$, $b = -5$, $c = 6$." },
-            { "tipe": "formula_block", "latex": "D = (-5)^2 - 4(1)(6) = 25 - 24 = 1" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} D &= (-5)^2 - 4(1)(6) \\\\ &= 25 - 24 \\\\ &= 1 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Karena $D = 1 > 0$, persamaan punya <b>dua akar real berbeda</b>. Akarnya:" },
             { "tipe": "formula_block", "latex": "x_{1,2} = \\dfrac{5 \\pm \\sqrt{1}}{2} = \\dfrac{5 \\pm 1}{2}" },
             { "tipe": "formula_block", "latex": "x_1 = 3, \\quad x_2 = 2" }
@@ -422,7 +422,7 @@
             { "tipe": "paragraph", "text": "Tentukan jenis akar dari $x^2 - 4x + 4 = 0$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Diketahui $a = 1$, $b = -4$, $c = 4$." },
-            { "tipe": "formula_block", "latex": "D = (-4)^2 - 4(1)(4) = 16 - 16 = 0" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} D &= (-4)^2 - 4(1)(4) \\\\ &= 16 - 16 \\\\ &= 0 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Karena $D = 0$, persamaan punya <b>satu akar kembar</b>:" },
             { "tipe": "formula_block", "latex": "x = \\dfrac{4}{2} = 2" },
             { "tipe": "paragraph", "text": "Jadi akarnya $x_1 = x_2 = 2$." }
@@ -435,7 +435,7 @@
             { "tipe": "paragraph", "text": "Tentukan jenis akar dari $x^2 + x + 1 = 0$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Diketahui $a = 1$, $b = 1$, $c = 1$." },
-            { "tipe": "formula_block", "latex": "D = 1^2 - 4(1)(1) = 1 - 4 = -3" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} D &= 1^2 - 4(1)(1) \\\\ &= 1 - 4 \\\\ &= -3 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Karena $D = -3 < 0$, persamaan <b>tidak punya akar real</b>. Parabola tidak memotong sumbu X." }
           ]
         },
@@ -448,8 +448,8 @@
           "tipe": "list",
           "ordered": false,
           "items": [
-            "$D > 0$ & $a > 0$ → parabola terbuka ke atas, memotong sumbu X di 2 titik",
-            "$D > 0$ & $a < 0$ → parabola terbuka ke bawah, memotong sumbu X di 2 titik",
+            "$D > 0$ dan $a > 0$ → parabola terbuka ke atas, memotong sumbu X di 2 titik",
+            "$D > 0$ dan $a < 0$ → parabola terbuka ke bawah, memotong sumbu X di 2 titik",
             "$D = 0$ → parabola menyinggung sumbu X (titik puncak di sumbu X)",
             "$D < 0$ → parabola mengambang di atas atau di bawah sumbu X"
           ]
@@ -506,7 +506,8 @@
         },
         {
           "tipe": "paragraph",
-          "text": "Substitusi titik lain yang diketahui untuk mencari nilai $a$." },
+          "text": "Substitusi titik lain yang diketahui untuk mencari nilai $a$."
+        },
         {
           "tipe": "heading",
           "level": 3,
@@ -550,10 +551,9 @@
             { "tipe": "paragraph", "text": "Gunakan bentuk puncak dengan $x_p = 2$, $y_p = 1$:" },
             { "tipe": "formula_block", "latex": "f(x) = a(x - 2)^2 + 1" },
             { "tipe": "paragraph", "text": "Substitusi titik $(0, 5)$: $f(0) = 5$." },
-            { "tipe": "formula_block", "latex": "5 = a(0 - 2)^2 + 1 = 4a + 1" },
-            { "tipe": "formula_block", "latex": "4a = 4 \\Rightarrow a = 1" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} 5 &= a(0 - 2)^2 + 1 \\\\ 5 &= 4a + 1 \\\\ 4a &= 4 \\\\ a &= 1 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi fungsi kuadratnya:" },
-            { "tipe": "formula_block", "latex": "f(x) = (x - 2)^2 + 1 = x^2 - 4x + 5" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} f(x) &= (x - 2)^2 + 1 \\\\ &= x^2 - 4x + 5 \\end{aligned}" }
           ]
         },
         {
@@ -565,10 +565,9 @@
             { "tipe": "paragraph", "text": "Gunakan bentuk faktor:" },
             { "tipe": "formula_block", "latex": "f(x) = a(x - 1)(x - 3)" },
             { "tipe": "paragraph", "text": "Substitusi titik $(0, 3)$: $f(0) = 3$." },
-            { "tipe": "formula_block", "latex": "3 = a(0 - 1)(0 - 3) = a(-1)(-3) = 3a" },
-            { "tipe": "formula_block", "latex": "a = 1" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} 3 &= a(0 - 1)(0 - 3) \\\\ 3 &= a(-1)(-3) \\\\ 3 &= 3a \\\\ a &= 1 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi fungsi kuadratnya:" },
-            { "tipe": "formula_block", "latex": "f(x) = (x - 1)(x - 3) = x^2 - 4x + 3" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} f(x) &= (x - 1)(x - 3) \\\\ &= x^2 - 4x + 3 \\end{aligned}" }
           ]
         },
         {
@@ -578,10 +577,173 @@
             { "tipe": "paragraph", "text": "Tentukan fungsi kuadrat yang melewati titik $(0, 1)$, $(1, 4)$, dan $(2, 9)$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Misalkan $f(x) = ax^2 + bx + c$. Substitusi ketiga titik:" },
-            { "tipe": "paragraph", "text": "Dari $(0, 1)$: $c = 1$." },
-            { "tipe": "paragraph", "text": "Dari $(1, 4)$: $a + b + 1 = 4 \\Rightarrow a + b = 3$." },
-            { "tipe": "paragraph", "text": "Dari $(2, 9)$: $4a + 2b + 1 = 9 \\Rightarrow 4a + 2b = 8 \\Rightarrow 2a + b = 4$." },
-            { "tipe": "paragraph", "text": "Kurangkan kedua persamaan: $(2a + b) - (a + b) = 4 - 3 \\Rightarrow a = 1$." },
-            { "tipe": "paragraph", "text": "Substitusi $a = 1$: $1 + b = 3 \\Rightarrow b = 2$." },
+            { "tipe": "list", "ordered": false, "items": [
+              "Dari $(0, 1)$: $c = 1$",
+              "Dari $(1, 4)$: $a + b + 1 = 4 \\Rightarrow a + b = 3$",
+              "Dari $(2, 9)$: $4a + 2b + 1 = 9 \\Rightarrow 4a + 2b = 8 \\Rightarrow 2a + b = 4$"
+            ]},
+            { "tipe": "paragraph", "text": "Kurangkan kedua persamaan:" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} (2a + b) - (a + b) &= 4 - 3 \\\\ a &= 1 \\end{aligned}" },
+            { "tipe": "paragraph", "text": "Substitusi $a = 1$:" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} 1 + b &= 3 \\\\ b &= 2 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi fungsi kuadratnya:" },
-            { "tipe": "formula_block", "latex": "f(x) = x
+            { "tipe": "formula_block", "latex": "f(x) = x^2 + 2x + 1" }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Diketahui puncak → pakai $f(x) = a(x - x_p)^2 + y_p$",
+            "Diketahui titik potong sumbu X → pakai $f(x) = a(x - x_1)(x - x_2)$",
+            "Diketahui tiga titik → pakai $f(x) = ax^2 + bx + c$ + SPLTV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-fk-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Fungsi Kuadrat",
+      "deskripsi": "Penerapan dalam soal cerita dan kehidupan nyata",
+      "estimasi_menit": 18,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Fungsi Kuadrat di Sekitar Kita"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Fungsi kuadrat bukan cuma teori di buku. Banyak fenomena nyata mengikuti pola parabola — mulai dari lintasan bola, bentuk jembatan, sampai keuntungan maksimum dalam bisnis."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Lintasan Bola yang Dilempar"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ketika bola dilempar ke udara, lintasannya membentuk <b>parabola</b>. Ketinggian bola pada waktu $t$ bisa dimodelkan:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "h(t) = -\\dfrac{1}{2}gt^2 + v_0 t + h_0"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "dengan $g$ = percepatan gravitasi, $v_0$ = kecepatan awal, $h_0$ = ketinggian awal."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Keuntungan Maksimum dalam Bisnis"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau harga jual memengaruhi jumlah pembeli, total keuntungan bisa dimodelkan dengan fungsi kuadrat. Titik puncak = keuntungan maksimum."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "L(x) = ax^2 + bx + c"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "3. Luas Maksimum dengan Keliling Tetap"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Kalau kamu punya pagar dengan panjang tetap $K$, luas maksimum yang bisa dibentuk adalah persegi (bukan persegi panjang). Ini bisa dibuktikan dengan fungsi kuadrat."
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "4. Bentuk Jembatan dan Bangunan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Jembatan gantung seperti Golden Gate, atau atap stadion, banyak yang berbentuk parabola karena kokoh dan indah. Insinyur menggunakan fungsi kuadrat untuk merancangnya."
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Lintasan Bola",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah bola dilempar ke atas. Ketinggiannya (dalam meter) setelah $t$ detik dinyatakan oleh $h(t) = -5t^2 + 20t$. Berapa ketinggian maksimum bola tersebut?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Diketahui $a = -5$, $b = 20$, $c = 0$. Karena $a < 0$, parabola terbuka ke bawah → ada titik maksimum." },
+            { "tipe": "paragraph", "text": "Waktu saat ketinggian maksimum:" },
+            { "tipe": "formula_block", "latex": "t = -\\dfrac{b}{2a} = -\\dfrac{20}{2(-5)} = 2 \\text{ detik}" },
+            { "tipe": "paragraph", "text": "Ketinggian maksimum:" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} h(2) &= -5(2)^2 + 20(2) \\\\ &= -20 + 40 \\\\ &= 20 \\text{ meter} \\end{aligned}" },
+            { "tipe": "paragraph", "text": "Jadi bola mencapai ketinggian maksimum <b>20 meter</b> pada detik ke-2." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 2: Keuntungan Maksimum",
+          "konten": [
+            { "tipe": "paragraph", "text": "Sebuah toko menjual kue dengan harga $x$ ribu rupiah per buah. Keuntungan total (dalam ribu rupiah) dinyatakan oleh $L(x) = -2x^2 + 40x - 100$. Berapa harga jual yang memberi keuntungan maksimum?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Diketahui $a = -2$, $b = 40$, $c = -100$. Karena $a < 0$, ada titik maksimum." },
+            { "tipe": "formula_block", "latex": "x = -\\dfrac{40}{2(-2)} = 10" },
+            { "tipe": "paragraph", "text": "Keuntungan maksimum:" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} L(10) &= -2(10)^2 + 40(10) - 100 \\\\ &= -200 + 400 - 100 \\\\ &= 100 \\end{aligned}" },
+            { "tipe": "paragraph", "text": "Jadi harga jual optimal adalah <b>Rp10.000 per kue</b>, dengan keuntungan maksimum <b>Rp100.000</b>." }
+          ]
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 3: Luas Maksimum",
+          "konten": [
+            { "tipe": "paragraph", "text": "Seorang petani punya pagar sepanjang 40 meter untuk membuat kandang persegi panjang. Berapa ukuran kandang agar luasnya maksimum?" },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "paragraph", "text": "Misal panjang = $x$ dan lebar = $y$. Keliling: $2x + 2y = 40 \\Rightarrow y = 20 - x$." },
+            { "tipe": "paragraph", "text": "Luas: $L(x) = x \\cdot y = x(20 - x) = 20x - x^2$." },
+            { "tipe": "paragraph", "text": "Diketahui $a = -1$, $b = 20$. Luas maksimum saat:" },
+            { "tipe": "formula_block", "latex": "x = -\\dfrac{20}{2(-1)} = 10" },
+            { "tipe": "paragraph", "text": "Substitusi: $y = 20 - 10 = 10$." },
+            { "tipe": "paragraph", "text": "Jadi kandang harus berbentuk <b>persegi 10 m × 10 m</b> dengan luas maksimum <b>100 m²</b>." }
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Tips Menghadapi Soal Cerita"
+        },
+        {
+          "tipe": "list",
+          "ordered": true,
+          "items": [
+            "<b>Baca soal dengan teliti</b> — apa yang diketahui dan ditanya?",
+            "<b>Misalkan variabel</b> — biasanya $x$ untuk hal yang mau dioptimalkan",
+            "<b>Susun model matematika</b> — ubah kalimat jadi fungsi kuadrat",
+            "<b>Tentukan apakah maksimum atau minimum</b> — lihat tanda $a$",
+            "<b>Hitung dengan rumus titik puncak</b> — $x = -\\dfrac{b}{2a}$",
+            "<b>Cek jawaban</b> — apakah masuk akal dengan konteks soal?"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "Rangkuman Akhir"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Fungsi kuadrat sangat berguna untuk <b>mengoptimalkan</b> sesuatu (maksimum atau minimum)",
+            "Model umum: $f(x) = ax^2 + bx + c$ dengan $a \\neq 0$",
+            "Nilai optimal terjadi di titik puncak: $x = -\\dfrac{b}{2a}$",
+            "Aplikasi: lintasan bola, keuntungan bisnis, luas maksimum, bentuk jembatan"
+          ]
+        }
+      ]
+    }
+  ]
+}
