@@ -1,0 +1,205 @@
+{
+  "id": "trigonometri-paket-01",
+  "nama": "Paket 1 - Perbandingan",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "deskripsi": "Sin, cos, tan pada segitiga siku-siku",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "trig-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku, jika sisi depan sudut $\\theta$ adalah 3 cm dan sisi miring 5 cm, maka $\\sin\\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Definisi sinus: $\\sin\\theta = \\dfrac{\\text{sisi depan}}{\\text{sisi miring}}$." },
+        { "tipe": "formula_block", "latex": "\\sin\\theta = \\dfrac{3}{5}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "trig-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku dengan sisi samping 8 cm dan sisi miring 17 cm, nilai $\\cos\\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{8}{17}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{15}{17}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{8}{15}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{15}{8}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Definisi cosinus: $\\cos\\theta = \\dfrac{\\text{sisi samping}}{\\text{sisi miring}}$." },
+        { "tipe": "formula_block", "latex": "\\cos\\theta = \\dfrac{8}{17}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "trig-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan\\theta = \\dfrac{3}{4}$, maka nilai $\\sin\\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan\\theta = \\dfrac{\\text{depan}}{\\text{samping}} = \\dfrac{3}{4}$." },
+        { "tipe": "paragraph", "text": "Sisi miring = $\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$." },
+        { "tipe": "formula_block", "latex": "\\sin\\theta = \\dfrac{3}{5}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "trig-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga siku-siku memiliki sudut $30^\\circ$ dan sisi miring 10 cm. Panjang sisi depan sudut tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3 cm" }],
+        [{ "tipe": "paragraph", "text": "4 cm" }],
+        [{ "tipe": "paragraph", "text": "5 cm" }],
+        [{ "tipe": "paragraph", "text": "6 cm" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\sin 30^\\circ = \\dfrac{\\text{depan}}{10}" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{2} = \\dfrac{\\text{depan}}{10}" },
+        { "tipe": "formula_block", "latex": "\\text{depan} = 5 \\text{ cm}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "trig-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\csc\\theta$ jika $\\sin\\theta = \\dfrac{5}{13}$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{12}{13}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{13}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{13}{12}$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cosecan adalah kebalikan sinus:" },
+        { "tipe": "formula_block", "latex": "\\csc\\theta = \\dfrac{1}{\\sin\\theta} = \\dfrac{1}{\\frac{5}{13}} = \\dfrac{13}{5}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "trig-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang siswa berdiri 15 meter dari sebuah pohon dan melihat puncak pohon dengan sudut elevasi $45^\\circ$. Tinggi pohon tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "10 m" }],
+        [{ "tipe": "paragraph", "text": "12 m" }],
+        [{ "tipe": "paragraph", "text": "15 m" }],
+        [{ "tipe": "paragraph", "text": "20 m" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jarak siswa ke pohon = sisi samping = 15 m." },
+        { "tipe": "paragraph", "text": "Tinggi pohon = sisi depan = $t$." },
+        { "tipe": "formula_block", "latex": "\\tan 45^\\circ = \\dfrac{t}{15}" },
+        { "tipe": "formula_block", "latex": "1 = \\dfrac{t}{15} \\Rightarrow t = 15 \\text{ m}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "trig-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku, diketahui $\\sin\\theta = \\dfrac{7}{25}$. Nilai $\\cos\\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{7}{24}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{25}{24}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin\\theta = \\dfrac{\\text{depan}}{\\text{miring}} = \\dfrac{7}{25}$." },
+        { "tipe": "paragraph", "text": "Sisi samping = $\\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$." },
+        { "tipe": "formula_block", "latex": "\\cos\\theta = \\dfrac{24}{25}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "trig-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah tangga bersandar pada dinding membentuk sudut $60^\\circ$ dengan tanah. Jika panjang tangga 8 m, tinggi ujung tangga dari tanah adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$4\\sqrt{2}$ m" }],
+        [{ "tipe": "paragraph", "text": "$4\\sqrt{3}$ m" }],
+        [{ "tipe": "paragraph", "text": "$4$ m" }],
+        [{ "tipe": "paragraph", "text": "$8\\sqrt{3}$ m" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Panjang tangga = sisi miring = 8 m." },
+        { "tipe": "paragraph", "text": "Tinggi ujung tangga = sisi depan = $t$." },
+        { "tipe": "formula_block", "latex": "\\sin 60^\\circ = \\dfrac{t}{8}" },
+        { "tipe": "formula_block", "latex": "\\dfrac{\\sqrt{3}}{2} = \\dfrac{t}{8}" },
+        { "tipe": "formula_block", "latex": "t = 4\\sqrt{3} \\text{ m}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "trig-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sec\\theta \\cdot \\cos\\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "0" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "$\\cos^2\\theta$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Secan adalah kebalikan cosinus:" },
+        { "tipe": "formula_block", "latex": "\\sec\\theta = \\dfrac{1}{\\cos\\theta}" },
+        { "tipe": "formula_block", "latex": "\\sec\\theta \\cdot \\cos\\theta = \\dfrac{1}{\\cos\\theta} \\cdot \\cos\\theta = 1" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "trig-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari puncak menara setinggi 30 m, seseorang melihat titik di tanah dengan sudut depresi $30^\\circ$. Jarak titik tersebut dari kaki menara adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$15\\sqrt{3}$ m" }],
+        [{ "tipe": "paragraph", "text": "$30\\sqrt{3}$ m" }],
+        [{ "tipe": "paragraph", "text": "$60$ m" }],
+        [{ "tipe": "paragraph", "text": "$60\\sqrt{3}$ m" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut depresi = sudut elevasi dari bawah." },
+        { "tipe": "paragraph", "text": "Tinggi menara = sisi depan = 30 m." },
+        { "tipe": "paragraph", "text": "Jarak = sisi samping = $d$." },
+        { "tipe": "formula_block", "latex": "\\tan 30^\\circ = \\dfrac{30}{d}" },
+        { "tipe": "formula_block", "latex": "\\dfrac{\\sqrt{3}}{3} = \\dfrac{30}{d}" },
+        { "tipe": "formula_block", "latex": "d = \\dfrac{30 \\cdot 3}{\\sqrt{3}} = \\dfrac{90}{\\sqrt{3}} \\cdot \\dfrac{\\sqrt{3}}{\\sqrt{3}}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{90\\sqrt{3}}{3} = 30\\sqrt{3} \\text{ m}" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
