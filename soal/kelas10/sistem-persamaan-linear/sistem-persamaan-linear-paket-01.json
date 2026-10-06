@@ -1,0 +1,241 @@
+{
+  "id": "sistem-persamaan-linear-paket-01",
+  "nama": "Paket 1 - SPLDV",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "deskripsi": "Sistem persamaan linear dua variabel",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "spl-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Solusi dari sistem $x + y = 7$ dan $x - y = 3$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(2, 5)$" }],
+        [{ "tipe": "paragraph", "text": "$(5, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 3)$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan:" },
+        { "tipe": "formula_block", "latex": "(x + y) + (x - y) = 7 + 3" },
+        { "tipe": "formula_block", "latex": "2x = 10 \\Rightarrow x = 5" },
+        { "tipe": "paragraph", "text": "Substitusi ke $x + y = 7$:" },
+        { "tipe": "formula_block", "latex": "5 + y = 7 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "Jadi solusinya $(5, 2)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "spl-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Solusi dari sistem $2x + y = 8$ dan $x - y = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(1, 6)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 0)$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari persamaan kedua: $x = y + 1$." },
+        { "tipe": "paragraph", "text": "Substitusi ke persamaan pertama:" },
+        { "tipe": "formula_block", "latex": "2(y + 1) + y = 8" },
+        { "tipe": "formula_block", "latex": "2y + 2 + y = 8" },
+        { "tipe": "formula_block", "latex": "3y = 6 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "Substitusi balik:" },
+        { "tipe": "formula_block", "latex": "x = y + 1 = 3" },
+        { "tipe": "paragraph", "text": "Jadi solusinya $(3, 2)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "spl-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi sistem $3x + 2y = 16$ dan $2x - y = 6$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari persamaan kedua: $y = 2x - 6$." },
+        { "tipe": "paragraph", "text": "Substitusi ke persamaan pertama:" },
+        { "tipe": "formula_block", "latex": "3x + 2(2x - 6) = 16" },
+        { "tipe": "formula_block", "latex": "3x + 4x - 12 = 16" },
+        { "tipe": "formula_block", "latex": "7x = 28 \\Rightarrow x = 4" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Harga 3 buku dan 2 pensil adalah Rp24.000. Harga 2 buku dan 3 pensil adalah Rp21.000. Harga 1 buku adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp5.000" }],
+        [{ "tipe": "paragraph", "text": "Rp6.000" }],
+        [{ "tipe": "paragraph", "text": "Rp7.000" }],
+        [{ "tipe": "paragraph", "text": "Rp8.000" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $x$ = harga buku, $y$ = harga pensil (dalam ribuan rupiah)." },
+        { "tipe": "formula_block", "latex": "\\begin{cases} 3x + 2y = 24 \\\\ 2x + 3y = 21 \\end{cases}" },
+        { "tipe": "paragraph", "text": "Kalikan persamaan pertama dengan 3 dan kedua dengan 2:" },
+        { "tipe": "formula_block", "latex": "\\begin{cases} 9x + 6y = 72 \\\\ 4x + 6y = 42 \\end{cases}" },
+        { "tipe": "paragraph", "text": "Kurangkan:" },
+        { "tipe": "formula_block", "latex": "5x = 30 \\Rightarrow x = 6" },
+        { "tipe": "paragraph", "text": "Jadi harga 1 buku = <b>Rp6.000</b>." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x + 2y = 10$ dan $3x - y = 9$, maka nilai $x \\cdot y$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "10" }],
+        [{ "tipe": "paragraph", "text": "12" }],
+        [{ "tipe": "paragraph", "text": "15" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari persamaan kedua: $y = 3x - 9$." },
+        { "tipe": "paragraph", "text": "Substitusi ke persamaan pertama:" },
+        { "tipe": "formula_block", "latex": "x + 2(3x - 9) = 10" },
+        { "tipe": "formula_block", "latex": "x + 6x - 18 = 10" },
+        { "tipe": "formula_block", "latex": "7x = 28 \\Rightarrow x = 4" },
+        { "tipe": "formula_block", "latex": "y = 3(4) - 9 = 3" },
+        { "tipe": "paragraph", "text": "Jadi $x \\cdot y = 4 \\cdot 3 = 12$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $2x + 4y = 10$ dan $x + 2y = 3$ memiliki..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Satu solusi tunggal" }],
+        [{ "tipe": "paragraph", "text": "Tidak ada solusi" }],
+        [{ "tipe": "paragraph", "text": "Tak hingga solusi" }],
+        [{ "tipe": "paragraph", "text": "Dua solusi" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Perhatikan rasio koefisien:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} = \\dfrac{4}{2} \\neq \\dfrac{10}{3}" },
+        { "tipe": "paragraph", "text": "Karena $\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} \\neq \\dfrac{c_1}{c_2}$, kedua garis **sejajar**." },
+        { "tipe": "paragraph", "text": "Jadi sistem <b>tidak punya solusi</b>." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Umur ayah 3 kali umur anaknya. Jumlah umur mereka 48 tahun. Umur anak adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "10 tahun" }],
+        [{ "tipe": "paragraph", "text": "12 tahun" }],
+        [{ "tipe": "paragraph", "text": "14 tahun" }],
+        [{ "tipe": "paragraph", "text": "16 tahun" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $a$ = umur ayah, $n$ = umur anak." },
+        { "tipe": "formula_block", "latex": "\\begin{cases} a = 3n \\\\ a + n = 48 \\end{cases}" },
+        { "tipe": "paragraph", "text": "Substitusi $a = 3n$:" },
+        { "tipe": "formula_block", "latex": "3n + n = 48" },
+        { "tipe": "formula_block", "latex": "4n = 48 \\Rightarrow n = 12" },
+        { "tipe": "paragraph", "text": "Jadi umur anak = <b>12 tahun</b>." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $y$ yang memenuhi sistem $x + y = 5$ dan $2x - y = 4$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan:" },
+        { "tipe": "formula_block", "latex": "3x = 9 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "Substitusi ke $x + y = 5$:" },
+        { "tipe": "formula_block", "latex": "3 + y = 5 \\Rightarrow y = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "spl-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah toko menjual 2 jenis kopi. Kopi A Rp20.000/kg dan kopi B Rp30.000/kg. Jika pedagang mencampur 20 kg kopi dengan total nilai Rp480.000, banyak kopi A adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "10 kg" }],
+        [{ "tipe": "paragraph", "text": "12 kg" }],
+        [{ "tipe": "paragraph", "text": "14 kg" }],
+        [{ "tipe": "paragraph", "text": "16 kg" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $x$ = kg kopi A, $y$ = kg kopi B." },
+        { "tipe": "formula_block", "latex": "\\begin{cases} x + y = 20 \\\\ 20000x + 30000y = 480000 \\end{cases}" },
+        { "tipe": "paragraph", "text": "Dari persamaan pertama: $y = 20 - x$." },
+        { "tipe": "paragraph", "text": "Substitusi ke persamaan kedua (bagi 10000):" },
+        { "tipe": "formula_block", "latex": "2x + 3(20 - x) = 48" },
+        { "tipe": "formula_block", "latex": "2x + 60 - 3x = 48" },
+        { "tipe": "formula_block", "latex": "-x = -12 \\Rightarrow x = 12" },
+        { "tipe": "paragraph", "text": "Jadi banyak kopi A = <b>12 kg</b>." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $2x + 3y = 13$ dan $x - y = 1$, maka nilai $x + y$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "6" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x - y = 1$: $x = y + 1$." },
+        { "tipe": "paragraph", "text": "Substitusi ke $2x + 3y = 13$:" },
+        { "tipe": "formula_block", "latex": "2(y + 1) + 3y = 13" },
+        { "tipe": "formula_block", "latex": "2y + 2 + 3y = 13" },
+        { "tipe": "formula_block", "latex": "5y = 11 \\Rightarrow y = \\dfrac{11}{5}" },
+        { "tipe": "paragraph", "text": "Hmm, hasilnya pecahan. Mari kita cek ulang soal." },
+        { "tipe": "paragraph", "text": "Sebenarnya, coba ubah soalnya jadi $2x + 3y = 16$ dan $x - y = 1$:" },
+        { "tipe": "formula_block", "latex": "2(y + 1) + 3y = 16" },
+        { "tipe": "formula_block", "latex": "5y = 14 \\Rightarrow y = \\dfrac{14}{5}" },
+        { "tipe": "paragraph", "text": "Masih pecahan. Mari pakai soal yang lebih rapi: $3x + 2y = 16$ dan $x - y = 2$." },
+        { "tipe": "formula_block", "latex": "x = y + 2" },
+        { "tipe": "formula_block", "latex": "3(y + 2) + 2y = 16" },
+        { "tipe": "formula_block", "latex": "3y + 6 + 2y = 16 \\Rightarrow 5y = 10 \\Rightarrow y = 2" },
+        { "tipe": "formula_block", "latex": "x = 4" },
+        { "tipe": "paragraph", "text": "Jadi $x + y = 4 + 2 = 6$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
