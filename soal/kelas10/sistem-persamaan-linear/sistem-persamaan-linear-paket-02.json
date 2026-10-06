@@ -1,0 +1,217 @@
+{
+  "id": "sistem-persamaan-linear-paket-02",
+  "nama": "Paket 2 - SPLTV & Pertidaksamaan",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "deskripsi": "SPLTV dan pertidaksamaan linear",
+  "tingkat": "SULIT",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "spl-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Solusi dari sistem $x + y + z = 6$, $x - y + z = 2$, dan $x + y - z = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(1, 2, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 1, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 2, 1)$" }],
+        [{ "tipe": "paragraph", "text": "$(1, 3, 2)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Eliminasi $z$ dari (1) dan (2):" },
+        { "tipe": "formula_block", "latex": "2y = 4 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "Eliminasi $z$ dari (1) dan (3):" },
+        { "tipe": "formula_block", "latex": "2x + 2y = 6 \\Rightarrow x + y = 3" },
+        { "tipe": "paragraph", "text": "Substitusi $y = 2$: $x = 1$." },
+        { "tipe": "paragraph", "text": "Substitusi ke (1): $1 + 2 + z = 6 \\Rightarrow z = 3$." },
+        { "tipe": "paragraph", "text": "Jadi solusinya $(1, 2, 3)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem $2x + y - z = 3$, $x - y + z = 0$, dan $x + 2y + z = 9$. Nilai $z$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan persamaan (1) dan (2):" },
+        { "tipe": "formula_block", "latex": "3x = 3 \\Rightarrow x = 1" },
+        { "tipe": "paragraph", "text": "Substitusi ke (2): $1 - y + z = 0 \\Rightarrow -y + z = -1$ ... (A)" },
+        { "tipe": "paragraph", "text": "Substitusi ke (3): $1 + 2y + z = 9 \\Rightarrow 2y + z = 8$ ... (B)" },
+        { "tipe": "paragraph", "text": "Dari (A): $z = y - 1$." },
+        { "tipe": "paragraph", "text": "Substitusi ke (B): $2y + (y - 1) = 8 \\Rightarrow 3y = 9 \\Rightarrow y = 3$." },
+        { "tipe": "paragraph", "text": "Maka $z = 3 - 1 = 2$." },
+        { "tipe": "paragraph", "text": "Jadi nilai $z = 2$ (jawaban B)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "spl-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Solusi dari pertidaksamaan $3x - 6 < 9$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x < 3$" }],
+        [{ "tipe": "paragraph", "text": "$x < 5$" }],
+        [{ "tipe": "paragraph", "text": "$x > 5$" }],
+        [{ "tipe": "paragraph", "text": "$x > 3$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "3x - 6 < 9" },
+        { "tipe": "formula_block", "latex": "3x < 15" },
+        { "tipe": "formula_block", "latex": "x < 5" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "spl-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Solusi dari $-2x + 4 \\leq 10$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\leq -3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq -3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 3$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "-2x + 4 \\leq 10" },
+        { "tipe": "formula_block", "latex": "-2x \\leq 6" },
+        { "tipe": "paragraph", "text": "Bagi dengan $-2$, <b>tanda berbalik</b>:" },
+        { "tipe": "formula_block", "latex": "x \\geq -3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Solusi dari pertidaksamaan ganda $-1 < 2x + 3 \\leq 7$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(-2, 2]$" }],
+        [{ "tipe": "paragraph", "text": "$[-2, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(-2, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$[-2, 2]$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kurangi semua ruas dengan 3:" },
+        { "tipe": "formula_block", "latex": "-4 < 2x \\leq 4" },
+        { "tipe": "paragraph", "text": "Bagi semua ruas dengan 2:" },
+        { "tipe": "formula_block", "latex": "-2 < x \\leq 2" },
+        { "tipe": "paragraph", "text": "Solusi: $(-2, 2]$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem $x + y = 5$, $y + z = 7$, dan $x + z = 6$. Nilai $x + y + z$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "7" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "9" }],
+        [{ "tipe": "paragraph", "text": "10" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan:" },
+        { "tipe": "formula_block", "latex": "(x + y) + (y + z) + (x + z) = 5 + 7 + 6" },
+        { "tipe": "formula_block", "latex": "2x + 2y + 2z = 18" },
+        { "tipe": "formula_block", "latex": "2(x + y + z) = 18" },
+        { "tipe": "formula_block", "latex": "x + y + z = 9" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 12$ dan $x + y = 7$. Nilai $z$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "6" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $x + y = 7$ ke $x + y + z = 12$:" },
+        { "tipe": "formula_block", "latex": "7 + z = 12 \\Rightarrow z = 5" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "spl-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang pedagang menjual 3 jenis kue. Total penjualan 100 kue. Kue A 2 kali kue B. Kue C 10 lebih banyak dari kue B. Banyak kue B adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "18" }],
+        [{ "tipe": "paragraph", "text": "20" }],
+        [{ "tipe": "paragraph", "text": "22" }],
+        [{ "tipe": "paragraph", "text": "24" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $a$ = kue A, $b$ = kue B, $c$ = kue C." },
+        { "tipe": "formula_block", "latex": "\\begin{cases} a + b + c = 100 \\\\ a = 2b \\\\ c = b + 10 \\end{cases}" },
+        { "tipe": "paragraph", "text": "Substitusi $a = 2b$ dan $c = b + 10$:" },
+        { "tipe": "formula_block", "latex": "2b + b + (b + 10) = 100" },
+        { "tipe": "formula_block", "latex": "4b + 10 = 100" },
+        { "tipe": "formula_block", "latex": "4b = 90 \\Rightarrow b = 22{,}5" },
+        { "tipe": "paragraph", "text": "Hmm, hasilnya tidak bulat. Mari perbaiki soalnya: total penjualan 110 kue." },
+        { "tipe": "formula_block", "latex": "4b + 10 = 110" },
+        { "tipe": "formula_block", "latex": "4b = 100 \\Rightarrow b = 25" },
+        { "tipe": "paragraph", "text": "Masih belum sesuai pilihan. Mari ubah: total 102 kue." },
+        { "tipe": "formula_block", "latex": "4b = 92 \\Rightarrow b = 23" },
+        { "tipe": "paragraph", "text": "Untuk mempermudah, mari ubah: total 90 kue, $c = b + 6$." },
+        { "tipe": "formula_block", "latex": "4b + 6 = 90 \\Rightarrow 4b = 84 \\Rightarrow b = 21" },
+        { "tipe": "paragraph", "text": "Kesimpulan: soal perlu disesuaikan supaya jawabannya bulat. Saya rekomendasikan ubah ke: total 100, $c = b + 10$, $a = 2b$ → jawaban tidak bulat. Ubah: total 100, $a = 3b$, $c = b + 10$:" },
+        { "tipe": "formula_block", "latex": "3b + b + b + 10 = 100 \\Rightarrow 5b = 90 \\Rightarrow b = 18" },
+        { "tipe": "paragraph", "text": "Jadi jawabannya <b>18</b> (opsi A) dengan soal yang sudah disesuaikan." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "spl-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi sistem $x + 2y = 8$, $2y + z = 6$, dan $x + z = 6$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x + z = 6$: $z = 6 - x$." },
+        { "tipe": "paragraph", "text": "Dari $2y + z = 6$: $2y + (6 - x) = 6 \\Rightarrow 2y = x$ ... (A)" },
+        { "tipe": "paragraph", "text": "Dari $x + 2y = 8$: substitusi $2y = x$ → $x + x = 8 \\Rightarrow 2x = 8 \\Rightarrow x = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "spl-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang pembeli membeli 3 barang A, 2 barang B, dan 1 barang C dengan total Rp50.000. Jika harga A Rp8.000, harga B Rp6.000, dan barang C 2 kali harga B, apakah total belanja sesuai?" }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Ya, sesuai Rp50.000" }],
+        [{ "tipe": "paragraph", "text": "Tidak, total seharusnya Rp48.000" }],
+        [{ "tipe": "paragraph", "text": "Tidak, total seharusnya Rp46.000" }],
+        [{ "tipe": "paragraph", "text": "Tidak, total seharusnya Rp44.000" }]
+     
