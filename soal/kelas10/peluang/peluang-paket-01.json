@@ -1,0 +1,199 @@
+{
+  "id": "peluang-paket-01",
+  "nama": "Paket 1 - Peluang Dasar",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "deskripsi": "Ruang sampel dan peluang suatu kejadian",
+  "tingkat": "MUDAH",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "plg-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Ruang sampel dari pelemparan satu dadu adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\{1, 2, 3, 4, 5\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{1, 2, 3, 4, 5, 6\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{0, 1, 2, 3, 4, 5, 6\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{2, 4, 6\\}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dadu memiliki 6 sisi dengan angka 1 sampai 6." },
+        { "tipe": "formula_block", "latex": "S = \\{1, 2, 3, 4, 5, 6\\}, \\quad n(S) = 6" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah koin dilempar sekali. Peluang muncul gambar adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "0" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "1" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ruang sampel: $S = \\{A, G\\}$, $n(S) = 2$." },
+        { "tipe": "paragraph", "text": "Kejadian muncul gambar: $A = \\{G\\}$, $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul angka genap adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ruang sampel: $S = \\{1, 2, 3, 4, 5, 6\\}$, $n(S) = 6$." },
+        { "tipe": "paragraph", "text": "Angka genap: $A = \\{2, 4, 6\\}$, $n(A) = 3$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 4 bola merah, 3 bola biru, dan 5 bola hijau. Jika diambil satu bola, peluang terambil bola merah adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{4}{12}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total bola: $n(S) = 4 + 3 + 5 = 12$." },
+        { "tipe": "paragraph", "text": "Bola merah: $n(A) = 4$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{4}{12} = \\dfrac{1}{3}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul angka lebih dari 4 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Angka lebih dari 4: $A = \\{5, 6\\}$, $n(A) = 2$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua koin dilempar bersamaan. Peluang muncul keduanya angka adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ruang sampel: $S = \\{AA, AG, GA, GG\\}$, $n(S) = 4$." },
+        { "tipe": "paragraph", "text": "Keduanya angka: $A = \\{AA\\}$, $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{1}{4}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar 120 kali. Frekuensi harapan muncul angka 6 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "10 kali" }],
+        [{ "tipe": "paragraph", "text": "15 kali" }],
+        [{ "tipe": "paragraph", "text": "20 kali" }],
+        [{ "tipe": "paragraph", "text": "24 kali" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang muncul angka 6: $P(\\text{6}) = \\dfrac{1}{6}$." },
+        { "tipe": "paragraph", "text": "Frekuensi harapan:" },
+        { "tipe": "formula_block", "latex": "F_h = n \\times P = 120 \\times \\dfrac{1}{6} = 20" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "plg-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul BUKAN angka 3 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang muncul angka 3: $P(\\text{3}) = \\dfrac{1}{6}$." },
+        { "tipe": "paragraph", "text": "Peluang bukan 3 (komplemen):" },
+        { "tipe": "formula_block", "latex": "P(\\text{bukan 3}) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 40 siswa, 25 siswa suka matematika, 15 suka fisika, dan 8 suka keduanya. Jika dipilih satu siswa, peluang siswa suka matematika saja (bukan fisika) adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{17}{40}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{25}{40}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{15}{40}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{8}{40}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Suka matematika saja = 25 - 8 = 17 siswa." },
+        { "tipe": "paragraph", "text": "Total siswa: $n(S) = 40$." },
+        { "tipe": "formula_block", "latex": "P = \\dfrac{17}{40}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "plg-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak berisi 5 kelereng merah dan 3 kelereng putih. Diambil satu kelereng secara acak. Peluang terambil kelereng putih adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total kelereng: $n(S) = 5 + 3 = 8$." },
+        { "tipe": "paragraph", "text": "Kelereng putih: $n(A) = 3$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{3}{8}" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
