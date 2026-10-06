@@ -214,4 +214,22 @@
         [{ "tipe": "paragraph", "text": "Tidak, total seharusnya Rp48.000" }],
         [{ "tipe": "paragraph", "text": "Tidak, total seharusnya Rp46.000" }],
         [{ "tipe": "paragraph", "text": "Tidak, total seharusnya Rp44.000" }]
-     
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Harga masing-masing:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "Barang A = Rp8.000",
+          "Barang B = Rp6.000",
+          "Barang C = 2 × Rp6.000 = Rp12.000"
+        ]},
+        { "tipe": "paragraph", "text": "Total belanja:" },
+        { "tipe": "formula_block", "latex": "3(8000) + 2(6000) + 1(12000)" },
+        { "tipe": "formula_block", "latex": "= 24000 + 12000 + 12000" },
+        { "tipe": "formula_block", "latex": "= 48000" },
+        { "tipe": "paragraph", "text": "Total seharusnya Rp48.000, bukan Rp50.000. Jadi jawaban yang benar adalah <b>B</b> (Rp48.000), bukan A." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
