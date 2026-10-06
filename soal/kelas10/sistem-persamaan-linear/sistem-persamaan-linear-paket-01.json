@@ -209,29 +209,21 @@
     {
       "id": "spl-01-10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $2x + 3y = 13$ dan $x - y = 1$, maka nilai $x + y$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $3x + 2y = 16$ dan $x - y = 2$, maka nilai $x + y$ adalah..." }
       ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "3" }],
         [{ "tipe": "paragraph", "text": "4" }],
         [{ "tipe": "paragraph", "text": "5" }],
-        [{ "tipe": "paragraph", "text": "6" }]
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "7" }]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $x - y = 1$: $x = y + 1$." },
-        { "tipe": "paragraph", "text": "Substitusi ke $2x + 3y = 13$:" },
-        { "tipe": "formula_block", "latex": "2(y + 1) + 3y = 13" },
-        { "tipe": "formula_block", "latex": "2y + 2 + 3y = 13" },
-        { "tipe": "formula_block", "latex": "5y = 11 \\Rightarrow y = \\dfrac{11}{5}" },
-        { "tipe": "paragraph", "text": "Hmm, hasilnya pecahan. Mari kita cek ulang soal." },
-        { "tipe": "paragraph", "text": "Sebenarnya, coba ubah soalnya jadi $2x + 3y = 16$ dan $x - y = 1$:" },
-        { "tipe": "formula_block", "latex": "2(y + 1) + 3y = 16" },
-        { "tipe": "formula_block", "latex": "5y = 14 \\Rightarrow y = \\dfrac{14}{5}" },
-        { "tipe": "paragraph", "text": "Masih pecahan. Mari pakai soal yang lebih rapi: $3x + 2y = 16$ dan $x - y = 2$." },
-        { "tipe": "formula_block", "latex": "x = y + 2" },
+        { "tipe": "paragraph", "text": "Dari $x - y = 2$: $x = y + 2$." },
+        { "tipe": "paragraph", "text": "Substitusi ke $3x + 2y = 16$:" },
         { "tipe": "formula_block", "latex": "3(y + 2) + 2y = 16" },
-        { "tipe": "formula_block", "latex": "3y + 6 + 2y = 16 \\Rightarrow 5y = 10 \\Rightarrow y = 2" },
+        { "tipe": "formula_block", "latex": "3y + 6 + 2y = 16" },
+        { "tipe": "formula_block", "latex": "5y = 10 \\Rightarrow y = 2" },
         { "tipe": "formula_block", "latex": "x = 4" },
         { "tipe": "paragraph", "text": "Jadi $x + y = 4 + 2 = 6$." }
       ],
