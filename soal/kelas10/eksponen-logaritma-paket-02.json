@@ -1,0 +1,188 @@
+{
+  "id": "eksponen-logaritma-paket-02",
+  "nama": "Paket 2 - Logaritma",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "deskripsi": "Sifat-sifat logaritma dan penerapannya",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "eks-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^2\\log 8$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "8" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tanya: 2 pangkat berapa hasilnya 8?" },
+        { "tipe": "formula_block", "latex": "^2\\log 8 = ^2\\log 2^3 = 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "eks-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^3\\log 81$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "9" }],
+        [{ "tipe": "paragraph", "text": "27" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "^3\\log 81 = ^3\\log 3^4 = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "eks-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^2\\log 6 + ^2\\log 4$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$^2\\log 10$" }],
+        [{ "tipe": "paragraph", "text": "$^2\\log 24$" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "10" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan sifat $^a\\log b + ^a\\log c = ^a\\log (b \\times c)$:" },
+        { "tipe": "formula_block", "latex": "^2\\log 6 + ^2\\log 4 = ^2\\log (6 \\times 4) = ^2\\log 24" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^5\\log 100 - ^5\\log 4$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "25" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan sifat $^a\\log b - ^a\\log c = ^a\\log \\dfrac{b}{c}$:" },
+        { "tipe": "formula_block", "latex": "^5\\log 100 - ^5\\log 4 = ^5\\log \\dfrac{100}{4} = ^5\\log 25 = 2" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $^2\\log 3 = a$, maka $^2\\log 12$ sama dengan..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$a + 1$" }],
+        [{ "tipe": "paragraph", "text": "$a + 2$" }],
+        [{ "tipe": "paragraph", "text": "$2a$" }],
+        [{ "tipe": "paragraph", "text": "$3a$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan 12 = 4 × 3, lalu gunakan sifat logaritma:" },
+        { "tipe": "formula_block", "latex": "^2\\log 12 = ^2\\log (4 \\times 3) = ^2\\log 4 + ^2\\log 3" },
+        { "tipe": "formula_block", "latex": "= 2 + a" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^2\\log \\dfrac{1}{8}$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$-3$" }],
+        [{ "tipe": "paragraph", "text": "$-2$" }],
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$3$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "^2\\log \\dfrac{1}{8} = ^2\\log 2^{-3} = -3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^3\\log 5 \\times ^5\\log 27$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "15" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan sifat $^a\\log b \\times ^b\\log c = ^a\\log c$:" },
+        { "tipe": "formula_block", "latex": "^3\\log 5 \\times ^5\\log 27 = ^3\\log 27 = ^3\\log 3^3 = 3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^{10}\\log 5 + ^{10}\\log 2$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$0$" }],
+        [{ "tipe": "paragraph", "text": "$1$" }],
+        [{ "tipe": "paragraph", "text": "$^2\\log 5$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "^{10}\\log 5 + ^{10}\\log 2 = ^{10}\\log (5 \\times 2) = ^{10}\\log 10 = 1" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $^2\\log x = 5$, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "10" }],
+        [{ "tipe": "paragraph", "text": "25" }],
+        [{ "tipe": "paragraph", "text": "32" }],
+        [{ "tipe": "paragraph", "text": "64" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah dari bentuk logaritma ke eksponen:" },
+        { "tipe": "formula_block", "latex": "^2\\log x = 5 \\Rightarrow x = 2^5 = 32" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "eks-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^2\\log 16 - ^2\\log 4$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "^2\\log 16 - ^2\\log 4 = ^2\\log \\dfrac{16}{4} = ^2\\log 4 = 2" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
