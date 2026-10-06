@@ -191,28 +191,19 @@
     {
       "id": "fk-02-10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ adalah akar dari $x^2 - 3x - 10 = 0$ dan $x_1 > x_2$, maka nilai $2x_1 - x_2$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ adalah akar dari $x^2 - 3x - 10 = 0$ dan $x_1 > x_2$, maka nilai $3x_1 - x_2$ adalah..." }
       ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "9" }],
-        [{ "tipe": "paragraph", "text": "11" }],
         [{ "tipe": "paragraph", "text": "13" }],
-        [{ "tipe": "paragraph", "text": "15" }]
+        [{ "tipe": "paragraph", "text": "15" }],
+        [{ "tipe": "paragraph", "text": "17" }],
+        [{ "tipe": "paragraph", "text": "19" }]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktorkan:" },
-        { "tipe": "formula_block", "latex": "x^2 - 3x - 10 = (x - 5)(x + 2) = 0" },
-        { "tipe": "formula_block", "latex": "x = 5 \\text{ atau } x = -2" },
-        { "tipe": "paragraph", "text": "Karena $x_1 > x_2$, maka $x_1 = 5$ dan $x_2 = -2$." },
-        { "tipe": "formula_block", "latex": "2x_1 - x_2 = 2(5) - (-2)" },
-        { "tipe": "formula_block", "latex": "= 10 + 2 = 12" },
-        { "tipe": "paragraph", "text": "Hmm, hasilnya 12 — tidak ada di pilihan. Mari periksa ulang." },
-        { "tipe": "paragraph", "text": "Cek: $x^2 - 3x - 10 = 0$ → $(x - 5)(x + 2) = 0$ → $x = 5$ atau $x = -2$." },
-        { "tipe": "paragraph", "text": "Hasil $2(5) - (-2) = 12$ — memang 12. Pilihan jawaban kurang. Mari ubah soalnya jadi $x^2 - 3x - 10 = 0$ dan ditanya $2x_1 + x_2$:" },
-        { "tipe": "formula_block", "latex": "2(5) + (-2) = 10 - 2 = 8" },
-        { "tipe": "paragraph", "text": "Kesimpulan: soal perlu direvisi agar jawabannya ada di pilihan. Saya rekomendasikan ubah pertanyaan jadi **nilai $x_1 + 2x_2$**:" },
-        { "tipe": "formula_block", "latex": "5 + 2(-2) = 5 - 4 = 1" }
+        { "tipe": "paragraph", "text": "Faktorkan: $(x - 5)(x + 2) = 0 \\Rightarrow x_1 = 5, x_2 = -2$." },
+        { "tipe": "formula_block", "latex": "3x_1 - x_2 = 3(5) - (-2)" },
+        { "tipe": "formula_block", "latex": "= 15 + 2 = 17" }
       ],
       "tingkat": "SULIT"
     }
