@@ -1,0 +1,214 @@
+{
+  "id": "peluang-paket-02",
+  "nama": "Paket 2 - Kejadian Majemuk",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "deskripsi": "Peluang kejadian saling lepas, saling bebas, dan bersyarat",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "plg-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul angka 2 atau angka 5 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kejadian \"muncul 2\" dan \"muncul 5\" saling lepas." },
+        { "tipe": "formula_block", "latex": "P(2 \\cup 5) = P(2) + P(5)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{6} + \\dfrac{1}{6} = \\dfrac{2}{6} = \\dfrac{1}{3}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul angka prima atau angka genap adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Angka prima: $A = \\{2, 3, 5\\}$, $P(A) = \\dfrac{3}{6}$." },
+        { "tipe": "paragraph", "text": "Angka genap: $B = \\{2, 4, 6\\}$, $P(B) = \\dfrac{3}{6}$." },
+        { "tipe": "paragraph", "text": "Irisan: $A \\cap B = \\{2\\}$, $P(A \\cap B) = \\dfrac{1}{6}$." },
+        { "tipe": "paragraph", "text": "Karena tidak saling lepas:" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{3}{6} + \\dfrac{3}{6} - \\dfrac{1}{6} = \\dfrac{5}{6}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "plg-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua koin dilempar bersamaan. Peluang muncul keduanya gambar adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kejadian saling bebas." },
+        { "tipe": "formula_block", "latex": "P(G_1 \\cap G_2) = P(G_1) \\times P(G_2)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua dadu dilempar bersamaan. Peluang muncul angka 3 pada dadu pertama dan angka 5 pada dadu kedua adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{18}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kejadian saling bebas." },
+        { "tipe": "formula_block", "latex": "P(3_1 \\cap 5_2) = \\dfrac{1}{6} \\times \\dfrac{1}{6} = \\dfrac{1}{36}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "plg-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 5 bola merah dan 3 bola putih. Diambil 2 bola satu per satu TANPA pengembalian. Peluang keduanya merah adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{10}{28}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{25}{64}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{16}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kejadian tidak saling bebas (tanpa pengembalian)." },
+        { "tipe": "formula_block", "latex": "P(M_1) = \\dfrac{5}{8}" },
+        { "tipe": "paragraph", "text": "Setelah 1 merah diambil, sisa 4 merah dari 7 bola:" },
+        { "tipe": "formula_block", "latex": "P(M_2 | M_1) = \\dfrac{4}{7}" },
+        { "tipe": "formula_block", "latex": "P(M_1 \\cap M_2) = \\dfrac{5}{8} \\times \\dfrac{4}{7}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{20}{56} = \\dfrac{5}{14}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "plg-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 52 kartu bridge, diambil satu kartu. Peluang terambil kartu As atau kartu hati (heart) adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{4}{13}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{13}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kartu As: 4 → $P(A) = \\dfrac{4}{52}$." },
+        { "tipe": "paragraph", "text": "Kartu hati: 13 → $P(H) = \\dfrac{13}{52}$." },
+        { "tipe": "paragraph", "text": "As hati: 1 → $P(A \\cap H) = \\dfrac{1}{52}$." },
+        { "tipe": "formula_block", "latex": "P(A \\cup H) = \\dfrac{4}{52} + \\dfrac{13}{52} - \\dfrac{1}{52}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{16}{52} = \\dfrac{4}{13}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "plg-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak berisi 4 bola merah dan 6 bola biru. Diambil 3 bola sekaligus. Peluang terambil 2 merah dan 1 biru adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total cara ambil 3 dari 10: $n(S) = C(10, 3) = 120$." },
+        { "tipe": "paragraph", "text": "Cara ambil 2 merah dari 4: $C(4, 2) = 6$." },
+        { "tipe": "paragraph", "text": "Cara ambil 1 biru dari 6: $C(6, 1) = 6$." },
+        { "tipe": "paragraph", "text": "Total cara: $n(A) = 6 \\times 6 = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{36}{120} = \\dfrac{3}{10}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "plg-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua dadu dilempar bersamaan. Peluang muncul jumlah mata dadu 8 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{36}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{7}{36}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ruang sampel dua dadu: $n(S) = 36$." },
+        { "tipe": "paragraph", "text": "Pasangan dengan jumlah 8: $(2,6), (3,5), (4,4), (5,3), (6,2)$ → 5 pasangan." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{5}{36}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "plg-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 20 siswa, 12 suka matematika, 8 suka fisika, dan 5 suka keduanya. Jika dipilih satu siswa secara acak, peluang siswa suka matematika JIKA diketahui suka fisika adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $M$ = suka matematika, $F$ = suka fisika." },
+        { "tipe": "paragraph", "text": "$P(M \\cap F) = \\dfrac{5}{20} = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "$P(F) = \\dfrac{8}{20} = \\dfrac{2}{5}$." },
+        { "tipe": "formula_block", "latex": "P(M|F) = \\dfrac{P(M \\cap F)}{P(F)}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1/4}{2/5} = \\dfrac{1}{4} \\times \\dfrac{5}{2} = \\dfrac{5}{8}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "plg-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 5 bola merah dan 3 bola putih. Diambil 2 bola satu per satu tanpa pengembalian. Peluang bola pertama merah dan bola kedua putih adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{15}{56}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{16}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang bola pertama merah: $P(M_1) = \\dfrac{5}{8}$." },
+        { "tipe": "paragraph", "text": "Setelah 1 merah diambil, sisa 4 merah, 3 putih dari 7 bola:" },
+        { "tipe": "formula_block", "latex": "P(P_2 | M_1) = \\dfrac{3}{7}" },
+        { "tipe": "formula_block", "latex": "P(M_1 \\cap P_2) = \\dfrac{5}{8} \\times \\dfrac{3}{7}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{15}{56}" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
