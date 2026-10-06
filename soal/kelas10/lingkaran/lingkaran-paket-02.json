@@ -1,0 +1,213 @@
+{
+  "id": "lingkaran-paket-02",
+  "nama": "Paket 2 - Persamaan & Garis Singgung",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "deskripsi": "Persamaan lingkaran dan garis singgung",
+  "tingkat": "SULIT",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "lkr-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran dengan pusat $(0, 0)$ dan jari-jari 5 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x^2 + y^2 = 5$" }],
+        [{ "tipe": "paragraph", "text": "$x^2 + y^2 = 25$" }],
+        [{ "tipe": "paragraph", "text": "$x^2 - y^2 = 25$" }],
+        [{ "tipe": "paragraph", "text": "$(x - 5)^2 + y^2 = 25$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran pusat $(0,0)$:" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 = r^2" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 = 25" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "lkr-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran dengan pusat $(2, -3)$ dan jari-jari 4 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(x - 2)^2 + (y + 3)^2 = 16$" }],
+        [{ "tipe": "paragraph", "text": "$(x + 2)^2 + (y - 3)^2 = 16$" }],
+        [{ "tipe": "paragraph", "text": "$(x - 2)^2 + (y - 3)^2 = 16$" }],
+        [{ "tipe": "paragraph", "text": "$(x + 2)^2 + (y + 3)^2 = 16$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(x - a)^2 + (y - b)^2 = r^2" },
+        { "tipe": "paragraph", "text": "Dengan $a = 2$, $b = -3$, $r = 4$:" },
+        { "tipe": "formula_block", "latex": "(x - 2)^2 + (y - (-3))^2 = 4^2" },
+        { "tipe": "formula_block", "latex": "(x - 2)^2 + (y + 3)^2 = 16" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pusat lingkaran $x^2 + y^2 - 6x + 4y - 12 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(3, -2)$" }],
+        [{ "tipe": "paragraph", "text": "$(-3, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(6, -4)$" }],
+        [{ "tipe": "paragraph", "text": "$(-6, 4)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari bentuk umum $x^2 + y^2 + Ax + By + C = 0$:" },
+        { "tipe": "formula_block", "latex": "\\text{Pusat} = \\left(-\\dfrac{A}{2}, -\\dfrac{B}{2}\\right)" },
+        { "tipe": "paragraph", "text": "Diketahui $A = -6$, $B = 4$:" },
+        { "tipe": "formula_block", "latex": "\\text{Pusat} = \\left(-\\dfrac{-6}{2}, -\\dfrac{4}{2}\\right) = (3, -2)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran $x^2 + y^2 - 4x + 6y - 12 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }],
+        [{ "tipe": "paragraph", "text": "6" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "r = \\sqrt{\\dfrac{A^2}{4} + \\dfrac{B^2}{4} - C}" },
+        { "tipe": "paragraph", "text": "Diketahui $A = -4$, $B = 6$, $C = -12$:" },
+        { "tipe": "formula_block", "latex": "r = \\sqrt{\\dfrac{16}{4} + \\dfrac{36}{4} - (-12)}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{4 + 9 + 12} = \\sqrt{25} = 5" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $(3, 4)$ terletak pada lingkaran $x^2 + y^2 = 25$ karena..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$3 + 4 = 7$" }],
+        [{ "tipe": "paragraph", "text": "$3^2 + 4^2 = 25$" }],
+        [{ "tipe": "paragraph", "text": "$3 \\times 4 = 12$" }],
+        [{ "tipe": "paragraph", "text": "$3^2 - 4^2 = -7$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi titik ke persamaan lingkaran:" },
+        { "tipe": "formula_block", "latex": "3^2 + 4^2 = 9 + 16 = 25" },
+        { "tipe": "paragraph", "text": "Karena hasilnya = $r^2 = 25$, titik $(3, 4)$ **terletak pada lingkaran**." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "lkr-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung lingkaran $x^2 + y^2 = 25$ di titik $(3, 4)$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$3x + 4y = 25$" }],
+        [{ "tipe": "paragraph", "text": "$4x + 3y = 25$" }],
+        [{ "tipe": "paragraph", "text": "$3x - 4y = 25$" }],
+        [{ "tipe": "paragraph", "text": "$4x - 3y = 25$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus garis singgung di titik $(x_1, y_1)$ pada lingkaran $x^2 + y^2 = r^2$:" },
+        { "tipe": "formula_block", "latex": "x_1 x + y_1 y = r^2" },
+        { "tipe": "paragraph", "text": "Dengan $x_1 = 3$, $y_1 = 4$, $r^2 = 25$:" },
+        { "tipe": "formula_block", "latex": "3x + 4y = 25" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung lingkaran $x^2 + y^2 = 20$ yang bergradien 2 adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$y = 2x \\pm 10$" }],
+        [{ "tipe": "paragraph", "text": "$y = 2x \\pm 5$" }],
+        [{ "tipe": "paragraph", "text": "$y = 2x \\pm 4$" }],
+        [{ "tipe": "paragraph", "text": "$y = 2x \\pm 2$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus garis singgung dengan gradien $m$:" },
+        { "tipe": "formula_block", "latex": "y = mx \\pm r\\sqrt{1 + m^2}" },
+        { "tipe": "paragraph", "text": "Dengan $m = 2$, $r^2 = 20 \\Rightarrow r = \\sqrt{20} = 2\\sqrt{5}$:" },
+        { "tipe": "formula_block", "latex": "y = 2x \\pm 2\\sqrt{5} \\cdot \\sqrt{1 + 4}" },
+        { "tipe": "formula_block", "latex": "= 2x \\pm 2\\sqrt{5} \\cdot \\sqrt{5}" },
+        { "tipe": "formula_block", "latex": "= 2x \\pm 2 \\cdot 5 = 2x \\pm 10" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "lkr-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang garis singgung dari titik $(0, 10)$ ke lingkaran $x^2 + y^2 = 64$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "10" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jarak titik ke pusat: $OP = 10$." },
+        { "tipe": "paragraph", "text": "Jari-jari: $r = \\sqrt{64} = 8$." },
+        { "tipe": "formula_block", "latex": "PT = \\sqrt{OP^2 - r^2}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{100 - 64} = \\sqrt{36} = 6" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran masing-masing $x^2 + y^2 = 9$ dan $x^2 + y^2 - 12x + 27 = 0$. Jarak antar pusat kedua lingkaran adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "6" }],
+        [{ "tipe": "paragraph", "text": "8" }],
+        [{ "tipe": "paragraph", "text": "10" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Lingkaran 1: pusat $(0, 0)$, $r_1 = 3$." },
+        { "tipe": "paragraph", "text": "Lingkaran 2: $x^2 + y^2 - 12x + 27 = 0$ → $A = -12$, $B = 0$." },
+        { "tipe": "formula_block", "latex": "\\text{Pusat} = \\left(-\\dfrac{-12}{2}, 0\\right) = (6, 0)" },
+        { "tipe": "paragraph", "text": "Jarak antar pusat:" },
+        { "tipe": "formula_block", "latex": "d = \\sqrt{(6-0)^2 + (0-0)^2} = 6" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "lkr-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah taman berbentuk lingkaran dengan diameter 20 meter. Di tengah taman akan dibuat kolam berbentuk lingkaran dengan jari-jari 4 meter. Luas taman di luar kolam adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "100π m²" }],
+        [{ "tipe": "paragraph", "text": "84π m²" }],
+        [{ "tipe": "paragraph", "text": "80π m²" }],
+        [{ "tipe": "paragraph", "text": "64π m²" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jari-jari taman = $\\dfrac{20}{2} = 10$ m." },
+        { "tipe": "formula_block", "latex": "L_{taman} = \\pi \\cdot 10^2 = 100\\pi \\text{ m}^2" },
+        { "tipe": "formula_block", "latex": "L_{kolam} = \\pi \\cdot 4^2 = 16\\pi \\text{ m}^2" },
+        { "tipe": "paragraph", "text": "Luas di luar kolam:" },
+        { "tipe": "formula_block", "latex": "= 100\\pi - 16\\pi = 84\\pi \\text{ m}^2" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
