@@ -3,7 +3,7 @@
   "kategori": "Statistika",
   "emoji": "📊",
   "warna": "#00897B",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "bab": [
     {
       "id": "10-sta-bab-01",
@@ -45,7 +45,7 @@
         },
         {
           "tipe": "heading",
-          "level": 3,
+          "level": 4,
           "text": "1. Berdasarkan Sifat"
         },
         {
@@ -58,7 +58,7 @@
         },
         {
           "tipe": "heading",
-          "level": 3,
+          "level": 4,
           "text": "2. Berdasarkan Cara Memperoleh"
         },
         {
@@ -250,10 +250,7 @@
             { "tipe": "paragraph", "text": "Dari 200 siswa, 80 suka basket, 60 suka futsal, 40 suka voli, dan 20 suka bulu tangkis. Buat diagram lingkarannya." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Hitung sudut tiap sektor:" },
-            { "tipe": "formula_block", "latex": "\\text{Basket} = \\dfrac{80}{200} \\times 360^\\circ = 144^\\circ" },
-            { "tipe": "formula_block", "latex": "\\text{Futsal} = \\dfrac{60}{200} \\times 360^\\circ = 108^\\circ" },
-            { "tipe": "formula_block", "latex": "\\text{Voli} = \\dfrac{40}{200} \\times 360^\\circ = 72^\\circ" },
-            { "tipe": "formula_block", "latex": "\\text{Bulu Tangkis} = \\dfrac{20}{200} \\times 360^\\circ = 36^\\circ" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\text{Basket} &= \\dfrac{80}{200} \\times 360^\\circ = 144^\\circ \\\\ \\text{Futsal} &= \\dfrac{60}{200} \\times 360^\\circ = 108^\\circ \\\\ \\text{Voli} &= \\dfrac{40}{200} \\times 360^\\circ = 72^\\circ \\\\ \\text{Bulu Tangkis} &= \\dfrac{20}{200} \\times 360^\\circ = 36^\\circ \\end{aligned}" },
             { "tipe": "paragraph", "text": "Cek: $144^\\circ + 108^\\circ + 72^\\circ + 36^\\circ = 360^\\circ$ ✓" }
           ]
         },
@@ -422,7 +419,7 @@
             { "tipe": "paragraph", "text": "Diberikan data nilai: 7, 8, 6, 9, 7, 8, 7, 10, 8, 7. Tentukan mean, median, dan modus." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Mean:" },
-            { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{7+8+6+9+7+8+7+10+8+7}{10} = \\dfrac{77}{10} = 7{,}7" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\bar{x} &= \\dfrac{7+8+6+9+7+8+7+10+8+7}{10} \\\\ &= \\dfrac{77}{10} \\\\ &= 7{,}7 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Median: urutkan data dulu → 6, 7, 7, 7, 7, 8, 8, 8, 9, 10." },
             { "tipe": "paragraph", "text": "Karena $n = 10$ (genap), median = rata-rata data ke-5 & ke-6:" },
             { "tipe": "formula_block", "latex": "M_e = \\dfrac{7 + 8}{2} = 7{,}5" },
@@ -442,8 +439,7 @@
             ]},
             { "tipe": "paragraph", "text": "Tentukan mean-nya." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{(4)(64{,}5) + (8)(74{,}5) + (12)(84{,}5) + (6)(94{,}5)}{30}" },
-            { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{258 + 596 + 1014 + 567}{30} = \\dfrac{2435}{30} \\approx 81{,}17" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\bar{x} &= \\dfrac{(4)(64{,}5) + (8)(74{,}5) + (12)(84{,}5) + (6)(94{,}5)}{30} \\\\ &= \\dfrac{258 + 596 + 1014 + 567}{30} \\\\ &= \\dfrac{2435}{30} \\\\ &\\approx 81{,}17 \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi rata-rata nilai ulangan ≈ <b>81,17</b>." }
           ]
         },
@@ -606,7 +602,7 @@
             { "tipe": "paragraph", "text": "$Q_2$ (median): data ke-5 = 7." },
             { "tipe": "paragraph", "text": "Data bawah (4, 5, 6, 6): median = $(5 + 6)/2 = 5{,}5$. Jadi $Q_1 = 5{,}5$." },
             { "tipe": "paragraph", "text": "Data atas (8, 8, 9, 10): median = $(8 + 9)/2 = 8{,}5$. Jadi $Q_3 = 8{,}5$." },
-            { "tipe": "formula_block", "latex": "\\text{JIK} = Q_3 - Q_1 = 8{,}5 - 5{,}5 = 3" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\text{JIK} &= Q_3 - Q_1 \\\\ &= 8{,}5 - 5{,}5 \\\\ &= 3 \\end{aligned}" }
           ]
         },
         {
@@ -615,7 +611,8 @@
           "konten": [
             { "tipe": "paragraph", "text": "Data: 2, 4, 4, 4, 5, 5, 7, 9. Tentukan simpangan bakunya." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "paragraph", "text": "Mean: $\\bar{x} = \\dfrac{2+4+4+4+5+5+7+9}{8} = \\dfrac{40}{8} = 5$." },
+            { "tipe": "paragraph", "text": "Mean:" },
+            { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2+4+4+4+5+5+7+9}{8} = \\dfrac{40}{8} = 5" },
             { "tipe": "paragraph", "text": "Hitung $(x_i - \\bar{x})^2$:" },
             { "tipe": "list", "ordered": false, "items": [
               "$(2-5)^2 = 9$",
@@ -624,7 +621,7 @@
               "$(7-5)^2 = 4$",
               "$(9-5)^2 = 16$"
             ]},
-            { "tipe": "formula_block", "latex": "S^2 = \\dfrac{9 + 1 + 1 + 1 + 0 + 0 + 4 + 16}{8} = \\dfrac{32}{8} = 4" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} S^2 &= \\dfrac{9 + 1 + 1 + 1 + 0 + 0 + 4 + 16}{8} \\\\ &= \\dfrac{32}{8} \\\\ &= 4 \\end{aligned}" },
             { "tipe": "formula_block", "latex": "S = \\sqrt{4} = 2" },
             { "tipe": "paragraph", "text": "Jadi simpangan bakunya adalah <b>2</b>." }
           ]
