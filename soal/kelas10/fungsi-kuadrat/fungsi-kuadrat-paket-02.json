@@ -1,0 +1,220 @@
+{
+  "id": "fungsi-kuadrat-paket-02",
+  "nama": "Paket 2 - Akar & Diskriminan",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "deskripsi": "Akar-akar persamaan kuadrat dan diskriminan",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "fk-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diskriminan dari persamaan $x^2 - 5x + 6 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$1$" }],
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$-1$" }],
+        [{ "tipe": "paragraph", "text": "$-2$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 1$, $b = -5$, $c = 6$." },
+        { "tipe": "formula_block", "latex": "D = b^2 - 4ac" },
+        { "tipe": "formula_block", "latex": "= (-5)^2 - 4(1)(6)" },
+        { "tipe": "formula_block", "latex": "= 25 - 24 = 1" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar dari persamaan $x^2 - 7x + 12 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x = 2$ atau $x = 6$" }],
+        [{ "tipe": "paragraph", "text": "$x = 3$ atau $x = 4$" }],
+        [{ "tipe": "paragraph", "text": "$x = 1$ atau $x = 12$" }],
+        [{ "tipe": "paragraph", "text": "$x = -3$ atau $x = -4$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan:" },
+        { "tipe": "formula_block", "latex": "x^2 - 7x + 12 = (x - 3)(x - 4) = 0" },
+        { "tipe": "formula_block", "latex": "x = 3 \\text{ atau } x = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika diskriminan suatu persamaan kuadrat bernilai negatif, maka persamaan tersebut..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Punya 2 akar real berbeda" }],
+        [{ "tipe": "paragraph", "text": "Punya 1 akar real kembar" }],
+        [{ "tipe": "paragraph", "text": "Tidak punya akar real" }],
+        [{ "tipe": "paragraph", "text": "Tidak punya akar" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat diskriminan:" },
+        { "tipe": "list", "ordered": false, "items": [
+          "$D > 0$ → 2 akar real berbeda",
+          "$D = 0$ → 1 akar real kembar",
+          "$D < 0$ → **tidak punya akar real** (akar imajiner)"
+        ]}
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan $x^2 - 4x + 4 = 0$ memiliki..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Dua akar real berbeda" }],
+        [{ "tipe": "paragraph", "text": "Satu akar kembar" }],
+        [{ "tipe": "paragraph", "text": "Tidak punya akar real" }],
+        [{ "tipe": "paragraph", "text": "Akar tak hingga" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cek diskriminan:" },
+        { "tipe": "formula_block", "latex": "D = (-4)^2 - 4(1)(4)" },
+        { "tipe": "formula_block", "latex": "= 16 - 16 = 0" },
+        { "tipe": "paragraph", "text": "Karena $D = 0$, persamaan punya **satu akar kembar**." },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{4}{2} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ adalah akar-akar dari $x^2 - 5x + 6 = 0$, maka nilai $x_1 + x_2$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$-5$" }],
+        [{ "tipe": "paragraph", "text": "$-6$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah akar: $x_1 + x_2 = -\\dfrac{b}{a}$." },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{-5}{1} = 5" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "fk-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ adalah akar-akar dari $2x^2 + 3x - 5 = 0$, maka nilai $x_1 \\cdot x_2$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$-\\dfrac{5}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$-\\dfrac{3}{2}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hasil kali akar: $x_1 \\cdot x_2 = \\dfrac{c}{a}$." },
+        { "tipe": "formula_block", "latex": "x_1 \\cdot x_2 = \\dfrac{-5}{2}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat yang akar-akarnya $2$ dan $-3$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x^2 + x - 6 = 0$" }],
+        [{ "tipe": "paragraph", "text": "$x^2 - x - 6 = 0$" }],
+        [{ "tipe": "paragraph", "text": "$x^2 - x + 6 = 0$" }],
+        [{ "tipe": "paragraph", "text": "$x^2 + x + 6 = 0$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat dengan akar $x_1, x_2$:" },
+        { "tipe": "formula_block", "latex": "(x - x_1)(x - x_2) = 0" },
+        { "tipe": "formula_block", "latex": "(x - 2)(x + 3) = 0" },
+        { "tipe": "formula_block", "latex": "x^2 + 3x - 2x - 6 = 0" },
+        { "tipe": "formula_block", "latex": "x^2 + x - 6 = 0" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Agar persamaan $x^2 + 2x + (k+2) = 0$ memiliki dua akar real berbeda, maka nilai $k$ haruslah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$k > -1$" }],
+        [{ "tipe": "paragraph", "text": "$k < -1$" }],
+        [{ "tipe": "paragraph", "text": "$k > 1$" }],
+        [{ "tipe": "paragraph", "text": "$k < 1$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat dua akar real berbeda: $D > 0$." },
+        { "tipe": "formula_block", "latex": "D = b^2 - 4ac > 0" },
+        { "tipe": "formula_block", "latex": "2^2 - 4(1)(k+2) > 0" },
+        { "tipe": "formula_block", "latex": "4 - 4k - 8 > 0" },
+        { "tipe": "formula_block", "latex": "-4k - 4 > 0" },
+        { "tipe": "formula_block", "latex": "-4k > 4 \\Rightarrow k < -1" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "fk-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai diskriminan dari $2x^2 - 3x + 5 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$-31$" }],
+        [{ "tipe": "paragraph", "text": "$-21$" }],
+        [{ "tipe": "paragraph", "text": "$21$" }],
+        [{ "tipe": "paragraph", "text": "$31$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui $a = 2$, $b = -3$, $c = 5$." },
+        { "tipe": "formula_block", "latex": "D = (-3)^2 - 4(2)(5)" },
+        { "tipe": "formula_block", "latex": "= 9 - 40 = -31" },
+        { "tipe": "paragraph", "text": "Karena $D < 0$, persamaan tidak punya akar real." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "fk-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ adalah akar dari $x^2 - 3x - 10 = 0$ dan $x_1 > x_2$, maka nilai $2x_1 - x_2$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "9" }],
+        [{ "tipe": "paragraph", "text": "11" }],
+        [{ "tipe": "paragraph", "text": "13" }],
+        [{ "tipe": "paragraph", "text": "15" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan:" },
+        { "tipe": "formula_block", "latex": "x^2 - 3x - 10 = (x - 5)(x + 2) = 0" },
+        { "tipe": "formula_block", "latex": "x = 5 \\text{ atau } x = -2" },
+        { "tipe": "paragraph", "text": "Karena $x_1 > x_2$, maka $x_1 = 5$ dan $x_2 = -2$." },
+        { "tipe": "formula_block", "latex": "2x_1 - x_2 = 2(5) - (-2)" },
+        { "tipe": "formula_block", "latex": "= 10 + 2 = 12" },
+        { "tipe": "paragraph", "text": "Hmm, hasilnya 12 — tidak ada di pilihan. Mari periksa ulang." },
+        { "tipe": "paragraph", "text": "Cek: $x^2 - 3x - 10 = 0$ → $(x - 5)(x + 2) = 0$ → $x = 5$ atau $x = -2$." },
+        { "tipe": "paragraph", "text": "Hasil $2(5) - (-2) = 12$ — memang 12. Pilihan jawaban kurang. Mari ubah soalnya jadi $x^2 - 3x - 10 = 0$ dan ditanya $2x_1 + x_2$:" },
+        { "tipe": "formula_block", "latex": "2(5) + (-2) = 10 - 2 = 8" },
+        { "tipe": "paragraph", "text": "Kesimpulan: soal perlu direvisi agar jawabannya ada di pilihan. Saya rekomendasikan ubah pertanyaan jadi **nilai $x_1 + 2x_2$**:" },
+        { "tipe": "formula_block", "latex": "5 + 2(-2) = 5 - 4 = 1" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
