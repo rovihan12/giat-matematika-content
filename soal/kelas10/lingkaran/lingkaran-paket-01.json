@@ -1,0 +1,203 @@
+{
+  "id": "lingkaran-paket-01",
+  "nama": "Paket 1 - Unsur & Sudut",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "deskripsi": "Unsur lingkaran, sudut pusat & sudut keliling",
+  "tingkat": "SEDANG",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "lkr-01-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah lingkaran memiliki jari-jari 14 cm. Keliling lingkaran tersebut adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "44 cm" }],
+        [{ "tipe": "paragraph", "text": "66 cm" }],
+        [{ "tipe": "paragraph", "text": "88 cm" }],
+        [{ "tipe": "paragraph", "text": "154 cm" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $\\pi = \\dfrac{22}{7}$:" },
+        { "tipe": "formula_block", "latex": "K = 2\\pi r" },
+        { "tipe": "formula_block", "latex": "= 2 \\times \\dfrac{22}{7} \\times 14" },
+        { "tipe": "formula_block", "latex": "= 88 \\text{ cm}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "lkr-01-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas lingkaran dengan jari-jari 10 cm adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "31,4 cm²" }],
+        [{ "tipe": "paragraph", "text": "62,8 cm²" }],
+        [{ "tipe": "paragraph", "text": "314 cm²" }],
+        [{ "tipe": "paragraph", "text": "628 cm²" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $\\pi = 3{,}14$:" },
+        { "tipe": "formula_block", "latex": "L = \\pi r^2" },
+        { "tipe": "formula_block", "latex": "= 3{,}14 \\times 10^2 = 314 \\text{ cm}^2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "lkr-01-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada lingkaran dengan pusat O, sudut pusat $\\angle AOB = 80^\\circ$. Titik C berada di tepi lingkaran. Besar $\\angle ACB$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "20°" }],
+        [{ "tipe": "paragraph", "text": "40°" }],
+        [{ "tipe": "paragraph", "text": "80°" }],
+        [{ "tipe": "paragraph", "text": "160°" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling = $\\dfrac{1}{2} \\times$ sudut pusat (jika menghadap busur yang sama)." },
+        { "tipe": "formula_block", "latex": "\\angle ACB = \\dfrac{1}{2} \\times \\angle AOB" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2} \\times 80^\\circ = 40^\\circ" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-01-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut keliling yang menghadap diameter lingkaran besarnya..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "45°" }],
+        [{ "tipe": "paragraph", "text": "60°" }],
+        [{ "tipe": "paragraph", "text": "90°" }],
+        [{ "tipe": "paragraph", "text": "180°" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diameter membentuk sudut pusat $180^\\circ$ (garis lurus)." },
+        { "tipe": "formula_block", "latex": "\\text{Sudut keliling} = \\dfrac{1}{2} \\times 180^\\circ = 90^\\circ" },
+        { "tipe": "paragraph", "text": "Jadi sudutnya **siku-siku (90°)**." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "lkr-01-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah lingkaran dengan jari-jari 21 cm memiliki sudut pusat $60^\\circ$. Panjang busurnya adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "11 cm" }],
+        [{ "tipe": "paragraph", "text": "22 cm" }],
+        [{ "tipe": "paragraph", "text": "33 cm" }],
+        [{ "tipe": "paragraph", "text": "44 cm" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\text{Busur} = \\dfrac{\\alpha}{360^\\circ} \\times 2\\pi r" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{60^\\circ}{360^\\circ} \\times 2 \\times \\dfrac{22}{7} \\times 21" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{6} \\times 132 = 22 \\text{ cm}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-01-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $90^\\circ$ dan jari-jari 10 cm adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "78,5 cm²" }],
+        [{ "tipe": "paragraph", "text": "157 cm²" }],
+        [{ "tipe": "paragraph", "text": "235,5 cm²" }],
+        [{ "tipe": "paragraph", "text": "314 cm²" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\text{Luas juring} = \\dfrac{\\alpha}{360^\\circ} \\times \\pi r^2" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{90^\\circ}{360^\\circ} \\times 3{,}14 \\times 10^2" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{4} \\times 314 = 78{,}5 \\text{ cm}^2" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-01-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut pusat $\\angle POQ = 120^\\circ$ dan sudut keliling $\\angle PRQ$ menghadap busur PQ yang sama. Besar $\\angle PRQ$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "30°" }],
+        [{ "tipe": "paragraph", "text": "60°" }],
+        [{ "tipe": "paragraph", "text": "120°" }],
+        [{ "tipe": "paragraph", "text": "240°" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\angle PRQ = \\dfrac{1}{2} \\times \\angle POQ" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2} \\times 120^\\circ = 60^\\circ" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-01-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik P berada 13 cm dari pusat lingkaran berjari-jari 5 cm. Panjang garis singgung dari P adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "8 cm" }],
+        [{ "tipe": "paragraph", "text": "10 cm" }],
+        [{ "tipe": "paragraph", "text": "12 cm" }],
+        [{ "tipe": "paragraph", "text": "15 cm" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis singgung tegak lurus jari-jari di titik singgung." },
+        { "tipe": "formula_block", "latex": "PT = \\sqrt{OP^2 - r^2}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{13^2 - 5^2}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{169 - 25} = \\sqrt{144} = 12 \\text{ cm}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "lkr-01-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran memiliki jari-jari 8 cm dan 3 cm. Jarak antar pusat 13 cm. Panjang garis singgung persekutuan luar (GSPL) adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "8 cm" }],
+        [{ "tipe": "paragraph", "text": "10 cm" }],
+        [{ "tipe": "paragraph", "text": "12 cm" }],
+        [{ "tipe": "paragraph", "text": "15 cm" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "GSPL = \\sqrt{d^2 - (R - r)^2}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{13^2 - (8 - 3)^2}" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{169 - 25} = \\sqrt{144} = 12 \\text{ cm}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "lkr-01-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah roda sepeda berjari-jari 35 cm. Jarak yang ditempuh roda setelah berputar 100 kali adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "110 meter" }],
+        [{ "tipe": "paragraph", "text": "180 meter" }],
+        [{ "tipe": "paragraph", "text": "220 meter" }],
+        [{ "tipe": "paragraph", "text": "330 meter" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling roda:" },
+        { "tipe": "formula_block", "latex": "K = 2\\pi r = 2 \\times \\dfrac{22}{7} \\times 35 = 220 \\text{ cm}" },
+        { "tipe": "paragraph", "text": "Jarak setelah 100 putaran:" },
+        { "tipe": "formula_block", "latex": "= 100 \\times 220 = 22.000 \\text{ cm} = 220 \\text{ meter}" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
