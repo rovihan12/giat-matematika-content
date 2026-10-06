@@ -3,7 +3,7 @@
   "kategori": "Trigonometri",
   "emoji": "📈",
   "warna": "#9C27B0",
-  "versi": "1.0.5",
+  "versi": "1.0.6",
   "bab": [
     {
       "id": "10-trig-bab-01",
@@ -220,7 +220,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Segitiga siku-siku memiliki sudut $30^\\circ$ dan sisi miring $10$ cm. Berapa panjang sisi depannya?" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\sin 30^\\circ = \\dfrac{\\text{de}}{10} \\Rightarrow \\text{de} = 10 \\cdot \\dfrac{1}{2} = 5 \\text{ cm}" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\sin 30^\\circ &= \\dfrac{\\text{de}}{10} \\\\ \\text{de} &= 10 \\cdot \\dfrac{1}{2} \\\\ &= 5 \\text{ cm} \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi sisi depannya $5$ cm." }
           ]
         },
@@ -230,7 +230,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Segitiga siku-siku dengan sudut $45^\\circ$ dan sisi miring $8$ cm. Berapa panjang sisi sampingnya?" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\cos 45^\\circ = \\dfrac{\\text{sa}}{8} \\Rightarrow \\text{sa} = 8 \\cdot \\dfrac{\\sqrt{2}}{2} = 4\\sqrt{2} \\text{ cm}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\cos 45^\\circ &= \\dfrac{\\text{sa}}{8} \\\\ \\text{sa} &= 8 \\cdot \\dfrac{\\sqrt{2}}{2} \\\\ &= 4\\sqrt{2} \\text{ cm} \\end{aligned}" }
           ]
         },
         {
@@ -241,7 +241,7 @@
             { "tipe": "image", "src": "images/kelas10/trigonometri/soal-cerita-tinggi-pohon.png", "caption": "Ilustrasi soal: siswa berjarak 12 m dari pohon, sudut elevasi 60° ke puncak pohon, tinggi pohon = t", "width": "full" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Jarak siswa ke pohon = sisi samping = 12 m. Tinggi pohon = sisi depan." },
-            { "tipe": "formula_block", "latex": "\\tan 60^\\circ = \\dfrac{t}{12} \\Rightarrow t = 12 \\cdot \\sqrt{3} \\approx 20{,}78 \\text{ m}" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\tan 60^\\circ &= \\dfrac{t}{12} \\\\ t &= 12 \\cdot \\sqrt{3} \\\\ &\\approx 20{,}78 \\text{ m} \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi tinggi pohon sekitar $20{,}78$ meter." }
           ]
         },
@@ -346,7 +346,7 @@
             { "tipe": "paragraph", "text": "Hitung $\\sin 150^\\circ$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "$150^\\circ = 180^\\circ - 30^\\circ$, jadi:" },
-            { "tipe": "formula_block", "latex": "\\sin 150^\\circ = \\sin(180^\\circ - 30^\\circ) = \\sin 30^\\circ = \\dfrac{1}{2}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\sin 150^\\circ &= \\sin(180^\\circ - 30^\\circ) \\\\ &= \\sin 30^\\circ \\\\ &= \\dfrac{1}{2} \\end{aligned}" }
           ]
         },
         {
@@ -356,7 +356,7 @@
             { "tipe": "paragraph", "text": "Hitung $\\cos 210^\\circ$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "$210^\\circ = 180^\\circ + 30^\\circ$, jadi:" },
-            { "tipe": "formula_block", "latex": "\\cos 210^\\circ = \\cos(180^\\circ + 30^\\circ) = -\\cos 30^\\circ = -\\dfrac{\\sqrt{3}}{2}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\cos 210^\\circ &= \\cos(180^\\circ + 30^\\circ) \\\\ &= -\\cos 30^\\circ \\\\ &= -\\dfrac{\\sqrt{3}}{2} \\end{aligned}" }
           ]
         },
         {
@@ -366,7 +366,7 @@
             { "tipe": "paragraph", "text": "Hitung $\\tan 330^\\circ$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "$330^\\circ = 360^\\circ - 30^\\circ$, jadi:" },
-            { "tipe": "formula_block", "latex": "\\tan 330^\\circ = \\tan(360^\\circ - 30^\\circ) = -\\tan 30^\\circ = -\\dfrac{\\sqrt{3}}{3}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\tan 330^\\circ &= \\tan(360^\\circ - 30^\\circ) \\\\ &= -\\tan 30^\\circ \\\\ &= -\\dfrac{\\sqrt{3}}{3} \\end{aligned}" }
           ]
         },
         {
@@ -459,11 +459,7 @@
         },
         {
           "tipe": "formula_block",
-          "latex": "\\dfrac{\\sin^2\\theta}{\\cos^2\\theta} + \\dfrac{\\cos^2\\theta}{\\cos^2\\theta} = \\dfrac{1}{\\cos^2\\theta}"
-        },
-        {
-          "tipe": "formula_block",
-          "latex": "\\tan^2\\theta + 1 = \\sec^2\\theta"
+          "latex": "\\begin{aligned} \\dfrac{\\sin^2\\theta}{\\cos^2\\theta} + \\dfrac{\\cos^2\\theta}{\\cos^2\\theta} &= \\dfrac{1}{\\cos^2\\theta} \\\\ \\tan^2\\theta + 1 &= \\sec^2\\theta \\end{aligned}"
         },
         {
           "tipe": "heading",
@@ -498,7 +494,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Sederhanakan $\\sin^2\\theta + \\sin^2\\theta \\cdot \\cot^2\\theta$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\sin^2\\theta(1 + \\cot^2\\theta) = \\sin^2\\theta \\cdot \\csc^2\\theta = \\sin^2\\theta \\cdot \\dfrac{1}{\\sin^2\\theta} = 1" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} &\\sin^2\\theta(1 + \\cot^2\\theta) \\\\ &= \\sin^2\\theta \\cdot \\csc^2\\theta \\\\ &= \\sin^2\\theta \\cdot \\dfrac{1}{\\sin^2\\theta} \\\\ &= 1 \\end{aligned}" }
           ]
         },
         {
@@ -508,8 +504,7 @@
             { "tipe": "paragraph", "text": "Buktikan bahwa $\\dfrac{\\sin\\theta}{1 + \\cos\\theta} = \\dfrac{1 - \\cos\\theta}{\\sin\\theta}$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
             { "tipe": "paragraph", "text": "Kalikan ruas kiri dengan bentuk sekawan $\\dfrac{1 - \\cos\\theta}{1 - \\cos\\theta}$:" },
-            { "tipe": "formula_block", "latex": "\\dfrac{\\sin\\theta(1 - \\cos\\theta)}{1 - \\cos^2\\theta} = \\dfrac{\\sin\\theta(1 - \\cos\\theta)}{\\sin^2\\theta}" },
-            { "tipe": "formula_block", "latex": "= \\dfrac{1 - \\cos\\theta}{\\sin\\theta} \\quad \\checkmark" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\dfrac{\\sin\\theta}{1 + \\cos\\theta} &= \\dfrac{\\sin\\theta(1 - \\cos\\theta)}{1 - \\cos^2\\theta} \\\\ &= \\dfrac{\\sin\\theta(1 - \\cos\\theta)}{\\sin^2\\theta} \\\\ &= \\dfrac{1 - \\cos\\theta}{\\sin\\theta} \\quad \\checkmark \\end{aligned}" }
           ]
         },
         {
@@ -745,8 +740,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Pada segitiga ABC, $A = 30^\\circ$, $B = 45^\\circ$, dan sisi $a = 10$ cm. Tentukan panjang sisi $b$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} \\Rightarrow \\dfrac{10}{\\sin 30^\\circ} = \\dfrac{b}{\\sin 45^\\circ}" },
-            { "tipe": "formula_block", "latex": "b = \\dfrac{10 \\cdot \\sin 45^\\circ}{\\sin 30^\\circ} = \\dfrac{10 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}} = 10\\sqrt{2} \\text{ cm}" }
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\dfrac{a}{\\sin A} &= \\dfrac{b}{\\sin B} \\\\ \\dfrac{10}{\\sin 30^\\circ} &= \\dfrac{b}{\\sin 45^\\circ} \\\\ b &= \\dfrac{10 \\cdot \\sin 45^\\circ}{\\sin 30^\\circ} \\\\ &= \\dfrac{10 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}} \\\\ &= 10\\sqrt{2} \\text{ cm} \\end{aligned}" }
           ]
         },
         {
@@ -755,8 +749,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Segitiga dengan sisi $b = 5$ cm, $c = 8$ cm, dan sudut $A = 60^\\circ$. Tentukan panjang sisi $a$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "a^2 = 5^2 + 8^2 - 2 \\cdot 5 \\cdot 8 \\cdot \\cos 60^\\circ" },
-            { "tipe": "formula_block", "latex": "a^2 = 25 + 64 - 80 \\cdot \\dfrac{1}{2} = 89 - 40 = 49" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} a^2 &= 5^2 + 8^2 - 2 \\cdot 5 \\cdot 8 \\cdot \\cos 60^\\circ \\\\ &= 25 + 64 - 80 \\cdot \\dfrac{1}{2} \\\\ &= 89 - 40 \\\\ &= 49 \\end{aligned}" },
             { "tipe": "formula_block", "latex": "a = 7 \\text{ cm}" }
           ]
         },
@@ -766,7 +759,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Segitiga dengan sisi $a = 7$, $b = 5$, $c = 8$. Tentukan $\\cos A$." },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\cos A = \\dfrac{b^2 + c^2 - a^2}{2bc} = \\dfrac{25 + 64 - 49}{2 \\cdot 5 \\cdot 8} = \\dfrac{40}{80} = \\dfrac{1}{2}" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\cos A &= \\dfrac{b^2 + c^2 - a^2}{2bc} \\\\ &= \\dfrac{25 + 64 - 49}{2 \\cdot 5 \\cdot 8} \\\\ &= \\dfrac{40}{80} \\\\ &= \\dfrac{1}{2} \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi $A = 60^\\circ$." }
           ]
         },
@@ -849,7 +842,7 @@
             { "tipe": "paragraph", "text": "Seorang surveyor berdiri 50 meter dari kaki menara. Ia mengukur sudut elevasi ke puncak menara sebesar $45^\\circ$. Berapa tinggi menara?" },
             { "tipe": "image", "src": "images/kelas10/trigonometri/soal-cerita-tinggi-menara.png", "caption": "Ilustrasi soal: surveyor berjarak 50 m dari menara, sudut elevasi 45° ke puncak menara, tinggi menara = t", "width": "full" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\tan 45^\\circ = \\dfrac{t}{50} \\Rightarrow t = 50 \\cdot 1 = 50 \\text{ m}" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\tan 45^\\circ &= \\dfrac{t}{50} \\\\ t &= 50 \\cdot 1 \\\\ &= 50 \\text{ m} \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi tinggi menara $50$ meter." }
           ]
         },
@@ -859,7 +852,7 @@
           "konten": [
             { "tipe": "paragraph", "text": "Dari puncak tebing setinggi 80 m, seseorang melihat perahu di laut dengan sudut depresi $30^\\circ$. Berapa jarak perahu dari kaki tebing?" },
             { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
-            { "tipe": "formula_block", "latex": "\\tan 30^\\circ = \\dfrac{80}{d} \\Rightarrow d = \\dfrac{80}{\\tan 30^\\circ} = 80\\sqrt{3} \\approx 138{,}6 \\text{ m}" },
+            { "tipe": "formula_block", "latex": "\\begin{aligned} \\tan 30^\\circ &= \\dfrac{80}{d} \\\\ d &= \\dfrac{80}{\\tan 30^\\circ} \\\\ &= 80\\sqrt{3} \\\\ &\\approx 138{,}6 \\text{ m} \\end{aligned}" },
             { "tipe": "paragraph", "text": "Jadi jarak perahu dari kaki tebing sekitar $138{,}6$ meter." }
           ]
         },
