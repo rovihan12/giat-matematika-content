@@ -1,0 +1,227 @@
+{
+  "id": "komposisi-fungsi-invers-paket-02",
+  "nama": "Paket 2 - Fungsi Invers",
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "deskripsi": "Fungsi invers dan invers komposisi",
+  "tingkat": "SULIT",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "kfi-02-01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = 3x - 6$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 6}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 6}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = 3x + 6$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x}{3} + 6$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $y = 3x - 6$." },
+        { "tipe": "formula_block", "latex": "y + 6 = 3x" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{y + 6}{3}" },
+        { "tipe": "paragraph", "text": "Ganti $y \\to x$:" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{x + 6}{3}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "kfi-02-02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = 5x + 2$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 2}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 2}{5}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = 5x - 2$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x}{5} - 2$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y = 5x + 2" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{y - 2}{5}" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{x - 2}{5}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "kfi-02-03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $f^{-1}(5)$ jika $f(x) = 2x - 3$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "1" }],
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "7" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cari invers dulu:" },
+        { "tipe": "formula_block", "latex": "y = 2x - 3 \\Rightarrow x = \\dfrac{y + 3}{2}" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{x + 3}{2}" },
+        { "tipe": "paragraph", "text": "Substitusi $x = 5$:" },
+        { "tipe": "formula_block", "latex": "f^{-1}(5) = \\dfrac{5 + 3}{2} = \\dfrac{8}{2} = 4" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "kfi-02-04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = \\dfrac{2x + 1}{x - 3}$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{3x + 1}{x - 2}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{3x - 1}{x + 2}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 3}{2x - 1}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 3}{2x + 1}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $y = \\dfrac{2x + 1}{x - 3}$." },
+        { "tipe": "paragraph", "text": "Kalikan silang:" },
+        { "tipe": "formula_block", "latex": "y(x - 3) = 2x + 1" },
+        { "tipe": "formula_block", "latex": "yx - 3y = 2x + 1" },
+        { "tipe": "paragraph", "text": "Kumpulkan suku $x$:" },
+        { "tipe": "formula_block", "latex": "yx - 2x = 3y + 1" },
+        { "tipe": "formula_block", "latex": "x(y - 2) = 3y + 1" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{3y + 1}{y - 2}" },
+        { "tipe": "paragraph", "text": "Ganti $y \\to x$:" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{3x + 1}{x - 2}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "kfi-02-05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 + 3$ untuk $x \\geq 0$, maka $f^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\sqrt{x - 3}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\sqrt{x + 3}$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = x^2 - 3$" }],
+        [{ "tipe": "paragraph", "text": "$f^{-1}(x) = \\sqrt{x} - 3$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y = x^2 + 3" },
+        { "tipe": "formula_block", "latex": "y - 3 = x^2" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq 0$, ambil akar positif:" },
+        { "tipe": "formula_block", "latex": "x = \\sqrt{y - 3}" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\sqrt{x - 3}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "kfi-02-06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = 2x + 1$ dan $g(x) = x - 3$. Rumus $(f \\circ g)^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{x + 5}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{x - 5}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{x + 1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$\\dfrac{x - 1}{2}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Cara 1:** Hitung $(f \\circ g)(x)$ dulu:" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(x) = 2(x - 3) + 1 = 2x - 5" },
+        { "tipe": "paragraph", "text": "Inverskan:" },
+        { "tipe": "formula_block", "latex": "y = 2x - 5 \\Rightarrow x = \\dfrac{y + 5}{2}" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)^{-1}(x) = \\dfrac{x + 5}{2}" },
+        { "tipe": "paragraph", "text": "**Cara 2:** Pakai rumus $(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "kfi-02-07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f^{-1}(x) = \\dfrac{x - 4}{3}$, maka $f(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$f(x) = 3x + 4$" }],
+        [{ "tipe": "paragraph", "text": "$f(x) = 3x - 4$" }],
+        [{ "tipe": "paragraph", "text": "$f(x) = \\dfrac{x + 4}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$f(x) = \\dfrac{x - 4}{3}$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $f^{-1}$ adalah invers dari $f$, maka $f$ adalah invers dari $f^{-1}$." },
+        { "tipe": "paragraph", "text": "Tulis $y = \\dfrac{x - 4}{3}$, tukar $x \\leftrightarrow y$:" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{y - 4}{3}" },
+        { "tipe": "formula_block", "latex": "3x = y - 4 \\Rightarrow y = 3x + 4" },
+        { "tipe": "formula_block", "latex": "f(x) = 3x + 4" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "kfi-02-08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = x + 2$ dan $g(x) = 3x$. Nilai $(g \\circ f)^{-1}(12)$ adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "2" }],
+        [{ "tipe": "paragraph", "text": "3" }],
+        [{ "tipe": "paragraph", "text": "4" }],
+        [{ "tipe": "paragraph", "text": "5" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung $(g \\circ f)(x)$ dulu:" },
+        { "tipe": "formula_block", "latex": "(g \\circ f)(x) = g(x + 2) = 3(x + 2) = 3x + 6" },
+        { "tipe": "paragraph", "text": "Cari invers:" },
+        { "tipe": "formula_block", "latex": "y = 3x + 6 \\Rightarrow x = \\dfrac{y - 6}{3}" },
+        { "tipe": "formula_block", "latex": "(g \\circ f)^{-1}(x) = \\dfrac{x - 6}{3}" },
+        { "tipe": "paragraph", "text": "Substitusi $x = 12$:" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{12 - 6}{3} = \\dfrac{6}{3} = 2" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "kfi-02-09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Fungsi $f(x) = x^2$ TIDAK memiliki invers karena..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Domainnya kosong" }],
+        [{ "tipe": "paragraph", "text": "Bukan fungsi satu-satu (tidak injektif)" }],
+        [{ "tipe": "paragraph", "text": "Tidak terdefinisi di $x = 0$" }],
+        [{ "tipe": "paragraph", "text": "Range-nya kosong" }]
+      ],
+      "jawaban_benar": 1,
+      "pilihan_jawaban": [],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Fungsi punya invers jika dan hanya jika **bijektif** (injektif + surjektif)." },
+        { "tipe": "paragraph", "text": "$f(x) = x^2$ **tidak injektif** karena $f(2) = f(-2) = 4$. Dua input berbeda menghasilkan output sama." },
+        { "tipe": "paragraph", "text": "Untuk bisa punya invers, domainnya harus dibatasi, mis. $x \\geq 0$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "kfi-02-10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah fungsi konversi suhu: $F(C) = \\dfrac{9}{5}C + 32$. Fungsi invers untuk mengubah Fahrenheit ke Celsius adalah..." }
+      ],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$C(F) = \\dfrac{5}{9}(F - 32)$" }],
+        [{ "tipe": "paragraph", "text": "$C(F) = \\dfrac{5}{9}F - 32$" }],
+        [{ "tipe": "paragraph", "text": "$C(F) = \\dfrac{9}{5}(F - 32)$" }],
+        [{ "tipe": "paragraph", "text": "$C(F) = \\dfrac{9}{5}F + 32$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cari invers dari $F(C) = \\dfrac{9}{5}C + 32$." },
+        { "tipe": "paragraph", "text": "Tulis $y = \\dfrac{9}{5}C + 32$:" },
+        { "tipe": "formula_block", "latex": "y - 32 = \\dfrac{9}{5}C" },
+        { "tipe": "formula_block", "latex": "C = \\dfrac{5}{9}(y - 32)" },
+        { "tipe": "paragraph", "text": "Ganti $y \\to F$:" },
+        { "tipe": "formula_block", "latex": "C(F) = \\dfrac{5}{9}(F - 32)" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
