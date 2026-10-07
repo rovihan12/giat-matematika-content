@@ -3,566 +3,288 @@
   "kategori": "Eksponen dan Logaritma",
   "emoji": "📐",
   "warna": "#4CAF50",
-  "versi": "2.0.0",
+  "versi": "1.0.2",
   "bab": [
     {
-      "id": "10-eksponen-bab-01",
+      "id": "10-aljabar-bab-01",
       "nomor": 1,
-      "judul": "Konsep Dasar Eksponen",
-      "deskripsi": "Pengertian eksponen dan sifat-sifat dasar perkalian/pembagian",
-      "total_step": 4,
-      "langkah": [
+      "judul": "Eksponen dan Logaritma",
+      "deskripsi": "Bilangan berpangkat, bentuk akar, dan logaritma beserta sifat-sifatnya",
+      "estimasi_menit": 90,
+      "konten": [
         {
-          "step": 1,
-          "tipe": "intro",
-          "judul": "Apa itu Eksponen?",
-          "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Eksponen adalah bentuk perkalian berulang dari suatu bilangan. Jika $a$ adalah bilangan real dan $n$ adalah bilangan bulat positif, maka $a^n$ didefinisikan sebagai perkalian $a$ sebanyak $n$ faktor."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "a^n = \\underbrace{a \\times a \\times \\cdots \\times a}_{n \\text{ faktor}}"
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Keterangan: $a$ disebut **basis** (bilangan pokok) dan $n$ disebut **eksponen** (pangkat)."
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh Sederhana",
-              "konten": [
-                { "tipe": "paragraph", "text": "Hitung nilai dari $2^4$." },
-                { "tipe": "formula_block", "latex": "2^4 = 2 \\times 2 \\times 2 \\times 2 = 16" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b01-s1-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Pada bentuk $5^3$, manakah yang disebut sebagai **basis**?",
-              "pilihan": ["5", "3", "15", "125"],
-              "jawaban": 0,
-              "pembahasan": "Basis adalah bilangan pokok yang dipangkatkan. Pada $5^3$, basisnya adalah 5 dan eksponennya adalah 3."
-            }
+          "tipe": "heading",
+          "level": 1,
+          "text": "A. Bilangan Berpangkat (Eksponen)"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "1. Pengertian Eksponen"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Eksponen adalah bentuk perkalian berulang dari suatu bilangan. Jika $a$ adalah bilangan real dan $n$ adalah bilangan bulat positif, maka $a^n$ didefinisikan sebagai perkalian $a$ sebanyak $n$ faktor."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "a^n = \\underbrace{a \\times a \\times \\cdots \\times a}_{n \\text{ faktor}}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Keterangan: $a$ disebut <b>basis</b> (bilangan pokok) dan $n$ disebut <b>eksponen</b> (pangkat)."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "2. Sifat-Sifat Eksponen"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Untuk $a, b \\in \\mathbb{R}$, $a \\neq 0$, dan $m, n \\in \\mathbb{R}$, berlaku sifat-sifat berikut:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Sifat perkalian: $a^m \\cdot a^n = a^{m+n}$",
+            "Sifat pembagian: $\\dfrac{a^m}{a^n} = a^{m-n}$",
+            "Sifat pangkat dari pangkat: $(a^m)^n = a^{m \\cdot n}$",
+            "Sifat pangkat dari perkalian: $(ab)^n = a^n \\cdot b^n$",
+            "Sifat pangkat dari pembagian: $\\left(\\dfrac{a}{b}\\right)^n = \\dfrac{a^n}{b^n}$, dengan $b \\neq 0$",
+            "Pangkat nol: $a^0 = 1$, dengan $a \\neq 0$",
+            "Pangkat negatif: $a^{-n} = \\dfrac{1}{a^n}$, dengan $a \\neq 0$",
+            "Pangkat pecahan: $a^{\\frac{m}{n}} = \\sqrt[n]{a^m}$"
           ]
         },
         {
-          "step": 2,
-          "tipe": "konsep",
-          "judul": "Sifat Perkalian dan Pembagian",
+          "tipe": "heading",
+          "level": 3,
+          "text": "Contoh Soal"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh 1: Sifat Perkalian dan Pembagian",
           "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Untuk $a \\in \\mathbb{R}$, $a \\neq 0$, dan $m, n \\in \\mathbb{R}$, berlaku:"
-            },
-            {
-              "tipe": "list",
-              "ordered": false,
-              "items": [
-                "Sifat perkalian: $a^m \\cdot a^n = a^{m+n}$",
-                "Sifat pembagian: $\\dfrac{a^m}{a^n} = a^{m-n}$"
-              ]
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "formula_block", "latex": "2^3 \\cdot 2^5 = 2^{3+5} = 2^8 = 256" },
-                { "tipe": "formula_block", "latex": "\\dfrac{3^7}{3^4} = 3^{7-4} = 3^3 = 27" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b01-s2-q1",
-              "tipe": "isi_kosong",
-              "pertanyaan": "Sederhanakan $4^2 \\cdot 4^3$. Hasilnya adalah $4^5$. Berapa nilai dari $4^5$? (tulis angka saja)",
-              "jawaban": "1024",
-              "pembahasan": "$4^5 = 4 \\times 4 \\times 4 \\times 4 \\times 4 = 1024$"
-            }
+            { "tipe": "paragraph", "text": "Sederhanakan $2^3 \\cdot 2^5$ dan $\\dfrac{3^7}{3^4}$." },
+            { "tipe": "formula_block", "latex": "2^3 \\cdot 2^5 = 2^{3+5} = 2^8 = 256" },
+            { "tipe": "formula_block", "latex": "\\dfrac{3^7}{3^4} = 3^{7-4} = 3^3 = 27" }
           ]
         },
         {
-          "step": 3,
-          "tipe": "konsep",
-          "judul": "Sifat Pangkat dari Pangkat",
+          "tipe": "example",
+          "judul": "Contoh 2: Pangkat Negatif dan Nol",
           "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Jika suatu bilangan berpangkat dipangkatkan lagi, maka pangkatnya dikalikan."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "(a^m)^n = a^{m \\cdot n}"
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "paragraph", "text": "Sederhanakan $(2^3)^4$." },
-                { "tipe": "formula_block", "latex": "(2^3)^4 = 2^{3 \\times 4} = 2^{12} = 4096" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b01-s3-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Hasil dari $(3^2)^3$ adalah...",
-              "pilihan": ["$3^5 = 243$", "$3^6 = 729$", "$3^9 = 19683$", "$6^3 = 216$"],
-              "jawaban": 1,
-              "pembahasan": "$(3^2)^3 = 3^{2 \\times 3} = 3^6 = 729$"
-            }
+            { "tipe": "paragraph", "text": "Hitung nilai dari $5^{-2}$ dan $(7)^0$." },
+            { "tipe": "formula_block", "latex": "5^{-2} = \\dfrac{1}{5^2} = \\dfrac{1}{25}" },
+            { "tipe": "formula_block", "latex": "7^0 = 1" }
           ]
         },
         {
-          "step": 4,
-          "tipe": "ujian_bab",
-          "judul": "Uji Pemahaman Bab 1",
-          "konten": [],
-          "latihan": [
-            {
-              "id": "10-eksponen-b01-s4-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Hasil dari $2^3 \\cdot 2^{-1}$ adalah...",
-              "pilihan": ["2", "4", "8", "16"],
-              "jawaban": 1,
-              "pembahasan": "$2^3 \\cdot 2^{-1} = 2^{3 + (-1)} = 2^2 = 4$"
-            },
-            {
-              "id": "10-eksponen-b01-s4-q2",
-              "tipe": "benar_salah",
-              "pertanyaan": "Nilai dari $\\dfrac{5^8}{5^5}$ sama dengan $125$.",
-              "jawaban": true,
-              "pembahasan": "$\\dfrac{5^8}{5^5} = 5^{8-5} = 5^3 = 125$. Pernyataan ini **benar**."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "10-eksponen-bab-02",
-      "nomor": 2,
-      "judul": "Pangkat Nol, Negatif, dan Pecahan",
-      "deskripsi": "Memahami pangkat khusus: nol, negatif, dan pecahan",
-      "total_step": 4,
-      "langkah": [
-        {
-          "step": 1,
-          "tipe": "intro",
-          "judul": "Pangkat Nol",
+          "tipe": "example",
+          "judul": "Contoh 3: Pangkat Pecahan",
           "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Setiap bilangan bukan nol yang dipangkatkan dengan nol hasilnya adalah satu."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "a^0 = 1, \\quad a \\neq 0"
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "formula_block", "latex": "7^0 = 1" },
-                { "tipe": "formula_block", "latex": "(-3)^0 = 1" },
-                { "tipe": "formula_block", "latex": "1000^0 = 1" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b02-s1-q1",
-              "tipe": "isi_kosong",
-              "pertanyaan": "Berapa nilai dari $(2024)^0$?",
-              "jawaban": "1",
-              "pembahasan": "Setiap bilangan bukan nol yang dipangkatkan nol hasilnya 1, jadi $(2024)^0 = 1$."
-            }
+            { "tipe": "paragraph", "text": "Ubah $8^{\\frac{2}{3}}$ ke bentuk akar dan hitung nilainya." },
+            { "tipe": "formula_block", "latex": "8^{\\frac{2}{3}} = \\sqrt[3]{8^2}" },
+            { "tipe": "formula_block", "latex": "= \\sqrt[3]{64}" },
+            { "tipe": "formula_block", "latex": "= 4" }
           ]
         },
         {
-          "step": 2,
-          "tipe": "konsep",
-          "judul": "Pangkat Negatif",
-          "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Pangkat negatif berarti kebalikan dari pangkat positifnya."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "a^{-n} = \\dfrac{1}{a^n}, \\quad a \\neq 0"
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "formula_block", "latex": "5^{-2} = \\dfrac{1}{5^2} = \\dfrac{1}{25}" },
-                { "tipe": "formula_block", "latex": "2^{-4} = \\dfrac{1}{2^4} = \\dfrac{1}{16}" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b02-s2-q1",
-              "tipe": "benar_salah",
-              "pertanyaan": "Nilai dari $10^{-3}$ adalah $\\dfrac{1}{1000}$.",
-              "jawaban": true,
-              "pembahasan": "$10^{-3} = \\dfrac{1}{10^3} = \\dfrac{1}{1000}$. Pernyataan ini **benar**."
-            }
+          "tipe": "heading",
+          "level": 1,
+          "text": "B. Bentuk Akar dan Merasionalkan Penyebut"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "1. Pengertian Bentuk Akar"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Bentuk akar adalah akar dari suatu bilangan yang hasilnya bukan bilangan rasional. Secara umum, $\\sqrt[n]{a}$ adalah bentuk akar jika $a$ bukan bilangan pangkat sempurna dari $n$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "\\sqrt[n]{a} = a^{\\frac{1}{n}}"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Sifat-sifat bentuk akar:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "$\\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{ab}$",
+            "$\\dfrac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\dfrac{a}{b}}$, dengan $b > 0$",
+            "$\\sqrt{a} + \\sqrt{b}$ tidak dapat disederhanakan menjadi $\\sqrt{a+b}$",
+            "$p\\sqrt{a} + q\\sqrt{a} = (p+q)\\sqrt{a}$",
+            "$\\sqrt{a^2} = |a|$"
           ]
         },
         {
-          "step": 3,
-          "tipe": "konsep",
-          "judul": "Pangkat Pecahan",
-          "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Pangkat pecahan $\\dfrac{m}{n}$ sama dengan akar ke-$n$ dari $a$ dipangkatkan $m$."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "a^{\\frac{m}{n}} = \\sqrt[n]{a^m}"
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "paragraph", "text": "Ubah $8^{\\frac{2}{3}}$ ke bentuk akar dan hitung nilainya." },
-                { "tipe": "formula_block", "latex": "8^{\\frac{2}{3}} = \\sqrt[3]{8^2} = \\sqrt[3]{64} = 4" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b02-s3-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Nilai dari $27^{\\frac{1}{3}}$ adalah...",
-              "pilihan": ["3", "9", "27", "81"],
-              "jawaban": 0,
-              "pembahasan": "$27^{\\frac{1}{3}} = \\sqrt[3]{27} = 3$"
-            }
+          "tipe": "heading",
+          "level": 2,
+          "text": "2. Merasionalkan Penyebut"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Merasionalkan penyebut adalah proses menghilangkan bentuk akar pada penyebut pecahan dengan mengalikan pembilang dan penyebut dengan bentuk sekawan."
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Bentuk $\\dfrac{a}{\\sqrt{b}}$ dikalikan dengan $\\dfrac{\\sqrt{b}}{\\sqrt{b}}$ sehingga menjadi $\\dfrac{a\\sqrt{b}}{b}$",
+            "Bentuk $\\dfrac{a}{\\sqrt{b} + \\sqrt{c}}$ dikalikan dengan $\\dfrac{\\sqrt{b} - \\sqrt{c}}{\\sqrt{b} - \\sqrt{c}}$",
+            "Bentuk $\\dfrac{a}{\\sqrt{b} - \\sqrt{c}}$ dikalikan dengan $\\dfrac{\\sqrt{b} + \\sqrt{c}}{\\sqrt{b} + \\sqrt{c}}$"
           ]
         },
         {
-          "step": 4,
-          "tipe": "ujian_bab",
-          "judul": "Uji Pemahaman Bab 2",
-          "konten": [],
-          "latihan": [
-            {
-              "id": "10-eksponen-b02-s4-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Hasil dari $4^{-2} + 2^0$ adalah...",
-              "pilihan": ["$\\frac{1}{16}$", "$\\frac{17}{16}$", "$\\frac{1}{8}$", "2"],
-              "jawaban": 1,
-              "pembahasan": "$4^{-2} + 2^0 = \\frac{1}{16} + 1 = \\frac{17}{16}$"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "10-eksponen-bab-03",
-      "nomor": 3,
-      "judul": "Bentuk Akar dan Merasionalkan Penyebut",
-      "deskripsi": "Operasi bentuk akar dan cara merasionalkan penyebut pecahan",
-      "total_step": 4,
-      "langkah": [
-        {
-          "step": 1,
-          "tipe": "intro",
-          "judul": "Pengertian Bentuk Akar",
+          "tipe": "example",
+          "judul": "Contoh 1: Merasionalkan Penyebut Sederhana",
           "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Bentuk akar adalah akar dari suatu bilangan yang hasilnya bukan bilangan rasional. Secara umum, $\\sqrt[n]{a}$ adalah bentuk akar jika $a$ bukan bilangan pangkat sempurna dari $n$."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "\\sqrt[n]{a} = a^{\\frac{1}{n}}"
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b03-s1-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Manakah yang **bukan** bentuk akar?",
-              "pilihan": ["$\\sqrt{2}$", "$\\sqrt{3}$", "$\\sqrt{9}$", "$\\sqrt{5}$"],
-              "jawaban": 2,
-              "pembahasan": "$\\sqrt{9} = 3$ (bilangan rasional), jadi **bukan** bentuk akar."
-            }
+            { "tipe": "paragraph", "text": "Rasionalkan $\\dfrac{6}{\\sqrt{3}}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\dfrac{6}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{6\\sqrt{3}}{3}" },
+            { "tipe": "formula_block", "latex": "= 2\\sqrt{3}" }
           ]
         },
         {
-          "step": 2,
-          "tipe": "konsep",
-          "judul": "Sifat-Sifat Bentuk Akar",
+          "tipe": "example",
+          "judul": "Contoh 2: Merasionalkan Penyebut Bentuk Sekawan",
           "konten": [
-            {
-              "tipe": "list",
-              "ordered": false,
-              "items": [
-                "$\\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{ab}$",
-                "$\\dfrac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\dfrac{a}{b}}$, dengan $b > 0$",
-                "$\\sqrt{a} + \\sqrt{b}$ tidak dapat disederhanakan menjadi $\\sqrt{a+b}$",
-                "$p\\sqrt{a} + q\\sqrt{a} = (p+q)\\sqrt{a}$",
-                "$\\sqrt{a^2} = |a|$"
-              ]
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "formula_block", "latex": "\\sqrt{2} \\cdot \\sqrt{8} = \\sqrt{16} = 4" },
-                { "tipe": "formula_block", "latex": "3\\sqrt{2} + 5\\sqrt{2} = 8\\sqrt{2}" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b03-s2-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Hasil dari $\\sqrt{3} \\cdot \\sqrt{12}$ adalah...",
-              "pilihan": ["$6$", "$\\sqrt{15}$", "$2\\sqrt{3}$", "$3\\sqrt{2}$"],
-              "jawaban": 0,
-              "pembahasan": "$\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36} = 6$"
-            }
+            { "tipe": "paragraph", "text": "Rasionalkan $\\dfrac{4}{\\sqrt{5} + \\sqrt{2}}$." },
+            { "tipe": "paragraph", "text": "<b>Penyelesaian:</b>" },
+            { "tipe": "formula_block", "latex": "\\dfrac{4}{\\sqrt{5} + \\sqrt{2}} \\times \\dfrac{\\sqrt{5} - \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{5 - 2}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{3}" }
           ]
         },
         {
-          "step": 3,
-          "tipe": "konsep",
-          "judul": "Merasionalkan Penyebut",
-          "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Merasionalkan penyebut adalah proses menghilangkan bentuk akar pada penyebut pecahan dengan mengalikan pembilang dan penyebut dengan bentuk sekawan."
-            },
-            {
-              "tipe": "list",
-              "ordered": false,
-              "items": [
-                "Bentuk $\\dfrac{a}{\\sqrt{b}}$ dikalikan dengan $\\dfrac{\\sqrt{b}}{\\sqrt{b}}$ sehingga menjadi $\\dfrac{a\\sqrt{b}}{b}$",
-                "Bentuk $\\dfrac{a}{\\sqrt{b} + \\sqrt{c}}$ dikalikan dengan $\\dfrac{\\sqrt{b} - \\sqrt{c}}{\\sqrt{b} - \\sqrt{c}}$",
-                "Bentuk $\\dfrac{a}{\\sqrt{b} - \\sqrt{c}}$ dikalikan dengan $\\dfrac{\\sqrt{b} + \\sqrt{c}}{\\sqrt{b} + \\sqrt{c}}$"
-              ]
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh 1: Penyebut Sederhana",
-              "konten": [
-                { "tipe": "paragraph", "text": "Rasionalkan $\\dfrac{6}{\\sqrt{3}}$." },
-                { "tipe": "formula_block", "latex": "\\dfrac{6}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}} = \\dfrac{6\\sqrt{3}}{3} = 2\\sqrt{3}" }
-              ]
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh 2: Penyebut Sekawan",
-              "konten": [
-                { "tipe": "paragraph", "text": "Rasionalkan $\\dfrac{4}{\\sqrt{5} + \\sqrt{2}}$." },
-                { "tipe": "formula_block", "latex": "\\dfrac{4}{\\sqrt{5} + \\sqrt{2}} \\times \\dfrac{\\sqrt{5} - \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}} = \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{5 - 2} = \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{3}" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-eksponen-b03-s3-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Bentuk rasional dari $\\dfrac{10}{\\sqrt{5}}$ adalah...",
-              "pilihan": ["$2\\sqrt{5}$", "$5\\sqrt{2}$", "$\\sqrt{5}$", "$10\\sqrt{5}$"],
-              "jawaban": 0,
-              "pembahasan": "$\\dfrac{10}{\\sqrt{5}} \\times \\dfrac{\\sqrt{5}}{\\sqrt{5}} = \\dfrac{10\\sqrt{5}}{5} = 2\\sqrt{5}$"
-            }
+          "tipe": "heading",
+          "level": 1,
+          "text": "C. Logaritma"
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "1. Pengertian Logaritma"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Logaritma adalah operasi kebalikan dari eksponen. Jika $a^c = b$, maka $c$ adalah logaritma dari $b$ dengan basis $a$."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "a^c = b \\Leftrightarrow {}^a\\log b = c"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Dengan syarat: $a > 0$, $a \\neq 1$, dan $b > 0$. Keterangan: $a$ = basis, $b$ = numerus, $c$ = hasil logaritma."
+        },
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "2. Sifat-Sifat Logaritma"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "${}^a\\log 1 = 0$",
+            "${}^a\\log a = 1$",
+            "${}^a\\log (b \\cdot c) = {}^a\\log b + {}^a\\log c$",
+            "${}^a\\log \\dfrac{b}{c} = {}^a\\log b - {}^a\\log c$",
+            "${}^a\\log b^n = n \\cdot {}^a\\log b$",
+            "${}^a\\log b = \\dfrac{{}^c\\log b}{{}^c\\log a}$",
+            "${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$",
+            "$a^{{}^a\\log b} = b$",
+            "${}^a\\log b = \\dfrac{1}{{}^b\\log a}$"
           ]
         },
         {
-          "step": 4,
-          "tipe": "ujian_bab",
-          "judul": "Uji Pemahaman Bab 3",
-          "konten": [],
-          "latihan": [
-            {
-              "id": "10-eksponen-b03-s4-q1",
-              "tipe": "benar_salah",
-              "pertanyaan": "$\\sqrt{2} + \\sqrt{3} = \\sqrt{5}$",
-              "jawaban": false,
-              "pembahasan": "$\\sqrt{2} + \\sqrt{3} \\approx 1{,}414 + 1{,}732 = 3{,}146$, sedangkan $\\sqrt{5} \\approx 2{,}236$. Jadi pernyataan **salah**."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "10-logaritma-bab-01",
-      "nomor": 4,
-      "judul": "Logaritma dan Sifat-Sifatnya",
-      "deskripsi": "Pengertian logaritma, sifat-sifat, dan persamaan logaritma sederhana",
-      "total_step": 5,
-      "langkah": [
+          "tipe": "heading",
+          "level": 3,
+          "text": "Contoh Soal"
+        },
         {
-          "step": 1,
-          "tipe": "intro",
-          "judul": "Apa itu Logaritma?",
+          "tipe": "example",
+          "judul": "Contoh 1: Menghitung Logaritma Sederhana",
           "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Logaritma adalah operasi kebalikan dari eksponen. Jika $a^c = b$, maka $c$ adalah logaritma dari $b$ dengan basis $a$."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "a^c = b \\Leftrightarrow {}^a\\log b = c"
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Syarat: $a > 0$, $a \\neq 1$, dan $b > 0$. Keterangan: $a$ = basis, $b$ = numerus, $c$ = hasil logaritma."
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "formula_block", "latex": "2^3 = 8 \\Leftrightarrow {}^2\\log 8 = 3" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-logaritma-b01-s1-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Bentuk logaritma dari $3^4 = 81$ adalah...",
-              "pilihan": ["${}^3\\log 81 = 4$", "${}^4\\log 81 = 3$", "${}^3\\log 4 = 81$", "${}^4\\log 3 = 81$"],
-              "jawaban": 0,
-              "pembahasan": "Jika $3^4 = 81$, maka ${}^3\\log 81 = 4$ (basis 3, numerus 81, hasil 4)."
-            }
+            { "tipe": "paragraph", "text": "Hitung nilai dari ${}^2\\log 8$ dan ${}^3\\log \\dfrac{1}{9}$." },
+            { "tipe": "formula_block", "latex": "{}^2\\log 8 = {}^2\\log 2^3" },
+            { "tipe": "formula_block", "latex": "= 3 \\cdot {}^2\\log 2" },
+            { "tipe": "formula_block", "latex": "= 3 \\cdot 1 = 3" },
+            { "tipe": "formula_block", "latex": "{}^3\\log \\dfrac{1}{9} = {}^3\\log 3^{-2}" },
+            { "tipe": "formula_block", "latex": "= -2 \\cdot {}^3\\log 3" },
+            { "tipe": "formula_block", "latex": "= -2" }
           ]
         },
         {
-          "step": 2,
-          "tipe": "konsep",
-          "judul": "Sifat-Sifat Dasar Logaritma",
+          "tipe": "example",
+          "judul": "Contoh 2: Sifat Perkalian dan Pembagian Logaritma",
           "konten": [
-            {
-              "tipe": "list",
-              "ordered": false,
-              "items": [
-                "${}^a\\log 1 = 0$",
-                "${}^a\\log a = 1$",
-                "${}^a\\log (b \\cdot c) = {}^a\\log b + {}^a\\log c$",
-                "${}^a\\log \\dfrac{b}{c} = {}^a\\log b - {}^a\\log c$",
-                "${}^a\\log b^n = n \\cdot {}^a\\log b$"
-              ]
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "formula_block", "latex": "{}^2\\log 8 = {}^2\\log 2^3 = 3 \\cdot {}^2\\log 2 = 3 \\cdot 1 = 3" },
-                { "tipe": "formula_block", "latex": "{}^3\\log \\dfrac{1}{9} = {}^3\\log 3^{-2} = -2 \\cdot {}^3\\log 3 = -2" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-logaritma-b01-s2-q1",
-              "tipe": "isi_kosong",
-              "pertanyaan": "Berapa nilai dari ${}^5\\log 125$? (tulis angka saja)",
-              "jawaban": "3",
-              "pembahasan": "${}^5\\log 125 = {}^5\\log 5^3 = 3 \\cdot {}^5\\log 5 = 3 \\cdot 1 = 3$"
-            }
+            { "tipe": "paragraph", "text": "Sederhanakan ${}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6$." },
+            { "tipe": "formula_block", "latex": "{}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6" },
+            { "tipe": "formula_block", "latex": "= {}^2\\log \\dfrac{12 \\cdot 4}{6}" },
+            { "tipe": "formula_block", "latex": "= {}^2\\log 8" },
+            { "tipe": "formula_block", "latex": "= {}^2\\log 2^3 = 3" }
           ]
         },
         {
-          "step": 3,
-          "tipe": "konsep",
-          "judul": "Sifat Lanjutan & Perubahan Basis",
+          "tipe": "example",
+          "judul": "Contoh 3: Perubahan Basis",
           "konten": [
-            {
-              "tipe": "list",
-              "ordered": false,
-              "items": [
-                "${}^a\\log b = \\dfrac{{}^c\\log b}{{}^c\\log a}$ (perubahan basis)",
-                "${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$",
-                "$a^{{}^a\\log b} = b$",
-                "${}^a\\log b = \\dfrac{1}{{}^b\\log a}$"
-              ]
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh Perubahan Basis",
-              "konten": [
-                { "tipe": "paragraph", "text": "Hitung ${}^8\\log 32$." },
-                { "tipe": "formula_block", "latex": "{}^8\\log 32 = \\dfrac{{}^2\\log 32}{{}^2\\log 8} = \\dfrac{{}^2\\log 2^5}{{}^2\\log 2^3} = \\dfrac{5}{3}" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-logaritma-b01-s3-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Nilai dari ${}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6$ adalah...",
-              "pilihan": ["2", "3", "4", "5"],
-              "jawaban": 1,
-              "pembahasan": "${}^2\\log 12 + {}^2\\log 4 - {}^2\\log 6 = {}^2\\log \\dfrac{12 \\cdot 4}{6} = {}^2\\log 8 = {}^2\\log 2^3 = 3$"
-            }
+            { "tipe": "paragraph", "text": "Hitung ${}^8\\log 32$ menggunakan rumus perubahan basis." },
+            { "tipe": "formula_block", "latex": "{}^8\\log 32 = \\dfrac{{}^2\\log 32}{{}^2\\log 8}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{{}^2\\log 2^5}{{}^2\\log 2^3}" },
+            { "tipe": "formula_block", "latex": "= \\dfrac{5}{3}" }
           ]
         },
         {
-          "step": 4,
-          "tipe": "konsep",
-          "judul": "Persamaan Logaritma Sederhana",
+          "tipe": "heading",
+          "level": 2,
+          "text": "3. Persamaan Logaritma Sederhana"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Persamaan logaritma dapat diselesaikan dengan menyamakan basis atau menggunakan sifat-sifat logaritma."
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "{}^a\\log f(x) = {}^a\\log g(x) \\Rightarrow f(x) = g(x)"
+        },
+        {
+          "tipe": "example",
+          "judul": "Contoh: Persamaan Logaritma",
           "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Persamaan logaritma dapat diselesaikan dengan menyamakan basis atau menggunakan sifat-sifat logaritma."
-            },
-            {
-              "tipe": "formula_block",
-              "latex": "{}^a\\log f(x) = {}^a\\log g(x) \\Rightarrow f(x) = g(x)"
-            },
-            {
-              "tipe": "example",
-              "judul": "Contoh",
-              "konten": [
-                { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari ${}^2\\log (x+3) = 3$." },
-                { "tipe": "formula_block", "latex": "{}^2\\log (x+3) = 3 \\Rightarrow x + 3 = 2^3 = 8 \\Rightarrow x = 5" }
-              ]
-            }
-          ],
-          "latihan": [
-            {
-              "id": "10-logaritma-b01-s4-q1",
-              "tipe": "isi_kosong",
-              "pertanyaan": "Tentukan nilai $x$ dari ${}^3\\log (x - 1) = 2$. $x = ...$",
-              "jawaban": "10",
-              "pembahasan": "${}^3\\log (x - 1) = 2 \\Rightarrow x - 1 = 3^2 = 9 \\Rightarrow x = 10$"
-            }
+            { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari ${}^2\\log (x+3) = 3$." },
+            { "tipe": "formula_block", "latex": "{}^2\\log (x+3) = 3" },
+            { "tipe": "formula_block", "latex": "x + 3 = 2^3" },
+            { "tipe": "formula_block", "latex": "x + 3 = 8" },
+            { "tipe": "formula_block", "latex": "x = 5" }
           ]
         },
         {
-          "step": 5,
-          "tipe": "ujian_bab",
-          "judul": "Uji Pemahaman Bab 4",
-          "konten": [],
-          "latihan": [
-            {
-              "id": "10-logaritma-b01-s5-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Nilai dari ${}^2\\log 8 + {}^3\\log 9$ adalah...",
-              "pilihan": ["4", "5", "6", "7"],
-              "jawaban": 1,
-              "pembahasan": "${}^2\\log 8 + {}^3\\log 9 = 3 + 2 = 5$"
-            },
-            {
-              "id": "10-logaritma-b01-s5-q2",
-              "tipe": "benar_salah",
-              "pertanyaan": "${}^a\\log 1 = 1$ untuk setiap $a > 0$, $a \\neq 1$.",
-              "jawaban": false,
-              "pembahasan": "Yang benar adalah ${}^a\\log 1 = 0$, karena $a^0 = 1$. Jadi pernyataan **salah**."
-            }
+          "tipe": "heading",
+          "level": 1,
+          "text": "D. Rangkuman"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Eksponen: $a^n = a \\times a \\times \\cdots \\times a$ (sebanyak $n$ faktor)",
+            "Sifat utama: $a^m \\cdot a^n = a^{m+n}$, $\\dfrac{a^m}{a^n} = a^{m-n}$, $(a^m)^n = a^{mn}$",
+            "$a^0 = 1$ dan $a^{-n} = \\dfrac{1}{a^n}$",
+            "Bentuk akar: $\\sqrt[n]{a} = a^{\\frac{1}{n}}$",
+            "Merasionalkan penyebut dengan mengalikan bentuk sekawan",
+            "Logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$",
+            "Sifat logaritma: ${}^a\\log (bc) = {}^a\\log b + {}^a\\log c$, ${}^a\\log \\dfrac{b}{c} = {}^a\\log b - {}^a\\log c$",
+            "${}^a\\log b^n = n \\cdot {}^a\\log b$ dan ${}^a\\log b = \\dfrac{{}^c\\log b}{{}^c\\log a}$"
           ]
         }
       ]
