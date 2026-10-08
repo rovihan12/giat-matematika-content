@@ -1,0 +1,1166 @@
+{
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "emoji": "📊",
+  "warna": "#2196F3",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "10-barisan-bab-01",
+      "nomor": 1,
+      "judul": "Pengertian Barisan dan Deret",
+      "deskripsi": "Konsep dasar barisan bilangan dan deret",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Barisan Itu Apa Sih?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Bayangkan kamu sedang menabung. Hari pertama kamu menabung Rp1.000, hari kedua Rp2.000, hari ketiga Rp3.000, dan seterusnya."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kumpulan angka $1.000, 2.000, 3.000, \\ldots$ inilah yang disebut <b>barisan bilangan</b> — urutan bilangan yang punya pola tertentu!"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Contoh barisan: $2, 4, 6, 8, 10$",
+                "Contoh bukan barisan: $1, 5, 2, 9, 3$ (tidak ada pola)"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Notasi Suku Barisan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Setiap bilangan dalam barisan disebut <b>suku</b>. Suku pertama dilambangkan $U_1$, suku kedua $U_2$, dan seterusnya sampai suku ke-$n$ dilambangkan $U_n$."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "U_1, \\; U_2, \\; U_3, \\; \\ldots, \\; U_n"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Misalnya barisan $3, 6, 9, 12, 15$: $U_1 = 3$, $U_2 = 6$, $U_3 = 9$, $U_4 = 12$, $U_5 = 15$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-01-step-02-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada barisan $5, 10, 15, 20, 25$, berapakah nilai $U_3$?",
+              "pilihan": ["5", "10", "15", "20"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$U_1 = 5$, $U_2 = 10$, $U_3 = 15$.\nJadi $U_3 = 15$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Deret: Jumlah dari Suku-Suku",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Deret</b> adalah jumlah dari suku-suku barisan. Kalau barisan ditulis dengan koma, deret ditulis dengan tanda tambah!"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_n = U_1 + U_2 + U_3 + \\cdots + U_n"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Keterangan: $S_n$ = jumlah $n$ suku pertama."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Barisan</b>: $2, 4, 6, 8, 10$ (dipisah koma)",
+                "<b>Deret</b>: $2 + 4 + 6 + 8 + 10 = 30$ (dijumlahkan)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-01-step-03-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Diketahui barisan $1, 3, 5, 7, 9$. Berapakah $S_4$ (jumlah 4 suku pertama)?",
+              "pilihan": ["9", "16", "20", "25"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$S_4 = U_1 + U_2 + U_3 + U_4$\n$S_4 = 1 + 3 + 5 + 7 = 16$"
+            },
+            {
+              "id": "10-barisan-bab-01-step-03-q02",
+              "tipe": "benar_salah",
+              "pertanyaan": "Deret adalah urutan bilangan yang dipisah koma.",
+              "pilihan": [],
+              "jawaban": false,
+              "pembahasan": "Penyelesaian:\n<b>SALAH</b>. Barisan adalah urutan yang dipisah koma. Deret adalah JUMLAH dari suku-suku barisan (ditulis dengan tanda +)."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 1",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Barisan</b> = urutan bilangan dengan pola tertentu",
+                "<b>Deret</b> = jumlah suku-suku barisan",
+                "Suku dilambangkan $U_n$, jumlah $n$ suku dilambangkan $S_n$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Sekarang kita sudah paham konsep dasarnya. Ayo uji pemahamanmu dengan beberapa soal!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-01-step-04-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang merupakan DERET?",
+              "pilihan": [
+                "$1, 2, 3, 4, 5$",
+                "$1 + 2 + 3 + 4 + 5$",
+                "$(1, 2, 3, 4, 5)$",
+                "$1; 2; 3; 4; 5$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\nDeret ditulis dengan tanda tambah (+), jadi jawabannya $1 + 2 + 3 + 4 + 5$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 1",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jawab semua soal berikut dengan benar untuk menyelesaikan bab ini!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-01-step-05-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua suku berikutnya dari barisan $1, 4, 7, 10, \\ldots$ adalah...",
+              "pilihan": ["11, 12", "13, 14", "13, 16", "14, 17"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\nSetiap suku bertambah $3$.\n$10 + 3 = 13$\n$13 + 3 = 16$\nJadi dua suku berikutnya: $13, 16$."
+            },
+            {
+              "id": "10-barisan-bab-01-step-05-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Diketahui barisan $2, 5, 8, 11, 14$. Nilai $U_4$ adalah...",
+              "pilihan": [],
+              "jawaban": "11",
+              "pembahasan": "Penyelesaian:\n$U_1 = 2$, $U_2 = 5$, $U_3 = 8$, $U_4 = 11$.\nJadi $U_4 = 11$."
+            },
+            {
+              "id": "10-barisan-bab-01-step-05-q03",
+              "tipe": "benar_salah",
+              "pertanyaan": "Barisan $10, 20, 30, 40$ jika dijumlahkan menghasilkan $S_4 = 100$.",
+              "pilihan": [],
+              "jawaban": true,
+              "pembahasan": "Penyelesaian:\n$S_4 = 10 + 20 + 30 + 40 = 100$.\n<b>BENAR</b>."
+            },
+            {
+              "id": "10-barisan-bab-01-step-05-q04",
+              "tipe": "pilihan",
+              "pertanyaan": "Perhatikan barisan $3, 6, 9, 12, 15$. Berapakah $S_5$?",
+              "pilihan": ["30", "40", "45", "50"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$S_5 = 3 + 6 + 9 + 12 + 15 = 45$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-02",
+      "nomor": 2,
+      "judul": "Barisan Aritmatika",
+      "deskripsi": "Barisan dengan beda tetap antar suku",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Kenalan dengan Barisan Aritmatika",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Perhatikan barisan $3, 7, 11, 15, 19, \\ldots$. Ada yang unik: setiap suku bertambah $4$ dari suku sebelumnya!"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Barisan seperti ini disebut <b>barisan aritmatika</b> — selisih antara dua suku berurutan selalu <b>tetap</b>. Selisih ini disebut <b>beda</b> ($b$)."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "b = U_2 - U_1 = U_3 - U_2 = U_n - U_{n-1}"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rumus Suku ke-n",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika suku pertama adalah $a$ dan beda adalah $b$, maka suku ke-$n$ dirumuskan:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "U_n = a + (n - 1) \\cdot b"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Keterangan:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$U_n$ = suku ke-$n$",
+                "$a$ = suku pertama ($U_1$)",
+                "$b$ = beda",
+                "$n$ = nomor suku"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Suku ke-10",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Tentukan suku ke-10 dari barisan $3, 7, 11, 15, \\ldots$"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} U_{10} &= 3 + (10 - 1) \\cdot 4 \\\\ &= 3 + 36 \\\\ &= 39 \\end{aligned}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-02-step-02-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Suku ke-8 dari barisan $2, 5, 8, 11, \\ldots$ adalah...",
+              "pilihan": ["20", "22", "23", "26"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 2$, $b = 3$, $n = 8$.\n$U_8 = 2 + (8-1) \\cdot 3 = 2 + 21 = 23$."
+            },
+            {
+              "id": "10-barisan-bab-02-step-02-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Barisan $5, 8, 11, 14, \\ldots$ memiliki suku ke-15 sebesar... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "47",
+              "pembahasan": "Penyelesaian:\n$a = 5$, $b = 3$.\n$U_{15} = 5 + (15-1) \\cdot 3 = 5 + 42 = 47$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Mencari Beda dari Dua Suku",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau yang diketahui bukan dua suku berurutan, kita bisa pakai rumus ini:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "b = \\dfrac{U_m - U_n}{m - n}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Mencari a dan b",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Diketahui $U_3 = 11$ dan $U_7 = 27$. Tentukan $a$ dan $b$."
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} U_3 &= a + 2b = 11 \\\\ U_7 &= a + 6b = 27 \\end{aligned}"
+                },
+                {
+                  "tipe": "paragraph",
+                  "text": "Kurangkan kedua persamaan: $4b = 16 \\Rightarrow b = 4$."
+                },
+                {
+                  "tipe": "paragraph",
+                  "text": "Substitusi $a + 2(4) = 11 \\Rightarrow a = 3$."
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-02-step-03-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Suku ke-2 suatu barisan aritmatika adalah $7$ dan suku ke-5 adalah $19$. Beda barisan tersebut adalah...",
+              "pilihan": ["3", "4", "5", "6"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$b = \\dfrac{U_5 - U_2}{5 - 2} = \\dfrac{19 - 7}{3} = \\dfrac{12}{3} = 4$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 2",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Barisan aritmatika</b>: beda antar suku selalu tetap",
+                "Rumus suku ke-n: $U_n = a + (n-1)b$",
+                "Beda dari dua suku: $b = U_n - U_{n-1}$",
+                "Jika $b > 0$ → barisan naik",
+                "Jika $b < 0$ → barisan turun"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-02-step-04-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Barisan $20, 17, 14, 11, \\ldots$ memiliki beda...",
+              "pilihan": ["-3", "3", "-2", "2"],
+              "jawaban": 0,
+              "pembahasan": "Penyelesaian:\n$b = U_2 - U_1 = 17 - 20 = -3$.\nBarisan turun karena $b < 0$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 2",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Uji pemahamanmu tentang barisan aritmatika!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-02-step-05-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Suku ke-20 dari barisan $4, 9, 14, 19, \\ldots$ adalah...",
+              "pilihan": ["94", "99", "104", "109"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 4$, $b = 5$.\n$U_{20} = 4 + (20-1) \\cdot 5 = 4 + 95 = 99$."
+            },
+            {
+              "id": "10-barisan-bab-02-step-05-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $U_3 = 13$ dan $U_7 = 33$, maka suku pertama $a$ = ... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "3",
+              "pembahasan": "Penyelesaian:\n$b = \\dfrac{33-13}{7-3} = \\dfrac{20}{4} = 5$.\n$U_3 = a + 2(5) = 13 \\Rightarrow a = 3$."
+            },
+            {
+              "id": "10-barisan-bab-02-step-05-q03",
+              "tipe": "benar_salah",
+              "pertanyaan": "Barisan $5, 5, 5, 5, \\ldots$ adalah barisan aritmatika dengan $b = 0$.",
+              "pilihan": [],
+              "jawaban": true,
+              "pembahasan": "Penyelesaian:\n$b = 5 - 5 = 0$.\nBarisan dengan $b=0$ disebut barisan konstan (tetap). <b>BENAR</b>."
+            },
+            {
+              "id": "10-barisan-bab-02-step-05-q04",
+              "tipe": "pilihan",
+              "pertanyaan": "Kursi bioskop: baris 1 = 12 kursi, baris 2 = 15, baris 3 = 18. Berapa kursi di baris ke-10?",
+              "pilihan": ["36", "39", "42", "45"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 12$, $b = 3$.\n$U_{10} = 12 + (10-1) \\cdot 3 = 12 + 27 = 39$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-03",
+      "nomor": 3,
+      "judul": "Deret Aritmatika",
+      "deskripsi": "Jumlah suku-suku barisan aritmatika",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Dari Barisan ke Deret Aritmatika",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kamu sudah paham barisan aritmatika. Sekarang, bagaimana kalau semua sukunya kita jumlahkan?"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Itulah yang disebut <b>deret aritmatika</b> — jumlah dari suku-suku barisan aritmatika."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_n = U_1 + U_2 + U_3 + \\cdots + U_n"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Dua Rumus Jumlah n Suku",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ada dua rumus yang bisa kita pakai. Pilih yang lebih praktis sesuai soal:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_n = \\dfrac{n}{2}(2a + (n - 1) \\cdot b)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_n = \\dfrac{n}{2}(a + U_n)"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Diketahui $a$ & $b$ → pakai rumus pertama",
+                "Diketahui $a$ & $U_n$ → pakai rumus kedua"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Jumlah 20 Suku",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Hitung $S_{20}$ dari deret $5 + 8 + 11 + \\cdots$"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} S_{20} &= \\dfrac{20}{2}(2 \\cdot 5 + 19 \\cdot 3) \\\\ &= 10(10 + 57) \\\\ &= 670 \\end{aligned}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-03-step-02-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jumlah 10 suku pertama dari deret $2 + 5 + 8 + \\cdots$ adalah...",
+              "pilihan": ["145", "155", "165", "175"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 2$, $b = 3$, $n = 10$.\n$S_{10} = \\dfrac{10}{2}(2 \\cdot 2 + 9 \\cdot 3) = 5(4 + 27) = 5 \\cdot 31 = 155$."
+            },
+            {
+              "id": "10-barisan-bab-03-step-02-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jumlah 15 suku pertama deret $3 + 7 + 11 + \\cdots$ adalah... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "465",
+              "pembahasan": "Penyelesaian:\n$a = 3$, $b = 4$, $n = 15$.\n$S_{15} = \\dfrac{15}{2}(2 \\cdot 3 + 14 \\cdot 4) = 7{,}5(6 + 56) = 7{,}5 \\cdot 62 = 465$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Hubungan Uₙ dan Sₙ",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Suku ke-$n$ bisa dicari dari selisih jumlah suku. Ini penting untuk soal yang tricky!"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "U_n = S_n - S_{n-1}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Jika $S_n = n^2 + 3n$, tentukan $U_5$."
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} S_5 &= 5^2 + 3(5) = 40 \\\\ S_4 &= 4^2 + 3(4) = 28 \\\\ U_5 &= 40 - 28 = 12 \\end{aligned}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-03-step-03-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $S_n = 2n^2 + n$, maka $U_4$ adalah...",
+              "pilihan": ["13", "14", "15", "16"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$S_4 = 2(16) + 4 = 36$\n$S_3 = 2(9) + 3 = 21$\n$U_4 = 36 - 21 = 15$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 3",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Deret aritmatika = jumlah suku barisan aritmatika",
+                "Rumus: $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ atau $S_n = \\dfrac{n}{2}(a + U_n)$",
+                "Hubungan: $U_n = S_n - S_{n-1}$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-03-step-04-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jumlah dari $1 + 2 + 3 + \\cdots + 50$ adalah...",
+              "pilihan": ["1225", "1250", "1275", "1300"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 1$, $b = 1$, $n = 50$.\n$S_{50} = \\dfrac{50}{2}(2 \\cdot 1 + 49 \\cdot 1) = 25 \\cdot 51 = 1275$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 3",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Selamat datang di ujian bab 3! Semangat!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-03-step-05-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jumlah 12 suku pertama deret $4 + 9 + 14 + \\cdots$ adalah...",
+              "pilihan": ["350", "378", "390", "420"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 4$, $b = 5$, $n = 12$.\n$S_{12} = \\dfrac{12}{2}(2 \\cdot 4 + 11 \\cdot 5) = 6(8 + 55) = 6 \\cdot 63 = 378$."
+            },
+            {
+              "id": "10-barisan-bab-03-step-05-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Berapa banyak suku pada deret $3 + 7 + 11 + \\cdots$ yang jumlahnya $210$? (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "10",
+              "pembahasan": "Penyelesaian:\n$\\dfrac{n}{2}(2 \\cdot 3 + (n-1) \\cdot 4) = 210$\n$n(6 + 4n - 4) = 420$\n$4n^2 + 2n - 420 = 0 \\Rightarrow 2n^2 + n - 210 = 0$\n$(2n + 21)(n - 10) = 0$\n$n = 10$ (n positif)."
+            },
+            {
+              "id": "10-barisan-bab-03-step-05-q03",
+              "tipe": "benar_salah",
+              "pertanyaan": "Rumus $U_n = S_n - S_{n-1}$ berlaku untuk semua barisan aritmatika.",
+              "pilihan": [],
+              "jawaban": true,
+              "pembahasan": "Penyelesaian:\n<b>BENAR</b>. Suku ke-n = jumlah n suku - jumlah (n-1) suku."
+            },
+            {
+              "id": "10-barisan-bab-03-step-05-q04",
+              "tipe": "pilihan",
+              "pertanyaan": "Sebuah pabrik produksi 100 unit bulan 1, naik 20 unit/bulan. Total produksi 6 bulan = ...",
+              "pilihan": ["800", "900", "960", "1000"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 100$, $b = 20$, $n = 6$.\n$S_6 = \\dfrac{6}{2}(2 \\cdot 100 + 5 \\cdot 20) = 3(200 + 100) = 3 \\cdot 300 = 900$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-04",
+      "nomor": 4,
+      "judul": "Barisan Geometri",
+      "deskripsi": "Barisan dengan rasio tetap antar suku",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Kenalan dengan Barisan Geometri",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau barisan aritmatika punya <b>beda</b> (dijumlah/dikurang), barisan geometri punya <b>rasio</b> (dikali/dibagi)!"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Perhatikan barisan $2, 6, 18, 54, \\ldots$. Setiap suku dikali $3$ dari suku sebelumnya. Angka $3$ inilah yang disebut <b>rasio</b> ($r$)."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "r = \\dfrac{U_2}{U_1} = \\dfrac{U_3}{U_2} = \\dfrac{U_n}{U_{n-1}}"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rumus Suku ke-n Barisan Geometri",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "U_n = a \\cdot r^{n-1}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Keterangan: $a$ = suku pertama, $r$ = rasio, $n$ = nomor suku."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Suku ke-6",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Tentukan suku ke-6 dari $2, 6, 18, 54, \\ldots$"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} U_6 &= 2 \\cdot 3^{6-1} \\\\ &= 2 \\cdot 243 \\\\ &= 486 \\end{aligned}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-04-step-02-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Suku ke-5 dari barisan $3, 6, 12, 24, \\ldots$ adalah...",
+              "pilihan": ["36", "42", "48", "54"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 3$, $r = 2$.\n$U_5 = 3 \\cdot 2^4 = 3 \\cdot 16 = 48$."
+            },
+            {
+              "id": "10-barisan-bab-04-step-02-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Suku ke-4 dari barisan $5, 15, 45, \\ldots$ adalah... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "135",
+              "pembahasan": "Penyelesaian:\n$a = 5$, $r = 3$.\n$U_4 = 5 \\cdot 3^3 = 5 \\cdot 27 = 135$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Mencari Rasio dari Dua Suku",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "r = \\sqrt[m-n]{\\dfrac{U_m}{U_n}}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Cari Rasio",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Diketahui $U_2 = 6$ dan $U_5 = 162$. Tentukan $r$."
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} \\dfrac{U_5}{U_2} &= r^{5-2} = r^3 \\\\ \\dfrac{162}{6} &= 27 = r^3 \\\\ r &= 3 \\end{aligned}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-04-step-03-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $U_1 = 2$ dan $U_4 = 54$, maka rasio barisan adalah...",
+              "pilihan": ["2", "3", "4", "5"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$\\dfrac{U_4}{U_1} = r^3$\n$\\dfrac{54}{2} = 27 = r^3 \\Rightarrow r = 3$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 4",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Barisan geometri</b>: rasio antar suku selalu tetap",
+                "Rumus suku ke-n: $U_n = a \\cdot r^{n-1}$",
+                "Rasio: $r = \\dfrac{U_n}{U_{n-1}}$",
+                "Jika $r > 1$ → naik, $0 < r < 1$ → turun"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-04-step-04-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Barisan $100, 50, 25, 12{,}5, \\ldots$ memiliki rasio...",
+              "pilihan": ["1/4", "1/3", "1/2", "2"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$r = \\dfrac{U_2}{U_1} = \\dfrac{50}{100} = \\dfrac{1}{2}$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 4",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Uji kemampuan barisan geometrimu!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-04-step-05-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Suku ke-6 dari $1, 2, 4, 8, \\ldots$ adalah...",
+              "pilihan": ["16", "32", "48", "64"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 1$, $r = 2$.\n$U_6 = 1 \\cdot 2^5 = 32$."
+            },
+            {
+              "id": "10-barisan-bab-04-step-05-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $U_3 = 12$ dan $r = 2$, maka suku pertama $a$ = ... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "3",
+              "pembahasan": "Penyelesaian:\n$U_3 = a \\cdot r^2 = 12$\n$a \\cdot 4 = 12 \\Rightarrow a = 3$."
+            },
+            {
+              "id": "10-barisan-bab-04-step-05-q03",
+              "tipe": "benar_salah",
+              "pertanyaan": "Barisan $2, -4, 8, -16$ adalah barisan geometri dengan $r = -2$.",
+              "pilihan": [],
+              "jawaban": true,
+              "pembahasan": "Penyelesaian:\n$r = \\dfrac{-4}{2} = -2$.\nSetiap suku dikali $-2$, tandanya bergantian. <b>BENAR</b>."
+            },
+            {
+              "id": "10-barisan-bab-04-step-05-q04",
+              "tipe": "pilihan",
+              "pertanyaan": "Bakteri membelah diri tiap 20 menit. Awal 5 bakteri. Setelah 1 jam, jumlahnya...",
+              "pilihan": ["40", "60", "80", "100"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n1 jam = 60 menit = 3 kali pembelahan.\n$n = 4$ (awal + 3 pembelahan).\n$U_4 = 5 \\cdot 2^3 = 5 \\cdot 8 = 40$.\n\n⚠️ Koreksi: ralat — karena "jumlah setelah 3 pembelahan" tanpa menghitung awal: $5 \\times 2^3 = 40$, tapi kalau dihitung awal sebagai $n=4$: $U_4 = 5 \\cdot 2^{3} = 40$. Jadi jawaban yang benar: $40$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-05",
+      "nomor": 5,
+      "judul": "Deret Geometri",
+      "deskripsi": "Jumlah suku-suku barisan geometri",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Dari Barisan ke Deret Geometri",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sekarang kita jumlahkan suku-suku barisan geometri. Hasilnya disebut <b>deret geometri</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Yang menarik: kalau rasionya antara $-1$ dan $1$, deret ini bisa punya <b>jumlah sampai tak hingga</b>!"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rumus Jumlah n Suku Pertama",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Rumusnya tergantung nilai rasio $r$:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_n = \\dfrac{a(r^n - 1)}{r - 1}, \\quad \\text{untuk } r > 1"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_n = \\dfrac{a(1 - r^n)}{1 - r}, \\quad \\text{untuk } r < 1"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Jumlah 6 Suku",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Hitung $S_6$ dari $3 + 6 + 12 + \\cdots$"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "\\begin{aligned} S_6 &= \\dfrac{3(2^6 - 1)}{2 - 1} \\\\ &= 3(63) \\\\ &= 189 \\end{aligned}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-05-step-02-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jumlah 5 suku pertama deret $2 + 6 + 18 + \\cdots$ adalah...",
+              "pilihan": ["162", "224", "242", "486"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 2$, $r = 3$, $n = 5$.\n$S_5 = \\dfrac{2(3^5 - 1)}{3 - 1} = \\dfrac{2(243 - 1)}{2} = 242$."
+            },
+            {
+              "id": "10-barisan-bab-05-step-02-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jumlah 4 suku pertama deret $1 + 3 + 9 + \\cdots$ adalah... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "40",
+              "pembahasan": "Penyelesaian:\n$a = 1$, $r = 3$, $n = 4$.\n$S_4 = \\dfrac{1(3^4 - 1)}{3 - 1} = \\dfrac{80}{2} = 40$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Deret Geometri Tak Hingga",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika $|r| < 1$ dan $n \\to \\infty$, maka $r^n \\to 0$, sehingga jumlahnya konvergen ke:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S_\\infty = \\dfrac{a}{1 - r}, \\quad |r| < 1"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Penting:</b> Deret geometri tak hingga hanya konvergen (punya jumlah) jika $|r| < 1$. Kalau $|r| \\geq 1$, deretnya divergen."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Hitung $S_\\infty$ dari $4 + 2 + 1 + \\dfrac{1}{2} + \\cdots$"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "S_\\infty = \\dfrac{4}{1 - \\frac{1}{2}} = \\dfrac{4}{\\frac{1}{2}} = 8"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-05-step-03-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jumlah tak hingga dari $8 + 4 + 2 + 1 + \\cdots$ adalah...",
+              "pilihan": ["12", "14", "16", "18"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 8$, $r = \\dfrac{1}{2}$.\n$S_\\infty = \\dfrac{8}{1 - \\frac{1}{2}} = \\dfrac{8}{\\frac{1}{2}} = 16$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 5",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Deret geometri = jumlah suku barisan geometri",
+                "Rumus: $S_n = \\dfrac{a(r^n - 1)}{r - 1}$ untuk $r > 1$",
+                "Tak hingga: $S_\\infty = \\dfrac{a}{1 - r}$ jika $|r| < 1$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-05-step-04-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Deret tak hingga $9 + 3 + 1 + \\cdots$ punya jumlah...",
+              "pilihan": ["12", "13", "13,5", "27/2"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 9$, $r = \\dfrac{1}{3}$.\n$S_\\infty = \\dfrac{9}{1 - \\frac{1}{3}} = \\dfrac{9}{\\frac{2}{3}} = \\dfrac{27}{2} = 13{,}5$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 5",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir bab geometri. Semangat!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-05-step-05-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Jumlah 6 suku pertama dari $1 + 2 + 4 + 8 + \\cdots$ adalah...",
+              "pilihan": ["31", "63", "127", "255"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$a = 1$, $r = 2$, $n = 6$.\n$S_6 = \\dfrac{1(2^6 - 1)}{2 - 1} = 63$."
+            },
+            {
+              "id": "10-barisan-bab-05-step-05-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jumlah tak hingga dari $12 + 4 + \\dfrac{4}{3} + \\cdots$ adalah... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "18",
+              "pembahasan": "Penyelesaian:\n$a = 12$, $r = \\dfrac{1}{3}$.\n$S_\\infty = \\dfrac{12}{1 - \\frac{1}{3}} = \\dfrac{12}{\\frac{2}{3}} = 18$."
+            },
+            {
+              "id": "10-barisan-bab-05-step-05-q03",
+              "tipe": "benar_salah",
+              "pertanyaan": "Deret geometri dengan $r = 2$ memiliki jumlah tak hingga.",
+              "pilihan": [],
+              "jawaban": false,
+              "pembahasan": "Penyelesaian:\n<b>SALAH</b>. Deret geometri tak hingga hanya konvergen (punya jumlah) kalau $|r| < 1$. Karena $r = 2 > 1$, deretnya divergen."
+            },
+            {
+              "id": "10-barisan-bab-05-step-05-q04",
+              "tipe": "pilihan",
+              "pertanyaan": "Uang Rp1.000.000 ditabung bunga majemuk 10%/tahun. Setelah 3 tahun menjadi...",
+              "pilihan": ["Rp1.200.000", "Rp1.300.000", "Rp1.310.000", "Rp1.331.000"],
+              "jawaban": 3,
+              "pembahasan": "Penyelesaian:\n$a = 1.000.000$, $r = 1{,}1$, $n = 4$ (termasuk awal).\n$U_4 = 1.000.000 \\cdot (1{,}1)^3 = 1.000.000 \\cdot 1{,}331 = 1.331.000$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-barisan-bab-06",
+      "nomor": 6,
+      "judul": "Penerapan Barisan dan Deret",
+      "deskripsi": "Aplikasi dalam kehidupan sehari-hari",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Matematika di Kehidupan Nyata",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Barisan dan deret bukan cuma teori di buku. Banyak fenomena nyata yang mengikuti pola aritmatika atau geometri!"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "💰 <b>Tabungan & bunga bank</b>",
+                "🦠 <b>Pertumbuhan bakteri</b>",
+                "📉 <b>Peluruhan radioaktif</b>",
+                "🎭 <b>Susunan kursi gedung pertunjukan</b>"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Penerapan Aritmatika: Bunga Tunggal",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Bunga tunggal</b> mengikuti barisan aritmatika karena bunga per tahun selalu tetap."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Bu Ani menabung Rp2.000.000 bunga tunggal 5%/tahun. Berapa tabungan setelah 4 tahun?"
+                },
+                {
+                  "tipe": "paragraph",
+                  "text": "Bunga per tahun = $5\\% \\times 2.000.000 = 100.000$."
+                },
+                {
+                  "tipe": "paragraph",
+                  "text": "Barisan: $2.000.000, 2.100.000, 2.200.000, \\ldots$"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "U_5 = 2.000.000 + (5-1) \\cdot 100.000 = 2.400.000"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-06-step-02-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Rp5.000.000 dengan bunga tunggal 3%/tahun. Setelah 5 tahun tabungan menjadi...",
+              "pilihan": ["Rp5.300.000", "Rp5.500.000", "Rp5.750.000", "Rp6.000.000"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\nBunga/tahun = $3\\% \\times 5.000.000 = 150.000$.\n$U_6 = 5.000.000 + 5 \\cdot 150.000 = 5.750.000$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Penerapan Geometri: Pertumbuhan & Peluruhan",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "M_n = M_0(1 + i)^n \\quad \\text{(pertumbuhan)}"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "M_n = M_0(1 - i)^n \\quad \\text{(peluruhan)}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Peluruhan",
+              "konten": [
+                {
+                  "tipe": "paragraph",
+                  "text": "Zat radioaktif 200 gram menyusut 10%/tahun. Massa setelah 3 tahun?"
+                },
+                {
+                  "tipe": "formula_block",
+                  "latex": "M_3 = 200(0{,}9)^3 = 200 \\cdot 0{,}729 = 145{,}8 \\text{ gram}"
+                }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-06-step-03-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Populasi 1.000 jiwa tumbuh 2%/tahun. Setelah 2 tahun populasinya menjadi...",
+              "pilihan": ["1.020", "1.040", "1.040,4", "1.100"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$M_2 = 1000 \\cdot (1{,}02)^2 = 1000 \\cdot 1{,}0404 = 1.040{,}4$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 6",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Bunga tunggal</b> → aritmatika",
+                "<b>Bunga majemuk</b> → geometri",
+                "<b>Pertumbuhan</b>: $M_n = M_0(1+i)^n$",
+                "<b>Peluruhan</b>: $M_n = M_0(1-i)^n$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Tips mengerjakan soal cerita: baca teliti → tentukan aritmatika/geometri → tulis yang diketahui → substitusi → cek jawaban."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-06-step-04-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Baris kursi: baris 1 = 20 kursi, tiap baris berikutnya +4. Jika 15 baris, total kursinya...",
+              "pilihan": ["600", "660", "720", "780"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$a = 20$, $b = 4$, $n = 15$.\n$S_{15} = \\dfrac{15}{2}(2 \\cdot 20 + 14 \\cdot 4) = 7{,}5(40 + 56) = 720$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham penerapan barisan dan deret."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-barisan-bab-06-step-05-q01",
+              "tipe": "pilihan",
+              "pertanyaan": "Tabungan Rp3.000.000 bunga majemuk 5%/tahun. Setelah 2 tahun menjadi...",
+              "pilihan": ["Rp3.150.000", "Rp3.300.000", "Rp3.307.500", "Rp3.450.000"],
+              "jawaban": 2,
+              "pembahasan": "Penyelesaian:\n$M_2 = 3.000.000(1{,}05)^2 = 3.000.000 \\cdot 1{,}1025 = 3.307.500$."
+            },
+            {
+              "id": "10-barisan-bab-06-step-05-q02",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Gedung dengan baris 1 = 10 kursi, +3 tiap baris. Total kursi 12 baris = ... (tulis angka saja)",
+              "pilihan": [],
+              "jawaban": "318",
+              "pembahasan": "Penyelesaian:\n$a = 10$, $b = 3$, $n = 12$.\n$S_{12} = \\dfrac{12}{2}(2 \\cdot 10 + 11 \\cdot 3) = 6(20 + 33) = 6 \\cdot 53 = 318$."
+            },
+            {
+              "id": "10-barisan-bab-06-step-05-q03",
+              "tipe": "benar_salah",
+              "pertanyaan": "Bunga majemuk mengikuti pola barisan aritmatika.",
+              "pilihan": [],
+              "jawaban": false,
+              "pembahasan": "Penyelesaian:\n<b>SALAH</b>. Bunga majemuk mengikuti barisan <b>geometri</b> (dikali tetap). Bunga tunggal yang mengikuti aritmatika."
+            },
+            {
+              "id": "10-barisan-bab-06-step-05-q04",
+              "tipe": "pilihan",
+              "pertanyaan": "Zat radioaktif 500 gram meluruh 20%/tahun. Massa setelah 2 tahun...",
+              "pilihan": ["300 gram", "320 gram", "340 gram", "400 gram"],
+              "jawaban": 1,
+              "pembahasan": "Penyelesaian:\n$M_2 = 500(1 - 0{,}2)^2 = 500(0{,}8)^2 = 500 \\cdot 0{,}64 = 320$ gram."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
