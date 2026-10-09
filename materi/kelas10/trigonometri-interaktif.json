@@ -1,0 +1,1364 @@
+{
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "emoji": "📈",
+  "warna": "#9C27B0",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "10-trig-bab-01",
+      "nomor": 1,
+      "judul": "Pengukuran Sudut (Derajat dan Radian)",
+      "deskripsi": "Konversi satuan sudut dan penerapannya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Sudut?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sudut adalah daerah yang dibentuk oleh dua sinar garis yang bertemu di satu titik (titik sudut). Dalam trigonometri, kita sering mengukur sudut dalam dua satuan: <b>derajat</b> ($^\\circ$) dan <b>radian</b> (rad)."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Bayangkan kamu memutar sebuah jarum jam dari posisi 12 kembali ke 12. Putaran penuh itu besarnya $360^\\circ$ atau $2\\pi$ radian."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/sudut.jpg",
+              "caption": "Ilustrasi putaran: 1/360, 1/4, 1/2, dan 1 putaran penuh",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Satu putaran penuh sama dengan...",
+              "pilihan": ["$90^\\circ$", "$180^\\circ$", "$270^\\circ$", "$360^\\circ$"],
+              "jawaban": 3,
+              "pembahasan": "Satu putaran penuh = <b>360°</b> = $2\\pi$ rad."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Hubungan Derajat dan Radian",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Satu putaran penuh ($360^\\circ$) dapat dibagi menjadi bagian-bagian yang lebih kecil. Setengah putaran = $180^\\circ$, seperempat putaran = $90^\\circ$, dan seterusnya."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "180^\\circ = \\pi \\text{ radian}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dari hubungan ini, kita bisa mengkonversi sudut dari derajat ke radian atau sebaliknya."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Derajat → Radian: $x^\\circ = x \\cdot \\dfrac{\\pi}{180}$ rad",
+                "Radian → Derajat: $x \\text{ rad} = x \\cdot \\dfrac{180^\\circ}{\\pi}$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b01-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Nilai $\\pi$ radian sama dengan ... derajat (tulis angka saja)",
+              "jawaban": "180",
+              "pembahasan": "$\\pi$ rad = $180°$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Sudut-Sudut Istimewa",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sudut-sudut berikut sering muncul dalam soal, jadi sebaiknya dihafal konversinya:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$30^\\circ = \\dfrac{\\pi}{6}$ rad",
+                "$45^\\circ = \\dfrac{\\pi}{4}$ rad",
+                "$60^\\circ = \\dfrac{\\pi}{3}$ rad",
+                "$90^\\circ = \\dfrac{\\pi}{2}$ rad",
+                "$180^\\circ = \\pi$ rad",
+                "$270^\\circ = \\dfrac{3\\pi}{2}$ rad",
+                "$360^\\circ = 2\\pi$ rad"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Ubah $60^\\circ$ ke radian." },
+                { "tipe": "formula_block", "latex": "60^\\circ = 60 \\cdot \\dfrac{\\pi}{180} = \\dfrac{\\pi}{3} \\text{ rad}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b01-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$90^\\circ$ sama dengan...",
+              "pilihan": ["$\\dfrac{\\pi}{6}$ rad", "$\\dfrac{\\pi}{4}$ rad", "$\\dfrac{\\pi}{2}$ rad", "$\\pi$ rad"],
+              "jawaban": 2,
+              "pembahasan": "$90° = 90 \\cdot \\pi/180 = \\pi/2$ rad."
+            },
+            {
+              "id": "10-trig-b01-s3-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\dfrac{\\pi}{4}$ rad sama dengan...",
+              "pilihan": ["$30^\\circ$", "$45^\\circ$", "$60^\\circ$", "$90^\\circ$"],
+              "jawaban": 1,
+              "pembahasan": "$\\pi/4 \\cdot 180/\\pi = 45°$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Latihan Konversi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kunci konversi: dari derajat → radian, kalikan $\\dfrac{\\pi}{180}$. Dari radian → derajat, kalikan $\\dfrac{180^\\circ}{\\pi}$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Ubah $\\dfrac{\\pi}{4}$ rad ke derajat." },
+                { "tipe": "formula_block", "latex": "\\dfrac{\\pi}{4} \\cdot \\dfrac{180^\\circ}{\\pi} = 45^\\circ" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b01-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Ubah $120^\\circ$ ke radian: $\\dfrac{2\\pi}{...}$ (tulis angka yang kosong saja)",
+              "jawaban": "3",
+              "pembahasan": "$120 \\cdot \\pi/180 = 2\\pi/3$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-trig-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\dfrac{\\pi}{6}$ rad = ...",
+              "pilihan": ["$30^\\circ$", "$45^\\circ$", "$60^\\circ$", "$90^\\circ$"],
+              "jawaban": 0,
+              "pembahasan": "$\\pi/6 \\cdot 180/\\pi = 30°$."
+            },
+            {
+              "id": "10-trig-b01-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Ubah $270^\\circ$ ke radian: $\\dfrac{3\\pi}{...}$ (tulis angka yang kosong)",
+              "jawaban": "2",
+              "pembahasan": "$270 \\cdot \\pi/180 = 3\\pi/2$."
+            },
+            {
+              "id": "10-trig-b01-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$360^\\circ$ = $2\\pi$ rad",
+              "jawaban": true,
+              "pembahasan": "$360 \\cdot \\pi/180 = 2\\pi$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-trig-bab-02",
+      "nomor": 2,
+      "judul": "Perbandingan Trigonometri pada Segitiga Siku-Siku",
+      "deskripsi": "Sin, cos, tan dan kebalikannya",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Mengenal Segitiga Siku-Siku",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Segitiga siku-siku adalah segitiga yang salah satu sudutnya $90^\\circ$. Sisi-sisinya memiliki nama khusus:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Sisi miring (mi)</b> — sisi terpanjang, di depan sudut $90^\\circ$",
+                "<b>Sisi depan (de)</b> — sisi di depan sudut $\\theta$",
+                "<b>Sisi samping (sa)</b> — sisi yang berdekatan dengan sudut $\\theta$"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/segitiga-siku-siku.png",
+              "caption": "Segitiga siku-siku dengan sisi miring, depan, dan samping",
+              "width": "medium"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sisi terpanjang pada segitiga siku-siku disebut...",
+              "pilihan": ["Sisi depan", "Sisi samping", "Sisi miring", "Sisi tegak"],
+              "jawaban": 2,
+              "pembahasan": "Sisi terpanjang = <b>sisi miring</b> (hipotenusa)."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Definisi Sin, Cos, Tan",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\sin \\theta = \\dfrac{\\text{de}}{\\text{mi}}"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\cos \\theta = \\dfrac{\\text{sa}}{\\text{mi}}"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\tan \\theta = \\dfrac{\\text{de}}{\\text{sa}}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Cara mudah mengingat:</b> gunakan jembatan keledai <b>Sindemi, Cosami, Tandesa</b> — Sin = Depan/Miring, Cos = Samping/Miring, Tan = Depan/Samping."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b02-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\sin\\theta$ sama dengan perbandingan...",
+              "pilihan": ["Depan/Miring", "Samping/Miring", "Depan/Samping", "Miring/Depan"],
+              "jawaban": 0,
+              "pembahasan": "$\\sin\\theta = \\text{depan} / \\text{miring}$."
+            },
+            {
+              "id": "10-trig-b02-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\tan\\theta$ sama dengan perbandingan...",
+              "pilihan": ["Depan/Miring", "Samping/Miring", "Depan/Samping", "Miring/Samping"],
+              "jawaban": 2,
+              "pembahasan": "$\\tan\\theta = \\text{depan} / \\text{samping}$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Kebalikan dari Sin, Cos, Tan",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\csc \\theta = \\dfrac{1}{\\sin \\theta} = \\dfrac{\\text{mi}}{\\text{de}}$ (cosecan)",
+                "$\\sec \\theta = \\dfrac{1}{\\cos \\theta} = \\dfrac{\\text{mi}}{\\text{sa}}$ (secan)",
+                "$\\cot \\theta = \\dfrac{1}{\\tan \\theta} = \\dfrac{\\text{sa}}{\\text{de}}$ (cotangen)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\csc\\theta$ adalah kebalikan dari...",
+              "pilihan": ["$\\sin\\theta$", "$\\cos\\theta$", "$\\tan\\theta$", "$\\sec\\theta$"],
+              "jawaban": 0,
+              "pembahasan": "$\\csc\\theta = 1/\\sin\\theta$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Nilai Sudut Istimewa",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sudut $30^\\circ$, $45^\\circ$, dan $60^\\circ$ disebut sudut istimewa karena nilainya bisa dihitung tanpa kalkulator."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/tabel-sudut-istimewa.jpg",
+              "caption": "Tabel nilai sin, cos, dan tan untuk sudut istimewa",
+              "width": "full"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\sin 30^\\circ = \\dfrac{1}{2}$, $\\cos 30^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\tan 30^\\circ = \\dfrac{\\sqrt{3}}{3}$",
+                "$\\sin 45^\\circ = \\dfrac{\\sqrt{2}}{2}$, $\\cos 45^\\circ = \\dfrac{\\sqrt{2}}{2}$, $\\tan 45^\\circ = 1$",
+                "$\\sin 60^\\circ = \\dfrac{\\sqrt{3}}{2}$, $\\cos 60^\\circ = \\dfrac{1}{2}$, $\\tan 60^\\circ = \\sqrt{3}$",
+                "$\\sin 90^\\circ = 1$, $\\cos 90^\\circ = 0$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b02-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\sin 30^\\circ$ = .../2 (tulis angka pembilang saja)",
+              "jawaban": "1",
+              "pembahasan": "$\\sin 30° = 1/2$."
+            },
+            {
+              "id": "10-trig-b02-s4-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\tan 45^\\circ$ = ...",
+              "pilihan": ["0", "1", "$\\sqrt{3}$", "$\\dfrac{\\sqrt{3}}{3}$"],
+              "jawaban": 1,
+              "pembahasan": "$\\tan 45° = 1$."
+            },
+            {
+              "id": "10-trig-b02-s4-q3",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\cos 60^\\circ$ = ...",
+              "pilihan": ["0", "$\\dfrac{1}{2}$", "$\\dfrac{\\sqrt{3}}{2}$", "1"],
+              "jawaban": 1,
+              "pembahasan": "$\\cos 60° = 1/2$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Mencari Sisi dengan Trigonometri",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Mencari Sisi Depan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Segitiga siku-siku dengan sudut $30^\\circ$ dan sisi miring $10$ cm. Berapa sisi depannya?" },
+                { "tipe": "formula_block", "latex": "\\sin 30^\\circ = \\dfrac{\\text{de}}{10} \\Rightarrow \\text{de} = 10 \\cdot \\dfrac{1}{2} = 5 \\text{ cm}" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Soal Cerita Tinggi Pohon",
+              "konten": [
+                { "tipe": "paragraph", "text": "Siswa berdiri 12 m dari pohon, sudut elevasi ke puncak = $60^\\circ$. Berapa tinggi pohon?" },
+                { "tipe": "image", "src": "images/kelas10/trigonometri/soal-cerita-tinggi-pohon.png", "caption": "Ilustrasi: siswa 12 m dari pohon, sudut elevasi 60°", "width": "full" },
+                { "tipe": "formula_block", "latex": "\\tan 60^\\circ = \\dfrac{t}{12} \\Rightarrow t = 12\\sqrt{3} \\approx 20{,}78 \\text{ m}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b02-s5-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Segitiga siku-siku dengan sisi miring 8 dan sudut $30^\\circ$. Panjang sisi depan = ... (tulis angka saja)",
+              "jawaban": "4",
+              "pembahasan": "$\\text{de} = 8 \\cdot \\sin 30° = 8 \\cdot 0{,}5 = 4$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-trig-b02-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\cos\\theta$ sama dengan perbandingan...",
+              "pilihan": ["Depan/Miring", "Samping/Miring", "Depan/Samping", "Miring/Depan"],
+              "jawaban": 1,
+              "pembahasan": "$\\cos\\theta = \\text{samping} / \\text{miring}$."
+            },
+            {
+              "id": "10-trig-b02-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\cos 60^\\circ$ = .../2 (tulis pembilang saja)",
+              "jawaban": "1",
+              "pembahasan": "$\\cos 60° = 1/2$."
+            },
+            {
+              "id": "10-trig-b02-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$\\sin 45^\\circ = \\cos 45^\\circ$.",
+              "jawaban": true,
+              "pembahasan": "$\\sin 45° = \\cos 45° = \\sqrt{2}/2$. <b>BENAR</b>."
+            },
+            {
+              "id": "10-trig-b02-s6-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\tan 60^\\circ$ = ...",
+              "pilihan": ["1", "$\\dfrac{1}{2}$", "$\\sqrt{3}$", "$\\dfrac{\\sqrt{3}}{3}$"],
+              "jawaban": 2,
+              "pembahasan": "$\\tan 60° = \\sqrt{3}$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-trig-bab-03",
+      "nomor": 3,
+      "judul": "Sudut di Berbagai Kuadran",
+      "deskripsi": "Tanda dan nilai trigonometri di 4 kuadran",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Lingkaran Satuan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk memahami sudut yang lebih besar dari $90^\\circ$, kita gunakan <b>lingkaran satuan</b> — lingkaran berjari-jari 1 yang berpusat di titik asal $(0,0)$."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/lingkaran-satuan.png",
+              "caption": "Lingkaran satuan berjari-jari 1: titik P(cos θ, sin θ)",
+              "width": "medium"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Jika sudut $\\theta$ diukur dari sumbu X positif berlawanan arah jarum jam, maka titik P pada lingkaran memiliki koordinat $(\\cos\\theta, \\sin\\theta)$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada lingkaran satuan, koordinat titik P adalah...",
+              "pilihan": ["$(\\sin\\theta, \\cos\\theta)$", "$(\\cos\\theta, \\sin\\theta)$", "$(\\tan\\theta, \\sin\\theta)$", "$(1, 1)$"],
+              "jawaban": 1,
+              "pembahasan": "Titik P = $(\\cos\\theta, \\sin\\theta)$ — X untuk cos, Y untuk sin."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Empat Kuadran",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Bidang kartesius dibagi menjadi 4 kuadran oleh sumbu X dan sumbu Y:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Kuadran I</b> ($0^\\circ - 90^\\circ$): semua positif (ALL)",
+                "<b>Kuadran II</b> ($90^\\circ - 180^\\circ$): hanya sin yang positif (SIN)",
+                "<b>Kuadran III</b> ($180^\\circ - 270^\\circ$): hanya tan yang positif (TAN)",
+                "<b>Kuadran IV</b> ($270^\\circ - 360^\\circ$): hanya cos yang positif (COS)"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/kuadran-tanda.png",
+              "caption": "Diagram tanda trigonometri di empat kuadran — konsep All-Sin-Tan-Cos",
+              "width": "full"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Cara mudah mengingat:</b> gunakan urutan <b>All-Sin-Tan-Cos</b> (dibaca \"All Students Take Calculus\") mulai dari kuadran I berlawanan arah jarum jam."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Di kuadran II, fungsi trigonometri yang positif adalah...",
+              "pilihan": ["Sin", "Cos", "Tan", "Semua"],
+              "jawaban": 0,
+              "pembahasan": "Kuadran II: hanya <b>sin</b> yang positif."
+            },
+            {
+              "id": "10-trig-b03-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Di kuadran III, fungsi trigonometri yang positif adalah...",
+              "pilihan": ["Sin", "Cos", "Tan", "Semua"],
+              "jawaban": 2,
+              "pembahasan": "Kuadran III: hanya <b>tan</b> yang positif."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Sudut Berelasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sudut di kuadran lain dapat dinyatakan dalam sudut di kuadran I menggunakan rumus sudut berelasi:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\sin(180^\\circ - \\theta) = \\sin \\theta$",
+                "$\\cos(180^\\circ - \\theta) = -\\cos \\theta$",
+                "$\\sin(180^\\circ + \\theta) = -\\sin \\theta$",
+                "$\\cos(180^\\circ + \\theta) = -\\cos \\theta$",
+                "$\\sin(360^\\circ - \\theta) = -\\sin \\theta$",
+                "$\\cos(360^\\circ - \\theta) = \\cos \\theta$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Kuadran II",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\sin 150^\\circ$." },
+                { "tipe": "paragraph", "text": "$150^\\circ = 180^\\circ - 30^\\circ$." },
+                { "tipe": "formula_block", "latex": "\\sin 150^\\circ = \\sin 30^\\circ = \\dfrac{1}{2}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b03-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\sin 120^\\circ$ = ...",
+              "pilihan": ["$\\dfrac{1}{2}$", "$\\dfrac{\\sqrt{3}}{2}$", "$-\\dfrac{1}{2}$", "$-\\dfrac{\\sqrt{3}}{2}$"],
+              "jawaban": 1,
+              "pembahasan": "$\\sin 120° = \\sin(180°-60°) = \\sin 60° = \\sqrt{3}/2$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Kuadran III dan IV",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Kuadran III",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\cos 210^\\circ$." },
+                { "tipe": "paragraph", "text": "$210^\\circ = 180^\\circ + 30^\\circ$." },
+                { "tipe": "formula_block", "latex": "\\cos 210^\\circ = -\\cos 30^\\circ = -\\dfrac{\\sqrt{3}}{2}" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Kuadran IV",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\tan 330^\\circ$." },
+                { "tipe": "paragraph", "text": "$330^\\circ = 360^\\circ - 30^\\circ$." },
+                { "tipe": "formula_block", "latex": "\\tan 330^\\circ = -\\tan 30^\\circ = -\\dfrac{\\sqrt{3}}{3}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b03-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\cos 240^\\circ$ = ...",
+              "pilihan": ["$\\dfrac{1}{2}$", "$-\\dfrac{1}{2}$", "$\\dfrac{\\sqrt{3}}{2}$", "$-\\dfrac{\\sqrt{3}}{2}$"],
+              "jawaban": 1,
+              "pembahasan": "$\\cos 240° = \\cos(180°+60°) = -\\cos 60° = -1/2$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-trig-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Urutan tanda positif dari kuadran I ke IV adalah...",
+              "pilihan": ["All-Sin-Tan-Cos", "Sin-Cos-Tan-All", "Tan-Cos-Sin-All", "All-Cos-Tan-Sin"],
+              "jawaban": 0,
+              "pembahasan": "Urutan = <b>All-Sin-Tan-Cos</b>."
+            },
+            {
+              "id": "10-trig-b03-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\sin 225^\\circ$ = ...",
+              "pilihan": ["$\\dfrac{\\sqrt{2}}{2}$", "$-\\dfrac{\\sqrt{2}}{2}$", "$\\dfrac{1}{2}$", "$-\\dfrac{1}{2}$"],
+              "jawaban": 1,
+              "pembahasan": "$\\sin 225° = \\sin(180°+45°) = -\\sin 45° = -\\sqrt{2}/2$."
+            },
+            {
+              "id": "10-trig-b03-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Di kuadran I, semua fungsi trigonometri bernilai positif.",
+              "jawaban": true,
+              "pembahasan": "Kuadran I = ALL positif. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-trig-bab-04",
+      "nomor": 4,
+      "judul": "Identitas Trigonometri Dasar",
+      "deskripsi": "Rumus identitas yang wajib dihafal",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Identitas Trigonometri?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Identitas trigonometri adalah persamaan yang selalu benar untuk semua nilai sudut. Identitas ini sangat berguna untuk menyederhanakan ekspresi trigonometri."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Identitas trigonometri adalah persamaan yang...",
+              "pilihan": [
+                "Benar hanya untuk sudut tertentu",
+                "Selalu benar untuk semua sudut",
+                "Selalu salah",
+                "Tidak bisa dihitung"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Identitas = <b>selalu benar</b> untuk semua nilai sudut."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Identitas Pythagoras",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\sin^2 \\theta + \\cos^2 \\theta = 1"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/identitas-trigonometri.png",
+              "caption": "Visualisasi identitas Pythagoras pada lingkaran satuan",
+              "width": "full"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh pada gambar: jika $\\cos\\theta = 0{,}6$ dan $\\sin\\theta = 0{,}8$, maka $0{,}6^2 + 0{,}8^2 = 0{,}36 + 0{,}64 = 1$ ✓"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dari identitas ini, kita dapat menurunkan dua identitas lainnya:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "1 + \\tan^2 \\theta = \\sec^2 \\theta"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "1 + \\cot^2 \\theta = \\csc^2 \\theta"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b04-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $\\cos\\theta = 0{,}6$, maka $\\sin^2\\theta$ = ... (tulis dalam desimal)",
+              "jawaban": "0,64",
+              "pembahasan": "$\\sin^2\\theta = 1 - \\cos^2\\theta = 1 - 0{,}36 = 0{,}64$."
+            },
+            {
+              "id": "10-trig-b04-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\sin^2\\theta + \\cos^2\\theta$ = ...",
+              "pilihan": ["0", "1", "2", "$\\sin\\theta$"],
+              "jawaban": 1,
+              "pembahasan": "Identitas Pythagoras = <b>1</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Identitas Kebalikan & Hasil Bagi",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Identitas Kebalikan"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\csc \\theta = \\dfrac{1}{\\sin \\theta}$",
+                "$\\sec \\theta = \\dfrac{1}{\\cos \\theta}$",
+                "$\\cot \\theta = \\dfrac{1}{\\tan \\theta} = \\dfrac{\\cos \\theta}{\\sin \\theta}$"
+              ]
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Identitas Hasil Bagi"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\tan \\theta = \\dfrac{\\sin \\theta}{\\cos \\theta}$",
+                "$\\cot \\theta = \\dfrac{\\cos \\theta}{\\sin \\theta}$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b04-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\tan\\theta$ sama dengan...",
+              "pilihan": ["$\\dfrac{\\cos\\theta}{\\sin\\theta}$", "$\\dfrac{\\sin\\theta}{\\cos\\theta}$", "$\\sin\\theta \\cdot \\cos\\theta$", "$\\sin\\theta + \\cos\\theta$"],
+              "jawaban": 1,
+              "pembahasan": "$\\tan\\theta = \\sin\\theta / \\cos\\theta$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Menyederhanakan",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Menyederhanakan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Sederhanakan $\\sin^2\\theta + \\sin^2\\theta \\cdot \\cot^2\\theta$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} &\\sin^2\\theta(1 + \\cot^2\\theta) \\\\ &= \\sin^2\\theta \\cdot \\csc^2\\theta \\\\ &= \\sin^2\\theta \\cdot \\dfrac{1}{\\sin^2\\theta} \\\\ &= 1 \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b04-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\sin\\theta \\cdot \\csc\\theta$ = ...",
+              "pilihan": ["0", "1", "$\\sin\\theta$", "$\\csc\\theta$"],
+              "jawaban": 1,
+              "pembahasan": "$\\sin\\theta \\cdot \\csc\\theta = \\sin\\theta \\cdot 1/\\sin\\theta = 1$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-trig-b04-s5-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $\\sin\\theta = 0{,}8$, maka $\\cos^2\\theta$ = ... (tulis dalam desimal)",
+              "jawaban": "0,36",
+              "pembahasan": "$\\cos^2\\theta = 1 - \\sin^2\\theta = 1 - 0{,}64 = 0{,}36$."
+            },
+            {
+              "id": "10-trig-b04-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Identitas $1 + \\tan^2\\theta$ = ...",
+              "pilihan": ["$\\sin^2\\theta$", "$\\cos^2\\theta$", "$\\sec^2\\theta$", "$\\csc^2\\theta$"],
+              "jawaban": 2,
+              "pembahasan": "$1 + \\tan^2\\theta = \\sec^2\\theta$."
+            },
+            {
+              "id": "10-trig-b04-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$\\sec\\theta = 1/\\cos\\theta$",
+              "jawaban": true,
+              "pembahasan": "Ya, secan = kebalikan cos. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-trig-bab-05",
+      "nomor": 5,
+      "judul": "Grafik Fungsi Trigonometri",
+      "deskripsi": "Bentuk grafik sin, cos, dan tan",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Grafik y = sin x dan y = cos x",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Grafik $y = \\sin x$ dan $y = \\cos x$ berbentuk <b>gelombang sinus</b> dengan ciri:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Amplitudo</b> = 1 (jarak dari sumbu X ke puncak)",
+                "<b>Periode</b> = $360^\\circ$ atau $2\\pi$ rad (satu gelombang penuh)",
+                "Nilai maksimum = 1, nilai minimum = $-1$"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/grafik-sin-cos.png",
+              "caption": "Grafik y = sin x (biru) dan y = cos x (oranye)",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b05-s1-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Amplitudo grafik $y = \\sin x$ = ... (tulis angka saja)",
+              "jawaban": "1",
+              "pembahasan": "Amplitudo $y = \\sin x$ = 1."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Perbedaan Sin dan Cos",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$y = \\sin x$ mulai dari $(0, 0)$ — naik dulu lalu turun",
+                "$y = \\cos x$ mulai dari $(0, 1)$ — turun dulu lalu naik",
+                "Grafik $\\cos x$ = grafik $\\sin x$ yang digeser $90^\\circ$ ke kiri"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Pada $x = 0^\\circ$: $\\sin 0^\\circ = 0$ (mulai dari titik asal), sedangkan $\\cos 0^\\circ = 1$ (mulai dari puncak)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b05-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada $x = 0$, grafik $y = \\cos x$ mulai dari...",
+              "pilihan": ["$(0, 0)$", "$(0, 1)$", "$(0, -1)$", "$(1, 0)$"],
+              "jawaban": 1,
+              "pembahasan": "$\\cos 0° = 1$, jadi mulai dari $(0, 1)$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Grafik y = tan x",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Grafik $y = \\tan x$ berbeda dengan sin dan cos. Ia memiliki <b>asimtot vertikal</b> pada $x = 90^\\circ, 270^\\circ, \\ldots$ karena $\\tan 90^\\circ$ tidak terdefinisi."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Periode = $180^\\circ$ atau $\\pi$ rad (setengah dari sin/cos)",
+                "Tidak memiliki amplitudo (nilai bisa sangat besar)",
+                "Ada asimtot di $x = 90^\\circ + k \\cdot 180^\\circ$"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/grafik-tan.png",
+              "caption": "Grafik y = tan x dengan asimtot vertikal",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b05-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Periode grafik $y = \\tan x$ = ... derajat (tulis angka saja)",
+              "jawaban": "180",
+              "pembahasan": "Periode tan = 180° (setengah dari sin/cos)."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Fungsi Trigonometri Umum",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Bentuk umum fungsi trigonometri:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "y = A \\sin(Bx + C) + D"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$|A|$ = amplitudo",
+                "Periode = $\\dfrac{360^\\circ}{B}$ atau $\\dfrac{2\\pi}{B}$",
+                "$-\\dfrac{C}{B}$ = pergeseran fase (geser horizontal)",
+                "$D$ = pergeseran vertikal"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan amplitudo dan periode dari $y = 3\\sin(2x)$." },
+                { "tipe": "paragraph", "text": "Amplitudo = $|3| = 3$." },
+                { "tipe": "paragraph", "text": "Periode = $\\dfrac{360^\\circ}{2} = 180^\\circ$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b05-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$y = 4\\sin(x)$. Amplitudo = ... (tulis angka saja)",
+              "jawaban": "4",
+              "pembahasan": "Amplitudo = $|A| = 4$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-trig-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Periode $y = \\sin x$ adalah...",
+              "pilihan": ["$90^\\circ$", "$180^\\circ$", "$270^\\circ$", "$360^\\circ$"],
+              "jawaban": 3,
+              "pembahasan": "Periode $\\sin x$ = 360° = $2\\pi$ rad."
+            },
+            {
+              "id": "10-trig-b05-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$y = 2\\sin(3x)$. Periode = ... derajat (tulis angka saja)",
+              "jawaban": "120",
+              "pembahasan": "Periode = $360/3 = 120°$."
+            },
+            {
+              "id": "10-trig-b05-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Grafik $y = \\tan x$ memiliki asimtot vertikal.",
+              "jawaban": true,
+              "pembahasan": "Benar — tan tidak terdefinisi di $90° + k \\cdot 180°$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-trig-bab-06",
+      "nomor": 6,
+      "judul": "Aturan Sinus dan Cosinus",
+      "deskripsi": "Menyelesaikan segitiga sembarang",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Segitiga Sembarang",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk segitiga siku-siku, kita pakai sin, cos, tan. Tapi bagaimana kalau segitiganya <b>sembarang</b> (tidak siku-siku)? Kita gunakan <b>aturan sinus</b> dan <b>aturan cosinus</b>."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/trigonometri/segitiga-aturan-sinus.png",
+              "caption": "Segitiga sembarang ABC dengan sisi a, b, c",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b06-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Untuk segitiga SEMBARANG, kita pakai...",
+              "pilihan": ["Hanya sin, cos, tan", "Aturan sinus & cosinus", "Pythagoras", "Tidak bisa dihitung"],
+              "jawaban": 1,
+              "pembahasan": "Segitiga sembarang → <b>aturan sinus dan cosinus</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Aturan Sinus",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Kapan pakai aturan sinus?</b> Jika diketahui:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Dua sudut dan satu sisi (A-A-S atau A-S-A)",
+                "Dua sisi dan satu sudut di depan salah satunya (S-S-A)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b06-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Aturan sinus dipakai jika diketahui...",
+              "pilihan": [
+                "3 sisi",
+                "2 sisi dan 1 sudut apit",
+                "2 sudut dan 1 sisi",
+                "Tidak ada"
+              ],
+              "jawaban": 2,
+              "pembahasan": "Aturan sinus: cocok untuk kasus <b>2 sudut + 1 sisi</b> (A-A-S)."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Aturan Cosinus",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "a^2 = b^2 + c^2 - 2bc \\cdot \\cos A"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "b^2 = a^2 + c^2 - 2ac \\cdot \\cos B"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "c^2 = a^2 + b^2 - 2ab \\cdot \\cos C"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Kapan pakai aturan cosinus?</b> Jika diketahui:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Tiga sisi (S-S-S)",
+                "Dua sisi dan sudut yang diapit (S-A-S)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b06-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Aturan cosinus dipakai jika diketahui...",
+              "pilihan": [
+                "2 sudut + 1 sisi",
+                "3 sisi",
+                "1 sisi + 2 sudut",
+                "Tidak ada"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Aturan cosinus: cocok untuk <b>3 sisi</b> (S-S-S) atau 2 sisi + sudut apit."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Aturan Sinus",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Aturan Sinus",
+              "konten": [
+                { "tipe": "paragraph", "text": "Segitiga ABC: $A = 30^\\circ$, $B = 45^\\circ$, sisi $a = 10$ cm. Tentukan sisi $b$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} \\dfrac{a}{\\sin A} &= \\dfrac{b}{\\sin B} \\\\ \\dfrac{10}{\\sin 30^\\circ} &= \\dfrac{b}{\\sin 45^\\circ} \\\\ b &= \\dfrac{10 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}} = 10\\sqrt{2} \\text{ cm} \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b06-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $a/\\sin A = 20$ dan $\\sin B = 1/2$, maka sisi $b$ = ... (tulis angka saja)",
+              "jawaban": "10",
+              "pembahasan": "$b = 20 \\cdot \\sin B = 20 \\cdot 0{,}5 = 10$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Contoh Aturan Cosinus",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Aturan Cosinus",
+              "konten": [
+                { "tipe": "paragraph", "text": "Segitiga dengan $b = 5$, $c = 8$, $A = 60^\\circ$. Tentukan $a$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} a^2 &= 5^2 + 8^2 - 2 \\cdot 5 \\cdot 8 \\cdot \\cos 60^\\circ \\\\ &= 25 + 64 - 80 \\cdot \\dfrac{1}{2} \\\\ &= 89 - 40 \\\\ &= 49 \\end{aligned}" },
+                { "tipe": "formula_block", "latex": "a = 7" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b06-s5-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $a^2 = 36$, maka sisi $a$ = ... (tulis angka saja)",
+              "jawaban": "6",
+              "pembahasan": "$a = \\sqrt{36} = 6$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 6",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-trig-b06-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Untuk segitiga dengan 3 sisi diketahui, kita pakai...",
+              "pilihan": ["Aturan sinus", "Aturan cosinus", "Pythagoras", "Tidak bisa"],
+              "jawaban": 1,
+              "pembahasan": "3 sisi (S-S-S) → pakai <b>aturan cosinus</b>."
+            },
+            {
+              "id": "10-trig-b06-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Aturan cosinus: $a^2 = b^2 + c^2 - 2bc \\cdot \\cos ...$ (tulis huruf sudut yang tepat)",
+              "jawaban": "A",
+              "pembahasan": "Sudut A menghadap sisi a: $a^2 = b^2 + c^2 - 2bc\\cos A$."
+            },
+            {
+              "id": "10-trig-b06-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Aturan sinus: $a/\\sin A = b/\\sin B = c/\\sin C$.",
+              "jawaban": true,
+              "pembahasan": "Benar — itu rumus aturan sinus. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-trig-bab-07",
+      "nomor": 7,
+      "judul": "Penerapan Trigonometri dalam Kehidupan",
+      "deskripsi": "Aplikasi nyata trigonometri",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Trigonometri di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Trigonometri bukan hanya teori — banyak profesi menggunakannya sehari-hari: arsitek, insinyur, pilot, surveyor, bahkan pembuat game dan animasi."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🏢 <b>Mengukur tinggi gedung</b> — dari jarak dan sudut elevasi",
+                "✈️ <b>Navigasi pesawat</b> — arah, jarak, ketinggian",
+                "🎵 <b>Gelombang suara & radio</b> — dimodelkan dengan sinus/cosinus",
+                "🎮 <b>Grafik komputer & game</b> — rotasi karakter, animasi"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Mengukur Tinggi Objek",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dengan mengukur jarak dari objek dan sudut elevasi, kita bisa menghitung tinggi objek menggunakan $\\tan \\theta$."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{tinggi} = \\text{jarak} \\cdot \\tan \\theta"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Tinggi Menara",
+              "konten": [
+                { "tipe": "paragraph", "text": "Surveyor 50 m dari kaki menara, sudut elevasi $45^\\circ$. Tinggi menara?" },
+                { "tipe": "image", "src": "images/kelas10/trigonometri/soal-cerita-tinggi-menara.png", "caption": "Ilustrasi: surveyor 50 m dari menara, sudut elevasi 45°", "width": "full" },
+                { "tipe": "formula_block", "latex": "\\tan 45^\\circ = \\dfrac{t}{50} \\Rightarrow t = 50 \\cdot 1 = 50 \\text{ m}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b07-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika jarak = 20 m dan sudut elevasi $45^\\circ$, tinggi objek = ... m (tulis angka saja)",
+              "jawaban": "20",
+              "pembahasan": "$t = 20 \\cdot \\tan 45° = 20 \\cdot 1 = 20$ m."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Sudut Depresi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Sudut depresi</b> adalah sudut dari horizontal ke bawah saat kita melihat objek yang lebih rendah. Kebalikan dari sudut elevasi."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Jarak Perahu dari Tebing",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dari puncak tebing 80 m, sudut depresi ke perahu $30^\\circ$. Berapa jarak perahu dari kaki tebing?" },
+                { "tipe": "formula_block", "latex": "\\tan 30^\\circ = \\dfrac{80}{d} \\Rightarrow d = \\dfrac{80}{\\tan 30^\\circ} = 80\\sqrt{3} \\approx 138{,}6 \\text{ m}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b07-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sudut depresi adalah sudut yang diukur dari...",
+              "pilihan": [
+                "Horizontal ke atas",
+                "Horizontal ke bawah",
+                "Vertikal ke atas",
+                "Vertikal ke bawah"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Sudut depresi = dari garis horizontal ke <b>bawah</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Tips Menghadapi Soal Cerita",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "<b>Gambar sketsa</b> — bantu visualisasi situasi",
+                "<b>Tandai yang diketahui</b> — sudut, sisi, atau jarak",
+                "<b>Tentukan yang dicari</b> — tinggi? jarak? sudut?",
+                "<b>Pilih rumus yang tepat</b> — sin, cos, tan, atau aturan sinus/cosinus",
+                "<b>Hitung dengan teliti</b> — jangan lupa satuan"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b07-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Langkah pertama menghadapi soal cerita trigonometri adalah...",
+              "pilihan": [
+                "Langsung hitung",
+                "Gambar sketsa",
+                "Hafal rumus",
+                "Cari di internet"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Langkah pertama = <b>gambar sketsa</b> untuk visualisasi."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 7",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham penerapan trigonometri."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-trig-b07-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bidang yang BUKAN aplikasi trigonometri adalah...",
+              "pilihan": ["Arsitektur", "Navigasi pesawat", "Grafik komputer", "Menulis novel"],
+              "jawaban": 3,
+              "pembahasan": "Menulis novel tidak pakai trigonometri. Tiga lainnya jelas pakai."
+            },
+            {
+              "id": "10-trig-b07-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Surveyor 30 m dari tiang bendera, sudut elevasi $45^\\circ$. Tinggi tiang = ... m (tulis angka saja)",
+              "jawaban": "30",
+              "pembahasan": "$t = 30 \\cdot \\tan 45° = 30$ m."
+            },
+            {
+              "id": "10-trig-b07-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Trigonometri hanya dipakai di pelajaran matematika, tidak di dunia nyata.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Trigonometri dipakai luas: arsitektur, navigasi, gelombang, grafika, dll."
+            },
+            {
+              "id": "10-trig-b07-s5-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Gelombang suara dan radio dimodelkan dengan fungsi...",
+              "pilihan": ["Linear", "Kuadrat", "Sinus/Cosinus", "Eksponen"],
+              "jawaban": 2,
+              "pembahasan": "Gelombang = fungsi <b>sinus/cosinus</b>."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
