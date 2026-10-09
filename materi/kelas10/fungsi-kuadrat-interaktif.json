@@ -1,0 +1,256 @@
+{
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "emoji": "📊",
+  "warna": "#5B8DEF",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "10-fk-bab-01",
+      "nomor": 1,
+      "judul": "Pengertian Fungsi Kuadrat",
+      "deskripsi": "Definisi, bentuk umum, dan contoh fungsi kuadrat",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Selamat Datang di Fungsi Kuadrat! 🎯",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Hai! Di bab ini kita akan belajar tentang **fungsi kuadrat** — salah satu konsep paling penting di matematika SMA."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Fungsi kuadrat muncul di banyak tempat: dari **lintasan bola basket** yang kamu lempar, bentuk **jembatan gantung**, sampai **keuntungan maksimum** sebuah bisnis."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Di bab ini, kamu akan belajar:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Apa itu fungsi kuadrat",
+                "Bentuk umum $f(x) = ax^2 + bx + c$",
+                "Peran koefisien $a$, $b$, dan $c$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Yuk mulai! 🚀"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Apa Itu Fungsi Kuadrat?",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 2,
+              "text": "Definisi"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Fungsi kuadrat adalah fungsi polinomial yang memiliki **pangkat tertinggi 2** pada variabelnya."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kata \"kuadrat\" berasal dari bahasa Latin *quadratus* yang berarti \"berpangkat dua\"."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Bentuk paling sederhana dari fungsi kuadrat adalah $y = x^2$. Jika digambar, kurvanya melengkung seperti huruf U — inilah yang disebut **parabola**."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang merupakan fungsi kuadrat?",
+              "pilihan": [
+                "$f(x) = 2x + 3$",
+                "$f(x) = x^2 - 4x + 1$",
+                "$f(x) = \\dfrac{1}{x}$",
+                "$f(x) = \\sqrt{x}$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Fungsi kuadrat punya **pangkat tertinggi 2** pada variabelnya. Pilihan B ($f(x) = x^2 - 4x + 1$) adalah fungsi kuadrat karena variabel $x$ berpangkat 2. Pilihan A adalah fungsi linear (pangkat 1), C dan D bukan polinomial."
+            },
+            {
+              "id": "10-fk-b01-s2-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Fungsi $f(x) = 3x^2 - 2x$ adalah fungsi kuadrat.",
+              "pilihan": [],
+              "jawaban": true,
+              "pembahasan": "Benar! Meskipun tidak ada konstanta (yang artinya $c = 0$), fungsi ini tetap fungsi kuadrat karena pangkat tertinggi variabelnya adalah 2."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Bentuk Umum Fungsi Kuadrat",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 2,
+              "text": "Bentuk Umum"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f(x) = ax^2 + bx + c"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan syarat **$a \\neq 0$**."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalau $a = 0$, maka fungsinya bukan kuadrat lagi, melainkan **fungsi linear**."
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Peran Masing-masing Koefisien"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "**$a$** = koefisien kuadrat → menentukan **arah buka parabola** (dan lebar/sempitnya)",
+                "**$b$** = koefisien linear → mempengaruhi **posisi sumbu simetri**",
+                "**$c$** = konstanta → **titik potong dengan sumbu Y**"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b01-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Pada fungsi $f(x) = 5x^2 - 3x + 7$, berapakah nilai $b$?",
+              "pilihan": [],
+              "jawaban": "-3",
+              "pembahasan": "Bentuk umum: $f(x) = ax^2 + bx + c$. Bandingkan dengan $5x^2 - 3x + 7$: maka $a = 5$, $b = -3$, dan $c = 7$. Jadi nilai $b = -3$."
+            },
+            {
+              "id": "10-fk-b01-s3-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada fungsi $g(x) = -2x^2 + 4$, berapakah nilai $b$?",
+              "pilihan": [
+                "$b = -2$",
+                "$b = 4$",
+                "$b = 0$",
+                "$b = 2$"
+              ],
+              "jawaban": 2,
+              "pembahasan": "Fungsi $g(x) = -2x^2 + 4$ tidak punya suku dengan $x$. Artinya, koefisien $x$ adalah 0. Jadi $a = -2$, **$b = 0$**, $c = 4$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh-Contoh Fungsi Kuadrat",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 2,
+              "text": "Berbagai Bentuk Fungsi Kuadrat"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Fungsi kuadrat bisa muncul dalam berbagai bentuk. Perhatikan contoh-contoh berikut:"
+            },
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "$f(x) = x^2$ — bentuk paling sederhana, $a = 1$, $b = 0$, $c = 0$",
+                "$f(x) = 2x^2 + 3x - 5$ — $a = 2$, $b = 3$, $c = -5$",
+                "$f(x) = -x^2 + 4$ — $a = -1$, $b = 0$, $c = 4$",
+                "$f(x) = x^2 - 6x + 9$ — $a = 1$, $b = -6$, $c = 9$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Identifikasi Koefisien",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan nilai $a$, $b$, dan $c$ dari fungsi $f(x) = 3x^2 - 7x + 2$." },
+                { "tipe": "paragraph", "text": "**Penyelesaian:**" },
+                { "tipe": "paragraph", "text": "Bandingkan dengan bentuk umum $f(x) = ax^2 + bx + c$:" },
+                { "tipe": "list", "ordered": false, "items": [
+                  "$a = 3$ (koefisien $x^2$)",
+                  "$b = -7$ (koefisien $x$)",
+                  "$c = 2$ (konstanta)"
+                ]}
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang **BUKAN** fungsi kuadrat?",
+              "pilihan": [
+                "$f(x) = x^2 + 1$",
+                "$f(x) = 3x^2$",
+                "$f(x) = -x^2 + 2x$",
+                "$f(x) = 2x + 5$"
+              ],
+              "jawaban": 3,
+              "pembahasan": "Fungsi $f(x) = 2x + 5$ punya pangkat tertinggi 1 — ini adalah **fungsi linear**, bukan fungsi kuadrat. Sisanya (A, B, C) semua punya pangkat tertinggi 2."
+            },
+            {
+              "id": "10-fk-b01-s4-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Diketahui $h(x) = -4x^2 + x$. Berapakah nilai $c$?",
+              "pilihan": [
+                "$c = -4$",
+                "$c = 1$",
+                "$c = 0$",
+                "$c = -1$"
+              ],
+              "jawaban": 2,
+              "pembahasan": "Fungsi $h(x) = -4x^2 + x$ bisa ditulis ulang sebagai $-4x^2 + 1x + 0$. Jadi $a = -4$, $b = 1$, dan **$c = 0$** — tidak ada konstanta."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 1",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 2,
+              "text": "Yang Sudah Kamu Pelajari"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "**Fungsi kuadrat** adalah fungsi dengan pangkat tertinggi 2",
+                "Bentuk umum: $f(x) = ax^2 + bx + c$ dengan syarat **$a \\neq 0$**",
+                "Grafiknya berbentuk **parabola** (kurva U)",
+                "**$a$** menentukan arah buka parabola",
+                "**$b$** mempengaruhi posisi sumbu simetri",
+                "**$c$** adalah titik potong dengan sumbu Y"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Di bab berikutnya, kita akan belajar **menggambar grafik** fungsi kuadrat. Sampai jumpa! 👋"
+            }
+          ],
+          "latihan": []
+        }
+      ]
+    }
+  ]
+}
