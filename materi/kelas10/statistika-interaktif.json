@@ -1,0 +1,1217 @@
+{
+  "kelas": 10,
+  "kategori": "Statistika",
+  "emoji": "📊",
+  "warna": "#00897B",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "10-sta-bab-01",
+      "nomor": 1,
+      "judul": "Pengenalan Data dan Statistika",
+      "deskripsi": "Apa itu data, jenis data, dan kegunaan statistika",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Statistika?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Statistika</b> adalah ilmu yang mempelajari cara <b>mengumpulkan</b>, <b>mengolah</b>, <b>menyajikan</b>, dan <b>menganalisis</b> data untuk mengambil kesimpulan."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kata \"statistika\" berasal dari bahasa Latin <i>status</i> yang berarti \"negara\" — karena dulu statistika dipakai negara untuk menghitung penduduk dan pajak."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Datum</b> — satu buah informasi (tunggal). Contoh: nilai ulangan Andi = 85",
+                "<b>Data</b> — kumpulan datum (jamak). Contoh: 85, 90, 78, 92, 88"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kumpulan dari beberapa datum disebut...",
+              "pilihan": ["Informasi", "Data", "Populasi", "Frekuensi"],
+              "jawaban": 1,
+              "pembahasan": "Kumpulan datum disebut <b>data</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Jenis-Jenis Data",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "1. Berdasarkan Sifat"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Data kuantitatif</b> — berupa angka. Contoh: tinggi badan, nilai ujian",
+                "<b>Data kualitatif</b> — berupa kategori. Contoh: warna favorit, jenis kelamin"
+              ]
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "2. Berdasarkan Cara Memperoleh"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Data primer</b> — dikumpulkan sendiri (wawancara, kuesioner)",
+                "<b>Data sekunder</b> — dari sumber yang sudah ada (data BPS, artikel)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Warna favorit siswa termasuk data...",
+              "pilihan": ["Kuantitatif", "Kualitatif", "Primer", "Sekunder"],
+              "jawaban": 1,
+              "pembahasan": "Warna favorit = kategori, jadi <b>data kualitatif</b>."
+            },
+            {
+              "id": "10-sta-b01-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Data yang diperoleh dari Badan Pusat Statistik termasuk data...",
+              "pilihan": ["Primer", "Sekunder", "Kualitatif", "Tidak valid"],
+              "jawaban": 1,
+              "pembahasan": "Data dari sumber yang sudah ada = <b>data sekunder</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Populasi dan Sampel",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Populasi</b> — seluruh objek yang diteliti. Contoh: seluruh siswa SMA di Indonesia",
+                "<b>Sampel</b> — bagian dari populasi yang benar-benar diukur. Contoh: 7 siswa dari berbagai SMA"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kenapa pakai sampel? Karena meneliti seluruh populasi sering <b>terlalu mahal</b>, <b>lama</b>, dan <b>tidak praktis</b>."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/populasi-sampel.png",
+              "caption": "Ilustrasi populasi dan sampel",
+              "width": "full"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Pak Budi ingin tahu rata-rata tinggi badan siswa kelas 10 di sekolahnya. Ia mengukur 50 siswa dari total 300 siswa." },
+                { "tipe": "list", "ordered": false, "items": [
+                  "<b>Populasi</b> = seluruh 300 siswa kelas 10",
+                  "<b>Sampel</b> = 50 siswa yang diukur"
+                ]}
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b01-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Seluruh objek yang diteliti disebut...",
+              "pilihan": ["Datum", "Sampel", "Populasi", "Frekuensi"],
+              "jawaban": 2,
+              "pembahasan": "Seluruh objek = <b>populasi</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Penerapan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Statistika dipakai di hampir semua bidang: sains, ekonomi, kesehatan, olahraga, sampai media sosial."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "📊 <b>Polling pemilu</b> — survei preferensi pemilih",
+                "🌡️ <b>Prakiraan cuaca</b> — analisis data historis",
+                "🏥 <b>Uji klinis obat</b> — apakah efektif atau tidak",
+                "📱 <b>Feed media sosial</b> — algoritma rekomendasi"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b01-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Data nilai: 85, 90, 78. Berapa banyak datum? (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "Ada 3 angka → 3 datum."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-sta-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Tinggi badan 170 cm termasuk data...",
+              "pilihan": ["Kualitatif", "Kuantitatif", "Kategorik", "Sekunder"],
+              "jawaban": 1,
+              "pembahasan": "Tinggi badan berupa angka → <b>data kuantitatif</b>."
+            },
+            {
+              "id": "10-sta-b01-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Sampel harus lebih besar dari populasi.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Sampel adalah <b>bagian</b> dari populasi, jadi selalu lebih kecil atau sama."
+            },
+            {
+              "id": "10-sta-b01-s5-q3",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang merupakan data kualitatif?",
+              "pilihan": ["Berat badan 65 kg", "Tinggi 170 cm", "Jenis kelamin laki-laki", "Nilai 90"],
+              "jawaban": 2,
+              "pembahasan": "Jenis kelamin = kategori → data <b>kualitatif</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-sta-bab-02",
+      "nomor": 2,
+      "judul": "Penyajian Data",
+      "deskripsi": "Tabel, diagram batang, garis, lingkaran, dan histogram",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Mengapa Data Perlu Disajikan?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Bayangkan kamu punya data nilai 100 siswa. Kalau ditulis sebagai daftar 100 angka, pasti pusing membacanya. Dengan <b>tabel</b> dan <b>diagram</b>, data jadi lebih mudah dipahami."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ada beberapa cara menyajikan data, masing-masing punya kelebihan tergantung tujuan."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Mengapa data perlu disajikan dalam tabel/diagram?",
+              "pilihan": [
+                "Supaya lebih mudah dipahami",
+                "Supaya lebih panjang",
+                "Supaya lebih sulit",
+                "Supaya angkanya berubah"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Tujuan utama penyajian data = <b>memudahkan pemahaman</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Tabel Distribusi Frekuensi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Tabel ini mengelompokkan data ke dalam <b>kelas interval</b> dan menghitung <b>frekuensi</b> (banyaknya data) di setiap interval."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Kelas interval</b> — rentang nilai (mis. 60–69)",
+                "<b>Batas bawah & atas</b> — nilai terkecil & terbesar",
+                "<b>Frekuensi</b> — banyaknya data di interval",
+                "<b>Titik tengah</b> — rata-rata batas bawah & atas"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/tabel-frekuensi.png",
+              "caption": "Contoh tabel distribusi frekuensi",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kelas interval 70–79. Titik tengahnya = ... (tulis dalam desimal, contoh 74,5)",
+              "jawaban": "74,5",
+              "pembahasan": "Titik tengah = $(70 + 79) / 2 = 74{,}5$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Diagram Batang dan Garis",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Diagram Batang"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Memakai <b>persegi panjang</b> untuk menunjukkan frekuensi setiap kategori. Cocok untuk data kategorik atau data diskrit."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/diagram-batang.png",
+              "caption": "Contoh diagram batang: jumlah siswa per ekstrakurikuler",
+              "width": "full"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Diagram Garis"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Menghubungkan titik-titik data dengan <b>garis</b>. Cocok untuk data <b>berurutan waktu</b> (mis. suhu harian, penjualan per bulan)."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/diagram-garis.png",
+              "caption": "Contoh diagram garis: perkembangan jumlah siswa dari tahun ke tahun",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Diagram yang cocok untuk menunjukkan tren waktu adalah...",
+              "pilihan": ["Diagram batang", "Diagram garis", "Diagram lingkaran", "Histogram"],
+              "jawaban": 1,
+              "pembahasan": "Data waktu/tren → <b>diagram garis</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Diagram Lingkaran & Histogram",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Diagram Lingkaran"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Membagi satu lingkaran penuh jadi beberapa <b>sektor</b>. Satu lingkaran = 360° = 100%."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Sudut} = \\dfrac{\\text{frekuensi}}{\\text{total}} \\times 360^\\circ"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/diagram-lingkaran.png",
+              "caption": "Contoh diagram lingkaran",
+              "width": "full"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Histogram"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Mirip diagram batang, tapi <b>batangnya saling menempel</b>. Untuk data kontinu berkelompok."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/histogram.png",
+              "caption": "Contoh histogram",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b02-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dari 200 siswa, 80 suka basket. Sudut sektor basket = ... derajat (tulis angka saja)",
+              "jawaban": "144",
+              "pembahasan": "$(80/200) \\times 360° = 144°$."
+            },
+            {
+              "id": "10-sta-b02-s4-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Perbedaan histogram dan diagram batang:",
+              "pilihan": [
+                "Histogram batangnya menempel",
+                "Histogram tidak punya sumbu",
+                "Diagram batang lebih besar",
+                "Tidak ada bedanya"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Histogram = batang <b>menempel</b>; diagram batang = batang berjarak."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "rangkuman",
+          "judul": "Kapan Pakai Diagram Apa?",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Diagram batang</b> — membandingkan kategori",
+                "<b>Diagram garis</b> — melihat tren sepanjang waktu",
+                "<b>Diagram lingkaran</b> — proporsi dari keseluruhan",
+                "<b>Histogram</b> — distribusi data berkelompok"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Untuk menunjukkan proporsi (% dari total), pakai diagram...",
+              "pilihan": ["Batang", "Garis", "Lingkaran", "Histogram"],
+              "jawaban": 2,
+              "pembahasan": "Proporsi → <b>diagram lingkaran</b>."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-sta-b02-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dari 100 siswa, 25 suka voli. Sudut sektor voli di diagram lingkaran = ...",
+              "pilihan": ["25°", "45°", "90°", "360°"],
+              "jawaban": 2,
+              "pembahasan": "$(25/100) \\times 360° = 90°$."
+            },
+            {
+              "id": "10-sta-b02-s6-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada diagram lingkaran, satu lingkaran penuh = 100%.",
+              "jawaban": true,
+              "pembahasan": "Benar — 360° = 100%. <b>BENAR</b>."
+            },
+            {
+              "id": "10-sta-b02-s6-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kelas interval 80–89. Titik tengah = ... (tulis dalam desimal)",
+              "jawaban": "84,5",
+              "pembahasan": "$(80 + 89) / 2 = 84{,}5$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-sta-bab-03",
+      "nomor": 3,
+      "judul": "Ukuran Pemusatan Data",
+      "deskripsi": "Mean, median, dan modus",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Ukuran Pemusatan?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Ukuran pemusatan</b> adalah nilai tunggal yang mewakili keseluruhan data. Ada tiga yang paling sering dipakai: <b>mean</b> (rata-rata), <b>median</b> (nilai tengah), dan <b>modus</b> (nilai tersering)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ada berapa ukuran pemusatan data utama?",
+              "pilihan": ["1", "2", "3", "4"],
+              "jawaban": 2,
+              "pembahasan": "Tiga: <b>mean, median, modus</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Mean (Rata-Rata)",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\bar{x} = \\dfrac{x_1 + x_2 + \\cdots + x_n}{n} = \\dfrac{\\sum x_i}{n}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "$\\bar{x}$ dibaca \"x bar\", $\\sum x_i$ = jumlah semua data, $n$ = banyak data."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Mean Nilai",
+              "konten": [
+                { "tipe": "paragraph", "text": "Data: 7, 8, 6, 9, 10. Hitung mean-nya." },
+                { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{7+8+6+9+10}{5} = \\dfrac{40}{5} = 8" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b03-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Mean dari data 4, 6, 8, 10, 12 = ... (tulis angka saja)",
+              "jawaban": "8",
+              "pembahasan": "$\\bar{x} = 40/5 = 8$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Median (Nilai Tengah)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Median adalah nilai yang berada <b>di tengah</b> setelah data <b>diurutkan</b>."
+            },
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "Urutkan data dari kecil ke besar",
+                "Kalau $n$ <b>ganjil</b>: median = data ke-$\\dfrac{n+1}{2}$",
+                "Kalau $n$ <b>genap</b>: median = rata-rata data ke-$\\dfrac{n}{2}$ dan ke-$\\dfrac{n}{2} + 1$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Median Genap",
+              "konten": [
+                { "tipe": "paragraph", "text": "Data: 6, 7, 7, 7, 7, 8, 8, 8, 9, 10 ($n = 10$, genap)." },
+                { "tipe": "formula_block", "latex": "M_e = \\dfrac{7 + 8}{2} = 7{,}5" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b03-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Median data 2, 4, 6, 8, 10 = ... (tulis angka saja)",
+              "jawaban": "6",
+              "pembahasan": "$n = 5$ (ganjil), median = data ke-3 = 6."
+            },
+            {
+              "id": "10-sta-b03-s3-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Median data 3, 5, 7, 9 = ... (tulis angka saja)",
+              "jawaban": "6",
+              "pembahasan": "$n = 4$ (genap), median = $(5 + 7) / 2 = 6$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Modus (Nilai Tersering)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Modus adalah nilai yang <b>paling sering muncul</b>. Data bisa punya <b>satu modus</b>, <b>dua modus</b> (bimodal), atau <b>tidak punya modus</b>."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Modus",
+              "konten": [
+                { "tipe": "paragraph", "text": "Data: 7, 8, 6, 9, 7, 8, 7, 10, 8, 7." },
+                { "tipe": "paragraph", "text": "Nilai 7 muncul 4 kali, 8 muncul 3 kali. Jadi modus = <b>7</b>." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b03-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Modus dari data 1, 2, 2, 3, 3, 3, 4, 5 = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "Nilai 3 muncul 3 kali → paling sering → modus = 3."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Kapan Pakai Mean, Median, atau Modus?",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Mean</b> — paling umum, tapi <b>terpengaruh outlier</b> (nilai ekstrem)",
+                "<b>Median</b> — lebih <b>tahan outlier</b>",
+                "<b>Modus</b> — untuk data <b>kategorik</b> (warna, ukuran sepatu)"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: untuk gaji pegawai di perusahaan, lebih baik pakai <b>median</b> daripada mean — karena gaji direktur bisa jadi outlier yang membuat mean terlihat tinggi."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ukuran pemusatan yang paling tahan terhadap outlier adalah...",
+              "pilihan": ["Mean", "Median", "Modus", "Jangkauan"],
+              "jawaban": 1,
+              "pembahasan": "<b>Median</b> tidak terpengaruh nilai ekstrem karena hanya melihat posisi tengah."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-sta-b03-s6-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Mean dari 5, 7, 8, 10, 15 = ... (tulis angka saja)",
+              "jawaban": "9",
+              "pembahasan": "$(5+7+8+10+15)/5 = 45/5 = 9$."
+            },
+            {
+              "id": "10-sta-b03-s6-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Untuk data warna favorit, ukuran pemusatan yang paling cocok adalah...",
+              "pilihan": ["Mean", "Median", "Modus", "Simpangan baku"],
+              "jawaban": 2,
+              "pembahasan": "Data kategorik → pakai <b>modus</b> (nilai tersering)."
+            },
+            {
+              "id": "10-sta-b03-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Median dari data 1, 2, 3, 4 adalah 2,5.",
+              "jawaban": true,
+              "pembahasan": "$n = 4$ genap → median = $(2 + 3) / 2 = 2{,}5$. <b>BENAR</b>."
+            },
+            {
+              "id": "10-sta-b03-s6-q4",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Modus dari data 5, 3, 3, 5, 5, 2, 5 = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "Nilai 5 muncul 4 kali → modus = 5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-sta-bab-04",
+      "nomor": 4,
+      "judul": "Ukuran Penyebaran Data",
+      "deskripsi": "Jangkauan, kuartil, dan simpangan",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Mengapa Perlu Ukuran Penyebaran?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dua kelompok data bisa punya <b>mean yang sama</b>, tapi <b>sebarannya berbeda</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: {50, 50, 50} dan {10, 50, 90} sama-sama mean = 50, tapi yang pertama sangat merata, yang kedua sangat menyebar."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ukuran penyebaran digunakan untuk mengukur...",
+              "pilihan": [
+                "Nilai tengah data",
+                "Seberapa menyebar data",
+                "Nilai tersering",
+                "Jumlah data"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Ukuran penyebaran = seberapa <b>menyebar</b> data."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Jangkauan dan Kuartil",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Jangkauan"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "R = x_{\\text{maks}} - x_{\\text{min}}"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Kuartil"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$Q_1$ — kuartil bawah (25%)",
+                "$Q_2$ — kuartil tengah (= median)",
+                "$Q_3$ — kuartil atas (75%)"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Kuartil",
+              "konten": [
+                { "tipe": "paragraph", "text": "Data: 4, 5, 6, 6, 7, 8, 8, 9, 10." },
+                { "tipe": "paragraph", "text": "$Q_2$ = median = 7." },
+                { "tipe": "paragraph", "text": "Data bawah (4, 5, 6, 6): $Q_1 = (5 + 6)/2 = 5{,}5$." },
+                { "tipe": "paragraph", "text": "Data atas (8, 8, 9, 10): $Q_3 = (8 + 9)/2 = 8{,}5$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b04-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Data: 3, 5, 7, 9, 11. Jangkauan = ... (tulis angka saja)",
+              "jawaban": "8",
+              "pembahasan": "$R = 11 - 3 = 8$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Jangkauan Interkuartil (JIK)",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{JIK} = Q_3 - Q_1"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{JSK} = \\dfrac{Q_3 - Q_1}{2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "JIK dipakai untuk mendeteksi <b>outlier</b>: data yang nilainya < $Q_1 - 1{,}5 \\cdot \\text{JIK}$ atau > $Q_3 + 1{,}5 \\cdot \\text{JIK}$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b04-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $Q_1 = 5$ dan $Q_3 = 12$, maka JIK = ... (tulis angka saja)",
+              "jawaban": "7",
+              "pembahasan": "JIK = $Q_3 - Q_1 = 12 - 5 = 7$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Simpangan Rata-Rata & Ragam",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Simpangan Rata-Rata"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "SR = \\dfrac{\\sum |x_i - \\bar{x}|}{n}"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Ragam (Varians)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S^2 = \\dfrac{\\sum (x_i - \\bar{x})^2}{n}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ragam selalu ≥ 0. Semakin besar, semakin menyebar."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b04-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ragam (varians) bisa bernilai...",
+              "pilihan": ["Selalu positif", "Selalu negatif", "Bisa positif atau negatif", "Selalu nol"],
+              "jawaban": 0,
+              "pembahasan": "Ragam = rata-rata kuadrat selisih → selalu ≥ 0, jadi <b>selalu positif</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Simpangan Baku",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "S = \\sqrt{S^2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Simpangan baku (S) punya satuan yang sama dengan data. Kalau data dalam cm, maka $S$ juga dalam cm. Semakin besar $S$, semakin menyebar data."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Simpangan Baku",
+              "konten": [
+                { "tipe": "paragraph", "text": "Data: 2, 4, 4, 4, 5, 5, 7, 9." },
+                { "tipe": "paragraph", "text": "Mean $\\bar{x} = 5$." },
+                { "tipe": "paragraph", "text": "Kuadrat selisih: 9 + 1 + 1 + 1 + 0 + 0 + 4 + 16 = 32." },
+                { "tipe": "formula_block", "latex": "S^2 = 32/8 = 4 \\Rightarrow S = 2" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b04-s5-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika ragam $S^2 = 25$, maka simpangan baku $S$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$S = \\sqrt{25} = 5$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-sta-b04-s6-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Data: 2, 4, 6, 8, 10. Jangkauan = ... (tulis angka saja)",
+              "jawaban": "8",
+              "pembahasan": "$R = 10 - 2 = 8$."
+            },
+            {
+              "id": "10-sta-b04-s6-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Ukuran yang satuannya SAMA dengan data aslinya adalah...",
+              "pilihan": ["Ragam", "Simpangan baku", "JIK", "Frekuensi"],
+              "jawaban": 1,
+              "pembahasan": "Ragam satuannya kuadrat, sedangkan <b>simpangan baku</b> satuannya sama dengan data."
+            },
+            {
+              "id": "10-sta-b04-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "JIK = $Q_3 - Q_1$.",
+              "jawaban": true,
+              "pembahasan": "Benar — JIK = jangkauan interkuartil. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-sta-bab-05",
+      "nomor": 5,
+      "judul": "Analisis Data dan Interpretasi",
+      "deskripsi": "Membaca data, membandingkan kelompok, dan menyimpulkan",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Membaca Data dengan Kritis",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Statistika bukan hanya menghitung. Yang paling penting adalah <b>menafsirkan</b> hasilnya dengan benar."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Data yang sama bisa disajikan dengan cara berbeda untuk memberi kesan berbeda — ini disebut <b>manipulasi data</b>."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b05-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Data yang sama bisa terlihat berbeda karena...",
+              "pilihan": [
+                "Salah hitung",
+                "Manipulasi penyajian (mis. skala sumbu)",
+                "Data selalu berubah",
+                "Data tidak valid"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Manipulasi penyajian (skala sumbu, pemilihan data) bisa buat data terlihat berbeda."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Contoh Manipulasi Grafik",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau grafik sumbu Y dimulai dari 90 (bukan 0), perbedaan kecil akan terlihat besar. Ini teknik yang sering dipakai iklan atau berita sensasional."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/statistika/manipulasi-grafik.png",
+              "caption": "Dua grafik dari data yang sama — kiri mulai dari 0 (netral), kanan mulai dari 90 (membuat perbedaan tampak dramatis)",
+              "width": "full"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Sebagai pembaca kritis, selalu cek skala dan konteks."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b05-s2-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Memulai sumbu Y dari nilai tinggi (bukan 0) bisa membuat perbedaan kecil terlihat besar.",
+              "jawaban": true,
+              "pembahasan": "Benar — ini manipulasi visual yang umum. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Membandingkan Dua Kelompok Data",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ketika membandingkan dua kelompok, jangan hanya bandingkan <b>mean</b>-nya. Perhatikan juga:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Median</b> — apakah kedua kelompok simetris?",
+                "<b>Simpangan baku</b> — apakah sebarannya mirip?",
+                "<b>Ukuran sampel</b> — kelompok dengan n kecil kurang reliabel",
+                "<b>Outlier</b> — apakah ada data ekstrem?"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Dua Kelas",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kelas A mean = 75, S = 3. Kelas B mean = 75, S = 12." },
+                { "tipe": "paragraph", "text": "Meski mean sama, <b>Kelas A lebih konsisten</b> (S kecil)." },
+                { "tipe": "paragraph", "text": "Kelas B mungkin punya nilai sangat tinggi & sangat rendah — kemampuannya lebih beragam." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b05-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua kelas punya mean sama, tapi S berbeda. Kelas dengan S LEBIH KECIL berarti...",
+              "pilihan": [
+                "Lebih konsisten",
+                "Lebih menyebar",
+                "Lebih pintar",
+                "Lebih bodoh"
+              ],
+              "jawaban": 0,
+              "pembahasan": "S kecil = data lebih merata = <b>lebih konsisten</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Kesalahan Umum",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Korelasi ≠ kausalitas</b> — dua hal berhubungan belum tentu satu menyebabkan yang lain",
+                "<b>Mengabaikan ukuran sampel</b> — sampel 10 orang tidak bisa digeneralisasi ke jutaan populasi",
+                "<b>Terlalu fokus pada mean</b> — median & simpangan baku juga penting",
+                "<b>Mengabaikan konteks</b> — angka tanpa konteks mudah menyesatkan"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b05-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Apa arti \"korelasi ≠ kausalitas\"?",
+              "pilihan": [
+                "Dua hal berhubungan pasti satu menyebabkan yang lain",
+                "Dua hal berhubungan belum tentu ada sebab-akibat",
+                "Semua korelasi salah",
+                "Semua kausalitas salah"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Berhubungan ≠ sebab-akibat."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-sta-b05-s5-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Korelasi selalu berarti kausalitas.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Korelasi hanya berarti berhubungan, belum tentu sebab-akibat."
+            },
+            {
+              "id": "10-sta-b05-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Cara terbaik membandingkan dua kelompok data adalah...",
+              "pilihan": [
+                "Hanya lihat mean",
+                "Hanya lihat median",
+                "Bandingkan mean, median, dan simpangan baku",
+                "Hanya lihat nilai terbesar"
+              ],
+              "jawaban": 2,
+              "pembahasan": "Bandingkan berbagai ukuran sekaligus: <b>mean, median, simpangan baku</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-sta-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Statistika di Kehidupan Nyata",
+      "deskripsi": "Penerapan statistika di berbagai bidang",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Statistika di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Statistika ada di mana-mana. Dari polling pemilu, prakiraan cuaca, sampai algoritma TikTok yang merekomendasikan video — semuanya pakai statistika."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🏥 <b>Kesehatan</b> — uji klinis obat",
+                "💰 <b>Ekonomi</b> — inflasi, data BPS",
+                "⚽ <b>Olahraga</b> — data analyst pemain",
+                "📱 <b>Media Sosial</b> — algoritma rekomendasi"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Analisis Penjualan",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Penjualan Buku",
+              "konten": [
+                { "tipe": "paragraph", "text": "Penjualan 10 hari (buku): 20, 25, 30, 15, 20, 35, 40, 20, 25, 30." },
+                { "tipe": "paragraph", "text": "Mean:" },
+                { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{260}{10} = 26" },
+                { "tipe": "paragraph", "text": "Median: urutkan → 15, 20, 20, 20, 25, 25, 30, 30, 35, 40." },
+                { "tipe": "formula_block", "latex": "M_e = \\dfrac{25 + 25}{2} = 25" },
+                { "tipe": "paragraph", "text": "Modus = 20 (muncul 3 kali)." },
+                { "tipe": "paragraph", "text": "<b>Interpretasi:</b> Rata-rata 26 buku/hari. Nilai 20 paling sering = hari-hari sepi. Nilai 40 mungkin hari promo." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b06-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dari data di atas, nilai modus = ... (tulis angka saja)",
+              "jawaban": "20",
+              "pembahasan": "Nilai 20 muncul 3 kali, paling sering → modus = 20."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Deteksi Outlier",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Nilai Ujian",
+              "konten": [
+                { "tipe": "paragraph", "text": "Nilai 10 siswa: 60, 65, 70, 72, 75, 78, 80, 82, 85, 100. Apakah 100 outlier?" },
+                { "tipe": "paragraph", "text": "$Q_1$ = median 5 data pertama = 70." },
+                { "tipe": "paragraph", "text": "$Q_3$ = median 5 data terakhir = 82." },
+                { "tipe": "paragraph", "text": "JIK = 82 - 70 = 12." },
+                { "tipe": "paragraph", "text": "Batas atas = $Q_3 + 1{,}5 \\cdot \\text{JIK} = 82 + 18 = 100$." },
+                { "tipe": "paragraph", "text": "Nilai 100 tepat di batas → <b>masih wajar</b>. Kalau 105, sudah outlier." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b06-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika JIK = 12 dan $Q_3 = 82$, batas atas outlier = ... (tulis angka saja)",
+              "jawaban": "100",
+              "pembahasan": "Batas atas = $Q_3 + 1{,}5 \\cdot \\text{JIK} = 82 + 18 = 100$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Survey Sederhana",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Survey Waktu Belajar",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kamu menyebar kuesioner ke 30 siswa kelas 10. Hasil: rata-rata 2,5 jam/hari, simpangan baku 0,8 jam." },
+                { "tipe": "paragraph", "text": "<b>Analisis:</b>" },
+                { "tipe": "list", "ordered": false, "items": [
+                  "Rata-rata: 2,5 jam/hari",
+                  "Sebaran: sekitar 1,7 hingga 3,3 jam",
+                  "Sebagian besar siswa belajar antara 1,7–3,3 jam"
+                ]},
+                { "tipe": "paragraph", "text": "<b>Keterbatasan:</b> sampel 30 orang mungkin tidak mewakili seluruh siswa." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b06-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Keterbatasan survey dengan sampel kecil adalah...",
+              "pilihan": [
+                "Tidak bisa digeneralisasi ke seluruh populasi",
+                "Hasilnya selalu salah",
+                "Tidak ada keterbatasan",
+                "Datanya palsu"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Sampel kecil = kurang representatif → hasilnya tidak bisa digeneralisasi."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham aplikasi statistika."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-sta-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bidang yang BUKAN aplikasi statistika adalah...",
+              "pilihan": ["Kesehatan", "Ekonomi", "Olahraga", "Cerita fiksi"],
+              "jawaban": 3,
+              "pembahasan": "Statistika tidak dipakai di cerita fiksi. Tiga bidang lain jelas pakai statistika."
+            },
+            {
+              "id": "10-sta-b06-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Statistika hanya soal menghitung rumus, bukan interpretasi.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Statistika justru menekankan <b>interpretasi</b> dan berpikir kritis, bukan hanya hitung."
+            },
+            {
+              "id": "10-sta-b06-s5-q3",
+              "tipe": "pilihan",
+              "pertanyaan": "Algoritma TikTok yang merekomendasikan video menggunakan...",
+              "pilihan": [
+                "Random saja",
+                "Statistika perilaku user",
+                "Data pribadi user",
+                "Tidak ada"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Algoritma menganalisis <b>data perilaku</b> user (apa yang ditonton, di-skip, dll)."
+            },
+            {
+              "id": "10-sta-b06-s5-q4",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika penjualan rata-rata 30 buku/hari selama 6 hari, total penjualan = ... buku (tulis angka saja)",
+              "jawaban": "180",
+              "pembahasan": "$30 \\times 6 = 180$ buku."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
