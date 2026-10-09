@@ -1,0 +1,1053 @@
+{
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "emoji": "🔷",
+  "warna": "#FF9800",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "10-spl-bab-01",
+      "nomor": 1,
+      "judul": "Persamaan Linear Satu Variabel",
+      "deskripsi": "Konsep dasar persamaan linear dan penyelesaiannya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Persamaan Linear?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Persamaan linear adalah persamaan yang variabelnya <b>berpangkat satu</b>. Disebut \"linear\" karena kalau digambar, grafiknya berupa <b>garis lurus</b> (<i>line</i> = garis)."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalau hanya ada satu variabel, persamaan ini disebut <b>Persamaan Linear Satu Variabel (PLSV)</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "ax + b = 0"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan $a \\neq 0$, dan $a$, $b$ adalah konstanta. Solusinya adalah nilai $x$ yang memenuhi persamaan."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang merupakan persamaan linear satu variabel?",
+              "pilihan": ["$x^2 + 3 = 0$", "$2x - 5 = 7$", "$xy = 6$", "$x^3 = 8$"],
+              "jawaban": 1,
+              "pembahasan": "PLSV punya variabel berpangkat satu. $2x - 5 = 7$ memenuhi."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Sifat-Sifat Persamaan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Persamaan tetap <b>setara</b> (nilai solusinya sama) jika kita melakukan operasi yang sama pada kedua ruas:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Menambah atau mengurangi dengan bilangan yang sama",
+                "Mengalikan atau membagi dengan bilangan yang sama (bukan nol)",
+                "Memindahkan suku dari ruas kiri ke kanan (tanda berubah)"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Persamaan Sederhana",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari $2x + 6 = 14$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 2x + 6 - 6 &= 14 - 6 \\\\ 2x &= 8 \\\\ x &= 4 \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b01-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Selesaikan $3x - 5 = 10$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$3x = 15 \\Rightarrow x = 5$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Variabel di Kedua Ruas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau variabel muncul di kedua ruas, pindahkan semua variabel ke satu sisi dan konstanta ke sisi lain."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari $5x - 3 = 2x + 9$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 5x - 2x &= 9 + 3 \\\\ 3x &= 12 \\\\ x &= 4 \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b01-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Selesaikan $4x + 1 = 2x + 9$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "4",
+              "pembahasan": "$4x - 2x = 9 - 1 \\Rightarrow 2x = 8 \\Rightarrow x = 4$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Persamaan dengan Pecahan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau ada pecahan, kalikan kedua ruas dengan <b>KPK penyebutnya</b> untuk menghilangkan pecahan."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari $\\dfrac{x}{2} + 3 = \\dfrac{2x}{3} - 1$." },
+                { "tipe": "paragraph", "text": "KPK dari 2 dan 3 = 6. Kalikan kedua ruas dengan 6:" },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 3x + 18 &= 4x - 6 \\\\ 18 + 6 &= 4x - 3x \\\\ x &= 24 \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b01-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Selesaikan $\\dfrac{x}{3} + 2 = 6$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "12",
+              "pembahasan": "$\\dfrac{x}{3} = 4 \\Rightarrow x = 12$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-spl-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bentuk umum PLSV adalah...",
+              "pilihan": ["$ax^2 + b = 0$", "$ax + b = 0$", "$ax^3 + b = 0$", "$a/x + b = 0$"],
+              "jawaban": 1,
+              "pembahasan": "PLSV: $ax + b = 0$ dengan $a \\neq 0$."
+            },
+            {
+              "id": "10-spl-b01-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Selesaikan $7x - 4 = 3x + 12$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "4",
+              "pembahasan": "$7x - 3x = 12 + 4 \\Rightarrow 4x = 16 \\Rightarrow x = 4$."
+            },
+            {
+              "id": "10-spl-b01-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada PLSV, variabelnya berpangkat dua.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. PLSV variabelnya berpangkat <b>satu</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-spl-bab-02",
+      "nomor": 2,
+      "judul": "Sistem Persamaan Linear Dua Variabel (SPLDV)",
+      "deskripsi": "Menyelesaikan dua persamaan dengan dua variabel",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu SPLDV?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Sistem Persamaan Linear Dua Variabel (SPLDV)</b> adalah kumpulan <b>dua atau lebih</b> persamaan linear yang memiliki <b>dua variabel yang sama</b>. Solusinya adalah nilai $(x, y)$ yang memenuhi <b>semua</b> persamaan sekaligus."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan $a_1, a_2, b_1, b_2 \\neq 0$ dan $x, y$ adalah variabel."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "SPLDV memiliki berapa variabel?",
+              "pilihan": ["1", "2", "3", "Tidak tentu"],
+              "jawaban": 1,
+              "pembahasan": "SPLDV = Sistem Persamaan Linear <b>Dua Variabel</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Metode Substitusi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ubah satu persamaan menjadi bentuk $x = \\ldots$ atau $y = \\ldots$, lalu substitusikan ke persamaan lain."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Substitusi",
+              "konten": [
+                { "tipe": "paragraph", "text": "Selesaikan: $x + y = 7$ dan $x - y = 3$." },
+                { "tipe": "paragraph", "text": "Dari persamaan pertama: $x = 7 - y$." },
+                { "tipe": "paragraph", "text": "Substitusi ke persamaan kedua:" },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} (7 - y) - y &= 3 \\\\ 7 - 2y &= 3 \\\\ y &= 2 \\end{aligned}" },
+                { "tipe": "formula_block", "latex": "x = 7 - 2 = 5" },
+                { "tipe": "paragraph", "text": "Jadi solusinya $(5, 2)$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Diketahui $x + y = 10$ dan $y = 3$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "7",
+              "pembahasan": "$x + 3 = 10 \\Rightarrow x = 7$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Metode Eliminasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Hilangkan salah satu variabel dengan cara menjumlahkan atau mengurangkan kedua persamaan (setelah menyamakan koefisien)."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Eliminasi",
+              "konten": [
+                { "tipe": "paragraph", "text": "Selesaikan: $2x + 3y = 12$ dan $x - y = 1$." },
+                { "tipe": "paragraph", "text": "Kalikan persamaan kedua dengan 3:" },
+                { "tipe": "formula_block", "latex": "\\begin{cases} 2x + 3y = 12 \\\\ 3x - 3y = 3 \\end{cases}" },
+                { "tipe": "paragraph", "text": "Jumlahkan (eliminasi $y$): $5x = 15 \\Rightarrow x = 3$." },
+                { "tipe": "paragraph", "text": "Substitusi $x = 3$ ke $x - y = 1$: $y = 2$." },
+                { "tipe": "paragraph", "text": "Jadi solusinya $(3, 2)$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b02-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Diketahui $x + y = 8$ dan $x - y = 2$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "Jumlahkan: $2x = 10 \\Rightarrow x = 5$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Jenis Solusi SPLDV",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Satu solusi tunggal</b> — kedua garis berpotongan di satu titik (paling umum)",
+                "<b>Tidak ada solusi</b> — kedua garis sejajar, tidak pernah bertemu",
+                "<b>Tak hingga solusi</b> — kedua garis berimpit (persamaannya ekuivalen)"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Secara grafik, solusi SPLDV = titik potong dua garis."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b02-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika dua garis sejajar, SPLDV punya...",
+              "pilihan": ["Satu solusi", "Tak hingga solusi", "Tidak ada solusi", "Dua solusi"],
+              "jawaban": 2,
+              "pembahasan": "Garis sejajar tidak pernah bertemu → <b>tidak ada solusi</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Soal Cerita SPLDV",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Harga Buku & Pensil",
+              "konten": [
+                { "tipe": "paragraph", "text": "Harga 2 buku dan 3 pensil = Rp19.000. Harga 3 buku dan 1 pensil = Rp18.000. Tentukan harga masing-masing." },
+                { "tipe": "paragraph", "text": "Misal $x$ = harga buku, $y$ = harga pensil (dalam ribuan)." },
+                { "tipe": "formula_block", "latex": "\\begin{cases} 2x + 3y = 19 \\\\ 3x + y = 18 \\end{cases}" },
+                { "tipe": "paragraph", "text": "Dari persamaan kedua: $y = 18 - 3x$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 2x + 3(18 - 3x) &= 19 \\\\ -7x &= -35 \\\\ x &= 5 \\end{aligned}" },
+                { "tipe": "paragraph", "text": "$y = 18 - 3(5) = 3$. Jadi buku = <b>Rp5.000</b>, pensil = <b>Rp3.000</b>." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Harga 1 buku Rp5.000 dan 1 pensil Rp3.000. Berapa harga 2 buku dan 1 pensil?",
+              "pilihan": ["Rp10.000", "Rp11.000", "Rp13.000", "Rp15.000"],
+              "jawaban": 2,
+              "pembahasan": "$2(5) + 1(3) = 10 + 3 = 13$ ribu = <b>Rp13.000</b>."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-spl-b02-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah metode yang BUKAN untuk menyelesaikan SPLDV?",
+              "pilihan": ["Substitusi", "Eliminasi", "Grafik", "Faktorial"],
+              "jawaban": 3,
+              "pembahasan": "Faktorial bukan metode SPLDV. Tiga metode SPLDV: <b>substitusi, eliminasi, grafik</b>."
+            },
+            {
+              "id": "10-spl-b02-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Diketahui $2x + y = 10$ dan $x - y = 2$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "4",
+              "pembahasan": "Jumlahkan: $3x = 12 \\Rightarrow x = 4$."
+            },
+            {
+              "id": "10-spl-b02-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "SPLDV selalu punya tepat satu solusi.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. SPLDV bisa punya 0, 1, atau tak hingga solusi."
+            },
+            {
+              "id": "10-spl-b02-s6-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Solusi SPLDV secara grafik adalah...",
+              "pilihan": ["Titik potong dua garis", "Luas daerah", "Gradien garis", "Panjang garis"],
+              "jawaban": 0,
+              "pembahasan": "Solusi SPLDV = <b>titik potong</b> dua garis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-spl-bab-03",
+      "nomor": 3,
+      "judul": "Sistem Persamaan Linear Tiga Variabel (SPLTV)",
+      "deskripsi": "Menyelesaikan tiga persamaan dengan tiga variabel",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu SPLTV?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>SPLTV</b> adalah kumpulan <b>tiga persamaan linear</b> dengan <b>tiga variabel yang sama</b> (mis. $x, y, z$). Solusinya adalah $(x, y, z)$ yang memenuhi ketiga persamaan sekaligus."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\begin{cases} a_1 x + b_1 y + c_1 z = d_1 \\\\ a_2 x + b_2 y + c_2 z = d_2 \\\\ a_3 x + b_3 y + c_3 z = d_3 \\end{cases}"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "SPLTV memiliki berapa persamaan?",
+              "pilihan": ["1", "2", "3", "4"],
+              "jawaban": 2,
+              "pembahasan": "SPLTV = Sistem Persamaan Linear <b>Tiga</b> Variabel → 3 persamaan."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Langkah Menyelesaikan SPLTV",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "Pilih <b>dua persamaan</b>, eliminasi salah satu variabel → dapat <b>persamaan baru A</b>",
+                "Pilih <b>dua persamaan lain</b>, eliminasi variabel yang sama → dapat <b>persamaan baru B</b>",
+                "Sekarang A dan B membentuk SPLDV → selesaikan",
+                "Substitusi nilai yang diperoleh ke salah satu persamaan awal untuk mendapat variabel ketiga"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ <b>Kunci:</b> variabel yang dieliminasi dari dua pasangan persamaan <b>harus sama</b>."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Langkah pertama menyelesaikan SPLTV adalah...",
+              "pilihan": [
+                "Menggambar grafik",
+                "Mengeliminasi satu variabel dari dua pasang persamaan",
+                "Menghitung determinan",
+                "Menjumlahkan semua persamaan"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Langkah pertama: <b>eliminasi</b> satu variabel dari dua pasang persamaan → jadikan SPLDV."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Contoh SPLTV",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: SPLTV Sederhana",
+              "konten": [
+                { "tipe": "paragraph", "text": "Selesaikan: $\\begin{cases} x + y + z = 6 \\\\ x - y + z = 2 \\\\ x + y - z = 0 \\end{cases}$" },
+                { "tipe": "paragraph", "text": "Eliminasi $z$ dari (1) dan (2):" },
+                { "tipe": "formula_block", "latex": "2y = 4 \\Rightarrow y = 2" },
+                { "tipe": "paragraph", "text": "Eliminasi $z$ dari (1) dan (3):" },
+                { "tipe": "formula_block", "latex": "2x + 2y = 6 \\Rightarrow x + y = 3" },
+                { "tipe": "paragraph", "text": "Substitusi $y = 2$: $x = 1$." },
+                { "tipe": "paragraph", "text": "Substitusi $x = 1, y = 2$ ke (1): $1 + 2 + z = 6 \\Rightarrow z = 3$." },
+                { "tipe": "paragraph", "text": "Solusi: $(x, y, z) = (1, 2, 3)$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b03-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika dari SPLTV diperoleh $y = 2$ dan $x = 1$, dan $x + y + z = 6$, maka $z$ = ...",
+              "pilihan": ["1", "2", "3", "4"],
+              "jawaban": 2,
+              "pembahasan": "$1 + 2 + z = 6 \\Rightarrow z = 3$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Soal Cerita SPLTV",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Uang Tiga Bersaudara",
+              "konten": [
+                { "tipe": "paragraph", "text": "Ani, Budi, Citra punya total Rp65.000. Uang Ani Rp5.000 lebih banyak dari Budi. Uang Citra dua kali uang Budi." },
+                { "tipe": "paragraph", "text": "Misal $a, b, c$ (dalam ribuan):" },
+                { "tipe": "formula_block", "latex": "\\begin{cases} a + b + c = 65 \\\\ a - b = 5 \\\\ c = 2b \\end{cases}" },
+                { "tipe": "paragraph", "text": "Substitusi $a = b+5$ dan $c = 2b$:" },
+                { "tipe": "formula_block", "latex": "4b + 5 = 65 \\Rightarrow b = 15" },
+                { "tipe": "paragraph", "text": "$a = 20$, $c = 30$. Jadi Ani = 20, Budi = 15, Citra = 30 (ribu rupiah)." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b03-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $b = 15$ dan $c = 2b$, maka $c$ = ... (tulis angka saja)",
+              "jawaban": "30",
+              "pembahasan": "$c = 2 \\times 15 = 30$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-spl-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "SPLTV diselesaikan dengan cara...",
+              "pilihan": [
+                "Eliminasi langsung ketiga persamaan sekaligus",
+                "Eliminasi bertahap → jadi SPLDV → substitusi",
+                "Menggambar 3 garis",
+                "Faktorial"
+              ],
+              "jawaban": 1,
+              "pembahasan": "SPLTV: eliminasi bertahap sampai jadi SPLDV, lalu selesaikan."
+            },
+            {
+              "id": "10-spl-b03-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "SPLTV selalu punya solusi tunggal.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. SPLTV juga bisa tidak punya solusi atau tak hingga solusi, tergantung sistemnya."
+            },
+            {
+              "id": "10-spl-b03-s5-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $x + y + z = 10$, $x = 3$, $y = 4$, maka $z$ = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$3 + 4 + z = 10 \\Rightarrow z = 3$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-spl-bab-04",
+      "nomor": 4,
+      "judul": "Pertidaksamaan Linear Satu Variabel",
+      "deskripsi": "Konsep pertidaksamaan dan cara menyelesaikannya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Pertidaksamaan?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Pertidaksamaan</b> mirip persamaan, tapi menggunakan tanda <b>ketidaksamaan</b> bukan tanda sama dengan."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$<$ : kurang dari",
+                "$>$ : lebih dari",
+                "$\\leq$ : kurang dari atau sama dengan",
+                "$\\geq$ : lebih dari atau sama dengan"
+              ]
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "ax + b < 0, \\quad ax + b > 0, \\quad ax + b \\leq 0, \\quad ax + b \\geq 0"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Simbol $\\leq$ berarti...",
+              "pilihan": ["Lebih dari", "Kurang dari", "Kurang dari atau sama dengan", "Tidak sama dengan"],
+              "jawaban": 2,
+              "pembahasan": "$\\leq$ = kurang dari atau sama dengan."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Sifat Pertidaksamaan & Tanda Berbalik",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Menambah/mengurangi kedua ruas → tanda tetap",
+                "Mengalikan/membagi dengan bilangan <b>positif</b> → tanda tetap",
+                "Mengalikan/membagi dengan bilangan <b>negatif</b> → tanda <b>BERBALIK</b>"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ <b>Perhatian:</b> yang paling sering salah adalah saat mengalikan atau membagi dengan bilangan negatif — tanda harus dibalik!"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Tanda Berbalik",
+              "konten": [
+                { "tipe": "paragraph", "text": "Selesaikan $-2x + 4 \\leq 10$." },
+                { "tipe": "formula_block", "latex": "-2x \\leq 6" },
+                { "tipe": "paragraph", "text": "Bagi dengan $-2$, tanda berbalik:" },
+                { "tipe": "formula_block", "latex": "x \\geq -3" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b04-s2-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Saat membagi kedua ruas pertidaksamaan dengan bilangan negatif, tanda harus dibalik.",
+              "jawaban": true,
+              "pembahasan": "Benar — ini sifat penting pertidaksamaan. <b>BENAR</b>."
+            },
+            {
+              "id": "10-spl-b04-s2-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Selesaikan $-3x > 9$. Nilai $x$ ... (< tulis tanda > atau <, tanpa spasi dengan angka). Contoh: x<5",
+              "jawaban": "x<-3",
+              "pembahasan": "Bagi dengan $-3$, tanda berbalik: $x < -3$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Notasi Interval",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Solusi pertidaksamaan biasanya ditulis dalam bentuk <b>interval</b>:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$x > 3$ → $(3, +\\infty)$",
+                "$x \\geq 3$ → $[3, +\\infty)$",
+                "$x < 3$ → $(-\\infty, 3)$",
+                "$x \\leq 3$ → $(-\\infty, 3]$",
+                "$2 < x \\leq 5$ → $(2, 5]$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kurung buka $( )$ untuk tanda ketat ($<, >$), kurung tutup $[ ]$ untuk tanda longgar ($\\leq, \\geq$)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b04-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Notasi interval dari $x > 5$ adalah...",
+              "pilihan": ["$(5, +\\infty)$", "$[5, +\\infty)$", "$(-\\infty, 5)$", "$(-\\infty, 5]$"],
+              "jawaban": 0,
+              "pembahasan": "$x > 5$ → kurung buka → $(5, +\\infty)$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Pertidaksamaan Ganda",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Pertidaksamaan ganda berbentuk $a < \\text{ekspresi} < b$. Selesaikan dengan melakukan operasi pada <b>ketiga ruas</b>."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Selesaikan $-1 < 2x + 3 \\leq 7$." },
+                { "tipe": "paragraph", "text": "Kurangi ketiga ruas dengan 3:" },
+                { "tipe": "formula_block", "latex": "-4 < 2x \\leq 4" },
+                { "tipe": "paragraph", "text": "Bagi ketiga ruas dengan 2:" },
+                { "tipe": "formula_block", "latex": "-2 < x \\leq 2" },
+                { "tipe": "paragraph", "text": "Solusi: $(-2, 2]$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b04-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dari $-2 < x \\leq 2$, nilai $x$ bulat terbesar = ... (tulis angka saja)",
+              "jawaban": "2",
+              "pembahasan": "$x \\leq 2$ dan $x > -2$ → bilangan bulat terbesar = 2."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-spl-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Selesaikan $3x - 6 < 9$.",
+              "pilihan": ["$x < 5$", "$x > 5$", "$x < 3$", "$x > 3$"],
+              "jawaban": 0,
+              "pembahasan": "$3x < 15 \\Rightarrow x < 5$."
+            },
+            {
+              "id": "10-spl-b04-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Notasi interval untuk $x \\geq 5$ adalah $[5, +\\infty)$.",
+              "jawaban": true,
+              "pembahasan": "$\\geq$ → kurung tutup → $[5, +\\infty)$. <b>BENAR</b>."
+            },
+            {
+              "id": "10-spl-b04-s5-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Selesaikan $2x + 4 > 10$. Nilai $x$ > ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$2x > 6 \\Rightarrow x > 3$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-spl-bab-05",
+      "nomor": 5,
+      "judul": "Sistem Pertidaksamaan Linear Dua Variabel",
+      "deskripsi": "Daerah penyelesaian dan grafiknya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu SPtLDV?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)</b> adalah kumpulan dua atau lebih pertidaksamaan linear dengan dua variabel. Solusinya bukan titik, melainkan <b>daerah</b> di bidang kartesius yang memenuhi semua pertidaksamaan."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\begin{cases} a_1 x + b_1 y \\leq c_1 \\\\ a_2 x + b_2 y \\geq c_2 \\end{cases}"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b05-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Solusi SPtLDV berbentuk...",
+              "pilihan": ["Titik", "Garis", "Daerah", "Angka tunggal"],
+              "jawaban": 2,
+              "pembahasan": "Solusi SPtLDV = <b>daerah</b> penyelesaian di bidang kartesius."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Cara Menggambar Daerah Penyelesaian",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "Ubah pertidaksamaan menjadi persamaan (ganti $\\leq$ atau $\\geq$ dengan $=$)",
+                "Gambar garis — cari titik potong sumbu X dan sumbu Y",
+                "Pilih <b>titik uji</b> (mis. $(0,0)$ atau $(1,1)$)",
+                "Substitusi titik uji: jika memenuhi → arsir daerah yang memuat titik uji"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Garis <b>penuh</b> untuk tanda $\\leq, \\geq$. Garis <b>putus-putus</b> untuk tanda $<, >$."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/sistem-persamaan-linear/sptldv-daerah.png",
+              "caption": "Contoh daerah penyelesaian: $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b05-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Garis untuk pertidaksamaan $2x + y < 5$ digambar...",
+              "pilihan": ["Garis penuh", "Garis putus-putus", "Garis tebal", "Tidak digambar"],
+              "jawaban": 1,
+              "pembahasan": "Tanda $<$ → garis <b>putus-putus</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Titik Uji",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Titik uji</b> adalah titik sembarang untuk mengecek di mana letak daerah penyelesaian. Kita <b>bebas memilih titik mana saja</b> yang tidak terletak tepat di garis batas."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Titik $(0,0)$ sering dipilih karena paling simpel, tapi titik lain seperti $(1,1)$ juga sah."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Titik Uji (1, 1)",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan daerah penyelesaian $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$." },
+                { "tipe": "paragraph", "text": "Garis $x + y = 4$ memotong sumbu X di $(4,0)$ dan sumbu Y di $(0,4)$." },
+                { "tipe": "paragraph", "text": "Pilih titik uji $(1,1)$:" },
+                { "tipe": "formula_block", "latex": "1 + 1 = 2 \\leq 4 \\quad \\checkmark" },
+                { "tipe": "paragraph", "text": "Karena memenuhi, daerah yang memuat $(1,1)$ adalah daerah penyelesaian. Ditambah kuadran I ($x \\geq 0, y \\geq 0$), daerah = segitiga dengan titik sudut $(0,0)$, $(4,0)$, $(0,4)$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b05-s3-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Titik uji untuk pertidaksamaan harus selalu $(0,0)$.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Titik uji bisa sembarang titik yang tidak terletak di garis batas. $(0,0)$ hanya yang paling praktis."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Model Program Linear",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Model Kue",
+              "konten": [
+                { "tipe": "paragraph", "text": "Pedagang punya dua jenis kue. Kue A butuh 200g tepung + 100g gula. Kue B butuh 100g tepung + 200g gula. Persediaan: 4kg tepung & 4kg gula." },
+                { "tipe": "paragraph", "text": "Misal $x$ = jumlah kue A, $y$ = jumlah kue B (dalam satuan 100g)." },
+                { "tipe": "formula_block", "latex": "\\begin{cases} 2x + y \\leq 40 \\\\ x + 2y \\leq 40 \\\\ x \\geq 0 \\\\ y \\geq 0 \\end{cases}" },
+                { "tipe": "paragraph", "text": "(konversi: 4 kg = 40 × 100 gram)" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b05-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "4 kg = ... × 100 gram (tulis angka saja)",
+              "jawaban": "40",
+              "pembahasan": "1 kg = 10 × 100 gram, jadi 4 kg = 40 × 100 gram."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-spl-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "SPtLDV sering digunakan untuk...",
+              "pilihan": ["Menyusun SPLDV", "Program linear (optimasi)", "Menghitung peluang", "Menentukan gradien"],
+              "jawaban": 1,
+              "pembahasan": "SPtLDV biasanya dipakai di <b>program linear</b> (optimasi)."
+            },
+            {
+              "id": "10-spl-b05-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Daerah penyelesaian $x + y \\leq 4$, $x \\geq 0$, $y \\geq 0$ memiliki titik sudut...",
+              "pilihan": [
+                "$(0,0), (4,0), (0,4)$",
+                "$(0,0), (2,2), (4,4)$",
+                "$(0,4), (4,0), (4,4)$",
+                "Hanya $(0,0)$"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Segitiga dengan titik sudut $(0,0)$, $(4,0)$, $(0,4)$."
+            },
+            {
+              "id": "10-spl-b05-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada SPtLDV, titik uji hanya perlu dilakukan sekali untuk setiap garis.",
+              "jawaban": true,
+              "pembahasan": "Benar — hasil uji di satu titik berlaku untuk seluruh daerah di sisi yang sama. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-spl-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi dalam Kehidupan Nyata",
+      "deskripsi": "Penerapan sistem persamaan dan pertidaksamaan",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Mengapa Penting?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sistem persamaan linear adalah salah satu alat paling praktis dalam matematika. Banyak masalah nyata bisa diselesaikan dengan memodelkannya sebagai SPLDV atau SPLTV."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🛒 <b>Masalah belanja</b> — menentukan harga satuan",
+                "🧪 <b>Masalah campuran</b> — mencampur larutan berbeda konsentrasi",
+                "🚗 <b>Masalah kecepatan</b> — kapan dan di mana bertemu",
+                "🏭 <b>Optimasi produksi</b> — program linear"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Masalah Campuran",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Campur Larutan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Berapa liter larutan 20% dan 50% garam untuk mendapat 30 liter larutan 30%?" },
+                { "tipe": "paragraph", "text": "Misal $x$ = volume larutan 20%, $y$ = volume larutan 50%." },
+                { "tipe": "formula_block", "latex": "\\begin{cases} x + y = 30 \\\\ 0{,}2x + 0{,}5y = 9 \\end{cases}" },
+                { "tipe": "paragraph", "text": "Kalikan persamaan kedua dengan 10: $2x + 5y = 90$." },
+                { "tipe": "paragraph", "text": "Substitusi $x = 30 - y$:" },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 2(30 - y) + 5y &= 90 \\\\ 3y &= 30 \\\\ y &= 10 \\end{aligned}" },
+                { "tipe": "formula_block", "latex": "x = 30 - 10 = 20" },
+                { "tipe": "paragraph", "text": "Jadi: 20 liter larutan 20% + 10 liter larutan 50%." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b06-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dari sistem $x + y = 30$ dan $y = 10$, nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "20",
+              "pembahasan": "$x = 30 - 10 = 20$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Masalah Kecepatan",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Dua Kendaraan Berpapasan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Andi & Budi berangkat dari dua kota berjarak 300 km. Andi 60 km/jam, Budi 40 km/jam. Kapan mereka bertemu?" },
+                { "tipe": "paragraph", "text": "Misal $t$ = waktu bertemu." },
+                { "tipe": "formula_block", "latex": "60t + 40t = 300" },
+                { "tipe": "formula_block", "latex": "100t = 300 \\Rightarrow t = 3 \\text{ jam}" },
+                { "tipe": "paragraph", "text": "Mereka bertemu setelah <b>3 jam</b>, di titik $60 \\times 3 = 180$ km dari posisi Andi." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b06-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jarak total 300 km. Kecepatan total 100 km/jam. Waktu bertemu = ... jam (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$t = 300 / 100 = 3$ jam."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Optimasi Sederhana",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Keuntungan Toko Roti",
+              "konten": [
+                { "tipe": "paragraph", "text": "Toko roti: roti A butuh 2 jam fermentasi, roti B butuh 1 jam. Tersedia 8 jam. Roti A untung Rp3.000, roti B untung Rp2.000. Minimal 2 roti B." },
+                { "tipe": "paragraph", "text": "Model: maksimumkan $L = 3000x + 2000y$ dengan kendala:" },
+                { "tipe": "formula_block", "latex": "\\begin{cases} 2x + y \\leq 8 \\\\ y \\geq 2 \\\\ x \\geq 0 \\\\ y \\geq 0 \\end{cases}" },
+                { "tipe": "paragraph", "text": "Cek titik sudut:" },
+                { "tipe": "formula_block", "latex": "L(0, 2) = 4000, \\quad L(3, 2) = 13000" },
+                { "tipe": "paragraph", "text": "Keuntungan maksimum: <b>3 roti A dan 2 roti B</b> = Rp13.000." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b06-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $L = 3000x + 2000y$, $x = 3$, $y = 2$, nilai $L$ (dalam rupiah, tulis angka saja tanpa titik) = ...",
+              "jawaban": "13000",
+              "pembahasan": "$L = 3000(3) + 2000(2) = 9000 + 4000 = 13000$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham aplikasi sistem persamaan linear."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-spl-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Masalah campuran dua larutan biasanya diselesaikan dengan...",
+              "pilihan": ["SPLDV", "SPtLDV", "Peluang", "Turunan"],
+              "jawaban": 0,
+              "pembahasan": "Masalah campuran → 2 kondisi (total volume + total zat) → <b>SPLDV</b>."
+            },
+            {
+              "id": "10-spl-b06-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Program linear menggunakan konsep SPtLDV untuk optimasi.",
+              "jawaban": true,
+              "pembahasan": "Benar — program linear berbasis SPtLDV untuk memaksimalkan/meminimalkan fungsi objektif. <b>BENAR</b>."
+            },
+            {
+              "id": "10-spl-b06-s5-q3",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua kendaraan berjarak 240 km. Kecepatan 60 & 60 km/jam. Waktu bertemu...",
+              "pilihan": ["1 jam", "2 jam", "3 jam", "4 jam"],
+              "jawaban": 1,
+              "pembahasan": "$60t + 60t = 240 \\Rightarrow 120t = 240 \\Rightarrow t = 2$ jam."
+            },
+            {
+              "id": "10-spl-b06-s5-q4",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika toko untung Rp5.000 per roti A dan berhasil menjual 4 roti A, total untung dari roti A = ... (tulis angka saja tanpa titik)",
+              "jawaban": "20000",
+              "pembahasan": "$4 \\times 5000 = 20000$."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
