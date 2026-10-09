@@ -1,0 +1,1182 @@
+{
+  "kelas": 10,
+  "kategori": "Peluang",
+  "emoji": "🎲",
+  "warna": "#00BCD4",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "10-plg-bab-01",
+      "nomor": 1,
+      "judul": "Ruang Sampel dan Kejadian",
+      "deskripsi": "Konsep dasar percobaan, ruang sampel, dan titik sampel",
+      "total_step": 4,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Percobaan?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dalam statistika dan peluang, <b>percobaan</b> adalah kegiatan yang dilakukan untuk mengamati hasil tertentu. Contohnya: melempar koin, melempar dadu, atau mengambil bola dari kotak."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Setiap percobaan punya <b>hasil</b> yang bisa bermacam-macam. Nah, kumpulan semua hasil yang mungkin inilah yang disebut <b>ruang sampel</b>."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Percobaan</b> — kegiatan yang menghasilkan hasil tertentu",
+                "<b>Titik sampel</b> — satu hasil tunggal dari percobaan",
+                "<b>Ruang sampel ($S$)</b> — himpunan semua titik sampel",
+                "<b>Kejadian ($A$)</b> — himpunan bagian dari ruang sampel"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kumpulan semua hasil yang mungkin dari suatu percobaan disebut...",
+              "pilihan": ["Titik sampel", "Ruang sampel", "Kejadian", "Peluang"],
+              "jawaban": 1,
+              "pembahasan": "Kumpulan semua hasil yang mungkin disebut <b>ruang sampel</b> (biasanya dilambangkan $S$)."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Notasi dan Istilah Penting",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dalam peluang, kita sering pakai notasi berikut:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$S$ = ruang sampel",
+                "$n(S)$ = banyaknya titik sampel di ruang sampel",
+                "$A$ = kejadian yang diamati",
+                "$n(A)$ = banyaknya titik sampel di kejadian $A$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Konsep ini penting karena hampir semua soal peluang menggunakan notasi ini."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Notasi $n(S)$ menyatakan...",
+              "pilihan": [
+                "Banyak titik sampel ruang sampel",
+                "Nilai peluang kejadian",
+                "Jumlah kejadian",
+                "Total percobaan"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$n(S)$ = banyaknya titik sampel di ruang sampel $S$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Contoh Ruang Sampel",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "1. Melempar Satu Koin"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Hasilnya hanya <b>Angka (A)</b> atau <b>Gambar (G)</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S = \\{A, G\\}, \\quad n(S) = 2"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "2. Melempar Satu Dadu"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S = \\{1, 2, 3, 4, 5, 6\\}, \\quad n(S) = 6"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "3. Melempar Dua Koin Sekaligus"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S = \\{AA, AG, GA, GG\\}, \\quad n(S) = 4"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "4. Melempar Dua Dadu Sekaligus"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Total $6 \\times 6 = 36$ kemungkinan. Ruang sampelnya disusun dalam tabel:"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/peluang/ruang-sampel-dua-dadu.png",
+              "caption": "Tabel ruang sampel pelemparan dua dadu — total 36 titik sampel",
+              "width": "full"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Bola dalam Kantong",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kantong berisi 3 bola: Merah (M), Kuning (K), Hijau (H). Tentukan ruang sampel dan $n(S)$." },
+                { "tipe": "formula_block", "latex": "S = \\{M, K, H\\}, \\quad n(S) = 3" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b01-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sebuah dadu dilempar sekali. Nilai $n(S)$ = ... (tulis angka saja)",
+              "jawaban": "6",
+              "pembahasan": "Dadu punya 6 sisi (1 sampai 6), jadi $n(S) = 6$."
+            },
+            {
+              "id": "10-plg-b01-s3-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua koin dilempar bersamaan. Berapa banyak titik sampel di ruang sampel?",
+              "pilihan": ["2", "3", "4", "6"],
+              "jawaban": 2,
+              "pembahasan": "$S = \\{AA, AG, GA, GG\\}$, jadi $n(S) = 4$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-plg-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Himpunan bagian dari ruang sampel disebut...",
+              "pilihan": ["Titik sampel", "Percobaan", "Kejadian", "Ruang sampel"],
+              "jawaban": 2,
+              "pembahasan": "<b>Kejadian</b> adalah himpunan bagian dari ruang sampel."
+            },
+            {
+              "id": "10-plg-b01-s4-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada pelemparan dua dadu sekaligus, $n(S) = 12$.",
+              "jawaban": false,
+              "pembahasan": "$n(S) = 6 \\times 6 = 36$. Pernyataan <b>SALAH</b>."
+            },
+            {
+              "id": "10-plg-b01-s4-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sebuah kantong berisi 5 bola berbeda warna. Nilai $n(S)$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "Ada 5 bola berbeda, jadi $n(S) = 5$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-02",
+      "nomor": 2,
+      "judul": "Peluang Suatu Kejadian",
+      "deskripsi": "Menghitung peluang dengan pendekatan klasik",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Peluang?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Peluang</b> (probabilitas) adalah ukuran seberapa besar kemungkinan suatu kejadian terjadi. Nilainya selalu antara <b>0 dan 1</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A) = \\dfrac{n(A)}{n(S)}"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$P(A)$ = peluang kejadian $A$",
+                "$n(A)$ = banyak titik sampel kejadian $A$",
+                "$n(S)$ = banyak titik sampel ruang sampel"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus peluang suatu kejadian $A$ adalah...",
+              "pilihan": ["$P(A) = n(S) / n(A)$", "$P(A) = n(A) / n(S)$", "$P(A) = n(A) \\times n(S)$", "$P(A) = n(A) + n(S)$"],
+              "jawaban": 1,
+              "pembahasan": "Rumus peluang: $P(A) = \\dfrac{n(A)}{n(S)}$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rentang Nilai Peluang",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Nilai peluang selalu berada di antara 0 dan 1:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "0 \\leq P(A) \\leq 1"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$P(A) = 0$ → kejadian <b>mustahil</b> terjadi",
+                "$P(A) = 1$ → kejadian <b>pasti</b> terjadi",
+                "$P(A) = 0{,}5$ → kejadian <b>seimbang</b> (mis. lempar koin)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b02-s2-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Nilai peluang bisa lebih besar dari 1.",
+              "jawaban": false,
+              "pembahasan": "Peluang selalu $0 \\leq P(A) \\leq 1$. Tidak mungkin lebih dari 1. Pernyataan <b>SALAH</b>."
+            },
+            {
+              "id": "10-plg-b02-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $P(A) = 0$, maka kejadian $A$...",
+              "pilihan": ["Pasti terjadi", "Mustahil terjadi", "Seimbang", "Tidak diketahui"],
+              "jawaban": 1,
+              "pembahasan": "$P(A) = 0$ berarti kejadian <b>mustahil</b> terjadi."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Peluang Komplemen",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Komplemen kejadian $A$ (ditulis $A'$ atau $A^c$) adalah kejadian <b>selain</b> $A$. Hubungannya:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A') = 1 - P(A)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ini sangat berguna kalau menghitung $P(A')$ lebih mudah daripada $P(A)$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Peluang Bukan 6",
+              "konten": [
+                { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Berapa peluang muncul <b>bukan</b> angka 6?" },
+                { "tipe": "paragraph", "text": "Peluang muncul angka 6: $P(\\text{6}) = \\dfrac{1}{6}$." },
+                { "tipe": "formula_block", "latex": "P(\\text{bukan 6}) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b02-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sebuah koin dilempar. Peluang muncul Angka = 1/2. Peluang muncul Gambar = ... (tulis dalam bentuk desimal, contoh 0,5)",
+              "jawaban": "0,5",
+              "pembahasan": "$P(\\text{Gambar}) = 1 - P(\\text{Angka}) = 1 - 0{,}5 = 0{,}5$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Frekuensi Harapan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau percobaan dilakukan $n$ kali, banyaknya kejadian $A$ yang diharapkan muncul disebut <b>frekuensi harapan</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "F_h(A) = n \\times P(A)"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Dadu 120 Kali",
+              "konten": [
+                { "tipe": "paragraph", "text": "Sebuah dadu dilempar 120 kali. Berapa frekuensi harapan muncul angka ganjil?" },
+                { "tipe": "paragraph", "text": "Angka ganjil: 1, 3, 5 → $P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}$." },
+                { "tipe": "formula_block", "latex": "F_h = 120 \\times \\dfrac{1}{2} = 60" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b02-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sebuah koin dilempar 100 kali. Frekuensi harapan muncul Angka = ... (tulis angka saja)",
+              "jawaban": "50",
+              "pembahasan": "$F_h = 100 \\times \\dfrac{1}{2} = 50$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-plg-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sebuah dadu dilempar sekali. Peluang muncul angka prima adalah...",
+              "pilihan": ["1/6", "1/3", "1/2", "2/3"],
+              "jawaban": 2,
+              "pembahasan": "Angka prima pada dadu: 2, 3, 5 → $n(A) = 3$. $P(A) = 3/6 = 1/2$."
+            },
+            {
+              "id": "10-plg-b02-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Kantong berisi 5 merah, 3 biru, 2 hijau. Peluang terambil biru adalah...",
+              "pilihan": ["3/10", "1/3", "3/5", "1/10"],
+              "jawaban": 0,
+              "pembahasan": "Total = 10. Biru = 3. $P = 3/10$."
+            },
+            {
+              "id": "10-plg-b02-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Jika $P(A) = 0{,}7$, maka $P(A') = 0{,}3$.",
+              "jawaban": true,
+              "pembahasan": "$P(A') = 1 - 0{,}7 = 0{,}3$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-03",
+      "nomor": 3,
+      "judul": "Kejadian Majemuk: Gabungan",
+      "deskripsi": "Peluang kejadian A atau B (union)",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Kejadian Saling Lepas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dua kejadian $A$ dan $B$ disebut <b>saling lepas</b> jika keduanya <b>tidak bisa terjadi bersamaan</b>. Artinya, $A \\cap B = \\emptyset$."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/peluang/saling-lepas.png",
+              "caption": "Diagram Venn dua kejadian saling lepas — tidak ada irisan antara $A$ dan $B$",
+              "width": "medium"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: pada pelemparan dadu, kejadian \"muncul angka 1\" dan \"muncul angka 6\" saling lepas."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A \\cup B) = P(A) + P(B)"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua kejadian disebut saling lepas jika...",
+              "pilihan": [
+                "Bisa terjadi bersamaan",
+                "Tidak bisa terjadi bersamaan",
+                "Saling mempengaruhi",
+                "Selalu terjadi"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Saling lepas = <b>tidak bisa terjadi bersamaan</b> (irisan kosong)."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rumus Saling Lepas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk dua kejadian saling lepas, peluang gabungannya adalah:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A \\cup B) = P(A) + P(B)"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Dadu 2 atau 5",
+              "konten": [
+                { "tipe": "paragraph", "text": "Sebuah dadu dilempar. Berapa peluang muncul angka 2 atau 5?" },
+                { "tipe": "paragraph", "text": "\"Muncul 2\" dan \"muncul 5\" saling lepas." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} P(2 \\cup 5) &= \\dfrac{1}{6} + \\dfrac{1}{6} \\\\ &= \\dfrac{2}{6} = \\dfrac{1}{3} \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b03-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sebuah dadu dilempar. Peluang muncul angka 1 atau 3 (tulis dalam bentuk desimal, contoh 0,333)",
+              "jawaban": "0,333",
+              "pembahasan": "$P = 1/6 + 1/6 = 2/6 = 1/3 \\approx 0{,}333$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Kejadian Tidak Saling Lepas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau $A$ dan $B$ <b>bisa terjadi bersamaan</b>, maka ada irisan $A \\cap B$. Rumusnya:"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/peluang/tidak-saling-lepas.png",
+              "caption": "Diagram Venn dua kejadian tidak saling lepas — ada irisan",
+              "width": "medium"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kenapa dikurangi? Karena irisan $A \\cap B$ terhitung <b>dua kali</b> (sekali di $P(A)$, sekali di $P(B)$), jadi perlu dikurangi sekali."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b03-s3-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada kejadian tidak saling lepas, kita kurangi $P(A \\cap B)$ karena irisan terhitung dua kali.",
+              "jawaban": true,
+              "pembahasan": "Benar — irisan dihitung sekali di $P(A)$ dan sekali lagi di $P(B)$, jadi harus dikurangi sekali. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Tidak Saling Lepas",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Prima atau Genap",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dadu dilempar. Peluang muncul angka prima atau genap?" },
+                { "tipe": "paragraph", "text": "Prima: $A = \\{2, 3, 5\\}$, $P(A) = \\dfrac{3}{6}$." },
+                { "tipe": "paragraph", "text": "Genap: $B = \\{2, 4, 6\\}$, $P(B) = \\dfrac{3}{6}$." },
+                { "tipe": "paragraph", "text": "Irisan: $A \\cap B = \\{2\\}$, $P(A \\cap B) = \\dfrac{1}{6}$." },
+                { "tipe": "formula_block", "latex": "P(A \\cup B) = \\dfrac{3}{6} + \\dfrac{3}{6} - \\dfrac{1}{6} = \\dfrac{5}{6}" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Kartu Bridge",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dari 52 kartu bridge, diambil 1 acak. Peluang terambil kartu As atau kartu hati?" },
+                { "tipe": "paragraph", "text": "$P(\\text{As}) = \\dfrac{4}{52}$, $P(\\text{Hati}) = \\dfrac{13}{52}$, $P(\\text{As} \\cap \\text{Hati}) = \\dfrac{1}{52}$." },
+                { "tipe": "formula_block", "latex": "P(A \\cup H) = \\dfrac{4}{52} + \\dfrac{13}{52} - \\dfrac{1}{52} = \\dfrac{16}{52} = \\dfrac{4}{13}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b03-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dadu dilempar. Peluang muncul angka ganjil atau angka prima adalah...",
+              "pilihan": ["1/2", "2/3", "5/6", "1"],
+              "jawaban": 1,
+              "pembahasan": "Ganjil: {1,3,5}, Prima: {2,3,5}. Irisan: {3,5} = 2/6. $P = 3/6 + 3/6 - 2/6 = 4/6 = 2/3$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-plg-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada kejadian saling lepas, peluang gabungannya adalah...",
+              "pilihan": [
+                "$P(A) \\times P(B)$",
+                "$P(A) + P(B)$",
+                "$P(A) - P(B)$",
+                "$P(A) + P(B) - P(A \\cap B)$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Saling lepas → tidak ada irisan → $P(A \\cup B) = P(A) + P(B)$."
+            },
+            {
+              "id": "10-plg-b03-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada kejadian tidak saling lepas, rumusnya $P(A \\cup B) = P(A) + P(B)$.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Untuk tidak saling lepas, kurangi $P(A \\cap B)$."
+            },
+            {
+              "id": "10-plg-b03-s5-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dadu dilempar. Peluang muncul angka 3 atau 5 (dalam bentuk desimal, contoh 0,333)",
+              "jawaban": "0,333",
+              "pembahasan": "$P = 1/6 + 1/6 = 2/6 = 1/3 \\approx 0{,}333$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-04",
+      "nomor": 4,
+      "judul": "Kejadian Majemuk: Irisan (Saling Bebas)",
+      "deskripsi": "Peluang kejadian A dan B (intersection)",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Kejadian Saling Bebas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dua kejadian $A$ dan $B$ disebut <b>saling bebas</b> (independen) jika terjadinya salah satu <b>tidak mempengaruhi</b> peluang yang lain."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: melempar dua koin berbeda. Hasil koin pertama tidak mempengaruhi koin kedua."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A \\cap B) = P(A) \\times P(B)"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua kejadian disebut saling bebas jika...",
+              "pilihan": [
+                "Keduanya tidak bisa terjadi bersamaan",
+                "Salah satunya mempengaruhi yang lain",
+                "Salah satunya tidak mempengaruhi yang lain",
+                "Keduanya pasti terjadi"
+              ],
+              "jawaban": 2,
+              "pembahasan": "Saling bebas = terjadinya satu kejadian <b>tidak mempengaruhi</b> peluang kejadian lain."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rumus Saling Bebas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk dua kejadian saling bebas, peluang irisannya adalah:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A \\cap B) = P(A) \\times P(B)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Cara cek: dua kejadian saling bebas jika dan hanya jika rumus di atas berlaku."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Dua Koin",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dua koin dilempar bersamaan. Berapa peluang keduanya muncul Gambar (G)?" },
+                { "tipe": "paragraph", "text": "Kejadian saling bebas (koin 1 tidak mempengaruhi koin 2)." },
+                { "tipe": "formula_block", "latex": "P(G_1 \\cap G_2) = \\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b04-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dua dadu dilempar. Peluang muncul angka 3 pada dadu pertama DAN angka 5 pada dadu kedua = 1/... (tulis angka saja)",
+              "jawaban": "36",
+              "pembahasan": "$P = \\dfrac{1}{6} \\times \\dfrac{1}{6} = \\dfrac{1}{36}$. Jadi penyebutnya 36."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Kejadian Tidak Saling Bebas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau $A$ mempengaruhi $B$, kita pakai <b>peluang bersyarat</b>:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A \\cap B) = P(A) \\times P(B | A)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "$P(B|A)$ dibaca \"peluang $B$ terjadi, jika diketahui $A$ sudah terjadi\"."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kasus umum: pengambilan <b>tanpa pengembalian</b> (jumlah objek berkurang tiap pengambilan)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b04-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pengambilan bola <b>tanpa pengembalian</b> termasuk kejadian...",
+              "pilihan": ["Saling bebas", "Tidak saling bebas", "Saling lepas", "Mustahil"],
+              "jawaban": 1,
+              "pembahasan": "Tanpa pengembalian → jumlah objek berubah tiap pengambilan → <b>tidak saling bebas</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Peluang Bersyarat",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Lampu Rusak",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kotak berisi 10 lampu, 3 rusak. Diambil 2 satu per satu tanpa pengembalian. Peluang keduanya rusak?" },
+                { "tipe": "paragraph", "text": "Lampu pertama rusak: $P(A) = \\dfrac{3}{10}$." },
+                { "tipe": "paragraph", "text": "Setelah 1 rusak diambil, sisa 2 rusak dari 9: $P(B|A) = \\dfrac{2}{9}$." },
+                { "tipe": "formula_block", "latex": "P(A \\cap B) = \\dfrac{3}{10} \\times \\dfrac{2}{9} = \\dfrac{6}{90} = \\dfrac{1}{15}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b04-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kantong berisi 4 merah & 6 biru. Diambil 2 bola tanpa pengembalian. Peluang keduanya merah = .../... (tulis dalam desimal, 2 angka di belakang koma)",
+              "jawaban": "0,13",
+              "pembahasan": "$P = \\dfrac{4}{10} \\times \\dfrac{3}{9} = \\dfrac{12}{90} = \\dfrac{2}{15} \\approx 0{,}13$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-plg-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus untuk dua kejadian saling bebas adalah...",
+              "pilihan": [
+                "$P(A \\cap B) = P(A) + P(B)$",
+                "$P(A \\cap B) = P(A) \\times P(B)$",
+                "$P(A \\cap B) = P(A) - P(B)$",
+                "$P(A \\cap B) = 1 - P(A) - P(B)$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Saling bebas → $P(A \\cap B) = P(A) \\times P(B)$."
+            },
+            {
+              "id": "10-plg-b04-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Dua koin yang dilempar bersamaan adalah contoh kejadian saling bebas.",
+              "jawaban": true,
+              "pembahasan": "Koin pertama tidak mempengaruhi hasil koin kedua → <b>saling bebas</b>. <b>BENAR</b>."
+            },
+            {
+              "id": "10-plg-b04-s5-q3",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua dadu dilempar. Peluang kedua dadu menunjukkan angka 6 adalah...",
+              "pilihan": ["1/12", "1/6", "1/36", "1/3"],
+              "jawaban": 2,
+              "pembahasan": "$P = \\dfrac{1}{6} \\times \\dfrac{1}{6} = \\dfrac{1}{36}$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-05",
+      "nomor": 5,
+      "judul": "Permutasi dan Kombinasi",
+      "deskripsi": "Menghitung banyak susunan dan pilihan",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Aturan Perkalian & Faktorial",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Aturan perkalian</b>: kalau kejadian 1 punya $m$ cara dan kejadian 2 punya $n$ cara, total cara melakukan keduanya adalah $m \\times n$."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Total cara} = m \\times n"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Faktorial</b> dari $n$ (ditulis $n!$) adalah hasil kali $n$ dengan semua bilangan bulat positif di bawahnya."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "n! = n \\times (n-1) \\times (n-2) \\times \\cdots \\times 1"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$. Dan $0! = 1$ (sudah didefinisikan)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b05-s1-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Nilai dari $4!$ = ... (tulis angka saja)",
+              "jawaban": "24",
+              "pembahasan": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Permutasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Permutasi</b> adalah susunan objek dengan <b>memperhatikan urutan</b>. Contoh: susunan juara 1, 2, 3 — (A, B, C) berbeda dengan (B, A, C)."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(n, r) = \\dfrac{n!}{(n-r)!}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Rumus ini dipakai kalau kita memilih $r$ objek dari $n$ objek, dengan urutan penting."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Ketua, Sekretaris, Bendahara",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dari 5 siswa akan dipilih 3 untuk Ketua, Sekretaris, dan Bendahara." },
+                { "tipe": "formula_block", "latex": "P(5, 3) = \\dfrac{5!}{2!} = \\dfrac{120}{2} = 60" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b05-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$P(4, 2)$ = ... (tulis angka saja)",
+              "jawaban": "12",
+              "pembahasan": "$P(4, 2) = \\dfrac{4!}{2!} = \\dfrac{24}{2} = 12$."
+            },
+            {
+              "id": "10-plg-b05-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Berapa banyak susunan 3 huruf berbeda dari {A, B, C, D}?",
+              "pilihan": ["12", "24", "6", "4"],
+              "jawaban": 1,
+              "pembahasan": "$P(4, 3) = \\dfrac{4!}{1!} = 24$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Permutasi Khusus",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Permutasi dengan Unsur Sama"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalau ada objek yang sama, bagi dengan faktorial jumlah objek yang sama:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P = \\dfrac{n!}{k_1! \\cdot k_2! \\cdots k_m!}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: susunan huruf dari \"BUKU\" (ada 2 huruf U):"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P = \\dfrac{4!}{2!} = \\dfrac{24}{2} = 12"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Permutasi Siklis (Melingkar)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalau objek disusun melingkar:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P_{\\text{siklis}} = (n - 1)!"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b05-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "5 orang duduk melingkar. Banyak susunan = ... (tulis angka saja)",
+              "jawaban": "24",
+              "pembahasan": "$P_{\\text{siklis}} = (5-1)! = 4! = 24$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Kombinasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Kombinasi</b> adalah pemilihan objek <b>tanpa memperhatikan urutan</b>. Contoh: memilih 3 orang dari 5 untuk jadi tim — (A, B, C) sama saja dengan (B, A, C)."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "C(n, r) = \\dfrac{n!}{r! (n-r)!}"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Perbedaan Permutasi vs Kombinasi"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Permutasi</b> — urutan <b>penting</b> (mis. susunan juara, password)",
+                "<b>Kombinasi</b> — urutan <b>tidak penting</b> (mis. memilih tim, memilih menu)"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Memilih Tim",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dari 7 siswa akan dipilih 3 untuk lomba. Berapa cara memilihnya?" },
+                { "tipe": "formula_block", "latex": "C(7, 3) = \\dfrac{7!}{3! \\cdot 4!} = \\dfrac{7 \\times 6 \\times 5}{6} = 35" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b05-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$C(5, 2)$ = ... (tulis angka saja)",
+              "jawaban": "10",
+              "pembahasan": "$C(5, 2) = \\dfrac{5!}{2! \\cdot 3!} = \\dfrac{120}{2 \\times 6} = 10$."
+            },
+            {
+              "id": "10-plg-b05-s4-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang menggunakan KOMBINASI?",
+              "pilihan": [
+                "Menyusun password 4 digit",
+                "Memilih 3 anggota tim dari 10 orang",
+                "Menyusun urutan juara 1-2-3",
+                "Menyusun urutan duduk"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Memilih anggota tim → urutan tidak penting → <b>kombinasi</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 5",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Faktorial: $n! = n \\times (n-1) \\times \\cdots \\times 1$",
+                "Permutasi (urutan penting): $P(n, r) = \\dfrac{n!}{(n-r)!}$",
+                "Kombinasi (urutan tidak penting): $C(n, r) = \\dfrac{n!}{r!(n-r)!}$",
+                "Permutasi siklis: $(n-1)!$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b05-s5-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada kombinasi, urutan objek tidak penting.",
+              "jawaban": true,
+              "pembahasan": "Kombinasi = pemilihan tanpa memperhatikan urutan. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-plg-b05-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang menghasilkan nilai LEBIH BESAR: $P(5, 2)$ atau $C(5, 2)$?",
+              "pilihan": ["$P(5, 2)$", "$C(5, 2)$", "Sama", "Tidak bisa ditentukan"],
+              "jawaban": 0,
+              "pembahasan": "$P(5, 2) = 20$, $C(5, 2) = 10$. Jadi $P > C$ karena permutasi memperhatikan urutan."
+            },
+            {
+              "id": "10-plg-b05-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$P(5, 3)$ = ... (tulis angka saja)",
+              "jawaban": "60",
+              "pembahasan": "$P(5, 3) = \\dfrac{5!}{2!} = \\dfrac{120}{2} = 60$."
+            },
+            {
+              "id": "10-plg-b05-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$0! = 1$.",
+              "jawaban": true,
+              "pembahasan": "Berdasarkan definisi, $0! = 1$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-plg-bab-06",
+      "nomor": 6,
+      "judul": "Peluang Kejadian Majemuk Kompleks",
+      "deskripsi": "Menggabungkan konsep peluang, permutasi, dan kombinasi",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Peluang dengan Kombinasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sering kali menghitung $n(S)$ dan $n(A)$ lebih mudah dengan <b>kombinasi</b> — khususnya ketika kita mengambil beberapa objek sekaligus tanpa memperhatikan urutan."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(A) = \\dfrac{C(n_A, r_A)}{C(n_S, r_S)}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Pola: hitung total cara (ruang sampel) dengan kombinasi, hitung cara kejadian yang diinginkan dengan kombinasi, lalu bagi."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b06-s1-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$C(10, 3)$ = ... (tulis angka saja)",
+              "jawaban": "120",
+              "pembahasan": "$C(10, 3) = \\dfrac{10!}{3! \\cdot 7!} = \\dfrac{10 \\times 9 \\times 8}{6} = 120$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Peluang Bersyarat",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau $B$ hanya terjadi <b>setelah</b> $A$ terjadi, kita gunakan rumus peluang bersyarat:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "P(B|A) = \\dfrac{P(A \\cap B)}{P(A)}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Rumus ini penting untuk soal bertingkat, misal \"ambil bola dua kali tanpa pengembalian\"."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Suka Matematika & Fisika",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dari 20 siswa, 12 suka matematika, 8 suka fisika, dan 5 suka keduanya. Berapa peluang siswa suka matematika jika diketahui suka fisika?" },
+                { "tipe": "formula_block", "latex": "P(M|F) = \\dfrac{P(M \\cap F)}{P(F)} = \\dfrac{5/20}{8/20} = \\dfrac{5}{8}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b06-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus peluang bersyarat $P(B|A)$ adalah...",
+              "pilihan": [
+                "$\\dfrac{P(A \\cap B)}{P(A)}$",
+                "$\\dfrac{P(A \\cup B)}{P(A)}$",
+                "$P(A) \\times P(B)$",
+                "$P(A) + P(B)$"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$P(B|A) = \\dfrac{P(A \\cap B)}{P(A)}$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Contoh Kombinasi + Peluang",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Ambil 3 Bola Sekaligus",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kotak berisi 4 bola merah dan 6 bola biru. Diambil 3 bola sekaligus. Peluang terambil 2 merah dan 1 biru?" },
+                { "tipe": "paragraph", "text": "Total cara ambil 3 dari 10: $n(S) = C(10, 3) = 120$." },
+                { "tipe": "paragraph", "text": "Cara ambil 2 merah dari 4: $C(4, 2) = 6$." },
+                { "tipe": "paragraph", "text": "Cara ambil 1 biru dari 6: $C(6, 1) = 6$." },
+                { "tipe": "paragraph", "text": "Total cara ambil 2 merah + 1 biru: $n(A) = 6 \\times 6 = 36$." },
+                { "tipe": "formula_block", "latex": "P(A) = \\dfrac{36}{120} = \\dfrac{3}{10}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b06-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kotak berisi 5 merah & 5 biru. Diambil 2 sekaligus. Peluang keduanya merah (dalam desimal, 2 angka di belakang koma)",
+              "jawaban": "0,22",
+              "pembahasan": "$n(S) = C(10, 2) = 45$. $n(A) = C(5, 2) = 10$. $P = 10/45 = 2/9 \\approx 0{,}22$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Peluang Bertingkat",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk kejadian bertingkat <b>tanpa pengembalian</b>, kita hitung peluang setiap tahap lalu kalikan."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Ambil 2 Bola Berurutan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kantong berisi 5 merah dan 3 putih. Diambil 2 bola satu per satu tanpa pengembalian. Peluang bola pertama merah dan bola kedua putih?" },
+                { "tipe": "paragraph", "text": "Peluang bola pertama merah: $P(M_1) = \\dfrac{5}{8}$." },
+                { "tipe": "paragraph", "text": "Setelah 1 merah diambil, sisa 4 merah, 3 putih dari 7 bola: $P(P_2|M_1) = \\dfrac{3}{7}$." },
+                { "tipe": "formula_block", "latex": "P(M_1 \\cap P_2) = \\dfrac{5}{8} \\times \\dfrac{3}{7} = \\dfrac{15}{56}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b06-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kantong berisi 3 merah & 7 putih. Diambil 2 tanpa pengembalian. Peluang keduanya putih = .../... (tulis desimal, 2 angka di belakang koma)",
+              "jawaban": "0,47",
+              "pembahasan": "$P = \\dfrac{7}{10} \\times \\dfrac{6}{9} = \\dfrac{42}{90} = \\dfrac{7}{15} \\approx 0{,}47$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham peluang kejadian majemuk kompleks."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-plg-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kotak berisi 6 merah & 4 biru. Diambil 2 sekaligus. Peluang keduanya merah adalah...",
+              "pilihan": ["1/3", "1/5", "2/5", "3/5"],
+              "jawaban": 0,
+              "pembahasan": "$n(S) = C(10, 2) = 45$. $n(A) = C(6, 2) = 15$. $P = 15/45 = 1/3$."
+            },
+            {
+              "id": "10-plg-b06-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kantong berisi 4 merah & 6 hijau. Diambil 2 tanpa pengembalian. Peluang keduanya hijau (dalam desimal, 2 angka di belakang koma)",
+              "jawaban": "0,33",
+              "pembahasan": "$P = \\dfrac{6}{10} \\times \\dfrac{5}{9} = \\dfrac{30}{90} = \\dfrac{1}{3} \\approx 0{,}33$."
+            },
+            {
+              "id": "10-plg-b06-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Peluang bersyarat $P(B|A)$ hanya bisa dipakai jika $A$ dan $B$ saling bebas.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Peluang bersyarat justru dipakai saat $A$ dan $B$ <b>tidak</b> saling bebas (saling mempengaruhi)."
+            },
+            {
+              "id": "10-plg-b06-s5-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Dari 50 siswa, 30 suka musik, 20 suka olahraga, 10 suka keduanya. Peluang suka musik jika diketahui suka olahraga?",
+              "pilihan": ["1/5", "1/3", "1/2", "2/3"],
+              "jawaban": 2,
+              "pembahasan": "$P(M|O) = \\dfrac{P(M \\cap O)}{P(O)} = \\dfrac{10/50}{20/50} = \\dfrac{10}{20} = \\dfrac{1}{2}$."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
