@@ -523,6 +523,559 @@
           ]
         }
       ]
+    },
+    {
+      "id": "10-fk-bab-04",
+      "nomor": 4,
+      "judul": "Diskriminan dan Jenis Akar",
+      "deskripsi": "Menentukan banyak titik potong sumbu X melalui diskriminan",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Diskriminan?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Diskriminan</b> adalah nilai yang menentukan <b>jenis akar</b> persamaan kuadrat, dan secara geometris menentukan <b>berapa kali parabola memotong sumbu X</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "D = b^2 - 4ac"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Diskriminan biasanya dilambangkan dengan $D$ atau $\\Delta$ (delta). Nilai inilah yang menentukan apakah persamaan kuadrat punya 2 akar, 1 akar, atau tidak punya akar real."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b04-s1-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Rumus diskriminan dari $ax^2 + bx + c$ adalah $D = b^2 - 4\\, ...$ (isikan 1 huruf koefisien)",
+              "jawaban": "ac",
+              "pembahasan": "Rumus diskriminan: $D = b^2 - 4ac$. Bagian yang kurang adalah $ac$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Tiga Kasus Diskriminan",
+          "konten": [
+            {
+              "tipe": "image",
+              "src": "images/kelas10/fungsi-kuadrat/diskriminan.png",
+              "caption": "Tiga kasus diskriminan: $D > 0$ (parabola memotong sumbu X di 2 titik), $D = 0$ (menyinggung sumbu X di 1 titik), $D < 0$ (tidak memotong sumbu X)",
+              "width": "full"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$D > 0$ → punya <b>dua akar real berbeda</b>, parabola memotong sumbu X di <b>2 titik</b>",
+                "$D = 0$ → punya <b>satu akar kembar</b>, parabola <b>menyinggung</b> sumbu X di <b>1 titik</b>",
+                "$D < 0$ → <b>tidak punya akar real</b>, parabola <b>tidak memotong</b> sumbu X"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b04-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $D = 0$, berapa titik potong parabola dengan sumbu X?",
+              "pilihan": ["0 titik", "1 titik", "2 titik", "3 titik"],
+              "jawaban": 1,
+              "pembahasan": "$D = 0$ → akar kembar → parabola <b>menyinggung</b> sumbu X di <b>1 titik</b>."
+            },
+            {
+              "id": "10-fk-b04-s2-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Jika $D < 0$, parabola memotong sumbu X di 2 titik berbeda.",
+              "jawaban": false,
+              "pembahasan": "Kalau $D < 0$, parabola <b>TIDAK memotong</b> sumbu X (akarnya imajiner). Pernyataan <b>SALAH</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Rumus Akar-Akar Persamaan Kuadrat",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk mencari titik potong sumbu X (akar-akar persamaan), gunakan rumus abc:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x_{1,2} = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Perhatikan bagian $\\sqrt{b^2 - 4ac}$ di dalamnya. Kalau isinya negatif (yaitu $D < 0$), akarnya tidak real. Inilah mengapa diskriminan sangat penting!"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: D > 0",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan akar dari $x^2 - 5x + 6 = 0$." },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} D &= (-5)^2 - 4(1)(6) = 1 \\\\ x_{1,2} &= \\dfrac{5 \\pm \\sqrt{1}}{2} = \\dfrac{5 \\pm 1}{2} \\\\ x_1 &= 3, \\quad x_2 = 2 \\end{aligned}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b04-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Akar-akar dari $x^2 - 7x + 12 = 0$ adalah...",
+              "pilihan": ["$x_1 = 3,\\, x_2 = 4$", "$x_1 = 2,\\, x_2 = 6$", "$x_1 = -3,\\, x_2 = -4$", "$x_1 = 1,\\, x_2 = 12$"],
+              "jawaban": 0,
+              "pembahasan": "Faktorkan: $(x - 3)(x - 4) = 0$. Jadi $x_1 = 3$ dan $x_2 = 4$."
+            },
+            {
+              "id": "10-fk-b04-s3-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Hitung $D$ dari $2x^2 + 3x - 5 = 0$. Nilai $D$ = ... (tulis angka saja)",
+              "jawaban": "49",
+              "pembahasan": "$D = b^2 - 4ac = 3^2 - 4(2)(-5) = 9 + 40 = 49$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Hubungan Diskriminan dengan Grafik",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$D > 0$ dan $a > 0$ → parabola terbuka ke atas, memotong sumbu X di 2 titik",
+                "$D > 0$ dan $a < 0$ → parabola terbuka ke bawah, memotong sumbu X di 2 titik",
+                "$D = 0$ → parabola menyinggung sumbu X (titik puncak tepat di sumbu X)",
+                "$D < 0$ → parabola mengambang di atas atau di bawah sumbu X (tidak menyentuh)"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh Analisis",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan jenis akar dari $x^2 + x + 1 = 0$." },
+                { "tipe": "formula_block", "latex": "D = 1^2 - 4(1)(1) = -3 < 0" },
+                { "tipe": "paragraph", "text": "Karena $D < 0$, persamaan <b>tidak punya akar real</b>. Parabola mengambang di atas sumbu X." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b04-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $D = 25$ dan $a > 0$, grafik fungsi kuadrat akan...",
+              "pilihan": [
+                "Memotong sumbu X di 2 titik, terbuka ke atas",
+                "Menyinggung sumbu X, terbuka ke atas",
+                "Tidak memotong sumbu X, terbuka ke atas",
+                "Memotong sumbu X di 2 titik, terbuka ke bawah"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$D = 25 > 0$ → memotong sumbu X di 2 titik. $a > 0$ → terbuka ke atas. Jawaban: <b>A</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-fk-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jenis akar dari $x^2 - 4x + 4 = 0$ adalah...",
+              "pilihan": ["Dua akar berbeda", "Satu akar kembar", "Tidak punya akar real", "Tak hingga akar"],
+              "jawaban": 1,
+              "pembahasan": "$D = (-4)^2 - 4(1)(4) = 16 - 16 = 0$. Karena $D = 0$ → <b>satu akar kembar</b> ($x = 2$)."
+            },
+            {
+              "id": "10-fk-b04-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Persamaan $x^2 + 4 = 0$ tidak punya akar real.",
+              "jawaban": true,
+              "pembahasan": "$D = 0^2 - 4(1)(4) = -16 < 0$ → tidak ada akar real. Pernyataan <b>BENAR</b>."
+            },
+            {
+              "id": "10-fk-b04-s5-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Akar-akar dari $x^2 - 9 = 0$. Nilai akar positif terbesar = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$x^2 = 9 \\Rightarrow x = \\pm 3$. Akar positif terbesar = 3."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-fk-bab-05",
+      "nomor": 5,
+      "judul": "Menyusun Fungsi Kuadrat",
+      "deskripsi": "Membuat persamaan kuadrat dari kondisi yang diketahui",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Kapan Menyusun Fungsi Kuadrat?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kadang kita tidak diberi fungsi kuadrat secara langsung, melainkan hanya beberapa <b>informasi</b> tentang grafiknya. Dari informasi itu, kita bisa menyusun kembali fungsi kuadratnya."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ada 3 skenario umum tergantung informasi yang diketahui. Yuk kita pelajari satu per satu!"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Skenario 1: Diketahui Titik Puncak",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau diketahui <b>titik puncak</b> $(x_p, y_p)$ dan satu titik lain, gunakan <b>bentuk puncak</b>:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f(x) = a(x - x_p)^2 + y_p"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Substitusi titik lain yang diketahui untuk mencari nilai $a$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan fungsi kuadrat yang titik puncaknya $(2, 1)$ dan melewati titik $(0, 5)$." },
+                { "tipe": "formula_block", "latex": "f(x) = a(x - 2)^2 + 1" },
+                { "tipe": "paragraph", "text": "Substitusi $(0, 5)$:" },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 5 &= a(0-2)^2 + 1 \\\\ 4 &= 4a \\\\ a &= 1 \\end{aligned}" },
+                { "tipe": "paragraph", "text": "Jadi fungsi: $f(x) = (x-2)^2 + 1 = x^2 - 4x + 5$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b05-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Fungsi kuadrat dengan puncak $(1, 3)$ dan lewat titik $(0, 4)$ berbentuk $f(x) = a(x-1)^2 + 3$. Nilai $a$ = ... (tulis angka saja)",
+              "jawaban": "1",
+              "pembahasan": "Substitusi $(0, 4)$: $4 = a(0-1)^2 + 3 \\Rightarrow 1 = a \\cdot 1 \\Rightarrow a = 1$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Skenario 2: Diketahui Titik Potong Sumbu X",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau diketahui <b>dua titik potong sumbu X</b> yaitu $x_1$ dan $x_2$, gunakan <b>bentuk faktor</b>:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f(x) = a(x - x_1)(x - x_2)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Substitusi titik lain (biasanya titik potong sumbu Y) untuk mencari nilai $a$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan fungsi kuadrat yang memotong sumbu X di $x = 1$ dan $x = 3$, serta melewati titik $(0, 3)$." },
+                { "tipe": "formula_block", "latex": "f(x) = a(x - 1)(x - 3)" },
+                { "tipe": "formula_block", "latex": "\\begin{aligned} 3 &= a(0-1)(0-3) \\\\ 3 &= 3a \\\\ a &= 1 \\end{aligned}" },
+                { "tipe": "paragraph", "text": "Jadi fungsi: $f(x) = (x-1)(x-3) = x^2 - 4x + 3$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b05-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Fungsi kuadrat memotong sumbu X di $x = -1$ dan $x = 4$, melalui $(0, -4)$. Nilai $a$ adalah...",
+              "pilihan": ["-1", "1", "2", "-2"],
+              "jawaban": 1,
+              "pembahasan": "$f(x) = a(x+1)(x-4)$. Substitusi $(0, -4)$: $-4 = a(1)(-4) \\Rightarrow a = 1$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Skenario 3: Diketahui Tiga Titik Sembarang",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau diketahui <b>tiga titik sembarang</b> (bukan puncak, bukan sumbu X), gunakan <b>bentuk umum</b>:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f(x) = ax^2 + bx + c"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Substitusi ketiga titik ke bentuk umum, sehingga diperoleh sistem persamaan linear tiga variabel (SPLTV). Selesaikan untuk mencari $a$, $b$, dan $c$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan fungsi kuadrat yang melalui $(0, 1)$, $(1, 4)$, dan $(2, 9)$." },
+                { "tipe": "paragraph", "text": "Misalkan $f(x) = ax^2 + bx + c$. Substitusi ketiga titik:" },
+                { "tipe": "list", "ordered": false, "items": [
+                  "Dari $(0, 1)$: $c = 1$",
+                  "Dari $(1, 4)$: $a + b + 1 = 4 \\Rightarrow a + b = 3$",
+                  "Dari $(2, 9)$: $4a + 2b + 1 = 9 \\Rightarrow 4a + 2b = 8 \\Rightarrow 2a + b = 4$"
+                ]},
+                { "tipe": "paragraph", "text": "Kurangkan kedua persamaan: $(2a + b) - (a + b) = 4 - 3 \\Rightarrow a = 1$." },
+                { "tipe": "paragraph", "text": "Substitusi: $1 + b = 3 \\Rightarrow b = 2$." },
+                { "tipe": "paragraph", "text": "Jadi fungsi: $f(x) = x^2 + 2x + 1$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b05-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Fungsi kuadrat melalui $(0, 0)$, $(1, 1)$, dan $(2, 4)$. Fungsi tersebut adalah...",
+              "pilihan": ["$f(x) = x^2$", "$f(x) = 2x^2$", "$f(x) = x^2 + 1$", "$f(x) = x^2 - x$"],
+              "jawaban": 0,
+              "pembahasan": "Cek: $f(0) = 0$ ✓, $f(1) = 1$ ✓, $f(2) = 4$ ✓. Jawaban: $f(x) = x^2$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-fk-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Diketahui titik puncak $(-1, 2)$ dan melalui titik $(0, 3)$. Fungsi kuadratnya...",
+              "pilihan": [
+                "$f(x) = (x+1)^2 + 2$",
+                "$f(x) = (x-1)^2 + 2$",
+                "$f(x) = -(x+1)^2 + 2$",
+                "$f(x) = 2(x+1)^2 + 2$"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$f(x) = a(x+1)^2 + 2$. Substitusi $(0, 3)$: $3 = a + 2 \\Rightarrow a = 1$. Jadi $f(x) = (x+1)^2 + 2$."
+            },
+            {
+              "id": "10-fk-b05-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Jika diketahui titik puncak dan satu titik lain, kita bisa memakai bentuk puncak $f(x) = a(x-x_p)^2 + y_p$.",
+              "jawaban": true,
+              "pembahasan": "Bentuk puncak dirancang khusus untuk kasus ini. Substitusi titik lain untuk mencari $a$. <b>BENAR</b>."
+            },
+            {
+              "id": "10-fk-b05-s5-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Fungsi kuadrat memotong sumbu X di $x = 2$ dan $x = 5$. Bentuk faktornya $f(x) = a(x-2)(x-...)$. Isi angka yang kosong.",
+              "jawaban": "5",
+              "pembahasan": "Bentuk faktor: $f(x) = a(x - x_1)(x - x_2) = a(x-2)(x-5)$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-fk-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Fungsi Kuadrat",
+      "deskripsi": "Penerapan dalam soal cerita dan kehidupan nyata",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Fungsi Kuadrat di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Fungsi kuadrat bukan cuma teori di buku. Banyak fenomena nyata mengikuti pola parabola — mulai dari lintasan bola, bentuk jembatan, sampai keuntungan maksimum dalam bisnis."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "⚽ <b>Lintasan bola</b> yang dilempar",
+                "💰 <b>Keuntungan maksimum</b> dalam bisnis",
+                "📐 <b>Luas maksimum</b> dengan keliling tetap",
+                "🌉 <b>Bentuk jembatan</b> dan bangunan"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Konsep Nilai Maksimum & Minimum",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dalam soal cerita, biasanya kita ditanya <b>nilai maksimum</b> atau <b>minimum</b>. Nilai ini terjadi tepat di <b>titik puncak</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x_{optimal} = -\\dfrac{b}{2a}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalau $a > 0$ → nilai <b>minimum</b> (parabola terbuka ke atas). Kalau $a < 0$ → nilai <b>maksimum</b> (terbuka ke bawah)."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Lintasan Bola",
+              "konten": [
+                { "tipe": "paragraph", "text": "Sebuah bola dilempar. Ketinggiannya (meter) setelah $t$ detik: $h(t) = -5t^2 + 20t$. Berapa ketinggian maksimum bola?" },
+                { "tipe": "paragraph", "text": "$a = -5$, $b = 20$. Karena $a < 0$, ada maksimum." },
+                { "tipe": "formula_block", "latex": "t = -\\dfrac{20}{2(-5)} = 2 \\text{ detik}" },
+                { "tipe": "formula_block", "latex": "h(2) = -5(4) + 40 = 20 \\text{ meter}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b06-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Fungsi $L(x) = -2x^2 + 40x - 100$ punya nilai maksimum saat $x$ = ...",
+              "pilihan": ["5", "10", "15", "20"],
+              "jawaban": 1,
+              "pembahasan": "$x = -\\dfrac{40}{2(-2)} = \\dfrac{40}{4} = 10$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Langkah Menghadapi Soal Cerita",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "<b>Baca soal teliti</b> — apa yang diketahui dan ditanya?",
+                "<b>Misalkan variabel</b> — biasanya $x$ untuk yang mau dioptimalkan",
+                "<b>Susun model matematika</b> — ubah kalimat jadi fungsi kuadrat",
+                "<b>Tentukan apakah maksimum atau minimum</b> — lihat tanda $a$",
+                "<b>Hitung dengan rumus titik puncak</b> — $x = -\\dfrac{b}{2a}$",
+                "<b>Cek jawaban</b> — apakah masuk akal dengan konteks soal?"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Luas Maksimum",
+              "konten": [
+                { "tipe": "paragraph", "text": "Petani punya pagar 40 m untuk kandang persegi panjang. Berapa ukuran agar luas maksimum?" },
+                { "tipe": "paragraph", "text": "Misal panjang = $x$, lebar = $y$. Keliling: $2x + 2y = 40 \\Rightarrow y = 20 - x$." },
+                { "tipe": "formula_block", "latex": "L(x) = x \\cdot y = x(20 - x) = 20x - x^2" },
+                { "tipe": "formula_block", "latex": "x = -\\dfrac{20}{2(-1)} = 10" },
+                { "tipe": "paragraph", "text": "$y = 20 - 10 = 10$. Jadi kandang harus persegi $10 \\times 10$ m dengan luas maksimum $100$ m²." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b06-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sebuah bola dilempar dengan $h(t) = -5t^2 + 30t$. Berapa ketinggian maksimum (meter)? Tulis angka saja.",
+              "jawaban": "45",
+              "pembahasan": "$t = -\\dfrac{30}{2(-5)} = 3$. $h(3) = -5(9) + 90 = -45 + 90 = 45$ meter."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 6",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Fungsi kuadrat sangat berguna untuk <b>mengoptimalkan</b> sesuatu (maksimum atau minimum)",
+                "Nilai optimal terjadi di titik puncak: $x = -\\dfrac{b}{2a}$",
+                "Aplikasi: lintasan bola, keuntungan bisnis, luas maksimum, bentuk jembatan",
+                "Tips: baca teliti → misalkan variabel → susun model → hitung titik puncak → cek jawaban"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b06-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Keuntungan $L(x) = -x^2 + 60x - 500$. Berapa keuntungan maksimumnya?",
+              "pilihan": ["400", "400 ribu", "600", "300"],
+              "jawaban": 0,
+              "pembahasan": "$x = -\\dfrac{60}{2(-1)} = 30$. $L(30) = -(900) + 1800 - 500 = 400$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham penerapan fungsi kuadrat."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bola dilempar dengan $h(t) = -4t^2 + 16t$. Ketinggian maksimumnya...",
+              "pilihan": ["8 meter", "12 meter", "16 meter", "20 meter"],
+              "jawaban": 2,
+              "pembahasan": "$t = -\\dfrac{16}{2(-4)} = 2$. $h(2) = -4(4) + 32 = -16 + 32 = 16$ meter."
+            },
+            {
+              "id": "10-fk-b06-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Kandang dengan pagar 60 m. Agar luas maksimum, panjang $x$ = ... (tulis angka saja)",
+              "jawaban": "15",
+              "pembahasan": "Luas $L(x) = x(30 - x)$, optimum di $x = 15$ (persegi $15 \\times 15$ m)."
+            },
+            {
+              "id": "10-fk-b06-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Nilai maksimum fungsi kuadrat terjadi saat $a > 0$.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Nilai maksimum terjadi saat $a < 0$ (parabola terbuka ke bawah). Kalau $a > 0$ → nilai minimum."
+            },
+            {
+              "id": "10-fk-b06-s5-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Total keuntungan toko $L(x) = -3x^2 + 90x$. Harga optimal $x$ = ...",
+              "pilihan": ["10", "15", "20", "30"],
+              "jawaban": 1,
+              "pembahasan": "$x = -\\dfrac{90}{2(-3)} = \\dfrac{90}{6} = 15$."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
