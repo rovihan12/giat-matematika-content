@@ -1,8 +1,8 @@
 {
   "kelas": 10,
   "kategori": "Fungsi Kuadrat",
-  "emoji": "📊",
-  "warna": "#5B8DEF",
+  "emoji": "📉",
+  "warna": "#3F51B5",
   "versi": "2.0.0",
   "bab": [
     {
@@ -10,97 +10,49 @@
       "nomor": 1,
       "judul": "Pengertian Fungsi Kuadrat",
       "deskripsi": "Definisi, bentuk umum, dan contoh fungsi kuadrat",
-      "total_step": 5,
+      "total_step": 4,
       "langkah": [
         {
           "step": 1,
           "tipe": "intro",
-          "judul": "Selamat Datang di Fungsi Kuadrat! 🎯",
-          "konten": [
-            {
-              "tipe": "paragraph",
-              "text": "Hai! Di bab ini kita akan belajar tentang **fungsi kuadrat** — salah satu konsep paling penting di matematika SMA."
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Fungsi kuadrat muncul di banyak tempat: dari **lintasan bola basket** yang kamu lempar, bentuk **jembatan gantung**, sampai **keuntungan maksimum** sebuah bisnis."
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Di bab ini, kamu akan belajar:"
-            },
-            {
-              "tipe": "list",
-              "ordered": false,
-              "items": [
-                "Apa itu fungsi kuadrat",
-                "Bentuk umum $f(x) = ax^2 + bx + c$",
-                "Peran koefisien $a$, $b$, dan $c$"
-              ]
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Yuk mulai! 🚀"
-            }
-          ],
-          "latihan": []
-        },
-        {
-          "step": 2,
-          "tipe": "konsep",
           "judul": "Apa Itu Fungsi Kuadrat?",
           "konten": [
             {
-              "tipe": "heading",
-              "level": 2,
-              "text": "Definisi"
+              "tipe": "paragraph",
+              "text": "Fungsi kuadrat adalah fungsi polinomial yang memiliki <b>pangkat tertinggi 2</b> pada variabelnya. Kata \"kuadrat\" berasal dari bahasa Latin <i>quadratus</i> yang berarti \"berpangkat dua\"."
             },
             {
               "tipe": "paragraph",
-              "text": "Fungsi kuadrat adalah fungsi polinomial yang memiliki **pangkat tertinggi 2** pada variabelnya."
+              "text": "Bentuk paling sederhana dari fungsi kuadrat adalah $y = x^2$. Jika kita gambar, kurvanya melengkung seperti huruf U — inilah yang disebut <b>parabola</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f(x) = ax^2 + bx + c, \\quad a \\neq 0"
             },
             {
               "tipe": "paragraph",
-              "text": "Kata \"kuadrat\" berasal dari bahasa Latin *quadratus* yang berarti \"berpangkat dua\"."
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Bentuk paling sederhana dari fungsi kuadrat adalah $y = x^2$. Jika digambar, kurvanya melengkung seperti huruf U — inilah yang disebut **parabola**."
+              "text": "Keterangan: $a$ = koefisien kuadrat, $b$ = koefisien linear, $c$ = konstanta."
             }
           ],
           "latihan": [
             {
-              "id": "10-fk-b01-s2-q1",
+              "id": "10-fk-b01-s1-q1",
               "tipe": "pilihan",
               "pertanyaan": "Manakah yang merupakan fungsi kuadrat?",
-              "pilihan": [
-                "$f(x) = 2x + 3$",
-                "$f(x) = x^2 - 4x + 1$",
-                "$f(x) = \\dfrac{1}{x}$",
-                "$f(x) = \\sqrt{x}$"
-              ],
+              "pilihan": ["$f(x) = 2x + 3$", "$f(x) = x^2 - 4x + 1$", "$f(x) = x^3 + 2$", "$f(x) = \\dfrac{1}{x}$"],
               "jawaban": 1,
-              "pembahasan": "Fungsi kuadrat punya **pangkat tertinggi 2** pada variabelnya. Pilihan B ($f(x) = x^2 - 4x + 1$) adalah fungsi kuadrat karena variabel $x$ berpangkat 2. Pilihan A adalah fungsi linear (pangkat 1), C dan D bukan polinomial."
-            },
-            {
-              "id": "10-fk-b01-s2-q2",
-              "tipe": "benar_salah",
-              "pertanyaan": "Fungsi $f(x) = 3x^2 - 2x$ adalah fungsi kuadrat.",
-              "pilihan": [],
-              "jawaban": true,
-              "pembahasan": "Benar! Meskipun tidak ada konstanta (yang artinya $c = 0$), fungsi ini tetap fungsi kuadrat karena pangkat tertinggi variabelnya adalah 2."
+              "pembahasan": "Fungsi kuadrat punya pangkat tertinggi 2. Jawaban: $f(x) = x^2 - 4x + 1$."
             }
           ]
         },
         {
-          "step": 3,
+          "step": 2,
           "tipe": "konsep",
-          "judul": "Bentuk Umum Fungsi Kuadrat",
+          "judul": "Bentuk Umum dan Syaratnya",
           "konten": [
             {
-              "tipe": "heading",
-              "level": 2,
-              "text": "Bentuk Umum"
+              "tipe": "paragraph",
+              "text": "Bentuk umum fungsi kuadrat adalah:"
             },
             {
               "tipe": "formula_block",
@@ -108,65 +60,46 @@
             },
             {
               "tipe": "paragraph",
-              "text": "dengan syarat **$a \\neq 0$**."
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Kalau $a = 0$, maka fungsinya bukan kuadrat lagi, melainkan **fungsi linear**."
-            },
-            {
-              "tipe": "heading",
-              "level": 3,
-              "text": "Peran Masing-masing Koefisien"
+              "text": "dengan syarat $a \\neq 0$. Kalau $a = 0$, maka fungsinya bukan kuadrat lagi, melainkan fungsi linear."
             },
             {
               "tipe": "list",
               "ordered": false,
               "items": [
-                "**$a$** = koefisien kuadrat → menentukan **arah buka parabola** (dan lebar/sempitnya)",
-                "**$b$** = koefisien linear → mempengaruhi **posisi sumbu simetri**",
-                "**$c$** = konstanta → **titik potong dengan sumbu Y**"
+                "$a$ = koefisien kuadrat (menentukan arah buka parabola)",
+                "$b$ = koefisien linear (mempengaruhi posisi sumbu simetri)",
+                "$c$ = konstanta (titik potong dengan sumbu Y)"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Identifikasi Koefisien",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan nilai $a$, $b$, dan $c$ dari fungsi $f(x) = 3x^2 - 7x + 2$." },
+                { "tipe": "list", "ordered": false, "items": [
+                  "$a = 3$ (koefisien $x^2$)",
+                  "$b = -7$ (koefisien $x$)",
+                  "$c = 2$ (konstanta)"
+                ]}
               ]
             }
           ],
           "latihan": [
             {
-              "id": "10-fk-b01-s3-q1",
-              "tipe": "isi_kosong",
-              "pertanyaan": "Pada fungsi $f(x) = 5x^2 - 3x + 7$, berapakah nilai $b$?",
-              "pilihan": [],
-              "jawaban": "-3",
-              "pembahasan": "Bentuk umum: $f(x) = ax^2 + bx + c$. Bandingkan dengan $5x^2 - 3x + 7$: maka $a = 5$, $b = -3$, dan $c = 7$. Jadi nilai $b = -3$."
-            },
-            {
-              "id": "10-fk-b01-s3-q2",
+              "id": "10-fk-b01-s2-q1",
               "tipe": "pilihan",
-              "pertanyaan": "Pada fungsi $g(x) = -2x^2 + 4$, berapakah nilai $b$?",
-              "pilihan": [
-                "$b = -2$",
-                "$b = 4$",
-                "$b = 0$",
-                "$b = 2$"
-              ],
-              "jawaban": 2,
-              "pembahasan": "Fungsi $g(x) = -2x^2 + 4$ tidak punya suku dengan $x$. Artinya, koefisien $x$ adalah 0. Jadi $a = -2$, **$b = 0$**, $c = 4$."
+              "pertanyaan": "Nilai $a$, $b$, $c$ dari $f(x) = -2x^2 + 5x - 3$ berturut-turut adalah...",
+              "pilihan": ["-2, 5, -3", "2, 5, 3", "-2, -5, -3", "2, -5, 3"],
+              "jawaban": 0,
+              "pembahasan": "$a = -2$ (koefisien $x^2$), $b = 5$ (koefisien $x$), $c = -3$ (konstanta)."
             }
           ]
         },
         {
-          "step": 4,
+          "step": 3,
           "tipe": "konsep",
           "judul": "Contoh-Contoh Fungsi Kuadrat",
           "konten": [
-            {
-              "tipe": "heading",
-              "level": 2,
-              "text": "Berbagai Bentuk Fungsi Kuadrat"
-            },
-            {
-              "tipe": "paragraph",
-              "text": "Fungsi kuadrat bisa muncul dalam berbagai bentuk. Perhatikan contoh-contoh berikut:"
-            },
             {
               "tipe": "list",
               "ordered": true,
@@ -178,77 +111,416 @@
               ]
             },
             {
-              "tipe": "example",
-              "judul": "Contoh: Identifikasi Koefisien",
-              "konten": [
-                { "tipe": "paragraph", "text": "Tentukan nilai $a$, $b$, dan $c$ dari fungsi $f(x) = 3x^2 - 7x + 2$." },
-                { "tipe": "paragraph", "text": "**Penyelesaian:**" },
-                { "tipe": "paragraph", "text": "Bandingkan dengan bentuk umum $f(x) = ax^2 + bx + c$:" },
-                { "tipe": "list", "ordered": false, "items": [
-                  "$a = 3$ (koefisien $x^2$)",
-                  "$b = -7$ (koefisien $x$)",
-                  "$c = 2$ (konstanta)"
-                ]}
-              ]
+              "tipe": "paragraph",
+              "text": "Semua bentuk di atas adalah fungsi kuadrat karena variabel $x$ punya pangkat tertinggi 2."
             }
           ],
           "latihan": [
             {
-              "id": "10-fk-b01-s4-q1",
-              "tipe": "pilihan",
-              "pertanyaan": "Manakah yang **BUKAN** fungsi kuadrat?",
-              "pilihan": [
-                "$f(x) = x^2 + 1$",
-                "$f(x) = 3x^2$",
-                "$f(x) = -x^2 + 2x$",
-                "$f(x) = 2x + 5$"
-              ],
-              "jawaban": 3,
-              "pembahasan": "Fungsi $f(x) = 2x + 5$ punya pangkat tertinggi 1 — ini adalah **fungsi linear**, bukan fungsi kuadrat. Sisanya (A, B, C) semua punya pangkat tertinggi 2."
+              "id": "10-fk-b01-s3-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Fungsi $f(x) = 5x^2$ adalah fungsi kuadrat dengan $a = 5$, $b = 0$, $c = 0$.",
+              "jawaban": true,
+              "pembahasan": "Fungsi $5x^2$ sama dengan $5x^2 + 0x + 0$, jadi $a = 5$, $b = 0$, $c = 0$. Pernyataan <b>BENAR</b>."
             },
             {
-              "id": "10-fk-b01-s4-q2",
-              "tipe": "pilihan",
-              "pertanyaan": "Diketahui $h(x) = -4x^2 + x$. Berapakah nilai $c$?",
-              "pilihan": [
-                "$c = -4$",
-                "$c = 1$",
-                "$c = 0$",
-                "$c = -1$"
-              ],
-              "jawaban": 2,
-              "pembahasan": "Fungsi $h(x) = -4x^2 + x$ bisa ditulis ulang sebagai $-4x^2 + 1x + 0$. Jadi $a = -4$, $b = 1$, dan **$c = 0$** — tidak ada konstanta."
+              "id": "10-fk-b01-s3-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Pada fungsi $f(x) = 4x^2 - 9$, nilai $b$ adalah... (tulis angka saja)",
+              "jawaban": "0",
+              "pembahasan": "$4x^2 - 9$ sama dengan $4x^2 + 0x - 9$, jadi $b = 0$."
             }
           ]
         },
         {
-          "step": 5,
-          "tipe": "rangkuman",
-          "judul": "Rangkuman Bab 1",
+          "step": 4,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-fk-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Diketahui $f(x) = ax^2 + bx + c$ dengan $a = 0$. Fungsi ini disebut...",
+              "pilihan": ["Fungsi kuadrat", "Fungsi linear", "Fungsi konstan", "Bukan fungsi"],
+              "jawaban": 1,
+              "pembahasan": "Kalau $a = 0$, variabel $x$ pangkat 2 hilang → tinggal $bx + c$, yaitu <b>fungsi linear</b>."
+            },
+            {
+              "id": "10-fk-b01-s4-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Fungsi $f(x) = x^3 - 2x^2 + 1$ adalah fungsi kuadrat.",
+              "jawaban": false,
+              "pembahasan": "Fungsi ini punya pangkat tertinggi 3, jadi ini fungsi <b>kubik</b>, bukan kuadrat. Pernyataan <b>SALAH</b>."
+            },
+            {
+              "id": "10-fk-b01-s4-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Pada fungsi $f(x) = 7x^2 + 2x - 5$, nilai $c$ = ... (tulis angka saja)",
+              "jawaban": "-5",
+              "pembahasan": "$c$ adalah konstanta (suku tanpa variabel). Nilai $c = -5$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-fk-bab-02",
+      "nomor": 2,
+      "judul": "Grafik Fungsi Kuadrat",
+      "deskripsi": "Menggambar parabola dan memahami bentuknya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Kenalan dengan Parabola",
           "konten": [
             {
-              "tipe": "heading",
-              "level": 2,
-              "text": "Yang Sudah Kamu Pelajari"
+              "tipe": "paragraph",
+              "text": "Grafik fungsi kuadrat selalu berbentuk <b>parabola</b> — kurva mulus yang simetris seperti huruf U atau cermin terbalik."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Parabola punya ciri khas: simetris terhadap satu garis vertikal yang disebut <b>sumbu simetri</b>, dan punya satu titik puncak yang disebut <b>titik balik (vertex)</b>."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas10/fungsi-kuadrat/parabola-dasar.png",
+              "caption": "Grafik fungsi kuadrat $f(x) = x^2$ — parabola terbuka ke atas dengan titik puncak di $(0, 0)$. Garis putus-putus vertikal di $x = 0$ adalah sumbu simetri",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bentuk grafik fungsi kuadrat disebut...",
+              "pilihan": ["Garis lurus", "Parabola", "Hiperbola", "Lingkaran"],
+              "jawaban": 1,
+              "pembahasan": "Grafik fungsi kuadrat selalu berbentuk <b>parabola</b> (kurva seperti huruf U)."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Arah Buka Parabola",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Arah buka parabola ditentukan oleh nilai $a$:"
             },
             {
               "tipe": "list",
               "ordered": false,
               "items": [
-                "**Fungsi kuadrat** adalah fungsi dengan pangkat tertinggi 2",
-                "Bentuk umum: $f(x) = ax^2 + bx + c$ dengan syarat **$a \\neq 0$**",
-                "Grafiknya berbentuk **parabola** (kurva U)",
-                "**$a$** menentukan arah buka parabola",
-                "**$b$** mempengaruhi posisi sumbu simetri",
-                "**$c$** adalah titik potong dengan sumbu Y"
+                "Jika $a > 0$ → parabola <b>terbuka ke atas</b> (seperti senyum 🙂), punya titik <b>minimum</b>",
+                "Jika $a < 0$ → parabola <b>terbuka ke bawah</b> (seperti cemberut ☹️), punya titik <b>maksimum</b>"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "$f(x) = 2x^2 - 4x + 1$ → $a = 2 > 0$, jadi terbuka ke atas." },
+                { "tipe": "paragraph", "text": "$f(x) = -x^2 + 3x + 5$ → $a = -1 < 0$, jadi terbuka ke bawah." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b02-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Grafik $f(x) = -3x^2 + 2x + 1$ terbuka ke...",
+              "pilihan": ["Atas", "Bawah", "Kanan", "Kiri"],
+              "jawaban": 1,
+              "pembahasan": "$a = -3 < 0$, jadi parabola terbuka ke <b>bawah</b>."
+            },
+            {
+              "id": "10-fk-b02-s2-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Jika $a > 0$, parabola punya titik minimum (puncak di bawah).",
+              "jawaban": true,
+              "pembahasan": "$a > 0$ → terbuka ke atas → titik puncaknya paling rendah, yaitu <b>titik minimum</b>. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Pengaruh Nilai a terhadap Lebar Parabola",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$|a|$ besar (mis. $a = 3$) → parabola <b>sempit</b> dan <b>curam</b>",
+                "$|a|$ kecil (mis. $a = 0{,}5$) → parabola <b>lebar</b> dan <b>landai</b>",
+                "$|a| = 1$ → parabola standar"
               ]
             },
             {
               "tipe": "paragraph",
-              "text": "Di bab berikutnya, kita akan belajar **menggambar grafik** fungsi kuadrat. Sampai jumpa! 👋"
+              "text": "Nilai $c$ menentukan titik potong dengan sumbu Y: parabola selalu lewat titik $(0, c)$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "$f(x) = 5x^2$ (sempit) vs $g(x) = 0{,}3x^2$ (lebar)." }
+              ]
             }
           ],
-          "latihan": []
+          "latihan": [
+            {
+              "id": "10-fk-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah parabola yang paling sempit?",
+              "pilihan": ["$y = 0{,}5x^2$", "$y = x^2$", "$y = 2x^2$", "$y = 10x^2$"],
+              "jawaban": 3,
+              "pembahasan": "Semakin besar $|a|$, semakin sempit. $|10| = 10$ paling besar, jadi $y = 10x^2$ yang paling sempit."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Titik Potong Sumbu Koordinat",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Titik Potong Sumbu Y"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Substitusi $x = 0$ ke fungsi: $f(0) = a(0)^2 + b(0) + c = c$. Jadi titik potong sumbu Y selalu di $(0, c)$."
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Titik Potong Sumbu X"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Substitusi $y = 0$, selesaikan $ax^2 + bx + c = 0$. Solusinya bisa 0, 1, atau 2 titik tergantung diskriminan."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan titik potong sumbu Y dari $f(x) = x^2 - 4x + 3$." },
+                { "tipe": "paragraph", "text": "$f(0) = 3$. Jadi titik potong sumbu Y = $(0, 3)$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b02-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Fungsi $f(x) = 2x^2 - 3x + 7$. Titik potong sumbu Y ada di $(0, ...)$. Tulis nilai y-nya saja.",
+              "jawaban": "7",
+              "pembahasan": "Titik potong sumbu Y: $f(0) = 7$. Jadi titiknya $(0, 7)$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-fk-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Parabola $f(x) = -x^2 + 4$ memiliki titik puncak di $(0, 4)$. Titik ini adalah...",
+              "pilihan": ["Minimum", "Maksimum", "Sumbu X", "Titik asal"],
+              "jawaban": 1,
+              "pembahasan": "$a = -1 < 0$ → terbuka ke bawah → titik puncaknya <b>maksimum</b>."
+            },
+            {
+              "id": "10-fk-b02-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Titik potong sumbu Y dari $f(x) = ax^2 + bx + c$ selalu di $(0, c)$.",
+              "jawaban": true,
+              "pembahasan": "Substitusi $x = 0$: $f(0) = c$. Jadi titik potong sumbu Y di $(0, c)$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-fk-bab-03",
+      "nomor": 3,
+      "judul": "Titik Puncak dan Sumbu Simetri",
+      "deskripsi": "Cara menentukan titik balik dan sumbu simetri",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Sumbu Simetri",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sumbu simetri adalah garis vertikal yang membagi parabola menjadi dua bagian <b>kembar</b> (simetris). Semua titik di kiri dan kanan sumbu simetri punya bentuk cermin."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x = -\\dfrac{b}{2a}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Rumus ini berasal dari turunan fungsi kuadrat, tapi untuk SMA cukup dihafal saja."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b03-s1-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sumbu simetri $f(x) = x^2 - 8x + 10$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "4",
+              "pembahasan": "$x = -\\dfrac{b}{2a} = -\\dfrac{-8}{2 \\cdot 1} = 4$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Titik Puncak (Vertex)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Titik puncak adalah titik <b>tertinggi</b> (kalau parabola terbuka ke bawah) atau <b>terendah</b> (kalau terbuka ke atas). Titik ini terletak tepat di sumbu simetri."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x_p = -\\dfrac{b}{2a}"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "y_p = -\\dfrac{b^2 - 4ac}{4a} = -\\dfrac{D}{4a}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan $D = b^2 - 4ac$ adalah <b>diskriminan</b>."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Mencari Titik Puncak",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan titik puncak dari $f(x) = x^2 - 6x + 5$." },
+                { "tipe": "formula_block", "latex": "x_p = -\\dfrac{-6}{2 \\cdot 1} = 3" },
+                { "tipe": "formula_block", "latex": "y_p = f(3) = 3^2 - 6(3) + 5 = -4" },
+                { "tipe": "paragraph", "text": "Titik puncak = $(3, -4)$. Karena $a > 0$, ini titik <b>minimum</b>." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Titik puncak dari $f(x) = x^2 - 4x + 1$ adalah...",
+              "pilihan": ["(2, -3)", "(-2, -3)", "(2, 3)", "(-2, 3)"],
+              "jawaban": 0,
+              "pembahasan": "$x_p = -\\dfrac{-4}{2} = 2$. $y_p = f(2) = 4 - 8 + 1 = -3$. Jadi titik puncak $(2, -3)$."
+            },
+            {
+              "id": "10-fk-b03-s2-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Titik puncak $f(x) = x^2 - 10x + 20$. Nilai $x_p$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$x_p = -\\dfrac{-10}{2} = 5$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Bentuk Puncak Fungsi Kuadrat",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Fungsi kuadrat bisa juga ditulis dalam <b>bentuk puncak</b>:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f(x) = a(x - x_p)^2 + y_p"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Bentuk ini sangat berguna karena titik puncaknya langsung terbaca: $(x_p, y_p)$. Bentuk ini juga memudahkan saat menggambar grafik."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Ubah $f(x) = x^2 - 4x + 3$ ke bentuk puncak." },
+                { "tipe": "paragraph", "text": "Titik puncak: $x_p = 2$, $y_p = -1$." },
+                { "tipe": "formula_block", "latex": "f(x) = (x - 2)^2 - 1" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b03-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bentuk puncak dari $f(x) = x^2 + 6x + 5$ adalah...",
+              "pilihan": ["$(x + 3)^2 - 4$", "$(x - 3)^2 - 4$", "$(x + 3)^2 + 4$", "$(x - 3)^2 + 4$"],
+              "jawaban": 0,
+              "pembahasan": "$x_p = -3$, $y_p = 9 - 18 + 5 = -4$. Bentuk puncak: $(x + 3)^2 - 4$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Bab 3",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Sumbu simetri: $x = -\\dfrac{b}{2a}$",
+                "Titik puncak: $x_p = -\\dfrac{b}{2a}$, $y_p = f(x_p)$",
+                "Bentuk puncak: $f(x) = a(x - x_p)^2 + y_p$",
+                "$a > 0$ → titik puncak = minimum, $a < 0$ → titik puncak = maksimum"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "10-fk-b03-s4-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Titik puncak parabola selalu terletak di sumbu simetri.",
+              "jawaban": true,
+              "pembahasan": "Titik puncak secara definisi ada tepat di sumbu simetri (garis $x = -b/(2a)$). <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "10-fk-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Titik puncak $f(x) = -x^2 + 6x - 5$ adalah...",
+              "pilihan": ["(3, 4) minimum", "(3, 4) maksimum", "(-3, 4) maksimum", "(3, -4) maksimum"],
+              "jawaban": 1,
+              "pembahasan": "$x_p = -\\dfrac{6}{2(-1)} = 3$. $y_p = -9 + 18 - 5 = 4$. Karena $a < 0$, ini titik <b>maksimum</b> di $(3, 4)$."
+            },
+            {
+              "id": "10-fk-b03-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sumbu simetri $f(x) = 2x^2 - 12x + 7$. Nilai $x$ = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$x = -\\dfrac{-12}{2 \\cdot 2} = \\dfrac{12}{4} = 3$."
+            }
+          ]
         }
       ]
     }
