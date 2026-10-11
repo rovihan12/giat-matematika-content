@@ -1,0 +1,1187 @@
+{
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "emoji": "🎓",
+  "warna": "#7E57C2",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "12-mtl-bab-01",
+      "nomor": 1,
+      "judul": "Geometri Analitik: Lingkaran",
+      "deskripsi": "Persamaan lingkaran, garis singgung, dan aplikasinya",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Lingkaran dalam Koordinat Kartesius",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Di Kelas 11, kita sudah mempelajari <b>lingkaran</b> dari sudut pandang geometri. Sekarang kita masuk lebih dalam: bagaimana lingkaran dinyatakan secara <b>aljabar</b> di bidang kartesius."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Pendekatan <b>geometri analitik</b> menggabungkan geometri dengan aljabar — setiap titik, garis, dan kurva direpresentasikan sebagai persamaan matematika."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/matematika-tingkat-lanjut/lingkaran-kartesius.png",
+              "caption": "Lingkaran dengan pusat P(a, b) dan jari-jari r di bidang kartesius",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Geometri analitik menggabungkan geometri dengan...",
+              "pilihan": ["Statistika", "Aljabar", "Trigonometri", "Peluang"],
+              "jawaban": 1,
+              "pembahasan": "Geometri analitik = geometri + <b>aljabar</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Bentuk Persamaan Lingkaran",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Pusat di O(0, 0)</b>: $x^2 + y^2 = r^2$",
+                "<b>Pusat di P(a, b)</b>: $(x - a)^2 + (y - b)^2 = r^2$",
+                "<b>Bentuk umum</b>: $x^2 + y^2 + Ax + By + C = 0$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dari bentuk umum, kita bisa menentukan pusat dan jari-jari:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Pusat} = \\left(-\\dfrac{A}{2}, -\\dfrac{B}{2}\\right)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "r = \\sqrt{\\dfrac{A^2}{4} + \\dfrac{B^2}{4} - C}"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b01-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Lingkaran pusat (0,0) dengan $r = 4$. Persamaan: $x^2 + y^2 = ...$ (tulis angka saja)",
+              "jawaban": "16",
+              "pembahasan": "$r^2 = 4^2 = 16$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Posisi Titik terhadap Lingkaran",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk menentukan posisi titik $(x_0, y_0)$ terhadap lingkaran $x^2 + y^2 = r^2$, bandingkan $x_0^2 + y_0^2$ dengan $r^2$:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$x_0^2 + y_0^2 < r^2$ → titik <b>di dalam</b> lingkaran",
+                "$x_0^2 + y_0^2 = r^2$ → titik <b>pada</b> lingkaran",
+                "$x_0^2 + y_0^2 > r^2$ → titik <b>di luar</b> lingkaran"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Pusat & Jari-Jari",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan pusat dan jari-jari lingkaran $x^2 + y^2 - 6x + 4y - 12 = 0$." },
+                { "tipe": "paragraph", "text": "Diketahui $A = -6$, $B = 4$, $C = -12$." },
+                { "tipe": "formula_block", "latex": "\\text{Pusat} = (3, -2)" },
+                { "tipe": "formula_block", "latex": "r = \\sqrt{9 + 4 + 12} = \\sqrt{25} = 5" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b01-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Titik $(1, 1)$ terhadap lingkaran $x^2 + y^2 = 4$...",
+              "pilihan": ["Di dalam", "Pada lingkaran", "Di luar", "Tidak tentu"],
+              "jawaban": 0,
+              "pembahasan": "$1^2 + 1^2 = 2 < 4$ → <b>di dalam</b> lingkaran."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Garis Singgung di Titik pada Lingkaran",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika titik $(x_1, y_1)$ berada pada lingkaran $x^2 + y^2 = r^2$, persamaan garis singgung di titik itu adalah:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x_1 x + y_1 y = r^2"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Untuk lingkaran dengan pusat $(a, b)$:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "(x_1 - a)(x - a) + (y_1 - b)(y - b) = r^2"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan garis singgung $x^2 + y^2 = 25$ di titik $(3, 4)$." },
+                { "tipe": "paragraph", "text": "Cek: $9 + 16 = 25$ ✓ (titik di lingkaran)." },
+                { "tipe": "formula_block", "latex": "3x + 4y = 25" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Garis singgung $x^2 + y^2 = 13$ di titik $(2, 3)$...",
+              "pilihan": ["$2x + 3y = 13$", "$3x + 2y = 13$", "$2x - 3y = 13$", "$x + y = 13$"],
+              "jawaban": 0,
+              "pembahasan": "$x_1 x + y_1 y = r^2 \\Rightarrow 2x + 3y = 13$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Garis Singgung dengan Gradien Diketahui",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika gradien garis singgung $m$ diketahui, persamaannya:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "y = mx \\pm r\\sqrt{1 + m^2}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan garis singgung $x^2 + y^2 = 13$ dengan gradien 2." },
+                { "tipe": "formula_block", "latex": "y = 2x \\pm \\sqrt{13} \\cdot \\sqrt{5} = 2x \\pm \\sqrt{65}" }
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dari titik di luar lingkaran, ada <b>2 garis singgung</b>. Panjang garis singgung dari titik $(x_1, y_1)$ di luar lingkaran:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "d = \\sqrt{(x_1 - a)^2 + (y_1 - b)^2 - r^2}"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dari titik di luar lingkaran, ada berapa garis singgung?",
+              "pilihan": ["1", "2", "3", "Tak hingga"],
+              "jawaban": 1,
+              "pembahasan": "Dari titik di luar lingkaran, ada <b>2 garis singgung</b>."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-mtl-b01-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Bentuk umum persamaan lingkaran adalah...",
+              "pilihan": [
+                "$x^2 + y^2 = r^2$",
+                "$x^2 + y^2 + Ax + By + C = 0$",
+                "$y = mx + c$",
+                "$ax^2 + bx + c = 0$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Bentuk umum: $x^2 + y^2 + Ax + By + C = 0$."
+            },
+            {
+              "id": "12-mtl-b01-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$x^2 + y^2 - 4x - 6y + 4 = 0$. Pusat = (2, ...). Tulis nilai y pusat.",
+              "jawaban": "3",
+              "pembahasan": "Pusat = $(-A/2, -B/2) = (2, 3)$."
+            },
+            {
+              "id": "12-mtl-b01-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Garis singgung lingkaran tegak lurus jari-jari di titik singgung.",
+              "jawaban": true,
+              "pembahasan": "Benar — sifat garis singgung. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-mtl-bab-02",
+      "nomor": 2,
+      "judul": "Geometri Analitik: Elips, Parabola, dan Hiperbola",
+      "deskripsi": "Irisan kerucut dan persamaannya",
+      "total_step": 7,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Irisan Kerucut",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Irisan kerucut</b> (conic sections) adalah kurva yang terbentuk dari perpotongan bidang datar dengan kerucut ganda. Ada 4 jenis: <b>lingkaran</b>, <b>elips</b>, <b>parabola</b>, dan <b>hiperbola</b>."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/matematika-tingkat-lanjut/irisan-kerucut.png",
+              "caption": "Empat jenis irisan kerucut",
+              "width": "full"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🪐 <b>Elips</b> — orbit planet",
+                "📡 <b>Parabola</b> — antena satelit",
+                "🛰️ <b>Hiperbola</b> — sistem navigasi GPS",
+                "⭕ <b>Lingkaran</b> — bentuk paling simetris"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ada berapa jenis irisan kerucut?",
+              "pilihan": ["2", "3", "4", "5"],
+              "jawaban": 2,
+              "pembahasan": "4 jenis: <b>lingkaran, elips, parabola, hiperbola</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Elips",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Elips</b> adalah kumpulan titik yang jumlah jaraknya ke dua titik tetap (disebut <b>fokus</b>) selalu konstan."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Elips dengan pusat di $(0, 0)$ dan sumbu mayor di sumbu X:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1, \\quad a > b"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$a$ = setengah panjang sumbu mayor",
+                "$b$ = setengah panjang sumbu minor",
+                "$c = \\sqrt{a^2 - b^2}$ = jarak dari pusat ke fokus",
+                "Fokus di $(\\pm c, 0)$",
+                "Eksentrisitas $e = c/a$, dengan $0 < e < 1$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan fokus dan eksentrisitas elips $\\dfrac{x^2}{25} + \\dfrac{y^2}{9} = 1$." },
+                { "tipe": "paragraph", "text": "$a^2 = 25 \\Rightarrow a = 5$, $b^2 = 9 \\Rightarrow b = 3$." },
+                { "tipe": "formula_block", "latex": "c = \\sqrt{25 - 9} = 4" },
+                { "tipe": "paragraph", "text": "Fokus di $(\\pm 4, 0)$, eksentrisitas $e = 4/5 = 0{,}8$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Elips $\\dfrac{x^2}{16} + \\dfrac{y^2}{9} = 1$. Nilai $c$ = ... (tulis angka saja)",
+              "jawaban": "√7",
+              "pembahasan": "$c = \\sqrt{a^2 - b^2} = \\sqrt{16 - 9} = \\sqrt{7}$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Parabola",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Parabola</b> adalah kumpulan titik yang jaraknya ke satu titik (fokus) sama dengan jaraknya ke satu garis (direktris)."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$y^2 = 4px$ → parabola <b>terbuka ke kanan</b>, fokus $(p, 0)$",
+                "$y^2 = -4px$ → terbuka ke kiri, fokus $(-p, 0)$",
+                "$x^2 = 4py$ → terbuka ke atas, fokus $(0, p)$",
+                "$x^2 = -4py$ → terbuka ke bawah, fokus $(0, -p)$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Persamaan direktris untuk $y^2 = 4px$ adalah $x = -p$. Jarak titik ke fokus = jarak ke direktris."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan fokus & direktris $y^2 = 12x$." },
+                { "tipe": "formula_block", "latex": "4p = 12 \\Rightarrow p = 3" },
+                { "tipe": "paragraph", "text": "Fokus di $(3, 0)$, direktris $x = -3$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Parabola $y^2 = 20x$. Nilai $p$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$4p = 20 \\Rightarrow p = 5$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Hiperbola",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Hiperbola</b> adalah kumpulan titik yang selisih jaraknya ke dua fokus selalu konstan."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$a$ = setengah panjang sumbu transversal",
+                "$b$ = setengah panjang sumbu konjugat",
+                "$c = \\sqrt{a^2 + b^2}$ = jarak dari pusat ke fokus",
+                "Fokus di $(\\pm c, 0)$",
+                "Asimtot: $y = \\pm \\dfrac{b}{a} x$",
+                "Eksentrisitas $e = c/a > 1$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan fokus, asimtot, dan eksentrisitas $\\dfrac{x^2}{16} - \\dfrac{y^2}{9} = 1$." },
+                { "tipe": "paragraph", "text": "$a = 4$, $b = 3$." },
+                { "tipe": "formula_block", "latex": "c = \\sqrt{16 + 9} = 5" },
+                { "tipe": "list", "ordered": false, "items": [
+                  "Fokus: $(\\pm 5, 0)$",
+                  "Asimtot: $y = \\pm \\dfrac{3}{4}x$",
+                  "Eksentrisitas: $e = 5/4 = 1{,}25$"
+                ]}
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\dfrac{x^2}{9} - \\dfrac{y^2}{16} = 1$. Nilai $c$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$c = \\sqrt{9 + 16} = 5$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Perbandingan 4 Irisan Kerucut",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Lingkaran</b>: $x^2 + y^2 = r^2$ — jarak ke pusat konstan",
+                "<b>Elips</b>: $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ — jumlah jarak ke 2 fokus konstan",
+                "<b>Parabola</b>: $y^2 = 4px$ — jarak ke fokus = jarak ke direktris",
+                "<b>Hiperbola</b>: $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ — selisih jarak ke 2 fokus konstan"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Eksentrisitas: $e = 0$ (lingkaran), $0 < e < 1$ (elips), $e = 1$ (parabola), $e > 1$ (hiperbola)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kurva dengan eksentrisitas $e = 1$ adalah...",
+              "pilihan": ["Lingkaran", "Elips", "Parabola", "Hiperbola"],
+              "jawaban": 2,
+              "pembahasan": "$e = 1$ → <b>parabola</b>."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "rangkuman",
+          "judul": "Rangkuman Irisan Kerucut",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Elips: $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ dengan $c^2 = a^2 - b^2$",
+                "Parabola: $y^2 = 4px$ dengan fokus $(p, 0)$, direktris $x = -p$",
+                "Hiperbola: $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ dengan $c^2 = a^2 + b^2$",
+                "Eksentrisitas: $0 \\leq e < 1$ (elips), $e = 1$ (parabola), $e > 1$ (hiperbola)"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Untuk elips, hubungan $a$, $b$, $c$ adalah...",
+              "pilihan": ["$c^2 = a^2 + b^2$", "$c^2 = a^2 - b^2$", "$c^2 = b^2 - a^2$", "$c = a + b$"],
+              "jawaban": 1,
+              "pembahasan": "Elips: $c^2 = a^2 - b^2$."
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-mtl-b02-s7-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Persamaan elips adalah...",
+              "pilihan": [
+                "$x^2 + y^2 = r^2$",
+                "$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$",
+                "$y^2 = 4px$",
+                "$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Elips: $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$."
+            },
+            {
+              "id": "12-mtl-b02-s7-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Parabola $y^2 = 8x$. Fokus di $(..., 0)$. Tulis nilai x.",
+              "jawaban": "2",
+              "pembahasan": "$4p = 8 \\Rightarrow p = 2$. Fokus $(2, 0)$."
+            },
+            {
+              "id": "12-mtl-b02-s7-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Hiperbola memiliki asimtot.",
+              "jawaban": true,
+              "pembahasan": "Benar — asimtot $y = \\pm (b/a)x$. <b>BENAR</b>."
+            },
+            {
+              "id": "12-mtl-b02-s7-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Eksentrisitas hiperbola...",
+              "pilihan": ["$e = 0$", "$0 < e < 1$", "$e = 1$", "$e > 1$"],
+              "jawaban": 3,
+              "pembahasan": "Hiperbola: $e > 1$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-mtl-bab-03",
+      "nomor": 3,
+      "judul": "Kalkulus Lanjut: Limit dan Turunan",
+      "deskripsi": "Limit dan turunan tingkat lanjut",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Limit Lanjutan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Di materi wajib, kita sudah mempelajari dasar limit. Di tingkat lanjut, kita masuk lebih dalam: <b>aturan L'Hôpital</b>, <b>limit fungsi khusus</b>, dan aplikasi lanjutan."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Limit lanjutan mencakup...",
+              "pilihan": [
+                "Hanya substitusi",
+                "Aturan L'Hôpital dan fungsi khusus",
+                "Hanya faktorisasi",
+                "Tidak ada yang baru"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Limit lanjutan = L'Hôpital + fungsi khusus (e^x, ln)."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Aturan L'Hôpital",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau limit menghasilkan bentuk tak tentu $\\dfrac{0}{0}$ atau $\\dfrac{\\infty}{\\infty}$, gunakan <b>aturan L'Hôpital</b>:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\lim_{x \\to a} \\dfrac{f(x)}{g(x)} = \\lim_{x \\to a} \\dfrac{f'(x)}{g'(x)}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Turunkan pembilang dan penyebut secara terpisah, lalu hitung limitnya."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\lim_{x \\to 0} \\dfrac{\\sin x - x}{x^3}$." },
+                { "tipe": "paragraph", "text": "Bentuk $0/0$, gunakan L'Hôpital berulang:" },
+                { "tipe": "formula_block", "latex": "= \\lim_{x \\to 0} \\dfrac{\\cos x - 1}{3x^2} = \\lim_{x \\to 0} \\dfrac{-\\sin x}{6x} = -\\dfrac{1}{6}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Aturan L'Hôpital dipakai untuk bentuk...",
+              "pilihan": ["$\\dfrac{1}{1}$", "$\\dfrac{0}{0}$ atau $\\dfrac{\\infty}{\\infty}$", "$\\dfrac{0}{1}$", "$\\dfrac{1}{0}$"],
+              "jawaban": 1,
+              "pembahasan": "L'Hôpital untuk $\\dfrac{0}{0}$ atau $\\dfrac{\\infty}{\\infty}$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Limit Fungsi Eksponensial & Logaritma",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\lim_{x \\to 0} \\dfrac{e^x - 1}{x} = 1"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\lim_{x \\to 0} \\dfrac{\\ln(1 + x)}{x} = 1"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\lim_{x \\to \\infty} \\left(1 + \\dfrac{1}{x}\\right)^x = e"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Limit terakhir mendefinisikan bilangan Euler $e \\approx 2{,}71828$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b03-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\lim_{x \\to 0} \\dfrac{e^x - 1}{x}$ = ... (tulis angka saja)",
+              "jawaban": "1",
+              "pembahasan": "$\\lim (e^x - 1)/x = 1$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Turunan Tingkat Tinggi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Turunan bisa diulang berkali-kali. <b>Turunan kedua</b> $f''(x)$ adalah turunan dari $f'(x)$, dan seterusnya."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f'(x), \\quad f''(x), \\quad f'''(x), \\quad f^{(n)}(x)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Aplikasi turunan kedua:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Uji kecekungan</b>: $f''(x) > 0$ → cekung ke atas, $f''(x) < 0$ → cekung ke bawah",
+                "<b>Titik belok</b>: $f''(x) = 0$ dan berubah tanda",
+                "<b>Percepatan</b>: turunan kedua dari posisi"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan turunan kedua $f(x) = x^4 - 3x^2 + 2x$." },
+                { "tipe": "formula_block", "latex": "f'(x) = 4x^3 - 6x + 2" },
+                { "tipe": "formula_block", "latex": "f''(x) = 12x^2 - 6" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b03-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$f(x) = x^3$. Turunan kedua $f''(x)$ = ...x. Tulis koefisien.",
+              "jawaban": "6",
+              "pembahasan": "$f'(x) = 3x^2$, $f''(x) = 6x$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Turunan Implisit & Parametrik",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Turunan Implisit"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Jika hubungan $x$ dan $y$ dalam bentuk <b>implisit</b>, gunakan turunan implisit:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(y^n) = n y^{n-1} \\cdot \\dfrac{dy}{dx}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: $x^2 + y^2 = 25$",
+              "konten": [
+                { "tipe": "paragraph", "text": "Turunkan kedua ruas terhadap $x$:" },
+                { "tipe": "formula_block", "latex": "2x + 2y\\dfrac{dy}{dx} = 0 \\Rightarrow \\dfrac{dy}{dx} = -\\dfrac{x}{y}" }
+              ]
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Turunan Parametrik"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Jika $x = f(t)$, $y = g(t)$:" },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{dy}{dx} = \\dfrac{dy/dt}{dx/dt} = \\dfrac{g'(t)}{f'(t)}"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan implisit dari $x^2 + y^2 = 25$ adalah...",
+              "pilihan": ["$-x/y$", "$x/y$", "$-y/x$", "$y/x$"],
+              "jawaban": 0,
+              "pembahasan": "$2x + 2y \\cdot dy/dx = 0 \\Rightarrow dy/dx = -x/y$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-mtl-b03-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Aturan L'Hôpital menggunakan...",
+              "pilihan": ["Integral", "Turunan", "Faktorial", "Logaritma"],
+              "jawaban": 1,
+              "pembahasan": "L'Hôpital menggunakan <b>turunan</b>."
+            },
+            {
+              "id": "12-mtl-b03-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$f(x) = x^4$. Turunan kedua = ...x². Tulis koefisien.",
+              "jawaban": "12",
+              "pembahasan": "$f'(x) = 4x^3$, $f''(x) = 12x^2$."
+            },
+            {
+              "id": "12-mtl-b03-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Jika $f''(x) > 0$, fungsi cekung ke atas.",
+              "jawaban": true,
+              "pembahasan": "Benar — $f'' > 0$ → cekung ke atas. <b>BENAR</b>."
+            },
+            {
+              "id": "12-mtl-b03-s6-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan parametrik $dy/dx$ = ...",
+              "pilihan": ["$dy/dt$", "$dx/dt$", "$\\dfrac{dy/dt}{dx/dt}$", "$\\dfrac{dx/dt}{dy/dt}$"],
+              "jawaban": 2,
+              "pembahasan": "$dy/dx = (dy/dt)/(dx/dt)$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-mtl-bab-04",
+      "nomor": 4,
+      "judul": "Kalkulus Lanjut: Integral dan Aplikasinya",
+      "deskripsi": "Teknik integrasi dan aplikasi lanjutan",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Teknik Integrasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Tidak semua integral bisa diselesaikan dengan rumus dasar. Ada beberapa <b>teknik integrasi</b> yang perlu dikuasai untuk fungsi yang lebih kompleks."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Mengapa perlu teknik integrasi lanjutan?",
+              "pilihan": [
+                "Karena rumus dasar cukup",
+                "Karena tidak semua integral bisa pakai rumus dasar",
+                "Karena guru suka",
+                "Tidak ada alasan"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Karena <b>tidak semua</b> integral bisa pakai rumus dasar."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Integral Substitusi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Metode ini adalah kebalikan dari aturan rantai. Jika integran berbentuk $f(g(x)) \\cdot g'(x)$, kita misalkan $u = g(x)$, maka $du = g'(x) \\, dx$."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int f(g(x)) \\cdot g'(x) \\, dx = \\int f(u) \\, du"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\int 2x(x^2 + 1)^5 \\, dx$." },
+                { "tipe": "paragraph", "text": "Misal $u = x^2 + 1$, maka $du = 2x \\, dx$." },
+                { "tipe": "formula_block", "latex": "= \\int u^5 \\, du = \\dfrac{u^6}{6} + C = \\dfrac{(x^2+1)^6}{6} + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b04-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Metode substitusi adalah kebalikan dari...",
+              "pilihan": ["Aturan jumlah", "Aturan rantai", "Aturan perkalian", "Aturan bagi"],
+              "jawaban": 1,
+              "pembahasan": "Substitusi = kebalikan <b>aturan rantai</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Integral Parsial",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Metode ini adalah kebalikan dari aturan perkalian. Berguna untuk integral hasil kali dua fungsi berbeda jenis."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int u \\, dv = uv - \\int v \\, du"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Pilih $u$ yang lebih mudah diturunkan (mis. $x$, $\\ln x$), dan $dv$ yang lebih mudah diintegralkan (mis. $e^x$, $\\sin x$)."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\int x e^x \\, dx$." },
+                { "tipe": "paragraph", "text": "Misal $u = x$, $dv = e^x dx$, maka $du = dx$, $v = e^x$." },
+                { "tipe": "formula_block", "latex": "= xe^x - \\int e^x \\, dx = xe^x - e^x + C" },
+                { "tipe": "formula_block", "latex": "= e^x(x - 1) + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b04-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus integral parsial adalah...",
+              "pilihan": ["$\\int u \\, dv = uv - \\int v \\, du$", "$\\int u \\, dv = uv + \\int v \\, du$", "$\\int u \\, dv = u \\cdot v$", "$\\int u \\, dv = \\int u \\, du$"],
+              "jawaban": 0,
+              "pembahasan": "$\\int u \\, dv = uv - \\int v \\, du$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Volume Benda Putar & Panjang Busur",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Volume Benda Putar"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Volume benda dari memutar kurva $y = f(x)$ mengelilingi sumbu X:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "V = \\pi \\int_a^b [f(x)]^2 \\, dx"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Panjang Busur Kurva"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "s = \\int_a^b \\sqrt{1 + [f'(x)]^2} \\, dx"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Volume",
+              "konten": [
+                { "tipe": "paragraph", "text": "Volume benda putar dari $y = x^2$ mengelilingi sumbu X dari 0 ke 2." },
+                { "tipe": "formula_block", "latex": "V = \\pi \\int_0^2 x^4 \\, dx = \\pi\\left[\\dfrac{x^5}{5}\\right]_0^2 = \\dfrac{32\\pi}{5}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b04-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Rumus volume benda putar sumbu X: $V = \\pi \\int [f(x)]^{...} \\, dx$. Tulis pangkat.",
+              "jawaban": "2",
+              "pembahasan": "$V = \\pi \\int [f(x)]^2 \\, dx$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Integral Tak Wajar",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Integral tak wajar</b> adalah integral dengan batas tak hingga atau integran yang tidak terdefinisi di beberapa titik. Diselesaikan dengan limit:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int_a^{\\infty} f(x) \\, dx = \\lim_{b \\to \\infty} \\int_a^b f(x) \\, dx"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Integral tak wajar diselesaikan dengan...",
+              "pilihan": ["Substitusi", "Limit", "Parsial", "Faktorial"],
+              "jawaban": 1,
+              "pembahasan": "Integral tak wajar menggunakan <b>limit</b>."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-mtl-b04-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Metode substitusi dan parsial adalah teknik...",
+              "pilihan": ["Dasar", "Lanjutan", "Trigonometri", "Logaritma"],
+              "jawaban": 1,
+              "pembahasan": "Keduanya = teknik <b>lanjutan</b>."
+            },
+            {
+              "id": "12-mtl-b04-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$V = \\pi \\int_0^1 x^2 \\, dx$ = π/... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$\\pi \\cdot [x^3/3]_0^1 = \\pi/3$."
+            },
+            {
+              "id": "12-mtl-b04-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Integral parsial berguna untuk hasil kali dua fungsi berbeda jenis.",
+              "jawaban": true,
+              "pembahasan": "Benar — parsial untuk $\\int u \\, dv$. <b>BENAR</b>."
+            },
+            {
+              "id": "12-mtl-b04-s6-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Panjang busur kurva dirumuskan...",
+              "pilihan": [
+                "$\\int f(x) \\, dx$",
+                "$\\int \\sqrt{1 + [f'(x)]^2} \\, dx$",
+                "$\\pi \\int [f(x)]^2 \\, dx$",
+                "$2\\pi \\int f(x) \\, dx$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "$s = \\int \\sqrt{1 + [f'(x)]^2} \\, dx$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-mtl-bab-05",
+      "nomor": 5,
+      "judul": "Aplikasi Matematika Tingkat Lanjut",
+      "deskripsi": "Penerapan di sains, teknologi, dan kehidupan nyata",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Matematika Tingkat Lanjut di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Materi tingkat lanjut — bilangan kompleks, geometri analitik, kalkulus — bukan hanya teori abstrak. Ini adalah <b>alat utama</b> di banyak bidang sains dan teknologi modern."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/matematika-tingkat-lanjut/aplikasi-mtl.png",
+              "caption": "Enam aplikasi matematika tingkat lanjut",
+              "width": "full"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Fisika: Orbit Planet & Antena",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Orbit Planet (Elips)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Orbit planet mengelilingi Matahari mengikuti <b>hukum Kepler</b> — orbitnya berbentuk <b>elips</b> dengan Matahari di salah satu fokus."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Antena Parabola"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Antena parabola (radar, satelit TV) memanfaatkan sifat khusus: <b>semua sinyal sejajar sumbu dipantulkan ke fokus</b>."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "y^2 = 4px"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b05-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Orbit planet mengikuti bentuk...",
+              "pilihan": ["Lingkaran", "Elips", "Parabola", "Hiperbola"],
+              "jawaban": 1,
+              "pembahasan": "Orbit planet = <b>elips</b> (hukum Kepler)."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Teknologi: GPS & AI",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "GPS (Hiperbola)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Sistem navigasi <b>LORAN</b> dan sebagian GPS bekerja dengan prinsip <b>hiperbola</b>. Perbedaan waktu sinyal dari dua stasiun menentukan posisi pada satu kurva hiperbola."
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Machine Learning"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Algoritma machine learning seperti <b>neural networks</b> menggunakan <b>turunan parsial</b> dan <b>gradient descent</b> untuk mengoptimalkan jutaan parameter."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b05-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "GPS menggunakan prinsip kurva...",
+              "pilihan": ["Elips", "Parabola", "Hiperbola", "Lingkaran"],
+              "jawaban": 2,
+              "pembahasan": "GPS (trilaterasi) menggunakan <b>hiperbola</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Aplikasi",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Orbit Satelit",
+              "konten": [
+                { "tipe": "paragraph", "text": "Satelit mengorbit dengan $\\dfrac{x^2}{25} + \\dfrac{y^2}{16} = 1$ (ribu km). Bumi di fokus." },
+                { "tipe": "formula_block", "latex": "c = \\sqrt{25 - 16} = 3" },
+                { "tipe": "paragraph", "text": "Jarak terdekat = $a - c = 2$ (2.000 km)." },
+                { "tipe": "paragraph", "text": "Jarak terjauh = $a + c = 8$ (8.000 km)." }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Optimasi dengan Turunan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Keuntungan $\\pi(q) = -2q^2 + 40q - 100$. Cari $q$ optimal." },
+                { "tipe": "formula_block", "latex": "\\pi'(q) = -4q + 40 = 0 \\Rightarrow q = 10" },
+                { "tipe": "formula_block", "latex": "\\pi(10) = -200 + 400 - 100 = 100" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b05-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Elips $\\dfrac{x^2}{25} + \\dfrac{y^2}{16} = 1$. Jarak terdekat ke fokus = $a - c$ = ... (tulis angka saja)",
+              "jawaban": "2",
+              "pembahasan": "$a = 5$, $c = 3$. $a - c = 2$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 5",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham aplikasi matematika tingkat lanjut."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-mtl-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Machine learning menggunakan...",
+              "pilihan": [
+                "Turunan parsial & gradient descent",
+                "Hanya penjumlahan",
+                "Logaritma saja",
+                "Tidak pakai matematika"
+              ],
+              "jawaban": 0,
+              "pembahasan": "ML menggunakan <b>turunan parsial & gradient descent</b>."
+            },
+            {
+              "id": "12-mtl-b05-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Antena parabola memanfaatkan sifat...",
+              "pilihan": [
+                "Sinyal dipantulkan ke fokus",
+                "Sinyal disebar",
+                "Sinyal hilang",
+                "Sinyal berputar"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Semua sinyal sejajar sumbu dipantulkan ke <b>fokus</b>."
+            },
+            {
+              "id": "12-mtl-b05-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Matematika tingkat lanjut hanya teori, tidak dipakai di dunia nyata.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Dipakai di fisika, teknologi, AI, grafika, dll."
+            },
+            {
+              "id": "12-mtl-b05-s5-q4",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Keuntungan $\\pi(q) = -2q^2 + 40q$, optimal di $q$ = ... (tulis angka saja)",
+              "jawaban": "10",
+              "pembahasan": "$\\pi' = -4q + 40 = 0 \\Rightarrow q = 10$."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
