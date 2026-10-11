@@ -1,0 +1,1095 @@
+{
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "emoji": "∫",
+  "warna": "#00897B",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "12-int-bab-01",
+      "nomor": 1,
+      "judul": "Konsep Dasar Integral",
+      "deskripsi": "Integral sebagai anti-turunan dan notasi integral",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Integral?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Integral</b> adalah operasi kebalikan dari turunan. Kalau turunan mencari laju perubahan, integral mencari <b>fungsi asal</b> dari laju perubahannya. Karena itu integral sering disebut <b>anti-turunan</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Bayangkan kamu tahu kecepatan sebuah mobil setiap saat. Kalau kamu ingin tahu <b>posisi</b> mobil itu di waktu tertentu, kamu butuh integral."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/integral-fungsi/integral-turunan.png",
+              "caption": "Hubungan turunan dan integral: turunan mencari laju perubahan, integral mencari fungsi asal",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Integral adalah operasi kebalikan dari...",
+              "pilihan": ["Penjumlahan", "Turunan", "Perkalian", "Logaritma"],
+              "jawaban": 1,
+              "pembahasan": "Integral = <b>anti-turunan</b> = kebalikan turunan."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Notasi Integral",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\int f(x) \\, dx = F(x) + C"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\int$ = simbol integral",
+                "$f(x)$ = integran (fungsi yang diintegralkan)",
+                "$dx$ = variabel integrasi",
+                "$F(x)$ = anti-turunan dari $f(x)$",
+                "$C$ = konstanta integrasi"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kenapa ada $+ C$? Karena turunan dari konstanta apa pun adalah nol. Jadi $F(x)$, $F(x) + 1$, $F(x) + 100$, semuanya punya turunan yang sama."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Simbol $\\int$ dibaca...",
+              "pilihan": ["Sigma", "Integral", "Delta", "Pi"],
+              "jawaban": 1,
+              "pembahasan": "$\\int$ = simbol <b>integral</b>."
+            },
+            {
+              "id": "12-int-b01-s2-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Konstanta $C$ muncul di integral tak tentu karena turunan konstanta = 0.",
+              "jawaban": true,
+              "pembahasan": "Benar — semua anti-turunan berbeda konstanta, jadi perlu + C. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Integral dan Turunan Saling Membatalkan",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}\\left[\\int f(x) \\, dx\\right] = f(x)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int f'(x) \\, dx = f(x) + C"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Artinya: kalau kita turunkan hasil integral, kita kembali ke fungsi asal. Begitu juga sebaliknya."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Verifikasi",
+              "konten": [
+                { "tipe": "paragraph", "text": "Cek apakah $\\int 2x \\, dx = x^2 + C$." },
+                { "tipe": "paragraph", "text": "Turunkan $x^2 + C$: $\\dfrac{d}{dx}(x^2 + C) = 2x$ ✓" },
+                { "tipe": "paragraph", "text": "Benar!" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b01-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $\\int 3x^2 \\, dx = x^3 + C$, turunan dari $x^3$ = ... (tulis angka koefisien x², misal 5)",
+              "jawaban": "3",
+              "pembahasan": "$\\frac{d}{dx}(x^3) = 3x^2$. Koefisien = 3."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh-Contoh Integral Sederhana",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Integral Konstanta",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int 5 \\, dx$." },
+                { "tipe": "paragraph", "text": "Cari fungsi yang turunannya 5. Karena turunan $5x$ adalah 5:" },
+                { "tipe": "formula_block", "latex": "\\int 5 \\, dx = 5x + C" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Integral Pangkat",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int x^3 \\, dx$." },
+                { "tipe": "paragraph", "text": "Kita tahu turunan $x^4$ adalah $4x^3$, jadi turunan $\\dfrac{1}{4}x^4$ adalah $x^3$." },
+                { "tipe": "formula_block", "latex": "\\int x^3 \\, dx = \\dfrac{1}{4}x^4 + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int 7 \\, dx$ = ...",
+              "pilihan": ["$7x + C$", "$7 + C$", "$x + C$", "$\\dfrac{7x^2}{2} + C$"],
+              "jawaban": 0,
+              "pembahasan": "$\\int c \\, dx = cx + C$. Jadi $7x + C$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-int-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Notasi integral tak tentu adalah...",
+              "pilihan": ["$\\int_a^b f(x) \\, dx$", "$\\int f(x) \\, dx$", "$\\dfrac{d}{dx}$", "$\\sum f(x)$"],
+              "jawaban": 1,
+              "pembahasan": "Integral tak tentu: $\\int f(x) \\, dx$ (tanpa batas)."
+            },
+            {
+              "id": "12-int-b01-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int 4x^3 \\, dx$ = $x^4 + C$. Koefisien x⁴ adalah ... (tulis angka saja)",
+              "jawaban": "1",
+              "pembahasan": "$\\int 4x^3 \\, dx = x^4 + C$. Koefisien = 1."
+            },
+            {
+              "id": "12-int-b01-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Integral adalah operasi kebalikan dari turunan.",
+              "jawaban": true,
+              "pembahasan": "Benar — integral = anti-turunan. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-02",
+      "nomor": 2,
+      "judul": "Integral Tak Tentu",
+      "deskripsi": "Rumus dasar integral dan sifat-sifatnya",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Rumus Dasar Integral",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk menghitung integral dengan cepat, kita butuh <b>rumus dasar</b>. Rumus ini diperoleh dari aturan turunan yang kita balik."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/integral-fungsi/rumus-dasar-integral.png",
+              "caption": "Rumus dasar integral tak tentu",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus dasar integral diperoleh dari...",
+              "pilihan": ["Aturan turunan yang dibalik", "Penjumlahan", "Perkalian", "Logaritma"],
+              "jawaban": 0,
+              "pembahasan": "Rumus integral = <b>aturan turunan yang dibalik</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Aturan Pangkat",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\int x^n \\, dx = \\dfrac{x^{n+1}}{n+1} + C, \\quad n \\neq -1"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ini rumus yang paling sering dipakai. Naikkan pangkat satu, lalu bagi dengan pangkat baru."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int x^5 \\, dx$." },
+                { "tipe": "formula_block", "latex": "\\int x^5 \\, dx = \\dfrac{x^6}{6} + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int x^7 \\, dx$ = $x^{...}/8 + C$. Tulis angka pangkat.",
+              "jawaban": "8",
+              "pembahasan": "$\\int x^7 \\, dx = x^8/8 + C$. Pangkat = 8."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Integral Konstanta & 1/x",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Integral Konstanta"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int c \\, dx = cx + C"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Integral $1/x$"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\dfrac{1}{x} \\, dx = \\ln |x| + C"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ini kasus khusus dari aturan pangkat. Karena $n = -1$, tidak bisa pakai $x^{n+1}/(n+1)$. Solusinya adalah $\\ln |x|$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int \\dfrac{1}{x} \\, dx$ = ...",
+              "pilihan": ["$\\ln|x| + C$", "$x^{-2}/{-2} + C$", "$1/x + C$", "$e^x + C$"],
+              "jawaban": 0,
+              "pembahasan": "$\\int 1/x \\, dx = \\ln|x| + C$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Sifat-Sifat Integral",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\int [f(x) + g(x)] \\, dx = \\int f(x) \\, dx + \\int g(x) \\, dx$",
+                "$\\int [f(x) - g(x)] \\, dx = \\int f(x) \\, dx - \\int g(x) \\, dx$",
+                "$\\int c \\cdot f(x) \\, dx = c \\int f(x) \\, dx$"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Integral bersifat <b>linear</b> — bisa dipecah per suku, dan konstanta bisa dikeluarkan."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Kombinasi Suku",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int (3x^2 + 4x - 5) \\, dx$." },
+                { "tipe": "formula_block", "latex": "= 3 \\cdot \\dfrac{x^3}{3} + 4 \\cdot \\dfrac{x^2}{2} - 5x + C" },
+                { "tipe": "formula_block", "latex": "= x^3 + 2x^2 - 5x + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b02-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int 5x^4 \\, dx$ = ...",
+              "pilihan": ["$x^5 + C$", "$5x^5 + C$", "$x^5/5 + C$", "$20x^3 + C$"],
+              "jawaban": 0,
+              "pembahasan": "$5 \\cdot x^5/5 = x^5$. Jadi $x^5 + C$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Menentukan Konstanta C",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau ada kondisi tambahan (nilai fungsi di satu titik), kita bisa menentukan nilai $C$ yang spesifik."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Diketahui $f'(x) = 2x + 1$ dan $f(0) = 3$. Tentukan $f(x)$." },
+                { "tipe": "formula_block", "latex": "f(x) = \\int (2x + 1) \\, dx = x^2 + x + C" },
+                { "tipe": "paragraph", "text": "Gunakan $f(0) = 3$:" },
+                { "tipe": "formula_block", "latex": "0 + 0 + C = 3 \\Rightarrow C = 3" },
+                { "tipe": "formula_block", "latex": "f(x) = x^2 + x + 3" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b02-s5-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$f'(x) = 3x^2$, $f(0) = 5$. Maka $C$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$f(x) = x^3 + C$. $f(0) = C = 5$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-int-b02-s6-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int x^4 \\, dx$ = $x^{...}/5 + C$. Tulis pangkat.",
+              "jawaban": "5",
+              "pembahasan": "$\\int x^4 \\, dx = x^5/5 + C$."
+            },
+            {
+              "id": "12-int-b02-s6-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int (2x + 3) \\, dx$ = ...",
+              "pilihan": ["$x^2 + 3x + C$", "$2x^2 + 3x + C$", "$x^2 + C$", "$2 + C$"],
+              "jawaban": 0,
+              "pembahasan": "$x^2 + 3x + C$."
+            },
+            {
+              "id": "12-int-b02-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$\\int \\dfrac{1}{x} \\, dx = \\ln|x| + C$.",
+              "jawaban": true,
+              "pembahasan": "Benar — kasus khusus aturan pangkat. <b>BENAR</b>."
+            },
+            {
+              "id": "12-int-b02-s6-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Sifat integral $\\int [f + g] \\, dx$ = ...",
+              "pilihan": ["$\\int f \\, dx \\cdot \\int g \\, dx$", "$\\int f \\, dx + \\int g \\, dx$", "$\\int f \\, dx - \\int g \\, dx$", "Tidak bisa dipecah"],
+              "jawaban": 1,
+              "pembahasan": "Integral bersifat linear: $\\int f + \\int g$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-03",
+      "nomor": 3,
+      "judul": "Integral Fungsi Trigonometri",
+      "deskripsi": "Integral sin, cos, tan dan kombinasinya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Rumus Integral Trigonometri",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Sama seperti turunan, integral fungsi trigonometri juga punya rumus khas."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\sin x \\, dx = -\\cos x + C"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\cos x \\, dx = \\sin x + C"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\sec^2 x \\, dx = \\tan x + C"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ <b>Perhatian:</b> perhatikan tanda negatif pada integral $\\sin x$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int \\sin x \\, dx$ = ...",
+              "pilihan": ["$\\cos x + C$", "$-\\cos x + C$", "$\\sin x + C$", "$-\\sin x + C$"],
+              "jawaban": 1,
+              "pembahasan": "$\\int \\sin x \\, dx = -\\cos x + C$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Integral Trigonometri Lanjutan",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\tan x \\, dx = -\\ln|\\cos x| + C"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\csc^2 x \\, dx = -\\cot x + C"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\sec x \\cdot \\tan x \\, dx = \\sec x + C"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int \\cos x \\, dx$ = ...",
+              "pilihan": ["$-\\sin x + C$", "$\\sin x + C$", "$-\\cos x + C$", "$\\tan x + C$"],
+              "jawaban": 1,
+              "pembahasan": "$\\int \\cos x \\, dx = \\sin x + C$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Integral Trigonometri dengan Aturan Rantai",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika sudut bukan $x$ melainkan $ax + b$, gunakan aturan rantai versi integral:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\sin(ax + b) \\, dx = -\\dfrac{1}{a}\\cos(ax + b) + C"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int \\cos(ax + b) \\, dx = \\dfrac{1}{a}\\sin(ax + b) + C"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int \\sin(3x) \\, dx$." },
+                { "tipe": "formula_block", "latex": "\\int \\sin(3x) \\, dx = -\\dfrac{1}{3}\\cos(3x) + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b03-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int \\cos(2x) \\, dx$ = ...",
+              "pilihan": ["$2\\sin(2x) + C$", "$\\dfrac{1}{2}\\sin(2x) + C$", "$-\\dfrac{1}{2}\\sin(2x) + C$", "$\\sin(2x) + C$"],
+              "jawaban": 1,
+              "pembahasan": "$\\int \\cos(2x) \\, dx = \\dfrac{1}{2}\\sin(2x) + C$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Kombinasi",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Kombinasi Sin & Cos",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int (2\\cos x + 3\\sin x) \\, dx$." },
+                { "tipe": "formula_block", "latex": "= 2\\sin x + 3(-\\cos x) + C = 2\\sin x - 3\\cos x + C" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Sec Kuadrat",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan $\\int \\sec^2(2x) \\, dx$." },
+                { "tipe": "formula_block", "latex": "= \\dfrac{1}{2}\\tan(2x) + C" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b03-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "$\\int \\sec^2(3x) \\, dx$ = ...",
+              "pilihan": ["$\\tan(3x) + C$", "$\\dfrac{1}{3}\\tan(3x) + C$", "$3\\tan(3x) + C$", "$-\\tan(3x) + C$"],
+              "jawaban": 1,
+              "pembahasan": "$\\int \\sec^2(3x) \\, dx = \\dfrac{1}{3}\\tan(3x) + C$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-int-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus $\\int \\sin x \\, dx$ adalah...",
+              "pilihan": ["$\\cos x + C$", "$-\\cos x + C$", "$-\\sin x + C$", "$\\tan x + C$"],
+              "jawaban": 1,
+              "pembahasan": "$\\int \\sin x \\, dx = -\\cos x + C$."
+            },
+            {
+              "id": "12-int-b03-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int \\cos(5x) \\, dx$ = $(1/...)\\sin(5x) + C$. Tulis angka penyebut.",
+              "jawaban": "5",
+              "pembahasan": "$\\int \\cos(5x) \\, dx = (1/5)\\sin(5x) + C$."
+            },
+            {
+              "id": "12-int-b03-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$\\int \\sec^2 x \\, dx = \\tan x + C$.",
+              "jawaban": true,
+              "pembahasan": "Benar — turunan tan = sec². <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-04",
+      "nomor": 4,
+      "judul": "Integral Tentu",
+      "deskripsi": "Integral dengan batas atas dan bawah",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Integral Tentu?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Integral tentu</b> adalah integral yang punya <b>batas atas</b> dan <b>batas bawah</b>. Hasilnya berupa <b>angka</b>, bukan fungsi."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int_a^b f(x) \\, dx"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$a$ = batas bawah",
+                "$b$ = batas atas",
+                "$f(x)$ = integran"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Hasil integral tentu berupa...",
+              "pilihan": ["Fungsi", "Angka", "Grafik", "Titik"],
+              "jawaban": 1,
+              "pembahasan": "Integral tentu menghasilkan <b>angka</b> (bukan fungsi + C)."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Teorema Dasar Kalkulus",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika $F(x)$ adalah anti-turunan dari $f(x)$, maka:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\int_a^b f(x) \\, dx = F(b) - F(a)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Inilah <b>Teorema Dasar Kalkulus</b> — jembatan antara turunan dan integral."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\int_0^3 2x \\, dx$." },
+                { "tipe": "formula_block", "latex": "\\int_0^3 2x \\, dx = [x^2]_0^3 = 9 - 0 = 9" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b04-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int_0^2 3x^2 \\, dx$ = $[x^3]_0^2$ = ... (tulis angka saja)",
+              "jawaban": "8",
+              "pembahasan": "$[x^3]_0^2 = 2^3 - 0 = 8$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Sifat Integral Tentu",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\int_a^a f(x) \\, dx = 0$",
+                "$\\int_a^b f(x) \\, dx = -\\int_b^a f(x) \\, dx$",
+                "$\\int_a^b [f + g] \\, dx = \\int_a^b f \\, dx + \\int_a^b g \\, dx$",
+                "$\\int_a^b f \\, dx = \\int_a^c f \\, dx + \\int_c^b f \\, dx$"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b04-s3-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "$\\int_a^a f(x) \\, dx = 0$.",
+              "jawaban": true,
+              "pembahasan": "Benar — batas atas = bawah → luas nol. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Integral Tentu",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Trigonometri",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\int_0^{\\pi/2} \\cos x \\, dx$." },
+                { "tipe": "formula_block", "latex": "= [\\sin x]_0^{\\pi/2} = \\sin\\dfrac{\\pi}{2} - \\sin 0 = 1" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Polinomial",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung $\\int_1^2 (3x^2 + 2x) \\, dx$." },
+                { "tipe": "formula_block", "latex": "= [x^3 + x^2]_1^2 = (8+4) - (1+1) = 10" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b04-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int_0^1 4x^3 \\, dx$ = $[x^4]_0^1$ = ... (tulis angka saja)",
+              "jawaban": "1",
+              "pembahasan": "$[x^4]_0^1 = 1 - 0 = 1$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-int-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Teorema Dasar Kalkulus menyatakan $\\int_a^b f \\, dx$ = ...",
+              "pilihan": ["$F(a) - F(b)$", "$F(b) - F(a)$", "$F(a) + F(b)$", "$F(b) \\cdot F(a)$"],
+              "jawaban": 1,
+              "pembahasan": "$\\int_a^b f \\, dx = F(b) - F(a)$."
+            },
+            {
+              "id": "12-int-b04-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\int_1^2 2x \\, dx$ = $[x^2]_1^2$ = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$[x^2]_1^2 = 4 - 1 = 3$."
+            },
+            {
+              "id": "12-int-b04-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "$\\int_a^b f \\, dx = -\\int_b^a f \\, dx$.",
+              "jawaban": true,
+              "pembahasan": "Benar — tukar batas → tanda berubah. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-05",
+      "nomor": 5,
+      "judul": "Aplikasi Integral: Luas Daerah",
+      "deskripsi": "Menghitung luas daerah di bawah kurva",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Luas Daerah di Bawah Kurva",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Salah satu aplikasi paling penting dari integral tentu adalah menghitung <b>luas daerah</b> di antara kurva dan sumbu X."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Jika kurva berada <b>di atas</b> sumbu X pada interval $[a, b]$, maka luas daerah = integral tentu:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "L = \\int_a^b f(x) \\, dx"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/integral-fungsi/luas-daerah.png",
+              "caption": "Luas daerah di bawah kurva dihitung dengan integral tentu",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b05-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Luas di bawah kurva di atas sumbu X dihitung dengan...",
+              "pilihan": ["Turunan", "Integral tentu", "Penjumlahan", "Perkalian"],
+              "jawaban": 1,
+              "pembahasan": "Luas = <b>integral tentu</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Luas di Bawah Sumbu X",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika kurva berada <b>di bawah</b> sumbu X, integral tentu akan bernilai <b>negatif</b>. Karena luas selalu positif, gunakan nilai mutlak:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "L = -\\int_a^b f(x) \\, dx"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b05-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika kurva di bawah sumbu X, integral tentu bernilai...",
+              "pilihan": ["Positif", "Negatif", "Nol", "Tidak tentu"],
+              "jawaban": 1,
+              "pembahasan": "Kurva di bawah sumbu X → integral bernilai <b>negatif</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Luas Antara Dua Kurva",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika ada dua kurva $y_1 = f(x)$ dan $y_2 = g(x)$, dan $f(x) \\geq g(x)$ pada interval $[a, b]$:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "L = \\int_a^b [f(x) - g(x)] \\, dx"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Batas $a$ dan $b$ biasanya adalah titik potong kedua kurva (di mana $f(x) = g(x)$)."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/integral-fungsi/luas-antara-kurva.png",
+              "caption": "Luas antara dua kurva",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b05-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Luas antara 2 kurva: $L = \\int [f(x) - g(x)] \\, dx$. Yang dikurangi adalah kurva ... (tulis bawah/atas)",
+              "jawaban": "bawah",
+              "pembahasan": "Kurangi kurva <b>bawah</b>: $f(x) - g(x)$ dengan $f$ di atas."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Luas Daerah",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Luas di Bawah Parabola",
+              "konten": [
+                { "tipe": "paragraph", "text": "Hitung luas di bawah $y = x^2$ dari $x = 0$ sampai $x = 3$." },
+                { "tipe": "formula_block", "latex": "L = \\int_0^3 x^2 \\, dx = \\left[\\dfrac{x^3}{3}\\right]_0^3 = 9" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Luas Antara Dua Kurva",
+              "konten": [
+                { "tipe": "paragraph", "text": "Luas antara $y = x^2$ dan $y = x$." },
+                { "tipe": "paragraph", "text": "Titik potong: $x^2 = x \\Rightarrow x = 0$ atau $x = 1$." },
+                { "tipe": "formula_block", "latex": "L = \\int_0^1 (x - x^2) \\, dx = \\left[\\dfrac{x^2}{2} - \\dfrac{x^3}{3}\\right]_0^1 = \\dfrac{1}{6}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b05-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Luas di bawah $y = x$ dari $x = 0$ ke $x = 2$ = ... (tulis angka saja)",
+              "jawaban": "2",
+              "pembahasan": "$\\int_0^2 x \\, dx = [x^2/2]_0^2 = 2$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-int-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Luas di bawah kurva di atas sumbu X = ...",
+              "pilihan": ["$\\int_a^b f \\, dx$", "$-\\int_a^b f \\, dx$", "$\\int f \\, dx$", "$\\dfrac{d}{dx} f$"],
+              "jawaban": 0,
+              "pembahasan": "Kurva di atas sumbu X: $L = \\int_a^b f \\, dx$."
+            },
+            {
+              "id": "12-int-b05-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Luas di bawah $y = x^2$ dari 0 ke 1 = 1/... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$\\int_0^1 x^2 \\, dx = [x^3/3]_0^1 = 1/3$."
+            },
+            {
+              "id": "12-int-b05-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Luas selalu bernilai positif.",
+              "jawaban": true,
+              "pembahasan": "Benar — luas tidak bisa negatif. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-int-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Integral di Kehidupan Nyata",
+      "deskripsi": "Penerapan integral dalam sains, teknologi, dan ekonomi",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Integral di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Integral bukan sekadar hitungan abstrak. Ini adalah <b>alat universal</b> untuk memahami akumulasi, area, dan volume di dunia nyata."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🏃 <b>Fisika</b> — perpindahan & kerja",
+                "💰 <b>Ekonomi</b> — total pendapatan",
+                "🦠 <b>Biologi</b> — pertumbuhan populasi",
+                "🤖 <b>Teknologi</b> — pengolahan sinyal & AI",
+                "🏗️ <b>Teknik</b> — volume benda putar"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Fisika: Perpindahan dari Kecepatan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika kecepatan $v(t)$ diketahui, perpindahan total dari $t = a$ sampai $t = b$ adalah:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "s = \\int_a^b v(t) \\, dt"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kecepatan benda $v(t) = 3t^2 + 2t$ (m/detik). Jarak dari $t = 0$ sampai $t = 3$?" },
+                { "tipe": "formula_block", "latex": "s = \\int_0^3 (3t^2 + 2t) \\, dt = [t^3 + t^2]_0^3" },
+                { "tipe": "formula_block", "latex": "= (27 + 9) - 0 = 36 \\text{ meter}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b06-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$v(t) = 2t$ (m/detik). Jarak dari $t = 0$ ke $t = 4$ = ... meter (tulis angka saja)",
+              "jawaban": "16",
+              "pembahasan": "$s = \\int_0^4 2t \\, dt = [t^2]_0^4 = 16$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Volume Benda Putar",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Integral dipakai untuk menghitung <b>volume</b> benda yang dihasilkan dari memutar kurva:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "V = \\pi \\int_a^b [f(x)]^2 \\, dx"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kurva $y = x$ diputar mengelilingi sumbu X dari $x = 0$ ke $x = 2$." },
+                { "tipe": "formula_block", "latex": "V = \\pi \\int_0^2 x^2 \\, dx = \\pi \\left[\\dfrac{x^3}{3}\\right]_0^2 = \\dfrac{8\\pi}{3}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b06-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Rumus volume benda putar: $V = \\pi \\int [f(x)]^{...} \\, dx$. Tulis pangkat.",
+              "jawaban": "2",
+              "pembahasan": "$V = \\pi \\int [f(x)]^2 \\, dx$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Ekonomi: Total Pendapatan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika fungsi permintaan $D(q)$ diketahui, total pendapatan dari penjualan $0$ sampai $Q$ unit adalah:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "R = \\int_0^Q D(q) \\, dq"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "$D(q) = 100 - 2q$. Total pendapatan 0 sampai 20 unit?" },
+                { "tipe": "formula_block", "latex": "R = \\int_0^{20} (100 - 2q) \\, dq = [100q - q^2]_0^{20}" },
+                { "tipe": "formula_block", "latex": "= (2000 - 400) - 0 = 1600" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b06-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$D(q) = 50$ (konstan). Total pendapatan menjual 10 unit = ... (tulis angka saja)",
+              "jawaban": "500",
+              "pembahasan": "$R = \\int_0^{10} 50 \\, dq = [50q]_0^{10} = 500$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham aplikasi integral."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-int-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Integral $\\int v(t) \\, dt$ menghasilkan...",
+              "pilihan": ["Percepatan", "Kecepatan", "Perpindahan/jarak", "Waktu"],
+              "jawaban": 2,
+              "pembahasan": "Integral kecepatan = <b>perpindahan</b>."
+            },
+            {
+              "id": "12-int-b06-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus volume benda putar adalah...",
+              "pilihan": [
+                "$\\pi \\int [f(x)]^2 \\, dx$",
+                "$\\pi \\int f(x) \\, dx$",
+                "$\\int [f(x)]^2 \\, dx$",
+                "$2\\pi \\int f(x) \\, dx$"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$V = \\pi \\int [f(x)]^2 \\, dx$."
+            },
+            {
+              "id": "12-int-b06-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Integral hanya dipakai di matematika, tidak di dunia nyata.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Integral dipakai di fisika, ekonomi, biologi, teknik, dan AI."
+            },
+            {
+              "id": "12-int-b06-s5-q4",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$v(t) = 4t$ (m/detik). Jarak dari $t = 0$ ke $t = 5$ = ... meter (tulis angka saja)",
+              "jawaban": "50",
+              "pembahasan": "$\\int_0^5 4t \\, dt = [2t^2]_0^5 = 50$."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
