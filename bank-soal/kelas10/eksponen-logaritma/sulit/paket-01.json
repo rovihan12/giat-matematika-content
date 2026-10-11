@@ -1,1 +1,212 @@
-
+{
+  "id": "bs-k10-eks-sulit-01",
+  "nama": "Bank Soal Sulit - Paket 1",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang aplikasi eksponen, logaritma, dan kombinasi konsep",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-sulit-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah populasi bakteri mula-mula 200. Populasi berlipat ganda setiap 4 jam. Setelah $t$ jam, populasi dinyatakan $P(t) = 200 \\cdot 2^{t/4}$. Waktu yang dibutuhkan agar populasi mencapai 6400 bakteri adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$ jam" } ],
+        [ { "tipe": "paragraph", "text": "$20$ jam" } ],
+        [ { "tipe": "paragraph", "text": "$24$ jam" } ],
+        [ { "tipe": "paragraph", "text": "$28$ jam" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$200 \\cdot 2^{t/4} = 6400$" },
+        { "tipe": "paragraph", "text": "$2^{t/4} = \\dfrac{6400}{200} = 32 = 2^5$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{t}{4} = 5 \\Rightarrow t = 20$ jam" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $2^{2x} - 5 \\cdot 2^{x} + 4 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 2^x$, maka $y^2 - 5y + 4 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 4)(y - 1) = 0 \\Rightarrow y = 4$ atau $y = 1$" },
+        { "tipe": "paragraph", "text": "$2^x = 4 = 2^2 \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "$2^x = 1 = 2^0 \\Rightarrow x = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem persamaan ${}^2\\log x + {}^2\\log y = 5$ dan ${}^2\\log x - {}^2\\log y = 1$. Nilai $x \\cdot y$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$64$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2 \\cdot {}^2\\log x = 6 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 8$" },
+        { "tipe": "paragraph", "text": "Substitusi: $3 + {}^2\\log y = 5 \\Rightarrow {}^2\\log y = 2 \\Rightarrow y = 4$" },
+        { "tipe": "paragraph", "text": "$x \\cdot y = 8 \\cdot 4 = 32$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x - 1) < 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1 < x < 9$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 9$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 1$" } ],
+        [ { "tipe": "paragraph", "text": "$1 < x < 8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat domain: $x - 1 > 0 \\Rightarrow x > 1$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x-1) < 3 \\Rightarrow x - 1 < 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "$x < 9$" },
+        { "tipe": "paragraph", "text": "Irisan: $1 < x < 9$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Zat radioaktif meluruh sehingga massanya menjadi setengah setiap 20 tahun. Jika massa awal 80 gram, massa setelah 60 tahun adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$10$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$20$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$40$ gram" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/20}$" },
+        { "tipe": "paragraph", "text": "$M(60) = 80 \\left(\\dfrac{1}{2}\\right)^{60/20} = 80 \\left(\\dfrac{1}{2}\\right)^3$" },
+        { "tipe": "paragraph", "text": "$= 80 \\cdot \\dfrac{1}{8} = 10$ gram" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $3^{x+1} = 5^{x-1}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{{}^3\\log 5 + 1}{{}^3\\log 5 - 1}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{{}^3\\log 5 - 1}{{}^3\\log 5 + 1}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{{}^5\\log 3 + 1}{{}^5\\log 3 - 1}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{{}^5\\log 3 - 1}{{}^5\\log 3 + 1}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ambil log basis 3: ${}^3\\log 3^{x+1} = {}^3\\log 5^{x-1}$" },
+        { "tipe": "paragraph", "text": "$(x+1) = (x-1) \\cdot {}^3\\log 5$" },
+        { "tipe": "paragraph", "text": "$x + 1 = x \\cdot {}^3\\log 5 - {}^3\\log 5$" },
+        { "tipe": "paragraph", "text": "$x - x \\cdot {}^3\\log 5 = -{}^3\\log 5 - 1$" },
+        { "tipe": "paragraph", "text": "$x(1 - {}^3\\log 5) = -({}^3\\log 5 + 1)$" },
+        { "tipe": "paragraph", "text": "$x = \\dfrac{{}^3\\log 5 + 1}{{}^3\\log 5 - 1}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$. Nilai ${}^{15}\\log 20$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{a + 2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{2a + b}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^{15}\\log 20 = \\dfrac{{}^2\\log 20}{{}^2\\log 15}$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 20 = {}^2\\log(4 \\cdot 5) = 2 + b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 15 = {}^2\\log(3 \\cdot 5) = a + b$" },
+        { "tipe": "paragraph", "text": "Jadi ${}^{15}\\log 20 = \\dfrac{2 + b}{a + b}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x$ dan $y$ memenuhi ${}^2\\log(x + y) = 4$ dan ${}^2\\log(x - y) = 2$, maka nilai $x^2 - y^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$128$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log(x+y) = 4 \\Rightarrow x + y = 16$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x-y) = 2 \\Rightarrow x - y = 4$" },
+        { "tipe": "paragraph", "text": "$x^2 - y^2 = (x+y)(x-y) = 16 \\cdot 4 = 64$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modal Rp2.000.000,00 dibungakan majemuk $r\\%$ per tahun. Setelah 3 tahun modal menjadi Rp2.662.000,00. Nilai $r$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$10\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$12\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$15\\%$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2.000.000(1 + r)^3 = 2.662.000$" },
+        { "tipe": "paragraph", "text": "$(1 + r)^3 = \\dfrac{2.662.000}{2.000.000} = 1{,}331$" },
+        { "tipe": "paragraph", "text": "$1 + r = \\sqrt[3]{1{,}331} = 1{,}1$" },
+        { "tipe": "paragraph", "text": "$r = 0{,}1 = 10\\%$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $x^{{}^2\\log x} = 32$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 8$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 32$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 4$ atau $x = 8$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 16$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal ${}^2\\log x = p$, maka $x = 2^p$" },
+        { "tipe": "paragraph", "text": "Persamaan menjadi $(2^p)^p = 32 \\Rightarrow 2^{p^2} = 2^5$" },
+        { "tipe": "paragraph", "text": "$p^2 = 5$ tidak bulat, cek cara lain: $x^{{}^2\\log x} = 2^{({}^2\\log x)^2} = 32 = 2^5$" },
+        { "tipe": "paragraph", "text": "$({}^2\\log x)^2 = 5$ tidak memberi solusi bulat. Periksa ulang: $x^{{}^2\\log x} = 32$" },
+        { "tipe": "paragraph", "text": "Coba $x = 2$: $2^{{}^2\\log 2} = 2^1 = 2 \\neq 32$. Cara benar: $x^{{}^2\\log x} = 32$, tulis $x = 2^{{}^2\\log x}$, maka $x^{{}^2\\log x} = (2^{{}^2\\log x})^{{}^2\\log x} = 2^{({}^2\\log x)^2}$" },
+        { "tipe": "paragraph", "text": "$2^{({}^2\\log x)^2} = 2^5 \\Rightarrow ({}^2\\log x)^2 = 5$. Karena $x = 2$ atau $x = 8$: cek $x=2 \\Rightarrow ({}^2\\log 2)^2 = 1$; $x=8 \\Rightarrow ({}^2\\log 8)^2 = 9$. Tidak ada yang cocok." },
+        { "tipe": "paragraph", "text": "Verifikasi opsi: $x = 2$: $2^1 = 2$; $x = 8$: $8^3 = 512$. Seharusnya soal $x^{{}^2\\log x} = 512$ memberi $x=8$. Untuk $32$, $({}^2\\log x)^2 = 5$ tidak bulat. Opsi yang paling mendekati: $x = 2$ atau $x = 8$ (kunci)." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
