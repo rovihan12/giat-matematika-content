@@ -1,0 +1,1269 @@
+{
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "emoji": "📈",
+  "warna": "#00897B",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "11-sta-bab-01",
+      "nomor": 1,
+      "judul": "Distribusi Data dan Histogram",
+      "deskripsi": "Menyajikan dan menginterpretasi distribusi data",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Dari Data Tunggal ke Distribusi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Di Kelas 10, kamu belajar menghitung mean, median, modus dari data tunggal. Sekarang kita naik level: memahami <b>bagaimana data tersebar</b> — bukan hanya nilai tengahnya."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dua kelompok data bisa punya mean sama tapi <b>bentuk distribusinya berbeda</b>. Ada yang simetris, ada yang menceng ke kiri atau ke kanan."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/statistika-lanjutan/bentuk-distribusi.png",
+              "caption": "Tiga bentuk distribusi: simetris (kiri), menceng kanan (tengah), dan menceng kiri (kanan)",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua kelompok data bisa punya mean sama tapi berbeda pada...",
+              "pilihan": ["Jumlah data", "Bentuk distribusinya", "Satuan", "Nama variabel"],
+              "jawaban": 1,
+              "pembahasan": "Mean sama, tapi bisa berbeda <b>bentuk distribusi</b>-nya."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Bentuk-Bentuk Distribusi",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Simetris</b> — data seimbang di kiri dan kanan. Contoh: distribusi normal",
+                "<b>Menceng kanan (positif)</b> — ekor panjang di kanan. Contoh: distribusi penghasilan",
+                "<b>Menceng kiri (negatif)</b> — ekor panjang di kiri. Contoh: nilai ujian yang sangat mudah"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Posisi mean, median, modus bergeser sesuai bentuk distribusi:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Distribusi <b>simetris</b>: Mean = Median = Modus",
+                "Distribusi <b>menceng kanan</b>: Modus < Median < Mean",
+                "Distribusi <b>menceng kiri</b>: Mean < Median < Modus"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Distribusi penghasilan penduduk (banyak yang rendah, sedikit yang sangat tinggi) termasuk...",
+              "pilihan": ["Simetris", "Menceng kanan", "Menceng kiri", "Tidak beraturan"],
+              "jawaban": 1,
+              "pembahasan": "Ekor panjang ke kanan (nilai sangat tinggi) → <b>menceng kanan</b>."
+            },
+            {
+              "id": "11-sta-b01-s2-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada distribusi simetris, mean = median = modus.",
+              "jawaban": true,
+              "pembahasan": "Benar — ketiganya bertemu di titik yang sama. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Histogram dan Poligon Frekuensi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Histogram</b> adalah diagram batang untuk data berkelompok di mana batangnya <b>saling menempel</b> (tidak ada jarak). Ini membedakannya dari diagram batang biasa."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalau titik tengah setiap batang histogram dihubungkan dengan garis, kita dapat <b>poligon frekuensi</b> — yang menunjukkan bentuk distribusi lebih jelas."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/statistika-lanjutan/histogram-poligon.png",
+              "caption": "Histogram dengan poligon frekuensi",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b01-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Perbedaan histogram dengan diagram batang biasa adalah...",
+              "pilihan": [
+                "Histogram batangnya menempel",
+                "Histogram tanpa sumbu",
+                "Diagram batang lebih besar",
+                "Tidak ada bedanya"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Histogram = batang <b>menempel</b> (data kontinu)."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Ogif (Ogive)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Ogif</b> adalah grafik yang menunjukkan <b>frekuensi kumulatif</b>. Ada dua jenis:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Ogif positif</b> — frekuensi kumulatif kurang dari. Naik dari kiri ke kanan",
+                "<b>Ogif negatif</b> — frekuensi kumulatif lebih dari. Turun dari kiri ke kanan"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ogif berguna untuk menentukan <b>median</b> dan <b>kuartil</b> secara grafis."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Membaca Distribusi",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kelas A distribusinya simetris, Kelas B menceng kanan. Mean keduanya sama (75)." },
+                { "tipe": "paragraph", "text": "Kelas B (menceng kanan): sebagian besar siswa nilainya <b>di bawah</b> 75, tapi ada beberapa yang sangat tinggi yang menarik mean ke atas. Jadi lebih mungkin ada siswa dengan nilai rendah." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ogif positif menunjukkan frekuensi kumulatif...",
+              "pilihan": ["Kurang dari", "Lebih dari", "Sama dengan", "Tidak tentu"],
+              "jawaban": 0,
+              "pembahasan": "Ogif positif = frekuensi kumulatif <b>kurang dari</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-sta-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada distribusi menceng kanan, urutan yang benar dari kiri ke kanan adalah...",
+              "pilihan": [
+                "Mean < Median < Modus",
+                "Modus < Median < Mean",
+                "Median < Modus < Mean",
+                "Semua sama"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Menceng kanan: <b>Modus < Median < Mean</b> (mean tertarik ke ekor kanan)."
+            },
+            {
+              "id": "11-sta-b01-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Grafik frekuensi kumulatif disebut ... (tulis 1 kata)",
+              "jawaban": "ogif",
+              "pembahasan": "Grafik frekuensi kumulatif = <b>ogif</b>."
+            },
+            {
+              "id": "11-sta-b01-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Pada distribusi menceng kiri, modus paling kecil.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Menceng kiri: Mean < Median < Modus, jadi modus paling <b>besar</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-sta-bab-02",
+      "nomor": 2,
+      "judul": "Ukuran Pemusatan dan Penyebaran Data Berkelompok",
+      "deskripsi": "Mean, median, modus, dan simpangan untuk data berkelompok",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Data Berkelompok",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ketika data sangat banyak, biasanya disajikan dalam <b>tabel distribusi frekuensi</b> dengan kelas interval. Kita tidak lagi tahu nilai persis setiap data — hanya tahu berapa banyak data di setiap interval."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Untuk data seperti ini, kita pakai <b>titik tengah kelas</b> sebagai perwakilan nilai."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$f_i$ = frekuensi kelas ke-$i$",
+                "$x_i$ = titik tengah kelas ke-$i$",
+                "$n = \\sum f_i$ = jumlah total data"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Nilai perwakilan kelas interval dalam data berkelompok adalah...",
+              "pilihan": ["Batas bawah", "Batas atas", "Titik tengah", "Frekuensi"],
+              "jawaban": 2,
+              "pembahasan": "Nilai perwakilan = <b>titik tengah</b> = rata-rata batas bawah & atas."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Mean Data Berkelompok",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\bar{x} = \\dfrac{\\sum f_i \\cdot x_i}{\\sum f_i}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kalikan frekuensi dengan titik tengah, jumlahkan, lalu bagi dengan total frekuensi."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tabel: 60–69 (f=4, xt=64,5), 70–79 (f=8, xt=74,5), 80–89 (f=12, xt=84,5), 90–99 (f=6, xt=94,5)." },
+                { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{(4)(64{,}5) + (8)(74{,}5) + (12)(84{,}5) + (6)(94{,}5)}{30}" },
+                { "tipe": "formula_block", "latex": "= \\dfrac{2435}{30} \\approx 81{,}17" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$\\sum f_i x_i = 1000$ dan $\\sum f_i = 20$. Mean = ... (tulis angka saja)",
+              "jawaban": "50",
+              "pembahasan": "$\\bar{x} = 1000/20 = 50$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Median Data Berkelompok",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "M_e = L + \\left(\\dfrac{\\frac{n}{2} - F}{f}\\right) \\cdot c"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$L$ = tepi bawah kelas median",
+                "$n$ = jumlah data",
+                "$F$ = frekuensi kumulatif sebelum kelas median",
+                "$f$ = frekuensi kelas median",
+                "$c$ = panjang kelas"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kelas median = kelas yang memuat data ke-$\\dfrac{n}{2}$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kelas median adalah kelas yang memuat data ke...",
+              "pilihan": ["$n$", "$n/2$", "$n/4$", "$2n$"],
+              "jawaban": 1,
+              "pembahasan": "Kelas median memuat data ke-$n/2$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Modus Data Berkelompok",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "M_o = L + \\left(\\dfrac{d_1}{d_1 + d_2}\\right) \\cdot c"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$L$ = tepi bawah kelas modus",
+                "$d_1$ = selisih frekuensi kelas modus dengan kelas sebelumnya",
+                "$d_2$ = selisih frekuensi kelas modus dengan kelas sesudahnya",
+                "$c$ = panjang kelas"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kelas modus = kelas dengan frekuensi terbesar."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b02-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kelas modus adalah kelas dengan...",
+              "pilihan": ["Frekuensi terkecil", "Frekuensi terbesar", "Titik tengah di tengah", "Nilai tertinggi"],
+              "jawaban": 1,
+              "pembahasan": "Kelas modus = kelas dengan frekuensi <b>terbesar</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Simpangan Baku Data Berkelompok",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "S^2 = \\dfrac{\\sum f_i (x_i - \\bar{x})^2}{\\sum f_i}"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "S = \\sqrt{S^2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Simpangan baku menunjukkan seberapa menyebar data dari mean. Semakin besar $S$, semakin menyebar."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh Interpretasi",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kelas A: mean 75, S = 3. Kelas B: mean 75, S = 12." },
+                { "tipe": "paragraph", "text": "Kelas A lebih konsisten (S kecil). Kelas B nilainya lebih beragam — mungkin ada yang sangat tinggi & sangat rendah." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b02-s5-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Semakin besar simpangan baku, semakin konsisten data.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Semakin besar S, semakin <b>menyebar</b> (kurang konsisten)."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-sta-b02-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus mean data berkelompok adalah...",
+              "pilihan": ["$\\dfrac{\\sum x_i}{n}$", "$\\dfrac{\\sum f_i x_i}{\\sum f_i}$", "$\\dfrac{\\sum f_i}{\\sum x_i}$", "$\\sum f_i x_i$"],
+              "jawaban": 1,
+              "pembahasan": "$\\bar{x} = \\dfrac{\\sum f_i x_i}{\\sum f_i}$."
+            },
+            {
+              "id": "11-sta-b02-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Median data berkelompok rumusnya $M_e = L + ((n/2 - F)/... ) \\cdot c$. Tulis 1 huruf pembagi.",
+              "jawaban": "f",
+              "pembahasan": "Pembagi = frekuensi kelas median = $f$."
+            },
+            {
+              "id": "11-sta-b02-s6-q3",
+              "tipe": "pilihan",
+              "pertanyaan": "$d_1$ dan $d_2$ pada rumus modus adalah...",
+              "pilihan": [
+                "Selisih frekuensi dengan kelas sebelum & sesudah",
+                "Titik tengah kelas",
+                "Batas kelas",
+                "Panjang kelas"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$d_1, d_2$ = selisih frekuensi kelas modus dengan kelas sebelum/sesudahnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-sta-bab-03",
+      "nomor": 3,
+      "judul": "Data Bivariat dan Diagram Pencar",
+      "deskripsi": "Hubungan antara dua variabel",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Data Bivariat?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Selama ini kita membahas <b>data univariat</b> — satu variabel saja. Sekarang kita masuk ke <b>data bivariat</b> — dua variabel yang diamati <b>bersamaan</b> pada objek yang sama."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Tinggi badan & berat badan siswa",
+                "Jam belajar & nilai ujian",
+                "Harga rumah & luas tanah",
+                "Suhu udara & penjualan es krim"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Data bivariat adalah data dengan...",
+              "pilihan": ["Satu variabel", "Dua variabel", "Tiga variabel", "Tidak tentu"],
+              "jawaban": 1,
+              "pembahasan": "Bivariat = <b>dua</b> variabel."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Diagram Pencar (Scatter Plot)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Cara paling mudah untuk melihat hubungan dua variabel adalah dengan <b>diagram pencar</b>. Setiap titik mewakili satu objek dengan koordinat (x, y)."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/statistika-lanjutan/scatter-plot.png",
+              "caption": "Contoh diagram pencar: hubungan jam belajar (x) dan nilai ujian (y)",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada diagram pencar, setiap titik mewakili...",
+              "pilihan": ["Satu variabel", "Satu objek dengan koordinat (x, y)", "Semua data", "Mean data"],
+              "jawaban": 1,
+              "pembahasan": "Setiap titik = <b>satu objek</b> dengan koordinat (x, y)."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Jenis-Jenis Pola pada Diagram Pencar",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Korelasi positif</b> — x naik, y naik. Titik mengarah ke kanan atas",
+                "<b>Korelasi negatif</b> — x naik, y turun. Titik mengarah ke kanan bawah",
+                "<b>Tidak ada korelasi</b> — titik tersebar acak tanpa pola"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/statistika-lanjutan/jenis-korelasi.png",
+              "caption": "Tiga jenis korelasi: positif, negatif, tidak ada",
+              "width": "full"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Kekuatan korelasi: <b>kuat</b> (titik rapat), <b>sedang</b>, <b>lemah</b> (titik tersebar)."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b03-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Suhu udara naik, penjualan es krim naik. Ini contoh korelasi...",
+              "pilihan": ["Positif", "Negatif", "Tidak ada", "Acak"],
+              "jawaban": 0,
+              "pembahasan": "Keduanya naik bersamaan → <b>positif</b>."
+            },
+            {
+              "id": "11-sta-b03-s3-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Korelasi dikatakan KUAT jika titik-titik...",
+              "pilihan": ["Tersebar acak", "Rapat mengikuti pola", "Membentuk lingkaran", "Berada di satu titik"],
+              "jawaban": 1,
+              "pembahasan": "Korelasi kuat = titik <b>rapat</b> mengikuti pola."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Korelasi ≠ Kausalitas",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ <b>Penting:</b> dua variabel yang berkorelasi <b>belum tentu</b> punya hubungan sebab-akibat."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh klasik: penjualan es krim dan jumlah orang tenggelam berkorelasi positif. Apakah es krim menyebabkan orang tenggelam? Tentu tidak. Penyebab sebenarnya: <b>musim panas</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Variabel ketiga yang tidak diukur tapi mempengaruhi keduanya disebut <b>variabel perancu (confounding variable)</b>."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b03-s4-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Kalau dua variabel berkorelasi, pasti satu menyebabkan yang lain.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Korelasi ≠ kausalitas. Bisa jadi ada variabel perancu."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-sta-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Korelasi negatif berarti...",
+              "pilihan": [
+                "x naik, y naik",
+                "x naik, y turun",
+                "Tidak ada hubungan",
+                "Semua sama"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Korelasi negatif: x naik, y <b>turun</b>."
+            },
+            {
+              "id": "11-sta-b03-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Grafik titik-titik untuk melihat hubungan 2 variabel disebut diagram ... (tulis 1 kata)",
+              "jawaban": "pencar",
+              "pembahasan": "Diagram <b>pencar</b> (scatter plot)."
+            },
+            {
+              "id": "11-sta-b03-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Outlier adalah titik yang jauh dari pola umum.",
+              "jawaban": true,
+              "pembahasan": "Benar — outlier = titik ekstrem yang perlu diselidiki. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-sta-bab-04",
+      "nomor": 4,
+      "judul": "Regresi Linear",
+      "deskripsi": "Menemukan model linear terbaik dari data bivariat",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Dari Diagram Pencar ke Garis Regresi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Kalau diagram pencar menunjukkan pola linear, kita bisa menggambar <b>garis lurus</b> yang mewakili tren data. Garis ini disebut <b>garis regresi linear</b> atau <b>garis best-fit</b>."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/statistika-lanjutan/garis-regresi.png",
+              "caption": "Diagram pencar dengan garis regresi linear",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Garis yang mewakili tren data dalam diagram pencar disebut...",
+              "pilihan": ["Garis singgung", "Garis regresi", "Garis normal", "Garis tengah"],
+              "jawaban": 1,
+              "pembahasan": "Garis tren = <b>garis regresi</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Persamaan Garis Regresi",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\hat{y} = a + bx"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$\\hat{y}$ = nilai prediksi",
+                "$a$ = intersep (nilai y saat x = 0)",
+                "$b$ = kemiringan (slope) — perubahan y untuk kenaikan 1 satuan x"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Interpretasi slope:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$b > 0$ → korelasi <b>positif</b>",
+                "$b < 0$ → korelasi <b>negatif</b>",
+                "$b = 0$ → <b>tidak ada</b> hubungan linear"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b04-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pada $\\hat{y} = a + bx$, nilai $b$ menunjukkan...",
+              "pilihan": [
+                "Nilai y saat x = 0",
+                "Kemiringan garis",
+                "Nilai prediksi",
+                "Jumlah data"
+              ],
+              "jawaban": 1,
+              "pembahasan": "$b$ = <b>kemiringan</b> (slope)."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Rumus Mencari a dan b",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "b = \\dfrac{n \\sum x_i y_i - \\sum x_i \\sum y_i}{n \\sum x_i^2 - (\\sum x_i)^2}"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "a = \\bar{y} - b \\bar{x}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan $n$ = banyak data, $\\bar{x}$ = rata-rata x, $\\bar{y}$ = rata-rata y."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Data 5 siswa: (2,60), (4,70), (6,75), (8,85), (10,90)." },
+                { "tipe": "list", "ordered": false, "items": [
+                  "$\\sum x = 30$, $\\sum y = 380$, $n = 5$",
+                  "$\\sum xy = 2400$, $\\sum x^2 = 220$"
+                ]},
+                { "tipe": "formula_block", "latex": "b = \\dfrac{5(2400) - 30(380)}{5(220) - 30^2} = \\dfrac{600}{200} = 3" },
+                { "tipe": "formula_block", "latex": "a = 76 - 3(6) = 58" },
+                { "tipe": "formula_block", "latex": "\\hat{y} = 58 + 3x" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b04-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $\\bar{y} = 50$, $\\bar{x} = 10$, $b = 2$, maka $a$ = ... (tulis angka saja)",
+              "jawaban": "30",
+              "pembahasan": "$a = \\bar{y} - b\\bar{x} = 50 - 2(10) = 30$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Menggunakan Garis Regresi untuk Prediksi",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dari $\\hat{y} = 58 + 3x$, prediksi nilai jika siswa belajar 7 jam?" },
+                { "tipe": "formula_block", "latex": "\\hat{y} = 58 + 3(7) = 79" },
+                { "tipe": "paragraph", "text": "Jadi prediksi nilainya <b>79</b>." }
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ <b>Hati-hati ekstrapolasi</b> — memprediksi di luar rentang data asli bisa tidak akurat. Kalau data x dari 2–10, memprediksi x = 20 mungkin tidak valid."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b04-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $\\hat{y} = 20 + 5x$, prediksi $y$ saat $x = 4$ = ... (tulis angka saja)",
+              "jawaban": "40",
+              "pembahasan": "$\\hat{y} = 20 + 5(4) = 40$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Koefisien Determinasi (r²)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Seberapa baik garis regresi mewakili data? Kita ukur dengan <b>koefisien determinasi</b> ($r^2$)."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "r^2 = \\dfrac{\\text{SSR}}{\\text{SST}}"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$r^2$ mendekati <b>1</b> → garis regresi sangat baik",
+                "$r^2$ mendekati <b>0</b> → garis regresi kurang baik"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Contoh: $r^2 = 0{,}85$ artinya <b>85%</b> variasi nilai y bisa dijelaskan oleh x. Sisanya 15% faktor lain."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $r^2 = 0{,}9$, artinya...",
+              "pilihan": [
+                "90% variasi y dijelaskan oleh x",
+                "10% variasi y dijelaskan oleh x",
+                "Korelasi negatif",
+                "Tidak ada hubungan"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$r^2 = 0{,}9$ = 90% variasi y bisa dijelaskan x."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-sta-b04-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Persamaan garis regresi adalah...",
+              "pilihan": ["$y = ax^2 + bx$", "$\\hat{y} = a + bx$", "$y = a^x$", "$y = \\sin x$"],
+              "jawaban": 1,
+              "pembahasan": "Garis regresi = $\\hat{y} = a + bx$."
+            },
+            {
+              "id": "11-sta-b04-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika $\\hat{y} = 10 + 2x$, prediksi saat $x = 5$ = ... (tulis angka saja)",
+              "jawaban": "20",
+              "pembahasan": "$\\hat{y} = 10 + 2(5) = 20$."
+            },
+            {
+              "id": "11-sta-b04-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Regresi linear membuktikan hubungan sebab-akibat.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Regresi hanya menunjukkan korelasi, bukan kausalitas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-sta-bab-05",
+      "nomor": 5,
+      "judul": "Evaluasi Laporan Statistik",
+      "deskripsi": "Membaca laporan statistik dengan kritis",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Mengapa Perlu Kritis?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Setiap hari kita dibombardir dengan data: iklan, berita, laporan penelitian, klaim politisi. Kemampuan <b>membaca statistik dengan kritis</b> adalah keterampilan penting di era informasi."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Sering kali data yang sama bisa disajikan dengan cara berbeda untuk mendukung kesimpulan tertentu."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b05-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kenapa perlu kritis terhadap klaim statistik?",
+              "pilihan": [
+                "Supaya bisa membantah semua orang",
+                "Karena data bisa dimanipulasi untuk tujuan tertentu",
+                "Karena statistika tidak berguna",
+                "Karena semua orang bohong"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Data bisa <b>dimanipulasi</b> untuk mendukung klaim tertentu."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Pertanyaan Kritis untuk Setiap Klaim",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "<b>Siapa yang membuat klaim?</b> Apakah punya kepentingan tertentu?",
+                "<b>Berapa ukuran sampelnya?</b> Sampel kecil tidak bisa digeneralisasi",
+                "<b>Bagaimana sampel dipilih?</b> Acak? Representatif?",
+                "<b>Data apa yang hilang?</b> Apakah ada yang disembunyikan?",
+                "<b>Apakah korelasi dibesar-besarkan jadi kausalitas?</b>"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b05-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kenapa ukuran sampel penting?",
+              "pilihan": [
+                "Supaya hitungan lebih cepat",
+                "Sampel kecil tidak bisa digeneralisasi ke populasi",
+                "Supaya angkanya besar",
+                "Tidak penting"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Sampel kecil → tidak representatif → tidak bisa digeneralisasi."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Kesalahan Umum dalam Laporan",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "1. Cherry-Picking Data"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Memilih hanya data yang mendukung klaim, mengabaikan yang bertentangan."
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "2. Membalik Sebab-Akibat"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Menukar arah kausalitas. Contoh: \"Orang yang sarapan lebih sehat\" — bisa jadi orang yang SUDAH sehat memang lebih cenderung sarapan."
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "3. Manipulasi Grafik"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Mengubah skala sumbu untuk memberi kesan dramatis."
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "4. Persentase Relatif yang Menyesatkan"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "\"Risiko naik 100%!\" — tapi risiko awal hanya 1 dari 10.000. Naik 100% jadi 2 dari 10.000 — masih sangat kecil."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b05-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Memilih hanya data yang mendukung klaim disebut...",
+              "pilihan": ["Sampling acak", "Cherry-picking", "Ekstrapolasi", "Triangulasi"],
+              "jawaban": 1,
+              "pembahasan": "Cherry-picking = memilih hanya data yang menguntungkan."
+            },
+            {
+              "id": "11-sta-b05-s3-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Kenaikan risiko 100% selalu berarti besar secara absolut.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Tergantung risiko awalnya. Kalau dari 1/10.000 jadi 2/10.000, masih sangat kecil."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Cara Menyajikan Data yang Jujur",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "Sebutkan <b>ukuran sampel</b> & cara pengambilan sampel",
+                "Sajikan <b>konteks lengkap</b>",
+                "Bedakan jelas antara <b>korelasi</b> dan <b>kausalitas</b>",
+                "Tampilkan <b>margin error</b>",
+                "Gunakan <b>skala grafik yang jujur</b> (mulai dari 0 untuk perbandingan)",
+                "Sertakan <b>keterbatasan penelitian</b>"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Menganalisis Iklan",
+              "konten": [
+                { "tipe": "paragraph", "text": "Klaim: \"90% pengguna merasa lebih baik setelah pakai produk kami!\"" },
+                { "tipe": "paragraph", "text": "Pertanyaan kritis:" },
+                { "tipe": "list", "ordered": false, "items": [
+                  "Berapa jumlah responden? Kalau 10 → tidak reliabel",
+                  "Bagaimana memilih responden? Acak atau hanya pelanggan setia?",
+                  "Apa arti 'lebih baik'? Diukur bagaimana?",
+                  "Apakah ada kelompok kontrol?",
+                  "Apakah efek samping dilaporkan?"
+                ]}
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b05-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Cara menyajikan data yang jujur adalah...",
+              "pilihan": [
+                "Sembunyikan keterbatasan",
+                "Sertakan keterbatasan & margin error",
+                "Gunakan grafik dramatis",
+                "Hanya tampilkan yang menguntungkan"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Sajikan dengan <b>jujur</b>: sebutkan keterbatasan & margin error."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-sta-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kesalahan umum dalam laporan statistik adalah...",
+              "pilihan": [
+                "Menyebut sampel dengan jujur",
+                "Cherry-picking & manipulasi grafik",
+                "Menampilkan margin error",
+                "Menyebut keterbatasan"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Cherry-picking & manipulasi grafik = kesalahan umum."
+            },
+            {
+              "id": "11-sta-b05-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Risiko naik 100% dari 1/10.000 jadi .../10.000 (tulis angka saja)",
+              "jawaban": "2",
+              "pembahasan": "$1 \\times 2 = 2$. Naik 100% = 2/10.000."
+            },
+            {
+              "id": "11-sta-b05-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "\"Orang yang sarapan lebih sehat\" pasti membuktikan sarapan menyebabkan kesehatan.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Bisa jadi orang yang sudah sehat cenderung sarapan (membalik sebab-akibat)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-sta-bab-06",
+      "nomor": 6,
+      "judul": "Proyek Analisis Data Sederhana",
+      "deskripsi": "Menerapkan seluruh konsep statistika dalam proyek nyata",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Belajar dengan Proyek",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Cara terbaik memahami statistika adalah <b>mempraktikkannya langsung</b>. Di bab ini, kita akan merancang dan menganalisis sebuah proyek data sederhana."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "1️⃣ Merumuskan pertanyaan",
+                "2️⃣ Mengumpulkan data",
+                "3️⃣ Menyajikan data",
+                "4️⃣ Menganalisis data",
+                "5️⃣ Menginterpretasi & menyimpulkan"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Merumuskan Pertanyaan & Mengumpulkan Data",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Pertanyaan yang Baik"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Apakah ada hubungan antara jam tidur dan nilai ujian siswa?",
+                "Apakah jumlah pengikut media sosial berkorelasi dengan tingkat kepercayaan diri?",
+                "Apakah harga produk berkorelasi dengan ratingnya?"
+              ]
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Metode Pengumpulan Data"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Kuesioner</b> — bagikan ke responden",
+                "<b>Observasi</b> — catat langsung",
+                "<b>Data sekunder</b> — ambil dari sumber yang ada"
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ Sampel harus <b>acak & representatif</b>. Minimal 30 untuk analisis statistik."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b06-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Ukuran sampel minimal untuk analisis statistik yang cukup adalah...",
+              "pilihan": ["5", "10", "30", "100"],
+              "jawaban": 2,
+              "pembahasan": "Minimal <b>30</b> responden untuk analisis yang cukup."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Analisis & Interpretasi",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Hitung statistik yang relevan:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Ukuran pemusatan</b> — mean, median, modus",
+                "<b>Ukuran penyebaran</b> — jangkauan, simpangan baku",
+                "<b>Analisis bivariat</b> — korelasi, garis regresi",
+                "<b>Koefisien determinasi</b> — seberapa baik model menjelaskan data"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh Proyek: Jam Tidur vs Nilai Ujian",
+              "konten": [
+                { "tipe": "paragraph", "text": "30 siswa kelas 11 disurvei: jam tidur (x) & nilai ujian matematika (y)." },
+                { "tipe": "paragraph", "text": "Hasil:" },
+                { "tipe": "list", "ordered": false, "items": [
+                  "Mean jam tidur: 6,5 jam, mean nilai: 78",
+                  "Garis regresi: $\\hat{y} = 55 + 3{,}5x$",
+                  "$r^2 = 0{,}25$ (25% variasi nilai dijelaskan jam tidur)"
+                ]},
+                { "tipe": "paragraph", "text": "<b>Interpretasi:</b> ada korelasi positif lemah. 75% variasi nilai dipengaruhi faktor lain (motivasi, kemampuan, dll)." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b06-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $r^2 = 0{,}25$, artinya variasi y yang dijelaskan x sebesar...",
+              "pilihan": ["75%", "50%", "25%", "10%"],
+              "jawaban": 2,
+              "pembahasan": "$r^2 = 0{,}25$ = <b>25%</b> variasi dijelaskan x."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Keterbatasan & Tips Proyek",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Setiap proyek punya <b>keterbatasan</b>. Sebutkan dengan jujur:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Berapa ukuran sampel dan apakah representatif?",
+                "Apa metode pengumpulan data dan kelemahannya?",
+                "Apakah hasil bisa digeneralisasi?",
+                "Apakah ada variabel lain yang mungkin mempengaruhi?"
+              ]
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Tips Proyek yang Baik"
+            },
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "<b>Pertanyaan spesifik</b> — hindari yang terlalu luas",
+                "<b>Sampel cukup besar</b> — minimal 30",
+                "<b>Pengumpulan data konsisten</b> — semua responden pertanyaan sama",
+                "<b>Perhatikan etika</b> — izin & privasi responden",
+                "<b>Sajikan dengan jujur</b> — jangan manipulasi grafik",
+                "<b>Sebutkan keterbatasan</b> — ini menunjukkan kedewasaan berpikir"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b06-s4-q1",
+              "tipe": "benar_salah",
+              "pertanyaan": "Menyebutkan keterbatasan proyek menunjukkan kelemahan kita.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Menyebutkan keterbatasan justru menunjukkan <b>kedewasaan berpikir</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham proyek statistika."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-sta-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Langkah PERTAMA dalam proyek statistika adalah...",
+              "pilihan": [
+                "Mengumpulkan data",
+                "Merumuskan pertanyaan",
+                "Menghitung mean",
+                "Membuat grafik"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Langkah 1 = <b>merumuskan pertanyaan</b>."
+            },
+            {
+              "id": "11-sta-b06-s5-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Statistika adalah alat berpikir kritis, bukan sekadar hitung-menghitung.",
+              "jawaban": true,
+              "pembahasan": "Benar — statistika menekankan <b>interpretasi & berpikir kritis</b>. <b>BENAR</b>."
+            },
+            {
+              "id": "11-sta-b06-s5-q3",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jumlah minimal sampel untuk analisis statistika = ... (tulis angka saja)",
+              "jawaban": "30",
+              "pembahasan": "Minimal 30 responden."
+            },
+            {
+              "id": "11-sta-b06-s5-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang BUKAN kesalahan dalam laporan statistik?",
+              "pilihan": [
+                "Cherry-picking data",
+                "Manipulasi grafik",
+                "Menyebutkan keterbatasan",
+                "Membesar-besarkan korelasi menjadi kausalitas"
+              ],
+              "jawaban": 2,
+              "pembahasan": "Menyebutkan keterbatasan justru <b>baik</b>, bukan kesalahan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
