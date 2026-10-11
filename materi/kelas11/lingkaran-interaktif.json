@@ -1,0 +1,1055 @@
+{
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "emoji": "⭕",
+  "warna": "#9C27B0",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "11-lkr-bab-01",
+      "nomor": 1,
+      "judul": "Unsur-Unsur Lingkaran",
+      "deskripsi": "Mengenal bagian-bagian lingkaran",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Lingkaran?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Lingkaran</b> adalah kumpulan semua titik yang memiliki <b>jarak sama</b> terhadap satu titik tetap yang disebut <b>titik pusat</b>. Jarak yang sama itu disebut <b>jari-jari</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Lingkaran bukan hanya bentuk geometris — roda, jam dinding, danau, sampai orbit planet mengikuti pola lingkaran. Ini salah satu bentuk paling fundamental di alam."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/lingkaran/unsur-lingkaran.png",
+              "caption": "Unsur-unsur lingkaran: titik pusat O, jari-jari (r), diameter (d), busur, tali busur, juring, tembereng, dan apotema",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Lingkaran adalah kumpulan titik yang memiliki jarak yang sama terhadap...",
+              "pilihan": ["Titik tepi", "Titik pusat", "Dua titik", "Garis lurus"],
+              "jawaban": 1,
+              "pembahasan": "Lingkaran = kumpulan titik berjarak sama dari <b>titik pusat</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Unsur-Unsur Lingkaran",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Titik pusat (O)</b> — titik tetap di tengah lingkaran",
+                "<b>Jari-jari (r)</b> — jarak dari pusat ke tepi lingkaran",
+                "<b>Diameter (d)</b> — garis lurus yang melewati pusat dan menghubungkan dua titik di tepi",
+                "<b>Busur</b> — bagian dari keliling lingkaran (kurva)",
+                "<b>Tali busur</b> — garis lurus yang menghubungkan dua titik di tepi lingkaran",
+                "<b>Juring (sektor)</b> — daerah yang dibatasi oleh dua jari-jari dan satu busur",
+                "<b>Tembereng</b> — daerah yang dibatasi oleh tali busur dan busur",
+                "<b>Apotema</b> — jarak terpendek dari pusat ke tali busur"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Garis lurus yang melewati pusat dan menghubungkan dua titik di tepi lingkaran disebut...",
+              "pilihan": ["Jari-jari", "Diameter", "Busur", "Tali busur"],
+              "jawaban": 1,
+              "pembahasan": "<b>Diameter</b> = garis melalui pusat."
+            },
+            {
+              "id": "11-lkr-b01-s2-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Daerah yang dibatasi oleh dua jari-jari dan satu busur disebut...",
+              "pilihan": ["Tembereng", "Juring", "Tali busur", "Apotema"],
+              "jawaban": 1,
+              "pembahasan": "Daerah antara 2 jari-jari + busur = <b>juring</b> (sektor)."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Hubungan Jari-Jari dan Diameter",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "d = 2r \\quad \\text{atau} \\quad r = \\dfrac{d}{2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Diameter selalu dua kali jari-jari. Kalau kamu tahu salah satunya, kamu bisa langsung cari yang lain."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran dengan diameter 20 cm. Berapa jari-jarinya?" },
+                { "tipe": "formula_block", "latex": "r = \\dfrac{d}{2} = \\dfrac{20}{2} = 10 \\text{ cm}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b01-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Diameter lingkaran 14 cm. Jari-jarinya = ... cm (tulis angka saja)",
+              "jawaban": "7",
+              "pembahasan": "$r = d/2 = 14/2 = 7$ cm."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Keliling dan Luas Lingkaran",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Dua rumus dasar yang wajib dihafal:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "K = 2\\pi r = \\pi d"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "L = \\pi r^2"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan $\\pi \\approx 3{,}14$ atau $\\pi \\approx \\dfrac{22}{7}$."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Keliling dan Luas",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran dengan jari-jari 14 cm. Tentukan keliling dan luasnya." },
+                { "tipe": "paragraph", "text": "Gunakan $\\pi = \\dfrac{22}{7}$:" },
+                { "tipe": "formula_block", "latex": "K = 2 \\times \\dfrac{22}{7} \\times 14 = 88 \\text{ cm}" },
+                { "tipe": "formula_block", "latex": "L = \\dfrac{22}{7} \\times 14^2 = 616 \\text{ cm}^2" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus keliling lingkaran adalah...",
+              "pilihan": ["$\\pi r^2$", "$2\\pi r$", "$\\pi d^2$", "$4\\pi r$"],
+              "jawaban": 1,
+              "pembahasan": "Keliling = $2\\pi r$ (atau $\\pi d$)."
+            },
+            {
+              "id": "11-lkr-b01-s4-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Lingkaran dengan jari-jari 7 cm. Keliling = ... cm (gunakan $\\pi = 22/7$, tulis angka saja)",
+              "jawaban": "44",
+              "pembahasan": "$K = 2 \\times 22/7 \\times 7 = 44$ cm."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-lkr-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Daerah yang dibatasi oleh tali busur dan busur disebut...",
+              "pilihan": ["Juring", "Tembereng", "Apotema", "Diameter"],
+              "jawaban": 1,
+              "pembahasan": "Tali busur + busur = <b>tembereng</b>."
+            },
+            {
+              "id": "11-lkr-b01-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Lingkaran berjari-jari 10 cm. Luas = ... cm² (gunakan $\\pi = 3{,}14$, tulis angka saja)",
+              "jawaban": "314",
+              "pembahasan": "$L = \\pi r^2 = 3{,}14 \\times 100 = 314$ cm²."
+            },
+            {
+              "id": "11-lkr-b01-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Diameter = 2 × jari-jari.",
+              "jawaban": true,
+              "pembahasan": "Benar — $d = 2r$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lkr-bab-02",
+      "nomor": 2,
+      "judul": "Sudut Pusat dan Sudut Keliling",
+      "deskripsi": "Hubungan sudut pada lingkaran",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Sudut Pusat dan Sudut Keliling",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Sudut pusat</b> adalah sudut yang titik sudutnya berada di <b>titik pusat</b> lingkaran, dan kakinya adalah dua jari-jari."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "<b>Sudut keliling</b> adalah sudut yang titik sudutnya berada di <b>tepi lingkaran</b>, dan kakinya adalah dua tali busur."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/lingkaran/sudut-pusat-keliling.png",
+              "caption": "Sudut pusat ∠AOB dan sudut keliling ∠ACB menghadap busur AB yang sama",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sudut yang titik sudutnya di pusat lingkaran disebut...",
+              "pilihan": ["Sudut keliling", "Sudut pusat", "Sudut siku-siku", "Sudut lurus"],
+              "jawaban": 1,
+              "pembahasan": "Titik sudut di pusat = <b>sudut pusat</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Hubungan Sudut Pusat dan Sudut Keliling",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika sudut pusat dan sudut keliling <b>menghadap busur yang sama</b>, maka:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\angle \\text{pusat} = 2 \\times \\angle \\text{keliling}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Atau sebaliknya, sudut keliling = $\\dfrac{1}{2} \\times$ sudut pusat."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Sudut pusat $\\angle AOB = 80^\\circ$. Tentukan $\\angle ACB$ jika C di tepi." },
+                { "tipe": "formula_block", "latex": "\\angle ACB = \\dfrac{1}{2} \\times 80^\\circ = 40^\\circ" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Jika sudut pusat 100°, maka sudut keliling yang menghadap busur sama = ... ° (tulis angka saja)",
+              "jawaban": "50",
+              "pembahasan": "$\\angle$ keliling = $\\frac{1}{2} \\times 100° = 50°$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Sifat-Sifat Sudut Keliling",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Semua sudut keliling</b> yang menghadap busur yang sama memiliki besar yang sama",
+                "<b>Sudut keliling yang menghadap diameter</b> besarnya selalu $90^\\circ$ (sudut siku-siku)",
+                "<b>Sudut keliling yang saling berhadapan</b> dalam segiempat tali busur berjumlah $180^\\circ$"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/lingkaran/sudut-keliling-diameter.png",
+              "caption": "Sudut keliling yang menghadap diameter lingkaran selalu 90° (siku-siku)",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sudut keliling yang menghadap diameter besarnya...",
+              "pilihan": ["45°", "60°", "90°", "180°"],
+              "jawaban": 2,
+              "pembahasan": "Diameter = sudut pusat 180° → sudut keliling = 180°/2 = <b>90°</b>."
+            },
+            {
+              "id": "11-lkr-b02-s3-q2",
+              "tipe": "benar_salah",
+              "pertanyaan": "Dua sudut keliling yang menghadap busur yang sama selalu sama besar.",
+              "jawaban": true,
+              "pembahasan": "Benar — sifat sudut keliling. <b>BENAR</b>."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Perhitungan",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1: Sudut Pusat & Keliling",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran pusat O, sudut pusat $\\angle AOB = 120^\\circ$. Titik C di tepi. Tentukan $\\angle ACB$." },
+                { "tipe": "formula_block", "latex": "\\angle ACB = \\dfrac{1}{2} \\times 120^\\circ = 60^\\circ" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Sudut Keliling Sama",
+              "konten": [
+                { "tipe": "paragraph", "text": "Titik A, B, C, D di tepi lingkaran. Jika $\\angle ACB = 40^\\circ$, tentukan $\\angle ADB$." },
+                { "tipe": "paragraph", "text": "Keduanya menghadap busur AB yang sama:" },
+                { "tipe": "formula_block", "latex": "\\angle ADB = \\angle ACB = 40^\\circ" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b02-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sudut keliling $\\angle ACB = 35°$. Sudut pusat yang menghadap busur sama adalah...",
+              "pilihan": ["35°", "70°", "105°", "140°"],
+              "jawaban": 1,
+              "pembahasan": "Sudut pusat = 2 × sudut keliling = 70°."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-lkr-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus hubungan sudut pusat & keliling adalah...",
+              "pilihan": ["Sudut pusat = sudut keliling", "Sudut pusat = 2 × sudut keliling", "Sudut pusat = 3 × sudut keliling", "Sudut keliling = 2 × sudut pusat"],
+              "jawaban": 1,
+              "pembahasan": "Sudut pusat = <b>2 ×</b> sudut keliling (jika busur sama)."
+            },
+            {
+              "id": "11-lkr-b02-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sudut keliling yang menghadap diameter = ... ° (tulis angka saja)",
+              "jawaban": "90",
+              "pembahasan": "Diameter = 180° → sudut keliling = 90°."
+            },
+            {
+              "id": "11-lkr-b02-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Sudut pusat selalu lebih kecil dari sudut keliling yang menghadap busur sama.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Sudut pusat = 2 × sudut keliling, jadi lebih <b>besar</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lkr-bab-03",
+      "nomor": 3,
+      "judul": "Panjang Busur dan Luas Juring",
+      "deskripsi": "Menghitung bagian-bagian lingkaran",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Konsep Perbandingan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Busur dan juring adalah <b>bagian</b> dari lingkaran. Untuk menghitungnya, kita pakai <b>perbandingan sudut</b>: sudut bagian dibagi sudut satu putaran penuh ($360^\\circ$ atau $2\\pi$ rad)."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/lingkaran/busur-juring.png",
+              "caption": "Juring AOB dengan sudut pusat α. Panjang busur AB dan luas juring AOB sebanding dengan α/360°",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sudut satu putaran penuh lingkaran adalah...",
+              "pilihan": ["90°", "180°", "270°", "360°"],
+              "jawaban": 3,
+              "pembahasan": "Satu putaran penuh = <b>360°</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Rumus Panjang Busur",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Panjang busur} = \\dfrac{\\alpha}{360^\\circ} \\times 2\\pi r"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "dengan $\\alpha$ = besar sudut pusat (dalam derajat)."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran $r = 21$ cm, sudut pusat $60^\\circ$. Panjang busur?" },
+                { "tipe": "formula_block", "latex": "\\text{Busur} = \\dfrac{60^\\circ}{360^\\circ} \\times 2 \\times \\dfrac{22}{7} \\times 21 = \\dfrac{1}{6} \\times 132 = 22 \\text{ cm}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b03-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Busur dengan sudut pusat 90° pada lingkaran $r = 7$ cm. Panjang busur = ... cm (gunakan $\\pi = 22/7$, tulis angka saja)",
+              "jawaban": "11",
+              "pembahasan": "$\\text{Busur} = \\frac{90}{360} \\times 2 \\times \\frac{22}{7} \\times 7 = \\frac{1}{4} \\times 44 = 11$ cm."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Rumus Luas Juring",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Luas juring} = \\dfrac{\\alpha}{360^\\circ} \\times \\pi r^2"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran $r = 10$ cm, sudut pusat $90^\\circ$. Luas juring?" },
+                { "tipe": "formula_block", "latex": "\\text{Luas juring} = \\dfrac{90^\\circ}{360^\\circ} \\times 3{,}14 \\times 10^2 = \\dfrac{1}{4} \\times 314 = 78{,}5 \\text{ cm}^2" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b03-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Luas juring dengan sudut pusat 60° pada $r = 7$ cm = .../... dari luas lingkaran (tulis dalam pecahan sederhana, misal 1/6)",
+              "jawaban": "1/6",
+              "pembahasan": "$\\frac{60}{360} = \\frac{1}{6}$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Hubungan Busur, Juring, dan Sudut",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{\\text{panjang busur}}{K} = \\dfrac{\\text{luas juring}}{L} = \\dfrac{\\alpha}{360^\\circ}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Konsep kuncinya: <b>proporsi</b>. Kalau sudut pusat $90^\\circ$, maka busur & juring adalah $\\dfrac{90}{360} = \\dfrac{1}{4}$ bagian dari lingkaran penuh."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b03-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Sudut pusat 180° berarti juring tersebut adalah... dari lingkaran penuh.",
+              "pilihan": ["1/4", "1/3", "1/2", "3/4"],
+              "jawaban": 2,
+              "pembahasan": "$\\frac{180}{360} = \\frac{1}{2}$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-lkr-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus panjang busur adalah...",
+              "pilihan": ["$\\pi r^2$", "$\\dfrac{\\alpha}{360} \\times 2\\pi r$", "$\\dfrac{\\alpha}{360} \\times \\pi r^2$", "$2\\pi r$"],
+              "jawaban": 1,
+              "pembahasan": "Panjang busur = $\\dfrac{\\alpha}{360} \\times 2\\pi r$."
+            },
+            {
+              "id": "11-lkr-b03-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Sudut pusat 120° pada lingkaran $r = 14$ cm. Panjang busur = ... cm (gunakan $\\pi = 22/7$, tulis angka saja)",
+              "jawaban": "29,33",
+              "pembahasan": "$\\text{Busur} = \\frac{120}{360} \\times 2 \\times \\frac{22}{7} \\times 14 = \\frac{1}{3} \\times 88 = 29{,}33$ cm."
+            },
+            {
+              "id": "11-lkr-b03-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Luas juring = sudut pusat / 360° × luas lingkaran.",
+              "jawaban": true,
+              "pembahasan": "Benar — ini rumus dasar luas juring. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lkr-bab-04",
+      "nomor": 4,
+      "judul": "Garis Singgung Lingkaran",
+      "deskripsi": "Garis yang menyentuh lingkaran di satu titik",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Garis Singgung?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Garis singgung</b> adalah garis yang menyentuh lingkaran <b>tepat di satu titik</b>. Titik itu disebut <b>titik singgung</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Sifat penting: garis singgung selalu <b>tegak lurus</b> terhadap jari-jari di titik singgung."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/lingkaran/garis-singgung.png",
+              "caption": "Garis singgung lingkaran di titik P. Jari-jari OP tegak lurus dengan garis singgung di P",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Garis singgung lingkaran tegak lurus terhadap...",
+              "pilihan": ["Diameter", "Jari-jari di titik singgung", "Tali busur", "Busur"],
+              "jawaban": 1,
+              "pembahasan": "Garis singgung ⊥ <b>jari-jari</b> di titik singgung."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Jenis Garis Singgung",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "<b>Garis singgung persekutuan dalam</b> — dua lingkaran punya garis singgung di antara keduanya",
+                "<b>Garis singgung persekutuan luar</b> — dua lingkaran punya garis singgung di sisi luar"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b04-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Garis singgung yang terletak di antara dua lingkaran disebut...",
+              "pilihan": ["Persekutuan luar", "Persekutuan dalam", "Garis singgung tunggal", "Diameter"],
+              "jawaban": 1,
+              "pembahasan": "Antara dua lingkaran = <b>persekutuan dalam</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Panjang Garis Singgung dari Titik Luar",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika titik P berada di luar lingkaran dengan pusat O dan jari-jari r, panjang garis singgung dari P ke titik singgung T adalah:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "PT = \\sqrt{OP^2 - r^2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Rumus ini berasal dari <b>Teorema Pythagoras</b> pada segitiga siku-siku OPT."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Titik P berjarak 13 cm dari pusat lingkaran $r = 5$ cm." },
+                { "tipe": "formula_block", "latex": "PT = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = 12 \\text{ cm}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b04-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Titik P berjarak 10 cm dari pusat lingkaran $r = 6$ cm. Panjang garis singgung = ... cm (tulis angka saja)",
+              "jawaban": "8",
+              "pembahasan": "$PT = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$ cm."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Garis Singgung Persekutuan Dua Lingkaran",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk dua lingkaran dengan jari-jari $R$ dan $r$, jarak antar pusat $d$:"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Garis singgung persekutuan <b>luar</b> (GSPL):"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "GSPL = \\sqrt{d^2 - (R - r)^2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Garis singgung persekutuan <b>dalam</b> (GSPD):"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "GSPD = \\sqrt{d^2 - (R + r)^2}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Dua lingkaran $r_1 = 8$ cm, $r_2 = 3$ cm, jarak pusat 13 cm. GSPL?" },
+                { "tipe": "formula_block", "latex": "GSPL = \\sqrt{13^2 - (8 - 3)^2} = \\sqrt{169 - 25} = 12 \\text{ cm}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b04-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dua lingkaran $R = 10$, $r = 4$, $d = 10$. GSPL = ...",
+              "pilihan": ["6", "8", "10", "12"],
+              "jawaban": 1,
+              "pembahasan": "GSPL = $\\sqrt{10^2 - (10-4)^2} = \\sqrt{100 - 36} = 8$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-lkr-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus panjang garis singgung dari titik luar adalah...",
+              "pilihan": ["$\\sqrt{OP^2 + r^2}$", "$\\sqrt{OP^2 - r^2}$", "$OP - r$", "$\\sqrt{r^2 - OP^2}$"],
+              "jawaban": 1,
+              "pembahasan": "$PT = \\sqrt{OP^2 - r^2}$ (dari Pythagoras)."
+            },
+            {
+              "id": "11-lkr-b04-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Dua lingkaran $R = 7$, $r = 2$, $d = 13$. GSPL = ... cm (tulis angka saja)",
+              "jawaban": "12",
+              "pembahasan": "GSPL = $\\sqrt{13^2 - (7-2)^2} = \\sqrt{169 - 25} = 12$."
+            },
+            {
+              "id": "11-lkr-b04-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "GSPL = $\\sqrt{d^2 - (R-r)^2}$ dan GSPD = $\\sqrt{d^2 - (R+r)^2}$.",
+              "jawaban": true,
+              "pembahasan": "Benar — GSPL pakai selisih, GSPD pakai jumlah. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lkr-bab-05",
+      "nomor": 5,
+      "judul": "Persamaan Lingkaran",
+      "deskripsi": "Menentukan persamaan lingkaran dalam koordinat kartesius",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Lingkaran dalam Koordinat",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Di bidang kartesius, lingkaran bisa dinyatakan sebagai <b>persamaan</b>. Ada dua bentuk utama, tergantung pusatnya."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b05-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Lingkaran dalam bidang kartesius bisa dinyatakan sebagai...",
+              "pilihan": ["Garis lurus", "Persamaan", "Titik", "Kurva terbuka"],
+              "jawaban": 1,
+              "pembahasan": "Lingkaran bisa dinyatakan sebagai <b>persamaan</b>."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Persamaan Pusat di O(0, 0)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika lingkaran berpusat di titik asal $(0,0)$ dengan jari-jari $r$:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x^2 + y^2 = r^2"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran pusat (0,0) dengan $r = 5$. Persamaannya:" },
+                { "tipe": "formula_block", "latex": "x^2 + y^2 = 25" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b05-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Lingkaran pusat (0,0) dengan $r = 3$. Persamaan: $x^2 + y^2 = ...$ (tulis angka saja)",
+              "jawaban": "9",
+              "pembahasan": "$r^2 = 3^2 = 9$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Persamaan Pusat di P(a, b)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika lingkaran berpusat di titik $(a, b)$ dengan jari-jari $r$:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "(x - a)^2 + (y - b)^2 = r^2"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas11/lingkaran/persamaan-lingkaran.png",
+              "caption": "Lingkaran dengan pusat P(a, b) dan jari-jari r",
+              "width": "full"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Lingkaran pusat $(2, -3)$, $r = 5$." },
+                { "tipe": "formula_block", "latex": "(x - 2)^2 + (y + 3)^2 = 25" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b05-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Lingkaran pusat $(1, -2)$ dengan $r = 4$. Persamaannya...",
+              "pilihan": [
+                "$(x+1)^2 + (y-2)^2 = 16$",
+                "$(x-1)^2 + (y+2)^2 = 16$",
+                "$(x-1)^2 + (y-2)^2 = 16$",
+                "$(x+1)^2 + (y+2)^2 = 16$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "$(x - 1)^2 + (y - (-2))^2 = 4^2 \\Rightarrow (x-1)^2 + (y+2)^2 = 16$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Bentuk Umum Persamaan Lingkaran",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Bentuk umum persamaan lingkaran:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "x^2 + y^2 + Ax + By + C = 0"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dari bentuk umum ini, kita bisa menentukan pusat dan jari-jari:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Pusat} = \\left(-\\dfrac{A}{2}, -\\dfrac{B}{2}\\right)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "r = \\sqrt{\\dfrac{A^2}{4} + \\dfrac{B^2}{4} - C}"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b05-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Dari $x^2 + y^2 + Ax + By + C = 0$, pusat lingkaran adalah...",
+              "pilihan": ["$(A, B)$", "$(-A, -B)$", "$(-A/2, -B/2)$", "$(A/2, B/2)$"],
+              "jawaban": 2,
+              "pembahasan": "Pusat = $(-A/2, -B/2)$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Menentukan Pusat & Jari-Jari dari Bentuk Umum",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan pusat dan jari-jari dari $x^2 + y^2 - 4x + 6y - 12 = 0$." },
+                { "tipe": "paragraph", "text": "Diketahui $A = -4$, $B = 6$, $C = -12$." },
+                { "tipe": "formula_block", "latex": "\\text{Pusat} = \\left(2, -3\\right)" },
+                { "tipe": "formula_block", "latex": "r = \\sqrt{4 + 9 + 12} = \\sqrt{25} = 5" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b05-s5-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$x^2 + y^2 - 6x - 8y + 16 = 0$. Nilai $r$ = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$r = \\sqrt{(-6)^2/4 + (-8)^2/4 - 16} = \\sqrt{9 + 16 - 16} = \\sqrt{9} = 3$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "11-lkr-b05-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Apakah titik $(3, 4)$ terletak pada lingkaran $x^2 + y^2 = 25$?",
+              "pilihan": ["Ya", "Tidak", "Tidak tentu", "Perlu info tambahan"],
+              "jawaban": 0,
+              "pembahasan": "$3^2 + 4^2 = 9 + 16 = 25$ = $r^2$. Jadi titik <b>terletak pada lingkaran</b>."
+            },
+            {
+              "id": "11-lkr-b05-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$x^2 + y^2 - 2x + 4y - 4 = 0$. Pusat = $(1, ...)$. Tulis nilai $y$ pusat.",
+              "jawaban": "-2",
+              "pembahasan": "Pusat = $(-A/2, -B/2) = (1, -2)$."
+            },
+            {
+              "id": "11-lkr-b05-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Titik yang berada di dalam lingkaran memenuhi $x^2 + y^2 < r^2$.",
+              "jawaban": true,
+              "pembahasan": "Benar — di dalam lingkaran, jarak ke pusat < r. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-lkr-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Lingkaran di Kehidupan Nyata",
+      "deskripsi": "Penerapan lingkaran dalam berbagai bidang",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Lingkaran di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Lingkaran ada di mana-mana — dari roda kendaraan, jam dinding, sampai orbit satelit. Berikut beberapa penerapan nyata yang menarik."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🛰️ <b>Navigasi GPS</b> — trilaterasi sinyal satelit",
+                "🚴 <b>Roda dan gir</b> — jarak tempuh per putaran",
+                "🏛️ <b>Arsitektur</b> — kubah, stadion, jembatan lengkung",
+                "📡 <b>Radar dan sonar</b> — jangkauan pancaran",
+                "🪐 <b>Astronomi</b> — orbit planet"
+              ]
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Roda dan Gir",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Keliling roda menentukan jarak yang ditempuh dalam satu putaran. Kalau roda sepeda berjari-jari 35 cm, satu putaran menempuh $2\\pi r \\approx 2 \\times 3{,}14 \\times 35 \\approx 220$ cm."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\text{Jarak 1 putaran} = 2\\pi r"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Roda Sepeda",
+              "konten": [
+                { "tipe": "paragraph", "text": "Roda berjari-jari 35 cm. Berapa jarak setelah 100 putaran?" },
+                { "tipe": "formula_block", "latex": "K = 2 \\times \\dfrac{22}{7} \\times 35 = 220 \\text{ cm}" },
+                { "tipe": "formula_block", "latex": "100 \\times 220 = 22.000 \\text{ cm} = 220 \\text{ m}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b06-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Roda berjari-jari 7 cm. Jarak 1 putaran = ... cm (gunakan $\\pi = 22/7$, tulis angka saja)",
+              "jawaban": "44",
+              "pembahasan": "$K = 2 \\times 22/7 \\times 7 = 44$ cm."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Luas Juring di Kehidupan Nyata",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Kue",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kue diameter 20 cm dipotong 8 bagian sama besar. Luas setiap potongan?" },
+                { "tipe": "paragraph", "text": "Sudut per potongan = $\\dfrac{360^\\circ}{8} = 45^\\circ$. Jari-jari = 10 cm." },
+                { "tipe": "formula_block", "latex": "\\text{Luas} = \\dfrac{45^\\circ}{360^\\circ} \\times 3{,}14 \\times 10^2 = \\dfrac{1}{8} \\times 314 = 39{,}25 \\text{ cm}^2" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b06-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Pizza diameter 30 cm dipotong 6 bagian sama besar. Sudut tiap potongan...",
+              "pilihan": ["30°", "45°", "60°", "90°"],
+              "jawaban": 2,
+              "pembahasan": "$360/6 = 60°$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Jangkauan Pandang (Radar/Menara)",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Menara Pengawas",
+              "konten": [
+                { "tipe": "paragraph", "text": "Menara pengawas jangkauan 15 km. Luas area yang bisa diawasi?" },
+                { "tipe": "formula_block", "latex": "L = \\pi r^2 = 3{,}14 \\times 15^2 = 3{,}14 \\times 225 = 706{,}5 \\text{ km}^2" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b06-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Radar jangkauan 10 km. Luas area = ... × $\\pi$ km² (tulis angka saja, dalam bentuk kuadrat r)",
+              "jawaban": "100",
+              "pembahasan": "$L = \\pi r^2 = \\pi \\times 100 = 100\\pi$ km²."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham aplikasi lingkaran."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "11-lkr-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Manakah yang BUKAN aplikasi lingkaran?",
+              "pilihan": ["Roda kendaraan", "GPS", "Kubah masjid", "Papan tulis persegi"],
+              "jawaban": 3,
+              "pembahasan": "Papan tulis persegi bukan aplikasi lingkaran."
+            },
+            {
+              "id": "11-lkr-b06-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Roda berjari-jari 21 cm berputar 50 kali. Jarak = ... m (gunakan $\\pi = 22/7$, tulis angka saja)",
+              "jawaban": "66",
+              "pembahasan": "$K = 2 \\times 22/7 \\times 21 = 132$ cm. $50 \\times 132 = 6600$ cm = 66 m."
+            },
+            {
+              "id": "11-lkr-b06-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Lingkaran hanya dipakai dalam matematika, tidak ada aplikasi nyata.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Lingkaran dipakai di banyak bidang: teknik, astronomi, arsitektur, navigasi, dll."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
