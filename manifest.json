@@ -1,5 +1,5 @@
 {
-  "version": "3.7.0",
+  "version": "3.8.0",
   "last_updated": "2026-10-11",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
@@ -16,6 +16,24 @@
           "warna": "#4CAF50",
           "file_materi": "materi/kelas10/eksponen-logaritma-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/eksponen-logaritma/mudah/paket-01.json",
+              "bank-soal/kelas10/eksponen-logaritma/mudah/paket-02.json",
+              "bank-soal/kelas10/eksponen-logaritma/mudah/paket-03.json",
+              "bank-soal/kelas10/eksponen-logaritma/mudah/paket-04.json",
+              "bank-soal/kelas10/eksponen-logaritma/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/eksponen-logaritma/sedang/paket-01.json",
+              "bank-soal/kelas10/eksponen-logaritma/sedang/paket-02.json",
+              "bank-soal/kelas10/eksponen-logaritma/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/eksponen-logaritma/sulit/paket-01.json",
+              "bank-soal/kelas10/eksponen-logaritma/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "eksponen-logaritma-paket-01",
@@ -52,6 +70,24 @@
           "warna": "#2196F3",
           "file_materi": "materi/kelas10/barisan-deret-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/barisan-deret/mudah/paket-01.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-02.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-03.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-04.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/barisan-deret/sedang/paket-01.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-02.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/barisan-deret/sulit/paket-01.json",
+              "bank-soal/kelas10/barisan-deret/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "barisan-deret-paket-01",
@@ -79,6 +115,24 @@
           "warna": "#9C27B0",
           "file_materi": "materi/kelas10/trigonometri-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/trigonometri/mudah/paket-01.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-02.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-03.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-04.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/trigonometri/sedang/paket-01.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-02.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/trigonometri/sulit/paket-01.json",
+              "bank-soal/kelas10/trigonometri/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "trigonometri-paket-01",
@@ -106,6 +160,24 @@
           "warna": "#FF9800",
           "file_materi": "materi/kelas10/sistem-persamaan-linear-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-01.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-02.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-03.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-04.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-01.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-02.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-01.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "sistem-persamaan-linear-paket-01",
@@ -133,6 +205,24 @@
           "warna": "#3F51B5",
           "file_materi": "materi/kelas10/fungsi-kuadrat-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/fungsi-kuadrat/mudah/paket-01.json",
+              "bank-soal/kelas10/fungsi-kuadrat/mudah/paket-02.json",
+              "bank-soal/kelas10/fungsi-kuadrat/mudah/paket-03.json",
+              "bank-soal/kelas10/fungsi-kuadrat/mudah/paket-04.json",
+              "bank-soal/kelas10/fungsi-kuadrat/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/fungsi-kuadrat/sedang/paket-01.json",
+              "bank-soal/kelas10/fungsi-kuadrat/sedang/paket-02.json",
+              "bank-soal/kelas10/fungsi-kuadrat/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/fungsi-kuadrat/sulit/paket-01.json",
+              "bank-soal/kelas10/fungsi-kuadrat/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "fungsi-kuadrat-paket-01",
@@ -160,6 +250,24 @@
           "warna": "#00897B",
           "file_materi": "materi/kelas10/statistika-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/statistika/mudah/paket-01.json",
+              "bank-soal/kelas10/statistika/mudah/paket-02.json",
+              "bank-soal/kelas10/statistika/mudah/paket-03.json",
+              "bank-soal/kelas10/statistika/mudah/paket-04.json",
+              "bank-soal/kelas10/statistika/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/statistika/sedang/paket-01.json",
+              "bank-soal/kelas10/statistika/sedang/paket-02.json",
+              "bank-soal/kelas10/statistika/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/statistika/sulit/paket-01.json",
+              "bank-soal/kelas10/statistika/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "statistika-paket-01",
@@ -187,6 +295,24 @@
           "warna": "#00BCD4",
           "file_materi": "materi/kelas10/peluang-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas10/peluang/mudah/paket-01.json",
+              "bank-soal/kelas10/peluang/mudah/paket-02.json",
+              "bank-soal/kelas10/peluang/mudah/paket-03.json",
+              "bank-soal/kelas10/peluang/mudah/paket-04.json",
+              "bank-soal/kelas10/peluang/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas10/peluang/sedang/paket-01.json",
+              "bank-soal/kelas10/peluang/sedang/paket-02.json",
+              "bank-soal/kelas10/peluang/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas10/peluang/sulit/paket-01.json",
+              "bank-soal/kelas10/peluang/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "peluang-paket-01",
@@ -222,6 +348,24 @@
           "warna": "#5B8DEF",
           "file_materi": "materi/kelas11/komposisi-fungsi-invers-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas11/komposisi-fungsi-invers/mudah/paket-01.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/mudah/paket-02.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/mudah/paket-03.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/mudah/paket-04.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas11/komposisi-fungsi-invers/sedang/paket-01.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/sedang/paket-02.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas11/komposisi-fungsi-invers/sulit/paket-01.json",
+              "bank-soal/kelas11/komposisi-fungsi-invers/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "komposisi-fungsi-invers-paket-01",
@@ -249,6 +393,24 @@
           "warna": "#9C27B0",
           "file_materi": "materi/kelas11/lingkaran-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas11/lingkaran/mudah/paket-01.json",
+              "bank-soal/kelas11/lingkaran/mudah/paket-02.json",
+              "bank-soal/kelas11/lingkaran/mudah/paket-03.json",
+              "bank-soal/kelas11/lingkaran/mudah/paket-04.json",
+              "bank-soal/kelas11/lingkaran/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas11/lingkaran/sedang/paket-01.json",
+              "bank-soal/kelas11/lingkaran/sedang/paket-02.json",
+              "bank-soal/kelas11/lingkaran/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas11/lingkaran/sulit/paket-01.json",
+              "bank-soal/kelas11/lingkaran/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "lingkaran-paket-01",
@@ -276,6 +438,24 @@
           "warna": "#00897B",
           "file_materi": "materi/kelas11/statistika-lanjutan-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-01.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-02.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-03.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-04.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-01.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-02.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-01.json",
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "statistika-lanjutan-paket-01",
@@ -303,6 +483,24 @@
           "warna": "#7E57C2",
           "file_materi": "materi/kelas11/matematika-tingkat-lanjut-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas11/matematika-tingkat-lanjut/mudah/paket-01.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/mudah/paket-02.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/mudah/paket-03.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/mudah/paket-04.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas11/matematika-tingkat-lanjut/sedang/paket-01.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/sedang/paket-02.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas11/matematika-tingkat-lanjut/sulit/paket-01.json",
+              "bank-soal/kelas11/matematika-tingkat-lanjut/sulit/paket-02.json"
+            ]
+          },
           "paket": []
         }
       ]
@@ -319,6 +517,24 @@
           "warna": "#FF6B1A",
           "file_materi": "materi/kelas12/limit-fungsi-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas12/limit-fungsi/mudah/paket-01.json",
+              "bank-soal/kelas12/limit-fungsi/mudah/paket-02.json",
+              "bank-soal/kelas12/limit-fungsi/mudah/paket-03.json",
+              "bank-soal/kelas12/limit-fungsi/mudah/paket-04.json",
+              "bank-soal/kelas12/limit-fungsi/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas12/limit-fungsi/sedang/paket-01.json",
+              "bank-soal/kelas12/limit-fungsi/sedang/paket-02.json",
+              "bank-soal/kelas12/limit-fungsi/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas12/limit-fungsi/sulit/paket-01.json",
+              "bank-soal/kelas12/limit-fungsi/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "limit-fungsi-paket-01",
@@ -346,6 +562,24 @@
           "warna": "#E53935",
           "file_materi": "materi/kelas12/turunan-fungsi-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas12/turunan-fungsi/mudah/paket-01.json",
+              "bank-soal/kelas12/turunan-fungsi/mudah/paket-02.json",
+              "bank-soal/kelas12/turunan-fungsi/mudah/paket-03.json",
+              "bank-soal/kelas12/turunan-fungsi/mudah/paket-04.json",
+              "bank-soal/kelas12/turunan-fungsi/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas12/turunan-fungsi/sedang/paket-01.json",
+              "bank-soal/kelas12/turunan-fungsi/sedang/paket-02.json",
+              "bank-soal/kelas12/turunan-fungsi/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas12/turunan-fungsi/sulit/paket-01.json",
+              "bank-soal/kelas12/turunan-fungsi/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "turunan-fungsi-paket-01",
@@ -373,6 +607,24 @@
           "warna": "#00897B",
           "file_materi": "materi/kelas12/integral-fungsi-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas12/integral-fungsi/mudah/paket-01.json",
+              "bank-soal/kelas12/integral-fungsi/mudah/paket-02.json",
+              "bank-soal/kelas12/integral-fungsi/mudah/paket-03.json",
+              "bank-soal/kelas12/integral-fungsi/mudah/paket-04.json",
+              "bank-soal/kelas12/integral-fungsi/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas12/integral-fungsi/sedang/paket-01.json",
+              "bank-soal/kelas12/integral-fungsi/sedang/paket-02.json",
+              "bank-soal/kelas12/integral-fungsi/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas12/integral-fungsi/sulit/paket-01.json",
+              "bank-soal/kelas12/integral-fungsi/sulit/paket-02.json"
+            ]
+          },
           "paket": [
             {
               "id": "integral-fungsi-paket-01",
@@ -400,6 +652,24 @@
           "warna": "#7E57C2",
           "file_materi": "materi/kelas12/matematika-tingkat-lanjut-interaktif.json",
           "versi": "2.0.0",
+          "bank_soal": {
+            "mudah": [
+              "bank-soal/kelas12/matematika-tingkat-lanjut/mudah/paket-01.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/mudah/paket-02.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/mudah/paket-03.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/mudah/paket-04.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/mudah/paket-05.json"
+            ],
+            "sedang": [
+              "bank-soal/kelas12/matematika-tingkat-lanjut/sedang/paket-01.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/sedang/paket-02.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/sedang/paket-03.json"
+            ],
+            "sulit": [
+              "bank-soal/kelas12/matematika-tingkat-lanjut/sulit/paket-01.json",
+              "bank-soal/kelas12/matematika-tingkat-lanjut/sulit/paket-02.json"
+            ]
+          },
           "paket": []
         }
       ]
