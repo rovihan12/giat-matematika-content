@@ -1,0 +1,1199 @@
+{
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "emoji": "📐",
+  "warna": "#E53935",
+  "versi": "2.0.0",
+  "bab": [
+    {
+      "id": "12-trn-bab-01",
+      "nomor": 1,
+      "judul": "Konsep Dasar Turunan",
+      "deskripsi": "Definisi turunan dan makna geometrisnya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Apa Itu Turunan?",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Turunan</b> (derivatif) adalah laju perubahan suatu fungsi terhadap variabelnya. Kalau limit menggambarkan \"kemana\" suatu fungsi menuju, turunan menggambarkan <b>seberapa cepat</b> fungsi itu berubah."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Bayangkan kamu mengendarai motor. Posisi = fungsi $s(t)$. Kecepatan = turunan dari posisi. Percepatan = turunan dari kecepatan."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/garis-singgung.png",
+              "caption": "Turunan f'(a) adalah kemiringan garis singgung kurva di titik (a, f(a))",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b01-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan adalah...",
+              "pilihan": [
+                "Nilai fungsi",
+                "Laju perubahan fungsi",
+                "Nilai maksimum",
+                "Garis lurus"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Turunan = <b>laju perubahan</b> fungsi."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Definisi Turunan (Limit)",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "f'(x) = \\lim_{h \\to 0} \\dfrac{f(x + h) - f(x)}{h}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Notasi lain: $\\dfrac{dy}{dx}$, $\\dfrac{df}{dx}$, atau $D_x f(x)$. Semuanya berarti sama."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Fungsi Linear",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan turunan $f(x) = 3x + 2$ dari definisi." },
+                { "tipe": "formula_block", "latex": "f'(x) = \\lim_{h \\to 0} \\dfrac{3(x+h) + 2 - (3x+2)}{h} = \\lim_{h \\to 0} \\dfrac{3h}{h} = 3" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b01-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Definisi turunan melibatkan...",
+              "pilihan": ["Integral", "Limit", "Faktorial", "Logaritma"],
+              "jawaban": 1,
+              "pembahasan": "Definisi turunan menggunakan <b>limit</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Turunan dari Definisi (Latihan)",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh: Fungsi Kuadrat",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan turunan $f(x) = x^2$." },
+                { "tipe": "formula_block", "latex": "f'(x) = \\lim_{h \\to 0} \\dfrac{(x+h)^2 - x^2}{h} = \\lim_{h \\to 0} (2x + h) = 2x" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh: Fungsi Kubik",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan turunan $f(x) = x^3$." },
+                { "tipe": "formula_block", "latex": "f'(x) = \\lim_{h \\to 0} \\dfrac{3x^2 h + 3xh^2 + h^3}{h} = 3x^2" }
+              ]
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Dari contoh ini muncul pola: turunan $x^n = nx^{n-1}$."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b01-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan dari $f(x) = x^2$ adalah...",
+              "pilihan": ["$x$", "$2x$", "$x^2$", "$2$"],
+              "jawaban": 1,
+              "pembahasan": "$f'(x) = 2x$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Makna Geometris: Garis Singgung",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Secara geometris, turunan $f'(a)$ adalah <b>kemiringan (gradien) garis singgung</b> kurva $y = f(x)$ di titik $x = a$."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Bayangkan garis yang memotong kurva di 2 titik. Ketika kedua titik itu semakin dekat, garis potong (secan) berubah menjadi garis singgung (tangent)."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/garis-singgung.png",
+              "caption": "Garis secan → garis singgung saat h → 0",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b01-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Secara geometris, turunan $f'(a)$ = ...",
+              "pilihan": [
+                "Luas daerah",
+                "Gradien garis singgung di x = a",
+                "Nilai maksimum",
+                "Titik potong sumbu"
+              ],
+              "jawaban": 1,
+              "pembahasan": "Turunan = <b>gradien garis singgung</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 1",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-trn-b01-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Definisi turunan adalah...",
+              "pilihan": [
+                "$f(x+h) + f(x)$",
+                "$\\lim_{h \\to 0} \\dfrac{f(x+h) - f(x)}{h}$",
+                "$\\int f(x) \\, dx$",
+                "$f(x) \\cdot h$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "$f'(x) = \\lim_{h \\to 0} \\dfrac{f(x+h)-f(x)}{h}$."
+            },
+            {
+              "id": "12-trn-b01-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Turunan $f(x) = 5x$ = ... (tulis angka saja)",
+              "jawaban": "5",
+              "pembahasan": "$f'(x) = 5$."
+            },
+            {
+              "id": "12-trn-b01-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Turunan dari $x^3$ adalah $3x^2$.",
+              "jawaban": true,
+              "pembahasan": "Benar — turunan $x^3 = 3x^2$. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-02",
+      "nomor": 2,
+      "judul": "Aturan Turunan Dasar",
+      "deskripsi": "Aturan pangkat, konstanta, perkalian, dan pembagian",
+      "total_step": 7,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Aturan Turunan Dasar",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Menghitung turunan dengan definisi limit itu <b>melelahkan</b>. Untungnya, ada aturan-aturan praktis yang bisa kita pakai langsung."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/aturan-dasar.png",
+              "caption": "Empat aturan dasar turunan",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kenapa perlu aturan turunan?",
+              "pilihan": [
+                "Supaya lebih cepat dari definisi limit",
+                "Supaya lebih sulit",
+                "Karena diwajibkan",
+                "Tidak ada alasan"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Aturan turunan <b>lebih cepat</b> dari definisi limit."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Aturan Konstanta & Pangkat",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Aturan Konstanta"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(c) = 0"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Aturan Pangkat"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(x^n) = n \\cdot x^{n-1}"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Aturan Kelipatan Konstanta"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}[c \\cdot f(x)] = c \\cdot f'(x)"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Turunan $x^7$ = ...x⁶. Tulis koefisien.",
+              "jawaban": "7",
+              "pembahasan": "$(x^7)' = 7x^6$. Koefisien = 7."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Aturan Penjumlahan & Contoh",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}[f(x) \\pm g(x)] = f'(x) \\pm g'(x)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Turunkan satu per satu."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan turunan $f(x) = 4x^5 - 3x^2 + 7x - 2$." },
+                { "tipe": "formula_block", "latex": "f'(x) = 20x^4 - 6x + 7" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan $3x^4 - 5x^2$ = ...",
+              "pilihan": ["$12x^3 - 10x$", "$3x^3 - 5x$", "$12x^4 - 10x^2$", "$7x^3$"],
+              "jawaban": 0,
+              "pembahasan": "$(3x^4)' = 12x^3$, $(5x^2)' = 10x$. Jadi $12x^3 - 10x$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Aturan Perkalian (Product Rule)",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}[f(x) \\cdot g(x)] = f'(x)g(x) + f(x)g'(x)"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ingat singkatannya: \"turunan pertama × kedua + pertama × turunan kedua\"."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Turunan $f(x) = (2x+1)(x^2-3)$." },
+                { "tipe": "paragraph", "text": "Misal $u = 2x+1$, $v = x^2-3$. Maka $u'=2$, $v'=2x$." },
+                { "tipe": "formula_block", "latex": "f'(x) = 2(x^2-3) + (2x+1)(2x) = 6x^2 + 2x - 6" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus aturan perkalian adalah...",
+              "pilihan": [
+                "$f'g + fg'$",
+                "$f'g - fg'$",
+                "$f' \\cdot g'$",
+                "$\\dfrac{f'}{g'}$"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$(fg)' = f'g + fg'$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Aturan Pembagian (Quotient Rule)",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}\\left[\\dfrac{f(x)}{g(x)}\\right] = \\dfrac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Ingat: \"bawah × turunan atas − atas × turunan bawah, dibagi bawah kuadrat\"."
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Turunan $f(x) = \\dfrac{2x+1}{x-3}$." },
+                { "tipe": "paragraph", "text": "Misal $u = 2x+1$, $v = x-3$. Maka $u'=2$, $v'=1$." },
+                { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{2(x-3) - (2x+1)(1)}{(x-3)^2} = \\dfrac{-7}{(x-3)^2}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus aturan pembagian adalah...",
+              "pilihan": [
+                "$\\dfrac{f'g + fg'}{g^2}$",
+                "$\\dfrac{f'g - fg'}{g^2}$",
+                "$\\dfrac{f'}{g'}$",
+                "$f' \\cdot g'$"
+              ],
+              "jawaban": 1,
+              "pembahasan": "$(f/g)' = \\dfrac{f'g - fg'}{g^2}$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "konsep",
+          "judul": "Aturan Rantai (Chain Rule)",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Untuk fungsi komposisi $y = f(g(x))$:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{dy}{dx} = f'(g(x)) \\cdot g'(x)"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Turunan $y = (3x + 1)^5$." },
+                { "tipe": "paragraph", "text": "Misal $u = 3x + 1$, maka $y = u^5$." },
+                { "tipe": "formula_block", "latex": "\\dfrac{dy}{dx} = 5u^4 \\cdot 3 = 15(3x+1)^4" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s6-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Turunan $(2x+1)^4$ = ...$(2x+1)^3$. Tulis koefisien.",
+              "jawaban": "8",
+              "pembahasan": "$4(2x+1)^3 \\cdot 2 = 8(2x+1)^3$."
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 2",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-trn-b02-s7-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan $x^5$ = ...",
+              "pilihan": ["$5x^4$", "$x^4$", "$5x^5$", "$x^6$"],
+              "jawaban": 0,
+              "pembahasan": "$(x^5)' = 5x^4$."
+            },
+            {
+              "id": "12-trn-b02-s7-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Turunan $2x^3 + 5x$ = $6x^2 + ...$. Tulis angka konstanta.",
+              "jawaban": "5",
+              "pembahasan": "$(2x^3)' = 6x^2$, $(5x)' = 5$. Jadi $6x^2 + 5$."
+            },
+            {
+              "id": "12-trn-b02-s7-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Aturan rantai dipakai untuk turunan fungsi komposisi.",
+              "jawaban": true,
+              "pembahasan": "Benar — rantai untuk fungsi bersarang. <b>BENAR</b>."
+            },
+            {
+              "id": "12-trn-b02-s7-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan konstanta 7 = ...",
+              "pilihan": ["7", "1", "0", "7x"],
+              "jawaban": 2,
+              "pembahasan": "Turunan konstanta = 0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-03",
+      "nomor": 3,
+      "judul": "Turunan Fungsi Trigonometri",
+      "deskripsi": "Turunan sin, cos, tan dan kombinasinya",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Turunan Fungsi Trigonometri Dasar",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\sin x) = \\cos x"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\cos x) = -\\sin x"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\tan x) = \\sec^2 x"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "⚠️ <b>Perhatian:</b> turunan $\\cos x$ adalah $-\\sin x$ (ada tanda negatif)."
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/turunan-trigonometri.png",
+              "caption": "Grafik y = sin x dan turunannya y' = cos x",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b03-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan $\\sin x$ adalah...",
+              "pilihan": ["$\\cos x$", "$-\\cos x$", "$\\sin x$", "$-\\sin x$"],
+              "jawaban": 0,
+              "pembahasan": "$(\\sin x)' = \\cos x$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Turunan Trigonometri Lainnya",
+          "konten": [
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\cot x) = -\\csc^2 x"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\sec x) = \\sec x \\cdot \\tan x"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\csc x) = -\\csc x \\cdot \\cot x"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b03-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan $\\cos x$ adalah...",
+              "pilihan": ["$\\sin x$", "$-\\sin x$", "$\\cos x$", "$-\\cos x$"],
+              "jawaban": 1,
+              "pembahasan": "$(\\cos x)' = -\\sin x$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Aturan Rantai pada Trigonometri",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika sudutnya $ax + b$, gunakan aturan rantai:"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\sin(ax + b)) = a \\cos(ax + b)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\cos(ax + b)) = -a \\sin(ax + b)"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "\\dfrac{d}{dx}(\\tan(ax + b)) = a \\sec^2(ax + b)"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b03-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Turunan $\\sin(3x)$ = ...cos(3x). Tulis koefisien.",
+              "jawaban": "3",
+              "pembahasan": "$(\\sin 3x)' = 3\\cos 3x$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Contoh Kombinasi",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh 1",
+              "konten": [
+                { "tipe": "paragraph", "text": "Turunan $f(x) = 3\\sin x + 2\\cos x$." },
+                { "tipe": "formula_block", "latex": "f'(x) = 3\\cos x - 2\\sin x" }
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh 2: Aturan Perkalian",
+              "konten": [
+                { "tipe": "paragraph", "text": "Turunan $f(x) = x \\cdot \\sin x$." },
+                { "tipe": "formula_block", "latex": "f'(x) = \\sin x + x\\cos x" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b03-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan $x \\cdot \\cos x$ = ...",
+              "pilihan": ["$\\cos x - x\\sin x$", "$\\cos x + x\\sin x$", "$-\\sin x$", "$x\\cos x$"],
+              "jawaban": 0,
+              "pembahasan": "$(x\\cos x)' = \\cos x + x(-\\sin x) = \\cos x - x\\sin x$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 3",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-trn-b03-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Turunan $\\tan x$ adalah...",
+              "pilihan": ["$\\sec x$", "$\\sec^2 x$", "$\\cos^2 x$", "$\\tan^2 x$"],
+              "jawaban": 1,
+              "pembahasan": "$(\\tan x)' = \\sec^2 x$."
+            },
+            {
+              "id": "12-trn-b03-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Turunan $\\cos(5x)$ = -...sin(5x). Tulis koefisien.",
+              "jawaban": "5",
+              "pembahasan": "$(\\cos 5x)' = -5\\sin 5x$."
+            },
+            {
+              "id": "12-trn-b03-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Turunan $\\cos x$ adalah $-\\sin x$.",
+              "jawaban": true,
+              "pembahasan": "Benar — tanda negatif penting. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-04",
+      "nomor": 4,
+      "judul": "Aplikasi Turunan: Persamaan Garis Singgung",
+      "deskripsi": "Menentukan garis singgung kurva",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Garis Singgung Kurva",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Salah satu aplikasi paling langsung dari turunan adalah menentukan <b>persamaan garis singgung</b> kurva di titik tertentu."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "y - f(a) = f'(a)(x - a)"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/garis-singgung-kurva.png",
+              "caption": "Garis singgung kurva di titik (a, f(a))",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b04-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Gradien garis singgung kurva di titik $x = a$ adalah...",
+              "pilihan": ["$f(a)$", "$f'(a)$", "$a$", "$f''(a)$"],
+              "jawaban": 1,
+              "pembahasan": "Gradien = turunan di titik = $f'(a)$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Langkah Menentukan Garis Singgung",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": true,
+              "items": [
+                "Tentukan titik singgung $(a, f(a))$",
+                "Hitung turunan $f'(x)$",
+                "Substitusi $x = a$ ke $f'(x)$ → dapat gradien $m$",
+                "Gunakan rumus $y - y_1 = m(x - x_1)$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Garis singgung $y = x^2 - 4x + 3$ di $x = 3$." },
+                { "tipe": "paragraph", "text": "Titik singgung: $f(3) = 0$ → $(3, 0)$." },
+                { "tipe": "paragraph", "text": "Turunan: $f'(x) = 2x - 4$. Gradien: $f'(3) = 2$." },
+                { "tipe": "formula_block", "latex": "y - 0 = 2(x - 3) \\Rightarrow y = 2x - 6" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b04-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Garis singgung $y = x^2$ di $x = 1$. Gradien $m$ = ... (tulis angka saja)",
+              "jawaban": "2",
+              "pembahasan": "$f'(x) = 2x$. $f'(1) = 2$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Garis Normal",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Garis <b>normal</b> adalah garis yang <b>tegak lurus</b> dengan garis singgung. Jika gradien garis singgung $m$, maka gradien garis normal adalah $-\\dfrac{1}{m}$."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "m_{\\text{normal}} = -\\dfrac{1}{m_{\\text{tangen}}}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Garis normal $y = x^2$ di $(2, 4)$." },
+                { "tipe": "paragraph", "text": "Gradien tangen = $4$. Gradien normal = $-1/4$." },
+                { "tipe": "formula_block", "latex": "y - 4 = -\\dfrac{1}{4}(x - 2)" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b04-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika gradien garis singgung $m = 3$, maka gradien garis normal...",
+              "pilihan": ["$3$", "$-3$", "$-1/3$", "$1/3$"],
+              "jawaban": 2,
+              "pembahasan": "$m_n = -1/m = -1/3$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Garis Singgung Trigonometri",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Garis singgung $y = \\sin x$ di $x = \\pi/2$." },
+                { "tipe": "paragraph", "text": "Titik: $(\\pi/2, 1)$." },
+                { "tipe": "paragraph", "text": "Turunan: $y' = \\cos x$. Gradien: $\\cos(\\pi/2) = 0$." },
+                { "tipe": "paragraph", "text": "Garis singgung horizontal: $y = 1$." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b04-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika gradien garis singgung = 0, garis singgungnya...",
+              "pilihan": ["Vertikal", "Horizontal", "Miring", "Tidak ada"],
+              "jawaban": 1,
+              "pembahasan": "Gradien 0 → garis <b>horizontal</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 4",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-trn-b04-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Rumus garis singgung di titik $(a, f(a))$ adalah...",
+              "pilihan": [
+                "$y - f(a) = f'(a)(x - a)$",
+                "$y - f(a) = f(a)(x - a)$",
+                "$y = f'(x)$",
+                "$y = f(a)$"
+              ],
+              "jawaban": 0,
+              "pembahasan": "$y - f(a) = f'(a)(x - a)$."
+            },
+            {
+              "id": "12-trn-b04-s5-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Garis singgung $y = x^3$ di $x = 1$. Gradien = ... (tulis angka saja)",
+              "jawaban": "3",
+              "pembahasan": "$f'(x) = 3x^2$, $f'(1) = 3$."
+            },
+            {
+              "id": "12-trn-b04-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Garis normal tegak lurus garis singgung.",
+              "jawaban": true,
+              "pembahasan": "Benar — normal ⊥ tangen. <b>BENAR</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-05",
+      "nomor": 5,
+      "judul": "Aplikasi Turunan: Nilai Maksimum & Minimum",
+      "deskripsi": "Menentukan titik ekstrem dan mengoptimalkan fungsi",
+      "total_step": 6,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Titik Ekstrem",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "<b>Titik ekstrem</b> adalah titik di mana fungsi mencapai nilai <b>maksimum lokal</b> atau <b>minimum lokal</b>."
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Titik di mana $f'(x) = 0$ disebut <b>titik stasioner</b>. Di titik ini, garis singgungnya horizontal."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "f'(x) = 0"
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/titik-ekstrem.png",
+              "caption": "Tiga jenis titik stasioner",
+              "width": "full"
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b05-s1-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Titik stasioner terjadi saat...",
+              "pilihan": ["$f(x) = 0$", "$f'(x) = 0$", "$f''(x) = 0$", "$x = 0$"],
+              "jawaban": 1,
+              "pembahasan": "Titik stasioner: $f'(x) = 0$."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Uji Turunan Kedua",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$f''(x) < 0$ → titik <b>maksimum lokal</b>",
+                "$f''(x) > 0$ → titik <b>minimum lokal</b>",
+                "$f''(x) = 0$ → perlu uji lebih lanjut"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Tentukan titik ekstrem $f(x) = x^3 - 3x^2 + 2$." },
+                { "tipe": "paragraph", "text": "$f'(x) = 3x^2 - 6x = 3x(x-2)$. Set = 0: $x = 0$ atau $x = 2$." },
+                { "tipe": "paragraph", "text": "$f''(x) = 6x - 6$." },
+                { "tipe": "list", "ordered": false, "items": [
+                  "$f''(0) = -6 < 0$ → maksimum di $x = 0$, nilai $f(0) = 2$",
+                  "$f''(2) = 6 > 0$ → minimum di $x = 2$, nilai $f(2) = -2$"
+                ]}
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b05-s2-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Jika $f''(x) < 0$, titik stasioner adalah...",
+              "pilihan": ["Minimum lokal", "Maksimum lokal", "Titik belok", "Tidak tentu"],
+              "jawaban": 1,
+              "pembahasan": "$f'' < 0$ → <b>maksimum lokal</b>."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Selang Naik dan Turun",
+          "konten": [
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "$f'(x) > 0$ → fungsi <b>naik</b>",
+                "$f'(x) < 0$ → fungsi <b>turun</b>",
+                "$f'(x) = 0$ → titik stasioner"
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b05-s3-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Fungsi naik saat...",
+              "pilihan": ["$f'(x) > 0$", "$f'(x) < 0$", "$f'(x) = 0$", "$f(x) = 0$"],
+              "jawaban": 0,
+              "pembahasan": "Fungsi naik saat $f'(x) > 0$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Optimasi: Luas Maksimum",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Kawat panjang 40 cm dibuat persegi panjang. Ukuran agar luas maksimum?" },
+                { "tipe": "paragraph", "text": "Misal panjang = $x$, lebar = $y$. $2x + 2y = 40 \\Rightarrow y = 20 - x$." },
+                { "tipe": "paragraph", "text": "Luas: $L(x) = x(20 - x) = 20x - x^2$." },
+                { "tipe": "formula_block", "latex": "L'(x) = 20 - 2x = 0 \\Rightarrow x = 10" },
+                { "tipe": "paragraph", "text": "$L''(x) = -2 < 0$ → maksimum. Jadi $y = 10$." },
+                { "tipe": "paragraph", "text": "Ukuran optimal: <b>10 cm × 10 cm</b> (persegi)." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b05-s4-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "Luas $L(x) = 20x - x^2$. Nilai $x$ optimal (saat $L' = 0$) = ... (tulis angka saja)",
+              "jawaban": "10",
+              "pembahasan": "$L' = 20 - 2x = 0 \\Rightarrow x = 10$."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "konsep",
+          "judul": "Optimasi: Keuntungan Maksimum",
+          "konten": [
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "Harga $p = 100 - 2q$, biaya $C = 20q + 50$. Tentukan $q$ optimal." },
+                { "tipe": "paragraph", "text": "Pendapatan: $R = pq = 100q - 2q^2$." },
+                { "tipe": "paragraph", "text": "Keuntungan: $\\pi = R - C = -2q^2 + 80q - 50$." },
+                { "tipe": "formula_block", "latex": "\\pi'(q) = -4q + 80 = 0 \\Rightarrow q = 20" },
+                { "tipe": "formula_block", "latex": "\\pi(20) = -800 + 1600 - 50 = 750" },
+                { "tipe": "paragraph", "text": "Keuntungan maksimum = <b>Rp750.000</b>." }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b05-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Keuntungan $\\pi(q) = -2q^2 + 80q$. Nilai $q$ optimal = ...",
+              "pilihan": ["10", "20", "30", "40"],
+              "jawaban": 1,
+              "pembahasan": "$\\pi' = -4q + 80 = 0 \\Rightarrow q = 20$."
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "tipe": "ujian_bab",
+          "judul": "Uji Pemahaman Bab 5",
+          "konten": [],
+          "latihan": [
+            {
+              "id": "12-trn-b05-s6-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Untuk menemukan titik stasioner, selesaikan...",
+              "pilihan": ["$f(x) = 0$", "$f'(x) = 0$", "$f''(x) = 0$", "$x = 0$"],
+              "jawaban": 1,
+              "pembahasan": "Titik stasioner: $f'(x) = 0$."
+            },
+            {
+              "id": "12-trn-b05-s6-q2",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$f(x) = x^2 - 4x$. Titik stasioner $x$ = ... (tulis angka saja)",
+              "jawaban": "2",
+              "pembahasan": "$f' = 2x - 4 = 0 \\Rightarrow x = 2$."
+            },
+            {
+              "id": "12-trn-b05-s6-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Jika $f''(x) > 0$, titik stasioner adalah minimum lokal.",
+              "jawaban": true,
+              "pembahasan": "Benar — $f'' > 0$ → minimum. <b>BENAR</b>."
+            },
+            {
+              "id": "12-trn-b05-s6-q4",
+              "tipe": "pilihan",
+              "pertanyaan": "Fungsi turun saat...",
+              "pilihan": ["$f'(x) > 0$", "$f'(x) < 0$", "$f'(x) = 0$", "$f(x) = 0$"],
+              "jawaban": 1,
+              "pembahasan": "Fungsi turun saat $f'(x) < 0$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-trn-bab-06",
+      "nomor": 6,
+      "judul": "Aplikasi Turunan di Kehidupan Nyata",
+      "deskripsi": "Penerapan turunan dalam sains, teknologi, dan ekonomi",
+      "total_step": 5,
+      "langkah": [
+        {
+          "step": 1,
+          "tipe": "intro",
+          "judul": "Turunan di Sekitar Kita",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Turunan bukan sekadar hitungan abstrak. Ini adalah <b>alat universal</b> untuk memahami perubahan di dunia nyata."
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "🏃 <b>Fisika</b> — kecepatan & percepatan",
+                "💰 <b>Ekonomi</b> — biaya & keuntungan marginal",
+                "🦠 <b>Biologi</b> — laju pertumbuhan",
+                "🤖 <b>Teknologi</b> — machine learning"
+              ]
+            },
+            {
+              "tipe": "image",
+              "src": "images/kelas12/turunan-fungsi/aplikasi-turunan.png",
+              "caption": "Empat aplikasi turunan",
+              "width": "full"
+            }
+          ],
+          "latihan": []
+        },
+        {
+          "step": 2,
+          "tipe": "konsep",
+          "judul": "Fisika: Kecepatan & Percepatan",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Jika posisi benda $s(t)$, maka:"
+            },
+            {
+              "tipe": "list",
+              "ordered": false,
+              "items": [
+                "Kecepatan: $v(t) = s'(t)$",
+                "Percepatan: $a(t) = v'(t) = s''(t)$"
+              ]
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "$s(t) = 2t^3 - 6t^2 + 4t$. Tentukan $v(2)$ dan $a(2)$." },
+                { "tipe": "formula_block", "latex": "v(t) = 6t^2 - 12t + 4 \\Rightarrow v(2) = 4 \\text{ m/detik}" },
+                { "tipe": "formula_block", "latex": "a(t) = 12t - 12 \\Rightarrow a(2) = 12 \\text{ m/detik}^2" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b06-s2-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$s(t) = t^2 + 3t$. Kecepatan $v(t) = 2t + ...$. Tulis angka konstanta.",
+              "jawaban": "3",
+              "pembahasan": "$s'(t) = 2t + 3$."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "tipe": "konsep",
+          "judul": "Ekonomi: Biaya Marginal",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Biaya marginal = turunan biaya total. Keuntungan marginal = turunan keuntungan total."
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "MC = \\dfrac{dC}{dq}"
+            },
+            {
+              "tipe": "example",
+              "judul": "Contoh",
+              "konten": [
+                { "tipe": "paragraph", "text": "$C(q) = 0{,}01q^2 + 50q + 10000$. Tentukan biaya marginal saat $q = 500$." },
+                { "tipe": "formula_block", "latex": "MC = 0{,}02q + 50" },
+                { "tipe": "formula_block", "latex": "MC(500) = 10 + 50 = 60 \\text{ rupiah/unit}" }
+              ]
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b06-s3-q1",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$C(q) = 0{,}01q^2 + 50q$. $MC = 0{,}02q + ...$. Tulis angka konstanta.",
+              "jawaban": "50",
+              "pembahasan": "$C'(q) = 0{,}02q + 50$."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "tipe": "konsep",
+          "judul": "Biologi & Teknologi",
+          "konten": [
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Laju Pertumbuhan Bakteri"
+            },
+            {
+              "tipe": "formula_block",
+              "latex": "N'(t) = \\text{laju pertumbuhan}"
+            },
+            {
+              "tipe": "heading",
+              "level": 3,
+              "text": "Machine Learning"
+            },
+            {
+              "tipe": "paragraph",
+              "text": "Algoritma <b>gradient descent</b> menggunakan turunan untuk mengoptimalkan model. Turunan menunjukkan arah perubahan yang paling efisien."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b06-s4-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Algoritma gradient descent menggunakan...",
+              "pilihan": ["Integral", "Turunan", "Faktorial", "Logaritma"],
+              "jawaban": 1,
+              "pembahasan": "Gradient descent menggunakan <b>turunan</b>."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "tipe": "ujian_bab",
+          "judul": "Ujian Bab 6",
+          "konten": [
+            {
+              "tipe": "paragraph",
+              "text": "Ujian terakhir! Buktikan kamu sudah paham aplikasi turunan."
+            }
+          ],
+          "latihan": [
+            {
+              "id": "12-trn-b06-s5-q1",
+              "tipe": "pilihan",
+              "pertanyaan": "Kecepatan adalah turunan dari...",
+              "pilihan": ["Percepatan", "Posisi", "Waktu", "Gaya"],
+              "jawaban": 1,
+              "pembahasan": "Kecepatan = turunan <b>posisi</b>."
+            },
+            {
+              "id": "12-trn-b06-s5-q2",
+              "tipe": "pilihan",
+              "pertanyaan": "Biaya marginal = ...",
+              "pilihan": [
+                "Turunan biaya total",
+                "Integral biaya total",
+                "Biaya rata-rata",
+                "Biaya tetap"
+              ],
+              "jawaban": 0,
+              "pembahasan": "Biaya marginal = <b>turunan</b> biaya total."
+            },
+            {
+              "id": "12-trn-b06-s5-q3",
+              "tipe": "benar_salah",
+              "pertanyaan": "Turunan hanya dipakai di matematika, tidak ada aplikasi nyata.",
+              "jawaban": false,
+              "pembahasan": "<b>SALAH</b>. Turunan dipakai di fisika, ekonomi, biologi, teknologi."
+            },
+            {
+              "id": "12-trn-b06-s5-q4",
+              "tipe": "isi_kosong",
+              "pertanyaan": "$s(t) = 3t^2$. Kecepatan pada $t = 2$ = ... (tulis angka saja)",
+              "jawaban": "12",
+              "pembahasan": "$v(t) = 6t$. $v(2) = 12$."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
