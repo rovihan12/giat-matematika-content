@@ -1,3 +1,4 @@
+// ===== PAKET 3 =====
 {
   "id": "bs-k10-eks-sedang-03",
   "nama": "Bank Soal Sedang - Paket 3",
@@ -150,4 +151,47 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3^x < \\dfrac{1}{27} =
+        { "tipe": "paragraph", "text": "$3^x < \\dfrac{1}{27} = 3^{-3}$" },
+        { "tipe": "paragraph", "text": "Karena basis $3 > 1$: $x < -3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 5 \\cdot {}^5\\log 3 \\cdot {}^3\\log 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 5 \\cdot {}^5\\log 3 \\cdot {}^3\\log 8 = {}^2\\log 8$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^3 = 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tabungan sebesar Rp500.000,00 dibungakan majemuk 8% per tahun. Besar tabungan setelah 2 tahun adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp580.000,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp583.200,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp584.000,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp585.000,00" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$M_n = M_0(1 + i)^n$" },
+        { "tipe": "paragraph", "text": "$M_2 = 500.000(1 + 0{,}08)^2 = 500.000(1{,}08)^2$" },
+        { "tipe": "paragraph", "text": "$= 500.000 \\times 1{,}1664 = 583.200$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
