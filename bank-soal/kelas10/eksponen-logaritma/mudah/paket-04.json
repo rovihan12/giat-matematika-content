@@ -1,1 +1,86 @@
-
+{
+  "id": "bs-k10-eks-mudah-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sifat dasar eksponen dan logaritma",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-m-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $6^2 \\cdot 6^4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6^8$" } ],
+        [ { "tipe": "paragraph", "text": "$6^6$" } ],
+        [ { "tipe": "paragraph", "text": "$36^6$" } ],
+        [ { "tipe": "paragraph", "text": "$6^2$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$6^2 \\cdot 6^4 = 6^{2+4} = 6^6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\dfrac{9^7}{9^4}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9^3$" } ],
+        [ { "tipe": "paragraph", "text": "$9^{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$9^{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{9^7}{9^4} = 9^{7-4} = 9^3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $(5^3)^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5^5$" } ],
+        [ { "tipe": "paragraph", "text": "$5^6$" } ],
+        [ { "tipe": "paragraph", "text": "$5^9$" } ],
+        [ { "tipe": "paragraph", "text": "$25^6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(5^3)^2 = 5^{3 \\cdot 2} = 5^6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $20^0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$-20$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$20^0 = 1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $4^{-3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-64$" } ],
+        [ { "tipe": "paragraph", "text": "$-12$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{
