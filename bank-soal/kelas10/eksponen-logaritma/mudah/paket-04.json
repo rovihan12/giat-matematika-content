@@ -1,3 +1,4 @@
+// ===== PAKET 4 =====
 {
   "id": "bs-k10-eks-mudah-04",
   "nama": "Bank Soal Mudah - Paket 4",
@@ -83,4 +84,99 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-64$" } ],
         [ { "tipe": "paragraph", "text": "$-12$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{64}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$4^{-3} = \\dfrac{1}{4^3} = \\dfrac{1}{64}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk logaritma dari $5^3 = 125$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^5\\log 125 = 3$" } ],
+        [ { "tipe": "paragraph", "text": "${}^3\\log 125 = 5$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{125}\\log 5 = 3$" } ],
+        [ { "tipe": "paragraph", "text": "${}^5\\log 3 = 125$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $5^3 = 125$ diperoleh ${}^5\\log 125 = 3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^3\\log 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log 9 = {}^3\\log 3^2 = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari ${}^5\\log 4 + {}^5\\log 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^5\\log 7$" } ],
+        [ { "tipe": "paragraph", "text": "${}^5\\log 12$" } ],
+        [ { "tipe": "paragraph", "text": "${}^5\\log 1$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{12}\\log 5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^5\\log 4 + {}^5\\log 3 = {}^5\\log (4 \\cdot 3) = {}^5\\log 12$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $10^5 : 10^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10^2$" } ],
+        [ { "tipe": "paragraph", "text": "$10^8$" } ],
+        [ { "tipe": "paragraph", "text": "$10^{15}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{10^5}{10^3} = 10^{5-3} = 10^2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\left(\\dfrac{1}{4}\\right)^{-1}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{4}\\right)^{-1} = \\dfrac{1}{1/4} = 4$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
