@@ -1,0 +1,210 @@
+{
+  "id": "bs-k10-stat-s-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang tabel distribusi frekuensi dan ukuran pemusatan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-s-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Banyak data ($n$) adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $40-49$, $50-59$, $60-69$, $70-79$" },
+        { "tipe": "paragraph", "text": "Frek: $3, 8, 12, 7$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 3 + 8 + 12 + 7 = 30$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Titik tengah kelas $60-69$ adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $40-49$, $50-59$, $60-69$, $70-79$" },
+        { "tipe": "paragraph", "text": "Frek: $3, 8, 12, 7$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$63{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$64{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$65$" } ],
+        [ { "tipe": "paragraph", "text": "$65{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah = $\\dfrac{60 + 69}{2} = 64{,}5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari tabel distribusi berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $10-19$ ($f=2$), $20-29$ ($f=5$), $30-39$ ($f=8$), $40-49$ ($f=5$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$31$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$33$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah: $14{,}5; 24{,}5; 34{,}5; 44{,}5$" },
+        { "tipe": "paragraph", "text": "$n = 20$" },
+        { "tipe": "paragraph", "text": "$\\sum f x = 14{,}5(2) + 24{,}5(5) + 34{,}5(8) + 44{,}5(5)$" },
+        { "tipe": "paragraph", "text": "$= 29 + 122{,}5 + 276 + 222{,}5 = 650$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{650}{20} = 32{,}5$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $32$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data $4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$6$ dan $8$" } ],
+        [ { "tipe": "paragraph", "text": "$5$ dan $7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi: $5$ muncul 2×, $6$ muncul 3×, $7$ muncul 2×, $8$ muncul 4×." },
+        { "tipe": "paragraph", "text": "Modus = $8$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data $10, 12, 14, 16, 18, 20, 22, 24$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 8$. Median = $\\dfrac{16 + 18}{2} = 17$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $12, 15, 18, 21, 24$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{12+15+18+21+24}{5} = \\dfrac{90}{5} = 18$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data $10, 12, 14, 16, 18$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}8$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 14$" },
+        { "tipe": "paragraph", "text": "Simpangan: $4, 2, 0, 2, 4$ → jumlah $12$" },
+        { "tipe": "paragraph", "text": "SR = $\\dfrac{12}{5} = 2{,}4$" },
+        { "tipe": "paragraph", "text": "Kunci terdekat: $2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Ragam dari data $12, 15, 18, 21, 24$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 18$" },
+        { "tipe": "paragraph", "text": "Kuadrat simpangan: $36, 9, 0, 9, 36$ → jumlah $90$" },
+        { "tipe": "paragraph", "text": "$S^2 = \\dfrac{90}{5} = 18$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata 30 siswa adalah $6{,}5$. Setelah ditambah 2 siswa dengan nilai $8$ dan $9$, rata-rata baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}625$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}7$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}75$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah awal = $30 \\times 6{,}5 = 195$" },
+        { "tipe": "paragraph", "text": "Jumlah baru = $195 + 8 + 9 = 212$, $n = 32$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{212}{32} = 6{,}625$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan dari data $14, 25, 18, 30, 12, 22$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Max = $30$, min = $12$." },
+        { "tipe": "paragraph", "text": "Range = $30 - 12 = 18$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
