@@ -1,0 +1,200 @@
+{
+  "id": "bs-k10-bd-m-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang suku tengah dan aplikasi sederhana",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-m-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-20 dari barisan $5, 10, 15, 20, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$95$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$105$" } ],
+        [ { "tipe": "paragraph", "text": "$110$" } ],
+        [ { "tipe": "paragraph", "text": "$115$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_{20} = 5 + 19 \\cdot 5 = 5 + 95 = 100$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-7 dari barisan geometri $3, 6, 12, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$96$" } ],
+        [ { "tipe": "paragraph", "text": "$128$" } ],
+        [ { "tipe": "paragraph", "text": "$192$" } ],
+        [ { "tipe": "paragraph", "text": "$256$" } ],
+        [ { "tipe": "paragraph", "text": "$384$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 3$, $r = 2$" },
+        { "tipe": "paragraph", "text": "$U_7 = 3 \\cdot 2^{6} = 3 \\cdot 64 = 192$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku tengah dari barisan aritmatika $2, 5, 8, 11, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "Tidak ada" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Barisan memiliki 5 suku (ganjil), suku tengah di posisi ke-3." },
+        { "tipe": "paragraph", "text": "$U_3 = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-15 dari barisan $100, 95, 90, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 100$, $b = -5$" },
+        { "tipe": "paragraph", "text": "$U_{15} = 100 + 14 \\cdot (-5) = 100 - 70 = 30$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 20 suku pertama deret $1 + 2 + 3 + 4 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$190$" } ],
+        [ { "tipe": "paragraph", "text": "$200$" } ],
+        [ { "tipe": "paragraph", "text": "$210$" } ],
+        [ { "tipe": "paragraph", "text": "$220$" } ],
+        [ { "tipe": "paragraph", "text": "$230$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_{20} = \\dfrac{20 \\cdot 21}{2} = 210$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-8 dari barisan geometri $2, 6, 18, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1458$" } ],
+        [ { "tipe": "paragraph", "text": "$2916$" } ],
+        [ { "tipe": "paragraph", "text": "$4374$" } ],
+        [ { "tipe": "paragraph", "text": "$8748$" } ],
+        [ { "tipe": "paragraph", "text": "$13122$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $r = 3$" },
+        { "tipe": "paragraph", "text": "$U_8 = 2 \\cdot 3^7 = 2 \\cdot 2187 = 4374$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret tak hingga $4 + 2 + 1 + \\dfrac{1}{2} + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 4$, $r = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{4}{1 - \\frac{1}{2}} = \\dfrac{4}{\\frac{1}{2}} = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-10 dari barisan $1, 4, 9, 16, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$81$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$121$" } ],
+        [ { "tipe": "paragraph", "text": "$144$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Barisan ini adalah kuadrat bilangan asli: $U_n = n^2$." },
+        { "tipe": "paragraph", "text": "$U_{10} = 10^2 = 100$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-5 dari barisan $2, 6, 12, 20, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pola: $U_n = n(n+1)$, karena $2=1\\cdot2$, $6=2\\cdot3$, $12=3\\cdot4$, $20=4\\cdot5$." },
+        { "tipe": "paragraph", "text": "$U_5 = 5 \\cdot 6 = 30$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-6 dari barisan $2, 3, 5, 8, 12, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$23$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Selisih: $1, 2, 3, 4, \\ldots$ (bertambah 1)." },
+        { "tipe": "paragraph", "text": "Selisih berikutnya = 5." },
+        { "tipe": "paragraph", "text": "$U_6 = 12 + 5 = 17$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
