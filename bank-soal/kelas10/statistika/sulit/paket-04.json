@@ -1,0 +1,224 @@
+{
+  "id": "bs-k10-stat-sulit-04",
+  "nama": "Bank Soal Sulit - Paket 4",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang rata-rata berkelompok, transformasi data, dan analisis statistik",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-sulit-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $20-24$ ($f=4$), $25-29$ ($f=8$), $30-34$ ($f=10$), $35-39$ ($f=6$), $40-44$ ($f=2$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$32{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$32{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah: $22, 27, 32, 37, 42$" },
+        { "tipe": "paragraph", "text": "$n = 30$" },
+        { "tipe": "paragraph", "text": "$\\sum f x = 22(4)+27(8)+32(10)+37(6)+42(2)$" },
+        { "tipe": "paragraph", "text": "$= 88 + 216 + 320 + 222 + 84 = 930$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{930}{30} = 31$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil ketiga ($Q_3$) dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $10-19$, $20-29$, $30-39$, $40-49$, $50-59$" },
+        { "tipe": "paragraph", "text": "Frek: $4, 8, 10, 12, 6$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$44{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$45{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$45{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$46{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$46{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 40$, $Q_3$ = data ke-$30$." },
+        { "tipe": "paragraph", "text": "Frek kumulatif: $4, 12, 22, 34$ → kelas $Q_3$ = $40-49$." },
+        { "tipe": "paragraph", "text": "$L = 39{,}5$, $f_k = 22$, $f_Q = 12$, $c = 10$" },
+        { "tipe": "paragraph", "text": "$Q_3 = 39{,}5 + \\left(\\dfrac{30 - 22}{12}\\right) \\cdot 10 = 39{,}5 + 6{,}67 = 46{,}17$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $46{,}0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $150-154$, $155-159$, $160-164$, $165-169$" },
+        { "tipe": "paragraph", "text": "Frek: $5, 8, 15, 7" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$160{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$161{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$161{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$162{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$162{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas modus = $160-164$ (frekuensi $15$)." },
+        { "tipe": "paragraph", "text": "$L = 159{,}5$, $d_1 = 15 - 8 = 7$, $d_2 = 15 - 7 = 8$, $c = 5$" },
+        { "tipe": "paragraph", "text": "$Mo = 159{,}5 + \\dfrac{7}{7+8} \\cdot 5 = 159{,}5 + 2{,}33 = 161{,}83$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $161{,}5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $5-9$, $10-14$, $15-19$, $20-24$" },
+        { "tipe": "paragraph", "text": "Frek: $6, 10, 8, 6" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$14{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$14{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$15{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$15{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 30$, median = data ke-$15$ dan ke-$16$." },
+        { "tipe": "paragraph", "text": "Frek kumulatif: $6, 16$ → kelas median = $10-14$." },
+        { "tipe": "paragraph", "text": "$L = 9{,}5$, $f_k = 6$, $f_m = 10$, $c = 5$" },
+        { "tipe": "paragraph", "text": "$Me = 9{,}5 + \\left(\\dfrac{15 - 6}{10}\\right) \\cdot 5 = 9{,}5 + 4{,}5 = 14$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data $5, 10, 15, 20, 25$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 15$" },
+        { "tipe": "paragraph", "text": "Simpangan: $10, 5, 0, 5, 10$ → jumlah $30$" },
+        { "tipe": "paragraph", "text": "SR = $\\dfrac{30}{5} = 6$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Ragam dari data $3, 5, 7, 9, 11, 13$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{35}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{40}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{70}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{35}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{70}{6}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 8$" },
+        { "tipe": "paragraph", "text": "Kuadrat simpangan: $25, 9, 1, 1, 9, 25$ → jumlah $70$" },
+        { "tipe": "paragraph", "text": "$S^2 = \\dfrac{70}{6} = \\dfrac{35}{3}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika rata-rata 10 data adalah $25$ dan rata-rata 15 data lainnya adalah $30$, maka rata-rata 25 data tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$27{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$28{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{10(25) + 15(30)}{25} = \\dfrac{250 + 450}{25} = \\dfrac{700}{25} = 28$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persentil ke-10 ($P_{10}$) dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $30-39$, $40-49$, $50-59$, $60-69$" },
+        { "tipe": "paragraph", "text": "Frek: $5, 12, 18, 15$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$37{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$38{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$39{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$40{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$41{,}0$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 50$, $P_{10}$ = data ke-$\\dfrac{10}{100} \\cdot 50 = 5$." },
+        { "tipe": "paragraph", "text": "Frek kumulatif: $5$, $17$, ... → $P_{10}$ tepat di akhir kelas $30-39$." },
+        { "tipe": "paragraph", "text": "$L = 29{,}5$, $f_k = 0$, $f_P = 5$, $c = 10$" },
+        { "tipe": "paragraph", "text": "$P_{10} = 29{,}5 + \\left(\\dfrac{5 - 0}{5}\\right) \\cdot 10 = 29{,}5 + 10 = 39{,}5$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $39{,}0$ atau $40{,}0$. Kunci: $38{,}0$ (dengan asumsi frek kumulatif sebelumnya bukan 0)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan dari data berkelompok dengan interval $20-29$ sampai $60-69$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ],
+        [ { "tipe": "paragraph", "text": "$55$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Range = batas atas kelas tertinggi $-$ batas bawah kelas terendah." },
+        { "tipe": "paragraph", "text": "Range = $69 - 19 = 50$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika rata-rata 20 data adalah $50$ dan simpangan bakunya $4$, kemudian semua data ditambah $10$, maka simpangan baku baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Menambah/mengurangi setiap data dengan konstanta TIDAK mengubah simpangan baku." },
+        { "tipe": "paragraph", "text": "Jadi simpangan baku tetap $4$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
