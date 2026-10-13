@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-bd-m-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang jumlah deret aritmatika dan geometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-m-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 10 suku pertama dari deret $1 + 3 + 5 + 7 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$90$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$110$" } ],
+        [ { "tipe": "paragraph", "text": "$120$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 1$, $b = 2$, $n = 10$" },
+        { "tipe": "paragraph", "text": "$S_n = \\dfrac{n}{2}(2a + (n-1)b) = \\dfrac{10}{2}(2 + 18) = 5 \\cdot 20 = 100$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 5 suku pertama dari deret $2 + 4 + 6 + 8 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_5 = 2+4+6+8+10 = 30$" },
+        { "tipe": "paragraph", "text": "Atau rumus: $S_5 = \\dfrac{5}{2}(2 \\cdot 2 + 4 \\cdot 2) = \\dfrac{5}{2}(12) = 30$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus jumlah $n$ suku pertama deret aritmatika adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$S_n = \\dfrac{n}{2}(2a + (n-1)b)$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = \\dfrac{a(r^n - 1)}{r-1}$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = n \\cdot a$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = a + (n-1)b$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = \\dfrac{n}{2}(a + b)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus jumlah $n$ suku pertama deret aritmatika: $S_n = \\dfrac{n}{2}(2a + (n-1)b)$" },
+        { "tipe": "paragraph", "text": "Bentuk alternatif: $S_n = \\dfrac{n}{2}(a + U_n)$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 6 suku pertama dari deret $3 + 7 + 11 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$78$" } ],
+        [ { "tipe": "paragraph", "text": "$82$" } ],
+        [ { "tipe": "paragraph", "text": "$84$" } ],
+        [ { "tipe": "paragraph", "text": "$88$" } ],
+        [ { "tipe": "paragraph", "text": "$90$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 3$, $b = 4$, $n = 6$" },
+        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{6}{2}(2 \\cdot 3 + 5 \\cdot 4) = 3(6 + 20) = 3 \\cdot 26 = 78$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: $S_6 = 78$. Kunci opsi A." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 4 suku pertama deret geometri $1 + 2 + 4 + 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_4 = 1+2+4+8 = 15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah $n$ suku pertama deret geometri dengan rasio $r \\neq 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$S_n = \\dfrac{a(r^n - 1)}{r-1}$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = \\dfrac{n}{2}(2a + (n-1)b)$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = ar^{n-1}$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = \\dfrac{a}{1-r}$" } ],
+        [ { "tipe": "paragraph", "text": "$S_n = a \\cdot n$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus jumlah $n$ suku pertama deret geometri: $S_n = \\dfrac{a(r^n - 1)}{r-1}$ (untuk $r \\neq 1$)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 5 suku pertama deret geometri $2 + 6 + 18 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$196$" } ],
+        [ { "tipe": "paragraph", "text": "$212$" } ],
+        [ { "tipe": "paragraph", "text": "$242$" } ],
+        [ { "tipe": "paragraph", "text": "$256$" } ],
+        [ { "tipe": "paragraph", "text": "$272$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $r = 3$, $n = 5$" },
+        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{2(3^5 - 1)}{3 - 1} = \\dfrac{2(243 - 1)}{2} = 242$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 8 suku pertama deret $2 + 5 + 8 + 11 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$96$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$104$" } ],
+        [ { "tipe": "paragraph", "text": "$108$" } ],
+        [ { "tipe": "paragraph", "text": "$112$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $b = 3$, $n = 8$" },
+        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2 \\cdot 2 + 7 \\cdot 3) = 4(4 + 21) = 4 \\cdot 25 = 100$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 3 suku pertama deret geometri $3 + 9 + 27$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$39$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_3 = 3 + 9 + 27 = 39$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Deret tak hingga $1 + \\dfrac{1}{2} + \\dfrac{1}{4} + \\ldots$ memiliki jumlah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 1$, $r = \\dfrac{1}{2}$ (dengan $|r| < 1$)." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{1}{1 - \\frac{1}{2}} = \\dfrac{1}{\\frac{1}{2}} = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
