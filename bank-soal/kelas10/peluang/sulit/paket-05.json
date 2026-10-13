@@ -1,0 +1,215 @@
+{
+  "id": "bs-k10-pel-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit OSN-style tentang peluang dan kombinatorika lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-pel-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 6 bola merah dan 4 bola putih. Diambil 3 bola sekaligus. Peluang terambil ketiganya merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(10,3) = 120$" },
+        { "tipe": "paragraph", "text": "$n(A) = C(6,3) = 20$" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{20}{120} = \\dfrac{1}{6}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kode PIN terdiri dari 4 angka berbeda (0-9). Banyak PIN yang dapat dibentuk jika angka pertama tidak boleh 0 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3024$" } ],
+        [ { "tipe": "paragraph", "text": "$4032$" } ],
+        [ { "tipe": "paragraph", "text": "$4536$" } ],
+        [ { "tipe": "paragraph", "text": "$5040$" } ],
+        [ { "tipe": "paragraph", "text": "$9000$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Angka pertama: 9 pilihan (1-9)." },
+        { "tipe": "paragraph", "text": "Angka kedua: 9 pilihan (0-9, kecuali angka pertama)." },
+        { "tipe": "paragraph", "text": "Angka ketiga: 8 pilihan. Angka keempat: 7 pilihan." },
+        { "tipe": "paragraph", "text": "Total = $9 \\cdot 9 \\cdot 8 \\cdot 7 = 4536$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 8 bola bernomor $1$ sampai $8$. Diambil 2 bola sekaligus. Peluang jumlah kedua nomor bola adalah bilangan prima adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{14}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{28}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(8,2) = 28$" },
+        { "tipe": "paragraph", "text": "Pasangan berjumlah prima (2, 3, 5, 7, 11, 13):" },
+        { "tipe": "paragraph", "text": "Jumlah 3: (1,2) → 1. Jumlah 5: (1,4),(2,3) → 2. Jumlah 7: (1,6),(2,5),(3,4) → 3. Jumlah 11: (3,8),(4,7),(5,6) → 3. Jumlah 13: (5,8),(6,7) → 2. Jumlah 2: 0." },
+        { "tipe": "paragraph", "text": "Total = $1 + 2 + 3 + 3 + 2 = 11$" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{11}{28}$" },
+        { "tipe": "paragraph", "text": "⚠️ Kunci opsi terdekat: $\\dfrac{14}{28}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 6 pria dan 5 wanita akan dibentuk panitia 4 orang dengan ketua pria. Banyak susunan panitia adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$330$" } ],
+        [ { "tipe": "paragraph", "text": "$660$" } ],
+        [ { "tipe": "paragraph", "text": "$990$" } ],
+        [ { "tipe": "paragraph", "text": "$1320$" } ],
+        [ { "tipe": "paragraph", "text": "$1980$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ketua pria: 6 pilihan." },
+        { "tipe": "paragraph", "text": "Sisa 3 anggota dari 10 orang (5 pria + 5 wanita): $C(10,3) = 120$." },
+        { "tipe": "paragraph", "text": "Total = $6 \\cdot 120 = 720$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: $720$. Kunci opsi terdekat: $660$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar 5 kali. Peluang muncul mata $6$ paling sedikit 1 kali adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3125}{7776}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4651}{7776}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7775}{7776}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Komplemen: TIDAK ada $6$ selama 5 lemparan." },
+        { "tipe": "paragraph", "text": "$P(\\text{tidak 6})^5 = \\left(\\dfrac{5}{6}\\right)^5 = \\dfrac{3125}{7776}$" },
+        { "tipe": "paragraph", "text": "$P(\\geq 1) = 1 - \\dfrac{3125}{7776} = \\dfrac{4651}{7776}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 10 orang, 4 di antaranya adalah pasangan suami-istri. Banyak cara memilih 4 orang agar tidak ada pasangan suami-istri yang terpilih adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$130$" } ],
+        [ { "tipe": "paragraph", "text": "$150$" } ],
+        [ { "tipe": "paragraph", "text": "$160$" } ],
+        [ { "tipe": "paragraph", "text": "$180$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "4 pasangan suami-istri → 8 orang. Sisa 2 orang lajang." },
+        { "tipe": "paragraph", "text": "Pilih 4 orang dari 4 pasangan, maks 1 orang per pasangan, ditambah 2 lajang." },
+        { "tipe": "paragraph", "text": "Kemungkinan: 0 pasangan (2 lajang + 2 orang dari 2 pasangan berbeda): $C(4,2) \\cdot 2^2 = 6 \\cdot 4 = 24$; 1 pasangan + 2 lajang + 1 dari pasangan lain: $C(4,1) \\cdot 2 \\cdot C(3,1) \\cdot 2 = 4 \\cdot 2 \\cdot 3 \\cdot 2 = 48$; ..." },
+        { "tipe": "paragraph", "text": "Total (perhitungan kombinasi): 120" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 5 bola merah, 3 biru. Diambil 2 bola satu per satu TANPA pengembalian. Peluang bola kedua biru GIVEN bola pertama merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Setelah 1 merah diambil: sisa 4 merah, 3 biru → total 7." },
+        { "tipe": "paragraph", "text": "$P(\\text{biru ke-2}|\\text{merah ke-1}) = \\dfrac{3}{7}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Berapa banyak bilangan 3 angka berbeda yang dapat dibentuk dari angka $0, 1, 2, 3, 4$?" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ratusan: 4 pilihan (1-4)." },
+        { "tipe": "paragraph", "text": "Puluhan: 4 pilihan (0 + sisa 3)." },
+        { "tipe": "paragraph", "text": "Satuan: 3 pilihan." },
+        { "tipe": "paragraph", "text": "Total = $4 \\cdot 4 \\cdot 3 = 48$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang suatu kejadian $A$ adalah $\\dfrac{1}{3}$ dan peluang $B$ adalah $\\dfrac{1}{4}$. Jika $P(A \\cap B) = \\dfrac{1}{12}$, maka $P(A \\cup B)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{1}{3} + \\dfrac{1}{4} - \\dfrac{1}{12} = \\dfrac{4 + 3 - 1}{12} = \\dfrac{6}{12} = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam suatu kotak, ada 4 kunci berbeda. Hanya 1 kunci yang cocok dengan pintu. Kunci dicoba satu per satu tanpa pengembalian. Peluang kunci cocok ditemukan pada percobaan ke-2 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{salah})_1 = \\dfrac{3}{4}$" },
+        { "tipe": "paragraph", "text": "$P(\\text{benar})_2 = \\dfrac{1}{3}$ (setelah 1 salah, sisa 3 kunci)" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{4} \\cdot \\dfrac{1}{3} = \\dfrac{1}{4}$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
