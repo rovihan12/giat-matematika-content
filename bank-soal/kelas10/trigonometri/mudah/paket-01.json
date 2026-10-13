@@ -1,0 +1,204 @@
+{
+  "id": "bs-k10-trig-m-01",
+  "nama": "Bank Soal Mudah - Paket 1",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang perbandingan trigonometri pada segitiga siku-siku",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-m-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku berikut. Nilai $\\sin \\alpha$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-siku-3-4-5.png",
+          "caption": "Segitiga siku-siku dengan sisi tegak 3, sisi datar 4, dan sisi miring 5. Sudut $\\alpha$ di hadapan sisi tegak.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{\\text{sisi depan}}{\\text{sisi miring}} = \\dfrac{3}{5}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku dengan sisi depan $3$, sisi samping $4$, dan sisi miring $5$, nilai $\\cos \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{\\text{sisi samping}}{\\text{sisi miring}} = \\dfrac{4}{5}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku dengan sisi depan $3$ dan sisi samping $4$, nilai $\\tan \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan \\alpha = \\dfrac{\\text{sisi depan}}{\\text{sisi samping}} = \\dfrac{3}{4}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus dasar trigonometri yang benar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{\\text{sisi miring}}{\\text{sisi depan}}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{\\text{sisi samping}}{\\text{sisi miring}}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha = \\dfrac{\\text{sisi samping}}{\\text{sisi depan}}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{\\text{sisi samping}}{\\text{sisi miring}}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{\\text{sisi miring}}{\\text{sisi samping}}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ingat: $\\sin = \\dfrac{\\text{depan}}{\\text{miring}}$, $\\cos = \\dfrac{\\text{samping}}{\\text{miring}}$, $\\tan = \\dfrac{\\text{depan}}{\\text{samping}}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 30°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Nilai sudut istimewa: $\\sin 30° = \\dfrac{1}{2}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 60°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 60° = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\tan 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 45° = 1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku dengan sisi miring $13$ dan sisi tegak $5$. Sisi datar segitiga tersebut adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-5-12-13.png",
+          "caption": "Segitiga siku-siku dengan sisi tegak 5 dan sisi miring 13. Cari sisi datar.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan Pythagoras: $x^2 = 13^2 - 5^2 = 169 - 25 = 144$." },
+        { "tipe": "paragraph", "text": "$x = \\sqrt{144} = 12$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 90°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 90° = 1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 0°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 0° = 1$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
