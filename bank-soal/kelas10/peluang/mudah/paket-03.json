@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-pel-m-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang peluang kejadian majemuk sederhana",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-pel-m-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang muncul gambar pada pelemparan sebuah koin adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = 2$, kejadian muncul gambar $n(A) = 1$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu faktor dari $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktor dari $6$: $\\{1, 2, 3, 6\\}$ → $n(A) = 4$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kantong terdapat 6 bola merah dan 4 bola putih. Peluang terambil bola putih adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total = $6 + 4 = 10$." },
+        { "tipe": "paragraph", "text": "$P(\\text{putih}) = \\dfrac{4}{10} = \\dfrac{2}{5}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada pelemparan dua dadu, peluang muncul mata dadu pertama $3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kejadian: dadu pertama $3$, dadu kedua bebas ($6$ kemungkinan)." },
+        { "tipe": "paragraph", "text": "$n(A) = 6$, $n(S) = 36$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang siswa lulus ujian adalah $0{,}85$. Peluang siswa tidak lulus adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0{,}05$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}10$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}15$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}20$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}25$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{tidak lulus}) = 1 - 0{,}85 = 0{,}15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga koin dilempar bersamaan. Banyak anggota ruang sampelnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = 2^3 = 8$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang muncul ketiganya angka pada pelemparan tiga koin adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kejadian $\\{AAA\\}$ → $n(A) = 1$, $n(S) = 8$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{8}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu kurang dari $5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Mata dadu kurang dari $5$: $\\{1, 2, 3, 4\\}$ → $n(A) = 4$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kelas terdapat 20 siswa putra dan 15 siswa putri. Seorang siswa dipilih secara acak. Peluang terpilih siswa putra adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total = $20 + 15 = 35$." },
+        { "tipe": "paragraph", "text": "$P(\\text{putra}) = \\dfrac{20}{35} = \\dfrac{4}{7}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang suatu kejadian $A$ adalah $\\dfrac{3}{5}$. Peluang komplemennya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(A^c) = 1 - \\dfrac{3}{5} = \\dfrac{2}{5}$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
