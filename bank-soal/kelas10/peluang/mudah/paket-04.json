@@ -1,0 +1,202 @@
+{
+  "id": "bs-k10-pel-m-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang peluang kartu, dadu, dan konteks nyata",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-pel-m-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kartu diambil dari satu set kartu bridge. Peluang terambil kartu berwarna merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kartu bridge = 52, kartu merah (hati + wajik) = 26." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{26}{52} = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam kantong terdapat 8 kelereng merah, 5 hijau, dan 7 kuning. Peluang terambil kelereng kuning adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{20}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total = $8 + 5 + 7 = 20$." },
+        { "tipe": "paragraph", "text": "$P(\\text{kuning}) = \\dfrac{7}{20}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua dadu dilempar bersamaan. Peluang muncul jumlah mata dadu $5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{18}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan berjumlah $5$: $(1,4), (2,3), (3,2), (4,1)$ → $n(A) = 4$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{36} = \\dfrac{1}{9}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bilangan dipilih secara acak dari bilangan $1$ sampai $10$. Peluang terpilih bilangan genap adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bilangan genap 1-10: $\\{2, 4, 6, 8, 10\\}$ → $n(A) = 5$, $n(S) = 10$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{10} = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang muncul mata dadu berjumlah $10$ pada pelemparan dua dadu adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{18}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan berjumlah $10$: $(4,6), (5,5), (6,4)$ → $n(A) = 3$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{36} = \\dfrac{1}{12}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah huruf dipilih dari kata \"PELUANG\". Peluang terpilih huruf vokal adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kata \"PELUANG\" = 7 huruf: P-E-L-U-A-N-G." },
+        { "tipe": "paragraph", "text": "Vokal: E, U, A → $n(A) = 3$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{7}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu lebih dari $2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Mata dadu lebih dari $2$: $\\{3, 4, 5, 6\\}$ → $n(A) = 4$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua dadu dilempar. Peluang kedua mata dadu sama adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan sama: $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$ → $n(A) = 6$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang seseorang menang dalam suatu permainan adalah $0{,}35$. Peluang kalah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0{,}35$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}55$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}65$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}75$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}85$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{kalah}) = 1 - 0{,}35 = 0{,}65$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada pelemparan tiga koin, peluang muncul paling sedikit satu gambar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan komplemen: kejadian $\\{$tidak ada gambar$\\}$ = semua angka $\\{AAA\\}$." },
+        { "tipe": "paragraph", "text": "$P(AAA) = \\dfrac{1}{8}$" },
+        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
