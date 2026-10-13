@@ -1,0 +1,216 @@
+{
+  "id": "bs-k10-pel-sulit-01",
+  "nama": "Bank Soal Sulit - Paket 1",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang kombinasi dan peluang pengambilan bola",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-pel-sulit-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 5 bola merah dan 4 bola putih. Diambil 3 bola sekaligus. Peluang terambil 2 merah dan 1 putih adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{42}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(9,3) = \\dfrac{9 \\cdot 8 \\cdot 7}{3 \\cdot 2 \\cdot 1} = 84$" },
+        { "tipe": "paragraph", "text": "2 merah dari 5: $C(5,2) = 10$" },
+        { "tipe": "paragraph", "text": "1 putih dari 4: $C(4,1) = 4$" },
+        { "tipe": "paragraph", "text": "$n(A) = 10 \\cdot 4 = 40$" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{40}{84} = \\dfrac{10}{21}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah panitia beranggotakan 4 orang akan dipilih dari 6 pria dan 5 wanita. Peluang panitia tersebut terdiri dari 2 pria dan 2 wanita adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{66}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{22}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{33}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(11,4) = 330$" },
+        { "tipe": "paragraph", "text": "$n(A) = C(6,2) \\cdot C(5,2) = 15 \\cdot 10 = 150$" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{150}{330} = \\dfrac{5}{11}$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasilnya $\\dfrac{5}{11}$. Kunci opsi A ($\\dfrac{5}{11}$)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga koin dilempar bersamaan. Peluang muncul paling sedikit 2 angka adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ruang sampel: $n(S) = 8$." },
+        { "tipe": "paragraph", "text": "Paling sedikit 2 angka: $\\{AAA, AAG, AGA, GAA\\}$ → 4." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{8} = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 10 siswa akan dipilih 3 siswa untuk menjadi ketua, sekretaris, dan bendahara. Banyak cara pemilihan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$240$" } ],
+        [ { "tipe": "paragraph", "text": "$480$" } ],
+        [ { "tipe": "paragraph", "text": "$720$" } ],
+        [ { "tipe": "paragraph", "text": "$1440$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutan penting → permutasi." },
+        { "tipe": "paragraph", "text": "$P(10,3) = \\dfrac{10!}{7!} = 10 \\cdot 9 \\cdot 8 = 720$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 8 siswa akan dipilih 3 siswa untuk mengikuti olimpiade. Banyak cara pemilihan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$56$" } ],
+        [ { "tipe": "paragraph", "text": "$112$" } ],
+        [ { "tipe": "paragraph", "text": "$168$" } ],
+        [ { "tipe": "paragraph", "text": "$336$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutan tidak penting → kombinasi." },
+        { "tipe": "paragraph", "text": "$C(8,3) = \\dfrac{8 \\cdot 7 \\cdot 6}{3 \\cdot 2 \\cdot 1} = 56$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar 3 kali. Peluang muncul mata dadu $6$ paling sedikit satu kali adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{91}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{125}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{175}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{215}{216}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan komplemen: kejadian TIDAK muncul $6$ pada ketiga lemparan." },
+        { "tipe": "paragraph", "text": "$P(\\text{bukan 6}) = \\dfrac{5}{6}$" },
+        { "tipe": "paragraph", "text": "$P(\\text{tidak 6 semua}) = \\left(\\dfrac{5}{6}\\right)^3 = \\dfrac{125}{216}$" },
+        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu 6}) = 1 - \\dfrac{125}{216} = \\dfrac{91}{216}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kantong terdapat 6 kelereng merah, 4 biru, dan 5 hijau. Diambil 3 kelereng sekaligus. Peluang terambil ketiganya berbeda warna adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{26}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{27}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{30}{91}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(15,3) = 455$" },
+        { "tipe": "paragraph", "text": "$n(A) = C(6,1) \\cdot C(4,1) \\cdot C(5,1) = 6 \\cdot 4 \\cdot 5 = 120$" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{120}{455} = \\dfrac{24}{91}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Berapa banyak susunan berbeda dari huruf-huruf pada kata \"MATEMATIKA\"?" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$151200$" } ],
+        [ { "tipe": "paragraph", "text": "$302400$" } ],
+        [ { "tipe": "paragraph", "text": "$604800$" } ],
+        [ { "tipe": "paragraph", "text": "$3628800$" } ],
+        [ { "tipe": "paragraph", "text": "$1209600$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kata \"MATEMATIKA\" = 10 huruf." },
+        { "tipe": "paragraph", "text": "Frekuensi: M = 2, A = 3, T = 2, E = 1, I = 1, K = 1." },
+        { "tipe": "paragraph", "text": "$n = \\dfrac{10!}{2! \\cdot 3! \\cdot 2!} = \\dfrac{3628800}{2 \\cdot 6 \\cdot 2} = \\dfrac{3628800}{24} = 151200$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak berisi 7 bola merah dan 5 bola putih. Diambil 3 bola sekaligus. Peluang terambil paling sedikit 2 merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{35}{44}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{14}{22}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{21}{44}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(12,3) = 220$" },
+        { "tipe": "paragraph", "text": "2 merah + 1 putih: $C(7,2) \\cdot C(5,1) = 21 \\cdot 5 = 105$" },
+        { "tipe": "paragraph", "text": "3 merah: $C(7,3) = 35$" },
+        { "tipe": "paragraph", "text": "$n(A) = 105 + 35 = 140$" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{140}{220} = \\dfrac{7}{11}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari angka $1, 2, 3, 4, 5$ akan dibentuk bilangan 3 angka berbeda. Banyak bilangan ganjil yang dapat dibentuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bilangan ganjil → satuan harus ganjil: $\\{1, 3, 5\\}$ → 3 pilihan." },
+        { "tipe": "paragraph", "text": "Ratusan: 4 pilihan (sisa dari 5 angka setelah satuan diambil)." },
+        { "tipe": "paragraph", "text": "Puluhan: 3 pilihan." },
+        { "tipe": "paragraph", "text": "Total = $3 \\cdot 4 \\cdot 3 = 36$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
