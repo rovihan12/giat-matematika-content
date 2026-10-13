@@ -1,0 +1,222 @@
+{
+  "id": "bs-k10-stat-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit OSN-style tentang statistika inferensial dan analisis data",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $10-14$ ($f=2$), $15-19$ ($f=6$), $20-24$ ($f=12$), $25-29$ ($f=8$), $30-34$ ($f=2$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$21{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$22{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$22{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$23{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$23{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah: $12, 17, 22, 27, 32$" },
+        { "tipe": "paragraph", "text": "$n = 30$" },
+        { "tipe": "paragraph", "text": "$\\sum f x = 12(2)+17(6)+22(12)+27(8)+32(2)$" },
+        { "tipe": "paragraph", "text": "$= 24 + 102 + 264 + 216 + 64 = 670$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{670}{30} = 22{,}33$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $22{,}5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $25-29$, $30-34$, $35-39$, $40-44$, $45-49$" },
+        { "tipe": "paragraph", "text": "Frek: $3, 7, 14, 8, 3$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$36{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$37{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$37{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$38{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$38{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas modus = $35-39$ (frekuensi $14$)." },
+        { "tipe": "paragraph", "text": "$L = 34{,}5$, $d_1 = 14 - 7 = 7$, $d_2 = 14 - 8 = 6$, $c = 5$" },
+        { "tipe": "paragraph", "text": "$Mo = 34{,}5 + \\dfrac{7}{13} \\cdot 5 = 34{,}5 + 2{,}69 = 37{,}19$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $37{,}0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $50-54$, $55-59$, $60-64$, $65-69$, $70-74$" },
+        { "tipe": "paragraph", "text": "Frek: $4, 8, 14, 10, 4" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$61{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$61{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$62{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$62{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 40$, median = data ke-$20$ dan ke-$21$." },
+        { "tipe": "paragraph", "text": "Frek kumulatif: $4, 12, 26$ → kelas median = $60-64$." },
+        { "tipe": "paragraph", "text": "$L = 59{,}5$, $f_k = 12$, $f_m = 14$, $c = 5$" },
+        { "tipe": "paragraph", "text": "$Me = 59{,}5 + \\left(\\dfrac{20 - 12}{14}\\right) \\cdot 5 = 59{,}5 + 2{,}86 = 62{,}36$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $62{,}5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Desil ke-9 ($D_9$) dari data berkelompok berikut adalah..." },
+        { "tipe": "paragraph", "text": "Interval: $10-19$, $20-29$, $30-39$, $40-49$, $50-59$" },
+        { "tipe": "paragraph", "text": "Frek: $5, 8, 12, 15, 10$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$49{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$50{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$51{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$52{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$53{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 50$, $D_9$ = data ke-$\\dfrac{9}{10} \\cdot 50 = 45$." },
+        { "tipe": "paragraph", "text": "Frek kumulatif: $5, 13, 25, 40, 50$ → kelas $D_9$ = $50-59$." },
+        { "tipe": "paragraph", "text": "$L = 49{,}5$, $f_k = 40$, $f_D = 10$, $c = 10$" },
+        { "tipe": "paragraph", "text": "$D_9 = 49{,}5 + \\left(\\dfrac{45 - 40}{10}\\right) \\cdot 10 = 49{,}5 + 5 = 54{,}5$" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $53{,}5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data $8, 10, 12, 14, 16$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}8$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 12$" },
+        { "tipe": "paragraph", "text": "Simpangan: $4, 2, 0, 2, 4$ → jumlah $12$" },
+        { "tipe": "paragraph", "text": "SR = $\\dfrac{12}{5} = 2{,}4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Koefisien variasi dari data dengan rata-rata $50$ dan simpangan baku $5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$10\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$15\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$20\\%$" } ],
+        [ { "tipe": "paragraph", "text": "$25\\%$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$KV = \\dfrac{S}{\\bar{x}} \\cdot 100\\% = \\dfrac{5}{50} \\cdot 100\\% = 10\\%$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika data $4, 5, 6, 7, 8$ ditransformasi menjadi $2x + 3$, maka rata-rata baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 6$" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{baru} = 2\\bar{x} + 3 = 2(6) + 3 = 15$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasilnya $15$. Kunci opsi A." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika rata-rata suatu data adalah $20$ dan jangkauannya $30$, sedangkan data terkecil adalah $5$, maka data terbesar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Range = max $-$ min = $30$" },
+        { "tipe": "paragraph", "text": "max $= 30 + 5 = 35$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil pertama dari data $6, 8, 10, 12, 14, 16, 18, 20, 22$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 9$, median = data ke-5 = $14$." },
+        { "tipe": "paragraph", "text": "Data bawah: $6, 8, 10, 12$ → $Q_1 = \\dfrac{8+10}{2} = 9$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: nilai $Q_1 = 9$. Kunci opsi B." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu data memiliki rata-rata $\\bar{x} = 60$, median $= 58$, dan modus $= 55$. Hubungan yang benar antara ketiga ukuran tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\bar{x} = Mo = Me$" } ],
+        [ { "tipe": "paragraph", "text": "$\\bar{x} < Me < Mo$" } ],
+        [ { "tipe": "paragraph", "text": "$\\bar{x} > Me > Mo$" } ],
+        [ { "tipe": "paragraph", "text": "$\\bar{x} = Me > Mo$" } ],
+        [ { "tipe": "paragraph", "text": "$\\bar{x} > Mo > Me$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 60$, $Me = 58$, $Mo = 55$." },
+        { "tipe": "paragraph", "text": "Maka $60 > 58 > 55$ → $\\bar{x} > Me > Mo$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
