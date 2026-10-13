@@ -1,0 +1,202 @@
+{
+  "id": "bs-k10-bd-s-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang aplikasi barisan dan deret dalam konteks nyata",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-s-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang karyawan mendapat gaji awal Rp2.000.000 per bulan dengan kenaikan Rp100.000 setiap tahun. Gaji pada tahun ke-5 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp2.300.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.400.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.500.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.600.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.700.000" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Barisan aritmatika: $a = 2.000.000$, $b = 100.000$." },
+        { "tipe": "paragraph", "text": "Gaji tahun ke-5 = tahun ke-5 (bukan suku ke-5 dari awal)? Kita anggap tahun pertama = gaji awal." },
+        { "tipe": "paragraph", "text": "$U_5 = 2.000.000 + 4 \\cdot 100.000 = 2.400.000$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bola dijatuhkan dari ketinggian 8 m. Setiap pantulan, tinggi bola menjadi $\\dfrac{1}{2}$ dari tinggi sebelumnya. Total panjang lintasan bola sampai berhenti adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$ m" } ],
+        [ { "tipe": "paragraph", "text": "$20$ m" } ],
+        [ { "tipe": "paragraph", "text": "$24$ m" } ],
+        [ { "tipe": "paragraph", "text": "$28$ m" } ],
+        [ { "tipe": "paragraph", "text": "$32$ m" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Lintasan = $h + 2 \\cdot S_\\infty(\\text{pantulan})$." },
+        { "tipe": "paragraph", "text": "Pantulan pertama = $4$ m, lalu $2, 1, \\ldots$ → $S_\\infty = \\dfrac{4}{1 - 1/2} = 8$." },
+        { "tipe": "paragraph", "text": "Total = $8 + 2 \\cdot 8 = 24$ m" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penduduk suatu kota bertambah 2% per tahun. Jika penduduk awal 500.000, maka penduduk setelah 3 tahun adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "530.000" } ],
+        [ { "tipe": "paragraph", "text": "$500.000 \\cdot (1{,}02)^3$" } ],
+        [ { "tipe": "paragraph", "text": "560.000" } ],
+        [ { "tipe": "paragraph", "text": "540.000" } ],
+        [ { "tipe": "paragraph", "text": "$500.000 \\cdot (1{,}2)^3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pertumbuhan → barisan geometri: $a = 500.000$, $r = 1{,}02$." },
+        { "tipe": "paragraph", "text": "$U_4 = 500.000 \\cdot (1{,}02)^3$ (tahun ke-3 setelah awal)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah $n$ bilangan asli pertama $1 + 2 + 3 + \\ldots + n = 78$. Nilai $n$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{n(n+1)}{2} = 78 \\Rightarrow n(n+1) = 156$" },
+        { "tipe": "paragraph", "text": "$12 \\cdot 13 = 156$, jadi $n = 12$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah mobil menempuh jarak 10 km pada menit pertama, 12 km pada menit kedua, 14 km pada menit ketiga, dan seterusnya. Jarak yang ditempuh pada menit ke-10 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$26$ km" } ],
+        [ { "tipe": "paragraph", "text": "$28$ km" } ],
+        [ { "tipe": "paragraph", "text": "$30$ km" } ],
+        [ { "tipe": "paragraph", "text": "$32$ km" } ],
+        [ { "tipe": "paragraph", "text": "$34$ km" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 10$, $b = 2$" },
+        { "tipe": "paragraph", "text": "$U_{10} = 10 + 9 \\cdot 2 = 28$ km" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seutas tali dipotong menjadi 6 bagian dengan panjang membentuk barisan aritmatika. Jika potongan terpendek 5 cm dan terpanjang 30 cm, panjang tali semula adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$95$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$100$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$105$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$110$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$115$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{6}{2}(a + U_6) = 3(5 + 30) = 3 \\cdot 35 = 105$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Deret geometri tak hingga $\\dfrac{1}{2} + \\dfrac{1}{6} + \\dfrac{1}{18} + \\ldots$ memiliki jumlah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = \\dfrac{1}{2}$, $r = \\dfrac{1/6}{1/2} = \\dfrac{1}{3}$" },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{1/2}{1 - 1/3} = \\dfrac{1/2}{2/3} = \\dfrac{3}{4}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 20 suku pertama deret $1 + 3 + 5 + 7 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$300$" } ],
+        [ { "tipe": "paragraph", "text": "$360$" } ],
+        [ { "tipe": "paragraph", "text": "$400$" } ],
+        [ { "tipe": "paragraph", "text": "$420$" } ],
+        [ { "tipe": "paragraph", "text": "$441$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_n = n^2$ (jumlah $n$ bilangan ganjil pertama)." },
+        { "tipe": "paragraph", "text": "$S_{20} = 20^2 = 400$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika pada barisan geometri $U_2 = 6$ dan $U_5 = 48$, maka $U_1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{U_5}{U_2} = \\dfrac{48}{6} = 8 = r^3 \\Rightarrow r = 2$" },
+        { "tipe": "paragraph", "text": "$U_2 = a \\cdot r = 6 \\Rightarrow a = 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah deret aritmatika memiliki $U_1 = 5$ dan $S_{10} = 230$. Beda deret tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2 \\cdot 5 + 9b) = 5(10 + 9b) = 230$" },
+        { "tipe": "paragraph", "text": "$10 + 9b = 46 \\Rightarrow 9b = 36 \\Rightarrow b = 4$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
