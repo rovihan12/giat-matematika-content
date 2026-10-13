@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-stat-m-01",
+  "nama": "Bank Soal Mudah - Paket 1",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang penyajian data dan membaca tabel/diagram",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-m-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data yang dikumpulkan dengan cara mengamati langsung objek penelitian disebut data..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Primer" } ],
+        [ { "tipe": "paragraph", "text": "Sekunder" } ],
+        [ { "tipe": "paragraph", "text": "Kualitatif" } ],
+        [ { "tipe": "paragraph", "text": "Kuantitatif" } ],
+        [ { "tipe": "paragraph", "text": "Diskrit" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data primer adalah data yang diperoleh langsung dari sumber pertama (objek penelitian) melalui pengamatan, wawancara, atau kuesioner." },
+        { "tipe": "paragraph", "text": "Sedangkan data sekunder diperoleh dari sumber tidak langsung, misalnya dokumentasi atau pihak lain." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan data nilai ulangan berikut: $7, 8, 6, 9, 7, 8, 7, 6, 9, 10$. Banyak data yang bernilai $7$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data: $7, 8, 6, 9, 7, 8, 7, 6, 9, 10$." },
+        { "tipe": "paragraph", "text": "Nilai $7$ muncul pada posisi ke-1, ke-5, dan ke-7 → sebanyak $3$ kali." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data yang dinyatakan dalam bentuk kategori atau kelompok, bukan angka, disebut data..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Kuantitatif" } ],
+        [ { "tipe": "paragraph", "text": "Kualitatif" } ],
+        [ { "tipe": "paragraph", "text": "Primer" } ],
+        [ { "tipe": "paragraph", "text": "Sekunder" } ],
+        [ { "tipe": "paragraph", "text": "Kontinu" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data kualitatif adalah data yang berbentuk kategori/kualitas (misalnya jenis kelamin, warna)." },
+        { "tipe": "paragraph", "text": "Sedangkan data kuantitatif berbentuk angka dan bisa dihitung." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram yang menggunakan batang-batang untuk menyajikan data dalam bentuk kategori disebut diagram..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Garis" } ],
+        [ { "tipe": "paragraph", "text": "Lingkaran" } ],
+        [ { "tipe": "paragraph", "text": "Batang" } ],
+        [ { "tipe": "paragraph", "text": "Pencar" } ],
+        [ { "tipe": "paragraph", "text": "Histogram" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diagram batang menyajikan data kategori menggunakan batang tegak atau horizontal." },
+        { "tipe": "paragraph", "text": "Diagram garis untuk data yang berkelanjutan, diagram lingkaran untuk proporsi bagian dari keseluruhan." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan data berikut: $4, 5, 5, 6, 7, 7, 7, 8, 9, 10$. Banyak data yang bernilai lebih dari $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data yang lebih dari $6$: $7, 7, 7, 8, 9, 10$." },
+        { "tipe": "paragraph", "text": "Hitung: sebanyak $5$ data." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram lingkaran biasanya menyajikan data dalam bentuk..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Selisih nilai" } ],
+        [ { "tipe": "paragraph", "text": "Persentase bagian dari keseluruhan" } ],
+        [ { "tipe": "paragraph", "text": "Urutan naik" } ],
+        [ { "tipe": "paragraph", "text": "Hubungan dua variabel" } ],
+        [ { "tipe": "paragraph", "text": "Frekuensi kumulatif" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diagram lingkaran menunjukkan proporsi tiap kategori terhadap keseluruhan (biasanya dalam persen atau derajat)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data hasil pengukuran tinggi badan (dalam cm) merupakan contoh data..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Kualitatif" } ],
+        [ { "tipe": "paragraph", "text": "Kuantitatif kontinu" } ],
+        [ { "tipe": "paragraph", "text": "Kualitatif ordinal" } ],
+        [ { "tipe": "paragraph", "text": "Kategorik" } ],
+        [ { "tipe": "paragraph", "text": "Nominal" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tinggi badan berupa angka yang bisa memiliki nilai di antara dua titik (mis. $165{,}3$ cm) → data kuantitatif kontinu." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel frekuensi berikut. Nilai $6$ memiliki frekuensi..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frekuensi: $2, 3, 5, 4, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari tabel, nilai $6$ berpasangan dengan frekuensi $5$." },
+        { "tipe": "paragraph", "text": "Jadi frekuensi nilai $6$ adalah $5$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah seluruh frekuensi pada tabel frekuensi disebut..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Modus" } ],
+        [ { "tipe": "paragraph", "text": "Median" } ],
+        [ { "tipe": "paragraph", "text": "Ukuran sampel ($n$)" } ],
+        [ { "tipe": "paragraph", "text": "Range" } ],
+        [ { "tipe": "paragraph", "text": "Mean" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total seluruh frekuensi menyatakan banyaknya data atau ukuran sampel, biasanya dilambangkan $n$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data berikut menunjukkan jumlah siswa di 4 kelas: $30, 32, 28, 30$. Total seluruh siswa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$118$" } ],
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$122$" } ],
+        [ { "tipe": "paragraph", "text": "$124$" } ],
+        [ { "tipe": "paragraph", "text": "$126$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$30 + 32 + 28 + 30 = 120$ siswa." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
