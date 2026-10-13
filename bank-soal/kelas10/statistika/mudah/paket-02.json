@@ -1,0 +1,192 @@
+{
+  "id": "bs-k10-stat-m-02",
+  "nama": "Bank Soal Mudah - Paket 2",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang mean (rata-rata) data tunggal",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-m-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $4, 6, 8, 10, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{4 + 6 + 8 + 10 + 12}{5} = \\dfrac{40}{5} = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $5, 7, 9, 11$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{5 + 7 + 9 + 11}{4} = \\dfrac{32}{4} = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari $3, 4, 5, 6, 7, 8, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{3+4+5+6+7+8+9}{7} = \\dfrac{42}{7} = 6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $10, 20, 30, 40, 50$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{10 + 20 + 30 + 40 + 50}{5} = \\dfrac{150}{5} = 30$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari $2, 4, 6, 8, 10, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{2+4+6+8+10+12}{6} = \\dfrac{42}{6} = 7$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $8, 9, 10, 11, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{8+9+10+11+12}{5} = \\dfrac{50}{5} = 10$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $1, 3, 5, 7, 9, 11$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{1+3+5+7+9+11}{6} = \\dfrac{36}{6} = 6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata ulangan dari 4 siswa: $70, 80, 85, 85$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$75$" } ],
+        [ { "tipe": "paragraph", "text": "$78$" } ],
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$82$" } ],
+        [ { "tipe": "paragraph", "text": "$85$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{70 + 80 + 85 + 85}{4} = \\dfrac{320}{4} = 80$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $6, 6, 7, 8, 8, 9, 10$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{54}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{56}{7}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $6 + 6 + 7 + 8 + 8 + 9 + 10 = 54$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{54}{7}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika rata-rata 5 data adalah $12$, maka jumlah kelima data tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50$" } ],
+        [ { "tipe": "paragraph", "text": "$55$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ],
+        [ { "tipe": "paragraph", "text": "$65$" } ],
+        [ { "tipe": "paragraph", "text": "$70$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{\\sum x_i}{n} \\Rightarrow \\sum x_i = \\bar{x} \\cdot n = 12 \\cdot 5 = 60$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
