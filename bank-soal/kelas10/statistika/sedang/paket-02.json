@@ -1,0 +1,207 @@
+{
+  "id": "bs-k10-stat-s-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang median, modus, dan ukuran penyebaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-s-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data $12, 15, 11, 14, 18, 16, 13, 17$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$14{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$15{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan: $11, 12, 13, 14, 15, 16, 17, 18$." },
+        { "tipe": "paragraph", "text": "Median = $\\dfrac{14 + 15}{2} = 14{,}5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari tabel frekuensi berikut adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frek: $3, 6, 8, 2, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}2$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}6$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 3+6+8+2+1 = 20$" },
+        { "tipe": "paragraph", "text": "$\\sum f x = 4(3)+5(6)+6(8)+7(2)+8(1) = 12+30+48+14+8 = 112$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{112}{20} = 5{,}6$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data $5, 6, 6, 7, 7, 7, 8, 8, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Nilai $7$ muncul paling banyak (3×)." },
+        { "tipe": "paragraph", "text": "Modus = $7$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika rata-rata dari $7, 8, x, 10, 12$ adalah $9$, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{7+8+x+10+12}{5} = 9$" },
+        { "tipe": "paragraph", "text": "$37 + x = 45$" },
+        { "tipe": "paragraph", "text": "$x = 8$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan dari data $22, 15, 30, 18, 25, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Max = $30$, min = $12$." },
+        { "tipe": "paragraph", "text": "Range = $30 - 12 = 18$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data $3, 5, 7, 9, 11$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}8$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 7$" },
+        { "tipe": "paragraph", "text": "Simpangan: $4, 2, 0, 2, 4$" },
+        { "tipe": "paragraph", "text": "SR = $\\dfrac{12}{5} = 2{,}4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Ragam dari data $5, 6, 7, 8, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = 7$" },
+        { "tipe": "paragraph", "text": "Kuadrat simpangan: $4, 1, 0, 1, 4$" },
+        { "tipe": "paragraph", "text": "$S^2 = \\dfrac{10}{5} = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data $4, 6, 5, 8, 7, 9, 10, 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan: $3, 4, 5, 6, 7, 8, 9, 10$." },
+        { "tipe": "paragraph", "text": "Median = $\\dfrac{6 + 7}{2} = 6{,}5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil ketiga ($Q_3$) dari data $2, 3, 5, 6, 8, 9, 11, 12, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$11{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 9$, median = data ke-5 = $8$." },
+        { "tipe": "paragraph", "text": "Data atas: $9, 11, 12, 14$ → $Q_3 = \\dfrac{11 + 12}{2} = 11{,}5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan baku dari data $5, 6, 7, 8, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari soal ragam: $S^2 = 2$." },
+        { "tipe": "paragraph", "text": "$S = \\sqrt{2}$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
