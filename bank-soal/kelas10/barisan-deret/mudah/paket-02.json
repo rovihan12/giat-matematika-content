@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-bd-m-02",
+  "nama": "Bank Soal Mudah - Paket 2",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang suku ke-n barisan aritmatika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-m-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-15 dari barisan $2, 5, 8, 11, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$44$" } ],
+        [ { "tipe": "paragraph", "text": "$46$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $b = 3$" },
+        { "tipe": "paragraph", "text": "$U_{15} = 2 + 14 \\cdot 3 = 2 + 42 = 44$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-8 dari barisan $4, 7, 10, 13, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$23$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$26$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 4$, $b = 3$" },
+        { "tipe": "paragraph", "text": "$U_8 = 4 + 7 \\cdot 3 = 4 + 21 = 25$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku pertama dan beda barisan $10, 7, 4, 1, \\ldots$ berturut-turut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$a = 10$, $b = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 10$, $b = -3$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 10$, $b = -4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 1$, $b = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 1$, $b = -3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 10$ (suku pertama)." },
+        { "tipe": "paragraph", "text": "$b = 7 - 10 = -3$ (barisan menurun)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-12 dari barisan $1, 4, 7, 10, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$31$" } ],
+        [ { "tipe": "paragraph", "text": "$33$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$37$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_{12} = 1 + 11 \\cdot 3 = 1 + 33 = 34$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-$n$ dari barisan $3, 8, 13, 18, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$U_n = 5n - 2$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 2$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 3n + 2$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 3n - 2$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 3$, $b = 5$" },
+        { "tipe": "paragraph", "text": "$U_n = 3 + (n-1) \\cdot 5 = 3 + 5n - 5 = 5n - 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $U_n = 4n + 1$, maka suku ke-7 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ],
+        [ { "tipe": "paragraph", "text": "$31$" } ],
+        [ { "tipe": "paragraph", "text": "$33$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_7 = 4(7) + 1 = 28 + 1 = 29$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Barisan $2, 6, 18, 54, \\ldots$ memiliki $a$ dan $r$ berturut-turut..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$a = 2$, $r = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 2$, $r = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 2$, $r = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 6$, $r = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 6$, $r = 3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$ (suku pertama)." },
+        { "tipe": "paragraph", "text": "$r = 6/2 = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-6 dari barisan geometri $1, 2, 4, 8, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$64$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 1$, $r = 2$" },
+        { "tipe": "paragraph", "text": "$U_6 = 1 \\cdot 2^{5} = 32$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-4 dari barisan geometri $3, 6, 12, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 3$, $r = 2$" },
+        { "tipe": "paragraph", "text": "$U_4 = 3 \\cdot 2^3 = 3 \\cdot 8 = 24$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus suku ke-$n$ barisan geometri $2, 8, 32, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$U_n = 2 \\cdot 4^{n-1}$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 2 \\cdot 4^n$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 4 \\cdot 2^{n-1}$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 2 \\cdot 2^{n-1}$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 4^{n-1}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $r = 8/2 = 4$" },
+        { "tipe": "paragraph", "text": "$U_n = a \\cdot r^{n-1} = 2 \\cdot 4^{n-1}$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
