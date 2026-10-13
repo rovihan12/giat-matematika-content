@@ -1,0 +1,204 @@
+{
+  "id": "bs-k10-trig-m-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang identitas dasar dan nilai trigonometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-m-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan lingkaran satuan berikut. Nilai $\\sin 30°$ setara dengan..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/lingkaran-satuan.png",
+          "caption": "Lingkaran satuan dengan sudut 30°, 45°, 60° dan koordinat titik-titik pada lingkaran.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pada lingkaran satuan, koordinat titik pada sudut $30°$ adalah $\\left(\\dfrac{1}{2}\\sqrt{3}, \\dfrac{1}{2}\\right)$." },
+        { "tipe": "paragraph", "text": "$\\sin 30° = \\text{ordinat} = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 45° = \\dfrac{1}{2}\\sqrt{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\tan 0°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 0° = \\dfrac{\\sin 0°}{\\cos 0°} = \\dfrac{0}{1} = 0$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pada sudut $180°$, titik berada di $(-1, 0)$ → $\\sin 180° = 0$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pada sudut $180°$, titik di $(-1, 0)$ → $\\cos 180° = -1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin 45° \\cdot \\cos 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2} \\cdot \\dfrac{1}{2}\\sqrt{2} = \\dfrac{1}{4} \\cdot 2 = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 270°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pada sudut $270°$, titik di $(0, -1)$ → $\\sin 270° = -1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 90°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 90° = 0$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku dengan panjang sisi $9$ dan $12$, panjang sisi miring adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-9-12-15.png",
+          "caption": "Segitiga siku-siku dengan sisi tegak 9 dan sisi datar 12.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Miring = $\\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin^2 30° + \\cos^2 30°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas dasar: $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$ untuk semua $\\alpha$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
