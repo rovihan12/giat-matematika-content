@@ -1,0 +1,219 @@
+{
+  "id": "bs-k10-trig-m-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang segitiga siku-siku dan penerapan Pythagoras",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-m-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah tangga bersandar pada dinding membentuk sudut $60°$ dengan tanah. Jika panjang tangga 4 m, tinggi ujung tangga dari tanah adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/tangga-dinding.png",
+          "caption": "Tangga bersandar pada dinding membentuk sudut 60° dengan tanah. Panjang tangga = 4 m.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$ m" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{2}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{2}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ m" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tinggi = $\\text{tangga} \\cdot \\sin 60° = 4 \\cdot \\dfrac{1}{2}\\sqrt{3} = 2\\sqrt{3}$ m" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku, jika $\\sin \\alpha = \\dfrac{3}{5}$ dan $\\alpha$ lancip, maka nilai $\\cos \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos^2 \\alpha = 1 - \\sin^2 \\alpha = 1 - \\dfrac{9}{25} = \\dfrac{16}{25}$" },
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{4}{5}$ (positif karena $\\alpha$ lancip)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan \\alpha = \\dfrac{3}{4}$ dan $\\alpha$ lancip, nilai $\\sin \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan \\alpha = \\dfrac{3}{4}$ → sisi depan $3$, sisi samping $4$, miring $\\sqrt{9+16} = 5$." },
+        { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{3}{5}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pesawat lepas landas dengan sudut elevasi $30°$. Setelah menempuh jarak 1000 m, ketinggian pesawat adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/pesawat-elevasi.png",
+          "caption": "Pesawat lepas landas dengan sudut elevasi 30°, jarak tempuh 1000 m.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$250$ m" } ],
+        [ { "tipe": "paragraph", "text": "$500$ m" } ],
+        [ { "tipe": "paragraph", "text": "$500\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$750$ m" } ],
+        [ { "tipe": "paragraph", "text": "$1000\\sqrt{3}$ m" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tinggi = $1000 \\cdot \\sin 30° = 1000 \\cdot \\dfrac{1}{2} = 500$ m" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sec^2 45° - \\tan^2 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sec^2 \\alpha - \\tan^2 \\alpha = 1$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cot 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cot 45° = \\dfrac{1}{\\tan 45°} = 1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku, jika panjang sisi depan $8$ dan sisi miring $17$, nilai $\\cos \\alpha$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-8-15-17.png",
+          "caption": "Segitiga siku-siku dengan sisi tegak 8, sisi miring 17.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{15}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{15}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sisi samping = $\\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$" },
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{15}{17}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $2 \\sin 30° + \\cos 60°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2 \\cdot \\dfrac{1}{2} + \\dfrac{1}{2} = 1 + \\dfrac{1}{2} = \\dfrac{3}{2}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 0° + \\cos 90°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 0° + \\cos 90° = 0 + 0 = 0$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah tiang bendera memiliki bayangan 6 m saat sudut elevasi matahari $45°$. Tinggi tiang bendera adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/tiang-bayangan.png",
+          "caption": "Tiang bendera dengan bayangan 6 m dan sudut elevasi matahari 45°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$ m" } ],
+        [ { "tipe": "paragraph", "text": "$4$ m" } ],
+        [ { "tipe": "paragraph", "text": "$5$ m" } ],
+        [ { "tipe": "paragraph", "text": "$6$ m" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ m" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 45° = \\dfrac{\\text{tinggi}}{\\text{bayangan}} = 1$" },
+        { "tipe": "paragraph", "text": "Tinggi = $1 \\cdot 6 = 6$ m" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
