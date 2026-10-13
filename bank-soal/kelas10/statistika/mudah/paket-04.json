@@ -1,0 +1,202 @@
+{
+  "id": "bs-k10-stat-m-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang jangkauan, kuartil, dan tabel frekuensi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-m-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan (range) dari data $4, 8, 6, 10, 12, 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Range = nilai max $-$ nilai min = $12 - 4 = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil pertama ($Q_1$) dari data $2, 4, 6, 8, 10, 12, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 7$, median = data ke-4 = $8$." },
+        { "tipe": "paragraph", "text": "$Q_1$ = median data bawah ($2, 4, 6$) = $4$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil ketiga ($Q_3$) dari data $2, 4, 6, 8, 10, 12, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$Q_3$ = median data atas ($10, 12, 14$) = $12$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel frekuensi berikut. Jumlah data ($n$) adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $1, 2, 3, 4$" },
+        { "tipe": "paragraph", "text": "Frekuensi: $3, 4, 2, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 3 + 4 + 2 + 1 = 10$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari data berikut adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7$" },
+        { "tipe": "paragraph", "text": "Frek: $2, 3, 4, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}0$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 2 + 3 + 4 + 1 = 10$" },
+        { "tipe": "paragraph", "text": "$\\sum f x = 4(2)+5(3)+6(4)+7(1) = 8+15+24+7 = 54$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{54}{10} = 5{,}4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan dari data $15, 12, 20, 18, 14, 25$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Range = $25 - 12 = 13$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data $3, 4, 5, 6, 7, 8, 9, 10$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 8$. Median = rata-rata data ke-4 dan ke-5 = $\\dfrac{6 + 7}{2} = 6{,}5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai modus dari tabel berikut adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $2, 3, 4, 5$" },
+        { "tipe": "paragraph", "text": "Frek: $1, 5, 3, 2$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "Tidak ada" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi terbesar adalah $5$, dengan nilai $3$." },
+        { "tipe": "paragraph", "text": "Jadi modus = $3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan interkuartil ($Q_3 - Q_1$) dari data $2, 4, 6, 8, 10, 12, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$Q_1 = 4$ dan $Q_3 = 12$." },
+        { "tipe": "paragraph", "text": "Jangkauan interkuartil = $Q_3 - Q_1 = 12 - 4 = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data $5, 6, 7, 8, 9, 10, 11, 12, 13, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$9{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$10{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 10$. Median = rata-rata data ke-5 dan ke-6 = $\\dfrac{9 + 10}{2} = 9{,}5$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
