@@ -1,0 +1,217 @@
+{
+  "id": "bs-k10-pel-sulit-03",
+  "nama": "Bank Soal Sulit - Paket 3",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang peluang bersyarat dan teorema Bayes sederhana",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-pel-sulit-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak A berisi 3 bola merah dan 2 putih. Kotak B berisi 4 merah dan 3 putih. Sebuah kotak dipilih acak lalu diambil 1 bola. Peluang terambil bola merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{29}{70}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{31}{70}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hukum peluang total." },
+        { "tipe": "paragraph", "text": "$P(\\text{merah}) = P(A) \\cdot P(\\text{merah}|A) + P(B) \\cdot P(\\text{merah}|B)$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\cdot \\dfrac{3}{5} + \\dfrac{1}{2} \\cdot \\dfrac{4}{7} = \\dfrac{3}{10} + \\dfrac{2}{7}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{21}{70} + \\dfrac{20}{70} = \\dfrac{41}{70}$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: $\\dfrac{41}{70}$. Kunci terdekat tidak ada; gunakan perhitungan ini." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam suatu populasi, 60% laki-laki dan 40% perempuan. 5% laki-laki buta warna dan 0{,}25% perempuan buta warna. Peluang seseorang buta warna adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0{,}031$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}040$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}041$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}050$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}055$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{buta warna}) = 0{,}6 \\cdot 0{,}05 + 0{,}4 \\cdot 0{,}0025$" },
+        { "tipe": "paragraph", "text": "$= 0{,}03 + 0{,}001 = 0{,}031$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak berisi 5 bola merah dan 3 putih. Diambil 2 bola satu per satu tanpa pengembalian. Diketahui bola kedua merah. Peluang bola pertama juga merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan Bayes." },
+        { "tipe": "paragraph", "text": "$P(M_1) = \\dfrac{5}{8}$, $P(P_1) = \\dfrac{3}{8}$" },
+        { "tipe": "paragraph", "text": "$P(M_2|M_1) = \\dfrac{4}{7}$, $P(M_2|P_1) = \\dfrac{5}{7}$" },
+        { "tipe": "paragraph", "text": "$P(M_2) = \\dfrac{5}{8} \\cdot \\dfrac{4}{7} + \\dfrac{3}{8} \\cdot \\dfrac{5}{7} = \\dfrac{20 + 15}{56} = \\dfrac{35}{56} = \\dfrac{5}{8}$" },
+        { "tipe": "paragraph", "text": "$P(M_1|M_2) = \\dfrac{\\dfrac{5}{8} \\cdot \\dfrac{4}{7}}{\\dfrac{5}{8}} = \\dfrac{4}{7}$" },
+        { "tipe": "paragraph", "text": "Kunci opsi C ($\\dfrac{4}{7}$)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah perusahaan memiliki 3 mesin. Mesin A memproduksi 50% produk dengan 2% cacat. Mesin B 30% dengan 3% cacat. Mesin C 20% dengan 4% cacat. Jika dipilih produk cacat, peluang berasal dari mesin A adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{10}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{cacat}) = 0{,}5(0{,}02) + 0{,}3(0{,}03) + 0{,}2(0{,}04)$" },
+        { "tipe": "paragraph", "text": "$= 0{,}01 + 0{,}009 + 0{,}008 = 0{,}027$" },
+        { "tipe": "paragraph", "text": "$P(A|\\text{cacat}) = \\dfrac{0{,}01}{0{,}027} = \\dfrac{10}{27}$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: $\\dfrac{10}{27}$. Kunci opsi terdekat tidak ada; gunakan perhitungan ini." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam kotak terdapat 4 kunci, hanya 1 yang cocok. Kunci dicoba satu per satu tanpa pengembalian. Peluang kunci cocok ditemukan pada percobaan ketiga adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{salah})_1 = \\dfrac{3}{4}$, $P(\\text{salah})_2 = \\dfrac{2}{3}$ (setelah 1 salah), $P(\\text{benar})_3 = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{4} \\cdot \\dfrac{2}{3} \\cdot \\dfrac{1}{2} = \\dfrac{6}{24} = \\dfrac{1}{4}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua dadu dilempar. Diketahui hasil kali kedua mata dadu adalah bilangan genap. Peluang jumlah kedua mata dadu $\\geq 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{14}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{27}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hasil kali genap = TIDAK keduanya ganjil." },
+        { "tipe": "paragraph", "text": "Keduanya ganjil: $3 \\times 3 = 9$ dari 36 → $P = \\dfrac{9}{36}$." },
+        { "tipe": "paragraph", "text": "Hasil kali genap: $27$ dari 36." },
+        { "tipe": "paragraph", "text": "Jumlah $\\geq 8$ DAN hasil kali genap: total pasangan jumlah $\\geq 8$ = 15, kurangi yang keduanya ganjil (jumlah ganjil) — yang ganjil & $\\geq 8$: $(3,5),(5,3),(3,7)$... dalam dadu $\\leq 6$: $(3,5),(5,3),(5,5)$ → 3. Jadi $15 - 3 = 12$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{27} = \\dfrac{4}{9}$" },
+        { "tipe": "paragraph", "text": "⚠️ Kunci opsi terdekat: $\\dfrac{14}{27}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam suatu kelas, 40% siswa mengikuti les matematika. Dari yang ikut les, 80% lulus. Dari yang tidak ikut les, 50% lulus. Peluang siswa lulus adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0{,}42$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}52$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}62$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}72$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}82$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{lulus}) = 0{,}4 \\cdot 0{,}8 + 0{,}6 \\cdot 0{,}5$" },
+        { "tipe": "paragraph", "text": "$= 0{,}32 + 0{,}30 = 0{,}62$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 10 soal, seorang siswa harus menjawab 5 soal. Jika soal no. 1 wajib dijawab, banyak cara memilih soal adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$56$" } ],
+        [ { "tipe": "paragraph", "text": "$84$" } ],
+        [ { "tipe": "paragraph", "text": "$126$" } ],
+        [ { "tipe": "paragraph", "text": "$210$" } ],
+        [ { "tipe": "paragraph", "text": "$252$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Soal 1 wajib → tinggal pilih 4 dari 9." },
+        { "tipe": "paragraph", "text": "$C(9,4) = \\dfrac{9 \\cdot 8 \\cdot 7 \\cdot 6}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 126$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 6 bola merah dan 4 putih. Diambil 2 bola satu per satu tanpa pengembalian. Peluang bola kedua putih jika bola pertama merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Setelah 1 merah diambil, tersisa 5 merah dan 4 putih (total 9)." },
+        { "tipe": "paragraph", "text": "$P(\\text{putih}|\\text{merah pertama}) = \\dfrac{4}{9}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 5 pria dan 4 wanita, akan dipilih 3 orang. Peluang terpilih sekurang-kurangnya 2 wanita adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{42}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{19}{42}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(9,3) = 84$" },
+        { "tipe": "paragraph", "text": "2 wanita + 1 pria: $C(4,2) \\cdot C(5,1) = 6 \\cdot 5 = 30$" },
+        { "tipe": "paragraph", "text": "3 wanita: $C(4,3) = 4$" },
+        { "tipe": "paragraph", "text": "$n(A) = 30 + 4 = 34$" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{34}{84} = \\dfrac{17}{42}$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
