@@ -193,3 +193,28 @@
         { "tipe": "paragraph", "text": "$p = -2 \\Rightarrow {}^2\\log x = -2 \\Rightarrow x = 2^{-2} = \\dfrac{1}{4}$" }
       ],
       "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2^{x} + 2^{-x}$ dan $f(a) = 5$, maka nilai $f(2a)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$23$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ],
+        [ { "tipe": "paragraph", "text": "$31$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 2^a + 2^{-a} = 5$" },
+        { "tipe": "paragraph", "text": "Kuadratkan: $(2^a + 2^{-a})^2 = 25$" },
+        { "tipe": "paragraph", "text": "$2^{2a} + 2 + 2^{-2a} = 25$" },
+        { "tipe": "paragraph", "text": "$2^{2a} + 2^{-2a} = 23$" },
+        { "tipe": "paragraph", "text": "$f(2a) = 2^{2a} + 2^{-2a} = 23$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
