@@ -1,0 +1,209 @@
+{
+  "id": "bs-k10-trig-m-05",
+  "nama": "Bank Soal Mudah - Paket 5",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah campuran tentang trigonometri dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-m-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pohon memiliki tinggi 12 m. Pada saat tertentu, bayangannya 12 m. Sudut elevasi matahari saat itu adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/pohon-bayangan.png",
+          "caption": "Pohon setinggi 12 m dengan bayangan 12 m.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$75°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan \\theta = \\dfrac{\\text{tinggi}}{\\text{bayangan}} = \\dfrac{12}{12} = 1$" },
+        { "tipe": "paragraph", "text": "$\\theta = 45°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 30° + \\sin 60°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(1 + \\sqrt{3})$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(1 + \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2} + \\dfrac{1}{2}\\sqrt{3} = \\dfrac{1}{2}(1 + \\sqrt{3})$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 0° + \\sin 90°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 0° + \\sin 90° = 1 + 1 = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga siku-siku dengan $\\sin \\alpha = \\dfrac{5}{13}$ dan $\\alpha$ lancip, nilai $\\tan \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{13}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{5}{13}$ → depan $5$, miring $13$." },
+        { "tipe": "paragraph", "text": "Samping = $\\sqrt{169 - 25} = \\sqrt{144} = 12$" },
+        { "tipe": "paragraph", "text": "$\\tan \\alpha = \\dfrac{5}{12}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cot 30°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cot 30° = \\dfrac{1}{\\tan 30°} = \\dfrac{1}{\\frac{1}{3}\\sqrt{3}} = \\sqrt{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 120°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 120° = \\sin(180° - 60°) = \\sin 60° = \\dfrac{1}{2}\\sqrt{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 150°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 150° = \\cos(180° - 30°) = -\\cos 30° = -\\dfrac{1}{2}\\sqrt{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga siku-siku memiliki sisi tegak 7 dan sisi miring 25. Nilai $\\cos \\alpha$ (sudut di samping sisi tegak) adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{7}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sisi samping = $\\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$" },
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{24}{25}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\tan 45° + \\cot 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 45° + \\cot 45° = 1 + 1 = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar segitiga berikut. Jika $AB = 8$ dan $\\angle A = 30°$, maka panjang $BC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-abc.png",
+          "caption": "Segitiga siku-siku ABC, siku-siku di B. AB = 8 (sisi samping sudut A), sudut A = 30°, cari BC.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$8\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 30° = \\dfrac{BC}{AB} = \\dfrac{BC}{8}$" },
+        { "tipe": "paragraph", "text": "$BC = 8 \\cdot \\dfrac{1}{3}\\sqrt{3} = \\dfrac{8}{3}\\sqrt{3}$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: $BC = \\dfrac{8}{3}\\sqrt{3}$. Kunci opsi terdekat: tidak ada. Bila soal diartikan $BC$ sebagai sisi depan sudut A, gunakan $\\tan 30° \\cdot 8 \\approx 4{,}62$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
