@@ -51,26 +51,21 @@
     {
       "id": "bs-k10-spl-sulit-04-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua tahun lalu umur ayah 5 kali umur anak. Jumlah umur mereka sekarang 44 tahun. Umur anak sekarang adalah..." }
+        { "tipe": "paragraph", "text": "Dua tahun lalu umur ayah 3 kali umur anak. Jumlah umur mereka sekarang 36 tahun. Umur anak sekarang adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$7$ tahun" } ],
         [ { "tipe": "paragraph", "text": "$8$ tahun" } ],
         [ { "tipe": "paragraph", "text": "$9$ tahun" } ],
         [ { "tipe": "paragraph", "text": "$10$ tahun" } ],
-        [ { "tipe": "paragraph", "text": "$11$ tahun" } ]
+        [ { "tipe": "paragraph", "text": "$11$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$12$ tahun" } ]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
-        { "tipe": "paragraph", "text": "$A - 2 = 5(a - 2) \\Rightarrow A = 5a - 8$" },
-        { "tipe": "paragraph", "text": "$A + a = 44$" },
-        { "tipe": "paragraph", "text": "$5a - 8 + a = 44 \\Rightarrow 6a = 52$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: ubah jadi "3 kali umur anak"." },
         { "tipe": "paragraph", "text": "$A - 2 = 3(a - 2) \\Rightarrow A = 3a - 4$" },
-        { "tipe": "paragraph", "text": "$3a - 4 + a = 44 \\Rightarrow 4a = 48 \\Rightarrow a = 12$" },
-        { "tipe": "paragraph", "text": "Tidak cocok opsi. **Revisi final**: jumlah umur $= 36$." },
-        { "tipe": "paragraph", "text": "$4a - 4 = 36 \\Rightarrow a = 10$ ✓" }
+        { "tipe": "paragraph", "text": "$A + a = 36$" },
+        { "tipe": "paragraph", "text": "$3a - 4 + a = 36 \\Rightarrow 4a = 40 \\Rightarrow a = 10$" }
       ],
       "tingkat": "SULIT"
     },
@@ -211,7 +206,6 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Bilangan $= 10a + b$; $a + b = 8$." },
         { "tipe": "paragraph", "text": "$10b + a = 2(10a + b) + 10$" },
-        { "tipe": "paragraph", "text": "$10b + a = 20a + 2b + 10$" },
         { "tipe": "paragraph", "text": "$8b - 19a = 10$" },
         { "tipe": "paragraph", "text": "$b = 8 - a$: $64 - 8a - 19a = 10 \\Rightarrow 27a = 54 \\Rightarrow a = 2$; $b = 6$." },
         { "tipe": "paragraph", "text": "Bilangan asli = $26$" }
