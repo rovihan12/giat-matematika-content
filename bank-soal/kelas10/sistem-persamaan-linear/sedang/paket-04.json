@@ -118,9 +118,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pembilang $> 0$ saat $x > -1$; penyebut $> 0$ saat $x > 2$." },
-        { "tipe": "paragraph", "text": "Tanda: $+$ untuk $x > 2$, $-$ untuk $-1 < x < 2$, $+$ untuk $x < -1$." },
-        { "tipe": "paragraph", "text": "Pertidaksamaan $> 0$ → $x < -1$ atau $x > 2$." }
+        { "tipe": "paragraph", "text": "Titik kritis: $x = -1$ (pembilang nol) dan $x = 2$ (penyebut nol, dikecualikan)." },
+        { "tipe": "paragraph", "text": "Uji $x = -2$: $\\dfrac{-1}{-4} = \\dfrac{1}{4} > 0$ ✓" },
+        { "tipe": "paragraph", "text": "Uji $x = 0$: $\\dfrac{1}{-2} < 0$ ✗" },
+        { "tipe": "paragraph", "text": "Uji $x = 3$: $\\dfrac{4}{1} = 4 > 0$ ✓" },
+        { "tipe": "paragraph", "text": "HP = $x < -1$ atau $x > 2$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -175,12 +177,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pembilang $3(x - 2)$ nol di $x = 2$; penyebut nol di $x = -1$ (titik kritis, dikecualikan)." },
-        { "tipe": "paragraph", "text": "Uji interval:" },
-        { "tipe": "paragraph", "text": "$x < -1$: $+/- = -$ → bukan solusi (kita cari $\\leq 0$? Ya, tapi tanda $+/-$ → $-$, jadi bukan? Tunggu, kita cari $\\leq 0$.)" },
-        { "tipe": "paragraph", "text": "Ulang: $x = -2$: $(3(-2)-6)/(-2+1) = (-12)/(-1) = 12 > 0$ → bukan solusi." },
-        { "tipe": "paragraph", "text": "$x = 0$: $-6/1 = -6 \\leq 0$ ✓" },
-        { "tipe": "paragraph", "text": "$x = 3$: $3/4 > 0$ → bukan solusi." },
+        { "tipe": "paragraph", "text": "Pembilang nol di $x = 2$; penyebut nol di $x = -1$ (titik kritis, dikecualikan)." },
+        { "tipe": "paragraph", "text": "Uji $x = -2$: $\\dfrac{-12}{-1} = 12 > 0$ → bukan solusi ($\\leq 0$)." },
+        { "tipe": "paragraph", "text": "Uji $x = 0$: $\\dfrac{-6}{1} = -6 \\leq 0$ ✓" },
+        { "tipe": "paragraph", "text": "Uji $x = 3$: $\\dfrac{3}{4} > 0$ → bukan solusi." },
         { "tipe": "paragraph", "text": "HP = $-1 < x \\leq 2$." }
       ],
       "tingkat": "SEDANG"
