@@ -1,0 +1,203 @@
+{
+  "id": "bs-k10-fk-s-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang grafik dan pertidaksamaan kuadrat",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-s-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - x - 6 > 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > -3$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 < x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 2)(x - 3) > 0$" },
+        { "tipe": "paragraph", "text": "HP = $x < -2$ atau $x > 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 5x + 6 \\leq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2 \\leq x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 2$ atau $x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$2 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 \\leq x \\leq -2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 3) \\leq 0$" },
+        { "tipe": "paragraph", "text": "HP = $2 \\leq x \\leq 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik $y = x^2 - 2x - 3$ berada di bawah sumbu-$x$ untuk..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 < x < 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y < 0 \\Rightarrow (x + 1)(x - 3) < 0$" },
+        { "tipe": "paragraph", "text": "HP = $-1 < x < 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $2x^2 - 5x - 3 \\geq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -\\dfrac{1}{2}$ atau $x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2} \\leq x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -3$ atau $x \\geq \\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 \\leq x \\leq \\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(2x + 1)(x - 3) \\geq 0$" },
+        { "tipe": "paragraph", "text": "HP = $x \\leq -\\dfrac{1}{2}$ atau $x \\geq 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 + 4x + 4 > 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\neq -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$" } ],
+        [ { "tipe": "paragraph", "text": "Semua $x$" } ],
+        [ { "tipe": "paragraph", "text": "Tidak ada $x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 2)^2 > 0$" },
+        { "tipe": "paragraph", "text": "$(x+2)^2 \\geq 0$ untuk semua $x$, dan $= 0$ hanya saat $x = -2$." },
+        { "tipe": "paragraph", "text": "HP = $x \\neq -2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $x^2 - 4 < 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-2 < x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$-4 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 2)(x + 2) < 0$" },
+        { "tipe": "paragraph", "text": "HP = $-2 < x < 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 2x - 8$, nilai $x$ yang membuat $f(x) = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-2$ dan $4$" } ],
+        [ { "tipe": "paragraph", "text": "$2$ dan $-4$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$ dan $-4$" } ],
+        [ { "tipe": "paragraph", "text": "$2$ dan $4$" } ],
+        [ { "tipe": "paragraph", "text": "$1$ dan $8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 2)(x - 4) = 0$" },
+        { "tipe": "paragraph", "text": "$x = -2$ atau $x = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Agar $x^2 + (k-1)x + 9 = 0$ tidak memiliki akar real, nilai $k$ yang memenuhi adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-5 < k < 7$" } ],
+        [ { "tipe": "paragraph", "text": "$k < -5$ atau $k > 7$" } ],
+        [ { "tipe": "paragraph", "text": "$-7 < k < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$k > 7$" } ],
+        [ { "tipe": "paragraph", "text": "$k < -5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D < 0 \\Rightarrow (k-1)^2 - 36 < 0$" },
+        { "tipe": "paragraph", "text": "$(k-1)^2 < 36 \\Rightarrow -6 < k - 1 < 6$" },
+        { "tipe": "paragraph", "text": "$-5 < k < 7$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 6x + 8 < 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$2 \\leq x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-4 < x < -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 4) < 0$" },
+        { "tipe": "paragraph", "text": "HP = $2 < x < 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $(x - 1)(x + 5) \\geq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -5$ atau $x \\geq 1$" } ],
+        [ { "tipe": "paragraph", "text": "$-5 \\leq x \\leq 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik kritis: $x = 1$ dan $x = -5$." },
+        { "tipe": "paragraph", "text": "HP = $x \\leq -5$ atau $x \\geq 1$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
