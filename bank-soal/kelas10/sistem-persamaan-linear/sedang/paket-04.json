@@ -1,0 +1,210 @@
+{
+  "id": "bs-k10-spl-s-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang pertidaksamaan linear lanjutan dan sistem pertidaksamaan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-s-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $2x - 3 \\leq 5x + 6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2x - 5x \\leq 6 + 3 \\Rightarrow -3x \\leq 9$" },
+        { "tipe": "paragraph", "text": "Bagi $-3$ (tanda berbalik): $x \\geq -3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{2x - 1}{3} \\leq \\dfrac{x + 2}{4}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kalikan silang (KPK 12): $4(2x-1) \\leq 3(x+2)$" },
+        { "tipe": "paragraph", "text": "$8x - 4 \\leq 3x + 6$" },
+        { "tipe": "paragraph", "text": "$5x \\leq 10 \\Rightarrow x \\leq 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari sistem $x > 2$ dan $x \\leq 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2 < x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$2 \\leq x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$2 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$2 \\leq x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Irisan: $x > 2$ DAN $x \\leq 5$ → $2 < x \\leq 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $|2x - 3| < 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$1 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-4 < x < 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 1$ atau $x > 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$-5 < 2x - 3 < 5$" },
+        { "tipe": "paragraph", "text": "$-2 < 2x < 8$" },
+        { "tipe": "paragraph", "text": "$-1 < x < 4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ bulat yang memenuhi $3x + 1 \\leq 10$ dan $2x - 1 > 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{3\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{2, 3\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{3, 4\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{2, 3, 4\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{1, 2, 3\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3x \\leq 9 \\Rightarrow x \\leq 3$" },
+        { "tipe": "paragraph", "text": "$2x > 4 \\Rightarrow x > 2$" },
+        { "tipe": "paragraph", "text": "Irisan: $2 < x \\leq 3$ → $x$ bulat = $\\{3\\}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\dfrac{x + 1}{x - 2} > 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 < x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 2$, $x \\neq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pembilang $> 0$ saat $x > -1$; penyebut $> 0$ saat $x > 2$." },
+        { "tipe": "paragraph", "text": "Tanda: $+$ untuk $x > 2$, $-$ untuk $-1 < x < 2$, $+$ untuk $x < -1$." },
+        { "tipe": "paragraph", "text": "Pertidaksamaan $> 0$ → $x < -1$ atau $x > 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $|x - 2| \\geq 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 1$ atau $x \\geq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-5 \\leq x \\leq 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x - 2 \\leq -3$ atau $x - 2 \\geq 3$" },
+        { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $-2 < x + 1 \\leq 4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-3 < x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 < x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 \\leq x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 \\leq x < 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kurangkan 1 dari ketiga ruas: $-3 < x \\leq 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{3x - 6}{x + 1} \\leq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1 < x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x \\geq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 \\leq x < 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pembilang $3(x - 2)$ nol di $x = 2$; penyebut nol di $x = -1$ (titik kritis, dikecualikan)." },
+        { "tipe": "paragraph", "text": "Uji interval:" },
+        { "tipe": "paragraph", "text": "$x < -1$: $+/- = -$ → bukan solusi (kita cari $\\leq 0$? Ya, tapi tanda $+/-$ → $-$, jadi bukan? Tunggu, kita cari $\\leq 0$.)" },
+        { "tipe": "paragraph", "text": "Ulang: $x = -2$: $(3(-2)-6)/(-2+1) = (-12)/(-1) = 12 > 0$ → bukan solusi." },
+        { "tipe": "paragraph", "text": "$x = 0$: $-6/1 = -6 \\leq 0$ ✓" },
+        { "tipe": "paragraph", "text": "$x = 3$: $3/4 > 0$ → bukan solusi." },
+        { "tipe": "paragraph", "text": "HP = $-1 < x \\leq 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang siswa harus menyelesaikan $5x - 3 \\leq 2x + 9$ dan $x + 4 > 2$. Nilai $x$ bulat positif yang memenuhi kedua pertidaksamaan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{1, 2, 3, 4\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{1, 2, 3\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{2, 3, 4\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{1, 2\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{1, 2, 3, 4, 5\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5x - 3 \\leq 2x + 9 \\Rightarrow 3x \\leq 12 \\Rightarrow x \\leq 4$" },
+        { "tipe": "paragraph", "text": "$x + 4 > 2 \\Rightarrow x > -2$" },
+        { "tipe": "paragraph", "text": "Irisan: $-2 < x \\leq 4$." },
+        { "tipe": "paragraph", "text": "Nilai bulat positif = $\\{1, 2, 3, 4\\}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
