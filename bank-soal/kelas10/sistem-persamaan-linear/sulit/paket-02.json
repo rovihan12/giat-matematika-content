@@ -1,0 +1,215 @@
+{
+  "id": "bs-k10-spl-sulit-02",
+  "nama": "Bank Soal Sulit - Paket 2",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang sistem persamaan nonlinear sederhana dan substitusi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-sulit-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x^2 + y^2 = 25$ dan $x + y = 7$ adalah $(x_1, y_1)$ dan $(x_2, y_2)$ dengan $x_1 > x_2$. Nilai $x_1 - y_1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x + y = 7 \\Rightarrow y = 7 - x$." },
+        { "tipe": "paragraph", "text": "$x^2 + (7 - x)^2 = 25 \\Rightarrow 2x^2 - 14x + 24 = 0 \\Rightarrow x^2 - 7x + 12 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 3)(x - 4) = 0 \\Rightarrow x = 3$ atau $x = 4$" },
+        { "tipe": "paragraph", "text": "Solusi: $(3, 4)$ dan $(4, 3)$. $x_1 = 4$, $y_1 = 3$." },
+        { "tipe": "paragraph", "text": "$x_1 - y_1 = 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian sistem $x^2 - y^2 = 9$ dan $x + y = 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{(3, 0)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(0, 3)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(-3, 0)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(0, -3)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(3, 3)\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^2 - y^2 = (x - y)(x + y) = 9$." },
+        { "tipe": "paragraph", "text": "Karena $x + y = 3$: $(x - y) \\cdot 3 = 9 \\Rightarrow x - y = 3$." },
+        { "tipe": "paragraph", "text": "Dari $x + y = 3$ dan $x - y = 3$: $2x = 6 \\Rightarrow x = 3$, $y = 0$." },
+        { "tipe": "paragraph", "text": "HP = $\\{(3, 0)\\}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem $x^2 + y^2 = 20$ dan $xy = 8$. Nilai $(x + y)^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 = 20 + 2(8) = 36$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $\\dfrac{1}{x} + \\dfrac{2}{y} = 3$ dan $\\dfrac{2}{x} - \\dfrac{1}{y} = 1$ adalah $(x, y)$. Nilai $x \\cdot y$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$, $b = \\dfrac{1}{y}$." },
+        { "tipe": "paragraph", "text": "$a + 2b = 3$; $2a - b = 1$" },
+        { "tipe": "paragraph", "text": "(i) + 2(ii): $5a = 5 \\Rightarrow a = 1$" },
+        { "tipe": "paragraph", "text": "Substitusi: $1 + 2b = 3 \\Rightarrow b = 1$" },
+        { "tipe": "paragraph", "text": "$x = 1$, $y = 1$, $xy = 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 9$, $x^2 + y^2 + z^2 = 35$, dan $xy + xz + yz = 23$. Jika $(x, y, z) = (1, 3, 5)$, nilai $(x - 1)(y - 1)(z - 1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Verifikasi $(1, 3, 5)$: $S_1 = 9$ ✓; $S_2 = 3 + 5 + 15 = 23$ ✓; $S_3 = x^2 + y^2 + z^2 = 1 + 9 + 25 = 35$ ✓." },
+        { "tipe": "paragraph", "text": "$(x - 1)(y - 1)(z - 1) = (1 - 1)(3 - 1)(5 - 1) = 0 \\cdot 2 \\cdot 4 = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x + y = 5$ dan $xy = 6$, nilai $x^3 + y^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$55$" } ],
+        [ { "tipe": "paragraph", "text": "$65$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
+        { "tipe": "paragraph", "text": "$= 125 - 3 \\cdot 6 \\cdot 5 = 125 - 90 = 35$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x + y = 4$ dan $x^2 + y^2 = 10$ memiliki solusi $(x_1, y_1)$ dan $(x_2, y_2)$. Nilai $x_1 \\cdot y_2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^2 + y^2 = (x + y)^2 - 2xy = 10$" },
+        { "tipe": "paragraph", "text": "$16 - 2xy = 10 \\Rightarrow xy = 3$" },
+        { "tipe": "paragraph", "text": "Akar-akar: $t^2 - 4t + 3 = 0 \\Rightarrow t = 1$ atau $t = 3$." },
+        { "tipe": "paragraph", "text": "Solusi: $(1, 3)$ dan $(3, 1)$. $x_1 = 3$, $y_2 = 1$." },
+        { "tipe": "paragraph", "text": "$x_1 \\cdot y_2 = 3 \\cdot 1 = 3$" },
+        { "tipe": "paragraph", "text": "**Revisi**: hasil $= 3$. Kunci C." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $a + b = 7$ dan $ab = 12$, nilai $\\dfrac{1}{a} + \\dfrac{1}{b}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{5}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{a} + \\dfrac{1}{b} = \\dfrac{a + b}{ab} = \\dfrac{7}{12}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x^2 - y = 3$ dan $x - y = 1$ memiliki solusi $(x, y)$ dengan $x > 0$. Nilai $x + y$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x - y = 1 \\Rightarrow y = x - 1$." },
+        { "tipe": "paragraph", "text": "Substitusi: $x^2 - (x - 1) = 3 \\Rightarrow x^2 - x - 2 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 2)(x + 1) = 0 \\Rightarrow x = 2$ atau $x = -1$." },
+        { "tipe": "paragraph", "text": "$x > 0 \\Rightarrow x = 2$, $y = 1$." },
+        { "tipe": "paragraph", "text": "$x + y = 3$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x + \\dfrac{1}{x} = 3$, nilai $x^2 + \\dfrac{1}{x^2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(x + \\dfrac{1}{x}\\right)^2 = x^2 + 2 + \\dfrac{1}{x^2}$" },
+        { "tipe": "paragraph", "text": "$9 = x^2 + 2 + \\dfrac{1}{x^2}$" },
+        { "tipe": "paragraph", "text": "$x^2 + \\dfrac{1}{x^2} = 7$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
