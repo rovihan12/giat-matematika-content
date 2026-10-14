@@ -1,0 +1,215 @@
+{
+  "id": "bs-k10-fk-sulit-02",
+  "nama": "Bank Soal Sulit - Paket 2",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang sistem persamaan kuadrat dan akar simetris",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-sulit-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Salah satu akar $x^2 - 6x + k = 0$ adalah dua kali akar yang lain. Nilai $k$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal akar: $\\alpha$ dan $2\\alpha$." },
+        { "tipe": "paragraph", "text": "$\\alpha + 2\\alpha = 6 \\Rightarrow 3\\alpha = 6 \\Rightarrow \\alpha = 2$." },
+        { "tipe": "paragraph", "text": "Akar: $2$ dan $4$." },
+        { "tipe": "paragraph", "text": "$k = 2 \\cdot 4 = 8$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 3x - 4 = 0$, persamaan kuadrat baru yang akar-akarnya $\\dfrac{1}{\\alpha}$ dan $\\dfrac{1}{\\beta}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4x^2 - 3x - 1 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$4x^2 + 3x - 1 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$4x^2 - 3x + 1 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 + 3x - 4 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$4x^2 + 3x + 1 = 0$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 3$; $\\alpha\\beta = -4$" },
+        { "tipe": "paragraph", "text": "Jumlah akar baru: $\\dfrac{1}{\\alpha} + \\dfrac{1}{\\beta} = \\dfrac{3}{-4} = -\\dfrac{3}{4}$" },
+        { "tipe": "paragraph", "text": "Hasil kali akar baru: $\\dfrac{1}{\\alpha\\beta} = -\\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "Persamaan: $x^2 + \\dfrac{3}{4}x - \\dfrac{1}{4} = 0 \\Rightarrow 4x^2 + 3x - 1 = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x^2 - (a+2)x + 9 = 0$ memiliki akar kembar positif, nilai $a$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D = 0 \\Rightarrow (a+2)^2 - 36 = 0$" },
+        { "tipe": "paragraph", "text": "$(a+2)^2 = 36 \\Rightarrow a + 2 = \\pm 6$" },
+        { "tipe": "paragraph", "text": "$a = 4$ atau $a = -8$." },
+        { "tipe": "paragraph", "text": "Akar kembar $x = \\dfrac{a+2}{2}$. Untuk $a = 4$: $x = 3 > 0$ ✓." },
+        { "tipe": "paragraph", "text": "Untuk $a = -8$: $x = -3 < 0$ ✗." },
+        { "tipe": "paragraph", "text": "Jadi $a = 4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $p$ agar grafik $y = x^2 + px + 4$ selalu di atas sumbu-$x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-4 < p < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$p < -4$ atau $p > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$p = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$p \\geq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$p \\leq -4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Grafik selalu di atas sumbu-$x$: $D < 0$ dan $a > 0$." },
+        { "tipe": "paragraph", "text": "$D < 0 \\Rightarrow p^2 - 16 < 0 \\Rightarrow -4 < p < 4$" },
+        { "tipe": "paragraph", "text": "Karena $a = 1 > 0$, syarat terpenuhi." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 + 2x - 5 = 0$, nilai $\\alpha^2\\beta + \\alpha\\beta^2 + 3\\alpha\\beta$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-15$" } ],
+        [ { "tipe": "paragraph", "text": "$-10$" } ],
+        [ { "tipe": "paragraph", "text": "$-5$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -2$; $\\alpha\\beta = -5$" },
+        { "tipe": "paragraph", "text": "$\\alpha^2\\beta + \\alpha\\beta^2 + 3\\alpha\\beta = \\alpha\\beta(\\alpha + \\beta) + 3\\alpha\\beta$" },
+        { "tipe": "paragraph", "text": "$= (-5)(-2) + 3(-5) = 10 - 15 = -5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\dfrac{x+2}{x-3} \\leq 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "Semua $x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{x+2}{x-3} - 1 \\leq 0 \\Rightarrow \\dfrac{5}{x-3} \\leq 0$" },
+        { "tipe": "paragraph", "text": "Pembilang positif, maka perlu penyebut negatif: $x - 3 < 0 \\Rightarrow x < 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika akar-akar $x^2 - 5x + 2 = 0$ adalah $\\alpha$ dan $\\beta$, nilai $\\alpha^3\\beta + \\alpha\\beta^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$44$" } ],
+        [ { "tipe": "paragraph", "text": "$46$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 5$; $\\alpha\\beta = 2$" },
+        { "tipe": "paragraph", "text": "$\\alpha^3\\beta + \\alpha\\beta^3 = \\alpha\\beta(\\alpha^2 + \\beta^2)$" },
+        { "tipe": "paragraph", "text": "$\\alpha^2 + \\beta^2 = 25 - 4 = 21$" },
+        { "tipe": "paragraph", "text": "$= 2 \\cdot 21 = 42$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $m$ agar $x^2 - 2(m+1)x + 4 = 0$ memiliki dua akar positif berbeda adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$m > 1$" } ],
+        [ { "tipe": "paragraph", "text": "$m > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$0 < m < 1$" } ],
+        [ { "tipe": "paragraph", "text": "$m > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$m < -3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat dua akar positif berbeda:" },
+        { "tipe": "paragraph", "text": "1) $D > 0$: $4(m+1)^2 - 16 > 0 \\Rightarrow (m+1)^2 > 4 \\Rightarrow m < -3$ atau $m > 1$." },
+        { "tipe": "paragraph", "text": "2) $x_1 + x_2 > 0$: $2(m+1) > 0 \\Rightarrow m > -1$." },
+        { "tipe": "paragraph", "text": "3) $x_1 x_2 > 0$: $4 > 0$ ✓ (otomatis)." },
+        { "tipe": "paragraph", "text": "Irisan dari (1) dan (2): $m > 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x^2 - 8x + 5$, nilai $x$ agar $f(x)$ minimum adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{-8}{4} = 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $2x^2 - 8x + 5 = 0$, nilai $\\dfrac{2}{\\alpha} + \\dfrac{2}{\\beta}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{16}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 4$; $\\alpha\\beta = \\dfrac{5}{2}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{2}{\\alpha} + \\dfrac{2}{\\beta} = \\dfrac{2(\\alpha + \\beta)}{\\alpha\\beta} = \\dfrac{8}{5/2} = \\dfrac{16}{5}$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
