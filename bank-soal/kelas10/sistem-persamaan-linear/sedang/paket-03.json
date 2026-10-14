@@ -24,8 +24,7 @@
         { "tipe": "paragraph", "text": "Sistem tidak punya solusi jika kedua garis sejajar (koefisien proporsional, konstanta tidak)." },
         { "tipe": "paragraph", "text": "$\\dfrac{2}{1} = \\dfrac{a}{1} \\neq \\dfrac{8}{5}$" },
         { "tipe": "paragraph", "text": "Dari $\\dfrac{2}{1} = \\dfrac{a}{1} \\Rightarrow a = 2$" },
-        { "tipe": "paragraph", "text": "Cek: $\\dfrac{2}{1} = \\dfrac{2}{1} = 2 \\neq \\dfrac{8}{5}$ ✓" },
-        { "tipe": "paragraph", "text": "Jadi $a = 2$" }
+        { "tipe": "paragraph", "text": "Cek: $\\dfrac{8}{5} \\neq 2$ ✓. Jadi $a = 2$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -63,8 +62,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Tepat satu solusi jika $\\dfrac{2}{1} \\neq \\dfrac{a}{-1} \\Rightarrow a \\neq -2$." },
-        { "tipe": "paragraph", "text": "Jadi $a = -2$ membuat sistem tidak punya solusi (garis sejajar)." },
-        { "tipe": "paragraph", "text": "Nilai $a$ yang tidak mungkin untuk tepat satu solusi = $-2$." }
+        { "tipe": "paragraph", "text": "Jadi $a = -2$ membuat sistem tidak punya solusi (garis sejajar)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -120,9 +118,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tidak punya solusi jika $\\dfrac{4}{2} = \\dfrac{-2}{-1} \\neq \\dfrac{m}{4}$." },
+        { "tipe": "paragraph", "text": "Sistem TIDAK punya solusi jika $\\dfrac{4}{2} = \\dfrac{-2}{-1} \\neq \\dfrac{m}{4}$." },
         { "tipe": "paragraph", "text": "$2 = 2 \\neq \\dfrac{m}{4} \\Rightarrow m \\neq 8$" },
-        { "tipe": "paragraph", "text": "Jadi TIDAK punya solusi untuk $m \\neq 8$. Dari opsi, $m = 6$ adalah salah satu nilai yang memenuhi." }
+        { "tipe": "paragraph", "text": "Dari opsi, $m = 6 \\neq 8$ → sistem tidak punya solusi. ✓" }
       ],
       "tingkat": "SEDANG"
     },
@@ -141,9 +139,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Solusi tunggal jika $\\dfrac{a}{1} \\neq \\dfrac{2}{1} \\Rightarrow a \\neq 2$." },
-        { "tipe": "paragraph", "text": "Jika $a = 2$: cek apakah tak hingga solusi atau tidak punya solusi." },
-        { "tipe": "paragraph", "text": "$\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{6}{3} = 2$ → tak hingga solusi." },
-        { "tipe": "paragraph", "text": "Jadi $a = 2$ bukan solusi tunggal." }
+        { "tipe": "paragraph", "text": "Jika $a = 2$: $\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{6}{3} = 2$ → tak hingga solusi (bukan solusi tunggal)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -162,7 +158,7 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Solusi tunggal jika $\\dfrac{k}{3} \\neq \\dfrac{2}{1} \\Rightarrow k \\neq 6$." },
-        { "tipe": "paragraph", "text": "Jadi $k = 6$ tidak diperbolehkan (akan membuat garis sejajar/tidak punya solusi)." }
+        { "tipe": "paragraph", "text": "Jadi $k = 6$ tidak diperbolehkan." }
       ],
       "tingkat": "SEDANG"
     },
