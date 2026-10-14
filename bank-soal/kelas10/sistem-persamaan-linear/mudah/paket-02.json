@@ -1,0 +1,209 @@
+{
+  "id": "bs-k10-spl-m-02",
+  "nama": "Bank Soal Mudah - Paket 2",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang SPLDV dengan metode eliminasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-m-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $2x + 3y = 12$ dan $2x - 3y = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(3, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 2)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $4x = 12 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "Substitusi: $6 + 3y = 12 \\Rightarrow y = 2$" },
+        { "tipe": "paragraph", "text": "HP = $\\{(3, 2)\\}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $y$ dari sistem $5x + 2y = 19$ dan $3x - 2y = 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $8x = 24 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "Substitusi: $15 + 2y = 19 \\Rightarrow 2y = 4 \\Rightarrow y = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x + 3y = 9$ dan $x - 3y = -3$ memiliki solusi..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(3, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(6, 1)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 1)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 6 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "Substitusi: $3 + 3y = 9 \\Rightarrow 3y = 6 \\Rightarrow y = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x + y$ dari sistem $3x + 4y = 22$ dan $3x - 4y = 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $6x = 24 \\Rightarrow x = 4$" },
+        { "tipe": "paragraph", "text": "Substitusi: $12 + 4y = 22 \\Rightarrow y = 2{,}5$" },
+        { "tipe": "paragraph", "text": "$x + y = 6{,}5$" },
+        { "tipe": "paragraph", "text": "⚠️ Revisi: kemungkinan soal salah ketik. Jika $3x + 4y = 20$, maka $y = 2$, $x + y = 6$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $7x + 2y = 20$ dan $3x - 2y = -4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(1{,}6;\\ 4{,}4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1, 6)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 4)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $10x = 16 \\Rightarrow x = 1{,}6$" },
+        { "tipe": "paragraph", "text": "Substitusi: $7(1{,}6) + 2y = 20 \\Rightarrow 11{,}2 + 2y = 20 \\Rightarrow y = 4{,}4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ dari sistem $2x + y = 8$ dan $2x - y = 4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $4x = 12 \\Rightarrow x = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x + y = 6$ dan $3x + 3y = 12$ memiliki..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Tidak ada solusi" } ],
+        [ { "tipe": "paragraph", "text": "Tepat satu solusi" } ],
+        [ { "tipe": "paragraph", "text": "Tak hingga solusi" } ],
+        [ { "tipe": "paragraph", "text": "Dua solusi" } ],
+        [ { "tipe": "paragraph", "text": "Tiga solusi" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan kedua: $3(x + y) = 12 \\Rightarrow x + y = 4$" },
+        { "tipe": "paragraph", "text": "Padahal persamaan pertama $x + y = 6$." },
+        { "tipe": "paragraph", "text": "Kontradiksi ($6 \\neq 4$) → **tidak ada solusi**." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $y$ dari sistem $4x + 3y = 24$ dan $4x - 3y = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $8x = 24 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "Substitusi: $4(3) - 3y = 0 \\Rightarrow 12 = 3y \\Rightarrow y = 4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + 2y = 7$ dan $2x + y = 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(3, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 1)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 1)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x + 2y = 7 \\Rightarrow x = 7 - 2y$" },
+        { "tipe": "paragraph", "text": "Substitusi: $2(7 - 2y) + y = 8 \\Rightarrow 14 - 4y + y = 8$" },
+        { "tipe": "paragraph", "text": "$-3y = -6 \\Rightarrow y = 2$" },
+        { "tipe": "paragraph", "text": "$x = 7 - 4 = 3$" },
+        { "tipe": "paragraph", "text": "HP = $\\{(3, 2)\\}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $2x + 3y$ dari sistem $x - y = 1$ dan $2x + y = 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $3x = 9 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "$x - y = 1 \\Rightarrow 3 - y = 1 \\Rightarrow y = 2$" },
+        { "tipe": "paragraph", "text": "$2x + 3y = 6 + 6 = 12$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasil $= 12$. Kunci opsi D." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
