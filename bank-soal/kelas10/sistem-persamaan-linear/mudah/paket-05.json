@@ -31,7 +31,7 @@
     {
       "id": "bs-k10-spl-m-05-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Harga 2 buku dan 3 pensil adalah Rp13.000. Harga 1 buku Rp4.000. Harga 1 pensil adalah..." }
+        { "tipe": "paragraph", "text": "Harga 2 buku dan 3 pensil adalah Rp14.000. Harga 1 buku Rp4.000. Harga 1 pensil adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "Rp1.500" } ],
@@ -40,13 +40,12 @@
         [ { "tipe": "paragraph", "text": "Rp3.000" } ],
         [ { "tipe": "paragraph", "text": "Rp3.500" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal harga pensil $= p$." },
-        { "tipe": "paragraph", "text": "$2(4000) + 3p = 13000$" },
-        { "tipe": "paragraph", "text": "$8000 + 3p = 13000 \\Rightarrow 3p = 5000$" },
-        { "tipe": "paragraph", "text": "$p = \\dfrac{5000}{3} \\approx 1666{,}67$" },
-        { "tipe": "paragraph", "text": "⚠️ Soal perlu direvisi agar hasil bulat. Misal total Rp12.000 → $p = \\dfrac{4000}{3}$. Misal total Rp14.000 → $p = 2000$. Kunci opsi terdekat A ($1500$)." }
+        { "tipe": "paragraph", "text": "$2(4000) + 3p = 14000$" },
+        { "tipe": "paragraph", "text": "$8000 + 3p = 14000 \\Rightarrow 3p = 6000$" },
+        { "tipe": "paragraph", "text": "$p = 2000$" }
       ],
       "tingkat": "MUDAH"
     },
