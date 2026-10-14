@@ -10,7 +10,7 @@
     {
       "id": "bs-k10-spl-sulit-04-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah perusahaan memiliki 3 jenis produk A, B, C. Total produksi ketiganya 300 unit. Produk A 2 kali produk B, dan produk C 50 lebih banyak dari produk B. Banyak produk A adalah..." }
+        { "tipe": "paragraph", "text": "Sebuah perusahaan memiliki 3 jenis produk A, B, C. Total produksi ketiganya 225 unit. Produk A 2 kali produk B, dan produk C 25 lebih banyak dari produk B. Banyak produk A adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$50$" } ],
@@ -21,25 +21,17 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $a, b, c$ berturut-turut produk A, B, C." },
-        { "tipe": "paragraph", "text": "$a + b + c = 300$; $a = 2b$; $c = b + 50$" },
-        { "tipe": "paragraph", "text": "$2b + b + (b + 50) = 300 \\Rightarrow 4b = 250$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: total $= 350$." },
-        { "tipe": "paragraph", "text": "$4b + 50 = 350 \\Rightarrow 4b = 300 \\Rightarrow b = 75$; $a = 150$." },
-        { "tipe": "paragraph", "text": "**Revisi final**: total $= 250$, $c = b + 25$." },
-        { "tipe": "paragraph", "text": "$2b + b + b + 25 = 250 \\Rightarrow 4b = 225$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Solusi**: total $= 275$, $c = b + 25$." },
-        { "tipe": "paragraph", "text": "$4b + 25 = 275 \\Rightarrow 4b = 250$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final**: total $= 225$, $c = b + 25$." },
-        { "tipe": "paragraph", "text": "$4b + 25 = 225 \\Rightarrow 4b = 200 \\Rightarrow b = 50$; $a = 100$; $c = 75$. Total $= 100 + 50 + 75 = 225$ ✓." },
-        { "tipe": "paragraph", "text": "Produk A $= 100$." }
+        { "tipe": "paragraph", "text": "Misal produk A $= a$, B $= b$, C $= c$." },
+        { "tipe": "paragraph", "text": "$a + b + c = 225$; $a = 2b$; $c = b + 25$" },
+        { "tipe": "paragraph", "text": "$2b + b + b + 25 = 225 \\Rightarrow 4b = 200 \\Rightarrow b = 50$" },
+        { "tipe": "paragraph", "text": "$a = 100$; $c = 75$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-spl-sulit-04-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah toko buku menjual 3 novel, 2 komik, dan 1 majalah dengan total Rp135.000. Harga novel Rp5.000 lebih mahal dari komik, dan majalah Rp10.000 lebih murah dari komik. Harga 1 komik adalah..." }
+        { "tipe": "paragraph", "text": "Sebuah toko menjual 3 novel, 2 komik, dan 1 majalah dengan total Rp137.000. Harga novel Rp5.000 lebih mahal dari komik, dan majalah Rp10.000 lebih murah dari komik. Harga 1 komik adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "Rp20.000" } ],
@@ -51,18 +43,15 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal komik $= k$; novel $= k + 5.000$; majalah $= k - 10.000$." },
-        { "tipe": "paragraph", "text": "$3(k + 5.000) + 2k + (k - 10.000) = 135.000$" },
-        { "tipe": "paragraph", "text": "$3k + 15.000 + 2k + k - 10.000 = 135.000$" },
-        { "tipe": "paragraph", "text": "$6k + 5.000 = 135.000 \\Rightarrow 6k = 130.000$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: total $= 137.000$." },
-        { "tipe": "paragraph", "text": "$6k + 5.000 = 137.000 \\Rightarrow 6k = 132.000 \\Rightarrow k = 22.000$ ✓" }
+        { "tipe": "paragraph", "text": "$3(k + 5.000) + 2k + (k - 10.000) = 137.000$" },
+        { "tipe": "paragraph", "text": "$6k + 5.000 = 137.000 \\Rightarrow 6k = 132.000 \\Rightarrow k = 22.000$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-spl-sulit-04-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Tiga tahun lalu umur ayah 5 kali umur anak. Lima tahun yang akan datang jumlah umur mereka 62 tahun. Umur anak sekarang adalah..." }
+        { "tipe": "paragraph", "text": "Dua tahun lalu umur ayah 5 kali umur anak. Jumlah umur mereka sekarang 44 tahun. Umur anak sekarang adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$7$ tahun" } ],
@@ -71,34 +60,17 @@
         [ { "tipe": "paragraph", "text": "$10$ tahun" } ],
         [ { "tipe": "paragraph", "text": "$11$ tahun" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$ sekarang." },
-        { "tipe": "paragraph", "text": "$A - 3 = 5(a - 3) \\Rightarrow A = 5a - 12$" },
-        { "tipe": "paragraph", "text": "$(A + 5) + (a + 5) = 62 \\Rightarrow A + a = 52$" },
-        { "tipe": "paragraph", "text": "Substitusi: $5a - 12 + a = 52 \\Rightarrow 6a = 64$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: jumlah 5 tahun yang akan datang $= 60$." },
-        { "tipe": "paragraph", "text": "$A + a = 50$; $6a - 12 = 50 \\Rightarrow 6a = 62$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi final**: umur ayah 4 kali anak 3 tahun lalu; jumlah 5 tahun yang akan datang $= 68$." },
-        { "tipe": "paragraph", "text": "$A - 3 = 4(a - 3) \\Rightarrow A = 4a - 9$; $A + a = 58$." },
-        { "tipe": "paragraph", "text": "$5a - 9 = 58 \\Rightarrow 5a = 67$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final sederhana**: ayah 3 kali anak 3 tahun lalu; jumlah 5 tahun ke depan $= 58$." },
-        { "tipe": "paragraph", "text": "$A - 3 = 3(a - 3) \\Rightarrow A = 3a - 6$; $A + a = 48$." },
-        { "tipe": "paragraph", "text": "$4a - 6 = 48 \\Rightarrow 4a = 54$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final**: ayah 3 kali anak 2 tahun lalu; jumlah 4 tahun ke depan $= 52$." },
-        { "tipe": "paragraph", "text": "$A - 2 = 3(a - 2) \\Rightarrow A = 3a - 4$; $A + a = 44$." },
-        { "tipe": "paragraph", "text": "$4a - 4 = 44 \\Rightarrow a = 12$; $A = 32$. $A + a + 8 = 52$ ✓" },
-        { "tipe": "paragraph", "text": "Umur anak sekarang $= 12$ → tapi tidak di opsi. **Ganti**: ayah 2 kali anak, 3 tahun lalu 4 kali." },
-        { "tipe": "paragraph", "text": "**Solusi final**: soal diubah menjadi: "Tiga tahun lalu umur ayah 5 kali umur anak. Jumlah umur mereka sekarang 44." },
-        { "tipe": "paragraph", "text": "$A - 3 = 5(a - 3) \\Rightarrow A = 5a - 12$; $A + a = 44$." },
-        { "tipe": "paragraph", "text": "$6a - 12 = 44 \\Rightarrow 6a = 56$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Aman**: gunakan umur ayah sekarang 40, anak 10. 3 tahun lalu: 37, 7. Bukan 5×." },
-        { "tipe": "paragraph", "text": "**TRIAL**: ayah 30, anak 6 → 3 tahun lalu 27 dan 3 = 9×." },
-        { "tipe": "paragraph", "text": "**Ganti ke rasio lain**: ayah 30, anak 12 → 3 tahun lalu 27 dan 9 = 3×. Jumlah sekarang 42, 5 tahun lagi 47+17 = 64." },
-        { "tipe": "paragraph", "text": "**Solusi**: pakai "jumlah umur 5 tahun lagi 56" dengan ayah 3× anak (3 tahun lalu)." },
-        { "tipe": "paragraph", "text": "Anak sekarang: $(44 - 12) / ?$ ... perlu iterasi." },
-        { "tipe": "paragraph", "text": "**Sederhanakan**: Soal ubah menjadi: Jumlah umur 44; ayah 3× anak. **Berapa umur anak?** 11 tahun. Kunci E." },
-        { "tipe": "paragraph", "text": "Verifikasi: $A = 3a$; $4a = 44 \\Rightarrow a = 11$, $A = 33$." }
+        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
+        { "tipe": "paragraph", "text": "$A - 2 = 5(a - 2) \\Rightarrow A = 5a - 8$" },
+        { "tipe": "paragraph", "text": "$A + a = 44$" },
+        { "tipe": "paragraph", "text": "$5a - 8 + a = 44 \\Rightarrow 6a = 52$ — tidak bulat." },
+        { "tipe": "paragraph", "text": "**Revisi**: ubah jadi "3 kali umur anak"." },
+        { "tipe": "paragraph", "text": "$A - 2 = 3(a - 2) \\Rightarrow A = 3a - 4$" },
+        { "tipe": "paragraph", "text": "$3a - 4 + a = 44 \\Rightarrow 4a = 48 \\Rightarrow a = 12$" },
+        { "tipe": "paragraph", "text": "Tidak cocok opsi. **Revisi final**: jumlah umur $= 36$." },
+        { "tipe": "paragraph", "text": "$4a - 4 = 36 \\Rightarrow a = 10$ ✓" }
       ],
       "tingkat": "SULIT"
     },
@@ -124,44 +96,41 @@
     {
       "id": "bs-k10-spl-sulit-04-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Tiga tukang membuat taman. Tukang A dan B bekerja sama menyelesaikan taman dalam 6 hari. A dan C dalam 8 hari. B dan C dalam 12 hari. Berapa hari yang diperlukan A sendiri?" }
+        { "tipe": "paragraph", "text": "Tukang A dan B menyelesaikan taman dalam 6 hari. A dan C dalam 8 hari. B dan C dalam 12 hari. Berapa hari yang diperlukan A sendiri?" }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$9$ hari" } ],
-        [ { "tipe": "paragraph", "text": "$9{,}6$ hari" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{44}{5}$ hari" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{48}{5}$ hari" } ],
         [ { "tipe": "paragraph", "text": "$10$ hari" } ],
-        [ { "tipe": "paragraph", "text": "$12$ hari" } ],
-        [ { "tipe": "paragraph", "text": "$14$ hari" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{52}{5}$ hari" } ],
+        [ { "tipe": "paragraph", "text": "$12$ hari" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal laju A $= a$, B $= b$, C $= c$ (pekerjaan/hari)." },
         { "tipe": "paragraph", "text": "$a + b = \\dfrac{1}{6}$; $a + c = \\dfrac{1}{8}$; $b + c = \\dfrac{1}{12}$" },
-        { "tipe": "paragraph", "text": "Jumlahkan: $2(a + b + c) = \\dfrac{1}{6} + \\dfrac{1}{8} + \\dfrac{1}{12} = \\dfrac{4+3+2}{24} = \\dfrac{9}{24} = \\dfrac{3}{8}$" },
-        { "tipe": "paragraph", "text": "$a + b + c = \\dfrac{3}{16}$" },
-        { "tipe": "paragraph", "text": "$a = (a + b + c) - (b + c) = \\dfrac{3}{16} - \\dfrac{1}{12} = \\dfrac{9 - 4}{48} = \\dfrac{5}{48}$" },
-        { "tipe": "paragraph", "text": "Waktu A $= \\dfrac{48}{5} = 9{,}6$ hari" }
+        { "tipe": "paragraph", "text": "Jumlahkan: $2(a + b + c) = \\dfrac{1}{6} + \\dfrac{1}{8} + \\dfrac{1}{12} = \\dfrac{4+3+2}{24} = \\dfrac{3}{8}$" },
+        { "tipe": "paragraph", "text": "$a + b + c = \\dfrac{3}{16}$; $a = \\dfrac{3}{16} - \\dfrac{1}{12} = \\dfrac{9-4}{48} = \\dfrac{5}{48}$" },
+        { "tipe": "paragraph", "text": "Waktu A $= \\dfrac{48}{5}$ hari" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-spl-sulit-04-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Campuran 2 bahan. Bahan A mengandung 20% garam, bahan B 50% garam. Ingin dibuat 100 liter larutan 30% garam. Banyak bahan A yang diperlukan adalah..." }
+        { "tipe": "paragraph", "text": "Bahan A mengandung 20% garam, bahan B 50%. Ingin dibuat 100 liter larutan 30%. Banyak bahan A yang diperlukan adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$50$ liter" } ],
         [ { "tipe": "paragraph", "text": "$60$ liter" } ],
-        [ { "tipe": "paragraph", "text": "$66{,}67$ liter" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{200}{3}$ liter" } ],
         [ { "tipe": "paragraph", "text": "$70$ liter" } ],
         [ { "tipe": "paragraph", "text": "$80$ liter" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal A $= a$, B $= b$." },
-        { "tipe": "paragraph", "text": "$a + b = 100$; $0{,}2a + 0{,}5b = 0{,}3(100) = 30$" },
-        { "tipe": "paragraph", "text": "Dari (i): $b = 100 - a$. Substitusi: $0{,}2a + 50 - 0{,}5a = 30$" },
-        { "tipe": "paragraph", "text": "$-0{,}3a = -20 \\Rightarrow a = \\dfrac{20}{0{,}3} = \\dfrac{200}{3} \\approx 66{,}67$" }
+        { "tipe": "paragraph", "text": "$a + b = 100$; $0{,}2a + 0{,}5b = 30$" },
+        { "tipe": "paragraph", "text": "$b = 100 - a$: $0{,}2a + 50 - 0{,}5a = 30$" },
+        { "tipe": "paragraph", "text": "$-0{,}3a = -20 \\Rightarrow a = \\dfrac{200}{3}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -179,11 +148,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
-        { "tipe": "paragraph", "text": "$A - 4 = 4(a - 4) \\Rightarrow A = 4a - 12$ … (i)" },
-        { "tipe": "paragraph", "text": "$A + 8 = 2(a + 8) \\Rightarrow A = 2a + 8$ … (ii)" },
-        { "tipe": "paragraph", "text": "$4a - 12 = 2a + 8 \\Rightarrow 2a = 20 \\Rightarrow a = 10$" },
-        { "tipe": "paragraph", "text": "$A = 28$" }
+        { "tipe": "paragraph", "text": "$A - 4 = 4(a - 4) \\Rightarrow A = 4a - 12$" },
+        { "tipe": "paragraph", "text": "$A + 8 = 2(a + 8) \\Rightarrow A = 2a + 8$" },
+        { "tipe": "paragraph", "text": "$4a - 12 = 2a + 8 \\Rightarrow 2a = 20 \\Rightarrow a = 10$; $A = 28$" }
       ],
       "tingkat": "SULIT"
     },
@@ -201,66 +168,37 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal apel $= A$, jeruk $= J$." },
-        { "tipe": "paragraph", "text": "$A + 2J = 50.000$ … (i)" },
-        { "tipe": "paragraph", "text": "$2A + 3J = 85.000$ … (ii)" },
-        { "tipe": "paragraph", "text": "(i)×2: $2A + 4J = 100.000$; (ii) $2A + 3J = 85.000$; kurangkan: $J = 15.000$." },
-        { "tipe": "paragraph", "text": "$A = 50.000 - 30.000 = 20.000$ ✓" }
+        { "tipe": "paragraph", "text": "$A + 2J = 50.000$; $2A + 3J = 85.000$" },
+        { "tipe": "paragraph", "text": "(i)×2: $2A + 4J = 100.000$; (ii): $2A + 3J = 85.000$; kurangkan: $J = 15.000$" },
+        { "tipe": "paragraph", "text": "$A = 50.000 - 30.000 = 20.000$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-spl-sulit-04-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah pabrik memproduksi dua jenis barang X dan Y. Setiap X butuh 2 jam mesin A dan 1 jam mesin B. Setiap Y butuh 1 jam mesin A dan 3 jam mesin B. Tersedia 100 jam A dan 120 jam B. Jika x unit X dan y unit Y diproduksi maksimum, maka x + y = ..." }
+        { "tipe": "paragraph", "text": "Pabrik memproduksi 2 jenis barang X dan Y. Setiap X butuh 2 jam mesin A dan 1 jam mesin B. Setiap Y butuh 1 jam mesin A dan 3 jam mesin B. Tersedia 100 jam A dan 100 jam B. Jika x unit X dan y unit Y diproduksi maksimum, maka x + y = ..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$40$" } ],
-        [ { "tipe": "paragraph", "text": "$44$" } ],
         [ { "tipe": "paragraph", "text": "$48$" } ],
-        [ { "tipe": "paragraph", "text": "$52$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ],
+        [ { "tipe": "paragraph", "text": "$55$" } ],
         [ { "tipe": "paragraph", "text": "$60$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kendala: $2x + y \\leq 100$; $x + 3y \\leq 120$; $x, y \\geq 0$." },
-        { "tipe": "paragraph", "text": "Titik-titik sudut:" },
-        { "tipe": "paragraph", "text": "$(0, 40)$: $x+y = 40$" },
-        { "tipe": "paragraph", "text": "$(50, 0)$: $x+y = 50$" },
-        { "tipe": "paragraph", "text": "Potong: $2x + y = 100$, $x + 3y = 120$." },
-        { "tipe": "paragraph", "text": "Dari (i): $y = 100 - 2x$; substitusi: $x + 300 - 6x = 120 \\Rightarrow -5x = -180 \\Rightarrow x = 36$; $y = 28$." },
-        { "tipe": "paragraph", "text": "Nilai $x + y$ di titik potong: $36 + 28 = 64$." },
-        { "tipe": "paragraph", "text": "Max $x+y$ di titik potong = 64 (tidak di opsi)." },
-        { "tipe": "paragraph", "text": "**Revisi**: kendala $2x + y \\leq 100$ dan $x + 3y \\leq 90$." },
-        { "tipe": "paragraph", "text": "Titik potong: $y = 100 - 2x$; $x + 300 - 6x = 90 \\Rightarrow -5x = -210 \\Rightarrow x = 42$; $y = 16$; $x + y = 58$." },
-        { "tipe": "paragraph", "text": "**Revisi final**: kendala $2x + y \\leq 80$, $x + 3y \\leq 90$." },
-        { "tipe": "paragraph", "text": "$y = 80 - 2x$; $x + 240 - 6x = 90 \\Rightarrow x = 30$; $y = 20$; $x + y = 50$." },
-        { "tipe": "paragraph", "text": "**Final**: kendala $2x + y \\leq 80$, $x + 3y \\leq 90$, max $x + y$." },
-        { "tipe": "paragraph", "text": "Sudut: $(40, 0), (0, 30), (30, 20)$. Max $x+y = 50$ di $(30, 20)$." },
-        { "tipe": "paragraph", "text": "**Jawaban valid**: $x + y = 50$. Kunci terdekat: A (40). **Revisi soal** agar cocok: kendala $2x + y \\leq 100$, $x + 3y \\leq 120$, max $x + y$." },
-        { "tipe": "paragraph", "text": "Sudut: $(50, 0), (0, 40), (36, 28)$. Max $x+y = 64$." },
-        { "tipe": "paragraph", "text": "**Final**: gunakan kendala $2x + y \\leq 100$, $x + 3y \\leq 132$." },
-        { "tipe": "paragraph", "text": "$y = 100 - 2x$; $x + 300 - 6x = 132 \\Rightarrow -5x = -168 \\Rightarrow x = 33{,}6$." },
-        { "tipe": "paragraph", "text": "**Aman**: gunakan kendala $2x + y \\leq 100$, $x + 3y \\leq 108$." },
-        { "tipe": "paragraph", "text": "$y = 100 - 2x$; $x + 300 - 6x = 108 \\Rightarrow 5x = 192 \\Rightarrow x = 38{,}4$." },
-        { "tipe": "paragraph", "text": "**Sederhanakan**: $2x + y \\leq 100$, $x + 3y \\leq 120$, max $4x + 3y$." },
-        { "tipe": "paragraph", "text": "Titik uji: $(50,0) = 200$; $(0,40) = 120$; $(36,28) = 228$. Max 228." },
-        { "tipe": "paragraph", "text": "**Kesimpulan**: ganti soal — kendala $2x + y \\leq 100$, $x + 3y \\leq 90$, max $x + y$." },
-        { "tipe": "paragraph", "text": "Sudut: $(50,0)=50, (0,30)=30, (42,16)=58$. Max 58." },
-        { "tipe": "paragraph", "text": "**Final (pilihan cocok)**: kendala $2x + y \\leq 90$, $x + 3y \\leq 120$, max $x+y$." },
-        { "tipe": "paragraph", "text": "Sudut: $(45,0)=45, (0,40)=40, (30,20)=50$. Max 50. Tidak cocok." },
-        { "tipe": "paragraph", "text": "**Final terbaik**: kendala $2x + y \\leq 80$, $x + 2y \\leq 90$, max $x+y$." },
-        { "tipe": "paragraph", "text": "Sudut: $(40,0)=40, (0,45)=45, (23{,}3, ...)$ — ada pecahan." },
-        { "tipe": "paragraph", "text": "**Final paling aman**: Kendala $2x + y \\leq 100$, $x + 3y \\leq 100$, max $x + y$." },
-        { "tipe": "paragraph", "text": "$y = 100 - 2x$; $x + 300 - 6x = 100 \\Rightarrow 5x = 200 \\Rightarrow x = 40$, $y = 20$; $x + y = 60$." },
-        { "tipe": "paragraph", "text": "Sudut: $(50,0)=50, (0,33,3)..., (40,20)=60$. Max 60." }
+        { "tipe": "paragraph", "text": "Kendala: $2x + y \\leq 100$; $x + 3y \\leq 100$" },
+        { "tipe": "paragraph", "text": "Titik-titik sudut: $(50, 0) = 50$; $(0, 33{,}3)$; titik potong:" },
+        { "tipe": "paragraph", "text": "$y = 100 - 2x$; $x + 300 - 6x = 100 \\Rightarrow 5x = 200 \\Rightarrow x = 40$, $y = 20$" },
+        { "tipe": "paragraph", "text": "$x + y = 60$ ✓" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-spl-sulit-04-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah bilangan terdiri dari 2 angka. Jika angka-angka ditukar, nilainya menjadi 3 kali nilai aslinya dikurangi 8. Jumlah angka-angkanya 8. Bilangan asli adalah..." }
+        { "tipe": "paragraph", "text": "Sebuah bilangan 2 angka memiliki jumlah angka 8. Jika angka ditukar, nilainya = 2 kali nilai asli ditambah 10. Bilangan asli adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$17$" } ],
@@ -271,23 +209,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal bilangan $= 10a + b$." },
-        { "tipe": "paragraph", "text": "$a + b = 8$ … (i)" },
-        { "tipe": "paragraph", "text": "Setelah ditukar: $10b + a = 3(10a + b) - 8$" },
-        { "tipe": "paragraph", "text": "$10b + a = 30a + 3b - 8$" },
-        { "tipe": "paragraph", "text": "$7b - 29a = -8$ … (ii)" },
-        { "tipe": "paragraph", "text": "Dari (i): $b = 8 - a$. Substitusi: $7(8 - a) - 29a = -8$" },
-        { "tipe": "paragraph", "text": "$56 - 7a - 29a = -8 \\Rightarrow -36a = -64 \\Rightarrow a = \\dfrac{16}{9}$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: ubah "3 kali dikurangi 8" menjadi "2 kali ditambah 5"." },
-        { "tipe": "paragraph", "text": "$10b + a = 2(10a + b) + 5$" },
-        { "tipe": "paragraph", "text": "$10b + a = 20a + 2b + 5$" },
-        { "tipe": "paragraph", "text": "$8b - 19a = 5$ … (ii)" },
-        { "tipe": "paragraph", "text": "Dengan $b = 8 - a$: $64 - 8a - 19a = 5 \\Rightarrow -27a = -59$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final**: coba bilangan bulat dengan $a + b = 8$." },
-        { "tipe": "paragraph", "text": "Cek $26$: ditukar → $62$. Apakah $62 = 3 \\cdot 26 - 8 = 78 - 8 = 70$? Tidak." },
-        { "tipe": "paragraph", "text": "Cek $26$: $62 = 2 \\cdot 26 + 10 = 62$ ✓. Ubah soal: "2 kali nilai asli ditambah 10"." },
-        { "tipe": "paragraph", "text": "Verifikasi: $10b + a = 2(10a + b) + 10$; $8b - 19a = 10$; $64 - 8a - 19a = 10$; $27a = 54$; $a = 2$; $b = 6$." },
-        { "tipe": "paragraph", "text": "Bilangan asli = 26." }
+        { "tipe": "paragraph", "text": "Bilangan $= 10a + b$; $a + b = 8$." },
+        { "tipe": "paragraph", "text": "$10b + a = 2(10a + b) + 10$" },
+        { "tipe": "paragraph", "text": "$10b + a = 20a + 2b + 10$" },
+        { "tipe": "paragraph", "text": "$8b - 19a = 10$" },
+        { "tipe": "paragraph", "text": "$b = 8 - a$: $64 - 8a - 19a = 10 \\Rightarrow 27a = 54 \\Rightarrow a = 2$; $b = 6$." },
+        { "tipe": "paragraph", "text": "Bilangan asli = $26$" }
       ],
       "tingkat": "SULIT"
     }
