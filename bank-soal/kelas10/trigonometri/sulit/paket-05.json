@@ -1,0 +1,220 @@
+{
+  "id": "bs-k10-trig-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit OSN-style campuran trigonometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin^2 1° + \\sin^2 2° + \\ldots + \\sin^2 89°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$44$" } ],
+        [ { "tipe": "paragraph", "text": "$44{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$45{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$46$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan: $\\sin^2 \\theta + \\sin^2(90°-\\theta) = 1$." },
+        { "tipe": "paragraph", "text": "Ada 44 pasangan (1°, 89°), (2°, 88°), ..., (44°, 46°) → total 44." },
+        { "tipe": "paragraph", "text": "Sisa: $\\sin^2 45° = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Total = $44 + \\dfrac{1}{2} = 44{,}5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin x - \\cos x = \\dfrac{1}{2}$, maka nilai $\\sin^3 x - \\cos^3 x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(\\sin x - \\cos x)^2 = \\dfrac{1}{4} \\Rightarrow 1 - 2\\sin x \\cos x = \\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "$\\sin x \\cos x = \\dfrac{3}{8}$" },
+        { "tipe": "paragraph", "text": "$\\sin^3 x - \\cos^3 x = (\\sin x - \\cos x)(\\sin^2 x + \\sin x \\cos x + \\cos^2 x)$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}(1 + \\dfrac{3}{8}) = \\dfrac{1}{2} \\cdot \\dfrac{11}{8} = \\dfrac{11}{16}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos 0° + \\cos 1° + \\cos 2° + \\ldots + \\cos 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$180$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan $\\cos\\theta + \\cos(180°-\\theta) = 0$ untuk $0° < \\theta < 180°$." },
+        { "tipe": "paragraph", "text": "$\\cos 0° + \\cos 180° = 1 + (-1) = 0$" },
+        { "tipe": "paragraph", "text": "$\\cos 90° = 0$" },
+        { "tipe": "paragraph", "text": "Semua pasangan saling meniadakan → total = $0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan \\alpha$ dan $\\tan \\beta$ adalah akar-akar persamaan $x^2 - 5x + 6 = 0$, maka nilai $\\tan(\\alpha + \\beta)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari persamaan: $\\tan \\alpha + \\tan \\beta = 5$, $\\tan \\alpha \\cdot \\tan \\beta = 6$" },
+        { "tipe": "paragraph", "text": "$\\tan(\\alpha + \\beta) = \\dfrac{5}{1 - 6} = \\dfrac{5}{-5} = -1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga memiliki sisi $a = 5$, $b = 6$, dan $c = 7$. Nilai $\\cos C$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sulit/segitiga-5-6-7.png",
+          "caption": "Segitiga ABC dengan a = BC = 5, b = AC = 6, c = AB = 7 (sisi huruf kecil di hadapan sudut huruf besar).",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab} = \\dfrac{25 + 36 - 49}{2 \\cdot 5 \\cdot 6} = \\dfrac{12}{60} = \\dfrac{1}{5}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 3x}{\\sin x} - \\dfrac{\\cos 3x}{\\cos x}$ untuk $x$ sembarang (yang terdefinisi) adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{\\sin 3x}{\\sin x} = 3 - 4\\sin^2 x$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\cos 3x}{\\cos x} = 4\\cos^2 x - 3$" },
+        { "tipe": "paragraph", "text": "Selisih = $(3 - 4\\sin^2 x) - (4\\cos^2 x - 3) = 6 - 4 = 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $2\\sin^2 x + \\sin x - 1 = 0$ untuk $0° \\leq x \\leq 360°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°, 270°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{90°, 270°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 90°, 150°, 270°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 270°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(2\\sin x - 1)(\\sin x + 1) = 0$" },
+        { "tipe": "paragraph", "text": "$\\sin x = \\dfrac{1}{2} \\Rightarrow x = 30°, 150°$" },
+        { "tipe": "paragraph", "text": "$\\sin x = -1 \\Rightarrow x = 270°$" },
+        { "tipe": "paragraph", "text": "HP = $\\{30°, 150°, 270°\\}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{1}{\\sin 10°} - \\dfrac{\\sqrt{3}}{\\cos 10°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{\\sin 10°} - \\dfrac{\\sqrt{3}}{\\cos 10°} = \\dfrac{\\cos 10° - \\sqrt{3}\\sin 10°}{\\sin 10° \\cos 10°}$" },
+        { "tipe": "paragraph", "text": "$\\cos 10° - \\sqrt{3}\\sin 10° = 2\\cos(10° + 60°) = 2\\cos 70° = 2\\sin 20°$" },
+        { "tipe": "paragraph", "text": "$\\sin 10° \\cos 10° = \\dfrac{1}{2}\\sin 20°$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{2\\sin 20°}{\\frac{1}{2}\\sin 20°} = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos^2 45° + \\cos^2 135° + \\cos^2 225° + \\cos^2 315°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 45° = \\dfrac{\\sqrt{2}}{2} \\Rightarrow \\cos^2 45° = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$\\cos 135° = -\\dfrac{\\sqrt{2}}{2} \\Rightarrow \\cos^2 135° = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "Demikian juga $\\cos^2 225° = \\cos^2 315° = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "Total = $4 \\cdot \\dfrac{1}{2} = 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk paling sederhana dari $\\dfrac{\\sin 4x}{\\sin 2x} - \\dfrac{\\cos 4x}{\\cos 2x}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sec 2x$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sec x$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sec 2x$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan 2x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{\\sin 4x}{\\sin 2x} = 2\\cos 2x$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\cos 4x}{\\cos 2x} = 2\\cos^2 2x - 1 = \\dfrac{2\\cos^2 2x - 1}{1} \\cdot \\dfrac{1}{\\cos 2x}$ (perlu penanganan hati-hati)" },
+        { "tipe": "paragraph", "text": "Cara lain: $\\dfrac{\\sin 4x \\cos 2x - \\cos 4x \\sin 2x}{\\sin 2x \\cos 2x} = \\dfrac{\\sin(4x-2x)}{\\frac{1}{2}\\sin 4x} = \\dfrac{2\\sin 2x}{\\sin 4x} = \\dfrac{2\\sin 2x}{2\\sin 2x \\cos 2x} = \\dfrac{1}{\\cos 2x} = \\sec 2x$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
