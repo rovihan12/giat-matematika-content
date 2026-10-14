@@ -4,7 +4,7 @@
   "kelas": 10,
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
   "tingkat": "SULIT",
-  "deskripsi": "Soal sulit tentang pertidaksamaan lanjutan dan sistem pertidaksamaan nonlinear",
+  "deskripsi": "Soal sulit tentang pertidaksamaan lanjutan dan sistem pertidaksamaan",
   "versi": "1.0.0",
   "soal": [
     {
@@ -43,8 +43,7 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{2x + 1}{x - 3} - 1 \\leq 0 \\Rightarrow \\dfrac{2x + 1 - (x - 3)}{x - 3} \\leq 0$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{x + 4}{x - 3} \\leq 0$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{2x + 1}{x - 3} - 1 \\leq 0 \\Rightarrow \\dfrac{x + 4}{x - 3} \\leq 0$" },
         { "tipe": "paragraph", "text": "Titik kritis: $x = -4$ dan $x = 3$ (dikecualikan)." },
         { "tipe": "paragraph", "text": "Uji $x = -5$: $\\dfrac{-1}{-8} > 0$ ✗; $x = 0$: $\\dfrac{4}{-3} < 0$ ✓; $x = 4$: $\\dfrac{8}{1} > 0$ ✗." },
         { "tipe": "paragraph", "text": "HP = $-4 \\leq x < 3$." }
@@ -67,8 +66,8 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Syarat: $x + 1 \\geq 0 \\Rightarrow x \\geq -1$." },
         { "tipe": "paragraph", "text": "$-(x + 1) \\leq 2x - 5 \\leq x + 1$" },
-        { "tipe": "paragraph", "text": "Kiri: $-x - 1 \\leq 2x - 5 \\Rightarrow -3x \\leq -4 \\Rightarrow x \\geq \\dfrac{4}{3}$" },
-        { "tipe": "paragraph", "text": "Kanan: $2x - 5 \\leq x + 1 \\Rightarrow x \\leq 6$" },
+        { "tipe": "paragraph", "text": "Kiri: $-3x \\leq -4 \\Rightarrow x \\geq \\dfrac{4}{3}$" },
+        { "tipe": "paragraph", "text": "Kanan: $x \\leq 6$" },
         { "tipe": "paragraph", "text": "HP = $\\dfrac{4}{3} \\leq x \\leq 6$." }
       ],
       "tingkat": "SULIT"
@@ -104,15 +103,13 @@
         [ { "tipe": "paragraph", "text": "$14$" } ],
         [ { "tipe": "paragraph", "text": "$16$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Titik-titik sudut daerah fisibel:" },
         { "tipe": "paragraph", "text": "$(0, 4)$: $f = 8$" },
-        { "tipe": "paragraph", "text": "$(0, 8)$: $f = 16$ → tapi cek $2(0) + 8 = 8 \\leq 8$ ✓ dan $0 + 8 = 8 \\geq 4$ ✓." },
-        { "tipe": "paragraph", "text": "$(4, 0)$: $f = 12$; cek $2(4) + 0 = 8 \\leq 8$ ✓ dan $4 + 0 = 4 \\geq 4$ ✓." },
-        { "tipe": "paragraph", "text": "Titik potong $2x + y = 8$ dan $x + y = 4$: kurangkan → $x = 4$, $y = 0$." },
-        { "tipe": "paragraph", "text": "$f(0, 8) = 16$ ✓ maksimum." },
-        { "tipe": "paragraph", "text": "**Revisi**: nilai maks $= 16$ (kunci E)." }
+        { "tipe": "paragraph", "text": "$(0, 8)$: $f = 16$" },
+        { "tipe": "paragraph", "text": "$(4, 0)$: $f = 12$" },
+        { "tipe": "paragraph", "text": "Nilai maks = $f(0, 8) = 16$." }
       ],
       "tingkat": "SULIT"
     },
@@ -136,8 +133,7 @@
         { "tipe": "paragraph", "text": "Uji $x = 0$: $\\dfrac{(-)(+)}{-} = + \\geq 0$ ✓" },
         { "tipe": "paragraph", "text": "Uji $x = 1{,}5$: $\\dfrac{(-)(+)}{+} = - < 0$ ✗" },
         { "tipe": "paragraph", "text": "Uji $x = 3$: $\\dfrac{(+)(+)}{+} = + \\geq 0$ ✓" },
-        { "tipe": "paragraph", "text": "HP = $x \\leq -2$ atau $1 < x \\leq 2$." },
-        { "tipe": "paragraph", "text": "**Revisi**: kunci B." }
+        { "tipe": "paragraph", "text": "HP = $-2 \\leq x < 1$ atau $x \\geq 2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -158,9 +154,8 @@
         { "tipe": "paragraph", "text": "Titik-titik sudut:" },
         { "tipe": "paragraph", "text": "$(3, 0)$: $f = 12$" },
         { "tipe": "paragraph", "text": "$(0, 5)$: $f = 15$" },
-        { "tipe": "paragraph", "text": "Potong $x + y = 5$ dan $2x + y = 6$: $x = 1$, $y = 4$ → $f = 4 + 12 = 16$." },
-        { "tipe": "paragraph", "text": "$(0, 6)$ bukan fisibel (karena $0 + 6 = 6 > 5$)." },
-        { "tipe": "paragraph", "text": "Nilai minimum = 12." }
+        { "tipe": "paragraph", "text": "Titik potong $x + y = 5$ dan $2x + y = 6$: $x = 1$, $y = 4$ → $f = 16$." },
+        { "tipe": "paragraph", "text": "Nilai minimum = 12 (di titik $(3, 0)$)." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,7 +182,7 @@
     {
       "id": "bs-k10-spl-sulit-03-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian sistem $y \\geq x - 2$, $y \\leq -x + 4$, dan $y \\geq 0$ memiliki luas daerah sebesar..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian sistem $y \\geq 0$, $y \\leq x + 2$, $y \\leq -x + 4$ memiliki luas daerah sebesar..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$6$" } ],
@@ -199,14 +194,10 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Titik-titik sudut:" },
-        { "tipe": "paragraph", "text": "$(2, 0)$ dari $y = 0$ dan $y = x - 2$." },
-        { "tipe": "paragraph", "text": "$(4, 0)$ dari $y = 0$ dan $y = -x + 4$." },
-        { "tipe": "paragraph", "text": "$(3, 1)$ dari potong kedua garis: $x - 2 = -x + 4 \\Rightarrow x = 3$, $y = 1$." },
-        { "tipe": "paragraph", "text": "Luas segitiga = $\\dfrac{1}{2} \\cdot (4 - 2) \\cdot 1 = 1$." },
-        { "tipe": "paragraph", "text": "**Revisi**: tanda $\\geq$ vs $\\leq$ seharusnya membentuk daerah lebih besar." },
-        { "tipe": "paragraph", "text": "**Final**: dengan $y \\geq x - 2$ dan $y \\leq -x + 4$: sudut $(2,0), (4,0), (3,1)$ → luas $= \\dfrac{1}{2} \\cdot 2 \\cdot 1 = 1$. Ubah batasan $y \\geq 0$ menjadi $x \\geq 0$ dan cari luas berbeda." },
-        { "tipe": "paragraph", "text": "**Revisi final**: $y \\geq 0$, $y \\geq x - 2$, $y \\leq -x + 4$ → luas $= 1$ tidak sesuai opsi. Ubah soal: $y \\geq 0$, $y \\leq x + 2$, $y \\leq -x + 4$." },
-        { "tipe": "paragraph", "text": "Sudut: $(-2, 0), (4, 0), (1, 3)$. Luas $= \\dfrac{1}{2} \\cdot 6 \\cdot 3 = 9$." }
+        { "tipe": "paragraph", "text": "$(-2, 0)$ dari $y = 0$ dan $y = x + 2$" },
+        { "tipe": "paragraph", "text": "$(4, 0)$ dari $y = 0$ dan $y = -x + 4$" },
+        { "tipe": "paragraph", "text": "$(1, 3)$ dari potong: $x + 2 = -x + 4 \\Rightarrow x = 1$, $y = 3$." },
+        { "tipe": "paragraph", "text": "Luas $= \\dfrac{1}{2} \\cdot (4 - (-2)) \\cdot 3 = \\dfrac{1}{2} \\cdot 6 \\cdot 3 = 9$." }
       ],
       "tingkat": "SULIT"
     },
