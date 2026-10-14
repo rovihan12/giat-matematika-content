@@ -19,14 +19,13 @@
         [ { "tipe": "paragraph", "text": "$(1,\\ 1)$" } ],
         [ { "tipe": "paragraph", "text": "$(3,\\ 3)$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$ dan $b = \\dfrac{1}{y}$." },
-        { "tipe": "paragraph", "text": "Sistem menjadi: $a + b = 1$ dan $2a - b = 1$." },
+        { "tipe": "paragraph", "text": "$a + b = 1$ dan $2a - b = 1$." },
         { "tipe": "paragraph", "text": "Jumlahkan: $3a = 2 \\Rightarrow a = \\dfrac{2}{3}$" },
         { "tipe": "paragraph", "text": "Substitusi: $\\dfrac{2}{3} + b = 1 \\Rightarrow b = \\dfrac{1}{3}$" },
-        { "tipe": "paragraph", "text": "$x = \\dfrac{1}{a} = \\dfrac{3}{2} = 1{,}5$ dan $y = \\dfrac{1}{b} = 3$" },
-        { "tipe": "paragraph", "text": "HP = $\\{(1{,}5;\\ 3)\\}$" }
+        { "tipe": "paragraph", "text": "$x = \\dfrac{3}{2} = 1{,}5$ dan $y = 3$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -45,9 +44,8 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$, $b = \\dfrac{1}{y}$." },
-        { "tipe": "paragraph", "text": "$2a + 3b = 2$ … (i)" },
-        { "tipe": "paragraph", "text": "$4a - 3b = 1$ … (ii)" },
-        { "tipe": "paragraph", "text": "(i) + (ii): $6a = 3 \\Rightarrow a = \\dfrac{1}{2} \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "$2a + 3b = 2$ … (i); $4a - 3b = 1$ … (ii)" },
+        { "tipe": "paragraph", "text": "(i)+(ii): $6a = 3 \\Rightarrow a = \\dfrac{1}{2} \\Rightarrow x = 2$" },
         { "tipe": "paragraph", "text": "Substitusi (i): $1 + 3b = 2 \\Rightarrow b = \\dfrac{1}{3} \\Rightarrow y = 3$" },
         { "tipe": "paragraph", "text": "$x + y = 5$" }
       ],
@@ -67,8 +65,7 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $\\dfrac{x+y}{2} = 5 \\Rightarrow x + y = 10$ … (i)" },
-        { "tipe": "paragraph", "text": "Dari $\\dfrac{x-y}{3} = 1 \\Rightarrow x - y = 3$ … (ii)" },
+        { "tipe": "paragraph", "text": "$x + y = 10$ … (i); $x - y = 3$ … (ii)" },
         { "tipe": "paragraph", "text": "(i) + (ii): $2x = 13 \\Rightarrow x = 6{,}5$" }
       ],
       "tingkat": "SEDANG"
@@ -76,7 +73,7 @@
     {
       "id": "bs-k10-spl-s-01-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Penyelesaian sistem $\\dfrac{3}{x} + \\dfrac{2}{y} = 8$ dan $\\dfrac{2}{x} - \\dfrac{3}{y} = -1$ memiliki nilai $x \\cdot y$ sama dengan..." }
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $\\dfrac{1}{x} + \\dfrac{1}{y} = 3$ dan $\\dfrac{1}{x} - \\dfrac{1}{y} = 1$ memiliki nilai $x \\cdot y$ sama dengan..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
@@ -88,14 +85,10 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$, $b = \\dfrac{1}{y}$." },
-        { "tipe": "paragraph", "text": "$3a + 2b = 8$ … (i)" },
-        { "tipe": "paragraph", "text": "$2a - 3b = -1$ … (ii)" },
-        { "tipe": "paragraph", "text": "(i)×3: $9a + 6b = 24$; (ii)×2: $4a - 6b = -2$; jumlahkan: $13a = 22 \\Rightarrow a = \\dfrac{22}{13}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasil tidak bulat. Mari selesaikan dengan cara tepat:" },
-        { "tipe": "paragraph", "text": "Dari (i)×3 dan (ii)×2 → $13a = 22$. Tidak menghasilkan $x \\cdot y$ sederhana." },
-        { "tipe": "paragraph", "text": "**Revisi soal**: gunakan $\\dfrac{3}{x} + \\dfrac{2}{y} = 4$ dan $\\dfrac{2}{x} - \\dfrac{3}{y} = -1$ → $a = 10/13$." },
-        { "tipe": "paragraph", "text": "**Revisi final**: gunakan $\\dfrac{2}{x} + \\dfrac{3}{y} = 8$ dan $\\dfrac{4}{x} - \\dfrac{3}{y} = 4$ → $a = 2$, $b = 4/3$, $xy = 3/8$. Tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi paling sederhana**: $\\dfrac{1}{x} + \\dfrac{1}{y} = 3$ dan $\\dfrac{1}{x} - \\dfrac{1}{y} = 1$ → $a = 2$, $b = 1$, $x = 1/2$, $y = 1$, $xy = 1/2$. Kunci A." }
+        { "tipe": "paragraph", "text": "$a + b = 3$; $a - b = 1$" },
+        { "tipe": "paragraph", "text": "Jumlahkan: $2a = 4 \\Rightarrow a = 2 \\Rightarrow x = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "Substitusi: $2 + b = 3 \\Rightarrow b = 1 \\Rightarrow y = 1$" },
+        { "tipe": "paragraph", "text": "$x \\cdot y = \\dfrac{1}{2}$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -123,7 +116,7 @@
     {
       "id": "bs-k10-spl-s-01-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sistem $\\dfrac{x}{2} + \\dfrac{y}{3} = 4$ dan $\\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{11}{3}$ memiliki nilai $x + y$ sama dengan..." }
+        { "tipe": "paragraph", "text": "Sistem $\\dfrac{x}{2} + \\dfrac{y}{3} = \\dfrac{5}{2}$ dan $\\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{5}{2}$ memiliki nilai $x + y$ sama dengan..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$4$" } ],
@@ -134,17 +127,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kalikan (i) dengan 6: $3x + 2y = 24$" },
-        { "tipe": "paragraph", "text": "Kalikan (ii) dengan 6: $2x + 3y = 22$" },
-        { "tipe": "paragraph", "text": "Jumlahkan: $5x + 5y = 46 \\Rightarrow x + y = \\dfrac{46}{5} = 9{,}2$" },
-        { "tipe": "paragraph", "text": "⚠️ Revisi: hasil tidak sesuai opsi. **Ubah (ii)** menjadi $\\dfrac{x}{3} + \\dfrac{y}{2} = 3$ → $2x + 3y = 18$." },
-        { "tipe": "paragraph", "text": "Jumlahkan: $5(x + y) = 42 \\Rightarrow x + y = 8{,}4$. Belum bulat." },
-        { "tipe": "paragraph", "text": "**Revisi final**: gunakan $\\dfrac{x}{2} + \\dfrac{y}{3} = 3$ dan $\\dfrac{x}{3} + \\dfrac{y}{2} = 3$ → $3x + 2y = 18$, $2x + 3y = 18$." },
-        { "tipe": "paragraph", "text": "Kurangkan: $x - y = 0 \\Rightarrow x = y$. Substitusi: $5x = 18 \\Rightarrow x = 3{,}6$. Tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi paling sederhana**: $\\dfrac{x}{2} + \\dfrac{y}{3} = 4$ dan $\\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{11}{3}$ diubah menjadi (ii) $\\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{10}{3}$ → $2x + 3y = 20$." },
-        { "tipe": "paragraph", "text": "Dari (i): $3x + 2y = 24$; dari (ii): $2x + 3y = 20$. Jumlahkan: $5(x+y) = 44 \\Rightarrow x+y = 8{,}8$. Tidak bulat." },
-        { "tipe": "paragraph", "text": "**Solusi final**: gunakan $\\dfrac{x}{2} + \\dfrac{y}{3} = 3$ dan $\\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{7}{3}$ → (i) $3x + 2y = 18$, (ii) $2x + 3y = 14$. Jumlahkan: $5(x+y) = 32 \\Rightarrow x+y = 6{,}4$. Tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi TERBAIK**: gunakan $x + y = 6$ → soal jadi $\\dfrac{x}{2} + \\dfrac{y}{3} = \\dfrac{5}{2}$ dan $\\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{5}{2}$ → (i) $3x + 2y = 15$, (ii) $2x + 3y = 15$. Kurangkan: $x = y = 3$. Maka $x + y = 6$ ✓. Kunci C." }
+        { "tipe": "paragraph", "text": "Kalikan (i) dengan 6: $3x + 2y = 15$" },
+        { "tipe": "paragraph", "text": "Kalikan (ii) dengan 6: $2x + 3y = 15$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $x - y = 0 \\Rightarrow x = y$" },
+        { "tipe": "paragraph", "text": "Substitusi: $5x = 15 \\Rightarrow x = 3$, $y = 3$" },
+        { "tipe": "paragraph", "text": "$x + y = 6$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -162,7 +149,7 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $\\dfrac{1}{x} - \\dfrac{1}{y} = 0 \\Rightarrow \\dfrac{1}{x} = \\dfrac{1}{y} \\Rightarrow x = y$" },
+        { "tipe": "paragraph", "text": "Dari $\\dfrac{1}{x} - \\dfrac{1}{y} = 0 \\Rightarrow x = y$" },
         { "tipe": "paragraph", "text": "Substitusi: $\\dfrac{2}{x} + \\dfrac{1}{x} = 3 \\Rightarrow \\dfrac{3}{x} = 3 \\Rightarrow x = 1$" },
         { "tipe": "paragraph", "text": "$y = 1$" }
       ],
@@ -171,7 +158,7 @@
     {
       "id": "bs-k10-spl-s-01-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $\\dfrac{3}{x} - \\dfrac{2}{y} = 1$ dan $\\dfrac{2}{x} + \\dfrac{3}{y} = \\dfrac{13}{6}$. Nilai $x + y$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $\\dfrac{3}{x} - \\dfrac{2}{y} = 0$ dan $\\dfrac{2}{x} + \\dfrac{3}{y} = \\dfrac{13}{6}$. Nilai $x + y$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$3$" } ],
@@ -183,14 +170,10 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$, $b = \\dfrac{1}{y}$." },
-        { "tipe": "paragraph", "text": "$3a - 2b = 1$ … (i)" },
-        { "tipe": "paragraph", "text": "$2a + 3b = \\dfrac{13}{6}$ … (ii)" },
-        { "tipe": "paragraph", "text": "(i)×3: $9a - 6b = 3$; (ii)×2: $4a + 6b = \\dfrac{13}{3}$; jumlahkan: $13a = 3 + \\dfrac{13}{3} = \\dfrac{22}{3}$" },
-        { "tipe": "paragraph", "text": "$a = \\dfrac{22}{39}$ — tidak praktis." },
-        { "tipe": "paragraph", "text": "**Revisi**: gunakan $\\dfrac{3}{x} - \\dfrac{2}{y} = 1$ dan $\\dfrac{2}{x} + \\dfrac{3}{y} = \\dfrac{13}{2}$ → (ii)×2: $4a + 6b = 13$; (i)×3: $9a - 6b = 3$; jumlahkan: $13a = 16$ — masih tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi TERBAIK**: gunakan $x = 3$, $y = 2$ → $\\dfrac{3}{3} - \\dfrac{2}{2} = 0$. Ubah RHS (i) menjadi 0 → $\\dfrac{3}{x} - \\dfrac{2}{y} = 0$ dan $\\dfrac{2}{x} + \\dfrac{3}{y} = \\dfrac{13}{6}$." },
-        { "tipe": "paragraph", "text": "Dari (i): $3a = 2b \\Rightarrow a = \\dfrac{2b}{3}$. Substitusi: $\\dfrac{4b}{3} + 3b = \\dfrac{13}{6} \\Rightarrow \\dfrac{13b}{3} = \\dfrac{13}{6} \\Rightarrow b = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "$y = 2$, $a = \\dfrac{1}{3} \\Rightarrow x = 3$. $x + y = 5$ ✓. Kunci C." }
+        { "tipe": "paragraph", "text": "Dari (i): $3a = 2b \\Rightarrow a = \\dfrac{2b}{3}$" },
+        { "tipe": "paragraph", "text": "Substitusi (ii): $\\dfrac{4b}{3} + 3b = \\dfrac{13}{6} \\Rightarrow \\dfrac{13b}{3} = \\dfrac{13}{6} \\Rightarrow b = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$y = 2$; $a = \\dfrac{1}{3} \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "$x + y = 5$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -206,14 +189,11 @@
         [ { "tipe": "paragraph", "text": "$11$" } ],
         [ { "tipe": "paragraph", "text": "$12$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kalikan (i) dengan 6: $3(x+1) + 2(y-1) = 18$" },
-        { "tipe": "paragraph", "text": "$3x + 3 + 2y - 2 = 18 \\Rightarrow 3x + 2y = 17$ … (i')" },
-        { "tipe": "paragraph", "text": "Kalikan (ii) dengan 6: $2(x-1) + 3(y+1) = 24$" },
-        { "tipe": "paragraph", "text": "$2x - 2 + 3y + 3 = 24 \\Rightarrow 2x + 3y = 23$ … (ii')" },
-        { "tipe": "paragraph", "text": "Jumlahkan (i') + (ii'): $5x + 5y = 40 \\Rightarrow x + y = 8$" },
-        { "tipe": "paragraph", "text": "Kunci A." }
+        { "tipe": "paragraph", "text": "Kalikan (i) ×6: $3(x+1) + 2(y-1) = 18 \\Rightarrow 3x + 2y = 17$" },
+        { "tipe": "paragraph", "text": "Kalikan (ii) ×6: $2(x-1) + 3(y+1) = 24 \\Rightarrow 2x + 3y = 23$" },
+        { "tipe": "paragraph", "text": "Jumlahkan: $5x + 5y = 40 \\Rightarrow x + y = 8$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -229,15 +209,13 @@
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$, $b = \\dfrac{1}{y}$." },
-        { "tipe": "paragraph", "text": "$2a + 3b = 12$ … (i)" },
-        { "tipe": "paragraph", "text": "$3a - 2b = 5$ … (ii)" },
+        { "tipe": "paragraph", "text": "$2a + 3b = 12$; $3a - 2b = 5$" },
         { "tipe": "paragraph", "text": "(i)×2: $4a + 6b = 24$; (ii)×3: $9a - 6b = 15$; jumlahkan: $13a = 39 \\Rightarrow a = 3$" },
         { "tipe": "paragraph", "text": "Substitusi (i): $6 + 3b = 12 \\Rightarrow b = 2$" },
-        { "tipe": "paragraph", "text": "$a + b = 5$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasil $= 5$. Kunci opsi E." }
+        { "tipe": "paragraph", "text": "$a + b = 5$" }
       ],
       "tingkat": "SEDANG"
     }
