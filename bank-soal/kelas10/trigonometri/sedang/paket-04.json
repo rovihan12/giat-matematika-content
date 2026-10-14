@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-trig-s-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang identitas trigonometri dan pembuktian",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-s-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\dfrac{\\sin \\alpha}{\\cos \\alpha}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cot \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sec \\alpha$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Definisi: $\\tan \\alpha = \\dfrac{\\sin \\alpha}{\\cos \\alpha}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $(\\sin \\alpha + \\cos \\alpha)^2 - 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2\\sin \\alpha \\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sin^2 \\alpha - \\cos^2 \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha \\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(\\sin \\alpha + \\cos \\alpha)^2 = \\sin^2 \\alpha + 2\\sin \\alpha \\cos \\alpha + \\cos^2 \\alpha$" },
+        { "tipe": "paragraph", "text": "$= 1 + 2\\sin \\alpha \\cos \\alpha$" },
+        { "tipe": "paragraph", "text": "Kurang 1 → $2\\sin \\alpha \\cos \\alpha$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{1 - \\cos^2 \\alpha}{\\sin \\alpha}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$1 - \\cos^2 \\alpha = \\sin^2 \\alpha$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\sin^2 \\alpha}{\\sin \\alpha} = \\sin \\alpha$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin \\alpha = \\dfrac{3}{5}$ dan $\\alpha$ di kuadran II, nilai $\\cos \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{5}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Di kuadran II: $\\sin > 0$, $\\cos < 0$, $\\tan < 0$." },
+        { "tipe": "paragraph", "text": "$\\cos^2 \\alpha = 1 - \\dfrac{9}{25} = \\dfrac{16}{25}$" },
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = -\\dfrac{4}{5}$ (negatif karena kuadran II)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin(90° - \\alpha)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut berelasi: $\\sin(90° - \\alpha) = \\cos \\alpha$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos(180° - \\alpha)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut berelasi: $\\cos(180° - \\alpha) = -\\cos \\alpha$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\tan(90° + \\alpha)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\tan \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cot \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\cot \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut berelasi: $\\tan(90° + \\alpha) = -\\cot \\alpha$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan \\alpha = \\dfrac{5}{12}$ dan $\\alpha$ di kuadran I, nilai $\\sin \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{5}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan \\alpha = \\dfrac{5}{12}$ → depan 5, samping 12, miring $\\sqrt{25 + 144} = 13$." },
+        { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{5}{13}$ (positif karena kuadran I)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin(180° + \\alpha)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\sin \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\cos \\alpha$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut berelasi: $\\sin(180° + \\alpha) = -\\sin \\alpha$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin^2 \\alpha + \\cos^2 \\alpha}{\\tan \\alpha \\cdot \\cot \\alpha}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$" },
+        { "tipe": "paragraph", "text": "$\\tan \\alpha \\cdot \\cot \\alpha = \\tan \\alpha \\cdot \\dfrac{1}{\\tan \\alpha} = 1$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{1} = 1$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
