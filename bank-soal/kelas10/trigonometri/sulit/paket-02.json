@@ -1,0 +1,212 @@
+{
+  "id": "bs-k10-trig-sulit-02",
+  "nama": "Bank Soal Sulit - Paket 2",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang identitas trigonometri dan persamaan trigonometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-sulit-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bukti dari identitas $\\dfrac{\\sin^2 \\alpha - \\sin^2 \\beta}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta}$ ekuivalen dengan..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\tan^2 \\alpha - \\tan^2 \\beta$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan^2 \\alpha + \\tan^2 \\beta$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan \\alpha - \\tan \\beta$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sec^2 \\alpha - \\sec^2 \\beta$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{\\sin^2 \\alpha - \\sin^2 \\beta}{\\cos^2 \\alpha \\cos^2 \\beta}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{\\sin^2 \\alpha}{\\cos^2 \\alpha \\cos^2 \\beta} - \\dfrac{\\sin^2 \\beta}{\\cos^2 \\alpha \\cos^2 \\beta}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{\\tan^2 \\alpha}{\\cos^2 \\beta} - \\dfrac{\\tan^2 \\beta}{\\cos^2 \\alpha}$" },
+        { "tipe": "paragraph", "text": "Alternatif: gunakan $\\sin^2 \\alpha = 1 - \\cos^2 \\alpha$ → hasilnya $\\tan^2 \\alpha - \\tan^2 \\beta$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin 10° \\cdot \\sin 50° \\cdot \\sin 70°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus: $\\sin 10° \\sin 50° \\sin 70° = \\dfrac{1}{8}$" },
+        { "tipe": "paragraph", "text": "Pembuktian: $\\sin 10° \\sin(60°-10°) \\sin(60°+10°) = \\dfrac{1}{4}\\sin 30° = \\dfrac{1}{8}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\cos 2x = \\cos 60°$ untuk $0° \\leq x \\leq 360°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{30°, 330°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°, 210°, 330°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 300°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 90°, 150°, 270°\\}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 2x = \\cos 60°$" },
+        { "tipe": "paragraph", "text": "$2x = 60° + k \\cdot 360° \\Rightarrow x = 30° + k \\cdot 180°$ → $x = 30°, 210°$" },
+        { "tipe": "paragraph", "text": "ATAU $2x = -60° + k \\cdot 360° \\Rightarrow x = -30° + k \\cdot 180°$ → $x = 150°, 330°$" },
+        { "tipe": "paragraph", "text": "HP = $\\{30°, 150°, 210°, 330°\\}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin \\alpha + \\cos \\alpha = \\dfrac{1}{2}$, maka $\\sin 2\\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(\\sin \\alpha + \\cos \\alpha)^2 = \\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "$\\sin^2 \\alpha + 2\\sin \\alpha \\cos \\alpha + \\cos^2 \\alpha = \\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "$1 + \\sin 2\\alpha = \\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "$\\sin 2\\alpha = -\\dfrac{3}{4}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\tan 20° \\cdot \\tan 40° \\cdot \\tan 80°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan 60°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\tan 20° \\tan 40° \\tan 80° = \\tan 60° = \\sqrt{3}$" },
+        { "tipe": "paragraph", "text": "(Karena $20° + 40° + 80° = 140°$ dan menggunakan identitas $\\tan 3\\theta$ pada $\\theta = 20°$.)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{\\pi}{7} \\cdot \\cos\\dfrac{2\\pi}{7} \\cdot \\cos\\dfrac{3\\pi}{7}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\cos\\dfrac{\\pi}{7} \\cos\\dfrac{2\\pi}{7} \\cos\\dfrac{3\\pi}{7} = \\dfrac{1}{8}$" },
+        { "tipe": "paragraph", "text": "(Bisa dibuktikan dengan mengalikan kedua sisi dengan $2\\sin\\frac{\\pi}{7}$ dan menggunakan rumus sudut rangkap berulang.)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\cos x = \\dfrac{3}{5}$ dan $x$ di kuadran IV, maka nilai $\\sin 2x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{12}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kuadran IV: $\\sin < 0$, $\\cos > 0$." },
+        { "tipe": "paragraph", "text": "$\\cos x = \\dfrac{3}{5} \\Rightarrow \\sin x = -\\dfrac{4}{5}$" },
+        { "tipe": "paragraph", "text": "$\\sin 2x = 2 \\cdot (-\\dfrac{4}{5}) \\cdot \\dfrac{3}{5} = -\\dfrac{24}{25}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 3\\alpha}{\\sin \\alpha} - \\dfrac{\\cos 3\\alpha}{\\cos \\alpha}$ untuk $\\alpha = 20°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{\\sin 3\\alpha}{\\sin \\alpha} = 3 - 4\\sin^2 \\alpha$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\cos 3\\alpha}{\\cos \\alpha} = 4\\cos^2 \\alpha - 3$" },
+        { "tipe": "paragraph", "text": "Selisih: $(3 - 4\\sin^2 \\alpha) - (4\\cos^2 \\alpha - 3)$" },
+        { "tipe": "paragraph", "text": "$= 6 - 4(\\sin^2 \\alpha + \\cos^2 \\alpha) = 6 - 4 = 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\sin 2x = \\sin 40°$ untuk $0° \\leq x \\leq 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{20°, 70°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{20°, 40°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{20°, 160°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{40°, 70°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{20°, 40°, 70°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 2x = \\sin 40°$" },
+        { "tipe": "paragraph", "text": "Solusi 1: $2x = 40° + k \\cdot 360° \\Rightarrow x = 20° + k \\cdot 180°$ → $x = 20°$" },
+        { "tipe": "paragraph", "text": "Solusi 2: $2x = (180° - 40°) + k \\cdot 360° \\Rightarrow x = 70° + k \\cdot 180°$ → $x = 70°$" },
+        { "tipe": "paragraph", "text": "HP = $\\{20°, 70°\\}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum dari $f(x) = 3\\sin x + 4\\cos x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk $a\\sin x + b\\cos x$ memiliki nilai maks $\\sqrt{a^2 + b^2}$." },
+        { "tipe": "paragraph", "text": "$\\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
