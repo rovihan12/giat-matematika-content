@@ -4,7 +4,7 @@
   "kelas": 10,
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
   "tingkat": "SULIT",
-  "deskripsi": "Soal sulit tentang sistem persamaan nonlinear sederhana dan substitusi",
+  "deskripsi": "Soal sulit tentang sistem persamaan nonlinear sederhana dan identitas aljabar",
   "versi": "1.0.0",
   "soal": [
     {
@@ -25,7 +25,7 @@
         { "tipe": "paragraph", "text": "$x^2 + (7 - x)^2 = 25 \\Rightarrow 2x^2 - 14x + 24 = 0 \\Rightarrow x^2 - 7x + 12 = 0$" },
         { "tipe": "paragraph", "text": "$(x - 3)(x - 4) = 0 \\Rightarrow x = 3$ atau $x = 4$" },
         { "tipe": "paragraph", "text": "Solusi: $(3, 4)$ dan $(4, 3)$. $x_1 = 4$, $y_1 = 3$." },
-        { "tipe": "paragraph", "text": "$x_1 - y_1 = 1$" }
+        { "tipe": "paragraph", "text": "$x_1 - y_1 = 4 - 3 = 1$" }
       ],
       "tingkat": "SULIT"
     },
@@ -64,7 +64,8 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 = 20 + 2(8) = 36$" }
+        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 = (x^2 + y^2) + 2xy$" },
+        { "tipe": "paragraph", "text": "$= 20 + 2(8) = 20 + 16 = 36$" }
       ],
       "tingkat": "SULIT"
     },
@@ -93,7 +94,7 @@
     {
       "id": "bs-k10-spl-sulit-02-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 9$, $x^2 + y^2 + z^2 = 35$, dan $xy + xz + yz = 23$. Jika $(x, y, z) = (1, 3, 5)$, nilai $(x - 1)(y - 1)(z - 1)$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 9$, $x^2 + y^2 + z^2 = 35$, dan $xy + xz + yz = 23$. Nilai $(x - 1)(y - 1)(z - 1)$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$0$" } ],
@@ -104,8 +105,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Verifikasi $(1, 3, 5)$: $S_1 = 9$ ✓; $S_2 = 3 + 5 + 15 = 23$ ✓; $S_3 = x^2 + y^2 + z^2 = 1 + 9 + 25 = 35$ ✓." },
-        { "tipe": "paragraph", "text": "$(x - 1)(y - 1)(z - 1) = (1 - 1)(3 - 1)(5 - 1) = 0 \\cdot 2 \\cdot 4 = 0$" }
+        { "tipe": "paragraph", "text": "Cek solusi $(1, 3, 5)$:" },
+        { "tipe": "paragraph", "text": "$S_1 = 1+3+5 = 9$ ✓" },
+        { "tipe": "paragraph", "text": "$S_2 = 1{\\cdot}3 + 1{\\cdot}5 + 3{\\cdot}5 = 3 + 5 + 15 = 23$ ✓" },
+        { "tipe": "paragraph", "text": "$x^2 + y^2 + z^2 = 1 + 9 + 25 = 35$ ✓" },
+        { "tipe": "paragraph", "text": "$(x - 1)(y - 1)(z - 1) = (1-1)(3-1)(5-1) = 0 \\cdot 2 \\cdot 4 = 0$" }
       ],
       "tingkat": "SULIT"
     },
@@ -131,7 +135,7 @@
     {
       "id": "bs-k10-spl-sulit-02-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sistem $x + y = 4$ dan $x^2 + y^2 = 10$ memiliki solusi $(x_1, y_1)$ dan $(x_2, y_2)$. Nilai $x_1 \\cdot y_2$ adalah..." }
+        { "tipe": "paragraph", "text": "Sistem $x + y = 4$ dan $x^2 + y^2 = 10$ memiliki solusi $(x_1, y_1)$ dan $(x_2, y_2)$ dengan $x_1 > x_2$. Nilai $x_1 \\cdot y_1$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$1$" } ],
@@ -140,14 +144,13 @@
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$x^2 + y^2 = (x + y)^2 - 2xy = 10$" },
         { "tipe": "paragraph", "text": "$16 - 2xy = 10 \\Rightarrow xy = 3$" },
         { "tipe": "paragraph", "text": "Akar-akar: $t^2 - 4t + 3 = 0 \\Rightarrow t = 1$ atau $t = 3$." },
-        { "tipe": "paragraph", "text": "Solusi: $(1, 3)$ dan $(3, 1)$. $x_1 = 3$, $y_2 = 1$." },
-        { "tipe": "paragraph", "text": "$x_1 \\cdot y_2 = 3 \\cdot 1 = 3$" },
-        { "tipe": "paragraph", "text": "**Revisi**: hasil $= 3$. Kunci C." }
+        { "tipe": "paragraph", "text": "Solusi: $(1, 3)$ dan $(3, 1)$. $x_1 = 3$, $y_1 = 1$." },
+        { "tipe": "paragraph", "text": "$x_1 \\cdot y_1 = 3 \\cdot 1 = 3$" }
       ],
       "tingkat": "SULIT"
     },
