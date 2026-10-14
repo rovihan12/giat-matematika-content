@@ -21,7 +21,7 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Persamaan: (i) $x + y + z = 6$, (ii) $2x - y + z = 3$, (iii) $x + 2y - z = 2$" },
+        { "tipe": "paragraph", "text": "(i) $x + y + z = 6$; (ii) $2x - y + z = 3$; (iii) $x + 2y - z = 2$" },
         { "tipe": "paragraph", "text": "(ii) $-$ (i): $x - 2y = -3$ … (iv)" },
         { "tipe": "paragraph", "text": "(iii) + (i): $2x + 3y = 8$ … (v)" },
         { "tipe": "paragraph", "text": "Dari (iv): $x = 2y - 3$. Substitusi (v): $4y - 6 + 3y = 8 \\Rightarrow 7y = 14 \\Rightarrow y = 2$" },
@@ -42,14 +42,11 @@
         [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(i) $x + y + z = 8$" },
-        { "tipe": "paragraph", "text": "(ii) $x - y + z = 6$" },
-        { "tipe": "paragraph", "text": "(iii) $x + y - z = 4$" },
-        { "tipe": "paragraph", "text": "(i) + (iii): $2x + 2y = 12 \\Rightarrow x + y = 6$" },
-        { "tipe": "paragraph", "text": "Substitusi ke (i): $6 + z = 8 \\Rightarrow z = 2$" },
-        { "tipe": "paragraph", "text": "Kunci A." }
+        { "tipe": "paragraph", "text": "(i) $x + y + z = 8$; (ii) $x - y + z = 6$; (iii) $x + y - z = 4$" },
+        { "tipe": "paragraph", "text": "(i) $+$ (iii): $2x + 2y = 12 \\Rightarrow x + y = 6$" },
+        { "tipe": "paragraph", "text": "Substitusi ke (i): $6 + z = 8 \\Rightarrow z = 2$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -84,19 +81,18 @@
         [ { "tipe": "paragraph", "text": "$20$" } ],
         [ { "tipe": "paragraph", "text": "$24$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$x + y + z = \\dfrac{5 + 7 + 6}{2} = 9$" },
         { "tipe": "paragraph", "text": "$x = 9 - 7 = 2$; $y = 9 - 6 = 3$; $z = 9 - 5 = 4$" },
-        { "tipe": "paragraph", "text": "$xyz = 2 \\cdot 3 \\cdot 4 = 24$" },
-        { "tipe": "paragraph", "text": "Kunci E." }
+        { "tipe": "paragraph", "text": "$xyz = 2 \\cdot 3 \\cdot 4 = 24$" }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-02-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 12$, $x - y = 2$, dan $y - z = 1$ adalah..." }
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 12$, $x - y = 2$, dan $y - z = 2$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$(6, 4, 2)$" } ],
@@ -105,21 +101,19 @@
         [ { "tipe": "paragraph", "text": "$(6, 3, 3)$" } ],
         [ { "tipe": "paragraph", "text": "$(5, 4, 3)$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Dari $x - y = 2 \\Rightarrow x = y + 2$" },
-        { "tipe": "paragraph", "text": "Dari $y - z = 1 \\Rightarrow z = y - 1$" },
-        { "tipe": "paragraph", "text": "Substitusi: $(y + 2) + y + (y - 1) = 12 \\Rightarrow 3y + 1 = 12 \\Rightarrow y = \\dfrac{11}{3}$" },
-        { "tipe": "paragraph", "text": "Tidak bulat. **Revisi**: gunakan $y - z = 2$ → $z = y - 2$." },
-        { "tipe": "paragraph", "text": "$(y+2) + y + (y-2) = 12 \\Rightarrow 3y = 12 \\Rightarrow y = 4$" },
-        { "tipe": "paragraph", "text": "$x = 6$, $z = 2$. HP = $(6, 4, 2)$. Kunci A." }
+        { "tipe": "paragraph", "text": "Dari $y - z = 2 \\Rightarrow z = y - 2$" },
+        { "tipe": "paragraph", "text": "Substitusi: $(y + 2) + y + (y - 2) = 12 \\Rightarrow 3y = 12 \\Rightarrow y = 4$" },
+        { "tipe": "paragraph", "text": "$x = 6$, $z = 2$. HP = $(6, 4, 2)$" }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-02-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x$ dari sistem $2x + 3y - z = 7$, $x - y + 2z = 4$, dan $3x + 2y + z = 10$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ dari sistem $2x + 3y - z = 4$, $x - y + 2z = 7$, dan $3x + 2y + z = 11$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$1$" } ],
@@ -130,14 +124,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(i) $2x + 3y - z = 7$; (ii) $x - y + 2z = 4$; (iii) $3x + 2y + z = 10$" },
-        { "tipe": "paragraph", "text": "(i) + (iii): $5x + 5y = 17$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: ubah (i) menjadi $2x + 3y - z = 8$." },
-        { "tipe": "paragraph", "text": "(i) + (iii): $5x + 5y = 18$ — masih tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi final**: coba solusi $(x, y, z) = (2, 1, 3)$:" },
-        { "tipe": "paragraph", "text": "(i) $4 + 3 - 3 = 4$; (ii) $2 - 1 + 6 = 7$; (iii) $6 + 2 + 3 = 11$." },
-        { "tipe": "paragraph", "text": "Soal disesuaikan: (i) $2x + 3y - z = 4$; (ii) $x - y + 2z = 7$; (iii) $3x + 2y + z = 11$." },
-        { "tipe": "paragraph", "text": "Verifikasi: $(2, 1, 3)$ → $4 + 3 - 3 = 4$ ✓; $2 - 1 + 6 = 7$ ✓; $6 + 2 + 3 = 11$ ✓. $x = 2$, kunci B." }
+        { "tipe": "paragraph", "text": "(i) $2x + 3y - z = 4$; (ii) $x - y + 2z = 7$; (iii) $3x + 2y + z = 11$" },
+        { "tipe": "paragraph", "text": "(i) + (iii): $5x + 5y = 15 \\Rightarrow x + y = 3$ … (iv)" },
+        { "tipe": "paragraph", "text": "(ii) + 2(i): $x - y + 2z + 4x + 6y - 2z = 7 + 8$" },
+        { "tipe": "paragraph", "text": "$5x + 5y = 15 \\Rightarrow x + y = 3$ (konsisten)." },
+        { "tipe": "paragraph", "text": "Substitusi solusi $(2, 1, 3)$: cek (i) $4+3-3=4$ ✓; (ii) $2-1+6=7$ ✓; (iii) $6+2+3=11$ ✓." },
+        { "tipe": "paragraph", "text": "$x = 2$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -155,8 +147,7 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan ketiga: $6x + 4y + 6z = 32$ — tidak langsung." },
-        { "tipe": "paragraph", "text": "Coba solusi $(1, 2, 3)$: (i) $1 + 4 + 9 = 14$ ✓; (ii) $2 + 2 + 3 = 7$ ✓; (iii) $3 + 2 + 6 = 11$ ✓." },
+        { "tipe": "paragraph", "text": "Solusi $(1, 2, 3)$: (i) $1+4+9=14$ ✓; (ii) $2+2+3=7$ ✓; (iii) $3+2+6=11$ ✓." },
         { "tipe": "paragraph", "text": "$x + y + z = 1 + 2 + 3 = 6$" }
       ],
       "tingkat": "SEDANG"
@@ -164,7 +155,7 @@
     {
       "id": "bs-k10-spl-s-02-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jumlah tiga bilangan adalah 15. Bilangan kedua 2 kali bilangan pertama, dan bilangan ketiga 3 lebihnya dari bilangan kedua. Bilangan terbesar adalah..." }
+        { "tipe": "paragraph", "text": "Jumlah tiga bilangan adalah 18. Bilangan kedua 2 kali bilangan pertama, dan bilangan ketiga 3 lebihnya dari bilangan kedua. Bilangan terbesar adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$3$" } ],
@@ -176,18 +167,16 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a$, $b$, $c$." },
-        { "tipe": "paragraph", "text": "$a + b + c = 15$; $b = 2a$; $c = b + 3 = 2a + 3$" },
-        { "tipe": "paragraph", "text": "$a + 2a + 2a + 3 = 15 \\Rightarrow 5a = 12 \\Rightarrow a = 2{,}4$" },
-        { "tipe": "paragraph", "text": "Tidak bulat. **Revisi**: jumlah $= 18$." },
-        { "tipe": "paragraph", "text": "$5a + 3 = 18 \\Rightarrow 5a = 15 \\Rightarrow a = 3$; $b = 6$; $c = 9$" },
-        { "tipe": "paragraph", "text": "Terbesar $= 9$. Kunci D." }
+        { "tipe": "paragraph", "text": "$a + b + c = 18$; $b = 2a$; $c = b + 3 = 2a + 3$" },
+        { "tipe": "paragraph", "text": "$a + 2a + 2a + 3 = 18 \\Rightarrow 5a = 15 \\Rightarrow a = 3$" },
+        { "tipe": "paragraph", "text": "$b = 6$; $c = 9$. Terbesar $= 9$" }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-02-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 10$, $2x + y - z = 5$, dan $x - y + 2z = 9$ adalah..." }
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 10$, $2x + y - z = 2$, dan $x - y + 2z = 9$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$(2, 3, 5)$" } ],
@@ -198,19 +187,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Coba $(2, 3, 5)$: (i) $2 + 3 + 5 = 10$ ✓; (ii) $4 + 3 - 5 = 2$ ✗ (harusnya 5)." },
-        { "tipe": "paragraph", "text": "Coba $(4, 1, 5)$: (i) $10$ ✓; (ii) $8 + 1 - 5 = 4$ ✗." },
-        { "tipe": "paragraph", "text": "Coba $(3, 2, 5)$: (i) $10$ ✓; (ii) $6 + 2 - 5 = 3$ ✗." },
-        { "tipe": "paragraph", "text": "**Revisi (ii)**: $2x + y - z = 8$." },
-        { "tipe": "paragraph", "text": "Coba $(3, 2, 5)$: $6 + 2 - 5 = 3$ ✗." },
-        { "tipe": "paragraph", "text": "**Cari solusi dengan (i) dan (iii)**: (iii) $x - y + 2z = 9$" },
-        { "tipe": "paragraph", "text": "Dari (i): $z = 10 - x - y$. Substitusi (iii): $x - y + 20 - 2x - 2y = 9$" },
-        { "tipe": "paragraph", "text": "$-x - 3y = -11 \\Rightarrow x + 3y = 11$ … (iv)" },
-        { "tipe": "paragraph", "text": "Substitusi $z = 10 - x - y$ ke (ii): $2x + y - 10 + x + y = 5$" },
-        { "tipe": "paragraph", "text": "$3x + 2y = 15$ … (v)" },
-        { "tipe": "paragraph", "text": "Dari (iv): $x = 11 - 3y$. Substitusi (v): $33 - 9y + 2y = 15 \\Rightarrow -7y = -18 \\Rightarrow y = \\dfrac{18}{7}$." },
-        { "tipe": "paragraph", "text": "Tidak bulat. **Soal perlu dirombak** — kunci opsi A $(2, 3, 5)$ dengan penyesuaian (ii) $2x + y - z = 2$." },
-        { "tipe": "paragraph", "text": "Verifikasi $(2, 3, 5)$: (i) $10$ ✓; (ii) $4+3-5 = 2$ ✓; (iii) $2-3+10 = 9$ ✓. **Solusi valid!** Kunci A." }
+        { "tipe": "paragraph", "text": "Verifikasi $(2, 3, 5)$:" },
+        { "tipe": "paragraph", "text": "(i) $2+3+5=10$ ✓" },
+        { "tipe": "paragraph", "text": "(ii) $4+3-5=2$ ✓" },
+        { "tipe": "paragraph", "text": "(iii) $2-3+10=9$ ✓" },
+        { "tipe": "paragraph", "text": "HP = $\\{(2, 3, 5)\\}$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -226,16 +207,13 @@
         [ { "tipe": "paragraph", "text": "$13$" } ],
         [ { "tipe": "paragraph", "text": "$14$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "(i) $x + y + z = 6$; (ii) $x - y + z = 4$; (iii) $x + y - z = 2$" },
         { "tipe": "paragraph", "text": "(i) + (iii): $2x + 2y = 8 \\Rightarrow x + y = 4$" },
         { "tipe": "paragraph", "text": "(i) - (ii): $2y = 2 \\Rightarrow y = 1$" },
         { "tipe": "paragraph", "text": "$x = 3$; dari (i): $3 + 1 + z = 6 \\Rightarrow z = 2$" },
-        { "tipe": "paragraph", "text": "$x + 2y + 3z = 3 + 2 + 6 = 11$" },
-        { "tipe": "paragraph", "text": "Kunci B." }
+        { "tipe": "paragraph", "text": "$x + 2y + 3z = 3 + 2 + 6 = 11$" }
       ],
       "tingkat": "SEDANG"
-    }
-  ]
-}
+   
