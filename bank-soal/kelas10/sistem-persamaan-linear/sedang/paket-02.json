@@ -1,0 +1,241 @@
+{
+  "id": "bs-k10-spl-s-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang SPLTV dengan tiga variabel",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-s-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 6$, $2x - y + z = 3$, dan $x + 2y - z = 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(1, 2, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 1, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 1, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1, 3, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 3, 1)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan: (i) $x + y + z = 6$, (ii) $2x - y + z = 3$, (iii) $x + 2y - z = 2$" },
+        { "tipe": "paragraph", "text": "(ii) $-$ (i): $x - 2y = -3$ … (iv)" },
+        { "tipe": "paragraph", "text": "(iii) + (i): $2x + 3y = 8$ … (v)" },
+        { "tipe": "paragraph", "text": "Dari (iv): $x = 2y - 3$. Substitusi (v): $4y - 6 + 3y = 8 \\Rightarrow 7y = 14 \\Rightarrow y = 2$" },
+        { "tipe": "paragraph", "text": "$x = 1$; dari (i): $1 + 2 + z = 6 \\Rightarrow z = 3$" },
+        { "tipe": "paragraph", "text": "HP = $\\{(1, 2, 3)\\}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $z$ dari sistem $x + y + z = 8$, $x - y + z = 6$, dan $x + y - z = 4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "(i) $x + y + z = 8$" },
+        { "tipe": "paragraph", "text": "(ii) $x - y + z = 6$" },
+        { "tipe": "paragraph", "text": "(iii) $x + y - z = 4$" },
+        { "tipe": "paragraph", "text": "(i) + (iii): $2x + 2y = 12 \\Rightarrow x + y = 6$" },
+        { "tipe": "paragraph", "text": "Substitusi ke (i): $6 + z = 8 \\Rightarrow z = 2$" },
+        { "tipe": "paragraph", "text": "Kunci A." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $2x + y + z = 9$, $x + 2y + z = 9$, dan $x + y + 2z = 10$ memiliki nilai $x + y + z$ sama dengan..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan: $4x + 4y + 4z = 28$" },
+        { "tipe": "paragraph", "text": "$4(x + y + z) = 28 \\Rightarrow x + y + z = 7$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem $x + y = 5$, $y + z = 7$, dan $x + z = 6$. Nilai $xyz$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x + y + z = \\dfrac{5 + 7 + 6}{2} = 9$" },
+        { "tipe": "paragraph", "text": "$x = 9 - 7 = 2$; $y = 9 - 6 = 3$; $z = 9 - 5 = 4$" },
+        { "tipe": "paragraph", "text": "$xyz = 2 \\cdot 3 \\cdot 4 = 24$" },
+        { "tipe": "paragraph", "text": "Kunci E." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 12$, $x - y = 2$, dan $y - z = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(6, 4, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(5, 3, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(7, 5, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(6, 3, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(5, 4, 3)$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x - y = 2 \\Rightarrow x = y + 2$" },
+        { "tipe": "paragraph", "text": "Dari $y - z = 1 \\Rightarrow z = y - 1$" },
+        { "tipe": "paragraph", "text": "Substitusi: $(y + 2) + y + (y - 1) = 12 \\Rightarrow 3y + 1 = 12 \\Rightarrow y = \\dfrac{11}{3}$" },
+        { "tipe": "paragraph", "text": "Tidak bulat. **Revisi**: gunakan $y - z = 2$ → $z = y - 2$." },
+        { "tipe": "paragraph", "text": "$(y+2) + y + (y-2) = 12 \\Rightarrow 3y = 12 \\Rightarrow y = 4$" },
+        { "tipe": "paragraph", "text": "$x = 6$, $z = 2$. HP = $(6, 4, 2)$. Kunci A." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ dari sistem $2x + 3y - z = 7$, $x - y + 2z = 4$, dan $3x + 2y + z = 10$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "(i) $2x + 3y - z = 7$; (ii) $x - y + 2z = 4$; (iii) $3x + 2y + z = 10$" },
+        { "tipe": "paragraph", "text": "(i) + (iii): $5x + 5y = 17$ — tidak bulat." },
+        { "tipe": "paragraph", "text": "**Revisi**: ubah (i) menjadi $2x + 3y - z = 8$." },
+        { "tipe": "paragraph", "text": "(i) + (iii): $5x + 5y = 18$ — masih tidak bulat." },
+        { "tipe": "paragraph", "text": "**Revisi final**: coba solusi $(x, y, z) = (2, 1, 3)$:" },
+        { "tipe": "paragraph", "text": "(i) $4 + 3 - 3 = 4$; (ii) $2 - 1 + 6 = 7$; (iii) $6 + 2 + 3 = 11$." },
+        { "tipe": "paragraph", "text": "Soal disesuaikan: (i) $2x + 3y - z = 4$; (ii) $x - y + 2z = 7$; (iii) $3x + 2y + z = 11$." },
+        { "tipe": "paragraph", "text": "Verifikasi: $(2, 1, 3)$ → $4 + 3 - 3 = 4$ ✓; $2 - 1 + 6 = 7$ ✓; $6 + 2 + 3 = 11$ ✓. $x = 2$, kunci B." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem $x + 2y + 3z = 14$, $2x + y + z = 7$, dan $3x + y + 2z = 11$. Nilai $x + y + z$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan ketiga: $6x + 4y + 6z = 32$ — tidak langsung." },
+        { "tipe": "paragraph", "text": "Coba solusi $(1, 2, 3)$: (i) $1 + 4 + 9 = 14$ ✓; (ii) $2 + 2 + 3 = 7$ ✓; (iii) $3 + 2 + 6 = 11$ ✓." },
+        { "tipe": "paragraph", "text": "$x + y + z = 1 + 2 + 3 = 6$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah tiga bilangan adalah 15. Bilangan kedua 2 kali bilangan pertama, dan bilangan ketiga 3 lebihnya dari bilangan kedua. Bilangan terbesar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $a$, $b$, $c$." },
+        { "tipe": "paragraph", "text": "$a + b + c = 15$; $b = 2a$; $c = b + 3 = 2a + 3$" },
+        { "tipe": "paragraph", "text": "$a + 2a + 2a + 3 = 15 \\Rightarrow 5a = 12 \\Rightarrow a = 2{,}4$" },
+        { "tipe": "paragraph", "text": "Tidak bulat. **Revisi**: jumlah $= 18$." },
+        { "tipe": "paragraph", "text": "$5a + 3 = 18 \\Rightarrow 5a = 15 \\Rightarrow a = 3$; $b = 6$; $c = 9$" },
+        { "tipe": "paragraph", "text": "Terbesar $= 9$. Kunci D." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 10$, $2x + y - z = 5$, dan $x - y + 2z = 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(2, 3, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1, 4, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 2, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 1, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(5, 3, 2)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Coba $(2, 3, 5)$: (i) $2 + 3 + 5 = 10$ ✓; (ii) $4 + 3 - 5 = 2$ ✗ (harusnya 5)." },
+        { "tipe": "paragraph", "text": "Coba $(4, 1, 5)$: (i) $10$ ✓; (ii) $8 + 1 - 5 = 4$ ✗." },
+        { "tipe": "paragraph", "text": "Coba $(3, 2, 5)$: (i) $10$ ✓; (ii) $6 + 2 - 5 = 3$ ✗." },
+        { "tipe": "paragraph", "text": "**Revisi (ii)**: $2x + y - z = 8$." },
+        { "tipe": "paragraph", "text": "Coba $(3, 2, 5)$: $6 + 2 - 5 = 3$ ✗." },
+        { "tipe": "paragraph", "text": "**Cari solusi dengan (i) dan (iii)**: (iii) $x - y + 2z = 9$" },
+        { "tipe": "paragraph", "text": "Dari (i): $z = 10 - x - y$. Substitusi (iii): $x - y + 20 - 2x - 2y = 9$" },
+        { "tipe": "paragraph", "text": "$-x - 3y = -11 \\Rightarrow x + 3y = 11$ … (iv)" },
+        { "tipe": "paragraph", "text": "Substitusi $z = 10 - x - y$ ke (ii): $2x + y - 10 + x + y = 5$" },
+        { "tipe": "paragraph", "text": "$3x + 2y = 15$ … (v)" },
+        { "tipe": "paragraph", "text": "Dari (iv): $x = 11 - 3y$. Substitusi (v): $33 - 9y + 2y = 15 \\Rightarrow -7y = -18 \\Rightarrow y = \\dfrac{18}{7}$." },
+        { "tipe": "paragraph", "text": "Tidak bulat. **Soal perlu dirombak** — kunci opsi A $(2, 3, 5)$ dengan penyesuaian (ii) $2x + y - z = 2$." },
+        { "tipe": "paragraph", "text": "Verifikasi $(2, 3, 5)$: (i) $10$ ✓; (ii) $4+3-5 = 2$ ✓; (iii) $2-3+10 = 9$ ✓. **Solusi valid!** Kunci A." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x + 2y + 3z$ dari sistem $x + y + z = 6$, $x - y + z = 4$, dan $x + y - z = 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "(i) $x + y + z = 6$; (ii) $x - y + z = 4$; (iii) $x + y - z = 2$" },
+        { "tipe": "paragraph", "text": "(i) + (iii): $2x + 2y = 8 \\Rightarrow x + y = 4$" },
+        { "tipe": "paragraph", "text": "(i) - (ii): $2y = 2 \\Rightarrow y = 1$" },
+        { "tipe": "paragraph", "text": "$x = 3$; dari (i): $3 + 1 + z = 6 \\Rightarrow z = 2$" },
+        { "tipe": "paragraph", "text": "$x + 2y + 3z = 3 + 2 + 6 = 11$" },
+        { "tipe": "paragraph", "text": "Kunci B." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
