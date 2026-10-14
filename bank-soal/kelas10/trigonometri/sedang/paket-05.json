@@ -1,0 +1,214 @@
+{
+  "id": "bs-k10-trig-s-05",
+  "nama": "Bank Soal Sedang - Paket 5",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang campuran tentang trigonometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-s-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah tangga bersandar pada dinding dengan sudut 60° terhadap tanah. Jika ujung atas tangga berada 6 m dari tanah, panjang tangga adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/tangga-60.png",
+          "caption": "Tangga bersandar pada dinding dengan sudut 60° terhadap tanah, tinggi ujung atas = 6 m.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$12$ m" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{3}$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 60° = \\dfrac{\\text{tinggi}}{\\text{tangga}}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3} = \\dfrac{6}{\\text{tangga}} \\Rightarrow \\text{tangga} = \\dfrac{12}{\\sqrt{3}} = 4\\sqrt{3}$ m" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 75° - \\sin 15°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 75° = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$, $\\sin 15° = \\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$" },
+        { "tipe": "paragraph", "text": "$\\sin 75° - \\sin 15° = \\dfrac{2\\sqrt{2}}{4} = \\dfrac{1}{2}\\sqrt{2}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\sin \\alpha = \\dfrac{4}{5}$, $\\alpha$ di kuadran I. Nilai $\\sin 2\\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{32}{25}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{3}{5}$" },
+        { "tipe": "paragraph", "text": "$\\sin 2\\alpha = 2 \\cdot \\dfrac{4}{5} \\cdot \\dfrac{3}{5} = \\dfrac{24}{25}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin 40° \\cos 20° + \\cos 40° \\sin 20°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus jumlah: $\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B$" },
+        { "tipe": "paragraph", "text": "$= \\sin(40° + 20°) = \\sin 60° = \\dfrac{1}{2}\\sqrt{3}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 20° \\cos 40° - \\sin 20° \\sin 40°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus selisih cosinus: $\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B$" },
+        { "tipe": "paragraph", "text": "$= \\cos(20° + 40°) = \\cos 60° = \\dfrac{1}{2}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga memiliki sisi $a = 7$ cm dan $b = 8$ cm dengan sudut apit $C = 120°$. Panjang sisi $c$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/segitiga-7-8-120.png",
+          "caption": "Segitiga ABC dengan sisi a = 7, b = 8, dan sudut C = 120°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sqrt{113}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{169}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{57}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$c^2 = 49 + 64 - 2(7)(8)\\cos 120°$" },
+        { "tipe": "paragraph", "text": "$= 113 - 112 \\cdot (-\\dfrac{1}{2}) = 113 + 56 = 169$" },
+        { "tipe": "paragraph", "text": "$c = \\sqrt{169} = 13$ cm" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasil $c = 13$ cm. Kunci opsi C." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\cos \\alpha = -\\dfrac{3}{5}$ dan $\\alpha$ di kuadran II, nilai $\\sin \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kuadran II: $\\sin > 0$, $\\cos < 0$." },
+        { "tipe": "paragraph", "text": "$\\sin^2 \\alpha = 1 - \\dfrac{9}{25} = \\dfrac{16}{25}$" },
+        { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{4}{5}$ (positif)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{2\\tan 15°}{1 - \\tan^2 15°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus: $\\dfrac{2\\tan \\alpha}{1 - \\tan^2 \\alpha} = \\tan 2\\alpha$" },
+        { "tipe": "paragraph", "text": "$= \\tan 30° = \\dfrac{1}{3}\\sqrt{3}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga $ABC$ dengan $a = 10$ cm, $b = 12$ cm, $c = 14$ cm, nilai $\\cos C$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab} = \\dfrac{100 + 144 - 196}{2 \\cdot 10 \\cdot 12} = \\dfrac{48}{240} = \\dfrac{1}{5}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 60°}{1 + \\cos 60°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{\\frac{1}{2}\\sqrt{3}}{1 + \\frac{1}{2}} = \\dfrac{\\frac{1}{2}\\sqrt{3}}{\\frac{3}{2}} = \\dfrac{1}{3}\\sqrt{3}$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
