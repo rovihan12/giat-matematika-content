@@ -21,7 +21,7 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Akar: $(x - 2)(x - 5) = 0 \\Rightarrow \\alpha = 5$, $\\beta = 2$." },
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 5) = 0 \\Rightarrow \\alpha = 5$, $\\beta = 2$." },
         { "tipe": "paragraph", "text": "$\\alpha - \\beta = 3$" }
       ],
       "tingkat": "SEDANG"
@@ -145,7 +145,7 @@
       ],
       "tingkat": "SEDANG"
     },
-      {
+    {
       "id": "bs-k10-fk-s-03-q08",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Salah satu akar persamaan $x^2 - (p+3)x + 8 = 0$ adalah 2. Nilai $p$ adalah..." }
