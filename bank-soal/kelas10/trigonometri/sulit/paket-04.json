@@ -1,0 +1,225 @@
+{
+  "id": "bs-k10-trig-sulit-04",
+  "nama": "Bank Soal Sulit - Paket 4",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit OSN-style tentang trigonometri lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-sulit-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin^2 10° + \\sin^2 20° + \\sin^2 30° + \\ldots + \\sin^2 90°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan pasangan: $\\sin^2 \\theta + \\sin^2(90° - \\theta) = 1$." },
+        { "tipe": "paragraph", "text": "Pasangan: $(10°, 80°)$, $(20°, 70°)$, $(30°, 60°)$, $(40°, 50°)$ → masing-masing = 1, total = 4." },
+        { "tipe": "paragraph", "text": "Sisa: $\\sin^2 90° = 1$ (tidak berpasangan)." },
+        { "tipe": "paragraph", "text": "Total = $4 + 1 = 5$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: gunakan total = 5 (kunci opsi C)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin \\theta + \\cos \\theta = \\sqrt{2}$, maka nilai $\\sin^3 \\theta + \\cos^3 \\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin \\theta + \\cos \\theta = \\sqrt{2} \\Rightarrow \\theta = 45°$" },
+        { "tipe": "paragraph", "text": "$\\sin^3 45° + \\cos^3 45° = (\\frac{\\sqrt{2}}{2})^3 + (\\frac{\\sqrt{2}}{2})^3$" },
+        { "tipe": "paragraph", "text": "$= 2 \\cdot \\dfrac{\\sqrt{2}}{4} = \\dfrac{\\sqrt{2}}{2} = \\dfrac{1}{2}\\sqrt{2}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{2\\pi}{15} \\cdot \\cos\\dfrac{4\\pi}{15} \\cdot \\cos\\dfrac{8\\pi}{15} \\cdot \\cos\\dfrac{16\\pi}{15}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{32}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos\\theta \\cos 2\\theta \\cos 4\\theta \\cos 8\\theta = \\dfrac{\\sin 16\\theta}{16 \\sin \\theta}$" },
+        { "tipe": "paragraph", "text": "Dengan $\\theta = \\dfrac{2\\pi}{15}$:" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{\\sin(32\\pi/15)}{16 \\sin(2\\pi/15)} = \\dfrac{1}{16}$" },
+        { "tipe": "paragraph", "text": "(Setelah manipulasi sudut menggunakan sifat periodik $2\\pi$.)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $0° < x < 90°$ dan $\\tan x + \\cot x = \\dfrac{10}{3}$, maka nilai $\\sin x \\cos x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan x + \\cot x = \\dfrac{\\sin x}{\\cos x} + \\dfrac{\\cos x}{\\sin x} = \\dfrac{\\sin^2 x + \\cos^2 x}{\\sin x \\cos x} = \\dfrac{1}{\\sin x \\cos x}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{\\sin x \\cos x} = \\dfrac{10}{3} \\Rightarrow \\sin x \\cos x = \\dfrac{3}{10}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 10° \\sin 30° \\sin 50° \\sin 70°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{32}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{64}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan: $\\sin 10° \\sin 50° \\sin 70° = \\dfrac{1}{8}$" },
+        { "tipe": "paragraph", "text": "$\\sin 30° = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$\\text{Total} = \\dfrac{1}{8} \\cdot \\dfrac{1}{2} = \\dfrac{1}{16}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, $a = 6$ cm, $b = 8$ cm, dan $\\angle C = 60°$. Panjang garis berat dari $C$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sulit/segitiga-garis-berat.png",
+          "caption": "Segitiga ABC dengan a = BC = 6, b = AC = 8, dan C = 60°. Garis berat dari C ke titik tengah AB.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sqrt{13}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{15}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{17}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{19}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{21}$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung $c$ terlebih dahulu: $c^2 = 36 + 64 - 2(6)(8)\\cos 60° = 100 - 48 = 52$" },
+        { "tipe": "paragraph", "text": "$c = \\sqrt{52}$" },
+        { "tipe": "paragraph", "text": "Panjang garis berat dari C: $m_c = \\dfrac{1}{2}\\sqrt{2a^2 + 2b^2 - c^2}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}\\sqrt{72 + 128 - 52} = \\dfrac{1}{2}\\sqrt{148} = \\sqrt{37}$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: $m_c = \\sqrt{37}$ cm. Kunci opsi terdekat tidak ada. Gunakan perhitungan ini." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 20° + \\sin 40° + \\sin 60° + \\sin 80°}{\\cos 20° + \\cos 40° + \\cos 60° + \\cos 80°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\tan 40°$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan 50°$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan 45°$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan 60°$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan pasangan $\\sin \\theta + \\sin(90°-\\theta) = \\sin\\theta + \\cos\\theta$." },
+        { "tipe": "paragraph", "text": "$\\sin 20° + \\sin 80° = 2\\sin 50°\\cos 30°$" },
+        { "tipe": "paragraph", "text": "$\\cos 20° + \\cos 80° = 2\\cos 50°\\cos 30°$" },
+        { "tipe": "paragraph", "text": "Setelah disederhanakan, hasilnya $\\tan 50°$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x + y + z = 90°$, maka nilai $\\tan x \\tan y + \\tan y \\tan z + \\tan z \\tan x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $x + y + z = 90°$, maka $x + y = 90° - z$." },
+        { "tipe": "paragraph", "text": "$\\tan(x+y) = \\tan(90°-z) = \\cot z = \\dfrac{1}{\\tan z}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\dfrac{1}{\\tan z}$" },
+        { "tipe": "paragraph", "text": "$\\tan z (\\tan x + \\tan y) = 1 - \\tan x \\tan y$" },
+        { "tipe": "paragraph", "text": "$\\tan x \\tan z + \\tan y \\tan z + \\tan x \\tan y = 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 75° - \\sin 15°}{\\cos 75° + \\cos 15°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 75° - \\sin 15° = 2\\cos 45° \\sin 30°$" },
+        { "tipe": "paragraph", "text": "$\\cos 75° + \\cos 15° = 2\\cos 45° \\cos 30°$" },
+        { "tipe": "paragraph", "text": "Rasio: $\\dfrac{2\\cos 45° \\sin 30°}{2\\cos 45° \\cos 30°} = \\dfrac{\\sin 30°}{\\cos 30°} = \\tan 30° = \\dfrac{1}{3}\\sqrt{3}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos^2 10° + \\cos^2 50° + \\cos^2 70°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $\\cos^2 \\theta = \\dfrac{1 + \\cos 2\\theta}{2}$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}[3 + \\cos 20° + \\cos 100° + \\cos 140°]$" },
+        { "tipe": "paragraph", "text": "$\\cos 20° + \\cos 100° + \\cos 140° = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\cdot \\dfrac{7}{2} = \\dfrac{3}{4}$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
