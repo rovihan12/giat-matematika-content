@@ -1,0 +1,228 @@
+{
+  "id": "bs-k10-spl-s-05",
+  "nama": "Bank Soal Sedang - Paket 5",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang campuran SPLDV/SPLTV aplikatif dan pertidaksamaan kontekstual",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-s-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Harga 3 buku dan 2 pulpen adalah Rp31.000. Harga 2 buku dan 3 pulpen adalah Rp29.000. Harga 1 buku adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp6.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp7.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp8.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp9.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp10.000" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal buku $= b$, pulpen $= p$." },
+        { "tipe": "paragraph", "text": "$3b + 2p = 31.000$ … (i)" },
+        { "tipe": "paragraph", "text": "$2b + 3p = 29.000$ … (ii)" },
+        { "tipe": "paragraph", "text": "(i) + (ii): $5b + 5p = 60.000 \\Rightarrow b + p = 12.000$" },
+        { "tipe": "paragraph", "text": "(i) $-$ (ii): $b - p = 2.000$" },
+        { "tipe": "paragraph", "text": "Jumlahkan: $2b = 14.000 \\Rightarrow b = 7.000$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang pedagang menjual 20 kg mangga dan 15 kg jeruk dengan harga Rp320.000. Jika harga 1 kg mangga Rp10.000, harga 1 kg jeruk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp7.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp8.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp8.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp9.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp9.500" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal jeruk $= j$." },
+        { "tipe": "paragraph", "text": "$20(10.000) + 15j = 320.000$" },
+        { "tipe": "paragraph", "text": "$200.000 + 15j = 320.000$" },
+        { "tipe": "paragraph", "text": "$15j = 120.000 \\Rightarrow j = 8.000$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah umur ayah dan anak 45 tahun. Lima tahun yang lalu, umur ayah 4 kali umur anak. Umur anak sekarang adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$12$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$13$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$15$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$18$ tahun" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
+        { "tipe": "paragraph", "text": "$A + a = 45$ … (i)" },
+        { "tipe": "paragraph", "text": "$A - 5 = 4(a - 5) \\Rightarrow A = 4a - 15$ … (ii)" },
+        { "tipe": "paragraph", "text": "Substitusi (i): $4a - 15 + a = 45 \\Rightarrow 5a = 60 \\Rightarrow a = 12$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bilangan terdiri dari 2 angka. Jumlah angka-angkanya 9. Jika angka-angka ditukar, nilainya berkurang 27. Bilangan asli adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$54$" } ],
+        [ { "tipe": "paragraph", "text": "$63$" } ],
+        [ { "tipe": "paragraph", "text": "$72$" } ],
+        [ { "tipe": "paragraph", "text": "$81$" } ],
+        [ { "tipe": "paragraph", "text": "$90$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal bilangan $= 10a + b$." },
+        { "tipe": "paragraph", "text": "$a + b = 9$ … (i)" },
+        { "tipe": "paragraph", "text": "Setelah ditukar: $10b + a$. Selisih: $(10a + b) - (10b + a) = 27$." },
+        { "tipe": "paragraph", "text": "$9a - 9b = 27 \\Rightarrow a - b = 3$ … (ii)" },
+        { "tipe": "paragraph", "text": "(i) + (ii): $2a = 12 \\Rightarrow a = 6$, $b = 3$." },
+        { "tipe": "paragraph", "text": "Bilangan asli = 63." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tahun yang lalu umur kakak 3 kali umur adik. Sekarang umur kakak 2 kali umur adik. Umur adik sekarang adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$5$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$6$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$7$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$8$ tahun" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal kakak $= K$, adik $= A$." },
+        { "tipe": "paragraph", "text": "$K = 2A$ … (i)" },
+        { "tipe": "paragraph", "text": "$K - 2 = 3(A - 2) \\Rightarrow K = 3A - 4$ … (ii)" },
+        { "tipe": "paragraph", "text": "Dari (i) = (ii): $2A = 3A - 4 \\Rightarrow A = 4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling persegi panjang adalah 60 cm. Jika panjang 2 kali lebarnya, luas persegi panjang adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$150$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$180$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$200$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$220$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$240$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal lebar $= l$, panjang $= p = 2l$." },
+        { "tipe": "paragraph", "text": "$2(p + l) = 60 \\Rightarrow p + l = 30$" },
+        { "tipe": "paragraph", "text": "$2l + l = 30 \\Rightarrow l = 10$; $p = 20$" },
+        { "tipe": "paragraph", "text": "Luas $= 20 \\cdot 10 = 200$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada suatu pertandingan, setiap kemenangan mendapat 3 poin, seri mendapat 1 poin, kalah 0 poin. Sebuah tim bermain 20 kali dan mendapat 30 poin tanpa kalah. Banyak kemenangan tim tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $m$ = menang, $s$ = seri." },
+        { "tipe": "paragraph", "text": "Tanpa kalah: $m + s = 20$." },
+        { "tipe": "paragraph", "text": "$3m + s = 30$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $2m = 10 \\Rightarrow m = 5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang tukang parkir mendapat pemasukan Rp182.500 dari 25 motor dan 15 mobil. Jika tarif mobil Rp8.000, tarif motor adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp2.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp3.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp3.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp4.000" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal tarif motor $= t$." },
+        { "tipe": "paragraph", "text": "$25t + 15(8.000) = 182.500$" },
+        { "tipe": "paragraph", "text": "$25t + 120.000 = 182.500$" },
+        { "tipe": "paragraph", "text": "$25t = 62.500 \\Rightarrow t = 2.500$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Empat tahun lalu umur ayah 4 kali umur anak. Sekarang umur ayah 3 kali umur anak. Jumlah umur mereka sekarang adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$36$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$40$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$44$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$48$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$52$ tahun" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
+        { "tipe": "paragraph", "text": "$A = 3a$ … (i)" },
+        { "tipe": "paragraph", "text": "$A - 4 = 4(a - 4) \\Rightarrow A = 4a - 12$ … (ii)" },
+        { "tipe": "paragraph", "text": "Dari (i) = (ii): $3a = 4a - 12 \\Rightarrow a = 12$, $A = 36$." },
+        { "tipe": "paragraph", "text": "$A + a = 36 + 12 = 48$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah toko menjual 2 jenis kue. Kue A dijual Rp3.000 dan kue B dijual Rp5.000. Jika terjual 50 kue dengan total Rp190.000, banyak kue B yang terjual adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal kue A $= a$, kue B $= b$." },
+        { "tipe": "paragraph", "text": "$a + b = 50$ … (i)" },
+        { "tipe": "paragraph", "text": "$3.000a + 5.000b = 190.000$ … (ii)" },
+        { "tipe": "paragraph", "text": "Bagi (ii) dengan 1.000: $3a + 5b = 190$" },
+        { "tipe": "paragraph", "text": "Dari (i): $a = 50 - b$. Substitusi: $3(50 - b) + 5b = 190$" },
+        { "tipe": "paragraph", "text": "$150 - 3b + 5b = 190 \\Rightarrow 2b = 40 \\Rightarrow b = 20$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
