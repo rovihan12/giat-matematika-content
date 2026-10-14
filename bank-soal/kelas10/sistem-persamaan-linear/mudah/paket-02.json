@@ -65,10 +65,10 @@
       ],
       "tingkat": "MUDAH"
     },
-    {
+      {
       "id": "bs-k10-spl-m-02-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x + y$ dari sistem $3x + 4y = 22$ dan $3x - 4y = 2$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x + y$ dari sistem $3x + 4y = 20$ dan $3x - 4y = 4$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$3$" } ],
@@ -77,12 +77,11 @@
         [ { "tipe": "paragraph", "text": "$6$" } ],
         [ { "tipe": "paragraph", "text": "$7$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Jumlahkan: $6x = 24 \\Rightarrow x = 4$" },
-        { "tipe": "paragraph", "text": "Substitusi: $12 + 4y = 22 \\Rightarrow y = 2{,}5$" },
-        { "tipe": "paragraph", "text": "$x + y = 6{,}5$" },
-        { "tipe": "paragraph", "text": "⚠️ Revisi: kemungkinan soal salah ketik. Jika $3x + 4y = 20$, maka $y = 2$, $x + y = 6$." }
+        { "tipe": "paragraph", "text": "Substitusi: $3(4) + 4y = 20 \\Rightarrow 12 + 4y = 20 \\Rightarrow y = 2$" },
+        { "tipe": "paragraph", "text": "$x + y = 6$" }
       ],
       "tingkat": "MUDAH"
     },
@@ -139,7 +138,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Persamaan kedua: $3(x + y) = 12 \\Rightarrow x + y = 4$" },
         { "tipe": "paragraph", "text": "Padahal persamaan pertama $x + y = 6$." },
-        { "tipe": "paragraph", "text": "Kontradiksi ($6 \\neq 4$) → **tidak ada solusi**." }
+        { "tipe": "paragraph", "text": "Kontradiksi ($6 \\neq 4$) → tidak ada solusi." }
       ],
       "tingkat": "MUDAH"
     },
@@ -196,12 +195,11 @@
         [ { "tipe": "paragraph", "text": "$12$" } ],
         [ { "tipe": "paragraph", "text": "$13$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Jumlahkan: $3x = 9 \\Rightarrow x = 3$" },
         { "tipe": "paragraph", "text": "$x - y = 1 \\Rightarrow 3 - y = 1 \\Rightarrow y = 2$" },
-        { "tipe": "paragraph", "text": "$2x + 3y = 6 + 6 = 12$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasil $= 12$. Kunci opsi D." }
+        { "tipe": "paragraph", "text": "$2x + 3y = 6 + 6 = 12$" }
       ],
       "tingkat": "MUDAH"
     }
