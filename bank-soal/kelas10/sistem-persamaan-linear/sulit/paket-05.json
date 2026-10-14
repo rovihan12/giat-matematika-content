@@ -85,7 +85,7 @@
         { "tipe": "paragraph", "text": "$(0, 3)$: $f = 9$" },
         { "tipe": "paragraph", "text": "$(0, 6)$: $f = 18$" },
         { "tipe": "paragraph", "text": "$(6, 0)$: $f = 12$" },
-        { "tipe": "paragraph", "text": "Nilai maks = 18" }
+        { "tipe": "paragraph", "text": "Nilai maks = $f(0, 6) = 18$." }
       ],
       "tingkat": "SULIT"
     },
@@ -170,7 +170,7 @@
     {
       "id": "bs-k10-spl-sulit-05-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Tiga bilangan membentuk barisan aritmatika dengan jumlah 21. Jika bilangan terbesar 3 kali terkecil, bilangan terkecil adalah..." }
+        { "tipe": "paragraph", "text": "Tiga bilangan membentuk barisan aritmatika dengan jumlah 21. Jika bilangan terbesar sama dengan 2 kali bilangan terkecil ditambah 5, bilangan terkecil adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$3$" } ],
@@ -183,36 +183,28 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal $a - b, a, a + b$ (barisan aritmatika)." },
         { "tipe": "paragraph", "text": "Jumlah: $3a = 21 \\Rightarrow a = 7$" },
-        { "tipe": "paragraph", "text": "$a + b = 3(a - b) \\Rightarrow 7 + b = 21 - 3b \\Rightarrow 4b = 14$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Revisi**: gunakan "terbesar 2 kali terkecil ditambah 1"." },
-        { "tipe": "paragraph", "text": "$7 + b = 2(7 - b) + 1 \\Rightarrow 7 + b = 15 - 2b \\Rightarrow 3b = 8$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final**: "terbesar = 5 kali terkecil - 3"." },
-        { "tipe": "paragraph", "text": "$7 + b = 5(7 - b) - 3 \\Rightarrow 7 + b = 32 - 5b \\Rightarrow 6b = 25$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final terbaik**: gunakan $a = 7$, "terbesar 3 kali terkecil" → $7 + b = 3(7 - b) \\Rightarrow 4b = 14$ → tidak bulat. **Ganti**: terkecil $= 3$." },
-        { "tipe": "paragraph", "text": "Solusi $3, 7, 11$: jumlah 21 ✓. Terbesar 11, terkecil 3. $11 = 3 \\cdot 3 + 2$." },
-        { "tipe": "paragraph", "text": "Ganti kondisi: "terbesar = 2 kali terkecil + 5"." },
-        { "tipe": "paragraph", "text": "$11 = 2(3) + 5 = 11$ ✓. Kunci A ($3$)." }
+        { "tipe": "paragraph", "text": "$a + b = 2(a - b) + 5 \\Rightarrow 7 + b = 14 - 2b + 5$" },
+        { "tipe": "paragraph", "text": "$3b = 12 \\Rightarrow b = 4$" },
+        { "tipe": "paragraph", "text": "Bilangan: $3, 7, 11$. Terkecil $= 3$." }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-spl-sulit-05-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $x + y = 5$ dan $x^2 + y^2 = 13$, nilai $x^3 + y^3$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $x + y = 5$ dan $xy = 4$, nilai $x^3 + y^3$ adalah..." }
       ],
       "pilihan": [
+        [ { "tipe": "paragraph", "text": "$55$" } ],
         [ { "tipe": "paragraph", "text": "$60$" } ],
         [ { "tipe": "paragraph", "text": "$65$" } ],
         [ { "tipe": "paragraph", "text": "$70$" } ],
-        [ { "tipe": "paragraph", "text": "$75$" } ],
-        [ { "tipe": "paragraph", "text": "$80$" } ]
+        [ { "tipe": "paragraph", "text": "$75$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x^2 + y^2 = (x + y)^2 - 2xy \\Rightarrow 13 = 25 - 2xy \\Rightarrow xy = 6$" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 125 - 3 \\cdot 6 \\cdot 5 = 125 - 90 = 35$" },
-        { "tipe": "paragraph", "text": "**Revisi**: hasil $= 35$. Kunci terdekat: tidak ada. **Ubah soal**: $x + y = 5$, $xy = 4$, cari $x^3 + y^3$." },
-        { "tipe": "paragraph", "text": "$= 125 - 60 = 65$ ✓. Kunci B." }
+        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
+        { "tipe": "paragraph", "text": "$= 125 - 3 \\cdot 4 \\cdot 5 = 125 - 60 = 65$" }
       ],
       "tingkat": "SULIT"
     }
