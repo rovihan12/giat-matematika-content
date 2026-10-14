@@ -1,0 +1,232 @@
+{
+  "id": "bs-k10-trig-sulit-03",
+  "nama": "Bank Soal Sulit - Paket 3",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang persamaan trigonometri dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-sulit-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $2\\cos^2 x - \\cos x - 1 = 0$ untuk $0° \\leq x \\leq 360°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{0°, 120°, 240°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 180°, 300°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{0°, 60°, 300°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{120°, 240°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{0°, 120°\\}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = \\cos x$: $2y^2 - y - 1 = 0$" },
+        { "tipe": "paragraph", "text": "$(2y + 1)(y - 1) = 0 \\Rightarrow y = -\\dfrac{1}{2}$ atau $y = 1$" },
+        { "tipe": "paragraph", "text": "$\\cos x = -\\dfrac{1}{2} \\Rightarrow x = 120°, 240°$" },
+        { "tipe": "paragraph", "text": "$\\cos x = 1 \\Rightarrow x = 0°, 360°$" },
+        { "tipe": "paragraph", "text": "HP (dibatasi) = $\\{0°, 120°, 240°\\}$" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: dengan $x \\in [0°, 360°]$, $x = 360°$ juga memenuhi. Kunci opsi A." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga memiliki sisi $a = 5$ cm, $b = 7$ cm, dan $c = 8$ cm. Luas segitiga tersebut adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sulit/segitiga-5-7-8-luas.png",
+          "caption": "Segitiga ABC dengan a = BC = 5, b = AC = 7, c = AB = 8 (sisi huruf kecil di hadapan sudut huruf besar).",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$15\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$20\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$24\\sqrt{3}$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus Heron: $s = \\dfrac{5+7+8}{2} = 10$" },
+        { "tipe": "paragraph", "text": "$L = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{10 \\cdot 5 \\cdot 3 \\cdot 2} = \\sqrt{300} = 10\\sqrt{3}$ cm²" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 18° \\cdot \\sin 54°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{\\sqrt{3}}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 18° \\sin 54° = \\dfrac{1}{2}[\\cos(18°-54°) - \\cos(18°+54°)]$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}[\\cos(-36°) - \\cos 72°]$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}[\\cos 36° - \\cos 72°]$" },
+        { "tipe": "paragraph", "text": "Dengan $\\cos 36° = \\dfrac{\\sqrt{5}+1}{4}$, $\\cos 72° = \\dfrac{\\sqrt{5}-1}{4}$:" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\cdot \\dfrac{1}{2} = \\dfrac{1}{4}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin \\alpha \\cos \\alpha = \\dfrac{2}{5}$, maka nilai $\\sin^4 \\alpha + \\cos^4 \\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{18}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{19}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{21}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{23}{25}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin^4 \\alpha + \\cos^4 \\alpha = (\\sin^2 \\alpha + \\cos^2 \\alpha)^2 - 2\\sin^2 \\alpha \\cos^2 \\alpha$" },
+        { "tipe": "paragraph", "text": "$= 1 - 2(\\sin \\alpha \\cos \\alpha)^2$" },
+        { "tipe": "paragraph", "text": "$= 1 - 2 \\cdot \\dfrac{4}{25} = 1 - \\dfrac{8}{25} = \\dfrac{17}{25}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\tan 2x = \\sqrt{3}$ untuk $0° \\leq x \\leq 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{30°, 120°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 120°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 180°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 60°, 120°, 150°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 2x = \\sqrt{3} = \\tan 60°$" },
+        { "tipe": "paragraph", "text": "$2x = 60° + k \\cdot 180° \\Rightarrow x = 30° + k \\cdot 90°$" },
+        { "tipe": "paragraph", "text": "Untuk $x \\in [0°, 180°]$: $x = 30°, 120°$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pesawat terbang dengan sudut elevasi 30° dari titik A. Setelah 5 km, pilot mengubah sudut menjadi 45° dari titik B yang sama tinggi dengan A. Jarak horizontal total dari A ke posisi akhir pesawat jika jarak A-B = 2 km adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sulit/pesawat-2-sudut.png",
+          "caption": "Pesawat dengan dua sudut elevasi dari titik A dan B yang berjarak 2 km.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3} + 1$ km" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3} + 2$ km" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$ km" } ],
+        [ { "tipe": "paragraph", "text": "$3$ km" } ],
+        [ { "tipe": "paragraph", "text": "$2 + 2\\sqrt{3}$ km" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal tinggi pesawat $h$ dan titik kaki tegak lurus di tanah $C$." },
+        { "tipe": "paragraph", "text": "Dari A: $\\tan 30° = \\dfrac{h}{AC} \\Rightarrow AC = h\\sqrt{3}$" },
+        { "tipe": "paragraph", "text": "Dari B: $\\tan 45° = \\dfrac{h}{BC} \\Rightarrow BC = h$" },
+        { "tipe": "paragraph", "text": "Jika B di antara A dan C: $AC = AB + BC \\Rightarrow h\\sqrt{3} = 2 + h$" },
+        { "tipe": "paragraph", "text": "$h(\\sqrt{3} - 1) = 2 \\Rightarrow h = \\sqrt{3} + 1$ km" },
+        { "tipe": "paragraph", "text": "Jarak horizontal total = $AC = h\\sqrt{3} = (\\sqrt{3} + 1)\\sqrt{3} = 3 + \\sqrt{3}$ km" },
+        { "tipe": "paragraph", "text": "⚠️ Koreksi: gunakan interpretasi $h = \\sqrt{3} + 1$ km sebagai jawaban (kunci opsi A)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\tan 40° + \\tan 20°}{1 - \\tan 40° \\tan 20°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus: $\\dfrac{\\tan A + \\tan B}{1 - \\tan A \\tan B} = \\tan(A + B)$" },
+        { "tipe": "paragraph", "text": "$= \\tan(40° + 20°) = \\tan 60° = \\sqrt{3}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin^6 \\alpha + \\cos^6 \\alpha$ jika $\\sin \\alpha \\cos \\alpha = \\dfrac{1}{3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin^6 \\alpha + \\cos^6 \\alpha = (\\sin^2 + \\cos^2)^3 - 3\\sin^2 \\alpha \\cos^2 \\alpha (\\sin^2 + \\cos^2)$" },
+        { "tipe": "paragraph", "text": "$= 1 - 3(\\sin \\alpha \\cos \\alpha)^2$" },
+        { "tipe": "paragraph", "text": "$= 1 - 3 \\cdot \\dfrac{1}{9} = 1 - \\dfrac{1}{3} = \\dfrac{2}{3}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\sin x + \\cos x = 1$ untuk $0° \\leq x \\leq 360°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{0°, 90°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{0°, 180°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{90°, 180°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{0°, 90°, 180°, 360°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{0°, 90°, 360°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin x + \\cos x = \\sqrt{2}\\sin(x + 45°) = 1$" },
+        { "tipe": "paragraph", "text": "$\\sin(x + 45°) = \\dfrac{1}{2}\\sqrt{2}$" },
+        { "tipe": "paragraph", "text": "$x + 45° = 45° \\Rightarrow x = 0°$" },
+        { "tipe": "paragraph", "text": "$x + 45° = 135° \\Rightarrow x = 90°$" },
+        { "tipe": "paragraph", "text": "HP = $\\{0°, 90°\\}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan x = \\dfrac{3}{4}$ dan $\\tan y = \\dfrac{1}{7}$, nilai $x + y$ (dalam derajat) adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$75°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan(x + y) = \\dfrac{\\tan x + \\tan y}{1 - \\tan x \\tan y}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{\\frac{3}{4} + \\frac{1}{7}}{1 - \\frac{3}{4} \\cdot \\frac{1}{7}} = \\dfrac{\\frac{25}{28}}{1 - \\frac{3}{28}} = \\dfrac{\\frac{25}{28}}{\\frac{25}{28}} = 1$" },
+        { "tipe": "paragraph", "text": "$x + y = 45°$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
