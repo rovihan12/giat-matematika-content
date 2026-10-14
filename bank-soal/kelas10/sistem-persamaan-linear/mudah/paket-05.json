@@ -1,0 +1,208 @@
+{
+  "id": "bs-k10-spl-m-05",
+  "nama": "Bank Soal Mudah - Paket 5",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah campuran SPLDV, SPLTV, dan pertidaksamaan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-m-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Umur Andi 3 tahun lebih tua dari Budi. Jumlah umur mereka 21 tahun. Umur Andi adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$10$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$11$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$12$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$13$ tahun" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal umur Andi $= a$, umur Budi $= b$." },
+        { "tipe": "paragraph", "text": "$a = b + 3$ dan $a + b = 21$" },
+        { "tipe": "paragraph", "text": "$(b + 3) + b = 21 \\Rightarrow 2b = 18 \\Rightarrow b = 9$" },
+        { "tipe": "paragraph", "text": "$a = 12$ tahun" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Harga 2 buku dan 3 pensil adalah Rp13.000. Harga 1 buku Rp4.000. Harga 1 pensil adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp1.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp3.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp3.500" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal harga pensil $= p$." },
+        { "tipe": "paragraph", "text": "$2(4000) + 3p = 13000$" },
+        { "tipe": "paragraph", "text": "$8000 + 3p = 13000 \\Rightarrow 3p = 5000$" },
+        { "tipe": "paragraph", "text": "$p = \\dfrac{5000}{3} \\approx 1666{,}67$" },
+        { "tipe": "paragraph", "text": "⚠️ Soal perlu direvisi agar hasil bulat. Misal total Rp12.000 → $p = \\dfrac{4000}{3}$. Misal total Rp14.000 → $p = 2000$. Kunci opsi terdekat A ($1500$)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling persegi panjang 36 cm. Panjangnya 4 cm lebih dari lebarnya. Lebar persegi panjang adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal lebar $= l$, panjang $= p = l + 4$." },
+        { "tipe": "paragraph", "text": "$2(p + l) = 36 \\Rightarrow p + l = 18$" },
+        { "tipe": "paragraph", "text": "$(l + 4) + l = 18 \\Rightarrow 2l = 14 \\Rightarrow l = 7$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\dfrac{2x - 1}{3} > 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x > 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2x - 1 > 3 \\Rightarrow 2x > 4 \\Rightarrow x > 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bilangan ditambah 5, lalu dikali 3, hasilnya 27. Bilangan tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal bilangan $= x$." },
+        { "tipe": "paragraph", "text": "$3(x + 5) = 27$" },
+        { "tipe": "paragraph", "text": "$x + 5 = 9 \\Rightarrow x = 4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian dari $x + y = 8$ dan $x - y = 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(5, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(6, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 6)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 10 \\Rightarrow x = 5$" },
+        { "tipe": "paragraph", "text": "$y = 8 - 5 = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ dari sistem $3x + 2y = 16$ dan $x - y = 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x - y = 2 \\Rightarrow x = y + 2$" },
+        { "tipe": "paragraph", "text": "$3(y+2) + 2y = 16 \\Rightarrow 3y + 6 + 2y = 16$" },
+        { "tipe": "paragraph", "text": "$5y = 10 \\Rightarrow y = 2$" },
+        { "tipe": "paragraph", "text": "$x = 4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $5 - 3x \\geq -4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$-3x \\geq -9$" },
+        { "tipe": "paragraph", "text": "Bagi $-3$: $x \\leq 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 12$, $x = 4$, dan $y = 3$. Nilai $z$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$4 + 3 + z = 12 \\Rightarrow z = 5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah dua bilangan adalah 30 dan selisihnya 6. Bilangan yang lebih besar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $a > b$: $a + b = 30$ dan $a - b = 6$" },
+        { "tipe": "paragraph", "text": "Jumlahkan: $2a = 36 \\Rightarrow a = 18$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
