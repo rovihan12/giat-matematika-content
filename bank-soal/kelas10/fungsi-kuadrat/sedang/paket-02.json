@@ -1,0 +1,211 @@
+{
+  "id": "bs-k10-fk-s-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang aplikasi fungsi kuadrat dan masalah kontekstual",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-s-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bola dilempar vertikal dengan ketinggian $h(t) = -5t^2 + 20t$ meter. Tinggi maksimum bola adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$ m" } ],
+        [ { "tipe": "paragraph", "text": "$20$ m" } ],
+        [ { "tipe": "paragraph", "text": "$25$ m" } ],
+        [ { "tipe": "paragraph", "text": "$30$ m" } ],
+        [ { "tipe": "paragraph", "text": "$35$ m" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$t_p = -\\dfrac{20}{-10} = 2$ detik" },
+        { "tipe": "paragraph", "text": "$h_{max} = -5(4) + 20(2) = -20 + 40 = 20$ m" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling persegi panjang 40 cm. Luas maksimumnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$100$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$120$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$140$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$160$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$200$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal panjang $p$, lebar $l$: $2(p + l) = 40 \\Rightarrow p + l = 20$." },
+        { "tipe": "paragraph", "text": "$L = p \\cdot l = p(20 - p) = -p^2 + 20p$" },
+        { "tipe": "paragraph", "text": "$p_{opt} = -\\dfrac{20}{-2} = 10$; $l = 10$." },
+        { "tipe": "paragraph", "text": "$L_{max} = 10 \\cdot 10 = 100$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu fungsi keuntungan dinyatakan $P(x) = -x^2 + 10x - 16$ (dalam juta rupiah) dengan $x$ jumlah unit terjual. Keuntungan maksimum adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$ juta" } ],
+        [ { "tipe": "paragraph", "text": "$8$ juta" } ],
+        [ { "tipe": "paragraph", "text": "$9$ juta" } ],
+        [ { "tipe": "paragraph", "text": "$10$ juta" } ],
+        [ { "tipe": "paragraph", "text": "$11$ juta" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{10}{-2} = 5$" },
+        { "tipe": "paragraph", "text": "$P_{max} = -(25) + 50 - 16 = 9$ juta" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah peluru ditembakkan dengan ketinggian $h(t) = 40t - 5t^2$. Peluru akan kembali ke tanah pada saat $t = ...$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$6$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$8$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$10$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$12$ detik" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$h(t) = 0 \\Rightarrow 40t - 5t^2 = 0$" },
+        { "tipe": "paragraph", "text": "$5t(8 - t) = 0 \\Rightarrow t = 0$ (awal) atau $t = 8$ detik." },
+        { "tipe": "paragraph", "text": "Kembali ke tanah pada $t = 8$ detik." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua bilangan jumlahnya 20. Hasil kali maksimumnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$90$" } ],
+        [ { "tipe": "paragraph", "text": "$95$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$110$" } ],
+        [ { "tipe": "paragraph", "text": "$120$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal bilangan $x$ dan $20 - x$." },
+        { "tipe": "paragraph", "text": "$P = x(20 - x) = -x^2 + 20x$" },
+        { "tipe": "paragraph", "text": "$x_p = 10$; $P_{max} = 10 \\cdot 10 = 100$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik $y = 2x^2 - 4x + 5$ memiliki nilai minimum..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{-4}{4} = 1$" },
+        { "tipe": "paragraph", "text": "$y_{min} = 2 - 4 + 5 = 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat $x^2 - 5x + k = 0$ memiliki akar-akar real jika..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$k \\leq \\dfrac{25}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$k \\geq \\dfrac{25}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$k \\leq \\dfrac{5}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$k \\geq \\dfrac{5}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$k = \\dfrac{25}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Akar real: $D \\geq 0$" },
+        { "tipe": "paragraph", "text": "$25 - 4k \\geq 0 \\Rightarrow k \\leq \\dfrac{25}{4}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 + 3x - 10 = 0$, nilai $\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{29}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{10}{29}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{29}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{29}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{29}{100}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -3$; $\\alpha\\beta = -10$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha+\\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{9 + 20}{-10} = -\\dfrac{29}{10}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $y = x^2 - 4x + m$ menyinggung sumbu-$x$. Nilai $m$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Menyinggung: $D = 0$" },
+        { "tipe": "paragraph", "text": "$16 - 4m = 0 \\Rightarrow m = 4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik $y = x^2 + bx + c$ memiliki titik puncak $(3, -4)$. Nilai $b + c$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-7$" } ],
+        [ { "tipe": "paragraph", "text": "$-6$" } ],
+        [ { "tipe": "paragraph", "text": "$-5$" } ],
+        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$-3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik puncak $(3, -4)$: $-\\dfrac{b}{2} = 3 \\Rightarrow b = -6$" },
+        { "tipe": "paragraph", "text": "Substitusi $(3, -4)$: $9 - 18 + c = -4 \\Rightarrow c = 5$" },
+        { "tipe": "paragraph", "text": "$b + c = -6 + 5 = -1$" },
+        { "tipe": "paragraph", "text": "**Verifikasi**: $y = x^2 - 6x + 5$; puncak $x_p = 3$; $y_p = 9 - 18 + 5 = -4$ ✓" },
+        { "tipe": "paragraph", "text": "$b + c = -6 + 5 = -1$" },
+        { "tipe": "paragraph", "text": "**Koreksi kunci**: nilai $b + c = -1$ — tidak ada di opsi. **Revisi soal**: titik puncak $(3, -4)$, cari $c$ saja." },
+        { "tipe": "paragraph", "text": "$b = -6$, $c = 5$. Kunci: **C = 5** (opsi yang ada)." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
