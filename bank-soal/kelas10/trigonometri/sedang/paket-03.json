@@ -1,0 +1,232 @@
+{
+  "id": "bs-k10-trig-s-03",
+  "nama": "Bank Soal Sedang - Paket 3",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang aturan sinus/cosinus pada konteks nyata",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-s-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua kapal berangkat dari pelabuhan yang sama. Kapal A bergerak 20 km ke arah utara, kapal B bergerak 15 km ke arah timur. Jarak kedua kapal adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/kapal-utara-timur.png",
+          "caption": "Dua kapal dari pelabuhan yang sama. Kapal A ke utara 20 km, kapal B ke timur 15 km.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$ km" } ],
+        [ { "tipe": "paragraph", "text": "$25$ km" } ],
+        [ { "tipe": "paragraph", "text": "$30$ km" } ],
+        [ { "tipe": "paragraph", "text": "$35$ km" } ],
+        [ { "tipe": "paragraph", "text": "$40$ km" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut antara utara dan timur = 90°, gunakan Pythagoras." },
+        { "tipe": "paragraph", "text": "$d = \\sqrt{20^2 + 15^2} = \\sqrt{400 + 225} = \\sqrt{625} = 25$ km" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga memiliki sisi $a = 8$ cm, $b = 6$ cm, dan sudut $C = 60°$ yang mengapit kedua sisi. Panjang sisi $c$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/aturan-cosinus-2.png",
+          "caption": "Segitiga ABC dengan sisi a = 8 cm, b = 6 cm, dan sudut C = 60°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{13}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{7}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{52}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$c^2 = a^2 + b^2 - 2ab \\cos C$" },
+        { "tipe": "paragraph", "text": "$c^2 = 64 + 36 - 2(8)(6)\\cos 60°$" },
+        { "tipe": "paragraph", "text": "$c^2 = 100 - 96 \\cdot \\dfrac{1}{2} = 100 - 48 = 52$" },
+        { "tipe": "paragraph", "text": "$c = \\sqrt{52} = 2\\sqrt{13}$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, diketahui $A = 45°$, $B = 60°$, dan $a = 6\\sqrt{2}$ cm. Panjang sisi $b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{6}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{6}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{6\\sqrt{2}}{\\sin 45°} = \\dfrac{b}{\\sin 60°}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{6\\sqrt{2}}{\\frac{1}{2}\\sqrt{2}} = \\dfrac{b}{\\frac{1}{2}\\sqrt{3}}$" },
+        { "tipe": "paragraph", "text": "$12 = \\dfrac{b}{\\frac{1}{2}\\sqrt{3}} \\Rightarrow b = 6\\sqrt{3}$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga memiliki sisi $a = 5$ cm, $b = 7$ cm, dan $c = 8$ cm. Nilai $\\cos A$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/segitiga-5-7-8.png",
+          "caption": "Segitiga ABC dengan sisi a = 5, b = 7, c = 8. Cari cos A.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{10}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos A = \\dfrac{b^2 + c^2 - a^2}{2bc}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{49 + 64 - 25}{2 \\cdot 7 \\cdot 8} = \\dfrac{88}{112} = \\dfrac{11}{14}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah taman berbentuk segitiga dengan dua sisi 12 m dan 16 m serta sudut apit 30°. Luas taman adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/taman-segitiga.png",
+          "caption": "Taman berbentuk segitiga dengan sisi 12 m, 16 m, dan sudut apit 30°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$48$ m²" } ],
+        [ { "tipe": "paragraph", "text": "$64$ m²" } ],
+        [ { "tipe": "paragraph", "text": "$96$ m²" } ],
+        [ { "tipe": "paragraph", "text": "$96\\sqrt{3}$ m²" } ],
+        [ { "tipe": "paragraph", "text": "$48\\sqrt{3}$ m²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 12 \\cdot 16 \\cdot \\sin 30°$" },
+        { "tipe": "paragraph", "text": "$= 96 \\cdot \\dfrac{1}{2} = 48$ m²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 15° + \\cos 15°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(\\sqrt{6} + \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(\\sqrt{6} - \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{6}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 15° = \\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$, $\\cos 15° = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$" },
+        { "tipe": "paragraph", "text": "$\\sin 15° + \\cos 15° = \\dfrac{\\sqrt{6} - \\sqrt{2} + \\sqrt{6} + \\sqrt{2}}{4} = \\dfrac{2\\sqrt{6}}{4} = \\dfrac{1}{2}\\sqrt{6}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\cos 105°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}(\\sqrt{6} - \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}(\\sqrt{6} + \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}(\\sqrt{6} - \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}(\\sqrt{6} + \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}\\sqrt{6}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 105° = \\cos(60° + 45°)$" },
+        { "tipe": "paragraph", "text": "$= \\cos 60°\\cos 45° - \\sin 60°\\sin 45°$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}\\sqrt{2} \\cdot \\dfrac{1}{2}\\sqrt{3} \\cdot 0 - ...$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\cdot \\dfrac{1}{2}\\sqrt{2} - \\dfrac{1}{2}\\sqrt{3} \\cdot \\dfrac{1}{2}\\sqrt{2}$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{4}\\sqrt{2} - \\dfrac{1}{4}\\sqrt{6} = -\\dfrac{1}{4}(\\sqrt{6} - \\sqrt{2})$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga dengan $a = 4$, $b = 6$, dan sudut $C = 120°$, panjang sisi $c$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{19}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{7}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{28}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{76}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$c^2 = 16 + 36 - 2(4)(6)\\cos 120°$" },
+        { "tipe": "paragraph", "text": "$= 52 - 48 \\cdot (-\\dfrac{1}{2}) = 52 + 24 = 76$" },
+        { "tipe": "paragraph", "text": "$c = \\sqrt{76} = 2\\sqrt{19}$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\tan 105°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-(2 + \\sqrt{3})$" } ],
+        [ { "tipe": "paragraph", "text": "$-(2 - \\sqrt{3})$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 + \\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2 + \\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 105° = \\tan(60° + 45°) = \\dfrac{\\sqrt{3} + 1}{1 - \\sqrt{3}}$" },
+        { "tipe": "paragraph", "text": "Rasionalkan → $-(2 + \\sqrt{3})$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $2\\sin 30° \\cos 30°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2\\sin 30° \\cos 30° = \\sin 60° = \\dfrac{1}{2}\\sqrt{3}$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
