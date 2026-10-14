@@ -116,7 +116,7 @@
         [ { "tipe": "paragraph", "text": "$7$" } ],
         [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Dari $x - y = 4 \\Rightarrow x = y + 4$" },
         { "tipe": "paragraph", "text": "Substitusi: $2(y + 4) + y = 11 \\Rightarrow 2y + 8 + y = 11$" },
@@ -157,19 +157,18 @@
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Jumlahkan: $4x = 12 \\Rightarrow x = 3$" },
         { "tipe": "paragraph", "text": "$x + y = 4 \\Rightarrow 3 + y = 4 \\Rightarrow y = 1$" },
-        { "tipe": "paragraph", "text": "$2x - y = 6 - 1 = 5$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasil $= 5$. Kunci opsi E." }
+        { "tipe": "paragraph", "text": "$2x - y = 6 - 1 = 5$" }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-01-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Penyelesaian sistem $4x + 3y = 20$ dan $4x - 3y = 4$ adalah..." }
+        { "tipe": "paragraph", "text": "Penyelesaian sistem $4x + 3y = 15$ dan $4x - 3y = 9$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$(3, 1)$" } ],
@@ -181,9 +180,8 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Jumlahkan: $8x = 24 \\Rightarrow x = 3$" },
-        { "tipe": "paragraph", "text": "Substitusi: $12 + 3y = 20 \\Rightarrow 3y = 8$" },
-        { "tipe": "paragraph", "text": "⚠️ Revisi: $3y = 8 \\Rightarrow y = \\dfrac{8}{3}$. Bukan bulat. Kemungkinan soal salah ketik." },
-        { "tipe": "paragraph", "text": "Jika persamaan $4x + 3y = 15$, maka $12 + 3y = 15 \\Rightarrow y = 1$. Kunci opsi A." }
+        { "tipe": "paragraph", "text": "Substitusi: $4(3) + 3y = 15 \\Rightarrow 12 + 3y = 15 \\Rightarrow 3y = 3 \\Rightarrow y = 1$" },
+        { "tipe": "paragraph", "text": "HP = $\\{(3, 1)\\}$" }
       ],
       "tingkat": "MUDAH"
     },
@@ -199,13 +197,12 @@
         [ { "tipe": "paragraph", "text": "$8$" } ],
         [ { "tipe": "paragraph", "text": "$10$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Dari $2x - y = 6 \\Rightarrow y = 2x - 6$" },
         { "tipe": "paragraph", "text": "Substitusi: $x + 2(2x - 6) = 8 \\Rightarrow x + 4x - 12 = 8$" },
         { "tipe": "paragraph", "text": "$5x = 20 \\Rightarrow x = 4$, maka $y = 2$" },
-        { "tipe": "paragraph", "text": "$x \\cdot y = 8$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $xy = 8$. Kunci opsi D." }
+        { "tipe": "paragraph", "text": "$x \\cdot y = 8$" }
       ],
       "tingkat": "MUDAH"
     }
