@@ -114,3 +114,89 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$65°$" } ],
+        [ { "tipe": "paragraph", "text": "$75°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ],
+        [ { "tipe": "paragraph", "text": "$150°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot 150° = 75°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika sudut keliling $\\angle ABC = 42°$, maka besar sudut pusat yang menghadap busur AC adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$21°$" } ],
+        [ { "tipe": "paragraph", "text": "$42°$" } ],
+        [ { "tipe": "paragraph", "text": "$84°$" } ],
+        [ { "tipe": "paragraph", "text": "$126°$" } ],
+        [ { "tipe": "paragraph", "text": "$168°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut pusat = $2 \\cdot 42° = 84°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut keliling yang menghadap busur setengah lingkaran besarnya..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$180°$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Busur setengah lingkaran = busur diameter." },
+        { "tipe": "paragraph", "text": "Sudut pusatnya $180°$, sehingga sudut keliling = $\\dfrac{1}{2} \\cdot 180° = 90°$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\angle AOB = 90°$ (pusat) dan $\\angle ACB$ adalah sudut keliling pada busur yang sama. Nilai $\\angle ACB$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$180°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot 90° = 45°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika sudut pusat dua kali sudut keliling, dan sudut keliling $= 36°$, maka sudut pusatnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$18°$" } ],
+        [ { "tipe": "paragraph", "text": "$36°$" } ],
+        [ { "tipe": "paragraph", "text": "$54°$" } ],
+        [ { "tipe": "paragraph", "text": "$72°$" } ],
+        [ { "tipe": "paragraph", "text": "$108°$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut pusat = 2 × sudut keliling = 2 × 36° = 72°" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
