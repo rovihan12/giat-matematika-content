@@ -1,0 +1,154 @@
+{
+  "id": "bs-k11-kfi-m-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang invers fungsi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-kfi-m-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = 3x - 6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 6}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 6}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 3x + 6$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 3x - 6$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{6 - x}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = 3x - 6 \\Rightarrow 3x = y + 6 \\Rightarrow x = \\dfrac{y + 6}{3}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 6}{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = x + 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = x - 5$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = x + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 5 - x$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = -x - 5$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{1}{x + 5}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = x + 5 \\Rightarrow x = y - 5$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = x - 5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $f^{-1}(7)$ jika $f(x) = 2x - 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2x - 1 = 7 \\Rightarrow 2x = 8 \\Rightarrow x = 4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = \\dfrac{x}{2} + 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 2x - 6$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 2x + 6$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 2x - 3$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 3}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = \\dfrac{x}{2} + 3 \\Rightarrow \\dfrac{x}{2} = y - 3 \\Rightarrow x = 2y - 6$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = 2x - 6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 5 - 2x$, nilai $f^{-1}(1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5 - 2x = 1 \\Rightarrow 2x = 4 \\Rightarrow x = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2$ untuk $x \\geq 0$, maka $f^{-1}(9)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-3$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$\\pm 3$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$81$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena domain $x \\geq 0$, maka $f^{-1}(9) = \\sqrt{9} = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = 4x + 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 8}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 8}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = 4x - 8$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x}{4} - 8$" } ],
+        [ { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{8 - x}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = 4x + 8 \\Rightarrow 4x = y - 8 \\Rightarrow x = \\dfrac{y - 8}{4}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x - 8}{4}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f^{-1}(x) = \\dfrac{x - 3}{2}$, maka $f(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$f(x) = 2x + 3$" } ],
+        [ { "tipe": "paragraph", "text": "$f(x) = 2x - 3$" } ],
+        [ { "tipe": "paragraph", "text": "$f(x) = \\dfrac{x + 3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$f(x) = 3x + 2$" } ],
+        [ { "tipe": "paragraph", "text": "$f(x) = 3x - 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        {
