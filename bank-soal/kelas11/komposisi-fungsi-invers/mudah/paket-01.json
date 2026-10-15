@@ -111,11 +111,10 @@
         [ { "tipe": "paragraph", "text": "$15$" } ],
         [ { "tipe": "paragraph", "text": "$16$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$f(5) = 15 + 1 = 16$; $g(5) = 5 - 2 = 3$" },
-        { "tipe": "paragraph", "text": "$(f - g)(5) = 16 - 3 = 13$" },
-        { "tipe": "paragraph", "text": "**Koreksi kunci**: hasil $= 13$. Kunci B." }
+        { "tipe": "paragraph", "text": "$(f - g)(5) = 16 - 3 = 13$" }
       ],
       "tingkat": "MUDAH"
     },
@@ -131,11 +130,10 @@
         [ { "tipe": "paragraph", "text": "$16$" } ],
         [ { "tipe": "paragraph", "text": "$20$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$f(2) = 4$; $g(2) = 5$" },
-        { "tipe": "paragraph", "text": "$(f \\cdot g)(2) = 4 \\cdot 5 = 20$" },
-        { "tipe": "paragraph", "text": "**Koreksi kunci**: hasil $= 20$. Kunci E." }
+        { "tipe": "paragraph", "text": "$(f \\cdot g)(2) = 4 \\cdot 5 = 20$" }
       ],
       "tingkat": "MUDAH"
     },
