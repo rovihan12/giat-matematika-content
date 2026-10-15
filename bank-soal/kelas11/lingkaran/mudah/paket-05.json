@@ -1,0 +1,206 @@
+{
+  "id": "bs-k11-ling-m-05",
+  "nama": "Bank Soal Mudah - Paket 5",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah campuran tentang lingkaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling lingkaran dengan diameter $42$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$66$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$132$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$264$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$462$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$924$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = \\pi d = \\dfrac{22}{7} \\cdot 42 = 132$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas setengah lingkaran dengan jari-jari $14$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$308$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$462$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$616$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$924$ cm²" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\pi r^2 = \\dfrac{1}{2} \\cdot \\dfrac{22}{7} \\cdot 196$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\cdot 616 = 308$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas seperempat lingkaran dengan jari-jari $28$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$308$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$462$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$616$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$924$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$1.232$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{4} \\cdot \\dfrac{22}{7} \\cdot 784$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{4} \\cdot 2.464 = 616$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar. Sudut pusat $\\angle AOB = 100°$. Sudut keliling $\\angle ACB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-100.png",
+          "caption": "Lingkaran dengan pusat O, sudut pusat AOB = 100°, dan sudut keliling ACB menghadap busur AB yang sama.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25°$" } ],
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$75°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot 100° = 50°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas tembereng kecil pada lingkaran dengan jari-jari $14$ cm dan sudut pusat $90°$ adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$42$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$56$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$98$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$112$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{90°}{360°} \\cdot \\dfrac{22}{7} \\cdot 196 = \\dfrac{1}{4} \\cdot 616 = 154$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{\\triangle} = \\dfrac{1}{2} \\cdot 14 \\cdot 14 = 98$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{tembereng} = 154 - 98 = 56$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut pusat $\\angle POR = 80°$ dan sudut keliling $\\angle PQR$ menghadap busur PR. Besar $\\angle PQR$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20°$" } ],
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$160°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle PQR = \\dfrac{1}{2} \\cdot 80° = 40°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran $8$ cm. Panjang garis singgung dari titik berjarak $17$ cm dari pusat adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$16$ cm" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GS^2 = 17^2 - 8^2 = 289 - 64 = 225$" },
+        { "tipe": "paragraph", "text": "$GS = 15$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas lingkaran yang kelilingnya $132$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1.386$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$2.772$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$5.544$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$8.316$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$11.088$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r \\Rightarrow 132 = 2 \\cdot \\dfrac{22}{7} \\cdot r$" },
+        { "tipe": "paragraph", "text": "$132 = \\dfrac{44}{7}r \\Rightarrow r = 21$ cm" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{22}{7} \\cdot 441 = 1.386$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang busur lingkaran dengan jari-jari $21$ cm dan sudut pusat $60°$ adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$11$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$33$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$66$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2 \\cdot \\dfrac{22}{7} \\cdot 21 = 132$ cm" },
+        { "tipe": "paragraph", "text": "$Panjang\\ busur = \\dfrac{60°}{360°} \\cdot 132 = \\dfrac{1}{6} \\cdot 132 = 22$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $72°$ dan jari-jari $10$ cm adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15{,}7$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}4$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$62{,}8$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$78{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$157$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{total} = 3{,}14 \\cdot 100 = 314$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{72°}{360°} \\cdot 314 = \\dfrac{1}{5} \\cdot 314 = 62{,}8$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
