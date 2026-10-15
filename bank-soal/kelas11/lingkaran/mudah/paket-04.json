@@ -1,0 +1,214 @@
+{
+  "id": "bs-k11-ling-m-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang garis singgung lingkaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar. Jika $OA = 5$ cm dan $OB = 13$ cm dengan $AB$ garis singgung, panjang $AB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/garis-singgung.png",
+          "caption": "Lingkaran dengan pusat O, garis singgung AB tegak lurus OA, dan garis OB sebagai sisi miring.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis singgung tegak lurus jari-jari, sehingga segitiga OAB siku-siku di A." },
+        { "tipe": "paragraph", "text": "$AB^2 = OB^2 - OA^2 = 13^2 - 5^2 = 169 - 25 = 144$" },
+        { "tipe": "paragraph", "text": "$AB = 12$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung lingkaran selalu ... jari-jari di titik singgung." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Sejajar" } ],
+        [ { "tipe": "paragraph", "text": "Tegak lurus" } ],
+        [ { "tipe": "paragraph", "text": "Berpotongan miring" } ],
+        [ { "tipe": "paragraph", "text": "Berimpit" } ],
+        [ { "tipe": "paragraph", "text": "Sejajar dengan diameter" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat garis singgung: tegak lurus dengan jari-jari di titik singgung." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua garis singgung dari titik $P$ di luar lingkaran memiliki panjang yang..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Berbeda" } ],
+        [ { "tipe": "paragraph", "text": "Sama panjang" } ],
+        [ { "tipe": "paragraph", "text": "Selalu 2 kali jari-jari" } ],
+        [ { "tipe": "paragraph", "text": "Selalu setengah jari-jari" } ],
+        [ { "tipe": "paragraph", "text": "Tidak dapat ditentukan" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dua garis singgung dari titik luar yang sama memiliki panjang yang **sama**." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran $6$ cm. Panjang garis singgung dari titik berjarak $10$ cm dari pusat adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GS^2 = d^2 - r^2 = 10^2 - 6^2 = 100 - 36 = 64$" },
+        { "tipe": "paragraph", "text": "$GS = 8$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang garis singgung persekutuan luar dua lingkaran dengan $R = 7$ cm, $r = 2$ cm, dan jarak pusat $d = 13$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$11$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2 = 13^2 - (7 - 2)^2$" },
+        { "tipe": "paragraph", "text": "$= 169 - 25 = 144 \\Rightarrow GSPL = 12$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua garis singgung dari titik $P$ ke lingkaran memiliki panjang $PA = PB = 12$ cm. Jika sudut antara kedua garis singgung $\\angle APB = 90°$, maka panjang $AB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/dua-garis-singgung.png",
+          "caption": "Dua garis singgung PA dan PB dari titik P ke lingkaran, dengan sudut APB = 90°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$24$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$24\\sqrt{2}$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga APB siku-siku di P (sudut APB = 90°)." },
+        { "tipe": "paragraph", "text": "$AB^2 = PA^2 + PB^2 = 12^2 + 12^2 = 144 + 144 = 288$" },
+        { "tipe": "paragraph", "text": "$AB = \\sqrt{288} = \\sqrt{144 \\cdot 2} = 12\\sqrt{2}$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga siku-siku dengan sisi $6$ cm, $8$ cm, dan $10$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$s = \\dfrac{6 + 8 + 10}{2} = 12$" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 6 \\cdot 8 = 24$ cm²" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{L}{s} = \\dfrac{24}{12} = 2$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang garis singgung persekutuan dalam dua lingkaran dengan $R = 8$ cm, $r = 4$ cm, dan $d = 15$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$11$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPD^2 = d^2 - (R + r)^2 = 15^2 - (8 + 4)^2$" },
+        { "tipe": "paragraph", "text": "$= 225 - 144 = 81 \\Rightarrow GSPD = 9$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran $5$ cm. Titik $P$ berada di luar lingkaran dengan jarak $13$ cm dari pusat. Panjang garis singgung dari $P$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GS^2 = 13^2 - 5^2 = 169 - 25 = 144$" },
+        { "tipe": "paragraph", "text": "$GS = 12$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah lingkaran memiliki jari-jari $r$ dan titik di luar lingkaran berjarak $2r$ dari pusat. Panjang garis singgungnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$r$" } ],
+        [ { "tipe": "paragraph", "text": "$r\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$r\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2r$" } ],
+        [ { "tipe": "paragraph", "text": "$4r$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GS^2 = (2r)^2 - r^2 = 4r^2 - r^2 = 3r^2$" },
+        { "tipe": "paragraph", "text": "$GS = r\\sqrt{3}$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
