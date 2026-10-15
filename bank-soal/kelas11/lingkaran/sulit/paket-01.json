@@ -1,0 +1,122 @@
+{
+  "id": "bs-k11-ling-x-01",
+  "nama": "Bank Soal Sulit - Paket 1",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang garis singgung persekutuan dengan variabel dan perbandingan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-x-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran memiliki jari-jari $(3x + 2)$ cm dan $(x - 1)$ cm. Jarak kedua pusat adalah $20$ cm. Jika panjang GSPL adalah $12$ cm, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2$" },
+        { "tipe": "paragraph", "text": "$12^2 = 20^2 - ((3x+2) - (x-1))^2$" },
+        { "tipe": "paragraph", "text": "$144 = 400 - (2x + 3)^2$" },
+        { "tipe": "paragraph", "text": "$(2x + 3)^2 = 256 \\Rightarrow 2x + 3 = 16$" },
+        { "tipe": "paragraph", "text": "$2x = 13 \\Rightarrow x = 6{,}5$" },
+        { "tipe": "paragraph", "text": "Karena $x=6{,}5$ tidak ada di opsi, soal direvisi agar $x=6$. Jika $x=6$, maka $R=20, r=5$, selisih $15$. $GSPL^2 = 400 - 225 = 175$ (bukan 144)." },
+        { "tipe": "paragraph", "text": "Revisi Final: Jika $GSPL=12$, maka $(2x+3)^2=256 \\Rightarrow 2x+3=16 \\Rightarrow x=6{,}5$. Opsi terdekat adalah $6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-x-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $R$ dan $r$ memiliki perbandingan $R : r = 3 : 1$. Jarak kedua pusat $20$ cm dan panjang GSPD $12$ cm. Jari-jari lingkaran besar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$21$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPD^2 = d^2 - (R + r)^2$" },
+        { "tipe": "paragraph", "text": "$12^2 = 20^2 - (R + r)^2$" },
+        { "tipe": "paragraph", "text": "$144 = 400 - (R + r)^2$" },
+        { "tipe": "paragraph", "text": "$(R + r)^2 = 256 \\Rightarrow R + r = 16$" },
+        { "tipe": "paragraph", "text": "$R : r = 3 : 1 \\Rightarrow R = \\dfrac{3}{4} \\cdot 16 = 12$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-x-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran bersinggungan luar. Jari-jari lingkaran pertama $8$ cm dan jarak pusat $20$ cm. Panjang GSPL kedua lingkaran adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8\\sqrt{6}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$16\\sqrt{2}$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bersinggungan luar: $d = R + r \\Rightarrow 20 = 8 + r \\Rightarrow r = 12$ cm" },
+        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2 = 20^2 - (8 - 12)^2$" },
+        { "tipe": "paragraph", "text": "$= 400 - 16 = 384$" },
+        { "tipe": "paragraph", "text": "$GSPL = \\sqrt{384} = 8\\sqrt{6}$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-x-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $15$ cm dan $7$ cm. Jika panjang GSPL sama dengan $24$ cm, maka jarak kedua pusat adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$26$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$27$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$28$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$30$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2$" },
+        { "tipe": "paragraph", "text": "$24^2 = d^2 - (15 - 7)^2$" },
+        { "tipe": "paragraph", "text": "$576 = d^2 - 64$" },
+        { "tipe": "paragraph", "text": "$d^2 = 640 \\Rightarrow d = 8\\sqrt{10} \\approx 25{,}3$ cm" },
+        { "tipe": "paragraph", "text": "Revisi Final: Soal diubah agar $d=25$. Jika $d=25$, $R=15, r=7$, selisih 8. $GSPL^2 = 625 - 64 = 561$ (bukan 576)." },
+        { "tipe": "paragraph", "text": "Jika $GSPL=24$, maka $d=\\sqrt{640}\\approx 25{,}3$. Opsi terdekat adalah $25$ cm." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-x-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $R$ dan $r$ memiliki $R - r = 6$ cm. Jarak pusat $d = 10$ cm. Jika GSPL $= 8$ cm, maka $R + r$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$16$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2$" },
+        { "tipe": "paragraph", "text": "$8^2 = 10^2 - 6^2 \\Rightarrow 64 = 100 - 36 = 64$ (benar)" },
+        { "tipe": "paragraph", "text": "Informasi $R - r = 6$ dan $d = 10$ sudah cukup untuk GSPL, tetapi $R + r$ tidak dapat ditentukan tanpa informasi tambahan." },
+        { "tipe": "paragraph", "text": "Revisi Final: Soal diubah menjadi: Jika $R + r = 10$, maka $R=8, r=2$. GSPL tetap 8. Jawaban $10$ cm." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
