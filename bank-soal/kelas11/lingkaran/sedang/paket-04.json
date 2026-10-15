@@ -1,0 +1,206 @@
+{
+  "id": "bs-k11-ling-s-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang panjang busur, luas juring, dan luas tembereng lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-s-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang busur lingkaran dengan sudut pusat $72°$ dan jari-jari $20$ cm adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20{,}8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$22{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$25{,}12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$28{,}6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}4$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2 \\cdot 3{,}14 \\cdot 20 = 125{,}6$ cm" },
+        { "tipe": "paragraph", "text": "$Panjang\\ busur = \\dfrac{72°}{360°} \\cdot 125{,}6 = \\dfrac{1}{5} \\cdot 125{,}6 = 25{,}12$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $135°$ dan jari-jari $14$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$192{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$231$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$308$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$462$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{total} = \\dfrac{22}{7} \\cdot 196 = 616$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{135°}{360°} \\cdot 616 = \\dfrac{3}{8} \\cdot 616 = 231$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas tembereng lingkaran dengan jari-jari $14$ cm dan sudut pusat $60°$ adalah... ($\\pi = \\dfrac{22}{7}$, $\\sqrt{3} = 1{,}732$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$17{,}3$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$18{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$21{,}2$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$24{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$30{,}8$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{60°}{360°} \\cdot \\dfrac{22}{7} \\cdot 196 = \\dfrac{1}{6} \\cdot 616 \\approx 102{,}67$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{\\triangle} = \\dfrac{1}{2} \\cdot 14 \\cdot 14 \\cdot \\sin 60° = 98 \\cdot \\dfrac{1}{2}\\sqrt{3} = 49\\sqrt{3} \\approx 84{,}87$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{tembereng} \\approx 102{,}67 - 84{,}87 = 17{,}80$ cm²" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: $17{,}3$ cm²." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas tembereng lingkaran dengan jari-jari $14$ cm dan sudut pusat $90°$ adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$56$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$98$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$112$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$252$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{90°}{360°} \\cdot \\dfrac{22}{7} \\cdot 196 = 154$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{\\triangle} = \\dfrac{1}{2} \\cdot 14 \\cdot 14 = 98$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{tembereng} = 154 - 98 = 56$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang busur lingkaran dengan jari-jari $30$ cm dan sudut pusat $45°$ adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15{,}7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18{,}84$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$23{,}55$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$47{,}1$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2 \\cdot 3{,}14 \\cdot 30 = 188{,}4$ cm" },
+        { "tipe": "paragraph", "text": "$Panjang\\ busur = \\dfrac{45°}{360°} \\cdot 188{,}4 = \\dfrac{1}{8} \\cdot 188{,}4 = 23{,}55$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas tembereng lingkaran dengan jari-jari $21$ cm dan sudut pusat $90°$ adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$126$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$220{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$346{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$441$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$490$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{90°}{360°} \\cdot \\dfrac{22}{7} \\cdot 441 = \\dfrac{1}{4} \\cdot 1.386 = 346{,}5$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{\\triangle} = \\dfrac{1}{2} \\cdot 21 \\cdot 21 = 220{,}5$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{tembereng} = 346{,}5 - 220{,}5 = 126$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $240°$ dan jari-jari $21$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$462$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$616$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$924$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$1.155$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$1.386$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{total} = \\dfrac{22}{7} \\cdot 441 = 1.386$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{240°}{360°} \\cdot 1.386 = \\dfrac{2}{3} \\cdot 1.386 = 924$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang busur lingkaran dengan diameter $42$ cm dan sudut pusat $120°$ adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$66$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$88$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$132$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = \\pi d = \\dfrac{22}{7} \\cdot 42 = 132$ cm" },
+        { "tipe": "paragraph", "text": "$Panjang\\ busur = \\dfrac{120°}{360°} \\cdot 132 = \\dfrac{1}{3} \\cdot 132 = 44$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas tembereng lingkaran dengan jari-jari $10$ cm dan sudut pusat $90°$ adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$28{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$30{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$32{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$35{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$50$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{90°}{360°} \\cdot 3{,}14 \\cdot 100 = \\dfrac{1}{4} \\cdot 314 = 78{,}5$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{\\triangle} = \\dfrac{1}{2} \\cdot 10 \\cdot 10 = 50$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{tembereng} = 78{,}5 - 50 = 28{,}5$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $150°$ dan jari-jari $12$ cm adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$125{,}6$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$150{,}72$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$188{,}4$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$226{,}08$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$452{,}16$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{total} = 3{,}14 \\cdot 144 = 452{,}16$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{150°}{360°} \\cdot 452{,}16 = \\dfrac{5}{12} \\cdot 452{,}16 = 188{,}4$ cm²" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
