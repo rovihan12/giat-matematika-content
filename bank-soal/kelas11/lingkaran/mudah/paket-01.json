@@ -1,0 +1,208 @@
+{
+  "id": "bs-k11-ling-m-01",
+  "nama": "Bank Soal Mudah - Paket 1",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang unsur-unsur lingkaran dan keliling",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan lingkaran berikut. Bagian yang ditunjukkan oleh garis dari titik $O$ ke titik $A$ disebut..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/unsur-lingkaran.png",
+          "caption": "Lingkaran dengan pusat O, titik A pada lingkaran, garis OA, garis AB melalui pusat, dan daerah yang diarsir.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Diameter" } ],
+        [ { "tipe": "paragraph", "text": "Jari-jari" } ],
+        [ { "tipe": "paragraph", "text": "Tali busur" } ],
+        [ { "tipe": "paragraph", "text": "Busur" } ],
+        [ { "tipe": "paragraph", "text": "Juring" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis dari pusat $O$ ke titik pada lingkaran disebut **jari-jari** (radius)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling lingkaran dengan jari-jari $7$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$49$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$77$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r = 2 \\cdot \\dfrac{22}{7} \\cdot 7 = 44$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas lingkaran dengan jari-jari $14$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$308$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$616$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$1.232$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$2.464$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L = \\pi r^2 = \\dfrac{22}{7} \\cdot 14^2 = \\dfrac{22}{7} \\cdot 196 = 22 \\cdot 28 = 616$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diameter lingkaran yang memiliki jari-jari $9$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$27$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$81$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$d = 2r = 2 \\cdot 9 = 18$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling lingkaran dengan diameter $20$ cm adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$31{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$62{,}8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$125{,}6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$314$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$628$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = \\pi d = 3{,}14 \\cdot 20 = 62{,}8$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas lingkaran dengan diameter $28$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$88$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$176$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$616$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$1.232$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$2.464$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$r = \\dfrac{28}{2} = 14$ cm" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{22}{7} \\cdot 14^2 = \\dfrac{22}{7} \\cdot 196 = 616$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah lingkaran memiliki keliling $88$ cm. Jari-jari lingkaran tersebut adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$21$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$28$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r \\Rightarrow 88 = 2 \\cdot \\dfrac{22}{7} \\cdot r$" },
+        { "tipe": "paragraph", "text": "$88 = \\dfrac{44}{7} r \\Rightarrow r = \\dfrac{88 \\cdot 7}{44} = 14$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas lingkaran yang kelilingnya $62{,}8$ cm adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}4$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$100$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$314$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$628$ cm²" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r \\Rightarrow 62{,}8 = 2 \\cdot 3{,}14 \\cdot r$" },
+        { "tipe": "paragraph", "text": "$62{,}8 = 6{,}28r \\Rightarrow r = 10$ cm" },
+        { "tipe": "paragraph", "text": "$L = \\pi r^2 = 3{,}14 \\cdot 100 = 314$ cm²" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar. Daerah yang dibatasi oleh dua jari-jari dan satu busur disebut..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/juring.png",
+          "caption": "Lingkaran dengan daerah yang diarsir dibatasi dua jari-jari dan busur.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Tembereng" } ],
+        [ { "tipe": "paragraph", "text": "Juring" } ],
+        [ { "tipe": "paragraph", "text": "Tali busur" } ],
+        [ { "tipe": "paragraph", "text": "Apotema" } ],
+        [ { "tipe": "paragraph", "text": "Busur" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Daerah yang dibatasi dua jari-jari dan satu busur disebut **juring**." },
+        { "tipe": "paragraph", "text": "Sedangkan tembereng dibatasi oleh tali busur dan busur." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\pi = 3{,}14$, keliling lingkaran dengan jari-jari $5$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15{,}7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$31{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$62{,}8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$78{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$157$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r = 2 \\cdot 3{,}14 \\cdot 5 = 31{,}4$ cm" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
