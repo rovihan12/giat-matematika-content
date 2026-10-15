@@ -1,0 +1,116 @@
+{
+  "id": "bs-k11-ling-m-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sudut pusat dan sudut keliling",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan lingkaran berikut. Jika sudut pusat $\\angle AOB = 80°$, maka sudut keliling $\\angle ACB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-pusat-keliling.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat AOB dan sudut keliling ACB menghadap busur AB yang sama.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20°$" } ],
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling = $\\dfrac{1}{2}$ × sudut pusat yang menghadap busur sama." },
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot 80° = 40°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut keliling yang menghadap diameter lingkaran besarnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$120°$" } ],
+        [ { "tipe": "paragraph", "text": "$180°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut pusat yang menghadap diameter = $180°$." },
+        { "tipe": "paragraph", "text": "Sudut keliling = $\\dfrac{1}{2} \\cdot 180° = 90°$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika sudut keliling $\\angle ABC = 35°$, maka sudut pusat $\\angle AOC$ yang menghadap busur yang sama adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$17{,}5°$" } ],
+        [ { "tipe": "paragraph", "text": "$35°$" } ],
+        [ { "tipe": "paragraph", "text": "$70°$" } ],
+        [ { "tipe": "paragraph", "text": "$105°$" } ],
+        [ { "tipe": "paragraph", "text": "$140°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut pusat = 2 × sudut keliling." },
+        { "tipe": "paragraph", "text": "$\\angle AOC = 2 \\cdot 35° = 70°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut pusat $\\angle POQ = 120°$. Sudut keliling yang menghadap busur PQ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$120°$" } ],
+        [ { "tipe": "paragraph", "text": "$240°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling = $\\dfrac{1}{2} \\cdot 120° = 60°$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua sudut keliling menghadap busur yang sama. Jika sudut pertama $48°$, sudut kedua adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$24°$" } ],
+        [ { "tipe": "paragraph", "text": "$48°$" } ],
+        [ { "tipe": "paragraph", "text": "$72°$" } ],
+        [ { "tipe": "paragraph", "text": "$96°$" } ],
+        [ { "tipe": "paragraph", "text": "$144°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut-sudut keliling yang menghadap busur sama memiliki besar yang **sama**." },
+        { "tipe": "paragraph", "text": "Jadi sudut kedua = $48°$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut pusat $\\angle AOB = 150°$. Sudut keliling $\\angle ACB$ yang menghadap busur AB adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
