@@ -1,0 +1,206 @@
+{
+  "id": "bs-k11-ling-s-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang sudut antara dua tali busur dan segi empat siklik",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-s-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar. Dua tali busur $AB$ dan $CD$ berpotongan di titik $P$ di dalam lingkaran. Jika $\\angle APC = 80°$ dan busur AC $= 60°$, maka busur BD adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/sedang/dua-tali-busur.png",
+          "caption": "Dua tali busur AB dan CD berpotongan di P di dalam lingkaran. Sudut APC terbentuk.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ],
+        [ { "tipe": "paragraph", "text": "$120°$" } ],
+        [ { "tipe": "paragraph", "text": "$160°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle APC = \\dfrac{1}{2}(busur\\ AC + busur\\ BD)$" },
+        { "tipe": "paragraph", "text": "$80° = \\dfrac{1}{2}(60° + busur\\ BD)$" },
+        { "tipe": "paragraph", "text": "$160° = 60° + busur\\ BD$" },
+        { "tipe": "paragraph", "text": "$busur\\ BD = 100°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di dalam lingkaran. Busur yang berhadapan besarnya $70°$ dan $90°$. Sudut yang terbentuk di antara tali busur adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$70°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$160°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(70° + 90°) = \\dfrac{1}{2}(160°) = 80°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat $ABCD$ siklik (titik sudutnya pada lingkaran). Jika $\\angle A = 80°$, maka $\\angle C$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ],
+        [ { "tipe": "paragraph", "text": "$160°$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat segi empat siklik: sudut berhadapan berjumlah $180°$." },
+        { "tipe": "paragraph", "text": "$\\angle A + \\angle C = 180° \\Rightarrow \\angle C = 180° - 80° = 100°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat $PQRS$ siklik dengan $\\angle P = 2x°$ dan $\\angle R = (3x + 20)°$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle P + \\angle R = 180°$" },
+        { "tipe": "paragraph", "text": "$2x + 3x + 20 = 180$" },
+        { "tipe": "paragraph", "text": "$5x = 160 \\Rightarrow x = 32$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di luar lingkaran. Busur besar $= 120°$, busur kecil $= 40°$. Sudut antara dua tali busur tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(120° - 40°) = \\dfrac{1}{2}(80°) = 40°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik $ABCD$ memiliki $\\angle A = 70°$ dan $\\angle B = 80°$. Besar $\\angle D$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ],
+        [ { "tipe": "paragraph", "text": "$110°$" } ],
+        [ { "tipe": "paragraph", "text": "$120°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat segi empat siklik: $\\angle B + \\angle D = 180°$" },
+        { "tipe": "paragraph", "text": "$\\angle D = 180° - 80° = 100°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di dalam lingkaran. Busur-busur yang berhadapan $50°$ dan $70°$. Sudut lancip yang terbentuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$70°$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(50° + 70°) = \\dfrac{1}{2}(120°) = 60°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik $ABCD$ dengan $\\angle A = (2x + 10)°$ dan $\\angle C = (3x - 30)°$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle A + \\angle C = 180°$" },
+        { "tipe": "paragraph", "text": "$(2x + 10) + (3x - 30) = 180$" },
+        { "tipe": "paragraph", "text": "$5x - 20 = 180 \\Rightarrow 5x = 200 \\Rightarrow x = 40$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik memiliki sudut-sudut $\\angle P = 85°$, $\\angle Q = 95°$, dan $\\angle R = 95°$. Besar $\\angle S$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$75°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$85°$" } ],
+        [ { "tipe": "paragraph", "text": "$95°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle S = 180° - \\angle Q = 180° - 95° = 85°$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di luar lingkaran. Busur besar $= 130°$, busur kecil $= 50°$. Sudut yang terbentuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$40°$" } ],
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(130° - 50°) = \\dfrac{1}{2}(80°) = 40°$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
