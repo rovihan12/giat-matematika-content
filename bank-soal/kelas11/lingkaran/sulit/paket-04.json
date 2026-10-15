@@ -1,0 +1,198 @@
+{
+  "id": "bs-k11-ling-t-04",
+  "nama": "Bank Soal Sulit - Paket 4",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit campuran tentang lingkaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-t-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $10$ cm dan $2$ cm, jarak pusat $17$ cm. Panjang garis singgung persekutuan LUAR adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$16$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$17$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPL^2 = 17^2 - (10 - 2)^2 = 289 - 64 = 225$" },
+        { "tipe": "paragraph", "text": "$GSPL = 15$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga dengan sisi $7$ cm, $24$ cm, dan $25$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$s = \\dfrac{7 + 24 + 25}{2} = 28$" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 7 \\cdot 24 = 84$ cm²" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{84}{28} = 3$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik $ABCD$ dengan $\\angle A = 75°$ dan $\\angle B = 85°$. Besar $\\angle D$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$85°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$95°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ],
+        [ { "tipe": "paragraph", "text": "$105°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle D = 180° - \\angle B = 180° - 85° = 95°$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas tembereng lingkaran dengan jari-jari $14$ cm dan sudut pusat $60°$ adalah... ($\\pi = \\dfrac{22}{7}$, $\\sqrt{3} = 1{,}732$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$17{,}7$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$20{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$24{,}3$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$30{,}8$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$35{,}2$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{60°}{360°} \\cdot \\dfrac{22}{7} \\cdot 196 \\approx 102{,}67$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{\\triangle} = 49\\sqrt{3} \\approx 84{,}87$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{tembereng} = 102{,}67 - 84{,}87 \\approx 17{,}8$ cm²" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di dalam lingkaran. Busur yang berhadapan besarnya $60°$ dan $80°$. Sudut yang terbentuk di antara tali busur adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$70°$" } ],
+        [ { "tipe": "paragraph", "text": "$80°$" } ],
+        [ { "tipe": "paragraph", "text": "$140°$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(60° + 80°) = 70°$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran luar segitiga dengan sisi $9$ cm, $12$ cm, dan $15$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga siku-siku → $R = \\dfrac{15}{2} = 7{,}5$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran bersinggungan luar dengan jari-jari $9$ cm dan $6$ cm. Jarak kedua pusat adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$54$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$d = R + r = 9 + 6 = 15$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $108°$ dan jari-jari $10$ cm adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$78{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$94{,}2$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$125{,}6$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$157$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$314$ cm²" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_{total} = 3{,}14 \\cdot 100 = 314$ cm²" },
+        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{108°}{360°} \\cdot 314 = 94{,}2$ cm²" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segitiga sama sisi dengan sisi $24$ cm. Jari-jari lingkaran luarnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$24$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$R = \\dfrac{s\\sqrt{3}}{3} = \\dfrac{24\\sqrt{3}}{3} = 8\\sqrt{3}$ cm" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-t-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang busur lingkaran dengan jari-jari $21$ cm dan sudut pusat $240°$ adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$66$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$88$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$110$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$132$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2 \\cdot \\dfrac{22}{7} \\cdot 21 = 132$ cm" },
+        { "tipe": "paragraph", "text": "$Panjang\\ busur = \\dfrac{240°}{360°} \\cdot 132 = 88$ cm" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
