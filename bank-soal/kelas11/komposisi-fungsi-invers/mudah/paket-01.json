@@ -1,0 +1,200 @@
+{
+  "id": "bs-k11-kfi-m-01",
+  "nama": "Bank Soal Mudah - Paket 1",
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang notasi fungsi dan nilai fungsi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-kfi-m-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x + 3$, nilai $f(4)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(4) = 2(4) + 3 = 8 + 3 = 11$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 3x + 1$, nilai $f(2)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(2) = 2^2 - 3(2) + 1 = 4 - 6 + 1 = -1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Daerah asal (domain) dari $f(x) = \\dfrac{1}{x - 3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\neq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\neq -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "Semua $x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Penyebut tidak boleh nol: $x - 3 \\neq 0 \\Rightarrow x \\neq 3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 5x - 2$ dan $f(a) = 13$, nilai $a$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 5a - 2 = 13$" },
+        { "tipe": "paragraph", "text": "$5a = 15 \\Rightarrow a = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 + 1$ dan $g(x) = 2x$, nilai $(f + g)(3)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(3) = 9 + 1 = 10$; $g(3) = 6$" },
+        { "tipe": "paragraph", "text": "$(f + g)(3) = 10 + 6 = 16$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x + 1$ dan $g(x) = x - 2$, nilai $(f - g)(5)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(5) = 15 + 1 = 16$; $g(5) = 5 - 2 = 3$" },
+        { "tipe": "paragraph", "text": "$(f - g)(5) = 16 - 3 = 13$" },
+        { "tipe": "paragraph", "text": "**Koreksi kunci**: hasil $= 13$. Kunci B." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x$ dan $g(x) = x + 3$, nilai $(f \\cdot g)(2)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(2) = 4$; $g(2) = 5$" },
+        { "tipe": "paragraph", "text": "$(f \\cdot g)(2) = 4 \\cdot 5 = 20$" },
+        { "tipe": "paragraph", "text": "**Koreksi kunci**: hasil $= 20$. Kunci E." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 4x - 1$, maka $f^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x - 1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$4x + 1$" } ],
+        [ { "tipe": "paragraph", "text": "$4x - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4x - 1}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 4x - 1 \\Rightarrow 4x = y + 1 \\Rightarrow x = \\dfrac{y + 1}{4}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 1}{4}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{x - 2}{3}$, maka $f^{-1}(4)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f^{-1}(4)$ = nilai $x$ saat $f(x) = 4$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{x - 2}{3} = 4 \\Rightarrow x - 2 = 12 \\Rightarrow x = 14$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x + 5$, nilai $f^{-1}(11)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2x + 5 = 11 \\Rightarrow 2x = 6 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(11) = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
