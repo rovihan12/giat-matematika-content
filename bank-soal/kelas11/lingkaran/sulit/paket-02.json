@@ -1,199 +1,206 @@
 {
-  "id": "bs-k11-ling-t-02",
+  "id": "bs-k11-ling-sulit-02",
   "nama": "Bank Soal Sulit - Paket 2",
   "kelas": 11,
   "kategori": "Lingkaran",
   "tingkat": "SULIT",
-  "deskripsi": "Soal sulit tentang kombinasi GSPL/GSPD, sudut pusat-keliling, dan luas juring/tembereng",
+  "deskripsi": "Soal sulit tentang unsur lingkaran dan sudut",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k11-ling-t-02-q01",
+      "id": "bs-k11-ling-sulit-02-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $9$ cm dan $4$ cm. Jika jarak kedua pusat $13$ cm, maka panjang garis singgung persekutuan luarnya adalah..." }
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle AOB = 80°$ (sudut pusat) dan $\\angle ACB$ adalah sudut keliling yang menghadap busur $AB$, besar $\\angle ACB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/sulit/sudut-pusat-dan-keliling.png",
+          "caption": "Lingkaran dengan pusat O. Titik A, B pada lingkaran, titik C di busur besar. Sudut pusat AOB = 80°, sudut keliling ACB menghadap busur AB yang sama.",
+          "width": "medium"
+        }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$11$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$13$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$14$ cm" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$GSPL^2 = 13^2 - (9 - 4)^2 = 169 - 25 = 144$" },
-        { "tipe": "paragraph", "text": "$GSPL = 12$ cm" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q02",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $7$ cm dan $3$ cm. Jika jarak kedua pusat $25$ cm, maka panjang garis singgung persekutuan dalamnya adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$20$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$24$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$26$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$28$ cm" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$GSPD^2 = 25^2 - (7 + 3)^2 = 625 - 100 = 525$" },
-        { "tipe": "paragraph", "text": "$GSPD = \\sqrt{525} \\approx 22{,}91$ cm (Tidak ada di opsi)" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sudut pusat $\\angle AOB = 120°$ dan sudut keliling $\\angle ACB$ menghadap busur yang sama. Besar $\\angle ACB$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$30°$" } ],
         [ { "tipe": "paragraph", "text": "$40°$" } ],
-        [ { "tipe": "paragraph", "text": "$50°$" } ],
-        [ { "tipe": "paragraph", "text": "$60°$" } ],
-        [ { "tipe": "paragraph", "text": "$80°$" } ]
-      ],
-      "jawaban_benar": 3,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot \\angle AOB$" },
-        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot 120° = 60°$" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga dengan sisi $8$ cm, $15$ cm, dan $17$ cm adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$5$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$6$ cm" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$s = \\dfrac{8 + 15 + 17}{2} = 20$" },
-        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 8 \\cdot 15 = 60$ cm²" },
-        { "tipe": "paragraph", "text": "$r = \\dfrac{60}{20} = 3$ cm" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q05",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Luas juring lingkaran dengan sudut pusat $150°$ dan jari-jari $12$ cm adalah... ($\\pi = 3{,}14$)" }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$125{,}6$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$150{,}72$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$188{,}4$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$226{,}08$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$452{,}16$ cm²" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$L_{total} = 3{,}14 \\cdot 144 = 452{,}16$ cm²" },
-        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{150°}{360°} \\cdot 452{,}16 = \\dfrac{5}{12} \\cdot 452{,}16 = 188{,}4$ cm²" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Segi empat siklik $ABCD$ dengan $\\angle A = 80°$ dan $\\angle B = 70°$. Besar $\\angle D$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$100°$" } ],
-        [ { "tipe": "paragraph", "text": "$110°$" } ],
-        [ { "tipe": "paragraph", "text": "$120°$" } ],
-        [ { "tipe": "paragraph", "text": "$130°$" } ],
-        [ { "tipe": "paragraph", "text": "$140°$" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Sifat segi empat siklik: $\\angle B + \\angle D = 180°$" },
-        { "tipe": "paragraph", "text": "$\\angle D = 180° - 70° = 110°$" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q07",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran bersinggungan luar dengan jari-jari $10$ cm dan $6$ cm. Jarak kedua pusat adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$16$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$20$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$60$ cm" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Bersinggungan luar: $d = R + r = 10 + 6 = 16$ cm" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jari-jari lingkaran luar segitiga dengan sisi $7$ cm, $24$ cm, dan $25$ cm adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$12{,}5$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$50$ cm" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Segitiga siku-siku (karena $7^2 + 24^2 = 25^2$)." },
-        { "tipe": "paragraph", "text": "$R = \\dfrac{25}{2} = 12{,}5$ cm" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q09",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di dalam lingkaran. Busur yang berhadapan $70°$ dan $90°$. Sudut yang terbentuk di antara tali busur adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$50°$" } ],
-        [ { "tipe": "paragraph", "text": "$70°$" } ],
         [ { "tipe": "paragraph", "text": "$80°$" } ],
-        [ { "tipe": "paragraph", "text": "$90°$" } ],
-        [ { "tipe": "paragraph", "text": "$160°$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(70° + 90°) = \\dfrac{1}{2}(160°) = 80°$" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-t-02-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Luas tembereng lingkaran dengan jari-jari $10$ cm dan sudut pusat $90°$ adalah... ($\\pi = 3{,}14$)" }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$28{,}5$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$30{,}5$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$32{,}5$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$35{,}5$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$50$ cm²" } ]
+        [ { "tipe": "paragraph", "text": "$160°$" } ],
+        [ { "tipe": "paragraph", "text": "$20°$" } ],
+        [ { "tipe": "paragraph", "text": "$100°$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$L_{juring} = \\dfrac{90°}{360°} \\cdot 3{,}14 \\cdot 100 = 78{,}5$ cm²" },
-        { "tipe": "paragraph", "text": "$L_{\\triangle} = \\dfrac{1}{2} \\cdot 10 \\cdot 10 = 50$ cm²" },
-        { "tipe": "paragraph", "text": "$L_{tembereng} = 78{,}5 - 50 = 28{,}5$ cm²" }
+        { "tipe": "paragraph", "text": "Sudut pusat = 2 × sudut keliling (menghadap busur sama)." },
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\cdot 80° = 40°$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran yang berdiameter titik $A(1, 2)$ dan $B(5, 6)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(x - 3)^2 + (y - 4)^2 = 8$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 3)^2 + (y - 4)^2 = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 3)^2 + (y - 4)^2 = 16$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 1)^2 + (y - 2)^2 = 8$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 5)^2 + (y - 6)^2 = 8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pusat = titik tengah $AB = (3, 4)$." },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{1}{2}\\sqrt{(5-1)^2 + (6-2)^2} = \\dfrac{1}{2}\\sqrt{32} = \\sqrt{8}$." },
+        { "tipe": "paragraph", "text": "$(x - 3)^2 + (y - 4)^2 = 8$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang busur lingkaran dengan sudut pusat $90°$ dan jari-jari $14$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$11$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$33$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$28$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$= \\dfrac{90°}{360°} \\cdot 2 \\cdot \\dfrac{22}{7} \\cdot 14 = \\dfrac{1}{4} \\cdot 88 = 22$ cm." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas juring dengan sudut pusat $120°$ dan jari-jari $21$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$462$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$231$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$924$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$308$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$= \\dfrac{120°}{360°} \\cdot \\dfrac{22}{7} \\cdot 21^2 = \\dfrac{1}{3} \\cdot \\dfrac{22}{7} \\cdot 441$" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{3} \\cdot 22 \\cdot 63 = 462$ cm²." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $P(2, k)$ terletak pada lingkaran $x^2 + y^2 = 13$. Nilai $k$ positif adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{11}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$4 + k^2 = 13 \\Rightarrow k^2 = 9 \\Rightarrow k = 3$ (positif)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui dua lingkaran dengan jari-jari $5$ cm dan $2$ cm, serta jarak pusat $25$ cm. Panjang garis singgung persekutuan dalamnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$24$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{625}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{574}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{649}$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D = \\sqrt{25^2 - (5 + 2)^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$ cm." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung lingkaran $x^2 + y^2 - 4x + 6y - 12 = 0$ di titik $(5, 1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3x + 4y = 19$" } ],
+        [ { "tipe": "paragraph", "text": "$4x + 3y = 23$" } ],
+        [ { "tipe": "paragraph", "text": "$3x - 4y = 11$" } ],
+        [ { "tipe": "paragraph", "text": "$x + y = 6$" } ],
+        [ { "tipe": "paragraph", "text": "$2x + 3y = 13$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cek: $25 + 1 - 20 + 6 - 12 = 0$ ✓" },
+        { "tipe": "paragraph", "text": "Garis singgung: $xx_1 + yy_1 + \\dfrac{A(x + x_1)}{2} + \\dfrac{B(y + y_1)}{2} + C = 0$" },
+        { "tipe": "paragraph", "text": "$5x + y - 2(x + 5) + 3(y + 1) - 12 = 0$" },
+        { "tipe": "paragraph", "text": "$3x + 4y - 19 = 0 \\Rightarrow 3x + 4y = 19$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Lingkaran $x^2 + y^2 - 2x + 4y - 4 = 0$ memiliki jari-jari..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{7}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 1)^2 - 1 + (y + 2)^2 - 4 = 4$" },
+        { "tipe": "paragraph", "text": "$(x - 1)^2 + (y + 2)^2 = 9$" },
+        { "tipe": "paragraph", "text": "$r = 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran bersinggungan dalam. Jari-jari lingkaran besar $14$ cm dan jarak kedua pusat $4$ cm. Jari-jari lingkaran kecil adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bersinggungan dalam: $d = R - r$." },
+        { "tipe": "paragraph", "text": "$4 = 14 - r \\Rightarrow r = 10$ cm." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran dengan pusat $(2, -3)$ dan menyinggung sumbu-$x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(x - 2)^2 + (y + 3)^2 = 9$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 2)^2 + (y + 3)^2 = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 2)^2 + (y + 3)^2 = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$(x + 2)^2 + (y - 3)^2 = 9$" } ],
+        [ { "tipe": "paragraph", "text": "$(x - 2)^2 + (y + 3)^2 = 16$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Menyinggung sumbu-$x$: $r = |y_{pusat}| = 3$." },
+        { "tipe": "paragraph", "text": "$(x - 2)^2 + (y + 3)^2 = 9$." }
       ],
       "tingkat": "SULIT"
     }
