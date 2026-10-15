@@ -1,120 +1,207 @@
 {
-  "id": "bs-k11-ling-x-01",
+  "id": "bs-k11-kfi-sulit-01",
   "nama": "Bank Soal Sulit - Paket 1",
   "kelas": 11,
-  "kategori": "Lingkaran",
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
   "tingkat": "SULIT",
-  "deskripsi": "Soal sulit tentang garis singgung persekutuan dengan variabel dan perbandingan",
+  "deskripsi": "Soal sulit tentang komposisi fungsi bertingkat dan domain",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k11-ling-x-01-q01",
+      "id": "bs-k11-kfi-sulit-01-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran memiliki jari-jari $(3x + 2)$ cm dan $(x - 1)$ cm. Jarak kedua pusat adalah $20$ cm. Jika panjang GSPL adalah $12$ cm, maka nilai $x$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{x + 1}{x - 2}$ dan $g(x) = 3x$, nilai $(f \\circ g)(1)$ adalah..." }
       ],
       "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ],
-        [ { "tipe": "paragraph", "text": "$5$" } ],
-        [ { "tipe": "paragraph", "text": "$6$" } ],
-        [ { "tipe": "paragraph", "text": "$7$" } ],
-        [ { "tipe": "paragraph", "text": "$8$" } ]
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(1) = 3$" },
+        { "tipe": "paragraph", "text": "$f(g(1)) = f(3) = \\dfrac{3 + 1}{3 - 2} = \\dfrac{4}{1} = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\sqrt{x + 5}$ dan $g(x) = x^2 - 7$, domain dari $(f \\circ g)(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\sqrt{2} \\leq x \\leq \\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq \\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "Semua $x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = \\sqrt{x^2 - 7 + 5} = \\sqrt{x^2 - 2}$" },
+        { "tipe": "paragraph", "text": "Syarat: $x^2 - 2 \\geq 0 \\Rightarrow x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x + 1$ dan $g(x) = x^2$, nilai $(g \\circ f \\circ g)(1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2$" },
-        { "tipe": "paragraph", "text": "$12^2 = 20^2 - ((3x+2) - (x-1))^2$" },
-        { "tipe": "paragraph", "text": "$144 = 400 - (2x + 3)^2$" },
-        { "tipe": "paragraph", "text": "$(2x + 3)^2 = 256 \\Rightarrow 2x + 3 = 16$" },
-        { "tipe": "paragraph", "text": "$2x = 13 \\Rightarrow x = 6{,}5$" },
-        { "tipe": "paragraph", "text": "Karena $x=6{,}5$ tidak ada di opsi, soal direvisi agar $x=6$. Jika $x=6$, maka $R=20, r=5$, selisih $15$. $GSPL^2 = 400 - 225 = 175$ (bukan 144)." },
-        { "tipe": "paragraph", "text": "Revisi Final: Jika $GSPL=12$, maka $(2x+3)^2=256 \\Rightarrow 2x+3=16 \\Rightarrow x=6{,}5$. Opsi terdekat adalah $6$." }
+        { "tipe": "paragraph", "text": "$g(1) = 1$" },
+        { "tipe": "paragraph", "text": "$f(g(1)) = f(1) = 3$" },
+        { "tipe": "paragraph", "text": "$g(f(g(1))) = g(3) = 9$" }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k11-ling-x-01-q02",
+      "id": "bs-k11-kfi-sulit-01-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $R$ dan $r$ memiliki perbandingan $R : r = 3 : 1$. Jarak kedua pusat $20$ cm dan panjang GSPD $12$ cm. Jari-jari lingkaran besar adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{5x + 2}{3x - 1}$, maka $f^{-1}(x)$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$15$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$18$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$21$ cm" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$GSPD^2 = d^2 - (R + r)^2$" },
-        { "tipe": "paragraph", "text": "$12^2 = 20^2 - (R + r)^2$" },
-        { "tipe": "paragraph", "text": "$144 = 400 - (R + r)^2$" },
-        { "tipe": "paragraph", "text": "$(R + r)^2 = 256 \\Rightarrow R + r = 16$" },
-        { "tipe": "paragraph", "text": "$R : r = 3 : 1 \\Rightarrow R = \\dfrac{3}{4} \\cdot 16 = 12$ cm" }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k11-ling-x-01-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran bersinggungan luar. Jari-jari lingkaran pertama $8$ cm dan jarak pusat $20$ cm. Panjang GSPL kedua lingkaran adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$8\\sqrt{6}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$10\\sqrt{3}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$12\\sqrt{2}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$14\\sqrt{2}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$16\\sqrt{2}$ cm" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 2}{3x - 5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x - 2}{3x + 5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x - 2}{3x + 1}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 2}{5 - 3x}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x - 2}{5 - 3x}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bersinggungan luar: $d = R + r \\Rightarrow 20 = 8 + r \\Rightarrow r = 12$ cm" },
-        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2 = 20^2 - (8 - 12)^2$" },
-        { "tipe": "paragraph", "text": "$= 400 - 16 = 384$" },
-        { "tipe": "paragraph", "text": "$GSPL = \\sqrt{384} = 8\\sqrt{6}$ cm" }
+        { "tipe": "paragraph", "text": "$y = \\dfrac{5x + 2}{3x - 1} \\Rightarrow y(3x - 1) = 5x + 2$" },
+        { "tipe": "paragraph", "text": "$3xy - y = 5x + 2 \\Rightarrow 3xy - 5x = y + 2$" },
+        { "tipe": "paragraph", "text": "$x(3y - 5) = y + 2 \\Rightarrow x = \\dfrac{y + 2}{3y - 5}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 2}{3x - 5}$" }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k11-ling-x-01-q04",
+      "id": "bs-k11-kfi-sulit-01-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $15$ cm dan $7$ cm. Jika panjang GSPL sama dengan $24$ cm, maka jarak kedua pusat adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 + 2x - 3$ dengan domain $x \\geq -1$, maka $f^{-1}(x)$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$26$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$27$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$28$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$30$ cm" } ]
+        [ { "tipe": "paragraph", "text": "$-1 + \\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 - \\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1 + \\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1 - \\sqrt{x + 4}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2$" },
-        { "tipe": "paragraph", "text": "$24^2 = d^2 - (15 - 7)^2$" },
-        { "tipe": "paragraph", "text": "$576 = d^2 - 64$" },
-        { "tipe": "paragraph", "text": "$d^2 = 640 \\Rightarrow d = 8\\sqrt{10} \\approx 25{,}3$ cm" },
-        { "tipe": "paragraph", "text": "Revisi Final: Soal diubah agar $d=25$. Jika $d=25$, $R=15, r=7$, selisih 8. $GSPL^2 = 625 - 64 = 561$ (bukan 576)." },
-        { "tipe": "paragraph", "text": "Jika $GSPL=24$, maka $d=\\sqrt{640}\\approx 25{,}3$. Opsi terdekat adalah $25$ cm." }
+        { "tipe": "paragraph", "text": "$y = (x + 1)^2 - 4 \\Rightarrow y + 4 = (x + 1)^2$" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq -1$: $x + 1 = \\sqrt{y + 4}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = -1 + \\sqrt{x + 4}$" }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k11-ling-x-01-q05",
+      "id": "bs-k11-kfi-sulit-01-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $R$ dan $r$ memiliki $R - r = 6$ cm. Jarak pusat $d = 10$ cm. Jika GSPL $= 8$ cm, maka $R + r$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x + 1$ dan $g(x) = 2x + 4$, nilai $a$ jika $(f \\circ g)(a) = 19$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$16$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$18$ cm" } ]
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = f(2a + 4) = 3(2a + 4) + 1 = 6a + 13$" },
+        { "tipe": "paragraph", "text": "$6a + 13 = 19 \\Rightarrow 6a = 6 \\Rightarrow a = 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2$ dan $g(x) = \\sqrt{x}$ dengan $x \\geq 0$, nilai $(f \\circ g)(16) + (g \\circ f)(16)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(f \\circ g)(16) = f(4) = 16$" },
+        { "tipe": "paragraph", "text": "$(g \\circ f)(16) = g(256) = 16$" },
+        { "tipe": "paragraph", "text": "$16 + 16 = 32$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\dfrac{x + 1}{x - 1}$ dan $g(x) = 2x + 1$. Nilai $x$ jika $(g \\circ f)(x) = 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(g \\circ f)(x) = 2 \\cdot \\dfrac{x + 1}{x - 1} + 1$" },
+        { "tipe": "paragraph", "text": "$2 \\cdot \\dfrac{x + 1}{x - 1} = 4 \\Rightarrow \\dfrac{x + 1}{x - 1} = 2$" },
+        { "tipe": "paragraph", "text": "$x + 1 = 2x - 2 \\Rightarrow x = 3$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f^{-1}(x) = \\dfrac{4x + 3}{2x - 5}$, maka $f(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x + 3}{2x - 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x - 3}{2x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4x + 3}{2x - 5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2x - 5}{4x + 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x + 3}{4x - 2}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$GSPL^2 = d^2 - (R - r)^2$" },
-        { "tipe": "paragraph", "text": "$8^2 = 10^2 - 6^2 \\Rightarrow 64 = 100 - 36 = 64$ (benar)" },
-        { "tipe": "paragraph", "text": "Informasi $R - r = 6$ dan $d = 10$ sudah cukup untuk GSPL, tetapi $R + r$ tidak dapat ditentukan tanpa informasi tambahan." },
-        { "tipe": "paragraph", "text": "Revisi Final: Soal diubah menjadi: Jika $R + r = 10$, maka $R=8, r=2$. GSPL tetap 8. Jawaban $10$ cm." }
+        { "tipe": "paragraph", "text": "$y = \\dfrac{4x + 3}{2x - 5} \\Rightarrow y(2x - 5) = 4x + 3$" },
+        { "tipe": "paragraph", "text": "$2xy - 5y = 4x + 3 \\Rightarrow 2xy - 4x = 5y + 3$" },
+        { "tipe": "paragraph", "text": "$x(2y - 4) = 5y + 3 \\Rightarrow x = \\dfrac{5y + 3}{2y - 4}$" },
+        { "tipe": "paragraph", "text": "$f(x) = \\dfrac{5x + 3}{2x - 4}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x + 2$ dan $g(x) = \\dfrac{1}{x - 1}$, nilai $(f \\circ g)(3)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(3) = \\dfrac{1}{3 - 1} = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$f(g(3)) = f\\left(\\dfrac{1}{2}\\right) = \\dfrac{1}{2} + 2 = \\dfrac{5}{2}$" }
       ],
       "tingkat": "SULIT"
     }
