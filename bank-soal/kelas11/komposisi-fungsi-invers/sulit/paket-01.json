@@ -10,33 +10,26 @@
     {
       "id": "bs-k11-kfi-sulit-01-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{2x + 1}{x - 3}$ dan $g(x) = x + 2$, nilai $(f \\circ g)(1)$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{x + 1}{x - 2}$ dan $g(x) = 3x$, nilai $(f \\circ g)(1)$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{5}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$g(1) = 3$" },
-        { "tipe": "paragraph", "text": "$f(g(1)) = f(3) = \\dfrac{2(3) + 1}{3 - 3} = \\dfrac{7}{0}$ (tidak terdefinisi)" },
-        { "tipe": "paragraph", "text": "**Revisi**: gunakan $g(0) = 2$." },
-        { "tipe": "paragraph", "text": "$f(g(0)) = f(2) = \\dfrac{2(2) + 1}{2 - 3} = \\dfrac{5}{-1} = -5$" },
-        { "tipe": "paragraph", "text": "**Revisi final**: nilai $(f \\circ g)(1)$ dengan $g(x) = x - 3$ → $g(1) = -2$" },
-        { "tipe": "paragraph", "text": "$f(-2) = \\dfrac{-4 + 1}{-2 - 3} = \\dfrac{-3}{-5} = \\dfrac{3}{5}$" },
-        { "tipe": "paragraph", "text": "**Keputusan**: ganti soal ke bentuk sederhana." },
-        { "tipe": "paragraph", "text": "Gunakan $f(x) = \\dfrac{x + 1}{x - 2}$, $g(x) = 3x$, nilai $(f \\circ g)(1)$." },
-        { "tipe": "paragraph", "text": "$g(1) = 3$; $f(3) = \\dfrac{4}{1} = 4$" }
+        { "tipe": "paragraph", "text": "$f(g(1)) = f(3) = \\dfrac{3 + 1}{3 - 2} = \\dfrac{4}{1} = 4$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k11-kfi-sulit-01-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $f(x) = \\sqrt{x + 5}$ dan $g(x) = x^2 - 3$, domain dari $(f \\circ g)(x)$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\sqrt{x + 5}$ dan $g(x) = x^2 - 7$, domain dari $(f \\circ g)(x)$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$" } ],
@@ -47,9 +40,6 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = \\sqrt{x^2 - 3 + 5} = \\sqrt{x^2 + 2}$" },
-        { "tipe": "paragraph", "text": "Syarat: $x^2 + 2 \\geq 0$ — selalu terpenuhi." },
-        { "tipe": "paragraph", "text": "**Revisi**: gunakan $g(x) = x^2 - 7$." },
         { "tipe": "paragraph", "text": "$(f \\circ g)(x) = \\sqrt{x^2 - 7 + 5} = \\sqrt{x^2 - 2}$" },
         { "tipe": "paragraph", "text": "Syarat: $x^2 - 2 \\geq 0 \\Rightarrow x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$" }
       ],
@@ -69,7 +59,7 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Hitung dari dalam: $g(1) = 1$" },
+        { "tipe": "paragraph", "text": "$g(1) = 1$" },
         { "tipe": "paragraph", "text": "$f(g(1)) = f(1) = 3$" },
         { "tipe": "paragraph", "text": "$g(f(g(1))) = g(3) = 9$" }
       ],
@@ -110,11 +100,8 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = x^2 + 2x - 3 = (x + 1)^2 - 4$" },
-        { "tipe": "paragraph", "text": "$y + 4 = (x + 1)^2$" },
-        { "tipe": "paragraph", "text": "$x + 1 = \\pm\\sqrt{y + 4}$" },
-        { "tipe": "paragraph", "text": "Karena domain $x \\geq -1$: $x + 1 = \\sqrt{y + 4}$" },
-        { "tipe": "paragraph", "text": "$x = -1 + \\sqrt{y + 4}$" },
+        { "tipe": "paragraph", "text": "$y = (x + 1)^2 - 4 \\Rightarrow y + 4 = (x + 1)^2$" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq -1$: $x + 1 = \\sqrt{y + 4}$" },
         { "tipe": "paragraph", "text": "$f^{-1}(x) = -1 + \\sqrt{x + 4}$" }
       ],
       "tingkat": "SULIT"
@@ -122,35 +109,19 @@
     {
       "id": "bs-k11-kfi-sulit-01-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $f(x) = 3x - 2$, $g(x) = 2x + 5$, dan $(f \\circ g)(a) = (g \\circ f)(a)$, nilai $a$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x + 1$ dan $g(x) = 2x + 4$, nilai $a$ jika $(f \\circ g)(a) = 19$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$5$" } ],
-        [ { "tipe": "paragraph", "text": "$6$" } ],
-        [ { "tipe": "paragraph", "text": "$7$" } ],
-        [ { "tipe": "paragraph", "text": "$8$" } ],
-        [ { "tipe": "paragraph", "text": "$9$" } ]
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = f(2a + 5) = 3(2a + 5) - 2 = 6a + 13$" },
-        { "tipe": "paragraph", "text": "$(g \\circ f)(a) = g(3a - 2) = 2(3a - 2) + 5 = 6a + 1$" },
-        { "tipe": "paragraph", "text": "$6a + 13 = 6a + 1$ — tidak ada solusi. Kedua fungsi komposisi selalu berbeda." },
-        { "tipe": "paragraph", "text": "**Revisi soal**: gunakan $f(x) = 2x + 1$, $g(x) = 3x - 4$." },
-        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = 2(3a - 4) + 1 = 6a - 7$" },
-        { "tipe": "paragraph", "text": "$(g \\circ f)(a) = 3(2a + 1) - 4 = 6a - 1$" },
-        { "tipe": "paragraph", "text": "$6a - 7 = 6a - 1$ — masih tidak ada solusi." },
-        { "tipe": "paragraph", "text": "**Kesimpulan**: untuk $f$ dan $g$ linear non-komutatif, tidak pernah ada solusi. Ganti soal ke topik lain." },
-        { "tipe": "paragraph", "text": "**Soal ganti**: Jika $f(x) = 4x - 3$, $g(x) = 2x + 1$, nilai $a$ jika $(f \\circ g)(a) = 23$." },
-        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = 4(2a + 1) - 3 = 8a + 1$" },
-        { "tipe": "paragraph", "text": "$8a + 1 = 23 \\Rightarrow 8a = 22$ — tidak bulat." },
-        { "tipe": "paragraph", "text": "**Final**: gunakan $(f \\circ g)(a) = 25$: $8a = 24 \\Rightarrow a = 3$." },
-        { "tipe": "paragraph", "text": "**Kunci**: $a = 3$, tidak ada di opsi." },
-        { "tipe": "paragraph", "text": "**Final terbaik**: gunakan $f(x) = 3x + 1$, $g(x) = 2x + 4$, $(f \\circ g)(a) = 19$." },
-        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = 3(2a + 4) + 1 = 6a + 13$" },
-        { "tipe": "paragraph", "text": "$6a + 13 = 19 \\Rightarrow 6a = 6 \\Rightarrow a = 1$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan**: soal ini ganti total. Gunakan: Jika $f(x) = 2x - 1$, $g(x) = 3x + 2$, nilai $(f \\circ g)(3)$." },
-        { "tipe": "paragraph", "text": "$g(3) = 11$; $f(11) = 21$" }
+        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = f(2a + 4) = 3(2a + 4) + 1 = 6a + 13$" },
+        { "tipe": "paragraph", "text": "$6a + 13 = 19 \\Rightarrow 6a = 6 \\Rightarrow a = 1$" }
       ],
       "tingkat": "SULIT"
     },
@@ -166,43 +137,31 @@
         [ { "tipe": "paragraph", "text": "$32$" } ],
         [ { "tipe": "paragraph", "text": "$36$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$(f \\circ g)(16) = f(4) = 16$" },
         { "tipe": "paragraph", "text": "$(g \\circ f)(16) = g(256) = 16$" },
-        { "tipe": "paragraph", "text": "$16 + 16 = 32$" },
-        { "tipe": "paragraph", "text": "**Koreksi kunci**: hasil $= 32$, kunci D." }
+        { "tipe": "paragraph", "text": "$16 + 16 = 32$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k11-kfi-sulit-01-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\dfrac{2x}{x - 1}$ dan $g(x) = x + 3$. Nilai $x$ jika $(g \\circ f)(x) = 5$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\dfrac{x + 1}{x - 1}$ dan $g(x) = 2x + 1$. Nilai $x$ jika $(g \\circ f)(x) = 5$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{2}{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$3$" } ]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(g \\circ f)(x) = g\\left(\\dfrac{2x}{x - 1}\\right) = \\dfrac{2x}{x - 1} + 3$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{2x}{x - 1} + 3 = 5 \\Rightarrow \\dfrac{2x}{x - 1} = 2$" },
-        { "tipe": "paragraph", "text": "$2x = 2(x - 1) \\Rightarrow 2x = 2x - 2$" },
-        { "tipe": "paragraph", "text": "Kontradiksi! Tidak ada $x$ yang memenuhi." },
-        { "tipe": "paragraph", "text": "**Revisi soal**: gunakan $(g \\circ f)(x) = 7$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{2x}{x - 1} + 3 = 7 \\Rightarrow \\dfrac{2x}{x - 1} = 4$" },
-        { "tipe": "paragraph", "text": "$2x = 4(x - 1) \\Rightarrow 2x = 4x - 4 \\Rightarrow 2x = 4 \\Rightarrow x = 2$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan**: ganti soal ke: Nilai $x$ jika $(g \\circ f)(x) = 5$, gunakan $f(x) = \\dfrac{3x}{x - 1}$, $g(x) = x + 2$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{3x}{x - 1} + 2 = 5 \\Rightarrow \\dfrac{3x}{x - 1} = 3$" },
-        { "tipe": "paragraph", "text": "$3x = 3(x - 1)$ — kontradiksi juga." },
-        { "tipe": "paragraph", "text": "**Final**: gunakan $f(x) = \\dfrac{x + 1}{x - 1}$, $g(x) = 2x + 1$, $(g \\circ f)(x) = 5$." },
-        { "tipe": "paragraph", "text": "$2 \\cdot \\dfrac{x + 1}{x - 1} + 1 = 5 \\Rightarrow \\dfrac{2(x + 1)}{x - 1} = 4$" },
-        { "tipe": "paragraph", "text": "$2(x + 1) = 4(x - 1) \\Rightarrow 2x + 2 = 4x - 4 \\Rightarrow 2x = 6 \\Rightarrow x = 3$" },
-        { "tipe": "paragraph", "text": "**Kunci**: $x = 3$, kunci E." }
+        { "tipe": "paragraph", "text": "$(g \\circ f)(x) = 2 \\cdot \\dfrac{x + 1}{x - 1} + 1$" },
+        { "tipe": "paragraph", "text": "$2 \\cdot \\dfrac{x + 1}{x - 1} = 4 \\Rightarrow \\dfrac{x + 1}{x - 1} = 2$" },
+        { "tipe": "paragraph", "text": "$x + 1 = 2x - 2 \\Rightarrow x = 3$" }
       ],
       "tingkat": "SULIT"
     },
@@ -230,33 +189,19 @@
     {
       "id": "bs-k11-kfi-sulit-01-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{x + 1}{x - 2}$ dan $g(x) = \\dfrac{2x}{x + 1}$, maka $(f \\circ g)(x)$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = x + 2$ dan $g(x) = \\dfrac{1}{x - 1}$, nilai $(f \\circ g)(3)$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3x + 1}{-x + 2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3x - 1}{x + 2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3x + 1}{x - 2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 1}{2x}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3x - 1}{2 - x}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = f\\left(\\dfrac{2x}{x + 1}\\right) = \\dfrac{\\frac{2x}{x + 1} + 1}{\\frac{2x}{x + 1} - 2}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{\\frac{2x + x + 1}{x + 1}}{\\frac{2x - 2x - 2}{x + 1}} = \\dfrac{3x + 1}{-2}$" },
-        { "tipe": "paragraph", "text": "**Koreksi**: ada kesalahan hitung. Ulang dengan cara berbeda:" },
-        { "tipe": "paragraph", "text": "$f(g(x))$ dengan $g(x) = \\dfrac{2x}{x + 1}$:" },
-        { "tipe": "paragraph", "text": "Pembilang: $g(x) + 1 = \\dfrac{2x}{x + 1} + 1 = \\dfrac{2x + x + 1}{x + 1} = \\dfrac{3x + 1}{x + 1}$" },
-        { "tipe": "paragraph", "text": "Penyebut: $g(x) - 2 = \\dfrac{2x}{x + 1} - 2 = \\dfrac{2x - 2x - 2}{x + 1} = \\dfrac{-2}{x + 1}$" },
-        { "tipe": "paragraph", "text": "Rasio: $\\dfrac{3x + 1}{x + 1} \\div \\dfrac{-2}{x + 1} = \\dfrac{3x + 1}{-2} = \\dfrac{-(3x + 1)}{2}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan**: $(f \\circ g)(x) = -\\dfrac{3x + 1}{2}$. Tidak ada di opsi." },
-        { "tipe": "paragraph", "text": "**Revisi soal**: gunakan $g(x) = \\dfrac{x + 2}{x - 1}$." },
-        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = \\dfrac{\\frac{x + 2}{x - 1} + 1}{\\frac{x + 2}{x - 1} - 2}$" },
-        { "tipe": "paragraph", "text": "Pembilang: $\\dfrac{x + 2 + x - 1}{x - 1} = \\dfrac{2x + 1}{x - 1}$" },
-        { "tipe": "paragraph", "text": "Penyebut: $\\dfrac{x + 2 - 2x + 2}{x - 1} = \\dfrac{-x + 4}{x - 1}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{2x + 1}{-x + 4} = \\dfrac{2x + 1}{4 - x}$" },
-        { "tipe": "paragraph", "text": "**Kunci opsi**: tidak ada yang cocok persis." },
-        { "tipe": "paragraph", "text": "**Keputusan final**: ganti soal ke: Jika $f(x) = x + 2$ dan $g(x) = \\dfrac{1}{x - 1}$, $(f \\circ g)(3)$." },
-        { "tipe": "paragraph", "text": "$g(3) = \\dfrac{1}{2}$; $f\\left(\\dfrac{1}{2}\\right) = \\dfrac{1}{2} + 2 = \\dfrac{5}{2}$" }
+        { "tipe": "paragraph", "text": "$g(3) = \\dfrac{1}{3 - 1} = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "$f(g(3)) = f\\left(\\dfrac{1}{2}\\right) = \\dfrac{1}{2} + 2 = \\dfrac{5}{2}$" }
       ],
       "tingkat": "SULIT"
     }
