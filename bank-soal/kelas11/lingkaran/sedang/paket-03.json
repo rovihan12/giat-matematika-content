@@ -1,0 +1,205 @@
+{
+  "id": "bs-k11-ling-s-03",
+  "nama": "Bank Soal Sedang - Paket 3",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang lingkaran dalam dan luar segitiga",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-s-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga dengan sisi $9$ cm, $12$ cm, $15$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$s = \\dfrac{9 + 12 + 15}{2} = 18$" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 9 \\cdot 12 = 54$ cm²" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{L}{s} = \\dfrac{54}{18} = 3$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran luar segitiga dengan sisi $6$ cm, $8$ cm, $10$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga siku-siku → jari-jari lingkaran luar $= \\dfrac{hipotenusa}{2}$." },
+        { "tipe": "paragraph", "text": "$R = \\dfrac{10}{2} = 5$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segitiga sama sisi dengan sisi $12$ cm. Jari-jari lingkaran dalamnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Untuk segitiga sama sisi: $r = \\dfrac{s\\sqrt{3}}{6}$" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{12\\sqrt{3}}{6} = 2\\sqrt{3}$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segitiga sama sisi dengan sisi $12$ cm. Jari-jari lingkaran luarnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Untuk segitiga sama sisi: $R = \\dfrac{s\\sqrt{3}}{3}$" },
+        { "tipe": "paragraph", "text": "$R = \\dfrac{12\\sqrt{3}}{3} = 4\\sqrt{3}$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga dengan sisi $13$ cm, $14$ cm, $15$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$s = \\dfrac{13 + 14 + 15}{2} = 21$" },
+        { "tipe": "paragraph", "text": "$L = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{21 \\cdot 8 \\cdot 7 \\cdot 6}$" },
+        { "tipe": "paragraph", "text": "$= \\sqrt{7056} = 84$ cm²" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{84}{21} = 4$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran luar segitiga dengan sisi $5$ cm, $12$ cm, $13$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga siku-siku (karena $5^2 + 12^2 = 13^2$)." },
+        { "tipe": "paragraph", "text": "$R = \\dfrac{13}{2} = 6{,}5$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segitiga siku-siku memiliki sisi tegak $6$ cm dan $8$ cm. Jari-jari lingkaran dalamnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$s = \\dfrac{6 + 8 + 10}{2} = 12$" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 6 \\cdot 8 = 24$" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{24}{12} = 2$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga sama sisi dengan sisi $18$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$r = \\dfrac{18\\sqrt{3}}{6} = 3\\sqrt{3}$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran luar segitiga dengan sisi $7$ cm, $24$ cm, $25$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$50$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga siku-siku (karena $7^2 + 24^2 = 25^2$)." },
+        { "tipe": "paragraph", "text": "$R = \\dfrac{25}{2} = 12{,}5$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran dalam segitiga dengan sisi $8$ cm, $15$ cm, $17$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$s = \\dfrac{8 + 15 + 17}{2} = 20$" },
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 8 \\cdot 15 = 60$" },
+        { "tipe": "paragraph", "text": "$r = \\dfrac{60}{20} = 3$ cm" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
