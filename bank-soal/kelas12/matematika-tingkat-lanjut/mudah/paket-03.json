@@ -1,0 +1,209 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Transformasi geometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(3, 4)$ oleh translasi $T = \\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(5, 3)$"}],
+        [{"tipe":"paragraph","text":"$(5, 5)$"}],
+        [{"tipe":"paragraph","text":"$(1, 3)$"}],
+        [{"tipe":"paragraph","text":"$(1, 5)$"}],
+        [{"tipe":"paragraph","text":"$(5, -3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "A' = (3+2, 4-1) = (5, 3)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(5, 3)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(2, 3)$ oleh refleksi terhadap sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(2, -3)$"}],
+        [{"tipe":"paragraph","text":"$(-2, 3)$"}],
+        [{"tipe":"paragraph","text":"$(-2, -3)$"}],
+        [{"tipe":"paragraph","text":"$(3, 2)$"}],
+        [{"tipe":"paragraph","text":"$(-3, -2)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap sumbu-$x$: $(x, y) \\to (x, -y)$." },
+        { "tipe": "formula_block", "latex": "A' = (2, -3)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(2, -3)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(3, -2)$ oleh refleksi terhadap sumbu-$y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-3, -2)$"}],
+        [{"tipe":"paragraph","text":"$(3, 2)$"}],
+        [{"tipe":"paragraph","text":"$(-3, 2)$"}],
+        [{"tipe":"paragraph","text":"$(2, -3)$"}],
+        [{"tipe":"paragraph","text":"$(-2, 3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap sumbu-$y$: $(x, y) \\to (-x, y)$." },
+        { "tipe": "formula_block", "latex": "A' = (-3, -2)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(-3, -2)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(4, 1)$ oleh refleksi terhadap garis $y = x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(1, 4)$"}],
+        [{"tipe":"paragraph","text":"$(-1, -4)$"}],
+        [{"tipe":"paragraph","text":"$(4, 1)$"}],
+        [{"tipe":"paragraph","text":"$(-4, -1)$"}],
+        [{"tipe":"paragraph","text":"$(-4, 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap garis $y = x$: $(x, y) \\to (y, x)$." },
+        { "tipe": "formula_block", "latex": "A' = (1, 4)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(1, 4)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(1, 2)$ oleh rotasi $90°$ berlawanan arah jarum jam terhadap titik asal $O$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-2, 1)$"}],
+        [{"tipe":"paragraph","text":"$(2, -1)$"}],
+        [{"tipe":"paragraph","text":"$(-1, 2)$"}],
+        [{"tipe":"paragraph","text":"$(1, -2)$"}],
+        [{"tipe":"paragraph","text":"$(2, 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rotasi $90°$ CCW: $(x, y) \\to (-y, x)$." },
+        { "tipe": "formula_block", "latex": "A' = (-2, 1)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(-2, 1)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(3, 5)$ oleh rotasi $180°$ terhadap titik asal $O$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-3, -5)$"}],
+        [{"tipe":"paragraph","text":"$(3, -5)$"}],
+        [{"tipe":"paragraph","text":"$(-3, 5)$"}],
+        [{"tipe":"paragraph","text":"$(5, 3)$"}],
+        [{"tipe":"paragraph","text":"$(-5, -3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rotasi $180°$: $(x, y) \\to (-x, -y)$." },
+        { "tipe": "formula_block", "latex": "A' = (-3, -5)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(-3, -5)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(2, 3)$ oleh dilatasi dengan pusat $O$ dan faktor skala $2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(4, 6)$"}],
+        [{"tipe":"paragraph","text":"$(1, 1{,}5)$"}],
+        [{"tipe":"paragraph","text":"$(4, 3)$"}],
+        [{"tipe":"paragraph","text":"$(2, 6)$"}],
+        [{"tipe":"paragraph","text":"$(2, 3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dilatasi pusat $O$ skala $k$: $(x, y) \\to (kx, ky)$." },
+        { "tipe": "formula_block", "latex": "A' = (2 \\cdot 2, 2 \\cdot 3) = (4, 6)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(4, 6)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(6, 3)$ oleh dilatasi dengan pusat $O$ dan faktor skala $\\dfrac{1}{3}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(2, 1)$"}],
+        [{"tipe":"paragraph","text":"$(18, 9)$"}],
+        [{"tipe":"paragraph","text":"$(2, 3)$"}],
+        [{"tipe":"paragraph","text":"$(3, 2)$"}],
+        [{"tipe":"paragraph","text":"$(6, 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "A' = \\left(\\dfrac{1}{3} \\cdot 6, \\dfrac{1}{3} \\cdot 3\\right) = (2, 1)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(2, 1)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(2, 5)$ oleh translasi $T_1 = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ dilanjutkan $T_2 = \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(6, 6)$"}],
+        [{"tipe":"paragraph","text":"$(6, 4)$"}],
+        [{"tipe":"paragraph","text":"$(5, 6)$"}],
+        [{"tipe":"paragraph","text":"$(4, 6)$"}],
+        [{"tipe":"paragraph","text":"$(6, 8)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Translasi gabungan: $T = T_1 + T_2 = (1+3, 2-1) = (4, 1)$." },
+        { "tipe": "formula_block", "latex": "A' = (2+4, 5+1) = (6, 6)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(6, 6)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(4, -2)$ oleh refleksi terhadap garis $y = -x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(2, -4)$"}],
+        [{"tipe":"paragraph","text":"$(-2, 4)$"}],
+        [{"tipe":"paragraph","text":"$(-4, 2)$"}],
+        [{"tipe":"paragraph","text":"$(4, 2)$"}],
+        [{"tipe":"paragraph","text":"$(-2, -4)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap garis $y = -x$: $(x, y) \\to (-y, -x)$." },
+        { "tipe": "formula_block", "latex": "A' = (2, -4)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya $(2, -4)$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
