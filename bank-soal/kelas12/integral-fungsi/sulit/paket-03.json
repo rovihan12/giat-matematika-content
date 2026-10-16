@@ -1,0 +1,218 @@
+{
+  "id": "bs-k12-integral-sulit-03",
+  "nama": "Bank Soal Sulit - Paket 3",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Integral substitusi trigonometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sulit-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin^3 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\cos x + \\dfrac{\\cos^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\cos x - \\dfrac{\\cos^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x - \\dfrac{\\cos^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x + \\dfrac{\\cos^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos^3 x}{3} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sin^3 x = \\sin x (1 - \\cos^2 x)$." },
+        { "tipe": "paragraph", "text": "Misalkan $u = \\cos x$, maka $du = -\\sin x \\, dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\sin x (1 - \\cos^2 x) \\, dx = \\int (1 - u^2)(-du) = -u + \\dfrac{u^3}{3} + C" },
+        { "tipe": "formula_block", "latex": "= -\\cos x + \\dfrac{\\cos^3 x}{3} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-\\cos x + \\dfrac{\\cos^3 x}{3} + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos^3 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sin x - \\dfrac{\\sin^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\sin x + \\dfrac{\\sin^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\sin x + \\dfrac{\\sin^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sin^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x - \\dfrac{\\cos^3 x}{3} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\cos^3 x = \\cos x (1 - \\sin^2 x)$." },
+        { "tipe": "paragraph", "text": "Misalkan $u = \\sin x$, maka $du = \\cos x \\, dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\cos x (1 - \\sin^2 x) \\, dx = \\int (1 - u^2) \\, du = u - \\dfrac{u^3}{3} + C = \\sin x - \\dfrac{\\sin^3 x}{3} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $\\sin x - \\dfrac{\\sin^3 x}{3} + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin^4 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3x}{8} - \\dfrac{\\sin 2x}{4} + \\dfrac{\\sin 4x}{32} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3x}{8} + \\dfrac{\\sin 2x}{4} - \\dfrac{\\sin 4x}{32} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{8} - \\dfrac{\\sin 2x}{4} + \\dfrac{\\sin 4x}{32} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3x}{8} - \\dfrac{\\sin 4x}{4} + \\dfrac{\\sin 8x}{32} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{8} + \\dfrac{\\sin 2x}{4} - \\dfrac{\\sin 4x}{32} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $\\sin^2 x = \\dfrac{1 - \\cos 2x}{2}$ dua kali:" },
+        { "tipe": "formula_block", "latex": "\\sin^4 x = \\left( \\dfrac{1 - \\cos 2x}{2} \\right)^2 = \\dfrac{1 - 2\\cos 2x + \\cos^2 2x}{4}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1 - 2\\cos 2x + \\dfrac{1 + \\cos 4x}{2}}{4} = \\dfrac{3}{8} - \\dfrac{\\cos 2x}{2} + \\dfrac{\\cos 4x}{8}" },
+        { "tipe": "formula_block", "latex": "\\int \\sin^4 x \\, dx = \\dfrac{3x}{8} - \\dfrac{\\sin 2x}{4} + \\dfrac{\\sin 4x}{32} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $\\dfrac{3x}{8} - \\dfrac{\\sin 2x}{4} + \\dfrac{\\sin 4x}{32} + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin 2x \\cos 2x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos 4x}{8} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\cos 4x}{8} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos 4x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\sin 4x}{8} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos 2x}{4} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sin 2x \\cos 2x = \\dfrac{\\sin 4x}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{\\sin 4x}{2} \\, dx = -\\dfrac{\\cos 4x}{8} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-\\dfrac{\\cos 4x}{8} + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin x \\cos^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\cos^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos^2 x}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sin^3 x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\sin^3 x}{3} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = \\cos x$, maka $du = -\\sin x \\, dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\sin x \\cos^2 x \\, dx = \\int -u^2 \\, du = -\\dfrac{u^3}{3} + C = -\\dfrac{\\cos^3 x}{3} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-\\dfrac{\\cos^3 x}{3} + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\tan x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\ln|\\cos x| + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln|\\cos x| + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln|\\sec x| + C$"}],
+        [{"tipe":"paragraph","text":"$\\tan^2 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\sec^2 x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $\\tan x = \\dfrac{\\sin x}{\\cos x}$." },
+        { "tipe": "paragraph", "text": "Misalkan $u = \\cos x$, maka $du = -\\sin x \\, dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{-du}{u} = -\\ln|u| + C = -\\ln|\\cos x| + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-\\ln|\\cos x| + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos 3x \\sin x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos 4x}{8} + \\dfrac{\\cos 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos 4x}{8} - \\dfrac{\\cos 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\cos 4x}{8} + \\dfrac{\\cos 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\sin 4x}{8} - \\dfrac{\\sin 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\cos 4x}{4} - \\dfrac{\\cos 2x}{2} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\cos A \\sin B = \\dfrac{\\sin(A+B) - \\sin(A-B)}{2}$." },
+        { "tipe": "formula_block", "latex": "\\cos 3x \\sin x = \\dfrac{\\sin 4x - \\sin 2x}{2}" },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{\\sin 4x - \\sin 2x}{2} \\, dx = \\dfrac{1}{2} \\left( -\\dfrac{\\cos 4x}{4} + \\dfrac{\\cos 2x}{2} \\right) + C" },
+        { "tipe": "formula_block", "latex": "= -\\dfrac{\\cos 4x}{8} + \\dfrac{\\cos 2x}{4} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-\\dfrac{\\cos 4x}{8} + \\dfrac{\\cos 2x}{4} + C$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\sin^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{8}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\sin^2 x \\, dx = \\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C" },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\sin^2 x \\, dx = \\left[ \\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} \\right]_{0}^{\\pi/2} = \\dfrac{\\pi}{4} - 0 = \\dfrac{\\pi}{4}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya adalah $\\dfrac{\\pi}{4}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\cos^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{8}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\cos^2 x \\, dx = \\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C" },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\cos^2 x \\, dx = \\left[ \\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} \\right]_{0}^{\\pi/2} = \\dfrac{\\pi}{4}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya adalah $\\dfrac{\\pi}{4}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\sin 2x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\sin 2x \\, dx = \\left[ -\\dfrac{\\cos 2x}{2} \\right]_{0}^{\\pi/2} = -\\dfrac{\\cos\\pi}{2} + \\dfrac{\\cos 0}{2} = \\dfrac{1}{2} + \\dfrac{1}{2} = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya adalah 1." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
