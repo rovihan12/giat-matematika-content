@@ -1,0 +1,206 @@
+{
+  "id": "bs-k12-mat-lanjut-sedang-01",
+  "nama": "Bank Soal Sedang - Paket 1",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Vektor lanjutan: sudut & proyeksi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 1)$ dan $\\vec{b} = (1, 0)$. Nilai $\\cos \\theta$ antara kedua vektor adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{2}}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{3}}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1(1) + 1(0) = 1" },
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{2}, \\quad |\\vec{b}| = 1" },
+        { "tipe": "formula_block", "latex": "\\cos\\theta = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}||\\vec{b}|} = \\dfrac{1}{\\sqrt{2}} = \\dfrac{\\sqrt{2}}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, $\\cos\\theta = \\dfrac{\\sqrt{2}}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (3, 4)$ dan $\\vec{b} = (0, 5)$. Nilai $\\cos \\theta$ antara $\\vec{a}$ dan $\\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{4}$"}],
+        [{"tipe":"paragraph","text":"$1$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 3(0) + 4(5) = 20" },
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = 5, \\quad |\\vec{b}| = 5" },
+        { "tipe": "formula_block", "latex": "\\cos\\theta = \\dfrac{20}{5 \\cdot 5} = \\dfrac{4}{5}" },
+        { "tipe": "paragraph", "text": "Jadi, $\\cos\\theta = \\dfrac{4}{5}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Proyeksi skalar vektor $\\vec{a} = (3, 4)$ pada vektor $\\vec{b} = (1, 0)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{5}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\text{proyeksi} = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} = \\dfrac{3(1) + 4(0)}{1} = 3" },
+        { "tipe": "paragraph", "text": "Jadi, proyeksi skalarnya 3." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, 3)$ dan $\\vec{b} = (4, 6)$. Kedua vektor tersebut ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"tegak lurus"}],
+        [{"tipe":"paragraph","text":"sejajar"}],
+        [{"tipe":"paragraph","text":"membentuk sudut $45°$"}],
+        [{"tipe":"paragraph","text":"membentuk sudut $60°$"}],
+        [{"tipe":"paragraph","text":"tidak dapat ditentukan"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\vec{b} = 2\\vec{a}$, maka vektor $\\vec{a}$ dan $\\vec{b}$ **sejajar**." },
+        { "tipe": "formula_block", "latex": "\\dfrac{4}{2} = \\dfrac{6}{3} = 2 \\Rightarrow \\vec{b} = 2\\vec{a}" },
+        { "tipe": "paragraph", "text": "Jadi, kedua vektor sejajar." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, -1, 3)$ dan $\\vec{b} = (1, 4, -2)$. Nilai $\\vec{a} \\cdot \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-8$"}],
+        [{"tipe":"paragraph","text":"$-4$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$8$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 2(1) + (-1)(4) + 3(-2) = 2 - 4 - 6 = -8" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-8$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sudut antara vektor $\\vec{a} = (1, 0, 0)$ dan $\\vec{b} = (0, 1, 0)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0°$"}],
+        [{"tipe":"paragraph","text":"$30°$"}],
+        [{"tipe":"paragraph","text":"$45°$"}],
+        [{"tipe":"paragraph","text":"$60°$"}],
+        [{"tipe":"paragraph","text":"$90°$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 0 \\Rightarrow \\cos\\theta = 0 \\Rightarrow \\theta = 90°" },
+        { "tipe": "paragraph", "text": "Jadi, sudutnya $90°$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 2, 2)$. Panjang vektor $\\vec{a}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3" },
+        { "tipe": "paragraph", "text": "Jadi, panjangnya 3." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Proyeksi skalar $\\vec{a} = (2, 1)$ pada $\\vec{b} = (4, 3)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{11}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{11}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{11}{25}$"}],
+        [{"tipe":"paragraph","text":"$11$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\text{proyeksi} = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} = \\dfrac{2(4) + 1(3)}{\\sqrt{16 + 9}} = \\dfrac{11}{5}" },
+        { "tipe": "paragraph", "text": "Jadi, proyeksi skalarnya $\\dfrac{11}{5}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 2)$ dan $\\vec{b} = (2, -1)$. Kedua vektor tersebut ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"sejajar"}],
+        [{"tipe":"paragraph","text":"tegak lurus"}],
+        [{"tipe":"paragraph","text":"membentuk sudut $45°$"}],
+        [{"tipe":"paragraph","text":"membentuk sudut $60°$"}],
+        [{"tipe":"paragraph","text":"berlawanan arah"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1(2) + 2(-1) = 0" },
+        { "tipe": "paragraph", "text": "Karena hasil kali titik = 0, kedua vektor **tegak lurus**." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Vektor $\\vec{a} = (2, -3, 6)$. Panjang vektor $\\vec{a}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$11$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7" },
+        { "tipe": "paragraph", "text": "Jadi, panjangnya 7." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
