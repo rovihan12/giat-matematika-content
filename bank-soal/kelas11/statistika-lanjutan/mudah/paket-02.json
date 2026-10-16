@@ -59,7 +59,8 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{8+6+7+9+10+5+11}{7} = \\dfrac{56}{7} = 8" }
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{8+6+7+9+10+5+11}{7} = \\dfrac{56}{7} = 8" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 8." }
       ],
       "tingkat": "MUDAH"
     },
@@ -94,7 +95,7 @@
         [{"tipe":"paragraph","text":"6,5"}],
         [{"tipe":"paragraph","text":"7"}]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Data urut, banyak data = 9 (ganjil). Median = data ke-5 = 8." },
         { "tipe": "paragraph", "text": "Q₁ = median dari data di bawah median: 4, 5, 6, 7 → Q₁ = (5+6)/2 = 5,5." }
@@ -135,8 +136,9 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Rata-rata = (3 + 5 + 7 + 9) / 4 = 6." },
-        { "tipe": "paragraph", "text": "Simpangan: |3−6|=3, |5−6|=1, |7−6|=1, |9−6|=3." },
-        { "tipe": "formula_block", "latex": "SR = \\dfrac{3+1+1+3}{4} = \\dfrac{8}{4} = 2" }
+        { "tipe": "paragraph", "text": "Simpangan tiap data: |3−6|=3, |5−6|=1, |7−6|=1, |9−6|=3." },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{3+1+1+3}{4} = \\dfrac{8}{4} = 2" },
+        { "tipe": "paragraph", "text": "Jadi, simpangan rata-ratanya adalah 2." }
       ],
       "tingkat": "MUDAH"
     },
@@ -155,7 +157,7 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Rata-rata = (1+3+5+7+9)/5 = 5." },
-        { "tipe": "paragraph", "text": "Jumlah kuadrat simpangan = 16 + 4 + 0 + 4 + 16 = 40." },
+        { "tipe": "paragraph", "text": "Kuadrat simpangan: (−4)²=16, (−2)²=4, 0²=0, 2²=4, 4²=16 → jumlah = 40." },
         { "tipe": "formula_block", "latex": "S^2 = \\dfrac{40}{5} = 8" }
       ],
       "tingkat": "MUDAH"
@@ -192,7 +194,9 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "R = 15 - 3 = 12" }
+        { "tipe": "paragraph", "text": "Data terbesar = 15, data terkecil = 3." },
+        { "tipe": "formula_block", "latex": "R = 15 - 3 = 12" },
+        { "tipe": "paragraph", "text": "Jadi, jangkauannya adalah 12." }
       ],
       "tingkat": "MUDAH"
     }
