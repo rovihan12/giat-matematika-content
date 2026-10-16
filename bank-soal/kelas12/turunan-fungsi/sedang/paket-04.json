@@ -1,0 +1,204 @@
+{
+  "id": "bs-k12-turunan-sedang-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Turunan trigonometri dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sedang-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\sin x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\cos x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-\\sin x$"}],
+        [{"tipe":"paragraph","text":"$\\tan x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx}(\\sin x) = \\cos x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\cos x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\cos x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\tan x$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx}(\\cos x) = -\\sin x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -\\sin x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\tan x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sec^2 x$"}],
+        [{"tipe":"paragraph","text":"$\\sec x$"}],
+        [{"tipe":"paragraph","text":"$-\\sec^2 x$"}],
+        [{"tipe":"paragraph","text":"$\\cos^2 x$"}],
+        [{"tipe":"paragraph","text":"$\\sin^2 x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx}(\\tan x) = \\sec^2 x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\sec^2 x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\sin(2x)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\cos(2x)$"}],
+        [{"tipe":"paragraph","text":"$\\cos(2x)$"}],
+        [{"tipe":"paragraph","text":"$2\\sin(2x)$"}],
+        [{"tipe":"paragraph","text":"$-2\\cos(2x)$"}],
+        [{"tipe":"paragraph","text":"$-2\\sin(2x)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx}\\sin(2x) = \\cos(2x) \\cdot 2 = 2\\cos(2x)" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 2\\cos(2x)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\cos(3x)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-3\\sin(3x)$"}],
+        [{"tipe":"paragraph","text":"$3\\sin(3x)$"}],
+        [{"tipe":"paragraph","text":"$-\\sin(3x)$"}],
+        [{"tipe":"paragraph","text":"$-3\\cos(3x)$"}],
+        [{"tipe":"paragraph","text":"$3\\cos(3x)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx}\\cos(3x) = -\\sin(3x) \\cdot 3 = -3\\sin(3x)" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -3\\sin(3x)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = x \\sin x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sin x + x\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\sin x - x\\cos x$"}],
+        [{"tipe":"paragraph","text":"$x\\cos x$"}],
+        [{"tipe":"paragraph","text":"$x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$\\cos x + x\\sin x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan perkalian: $u = x$, $v = \\sin x$." },
+        { "tipe": "formula_block", "latex": "f'(x) = (1)\\sin x + x \\cdot \\cos x = \\sin x + x\\cos x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\sin x + x\\cos x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = x\\cos x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\cos x - x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$\\cos x + x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos x - x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos x + x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$x\\sin x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = (1)\\cos x + x(-\\sin x) = \\cos x - x\\sin x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\cos x - x\\sin x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\sin^2 x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\sin x \\cos x$"}],
+        [{"tipe":"paragraph","text":"$2\\cos x$"}],
+        [{"tipe":"paragraph","text":"$2\\sin x$"}],
+        [{"tipe":"paragraph","text":"$\\sin 2x$"}],
+        [{"tipe":"paragraph","text":"$-2\\sin x\\cos x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan rantai: $f = (\\sin x)^2$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 2\\sin x \\cdot \\cos x = 2\\sin x\\cos x = \\sin 2x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 2\\sin x\\cos x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\tan(2x)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\sec^2(2x)$"}],
+        [{"tipe":"paragraph","text":"$\\sec^2(2x)$"}],
+        [{"tipe":"paragraph","text":"$2\\sec(2x)$"}],
+        [{"tipe":"paragraph","text":"$\\sec^2 x$"}],
+        [{"tipe":"paragraph","text":"$2\\tan(2x)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx}\\tan(2x) = \\sec^2(2x) \\cdot 2 = 2\\sec^2(2x)" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 2\\sec^2(2x)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\sin x \\cos x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\cos 2x$"}],
+        [{"tipe":"paragraph","text":"$\\sin 2x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos 2x$"}],
+        [{"tipe":"paragraph","text":"$-\\sin 2x$"}],
+        [{"tipe":"paragraph","text":"$2\\cos 2x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sin x\\cos x = \\dfrac{1}{2}\\sin 2x$." },
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{1}{2} \\cdot 2\\cos 2x = \\cos 2x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\cos 2x$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
