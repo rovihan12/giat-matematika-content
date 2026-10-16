@@ -1,0 +1,200 @@
+{
+  "id": "bs-k12-integral-mudah-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Integral bentuk akar & pangkat rasional",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-mudah-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{1}{x^2} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{x^3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x^2} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $\\dfrac{1}{x^2} = x^{-2}$." },
+        { "tipe": "formula_block", "latex": "\\int x^{-2} \\, dx = \\dfrac{x^{-1}}{-1} + C = -\\dfrac{1}{x} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sqrt{x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{x}}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3x\\sqrt{x}}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$2\\sqrt{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2}{2} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $\\sqrt{x} = x^{1/2}$." },
+        { "tipe": "formula_block", "latex": "\\int x^{1/2} \\, dx = \\dfrac{x^{3/2}}{3/2} + C = \\dfrac{2x^{3/2}}{3} + C = \\dfrac{2x\\sqrt{x}}{3} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{1}{x^3} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3x^3} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{3}{x^4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln x^3 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $\\dfrac{1}{x^3} = x^{-3}$." },
+        { "tipe": "formula_block", "latex": "\\int x^{-3} \\, dx = \\dfrac{x^{-2}}{-2} + C = -\\dfrac{1}{2x^2} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x^{1/3} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3x^{4/3}}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^{4/3}}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3x^{1/3}}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4x^{3/4}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^{4/3} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int x^{1/3} \\, dx = \\dfrac{x^{4/3}}{4/3} + C = \\dfrac{3x^{4/3}}{4} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{1}{\\sqrt{x}} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\sqrt{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{x}}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$2x\\sqrt{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2\\sqrt{x}} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $\\dfrac{1}{\\sqrt{x}} = x^{-1/2}$." },
+        { "tipe": "formula_block", "latex": "\\int x^{-1/2} \\, dx = \\dfrac{x^{1/2}}{1/2} + C = 2\\sqrt{x} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (2x + \\sqrt{x}) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + \\dfrac{2x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 + \\sqrt{x} + C$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + \\dfrac{2x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 + \\dfrac{x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$2 + \\dfrac{1}{2\\sqrt{x}} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 2x \\, dx = x^2, \\quad \\int \\sqrt{x} \\, dx = \\dfrac{2x\\sqrt{x}}{3}" },
+        { "tipe": "formula_block", "latex": "\\int (2x + \\sqrt{x}) \\, dx = x^2 + \\dfrac{2x\\sqrt{x}}{3} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^2 + \\dfrac{1}{x^2}) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} - \\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + \\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} - \\dfrac{2}{x^3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 - \\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} - \\ln x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int x^2 \\, dx = \\dfrac{x^3}{3}, \\quad \\int x^{-2} \\, dx = -\\dfrac{1}{x}" },
+        { "tipe": "formula_block", "latex": "\\int (x^2 + \\dfrac{1}{x^2}) \\, dx = \\dfrac{x^3}{3} - \\dfrac{1}{x} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sqrt[3]{x^2} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3x^{5/3}}{5} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x^{5/3}}{5} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5x^{3/5}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^{5/3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3x^{2/3}}{2} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $\\sqrt[3]{x^2} = x^{2/3}$." },
+        { "tipe": "formula_block", "latex": "\\int x^{2/3} \\, dx = \\dfrac{x^{5/3}}{5/3} + C = \\dfrac{3x^{5/3}}{5} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (4x^3 - \\dfrac{1}{x^2}) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^4 + \\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$x^4 - \\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$x^4 + \\dfrac{2}{x^3} + C$"}],
+        [{"tipe":"paragraph","text":"$4x^4 + \\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$x^4 + \\ln x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 4x^3 \\, dx = x^4, \\quad \\int -x^{-2} \\, dx = +\\dfrac{1}{x}" },
+        { "tipe": "formula_block", "latex": "\\int (4x^3 - \\dfrac{1}{x^2}) \\, dx = x^4 + \\dfrac{1}{x} + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^3 + \\sqrt{x}) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^4}{4} + \\dfrac{2x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^4}{4} + \\sqrt{x} + C$"}],
+        [{"tipe":"paragraph","text":"$x^4 + \\dfrac{2x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^4}{4} + \\dfrac{x\\sqrt{x}}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$3x^2 + \\dfrac{1}{2\\sqrt{x}} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int x^3 \\, dx = \\dfrac{x^4}{4}, \\quad \\int \\sqrt{x} \\, dx = \\dfrac{2x\\sqrt{x}}{3}" },
+        { "tipe": "formula_block", "latex": "\\int (x^3 + \\sqrt{x}) \\, dx = \\dfrac{x^4}{4} + \\dfrac{2x\\sqrt{x}}{3} + C" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
