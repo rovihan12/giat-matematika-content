@@ -1,0 +1,139 @@
+{
+  "id": "bs-k12-turunan-mudah-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Turunan bentuk sederhana & notasi y'",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-mudah-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $y = 3x^2$, maka $\\dfrac{dy}{dx}$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3x$"}],
+        [{"tipe":"paragraph","text":"$6x$"}],
+        [{"tipe":"paragraph","text":"$6x^2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$x$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{dy}{dx} = 3 \\cdot 2x = 6x" },
+        { "tipe": "paragraph", "text": "Jadi, $\\dfrac{dy}{dx} = 6x$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $y = x^2 + 2x + 1$, maka $y'$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x + 2$"}],
+        [{"tipe":"paragraph","text":"$2x + 1$"}],
+        [{"tipe":"paragraph","text":"$x + 2$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + 2x$"}],
+        [{"tipe":"paragraph","text":"$2x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 2x + 2" },
+        { "tipe": "paragraph", "text": "Jadi, $y' = 2x + 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $y = 5x^4 - 3x^2$, maka $\\dfrac{dy}{dx}$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$20x^3 - 6x$"}],
+        [{"tipe":"paragraph","text":"$20x^3 + 6x$"}],
+        [{"tipe":"paragraph","text":"$5x^3 - 6x$"}],
+        [{"tipe":"paragraph","text":"$20x^3 - 3x$"}],
+        [{"tipe":"paragraph","text":"$20x^4 - 6x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 20x^3 - 6x" },
+        { "tipe": "paragraph", "text": "Jadi, $\\dfrac{dy}{dx} = 20x^3 - 6x$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 6x^3 + 4x$, maka $f'(x)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$18x^2 + 4$"}],
+        [{"tipe":"paragraph","text":"$18x^2 - 4$"}],
+        [{"tipe":"paragraph","text":"$6x^2 + 4$"}],
+        [{"tipe":"paragraph","text":"$18x^3 + 4$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + 4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 18x^2 + 4" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 18x^2 + 4$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 4x^5 - 2x^3 + x - 7$, maka $f'(x)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$20x^4 - 6x^2 + 1$"}],
+        [{"tipe":"paragraph","text":"$20x^4 - 6x^2 - 1$"}],
+        [{"tipe":"paragraph","text":"$20x^4 + 6x^2 + 1$"}],
+        [{"tipe":"paragraph","text":"$4x^4 - 6x^2 + 1$"}],
+        [{"tipe":"paragraph","text":"$20x^4 - 2x^2 + 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 20x^4 - 6x^2 + 1" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 20x^4 - 6x^2 + 1$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^3$, maka $f'(0)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"Tidak terdefinisi"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 \\Rightarrow f'(0) = 0" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(0) = 0$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x^4 - x^2 + 3$, maka $f'(1)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$8$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 8x^3 - 2x \\Rightarrow f'(1) = 8 - 2 = 6" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(1) = 
