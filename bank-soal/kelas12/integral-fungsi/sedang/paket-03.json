@@ -1,0 +1,197 @@
+{
+  "id": "bs-k12-integral-sedang-03",
+  "nama": "Bank Soal Sedang - Paket 3",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Integral trigonometri dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sedang-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$\\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$\\tan x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\sin x \\, dx = -\\cos x + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-\\cos x + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$\\tan x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\cos x \\, dx = \\sin x + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\sin x + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sec^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\tan x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\tan x + C$"}],
+        [{"tipe":"paragraph","text":"$\\sec x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cot x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\sec^2 x \\, dx = \\tan x + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\tan x + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin 2x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$-2\\cos 2x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\sin 2x \\, dx = -\\dfrac{1}{2}\\cos 2x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos 3x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}\\sin 3x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3}\\sin 3x + C$"}],
+        [{"tipe":"paragraph","text":"$3\\sin 3x + C$"}],
+        [{"tipe":"paragraph","text":"$\\sin 3x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos 3x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\cos 3x \\, dx = \\dfrac{1}{3}\\sin 3x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2} - \\dfrac{\\sin 2x}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$x - \\dfrac{\\sin 2x}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sin 2x}{4} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sin^2 x = \\dfrac{1 - \\cos 2x}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1 - \\cos 2x}{2} \\, dx = \\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2} - \\dfrac{\\sin 2x}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2} + \\dfrac{\\sin 2x}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$x + \\dfrac{\\sin 2x}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\sin 2x}{4} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\cos^2 x = \\dfrac{1 + \\cos 2x}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1 + \\cos 2x}{2} \\, dx = \\dfrac{x}{2} + \\dfrac{\\sin 2x}{4} + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi} \\sin x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$-2$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi} \\sin x \\, dx = \\left[ -\\cos x \\right]_{0}^{\\pi} = -\\cos\\pi - (-\\cos 0)" },
+        { "tipe": "formula_block", "latex": "= -(-1) - (-1) = 1 + 1 = 2" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\cos x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\cos x \\, dx = \\left[ \\sin x \\right]_{0}^{\\pi/2} = \\sin\\dfrac{\\pi}{2} - \\sin 0 = 1 - 0 = 1" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/4} \\sec^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/4} \\sec^2 x \\, dx = \\left[ \\tan x \\right]_{0}^{\\pi/4} = \\tan\\dfrac{\\pi}{4} - \\tan 0 = 1 - 0 = 1" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
