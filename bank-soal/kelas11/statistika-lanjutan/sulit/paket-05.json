@@ -1,0 +1,215 @@
+{
+  "id": "bs-k11-stat-lanjut-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SULIT",
+  "deskripsi": "Statistika terapan & soal cerita",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata 25 siswa adalah 72. Setelah 5 siswa dengan nilai masing-masing 80, 85, 90, 95, 100 bergabung, rata-rata kelas baru adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"74"}],
+        [{"tipe":"paragraph","text":"75"}],
+        [{"tipe":"paragraph","text":"75,5"}],
+        [{"tipe":"paragraph","text":"76"}],
+        [{"tipe":"paragraph","text":"76,5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total 25 siswa = $25 \\times 72 = 1800$." },
+        { "tipe": "paragraph", "text": "Total 5 siswa baru = 80+85+90+95+100 = 450." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{1800+450}{30} = \\dfrac{2250}{30} = 75" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 75." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 5, 6, 7, 8, 9, 10. Rata-rata data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"6,5"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"7,5"}],
+        [{"tipe":"paragraph","text":"8"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{5+6+7+8+9+10}{6} = \\dfrac{45}{6} = 7{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 7,5." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 4 siswa adalah 80. Jika tiga siswa memiliki nilai 75, 85, dan 90, nilai siswa keempat adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"60"}],
+        [{"tipe":"paragraph","text":"65"}],
+        [{"tipe":"paragraph","text":"70"}],
+        [{"tipe":"paragraph","text":"75"}],
+        [{"tipe":"paragraph","text":"80"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total 4 siswa = $4 \\times 80 = 320$." },
+        { "tipe": "paragraph", "text": "Total 3 siswa = 75+85+90 = 250." },
+        { "tipe": "formula_block", "latex": "x_4 = 320 - 250 = 70" },
+        { "tipe": "paragraph", "text": "Jadi, nilai siswa keempat adalah 70." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. Nilai desil ke-5 ($D_5$) adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D_5$ sama dengan $Q_2$ = median." },
+        { "tipe": "paragraph", "text": "$n = 11$ (ganjil), median = data ke-6 = 7." },
+        { "tipe": "paragraph", "text": "Jadi, $D_5 = 7$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data dengan rata-rata 20 dan simpangan baku 4. Koefisien variasi data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"10%"}],
+        [{"tipe":"paragraph","text":"15%"}],
+        [{"tipe":"paragraph","text":"20%"}],
+        [{"tipe":"paragraph","text":"25%"}],
+        [{"tipe":"paragraph","text":"30%"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\% = \\dfrac{4}{20} \\times 100\\% = 20\\%" },
+        { "tipe": "paragraph", "text": "Jadi, koefisien variasinya 20%." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata ulangan matematika 40 siswa adalah 65. Jika 10 siswa dengan nilai rata-rata 70 keluar, rata-rata siswa yang tersisa adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"63,3"}],
+        [{"tipe":"paragraph","text":"63,5"}],
+        [{"tipe":"paragraph","text":"64"}],
+        [{"tipe":"paragraph","text":"64,5"}],
+        [{"tipe":"paragraph","text":"65"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total 40 siswa = $40 \\times 65 = 2600$." },
+        { "tipe": "paragraph", "text": "Total 10 siswa keluar = $10 \\times 70 = 700$." },
+        { "tipe": "paragraph", "text": "Total 30 siswa sisa = $2600 - 700 = 1900$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{sisa}} = \\dfrac{1900}{30} = 63{,}333\\ldots \\approx 63{,}3" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 63,3." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 3, 6, 9, 12, 15. Jangkauan antarkuartilnya adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4,5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7,5"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 5$, median = 9. $Q_1 = 6$, $Q_3 = 12$." },
+        { "tipe": "formula_block", "latex": "H = 12 - 6 = 6" },
+        { "tipe": "paragraph", "text": "Jadi, jangkauan antarkuartilnya adalah 6." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 4, 8, 12, 16, 20. Jika setiap nilai dikalikan 2, rata-ratanya menjadi ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"16"}],
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"24"}],
+        [{"tipe":"paragraph","text":"28"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata awal = $(4+8+12+16+20)/5 = 60/5 = 12$." },
+        { "tipe": "paragraph", "text": "Jika setiap nilai dikalikan $k$, rata-rata menjadi $k \\times \\bar{x}$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 2 \\times 12 = 24" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya menjadi 24." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 5, 5, 6, 7, 7, 7, 8, 9, 9. Nilai modus dan median berturut-turut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5 dan 7"}],
+        [{"tipe":"paragraph","text":"7 dan 7"}],
+        [{"tipe":"paragraph","text":"7 dan 6"}],
+        [{"tipe":"paragraph","text":"9 dan 7"}],
+        [{"tipe":"paragraph","text":"5 dan 6"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Modus = nilai paling sering = 7 (muncul 3×)." },
+        { "tipe": "paragraph", "text": "$n = 9$ (ganjil). Median = data ke-5 = 7." },
+        { "tipe": "paragraph", "text": "Jadi, modus = 7 dan median = 7." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 10, 12, 14, 16, 18, 20. Nilai $Q_1$ dan $Q_3$ berturut-turut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"12 dan 18"}],
+        [{"tipe":"paragraph","text":"13 dan 17"}],
+        [{"tipe":"paragraph","text":"13 dan 19"}],
+        [{"tipe":"paragraph","text":"12 dan 17"}],
+        [{"tipe":"paragraph","text":"14 dan 18"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 6$ (genap). Bagi dua: bawah = 10, 12, 14; atas = 16, 18, 20." },
+        { "tipe": "paragraph", "text": "$Q_1$ = median bawah = 12." },
+        { "tipe": "paragraph", "text": "$Q_3$ = median atas = 18." },
+        { "tipe": "paragraph", "text": "Jadi, $Q_1 = 12$ dan $Q_3 = 18$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
