@@ -1,0 +1,212 @@
+{
+  "id": "bs-k12-integral-sedang-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Integral tentu lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sedang-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{2} (2x+1)^2 \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{49}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{50}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{52}{3}$"}],
+        [{"tipe":"paragraph","text":"$16$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{47}{3}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi: $(2x+1)^2 = 4x^2 + 4x + 1$." },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{2} (4x^2 + 4x + 1) \\, dx = \\left[ \\dfrac{4x^3}{3} + 2x^2 + x \\right]_{1}^{2}" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{32}{3} + 8 + 2 \\right) - \\left( \\dfrac{4}{3} + 2 + 1 \\right) = \\dfrac{28}{3} + 7 = \\dfrac{49}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{49}{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{2} 3x(x^2+1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$12$"}],
+        [{"tipe":"paragraph","text":"$14$"}],
+        [{"tipe":"paragraph","text":"$18$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi: $3x(x^2+1) = 3x^3 + 3x$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{2} (3x^3 + 3x) \\, dx = \\left[ \\dfrac{3x^4}{4} + \\dfrac{3x^2}{2} \\right]_{0}^{2}" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{3 \\cdot 16}{4} + \\dfrac{3 \\cdot 4}{2} \\right) - 0 = 12 + 6 = 18" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 18." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{-1}^{1} (x^3 + x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Fungsi $x^3 + x$ ganjil, batas simetris → integral = 0." },
+        { "tipe": "formula_block", "latex": "\\int_{-1}^{1} (x^3 + x) \\, dx = \\left[ \\dfrac{x^4}{4} + \\dfrac{x^2}{2} \\right]_{-1}^{1} = 0" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{4} \\dfrac{1}{\\sqrt{2x+1}} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = 2x+1$, maka $du = 2 \\, dx \\Rightarrow dx = \\dfrac{du}{2}$." },
+        { "tipe": "paragraph", "text": "Batas: $x = 0 \\Rightarrow u = 1$; $x = 4 \\Rightarrow u = 9$." },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{9} u^{-1/2} \\cdot \\dfrac{du}{2} = \\dfrac{1}{2} \\left[ 2\\sqrt{u} \\right]_{1}^{9} = \\left[ \\sqrt{u} \\right]_{1}^{9} = 3 - 1 = 2" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 2." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{3} \\dfrac{2}{x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\ln 3$"}],
+        [{"tipe":"paragraph","text":"$2\\ln 3$"}],
+        [{"tipe":"paragraph","text":"$\\ln 9$"}],
+        [{"tipe":"paragraph","text":"$\\ln 6$"}],
+        [{"tipe":"paragraph","text":"$3\\ln 2$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{1}^{3} \\dfrac{2}{x} \\, dx = 2 \\left[ \\ln x \\right]_{1}^{3} = 2(\\ln 3 - \\ln 1) = 2\\ln 3" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $2\\ln 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} (e^x + e^{-x}) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{e}$"}],
+        [{"tipe":"paragraph","text":"$e + \\dfrac{1}{e}$"}],
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{e} - 2$"}],
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{e} + 2$"}],
+        [{"tipe":"paragraph","text":"$2e$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} (e^x + e^{-x}) \\, dx = \\left[ e^x - e^{-x} \\right]_{0}^{1}" },
+        { "tipe": "formula_block", "latex": "= (e - e^{-1}) - (1 - 1) = e - \\dfrac{1}{e}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $e - \\dfrac{1}{e}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{4} \\sqrt{x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{14}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{16}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{10}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{1}^{4} x^{1/2} \\, dx = \\left[ \\dfrac{2x^{3/2}}{3} \\right]_{1}^{4} = \\dfrac{2}{3}(8 - 1) = \\dfrac{14}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{14}{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{2} \\dfrac{1}{x^2} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{4}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{1}^{2} x^{-2} \\, dx = \\left[ -\\dfrac{1}{x} \\right]_{1}^{2} = -\\dfrac{1}{2} + 1 = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} x(x^2+1)^2 \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{7}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
+        [{"tipe":"paragraph","text":"$1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = x^2+1$, maka $du = 2x \\, dx \\Rightarrow x \\, dx = \\dfrac{du}{2}$." },
+        { "tipe": "paragraph", "text": "Batas: $x = 0 \\Rightarrow u = 1$; $x = 1 \\Rightarrow u = 2$." },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{2} u^2 \\cdot \\dfrac{du}{2} = \\dfrac{1}{2} \\left[ \\dfrac{u^3}{3} \\right]_{1}^{2} = \\dfrac{1}{6}(8 - 1) = \\dfrac{7}{6}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{7}{6}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{2} (x^2 + 2x + 1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{26}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{28}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{22}{3}$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$10$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{2} (x^2 + 2x + 1) \\, dx = \\left[ \\dfrac{x^3}{3} + x^2 + x \\right]_{0}^{2}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{8}{3} + 4 + 2 = \\dfrac{8}{3} + 6 = \\dfrac{26}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{26}{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
