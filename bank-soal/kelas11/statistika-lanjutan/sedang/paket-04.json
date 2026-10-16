@@ -1,0 +1,225 @@
+{
+  "id": "bs-k11-stat-lanjut-sedang-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SEDANG",
+  "deskripsi": "Penerapan statistika data berkelompok",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Titik tengah kelas ke-3 dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"14"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas ke-3 = 11–15." },
+        { "tipe": "formula_block", "latex": "x_3 = \\dfrac{11 + 15}{2} = 13" },
+        { "tipe": "paragraph", "text": "Jadi, titik tengahnya adalah 13." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Frekuensi kelas dengan nilai terbesar dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi terbesar = 8, ada di kelas 11–15." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Rata-rata hitung dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"10,5"}],
+        [{"tipe":"paragraph","text":"11,0"}],
+        [{"tipe":"paragraph","text":"11,5"}],
+        [{"tipe":"paragraph","text":"12,0"}],
+        [{"tipe":"paragraph","text":"12,5"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{240}{20} = 12{,}0" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Nilai $n - \\sum f_i$ jika $n$ adalah banyak data adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"20"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 20$ dan $\\sum f_i = 2 + 5 + 8 + 5 = 20$." },
+        { "tipe": "formula_block", "latex": "n - \\sum f_i = 20 - 20 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya 0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Median dari data tersebut adalah 12,375. Ini berarti ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"nilai 12,375 muncul sebagai data" }],
+        [{"tipe":"paragraph","text":"setengah data bernilai ≤ 12,375 dan setengahnya ≥ 12,375" }],
+        [{"tipe":"paragraph","text":"data ke-12 bernilai 12,375" }],
+        [{"tipe":"paragraph","text":"modus = 12,375" }],
+        [{"tipe":"paragraph","text":"rata-rata = 12,375" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Median adalah nilai yang membagi data menjadi dua bagian sama banyak (50% di bawah, 50% di atas)." },
+        { "tipe": "paragraph", "text": "Jadi, pernyataan yang tepat: setengah data bernilai ≤ 12,375 dan setengahnya ≥ 12,375." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Jika nilai 16–20 dinaikkan frekuensinya menjadi 10, rata-rata baru adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"13,0"}],
+        [{"tipe":"paragraph","text":"13,5"}],
+        [{"tipe":"paragraph","text":"14,0"}],
+        [{"tipe":"paragraph","text":"14,5"}],
+        [{"tipe":"paragraph","text":"15,0"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi baru: 2 + 5 + 8 + 10 = 25." },
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 6 + 40 + 104 + (18)(10) = 6 + 40 + 104 + 180 = 330" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{330}{25} = 13{,}2" },
+        { "tipe": "paragraph", "text": "Opsi terdekat: 13,0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Banyak kelas interval pada tabel tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas intervalnya: 1–5, 6–10, 11–15, 16–20." },
+        { "tipe": "paragraph", "text": "Jumlahnya ada 4 kelas." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Nilai tengah data (jika dianggap sebagai data tunggal dari titik tengah) adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"11,0"}],
+        [{"tipe":"paragraph","text":"11,5"}],
+        [{"tipe":"paragraph","text":"12,0"}],
+        [{"tipe":"paragraph","text":"12,5"}],
+        [{"tipe":"paragraph","text":"13,0"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dengan $n = 20$ (genap), median data tunggal dari titik tengah = rata-rata data ke-10 & ke-11." },
+        { "tipe": "paragraph", "text": "Data titik tengah: 3,3 · 8,8,8,8,8 · 13 ×8 · 18 ×5." },
+        { "tipe": "paragraph", "text": "Data ke-10 dan ke-11 keduanya = 13. Rata-rata = (13+13)/2 = 13." },
+        { "tipe": "paragraph", "text": "Jadi, nilai tengahnya adalah 13,0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Modus data tersebut adalah 13,0. Ini berarti ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"nilai yang paling sering muncul adalah 13" }],
+        [{"tipe":"paragraph","text":"kelas 13–17 paling sering muncul" }],
+        [{"tipe":"paragraph","text":"rata-rata bernilai 13" }],
+        [{"tipe":"paragraph","text":"median bernilai 13" }],
+        [{"tipe":"paragraph","text":"jangkauan = 13" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Modus data berkelompok = nilai yang paling sering muncul (perkiraan dari kelas dengan frekuensi terbesar)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Rata-rata data tersebut adalah 12. Jika setiap nilai ditambah 3, rata-ratanya menjadi ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"14"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"16"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap nilai ditambah $k$, rata-rata bertambah $k$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 12 + 3 = 15" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata barunya adalah 15." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
