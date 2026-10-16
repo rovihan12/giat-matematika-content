@@ -1,0 +1,208 @@
+{
+  "id": "bs-k12-integral-sedang-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Integral parsial",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sedang-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x e^x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$xe^x - e^x + C$"}],
+        [{"tipe":"paragraph","text":"$xe^x + e^x + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 e^x + C$"}],
+        [{"tipe":"paragraph","text":"$e^x + C$"}],
+        [{"tipe":"paragraph","text":"$xe^x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Integral parsial: $\\int u \\, dv = uv - \\int v \\, du$." },
+        { "tipe": "paragraph", "text": "Pilih $u = x$, $dv = e^x \\, dx$, maka $du = dx$, $v = e^x$." },
+        { "tipe": "formula_block", "latex": "\\int x e^x \\, dx = x e^x - \\int e^x \\, dx = x e^x - e^x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x \\cos x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x \\sin x + \\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\sin x - \\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\cos x + \\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$-x \\sin x + \\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\sin x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = x$, $dv = \\cos x \\, dx$, maka $du = dx$, $v = \\sin x$." },
+        { "tipe": "formula_block", "latex": "\\int x \\cos x \\, dx = x \\sin x - \\int \\sin x \\, dx = x \\sin x + \\cos x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x \\sin x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-x \\cos x + \\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\cos x - \\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$-x \\cos x - \\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\cos x + \\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$-x \\sin x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = x$, $dv = \\sin x \\, dx$, maka $du = dx$, $v = -\\cos x$." },
+        { "tipe": "formula_block", "latex": "\\int x \\sin x \\, dx = -x \\cos x + \\int \\cos x \\, dx = -x \\cos x + \\sin x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x \\ln x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2 \\ln x}{2} - \\dfrac{x^2}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2 \\ln x}{2} + \\dfrac{x^2}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2 \\ln x}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 \\ln x - \\dfrac{x^2}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x \\ln x}{2} - \\dfrac{x}{4} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = \\ln x$, $dv = x \\, dx$, maka $du = \\dfrac{dx}{x}$, $v = \\dfrac{x^2}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int x \\ln x \\, dx = \\dfrac{x^2 \\ln x}{2} - \\int \\dfrac{x^2}{2} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^2 \\ln x}{2} - \\dfrac{1}{2} \\int x \\, dx" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{x^2 \\ln x}{2} - \\dfrac{x^2}{4} + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x^2 e^x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 e^x - 2xe^x + 2e^x + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 e^x - 2xe^x - 2e^x + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 e^x + 2xe^x + 2e^x + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 e^x - 2e^x + C$"}],
+        [{"tipe":"paragraph","text":"$x^2 e^x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Parsial pertama: $u = x^2$, $dv = e^x \\, dx$, maka $du = 2x \\, dx$, $v = e^x$." },
+        { "tipe": "formula_block", "latex": "\\int x^2 e^x \\, dx = x^2 e^x - 2\\int x e^x \\, dx" },
+        { "tipe": "paragraph", "text": "Dari soal sebelumnya: $\\int x e^x \\, dx = xe^x - e^x$." },
+        { "tipe": "formula_block", "latex": "= x^2 e^x - 2(xe^x - e^x) + C = x^2 e^x - 2xe^x + 2e^x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\ln x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x \\ln x - x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\ln x + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\ln x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = \\ln x$, $dv = dx$, maka $du = \\dfrac{dx}{x}$, $v = x$." },
+        { "tipe": "formula_block", "latex": "\\int \\ln x \\, dx = x \\ln x - \\int x \\cdot \\dfrac{1}{x} \\, dx = x \\ln x - x + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x e^{2x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x e^{2x}}{2} - \\dfrac{e^{2x}}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x e^{2x}}{2} + \\dfrac{e^{2x}}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$x e^{2x} - \\dfrac{e^{2x}}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x e^{2x}}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$2x e^{2x} - e^{2x} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = x$, $dv = e^{2x} \\, dx$, maka $du = dx$, $v = \\dfrac{e^{2x}}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int x e^{2x} \\, dx = \\dfrac{x e^{2x}}{2} - \\int \\dfrac{e^{2x}}{2} \\, dx = \\dfrac{x e^{2x}}{2} - \\dfrac{e^{2x}}{4} + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x^2 \\ln x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3 \\ln x}{3} - \\dfrac{x^3}{9} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3 \\ln x}{3} + \\dfrac{x^3}{9} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3 \\ln x}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 \\ln x - \\dfrac{x^3}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2 \\ln x}{2} - \\dfrac{x^2}{4} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = \\ln x$, $dv = x^2 \\, dx$, maka $du = \\dfrac{dx}{x}$, $v = \\dfrac{x^3}{3}$." },
+        { "tipe": "formula_block", "latex": "\\int x^2 \\ln x \\, dx = \\dfrac{x^3 \\ln x}{3} - \\int \\dfrac{x^3}{3} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^3 \\ln x}{3} - \\dfrac{1}{3} \\int x^2 \\, dx" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{x^3 \\ln x}{3} - \\dfrac{x^3}{9} + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x \\sec^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x \\tan x + \\ln|\\cos x| + C$"}],
+        [{"tipe":"paragraph","text":"$x \\tan x - \\ln|\\cos x| + C$"}],
+        [{"tipe":"paragraph","text":"$x \\tan x + C$"}],
+        [{"tipe":"paragraph","text":"$\\tan x + x + C$"}],
+        [{"tipe":"paragraph","text":"$x \\sec x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pilih $u = x$, $dv = \\sec^2 x \\, dx$, maka $du = dx$, $v = \\tan x$." },
+        { "tipe": "formula_block", "latex": "\\int x \\sec^2 x \\, dx = x \\tan x - \\int \\tan x \\, dx = x \\tan x + \\ln|\\cos x| + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} x e^x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$e$"}],
+        [{"tipe":"paragraph","text":"$e - 1$"}],
+        [{"tipe":"paragraph","text":"$2e - 1$"}],
+        [{"tipe":"paragraph","text":"$1 - e$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari q01: $\\int x e^x \\, dx = x e^x - e^x$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} x e^x \\, dx = \\left[ x e^x - e^x \\right]_{0}^{1}" },
+        { "tipe": "formula_block", "latex": "= (e - e) - (0 - 1) = 0 + 1 = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 1." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
