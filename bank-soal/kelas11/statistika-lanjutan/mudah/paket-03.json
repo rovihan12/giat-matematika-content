@@ -118,4 +118,85 @@
         [{"tipe":"paragraph","text":"2"}]
       ],
       "jawaban_benar": 1,
-      "
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 7. Simpangan: 2, 1, 0, 1, 2. Jumlah = 6." },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{6}{5} = 1{,}2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Varians dari data: 3, 4, 5, 6, 7 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 5. Jumlah kuadrat simpangan = 4 + 1 + 0 + 1 + 4 = 10." },
+        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{10}{5} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan baku dari data: 3, 4, 5, 6, 7 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"√2"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"√3"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Varians S² = 2, maka S = √2." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan antarkuartil dari data: 2, 4, 6, 8, 10, 12, 14, 16 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bawah: 2,4,6,8 → Q₁ = (4+6)/2 = 5. Atas: 10,12,14,16 → Q₃ = (12+14)/2 = 13." },
+        { "tipe": "formula_block", "latex": "H = 13 - 5 = 8" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data: 6, 7, 8, 9, 10, 11, 12 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"11"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{6+7+8+9+10+11+12}{7} = \\dfrac{63}{7} = 9" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
