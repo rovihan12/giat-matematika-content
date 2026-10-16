@@ -1,0 +1,201 @@
+{
+  "id": "bs-k12-turunan-mudah-05",
+  "nama": "Bank Soal Mudah - Paket 5",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Turunan campuran & aplikasi sederhana",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-mudah-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = 8x^3 - 2x^2 + 5$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$24x^2 - 4x$"}],
+        [{"tipe":"paragraph","text":"$24x^2 - 4x + 5$"}],
+        [{"tipe":"paragraph","text":"$24x^2 + 4x$"}],
+        [{"tipe":"paragraph","text":"$8x^2 - 4x$"}],
+        [{"tipe":"paragraph","text":"$24x^3 - 4x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 24x^2 - 4x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 24x^2 - 4x$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^4 - 3x^2 + 2x$, maka $f'(1)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 4x^3 - 6x + 2 \\Rightarrow f'(1) = 4 - 6 + 2 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(1) = 0$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = x^8$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$8x^7$"}],
+        [{"tipe":"paragraph","text":"$8x^8$"}],
+        [{"tipe":"paragraph","text":"$x^7$"}],
+        [{"tipe":"paragraph","text":"$7x^8$"}],
+        [{"tipe":"paragraph","text":"$8x^9$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 8x^7" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 8x^7$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x^3 - 3x^2 + 4x - 5$, maka $f'(2)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$10$"}],
+        [{"tipe":"paragraph","text":"$12$"}],
+        [{"tipe":"paragraph","text":"$14$"}],
+        [{"tipe":"paragraph","text":"$16$"}],
+        [{"tipe":"paragraph","text":"$18$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 6x^2 - 6x + 4 \\Rightarrow f'(2) = 24 - 12 + 4 = 16" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(2) = 16$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan kedua dari $f(x) = 4x^4$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$16x^3$"}],
+        [{"tipe":"paragraph","text":"$48x^2$"}],
+        [{"tipe":"paragraph","text":"$96x$"}],
+        [{"tipe":"paragraph","text":"$96$"}],
+        [{"tipe":"paragraph","text":"$192x$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 16x^3 \\Rightarrow f''(x) = 48x^2" },
+        { "tipe": "paragraph", "text": "Jadi, turunan keduanya adalah $48x^2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^3 - x$, maka nilai $x$ yang memenuhi $f'(x) = 2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x = 0$"}],
+        [{"tipe":"paragraph","text":"$x = 1$"}],
+        [{"tipe":"paragraph","text":"$x = 2$"}],
+        [{"tipe":"paragraph","text":"$x = 3$"}],
+        [{"tipe":"paragraph","text":"$x = -1$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 1 = 2 \\Rightarrow 3x^2 = 3 \\Rightarrow x^2 = 1" },
+        { "tipe": "paragraph", "text": "Maka $x = \\pm 1$. Dari opsi, nilai yang sesuai adalah $x = 1$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = 10x^2 - 5x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$20x - 5$"}],
+        [{"tipe":"paragraph","text":"$20x + 5$"}],
+        [{"tipe":"paragraph","text":"$10x - 5$"}],
+        [{"tipe":"paragraph","text":"$20x^2 - 5$"}],
+        [{"tipe":"paragraph","text":"$20x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 20x - 5" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 20x - 5$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x^5 - 3x^3 + x$, maka $f'(1)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 10x^4 - 9x^2 + 1 \\Rightarrow f'(1) = 10 - 9 + 1 = 2" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(1) = 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = x^6 - x^4$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6x^5 - 4x^3$"}],
+        [{"tipe":"paragraph","text":"$6x^5 - 4x^4$"}],
+        [{"tipe":"paragraph","text":"$6x^5 + 4x^3$"}],
+        [{"tipe":"paragraph","text":"$x^5 - 4x^3$"}],
+        [{"tipe":"paragraph","text":"$6x^5 - x^3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 6x^5 - 4x^3" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 6x^5 - 4x^3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^3 + 2x^2 - 4x + 1$, maka $f'(0)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-4$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 + 4x - 4 \\Rightarrow f'(0) = -4" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(0) = -4$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
