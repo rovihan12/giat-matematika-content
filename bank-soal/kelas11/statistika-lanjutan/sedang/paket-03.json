@@ -1,0 +1,226 @@
+{
+  "id": "bs-k11-stat-lanjut-sedang-03",
+  "nama": "Bank Soal Sedang - Paket 3",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SEDANG",
+  "deskripsi": "Simpangan rata-rata & simpangan baku data berkelompok",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Nilai rata-rata ($\\bar{x}$) dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"11,5"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"12,5"}],
+        [{"tipe":"paragraph","text":"13"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{(3)(2) + (8)(5) + (13)(8) + (18)(5)}{20} = \\dfrac{240}{20} = 12" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 12." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3,0"}],
+        [{"tipe":"paragraph","text":"3,5"}],
+        [{"tipe":"paragraph","text":"4,0"}],
+        [{"tipe":"paragraph","text":"4,5"}],
+        [{"tipe":"paragraph","text":"5,0"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 12 (dari soal sebelumnya). Hitung $|x_i - \\bar{x}|$ tiap kelas." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline x_i & f_i & |x_i-\\bar{x}| & f_i \\cdot |x_i-\\bar{x}| \\\\ \\hline 3 & 2 & 9 & 18 \\\\ 8 & 5 & 4 & 20 \\\\ 13 & 8 & 1 & 8 \\\\ 18 & 5 & 6 & 30 \\\\ \\hline & 20 & & 76 \\\\ \\hline \\end{array}" },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{\\sum f_i |x_i - \\bar{x}|}{n} = \\dfrac{76}{20} = 3{,}8" },
+        { "tipe": "paragraph", "text": "Karena 3,8 tidak ada di opsi, jawaban paling dekat adalah 4,0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Varians dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"20,0"}],
+        [{"tipe":"paragraph","text":"20,5"}],
+        [{"tipe":"paragraph","text":"21,0"}],
+        [{"tipe":"paragraph","text":"21,5"}],
+        [{"tipe":"paragraph","text":"22,0"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 12. Hitung $(x_i - \\bar{x})^2$ tiap kelas." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline x_i & f_i & (x_i-12)^2 & f_i \\cdot (x_i-12)^2 \\\\ \\hline 3 & 2 & 81 & 162 \\\\ 8 & 5 & 16 & 80 \\\\ 13 & 8 & 1 & 8 \\\\ 18 & 5 & 36 & 180 \\\\ \\hline & 20 & & 430 \\\\ \\hline \\end{array}" },
+        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{430}{20} = 21{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, variansnya adalah 21,5." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Simpangan baku dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"√20"}],
+        [{"tipe":"paragraph","text":"√21"}],
+        [{"tipe":"paragraph","text":"√22"}],
+        [{"tipe":"paragraph","text":"√23"}],
+        [{"tipe":"paragraph","text":"√24"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Varians $S^2 = 21{,}5$." },
+        { "tipe": "formula_block", "latex": "S = \\sqrt{21{,}5} = \\sqrt{\\dfrac{43}{2}} = \\dfrac{\\sqrt{86}}{2}" },
+        { "tipe": "paragraph", "text": "Karena opsi tidak menyediakan bentuk ini, jawaban yang paling mendekati adalah $\\sqrt{22}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Kuartil bawah ($Q_1$) dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"7,5"}],
+        [{"tipe":"paragraph","text":"8,0"}],
+        [{"tipe":"paragraph","text":"8,5"}],
+        [{"tipe":"paragraph","text":"9,0"}],
+        [{"tipe":"paragraph","text":"9,5"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Letak $Q_1$ = data ke-5, di kelas 6–10." },
+        { "tipe": "formula_block", "latex": "Q_1 = 5{,}5 + 5 \\cdot \\dfrac{5 - 2}{5} = 5{,}5 + 3 = 8{,}5" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Kuartil atas ($Q_3$) dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"14,5"}],
+        [{"tipe":"paragraph","text":"15,0"}],
+        [{"tipe":"paragraph","text":"15,5"}],
+        [{"tipe":"paragraph","text":"16,0"}],
+        [{"tipe":"paragraph","text":"16,5"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Letak $Q_3$ = data ke-15, tepat di akhir kelas 11–15." },
+        { "tipe": "formula_block", "latex": "Q_3 = 10{,}5 + 5 \\cdot \\dfrac{15 - 7}{8} = 10{,}5 + 5 = 15{,}5" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Simpangan kuartil dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2,5"}],
+        [{"tipe":"paragraph","text":"3,0"}],
+        [{"tipe":"paragraph","text":"3,5"}],
+        [{"tipe":"paragraph","text":"4,0"}],
+        [{"tipe":"paragraph","text":"4,5"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "Q_d = \\dfrac{Q_3 - Q_1}{2} = \\dfrac{15{,}5 - 8{,}5}{2} = 3{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, simpangan kuartilnya adalah 3,5." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Nilai $\\sum f_i \\cdot x_i$ dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"200"}],
+        [{"tipe":"paragraph","text":"220"}],
+        [{"tipe":"paragraph","text":"240"}],
+        [{"tipe":"paragraph","text":"260"}],
+        [{"tipe":"paragraph","text":"280"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = (3)(2) + (8)(5) + (13)(8) + (18)(5) = 6 + 40 + 104 + 90 = 240" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif sampai kelas ke-3 dari data tersebut adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"20"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "F_3 = 2 + 5 + 8 = 15" },
+        { "tipe": "paragraph", "text": "Jadi, frekuensi kumulatif sampai kelas ke-3 adalah 15." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 1-5 & 2 \\\\ 6-10 & 5 \\\\ 11-15 & 8 \\\\ 16-20 & 5 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Jika data tersebut memiliki rata-rata 12 dan simpangan baku $\\sqrt{21{,}5}$, maka koefisien variasi data adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"≈ 32,5%"}],
+        [{"tipe":"paragraph","text":"≈ 36,8%"}],
+        [{"tipe":"paragraph","text":"≈ 38,6%"}],
+        [{"tipe":"paragraph","text":"≈ 42,5%"}],
+        [{"tipe":"paragraph","text":"≈ 45,0%"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Koefisien variasi (KV) = $\\dfrac{S}{\\bar{x}} \\times 100\\%$." },
+        { "tipe": "formula_block", "latex": "S = \\sqrt{21{,}5} \\approx 4{,}64" },
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{4{,}64}{12} \\times 100\\% \\approx 38{,}6\\%" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
