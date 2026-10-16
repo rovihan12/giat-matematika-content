@@ -1,0 +1,203 @@
+{
+  "id": "bs-k12-turunan-sulit-04",
+  "nama": "Bank Soal Sulit - Paket 4",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Turunan implisit & turunan eksponen/logaritma",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sulit-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x^2 + y^2 = 25$, maka $\\dfrac{dy}{dx}$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{x}{y}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{y}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{y}{x}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{y}{x}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{2y}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Turunkan kedua ruas terhadap $x$:" },
+        { "tipe": "formula_block", "latex": "2x + 2y \\cdot \\dfrac{dy}{dx} = 0 \\Rightarrow \\dfrac{dy}{dx} = -\\dfrac{x}{y}" },
+        { "tipe": "paragraph", "text": "Jadi, $\\dfrac{dy}{dx} = -\\dfrac{x}{y}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x^2 + xy + y^2 = 7$, maka $\\dfrac{dy}{dx}$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{2x+y}{x+2y}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2x-y}{x+2y}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2x+y}{x-2y}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x+y}{x+2y}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{x+y}{2x+y}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "2x + y + x\\dfrac{dy}{dx} + 2y\\dfrac{dy}{dx} = 0" },
+        { "tipe": "formula_block", "latex": "(x + 2y)\\dfrac{dy}{dx} = -(2x + y)" },
+        { "tipe": "formula_block", "latex": "\\dfrac{dy}{dx} = -\\dfrac{2x+y}{x+2y}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = e^{3x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3e^{3x}$"}],
+        [{"tipe":"paragraph","text":"$e^{3x}$"}],
+        [{"tipe":"paragraph","text":"$3xe^{3x}$"}],
+        [{"tipe":"paragraph","text":"$e^{3}$"}],
+        [{"tipe":"paragraph","text":"$3e^{x}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx} e^{3x} = 3e^{3x}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 3e^{3x}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = e^{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2xe^{x^2}$"}],
+        [{"tipe":"paragraph","text":"$e^{x^2}$"}],
+        [{"tipe":"paragraph","text":"$x^2 e^{x^2}$"}],
+        [{"tipe":"paragraph","text":"$2e^{x^2}$"}],
+        [{"tipe":"paragraph","text":"$xe^{x^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx} e^{x^2} = e^{x^2} \\cdot 2x = 2xe^{x^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 2xe^{x^2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\ln x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x}$"}],
+        [{"tipe":"paragraph","text":"$\\ln x$"}],
+        [{"tipe":"paragraph","text":"$x$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$e^x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx} \\ln x = \\dfrac{1}{x}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{1}{x}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\ln(3x)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{x}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3x}$"}],
+        [{"tipe":"paragraph","text":"$3x$"}],
+        [{"tipe":"paragraph","text":"$\\ln 3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{d}{dx} \\ln(3x) = \\dfrac{1}{3x} \\cdot 3 = \\dfrac{1}{x}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{1}{x}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = x \\ln x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\ln x + 1$"}],
+        [{"tipe":"paragraph","text":"$\\ln x$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x}$"}],
+        [{"tipe":"paragraph","text":"$x + \\ln x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 1 \\cdot \\ln x + x \\cdot \\dfrac{1}{x} = \\ln x + 1" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\ln x + 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = e^{2x}\\sin x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$e^{2x}(2\\sin x + \\cos x)$"}],
+        [{"tipe":"paragraph","text":"$e^{2x}(\\sin x + 2\\cos x)$"}],
+        [{"tipe":"paragraph","text":"$2e^{2x}\\sin x$"}],
+        [{"tipe":"paragraph","text":"$e^{2x}\\cos x$"}],
+        [{"tipe":"paragraph","text":"$e^{2x}(\\sin x + \\cos x)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 2e^{2x}\\sin x + e^{2x}\\cos x = e^{2x}(2\\sin x + \\cos x)" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = e^{2x}(2\\sin x + \\cos x)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\ln(x^2+1)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2x}{x^2+1}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x^2+1}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x}{x^2+1}$"}],
+        [{"tipe":"paragraph","text":"$2x$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x+1}{x^2+1}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{1}{x^2+1} \\cdot 2x = \\dfrac{2x}{x^2+1}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{2x}{x^2+1}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{e^x}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{e^x(x-1)}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e^x(x+1)}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e^x}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e^x}{x}$"}],
+        [{"tipe":"paragraph","text":"$e^x \\ln x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{e^x \\cdot x - e^x \\cdot 1}{x^2} = \\dfrac{e^x(x-1)}{x^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{e^x(x-1)}{x^2}$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
