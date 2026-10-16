@@ -75,4 +75,125 @@
         [{"tipe":"paragraph","text":"3,5"}],
         [{"tipe":"paragraph","text":"4"}]
       ],
-      "jawaban_benar": 1
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data = 8. Bagi dua: bawah = 2, 3, 4, 5; atas = 6, 7, 8, 9." },
+        { "tipe": "paragraph", "text": "Q₁ = median bagian bawah = (2 + 3) / 2 = 2,5." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil atas (Q₃) dari data: 2, 3, 4, 5, 6, 7, 8, 9 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"6,5"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"7,5"}],
+        [{"tipe":"paragraph","text":"8"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bagian atas = 6, 7, 8, 9." },
+        { "tipe": "paragraph", "text": "Q₃ = median bagian atas = (7 + 8) / 2 = 7,5." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data: 5, 6, 7, 8, 9 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"1,2"}],
+        [{"tipe":"paragraph","text":"1,4"}],
+        [{"tipe":"paragraph","text":"1,6"}],
+        [{"tipe":"paragraph","text":"2"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 7. Simpangan: |5−7|=2, |6−7|=1, |7−7|=0, |8−7|=1, |9−7|=2 → jumlah = 6." },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{6}{5} = 1{,}2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Varians dari data: 3, 4, 5, 6, 7 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 5. Kuadrat simpangan: (−2)²=4, (−1)²=1, 0²=0, 1²=1, 2²=4 → jumlah = 10." },
+        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{10}{5} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan baku dari data: 3, 4, 5, 6, 7 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"√2"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"√3"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Varians S² = 2, maka S = √2." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan antarkuartil dari data: 2, 4, 6, 8, 10, 12, 14, 16 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bawah = 2, 4, 6, 8 → Q₁ = (4+6)/2 = 5." },
+        { "tipe": "paragraph", "text": "Atas = 10, 12, 14, 16 → Q₃ = (12+14)/2 = 13." },
+        { "tipe": "formula_block", "latex": "H = Q_3 - Q_1 = 13 - 5 = 8" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data: 6, 7, 8, 9, 10, 11, 12 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"11"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{6+7+8+9+10+11+12}{7} = \\dfrac{63}{7} = 9" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
