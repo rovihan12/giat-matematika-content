@@ -1,0 +1,212 @@
+{
+  "id": "bs-k12-mat-lanjut-sulit-03",
+  "nama": "Bank Soal Sulit - Paket 3",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Sistem persamaan linear dengan matriks",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui SPL: $x + y = 5$, $2x - y = 4$. Nilai $x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan: $(x + y) + (2x - y) = 5 + 4 \\Rightarrow 3x = 9 \\Rightarrow x = 3$." },
+        { "tipe": "paragraph", "text": "Substitusi: $y = 5 - 3 = 2$. Jadi, $x = 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dengan aturan Cramer, SPL $2x + y = 7$, $x - y = 2$ memiliki nilai $x$ dan $y$ berturut-turut ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x = 3, y = 1$"}],
+        [{"tipe":"paragraph","text":"$x = 1, y = 3$"}],
+        [{"tipe":"paragraph","text":"$x = 2, y = 3$"}],
+        [{"tipe":"paragraph","text":"$x = 3, y = 2$"}],
+        [{"tipe":"paragraph","text":"$x = 4, y = 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan Cramer: $x = \\dfrac{D_x}{D}$, $y = \\dfrac{D_y}{D}$." },
+        { "tipe": "formula_block", "latex": "D = \\begin{vmatrix} 2 & 1 \\\\ 1 & -1 \\end{vmatrix} = -2 - 1 = -3" },
+        { "tipe": "formula_block", "latex": "D_x = \\begin{vmatrix} 7 & 1 \\\\ 2 & -1 \\end{vmatrix} = -7 - 2 = -9, \\quad D_y = \\begin{vmatrix} 2 & 7 \\\\ 1 & 2 \\end{vmatrix} = 4 - 7 = -3" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{-9}{-3} = 3, \\quad y = \\dfrac{-3}{-3} = 1" },
+        { "tipe": "paragraph", "text": "Jadi, $x = 3, y = 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui SPL: $2x + 3y = 12$, $x - y = 1$. Nilai $y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x - y = 1 \\Rightarrow x = y + 1$." },
+        { "tipe": "formula_block", "latex": "2(y+1) + 3y = 12 \\Rightarrow 2y + 2 + 3y = 12 \\Rightarrow 5y = 10 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "Jadi, $y = 2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dengan aturan Cramer, SPL $3x + 2y = 12$, $x + y = 5$ memiliki nilai $x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "D = \\begin{vmatrix} 3 & 2 \\\\ 1 & 1 \\end{vmatrix} = 3 - 2 = 1" },
+        { "tipe": "formula_block", "latex": "D_x = \\begin{vmatrix} 12 & 2 \\\\ 5 & 1 \\end{vmatrix} = 12 - 10 = 2" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{2}{1} = 2" },
+        { "tipe": "paragraph", "text": "Jadi, $x = 2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "SPL $x + y + z = 6$, $x - y + z = 4$, $x + y - z = 4$ memiliki nilai $z$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan P1 + P2: $(x + y + z) + (x - y + z) = 6 + 4 \\Rightarrow 2x + 2z = 10 \\Rightarrow x + z = 5$." },
+        { "tipe": "paragraph", "text": "Kurangkan P1 − P3: $(x + y + z) - (x + y - z) = 6 - 4 \\Rightarrow 2z = 2 \\Rightarrow z = 1$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $z = 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui SPL: $x + y = 4$, $x - y = 2$. Nilai $x \\cdot y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 6 \\Rightarrow x = 3$; $y = 4 - 3 = 1$." },
+        { "tipe": "formula_block", "latex": "x \\cdot y = 3 \\cdot 1 = 3" },
+        { "tipe": "paragraph", "text": "Jadi, $x \\cdot y = 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dengan aturan Cramer, SPL $4x - y = 10$, $2x + y = 8$ memiliki nilai $y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "D = \\begin{vmatrix} 4 & -1 \\\\ 2 & 1 \\end{vmatrix} = 4 + 2 = 6" },
+        { "tipe": "formula_block", "latex": "D_y = \\begin{vmatrix} 4 & 10 \\\\ 2 & 8 \\end{vmatrix} = 32 - 20 = 12" },
+        { "tipe": "formula_block", "latex": "y = \\dfrac{12}{6} = 2" },
+        { "tipe": "paragraph", "text": "Jadi, $y = 2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui SPL: $3x + 2y = 13$, $x + y = 5$. Nilai $x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $x + y = 5 \\Rightarrow y = 5 - x$." },
+        { "tipe": "formula_block", "latex": "3x + 2(5-x) = 13 \\Rightarrow 3x + 10 - 2x = 13 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "Jadi, $x = 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "SPL $x + y = 6$, $x - y = 2$ memiliki solusi $(x, y)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(4, 2)$"}],
+        [{"tipe":"paragraph","text":"$(2, 4)$"}],
+        [{"tipe":"paragraph","text":"$(3, 3)$"}],
+        [{"tipe":"paragraph","text":"$(5, 1)$"}],
+        [{"tipe":"paragraph","text":"$(6, 0)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 8 \\Rightarrow x = 4$; $y = 6 - 4 = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, $(x, y) = (4, 2)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui SPL: $2x + y = 10$, $x - y = 2$. Nilai $2x + y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$10$"}],
+        [{"tipe":"paragraph","text":"$12$"}],
+        [{"tipe":"paragraph","text":"$14$"}],
+        [{"tipe":"paragraph","text":"$16$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari persamaan pertama SPL, langsung diketahui $2x + y = 10$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $2x + y = 10$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
