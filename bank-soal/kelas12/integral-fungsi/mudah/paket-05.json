@@ -1,0 +1,203 @@
+{
+  "id": "bs-k12-integral-mudah-05",
+  "nama": "Bank Soal Mudah - Paket 5",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Campuran integral & aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-mudah-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (5x^4 + 3x^2 - 2) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^5 + x^3 - 2x + C$"}],
+        [{"tipe":"paragraph","text":"$x^5 + 3x^3 - 2x + C$"}],
+        [{"tipe":"paragraph","text":"$5x^5 + x^3 - 2x + C$"}],
+        [{"tipe":"paragraph","text":"$x^5 + x^3 - 2 + C$"}],
+        [{"tipe":"paragraph","text":"$20x^3 + 6x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (5x^4 + 3x^2 - 2) \\, dx = x^5 + x^3 - 2x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{2} (3x^2 - 2x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$10$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{2} (3x^2 - 2x) \\, dx = \\left[ x^3 - x^2 \\right]_{0}^{2} = (8 - 4) - 0 = 4" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 4." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (2x + 3)^2 \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{4x^3}{3} + 6x^2 + 9x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4x^3}{3} + 3x^2 + 9x + C$"}],
+        [{"tipe":"paragraph","text":"$2x^3 + 6x^2 + 9x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4x^3}{3} + 6x^2 + 9 + C$"}],
+        [{"tipe":"paragraph","text":"$4x^2 + 12x + 9 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi: $(2x+3)^2 = 4x^2 + 12x + 9$." },
+        { "tipe": "formula_block", "latex": "\\int (4x^2 + 12x + 9) \\, dx = \\dfrac{4x^3}{3} + 6x^2 + 9x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{2} (4x^3 + 2x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$15$"}],
+        [{"tipe":"paragraph","text":"$18$"}],
+        [{"tipe":"paragraph","text":"$21$"}],
+        [{"tipe":"paragraph","text":"$24$"}],
+        [{"tipe":"paragraph","text":"$27$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{1}^{2} (4x^3 + 2x) \\, dx = \\left[ x^4 + x^2 \\right]_{1}^{2} = (16 + 4) - (1 + 1) = 20 - 2 = 18" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 18." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $F(x) = \\int (4x + 2) \\, dx$ dan $F(1) = 3$, maka $F(x)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x^2 + 2x - 1$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + 2x + 1$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + 2x - 3$"}],
+        [{"tipe":"paragraph","text":"$4x^2 + 2x - 3$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + 2x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (4x + 2) \\, dx = 2x^2 + 2x + C" },
+        { "tipe": "paragraph", "text": "Syarat $F(1) = 3$: $2 + 2 + C = 3 \\Rightarrow C = -1$." },
+        { "tipe": "formula_block", "latex": "F(x) = 2x^2 + 2x - 1" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (x - 1)^2 \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} - x^2 + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} - x^2 - x + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 - x^2 + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + x^2 - x + C$"}],
+        [{"tipe":"paragraph","text":"$2x - 2 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi: $(x-1)^2 = x^2 - 2x + 1$." },
+        { "tipe": "formula_block", "latex": "\\int (x^2 - 2x + 1) \\, dx = \\dfrac{x^3}{3} - x^2 + x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{-2}^{2} (x^2 + 1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{16}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{20}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{28}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{32}{3}$"}],
+        [{"tipe":"paragraph","text":"$12$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{-2}^{2} (x^2 + 1) \\, dx = \\left[ \\dfrac{x^3}{3} + x \\right]_{-2}^{2}" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{8}{3} + 2 \\right) - \\left( -\\dfrac{8}{3} - 2 \\right) = \\dfrac{8}{3} + 2 + \\dfrac{8}{3} + 2 = \\dfrac{16}{3} + 4 = \\dfrac{28}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{28}{3}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^2 + x + 1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + \\dfrac{x^2}{2} + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + x^2 + x + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 + \\dfrac{x^2}{2} + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + \\dfrac{x^2}{2} + C$"}],
+        [{"tipe":"paragraph","text":"$2x + 1 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (x^2 + x + 1) \\, dx = \\dfrac{x^3}{3} + \\dfrac{x^2}{2} + x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} x(x + 1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{6}$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi: $x(x+1) = x^2 + x$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} (x^2 + x) \\, dx = \\left[ \\dfrac{x^3}{3} + \\dfrac{x^2}{2} \\right]_{0}^{1} = \\dfrac{1}{3} + \\dfrac{1}{2} = \\dfrac{5}{6}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{5}{6}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $F(x) = \\int (6x^2 - 4x) \\, dx$ dan $F(0) = 5$, maka $F(x)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x^3 - 2x^2 + 5$"}],
+        [{"tipe":"paragraph","text":"$2x^3 - 2x^2 - 5$"}],
+        [{"tipe":"paragraph","text":"$2x^3 - 2x^2$"}],
+        [{"tipe":"paragraph","text":"$6x^3 - 4x^2 + 5$"}],
+        [{"tipe":"paragraph","text":"$2x^3 - 2x^2 + 5x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (6x^2 - 4x) \\, dx = 2x^3 - 2x^2 + C" },
+        { "tipe": "paragraph", "text": "Syarat $F(0) = 5$: $0 + C = 5 \\Rightarrow C = 5$." },
+        { "tipe": "formula_block", "latex": "F(x) = 2x^3 - 2x^2 + 5" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
