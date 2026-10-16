@@ -1,0 +1,214 @@
+{
+  "id": "bs-k12-mat-lanjut-sedang-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Cross product & luas",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 0, 0)$ dan $\\vec{b} = (0, 1, 0)$. Hasil $\\vec{a} \\times \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, 0, 1)$"}],
+        [{"tipe":"paragraph","text":"$(0, 0, -1)$"}],
+        [{"tipe":"paragraph","text":"$(1, 0, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 1, 0)$"}],
+        [{"tipe":"paragraph","text":"$(1, 1, 0)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{vmatrix} = (0, 0, 1)" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $(0, 0, 1)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, 1, 0)$ dan $\\vec{b} = (1, 3, 0)$. Hasil $\\vec{a} \\times \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, 0, 5)$"}],
+        [{"tipe":"paragraph","text":"$(0, 0, -5)$"}],
+        [{"tipe":"paragraph","text":"$(5, 0, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 5, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 0, 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 2 & 1 & 0 \\\\ 1 & 3 & 0 \\end{vmatrix}" },
+        { "tipe": "formula_block", "latex": "= (1 \\cdot 0 - 0 \\cdot 3)\\mathbf{i} - (2 \\cdot 0 - 0 \\cdot 1)\\mathbf{j} + (2 \\cdot 3 - 1 \\cdot 1)\\mathbf{k}" },
+        { "tipe": "formula_block", "latex": "= (0, 0, 5)" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $(0, 0, 5)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas segitiga dengan vektor $\\vec{a} = (1, 0, 0)$ dan $\\vec{b} = (0, 1, 0)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{2}}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas = $\\dfrac{1}{2}|\\vec{a} \\times \\vec{b}|$." },
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = (0, 0, 1), \\quad |\\vec{a} \\times \\vec{b}| = 1" },
+        { "tipe": "formula_block", "latex": "L = \\dfrac{1}{2} \\cdot 1 = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, luasnya $\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas segitiga dengan vektor $\\vec{a} = (2, 1, 0)$ dan $\\vec{b} = (1, 3, 0)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{2}$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$10$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{5}}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari q02: $\\vec{a} \\times \\vec{b} = (0, 0, 5)$, maka $|\\vec{a} \\times \\vec{b}| = 5$." },
+        { "tipe": "formula_block", "latex": "L = \\dfrac{1}{2} \\cdot 5 = \\dfrac{5}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, luasnya $\\dfrac{5}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (1, 2, 3)$ dan $\\vec{b} = (2, 1, 0)$, maka $\\vec{a} \\times \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-3, 6, -3)$"}],
+        [{"tipe":"paragraph","text":"$(3, 6, -3)$"}],
+        [{"tipe":"paragraph","text":"$(-3, -6, -3)$"}],
+        [{"tipe":"paragraph","text":"$(-3, 6, 3)$"}],
+        [{"tipe":"paragraph","text":"$(3, -6, 3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 1 & 2 & 3 \\\\ 2 & 1 & 0 \\end{vmatrix}" },
+        { "tipe": "formula_block", "latex": "= (2 \\cdot 0 - 3 \\cdot 1)\\mathbf{i} - (1 \\cdot 0 - 3 \\cdot 2)\\mathbf{j} + (1 \\cdot 1 - 2 \\cdot 2)\\mathbf{k}" },
+        { "tipe": "formula_block", "latex": "= (-3, 6, -3)" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $(-3, 6, -3)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 1, 0)$ dan $\\vec{b} = (1, 0, 1)$. Hasil $\\vec{a} \\times \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(1, -1, -1)$"}],
+        [{"tipe":"paragraph","text":"$(1, 1, -1)$"}],
+        [{"tipe":"paragraph","text":"$(-1, 1, -1)$"}],
+        [{"tipe":"paragraph","text":"$(1, -1, 1)$"}],
+        [{"tipe":"paragraph","text":"$(-1, -1, -1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 1 & 1 & 0 \\\\ 1 & 0 & 1 \\end{vmatrix}" },
+        { "tipe": "formula_block", "latex": "= (1 \\cdot 1 - 0 \\cdot 0)\\mathbf{i} - (1 \\cdot 1 - 0 \\cdot 1)\\mathbf{j} + (1 \\cdot 0 - 1 \\cdot 1)\\mathbf{k}" },
+        { "tipe": "formula_block", "latex": "= (1, -1, -1)" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $(1, -1, -1)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, 0, 0)$ dan $\\vec{b} = (0, 3, 0)$. Hasil $\\vec{a} \\times \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, 0, 6)$"}],
+        [{"tipe":"paragraph","text":"$(0, 0, -6)$"}],
+        [{"tipe":"paragraph","text":"$(6, 0, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 6, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 0, 5)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 2 & 0 & 0 \\\\ 0 & 3 & 0 \\end{vmatrix} = (0, 0, 6)" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $(0, 0, 6)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas segitiga dengan vektor $\\vec{a} = (1, 1, 0)$ dan $\\vec{b} = (1, 0, 1)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{3}}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{2}}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari q06: $\\vec{a} \\times \\vec{b} = (1, -1, -1)$." },
+        { "tipe": "formula_block", "latex": "|\\vec{a} \\times \\vec{b}| = \\sqrt{1 + 1 + 1} = \\sqrt{3}" },
+        { "tipe": "formula_block", "latex": "L = \\dfrac{\\sqrt{3}}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, luasnya $\\dfrac{\\sqrt{3}}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (1, 0, 0)$ dan $\\vec{b} = (0, 1, 0)$, maka luas jajar genjang dengan sisi $\\vec{a}$ dan $\\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas jajar genjang = $|\\vec{a} \\times \\vec{b}|$." },
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = (0, 0, 1), \\quad L = 1" },
+        { "tipe": "paragraph", "text": "Jadi, luasnya 1." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (1, 2, 3)$ dan $\\vec{b} = (2, 4, 6)$, maka $\\vec{a} \\times \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, 0, 0)$"}],
+        [{"tipe":"paragraph","text":"$(1, 2, 3)$"}],
+        [{"tipe":"paragraph","text":"$(2, 4, 6)$"}],
+        [{"tipe":"paragraph","text":"$(6, 6, 6)$"}],
+        [{"tipe":"paragraph","text":"$(3, 2, 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $\\vec{b} = 2\\vec{a}$ (sejajar), maka $\\vec{a} \\times \\vec{b} = \\vec{0}$." },
+        { "tipe": "formula_block", "latex": "\\vec{a} \\times \\vec{b} = (0, 0, 0)" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $(0, 0, 0)$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
