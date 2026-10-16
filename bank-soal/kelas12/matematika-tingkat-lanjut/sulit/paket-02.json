@@ -1,0 +1,211 @@
+{
+  "id": "bs-k12-mat-lanjut-sulit-02",
+  "nama": "Bank Soal Sulit - Paket 2",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Bilangan kompleks & teorema de Moivre",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk polar dari $z = \\sqrt{3} + i$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2(\\cos 30° + i\\sin 30°)$"}],
+        [{"tipe":"paragraph","text":"$2(\\cos 60° + i\\sin 60°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}(\\cos 30° + i\\sin 30°)$"}],
+        [{"tipe":"paragraph","text":"$2(\\cos 45° + i\\sin 45°)$"}],
+        [{"tipe":"paragraph","text":"$4(\\cos 30° + i\\sin 30°)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|z| = \\sqrt{3 + 1} = 2" },
+        { "tipe": "formula_block", "latex": "\\tan\\theta = \\dfrac{1}{\\sqrt{3}} \\Rightarrow \\theta = 30°" },
+        { "tipe": "formula_block", "latex": "z = 2(\\cos 30° + i\\sin 30°)" },
+        { "tipe": "paragraph", "text": "Jadi, bentuk polarnya $2(\\cos 30° + i\\sin 30°)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dengan teorema de Moivre, nilai $(\\cos 30° + i\\sin 30°)^6$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$i$"}],
+        [{"tipe":"paragraph","text":"$-i$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "De Moivre: $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$." },
+        { "tipe": "formula_block", "latex": "(\\cos 30° + i\\sin 30°)^6 = \\cos 180° + i\\sin 180° = -1" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $(\\cos 45° + i\\sin 45°)^4$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$i$"}],
+        [{"tipe":"paragraph","text":"$-i$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(\\cos 45° + i\\sin 45°)^4 = \\cos 180° + i\\sin 180° = -1" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk polar dari $z = 1 - i$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{2}(\\cos 315° + i\\sin 315°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}(\\cos 45° + i\\sin 45°)$"}],
+        [{"tipe":"paragraph","text":"$2(\\cos 315° + i\\sin 315°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}(\\cos 135° + i\\sin 135°)$"}],
+        [{"tipe":"paragraph","text":"$1(\\cos 315° + i\\sin 315°)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|z| = \\sqrt{1 + 1} = \\sqrt{2}" },
+        { "tipe": "paragraph", "text": "$z = 1 - i$ terletak di kuadran IV, $\\theta = -45° = 315°$." },
+        { "tipe": "formula_block", "latex": "z = \\sqrt{2}(\\cos 315° + i\\sin 315°)" },
+        { "tipe": "paragraph", "text": "Jadi, bentuk polarnya $\\sqrt{2}(\\cos 315° + i\\sin 315°)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $(\\cos 60° + i\\sin 60°)^3$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$i$"}],
+        [{"tipe":"paragraph","text":"$-i$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(\\cos 60° + i\\sin 60°)^3 = \\cos 180° + i\\sin 180° = -1" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk polar dari $z = -1 + i$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{2}(\\cos 135° + i\\sin 135°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}(\\cos 45° + i\\sin 45°)$"}],
+        [{"tipe":"paragraph","text":"$2(\\cos 135° + i\\sin 135°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}(\\cos 315° + i\\sin 315°)$"}],
+        [{"tipe":"paragraph","text":"$1(\\cos 135° + i\\sin 135°)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|z| = \\sqrt{1 + 1} = \\sqrt{2}" },
+        { "tipe": "paragraph", "text": "$z = -1 + i$ terletak di kuadran II, $\\theta = 135°$." },
+        { "tipe": "formula_block", "latex": "z = \\sqrt{2}(\\cos 135° + i\\sin 135°)" },
+        { "tipe": "paragraph", "text": "Jadi, bentuk polarnya $\\sqrt{2}(\\cos 135° + i\\sin 135°)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $(\\cos 90° + i\\sin 90°)^2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$i$"}],
+        [{"tipe":"paragraph","text":"$-i$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(\\cos 90° + i\\sin 90°)^2 = \\cos 180° + i\\sin 180° = -1" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk polar dari $z = -\\sqrt{3} + i$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2(\\cos 150° + i\\sin 150°)$"}],
+        [{"tipe":"paragraph","text":"$2(\\cos 30° + i\\sin 30°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}(\\cos 150° + i\\sin 150°)$"}],
+        [{"tipe":"paragraph","text":"$2(\\cos 120° + i\\sin 120°)$"}],
+        [{"tipe":"paragraph","text":"$4(\\cos 150° + i\\sin 150°)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|z| = \\sqrt{3 + 1} = 2" },
+        { "tipe": "paragraph", "text": "$z = -\\sqrt{3} + i$ di kuadran II. Sudut referensi $30°$, sehingga $\\theta = 180° - 30° = 150°$." },
+        { "tipe": "formula_block", "latex": "z = 2(\\cos 150° + i\\sin 150°)" },
+        { "tipe": "paragraph", "text": "Jadi, bentuk polarnya $2(\\cos 150° + i\\sin 150°)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $(\\cos 120° + i\\sin 120°)^3$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$i$"}],
+        [{"tipe":"paragraph","text":"$-i$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(\\cos 120° + i\\sin 120°)^3 = \\cos 360° + i\\sin 360° = 1" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya 1." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk polar dari $z = i\\sqrt{3}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{3}(\\cos 90° + i\\sin 90°)$"}],
+        [{"tipe":"paragraph","text":"$3(\\cos 90° + i\\sin 90°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}(\\cos 0° + i\\sin 0°)$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}(\\cos 180° + i\\sin 180°)$"}],
+        [{"tipe":"paragraph","text":"$1(\\cos 90° + i\\sin 90°)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "z = 0 + i\\sqrt{3}, \\quad |z| = \\sqrt{3}, \\quad \\theta = 90°" },
+        { "tipe": "formula_block", "latex": "z = \\sqrt{3}(\\cos 90° + i\\sin 90°)" },
+        { "tipe": "paragraph", "text": "Jadi, bentuk polarnya $\\sqrt{3}(\\cos 90° + i\\sin 90°)$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
