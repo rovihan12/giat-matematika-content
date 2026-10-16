@@ -1,0 +1,199 @@
+{
+  "id": "bs-k12-integral-mudah-02",
+  "nama": "Bank Soal Mudah - Paket 2",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Integral suku banyak & nilai awal",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-mudah-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x^4 \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^5}{5} + C$"}],
+        [{"tipe":"paragraph","text":"$4x^3 + C$"}],
+        [{"tipe":"paragraph","text":"$x^5 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^4}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$5x^4 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int x^4 \\, dx = \\dfrac{x^5}{5} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\dfrac{x^5}{5} + C$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (2x^3 + 5) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^4}{2} + 5x + C$"}],
+        [{"tipe":"paragraph","text":"$2x^4 + 5x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^4}{2} + 5 + C$"}],
+        [{"tipe":"paragraph","text":"$6x^2 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x^4}{4} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 2x^3 \\, dx = \\dfrac{2x^4}{4} = \\dfrac{x^4}{2}, \\quad \\int 5 \\, dx = 5x" },
+        { "tipe": "formula_block", "latex": "\\int (2x^3 + 5) \\, dx = \\dfrac{x^4}{2} + 5x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (3x^2 - 2x + 1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^3 - x^2 + x + C$"}],
+        [{"tipe":"paragraph","text":"$3x^3 - x^2 + x + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 - 2x^2 + x + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 - x^2 + C$"}],
+        [{"tipe":"paragraph","text":"$6x - 2 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (3x^2 - 2x + 1) \\, dx = x^3 - x^2 + x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int 8x^3 \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x^4 + C$"}],
+        [{"tipe":"paragraph","text":"$8x^4 + C$"}],
+        [{"tipe":"paragraph","text":"$24x^2 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8x^4}{4} + C$"}],
+        [{"tipe":"paragraph","text":"$4x^4 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 8x^3 \\, dx = \\dfrac{8x^4}{4} + C = 2x^4 + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^2 + 2x + 3) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + x^2 + 3x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + 2x^2 + 3x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^3}{3} + x^2 + 3 + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 + x^2 + 3x + C$"}],
+        [{"tipe":"paragraph","text":"$2x + 2 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (x^2 + 2x + 3) \\, dx = \\dfrac{x^3}{3} + x^2 + 3x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (5x^4 - 3x^2) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^5 - x^3 + C$"}],
+        [{"tipe":"paragraph","text":"$5x^5 - x^3 + C$"}],
+        [{"tipe":"paragraph","text":"$x^5 - 3x^3 + C$"}],
+        [{"tipe":"paragraph","text":"$20x^3 - 6x + C$"}],
+        [{"tipe":"paragraph","text":"$x^5 - x^3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 5x^4 \\, dx = x^5, \\quad \\int 3x^2 \\, dx = x^3" },
+        { "tipe": "formula_block", "latex": "\\int (5x^4 - 3x^2) \\, dx = x^5 - x^3 + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (12x^2 + 6x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4x^3 + 3x^2 + C$"}],
+        [{"tipe":"paragraph","text":"$4x^3 + 6x^2 + C$"}],
+        [{"tipe":"paragraph","text":"$12x^3 + 3x^2 + C$"}],
+        [{"tipe":"paragraph","text":"$24x + 6 + C$"}],
+        [{"tipe":"paragraph","text":"$4x^3 + 3x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 12x^2 \\, dx = 4x^3, \\quad \\int 6x \\, dx = 3x^2" },
+        { "tipe": "formula_block", "latex": "\\int (12x^2 + 6x) \\, dx = 4x^3 + 3x^2 + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^4 - 2x^2 + 1) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^5}{5} - \\dfrac{2x^3}{3} + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^5}{5} - 2x^3 + x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^5}{5} - \\dfrac{2x^3}{3} + C$"}],
+        [{"tipe":"paragraph","text":"$x^5 - \\dfrac{2x^3}{3} + x + C$"}],
+        [{"tipe":"paragraph","text":"$4x^3 - 4x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (x^4 - 2x^2 + 1) \\, dx = \\dfrac{x^5}{5} - \\dfrac{2x^3}{3} + x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $F(x) = \\int (2x + 1) \\, dx$ dan $F(1) = 5$, maka $F(x)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + x + 3$"}],
+        [{"tipe":"paragraph","text":"$x^2 + x + 5$"}],
+        [{"tipe":"paragraph","text":"$x^2 + x - 3$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + x + 2$"}],
+        [{"tipe":"paragraph","text":"$x^2 + x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int (2x + 1) \\, dx = x^2 + x + C" },
+        { "tipe": "paragraph", "text": "Syarat $F(1) = 5$: $1 + 1 + C = 5 \\Rightarrow C = 3$." },
+        { "tipe": "formula_block", "latex": "F(x) = x^2 + x + 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-integral-mudah-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $F(x) = \\int 3x^2 \\, dx$ dan $F(2) = 10$, maka $F(x)$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^3 + 2$"}],
+        [{"tipe":"paragraph","text":"$x^3 - 2$"}],
+        [{"tipe":"paragraph","text":"$x^3 + 10$"}],
+        [{"tipe":"paragraph","text":"$3x^3 + 10$"}],
+        [{"tipe":"paragraph","text":"$x^3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int 3x^2 \\, dx = x^3 + C" },
+        { "tipe": "paragraph", "text": "Syarat $F(2) = 10$: $8 + C = 10 \\Rightarrow C = 2$." },
+        { "tipe": "formula_block", "latex": "F(x) = x^3 + 2" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
