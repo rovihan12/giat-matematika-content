@@ -1,0 +1,202 @@
+{
+  "id": "bs-k12-integral-sedang-05",
+  "nama": "Bank Soal Sedang - Paket 5",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Integral eksponen & logaritma",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sedang-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int e^{3x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}e^{3x} + C$"}],
+        [{"tipe":"paragraph","text":"$3e^{3x} + C$"}],
+        [{"tipe":"paragraph","text":"$e^{3x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}e^{x} + C$"}],
+        [{"tipe":"paragraph","text":"$3e^{x} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int e^{3x} \\, dx = \\dfrac{1}{3}e^{3x} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\dfrac{1}{3}e^{3x} + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int e^{-2x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}e^{-2x} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}e^{-2x} + C$"}],
+        [{"tipe":"paragraph","text":"$-2e^{-2x} + C$"}],
+        [{"tipe":"paragraph","text":"$2e^{-2x} + C$"}],
+        [{"tipe":"paragraph","text":"$-e^{-2x} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int e^{-2x} \\, dx = \\dfrac{1}{-2}e^{-2x} + C = -\\dfrac{1}{2}e^{-2x} + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $-\\dfrac{1}{2}e^{-2x} + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{1}{x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\ln|x| + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$x + C$"}],
+        [{"tipe":"paragraph","text":"$e^x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{x} \\, dx = \\ln|x| + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\ln|x| + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{3}{x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3\\ln|x| + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln|3x| + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln|x| + C$"}],
+        [{"tipe":"paragraph","text":"$3x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{3}{x} \\, dx = 3\\ln|x| + C" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $3\\ln|x| + C$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x e^{x^2} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}e^{x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$e^{x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$2e^{x^2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}e^{2x} + C$"}],
+        [{"tipe":"paragraph","text":"$e^{2x} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = x^2$, maka $du = 2x \\, dx \\Rightarrow x \\, dx = \\dfrac{du}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int e^u \\cdot \\dfrac{du}{2} = \\dfrac{1}{2}e^u + C = \\dfrac{1}{2}e^{x^2} + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{e^x}{e^x + 1} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\ln(e^x + 1) + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln(e^x) + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{e^x + 1} + C$"}],
+        [{"tipe":"paragraph","text":"$e^x \\ln(e^x + 1) + C$"}],
+        [{"tipe":"paragraph","text":"$-\\ln(e^x + 1) + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = e^x + 1$, maka $du = e^x \\, dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{du}{u} = \\ln|u| + C = \\ln(e^x + 1) + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{2x}{x^2+3} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\ln(x^2+3) + C$"}],
+        [{"tipe":"paragraph","text":"$2\\ln(x^2+3) + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}\\ln(x^2+3) + C$"}],
+        [{"tipe":"paragraph","text":"$\\ln(2x) + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{x^2+3} + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = x^2+3$, maka $du = 2x \\, dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{du}{u} = \\ln(x^2+3) + C" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} e^{2x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{e^2 - 1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e^2 + 1}{2}$"}],
+        [{"tipe":"paragraph","text":"$e^2 - 1$"}],
+        [{"tipe":"paragraph","text":"$e^2 + 1$"}],
+        [{"tipe":"paragraph","text":"$2(e^2 - 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} e^{2x} \\, dx = \\left[ \\dfrac{e^{2x}}{2} \\right]_{0}^{1} = \\dfrac{e^2}{2} - \\dfrac{1}{2} = \\dfrac{e^2 - 1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $\\dfrac{e^2 - 1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{e} \\dfrac{1}{x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$e$"}],
+        [{"tipe":"paragraph","text":"$e - 1$"}],
+        [{"tipe":"paragraph","text":"$\\ln e^2$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{1}^{e} \\dfrac{1}{x} \\, dx = \\left[ \\ln x \\right]_{1}^{e} = \\ln e - \\ln 1 = 1 - 0 = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya 1." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} (e^x + x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$e + \\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$e - 1$"}],
+        [{"tipe":"paragraph","text":"$e + 1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} (e^x + x) \\, dx = \\left[ e^x + \\dfrac{x^2}{2} \\right]_{0}^{1}" },
+        { "tipe": "formula_block", "latex": "= \\left( e + \\dfrac{1}{2} \\right) - (1 + 0) = e + \\dfrac{1}{2} - 1 = e - \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilainya $e - \\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
