@@ -1,0 +1,204 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-01",
+  "nama": "Bank Soal Mudah - Paket 1",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Vektor 2D & 3D dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (3, 4)$. Panjang vektor $\\vec{a}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{7}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5" },
+        { "tipe": "paragraph", "text": "Jadi, panjangnya adalah 5." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 2)$ dan $\\vec{b} = (3, 4)$. Hasil $\\vec{a} \\cdot \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$11$"}],
+        [{"tipe":"paragraph","text":"$12$"}],
+        [{"tipe":"paragraph","text":"$15$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1 \\cdot 3 + 2 \\cdot 4 = 3 + 8 = 11" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah 11." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, 1, 2)$. Panjang vektor $\\vec{a}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$9$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{2^2 + 1^2 + 2^2} = \\sqrt{4 + 1 + 4} = \\sqrt{9} = 3" },
+        { "tipe": "paragraph", "text": "Jadi, panjangnya adalah 3." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 2, 3)$ dan $\\vec{b} = (4, 5, 6)$. Hasil $\\vec{a} \\cdot \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$28$"}],
+        [{"tipe":"paragraph","text":"$30$"}],
+        [{"tipe":"paragraph","text":"$32$"}],
+        [{"tipe":"paragraph","text":"$34$"}],
+        [{"tipe":"paragraph","text":"$36$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1(4) + 2(5) + 3(6) = 4 + 10 + 18 = 32" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah 32." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, -1)$ dan $\\vec{b} = (3, 4)$. Hasil $2\\vec{a} + \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(7, 2)$"}],
+        [{"tipe":"paragraph","text":"$(7, 3)$"}],
+        [{"tipe":"paragraph","text":"$(7, 4)$"}],
+        [{"tipe":"paragraph","text":"$(5, 3)$"}],
+        [{"tipe":"paragraph","text":"$(5, 2)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "2\\vec{a} = (4, -2)" },
+        { "tipe": "formula_block", "latex": "2\\vec{a} + \\vec{b} = (4+3, -2+4) = (7, 2)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (1, 0)$ dan $\\vec{b} = (0, 1)$. Hasil $\\vec{a} \\cdot \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1(0) + 0(1) = 0" },
+        { "tipe": "paragraph", "text": "Karena hasilnya 0, kedua vektor tegak lurus." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Vektor satuan dari $\\vec{a} = (6, 8)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0{,}6;\\ 0{,}8)$"}],
+        [{"tipe":"paragraph","text":"$(0{,}8;\\ 0{,}6)$"}],
+        [{"tipe":"paragraph","text":"$(3, 4)$"}],
+        [{"tipe":"paragraph","text":"$(6, 8)$"}],
+        [{"tipe":"paragraph","text":"$(1, 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{36 + 64} = 10" },
+        { "tipe": "formula_block", "latex": "\\hat{a} = \\dfrac{(6, 8)}{10} = (0{,}6;\\ 0{,}8)" },
+        { "tipe": "paragraph", "text": "Jadi, vektor satuannya adalah $(0{,}6;\\ 0{,}8)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (2, 3)$ dan $\\vec{b} = (4, k)$ tegak lurus, maka nilai $k$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{8}{3}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{3}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tegak lurus → $\\vec{a} \\cdot \\vec{b} = 0$:" },
+        { "tipe": "formula_block", "latex": "2(4) + 3(k) = 0 \\Rightarrow 8 + 3k = 0 \\Rightarrow k = -\\dfrac{8}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $k = -\\dfrac{8}{3}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $A(1, 2)$ dan $B(4, 6)$. Panjang vektor $\\overrightarrow{AB}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{7}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\overrightarrow{AB} = (4 - 1, 6 - 2) = (3, 4)" },
+        { "tipe": "formula_block", "latex": "|\\overrightarrow{AB}| = \\sqrt{9 + 16} = 5" },
+        { "tipe": "paragraph", "text": "Jadi, panjangnya adalah 5." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = (2, 3, 6)$. Panjang vektor $\\vec{a}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$11$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7" },
+        { "tipe": "paragraph", "text": "Jadi, panjangnya adalah 7." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
