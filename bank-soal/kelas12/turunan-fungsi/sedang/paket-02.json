@@ -1,0 +1,205 @@
+{
+  "id": "bs-k12-turunan-sedang-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Aturan pembagian (quotient rule)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sedang-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x+1}{x-1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{(x-1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{(x-1)^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{(x-1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{(x-1)^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{(x+1)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan pembagian: $f' = \\dfrac{u'v - uv'}{v^2}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{(1)(x-1) - (x+1)(1)}{(x-1)^2} = \\dfrac{x-1-x-1}{(x-1)^2} = \\dfrac{-2}{(x-1)^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -\\dfrac{2}{(x-1)^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{2x}{x+1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{(x+1)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{2(x+1) - 2x(1)}{(x+1)^2} = \\dfrac{2x+2-2x}{(x+1)^2} = \\dfrac{2}{(x+1)^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{2}{(x+1)^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x^2+1}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1 - \\dfrac{1}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$1 + \\dfrac{1}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$1 - \\dfrac{2}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sederhanakan: $f(x) = x + \\dfrac{1}{x} = x + x^{-1}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 1 - x^{-2} = 1 - \\dfrac{1}{x^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 1 - \\dfrac{1}{x^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x}{x^2+1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1-x^2}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1+x^2}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2-1}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{-1}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{(x^2+1)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{(1)(x^2+1) - x(2x)}{(x^2+1)^2} = \\dfrac{x^2+1-2x^2}{(x^2+1)^2} = \\dfrac{1-x^2}{(x^2+1)^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{1-x^2}{(x^2+1)^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x+2}{x-2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{4}{(x-2)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{(x-2)^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{(x-2)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{(x-2)^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{(x-2)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{(1)(x-2) - (x+2)(1)}{(x-2)^2} = \\dfrac{x-2-x-2}{(x-2)^2} = \\dfrac{-4}{(x-2)^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -\\dfrac{4}{(x-2)^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x^2}{x+1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2+2x}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2-2x}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x^2+2x}{x+1}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x}{(x+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x+2}{(x+1)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{2x(x+1) - x^2(1)}{(x+1)^2} = \\dfrac{2x^2 + 2x - x^2}{(x+1)^2} = \\dfrac{x^2+2x}{(x+1)^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{x^2+2x}{(x+1)^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{3x-1}{x+2}$ di $x = 0$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{7}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{4}$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{3(x+2) - (3x-1)(1)}{(x+2)^2} = \\dfrac{3x+6-3x+1}{(x+2)^2} = \\dfrac{7}{(x+2)^2}" },
+        { "tipe": "formula_block", "latex": "f'(0) = \\dfrac{7}{4}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(0) = \\dfrac{7}{4}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{1}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{x^3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{x^3}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x^3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x^3}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{x}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $f(x) = x^{-2}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = -2x^{-3} = -\\dfrac{2}{x^3}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -\\dfrac{2}{x^3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{1}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{x}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{x}$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f(x) = x^{-1} \\Rightarrow f'(x) = -x^{-2} = -\\dfrac{1}{x^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -\\dfrac{1}{x^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x^2-1}{x^2+1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{4x}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{4x}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x}{(x^2+1)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4x}{x^2+1}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2x}{x^2+1}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{2x(x^2+1) - (x^2-1)(2x)}{(x^2+1)^2} = \\dfrac{2x^3 + 2x - 2x^3 + 2x}{(x^2+1)^2} = \\dfrac{4x}{(x^2+1)^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{4x}{(x^2+1)^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
