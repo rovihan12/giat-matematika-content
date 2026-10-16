@@ -1,0 +1,212 @@
+{
+  "id": "bs-k12-mat-lanjut-sedang-03",
+  "nama": "Bank Soal Sedang - Paket 3",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Matriks lanjutan & sifat determinan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$. Determinan dari $A^2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$-4$"}],
+        [{"tipe":"paragraph","text":"$16$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = 1(4) - 2(3) = -2" },
+        { "tipe": "formula_block", "latex": "\\det(A^2) = (\\det A)^2 = (-2)^2 = 4" },
+        { "tipe": "paragraph", "text": "Jadi, $\\det(A^2) = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\det(A) = 3$ dan $\\det(B) = 5$, maka $\\det(AB)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$15$"}],
+        [{"tipe":"paragraph","text":"$225$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{5}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat: $\\det(AB) = \\det(A) \\cdot \\det(B)$." },
+        { "tipe": "formula_block", "latex": "\\det(AB) = 3 \\cdot 5 = 15" },
+        { "tipe": "paragraph", "text": "Jadi, $\\det(AB) = 15$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Determinan dari matriks $A = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$12$"}],
+        [{"tipe":"paragraph","text":"$24$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Matriks diagonal: $\\det = $ hasil kali elemen diagonal." },
+        { "tipe": "formula_block", "latex": "\\det = 2 \\cdot 3 \\cdot 4 = 24" },
+        { "tipe": "paragraph", "text": "Jadi, determinannya 24." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 5 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 5 & -2 \\\\ -3 & 1 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} -5 & 2 \\\\ 3 & -1 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 5 & 2 \\\\ 3 & 1 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & -2 \\\\ -3 & 5 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} -1 & 2 \\\\ 3 & -5 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = 1(5) - 2(3) = -1" },
+        { "tipe": "formula_block", "latex": "A^{-1} = \\dfrac{1}{-1}\\begin{pmatrix} 5 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -5 & 2 \\\\ 3 & -1 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, inversnya adalah $\\begin{pmatrix} -5 & 2 \\\\ 3 & -1 \\end{pmatrix}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 3 \\end{pmatrix}$, maka $\\det(2A)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$10$"}],
+        [{"tipe":"paragraph","text":"$20$"}],
+        [{"tipe":"paragraph","text":"$25$"}],
+        [{"tipe":"paragraph","text":"$40$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat: $\\det(kA) = k^n \\det(A)$ untuk matriks $n \\times n$." },
+        { "tipe": "formula_block", "latex": "\\det(A) = 2(3) - 1(1) = 5" },
+        { "tipe": "formula_block", "latex": "\\det(2A) = 2^2 \\cdot 5 = 20" },
+        { "tipe": "paragraph", "text": "Jadi, $\\det(2A) = 20$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Determinan dari matriks $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi baris pertama:" },
+        { "tipe": "formula_block", "latex": "\\det = 1(45-48) - 2(36-42) + 3(32-35) = -3 + 12 - 9 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, determinannya 0 (karena baris ke-3 = baris 1 + baris 2)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil kali matriks $A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 3 & 0 \\\\ 0 & 4 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 0 \\\\ 0 & 8 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 4 & 0 \\\\ 0 & 6 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 0 \\\\ 0 & 4 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 12 & 0 \\\\ 0 & 12 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Matriks diagonal: kalikan elemen diagonalnya." },
+        { "tipe": "formula_block", "latex": "AB = \\begin{pmatrix} 1 \\cdot 3 & 0 \\\\ 0 & 2 \\cdot 4 \\end{pmatrix} = \\begin{pmatrix} 3 & 0 \\\\ 0 & 8 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\begin{pmatrix} 3 & 0 \\\\ 0 & 8 \\end{pmatrix}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\det(A) = 4$, maka $\\det(A^{-1})$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-4$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{4}$"}],
+        [{"tipe":"paragraph","text":"$16$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat: $\\det(A^{-1}) = \\dfrac{1}{\\det(A)}$." },
+        { "tipe": "formula_block", "latex": "\\det(A^{-1}) = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "Jadi, $\\det(A^{-1}) = \\dfrac{1}{4}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Determinan dari transpose matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$-4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat: $\\det(A^T) = \\det(A)$." },
+        { "tipe": "formula_block", "latex": "\\det(A) = 4 - 6 = -2, \\quad \\det(A^T) = -2" },
+        { "tipe": "paragraph", "text": "Jadi, $\\det(A^T) = -2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $A = \\begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}$, maka $\\det(A)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Matriks segitiga atas: $\\det = $ hasil kali elemen diagonal." },
+        { "tipe": "formula_block", "latex": "\\det = 1 \\cdot 1 \\cdot 3 = 3" },
+        { "tipe": "paragraph", "text": "Jadi, determinannya 3." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
