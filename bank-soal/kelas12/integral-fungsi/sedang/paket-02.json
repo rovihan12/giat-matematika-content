@@ -80,8 +80,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Pilih $u = \\ln x$, $dv = x \\, dx$, maka $du = \\dfrac{dx}{x}$, $v = \\dfrac{x^2}{2}$." },
-        { "tipe": "formula_block", "latex": "\\int x \\ln x \\, dx = \\dfrac{x^2 \\ln x}{2} - \\int \\dfrac{x^2}{2} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^2 \\ln x}{2} - \\dfrac{1}{2} \\int x \\, dx" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{x^2 \\ln x}{2} - \\dfrac{x^2}{4} + C" }
+        { "tipe": "formula_block", "latex": "\\int x \\ln x \\, dx = \\dfrac{x^2 \\ln x}{2} - \\int \\dfrac{x^2}{2} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^2 \\ln x}{2} - \\dfrac{x^2}{4} + C" }
       ],
       "tingkat": "SEDANG"
     },
@@ -101,7 +100,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Parsial pertama: $u = x^2$, $dv = e^x \\, dx$, maka $du = 2x \\, dx$, $v = e^x$." },
         { "tipe": "formula_block", "latex": "\\int x^2 e^x \\, dx = x^2 e^x - 2\\int x e^x \\, dx" },
-        { "tipe": "paragraph", "text": "Dari soal sebelumnya: $\\int x e^x \\, dx = xe^x - e^x$." },
+        { "tipe": "paragraph", "text": "Dari q01: $\\int x e^x \\, dx = xe^x - e^x$." },
         { "tipe": "formula_block", "latex": "= x^2 e^x - 2(xe^x - e^x) + C = x^2 e^x - 2xe^x + 2e^x + C" }
       ],
       "tingkat": "SEDANG"
@@ -159,8 +158,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Pilih $u = \\ln x$, $dv = x^2 \\, dx$, maka $du = \\dfrac{dx}{x}$, $v = \\dfrac{x^3}{3}$." },
-        { "tipe": "formula_block", "latex": "\\int x^2 \\ln x \\, dx = \\dfrac{x^3 \\ln x}{3} - \\int \\dfrac{x^3}{3} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^3 \\ln x}{3} - \\dfrac{1}{3} \\int x^2 \\, dx" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{x^3 \\ln x}{3} - \\dfrac{x^3}{9} + C" }
+        { "tipe": "formula_block", "latex": "\\int x^2 \\ln x \\, dx = \\dfrac{x^3 \\ln x}{3} - \\int \\dfrac{x^3}{3} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^3 \\ln x}{3} - \\dfrac{x^3}{9} + C" }
       ],
       "tingkat": "SEDANG"
     },
@@ -198,8 +196,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Dari q01: $\\int x e^x \\, dx = x e^x - e^x$." },
-        { "tipe": "formula_block", "latex": "\\int_{0}^{1} x e^x \\, dx = \\left[ x e^x - e^x \\right]_{0}^{1}" },
-        { "tipe": "formula_block", "latex": "= (e - e) - (0 - 1) = 0 + 1 = 1" },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} x e^x \\, dx = \\left[ x e^x - e^x \\right]_{0}^{1} = (e - e) - (0 - 1) = 1" },
         { "tipe": "paragraph", "text": "Jadi, nilainya 1." }
       ],
       "tingkat": "SEDANG"
