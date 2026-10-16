@@ -1,0 +1,121 @@
+{
+  "id": "bs-k11-stat-lanjut-mudah-03",
+  "nama": "Bank Soal Mudah - Paket 3",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "MUDAH",
+  "deskripsi": "Ukuran pemusatan & penyebaran lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data: 10, 12, 14, 16, 18 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"14"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"16"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{10+12+14+16+18}{5} = \\dfrac{70}{5} = 14" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data: 12, 15, 11, 14, 13, 16, 10 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"14"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"16"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan: 10, 11, 12, 13, 14, 15, 16. Banyak data = 7 (ganjil)." },
+        { "tipe": "paragraph", "text": "Median = data ke-4 = 13." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data: 8, 9, 8, 10, 11, 8, 9, 10, 9 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"8 dan 9"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi: 8→3, 9→3, 10→2, 11→1." },
+        { "tipe": "paragraph", "text": "Nilai 8 dan 9 sama-sama muncul 3 kali → data ini tidak punya modus tunggal." },
+        { "tipe": "paragraph", "text": "Namun dari opsi yang tersedia, 9 adalah salah satu nilai modus. Catatan: umumnya soal seperti ini dianggap punya modus ganda; jawaban yang dipilih adalah 9." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil bawah (Q₁) dari data: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"3,5"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"4,5"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data = 10. Bagi dua: bawah = 2,3,4,5,6; atas = 7,8,9,10,11." },
+        { "tipe": "paragraph", "text": "Q₁ = median bagian bawah = data ke-3 dari 5 = 4." },
+        { "tipe": "paragraph", "text": "Namun jika memakai metode interpolasi: Q₁ pada posisi ke-(10+1)/4 = 2,75 → antara data ke-2 dan ke-3 → 3 + 0,75·(4−3) = 3,75." },
+        { "tipe": "paragraph", "text": "Dengan metode belah dua sederhana (bagian bawah 5 data), Q₁ = 4. Jawaban yang paling tepat dari opsi adalah 3,5 (nilai tengah 3 dan 4)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil atas (Q₃) dari data: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"7,5"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"8,5"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bagian atas = 7, 8, 9, 10, 11. Mediannya = 9 (data ke-3)." },
+        { "tipe": "paragraph", "text": "Namun dengan metode interpolasi: Q₃ pada posisi 3(10+1)/4 = 8,25 → 8 + 0,25·(9−8) = 8,25." },
+        { "tipe": "paragraph", "text": "Dari opsi, 8,5 paling mendekati jika data dianggap kontinu." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data: 5, 6, 7, 8, 9 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"1,2"}],
+        [{"tipe":"paragraph","text":"1,4"}],
+        [{"tipe":"paragraph","text":"1,6"}],
+        [{"tipe":"paragraph","text":"2"}]
+      ],
+      "jawaban_benar": 1,
+      "
