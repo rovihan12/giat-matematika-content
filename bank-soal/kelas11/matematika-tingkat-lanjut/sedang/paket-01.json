@@ -128,27 +128,23 @@
       ],
       "tingkat": "SEDANG"
     },
-    {
+      {
       "id": "bs-k11-mat-lanjut-sedang-01-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $P(x) = x^3 - 7x + 6$. Salah satu faktor rasional dari $P(x)$ adalah ..." }
+        { "tipe": "paragraph", "text": "Diketahui $P(x) = x^3 - 6x^2 + 11x - 6$. Salah satu akar dari $P(x) = 0$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$(x + 1)$"}],
-        [{"tipe":"paragraph","text":"$(x - 3)$"}],
-        [{"tipe":"paragraph","text":"$(x + 5)$"}],
-        [{"tipe":"paragraph","text":"$(x - 5)$"}],
-        [{"tipe":"paragraph","text":"$(x + 6)$"}]
+        [{"tipe":"paragraph","text":"-1"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Uji kandidat akar rasional $\\pm 1, \\pm 2, \\pm 3, \\pm 6$." },
-        { "tipe": "paragraph", "text": "$P(1) = 1 - 7 + 6 = 0$ → $(x-1)$ faktor." },
-        { "tipe": "paragraph", "text": "$P(3) = 27 - 21 + 6 = 12 \\neq 0$ → $(x-3)$ **bukan** faktor? Cek: $27 - 21 + 6 = 12$. Salah." },
-        { "tipe": "paragraph", "text": "Ulang: $P(2) = 8 - 14 + 6 = 0$ → $(x-2)$ faktor." },
-        { "tipe": "paragraph", "text": "$P(-3) = -27 + 21 + 6 = 0$ → $(x+3)$ faktor." },
-        { "tipe": "paragraph", "text": "Akar-akarnya: 1, 2, -3. Faktornya: $(x-1)(x-2)(x+3)$." },
-        { "tipe": "paragraph", "text": "Dari opsi, hanya $(x-3)$ yang **bukan** faktor. Ganti soal: pakai $P(x) = x^3 - 7x + 6$, dan opsi yang benar adalah $(x+3)$ — namun karena opsi tidak ada, gunakan soal alternatif di bawah." }
+        { "tipe": "paragraph", "text": "Uji kandidat akar: $P(1) = 1 - 6 + 11 - 6 = 0$." },
+        { "tipe": "paragraph", "text": "Jadi, salah satu akarnya adalah 1." },
+        { "tipe": "paragraph", "text": "(Akar lainnya: 2 dan 3.)" }
       ],
       "tingkat": "SEDANG"
     },
