@@ -1,0 +1,202 @@
+{
+  "id": "bs-k12-limit-sedang-02",
+  "nama": "Bank Soal Sedang - Paket 2",
+  "kelas": 12,
+  "kategori": "Limit Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Limit trigonometri lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-limit-sedang-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin 4x}{\\sin 2x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $\\lim\\limits_{x \\to 0} \\dfrac{\\sin ax}{\\sin bx} = \\dfrac{a}{b}$:" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{4}{2} = 2" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 2." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin 6x}{\\tan 2x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\sin 6x}{\\tan 2x} = \\dfrac{6}{2} = 3" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 3." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\tan 3x}{\\sin 5x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{3}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\tan 3x}{\\sin 5x} = \\dfrac{3}{5}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{1 - \\cos 2x}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"8"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $1 - \\cos 2x = 2\\sin^2 x$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{2\\sin^2 x}{x^2} = 2 \\cdot 1 = 2" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 2." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{1 - \\cos 4x}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"16"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $1 - \\cos 4x = 2\\sin^2 2x$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{2\\sin^2 2x}{x^2} = 2 \\cdot 4 = 8" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 8." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin^2 3x}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"12"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\left(\\dfrac{\\sin 3x}{x}\\right)^2 = 3^2 = 9" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 9." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin 5x \\cdot \\tan 3x}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"25"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\sin 5x}{x} \\cdot \\dfrac{\\tan 3x}{x} = 5 \\cdot 3 = 15" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\tan 2x \\cdot \\tan 3x}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"12"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\tan 2x}{x} \\cdot \\dfrac{\\tan 3x}{x} = 2 \\cdot 3 = 6" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\cos 4x - 1}{x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-8"}],
+        [{"tipe":"paragraph","text":"-4"}],
+        [{"tipe":"paragraph","text":"-2"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"2"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 4x - 1 = -(1 - \\cos 4x) = -2\\sin^2 2x$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{-2\\sin^2 2x}{x^2} = -2 \\cdot 4 = -8" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah -8." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin 3x}{2x} \\cdot \\dfrac{\\tan 2x}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "= \\dfrac{3}{2} \\cdot 2 = 3" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 3." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
