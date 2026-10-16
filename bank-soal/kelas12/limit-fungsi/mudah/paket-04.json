@@ -1,0 +1,194 @@
+{
+  "id": "bs-k12-limit-mudah-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 12,
+  "kategori": "Limit Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Limit tak hingga fungsi rasional",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-limit-mudah-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{3x^2 + 5x - 1}{2x^2 - x + 4}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Derajat pembilang = derajat penyebut = 2, sehingga limit = rasio koefisien pangkat tertinggi." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{3x^2+5x-1}{2x^2-x+4} = \\dfrac{3}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{3}{2}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{5x^3 + 2x}{2x^3 - x^2 + 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{5x^3+2x}{2x^3-x^2+1} = \\dfrac{5}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{2x + 3}{x^2 + 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Derajat pembilang (1) < derajat penyebut (2), maka limit = 0." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{2x+3}{x^2+1} = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{x^2 + 3x}{x + 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"$-\\infty$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Derajat pembilang (2) > derajat penyebut (1), maka limit = $+\\infty$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{4x^2 - x + 3}{2x^2 + 5x - 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{4x^2-x+3}{2x^2+5x-1} = \\dfrac{4}{2} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{x - 5}{2x + 3}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{x-5}{2x+3} = \\dfrac{1}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{3x^4 - 2x^2 + 1}{x^3 + 5x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"$-\\infty$"}],
+        [{"tipe":"paragraph","text":"Tidak ada"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Derajat pembilang (4) > derajat penyebut (3), maka limit = $+\\infty$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{6x^3 + 4x}{3x^3 - 2x^2 + 5}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{6x^3+4x}{3x^3-2x^2+5} = \\dfrac{6}{3} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{2x^2 + 5x + 1}{x^3 - 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Derajat pembilang (2) < derajat penyebut (3), maka limit = 0." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{7x^2 - 3x + 2}{x^2 + x - 5}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"$-7$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{7x^2-3x+2}{x^2+x-5} = 7" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
