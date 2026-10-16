@@ -1,0 +1,195 @@
+{
+  "id": "bs-k11-stat-lanjut-mudah-04",
+  "nama": "Bank Soal Mudah - Paket 4",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "MUDAH",
+  "deskripsi": "Ukuran pemusatan & penyebaran data tunggal",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data: 20, 25, 30, 35, 40 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"28"}],
+        [{"tipe":"paragraph","text":"29"}],
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"31"}],
+        [{"tipe":"paragraph","text":"32"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{20+25+30+35+40}{5} = \\dfrac{150}{5} = 30" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data: 25, 20, 30, 15, 35 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"25"}],
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"35"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan: 15, 20, 25, 30, 35. Median = data ke-3 = 25." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data: 1, 2, 2, 3, 3, 3, 4, 5, 5 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"1"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi: 1→1, 2→2, 3→3, 4→1, 5→2. Modus = 3 (muncul 3 kali)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil bawah (Q₁) dari data: 10, 20, 30, 40, 50, 60, 70, 80 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"25"}],
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"35"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bawah = 10, 20, 30, 40. Q₁ = (20 + 30) / 2 = 25." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kuartil atas (Q₃) dari data: 10, 20, 30, 40, 50, 60, 70, 80 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"55"}],
+        [{"tipe":"paragraph","text":"60"}],
+        [{"tipe":"paragraph","text":"65"}],
+        [{"tipe":"paragraph","text":"70"}],
+        [{"tipe":"paragraph","text":"75"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Atas = 50, 60, 70, 80. Q₃ = (60 + 70) / 2 = 65." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data: 8, 10, 12, 14 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"1,5"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"2,5"}],
+        [{"tipe":"paragraph","text":"3"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = (8 + 10 + 12 + 14) / 4 = 11." },
+        { "tipe": "paragraph", "text": "Simpangan: 3, 1, 1, 3 → jumlah = 8." },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{8}{4} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Varians dari data: 10, 12, 14, 16, 18 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = 14. Kuadrat simpangan: 16 + 4 + 0 + 4 + 16 = 40." },
+        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{40}{5} = 8" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan baku dari data: 10, 12, 14, 16, 18 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"√2"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"2√2"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"4√2"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "S = √8 = 2√2." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan dari data: 15, 22, 8, 30, 18, 25 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"21"}],
+        [{"tipe":"paragraph","text":"22"}],
+        [{"tipe":"paragraph","text":"23"}],
+        [{"tipe":"paragraph","text":"24"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "R = 30 - 8 = 22" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-mudah-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan antarkuartil dari data: 10, 20, 30, 40, 50, 60, 70, 80 adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"35"}],
+        [{"tipe":"paragraph","text":"40"}],
+        [{"tipe":"paragraph","text":"45"}],
+        [{"tipe":"paragraph","text":"50"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari Q₁ = 25 dan Q₃ = 65." },
+        { "tipe": "formula_block", "latex": "H = 65 - 25 = 40" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
