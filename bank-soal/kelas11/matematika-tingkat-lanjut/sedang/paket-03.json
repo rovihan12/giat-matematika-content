@@ -1,0 +1,205 @@
+{
+  "id": "bs-k11-mat-lanjut-sedang-03",
+  "nama": "Bank Soal Sedang - Paket 3",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Operasi polinomial & teorema Vieta",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $(2x^2 - 3x + 1)(x + 2)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 5x + 2$"}],
+        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 5x - 2$"}],
+        [{"tipe":"paragraph","text":"$2x^3 - x^2 - 5x + 2$"}],
+        [{"tipe":"paragraph","text":"$2x^3 + x^2 + 5x + 2$"}],
+        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 5x + 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(2x^2 - 3x + 1)(x+2) = 2x^3 + 4x^2 - 3x^2 - 6x + x + 2 = 2x^3 + x^2 - 5x + 2" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar dari $P(x) = x^3 - 4x^2 + x + 6$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-1, 2, 3"}],
+        [{"tipe":"paragraph","text":"1, -2, 3"}],
+        [{"tipe":"paragraph","text":"1, 2, -3"}],
+        [{"tipe":"paragraph","text":"1, 2, 3"}],
+        [{"tipe":"paragraph","text":"-1, -2, -3"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Uji $x = -1$: $P(-1) = -1 - 4 - 1 + 6 = 0$ → $(x+1)$ faktor." },
+        { "tipe": "paragraph", "text": "Bagi dengan $(x+1)$: hasil = $x^2 - 5x + 6 = (x-2)(x-3)$." },
+        { "tipe": "formula_block", "latex": "P(x) = (x+1)(x-2)(x-3)" },
+        { "tipe": "paragraph", "text": "Jadi, akar-akarnya -1, 2, 3." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $P(x) = 2x^3 + 3x^2 - 8x + 3$, maka $P(-3)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-9"}],
+        [{"tipe":"paragraph","text":"-3"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "P(-3) = 2(-27) + 3(9) - 8(-3) + 3 = -54 + 27 + 24 + 3 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, $P(-3) = 0$, sehingga $(x+3)$ faktor." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Faktor dari $P(x) = x^3 - 8$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(x-2)(x^2+2x+4)$"}],
+        [{"tipe":"paragraph","text":"$(x+2)(x^2-2x+4)$"}],
+        [{"tipe":"paragraph","text":"$(x-2)(x^2-2x+4)$"}],
+        [{"tipe":"paragraph","text":"$(x+2)(x^2+2x+4)$"}],
+        [{"tipe":"paragraph","text":"$(x-2)^3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas selisih kubus: $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$." },
+        { "tipe": "formula_block", "latex": "x^3 - 8 = (x-2)(x^2 + 2x + 4)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1, x_2, x_3$ adalah akar-akar dari $x^3 - 6x^2 + 11x - 6 = 0$, maka nilai $x_1 + x_2 + x_3$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-6"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"11"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dengan teorema Vieta: $x_1 + x_2 + x_3 = -b/a = 6/1 = 6$." },
+        { "tipe": "paragraph", "text": "Verifikasi: akar-akarnya 1, 2, 3. Jumlah = 6. ✅" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sisa pembagian $P(x) = x^4 - 3x^3 + 2x^2 - x + 5$ oleh $(x - 2)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"11"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "P(2) = 16 - 24 + 8 - 2 + 5 = 3" },
+        { "tipe": "paragraph", "text": "Jadi, sisanya adalah 3." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $(x - 3)$ adalah faktor dari $P(x) = x^3 - 2x^2 + ax - 6$, maka nilai $a$ = ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-3"}],
+        [{"tipe":"paragraph","text":"-1"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"3"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "P(3) = 27 - 18 + 3a - 6 = 3a + 3 = 0 \\Rightarrow a = -1" },
+        { "tipe": "paragraph", "text": "Jadi, $a = -1$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $(x^2 + 2x - 3)^2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^4 + 4x^3 - 2x^2 - 12x + 9$"}],
+        [{"tipe":"paragraph","text":"$x^4 + 4x^3 + 2x^2 - 12x + 9$"}],
+        [{"tipe":"paragraph","text":"$x^4 - 4x^3 - 2x^2 + 12x + 9$"}],
+        [{"tipe":"paragraph","text":"$x^4 + 4x^3 - 2x^2 + 12x + 9$"}],
+        [{"tipe":"paragraph","text":"$x^4 + 4x^3 - 2x^2 - 12x - 9$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "(x^2 + 2x - 3)^2 = x^4 + 4x^3 + 4x^2 - 6x^2 - 12x + 9 = x^4 + 4x^3 - 2x^2 - 12x + 9" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $x^4 + 4x^3 - 2x^2 - 12x + 9$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $P(x) = x^3 + 2x^2 - 5x - 6$, maka $P(2) \\cdot P(-1)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-16"}],
+        [{"tipe":"paragraph","text":"-8"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"16"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(2) = 8 + 8 - 10 - 6 = 0$." },
+        { "tipe": "paragraph", "text": "$P(-1) = -1 + 2 + 5 - 6 = 0$." },
+        { "tipe": "formula_block", "latex": "P(2) \\cdot P(-1) = 0 \\times 0 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah 0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Polinomial $P(x) = x^3 - 3x^2 - x + 3$ dapat difaktorkan menjadi ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(x-1)(x+1)(x-3)$"}],
+        [{"tipe":"paragraph","text":"$(x-1)^2(x+3)$"}],
+        [{"tipe":"paragraph","text":"$(x+1)^2(x-3)$"}],
+        [{"tipe":"paragraph","text":"$(x-3)^2(x+1)$"}],
+        [{"tipe":"paragraph","text":"$(x^2-1)(x+3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelompokkan: $(x^3 - 3x^2) + (-x + 3) = x^2(x-3) - 1(x-3) = (x-3)(x^2-1)$." },
+        { "tipe": "formula_block", "latex": "= (x-3)(x-1)(x+1)" },
+        { "tipe": "paragraph", "text": "Jadi, faktor lengkapnya $(x-1)(x+1)(x-3)$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
