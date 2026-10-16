@@ -1,0 +1,206 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-02",
+  "nama": "Bank Soal Mudah - Paket 2",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Matriks & determinan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 \\\\ 2 & 3 \\end{pmatrix}$. Hasil $A + B$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 3 \\\\ 3 & 7 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 3 \\\\ 3 & 6 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 3 \\\\ 3 & 1 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 2 & 0 \\\\ 2 & 12 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 3 \\\\ 3 & 5 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "A + B = \\begin{pmatrix} 2+1 & 3+0 \\\\ 1+2 & 4+3 \\end{pmatrix} = \\begin{pmatrix} 3 & 3 \\\\ 3 & 7 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\begin{pmatrix} 3 & 3 \\\\ 3 & 7 \\end{pmatrix}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Determinan dari matriks $A = \\begin{pmatrix} 3 & 2 \\\\ 4 & 5 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$23$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = ad - bc = (3)(5) - (2)(4) = 15 - 8 = 7" },
+        { "tipe": "paragraph", "text": "Jadi, determinannya adalah 7." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$. Hasil $2A$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 2 & 2 \\\\ 3 & 8 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 2 & 4 \\\\ 6 & 4 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 2 & 4 \\\\ 3 & 8 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "2A = \\begin{pmatrix} 2(1) & 2(2) \\\\ 2(3) & 2(4) \\end{pmatrix} = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Transpose dari matriks $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 4 & 5 & 6 \\\\ 1 & 2 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 2 & 1 \\\\ 6 & 5 & 4 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 6 & 5 & 4 \\\\ 3 & 2 & 1 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Transpose = tukar baris jadi kolom, kolom jadi baris." },
+        { "tipe": "formula_block", "latex": "A^T = \\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, transposenya $A^T = \\begin{pmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{pmatrix}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$, maka $\\det(A)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$11$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = (2)(3) - (1)(5) = 6 - 5 = 1" },
+        { "tipe": "paragraph", "text": "Jadi, determinannya adalah 1." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} -3 & 1 \\\\ 5 & -2 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 1 \\\\ 5 & 2 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 2 & -1 \\\\ -5 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & -1 \\\\ 5 & -2 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\det(A) = 1$ (dari soal sebelumnya)." },
+        { "tipe": "formula_block", "latex": "A^{-1} = \\dfrac{1}{1}\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, inversnya adalah $\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil kali matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 2 & 0 \\\\ 1 & 3 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 4 & 6 \\\\ 10 & 11 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 4 & 6 \\\\ 10 & 13 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 4 & 8 \\\\ 10 & 12 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 6 \\\\ 10 & 12 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "A \\cdot B = \\begin{pmatrix} 1(2)+2(1) & 1(0)+2(3) \\\\ 3(2)+4(1) & 3(0)+4(3) \\end{pmatrix} = \\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\begin{pmatrix} 4 & 6 \\\\ 10 & 12 \\end{pmatrix}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Determinan dari matriks $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi kofaktor baris pertama:" },
+        { "tipe": "formula_block", "latex": "\\det = 1(1 \\cdot 0 - 4 \\cdot 6) - 2(0 \\cdot 0 - 4 \\cdot 5) + 3(0 \\cdot 6 - 1 \\cdot 5)" },
+        { "tipe": "formula_block", "latex": "= 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1" },
+        { "tipe": "paragraph", "text": "Jadi, determinannya adalah 1." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$, maka $\\det(A) - \\det(B)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-4$"}],
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = 1(4) - 2(3) = -2, \\quad \\det(B) = 2(3) - 1(4) = 2" },
+        { "tipe": "formula_block", "latex": "\\det(A) - \\det(B) = -2 - 2 = -4" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-4$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $A - B$ dengan $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & -1 \\\\ 1 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & -1 \\\\ -1 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & 1 \\\\ 1 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & 3 \\\\ 5 & 5 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} -1 & -1 \\\\ -1 & -3 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "A - B = \\begin{pmatrix} 2-1 & 1-2 \\\\ 3-2 & 4-1 \\end{pmatrix} = \\begin{pmatrix} 1 & -1 \\\\ 1 & 3 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya $\\begin{pmatrix} 1 & -1 \\\\ 1 & 3 \\end{pmatrix}$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
