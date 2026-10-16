@@ -1,0 +1,211 @@
+{
+  "id": "bs-k12-turunan-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Campuran aplikasi turunan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung kurva $y = x^2 + 4x + 1$ di titik $(-1, -2)$ memotong sumbu-$y$ di titik ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, -2)$"}],
+        [{"tipe":"paragraph","text":"$(0, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 1)$"}],
+        [{"tipe":"paragraph","text":"$(0, 2)$"}],
+        [{"tipe":"paragraph","text":"$(0, 4)$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 2x + 4 \\Rightarrow m = y'(-1) = -2 + 4 = 2" },
+        { "tipe": "formula_block", "latex": "y - (-2) = 2(x + 1) \\Rightarrow y = 2x" },
+        { "tipe": "paragraph", "text": "Garis $y = 2x$ memotong sumbu-$y$ di titik $(0, 0)$." },
+        { "tipe": "paragraph", "text": "Jadi, titik potongnya adalah $(0, 0)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = x^2 - 4x + 3$ di titik $(1, 0)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = -2x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = 2x - 2$"}],
+        [{"tipe":"paragraph","text":"$y = -2x - 2$"}],
+        [{"tipe":"paragraph","text":"$y = 2x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = -x + 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 2x - 4 \\Rightarrow m = y'(1) = -2" },
+        { "tipe": "formula_block", "latex": "y - 0 = -2(x - 1) \\Rightarrow y = -2x + 2" },
+        { "tipe": "paragraph", "text": "Jadi, persamaannya adalah $y = -2x + 2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum fungsi $f(x) = x^3 - 3x + 1$ pada interval $[-2, 2]$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$-3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 3 = 3(x-1)(x+1) = 0 \\Rightarrow x = \\pm 1" },
+        { "tipe": "formula_block", "latex": "f(-2) = -8 + 6 + 1 = -1" },
+        { "tipe": "formula_block", "latex": "f(-1) = -1 + 3 + 1 = 3" },
+        { "tipe": "formula_block", "latex": "f(1) = 1 - 3 + 1 = -1" },
+        { "tipe": "formula_block", "latex": "f(2) = 8 - 6 + 1 = 3" },
+        { "tipe": "paragraph", "text": "Nilai maksimum = 3 (di $x = -1$ dan $x = 2$)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Gradien garis singgung kurva $y = \\ln x$ di titik dengan absis $x = e$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{e}$"}],
+        [{"tipe":"paragraph","text":"$e$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\ln e$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = \\dfrac{1}{x} \\Rightarrow y'(e) = \\dfrac{1}{e}" },
+        { "tipe": "paragraph", "text": "Jadi, gradiennya adalah $\\dfrac{1}{e}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan kedua dari $f(x) = e^{2x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4e^{2x}$"}],
+        [{"tipe":"paragraph","text":"$2e^{2x}$"}],
+        [{"tipe":"paragraph","text":"$e^{2x}$"}],
+        [{"tipe":"paragraph","text":"$4e^{4x}$"}],
+        [{"tipe":"paragraph","text":"$2e^{4x}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 2e^{2x} \\Rightarrow f''(x) = 4e^{2x}" },
+        { "tipe": "paragraph", "text": "Jadi, $f''(x) = 4e^{2x}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik belok (inflection) dari $f(x) = x^3 - 3x^2 + 2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(1, 0)$"}],
+        [{"tipe":"paragraph","text":"$(0, 2)$"}],
+        [{"tipe":"paragraph","text":"$(2, -2)$"}],
+        [{"tipe":"paragraph","text":"$(3, 2)$"}],
+        [{"tipe":"paragraph","text":"$(1, -1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 6x, \\quad f''(x) = 6x - 6 = 0 \\Rightarrow x = 1" },
+        { "tipe": "formula_block", "latex": "f(1) = 1 - 3 + 2 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, titik beloknya $(1, 0)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kecepatan sebuah benda dinyatakan oleh $v(t) = 3t^2 - 12t + 9$ m/s. Percepatan benda saat $t = 2$ s adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$ m/s$^2$"}],
+        [{"tipe":"paragraph","text":"$3$ m/s$^2$"}],
+        [{"tipe":"paragraph","text":"$6$ m/s$^2$"}],
+        [{"tipe":"paragraph","text":"$12$ m/s$^2$"}],
+        [{"tipe":"paragraph","text":"$24$ m/s$^2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "a(t) = v'(t) = 6t - 12 \\Rightarrow a(2) = 12 - 12 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, percepatannya 0 m/s²." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = e^{x}\\cos x$ di $x = 0$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$e$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = e^x \\cos x + e^x(-\\sin x) = e^x(\\cos x - \\sin x)" },
+        { "tipe": "formula_block", "latex": "f'(0) = 1 \\cdot (1 - 0) = 1" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(0) = 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kurva $y = x^3 - 3x$ memiliki titik stasioner di ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x = -1$ dan $x = 1$"}],
+        [{"tipe":"paragraph","text":"$x = 0$ dan $x = 1$"}],
+        [{"tipe":"paragraph","text":"$x = -1$ dan $x = 0$"}],
+        [{"tipe":"paragraph","text":"$x = 1$ dan $x = 3$"}],
+        [{"tipe":"paragraph","text":"$x = -3$ dan $x = 3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 3x^2 - 3 = 0 \\Rightarrow x^2 = 1 \\Rightarrow x = \\pm 1" },
+        { "tipe": "paragraph", "text": "Jadi, titik stasionernya di $x = -1$ dan $x = 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan implisit dari $x^2 + y^2 = 4$ di titik $(1, \\sqrt{3})$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{\\sqrt{3}}{3}$"}],
+        [{"tipe":"paragraph","text":"$-\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sqrt{3}}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$-1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "2x + 2y\\dfrac{dy}{dx} = 0 \\Rightarrow \\dfrac{dy}{dx} = -\\dfrac{x}{y}" },
+        { "tipe": "formula_block", "latex": "\\dfrac{dy}{dx}\\bigg|_{(1, \\sqrt{3})} = -\\dfrac{1}{\\sqrt{3}} = -\\dfrac{\\sqrt{3}}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, $\\dfrac{dy}{dx} = -\\dfrac{\\sqrt{3}}{3}$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
