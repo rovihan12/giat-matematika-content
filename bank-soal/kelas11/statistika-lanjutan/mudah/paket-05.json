@@ -39,7 +39,8 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Urutkan: 3, 5, 6, 7, 8, 9, 11. Median = data ke-4 = 7." }
+        { "tipe": "paragraph", "text": "Urutkan dulu: 3, 5, 6, 7, 8, 9, 11. Banyak data = 7 (ganjil)." },
+        { "tipe": "paragraph", "text": "Median = data ke-4 = 7." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,7 +58,8 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Frekuensi: 2→1, 4→2, 6→3, 8→2, 10→1. Modus = 6." }
+        { "tipe": "paragraph", "text": "Frekuensi: 2 muncul 1×, 4 muncul 2×, 6 muncul 3×, 8 muncul 2×, 10 muncul 1×." },
+        { "tipe": "paragraph", "text": "Nilai yang paling sering muncul adalah 6. Jadi, modus = 6." }
       ],
       "tingkat": "MUDAH"
     },
@@ -75,7 +77,8 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bawah = 3, 6, 9, 12. Q₁ = (6 + 9) / 2 = 7,5." }
+        { "tipe": "paragraph", "text": "Banyak data = 8 (genap). Bagi menjadi dua bagian: bawah = 3, 6, 9, 12 dan atas = 15, 18, 21, 24." },
+        { "tipe": "paragraph", "text": "Q₁ = median bagian bawah = (6 + 9) / 2 = 7,5." }
       ],
       "tingkat": "MUDAH"
     },
@@ -93,7 +96,8 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Atas = 15, 18, 21, 24. Q₃ = (18 + 21) / 2 = 19,5." }
+        { "tipe": "paragraph", "text": "Bagian atas = 15, 18, 21, 24." },
+        { "tipe": "paragraph", "text": "Q₃ = median bagian atas = (18 + 21) / 2 = 19,5." }
       ],
       "tingkat": "MUDAH"
     },
@@ -111,46 +115,50 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata = 10. Simpangan: 6, 2, 2, 6 → jumlah = 16." },
-        { "tipe": "formula_block", "latex": "SR = \\dfrac{16}{4} = 4" }
+        { "tipe": "paragraph", "text": "Rata-rata = (4 + 8 + 12 + 16) / 4 = 10." },
+        { "tipe": "paragraph", "text": "Simpangan tiap data: |4−10|=6, |8−10|=2, |12−10|=2, |16−10|=6." },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{6+2+2+6}{4} = \\dfrac{16}{4} = 4" }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k11-stat-lanjut-mudah-05-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Varians dari data: 2, 4, 6, 8, 10, 12 adalah ..." }
+        { "tipe": "paragraph", "text": "Varians dari data: 4, 6, 8, 10, 12 adalah ..." }
       ],
       "pilihan": [
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
         [{"tipe":"paragraph","text":"8"}],
-        [{"tipe":"paragraph","text":"10"}],
-        [{"tipe":"paragraph","text":"11,67"}],
-        [{"tipe":"paragraph","text":"12"}],
-        [{"tipe":"paragraph","text":"14"}]
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata = 7. Kuadrat simpangan: 25, 9, 1, 1, 9, 25 = 70." },
-        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{70}{6} = 11{,}67" }
+        { "tipe": "paragraph", "text": "Rata-rata = (4 + 6 + 8 + 10 + 12) / 5 = 8." },
+        { "tipe": "paragraph", "text": "Kuadrat simpangan tiap data: (−4)²=16, (−2)²=4, 0²=0, 2²=4, 4²=16." },
+        { "tipe": "paragraph", "text": "Jumlah kuadrat simpangan = 16 + 4 + 0 + 4 + 16 = 40." },
+        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{40}{5} = 8" }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k11-stat-lanjut-mudah-05-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Simpangan baku dari data: 6, 8, 10, 12, 14 adalah ..." }
+        { "tipe": "paragraph", "text": "Simpangan baku dari data: 4, 6, 8, 10, 12 adalah ..." }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"√2"}],
         [{"tipe":"paragraph","text":"2"}],
         [{"tipe":"paragraph","text":"2√2"}],
         [{"tipe":"paragraph","text":"4"}],
-        [{"tipe":"paragraph","text":"2√3"}]
+        [{"tipe":"paragraph","text":"4√2"}]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata = 10. Kuadrat simpangan: 16, 4, 0, 4, 16 = 40." },
-        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{40}{5} = 8 \\Rightarrow S = 2\\sqrt{2}" }
+        { "tipe": "paragraph", "text": "Dari soal sebelumnya, varians S² = 8." },
+        { "tipe": "formula_block", "latex": "S = \\sqrt{8} = 2\\sqrt{2}" },
+        { "tipe": "paragraph", "text": "Jadi, simpangan bakunya adalah 2√2." }
       ],
       "tingkat": "MUDAH"
     },
@@ -168,7 +176,9 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "H = Q_3 - Q_1 = 19{,}5 - 7{,}5 = 12" }
+        { "tipe": "paragraph", "text": "Dari Q₁ = 7,5 dan Q₃ = 19,5." },
+        { "tipe": "formula_block", "latex": "H = Q_3 - Q_1 = 19{,}5 - 7{,}5 = 12" },
+        { "tipe": "paragraph", "text": "Jadi, jangkauan antarkuartilnya adalah 12." }
       ],
       "tingkat": "MUDAH"
     },
