@@ -1,0 +1,201 @@
+{
+  "id": "bs-k11-mat-lanjut-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal campuran tingkat lanjut",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1, x_2, x_3$ akar-akar $x^3 - 6x^2 + 11x - 6 = 0$, maka nilai $x_1 x_2 x_3$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-6"}],
+        [{"tipe":"paragraph","text":"-1"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"11"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Teorema Vieta: $x_1 x_2 x_3 = -\\dfrac{d}{a} = -\\dfrac{-6}{1} = 6$." },
+        { "tipe": "paragraph", "text": "Verifikasi: akar-akarnya 1, 2, 3 → hasil kali = 6. ✅" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari matriks $A = \\begin{pmatrix} 3 & 1 \\\\ 2 & 1 \\end{pmatrix}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & -1 \\\\ -2 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} -1 & 1 \\\\ 2 & -3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & -1 \\\\ 2 & -3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & 1 \\\\ -2 & 3 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 3 & -1 \\\\ -2 & 1 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = 3 \\cdot 1 - 1 \\cdot 2 = 1" },
+        { "tipe": "formula_block", "latex": "A^{-1} = \\dfrac{1}{1} \\begin{pmatrix} 1 & -1 \\\\ -2 & 3 \\end{pmatrix} = \\begin{pmatrix} 1 & -1 \\\\ -2 & 3 \\end{pmatrix}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Vektor $\\vec{a} = (2, 3, 6)$. Panjangnya adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $P(x) = x^4 - 5x^3 + 5x^2 + 5x - 6$ memiliki akar $x = 1$ dan $x = -1$, maka $P(x)$ habis dibagi oleh ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(x^2 - 1)$"}],
+        [{"tipe":"paragraph","text":"$(x^2 + 1)$"}],
+        [{"tipe":"paragraph","text":"$(x - 1)^2$"}],
+        [{"tipe":"paragraph","text":"$(x + 1)^2$"}],
+        [{"tipe":"paragraph","text":"$(x - 2)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(1) = 0$ → $(x-1)$ faktor." },
+        { "tipe": "paragraph", "text": "$P(-1) = 0$ → $(x+1)$ faktor." },
+        { "tipe": "formula_block", "latex": "\\Rightarrow (x-1)(x+1) = x^2 - 1 \\text{ faktor}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (1, 2, 2)$ dan $\\vec{b} = (2, 1, -2)$, maka $\\vec{a} \\cdot \\vec{b}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-2"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1 \\cdot 2 + 2 \\cdot 1 + 2 \\cdot (-2) = 2 + 2 - 4 = 0" },
+        { "tipe": "paragraph", "text": "Kedua vektor tegak lurus." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $A = \\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}$, maka $\\det(A^2)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"16"}],
+        [{"tipe":"paragraph","text":"-4"}],
+        [{"tipe":"paragraph","text":"-16"}],
+        [{"tipe":"paragraph","text":"0"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = 1 \\cdot 4 - 3 \\cdot 2 = -2" },
+        { "tipe": "formula_block", "latex": "\\det(A^2) = (\\det A)^2 = (-2)^2 = 4" },
+        { "tipe": "paragraph", "text": "Jadi, $\\det(A^2) = 4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1, x_2$ akar-akar $x^2 - 5x + 6 = 0$, maka $\\dfrac{1}{x_1} + \\dfrac{1}{x_2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{5}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{6}{5}$"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{x_1} + \\dfrac{1}{x_2} = \\dfrac{x_1 + x_2}{x_1 x_2} = \\dfrac{5}{6}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (4, 3)$, maka vektor satuan dari $\\vec{a}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\left(\\dfrac{4}{5}, \\dfrac{3}{5}\\right)$"}],
+        [{"tipe":"paragraph","text":"$\\left(\\dfrac{3}{5}, \\dfrac{4}{5}\\right)$"}],
+        [{"tipe":"paragraph","text":"$(4, 3)$"}],
+        [{"tipe":"paragraph","text":"$(5, 5)$"}],
+        [{"tipe":"paragraph","text":"$\\left(\\dfrac{4}{7}, \\dfrac{3}{7}\\right)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$|\\vec{a}| = \\sqrt{16 + 9} = 5$." },
+        { "tipe": "formula_block", "latex": "\\hat{a} = \\dfrac{\\vec{a}}{|\\vec{a}|} = \\left(\\dfrac{4}{5}, \\dfrac{3}{5}\\right)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $P(x) = 2x^4 - 3x^3 + 5x^2 - x + 7$ dibagi $(x - 1)$, sisanya adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"14"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "P(1) = 2 - 3 + 5 - 1 + 7 = 10" },
+        { "tipe": "paragraph", "text": "Jadi, sisanya 10." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka $\\det(A^{-1})$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-2"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\det(A) = 1 \\cdot 4 - 2 \\cdot 3 = -2" },
+        { "tipe": "formula_block", "latex": "\\det(A^{-1}) = \\dfrac{1}{\\det(A)} = -\\dfrac{1}{2}" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
