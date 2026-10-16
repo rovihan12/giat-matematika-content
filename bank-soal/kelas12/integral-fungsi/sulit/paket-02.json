@@ -1,0 +1,209 @@
+{
+  "id": "bs-k12-integral-sulit-02",
+  "nama": "Bank Soal Sulit - Paket 2",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Volume benda putar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sulit-02-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar yang terjadi jika daerah yang dibatasi $y = x^2$, sumbu-$x$, dan $x = 2$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{32\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{16\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{64\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$8\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Metode cakram: $V = \\pi \\int_{a}^{b} [f(x)]^2 \\, dx$." },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{2} (x^2)^2 \\, dx = \\pi \\int_{0}^{2} x^4 \\, dx = \\pi \\left[ \\dfrac{x^5}{5} \\right]_{0}^{2} = \\dfrac{32\\pi}{5}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{32\\pi}{5}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = x$, sumbu-$x$, dan $x = 3$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$9\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{9\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$3\\pi$"}],
+        [{"tipe":"paragraph","text":"$6\\pi$"}],
+        [{"tipe":"paragraph","text":"$27\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{3} x^2 \\, dx = \\pi \\left[ \\dfrac{x^3}{3} \\right]_{0}^{3} = \\pi \\cdot 9 = 9\\pi" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $9\\pi$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = \\sqrt{x}$, sumbu-$x$, dan $x = 4$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4\\pi$"}],
+        [{"tipe":"paragraph","text":"$8\\pi$"}],
+        [{"tipe":"paragraph","text":"$16\\pi$"}],
+        [{"tipe":"paragraph","text":"$2\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{4} (\\sqrt{x})^2 \\, dx = \\pi \\int_{0}^{4} x \\, dx = \\pi \\left[ \\dfrac{x^2}{2} \\right]_{0}^{4} = \\pi \\cdot 8 = 8\\pi" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $8\\pi$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = 4 - x^2$ dan sumbu-$x$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{256\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{512\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{128\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{64\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{32\\pi}{15}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong: $4 - x^2 = 0 \\Rightarrow x = \\pm 2$." },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{-2}^{2} (4 - x^2)^2 \\, dx = \\pi \\int_{-2}^{2} (16 - 8x^2 + x^4) \\, dx" },
+        { "tipe": "formula_block", "latex": "= \\pi \\left[ 16x - \\dfrac{8x^3}{3} + \\dfrac{x^5}{5} \\right]_{-2}^{2}" },
+        { "tipe": "formula_block", "latex": "= 2\\pi \\left( 32 - \\dfrac{64}{3} + \\dfrac{32}{5} \\right) = 2\\pi \\cdot \\dfrac{256}{15} = \\dfrac{512\\pi}{15}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{512\\pi}{15}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah antara $y = x^2$ dan $y = 4$ diputar terhadap sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{128\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{256\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{64\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{32\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{512\\pi}{5}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Metode cincin: $V = \\pi \\int_{-2}^{2} [4^2 - (x^2)^2] \\, dx$." },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{-2}^{2} (16 - x^4) \\, dx = \\pi \\left[ 16x - \\dfrac{x^5}{5} \\right]_{-2}^{2}" },
+        { "tipe": "formula_block", "latex": "= 2\\pi \\left( 32 - \\dfrac{32}{5} \\right) = 2\\pi \\cdot \\dfrac{128}{5} = \\dfrac{256\\pi}{5}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{256\\pi}{5}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = x^3$, sumbu-$x$, dan $x = 1$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{7}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{1} (x^3)^2 \\, dx = \\pi \\int_{0}^{1} x^6 \\, dx = \\pi \\left[ \\dfrac{x^7}{7} \\right]_{0}^{1} = \\dfrac{\\pi}{7}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{\\pi}{7}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = \\dfrac{1}{x}$, sumbu-$x$, $x = 1$, dan $x = 3$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2\\pi}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4\\pi}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8\\pi}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{1}^{3} \\dfrac{1}{x^2} \\, dx = \\pi \\left[ -\\dfrac{1}{x} \\right]_{1}^{3} = \\pi \\left( -\\dfrac{1}{3} + 1 \\right) = \\dfrac{2\\pi}{3}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{2\\pi}{3}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar daerah antara $y = x$ dan $y = x^2$ diputar terhadap sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8\\pi}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2\\pi}{5}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong: $x = x^2 \\Rightarrow x = 0, 1$." },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{1} (x^2 - x^4) \\, dx = \\pi \\left[ \\dfrac{x^3}{3} - \\dfrac{x^5}{5} \\right]_{0}^{1}" },
+        { "tipe": "formula_block", "latex": "= \\pi \\left( \\dfrac{1}{3} - \\dfrac{1}{5} \\right) = \\pi \\cdot \\dfrac{2}{15} = \\dfrac{2\\pi}{15}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{2\\pi}{15}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = 2x$, sumbu-$x$, dan $x = 3$ diputar mengelilingi sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$36\\pi$"}],
+        [{"tipe":"paragraph","text":"$18\\pi$"}],
+        [{"tipe":"paragraph","text":"$72\\pi$"}],
+        [{"tipe":"paragraph","text":"$9\\pi$"}],
+        [{"tipe":"paragraph","text":"$6\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{3} (2x)^2 \\, dx = \\pi \\int_{0}^{3} 4x^2 \\, dx = 4\\pi \\left[ \\dfrac{x^3}{3} \\right]_{0}^{3} = 4\\pi \\cdot 9 = 36\\pi" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $36\\pi$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-02-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar jika daerah yang dibatasi $y = \\sqrt{x}$, garis $x = 1$, dan $x = 4$ diputar terhadap sumbu-$x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{15\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{7\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{1}^{4} x \\, dx = \\pi \\left[ \\dfrac{x^2}{2} \\right]_{1}^{4} = \\pi \\left( 8 - \\dfrac{1}{2} \\right) = \\dfrac{15\\pi}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, volumenya adalah $\\dfrac{15\\pi}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
