@@ -1,0 +1,213 @@
+{
+  "id": "bs-k12-limit-sulit-05",
+  "nama": "Bank Soal Sulit - Paket 5",
+  "kelas": 12,
+  "kategori": "Limit Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Teorema apit & limit lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-limit-sulit-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{\\sin x}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"Tidak ada"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $-1 \\leq \\sin x \\leq 1$, maka $-\\dfrac{1}{x} \\leq \\dfrac{\\sin x}{x} \\leq \\dfrac{1}{x}$." },
+        { "tipe": "paragraph", "text": "Karena $\\lim\\limits_{x \\to \\infty} \\pm \\dfrac{1}{x} = 0$, dengan teorema apit:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{\\sin x}{x} = 0" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 0." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{\\cos x}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"Tidak ada"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dengan teorema apit karena $-1 \\leq \\cos x \\leq 1$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{\\cos x}{x} = 0" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 0." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} x \\cdot \\sin \\dfrac{1}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"Tidak ada"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $-1 \\leq \\sin \\frac{1}{x} \\leq 1$, maka $-|x| \\leq x \\sin \\frac{1}{x} \\leq |x|$." },
+        { "tipe": "paragraph", "text": "Karena $\\lim\\limits_{x \\to 0} |x| = 0$, dengan teorema apit:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} x \\cdot \\sin \\dfrac{1}{x} = 0" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 0." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} x^2 \\cdot \\cos \\dfrac{1}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"Tidak ada"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "0 \\leq \\left|x^2 \\cos \\dfrac{1}{x}\\right| \\leq x^2 \\to 0" },
+        { "tipe": "paragraph", "text": "Maka $\\lim\\limits_{x \\to 0} x^2 \\cos \\dfrac{1}{x} = 0$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin x}{x + x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{\\sin x}{x + x^2} = \\dfrac{\\sin x}{x(1+x)} = \\dfrac{\\sin x}{x} \\cdot \\dfrac{1}{1+x}" },
+        { "tipe": "formula_block", "latex": "\\to 1 \\cdot 1 = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 1." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{1 - \\cos x}{x \\sin x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{1-\\cos x}{x \\sin x} = \\dfrac{2\\sin^2 \\frac{x}{2}}{x \\cdot 2\\sin \\frac{x}{2} \\cos \\frac{x}{2}} = \\dfrac{\\sin \\frac{x}{2}}{x \\cos \\frac{x}{2}}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2} \\cdot \\dfrac{\\sin \\frac{x}{2}}{\\frac{x}{2}} \\cdot \\dfrac{1}{\\cos \\frac{x}{2}} \\to \\dfrac{1}{2} \\cdot 1 \\cdot 1 = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\tan x - \\sin x}{x^3}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\tan x - \\sin x = \\sin x \\left(\\dfrac{1}{\\cos x} - 1\\right) = \\sin x \\cdot \\dfrac{1 - \\cos x}{\\cos x} = \\tan x \\cdot (1 - \\cos x)" },
+        { "tipe": "formula_block", "latex": "\\dfrac{\\tan x (1 - \\cos x)}{x^3} = \\dfrac{\\tan x}{x} \\cdot \\dfrac{1-\\cos x}{x^2} \\to 1 \\cdot \\dfrac{1}{2} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sqrt{1 + \\tan x} - \\sqrt{1 - \\tan x}}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{(1+\\tan x)-(1-\\tan x)}{x(\\sqrt{1+\\tan x}+\\sqrt{1-\\tan x})} = \\dfrac{2\\tan x}{x(\\sqrt{1+\\tan x}+\\sqrt{1-\\tan x})}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{\\tan x}{x} \\cdot \\dfrac{2}{\\sqrt{1+\\tan x}+\\sqrt{1-\\tan x}} \\to 1 \\cdot \\dfrac{2}{2} = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 1." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin(\\sin x)}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{\\sin(\\sin x)}{x} = \\dfrac{\\sin(\\sin x)}{\\sin x} \\cdot \\dfrac{\\sin x}{x}" },
+        { "tipe": "paragraph", "text": "Karena $\\sin x \\to 0$ saat $x \\to 0$:" },
+        { "tipe": "formula_block", "latex": "\\to 1 \\cdot 1 = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 1." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-limit-sulit-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{\\sin(1/x)}{1/x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = 1/x$. Saat $x \\to \\infty$, maka $u \\to 0$." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{\\sin(1/x)}{1/x} = \\lim\\limits_{u \\to 0} \\dfrac{\\sin u}{u} = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 1." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
