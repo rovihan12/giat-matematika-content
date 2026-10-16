@@ -1,0 +1,206 @@
+{
+  "id": "bs-k12-turunan-sedang-05",
+  "nama": "Bank Soal Sedang - Paket 5",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Kombinasi aturan turunan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sedang-05-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = x^2 \\sin x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x\\sin x + x^2\\cos x$"}],
+        [{"tipe":"paragraph","text":"$2x\\cos x + x^2\\sin x$"}],
+        [{"tipe":"paragraph","text":"$2x\\sin x - x^2\\cos x$"}],
+        [{"tipe":"paragraph","text":"$x^2\\cos x$"}],
+        [{"tipe":"paragraph","text":"$2x\\sin x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 2x\\sin x + x^2\\cos x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 2x\\sin x + x^2\\cos x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{\\sin x}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{x\\cos x - \\sin x}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x\\sin x - \\cos x}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\cos x - x\\sin x}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{x\\cos x + \\sin x}{x^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\cos x}{x^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{(\\cos x)(x) - (\\sin x)(1)}{x^2} = \\dfrac{x\\cos x - \\sin x}{x^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{x\\cos x - \\sin x}{x^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = (x+1)^2(x-1)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3x^2 + 2x - 1$"}],
+        [{"tipe":"paragraph","text":"$3x^2 - 2x - 1$"}],
+        [{"tipe":"paragraph","text":"$3x^2 + 2x + 1$"}],
+        [{"tipe":"paragraph","text":"$2x^2 + 2x - 1$"}],
+        [{"tipe":"paragraph","text":"$3x^2 + 2x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi: $f(x) = (x^2+2x+1)(x-1) = x^3 + x^2 - x - 1$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 + 2x - 1" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 3x^2 + 2x - 1$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\sqrt{x}\\sin x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sin x}{2\\sqrt{x}} + \\sqrt{x}\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\cos x}{2\\sqrt{x}} + \\sqrt{x}\\sin x$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sin x}{2\\sqrt{x}} - \\sqrt{x}\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{x}\\cos x$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\sin x}{\\sqrt{x}}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{1}{2\\sqrt{x}}\\sin x + \\sqrt{x}\\cos x = \\dfrac{\\sin x}{2\\sqrt{x}} + \\sqrt{x}\\cos x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = \\dfrac{\\sin x}{2\\sqrt{x}} + \\sqrt{x}\\cos x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{1}{(x+1)^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{(x+1)^3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{(x+1)^3}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{(x+1)^3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{(x+1)^3}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{(x+1)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tulis $f(x) = (x+1)^{-2}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = -2(x+1)^{-3} \\cdot 1 = -\\dfrac{2}{(x+1)^3}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -\\dfrac{2}{(x+1)^3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\cos^3 x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-3\\cos^2 x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$3\\cos^2 x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-3\\cos^2 x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos^2 x\\sin x$"}],
+        [{"tipe":"paragraph","text":"$3\\cos x\\sin x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3\\cos^2 x \\cdot (-\\sin x) = -3\\cos^2 x\\sin x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = -3\\cos^2 x\\sin x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{x^2}{x-1}$ di $x = 2$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$8$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{2x(x-1) - x^2}{(x-1)^2} = \\dfrac{2x^2 - 2x - x^2}{(x-1)^2} = \\dfrac{x^2 - 2x}{(x-1)^2}" },
+        { "tipe": "formula_block", "latex": "f'(2) = \\dfrac{4 - 4}{1} = 0" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(2) = 0$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = (x^2+1)\\cos x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x\\cos x - (x^2+1)\\sin x$"}],
+        [{"tipe":"paragraph","text":"$2x\\sin x - (x^2+1)\\cos x$"}],
+        [{"tipe":"paragraph","text":"$2x\\cos x + (x^2+1)\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-2x\\cos x - (x^2+1)\\sin x$"}],
+        [{"tipe":"paragraph","text":"$2x\\sin x + (x^2+1)\\cos x$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 2x\\cos x + (x^2+1)(-\\sin x) = 2x\\cos x - (x^2+1)\\sin x" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 2x\\cos x - (x^2+1)\\sin x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\sin^2 x + \\cos^2 x$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2\\sin x\\cos x$"}],
+        [{"tipe":"paragraph","text":"$-2\\sin x\\cos x$"}],
+        [{"tipe":"paragraph","text":"$2(\\sin x - \\cos x)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $\\sin^2 x + \\cos^2 x = 1$ (konstanta), maka turunannya $= 0$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 0" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(x) = 0$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-turunan-sedang-05-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\dfrac{\\cos x}{x}$ di $x = \\pi$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{\\pi}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{\\pi^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{\\pi^2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{\\pi}$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\dfrac{(-\\sin x)(x) - \\cos x(1)}{x^2} = \\dfrac{-x\\sin x - \\cos x}{x^2}" },
+        { "tipe": "formula_block", "latex": "f'(\\pi) = \\dfrac{-\\pi \\cdot 0 - (-1)}{\\pi^2} = \\dfrac{1}{\\pi^2}" },
+        { "tipe": "paragraph", "text": "Jadi, $f'(\\pi) = \\dfrac{1}{\\pi^2}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
