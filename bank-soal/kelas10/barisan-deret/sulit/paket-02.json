@@ -61,7 +61,7 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pola: $U_n = n^2 + 2n$ (cek: $1+2=3$, $4+4=8$, $9+6=15$ ✓)." },
+        { "tipe": "paragraph", "text": "Pola: $U_n = n^2 + 2n$ (cek: $1+2=3$, $4+4=8$, $9+6=15$)." },
         { "tipe": "paragraph", "text": "$U_{15} = 225 + 30 = 255$" }
       ],
       "tingkat": "SULIT"
@@ -102,14 +102,14 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "$S_n = \\dfrac{n}{2}(2 + 3(n-1)) = \\dfrac{n(3n - 1)}{2} = 145$" },
         { "tipe": "paragraph", "text": "$3n^2 - n = 290 \\Rightarrow 3n^2 - n - 290 = 0$" },
-        { "tipe": "paragraph", "text": "Coba $n = 10$: $300 - 10 = 290$ ✓" }
+        { "tipe": "paragraph", "text": "Coba $n = 10$: $300 - 10 = 290$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-bd-sulit-02-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pada barisan geometri, $U_2 \\cdot U_4 = 64$ dan $U_3 = 8$. Suku pertama barisan adalah..." }
+        { "tipe": "paragraph", "text": "Pada barisan geometri, $U_2 \\cdot U_4 = 64$ dan $U_3 = 8$. Jika rasio barisan tersebut adalah $r = 2$, maka suku pertama barisan adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$2$" } ],
@@ -120,10 +120,8 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_2 \\cdot U_4 = (ar)(ar^3) = a^2 r^4 = (ar^2)^2 = U_3^2 = 64$ ✓ (konsisten)." },
-        { "tipe": "paragraph", "text": "$U_3 = ar^2 = 8 \\Rightarrow a^2 r^4 = 64$ ✓" },
-        { "tipe": "paragraph", "text": "Kurang info. Namun jika $r = 2$: $a \\cdot 4 = 8 \\Rightarrow a = 2$." },
-        { "tipe": "paragraph", "text": "Jika $r = 4$: $a \\cdot 16 = 8 \\Rightarrow a = \\dfrac{1}{2}$. Kunci opsi terdekat: A ($a = 2$)." }
+        { "tipe": "paragraph", "text": "Diketahui $U_3 = a \\cdot r^2 = 8$." },
+        { "tipe": "paragraph", "text": "Untuk $r = 2$, diperoleh $a \\cdot 2^2 = 8 \\Rightarrow 4a = 8 \\Rightarrow a = 2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -162,14 +160,14 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Selisih: $6, 8, 10, 12, \\ldots$ (aritmatika beda 2)." },
         { "tipe": "paragraph", "text": "Rumus: $U_n = n^2 + 3n + 1$." },
-        { "tipe": "paragraph", "text": "Cek: $n=1 → 5$, $n=2 → 11$, $n=3 → 19$ ✓" }
+        { "tipe": "paragraph", "text": "Cek: $n=1 \\rightarrow 5$, $n=2 \\rightarrow 11$, $n=3 \\rightarrow 19$" }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-bd-sulit-02-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $\\log 2, \\log(x+1), \\log(x+3)$ membentuk barisan aritmatika, maka $x$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $\\log 2, \\log(x+1), \\log(x+5)$ membentuk barisan aritmatika, maka $x$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$1$" } ],
@@ -178,13 +176,12 @@
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Sifat aritmatika: $2 \\log(x+1) = \\log 2 + \\log(x+3)$" },
-        { "tipe": "paragraph", "text": "$(x+1)^2 = 2(x+3)$" },
-        { "tipe": "paragraph", "text": "$x^2 + 2x + 1 = 2x + 6$" },
-        { "tipe": "paragraph", "text": "$x^2 = 5 \\Rightarrow x = \\sqrt{5}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $x = \\sqrt{5} \\approx 2{,}24$. Kunci opsi terdekat: B ($x = 2$)." }
+        { "tipe": "paragraph", "text": "Sifat aritmatika: $2 \\log(x+1) = \\log 2 + \\log(x+5)$" },
+        { "tipe": "paragraph", "text": "$(x+1)^2 = 2(x+5)$" },
+        { "tipe": "paragraph", "text": "$x^2 + 2x + 1 = 2x + 10$" },
+        { "tipe": "paragraph", "text": "$x^2 = 9 \\Rightarrow x = 3$ (karena $x > -1$ agar numerus positif)" }
       ],
       "tingkat": "SULIT"
     },
