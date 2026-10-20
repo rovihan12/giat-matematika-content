@@ -31,17 +31,16 @@
         { "tipe": "paragraph", "text": "Sebuah dadu dilempar 5 kali. Peluang muncul mata ganjil tepat 3 kali adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{40}{243}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{16}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{80}{243}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{100}{243}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{120}{243}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{160}{243}$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$P(\\text{ganjil}) = \\dfrac{1}{2}$, $P(\\text{genap}) = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "$P = C(5,3) \\cdot \\left(\\dfrac{1}{2}\\right)^5 = 10 \\cdot \\dfrac{1}{32} = \\dfrac{10}{32} = \\dfrac{80}{256}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasilnya $\\dfrac{10}{32} = \\dfrac{5}{16}$. Kunci opsi terdekat: $\\dfrac{80}{243}$ tidak tepat. Gunakan $\\dfrac{5}{16}$." }
+        { "tipe": "paragraph", "text": "$P = C(5,3) \\cdot \\left(\\dfrac{1}{2}\\right)^5 = 10 \\cdot \\dfrac{1}{32} = \\dfrac{10}{32} = \\dfrac{5}{16}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -99,7 +98,6 @@
         [ { "tipe": "paragraph", "text": "$2880$" } ]
       ],
       "jawaban_benar": 2,
-      "pilihan_lain": [],
       "pembahasan": [
         { "tipe": "paragraph", "text": "Kata \"PELUANG\" = 7 huruf: P, E, L, U, A, N, G." },
         { "tipe": "paragraph", "text": "Vokal: E, U, A (3 huruf). Anggap vokal sebagai 1 blok → total 5 objek (blok vokal + P, L, N, G)." },
@@ -115,7 +113,7 @@
         { "tipe": "paragraph", "text": "Sebuah kotak berisi 5 bola merah, 4 biru, 3 hijau. Diambil 4 bola sekaligus. Peluang terambil 2 merah, 1 biru, dan 1 hijau adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{33}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{33}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{10}{33}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{15}{33}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{20}{33}$" } ],
@@ -125,8 +123,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "$n(S) = C(12,4) = 495$" },
         { "tipe": "paragraph", "text": "$n(A) = C(5,2) \\cdot C(4,1) \\cdot C(3,1) = 10 \\cdot 4 \\cdot 3 = 120$" },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{120}{495} = \\dfrac{8}{33}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $\\dfrac{8}{33}$. Kunci opsi terdekat: $\\dfrac{10}{33}$" }
+        { "tipe": "paragraph", "text": "$P = \\dfrac{120}{495} = \\dfrac{8}{33}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -158,17 +155,16 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$1161$" } ],
-        [ { "tipe": "paragraph", "text": "$1260$" } ],
+        [ { "tipe": "paragraph", "text": "$1266$" } ],
         [ { "tipe": "paragraph", "text": "$1287$" } ],
         [ { "tipe": "paragraph", "text": "$1288$" } ],
         [ { "tipe": "paragraph", "text": "$1290$" } ]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Total tanpa syarat: $C(13,5) = 1287$" },
         { "tipe": "paragraph", "text": "Tanpa wanita (semua pria): $C(7,5) = 21$" },
-        { "tipe": "paragraph", "text": "Minimal 1 wanita: $1287 - 21 = 1266$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $1266$. Kunci opsi terdekat: $1260$" }
+        { "tipe": "paragraph", "text": "Minimal 1 wanita: $1287 - 21 = 1266$" }
       ],
       "tingkat": "SULIT"
     },
