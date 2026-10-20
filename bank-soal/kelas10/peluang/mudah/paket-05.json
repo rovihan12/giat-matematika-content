@@ -151,11 +151,10 @@
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Kelipatan $3$ dari $1$ s.d. $15$: $\\{3, 6, 9, 12, 15\\}$ → $n(A) = 5$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{15} = \\dfrac{1}{3}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $\\dfrac{5}{15} = \\dfrac{1}{3}$. Kunci opsi B ($\\dfrac{1}{3}$), bukan A." }
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{15} = \\dfrac{1}{3}$." }
       ],
       "tingkat": "MUDAH"
     },
