@@ -54,20 +54,19 @@
         { "tipe": "paragraph", "text": "Sebuah kantong berisi 8 bola bernomor $1$ sampai $8$. Diambil 2 bola sekaligus. Peluang jumlah kedua nomor bola adalah bilangan prima adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{28}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{14}{28}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{15}{28}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{16}{28}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{17}{28}$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$n(S) = C(8,2) = 28$" },
-        { "tipe": "paragraph", "text": "Pasangan berjumlah prima (2, 3, 5, 7, 11, 13):" },
-        { "tipe": "paragraph", "text": "Jumlah 3: (1,2) → 1. Jumlah 5: (1,4),(2,3) → 2. Jumlah 7: (1,6),(2,5),(3,4) → 3. Jumlah 11: (3,8),(4,7),(5,6) → 3. Jumlah 13: (5,8),(6,7) → 2. Jumlah 2: 0." },
+        { "tipe": "paragraph", "text": "Pasangan berjumlah prima (3, 5, 7, 11, 13):" },
+        { "tipe": "paragraph", "text": "Jumlah 3: (1,2) → 1. Jumlah 5: (1,4),(2,3) → 2. Jumlah 7: (1,6),(2,5),(3,4) → 3. Jumlah 11: (3,8),(4,7),(5,6) → 3. Jumlah 13: (5,8),(6,7) → 2." },
         { "tipe": "paragraph", "text": "Total = $1 + 2 + 3 + 3 + 2 = 11$" },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{11}{28}$" },
-        { "tipe": "paragraph", "text": "⚠️ Kunci opsi terdekat: $\\dfrac{14}{28}$" }
+        { "tipe": "paragraph", "text": "$P = \\dfrac{11}{28}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -77,18 +76,17 @@
         { "tipe": "paragraph", "text": "Dari 6 pria dan 5 wanita akan dibentuk panitia 4 orang dengan ketua pria. Banyak susunan panitia adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$330$" } ],
+        [ { "tipe": "paragraph", "text": "$720$" } ],
         [ { "tipe": "paragraph", "text": "$660$" } ],
         [ { "tipe": "paragraph", "text": "$990$" } ],
         [ { "tipe": "paragraph", "text": "$1320$" } ],
         [ { "tipe": "paragraph", "text": "$1980$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Ketua pria: 6 pilihan." },
         { "tipe": "paragraph", "text": "Sisa 3 anggota dari 10 orang (5 pria + 5 wanita): $C(10,3) = 120$." },
-        { "tipe": "paragraph", "text": "Total = $6 \\cdot 120 = 720$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $720$. Kunci opsi terdekat: $660$" }
+        { "tipe": "paragraph", "text": "Total = $6 \\cdot 120 = 720$" }
       ],
       "tingkat": "SULIT"
     },
@@ -118,7 +116,7 @@
         { "tipe": "paragraph", "text": "Dari 10 orang, 4 di antaranya adalah pasangan suami-istri. Banyak cara memilih 4 orang agar tidak ada pasangan suami-istri yang terpilih adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$104$" } ],
         [ { "tipe": "paragraph", "text": "$130$" } ],
         [ { "tipe": "paragraph", "text": "$150$" } ],
         [ { "tipe": "paragraph", "text": "$160$" } ],
@@ -126,10 +124,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "4 pasangan suami-istri → 8 orang. Sisa 2 orang lajang." },
-        { "tipe": "paragraph", "text": "Pilih 4 orang dari 4 pasangan, maks 1 orang per pasangan, ditambah 2 lajang." },
-        { "tipe": "paragraph", "text": "Kemungkinan: 0 pasangan (2 lajang + 2 orang dari 2 pasangan berbeda): $C(4,2) \\cdot 2^2 = 6 \\cdot 4 = 24$; 1 pasangan + 2 lajang + 1 dari pasangan lain: $C(4,1) \\cdot 2 \\cdot C(3,1) \\cdot 2 = 4 \\cdot 2 \\cdot 3 \\cdot 2 = 48$; ..." },
-        { "tipe": "paragraph", "text": "Total (perhitungan kombinasi): 120" }
+        { "tipe": "paragraph", "text": "4 pasangan suami-istri (8 orang) dan 2 orang lajang." },
+        { "tipe": "paragraph", "text": "Kasus pemilihan: (3 pasangan + 1 lajang tidak mungkin), (4 dari pasangan dengan maks 1 orang per pasangan + 2 lajang): $C(4,4) \\cdot 2^4 = 16$, (3 dari pasangan + 1 lajang): $C(4,3) \\cdot 2^3 \\cdot C(2,1) = 64$, (2 dari pasangan + 2 lajang): $C(4,2) \\cdot 2^2 \\cdot C(2,2) = 24$." },
+        { "tipe": "paragraph", "text": "Total = $16 + 64 + 24 = 104$" }
       ],
       "tingkat": "SULIT"
     },
