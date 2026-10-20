@@ -142,9 +142,9 @@
         [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{a + b}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{a + b}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{2a + b}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2 + b}{2a + b}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2 + b}{a + b}$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "${}^{15}\\log 20 = \\dfrac{{}^2\\log 20}{{}^2\\log 15}$" },
         { "tipe": "paragraph", "text": "${}^2\\log 20 = {}^2\\log(4 \\cdot 5) = 2 + b$" },
@@ -197,24 +197,23 @@
     {
       "id": "bs-k10-eks-sulit-01-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $x^{{}^2\\log x} = 32$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $x^{{}^2\\log x - 2} = 8$ adalah..." }
       ],
       "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 8$ atau $x = \\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 4$ atau $x = \\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 8$ atau $x = \\dfrac{1}{4}$" } ],
         [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 8$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 32$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 4$ atau $x = 8$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 16$" } ],
         [ { "tipe": "paragraph", "text": "$x = 4$ atau $x = 16$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal ${}^2\\log x = p$, maka $x = 2^p$" },
-        { "tipe": "paragraph", "text": "Persamaan menjadi $(2^p)^p = 32 \\Rightarrow 2^{p^2} = 2^5$" },
-        { "tipe": "paragraph", "text": "$p^2 = 5$ tidak bulat, cek cara lain: $x^{{}^2\\log x} = 2^{({}^2\\log x)^2} = 32 = 2^5$" },
-        { "tipe": "paragraph", "text": "$({}^2\\log x)^2 = 5$ tidak memberi solusi bulat. Periksa ulang: $x^{{}^2\\log x} = 32$" },
-        { "tipe": "paragraph", "text": "Coba $x = 2$: $2^{{}^2\\log 2} = 2^1 = 2 \\neq 32$. Cara benar: $x^{{}^2\\log x} = 32$, tulis $x = 2^{{}^2\\log x}$, maka $x^{{}^2\\log x} = (2^{{}^2\\log x})^{{}^2\\log x} = 2^{({}^2\\log x)^2}$" },
-        { "tipe": "paragraph", "text": "$2^{({}^2\\log x)^2} = 2^5 \\Rightarrow ({}^2\\log x)^2 = 5$. Karena $x = 2$ atau $x = 8$: cek $x=2 \\Rightarrow ({}^2\\log 2)^2 = 1$; $x=8 \\Rightarrow ({}^2\\log 8)^2 = 9$. Tidak ada yang cocok." },
-        { "tipe": "paragraph", "text": "Verifikasi opsi: $x = 2$: $2^1 = 2$; $x = 8$: $8^3 = 512$. Seharusnya soal $x^{{}^2\\log x} = 512$ memberi $x=8$. Untuk $32$, $({}^2\\log x)^2 = 5$ tidak bulat. Opsi yang paling mendekati: $x = 2$ atau $x = 8$ (kunci)." }
+        { "tipe": "paragraph", "text": "Ambil logaritma basis 2 pada kedua ruas: ${}^2\\log\\left(x^{{}^2\\log x - 2}\\right) = {}^2\\log 8$" },
+        { "tipe": "paragraph", "text": " $({}^2\\log x - 2) \\cdot {}^2\\log x = 3$" },
+        { "tipe": "paragraph", "text": "Misal $y = {}^2\\log x$, maka $(y - 2)y = 3 \\Rightarrow y^2 - 2y - 3 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 3)(y + 1) = 0 \\Rightarrow y = 3$ atau $y = -1$" },
+        { "tipe": "paragraph", "text": "Untuk $y = 3 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "Untuk $y = -1 \\Rightarrow {}^2\\log x = -1 \\Rightarrow x = 2^{-1} = \\dfrac{1}{2}$" }
       ],
       "tingkat": "SULIT"
     }
