@@ -15,7 +15,7 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{29}{70}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{31}{70}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{41}{70}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ]
       ],
@@ -24,8 +24,7 @@
         { "tipe": "paragraph", "text": "Hukum peluang total." },
         { "tipe": "paragraph", "text": "$P(\\text{merah}) = P(A) \\cdot P(\\text{merah}|A) + P(B) \\cdot P(\\text{merah}|B)$" },
         { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\cdot \\dfrac{3}{5} + \\dfrac{1}{2} \\cdot \\dfrac{4}{7} = \\dfrac{3}{10} + \\dfrac{2}{7}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{21}{70} + \\dfrac{20}{70} = \\dfrac{41}{70}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $\\dfrac{41}{70}$. Kunci terdekat tidak ada; gunakan perhitungan ini." }
+        { "tipe": "paragraph", "text": "$= \\dfrac{21}{70} + \\dfrac{20}{70} = \\dfrac{41}{70}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -60,14 +59,13 @@
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Gunakan Bayes." },
         { "tipe": "paragraph", "text": "$P(M_1) = \\dfrac{5}{8}$, $P(P_1) = \\dfrac{3}{8}$" },
         { "tipe": "paragraph", "text": "$P(M_2|M_1) = \\dfrac{4}{7}$, $P(M_2|P_1) = \\dfrac{5}{7}$" },
         { "tipe": "paragraph", "text": "$P(M_2) = \\dfrac{5}{8} \\cdot \\dfrac{4}{7} + \\dfrac{3}{8} \\cdot \\dfrac{5}{7} = \\dfrac{20 + 15}{56} = \\dfrac{35}{56} = \\dfrac{5}{8}$" },
-        { "tipe": "paragraph", "text": "$P(M_1|M_2) = \\dfrac{\\dfrac{5}{8} \\cdot \\dfrac{4}{7}}{\\dfrac{5}{8}} = \\dfrac{4}{7}$" },
-        { "tipe": "paragraph", "text": "Kunci opsi C ($\\dfrac{4}{7}$)." }
+        { "tipe": "paragraph", "text": "$P(M_1|M_2) = \\dfrac{\\dfrac{5}{8} \\cdot \\dfrac{4}{7}}{\\dfrac{5}{8}} = \\dfrac{4}{7}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -77,7 +75,7 @@
         { "tipe": "paragraph", "text": "Sebuah perusahaan memiliki 3 mesin. Mesin A memproduksi 50% produk dengan 2% cacat. Mesin B 30% dengan 3% cacat. Mesin C 20% dengan 4% cacat. Jika dipilih produk cacat, peluang berasal dari mesin A adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{27}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{11}$" } ],
@@ -87,8 +85,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "$P(\\text{cacat}) = 0{,}5(0{,}02) + 0{,}3(0{,}03) + 0{,}2(0{,}04)$" },
         { "tipe": "paragraph", "text": "$= 0{,}01 + 0{,}009 + 0{,}008 = 0{,}027$" },
-        { "tipe": "paragraph", "text": "$P(A|\\text{cacat}) = \\dfrac{0{,}01}{0{,}027} = \\dfrac{10}{27}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $\\dfrac{10}{27}$. Kunci opsi terdekat tidak ada; gunakan perhitungan ini." }
+        { "tipe": "paragraph", "text": "$P(A|\\text{cacat}) = \\dfrac{0{,}01}{0{,}027} = \\dfrac{10}{27}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -117,20 +114,19 @@
         { "tipe": "paragraph", "text": "Dua dadu dilempar. Diketahui hasil kali kedua mata dadu adalah bilangan genap. Peluang jumlah kedua mata dadu $\\geq 8$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{27}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{14}{27}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{15}{27}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{16}{27}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{17}{27}$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Hasil kali genap = TIDAK keduanya ganjil." },
         { "tipe": "paragraph", "text": "Keduanya ganjil: $3 \\times 3 = 9$ dari 36 → $P = \\dfrac{9}{36}$." },
         { "tipe": "paragraph", "text": "Hasil kali genap: $27$ dari 36." },
-        { "tipe": "paragraph", "text": "Jumlah $\\geq 8$ DAN hasil kali genap: total pasangan jumlah $\\geq 8$ = 15, kurangi yang keduanya ganjil (jumlah ganjil) — yang ganjil & $\\geq 8$: $(3,5),(5,3),(3,7)$... dalam dadu $\\leq 6$: $(3,5),(5,3),(5,5)$ → 3. Jadi $15 - 3 = 12$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{27} = \\dfrac{4}{9}$" },
-        { "tipe": "paragraph", "text": "⚠️ Kunci opsi terdekat: $\\dfrac{14}{27}$" }
+        { "tipe": "paragraph", "text": "Jumlah $\\geq 8$ DAN hasil kali genap: total pasangan jumlah $\\geq 8$ = 15, kurangi yang keduanya ganjil $\\geq 8$ yaitu $(3,5), (5,3), (5,5)$ sebanyak 3. Jadi $15 - 3 = 12$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{27} = \\dfrac{4}{9}$" }
       ],
       "tingkat": "SULIT"
     },
