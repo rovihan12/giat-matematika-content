@@ -22,7 +22,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Pola: $U_n = n(n+1) = n^2 + n$." },
-        { "tipe": "paragraph", "text": "Cek: $U_1 = 2$, $U_2 = 6$, $U_3 = 12$, $U_4 = 20$ ✓" }
+        { "tipe": "paragraph", "text": "Cek: $U_1 = 2$, $U_2 = 6$, $U_3 = 12$, $U_4 = 20$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -32,18 +32,17 @@
         { "tipe": "paragraph", "text": "Sebuah deret aritmatika memiliki $U_3 + U_5 = 30$ dan $U_4 + U_6 = 38$. Suku ke-8 adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$38$" } ],
-        [ { "tipe": "paragraph", "text": "$42$" } ],
-        [ { "tipe": "paragraph", "text": "$46$" } ],
-        [ { "tipe": "paragraph", "text": "$50$" } ],
-        [ { "tipe": "paragraph", "text": "$54$" } ]
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ],
+        [ { "tipe": "paragraph", "text": "$31$" } ],
+        [ { "tipe": "paragraph", "text": "$33$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$U_4 + U_6 - (U_3 + U_5) = 38 - 30 = 8 = 2b \\Rightarrow b = 4$" },
         { "tipe": "paragraph", "text": "$U_3 + U_5 = 2a + 6b = 30 \\Rightarrow 2a + 24 = 30 \\Rightarrow a = 3$" },
-        { "tipe": "paragraph", "text": "$U_8 = 3 + 7 \\cdot 4 = 31$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $U_8 = 31$. Kunci terdekat tidak cocok; gunakan perhitungan ini." }
+        { "tipe": "paragraph", "text": "$U_8 = 3 + 7 \\cdot 4 = 31$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -107,28 +106,27 @@
     {
       "id": "bs-k10-bd-s-04-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Tiga bilangan membentuk barisan aritmatika. Jika jumlahnya 27 dan suku tengahnya 9, maka bedanya adalah..." }
+        { "tipe": "paragraph", "text": "Tiga bilangan membentuk barisan aritmatika. Jika jumlah ketiga bilangan adalah 27 dan hasil kalinya adalah 504, maka beda barisan tersebut adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1$" } ],
         [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$3$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ],
-        [ { "tipe": "paragraph", "text": "$5$" } ]
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal: $a-b, a, a+b$ dengan $a = 9$ (suku tengah)." },
-        { "tipe": "paragraph", "text": "Jumlah = $3a = 27$ → konsisten." },
-        { "tipe": "paragraph", "text": "Beda bisa berapa saja... informasi tidak cukup. Namun jika suku-sukunya: $7, 9, 11$ → beda 2, atau $8, 9, 10$ → beda 1, dst." },
-        { "tipe": "paragraph", "text": "⚠️ Soal kurang spesifik. Asumsi: semua bilangan bulat positif berbeda & konteks umum → $b = 1$." }
+        { "tipe": "paragraph", "text": "Misal tiga bilangan: $a-b, a, a+b$." },
+        { "tipe": "paragraph", "text": "Jumlah = $3a = 27 \\Rightarrow a = 9$." },
+        { "tipe": "paragraph", "text": "Hasil kali: $(9-b) \\cdot 9 \\cdot (9+b) = 504 \\Rightarrow 81 - b^2 = 56 \\Rightarrow b^2 = 25 \\Rightarrow b = 5$." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-bd-s-04-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Suku ke-5 deret geometri $\\ldots, 2, 4, 8, 16, \\ldots$ adalah..." }
+        { "tipe": "paragraph", "text": "Suku ke-5 dari barisan geometri $1, 2, 4, 8, 16, \\ldots$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$4$" } ],
@@ -137,11 +135,10 @@
         [ { "tipe": "paragraph", "text": "$32$" } ],
         [ { "tipe": "paragraph", "text": "$64$" } ]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Barisan: $\\ldots, 2, 4, 8, 16, \\ldots$ → $r = 2$." },
-        { "tipe": "paragraph", "text": "Jika suku ke-2 = 2, maka suku ke-5 = $2 \\cdot 2^3 = 16$. Namun jika suku ke-5 dihitung dari $U_1 = 1$..." },
-        { "tipe": "paragraph", "text": "Ambiguitas. Jika barisan $1, 2, 4, 8, 16, \\ldots$, maka $U_5 = 16$. Kunci opsi C." }
+        { "tipe": "paragraph", "text": "$a = 1$, $r = 2$." },
+        { "tipe": "paragraph", "text": "$U_5 = a \\cdot r^4 = 1 \\cdot 2^4 = 16$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -157,11 +154,10 @@
         [ { "tipe": "paragraph", "text": "$160$" } ],
         [ { "tipe": "paragraph", "text": "$164$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$a = 5$, $b = 4$, $n = 8$" },
-        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2 \\cdot 5 + 7 \\cdot 4) = 4(10 + 28) = 4 \\cdot 38 = 152$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $S_8 = 152$. Kunci opsi B." }
+        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2 \\cdot 5 + 7 \\cdot 4) = 4(10 + 28) = 4 \\cdot 38 = 152$" }
       ],
       "tingkat": "SEDANG"
     },
