@@ -171,11 +171,10 @@
         [ { "tipe": "paragraph", "text": "$a = 4$, $b = 3$" } ],
         [ { "tipe": "paragraph", "text": "$a = 1$, $b = 4$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$U_{10} - U_5 = 37 - 17 = 20 = 5b \\Rightarrow b = 4$" },
-        { "tipe": "paragraph", "text": "$U_5 = a + 4b = 17 \\Rightarrow a = 17 - 16 = 1$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $a = 1$, $b = 4$. Kunci opsi E." }
+        { "tipe": "paragraph", "text": "$U_5 = a + 4b = 17 \\Rightarrow a = 17 - 16 = 1$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -191,11 +190,10 @@
         [ { "tipe": "paragraph", "text": "$144$" } ],
         [ { "tipe": "paragraph", "text": "$192$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_3 = 12$, $U_4 = 24$, $U_5 = 48$, $U_6 = 96$" },
-        { "tipe": "paragraph", "text": "Diketahui $r = 2$, $U_5 = 12 \\cdot 2^2 = 48$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: jawaban $U_5 = 48$. Kunci opsi A." }
+        { "tipe": "paragraph", "text": "Diketahui $U_3 = 12$, $U_4 = 24$, $U_5 = 48$, sehingga rasio $r = \\dfrac{24}{12} = 2$." },
+        { "tipe": "paragraph", "text": "$U_5 = U_3 \\cdot r^{5-3} = 12 \\cdot 2^2 = 12 \\cdot 4 = 48$" }
       ],
       "tingkat": "SEDANG"
     }
