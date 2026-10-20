@@ -174,12 +174,11 @@
         [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{7}{3}$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$4^{3x-2} = 64 \\Rightarrow (2^2)^{3x-2} = 2^6$" },
-        { "tipe": "paragraph", "text": "$2^{2(3x-2)} = 2^6$" },
-        { "tipe": "paragraph", "text": "$2(3x - 2) = 6 \\Rightarrow 6x - 4 = 6$" },
-        { "tipe": "paragraph", "text": "$6x = 10 \\Rightarrow x = \\dfrac{5}{3}$" }
+        { "tipe": "paragraph", "text": "$4^{3x-2} = 64 = 4^3$" },
+        { "tipe": "paragraph", "text": "$3x - 2 = 3$" },
+        { "tipe": "paragraph", "text": "$3x = 5 \\Rightarrow x = \\dfrac{5}{3}$" }
       ],
       "tingkat": "SEDANG"
     },
