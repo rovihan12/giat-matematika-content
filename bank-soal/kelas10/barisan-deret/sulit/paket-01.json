@@ -117,12 +117,17 @@
         [ { "tipe": "paragraph", "text": "$28$" } ],
         [ { "tipe": "paragraph", "text": "$30$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Selisih: $1, 2, 3, 4, \\ldots$ (bertambah 1)." },
-        { "tipe": "paragraph", "text": "Selisih ke-6 = 6, ke-7 = 7, ke-8 = 8." },
-        { "tipe": "paragraph", "text": "$U_6 = 12+5=17$, $U_7 = 17+6=23$, $U_8 = 23+7=30$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $U_8 = 30$. Kunci opsi E." }
+        { "tipe": "paragraph", "text": "Selisih bertingkat: $1, 2, 3, 4, 5, 6, 7, \\ldots$" },
+        { "tipe": "paragraph", "text": "$U_1 = 2$" },
+        { "tipe": "paragraph", "text": "$U_2 = 2 + 1 = 3$" },
+        { "tipe": "paragraph", "text": "$U_3 = 3 + 2 = 5$" },
+        { "tipe": "paragraph", "text": "$U_4 = 5 + 3 = 8$" },
+        { "tipe": "paragraph", "text": "$U_5 = 8 + 4 = 12$" },
+        { "tipe": "paragraph", "text": "$U_6 = 12 + 5 = 17$" },
+        { "tipe": "paragraph", "text": "$U_7 = 17 + 6 = 23$" },
+        { "tipe": "paragraph", "text": "$U_8 = 23 + 7 = 30$" }
       ],
       "tingkat": "SULIT"
     },
@@ -157,13 +162,12 @@
         [ { "tipe": "paragraph", "text": "$a = 3$, $b = 5$" } ],
         [ { "tipe": "paragraph", "text": "$a = 5$, $b = 3$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Misal: $U_1 = a-b$, $U_2 = a$, $U_3 = a+b$." },
-        { "tipe": "paragraph", "text": "Jumlah = $3a = 24 \\Rightarrow a = 8$" },
-        { "tipe": "paragraph", "text": "Hasil kali: $(a-b) \\cdot a \\cdot (a+b) = (a^2 - b^2) \\cdot a = 480$" },
-        { "tipe": "paragraph", "text": "$(64 - b^2) \\cdot 8 = 480 \\Rightarrow 64 - b^2 = 60 \\Rightarrow b^2 = 4 \\Rightarrow b = 2$" },
-        { "tipe": "paragraph", "text": "$U_1 = a-b = 6$. Jadi $a_{suku1} = 6$, $b = 2$. Kunci opsi C." }
+        { "tipe": "paragraph", "text": "Jumlah = $3a = 24 \\Rightarrow a = 8$." },
+        { "tipe": "paragraph", "text": "Hasil kali: $(8-b) \\cdot 8 \\cdot (8+b) = 480 \\Rightarrow 64 - b^2 = 60 \\Rightarrow b^2 = 4 \\Rightarrow b = 2$." },
+        { "tipe": "paragraph", "text": "Suku pertama $U_1 = 8 - 2 = 6$, dan beda $b = 2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -199,11 +203,10 @@
         [ { "tipe": "paragraph", "text": "$12$ m" } ],
         [ { "tipe": "paragraph", "text": "$15$ m" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Total lintasan = $h + 2 \\cdot \\dfrac{h/3}{1 - 1/3} = h + 2 \\cdot \\dfrac{h/3}{2/3} = h + h = 2h$" },
-        { "tipe": "paragraph", "text": "$2h = 24 \\Rightarrow h = 12$ m" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: $h = 12$ m. Kunci opsi D." }
+        { "tipe": "paragraph", "text": "$2h = 24 \\Rightarrow h = 12$ m" }
       ],
       "tingkat": "SULIT"
     }
