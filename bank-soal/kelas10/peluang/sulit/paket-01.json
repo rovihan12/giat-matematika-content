@@ -41,12 +41,11 @@
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{22}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{10}{33}$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$n(S) = C(11,4) = 330$" },
         { "tipe": "paragraph", "text": "$n(A) = C(6,2) \\cdot C(5,2) = 15 \\cdot 10 = 150$" },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{150}{330} = \\dfrac{5}{11}$" },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasilnya $\\dfrac{5}{11}$. Kunci opsi A ($\\dfrac{5}{11}$)." }
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{150}{330} = \\dfrac{5}{11}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -181,7 +180,7 @@
         [ { "tipe": "paragraph", "text": "$\\dfrac{21}{44}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$n(S) = C(12,3) = 220$" },
         { "tipe": "paragraph", "text": "2 merah + 1 putih: $C(7,2) \\cdot C(5,1) = 21 \\cdot 5 = 105$" },
