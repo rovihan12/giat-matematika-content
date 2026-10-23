@@ -1,0 +1,204 @@
+{
+  "id": "bs-k10-eks-sedang-13",
+  "nama": "Bank Soal Sedang - Paket 13",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang persamaan eksponen, logaritma, dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-s-13-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $3^{x+4} = 243$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3^{x+4} = 243 = 3^5$" },
+        { "tipe": "paragraph", "text": "$x + 4 = 5 \\Rightarrow x = 1$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(7x - 3) = 4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{19}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log(7x - 3) = 4 \\Rightarrow 7x - 3 = 2^4 = 16$" },
+        { "tipe": "paragraph", "text": "$7x = 19 \\Rightarrow x = \\dfrac{19}{7}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $16^{x-1} = 8^{x+2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$16^{x-1} = 8^{x+2} \\Rightarrow (2^4)^{x-1} = (2^3)^{x+2}$" },
+        { "tipe": "paragraph", "text": "$4x - 4 = 3x + 6 \\Rightarrow x = 10$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^3\\log 72 - {}^3\\log 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log 72 - {}^3\\log 8 = {}^3\\log\\left(\\dfrac{72}{8}\\right) = {}^3\\log 9$" },
+        { "tipe": "paragraph", "text": "$= {}^3\\log 3^2 = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 5 \\cdot {}^5\\log 6 \\cdot {}^6\\log 16$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 5 \\cdot {}^5\\log 6 \\cdot {}^6\\log 16 = {}^2\\log 16$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^4 = 4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $5^{x^2 - 2x - 8} = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5^{x^2 - 2x - 8} = 1 = 5^0$" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x - 8 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 4)(x + 2) = 0 \\Rightarrow x = 4$ atau $x = -2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^9\\log 5 \\cdot {}^5\\log 81$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$81$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^9\\log 5 \\cdot {}^5\\log 81 = {}^9\\log 81$" },
+        { "tipe": "paragraph", "text": "$= {}^9\\log 9^2 = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 7x + 12) = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 7x + 12) = 1 \\Rightarrow x^2 - 7x + 12 = 2$" },
+        { "tipe": "paragraph", "text": "$x^2 - 7x + 10 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 5) = 0 \\Rightarrow x = 2$ atau $x = 5$" },
+        { "tipe": "paragraph", "text": "Kedua nilai memenuhi syarat numerus $x^2 - 7x + 12 > 0$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\left(\\dfrac{1}{5}\\right)^{x} > \\dfrac{1}{125}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 2$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{5}\\right)^x > \\dfrac{1}{125} = \\left(\\dfrac{1}{5}\\right)^3$" },
+        { "tipe": "paragraph", "text": "Karena basis $\\dfrac{1}{5} < 1$, tanda berbalik: $x < 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-13-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Populasi bakteri berlipat ganda setiap 5 jam. Jika mula-mula ada 400 bakteri, maka setelah 15 jam populasinya menjadi..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1.200$" } ],
+        [ { "tipe": "paragraph", "text": "$2.400$" } ],
+        [ { "tipe": "paragraph", "text": "$3.200$" } ],
+        [ { "tipe": "paragraph", "text": "$4.800$" } ],
+        [ { "tipe": "paragraph", "text": "$6.400$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak periode: $n = \\dfrac{15}{5} = 3$" },
+        { "tipe": "paragraph", "text": "$P = 400 \\times 2^3 = 400 \\times 8 = 3.200$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
