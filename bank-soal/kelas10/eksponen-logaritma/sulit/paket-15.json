@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-15-q01",
@@ -52,7 +52,7 @@
     {
       "id": "bs-k10-eks-sulit-15-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 6x - 7) < 4$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 6x - 11) < 4$ dengan syarat domain $x^2 - 6x - 7 > 0$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-3 < x < -1$ atau $7 < x < 9$" } ],
@@ -64,10 +64,9 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 6x - 7 > 0 \\Rightarrow (x-7)(x+1) > 0 \\Rightarrow x < -1$ atau $x > 7$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 6x - 7) < 4 \\Rightarrow x^2 - 6x - 7 < 16$" },
-        { "tipe": "paragraph", "text": "$x^2 - 6x - 23 < 0$" },
-        { "tipe": "paragraph", "text": "Akar: $x = 3 \\pm 4\\sqrt{2} \\approx -2{,}66$ dan $8{,}66$." },
-        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 < x < -1$ atau $7 < x < 9$" }
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 6x - 11) < 4 \\Rightarrow x^2 - 6x - 11 < 2^4 = 16$" },
+        { "tipe": "paragraph", "text": "$x^2 - 6x - 27 < 0 \\Rightarrow (x - 9)(x + 3) < 0 \\Rightarrow -3 < x < 9$" },
+        { "tipe": "paragraph", "text": "Irisan dari pertidaksamaan dan domain: $-3 < x < -1$ atau $7 < x < 9$" }
       ],
       "tingkat": "SULIT"
     },
