@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-14-q01",
@@ -50,23 +50,23 @@
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-14-q06",
+      "id": "bs-k10-eks-sulit-14-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $5^a \\cdot 25^b = 15625$ dan $2^{a+b} = 32$. Nilai $a \\cdot b$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 4x - 12) < 3$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$2$" } ],
-        [ { "tipe": "paragraph", "text": "$4$" } ],
-        [ { "tipe": "paragraph", "text": "$6$" } ],
-        [ { "tipe": "paragraph", "text": "$8$" } ],
-        [ { "tipe": "paragraph", "text": "$10$" } ]
+        [ { "tipe": "paragraph", "text": "$-3 < x < -2$ atau $6 < x < 7$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 6$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 < x < 7$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 7$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$5^a \\cdot 5^{2b} = 5^6 \\Rightarrow a + 2b = 6$" },
-        { "tipe": "paragraph", "text": "$2^{a+b} = 2^5 \\Rightarrow a + b = 5$" },
-        { "tipe": "paragraph", "text": "Kurangkan: $b = 1$, maka $a = 4$" },
-        { "tipe": "paragraph", "text": "$a \\cdot b = 4 \\cdot 1 = 4$" }
+        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 4x - 12 > 0 \\Rightarrow (x-6)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 6$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 4x - 12) < 3 \\Rightarrow x^2 - 4x - 12 < 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "$x^2 - 4x - 20 < 0 \\Rightarrow (x - 7)(x + 3) < 0 \\Rightarrow -3 < x < 7$" },
+        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 < x < -2$ atau $6 < x < 7$" }
       ],
       "tingkat": "SULIT"
     },
@@ -114,22 +114,22 @@
     {
       "id": "bs-k10-eks-sulit-14-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $5^a \\cdot 25^b = 15625$ dan $2^{a+b} = 64$. Nilai $a \\cdot b$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $5^a \\cdot 25^b = 15625$ dan $2^{a+b} = 32$. Nilai $a \\cdot b$ adalah..." }
       ],
       "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ],
         [ { "tipe": "paragraph", "text": "$8$" } ],
-        [ { "tipe": "paragraph", "text": "$9$" } ],
-        [ { "tipe": "paragraph", "text": "$12$" } ],
-        [ { "tipe": "paragraph", "text": "$15$" } ]
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$5^a \\cdot 5^{2b} = 5^6 \\Rightarrow a + 2b = 6$" },
-        { "tipe": "paragraph", "text": "$2^{a+b} = 2^6 \\Rightarrow a + b = 6$" },
-        { "tipe": "paragraph", "text": "Kurangkan: $b = 0$, maka $a = 6$" },
-        { "tipe": "paragraph", "text": "$a \\cdot b = 6 \\cdot 0 = 0$ (tidak ada di pilihan)." },
-        { "tipe": "paragraph", "text": "Versi valid: $5^a \\cdot 25^b = 15625$ dan $2^{a+b}=32$: $a+2b=6$, $a+b=5$, maka $b=1$, $a=4$, $ab=4$." }
+        { "tipe": "paragraph", "text": "$2^{a+b} = 2^5 \\Rightarrow a + b = 5$" },
+        { "tipe": "paragraph", "text": "Eliminasi: $(a+2b) - (a+b) = 6 - 5 \\Rightarrow b = 1$" },
+        { "tipe": "paragraph", "text": "Substitusi: $a + 1 = 5 \\Rightarrow a = 4$" },
+        { "tipe": "paragraph", "text": "Nilai $a \\cdot b = 4 \\cdot 1 = 4$" }
       ],
       "tingkat": "SULIT"
     },
