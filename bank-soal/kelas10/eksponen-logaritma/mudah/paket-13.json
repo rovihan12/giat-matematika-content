@@ -1,0 +1,192 @@
+{
+  "id": "bs-k10-eks-mudah-13",
+  "nama": "Bank Soal Mudah - Paket 13",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sifat dasar eksponen dan logaritma",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-m-13-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $5^4 \\cdot 5^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5^7$" } ],
+        [ { "tipe": "paragraph", "text": "$5^{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$25^7$" } ],
+        [ { "tipe": "paragraph", "text": "$5^1$" } ],
+        [ { "tipe": "paragraph", "text": "$5^{2{,}5}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5^4 \\cdot 5^3 = 5^{4+3} = 5^7$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\dfrac{2^{15}}{2^6 \\cdot 2^5}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2^4$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{26}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^4$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{-4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{2^{15}}{2^6 \\cdot 2^5} = \\dfrac{2^{15}}{2^{11}} = 2^{15-11} = 2^4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\left(6^3\\right)^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6^5$" } ],
+        [ { "tipe": "paragraph", "text": "$6^6$" } ],
+        [ { "tipe": "paragraph", "text": "$6^9$" } ],
+        [ { "tipe": "paragraph", "text": "$36^6$" } ],
+        [ { "tipe": "paragraph", "text": "$6^{1{,}5}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(6^3\\right)^2 = 6^{3 \\cdot 2} = 6^6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\left(\\dfrac{11}{13}\\right)^0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Setiap bilangan tak nol berpangkat nol bernilai 1, sehingga $\\left(\\dfrac{11}{13}\\right)^0 = 1$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\left(\\dfrac{1}{5}\\right)^{-3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{125}$" } ],
+        [ { "tipe": "paragraph", "text": "$125$" } ],
+        [ { "tipe": "paragraph", "text": "$-125$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{125}$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{5}\\right)^{-3} = 5^3 = 125$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk logaritma dari $\\left(\\dfrac{1}{3}\\right)^2 = \\dfrac{1}{9}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^{1/3}\\log \\dfrac{1}{9} = 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^2\\log \\dfrac{1}{9} = \\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{9}\\log \\dfrac{1}{3} = 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{1/3}\\log 2 = \\dfrac{1}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "${}^2\\log \\dfrac{1}{3} = 9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika $a^c = b$, maka ${}^a\\log b = c$. Dari $\\left(\\dfrac{1}{3}\\right)^2 = \\dfrac{1}{9}$ diperoleh ${}^{1/3}\\log \\dfrac{1}{9} = 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^7\\log \\dfrac{1}{49}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-3$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^7\\log \\dfrac{1}{49} = {}^7\\log 7^{-2} = -2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari ${}^3\\log 2 + {}^3\\log 9 - {}^3\\log 6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log 2 + {}^3\\log 9 - {}^3\\log 6 = {}^3\\log\\left(\\dfrac{2 \\cdot 9}{6}\\right)$" },
+        { "tipe": "paragraph", "text": "$= {}^3\\log 3 = 1$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\dfrac{15^8}{15^3 \\cdot 15^2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15^3$" } ],
+        [ { "tipe": "paragraph", "text": "$15^5$" } ],
+        [ { "tipe": "paragraph", "text": "$15^{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^3$" } ],
+        [ { "tipe": "paragraph", "text": "$15^{-3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{15^8}{15^3 \\cdot 15^2} = \\dfrac{15^8}{15^5} = 15^{8-5} = 15^3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-13-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\left(\\dfrac{7}{2}\\right)^{-2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{49}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{49}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{49}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{4}{49}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{7}{2}\\right)^{-2} = \\left(\\dfrac{2}{7}\\right)^2 = \\dfrac{4}{49}$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
