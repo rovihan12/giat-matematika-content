@@ -1,0 +1,205 @@
+{
+  "id": "bs-k10-eks-sedang-11",
+  "nama": "Bank Soal Sedang - Paket 11",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang persamaan eksponen, logaritma, dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-s-11-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $2^{3x-2} = 16$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^{3x-2} = 16 = 2^4$" },
+        { "tipe": "paragraph", "text": "$3x - 2 = 4 \\Rightarrow 3x = 6 \\Rightarrow x = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^3\\log(2x + 3) = 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log(2x + 3) = 3 \\Rightarrow 2x + 3 = 3^3 = 27$" },
+        { "tipe": "paragraph", "text": "$2x = 24 \\Rightarrow x = 12$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $4^{x+2} = 2^{x-1}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-5$" } ],
+        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$-3$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$4^{x+2} = 2^{x-1} \\Rightarrow (2^2)^{x+2} = 2^{x-1}$" },
+        { "tipe": "paragraph", "text": "$2^{2x+4} = 2^{x-1}$" },
+        { "tipe": "paragraph", "text": "$2x + 4 = x - 1 \\Rightarrow x = -5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^3\\log 45 - {}^3\\log 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log 45 - {}^3\\log 5 = {}^3\\log\\left(\\dfrac{45}{5}\\right) = {}^3\\log 9$" },
+        { "tipe": "paragraph", "text": "$= {}^3\\log 3^2 = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 3 \\cdot {}^3\\log 7 \\cdot {}^7\\log 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 7 \\cdot {}^7\\log 8 = {}^2\\log 8$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^3 = 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $2^{x^2 - x - 2} = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^{x^2 - x - 2} = 1 = 2^0$" },
+        { "tipe": "paragraph", "text": "$x^2 - x - 2 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 2)(x + 1) = 0 \\Rightarrow x = 2$ atau $x = -1$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^5\\log 4 \\cdot {}^4\\log 25$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^5\\log 4 \\cdot {}^4\\log 25 = {}^5\\log 25$" },
+        { "tipe": "paragraph", "text": "$= {}^5\\log 5^2 = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 2x) = 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 2x) = 3 \\Rightarrow x^2 - 2x = 8$" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x - 8 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 4)(x + 2) = 0 \\Rightarrow x = 4$ atau $x = -2$" },
+        { "tipe": "paragraph", "text": "Kedua nilai memenuhi syarat numerus $x^2 - 2x > 0$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $3^{x} \\leq \\dfrac{1}{9}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3^x \\leq \\dfrac{1}{9} = 3^{-2}$" },
+        { "tipe": "paragraph", "text": "Karena basis $3 > 1$: $x \\leq -2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-11-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Populasi amoeba berlipat ganda setiap 2 jam. Jika mula-mula ada 80 amoeba, maka setelah 8 jam populasinya menjadi..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$640$" } ],
+        [ { "tipe": "paragraph", "text": "$1.280$" } ],
+        [ { "tipe": "paragraph", "text": "$1.600$" } ],
+        [ { "tipe": "paragraph", "text": "$2.560$" } ],
+        [ { "tipe": "paragraph", "text": "$3.200$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak periode: $n = \\dfrac{8}{2} = 4$" },
+        { "tipe": "paragraph", "text": "$P = 80 \\times 2^4 = 80 \\times 16 = 1.280$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
