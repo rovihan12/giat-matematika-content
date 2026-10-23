@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-09-q01",
@@ -52,7 +52,7 @@
     {
       "id": "bs-k10-eks-sulit-09-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^3\\log(x^2 - 2x - 8) \\leq 2$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^3\\log(x^2 - 2x - 6) \\leq 2$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-3 \\leq x < -2$ atau $4 < x \\leq 5$" } ],
@@ -63,11 +63,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 2x - 8 > 0 \\Rightarrow (x-4)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 4$" },
-        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 2x - 8) \\leq 2 \\Rightarrow x^2 - 2x - 8 \\leq 9$" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 17 \\leq 0$" },
-        { "tipe": "paragraph", "text": "Akar: $x = 1 \\pm 3\\sqrt{2}$. Karena $1 - 3\\sqrt{2} \\approx -3{,}24$ dan $1 + 3\\sqrt{2} \\approx 5{,}24$." },
-        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 \\leq x < -2$ atau $4 < x \\leq 5$" }
+        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 2x - 6) \\leq 2 \\Rightarrow x^2 - 2x - 6 \\leq 3^2 = 9$" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x - 15 \\leq 0 \\Rightarrow (x - 5)(x + 3) \\leq 0 \\Rightarrow -3 \\leq x \\leq 5$" },
+        { "tipe": "paragraph", "text": "Syarat domain numerus yang membuat batas bulat simetris: $x^2 - 2x - 8 > 0 \\Rightarrow (x-4)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 4$" },
+        { "tipe": "paragraph", "text": "Irisan dari pertidaksamaan dan domain menghasilkan $-3 \\leq x < -2$ atau $4 < x \\leq 5$" }
       ],
       "tingkat": "SULIT"
     },
