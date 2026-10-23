@@ -145,20 +145,21 @@
     {
       "id": "bs-k10-eks-s-10-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 6x + 8) = 1$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 5x + 6) = 1$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 5$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
         [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 6$" } ],
-        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 5$" } ]
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 6x + 8) = 1 \\Rightarrow x^2 - 6x + 8 = 2$" },
-        { "tipe": "paragraph", "text": "$x^2 - 6x + 6 = 0$" },
-        { "tipe": "paragraph", "text": "Akar tidak bulat. Koreksi numerus: gunakan $x^2 - 6x + 8 = 2 \\Rightarrow x^2 - 6x + 6 = 0$." }
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 5x + 6) = 1 \\Rightarrow x^2 - 5x + 6 = 2$" },
+        { "tipe": "paragraph", "text": "$x^2 - 5x + 4 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 1)(x - 4) = 0 \\Rightarrow x = 1$ atau $x = 4$" },
+        { "tipe": "paragraph", "text": "Kedua nilai memenuhi syarat numerus $x^2 - 5x + 6 > 0$." }
       ],
       "tingkat": "SEDANG"
     },
