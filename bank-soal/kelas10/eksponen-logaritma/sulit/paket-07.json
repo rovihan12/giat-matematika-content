@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-07-q01",
@@ -52,24 +52,23 @@
     {
       "id": "bs-k10-eks-sulit-07-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^{1/2}\\log(x^2 - 2x - 3) \\leq -2$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^{1/2}\\log(x^2 - 2x - 11) \\leq -2$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-3 \\leq x < -1$ atau $3 < x \\leq 5$" } ],
         [ { "tipe": "paragraph", "text": "$-1 < x < 3$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 3$" } ],
         [ { "tipe": "paragraph", "text": "$-3 \\leq x \\leq 5$" } ],
-        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 5$" } ]
+        [ { "tipe": "paragraph", "text": "$x \\leq -3$ atau $x \\geq 5$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 2x - 3 > 0 \\Rightarrow (x-3)(x+1) > 0 \\Rightarrow x < -1$ atau $x > 3$" },
-        { "tipe": "paragraph", "text": "Basis $\\dfrac{1}{2} < 1$, tanda berbalik:" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 3 \\geq \\left(\\dfrac{1}{2}\\right)^{-2} = 4$" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 7 \\geq 0$" },
-        { "tipe": "paragraph", "text": "Akar: $x = 1 \\pm 2\\sqrt{2}$. Karena $1 - 2\\sqrt{2} \\approx -1{,}83$ dan $1 + 2\\sqrt{2} \\approx 3{,}83$." },
-        { "tipe": "paragraph", "text": "Irisan dengan domain menghasilkan $x \\leq 1 - 2\\sqrt{2}$ atau $x \\geq 1 + 2\\sqrt{2}$." },
-        { "tipe": "paragraph", "text": "Bentuk yang setara pada pilihan: $-3 \\leq x < -1$ atau $3 < x \\leq 5$ (pendekatan interval dari pilihan terdekat)." }
+        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 2x - 11 > 0$" },
+        { "tipe": "paragraph", "text": "Karena basis $\\dfrac{1}{2} < 1$, tanda pertidaksamaan berbalik:" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x - 11 \\geq \\left(\\dfrac{1}{2}\\right)^{-2} = 4$" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x - 15 \\geq 0 \\Rightarrow (x - 5)(x + 3) \\geq 0$" },
+        { "tipe": "paragraph", "text": "$x \\leq -3$ atau $x \\geq 5$" },
+        { "tipe": "paragraph", "text": "Seluruh rentang ini memenuhi syarat domain $x^2 - 2x - 11 > 0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -117,7 +116,7 @@
     {
       "id": "bs-k10-eks-sulit-07-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $2^a \\cdot 8^b = 128$ dan $5^a \\cdot 5^b = 625$. Nilai $a \\cdot b$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $2^a \\cdot 8^b = 128$ dan $5^a \\cdot 5^b = 3125$. Nilai $a \\cdot b$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$3$" } ],
@@ -126,13 +125,13 @@
         [ { "tipe": "paragraph", "text": "$6$" } ],
         [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$2^a \\cdot 2^{3b} = 2^7 \\Rightarrow a + 3b = 7$" },
-        { "tipe": "paragraph", "text": "$5^{a+b} = 5^4 \\Rightarrow a + b = 4$" },
-        { "tipe": "paragraph", "text": "Kurangkan: $2b = 3 \\Rightarrow b = \\dfrac{3}{2}$" },
-        { "tipe": "paragraph", "text": "$a = 4 - \\dfrac{3}{2} = \\dfrac{5}{2}$" },
-        { "tipe": "paragraph", "text": "$a \\cdot b = \\dfrac{5}{2} \\cdot \\dfrac{3}{2} = \\dfrac{15}{4}$ (perlu dicek ulang) — versi bulat: $a + 3b = 7$, $a + b = 4$ menghasilkan $b = 1{,}5$; pilihan terdekat tidak cocok. Sebagai koreksi gunakan $5^{a} \\cdot 5^{b} = 625$ dan $2^a \\cdot 8^b = 512$: maka $a + 3b = 9$, $a + b = 4$, sehingga $b = 2{,}5$." }
+        { "tipe": "paragraph", "text": "$5^{a+b} = 5^5 \\Rightarrow a + b = 5$" },
+        { "tipe": "paragraph", "text": "Eliminasi: $(a+3b) - (a+b) = 7 - 5 \\Rightarrow 2b = 2 \\Rightarrow b = 1$" },
+        { "tipe": "paragraph", "text": "Substitusi: $a + 1 = 5 \\Rightarrow a = 4$" },
+        { "tipe": "paragraph", "text": "Nilai $a \\cdot b = 4 \\cdot 1 = 4$" }
       ],
       "tingkat": "SULIT"
     },
@@ -156,7 +155,7 @@
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-s-07-q08",
+      "id": "bs-k10-eks-sulit-07-q08",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 5x + 6) = 1$ adalah..." }
       ],
@@ -174,7 +173,7 @@
         { "tipe": "paragraph", "text": "$(x - 1)(x - 4) = 0 \\Rightarrow x = 1$ atau $x = 4$" },
         { "tipe": "paragraph", "text": "Kedua nilai memenuhi syarat numerus $x^2 - 5x + 6 > 0$." }
       ],
-      "tingkat": "SEDANG"
+      "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-eks-sulit-07-q09",
