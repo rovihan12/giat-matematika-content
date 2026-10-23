@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-13-q01",
@@ -43,9 +43,9 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "${}^{45}\\log 75 = \\dfrac{{}^2\\log 75}{{}^2\\log 45}$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 25) = a + 2b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 25) = a + 2b = 2b + a$" },
         { "tipe": "paragraph", "text": "${}^2\\log 45 = {}^2\\log(9 \\cdot 5) = 2a + b$" },
-        { "tipe": "paragraph", "text": "Jadi ${}^{45}\\log 75 = \\dfrac{a + 2b}{2a + b}$" }
+        { "tipe": "paragraph", "text": "Jadi ${}^{45}\\log 75 = \\dfrac{2b + a}{2a + b}$" }
       ],
       "tingkat": "SULIT"
     },
@@ -63,10 +63,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 3x - 10 > 0 \\Rightarrow (x-5)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 5$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 3x - 10) < 3 \\Rightarrow x^2 - 3x - 10 < 8$" },
+        { "tipe": "paragraph", "text": "Syarat domain numerus: $x^2 - 3x - 10 > 0 \\Rightarrow (x-5)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 5$" },
+        { "tipe": "paragraph", "text": "Pertidaksamaan: ${}^2\\log(x^2 - 3x - 10) < 3 \\Rightarrow x^2 - 3x - 10 < 2^3 = 8$" },
         { "tipe": "paragraph", "text": "$x^2 - 3x - 18 < 0 \\Rightarrow (x - 6)(x + 3) < 0 \\Rightarrow -3 < x < 6$" },
-        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 < x < -2$ atau $5 < x < 6$" }
+        { "tipe": "paragraph", "text": "Irisan antara domain dan pertidaksamaan: $-3 < x < -2$ atau $5 < x < 6$" }
       ],
       "tingkat": "SULIT"
     },
@@ -112,7 +112,7 @@
       ],
       "tingkat": "SULIT"
     },
-     {
+    {
       "id": "bs-k10-eks-sulit-13-q06",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $2^a \\cdot 8^b = 256$ dan $3^{a+b} = 81$. Nilai $a \\cdot b$ adalah..." }
