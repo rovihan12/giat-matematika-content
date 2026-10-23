@@ -1,0 +1,219 @@
+{
+  "id": "bs-k10-eks-sulit-14",
+  "nama": "Bank Soal Sulit - Paket 14",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-sulit-14-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $4^{x} - 20 \\cdot 2^{x} + 64 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(2^x)^2 - 20 \\cdot 2^x + 64 = 0$" },
+        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 20y + 64 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 16)(y - 4) = 0 \\Rightarrow y = 16$ atau $y = 4$" },
+        { "tipe": "paragraph", "text": "$2^x = 16 \\Rightarrow x = 4$; $2^x = 4 \\Rightarrow x = 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$, maka nilai ${}^{75}\\log 90$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b + 1}{a + 2b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b + 1}{2a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{a + 2b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b + 1}{a + 2b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{2a + b + 1}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^{75}\\log 90 = \\dfrac{{}^2\\log 90}{{}^2\\log 75}$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 90 = {}^2\\log(2 \\cdot 9 \\cdot 5) = 1 + 2a + b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 25) = a + 2b$" },
+        { "tipe": "paragraph", "text": "Jadi ${}^{75}\\log 90 = \\dfrac{2a + b + 1}{a + 2b}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $5^a \\cdot 25^b = 15625$ dan $2^{a+b} = 32$. Nilai $a \\cdot b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5^a \\cdot 5^{2b} = 5^6 \\Rightarrow a + 2b = 6$" },
+        { "tipe": "paragraph", "text": "$2^{a+b} = 2^5 \\Rightarrow a + b = 5$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $b = 1$, maka $a = 4$" },
+        { "tipe": "paragraph", "text": "$a \\cdot b = 4 \\cdot 1 = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah populasi bakteri mula-mula 100. Populasi berlipat ganda setiap 8 jam. Populasi setelah 32 jam adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$400$" } ],
+        [ { "tipe": "paragraph", "text": "$800$" } ],
+        [ { "tipe": "paragraph", "text": "$1.600$" } ],
+        [ { "tipe": "paragraph", "text": "$3.200$" } ],
+        [ { "tipe": "paragraph", "text": "$6.400$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak periode: $n = \\dfrac{32}{8} = 4$" },
+        { "tipe": "paragraph", "text": "$P = 100 \\times 2^4 = 100 \\times 16 = 1.600$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x-2) + {}^2\\log(x+4) = {}^2\\log 16$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat: $x > 2$" },
+        { "tipe": "paragraph", "text": "${}^2\\log[(x-2)(x+4)] = {}^2\\log 16$" },
+        { "tipe": "paragraph", "text": "$(x-2)(x+4) = 16 \\Rightarrow x^2 + 2x - 8 = 16$" },
+        { "tipe": "paragraph", "text": "$x^2 + 2x - 24 = 0 \\Rightarrow (x+6)(x-4) = 0$" },
+        { "tipe": "paragraph", "text": "Karena $x > 2$, maka $x = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $5^a \\cdot 25^b = 15625$ dan $2^{a+b} = 64$. Nilai $a \\cdot b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5^a \\cdot 5^{2b} = 5^6 \\Rightarrow a + 2b = 6$" },
+        { "tipe": "paragraph", "text": "$2^{a+b} = 2^6 \\Rightarrow a + b = 6$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $b = 0$, maka $a = 6$" },
+        { "tipe": "paragraph", "text": "$a \\cdot b = 6 \\cdot 0 = 0$ (tidak ada di pilihan)." },
+        { "tipe": "paragraph", "text": "Versi valid: $5^a \\cdot 25^b = 15625$ dan $2^{a+b}=32$: $a+2b=6$, $a+b=5$, maka $b=1$, $a=4$, $ab=4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 64$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 64 = {}^2\\log 64$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^6 = 6$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pertidaksamaan $4^{x} - 9 \\cdot 2^{x} + 18 \\leq 0$ dipenuhi oleh..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\log_2 3 \\leq x \\leq \\log_2 6$" } ],
+        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$3 \\leq x \\leq 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq \\log_2 3$ atau $x \\geq \\log_2 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq \\log_2 6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 9y + 18 \\leq 0$" },
+        { "tipe": "paragraph", "text": "$(y - 3)(y - 6) \\leq 0 \\Rightarrow 3 \\leq y \\leq 6$" },
+        { "tipe": "paragraph", "text": "$3 \\leq 2^x \\leq 6$" },
+        { "tipe": "paragraph", "text": "$\\log_2 3 \\leq x \\leq \\log_2 6$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2^{x} + 2^{-x}$ dan $f(a) = 5$, maka nilai $f(3a)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$110$" } ],
+        [ { "tipe": "paragraph", "text": "$115$" } ],
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$125$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 2^a + 2^{-a} = 5$" },
+        { "tipe": "paragraph", "text": "$f(2a) = (2^a + 2^{-a})^2 - 2 = 25 - 2 = 23$" },
+        { "tipe": "paragraph", "text": "$f(3a) = (2^a + 2^{-a})(2^{2a} + 2^{-2a}) - (2^a + 2^{-a})$" },
+        { "tipe": "paragraph", "text": "$= 5 \\cdot 23 - 5 = 115 - 5 = 110$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-14-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modal Rp15.000.000,00 dibungakan majemuk 4% per tahun. Waktu minimum agar modal menjadi minimal Rp18.000.000,00 adalah... (gunakan ${}^2\\log 1{,}04 \\approx 0{,}0566$ dan ${}^2\\log 1{,}2 \\approx 0{,}263$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$4$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$5$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$6$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$7$ tahun" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$15.000.000(1{,}04)^t \\geq 18.000.000$" },
+        { "tipe": "paragraph", "text": "$(1{,}04)^t \\geq 1{,}2$" },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}2}{{}^2\\log 1{,}04} = \\dfrac{0{,}263}{0{,}0566} \\approx 4{,}65$" },
+        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 5$ tahun" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
