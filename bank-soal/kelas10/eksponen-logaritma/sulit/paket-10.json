@@ -1,0 +1,219 @@
+{
+  "id": "bs-k10-eks-sulit-10",
+  "nama": "Bank Soal Sulit - Paket 10",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-sulit-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $25^{x} - 26 \\cdot 5^{x} + 25 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(5^x)^2 - 26 \\cdot 5^x + 25 = 0$" },
+        { "tipe": "paragraph", "text": "Misal $y = 5^x$: $y^2 - 26y + 25 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 25)(y - 1) = 0 \\Rightarrow y = 25$ atau $y = 1$" },
+        { "tipe": "paragraph", "text": "$5^x = 25 \\Rightarrow x = 2$; $5^x = 1 \\Rightarrow x = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika ${}^2\\log 3 = a$ dan ${}^2\\log 7 = b$, maka nilai ${}^{21}\\log 56$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 3b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3a + b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{a + 3b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{3a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{a + b}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^{21}\\log 56 = \\dfrac{{}^2\\log 56}{{}^2\\log 21}$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 56 = {}^2\\log(8 \\cdot 7) = 3 + b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 21 = {}^2\\log(3 \\cdot 7) = a + b$" },
+        { "tipe": "paragraph", "text": "Jadi ${}^{21}\\log 56 = \\dfrac{3 + b}{a + b}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 3x - 4) < 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-2 < x < -1$ atau $4 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 3x - 4 > 0 \\Rightarrow (x-4)(x+1) > 0 \\Rightarrow x < -1$ atau $x > 4$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 3x - 4) < 3 \\Rightarrow x^2 - 3x - 4 < 8$" },
+        { "tipe": "paragraph", "text": "$x^2 - 3x - 12 < 0$" },
+        { "tipe": "paragraph", "text": "Akar: $x = \\dfrac{3 \\pm \\sqrt{57}}{2} \\approx -2{,}27$ dan $5{,}27$." },
+        { "tipe": "paragraph", "text": "Irisan dengan domain: $-2 < x < -1$ atau $4 < x < 5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah populasi bakteri mula-mula 250. Populasi berlipat ganda setiap 6 jam. Populasi setelah 24 jam adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1.000$" } ],
+        [ { "tipe": "paragraph", "text": "$2.000$" } ],
+        [ { "tipe": "paragraph", "text": "$4.000$" } ],
+        [ { "tipe": "paragraph", "text": "$8.000$" } ],
+        [ { "tipe": "paragraph", "text": "$16.000$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak periode: $n = \\dfrac{24}{6} = 4$" },
+        { "tipe": "paragraph", "text": "$P = 250 \\times 2^4 = 250 \\times 16 = 4.000$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^3\\log(x-2) + {}^3\\log(x+2) = {}^3\\log 21$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 7$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat: $x - 2 > 0$ dan $x + 2 > 0 \\Rightarrow x > 2$" },
+        { "tipe": "paragraph", "text": "${}^3\\log[(x-2)(x+2)] = {}^3\\log 21$" },
+        { "tipe": "paragraph", "text": "$(x-2)(x+2) = 21 \\Rightarrow x^2 - 4 = 21$" },
+        { "tipe": "paragraph", "text": "$x^2 = 25 \\Rightarrow x = 5$ (karena $x > 2$)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $3^a \\cdot 9^b = 243$ dan $2^{a+b} = 32$. Nilai $a + 2b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3^a \\cdot 3^{2b} = 3^5 \\Rightarrow a + 2b = 5$" },
+        { "tipe": "paragraph", "text": "$2^{a+b} = 2^5 \\Rightarrow a + b = 5$" },
+        { "tipe": "paragraph", "text": "Dari kedua persamaan: $b = 0$, $a = 5$" },
+        { "tipe": "paragraph", "text": "Nilai $a + 2b = 5 + 0 = 5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 81$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 81 = {}^3\\log 81$" },
+        { "tipe": "paragraph", "text": "$= {}^3\\log 3^4 = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pertidaksamaan $9^{x} - 12 \\cdot 3^{x} + 27 > 0$ dipenuhi oleh..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x < 1$ atau $x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$1 < x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$2 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 3^x$: $y^2 - 12y + 27 > 0$" },
+        { "tipe": "paragraph", "text": "$(y - 3)(y - 9) > 0 \\Rightarrow y < 3$ atau $y > 9$" },
+        { "tipe": "paragraph", "text": "$3^x < 3$ atau $3^x > 9 = 3^2$" },
+        { "tipe": "paragraph", "text": "$x < 1$ atau $x > 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3^{x} + 3^{-x}$ dan $f(a) = 6$, maka nilai $f(2a)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 3^a + 3^{-a} = 6$" },
+        { "tipe": "paragraph", "text": "Kuadratkan: $(3^a + 3^{-a})^2 = 36$" },
+        { "tipe": "paragraph", "text": "$3^{2a} + 2 + 3^{-2a} = 36$" },
+        { "tipe": "paragraph", "text": "$3^{2a} + 3^{-2a} = 34$" },
+        { "tipe": "paragraph", "text": "$f(2a) = 34$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modal Rp12.000.000,00 dibungakan majemuk 5% per tahun. Waktu minimum agar modal menjadi minimal Rp15.000.000,00 adalah... (gunakan ${}^2\\log 1{,}05 \\approx 0{,}0704$ dan ${}^2\\log 1{,}25 \\approx 0{,}322$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$4$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$5$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$6$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$7$ tahun" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$12.000.000(1{,}05)^t \\geq 15.000.000$" },
+        { "tipe": "paragraph", "text": "$(1{,}05)^t \\geq 1{,}25$" },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}25}{{}^2\\log 1{,}05} = \\dfrac{0{,}322}{0{,}0704} \\approx 4{,}57$" },
+        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 5$ tahun" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
