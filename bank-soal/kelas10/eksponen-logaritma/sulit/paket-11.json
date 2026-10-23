@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-11-q01",
@@ -52,7 +52,7 @@
     {
       "id": "bs-k10-eks-sulit-11-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - x - 6) \\leq 3$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - x - 4) \\leq 3$ dengan syarat domain $x^2 - x - 6 > 0$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-3 \\leq x < -2$ atau $3 < x \\leq 4$" } ],
@@ -64,10 +64,9 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Syarat domain: $x^2 - x - 6 > 0 \\Rightarrow (x-3)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 3$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - x - 6) \\leq 3 \\Rightarrow x^2 - x - 6 \\leq 8$" },
-        { "tipe": "paragraph", "text": "$x^2 - x - 14 \\leq 0$" },
-        { "tipe": "paragraph", "text": "Akar: $x = \\dfrac{1 \\pm \\sqrt{57}}{2} \\approx -3{,}27$ dan $4{,}27$." },
-        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 \\leq x < -2$ atau $3 < x \\leq 4$" }
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - x - 4) \\leq 3 \\Rightarrow x^2 - x - 4 \\leq 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "$x^2 - x - 12 \\leq 0 \\Rightarrow (x - 4)(x + 3) \\leq 0 \\Rightarrow -3 \\leq x \\leq 4$" },
+        { "tipe": "paragraph", "text": "Irisan dari pertidaksamaan dan domain: $-3 \\leq x < -2$ atau $3 < x \\leq 4$" }
       ],
       "tingkat": "SULIT"
     },
@@ -124,12 +123,12 @@
         [ { "tipe": "paragraph", "text": "$6$" } ],
         [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "$2^a \\cdot 2^{2b} = 2^7 \\Rightarrow a + 2b = 7$" },
         { "tipe": "paragraph", "text": "$5^{a+b} = 5^4 \\Rightarrow a + b = 4$" },
         { "tipe": "paragraph", "text": "Kurangkan: $b = 3$, maka $a = 1$" },
-        { "tipe": "paragraph", "text": "$a \\cdot b = 1 \\cdot 3 = 3$" }
+        { "tipe": "paragraph", "text": "Nilai $a \\cdot b = 1 \\cdot 3 = 3$" }
       ],
       "tingkat": "SULIT"
     },
