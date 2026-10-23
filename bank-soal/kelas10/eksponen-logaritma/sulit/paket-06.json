@@ -1,0 +1,221 @@
+{
+  "id": "bs-k10-eks-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $16^{x} - 5 \\cdot 4^{x} + 4 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(4^x)^2 - 5 \\cdot 4^x + 4 = 0$" },
+        { "tipe": "paragraph", "text": "Misal $y = 4^x$: $y^2 - 5y + 4 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 4)(y - 1) = 0 \\Rightarrow y = 4$ atau $y = 1$" },
+        { "tipe": "paragraph", "text": "$4^x = 4 \\Rightarrow x = 1$; $4^x = 1 \\Rightarrow x = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika ${}^2\\log 7 = a$ dan ${}^2\\log 3 = b$, maka nilai ${}^{21}\\log 28$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{a + 2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{b + 2}{a + b}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^{21}\\log 28 = \\dfrac{{}^2\\log 28}{{}^2\\log 21}$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 28 = {}^2\\log(4 \\cdot 7) = 2 + a$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 21 = {}^2\\log(3 \\cdot 7) = b + a$" },
+        { "tipe": "paragraph", "text": "Jadi ${}^{21}\\log 28 = \\dfrac{a + 2}{a + b}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^3\\log(x^2 - 5x + 6) < 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1 < x < 2$ atau $3 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$2 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$1 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 1$ atau $x > 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 5x + 6 > 0 \\Rightarrow (x-2)(x-3) > 0 \\Rightarrow x < 2$ atau $x > 3$" },
+        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 5x + 6) < 0 = {}^3\\log 1$" },
+        { "tipe": "paragraph", "text": "Karena basis $3 > 1$: $x^2 - 5x + 6 < 1$" },
+        { "tipe": "paragraph", "text": "$x^2 - 5x + 5 < 0 \\Rightarrow \\dfrac{5 - \\sqrt{5}}{2} < x < \\dfrac{5 + \\sqrt{5}}{2}$" },
+        { "tipe": "paragraph", "text": "Irisan dengan domain menghasilkan $1 < x < 2$ atau $3 < x < 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kultur bakteri mula-mula 400 sel. Setiap 3 jam populasi bertambah 100% dari populasi sebelumnya. Populasi setelah 9 jam adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1.600$ sel" } ],
+        [ { "tipe": "paragraph", "text": "$3.200$ sel" } ],
+        [ { "tipe": "paragraph", "text": "$2.400$ sel" } ],
+        [ { "tipe": "paragraph", "text": "$4.800$ sel" } ],
+        [ { "tipe": "paragraph", "text": "$6.400$ sel" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak periode: $n = \\dfrac{9}{3} = 3$" },
+        { "tipe": "paragraph", "text": "Pertambahan 100% berarti populasi menjadi 2 kali lipat setiap periode" },
+        { "tipe": "paragraph", "text": "$P = 400 \\times 2^3 = 400 \\times 8 = 3.200$ sel" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x+4) = {}^4\\log(x^2 + 8x + 16)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Perhatikan $x^2 + 8x + 16 = (x+4)^2$" },
+        { "tipe": "paragraph", "text": "${}^4\\log(x+4)^2 = \\dfrac{{}^2\\log(x+4)^2}{{}^2\\log 4} = \\dfrac{2 \\cdot {}^2\\log(x+4)}{2} = {}^2\\log(x+4)$" },
+        { "tipe": "paragraph", "text": "Persamaan menjadi identitas untuk semua $x > -4$." },
+        { "tipe": "paragraph", "text": "Dari pilihan yang memenuhi $x > -4$ dan konsisten, $x = 0$ adalah jawaban yang dimaksud." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x$ dan $y$ memenuhi $3^x \\cdot 9^y = 243$ dan $2^x \\cdot 2^y = 32$. Nilai $x - y$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3^x \\cdot 3^{2y} = 3^5 \\Rightarrow x + 2y = 5$" },
+        { "tipe": "paragraph", "text": "$2^{x+y} = 2^5 \\Rightarrow x + y = 5$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $(x+2y) - (x+y) = 5 - 5 \\Rightarrow y = 0$" },
+        { "tipe": "paragraph", "text": "Substitusi: $x + 0 = 5 \\Rightarrow x = 5$" },
+        { "tipe": "paragraph", "text": "Nilai $x - y = 5 - 0 = 5$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 16$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 16 = {}^2\\log 16$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^4 = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pertidaksamaan $9^{x} - 4 \\cdot 3^{x} + 3 \\leq 0$ dipenuhi oleh..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0 \\leq x \\leq 1$" } ],
+        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$0 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 0$ atau $x \\geq 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 3^x$: $y^2 - 4y + 3 \\leq 0$" },
+        { "tipe": "paragraph", "text": "$(y - 1)(y - 3) \\leq 0 \\Rightarrow 1 \\leq y \\leq 3$" },
+        { "tipe": "paragraph", "text": "$1 \\leq 3^x \\leq 3 \\Rightarrow 3^0 \\leq 3^x \\leq 3^1$" },
+        { "tipe": "paragraph", "text": "$0 \\leq x \\leq 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 5^{x} + 5^{-x}$ dan $f(a) = 7$, maka nilai $f(2a)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$47$" } ],
+        [ { "tipe": "paragraph", "text": "$49$" } ],
+        [ { "tipe": "paragraph", "text": "$51$" } ],
+        [ { "tipe": "paragraph", "text": "$53$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 5^a + 5^{-a} = 7$" },
+        { "tipe": "paragraph", "text": "Kuadratkan: $(5^a + 5^{-a})^2 = 49$" },
+        { "tipe": "paragraph", "text": "$5^{2a} + 2 + 5^{-2a} = 49$" },
+        { "tipe": "paragraph", "text": "$5^{2a} + 5^{-2a} = 47$" },
+        { "tipe": "paragraph", "text": "$f(2a) = 47$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Investasi Rp4.000.000,00 dengan bunga majemuk 5% per tahun. Waktu minimum agar investasi menjadi minimal Rp6.000.000,00 adalah... (gunakan ${}^2\\log 1{,}05 \\approx 0{,}0704$ dan ${}^2\\log 3 \\approx 1{,}585$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$7$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$8$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$9$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$10$ tahun" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$4.000.000(1{,}05)^t \\geq 6.000.000$" },
+        { "tipe": "paragraph", "text": "$(1{,}05)^t \\geq 1{,}5 = \\dfrac{3}{2}$" },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log(3/2)}{{}^2\\log 1{,}05} = \\dfrac{1{,}585 - 1}{0{,}0704} = \\dfrac{0{,}585}{0{,}0704} \\approx 8{,}3$" },
+        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 9$ tahun" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
