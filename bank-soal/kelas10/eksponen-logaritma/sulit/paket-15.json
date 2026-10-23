@@ -1,0 +1,221 @@
+{
+  "id": "bs-k10-eks-sulit-15",
+  "nama": "Bank Soal Sulit - Paket 15",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-sulit-15-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $9^{x} - 30 \\cdot 3^{x} + 81 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(3^x)^2 - 30 \\cdot 3^x + 81 = 0$" },
+        { "tipe": "paragraph", "text": "Misal $y = 3^x$: $y^2 - 30y + 81 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 27)(y - 3) = 0 \\Rightarrow y = 27$ atau $y = 3$" },
+        { "tipe": "paragraph", "text": "$3^x = 27 \\Rightarrow x = 3$; $3^x = 3 \\Rightarrow x = 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$, maka nilai ${}^{40}\\log 75$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{3 + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{3 + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{2 + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{3 + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + 2b}{3 + b}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^{40}\\log 75 = \\dfrac{{}^2\\log 75}{{}^2\\log 40}$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 25) = a + 2b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 40 = {}^2\\log(8 \\cdot 5) = 3 + b$" },
+        { "tipe": "paragraph", "text": "Jadi ${}^{40}\\log 75 = \\dfrac{a + 2b}{3 + b}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 6x - 7) < 4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-3 < x < -1$ atau $7 < x < 9$" } ],
+        [ { "tipe": "paragraph", "text": "$-1 < x < 7$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 7$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 < x < 9$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 6x - 7 > 0 \\Rightarrow (x-7)(x+1) > 0 \\Rightarrow x < -1$ atau $x > 7$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 6x - 7) < 4 \\Rightarrow x^2 - 6x - 7 < 16$" },
+        { "tipe": "paragraph", "text": "$x^2 - 6x - 23 < 0$" },
+        { "tipe": "paragraph", "text": "Akar: $x = 3 \\pm 4\\sqrt{2} \\approx -2{,}66$ dan $8{,}66$." },
+        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 < x < -1$ atau $7 < x < 9$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah zat radioaktif memiliki waktu paruh 25 tahun. Jika massa awal 1.600 gram, massa setelah 100 tahun adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$200$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$100$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$50$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$25$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$400$ gram" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$" },
+        { "tipe": "paragraph", "text": "$M(100) = 1.600 \\left(\\dfrac{1}{2}\\right)^{100/25} = 1.600 \\left(\\dfrac{1}{2}\\right)^4$" },
+        { "tipe": "paragraph", "text": "$= 1.600 \\cdot \\dfrac{1}{16} = 100$ gram" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x-3) + {}^2\\log(x+2) = {}^2\\log 6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat: $x > 3$" },
+        { "tipe": "paragraph", "text": "${}^2\\log[(x-3)(x+2)] = {}^2\\log 6$" },
+        { "tipe": "paragraph", "text": "$(x-3)(x+2) = 6 \\Rightarrow x^2 - x - 6 = 6$" },
+        { "tipe": "paragraph", "text": "$x^2 - x - 12 = 0 \\Rightarrow (x-4)(x+3) = 0$" },
+        { "tipe": "paragraph", "text": "Karena $x > 3$, maka $x = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $2^a \\cdot 4^b = 128$ dan $3^{a+b} = 9$. Nilai $a \\cdot b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-15$" } ],
+        [ { "tipe": "paragraph", "text": "$-10$" } ],
+        [ { "tipe": "paragraph", "text": "$-5$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^a \\cdot 2^{2b} = 2^7 \\Rightarrow a + 2b = 7$" },
+        { "tipe": "paragraph", "text": "$3^{a+b} = 3^2 \\Rightarrow a + b = 2$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $b = 5$, maka $a = -3$" },
+        { "tipe": "paragraph", "text": "$a \\cdot b = (-3) \\cdot 5 = -15$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 81$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 81 = {}^3\\log 81$" },
+        { "tipe": "paragraph", "text": "$= {}^3\\log 3^4 = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pertidaksamaan $9^{x} - 4 \\cdot 3^{x} - 45 > 0$ dipenuhi oleh..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$0 < x < 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 3^x$: $y^2 - 4y - 45 > 0$" },
+        { "tipe": "paragraph", "text": "$(y - 9)(y + 5) > 0 \\Rightarrow y > 9$ atau $y < -5$" },
+        { "tipe": "paragraph", "text": "Karena $y = 3^x > 0$, maka $y > 9$" },
+        { "tipe": "paragraph", "text": "$3^x > 9 = 3^2 \\Rightarrow x > 2$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 4^{x} + 4^{-x}$ dan $f(a) = 7$, maka nilai $f(2a)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$47$" } ],
+        [ { "tipe": "paragraph", "text": "$49$" } ],
+        [ { "tipe": "paragraph", "text": "$51$" } ],
+        [ { "tipe": "paragraph", "text": "$53$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 4^a + 4^{-a} = 7$" },
+        { "tipe": "paragraph", "text": "Kuadratkan: $(4^a + 4^{-a})^2 = 49$" },
+        { "tipe": "paragraph", "text": "$4^{2a} + 2 + 4^{-2a} = 49$" },
+        { "tipe": "paragraph", "text": "$4^{2a} + 4^{-2a} = 47$" },
+        { "tipe": "paragraph", "text": "$f(2a) = 47$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-15-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modal Rp20.000.000,00 dibungakan majemuk 3% per tahun. Waktu minimum agar modal menjadi minimal Rp23.000.000,00 adalah... (gunakan ${}^2\\log 1{,}03 \\approx 0{,}0427$ dan ${}^2\\log 1{,}15 \\approx 0{,}2016$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$4$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$5$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$6$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$7$ tahun" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$20.000.000(1{,}03)^t \\geq 23.000.000$" },
+        { "tipe": "paragraph", "text": "$(1{,}03)^t \\geq 1{,}15$" },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}15}{{}^2\\log 1{,}03} = \\dfrac{0{,}2016}{0{,}0427} \\approx 4{,}72$" },
+        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 5$ tahun" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
