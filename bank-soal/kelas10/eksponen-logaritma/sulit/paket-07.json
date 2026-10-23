@@ -156,25 +156,25 @@
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-07-q08",
+      "id": "bs-k10-eks-s-07-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pertidaksamaan $4^{x} - 3 \\cdot 2^{x+1} + 8 < 0$ dipenuhi oleh..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 5x + 6) = 1$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1 < x < 2$" } ],
-        [ { "tipe": "paragraph", "text": "$0 < x < 1$" } ],
-        [ { "tipe": "paragraph", "text": "$2 < x < 3$" } ],
-        [ { "tipe": "paragraph", "text": "$x < 1$ atau $x > 2$" } ],
-        [ { "tipe": "paragraph", "text": "$x > 2$" } ]
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 5$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(2^x)^2 - 6 \\cdot 2^x + 8 < 0$" },
-        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 6y + 8 < 0$" },
-        { "tipe": "paragraph", "text": "$(y - 2)(y - 4) < 0 \\Rightarrow 2 < y < 4$" },
-        { "tipe": "paragraph", "text": "$2 < 2^x < 4 = 2^2 \\Rightarrow 1 < x < 2$" }
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 5x + 6) = 1 \\Rightarrow x^2 - 5x + 6 = 2$" },
+        { "tipe": "paragraph", "text": "$x^2 - 5x + 4 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 1)(x - 4) = 0 \\Rightarrow x = 1$ atau $x = 4$" },
+        { "tipe": "paragraph", "text": "Kedua nilai memenuhi syarat numerus $x^2 - 5x + 6 > 0$." }
       ],
-      "tingkat": "SULIT"
+      "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-eks-sulit-07-q09",
