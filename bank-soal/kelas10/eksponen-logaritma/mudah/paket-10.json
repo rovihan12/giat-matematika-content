@@ -1,0 +1,191 @@
+{
+  "id": "bs-k10-eks-mudah-10",
+  "nama": "Bank Soal Mudah - Paket 10",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sifat dasar eksponen dan logaritma",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-m-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $2^6 \\cdot 2^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2^9$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{18}$" } ],
+        [ { "tipe": "paragraph", "text": "$4^9$" } ],
+        [ { "tipe": "paragraph", "text": "$2^3$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^6 \\cdot 2^3 = 2^{6+3} = 2^9$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\dfrac{10^{12}}{10^5 \\cdot 10^3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10^4$" } ],
+        [ { "tipe": "paragraph", "text": "$10^{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$10^{20}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^4$" } ],
+        [ { "tipe": "paragraph", "text": "$10^{-4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{10^{12}}{10^5 \\cdot 10^3} = \\dfrac{10^{12}}{10^8} = 10^{12-8} = 10^4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\left(2^4\\right)^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2^6$" } ],
+        [ { "tipe": "paragraph", "text": "$2^8$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$4^8$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{2}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(2^4\\right)^2 = 2^{4 \\cdot 2} = 2^8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $(-5)^0 + 3^0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(-5)^0 = 1$ dan $3^0 = 1$, sehingga $(-5)^0 + 3^0 = 1 + 1 = 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\left(\\dfrac{2}{7}\\right)^{-2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{49}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{49}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{4}{49}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{49}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{2}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{2}{7}\\right)^{-2} = \\left(\\dfrac{7}{2}\\right)^2 = \\dfrac{49}{4}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk logaritma dari $9^2 = 81$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^9\\log 81 = 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^2\\log 81 = 9$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{81}\\log 9 = 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^9\\log 2 = 81$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{81}\\log 2 = 9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika $a^c = b$, maka ${}^a\\log b = c$. Dari $9^2 = 81$ diperoleh ${}^9\\log 81 = 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log \\dfrac{1}{8}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$-3$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log \\dfrac{1}{8} = {}^2\\log 2^{-3} = -3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari ${}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^5\\log 10$" } ],
+        [ { "tipe": "paragraph", "text": "${}^5\\log 30$" } ],
+        [ { "tipe": "paragraph", "text": "${}^5\\log 15$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{30}\\log 5$" } ],
+        [ { "tipe": "paragraph", "text": "${}^5\\log 6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5 = {}^5\\log(2 \\cdot 3 \\cdot 5) = {}^5\\log 30$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\dfrac{8^9}{8^4 \\cdot 8^3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8^2$" } ],
+        [ { "tipe": "paragraph", "text": "$8^4$" } ],
+        [ { "tipe": "paragraph", "text": "$8^{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^2$" } ],
+        [ { "tipe": "paragraph", "text": "$8^{-2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{8^9}{8^4 \\cdot 8^3} = \\dfrac{8^9}{8^7} = 8^{9-7} = 8^2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\left(\\dfrac{1}{10}\\right)^{-2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-100$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{100}$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{100}$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{10}\\right)^{-2} = 10^2 = 100$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
