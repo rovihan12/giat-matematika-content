@@ -1,0 +1,191 @@
+{
+  "id": "bs-k10-eks-mudah-06",
+  "nama": "Bank Soal Mudah - Paket 6",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sifat dasar eksponen dan logaritma",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-m-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $2^5 \\cdot 2^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2^7$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$4^7$" } ],
+        [ { "tipe": "paragraph", "text": "$2^3$" } ],
+        [ { "tipe": "paragraph", "text": "$2^{2{,}5}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^5 \\cdot 2^2 = 2^{5+2} = 2^7$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\dfrac{3^{10}}{3^7}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3^{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$3^3$" } ],
+        [ { "tipe": "paragraph", "text": "$3^{70}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^3$" } ],
+        [ { "tipe": "paragraph", "text": "$3^{-3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{3^{10}}{3^7} = 3^{10-7} = 3^3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $(7^2)^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7^5$" } ],
+        [ { "tipe": "paragraph", "text": "$7^6$" } ],
+        [ { "tipe": "paragraph", "text": "$7^9$" } ],
+        [ { "tipe": "paragraph", "text": "$49^3$" } ],
+        [ { "tipe": "paragraph", "text": "$7^{1{,}5}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(7^2)^3 = 7^{2 \\cdot 3} = 7^6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $25^0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$-25$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{25}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Setiap bilangan tak nol berpangkat nol sama dengan 1, jadi $25^0 = 1$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $7^{-2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-49$" } ],
+        [ { "tipe": "paragraph", "text": "$-14$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{49}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$7^{-2} = \\dfrac{1}{7^2} = \\dfrac{1}{49}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk logaritma dari $6^2 = 36$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^6\\log 36 = 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^2\\log 36 = 6$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{36}\\log 6 = 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^6\\log 2 = 36$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{36}\\log 2 = 6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika $a^c = b$, maka ${}^a\\log b = c$. Dari $6^2 = 36$ diperoleh ${}^6\\log 36 = 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^5\\log 625$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^5\\log 625 = {}^5\\log 5^4 = 4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari ${}^4\\log 3 + {}^4\\log 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "${}^4\\log 8$" } ],
+        [ { "tipe": "paragraph", "text": "${}^4\\log 15$" } ],
+        [ { "tipe": "paragraph", "text": "${}^4\\log 2$" } ],
+        [ { "tipe": "paragraph", "text": "${}^{15}\\log 4$" } ],
+        [ { "tipe": "paragraph", "text": "${}^4\\log 1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^4\\log 3 + {}^4\\log 5 = {}^4\\log (3 \\cdot 5) = {}^4\\log 15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $11^6 : 11^4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$11^2$" } ],
+        [ { "tipe": "paragraph", "text": "$11^{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$11^{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$1^2$" } ],
+        [ { "tipe": "paragraph", "text": "$11^{-2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{11^6}{11^4} = 11^{6-4} = 11^2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-eks-m-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\left(\\dfrac{1}{6}\\right)^{-1}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-6$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{6}\\right)^{-1} = \\dfrac{1}{1/6} = 6$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
