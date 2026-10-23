@@ -1,0 +1,204 @@
+{
+  "id": "bs-k10-eks-sedang-12",
+  "nama": "Bank Soal Sedang - Paket 12",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang persamaan eksponen, logaritma, dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-s-12-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $2^{4x-3} = 32$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^{4x-3} = 32 = 2^5$" },
+        { "tipe": "paragraph", "text": "$4x - 3 = 5 \\Rightarrow 4x = 8 \\Rightarrow x = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^3\\log(5x - 4) = 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^3\\log(5x - 4) = 2 \\Rightarrow 5x - 4 = 3^2 = 9$" },
+        { "tipe": "paragraph", "text": "$5x = 13 \\Rightarrow x = \\dfrac{13}{5}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $9^{x-1} = 3^{x+3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$9^{x-1} = 3^{x+3} \\Rightarrow (3^2)^{x-1} = 3^{x+3}$" },
+        { "tipe": "paragraph", "text": "$2x - 2 = x + 3 \\Rightarrow x = 5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 50 - {}^2\\log 25$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 50 - {}^2\\log 25 = {}^2\\log\\left(\\dfrac{50}{25}\\right) = {}^2\\log 2 = 1$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 3 \\cdot {}^3\\log 6 \\cdot {}^6\\log 8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 6 \\cdot {}^6\\log 8 = {}^2\\log 8$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^3 = 3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $3^{x^2 - 3x - 4} = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3^{x^2 - 3x - 4} = 1 = 3^0$" },
+        { "tipe": "paragraph", "text": "$x^2 - 3x - 4 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 4)(x + 1) = 0 \\Rightarrow x = 4$ atau $x = -1$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^4\\log 3 \\cdot {}^3\\log 32$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^4\\log 3 \\cdot {}^3\\log 32 = {}^4\\log 32$" },
+        { "tipe": "paragraph", "text": "$= {}^4\\log 2^5 = 5 \\cdot {}^4\\log 2 = 5 \\cdot \\dfrac{1}{2} = \\dfrac{5}{2}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x^2 - 5x + 6) = 1$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 5x + 6) = 1 \\Rightarrow x^2 - 5x + 6 = 2$" },
+        { "tipe": "paragraph", "text": "$x^2 - 5x + 4 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 1)(x - 4) = 0 \\Rightarrow x = 1$ atau $x = 4$" },
+        { "tipe": "paragraph", "text": "Kedua nilai memenuhi syarat numerus $x^2 - 5x + 6 > 0$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $2^{x} < \\dfrac{1}{16}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x < -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^x < \\dfrac{1}{16} = 2^{-4}$" },
+        { "tipe": "paragraph", "text": "Karena basis $2 > 1$: $x < -4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-eks-s-12-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tabungan Rp1.800.000,00 dibungakan majemuk 10% per tahun. Besar tabungan setelah 2 tahun adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp1.980.000,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.000.000,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.178.000,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.200.000,00" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.250.000,00" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$M_2 = M_0(1 + i)^2 = 1.800.000(1{,}1)^2$" },
+        { "tipe": "paragraph", "text": "$(1{,}1)^2 = 1{,}21$" },
+        { "tipe": "paragraph", "text": "$M_2 = 1.800.000 \\times 1{,}21 = 2.178.000$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
