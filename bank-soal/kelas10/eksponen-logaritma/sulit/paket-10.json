@@ -5,7 +5,7 @@
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-eks-sulit-10-q01",
@@ -34,7 +34,7 @@
         { "tipe": "paragraph", "text": "Jika ${}^2\\log 3 = a$ dan ${}^2\\log 7 = b$, maka nilai ${}^{21}\\log 56$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 3b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{b + 3}{a + b}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{3a + b}{a + b}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{a + 3b}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{3a + b}$" } ],
@@ -52,7 +52,7 @@
     {
       "id": "bs-k10-eks-sulit-10-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 3x - 4) < 3$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 3x - 2) < 3$ dengan syarat domain $x^2 - 3x - 4 > 0$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-2 < x < -1$ atau $4 < x < 5$" } ],
@@ -64,10 +64,9 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 3x - 4 > 0 \\Rightarrow (x-4)(x+1) > 0 \\Rightarrow x < -1$ atau $x > 4$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 3x - 4) < 3 \\Rightarrow x^2 - 3x - 4 < 8$" },
-        { "tipe": "paragraph", "text": "$x^2 - 3x - 12 < 0$" },
-        { "tipe": "paragraph", "text": "Akar: $x = \\dfrac{3 \\pm \\sqrt{57}}{2} \\approx -2{,}27$ dan $5{,}27$." },
-        { "tipe": "paragraph", "text": "Irisan dengan domain: $-2 < x < -1$ atau $4 < x < 5$" }
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 3x - 2) < 3 \\Rightarrow x^2 - 3x - 2 < 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "$x^2 - 3x - 10 < 0 \\Rightarrow (x - 5)(x + 2) < 0 \\Rightarrow -2 < x < 5$" },
+        { "tipe": "paragraph", "text": "Irisan dari pertidaksamaan dan domain: $-2 < x < -1$ atau $4 < x < 5$" }
       ],
       "tingkat": "SULIT"
     },
