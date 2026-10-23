@@ -1,0 +1,220 @@
+{
+  "id": "bs-k10-eks-sulit-11",
+  "nama": "Bank Soal Sulit - Paket 11",
+  "kelas": 10,
+  "kategori": "Eksponen dan Logaritma",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang eksponen, logaritma, dan pemodelan matematika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-eks-sulit-11-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $4^{x} - 6 \\cdot 2^{x} + 8 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(2^x)^2 - 6 \\cdot 2^x + 8 = 0$" },
+        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 6y + 8 = 0$" },
+        { "tipe": "paragraph", "text": "$(y - 4)(y - 2) = 0 \\Rightarrow y = 4$ atau $y = 2$" },
+        { "tipe": "paragraph", "text": "$2^x = 4 \\Rightarrow x = 2$; $2^x = 2 \\Rightarrow x = 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika ${}^3\\log 2 = a$ dan ${}^3\\log 7 = b$, maka nilai ${}^{14}\\log 24$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3a + 1}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 3}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3a + b}{a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{3a + 1}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 3b}{a + b}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^{14}\\log 24 = \\dfrac{{}^3\\log 24}{{}^3\\log 14}$" },
+        { "tipe": "paragraph", "text": "${}^3\\log 24 = {}^3\\log(8 \\cdot 3) = 3a + 1$" },
+        { "tipe": "paragraph", "text": "${}^3\\log 14 = {}^3\\log(2 \\cdot 7) = a + b$" },
+        { "tipe": "paragraph", "text": "Jadi ${}^{14}\\log 24 = \\dfrac{3a + 1}{a + b}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - x - 6) \\leq 3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-3 \\leq x < -2$ atau $3 < x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -2$ atau $x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 \\leq x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - x - 6 > 0 \\Rightarrow (x-3)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 3$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - x - 6) \\leq 3 \\Rightarrow x^2 - x - 6 \\leq 8$" },
+        { "tipe": "paragraph", "text": "$x^2 - x - 14 \\leq 0$" },
+        { "tipe": "paragraph", "text": "Akar: $x = \\dfrac{1 \\pm \\sqrt{57}}{2} \\approx -3{,}27$ dan $4{,}27$." },
+        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 \\leq x < -2$ atau $3 < x \\leq 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah zat radioaktif memiliki waktu paruh 8 tahun. Jika massa awal 640 gram, massa setelah 32 tahun adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$80$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$40$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$20$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$10$ gram" } ],
+        [ { "tipe": "paragraph", "text": "$5$ gram" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$" },
+        { "tipe": "paragraph", "text": "$M(32) = 640 \\left(\\dfrac{1}{2}\\right)^{32/8} = 640 \\left(\\dfrac{1}{2}\\right)^4$" },
+        { "tipe": "paragraph", "text": "$= 640 \\cdot \\dfrac{1}{16} = 40$ gram" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x-1) + {}^2\\log(x+6) = {}^2\\log 30$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat: $x > 1$" },
+        { "tipe": "paragraph", "text": "${}^2\\log[(x-1)(x+6)] = {}^2\\log 30$" },
+        { "tipe": "paragraph", "text": "$x^2 + 5x - 6 = 30 \\Rightarrow x^2 + 5x - 36 = 0$" },
+        { "tipe": "paragraph", "text": "$(x + 9)(x - 4) = 0 \\Rightarrow x = 4$ (karena $x > 1$)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $2^a \\cdot 4^b = 128$ dan $5^{a+b} = 625$. Nilai $a \\cdot b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2^a \\cdot 2^{2b} = 2^7 \\Rightarrow a + 2b = 7$" },
+        { "tipe": "paragraph", "text": "$5^{a+b} = 5^4 \\Rightarrow a + b = 4$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $b = 3$, maka $a = 1$" },
+        { "tipe": "paragraph", "text": "$a \\cdot b = 1 \\cdot 3 = 3$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 16$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 16 = {}^2\\log 16$" },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^4 = 4$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pertidaksamaan $4^{x} - 10 \\cdot 2^{x} + 16 \\leq 0$ dipenuhi oleh..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$0 \\leq x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 1$ atau $x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 10y + 16 \\leq 0$" },
+        { "tipe": "paragraph", "text": "$(y - 2)(y - 8) \\leq 0 \\Rightarrow 2 \\leq y \\leq 8$" },
+        { "tipe": "paragraph", "text": "$2 \\leq 2^x \\leq 8 = 2^3$" },
+        { "tipe": "paragraph", "text": "$1 \\leq x \\leq 3$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 5^{x} + 5^{-x}$ dan $f(a) = 3$, maka nilai $f(2a)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(a) = 5^a + 5^{-a} = 3$" },
+        { "tipe": "paragraph", "text": "Kuadratkan: $(5^a + 5^{-a})^2 = 9$" },
+        { "tipe": "paragraph", "text": "$5^{2a} + 2 + 5^{-2a} = 9$" },
+        { "tipe": "paragraph", "text": "$5^{2a} + 5^{-2a} = 7$" },
+        { "tipe": "paragraph", "text": "$f(2a) = 7$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-eks-sulit-11-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modal Rp5.000.000,00 dibungakan majemuk 6% per tahun. Waktu minimum agar modal menjadi minimal Rp7.000.000,00 adalah... (gunakan ${}^2\\log 1{,}06 \\approx 0{,}084$ dan ${}^2\\log 1{,}4 \\approx 0{,}485$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$5$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$6$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$7$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$8$ tahun" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$5.000.000(1{,}06)^t \\geq 7.000.000$" },
+        { "tipe": "paragraph", "text": "$(1{,}06)^t \\geq 1{,}4$" },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}4}{{}^2\\log 1{,}06} = \\dfrac{0{,}485}{0{,}084} \\approx 5{,}77$" },
+        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 6$ tahun" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
