@@ -146,7 +146,7 @@
     {
       "id": "bs-k10-eks-s-07-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^3\\log(x^2 - 4x) = 1$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^3\\log(x^2 - 4x - 2) = 1$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = 5$" } ],
@@ -157,9 +157,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 4x) = 1 \\Rightarrow x^2 - 4x = 3^1 = 3$" },
-        { "tipe": "paragraph", "text": "$x^2 - 4x - 3 = 0$ tidak bulat. Karena itu gunakan numerus yang tepat:" },
-        { "tipe": "paragraph", "text": "Soal yang benar: ${}^3\\log(x^2 - 4x - 1) = 1 \\Rightarrow x^2 - 4x - 1 = 3 \\Rightarrow x^2 - 4x - 4 = 0$ (tidak bulat)." }
+        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 4x - 2) = 1 \\Rightarrow x^2 - 4x - 2 = 3^1 = 3$" },
+        { "tipe": "paragraph", "text": "$x^2 - 4x - 5 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 5)(x + 1) = 0 \\Rightarrow x = 5$ atau $x = -1$" }
       ],
       "tingkat": "SEDANG"
     },
