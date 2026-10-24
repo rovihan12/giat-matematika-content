@@ -1,0 +1,200 @@
+{
+  "id": "bs-k10-bd-m-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang suku ke-n, jumlah deret, dan pola bilangan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-m-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku berikutnya dari barisan $7, 12, 17, 22, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Beda = $12 - 7 = 5$." },
+        { "tipe": "paragraph", "text": "Suku berikutnya = $22 + 5 = 27$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku berikutnya dari barisan $2, 6, 18, 54, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$108$" } ],
+        [ { "tipe": "paragraph", "text": "$144$" } ],
+        [ { "tipe": "paragraph", "text": "$162$" } ],
+        [ { "tipe": "paragraph", "text": "$216$" } ],
+        [ { "tipe": "paragraph", "text": "$324$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rasio = $6/2 = 3$." },
+        { "tipe": "paragraph", "text": "Suku berikutnya = $54 \\times 3 = 162$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-10 dari barisan aritmatika $2, 6, 10, 14, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$34$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $b = 4$." },
+        { "tipe": "paragraph", "text": "$U_{10} = 2 + 9 \\cdot 4 = 38$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-4 dari barisan geometri $5, 10, 20, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 5$, $r = 2$." },
+        { "tipe": "paragraph", "text": "$U_4 = 5 \\cdot 2^3 = 40$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus suku ke-$n$ barisan $9, 13, 17, 21, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$U_n = 4n + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 4n - 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 4n + 9$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 4$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 9n + 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 9$, $b = 4$." },
+        { "tipe": "paragraph", "text": "$U_n = 9 + (n-1) \\cdot 4 = 4n + 5$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 5 suku pertama deret $3 + 6 + 9 + 12 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 3$, $b = 3$, $n = 5$." },
+        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{5}{2}(2 \\cdot 3 + 4 \\cdot 3) = \\dfrac{5}{2}(6 + 12) = \\dfrac{5}{2} \\cdot 18 = 45$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 4 suku pertama deret geometri $2 + 6 + 18 + 54$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ],
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$85$" } ],
+        [ { "tipe": "paragraph", "text": "$90$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_4 = 2 + 6 + 18 + 54 = 80$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-7 dari barisan $3, 5, 7, 9, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 3$, $b = 2$." },
+        { "tipe": "paragraph", "text": "$U_7 = 3 + 6 \\cdot 2 = 15$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-6 dari barisan $2, 6, 12, 20, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$56$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pola: $U_n = n(n+1)$." },
+        { "tipe": "paragraph", "text": "$U_6 = 6 \\cdot 7 = 42$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah tak hingga deret geometri $9 + 3 + 1 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{27}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{29}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 9$, $r = \\dfrac{1}{3}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{9}{1 - \\frac{1}{3}} = \\dfrac{9}{\\frac{2}{3}} = \\dfrac{27}{2}$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
