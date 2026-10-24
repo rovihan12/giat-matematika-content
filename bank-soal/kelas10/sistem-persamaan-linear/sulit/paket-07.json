@@ -1,0 +1,174 @@
+{
+  "id": "bs-k10-spl-m-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "MUDAH",
+  "deskripsi": "SPLDV dengan metode grafik dan substitusi dalam konteks sederhana",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-m-07-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian dari $x + y = 9$ dan $x - y = 1$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(5, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 5)$" }],
+        [{ "tipe": "paragraph", "text": "$(6, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 6)$" }],
+        [{ "tipe": "paragraph", "text": "$(7, 2)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 10 \\Rightarrow x = 5$, $y = 4$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $y$ dari sistem $2x + y = 10$ dan $x = 4$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$1$" }],
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2(4) + y = 10 \\Rightarrow y = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $3x + y = 11$ dan $x + y = 5$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\{(2, 3)\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{(3, 2)\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{(4, 1)\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{(1, 4)\\}$" }],
+        [{ "tipe": "paragraph", "text": "$\\{(5, 0)\\}$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kurangkan: $2x = 6 \\Rightarrow x = 3$, $y = 2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Dua bilangan jumlahnya 24 dan selisihnya 8. Bilangan terkecil adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }],
+        [{ "tipe": "paragraph", "text": "$9$" }],
+        [{ "tipe": "paragraph", "text": "$10$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a + b = 24$, $a - b = 8$." },
+        { "tipe": "paragraph", "text": "$2b = 16 \\Rightarrow b = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Harga 2 pensil dan 3 buku Rp19.000. Harga 1 buku Rp5.000. Harga 1 pensil adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp1.000" }],
+        [{ "tipe": "paragraph", "text": "Rp1.500" }],
+        [{ "tipe": "paragraph", "text": "Rp2.000" }],
+        [{ "tipe": "paragraph", "text": "Rp2.500" }],
+        [{ "tipe": "paragraph", "text": "Rp3.000" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2p + 15.000 = 19.000 \\Rightarrow 2p = 4.000 \\Rightarrow p = 2.000$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y = 6$ dan $2x + 2y = 12$ memiliki..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Tidak ada solusi" }],
+        [{ "tipe": "paragraph", "text": "Tepat satu solusi" }],
+        [{ "tipe": "paragraph", "text": "Tak hingga solusi" }],
+        [{ "tipe": "paragraph", "text": "Dua solusi" }],
+        [{ "tipe": "paragraph", "text": "Tiga solusi" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan kedua = 2 × pertama → berimpit → tak hingga solusi." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x + y$ dari $4x - y = 10$ dan $2x + y = 8$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $6x = 18 \\Rightarrow x = 3$, $y = 2$." },
+        { "tipe": "paragraph", "text": "$x + y = 5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Andi membeli 3 roti dan 2 susu Rp17.000. Jika 1 susu Rp4.000, harga 1 roti adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp2.000" }],
+        [{ "tipe": "paragraph", "text": "Rp3.000" }],
+        [{ "tipe": "paragraph", "text": "Rp4.000" }],
+        [{ "tipe": "paragraph", "text": "Rp5.000" }],
+        [{ "tipe": "paragraph", "text": "Rp6.000" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3r + 8.000 = 17.000 \\Rightarrow 3r = 9.000 \\Rightarrow r = 3.000$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian $2x + 3y = 12$ dan $x = y$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(2, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(2{,}4; 2{,}4)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(1{,}5; 1{,}5)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 4)$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$2x + 3x = 12 \\Rightarrow 5x = 12 \\Rightarrow x = 2{,}4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-07-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Selisih dua bilangan 10, jumlahnya 30. Hasil kali kedua bilangan adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$180$" }],
+        [{ "tipe": "paragraph", "text": "$200$" }],
+        [{ "tipe": "paragraph", "text": "$220$" }],
+        [{ "tipe": "paragraph", "text": "$240$" }],
+        [{ "tipe": "paragraph", "text": "$260$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a + b = 30$, $a - b = 10 \\Rightarrow a = 20$, $b = 10$." },
+        { "tipe": "paragraph", "text": "$ab = 200$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
