@@ -1,0 +1,203 @@
+{
+  "id": "bs-k10-fk-s-09",
+  "nama": "Bank Soal Sedang - Paket 9",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang grafik dan pertidaksamaan kuadrat (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-s-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 3x - 10 > 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > -5$" } ],
+        [ { "tipe": "paragraph", "text": "$-5 < x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 2)(x - 5) > 0$" },
+        { "tipe": "paragraph", "text": "HP = $x < -2$ atau $x > 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 7x + 12 \\leq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3 \\leq x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 3$ atau $x \\geq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$3 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$ atau $x > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-4 \\leq x \\leq -3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 3)(x - 4) \\leq 0$" },
+        { "tipe": "paragraph", "text": "HP = $3 \\leq x \\leq 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik $y = x^2 - 4x - 5$ berada di bawah sumbu-$x$ untuk..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-5 < x < 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -5$ atau $x > 1$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y < 0 \\Rightarrow (x + 1)(x - 5) < 0$" },
+        { "tipe": "paragraph", "text": "HP = $-1 < x < 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $3x^2 - 7x - 6 \\geq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -\\dfrac{2}{3}$ atau $x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{2}{3} \\leq x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -3$ atau $x \\geq \\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 \\leq x \\leq \\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(3x + 2)(x - 3) \\geq 0$" },
+        { "tipe": "paragraph", "text": "HP = $x \\leq -\\dfrac{2}{3}$ atau $x \\geq 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 + 6x + 9 > 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\neq -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$" } ],
+        [ { "tipe": "paragraph", "text": "Semua $x$" } ],
+        [ { "tipe": "paragraph", "text": "Tidak ada $x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 3)^2 > 0$" },
+        { "tipe": "paragraph", "text": "$(x+3)^2 \\geq 0$ untuk semua $x$, dan $= 0$ hanya saat $x = -3$." },
+        { "tipe": "paragraph", "text": "HP = $x \\neq -3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $x^2 - 9 < 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-3 < x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-9 < x < 9$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 3)(x + 3) < 0$" },
+        { "tipe": "paragraph", "text": "HP = $-3 < x < 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 3x - 10$, nilai $x$ yang membuat $f(x) = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-2$ dan $5$" } ],
+        [ { "tipe": "paragraph", "text": "$2$ dan $-5$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$ dan $-5$" } ],
+        [ { "tipe": "paragraph", "text": "$2$ dan $5$" } ],
+        [ { "tipe": "paragraph", "text": "$1$ dan $10$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 2)(x - 5) = 0$" },
+        { "tipe": "paragraph", "text": "$x = -2$ atau $x = 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Agar $x^2 + (k-2)x + 16 = 0$ tidak memiliki akar real, nilai $k$ yang memenuhi adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-6 < k < 10$" } ],
+        [ { "tipe": "paragraph", "text": "$k < -6$ atau $k > 10$" } ],
+        [ { "tipe": "paragraph", "text": "$-10 < k < 6$" } ],
+        [ { "tipe": "paragraph", "text": "$k > 10$" } ],
+        [ { "tipe": "paragraph", "text": "$k < -6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D < 0 \\Rightarrow (k-2)^2 - 64 < 0$" },
+        { "tipe": "paragraph", "text": "$(k-2)^2 < 64 \\Rightarrow -8 < k - 2 < 8$" },
+        { "tipe": "paragraph", "text": "$-6 < k < 10$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 8x + 15 < 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$ atau $x > 5$" } ],
+        [ { "tipe": "paragraph", "text": "$3 \\leq x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$-5 < x < -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 3)(x - 5) < 0$" },
+        { "tipe": "paragraph", "text": "HP = $3 < x < 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $(x - 2)(x + 4) \\geq 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x \\leq -4$ atau $x \\geq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$-4 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -2$ atau $x \\geq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 \\leq x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik kritis: $x = 2$ dan $x = -4$." },
+        { "tipe": "paragraph", "text": "HP = $x \\leq -4$ atau $x \\geq 2$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
