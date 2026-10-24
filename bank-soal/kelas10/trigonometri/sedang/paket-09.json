@@ -5,7 +5,7 @@
   "kategori": "Trigonometri",
   "tingkat": "SEDANG",
   "deskripsi": "Soal sedang tentang identitas trigonometri, persamaan, dan aturan segitiga (lanjutan)",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-trig-s-09-q01",
@@ -60,7 +60,7 @@
         [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{24}$" } ],
         [ { "tipe": "paragraph", "text": "$-\\dfrac{24}{25}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Di kuadran II: $\\sin \\alpha = \\dfrac{3}{5}$, $\\cos \\alpha = -\\dfrac{4}{5}$, $\\tan \\alpha = -\\dfrac{3}{4}$." },
         { "tipe": "paragraph", "text": "$\\tan 2\\alpha = \\dfrac{2\\tan \\alpha}{1 - \\tan^2 \\alpha}$." },
