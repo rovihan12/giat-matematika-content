@@ -1,0 +1,217 @@
+{
+  "id": "bs-k10-trig-m-10",
+  "nama": "Bank Soal Mudah - Paket 10 (Lanjutan)",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah campuran tentang perbandingan trigonometri, sudut istimewa, dan penerapan dasar (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-m-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku $ABC$ berikut. Nilai $\\sin \\alpha$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-abc-20-21-29.png",
+          "caption": "Segitiga siku-siku ABC dengan sisi tegak 21, sisi datar 20, dan sisi miring 29.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{29}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{21}{29}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{21}{20}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{29}{21}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut $\\alpha$ berada di antara sisi datar dan sisi miring. Sisi di hadapan sudut $\\alpha$ adalah sisi tegak (21)." },
+        { "tipe": "paragraph", "text": "$\\sin \\alpha = \\dfrac{\\text{depan}}{\\text{miring}} = \\dfrac{21}{29}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin 45° \\cdot \\csc 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ingat bahwa $\\csc \\theta = \\dfrac{1}{\\sin \\theta}$, sehingga $\\sin \\theta \\cdot \\csc \\theta = 1$." },
+        { "tipe": "paragraph", "text": "Jadi, $\\sin 45° \\cdot \\csc 45° = 1$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\cos x = \\dfrac{1}{2}$ dan $x$ berada di kuadran IV, maka nilai $x$ yang memenuhi untuk $0° \\le x \\le 360°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$120°$" } ],
+        [ { "tipe": "paragraph", "text": "$240°$" } ],
+        [ { "tipe": "paragraph", "text": "$300°$" } ],
+        [ { "tipe": "paragraph", "text": "$330°$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Nilai acuan: $\\cos 60° = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Di kuadran IV, nilai kosinus positif. Maka $x = 360° - 60° = 300°$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah tangga bersandar pada dinding membentuk sudut $30°$ dengan tanah. Jika tinggi ujung tangga di dinding adalah 3 m, panjang tangga tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$ m" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{2}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$6$ m" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{3}$ m" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 30° = \\dfrac{\\text{tinggi}}{\\text{panjang tangga}} \\Rightarrow \\dfrac{1}{2} = \\dfrac{3}{\\text{panjang tangga}}$." },
+        { "tipe": "paragraph", "text": "Panjang tangga = $6$ m." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku $PQR$ berikut. Nilai $\\tan \\theta$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-pqr-15-20-25.png",
+          "caption": "Segitiga siku-siku PQR dengan sisi tegak 15, sisi datar 20, dan sisi miring 25. Sudut theta berada di antara sisi tegak dan sisi miring.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut $\\theta$ berada di antara sisi tegak (samping) dan sisi miring." },
+        { "tipe": "paragraph", "text": "Sisi depan sudut $\\theta$ adalah sisi datar (20), sisi sampingnya adalah sisi tegak (15)." },
+        { "tipe": "paragraph", "text": "$\\tan \\theta = \\dfrac{\\text{depan}}{\\text{samping}} = \\dfrac{20}{15} = \\dfrac{4}{3}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos 45° + \\cos 135°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}\\sqrt{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 45° = \\dfrac{1}{2}\\sqrt{2}$." },
+        { "tipe": "paragraph", "text": "$\\cos 135° = \\cos(180° - 45°) = -\\cos 45° = -\\dfrac{1}{2}\\sqrt{2}$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2} + \\left(-\\dfrac{1}{2}\\sqrt{2}\\right) = 0$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui segitiga siku-siku dengan $\\tan \\beta = \\dfrac{5}{12}$ dan $\\beta$ sudut lancip. Nilai $\\cos \\beta$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{12}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan \\beta = \\dfrac{5}{12}$ → depan = 5, samping = 12." },
+        { "tipe": "paragraph", "text": "Miring = $\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$." },
+        { "tipe": "paragraph", "text": "$\\cos \\beta = \\dfrac{\\text{samping}}{\\text{miring}} = \\dfrac{12}{13}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sec 120°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-2$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{2}{3}\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 120° = -\\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$\\sec 120° = \\dfrac{1}{\\cos 120°} = \\dfrac{1}{-\\frac{1}{2}} = -2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah menara memiliki bayangan sepanjang 20 m saat sudut elevasi matahari $60°$. Tinggi menara tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$20\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$20\\sqrt{2}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$40$ m" } ],
+        [ { "tipe": "paragraph", "text": "$60$ m" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 60° = \\dfrac{\\text{tinggi}}{\\text{bayangan}}$." },
+        { "tipe": "paragraph", "text": "$\\sqrt{3} = \\dfrac{\\text{tinggi}}{20} \\Rightarrow \\text{tinggi} = 20\\sqrt{3}$ m." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin^2 60° + \\cos^2 60° - \\sin 90°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$, maka $\\sin^2 60° + \\cos^2 60° = 1$." },
+        { "tipe": "paragraph", "text": "$\\sin 90° = 1$." },
+        { "tipe": "paragraph", "text": "$1 - 1 = 0$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
