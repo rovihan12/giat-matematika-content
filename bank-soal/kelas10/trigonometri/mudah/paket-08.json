@@ -1,0 +1,213 @@
+{
+  "id": "bs-k10-trig-m-08",
+  "nama": "Bank Soal Mudah - Paket 8 (Lanjutan)",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang perbandingan trigonometri, segitiga siku-siku, dan penerapan dasar (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-trig-m-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku $KLM$ berikut. Nilai $\\sin \\theta$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-klm-7-24-25.png",
+          "caption": "Segitiga siku-siku KLM dengan sisi tegak 7, sisi datar 24, dan sisi miring 25.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{7}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut $\\theta$ berada di antara sisi datar dan sisi miring. Sisi di hadapan sudut $\\theta$ adalah sisi tegak (7)." },
+        { "tipe": "paragraph", "text": "$\\sin \\theta = \\dfrac{\\text{depan}}{\\text{miring}} = \\dfrac{7}{25}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos 30° \\cdot \\cos 60°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 30° = \\dfrac{1}{2}\\sqrt{3}$ dan $\\cos 60° = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3} \\cdot \\dfrac{1}{2} = \\dfrac{1}{4}\\sqrt{3}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan x = 1$ dan $x$ adalah sudut lancip, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ],
+        [ { "tipe": "paragraph", "text": "$0°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Nilai sudut istimewa yang memenuhi $\\tan x = 1$ adalah $x = 45°$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pesawat lepas landas dengan sudut elevasi $30°$. Setelah menempuh jarak 200 m, ketinggian pesawat dari tanah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$100$ m" } ],
+        [ { "tipe": "paragraph", "text": "$100\\sqrt{2}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$100\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$200\\sqrt{3}$ m" } ],
+        [ { "tipe": "paragraph", "text": "$150$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ketinggian = jarak tempuh $\\cdot \\sin 30°$." },
+        { "tipe": "paragraph", "text": "$= 200 \\cdot \\dfrac{1}{2} = 100$ m." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku $XYZ$ berikut. Nilai $\\tan \\alpha$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/mudah/segitiga-xyz-8-15-17.png",
+          "caption": "Segitiga siku-siku XYZ dengan sisi tegak 15, sisi datar 8, dan sisi miring 17. Sudut alpha berada di antara sisi tegak dan sisi miring.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{15}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{15}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut $\\alpha$ berada di antara sisi tegak dan miring. Sisi di hadapan sudut $\\alpha$ adalah sisi datar (8), dan sisi sampingnya adalah sisi tegak (15)." },
+        { "tipe": "paragraph", "text": "$\\tan \\alpha = \\dfrac{\\text{depan}}{\\text{samping}} = \\dfrac{8}{15}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin 30° + \\cos 30°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(1 + \\sqrt{3})$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(1 + \\sqrt{2})$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 30° = \\dfrac{1}{2}$ dan $\\cos 30° = \\dfrac{1}{2}\\sqrt{3}$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2} + \\dfrac{1}{2}\\sqrt{3} = \\dfrac{1}{2}(1 + \\sqrt{3})$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui segitiga siku-siku dengan $\\cos \\beta = \\dfrac{4}{5}$ dan $\\beta$ sudut lancip. Nilai $\\sin \\beta$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos \\beta = \\dfrac{4}{5}$ → samping = 4, miring = 5." },
+        { "tipe": "paragraph", "text": "Depan = $\\sqrt{5^2 - 4^2} = \\sqrt{25 - 16} = \\sqrt{9} = 3$." },
+        { "tipe": "paragraph", "text": "$\\sin \\beta = \\dfrac{3}{5}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $\\sin 225°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 225° = \\sin(180° + 45°) = -\\sin 45° = -\\dfrac{1}{2}\\sqrt{2}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pohon memiliki tinggi 15 m. Pada saat tertentu, bayangannya 15 m. Sudut elevasi matahari saat itu adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30°$" } ],
+        [ { "tipe": "paragraph", "text": "$45°$" } ],
+        [ { "tipe": "paragraph", "text": "$60°$" } ],
+        [ { "tipe": "paragraph", "text": "$75°$" } ],
+        [ { "tipe": "paragraph", "text": "$90°$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan \\theta = \\dfrac{15}{15} = 1$." },
+        { "tipe": "paragraph", "text": "$\\theta = 45°$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-trig-m-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\tan^2 45° + \\sec^2 45°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 45° = 1$, maka $\\tan^2 45° = 1$." },
+        { "tipe": "paragraph", "text": "$\\sec 45° = \\sqrt{2}$, maka $\\sec^2 45° = 2$." },
+        { "tipe": "paragraph", "text": "$1 + 2 = 3$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
