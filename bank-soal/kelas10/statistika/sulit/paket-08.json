@@ -1,0 +1,212 @@
+{
+  "id": "bs-k10-stat-t-03",
+  "nama": "Bank Soal Sulit - Paket 8",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang soal cerita dan analisis data dengan multi-konsep",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-t-03-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata 20 siswa adalah $75$. Setelah 4 siswa baru bergabung dengan nilai masing-masing $80, 82, 88, 98$, rata-rata seluruh siswa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$76$" } ],
+        [ { "tipe": "paragraph", "text": "$76{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$77$" } ],
+        [ { "tipe": "paragraph", "text": "$77{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$78$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 20 siswa = $1500$." },
+        { "tipe": "paragraph", "text": "Jumlah 4 siswa baru = $80+82+88+98 = 348$." },
+        { "tipe": "paragraph", "text": "Rata-rata = $\\dfrac{1500+348}{24} = \\dfrac{1848}{24} = 77$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data nilai: $60, 65, 70, 75, 80, 85, 90, 95$. Jika nilai $60$ dan $95$ dikeluarkan, rata-rata data tersisa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$72{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ],
+        [ { "tipe": "paragraph", "text": "$75{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$76$" } ],
+        [ { "tipe": "paragraph", "text": "$77{,}5$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 8 data = $620$." },
+        { "tipe": "paragraph", "text": "Jumlah 6 data = $620 - 60 - 95 = 465$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{465}{6} = 77{,}5$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 9 data adalah $8$. Jika data $x$ ditambahkan sehingga rata-rata menjadi $8{,}5$, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 9 data = $9 \\times 8 = 72$." },
+        { "tipe": "paragraph", "text": "Jumlah 10 data = $10 \\times 8{,}5 = 85$." },
+        { "tipe": "paragraph", "text": "$x = 85 - 72 = 13$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $4, 5, 6, 7, 8, 9, 10$. Jika setiap data ditambah $5$, maka median baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Median awal = data ke-4 = $7$." },
+        { "tipe": "paragraph", "text": "Jika semua data ditambah $k$, median juga bertambah $k$ → median baru = $7 + 5 = 12$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 5 data adalah $12$. Jika data terkecil $6$ diganti dengan $16$, rata-rata baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$13{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$14{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah awal = $60$." },
+        { "tipe": "paragraph", "text": "Jumlah baru = $60 - 6 + 16 = 70$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{70}{5} = 14$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika median data adalah $6$, maka nilai $x$ yang memenuhi adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $3, 4, 5, 6, 7$" },
+        { "tipe": "paragraph", "text": "Frek: $1, 2, 3, x, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total frekuensi $n = 1+2+3+x+1 = x+7$." },
+        { "tipe": "paragraph", "text": "Jika $x = 6$, maka $n = 13$ (ganjil), median adalah data ke-7." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif: nilai $3$ (1), nilai $4$ (3), nilai $5$ (6), nilai $6$ (12). Data ke-7 berada pada nilai $6$, sehingga median = $6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $10, 12, 14, 16, 18$. Jika setiap data dikurangi $3$, jangkauan baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Range awal = $18 - 10 = 8$." },
+        { "tipe": "paragraph", "text": "Jika semua data dikurangi $k$, jangkauan tidak berubah → jangkauan baru = $8$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 4 data adalah $15$. Jika data $x$ ditambahkan dan rata-rata menjadi $16$, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 4 data = $60$." },
+        { "tipe": "paragraph", "text": "Jumlah 5 data = $80$." },
+        { "tipe": "paragraph", "text": "$x = 80 - 60 = 20$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai $Q_1$ data tersebut adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frek: $2, 3, 4, 2, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 12$, $Q_1$ = data ke-$\\dfrac{12+1}{4} = 3{,}25$ ≈ data ke-3 dan ke-4." },
+        { "tipe": "paragraph", "text": "Akm: $4(2), 5(5)$ → data ke-3 dan ke-4 bernilai $5$." },
+        { "tipe": "paragraph", "text": "$Q_1 = 5$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-03-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $5, 6, 7, 8, 9, 10, 11, 12$. Jika data terkecil dan terbesar dikeluarkan, jangkauan data baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data baru: $6, 7, 8, 9, 10, 11$." },
+        { "tipe": "paragraph", "text": "Range = $11 - 6 = 5$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
