@@ -1,0 +1,200 @@
+{
+  "id": "bs-k11-kfi-m-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang komposisi fungsi dan invers fungsi linear",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-kfi-m-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 4x - 3$ dan $g(x) = x + 2$, nilai $(f \\circ g)(1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(1) = 1 + 2 = 3$" },
+        { "tipe": "paragraph", "text": "$f(g(1)) = f(3) = 4(3) - 3 = 9$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 + 3$ dan $g(x) = 2x - 1$, nilai $(g \\circ f)(2)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(2) = 4 + 3 = 7$" },
+        { "tipe": "paragraph", "text": "$g(f(2)) = g(7) = 2(7) - 1 = 13$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 5x$ dan $g(x) = x - 6$, nilai $(f \\circ g)(3)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-10$" } ],
+        [ { "tipe": "paragraph", "text": "$-15$" } ],
+        [ { "tipe": "paragraph", "text": "$-20$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(3) = 3 - 6 = -3$" },
+        { "tipe": "paragraph", "text": "$f(g(3)) = f(-3) = 5(-3) = -15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x + 9$ dan $g(x) = x$, maka $(f \\circ g)(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2x + 9$" } ],
+        [ { "tipe": "paragraph", "text": "$2x - 9$" } ],
+        [ { "tipe": "paragraph", "text": "$x + 9$" } ],
+        [ { "tipe": "paragraph", "text": "$9x + 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = f(g(x)) = f(x) = 2x + 9$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x - 5$ dan $g(x) = x^2$, nilai $(f \\circ g)(-1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-6$" } ],
+        [ { "tipe": "paragraph", "text": "$-5$" } ],
+        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(-1) = 1$" },
+        { "tipe": "paragraph", "text": "$f(g(-1)) = f(1) = 1 - 5 = -4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x$ dan $g(x) = 2x + 5$, nilai $(g \\circ f)(3)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$23$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(3) = 9$" },
+        { "tipe": "paragraph", "text": "$g(f(3)) = g(9) = 2(9) + 5 = 23$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = 8x - 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 2}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x - 2}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$8x + 2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2 - x}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$8x - 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = 8x - 2 \\Rightarrow 8x = y + 2 \\Rightarrow x = \\dfrac{y + 2}{8}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 2}{8}$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{2x - 6}{3}$, maka $f^{-1}(4)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{2x - 6}{3} = 4 \\Rightarrow 2x - 6 = 12$" },
+        { "tipe": "paragraph", "text": "$2x = 18 \\Rightarrow x = 9$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 9 - 4x$, nilai $f^{-1}(1)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$9 - 4x = 1 \\Rightarrow 4x = 8 \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(1) = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-kfi-m-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f^{-1}(x) = \\dfrac{x - 7}{4}$, maka $f(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4x + 7$" } ],
+        [ { "tipe": "paragraph", "text": "$4x - 7$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 7}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$7x + 4$" } ],
+        [ { "tipe": "paragraph", "text": "$7x - 4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = \\dfrac{x - 7}{4} \\Rightarrow 4y = x - 7 \\Rightarrow x = 4y + 7$" },
+        { "tipe": "paragraph", "text": "$f(x) = 4x + 7$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
