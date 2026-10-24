@@ -1,0 +1,220 @@
+{
+  "id": "bs-k10-trig-s-08",
+  "nama": "Bank Soal Sedang - Paket 8 (Lanjutan)",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang perbandingan trigonometri, relasi sudut, dan penerapan segitiga (lanjutan)",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-trig-s-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 75° - \\sin 15°}{\\cos 75° + \\cos 15°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus jumlah ke perkalian (prosthaphaeresis):" },
+        { "tipe": "paragraph", "text": "$\\sin 75° - \\sin 15° = 2\\cos 45° \\sin 30°$." },
+        { "tipe": "paragraph", "text": "$\\cos 75° + \\cos 15° = 2\\cos 45° \\cos 30°$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{2\\cos 45° \\sin 30°}{2\\cos 45° \\cos 30°} = \\dfrac{\\sin 30°}{\\cos 30°} = \\tan 30° = \\dfrac{1}{3}\\sqrt{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui segitiga $ABC$ dengan panjang sisi $a = 8$ cm, $b = 6$ cm, dan $c = 7$ cm. Nilai $\\cos B$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{16}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan cosinus: $\\cos B = \\dfrac{a^2 + c^2 - b^2}{2ac}$." },
+        { "tipe": "paragraph", "text": "$\\cos B = \\dfrac{8^2 + 7^2 - 6^2}{2 \\cdot 8 \\cdot 7} = \\dfrac{64 + 49 - 36}{112}$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{77}{112} = \\dfrac{11}{16}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku $ABC$ berikut. Jika panjang $BC = 12$ cm dan $\\angle C = 45°$, maka panjang sisi miring $AC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/segitiga-siku-45.png",
+          "caption": "Segitiga siku-siku ABC, siku-siku di B. BC = 12 cm, sudut C = 45°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$24$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 45° = \\dfrac{BC}{AC}$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2} = \\dfrac{12}{AC}$." },
+        { "tipe": "paragraph", "text": "$AC = \\dfrac{12}{\\frac{1}{2}\\sqrt{2}} = 12\\sqrt{2}$ cm." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin \\alpha - \\cos \\alpha = \\dfrac{1}{2}$, maka nilai $\\sin 2\\alpha$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kuadratkan kedua ruas: $(\\sin \\alpha - \\cos \\alpha)^2 = \\left(\\dfrac{1}{2}\\right)^2$." },
+        { "tipe": "paragraph", "text": "$\\sin^2 \\alpha - 2\\sin \\alpha \\cos \\alpha + \\cos^2 \\alpha = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "$1 - \\sin 2\\alpha = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "$\\sin 2\\alpha = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga memiliki panjang sisi $a = 5$ cm, $b = 7$ cm, dan $c = 8$ cm. Luas segitiga tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$15\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$20\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$10\\sqrt{2}$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus Heron: $s = \\dfrac{5+7+8}{2} = 10$." },
+        { "tipe": "paragraph", "text": "$L = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{10(10-5)(10-7)(10-8)}$." },
+        { "tipe": "paragraph", "text": "$= \\sqrt{10 \\cdot 5 \\cdot 3 \\cdot 2} = \\sqrt{300} = 10\\sqrt{3}$ cm²." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\tan 75°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2 + \\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3} + 1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3} - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$3 + \\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 75° = \\tan(45° + 30°) = \\dfrac{\\tan 45° + \\tan 30°}{1 - \\tan 45° \\tan 30°}$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1 + \\frac{1}{3}\\sqrt{3}}{1 - \\frac{1}{3}\\sqrt{3}} = \\dfrac{3 + \\sqrt{3}}{3 - \\sqrt{3}}$." },
+        { "tipe": "paragraph", "text": "Rasionalkan: $\\dfrac{(3 + \\sqrt{3})^2}{9 - 3} = \\dfrac{12 + 6\\sqrt{3}}{6} = 2 + \\sqrt{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, diketahui $A = 30°$, $B = 45°$, dan $a = 6$ cm. Panjang sisi $b$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{2}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{3}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{6}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan sinus: $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{6}{\\sin 30°} = \\dfrac{b}{\\sin 45°}$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{6}{\\frac{1}{2}} = \\dfrac{b}{\\frac{1}{2}\\sqrt{2}}$." },
+        { "tipe": "paragraph", "text": "$12 = \\dfrac{b}{\\frac{1}{2}\\sqrt{2}} \\Rightarrow b = 6\\sqrt{2}$ cm." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos^2 15° - \\sin^2 15°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas sudut rangkap: $\\cos^2 \\alpha - \\sin^2 \\alpha = \\cos 2\\alpha$." },
+        { "tipe": "paragraph", "text": "$\\cos^2 15° - \\sin^2 15° = \\cos(2 \\cdot 15°) = \\cos 30°$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}\\sqrt{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang siswa mengamati puncak menara dengan sudut elevasi $30°$ dari jarak 60 m dari kaki menara. Jika tinggi mata siswa 1,5 m, maka tinggi menara tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(20\\sqrt{3} + 1{,}5)$ m" } ],
+        [ { "tipe": "paragraph", "text": "$(30\\sqrt{3} + 1{,}5)$ m" } ],
+        [ { "tipe": "paragraph", "text": "$(60\\sqrt{3} + 1{,}5)$ m" } ],
+        [ { "tipe": "paragraph", "text": "$(20\\sqrt{2} + 1{,}5)$ m" } ],
+        [ { "tipe": "paragraph", "text": "$(30\\sqrt{2} + 1{,}5)$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tinggi dari garis pandang = $60 \\cdot \\tan 30°$." },
+        { "tipe": "paragraph", "text": "$= 60 \\cdot \\dfrac{1}{3}\\sqrt{3} = 20\\sqrt{3}$ m." },
+        { "tipe": "paragraph", "text": "Tinggi total menara = $20\\sqrt{3} + 1{,}5$ m." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan x = \\dfrac{3}{4}$ dan $x$ berada di kuadran III, maka nilai $\\sin x \\cdot \\cos x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{12}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan x = \\dfrac{3}{4}$ → depan = 3, samping = 4, miring = 5." },
+        { "tipe": "paragraph", "text": "Di kuadran III, $\\sin x = -\\dfrac{3}{5}$ dan $\\cos x = -\\dfrac{4}{5}$." },
+        { "tipe": "paragraph", "text": "$\\sin x \\cdot \\cos x = \\left(-\\dfrac{3}{5}\\right)\\left(-\\dfrac{4}{5}\\right) = \\dfrac{12}{25}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
