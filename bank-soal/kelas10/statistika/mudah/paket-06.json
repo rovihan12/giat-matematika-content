@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-stat-m-06",
+  "nama": "Bank Soal Mudah - Paket 6",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang penyajian data dan membaca tabel/diagram (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-m-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data yang diperoleh dari dokumentasi sekolah, buku catatan nilai, atau laporan pihak lain disebut data..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Primer" } ],
+        [ { "tipe": "paragraph", "text": "Sekunder" } ],
+        [ { "tipe": "paragraph", "text": "Kualitatif" } ],
+        [ { "tipe": "paragraph", "text": "Kontinu" } ],
+        [ { "tipe": "paragraph", "text": "Diskrit" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data sekunder adalah data yang diperoleh secara tidak langsung, misalnya dari dokumentasi, laporan, atau pihak lain." },
+        { "tipe": "paragraph", "text": "Data primer diperoleh langsung dari objek penelitian." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan data berikut: $6, 7, 8, 6, 9, 7, 6, 10, 8, 6$. Banyak data yang bernilai $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data: $6, 7, 8, 6, 9, 7, 6, 10, 8, 6$." },
+        { "tipe": "paragraph", "text": "Nilai $6$ muncul pada posisi ke-1, ke-4, ke-7, dan ke-10 → sebanyak $4$ kali." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data yang nilainya berupa bilangan bulat dan tidak dapat berupa pecahan di antara dua nilai disebut data..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Kualitatif" } ],
+        [ { "tipe": "paragraph", "text": "Kontinu" } ],
+        [ { "tipe": "paragraph", "text": "Diskrit" } ],
+        [ { "tipe": "paragraph", "text": "Nominal" } ],
+        [ { "tipe": "paragraph", "text": "Ordinal" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data diskrit adalah data yang nilainya berupa bilangan bulat dan terpisah, misalnya jumlah anak dalam keluarga." },
+        { "tipe": "paragraph", "text": "Data kontinu dapat bernilai pecahan di antara dua titik, misalnya tinggi badan." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram yang menggunakan titik-titik untuk menunjukkan hubungan antara dua variabel disebut diagram..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Batang" } ],
+        [ { "tipe": "paragraph", "text": "Lingkaran" } ],
+        [ { "tipe": "paragraph", "text": "Garis" } ],
+        [ { "tipe": "paragraph", "text": "Pencar" } ],
+        [ { "tipe": "paragraph", "text": "Histogram" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diagram pencar (scatter plot) menyajikan pasangan data dua variabel dalam bentuk titik-titik." },
+        { "tipe": "paragraph", "text": "Diagram garis biasanya untuk data yang berubah terhadap waktu." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan data berikut: $3, 4, 4, 5, 6, 6, 6, 7, 8, 9$. Banyak data yang bernilai kurang dari $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data yang kurang dari $6$: $3, 4, 4, 5$." },
+        { "tipe": "paragraph", "text": "Hitung: sebanyak $4$ data." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diagram batang biasanya digunakan untuk menyajikan data dalam bentuk..." },
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Kategori" } ],
+        [ { "tipe": "paragraph", "text": "Persentase keseluruhan" } ],
+        [ { "tipe": "paragraph", "text": "Hubungan dua variabel" } ],
+        [ { "tipe": "paragraph", "text": "Frekuensi kumulatif" } ],
+        [ { "tipe": "paragraph", "text": "Selisih nilai" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diagram batang menyajikan data kategori dengan batang-batang yang panjangnya mewakili frekuensi atau nilai." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Banyaknya siswa dalam suatu kelas merupakan contoh data..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Kualitatif" } ],
+        [ { "tipe": "paragraph", "text": "Kuantitatif diskrit" } ],
+        [ { "tipe": "paragraph", "text": "Kuantitatif kontinu" } ],
+        [ { "tipe": "paragraph", "text": "Nominal" } ],
+        [ { "tipe": "paragraph", "text": "Ordinal" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak siswa berupa bilangan bulat (tidak mungkin $25{,}5$ siswa) → data kuantitatif diskrit." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel frekuensi berikut. Nilai $8$ memiliki frekuensi..." },
+        { "tipe": "paragraph", "text": "Nilai: $5, 6, 7, 8, 9$" },
+        { "tipe": "paragraph", "text": "Frekuensi: $1, 3, 4, 2, 2$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari tabel, nilai $8$ berpasangan dengan frekuensi $2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai datum yang paling besar dalam suatu kumpulan data disebut..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Nilai minimum" } ],
+        [ { "tipe": "paragraph", "text": "Nilai maksimum" } ],
+        [ { "tipe": "paragraph", "text": "Median" } ],
+        [ { "tipe": "paragraph", "text": "Modus" } ],
+        [ { "tipe": "paragraph", "text": "Kuartil" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum adalah datum terbesar dalam kumpulan data." },
+        { "tipe": "paragraph", "text": "Nilai minimum adalah datum terkecil." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data berikut menunjukkan jumlah buku di 5 rak: $12, 15, 10, 18, 15$. Total seluruh buku adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$65$" } ],
+        [ { "tipe": "paragraph", "text": "$68$" } ],
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$72$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$12 + 15 + 10 + 18 + 15 = 70$ buku." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
