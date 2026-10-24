@@ -1,0 +1,193 @@
+{
+  "id": "bs-k10-stat-m-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang mean (rata-rata) data tunggal (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-m-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $3, 5, 7, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{3+5+7+9}{4} = \\dfrac{24}{4} = 6$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $12, 14, 16, 18$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{12+14+16+18}{4} = \\dfrac{60}{4} = 15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari $2, 3, 5, 6, 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{2+3+5+6+9}{5} = \\dfrac{25}{5} = 5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $15, 20, 25, 30, 35$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{15+20+25+30+35}{5} = \\dfrac{125}{5} = 25$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari $10, 12, 14, 16, 18, 20$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{10+12+14+16+18+20}{6} = \\dfrac{90}{6} = 15$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $4, 4, 5, 6, 6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{4+4+5+6+6}{5} = \\dfrac{25}{5} = 5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $7, 8, 8, 9, 10, 10, 11$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$9{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$10{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $7+8+8+9+10+10+11 = 63$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{63}{7} = 9$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata dari 5 bilangan adalah $8$. Jika salah satu bilangan bernilai $12$, jumlah empat bilangan lainnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 5 bilangan = $5 \\times 8 = 40$." },
+        { "tipe": "paragraph", "text": "Jumlah 4 bilangan lainnya = $40 - 12 = 28$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $20, 30, 40, 50, 60, 70$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{20+30+40+50+60+70}{6} = \\dfrac{270}{6} = 45$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika rata-rata dari 6 data adalah $9$, maka jumlah keenam data tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$52$" } ],
+        [ { "tipe": "paragraph", "text": "$54$" } ],
+        [ { "tipe": "paragraph", "text": "$56$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{\\sum x_i}{n} \\Rightarrow \\sum x_i = \\bar{x} \\cdot n = 9 \\cdot 6 = 54$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
