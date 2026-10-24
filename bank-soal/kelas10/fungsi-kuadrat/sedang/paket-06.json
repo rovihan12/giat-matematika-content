@@ -1,0 +1,205 @@
+{
+  "id": "bs-k10-fk-s-06",
+  "nama": "Bank Soal Sedang - Paket 6",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang fungsi kuadrat dan grafiknya (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-s-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $y = x^2 - 7x + 10$ memotong sumbu-$x$ di titik..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(2, 0)$ dan $(5, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(-2, 0)$ dan $(-5, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 0)$ dan $(-5, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(-2, 0)$ dan $(5, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1, 0)$ dan $(10, 0)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 5) = 0$" },
+        { "tipe": "paragraph", "text": "$x = 2$ atau $x = 5$." },
+        { "tipe": "paragraph", "text": "Titik potong: $(2, 0)$ dan $(5, 0)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik puncak grafik $y = 3x^2 - 12x + 7$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(2, -5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(-2, -5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, -5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 7)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{-12}{6} = 2$" },
+        { "tipe": "paragraph", "text": "$y_p = 3(4) - 12(2) + 7 = 12 - 24 + 7 = -5$" },
+        { "tipe": "paragraph", "text": "Titik puncak: $(2, -5)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika grafik $y = ax^2 + bx + c$ melalui titik $(0, 4)$, $(1, 1)$, dan $(2, 2)$, maka nilai $a$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $(0, 4)$: $c = 4$." },
+        { "tipe": "paragraph", "text": "Substitusi $(1, 1)$: $a + b + 4 = 1 \\Rightarrow a + b = -3$" },
+        { "tipe": "paragraph", "text": "Substitusi $(2, 2)$: $4a + 2b + 4 = 2 \\Rightarrow 2a + b = -1$" },
+        { "tipe": "paragraph", "text": "Kurangkan: $a = 2$, lalu $b = -5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ akar-akar $3x^2 - 7x + 2 = 0$, nilai $\\dfrac{1}{x_1} + \\dfrac{1}{x_2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_1 + x_2 = \\dfrac{7}{3}$; $x_1 x_2 = \\dfrac{2}{3}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{x_1} + \\dfrac{1}{x_2} = \\dfrac{x_1 + x_2}{x_1 x_2} = \\dfrac{7/3}{2/3} = \\dfrac{7}{2}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik $y = x^2 - 2x - 15$ memotong sumbu-$y$ di titik..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(0, -15)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 15)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, -2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 1)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $x = 0$: $y = -15$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 8x + 12 = 0$, nilai $\\alpha^2 + \\beta^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$44$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 8$; $\\alpha \\beta = 12$" },
+        { "tipe": "paragraph", "text": "$\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 64 - 24 = 40$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum fungsi $y = -x^2 + 8x - 10$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{8}{-2} = 4$" },
+        { "tipe": "paragraph", "text": "$y_{max} = -(16) + 32 - 10 = 6$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat yang akar-akarnya $3 + \\sqrt{2}$ dan $3 - \\sqrt{2}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x^2 - 6x + 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 + 6x + 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 6x - 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 3x + 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 6x + 9 = 0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah: $(3 + \\sqrt{2}) + (3 - \\sqrt{2}) = 6$" },
+        { "tipe": "paragraph", "text": "Hasil kali: $(3)^2 - (\\sqrt{2})^2 = 9 - 2 = 7$" },
+        { "tipe": "paragraph", "text": "Persamaan: $x^2 - 6x + 7 = 0$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Agar $x^2 - (m - 2)x + 9 = 0$ memiliki akar kembar, nilai $m$ positif adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D = 0 \\Rightarrow (m-2)^2 - 36 = 0$" },
+        { "tipe": "paragraph", "text": "$(m-2)^2 = 36 \\Rightarrow m - 2 = \\pm 6$" },
+        { "tipe": "paragraph", "text": "$m = 8$ atau $m = -4$. Nilai positif = 8." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $y = x^2 - 5x + 4$ memiliki sumbu simetri..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = \\dfrac{5}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = \\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x = -\\dfrac{b}{2a} = -\\dfrac{-5}{2} = \\dfrac{5}{2}$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
