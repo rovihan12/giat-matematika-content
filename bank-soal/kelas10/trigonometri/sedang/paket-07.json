@@ -5,7 +5,7 @@
   "kategori": "Trigonometri",
   "tingkat": "SEDANG",
   "deskripsi": "Soal sedang tentang identitas trigonometri, sudut rangkap, dan persamaan dasar (lanjutan)",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-trig-s-07-q01",
@@ -21,7 +21,7 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos 2\\alpha = 1 - 2\\sin^2 \\alpha$." },
+        { "tipe": "paragraph", "text": "Gunakan identitas sudut rangkap: $\\cos 2\\alpha = 1 - 2\\sin^2 \\alpha$." },
         { "tipe": "paragraph", "text": "$\\cos 2\\alpha = 1 - 2\\left(\\dfrac{4}{5}\\right)^2 = 1 - 2\\left(\\dfrac{16}{25}\\right)$." },
         { "tipe": "paragraph", "text": "$= 1 - \\dfrac{32}{25} = \\dfrac{25}{25} - \\dfrac{32}{25} = -\\dfrac{7}{25}$." }
       ],
@@ -33,26 +33,24 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\sin 15° \\cdot \\cos 75°$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}\\sqrt{3}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2 - \\sqrt{3}}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2 + \\sqrt{3}}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1 - \\sqrt{3}}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{\\sqrt{3} - 1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos 75° = \\cos(90° - 15°) = \\sin 15°$." },
         { "tipe": "paragraph", "text": "Maka $\\sin 15° \\cdot \\cos 75° = \\sin 15° \\cdot \\sin 15° = \\sin^2 15°$." },
-        { "tipe": "paragraph", "text": "Dengan rumus $\\sin 15° = \\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$, maka $\\sin^2 15° = \\dfrac{6 + 2 - 2\\sqrt{12}}{16} = \\dfrac{8 - 4\\sqrt{3}}{16} = \\dfrac{2 - \\sqrt{3}}{4}$." },
-        { "tipe": "paragraph", "text": "Cara lain: $\\sin 15° \\cos 75° = \\dfrac{1}{2}[\\sin(15°+75°) + \\sin(15°-75°)] = \\dfrac{1}{2}[\\sin 90° + \\sin(-60°)] = \\dfrac{1}{2}[1 - \\dfrac{1}{2}\\sqrt{3}]$." },
-        { "tipe": "paragraph", "text": "Hasilnya adalah $\\dfrac{2 - \\sqrt{3}}{4}$. Karena pilihan jawaban dalam bentuk sederhana, maka opsi yang paling mendekati adalah $\\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "Gunakan rumus reduksi pangkat: $\\sin^2 15° = \\dfrac{1 - \\cos 30°}{2} = \\dfrac{1 - \\frac{\\sqrt{3}}{2}}{2} = \\dfrac{2 - \\sqrt{3}}{4}$." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-trig-s-07-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Persamaan $2\\sin^2 x - \\sin x - 1 = 0$ memiliki himpunan penyelesaian untuk $0° \\le x \\le 360°$. Nilai $x$ yang memenuhi adalah..." }
+        { "tipe": "paragraph", "text": "Persamaan $2\\sin^2 x + \\sin x - 1 = 0$ memiliki himpunan penyelesaian untuk $0° \\le x \\le 360°$. Nilai $x$ yang memenuhi adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\{30°, 150°, 270°\\}$" } ],
@@ -63,11 +61,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $y = \\sin x$: $2y^2 - y - 1 = 0$." },
-        { "tipe": "paragraph", "text": "Faktorkan: $(2y + 1)(y - 1) = 0 \\Rightarrow y = -\\dfrac{1}{2}$ atau $y = 1$." },
-        { "tipe": "paragraph", "text": "$\\sin x = -\\dfrac{1}{2} \\Rightarrow x = 210°, 330°$." },
-        { "tipe": "paragraph", "text": "$\\sin x = 1 \\Rightarrow x = 90°$." },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: himpunan penyelesaian yang benar adalah $\\{90°, 210°, 330°\\}$. Karena tidak ada di opsi, soal perlu dicek ulang. Namun, jika persamaan yang dimaksud adalah $2\\sin^2 x + \\sin x - 1 = 0$, maka $(2\\sin x - 1)(\\sin x + 1) = 0 \\Rightarrow \\sin x = \\frac{1}{2}$ atau $\\sin x = -1$. Solusinya $x = 30°, 150°, 270°$." }
+        { "tipe": "paragraph", "text": "Faktorkan persamaan $2\\sin^2 x + \\sin x - 1 = 0$:" },
+        { "tipe": "paragraph", "text": "$(2\\sin x - 1)(\\sin x + 1) = 0$" },
+        { "tipe": "paragraph", "text": "Maka $\\sin x = \\dfrac{1}{2}$ atau $\\sin x = -1$." },
+        { "tipe": "paragraph", "text": "Untuk $\\sin x = \\dfrac{1}{2} \\Rightarrow x = 30°, 150°$." },
+        { "tipe": "paragraph", "text": "Untuk $\\sin x = -1 \\Rightarrow x = 270°$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{30°, 150°, 270°\\}$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -87,7 +86,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "$\\tan 15° = \\tan(45° - 30°) = \\dfrac{\\tan 45° - \\tan 30°}{1 + \\tan 45° \\tan 30°}$." },
         { "tipe": "paragraph", "text": "$= \\dfrac{1 - \\frac{1}{3}\\sqrt{3}}{1 + \\frac{1}{3}\\sqrt{3}} = \\dfrac{3 - \\sqrt{3}}{3 + \\sqrt{3}}$." },
-        { "tipe": "paragraph", "text": "Rasionalkan: $\\dfrac{(3 - \\sqrt{3})^2}{9 - 3} = \\dfrac{12 - 6\\sqrt{3}}{6} = 2 - \\sqrt{3}$." }
+        { "tipe": "paragraph", "text": "Rasionalkan penyebut: $\\dfrac{(3 - \\sqrt{3})^2}{9 - 3} = \\dfrac{12 - 6\\sqrt{3}}{6} = 2 - \\sqrt{3}$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -111,9 +110,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$c^2 = a^2 + b^2 - 2ab \\cos C$." },
-        { "tipe": "paragraph", "text": "$c^2 = 16 + 36 - 2(4)(6)\\cos 60°$." },
-        { "tipe": "paragraph", "text": "$= 52 - 48 \\cdot \\dfrac{1}{2} = 52 - 24 = 28$." },
+        { "tipe": "paragraph", "text": "Gunakan aturan kosinus: $c^2 = a^2 + b^2 - 2ab \\cos C$." },
+        { "tipe": "paragraph", "text": "$c^2 = 4^2 + 6^2 - 2(4)(6)\\cos 60°$." },
+        { "tipe": "paragraph", "text": "$= 16 + 36 - 48 \\cdot \\dfrac{1}{2} = 52 - 24 = 28$." },
         { "tipe": "paragraph", "text": "$c = \\sqrt{28} = 2\\sqrt{7}$ cm." }
       ],
       "tingkat": "SEDANG"
@@ -132,18 +131,20 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan rumus: $\\cos 20° \\cos 40° \\cos 80° = \\dfrac{1}{8}$." },
-        { "tipe": "paragraph", "text": "(Bisa dibuktikan dengan mengalikan kedua sisi dengan $8\\sin 20°$ dan menggunakan rumus sudut rangkap berulang.)" }
+        { "tipe": "paragraph", "text": "Kalikan ekspresi dengan $\\dfrac{2\\sin 20°}{2\\sin 20°}$:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{2\\sin 20° \\cos 20° \\cos 40° \\cos 80°}{2\\sin 20°} = \\dfrac{\\sin 40° \\cos 40° \\cos 80°}{2\\sin 20°}$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{\\frac{1}{2}\\sin 80° \\cos 80°}{2\\sin 20°} = \\dfrac{\\frac{1}{4}\\sin 160°}{2\\sin 20°}$." },
+        { "tipe": "paragraph", "text": "Karena $\\sin 160° = \\sin(180° - 20°) = \\sin 20°$, maka hasil akhirnya adalah $\\dfrac{1}{8}$." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-trig-s-07-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $\\cos \\alpha + \\cos \\beta = \\dfrac{1}{2}$ dan $\\cos \\alpha - \\cos \\beta = \\dfrac{1}{3}$, maka nilai $\\cos \\alpha \\cos \\beta$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $\\cos \\alpha + \\cos \\beta = 1$ dan $\\cos \\alpha - \\cos \\beta = \\dfrac{1}{3}$, maka nilai $\\cos \\alpha \\cos \\beta$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{9}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{7}{24}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
@@ -151,10 +152,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan identitas: $(\\cos \\alpha + \\cos \\beta)^2 - (\\cos \\alpha - \\cos \\beta)^2 = 4\\cos \\alpha \\cos \\beta$." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{2}\\right)^2 - \\left(\\dfrac{1}{3}\\right)^2 = \\dfrac{1}{4} - \\dfrac{1}{9} = \\dfrac{9 - 4}{36} = \\dfrac{5}{36}$." },
-        { "tipe": "paragraph", "text": "Maka $4\\cos \\alpha \\cos \\beta = \\dfrac{5}{36} \\Rightarrow \\cos \\alpha \\cos \\beta = \\dfrac{5}{144}$." },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasilnya $\\frac{5}{144}$ (tidak ada di opsi). Soal perlu diperbaiki." }
+        { "tipe": "paragraph", "text": "Gunakan identitas aljabar: $(\\cos \\alpha + \\cos \\beta)^2 - (\\cos \\alpha - \\cos \\beta)^2 = 4\\cos \\alpha \\cos \\beta$." },
+        { "tipe": "paragraph", "text": "$1^2 - \\left(\\dfrac{1}{3}\\right)^2 = 1 - \\dfrac{1}{9} = \\dfrac{8}{9}$." },
+        { "tipe": "paragraph", "text": "Maka $4\\cos \\alpha \\cos \\beta = \\dfrac{8}{9} \\Rightarrow \\cos \\alpha \\cos \\beta = \\dfrac{2}{9}$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -195,12 +195,11 @@
         [ { "tipe": "paragraph", "text": "$1$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan: $\\sin^4 \\alpha + \\cos^4 \\alpha = 1 - 2\\sin^2 \\alpha \\cos^2 \\alpha$." },
-        { "tipe": "paragraph", "text": "$\\sin 15° \\cos 15° = \\dfrac{1}{2}\\sin 30° = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "$= 1 - 2\\left(\\dfrac{1}{4}\\right)^2 = 1 - \\dfrac{2}{16} = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$." },
-        { "tipe": "paragraph", "text": "⚠️ Koreksi: hasilnya $\\frac{7}{8}$ (opsi C)." }
+        { "tipe": "paragraph", "text": "Gunakan identitas: $\\sin^4 \\alpha + \\cos^4 \\alpha = 1 - 2\\sin^2 \\alpha \\cos^2 \\alpha$." },
+        { "tipe": "paragraph", "text": "Karena $\\sin 15° \\cos 15° = \\dfrac{1}{2}\\sin 30° = \\dfrac{1}{4}$," },
+        { "tipe": "paragraph", "text": "maka $\\sin^4 15° + \\cos^4 15° = 1 - 2\\left(\\dfrac{1}{4}\\right)^2 = 1 - \\dfrac{2}{16} = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -218,8 +217,8 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\tan \\theta = 2$ → depan = 2, samping = 1, miring = $\\sqrt{5}$." },
-        { "tipe": "paragraph", "text": "Di kuadran III, $\\sin$ dan $\\cos$ negatif." },
+        { "tipe": "paragraph", "text": "$\\tan \\theta = 2$ → sisi depan = 2, sisi samping = 1, sisi miring = $\\sqrt{2^2 + 1^2} = \\sqrt{5}$." },
+        { "tipe": "paragraph", "text": "Di kuadran III, nilai $\\sin$ dan $\\cos$ bernilai negatif." },
         { "tipe": "paragraph", "text": "$\\sin \\theta = -\\dfrac{2}{\\sqrt{5}}$ dan $\\cos \\theta = -\\dfrac{1}{\\sqrt{5}}$." },
         { "tipe": "paragraph", "text": "$\\sin \\theta + \\cos \\theta = -\\dfrac{3}{\\sqrt{5}} = -\\dfrac{3\\sqrt{5}}{5}$." }
       ],
