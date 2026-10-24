@@ -1,0 +1,112 @@
+{
+  "id": "bs-k11-kfi-s-09",
+  "nama": "Bank Soal Sedang - Paket 9",
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang komposisi fungsi, invers, dan aplikasi persamaan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-kfi-s-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x + 7$ dan $g(x) = x^2 - 2x$, rumus $(g \\circ f)(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9x^2 + 36x + 35$" } ],
+        [ { "tipe": "paragraph", "text": "$9x^2 + 36x + 49$" } ],
+        [ { "tipe": "paragraph", "text": "$9x^2 + 42x + 35$" } ],
+        [ { "tipe": "paragraph", "text": "$3x^2 + 12x + 35$" } ],
+        [ { "tipe": "paragraph", "text": "$3x^2 + 36x + 49$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(g \\circ f)(x) = g(3x + 7) = (3x + 7)^2 - 2(3x + 7)$" },
+        { "tipe": "paragraph", "text": "$= 9x^2 + 42x + 49 - 6x - 14$" },
+        { "tipe": "paragraph", "text": "$= 9x^2 + 36x + 35$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-kfi-s-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Invers dari $f(x) = \\dfrac{7x + 2}{3x - 5}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x + 2}{3x - 7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x - 2}{3x + 7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7x - 2}{3x + 5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 5}{7x - 2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x + 2}{7 - 3x}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = \\dfrac{7x + 2}{3x - 5} \\Rightarrow y(3x - 5) = 7x + 2$" },
+        { "tipe": "paragraph", "text": "$3xy - 5y = 7x + 2 \\Rightarrow 3xy - 7x = 5y + 2$" },
+        { "tipe": "paragraph", "text": "$x(3y - 7) = 5y + 2 \\Rightarrow x = \\dfrac{5y + 2}{3y - 7}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{5x + 2}{3x - 7}$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-kfi-s-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x - 1$ dan $g(x) = x^2 + 3x$, nilai $(g \\circ f)(2)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(2) = 3$" },
+        { "tipe": "paragraph", "text": "$g(f(2)) = g(3) = 9 + 9 = 18$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-kfi-s-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 4x + 3$, nilai $f^{-1}(8)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-1$ atau $5$" } ],
+        [ { "tipe": "paragraph", "text": "$1$ atau $5$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$ atau $-5$" } ],
+        [ { "tipe": "paragraph", "text": "$2$ atau $4$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$ atau $6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^2 - 4x + 3 = 8 \\Rightarrow x^2 - 4x - 5 = 0$" },
+        { "tipe": "paragraph", "text": "$(x - 5)(x + 1) = 0 \\Rightarrow x = 5$ atau $x = -1$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-kfi-s-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x - 4$ dan $(f \\circ g)(x) = 9x + 2$, maka $g(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3x + 2$" } ],
+        [ { "tipe": "paragraph", "text": "$3x - 2$" } ],
+        [ { "tipe": "paragraph", "text": "$3x + 4$" } ],
+        [ { "tipe": "paragraph", "text": "$9x + 6$" } ],
+        [ { "tipe": "paragraph", "text": "$2x + 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(g(x)) = 3 \\cdot g(x) - 4 = 9x + 2$" },
+        { "tipe": "paragraph", "text": "$3 \\cdot g(x) = 9x + 6 \\Rightarrow g(x) = 3x + 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-kfi-s-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 4x - 3$ dan $g(x) = x + 6$, nilai $(g \\circ f)^{-1}(7)$ adalah..." }
+      ],
