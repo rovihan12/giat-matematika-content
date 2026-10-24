@@ -1,0 +1,217 @@
+{
+  "id": "bs-k10-stat-t-04",
+  "nama": "Bank Soal Sulit - Paket 4",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang analisis pernyataan dan kombinasi ukuran pemusatan & penyebaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-t-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $4, 6, 8, 10, 12$. Pernyataan yang benar adalah..." },
+        { "tipe": "paragraph", "text": "(1) Mean = $8$" },
+        { "tipe": "paragraph", "text": "(2) Median = $8$" },
+        { "tipe": "paragraph", "text": "(3) Jangkauan = $8$" },
+        { "tipe": "paragraph", "text": "(4) Modus = $8$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "1, 2, dan 3" } ],
+        [ { "tipe": "paragraph", "text": "1 dan 3" } ],
+        [ { "tipe": "paragraph", "text": "2 dan 4" } ],
+        [ { "tipe": "paragraph", "text": "4 saja" } ],
+        [ { "tipe": "paragraph", "text": "Semua benar" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "(1) Mean = $\\dfrac{4+6+8+10+12}{5} = 8$ ✓." },
+        { "tipe": "paragraph", "text": "(2) Median = data ke-3 = $8$ ✓." },
+        { "tipe": "paragraph", "text": "(3) Range = $12 - 4 = 8$ ✓." },
+        { "tipe": "paragraph", "text": "(4) Semua data muncul 1× → tidak ada modus ✗." },
+        { "tipe": "paragraph", "text": "Jadi pernyataan 1, 2, dan 3 benar." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 20 data adalah $15$. Jika setiap data dikalikan $2$ lalu dikurangi $5$, rata-rata baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Transformasi $y = 2x - 5$ → rata-rata baru $= 2(15) - 5 = 25$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $3, 5, 7, 9, 11$. Jika setiap data ditambah $4$, maka pernyataan yang benar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Mean bertambah $4$, jangkauan tetap" } ],
+        [ { "tipe": "paragraph", "text": "Mean tetap, jangkauan bertambah $4$" } ],
+        [ { "tipe": "paragraph", "text": "Mean dan jangkauan bertambah $4$" } ],
+        [ { "tipe": "paragraph", "text": "Mean dan jangkauan tetap" } ],
+        [ { "tipe": "paragraph", "text": "Mean bertambah $4$, jangkauan bertambah $8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika semua data ditambah $k$: mean bertambah $k$, jangkauan tetap." },
+        { "tipe": "paragraph", "text": "Jadi mean bertambah $4$, jangkauan tetap." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika median data adalah $6$, maka nilai $x$ yang memenuhi adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7$" },
+        { "tipe": "paragraph", "text": "Frek: $2, 3, x, 2$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 2+3+x+2 = x+7$." },
+        { "tipe": "paragraph", "text": "Jika $x = 4$, maka $n = 11$, median = data ke-6." },
+        { "tipe": "paragraph", "text": "Akm: $4(2), 5(5), 6(9)$ → data ke-6 bernilai $6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 10 data adalah $20$. Jika data terkecil $10$ dan data terbesar $30$ dikeluarkan, rata-rata data tersisa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$18{,}75$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$19{,}25$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$20{,}5$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 10 data = $200$." },
+        { "tipe": "paragraph", "text": "Jumlah 8 data = $200 - 10 - 30 = 160$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{160}{8} = 20$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $2, 4, 4, 6, 8, 8, 10$. Pernyataan yang benar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Median = $6$, modus = $4$ dan $8$" } ],
+        [ { "tipe": "paragraph", "text": "Median = $6$, modus = $4$" } ],
+        [ { "tipe": "paragraph", "text": "Median = $4$, modus = $8$" } ],
+        [ { "tipe": "paragraph", "text": "Median = $6$, modus = $8$" } ],
+        [ { "tipe": "paragraph", "text": "Median = $8$, modus = $4$ dan $8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 7$, median = data ke-4 = $6$." },
+        { "tipe": "paragraph", "text": "Frekuensi: $2(1), 4(2), 6(1), 8(2), 10(1)$ → modus = $4$ dan $8$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 6 data adalah $14$. Jika data $x$ ditambahkan sehingga rata-rata menjadi $15$, maka nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 6 data = $84$." },
+        { "tipe": "paragraph", "text": "Jumlah 7 data = $105$." },
+        { "tipe": "paragraph", "text": "$x = 105 - 84 = 21$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $5, 7, 8, 10, 12, 15$. Jangkauan dan jangkauan interkuartil berturut-turut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10$ dan $5$" } ],
+        [ { "tipe": "paragraph", "text": "$10$ dan $6$" } ],
+        [ { "tipe": "paragraph", "text": "$10$ dan $7$" } ],
+        [ { "tipe": "paragraph", "text": "$10$ dan $8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$ dan $9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Range = $15 - 5 = 10$." },
+        { "tipe": "paragraph", "text": "$n = 6$, median = $\\dfrac{8+10}{2} = 9$." },
+        { "tipe": "paragraph", "text": "$Q_1$ = median ($5, 7, 8$) = $7$; $Q_3$ = median ($10, 12, 15$) = $12$." },
+        { "tipe": "paragraph", "text": "IQR = $12 - 7 = 5$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai rata-ratanya adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frek: $3, 3, 6, 3$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}7$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 3+3+6+3 = 15$." },
+        { "tipe": "paragraph", "text": "$\\sum fx = 5(3)+6(3)+7(6)+8(3) = 15+18+42+24 = 99$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{99}{15} = 6{,}6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $6, 8, 10, 12, 14$. Jika data $4$ ditambahkan, median baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data baru: $4, 6, 8, 10, 12, 14$, $n = 6$." },
+        { "tipe": "paragraph", "text": "Median = $\\dfrac{8+10}{2} = 9$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
