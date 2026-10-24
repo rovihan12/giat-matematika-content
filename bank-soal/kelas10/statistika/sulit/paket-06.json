@@ -1,0 +1,213 @@
+{
+  "id": "bs-k10-stat-t-01",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang mean data tunggal dan tabel frekuensi (multi-langkah)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-t-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 10 data adalah $7{,}5$. Jika satu data bernilai $12$ dikeluarkan dan diganti dengan data baru $x$, rata-rata menjadi $7{,}8$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah awal = $10 \\times 7{,}5 = 75$." },
+        { "tipe": "paragraph", "text": "Jumlah baru = $10 \\times 7{,}8 = 78$." },
+        { "tipe": "paragraph", "text": "Perubahan: $-12 + x = 78 - 75 = 3 \\Rightarrow x = 15$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 20 siswa adalah $70$. Rata-rata 12 siswa laki-laki adalah $65$. Rata-rata 8 siswa perempuan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$75$" } ],
+        [ { "tipe": "paragraph", "text": "$76$" } ],
+        [ { "tipe": "paragraph", "text": "$77{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$78$" } ],
+        [ { "tipe": "paragraph", "text": "$80$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah total = $20 \\times 70 = 1400$." },
+        { "tipe": "paragraph", "text": "Jumlah laki-laki = $12 \\times 65 = 780$." },
+        { "tipe": "paragraph", "text": "Jumlah perempuan = $1400 - 780 = 620$ → rata-rata = $620/8 = 77{,}5$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika rata-ratanya $5{,}5$, maka nilai $x$ adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7$" },
+        { "tipe": "paragraph", "text": "Frek: $2, 3, x, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 2+3+x+1 = x+6$." },
+        { "tipe": "paragraph", "text": "$\\sum fx = 4(2)+5(3)+6x+7(1) = 30+6x$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{30+6x}{x+6} = 5{,}5 \\Rightarrow 30+6x = 5{,}5(x+6) = 5{,}5x+33$." },
+        { "tipe": "paragraph", "text": "$0{,}5x = 3 \\Rightarrow x = 6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 15 data adalah $12$. Jika setiap data dikalikan $3$ kemudian ditambah $2$, rata-rata baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$44$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Transformasi $y = 3x + 2$ → rata-rata baru $= 3(12) + 2 = 38$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 8 data adalah $10$. Setelah 2 data baru ditambahkan, rata-rata menjadi $11$. Jika selisih kedua data baru adalah $2$, data baru yang lebih besar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$13$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 8 data = $80$. Jumlah 10 data = $110$." },
+        { "tipe": "paragraph", "text": "Jumlah 2 data baru = $30$. Misal $a + b = 30$, $a - b = 2$." },
+        { "tipe": "paragraph", "text": "$2a = 32 \\Rightarrow a = 16$ (dan $b = 14$)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai rata-ratanya adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frek: $2, 3, 4, 3, 2$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}8$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}1$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}2$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}4$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 2+3+4+3+2 = 14$." },
+        { "tipe": "paragraph", "text": "$\\sum fx = 4(2)+5(3)+6(4)+7(3)+8(2) = 8+15+24+21+16 = 84$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{84}{14} = 6{,}0$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 12 data adalah $25$. Jika data terbesar $40$ dikeluarkan, rata-rata data tersisa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$23$" } ],
+        [ { "tipe": "paragraph", "text": "$23{,}64$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$24{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 12 data = $300$." },
+        { "tipe": "paragraph", "text": "Jumlah 11 data = $300 - 40 = 260$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{260}{11} \\approx 23{,}64$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 5 bilangan adalah $18$. Jika bilangan terkecil $6$ dikeluarkan, rata-rata 4 bilangan sisanya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$23$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 5 bilangan = $90$." },
+        { "tipe": "paragraph", "text": "Jumlah 4 bilangan = $90 - 6 = 84$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{84}{4} = 21$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 30 siswa adalah $72$. Jika 5 siswa dengan rata-rata $80$ pindah, rata-rata siswa yang tersisa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$70{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$70{,}8$" } ],
+        [ { "tipe": "paragraph", "text": "$71$" } ],
+        [ { "tipe": "paragraph", "text": "$71{,}2$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 30 siswa = $2160$." },
+        { "tipe": "paragraph", "text": "Jumlah 5 siswa pindah = $400$." },
+        { "tipe": "paragraph", "text": "Jumlah 25 siswa = $2160 - 400 = 1760$ → rata-rata = $1760/25 = 70{,}4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-stat-t-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $2x, 4x, 6x, 8x$ adalah $10$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{2x+4x+6x+8x}{4} = \\dfrac{20x}{4} = 5x$." },
+        { "tipe": "paragraph", "text": "$5x = 10 \\Rightarrow x = 2$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
