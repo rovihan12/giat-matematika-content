@@ -1,0 +1,199 @@
+{
+  "id": "bs-k10-fk-m-06",
+  "nama": "Bank Soal Mudah - Paket 6",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang pemfaktoran dan akar persamaan kuadrat (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-m-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar persamaan $x^2 - 8x + 15 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -3$ atau $x = -5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 15$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = -15$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan: $(x - 3)(x - 5) = 0$" },
+        { "tipe": "paragraph", "text": "$x = 3$ atau $x = 5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar persamaan $x^2 + 2x - 15 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = -5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -3$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -3$ atau $x = -5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = -15$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan: $(x - 3)(x + 5) = 0$" },
+        { "tipe": "paragraph", "text": "$x = 3$ atau $x = -5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar persamaan $x^2 - 16 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 4$ atau $x = -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 16$ atau $x = -16$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 8$ atau $x = -8$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 16$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^2 - 16 = (x - 4)(x + 4) = 0$" },
+        { "tipe": "paragraph", "text": "$x = 4$ atau $x = -4$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar persamaan $x^2 - 3x = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x(x - 3) = 0$" },
+        { "tipe": "paragraph", "text": "$x = 0$ atau $x = 3$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Akar-akar persamaan $3x^2 - 10x + 8 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = \\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -2$ atau $x = -\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = \\dfrac{8}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 4$ atau $x = \\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$x = -1$ atau $x = -\\dfrac{8}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan: $(3x - 4)(x - 2) = 0$" },
+        { "tipe": "paragraph", "text": "$x = \\dfrac{4}{3}$ atau $x = 2$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diskriminan dari persamaan $x^2 - 2x - 15 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$56$" } ],
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ],
+        [ { "tipe": "paragraph", "text": "$68$" } ],
+        [ { "tipe": "paragraph", "text": "$52$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D = b^2 - 4ac = (-2)^2 - 4(1)(-15)$" },
+        { "tipe": "paragraph", "text": "$= 4 + 60 = 64$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diskriminan dari persamaan $3x^2 + 2x - 1 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$-8$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$D = 2^2 - 4(3)(-1) = 4 + 12 = 16$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ akar-akar persamaan $x^2 - 9x + 20 = 0$, nilai $x_1 + x_2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$-9$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$-20$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah akar: $x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{-9}{1} = 9$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ akar-akar persamaan $x^2 - 9x + 20 = 0$, nilai $x_1 \\cdot x_2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$-20$" } ],
+        [ { "tipe": "paragraph", "text": "$-9$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hasil kali akar: $x_1 \\cdot x_2 = \\dfrac{c}{a} = \\dfrac{20}{1} = 20$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-fk-m-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat yang akar-akarnya $-2$ dan $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x^2 - 4x - 12 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 + 4x - 12 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 4x + 12 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 + 4x + 12 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 8x + 12 = 0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_1 + x_2 = -2 + 6 = 4$; $x_1 \\cdot x_2 = -2 \\cdot 6 = -12$" },
+        { "tipe": "paragraph", "text": "Persamaan: $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$" },
+        { "tipe": "paragraph", "text": "$x^2 - 4x - 12 = 0$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
