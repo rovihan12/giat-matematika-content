@@ -1,0 +1,200 @@
+{
+  "id": "bs-k10-bd-s-06",
+  "nama": "Bank Soal Sedang - Paket 6",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang suku tengah, sisipan, sistem persamaan, dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-s-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku tengah dari barisan aritmatika dengan $U_1 = 7$ dan $U_{13} = 55$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$31$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_t = \\dfrac{U_1 + U_{13}}{2} = \\dfrac{7 + 55}{2} = 31$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Di antara bilangan $3$ dan $27$ disisipkan 5 bilangan sehingga membentuk barisan aritmatika. Beda barisan baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$k = 5$ bilangan disisipkan, beda baru $b' = \\dfrac{U_{akhir} - U_{awal}}{k+1} = \\dfrac{27 - 3}{6} = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada barisan aritmatika, $U_4 = 14$ dan $U_9 = 34$. Suku ke-12 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$44$" } ],
+        [ { "tipe": "paragraph", "text": "$46$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$50$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$b = \\dfrac{34 - 14}{9 - 4} = \\dfrac{20}{5} = 4$." },
+        { "tipe": "paragraph", "text": "$U_4 = a + 3b = 14 \\Rightarrow a = 2$." },
+        { "tipe": "paragraph", "text": "$U_{12} = 2 + 11 \\cdot 4 = 46$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah semua bilangan kelipatan 4 antara 50 dan 150 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2400$" } ],
+        [ { "tipe": "paragraph", "text": "$2500$" } ],
+        [ { "tipe": "paragraph", "text": "$2600$" } ],
+        [ { "tipe": "paragraph", "text": "$2700$" } ],
+        [ { "tipe": "paragraph", "text": "$2800$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelipatan 4: $52, 56, \\ldots, 148$." },
+        { "tipe": "paragraph", "text": "$n = \\dfrac{148 - 52}{4} + 1 = 25$." },
+        { "tipe": "paragraph", "text": "$S_{25} = \\dfrac{25}{2}(52 + 148) = \\dfrac{25}{2}(200) = 2500$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku tengah barisan geometri dengan $U_1 = 5$ dan $U_9 = 1280$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ],
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$120$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_t = \\sqrt{U_1 \\cdot U_9} = \\sqrt{5 \\cdot 1280} = \\sqrt{6400} = 80$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus suku ke-$n$ barisan $8, 13, 18, 23, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 3$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n - 3$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 3n + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 8$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 8n + 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 8$, $b = 5$." },
+        { "tipe": "paragraph", "text": "$U_n = 8 + (n-1) \\cdot 5 = 5n + 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-5 barisan geometri $\\dfrac{1}{4}, \\dfrac{1}{2}, 1, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = \\dfrac{1}{4}$, $r = 2$." },
+        { "tipe": "paragraph", "text": "$U_5 = \\dfrac{1}{4} \\cdot 2^4 = \\dfrac{16}{4} = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 10 suku pertama deret $5 + 8 + 11 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$175$" } ],
+        [ { "tipe": "paragraph", "text": "$185$" } ],
+        [ { "tipe": "paragraph", "text": "$195$" } ],
+        [ { "tipe": "paragraph", "text": "$205$" } ],
+        [ { "tipe": "paragraph", "text": "$215$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 5$, $b = 3$, $n = 10$." },
+        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2 \\cdot 5 + 9 \\cdot 3) = 5(10 + 27) = 5 \\cdot 37 = 185$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada barisan aritmatika diketahui $U_2 = 9$ dan $U_8 = 33$. Suku pertama dan bedanya berturut-turut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$a = 5$, $b = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 5$, $b = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 4$, $b = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 3$, $b = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 2$, $b = 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$b = \\dfrac{33 - 9}{8 - 2} = \\dfrac{24}{6} = 4$." },
+        { "tipe": "paragraph", "text": "$U_2 = a + b = 9 \\Rightarrow a = 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret geometri tak hingga $\\dfrac{1}{4} + \\dfrac{1}{8} + \\dfrac{1}{16} + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = \\dfrac{1}{4}$, $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{1/4}{1 - 1/2} = \\dfrac{1/4}{1/2} = \\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
