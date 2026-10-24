@@ -1,0 +1,154 @@
+{
+  "id": "bs-k10-spl-m-08",
+  "nama": "Bank Soal Mudah - Paket 8",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "MUDAH",
+  "deskripsi": "Pertidaksamaan linear satu variabel dengan bilangan bulat dan konteks dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-m-08-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $x - 5 > 2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x > 3$" }],
+        [{ "tipe": "paragraph", "text": "$x > 7$" }],
+        [{ "tipe": "paragraph", "text": "$x < 7$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 7$" }],
+        [{ "tipe": "paragraph", "text": "$x < 3$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$x > 2 + 5 \\Rightarrow x > 7$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $3x + 4 \\leq 19$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\leq 5$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 5$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 7$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 7$" }],
+        [{ "tipe": "paragraph", "text": "$x < 5$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$3x \\leq 15 \\Rightarrow x \\leq 5$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $-4x \\geq 12$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\geq 3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq -3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq -3$" }],
+        [{ "tipe": "paragraph", "text": "$x > -3$" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [{ "tipe": "paragraph", "text": "Bagi $-4$ (tanda berbalik): $x \\leq -3$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $2x - 7 < 3x + 1$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x < -8$" }],
+        [{ "tipe": "paragraph", "text": "$x > -8$" }],
+        [{ "tipe": "paragraph", "text": "$x < 8$" }],
+        [{ "tipe": "paragraph", "text": "$x > 8$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq -8$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$-8 < x \\Rightarrow x > -8$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $5 - 2x \\leq 9$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\leq -2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq -2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 2$" }],
+        [{ "tipe": "paragraph", "text": "$x > -2$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$-2x \\leq 4 \\Rightarrow x \\geq -2$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai bulat $x$ terkecil yang memenuhi $4x - 3 > 9$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$4x > 12 \\Rightarrow x > 3$; bulat terkecil $= 4$." }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $\\dfrac{x}{4} - 1 \\leq 2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\leq 8$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 12$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 12$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 8$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 4$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$\\dfrac{x}{4} \\leq 3 \\Rightarrow x \\leq 12$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $2(x - 3) < 3x + 4$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x > -10$" }],
+        [{ "tipe": "paragraph", "text": "$x < -10$" }],
+        [{ "tipe": "paragraph", "text": "$x > 10$" }],
+        [{ "tipe": "paragraph", "text": "$x < 10$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq -10$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$2x - 6 < 3x + 4 \\Rightarrow -x < 10 \\Rightarrow x > -10$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $7 - 3x \\geq 1$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\leq 2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq -2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq -2$" }],
+        [{ "tipe": "paragraph", "text": "$x < 2$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [{ "tipe": "paragraph", "text": "$-3x \\geq -6 \\Rightarrow x \\leq 2$" }],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-spl-m-08-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jumlah dua bilangan asli berurutan kurang dari 25. Bilangan terbesar yang mungkin untuk bilangan terkecil adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$10$" }],
+        [{ "tipe": "paragraph", "text": "$11$" }],
+        [{ "tipe": "paragraph", "text": "$12$" }],
+        [{ "tipe": "paragraph", "text": "$13$" }],
+        [{ "tipe": "paragraph", "text": "$14$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n + (n+1) < 25 \\Rightarrow 2n < 24 \\Rightarrow n < 12$." },
+        { "tipe": "paragraph", "text": "Bilangan asli terbesar $n = 11$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
