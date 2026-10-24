@@ -1,212 +1,200 @@
 {
-  "id": "bs-k10-pel-s-06",
-  "nama": "Bank Soal Sedang - Paket 6",
+  "id": "bs-k10-pel-m-07",
+  "nama": "Bank Soal Mudah - Paket 7",
   "kelas": 10,
   "kategori": "Peluang",
-  "tingkat": "SEDANG",
-  "deskripsi": "Soal sedang lanjutan tentang peluang bersyarat, kombinasi, dan konteks nyata",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang peluang kartu bridge, koin, dan bilangan",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-pel-s-06-q01",
+      "id": "bs-k10-pel-m-07-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah kantong berisi 7 kelereng putih, 5 kelereng merah, dan 3 kelereng kuning. Sebuah kelereng diambil secara acak. Jika pada pengambilan pertama didapat kelereng putih dan tidak dikembalikan, maka nilai kemungkinan terambil kelereng putih pada pengambilan kedua adalah..." }
+        { "tipe": "paragraph", "text": "Sebuah kartu diambil dari satu set kartu bridge. Peluang terambil kartu berwarna merah adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{15}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{14}$" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Total awal = 15. Diambil 1 putih, sisa putih = 6, total sisa = 14." },
-        { "tipe": "paragraph", "text": "Peluang putih kedua = $\\dfrac{6}{14} = \\dfrac{3}{7}$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q02",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pada percobaan lempar undi dua buah dadu sebanyak 216 kali. Frekuensi harapan munculnya mata dadu berjumlah genap adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$36$" } ],
-        [ { "tipe": "paragraph", "text": "$54$" } ],
-        [ { "tipe": "paragraph", "text": "$72$" } ],
-        [ { "tipe": "paragraph", "text": "$104$" } ],
-        [ { "tipe": "paragraph", "text": "$108$" } ]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah genap ada 18 dari 36 kemungkinan, $P = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "Frekuensi harapan = $\\dfrac{1}{2} \\times 216 = 108$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah mata uang dan sebuah dadu dilempar undi sekali. Peluang munculnya angka pada mata uang dan bilangan prima ganjil pada dadu adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Prima ganjil pada dadu = {3, 5} (2 angka)." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{1}{2} \\times \\dfrac{2}{6} = \\dfrac{2}{12} = \\dfrac{1}{6}$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dari suatu kantong yang berisi 5 bola merah dan 3 bola biru, dua bola diambil satu demi satu tanpa pengembalian. Peluang bola yang terambil berbeda warna adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{28}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{56}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{30}{56}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Kemungkinan: Merah-Biru atau Biru-Merah." },
-        { "tipe": "paragraph", "text": "M-B = $\\dfrac{5}{8} \\times \\dfrac{3}{7} = \\dfrac{15}{56}$." },
-        { "tipe": "paragraph", "text": "B-M = $\\dfrac{3}{8} \\times \\dfrac{5}{7} = \\dfrac{15}{56}$." },
-        { "tipe": "paragraph", "text": "Total = $\\dfrac{30}{56}$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q05",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Banyak bilangan antara 2000 dan 6000 yang dapat disusun dari angka 0, 1, 2, 3, 4, 5, 6, 7 dan tidak ada angka yang sama adalah...." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1680$" } ],
-        [ { "tipe": "paragraph", "text": "$1470$" } ],
-        [ { "tipe": "paragraph", "text": "$1260$" } ],
-        [ { "tipe": "paragraph", "text": "$1050$" } ],
-        [ { "tipe": "paragraph", "text": "$840$" } ]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Ribuan: 4 pilihan (2,3,4,5)." },
-        { "tipe": "paragraph", "text": "Ratusan: 7 pilihan (8 angka - 1)." },
-        { "tipe": "paragraph", "text": "Puluhan: 6 pilihan." },
-        { "tipe": "paragraph", "text": "Satuan: 5 pilihan." },
-        { "tipe": "paragraph", "text": "Total = $4 \\times 7 \\times 6 \\times 5 = 840$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dalam suatu kotak terdapat 6 kelereng merah dan 2 kelereng putih. Jika diambil dua kelereng satu per satu tanpa pengembalian, peluang terambilnya dua-duanya berwarna putih adalah...." }
-      ],
-      "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{56}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{28}$" } ]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Putih pertama = $\\dfrac{2}{8}$." },
-        { "tipe": "paragraph", "text": "Putih kedua = $\\dfrac{1}{7}$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{2}{8} \\times \\dfrac{1}{7} = \\dfrac{2}{56} = \\dfrac{1}{28}$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q07",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Kelas XIIA terdiri dari 10 murid laki-laki dan 20 murid perempuan. Setengah dari jumlah murid laki-laki dan setengah dari jumlah murid perempuan berambut keriting. Apabila seorang murid dipilih secara acak, maka peluang bahwa murid yang terpilih itu laki-laki atau berambut keriting adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{30}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{30}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{30}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{30}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{18}{30}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Laki-laki = 10, Keriting = 5 (dari laki-laki) + 10 (dari perempuan) = 15." },
-        { "tipe": "paragraph", "text": "Laki-laki DAN keriting = 5." },
-        { "tipe": "paragraph", "text": "Peluang = $P(L \\cup K) = \\dfrac{10 + 15 - 5}{30} = \\dfrac{20}{30}$." }
-      ],
-      "tingkat": "SEDANG"
-    },
-    {
-      "id": "bs-k10-pel-s-06-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Dua buah dadu dilempar sekaligus. Peluang muncul mata dadu berjumlah $7$ atau $8$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{36}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{36}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{36}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{36}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{19}{36}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 pasangan." },
-        { "tipe": "paragraph", "text": "Jumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2) = 5 pasangan." },
-        { "tipe": "paragraph", "text": "Total = $6 + 5 = 11$ pasangan dari 36." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{11}{36}$." }
+        { "tipe": "paragraph", "text": "Kartu bridge = 52, kartu merah (hati + wajik) = 26." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{26}{52} = \\dfrac{1}{2}$." }
       ],
-      "tingkat": "SEDANG"
+      "tingkat": "MUDAH"
     },
     {
-      "id": "bs-k10-pel-s-06-q09",
+      "id": "bs-k10-pel-m-07-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah kotak berisi 5 bola merah, 4 bola biru, dan 3 bola kuning. Dari dalam kotak diambil 3 bola sekaligus secara acak, peluang terambil 2 bola merah dan 1 bola biru adalah…" }
+        { "tipe": "paragraph", "text": "Dalam kantong terdapat 8 kelereng merah, 5 hijau, dan 7 kuning. Peluang terambil kelereng kuning adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{20}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total = $8 + 5 + 7 = 20$." },
+        { "tipe": "paragraph", "text": "$P(\\text{kuning}) = \\dfrac{7}{20}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu lebih dari $2$ adalah..." }
+      ],
+      "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{9}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{11}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n(S) = C(12,3) = 220$." },
-        { "tipe": "paragraph", "text": "$n(A) = C(5,2) \\cdot C(4,1) = 10 \\cdot 4 = 40$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{40}{220} = \\dfrac{2}{11}$." }
+        { "tipe": "paragraph", "text": "Mata dadu lebih dari $2$: $\\{3, 4, 5, 6\\} \\rightarrow n(A) = 4$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$." }
       ],
-      "tingkat": "SEDANG"
+      "tingkat": "MUDAH"
     },
     {
-      "id": "bs-k10-pel-s-06-q10",
+      "id": "bs-k10-pel-m-07-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Peluang dua siswa A dan B lulus seleksi SPMB berturut-turut adalah $\\dfrac{9}{10}$ dan $\\dfrac{14}{15}$. Peluang siswa A lulus seleksi tetapi siswa B tidak lulus seleksi adalah..." }
+        { "tipe": "paragraph", "text": "Dua dadu dilempar. Peluang kedua mata dadu sama adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{150}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{150}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{150}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{150}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{150}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan sama: $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\rightarrow n(A) = 6$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang seseorang menang dalam suatu permainan adalah $0,35$. Peluang kalah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0,35$" } ],
+        [ { "tipe": "paragraph", "text": "$0,55$" } ],
+        [ { "tipe": "paragraph", "text": "$0,65$" } ],
+        [ { "tipe": "paragraph", "text": "$0,75$" } ],
+        [ { "tipe": "paragraph", "text": "$0,85$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{kalah}) = 1 - 0,35 = 0,65$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bilangan dipilih secara acak dari bilangan $1$ sampai $10$. Peluang terpilih bilangan genap adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bilangan genap 1-10: $\\{2, 4, 6, 8, 10\\} \\rightarrow n(A) = 5$, $n(S) = 10$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{10} = \\dfrac{1}{2}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah koin dilempar. Peluang muncul keduanya gambar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang A lulus = $\\dfrac{9}{10}$." },
-        { "tipe": "paragraph", "text": "Peluang B tidak lulus = $1 - \\dfrac{14}{15} = \\dfrac{1}{15}$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{9}{10} \\times \\dfrac{1}{15} = \\dfrac{9}{150}$." }
+        { "tipe": "paragraph", "text": "Ruang sampel: $\\{AA, AG, GA, GG\\} \\rightarrow n(S) = 4$." },
+        { "tipe": "paragraph", "text": "Kejadian $\\{GG\\} \\rightarrow n(A) = 1$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{4}$." }
       ],
-      "tingkat": "SEDANG"
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada pelemparan dua dadu, peluang muncul jumlah mata dadu $8$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pasangan berjumlah $8$: $(2,6), (3,5), (4,4), (5,3), (6,2) \\rightarrow n(A) = 5$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{36}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kartu diambil dari satu set kartu bridge. Peluang terambil kartu bergambar (J, Q, K) adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{13}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kartu bergambar J, Q, K = $3 \\times 4 = 12$ kartu." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{52} = \\dfrac{3}{13}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang hari ini hujan adalah $\\dfrac{2}{5}$. Peluang hari ini tidak hujan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{tidak hujan}) = 1 - \\dfrac{2}{5} = \\dfrac{3}{5}$." }
+      ],
+      "tingkat": "MUDAH"
     }
   ]
 }
