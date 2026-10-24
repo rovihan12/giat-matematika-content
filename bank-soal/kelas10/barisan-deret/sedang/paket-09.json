@@ -1,0 +1,200 @@
+{
+  "id": "bs-k10-bd-s-09",
+  "nama": "Bank Soal Sedang - Paket 9",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang suku tengah, sistem persamaan, dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-s-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku tengah dari barisan aritmatika dengan $U_1 = 9$ dan $U_{15} = 65$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$37$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$39$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_t = \\dfrac{U_1 + U_{15}}{2} = \\dfrac{9 + 65}{2} = 37$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Di antara bilangan $4$ dan $40$ disisipkan 5 bilangan sehingga membentuk barisan aritmatika. Beda barisan baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$b' = \\dfrac{40 - 4}{5 + 1} = \\dfrac{36}{6} = 6$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada barisan aritmatika, $U_3 = 15$ dan $U_8 = 40$. Suku ke-14 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$66$" } ],
+        [ { "tipe": "paragraph", "text": "$68$" } ],
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$72$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$b = \\dfrac{40 - 15}{8 - 3} = 5$." },
+        { "tipe": "paragraph", "text": "$U_3 = a + 2b = 15 \\Rightarrow a = 5$." },
+        { "tipe": "paragraph", "text": "$U_{14} = 5 + 13 \\cdot 5 = 70$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah semua bilangan kelipatan 9 antara 100 dan 250 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2808$" } ],
+        [ { "tipe": "paragraph", "text": "$2907$" } ],
+        [ { "tipe": "paragraph", "text": "$3006$" } ],
+        [ { "tipe": "paragraph", "text": "$3105$" } ],
+        [ { "tipe": "paragraph", "text": "$3204$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelipatan 9 pertama = $108$, terakhir = $243$." },
+        { "tipe": "paragraph", "text": "$n = \\dfrac{243 - 108}{9} + 1 = 16$." },
+        { "tipe": "paragraph", "text": "$S_{16} = \\dfrac{16}{2}(108 + 243) = 8 \\cdot 351 = 2808$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku tengah barisan geometri dengan $U_1 = 3$ dan $U_9 = 768$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ],
+        [ { "tipe": "paragraph", "text": "$54$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$U_t = \\sqrt{U_1 \\cdot U_9} = \\sqrt{3 \\cdot 768} = \\sqrt{2304} = 48$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus suku ke-$n$ barisan $10, 15, 20, 25, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n - 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 10n + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 10$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 10$, $b = 5$." },
+        { "tipe": "paragraph", "text": "$U_n = 10 + (n-1) \\cdot 5 = 5n + 5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-6 barisan geometri $\\dfrac{1}{8}, \\dfrac{1}{4}, \\dfrac{1}{2}, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = \\dfrac{1}{8}$, $r = 2$." },
+        { "tipe": "paragraph", "text": "$U_6 = \\dfrac{1}{8} \\cdot 2^5 = \\dfrac{32}{8} = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 12 suku pertama deret $4 + 7 + 10 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$228$" } ],
+        [ { "tipe": "paragraph", "text": "$240$" } ],
+        [ { "tipe": "paragraph", "text": "$246$" } ],
+        [ { "tipe": "paragraph", "text": "$252$" } ],
+        [ { "tipe": "paragraph", "text": "$264$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 4$, $b = 3$, $n = 12$." },
+        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2 \\cdot 4 + 11 \\cdot 3) = 6(8 + 33) = 6 \\cdot 41 = 246$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada barisan aritmatika diketahui $U_4 = 13$ dan $U_7 = 25$. Suku pertama dan bedanya berturut-turut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$a = 1$, $b = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 2$, $b = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 3$, $b = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 4$, $b = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 5$, $b = 3$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$b = \\dfrac{25 - 13}{7 - 4} = 4$." },
+        { "tipe": "paragraph", "text": "$U_4 = a + 3b = 13 \\Rightarrow a = 1$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-bd-s-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret geometri tak hingga $\\dfrac{5}{6} + \\dfrac{5}{12} + \\dfrac{5}{24} + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = \\dfrac{5}{6}$, $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{5/6}{1 - 1/2} = \\dfrac{5/6}{1/2} = \\dfrac{5}{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
