@@ -1,163 +1,178 @@
 {
-  "id": "bs-k10-spl-m-10",
-  "nama": "Bank Soal Mudah - Paket 10",
+  "id": "bs-k10-spl-sulit-10",
+  "nama": "Bank Soal Sulit - Paket 10",
   "kelas": 10,
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
-  "tingkat": "MUDAH",
-  "deskripsi": "Soal cerita dan membaca grafik persamaan linear sederhana",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal OSN-style: identitas aljabar, sistem nonlinear, dan pertidaksamaan lanjutan",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-spl-m-10-q01",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan grafik garis $y = 2x - 4$ berikut. Titik potong dengan sumbu Y berada di koordinat..." },
-        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Grafik+y%3D2x-4", "caption": "Grafik garis y = 2x - 4" }
-      ],
-      "gambar_prompt": "Grafik kartesius garis lurus y = 2x - 4 pada bidang koordinat dengan sumbu X dan Y, titik potong sumbu Y di (0,-4) dan sumbu X di (2,0) ditandai dengan titik hitam, grid ringan, gaya bersih edukatif.",
+      "id": "bs-k10-spl-sulit-10-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jika $a + b = 5$ dan $ab = 6$, nilai $a^3 + b^3$ adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(0, -4)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(-4, 0)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 0)$" }],
-        [{ "tipe": "paragraph", "text": "$(2, 0)$" }]
+        [{ "tipe": "paragraph", "text": "$35$" }],
+        [{ "tipe": "paragraph", "text": "$40$" }],
+        [{ "tipe": "paragraph", "text": "$45$" }],
+        [{ "tipe": "paragraph", "text": "$50$" }],
+        [{ "tipe": "paragraph", "text": "$55$" }]
       ],
       "jawaban_benar": 0,
-      "pembahasan": [{ "tipe": "paragraph", "text": "Substitusi $x = 0$: $y = -4$. Titik potong sumbu Y = $(0, -4)$." }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-10-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah taksi menetapkan tarif buka pintu Rp7.000 dan Rp4.000 per km. Jika jarak 5 km, total tarif adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp25.000" }],
-        [{ "tipe": "paragraph", "text": "Rp26.000" }],
-        [{ "tipe": "paragraph", "text": "Rp27.000" }],
-        [{ "tipe": "paragraph", "text": "Rp28.000" }],
-        [{ "tipe": "paragraph", "text": "Rp29.000" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$7.000 + 5(4.000) = 27.000$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-10-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Jumlah umur Ibu dan Anak 50 tahun. Umur Ibu 4 kali umur Anak. Umur Anak adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$8$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$9$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$10$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$11$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$12$ tahun" }]
-      ],
-      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$I = 4a$; $4a + a = 50 \\Rightarrow a = 10$." }
+        { "tipe": "paragraph", "text": "$a^3+b^3 = (a+b)^3 - 3ab(a+b) = 5^3 - 3(6)(5) = 125 - 90 = 35$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-10-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Grafik berikut menunjukkan daerah penyelesaian $x + y \\leq 6$. Titik yang TIDAK termasuk daerah penyelesaian adalah..." },
-        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Daerah+x%2By+%E2%89%A46", "caption": "Daerah penyelesaian x + y ≤ 6" }
-      ],
-      "gambar_prompt": "Bidang koordinat dengan garis x + y = 6 melalui (6,0) dan (0,6), daerah di bawah garis diarsir abu-abu, sumbu X dan Y diberi label, gaya bersih edukatif.",
+      "id": "bs-k10-spl-sulit-10-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x^2 + y^2 = 20$ dan $xy = 8$. Nilai $(x - y)^2$ adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(1, 2)$" }],
-        [{ "tipe": "paragraph", "text": "$(2, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 1)$" }],
-        [{ "tipe": "paragraph", "text": "$(3, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, 0)$" }]
-      ],
-      "jawaban_benar": 3,
-      "pembahasan": [{ "tipe": "paragraph", "text": "Cek $(3,4)$: $3+4 = 7 > 6$, jadi tidak termasuk." }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-10-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Harga 2 kg gula dan 1 kg tepung Rp38.000. Jika harga 1 kg tepung Rp12.000, harga 1 kg gula adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp11.000" }],
-        [{ "tipe": "paragraph", "text": "Rp12.000" }],
-        [{ "tipe": "paragraph", "text": "Rp13.000" }],
-        [{ "tipe": "paragraph", "text": "Rp14.000" }],
-        [{ "tipe": "paragraph", "text": "Rp15.000" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$2g + 12.000 = 38.000 \\Rightarrow 2g = 26.000 \\Rightarrow g = 13.000$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-10-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah bilangan jika dikali 4 lalu dikurangi 7 hasilnya 25. Bilangan tersebut adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }],
-        [{ "tipe": "paragraph", "text": "$9$" }],
-        [{ "tipe": "paragraph", "text": "$10$" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$4x - 7 = 25 \\Rightarrow 4x = 32 \\Rightarrow x = 8$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-10-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $p + q = 15$ dan $p - q = 3$. Nilai $p \\cdot q$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$36$" }],
-        [{ "tipe": "paragraph", "text": "$45$" }],
-        [{ "tipe": "paragraph", "text": "$54$" }],
-        [{ "tipe": "paragraph", "text": "$63$" }],
-        [{ "tipe": "paragraph", "text": "$72$" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$p = 9$, $q = 6 \\Rightarrow pq = 54$." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-10-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{3x + 1}{2} = 8$ adalah..." }],
-      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$2$" }],
         [{ "tipe": "paragraph", "text": "$3$" }],
         [{ "tipe": "paragraph", "text": "$4$" }],
         [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x-y)^2 = x^2+y^2-2xy = 20 - 2(8) = 20 - 16 = 4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-10-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $|x - 1| + |x - 3| = 2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$1 \\leq x \\leq 3$" }],
+        [{ "tipe": "paragraph", "text": "$x = 1$ atau $x = 3$" }],
+        [{ "tipe": "paragraph", "text": "$x = 2$" }],
+        [{ "tipe": "paragraph", "text": "$x < 1$ atau $x > 3$" }],
+        [{ "tipe": "paragraph", "text": "$1 < x < 3$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Untuk $1 \\leq x \\leq 3$, $|x-1| = x-1$ dan $|x-3| = 3-x$." },
+        { "tipe": "paragraph", "text": "Maka $(x-1) + (3-x) = 2 \\Rightarrow 2 = 2$ (berlaku untuk semua $1 \\leq x \\leq 3$)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-10-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $\\dfrac{2}{x} + \\dfrac{3}{y} = 8$ dan $\\dfrac{3}{x} + \\dfrac{2}{y} = 7$. Nilai $x \\cdot y$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" }],
+        [{ "tipe": "paragraph", "text": "$1$" }],
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $a = \\dfrac{1}{x}$ dan $b = \\dfrac{1}{y}$: $2a + 3b = 8$ dan $3a + 2b = 7$." },
+        { "tipe": "paragraph", "text": "Dari eliminasi diperoleh $a = 2$ dan $b = 1$, sehingga $x = \\dfrac{1}{2}$ dan $y = 1$." },
+        { "tipe": "paragraph", "text": "Maka nilai $x \\cdot y = \\dfrac{1}{2} \\cdot 1 = \\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-10-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jika $x + y + z = 9$ dan $x^2 + y^2 + z^2 = 35$, nilai $xy + yz + zx$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$21$" }],
+        [{ "tipe": "paragraph", "text": "$22$" }],
+        [{ "tipe": "paragraph", "text": "$23$" }],
+        [{ "tipe": "paragraph", "text": "$24$" }],
+        [{ "tipe": "paragraph", "text": "$25$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x+y+z)^2 = x^2+y^2+z^2 + 2(xy+yz+zx) \\Rightarrow 81 = 35 + 2(xy+yz+zx) \\Rightarrow xy+yz+zx = 23$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-10-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y = 4$ dan $x^2 + y^2 = 10$. Nilai $x^3 + y^3$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$28$" }],
+        [{ "tipe": "paragraph", "text": "$30$" }],
+        [{ "tipe": "paragraph", "text": "$32$" }],
+        [{ "tipe": "paragraph", "text": "$34$" }],
+        [{ "tipe": "paragraph", "text": "$36$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x+y)^2 = x^2+y^2+2xy \\Rightarrow 16 = 10 + 2xy \\Rightarrow xy = 3$." },
+        { "tipe": "paragraph", "text": "$x^3+y^3 = (x+y)^3 - 3xy(x+y) = 4^3 - 3(3)(4) = 64 - 36 = 28$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-10-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{x^2 - 5x + 6}{x - 4} \\leq 0$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\leq 2$ atau $3 \\leq x < 4$" }],
+        [{ "tipe": "paragraph", "text": "$2 \\leq x \\leq 3$ atau $x > 4$" }],
+        [{ "tipe": "paragraph", "text": "$x < 2$ atau $3 < x < 4$" }],
+        [{ "tipe": "paragraph", "text": "$2 \\leq x \\leq 3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 4$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{(x-2)(x-3)}{x-4} \\leq 0$. Pembuat nol: $x = 2$, $x = 3$, dan $x = 4$ (dikecualikan)." },
+        { "tipe": "paragraph", "text": "Uji interval: negatif pada $x \\leq 2$ dan $3 \\leq x < 4$." },
+        { "tipe": "paragraph", "text": "Maka HP: $x \\leq 2$ atau $3 \\leq x < 4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-10-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x^2 + y^2 = 13$ dan $x + y = 5$. Nilai $x \\cdot y$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
         [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }]
+        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3x + 1 = 16 \\Rightarrow 3x = 15 \\Rightarrow x = 5$" }],
-      "tingkat": "MUDAH"
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x+y)^2 = x^2+y^2+2xy \\Rightarrow 25 = 13 + 2xy \\Rightarrow xy = 6$." }
+      ],
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-10-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Keliling segitiga sama sisi adalah 27 cm. Panjang sisinya adalah..." }],
+      "id": "bs-k10-spl-sulit-10-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jika $x + \\dfrac{1}{x} = 3$, nilai $x^2 + \\dfrac{1}{x^2}$ adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$7$ cm" }],
-        [{ "tipe": "paragraph", "text": "$8$ cm" }],
-        [{ "tipe": "paragraph", "text": "$9$ cm" }],
-        [{ "tipe": "paragraph", "text": "$10$ cm" }],
-        [{ "tipe": "paragraph", "text": "$11$ cm" }]
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }],
+        [{ "tipe": "paragraph", "text": "$9$" }]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3s = 27 \\Rightarrow s = 9$ cm" }],
-      "tingkat": "MUDAH"
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "\\left(x + \\dfrac{1}{x}\\right)^2 = x^2 + 2 + \\dfrac{1}{x^2} \\Rightarrow 9 = x^2 + 2 + \\dfrac{1}{x^2} \\Rightarrow x^2 + \\dfrac{1}{x^2} = 7$." }
+      ],
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-10-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $6 - 2x > 10$ adalah..." }],
+      "id": "bs-k10-spl-sulit-10-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y + z = 6$, $x^2 + y^2 + z^2 = 14$, $xy + yz + zx = 11$. Nilai $xyz$ adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x > -2$" }],
-        [{ "tipe": "paragraph", "text": "$x < -2$" }],
-        [{ "tipe": "paragraph", "text": "$x > 2$" }],
-        [{ "tipe": "paragraph", "text": "$x < 2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq -2$" }]
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }]
       ],
-      "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$-2x > 4 \\Rightarrow x < -2$" }],
-      "tingkat": "MUDAH"
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Solusi sistem persamaan yang memenuhi adalah $(1, 2, 3)$." },
+        { "tipe": "paragraph", "text": "Maka nilai $xyz = 1 \\cdot 2 \\cdot 3 = 6$." }
+      ],
+      "tingkat": "SULIT"
     }
   ]
 }
