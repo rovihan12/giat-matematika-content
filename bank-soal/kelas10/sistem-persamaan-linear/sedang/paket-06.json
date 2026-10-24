@@ -1,0 +1,175 @@
+{
+  "id": "bs-k10-spl-s-06",
+  "nama": "Bank Soal Sedang - Paket 6",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SEDANG",
+  "deskripsi": "SPLTV dan sistem pertidaksamaan linear dua variabel (daerah penyelesaian)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-s-06-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian sistem $x + y + z = 9$, $2x - y + z = 5$, dan $x + 2y - z = 4$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(2, 3, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(1, 3, 5)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 2, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 4, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 2, 3)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Verifikasi $(2,3,4)$: (i) $2+3+4=9$ ✓; (ii) $4-3+4=5$ ✓; (iii) $2+6-4=4$ ✓." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $z$ dari sistem $x + y + z = 10$, $2x - y + z = 7$, dan $x + 2y - z = 5$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Mengeliminasi variabel $x$ dan $y$ diperoleh solusi $(3, 3, 4)$. Jadi nilai $z = 4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y \\leq 8$, $2x + y \\geq 10$, $x \\geq 0$, $y \\geq 0$. Titik yang merupakan titik sudut daerah penyelesaian adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(0, 8)$ dan $(5, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 10)$ dan $(8, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 6)$ dan $(4, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 0)$ dan $(8, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(5, 0)$ dan $(8, 0)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong dengan sumbu: $x+y=8$ → $(0,8),(8,0)$; $2x+y=10$ → $(0,10),(5,0)$." },
+        { "tipe": "paragraph", "text": "Titik sudut daerah penyelesaian: $(0,8)$, $(5,0)$, dan titik potong $(2,6)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x + y + z$ dari sistem $2x + y + z = 7$, $x + 2y + z = 8$, $x + y + 2z = 9$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }],
+        [{ "tipe": "paragraph", "text": "$9$" }],
+        [{ "tipe": "paragraph", "text": "$10$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan: $4x + 4y + 4z = 24 \\Rightarrow 4(x + y + z) = 24 \\Rightarrow x + y + z = 6$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y \\geq 4$, $x + 2y \\leq 8$, $x \\geq 0$, $y \\geq 0$. Titik $(0, 5)$..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Memenuhi semua kendala" }],
+        [{ "tipe": "paragraph", "text": "Tidak memenuhi $x + y \\geq 4$" }],
+        [{ "tipe": "paragraph", "text": "Tidak memenuhi $x + 2y \\leq 8$" }],
+        [{ "tipe": "paragraph", "text": "Tidak memenuhi $x \\geq 0$" }],
+        [{ "tipe": "paragraph", "text": "Tidak memenuhi $y \\geq 0$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Uji titik $(0,5)$: $0+5 = 5 \\geq 4$ (memenuhi), namun $0+2(5) = 10 \\nleq 8$ (tidak memenuhi)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian sistem $y \\geq x + 1$ dan $y \\leq 2x - 1$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x \\geq 2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 1$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 1$" }],
+        [{ "tipe": "paragraph", "text": "$x \\geq 3$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x+1 \\leq 2x-1 \\Rightarrow 2 \\leq x \\Rightarrow x \\geq 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x \\cdot y$ dari sistem $x + y + z = 6$, $x - y + z = 2$, $x + y - z = 0$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }],
+        [{ "tipe": "paragraph", "text": "$10$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari eliminasi diperoleh $x = 1, y = 2, z = 3$." },
+        { "tipe": "paragraph", "text": "Maka nilai $x \\cdot y = 1 \\cdot 2 = 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem pertidaksamaan $x + y \\leq 6$, $2x + y \\geq 8$, $x \\geq 0$, $y \\geq 0$ memiliki titik sudut..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(0, 6), (4, 0), (2, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 8), (6, 0), (2, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 6), (2, 4), (3, 0)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 6), (4, 0), (3, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(0, 8), (4, 0), (2, 4)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik sudut: $(0,6)$, $(4,0)$ [dari $2x+y=8$], dan potong $x+y=6$ & $2x+y=8$: $x=2, y=4$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y = 7$, $y + z = 9$, $x + z = 8$. Nilai $x \\cdot y \\cdot z$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$60$" }],
+        [{ "tipe": "paragraph", "text": "$72$" }],
+        [{ "tipe": "paragraph", "text": "$80$" }],
+        [{ "tipe": "paragraph", "text": "$84$" }],
+        [{ "tipe": "paragraph", "text": "$90$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x+y+z = 12 \\Rightarrow x=3, y=4, z=5$." },
+        { "tipe": "paragraph", "text": "Maka $x \\cdot y \\cdot z = 3 \\cdot 4 \\cdot 5 = 60$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-06-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $2x + 3y \\leq 12$, $x + y \\geq 3$, $x \\geq 0$, $y \\geq 0$. Nilai minimum $f = 2x + y$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik sudut: $(3,0)$ → $f=6$; $(0,3)$ → $f=3$; $(0,4)$ → $f=4$; $(6,0)$ → $f=12$." },
+        { "tipe": "paragraph", "text": "Minimum $=3$ di $(0,3)$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
