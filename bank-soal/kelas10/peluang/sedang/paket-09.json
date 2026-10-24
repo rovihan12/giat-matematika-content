@@ -1,0 +1,210 @@
+{
+  "id": "bs-k10-pel-s-09",
+  "nama": "Bank Soal Sedang - Paket 9",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang peluang gabungan dan komplemen",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-pel-s-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah dadu dilempar bersamaan. Peluang muncul jumlah mata dadu kurang dari $5$ atau lebih dari $10$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah $< 5$: $2, 3, 4$ $\\rightarrow$ $(1,1), (1,2), (2,1), (1,3), (2,2), (3,1)$ (6 pasangan)." },
+        { "tipe": "paragraph", "text": "Jumlah $> 10$: $11, 12$ $\\rightarrow$ $(5,6), (6,5), (6,6)$ (3 pasangan)." },
+        { "tipe": "paragraph", "text": "Kedua kejadian saling lepas $\\rightarrow n(A) = 6 + 3 = 9$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{9}{36} = \\dfrac{1}{4}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 100 siswa, 55 siswa menyukai matematika, 40 siswa menyukai fisika, dan 20 siswa menyukai keduanya. Jika dipilih seorang siswa secara acak, peluang siswa tersebut TIDAK menyukai matematika maupun fisika adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{20}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Siswa menyukai salah satu/keduanya: $N(M \\cup F) = 55 + 40 - 20 = 75$." },
+        { "tipe": "paragraph", "text": "Siswa tidak menyukai keduanya: $100 - 75 = 25$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{25}{100} = \\dfrac{1}{4}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kartu diambil dari satu set kartu bridge. Peluang terambil kartu bernomor genap ($2, 4, 6, 8, 10$) ATAU kartu bergambar keriting adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{28}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{29}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{30}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{13}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kartu genap: $5 \\times 4 = 20$ kartu. Kartu keriting: $13$ kartu." },
+        { "tipe": "paragraph", "text": "Kartu genap DAN keriting: $5$ kartu." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{20 + 13 - 5}{52} = \\dfrac{28}{52} = \\dfrac{7}{13}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $P(A) = 0{,}6$ dan $P(B) = 0{,}3$. Jika $A$ dan $B$ merupakan dua kejadian saling lepas, maka nilai $P(A^c \\cap B^c)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0{,}1$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}2$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}3$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}7$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $A$ dan $B$ saling lepas, $P(A \\cup B) = P(A) + P(B) = 0{,}6 + 0{,}3 = 0{,}9$." },
+        { "tipe": "paragraph", "text": "Berdasarkan Hukum De Morgan, $P(A^c \\cap B^c) = P((A \\cup B)^c) = 1 - 0{,}9 = 0{,}1$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah dadu dilempar sekali. Peluang muncul jumlah mata dadu kelipatan $3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah kelipatan $3$: $3, 6, 9, 12$." },
+        { "tipe": "paragraph", "text": "Banyak pasangan: $3(2) + 6(5) + 9(4) + 12(1) = 2 + 5 + 4 + 1 = 12$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{36} = \\dfrac{1}{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang seorang penembak mengenai sasaran adalah $0{,}75$. Jika ia menembak sebanyak 4 kali secara independen, peluang ia GAGAL mengenai sasaran pada keempat tembakan tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{256}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{64}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{64}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{81}{256}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang gagal dalam 1 tembakan: $P(\\text{gagal}) = 1 - 0{,}75 = 0{,}25 = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "Peluang gagal 4 kali berturut-turut: $\\left(\\dfrac{1}{4}\\right)^4 = \\dfrac{1}{256}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $P(A) = 0{,}5$, $P(B) = 0{,}4$, dan $P(A \\cup B) = 0{,}7$. Nilai dari $P(A \\cap B^c)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0{,}1$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}2$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}3$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$0{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0{,}5 + 0{,}4 - 0{,}7 = 0{,}2$." },
+        { "tipe": "paragraph", "text": "$P(A \\cap B^c) = P(A) - P(A \\cap B) = 0{,}5 - 0{,}2 = 0{,}3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga keping uang logam dilempar bersama-sama. Peluang muncul paling banyak 2 gambar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan komplemen: paling banyak 2 gambar = $1 - P(\\text{3 gambar})$." },
+        { "tipe": "paragraph", "text": "$P(\\text{3 gambar}) = P(GGG) = \\dfrac{1}{8}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{paling banyak 2 gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 8 bola berwarna merah dan kuning. Jika peluang terambil bola merah adalah $\\dfrac{5}{8}$, maka peluang terambil 2 bola kuning sekaligus adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak bola merah = $\\dfrac{5}{8} \\times 8 = 5$ bola $\\rightarrow$ bola kuning = $8 - 5 = 3$ bola." },
+        { "tipe": "paragraph", "text": "$n(S) = C(8,2) = 28$." },
+        { "tipe": "paragraph", "text": "$n(\\text{2 kuning}) = C(3,2) = 3$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{28}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-pel-s-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah dadu dilempar bersamaan. Peluang muncul kedua mata dadu tidak ada yang bernilai $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{12}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dadu 1 bukan angka $6$: 5 kemungkinan. Dadu 2 bukan angka $6$: 5 kemungkinan." },
+        { "tipe": "paragraph", "text": "Banyak pasangan = $5 \\times 5 = 25$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{25}{36}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
