@@ -203,21 +203,36 @@
               "bank-soal/kelas10/trigonometri/mudah/paket-02.json",
               "bank-soal/kelas10/trigonometri/mudah/paket-03.json",
               "bank-soal/kelas10/trigonometri/mudah/paket-04.json",
-              "bank-soal/kelas10/trigonometri/mudah/paket-05.json"
+              "bank-soal/kelas10/trigonometri/mudah/paket-05.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-06.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-07.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-08.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-09.json",
+              "bank-soal/kelas10/trigonometri/mudah/paket-10.json"
             ],
             "sedang": [
               "bank-soal/kelas10/trigonometri/sedang/paket-01.json",
               "bank-soal/kelas10/trigonometri/sedang/paket-02.json",
               "bank-soal/kelas10/trigonometri/sedang/paket-03.json",
               "bank-soal/kelas10/trigonometri/sedang/paket-04.json",
-              "bank-soal/kelas10/trigonometri/sedang/paket-05.json"
+              "bank-soal/kelas10/trigonometri/sedang/paket-05.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-06.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-07.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-08.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-09.json",
+              "bank-soal/kelas10/trigonometri/sedang/paket-10.json"
             ],
             "sulit": [
               "bank-soal/kelas10/trigonometri/sulit/paket-01.json",
               "bank-soal/kelas10/trigonometri/sulit/paket-02.json",
               "bank-soal/kelas10/trigonometri/sulit/paket-03.json",
               "bank-soal/kelas10/trigonometri/sulit/paket-04.json",
-              "bank-soal/kelas10/trigonometri/sulit/paket-05.json"
+              "bank-soal/kelas10/trigonometri/sulit/paket-05.json",
+              "bank-soal/kelas10/trigonometri/sulit/paket-06.json",
+              "bank-soal/kelas10/trigonometri/sulit/paket-07.json",
+              "bank-soal/kelas10/trigonometri/sulit/paket-08.json",
+              "bank-soal/kelas10/trigonometri/sulit/paket-09.json",
+              "bank-soal/kelas10/trigonometri/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -237,6 +252,141 @@
               "file": "soal/kelas10/trigonometri/trigonometri-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-m-06",
+              "nama": "Bank Soal Mudah - Paket 6 (Lanjutan)",
+              "deskripsi": "Soal mudah tentang perbandingan trigonometri dasar dan segitiga siku-siku (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-m-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-m-07",
+              "nama": "Bank Soal Mudah - Paket 7 (Lanjutan)",
+              "deskripsi": "Soal mudah tentang identitas trigonometri dasar, relasi sudut, dan segitiga siku-siku (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-m-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-m-08",
+              "nama": "Bank Soal Mudah - Paket 8 (Lanjutan)",
+              "deskripsi": "Soal mudah tentang perbandingan trigonometri, segitiga siku-siku, dan penerapan dasar (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-m-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-m-09",
+              "nama": "Bank Soal Mudah - Paket 9 (Lanjutan)",
+              "deskripsi": "Soal mudah tentang perbandingan trigonometri, identitas dasar, dan sudut istimewa (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-m-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-m-10",
+              "nama": "Bank Soal Mudah - Paket 10 (Lanjutan)",
+              "deskripsi": "Soal mudah campuran tentang perbandingan trigonometri, sudut istimewa, dan penerapan dasar (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-m-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-s-06",
+              "nama": "Bank Soal Sedang - Paket 6 (Lanjutan)",
+              "deskripsi": "Soal sedang tentang aturan sinus, aturan cosinus, dan luas segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-s-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-s-07",
+              "nama": "Bank Soal Sedang - Paket 7 (Lanjutan)",
+              "deskripsi": "Soal sedang tentang identitas trigonometri, sudut rangkap, dan persamaan dasar (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-s-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-s-08",
+              "nama": "Bank Soal Sedang - Paket 8 (Lanjutan)",
+              "deskripsi": "Soal sedang tentang perbandingan trigonometri, relasi sudut, dan penerapan segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-s-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-s-09",
+              "nama": "Bank Soal Sedang - Paket 9 (Lanjutan)",
+              "deskripsi": "Soal sedang tentang identitas trigonometri, persamaan, dan aturan segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-s-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-s-10",
+              "nama": "Bank Soal Sedang - Paket 10 (Lanjutan)",
+              "deskripsi": "Soal sedang tentang identitas trigonometri, persamaan trigonometri, dan aturan segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-s-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-sulit-06",
+              "nama": "Bank Soal Sulit - Paket 6 (Lanjutan)",
+              "deskripsi": "Soal sulit tentang persamaan trigonometri, identitas lanjutan, dan aturan segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-sulit-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-sulit-07",
+              "nama": "Bank Soal Sulit - Paket 7 (Lanjutan)",
+              "deskripsi": "Soal sulit tentang identitas trigonometri, persamaan, dan aplikasi segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-sulit-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-sulit-08",
+              "nama": "Bank Soal Sulit - Paket 8 (Lanjutan)",
+              "deskripsi": "Soal sulit tentang identitas trigonometri lanjutan, persamaan, dan geometri segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-sulit-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-sulit-09",
+              "nama": "Bank Soal Sulit - Paket 9 (Lanjutan)",
+              "deskripsi": "Soal sulit tentang identitas trigonometri, deret trigonometri, dan aturan segitiga (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-sulit-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-trig-sulit-10",
+              "nama": "Bank Soal Sulit - Paket 10 (Lanjutan)",
+              "deskripsi": "Soal sulit OSN-style tentang identitas trigonometri, persamaan, dan geometri analitik (lanjutan)",
+              "file": "soal/kelas10/trigonometri/bs-k10-trig-sulit-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
               "versi": "1.0.0"
             }
           ]
