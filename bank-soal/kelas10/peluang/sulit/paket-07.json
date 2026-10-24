@@ -1,0 +1,214 @@
+{
+  "id": "bs-k10-pel-sulit-07",
+  "nama": "Bank Soal Sulit - Paket 7",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang kombinasi ganda, peluang bersyarat, dan teorema Bayes",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-pel-sulit-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 5 bola merah dan 4 bola putih. Diambil 3 bola sekaligus. Peluang terambil 2 merah dan 1 putih adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{42}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(9,3) = 84$." },
+        { "tipe": "paragraph", "text": "2 merah dari 5: $C(5,2) = 10$; 1 putih dari 4: $C(4,1) = 4$." },
+        { "tipe": "paragraph", "text": "$n(A) = 10 \\cdot 4 = 40$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{40}{84} = \\dfrac{10}{21}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah panitia beranggotakan 4 orang akan dipilih dari 6 pria dan 5 wanita. Peluang panitia tersebut terdiri dari 2 pria dan 2 wanita adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{66}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{22}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{33}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(11,4) = 330$." },
+        { "tipe": "paragraph", "text": "$n(A) = C(6,2) \\cdot C(5,2) = 15 \\cdot 10 = 150$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{150}{330} = \\dfrac{5}{11}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga koin dilempar bersamaan. Peluang muncul paling sedikit 2 angka adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{8}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ruang sampel: $n(S) = 8$." },
+        { "tipe": "paragraph", "text": "Paling sedikit 2 angka: $\\{AAA, AAG, AGA, GAA\\} \\rightarrow 4$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{8} = \\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 10 siswa akan dipilih 3 siswa untuk menjadi ketua, sekretaris, dan bendahara. Banyak cara pemilihan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$240$" } ],
+        [ { "tipe": "paragraph", "text": "$480$" } ],
+        [ { "tipe": "paragraph", "text": "$720$" } ],
+        [ { "tipe": "paragraph", "text": "$1440$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutan penting $\\rightarrow$ permutasi." },
+        { "tipe": "paragraph", "text": "$P(10,3) = \\dfrac{10!}{7!} = 10 \\cdot 9 \\cdot 8 = 720$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 8 siswa akan dipilih 3 siswa untuk mengikuti olimpiade. Banyak cara pemilihan adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$56$" } ],
+        [ { "tipe": "paragraph", "text": "$112$" } ],
+        [ { "tipe": "paragraph", "text": "$168$" } ],
+        [ { "tipe": "paragraph", "text": "$336$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutan tidak penting $\\rightarrow$ kombinasi." },
+        { "tipe": "paragraph", "text": "$C(8,3) = \\dfrac{8 \\cdot 7 \\cdot 6}{3 \\cdot 2 \\cdot 1} = 56$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar 3 kali. Peluang muncul mata dadu $6$ paling sedikit satu kali adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{91}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{125}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{175}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{215}{216}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan komplemen: kejadian TIDAK muncul $6$ pada ketiga lemparan." },
+        { "tipe": "paragraph", "text": "$P(\\text{bukan 6}) = \\dfrac{5}{6}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{tidak 6 semua}) = \\left(\\dfrac{5}{6}\\right)^3 = \\dfrac{125}{216}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu 6}) = 1 - \\dfrac{125}{216} = \\dfrac{91}{216}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kantong terdapat 6 kelereng merah, 4 biru, dan 5 hijau. Diambil 3 kelereng sekaligus. Peluang terambil ketiganya berbeda warna adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{26}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{27}{91}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{30}{91}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(15,3) = 455$." },
+        { "tipe": "paragraph", "text": "$n(A) = C(6,1) \\cdot C(4,1) \\cdot C(5,1) = 6 \\cdot 4 \\cdot 5 = 120$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{120}{455} = \\dfrac{24}{91}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kotak A berisi 3 bola merah dan 2 bola putih, sedangkan kotak B berisi 2 bola merah dan 4 bola putih. Sebuah kotak dipilih secara acak, kemudian dari kotak tersebut diambil sebuah bola secara acak. Peluang terambilnya bola merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{15}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{15}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan Hukum Peluang Total." },
+        { "tipe": "paragraph", "text": "$P(\\text{Kotak A}) = P(\\text{Kotak B}) = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{Merah} \\mid \\text{A}) = \\dfrac{3}{5}$ dan $P(\\text{Merah} \\mid \\text{B}) = \\dfrac{2}{6} = \\dfrac{1}{3}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{Merah}) = \\left(\\dfrac{1}{2} \\cdot \\dfrac{3}{5}\\right) + \\left(\\dfrac{1}{2} \\cdot \\dfrac{1}{3}\\right) = \\dfrac{3}{10} + \\dfrac{1}{6} = \\dfrac{9 + 5}{30} = \\dfrac{14}{30} = \\dfrac{7}{15}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kotak A berisi 3 bola merah dan 2 bola putih. Kotak B berisi 2 bola merah dan 4 bola putih. Sebuah kotak dipilih secara acak dan diambil 1 bola. Jika bola yang terambil ternyata berwarna merah, peluang bahwa bola tersebut berasal dari kotak A adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{14}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan Teorema Bayes: $P(\\text{A} \\mid \\text{Merah}) = \\dfrac{P(\\text{Merah} \\mid \\text{A}) \\cdot P(\\text{A})}{P(\\text{Merah})}$." },
+        { "tipe": "paragraph", "text": "Dari soal sebelumnya, $P(\\text{Merah}) = \\dfrac{7}{15}$ dan $P(\\text{Merah} \\mid \\text{A}) \\cdot P(\\text{A}) = \\dfrac{3}{5} \\cdot \\dfrac{1}{2} = \\dfrac{3}{10}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{A} \\mid \\text{Merah}) = \\dfrac{\\dfrac{3}{10}}{\\dfrac{7}{15}} = \\dfrac{3}{10} \\times \\dfrac{15}{7} = \\dfrac{9}{14}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 4 bola merah dan 6 bola putih. Diambil 2 bola sekaligus. Jika diketahui paling sedikit satu bola merah terambil, peluang bahwa kedua bola yang terambil berwarna merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan Peluang Bersyarat: $P(\\text{2 Merah} \\mid \\text{min 1 Merah}) = \\dfrac{n(\\text{2 Merah})}{n(\\text{min 1 Merah})}$." },
+        { "tipe": "paragraph", "text": "Total pasangan = $C(10,2) = 45$." },
+        { "tipe": "paragraph", "text": "Pasangan 0 merah (keduanya putih) = $C(6,2) = 15$ $\\rightarrow n(\\text{min 1 Merah}) = 45 - 15 = 30$." },
+        { "tipe": "paragraph", "text": "Pasangan 2 merah = $C(4,2) = 6$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{6}{30} = \\dfrac{1}{5}$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
