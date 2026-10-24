@@ -503,21 +503,36 @@
               "bank-soal/kelas10/statistika/mudah/paket-02.json",
               "bank-soal/kelas10/statistika/mudah/paket-03.json",
               "bank-soal/kelas10/statistika/mudah/paket-04.json",
-              "bank-soal/kelas10/statistika/mudah/paket-05.json"
+              "bank-soal/kelas10/statistika/mudah/paket-05.json",
+              "bank-soal/kelas10/statistika/mudah/paket-06.json",
+              "bank-soal/kelas10/statistika/mudah/paket-07.json",
+              "bank-soal/kelas10/statistika/mudah/paket-08.json",
+              "bank-soal/kelas10/statistika/mudah/paket-09.json",
+              "bank-soal/kelas10/statistika/mudah/paket-10.json"
             ],
             "sedang": [
               "bank-soal/kelas10/statistika/sedang/paket-01.json",
               "bank-soal/kelas10/statistika/sedang/paket-02.json",
               "bank-soal/kelas10/statistika/sedang/paket-03.json",
               "bank-soal/kelas10/statistika/sedang/paket-04.json",
-              "bank-soal/kelas10/statistika/sedang/paket-05.json"
+              "bank-soal/kelas10/statistika/sedang/paket-05.json",
+              "bank-soal/kelas10/statistika/sedang/paket-06.json",
+              "bank-soal/kelas10/statistika/sedang/paket-07.json",
+              "bank-soal/kelas10/statistika/sedang/paket-08.json",
+              "bank-soal/kelas10/statistika/sedang/paket-09.json",
+              "bank-soal/kelas10/statistika/sedang/paket-10.json"
             ],
             "sulit": [
               "bank-soal/kelas10/statistika/sulit/paket-01.json",
               "bank-soal/kelas10/statistika/sulit/paket-02.json",
               "bank-soal/kelas10/statistika/sulit/paket-03.json",
               "bank-soal/kelas10/statistika/sulit/paket-04.json",
-              "bank-soal/kelas10/statistika/sulit/paket-05.json"
+              "bank-soal/kelas10/statistika/sulit/paket-05.json",
+              "bank-soal/kelas10/statistika/sulit/paket-06.json",
+              "bank-soal/kelas10/statistika/sulit/paket-07.json",
+              "bank-soal/kelas10/statistika/sulit/paket-08.json",
+              "bank-soal/kelas10/statistika/sulit/paket-09.json",
+              "bank-soal/kelas10/statistika/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -537,6 +552,141 @@
               "file": "soal/kelas10/statistika/statistika-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-m-06",
+              "nama": "Bank Soal Mudah - Paket 6 (Penyajian Data Lanjutan)",
+              "deskripsi": "Penyajian data dan membaca tabel/diagram (lanjutan)",
+              "file": "soal/kelas10/statistika/statistika-paket-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-m-07",
+              "nama": "Bank Soal Mudah - Paket 7 (Mean Data Tunggal)",
+              "deskripsi": "Mean (rata-rata) data tunggal (lanjutan)",
+              "file": "soal/kelas10/statistika/statistika-paket-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-m-08",
+              "nama": "Bank Soal Mudah - Paket 8 (Median & Modus)",
+              "deskripsi": "Median dan modus data tunggal (lanjutan)",
+              "file": "soal/kelas10/statistika/statistika-paket-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-m-09",
+              "nama": "Bank Soal Mudah - Paket 9 (Jangkauan & Kuartil)",
+              "deskripsi": "Jangkauan, kuartil, dan tabel frekuensi (lanjutan)",
+              "file": "soal/kelas10/statistika/statistika-paket-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-m-10",
+              "nama": "Bank Soal Mudah - Paket 10 (Campuran)",
+              "deskripsi": "Campuran mean, median, modus, dan interpretasi data",
+              "file": "soal/kelas10/statistika/statistika-paket-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-s-01",
+              "nama": "Bank Soal Sedang - Paket 1 (Mean & Tabel Frekuensi)",
+              "deskripsi": "Mean data tunggal dan tabel frekuensi",
+              "file": "soal/kelas10/statistika/statistika-paket-11.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-s-02",
+              "nama": "Bank Soal Sedang - Paket 2 (Median & Modus)",
+              "deskripsi": "Median dan modus data tunggal serta tabel frekuensi",
+              "file": "soal/kelas10/statistika/statistika-paket-12.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-s-03",
+              "nama": "Bank Soal Sedang - Paket 3 (Jangkauan & Kuartil)",
+              "deskripsi": "Jangkauan, kuartil, dan jangkauan interkuartil",
+              "file": "soal/kelas10/statistika/statistika-paket-13.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-s-04",
+              "nama": "Bank Soal Sedang - Paket 4 (Interpretasi Data)",
+              "deskripsi": "Interpretasi data dan kombinasi ukuran pemusatan",
+              "file": "soal/kelas10/statistika/statistika-paket-14.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-s-05",
+              "nama": "Bank Soal Sedang - Paket 5 (Campuran Cerita)",
+              "deskripsi": "Campuran mean, median, modus, jangkauan, dan kuartil dalam konteks cerita",
+              "file": "soal/kelas10/statistika/statistika-paket-15.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-t-01",
+              "nama": "Bank Soal Sulit - Paket 1 (Mean Multi-Langkah)",
+              "deskripsi": "Mean data tunggal dengan multi-langkah dan kombinasi",
+              "file": "soal/kelas10/statistika/statistika-paket-16.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-t-02",
+              "nama": "Bank Soal Sulit - Paket 2 (Median & Modus Analisis)",
+              "deskripsi": "Median dan modus dengan analisis dan kombinasi",
+              "file": "soal/kelas10/statistika/statistika-paket-17.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-t-03",
+              "nama": "Bank Soal Sulit - Paket 3 (Jangkauan & Kuartil Analisis)",
+              "deskripsi": "Jangkauan, kuartil, dan jangkauan interkuartil dengan analisis",
+              "file": "soal/kelas10/statistika/statistika-paket-18.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-t-04",
+              "nama": "Bank Soal Sulit - Paket 4 (Kombinasi Ukuran Pemusatan)",
+              "deskripsi": "Kombinasi mean, median, modus, jangkauan dalam soal analisis",
+              "file": "soal/kelas10/statistika/statistika-paket-19.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k10-stat-t-05",
+              "nama": "Bank Soal Sulit - Paket 5 (Campuran Analisis)",
+              "deskripsi": "Campuran soal analisis mean, median, modus, kuartil, dan interpretasi data",
+              "file": "soal/kelas10/statistika/statistika-paket-20.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
               "versi": "1.0.0"
             }
           ]
