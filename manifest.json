@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0",
+  "version": "4.2.1",
   "last_updated": "2026-10-24",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
@@ -246,28 +246,48 @@
           "emoji": "🔷",
           "warna": "#FF9800",
           "file_materi": "materi/kelas10/sistem-persamaan-linear-interaktif.json",
-          "versi": "2.0.0",
+          "versi": "2.1.0",
           "bank_soal": {
             "mudah": [
               "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-01.json",
               "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-02.json",
               "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-03.json",
               "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-04.json",
-              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-05.json"
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-05.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-06.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-07.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-08.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-09.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-10.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-11.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-12.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-13.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-14.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/mudah/paket-15.json"
             ],
             "sedang": [
               "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-01.json",
               "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-02.json",
               "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-03.json",
               "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-04.json",
-              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-05.json"
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-05.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-06.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-07.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-08.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-09.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sedang/paket-10.json"
             ],
             "sulit": [
               "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-01.json",
               "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-02.json",
               "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-03.json",
               "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-04.json",
-              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-05.json"
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-05.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-06.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-07.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-08.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-09.json",
+              "bank-soal/kelas10/sistem-persamaan-linear/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -277,7 +297,7 @@
               "deskripsi": "Sistem persamaan linear dua variabel",
               "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-01.json",
               "jumlah_soal": 10,
-              "tingkat": "SEDANG",
+              "tingkat": "MUDAH",
               "versi": "1.0.0"
             },
             {
@@ -285,6 +305,213 @@
               "nama": "Paket 2 - SPLTV",
               "deskripsi": "Sistem persamaan linear tiga variabel",
               "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-02.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-03",
+              "nama": "Paket 3 - SPLTV Sederhana",
+              "deskripsi": "SPLTV sederhana dengan substitusi langsung",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-03.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-04",
+              "nama": "Paket 4 - Pertidaksamaan Linear Satu Variabel",
+              "deskripsi": "Pertidaksamaan linear satu variabel dasar",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-04.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-05",
+              "nama": "Paket 5 - Campuran Mudah",
+              "deskripsi": "Campuran SPLDV, SPLTV, dan pertidaksamaan",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-05.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-06",
+              "nama": "Paket 6 - Persamaan Linear Kontekstual",
+              "deskripsi": "Persamaan linear satu variabel dengan konteks sehari-hari",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-07",
+              "nama": "Paket 7 - SPLDV Grafik & Substitusi",
+              "deskripsi": "SPLDV dengan metode grafik dan substitusi",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-08",
+              "nama": "Paket 8 - Pertidaksamaan Linear Dasar",
+              "deskripsi": "Pertidaksamaan linear satu variabel",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-09",
+              "nama": "Paket 9 - Campuran SPLTV & Pertidaksamaan",
+              "deskripsi": "Campuran SPLTV sederhana dan pertidaksamaan dasar",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-10",
+              "nama": "Paket 10 - Soal Cerita & Grafik",
+              "deskripsi": "Soal cerita dan membaca grafik persamaan linear",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-11",
+              "nama": "Paket 11 - Persamaan Pecahan & Desimal",
+              "deskripsi": "Persamaan linear satu variabel bentuk pecahan dan desimal",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-11.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-12",
+              "nama": "Paket 12 - SPLDV Koefisien Negatif",
+              "deskripsi": "SPLDV dengan koefisien negatif dan eliminasi",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-12.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-13",
+              "nama": "Paket 13 - Pertidaksamaan & Garis Bilangan",
+              "deskripsi": "Pertidaksamaan linear dan representasi garis bilangan",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-13.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-14",
+              "nama": "Paket 14 - Soal Cerita Harga & Belanja",
+              "deskripsi": "Soal cerita SPLDV tentang harga barang dan belanja",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-14.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-15",
+              "nama": "Paket 15 - Campuran Akhir Mudah",
+              "deskripsi": "Campuran akhir tingkat mudah",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-15.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sedang-06",
+              "nama": "Paket 6 - SPLTV & Sistem Pertidaksamaan",
+              "deskripsi": "SPLTV dan sistem pertidaksamaan linear dua variabel",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sedang-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sedang-07",
+              "nama": "Paket 7 - Pertidaksamaan Pecahan & Cerita",
+              "deskripsi": "Pertidaksamaan pecahan dan soal cerita kontekstual",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sedang-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sedang-08",
+              "nama": "Paket 8 - Aplikasi SPLDV/SPLTV",
+              "deskripsi": "Aplikasi SPLDV dan SPLTV dalam konteks nyata",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sedang-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sedang-09",
+              "nama": "Paket 9 - Sistem Pertidaksamaan & Program Linear",
+              "deskripsi": "Sistem pertidaksamaan linear dua variabel dan program linear dasar",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sedang-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sedang-10",
+              "nama": "Paket 10 - Campuran Sedang",
+              "deskripsi": "Campuran soal sedang: SPLTV, pertidaksamaan, dan aplikasi",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sedang-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sulit-06",
+              "nama": "Paket 6 - SPLTV Parameter & Nonlinear",
+              "deskripsi": "SPLTV dengan parameter dan sistem nonlinear sederhana",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sulit-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sulit-07",
+              "nama": "Paket 7 - Aplikasi & Soal Bergambar",
+              "deskripsi": "Aplikasi kontekstual dan soal bergambar",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sulit-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sulit-08",
+              "nama": "Paket 8 - Pertidaksamaan Lanjutan & Mutlak",
+              "deskripsi": "Pertidaksamaan pecahan, nilai mutlak, dan sistem lanjutan",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sulit-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sulit-09",
+              "nama": "Paket 9 - SPLTV & Nonlinear Lanjutan",
+              "deskripsi": "SPLTV lanjutan dan sistem persamaan nonlinear",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sulit-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "sistem-persamaan-linear-paket-sulit-10",
+              "nama": "Paket 10 - OSN-Style & Campuran Sulit",
+              "deskripsi": "Soal OSN-style: identitas aljabar, sistem nonlinear, pertidaksamaan",
+              "file": "soal/kelas10/sistem-persamaan-linear/sistem-persamaan-linear-paket-sulit-10.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
