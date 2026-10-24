@@ -1,0 +1,205 @@
+{
+  "id": "bs-k10-pel-m-06",
+  "nama": "Bank Soal Mudah - Paket 6",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah lanjutan tentang aturan perkalian, peluang komplemen, dan konteks nyata",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-pel-m-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Ami mempunyai 6 pakaian sekolah, 3 tas, dan 2 sepatu. Ada berapa cara Ami dapat memadukan pakaian, tas, dan sepatunya?" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$48$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan perkalian." },
+        { "tipe": "paragraph", "text": "Banyak cara = $6 \\times 3 \\times 2 = 36$ cara." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 5 kelereng hijau, 4 kelereng biru, dan 7 kelereng hitam. Jika diambil satu kelereng secara acak, peluang terambil kelereng hitam adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{16}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total kelereng = $5 + 4 + 7 = 16$." },
+        { "tipe": "paragraph", "text": "Peluang hitam = $\\dfrac{7}{16}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah dadu dilempar undi secara bersamaan sebanyak satu kali. Peluang kejadian muncul jumlah mata dadu $9$ atau $11$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{18}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 9: (3,6), (4,5), (5,4), (6,3) = 4 pasangan." },
+        { "tipe": "paragraph", "text": "Jumlah 11: (5,6), (6,5) = 2 pasangan." },
+        { "tipe": "paragraph", "text": "Total = 6 pasangan dari 36." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{6}{36} = \\dfrac{1}{6}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu kelas terdiri dari 40 siswa. 25 siswa gemar matematika, 21 siswa gemar IPA, dan 9 siswa gemar matematika dan IPA. Peluang seorang siswa tidak gemar matematika maupun IPA adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{40}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{40}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{40}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{40}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{37}{40}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Siswa yang gemar MTK atau IPA = $25 + 21 - 9 = 37$." },
+        { "tipe": "paragraph", "text": "Siswa yang tidak gemar keduanya = $40 - 37 = 3$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{3}{40}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika sebuah dadu bermata enam dilempar satu kali, maka peluang muncul mata dadu bukan $4$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{6}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang muncul mata 4 = $\\dfrac{1}{6}$." },
+        { "tipe": "paragraph", "text": "Peluang bukan 4 = $1 - \\dfrac{1}{6} = \\dfrac{5}{6}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Peluang hari ini tidak turun hujan adalah $0,13$. Berapa peluang hari ini turun hujan?" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0,57$" } ],
+        [ { "tipe": "paragraph", "text": "$0,67$" } ],
+        [ { "tipe": "paragraph", "text": "$0,77$" } ],
+        [ { "tipe": "paragraph", "text": "$0,87$" } ],
+        [ { "tipe": "paragraph", "text": "$0,97$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang hujan = $1 - 0,13 = 0,87$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kartu diambil secara acak dari satu set lengkap kartu bridge. Peluang bahwa yang terambil adalah kartu hitam atau kartu As adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{26}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{28}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{30}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{32}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{34}{52}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kartu hitam = 26, Kartu As = 4, As hitam = 2." },
+        { "tipe": "paragraph", "text": "Hitam atau As = $26 + 4 - 2 = 28$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{28}{52}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kotak I berisi 2 bola merah dan 3 bola putih. Kotak II berisi 5 bola merah dan 3 bola putih. Dari masing-masing kotak diambil 1 bola. Peluang bola yang terambil bola merah dari kotak I dan bola putih dari kotak II adalah...." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{40}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{20}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{31}{40}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang Merah dari Kotak I = $\\dfrac{2}{5}$." },
+        { "tipe": "paragraph", "text": "Peluang Putih dari Kotak II = $\\dfrac{3}{8}$." },
+        { "tipe": "paragraph", "text": "Peluang gabungan = $\\dfrac{2}{5} \\times \\dfrac{3}{8} = \\dfrac{6}{40} = \\dfrac{3}{20}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Ibu membeli sepuluh butir telur, ternyata 3 diantaranya rusak. Jika Budi hendak mengambil sebutir telur, maka peluang yang terambil telur yang tidak busuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{15}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Telur tidak busuk = $10 - 3 = 7$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{7}{10}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-pel-m-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang penjaga gawang profesional mampu menahan tendangan penalti dengan peluang $\\dfrac{3}{5}$. Dalam sebuah kesempatan dilakukan 5 kali tendangan. Peluang penjaga gawang mampu menahan tepat 3 kali tendangan penalti tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{180}{625}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{216}{625}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{230}{625}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{612}{625}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{720}{625}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan distribusi binomial: $P = C(5,3) \\cdot (\\dfrac{3}{5})^3 \\cdot (\\dfrac{2}{5})^2$." },
+        { "tipe": "paragraph", "text": "$P = 10 \\cdot \\dfrac{27}{125} \\cdot \\dfrac{4}{25} = \\dfrac{1080}{3125} = \\dfrac{216}{625}$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
