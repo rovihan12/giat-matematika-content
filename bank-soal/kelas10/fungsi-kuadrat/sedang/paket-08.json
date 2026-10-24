@@ -1,0 +1,205 @@
+{
+  "id": "bs-k10-fk-s-08",
+  "nama": "Bank Soal Sedang - Paket 8",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang hubungan akar dan koefisien fungsi kuadrat (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-s-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x^2 - 8x + 12 = 0$ memiliki akar $\\alpha$ dan $\\beta$ dengan $\\alpha > \\beta$, nilai $\\alpha - \\beta$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 6) = 0 \\Rightarrow \\alpha = 6$, $\\beta = 2$." },
+        { "tipe": "paragraph", "text": "$\\alpha - \\beta = 4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika akar-akar $3x^2 - 9x + 6 = 0$ adalah $\\alpha$ dan $\\beta$, nilai $\\alpha^2\\beta + \\alpha\\beta^2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 3$; $\\alpha\\beta = 2$" },
+        { "tipe": "paragraph", "text": "$\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha + \\beta) = 2 \\cdot 3 = 6$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat dengan akar-akar $\\dfrac{3}{4}$ dan $-\\dfrac{2}{3}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12x^2 - x - 6 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$12x^2 + x - 6 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$12x^2 - x + 6 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - x - 6 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$12x^2 + x + 6 = 0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah: $\\dfrac{3}{4} - \\dfrac{2}{3} = \\dfrac{9 - 8}{12} = \\dfrac{1}{12}$" },
+        { "tipe": "paragraph", "text": "Hasil kali: $\\dfrac{3}{4} \\cdot \\left(-\\dfrac{2}{3}\\right) = -\\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "Persamaan: $x^2 - \\dfrac{1}{12}x - \\dfrac{1}{2} = 0$" },
+        { "tipe": "paragraph", "text": "Kalikan 12: $12x^2 - x - 6 = 0$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika salah satu akar $x^2 + (a-3)x - 10 = 0$ adalah $2$, maka nilai $a$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $x = 2$: $4 + 2(a - 3) - 10 = 0$" },
+        { "tipe": "paragraph", "text": "$4 + 2a - 6 - 10 = 0 \\Rightarrow 2a - 12 = 0 \\Rightarrow 2a = 12 \\Rightarrow a = 6$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 5x + 3 = 0$, nilai $\\alpha^3 + \\beta^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ],
+        [ { "tipe": "paragraph", "text": "$85$" } ],
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$90$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 5$; $\\alpha\\beta = 3$" },
+        { "tipe": "paragraph", "text": "$\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)$" },
+        { "tipe": "paragraph", "text": "$= 125 - 3(3)(5) = 125 - 45 = 80$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika akar-akar $x^2 - 4x - 5 = 0$ adalah $\\alpha$ dan $\\beta$, persamaan kuadrat baru yang akar-akarnya $\\alpha + 2$ dan $\\beta + 2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$x^2 - 8x + 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 8x - 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 + 8x + 7 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 8x + 9 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 4x + 7 = 0$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 4$; $\\alpha\\beta = -5$" },
+        { "tipe": "paragraph", "text": "Akar baru: $(\\alpha + 2) + (\\beta + 2) = 8$" },
+        { "tipe": "paragraph", "text": "Hasil kali: $(\\alpha + 2)(\\beta + 2) = \\alpha\\beta + 2\\alpha + 2\\beta + 4 = -5 + 8 + 4 = 7$" },
+        { "tipe": "paragraph", "text": "Persamaan: $x^2 - 8x + 7 = 0$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $y = -3x^2 + 12x - 5$ memiliki nilai maksimum..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{12}{-6} = 2$" },
+        { "tipe": "paragraph", "text": "$y_{max} = -3(4) + 12(2) - 5 = -12 + 24 - 5 = 7$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Salah satu akar persamaan $x^2 - (p+2)x + 12 = 0$ adalah 3. Nilai $p$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $x = 3$: $9 - 3(p+2) + 12 = 0$" },
+        { "tipe": "paragraph", "text": "$21 - 3p - 6 = 0 \\Rightarrow 15 - 3p = 0 \\Rightarrow 3p = 15 \\Rightarrow p = 5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 5x + 4$, nilai $f(x) = 0$ dipenuhi oleh $x = ...$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$ atau $4$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$ atau $-4$" } ],
+        [ { "tipe": "paragraph", "text": "$1$ atau $-4$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$ atau $4$" } ],
+        [ { "tipe": "paragraph", "text": "$2$ atau $4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x - 1)(x - 4) = 0 \\Rightarrow x = 1$ atau $x = 4$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-fk-s-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ akar-akar $4x^2 - 12x + 5 = 0$, nilai $x_1 + x_2 + x_1 x_2$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{17}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{19}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_1 + x_2 = 3$; $x_1 x_2 = \\dfrac{5}{4}$" },
+        { "tipe": "paragraph", "text": "$x_1 + x_2 + x_1 x_2 = 3 + \\dfrac{5}{4} = \\dfrac{12 + 5}{4} = \\dfrac{17}{4}$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
