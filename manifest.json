@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-24",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
   "kelas": [
@@ -111,21 +111,36 @@
               "bank-soal/kelas10/barisan-deret/mudah/paket-02.json",
               "bank-soal/kelas10/barisan-deret/mudah/paket-03.json",
               "bank-soal/kelas10/barisan-deret/mudah/paket-04.json",
-              "bank-soal/kelas10/barisan-deret/mudah/paket-05.json"
+              "bank-soal/kelas10/barisan-deret/mudah/paket-05.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-06.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-07.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-08.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-09.json",
+              "bank-soal/kelas10/barisan-deret/mudah/paket-10.json"
             ],
             "sedang": [
               "bank-soal/kelas10/barisan-deret/sedang/paket-01.json",
               "bank-soal/kelas10/barisan-deret/sedang/paket-02.json",
               "bank-soal/kelas10/barisan-deret/sedang/paket-03.json",
               "bank-soal/kelas10/barisan-deret/sedang/paket-04.json",
-              "bank-soal/kelas10/barisan-deret/sedang/paket-05.json"
+              "bank-soal/kelas10/barisan-deret/sedang/paket-05.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-06.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-07.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-08.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-09.json",
+              "bank-soal/kelas10/barisan-deret/sedang/paket-10.json"
             ],
             "sulit": [
               "bank-soal/kelas10/barisan-deret/sulit/paket-01.json",
               "bank-soal/kelas10/barisan-deret/sulit/paket-02.json",
               "bank-soal/kelas10/barisan-deret/sulit/paket-03.json",
               "bank-soal/kelas10/barisan-deret/sulit/paket-04.json",
-              "bank-soal/kelas10/barisan-deret/sulit/paket-05.json"
+              "bank-soal/kelas10/barisan-deret/sulit/paket-05.json",
+              "bank-soal/kelas10/barisan-deret/sulit/paket-06.json",
+              "bank-soal/kelas10/barisan-deret/sulit/paket-07.json",
+              "bank-soal/kelas10/barisan-deret/sulit/paket-08.json",
+              "bank-soal/kelas10/barisan-deret/sulit/paket-09.json",
+              "bank-soal/kelas10/barisan-deret/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -145,6 +160,33 @@
               "file": "soal/kelas10/barisan-deret/barisan-deret-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "barisan-deret-paket-03",
+              "nama": "Paket 3 - Mudah Lanjutan",
+              "deskripsi": "Pola barisan, suku ke-n, dan jumlah deret",
+              "file": "soal/kelas10/barisan-deret/barisan-deret-paket-03.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "barisan-deret-paket-04",
+              "nama": "Paket 4 - Sedang Lanjutan",
+              "deskripsi": "Suku tengah, sisipan, dan aplikasi",
+              "file": "soal/kelas10/barisan-deret/barisan-deret-paket-04.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "barisan-deret-paket-05",
+              "nama": "Paket 5 - Sulit Lanjutan",
+              "deskripsi": "Barisan bertingkat, rekursif, dan telescoping",
+              "file": "soal/kelas10/barisan-deret/barisan-deret-paket-05.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
               "versi": "1.0.0"
             }
           ]
