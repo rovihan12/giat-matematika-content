@@ -1,0 +1,200 @@
+{
+  "id": "bs-k10-bd-m-10",
+  "nama": "Bank Soal Mudah - Paket 10",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang pola barisan, suku ke-n, dan jumlah deret",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-m-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku berikutnya dari barisan $8, 13, 18, 23, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$29$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Beda = $13 - 8 = 5$." },
+        { "tipe": "paragraph", "text": "Suku berikutnya = $23 + 5 = 28$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku berikutnya dari barisan $3, 9, 27, 81, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$162$" } ],
+        [ { "tipe": "paragraph", "text": "$216$" } ],
+        [ { "tipe": "paragraph", "text": "$243$" } ],
+        [ { "tipe": "paragraph", "text": "$324$" } ],
+        [ { "tipe": "paragraph", "text": "$729$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rasio = $9/3 = 3$." },
+        { "tipe": "paragraph", "text": "Suku berikutnya = $81 \\times 3 = 243$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-14 dari barisan aritmatika $4, 9, 14, 19, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$69$" } ],
+        [ { "tipe": "paragraph", "text": "$74$" } ],
+        [ { "tipe": "paragraph", "text": "$79$" } ],
+        [ { "tipe": "paragraph", "text": "$84$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 4$, $b = 5$." },
+        { "tipe": "paragraph", "text": "$U_{14} = 4 + 13 \\cdot 5 = 69$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-4 dari barisan geometri $6, 18, 54, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$108$" } ],
+        [ { "tipe": "paragraph", "text": "$162$" } ],
+        [ { "tipe": "paragraph", "text": "$216$" } ],
+        [ { "tipe": "paragraph", "text": "$324$" } ],
+        [ { "tipe": "paragraph", "text": "$486$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 6$, $r = 3$." },
+        { "tipe": "paragraph", "text": "$U_4 = 6 \\cdot 3^3 = 162$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rumus suku ke-$n$ barisan $2, 7, 12, 17, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$U_n = 5n - 3$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n + 3$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 2n + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 3n + 5$" } ],
+        [ { "tipe": "paragraph", "text": "$U_n = 5n - 2$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $b = 5$." },
+        { "tipe": "paragraph", "text": "$U_n = 2 + (n-1) \\cdot 5 = 5n - 3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 12 suku pertama deret $1 + 3 + 5 + 7 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$121$" } ],
+        [ { "tipe": "paragraph", "text": "$144$" } ],
+        [ { "tipe": "paragraph", "text": "$169$" } ],
+        [ { "tipe": "paragraph", "text": "$196$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah $n$ bilangan ganjil pertama = $n^2$." },
+        { "tipe": "paragraph", "text": "$S_{12} = 12^2 = 144$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-9 dari barisan $3, 6, 11, 18, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$75$" } ],
+        [ { "tipe": "paragraph", "text": "$81$" } ],
+        [ { "tipe": "paragraph", "text": "$83$" } ],
+        [ { "tipe": "paragraph", "text": "$89$" } ],
+        [ { "tipe": "paragraph", "text": "$99$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pola: $U_n = n^2 + 2$." },
+        { "tipe": "paragraph", "text": "$U_9 = 81 + 2 = 83$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah 4 suku pertama deret geometri $5 + 15 + 45 + 135$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$180$" } ],
+        [ { "tipe": "paragraph", "text": "$190$" } ],
+        [ { "tipe": "paragraph", "text": "$200$" } ],
+        [ { "tipe": "paragraph", "text": "$210$" } ],
+        [ { "tipe": "paragraph", "text": "$220$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_4 = 5 + 15 + 45 + 135 = 200$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-13 dari barisan $2, 5, 8, 11, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$37$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$41$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 2$, $b = 3$." },
+        { "tipe": "paragraph", "text": "$U_{13} = 2 + 12 \\cdot 3 = 38$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-bd-m-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah tak hingga deret geometri $16 + 8 + 4 + 2 + \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$34$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a = 16$, $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{16}{1 - \\frac{1}{2}} = 32$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
