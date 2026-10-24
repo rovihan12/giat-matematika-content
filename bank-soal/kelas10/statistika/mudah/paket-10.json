@@ -1,0 +1,200 @@
+{
+  "id": "bs-k10-stat-m-10",
+  "nama": "Bank Soal Mudah - Paket 10",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah campuran: mean, median, modus, dan interpretasi data (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-m-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $6, 7, 8, 9, 10$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$8{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{6+7+8+9+10}{5} = \\dfrac{40}{5} = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai ulangan 7 siswa: $50, 60, 65, 70, 75, 80, 90$. Nilai terendah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50$" } ],
+        [ { "tipe": "paragraph", "text": "$60$" } ],
+        [ { "tipe": "paragraph", "text": "$65$" } ],
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Nilai minimum dari data adalah $50$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai ulangan 7 siswa: $50, 60, 65, 70, 75, 80, 90$. Modusnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50$" } ],
+        [ { "tipe": "paragraph", "text": "$65$" } ],
+        [ { "tipe": "paragraph", "text": "$70$" } ],
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "Tidak ada modus" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Semua nilai muncul tepat $1$×, sehingga tidak ada nilai yang paling sering muncul." },
+        { "tipe": "paragraph", "text": "Jadi data tersebut tidak memiliki modus." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $20, 25, 30, 35$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$" } ],
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$27{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32{,}5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{20+25+30+35}{4} = \\dfrac{110}{4} = 27{,}5$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari $9, 4, 7, 12, 5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan: $4, 5, 7, 9, 12$." },
+        { "tipe": "paragraph", "text": "Median = data ke-3 = $7$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai rata-ratanya adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $6, 7, 8, 9$" },
+        { "tipe": "paragraph", "text": "Frek: $1, 3, 4, 2$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}7$" } ],
+        [ { "tipe": "paragraph", "text": "$8{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$8{,}2$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 1+3+4+2 = 10$" },
+        { "tipe": "paragraph", "text": "$\\sum fx = 6(1)+7(3)+8(4)+9(2) = 6+21+32+18 = 77$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{77}{10} = 7{,}7$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data nilai: $6, 6, 7, 7, 7, 8, 8$. Modusnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$6$ dan $7$" } ],
+        [ { "tipe": "paragraph", "text": "$7$ dan $8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$6$ muncul 2×, $7$ muncul 3×, $8$ muncul 2×." },
+        { "tipe": "paragraph", "text": "Modus = $7$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $4, 4, 5, 5, 5, 6, 6, 7$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}25$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}25$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $4+4+5+5+5+6+6+7 = 42$" },
+        { "tipe": "paragraph", "text": "$n = 8$, $\\bar{x} = \\dfrac{42}{8} = 5{,}25$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai median dari data $2, 4, 6, 8, 10, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 6$. Median = rata-rata data ke-3 & ke-4 = $\\dfrac{6+8}{2} = 7$" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k10-stat-m-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jangkauan data $5, 3, 9, 7, 11$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Max = $11$, min = $3$." },
+        { "tipe": "paragraph", "text": "Range = $11 - 3 = 8$" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
