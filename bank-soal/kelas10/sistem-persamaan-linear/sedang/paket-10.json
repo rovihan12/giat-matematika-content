@@ -1,0 +1,179 @@
+{
+  "id": "bs-k10-spl-s-10",
+  "nama": "Bank Soal Sedang - Paket 10",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SEDANG",
+  "deskripsi": "Campuran soal sedang: SPLTV, pertidaksamaan, dan aplikasi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-s-10-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian $x + y + z = 8$, $x - y + z = 4$, $x + y - z = 2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$(3, 2, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 3, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 3, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(2, 2, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 2, 2)$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "(i)+(iii): $2x+2y=10 \\Rightarrow x+y=5$; $z=3$." },
+        { "tipe": "paragraph", "text": "(i)-(ii): $2y=4 \\Rightarrow y=2$; $x=3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $|3x - 2| \\leq 7$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$-\\dfrac{5}{3} \\leq x \\leq 3$" }],
+        [{ "tipe": "paragraph", "text": "$-3 \\leq x \\leq \\dfrac{5}{3}$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq -\\dfrac{5}{3}$ atau $x \\geq 3$" }],
+        [{ "tipe": "paragraph", "text": "$-\\dfrac{5}{3} < x < 3$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq 3$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$-7 \\leq 3x-2 \\leq 7 \\Rightarrow -5 \\leq 3x \\leq 9 \\Rightarrow -5/3 \\leq x \\leq 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x \\cdot y \\cdot z$ dari sistem $x + y = 5$, $y + z = 7$, $x + z = 6$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$12$" }],
+        [{ "tipe": "paragraph", "text": "$15$" }],
+        [{ "tipe": "paragraph", "text": "$18$" }],
+        [{ "tipe": "paragraph", "text": "$21$" }],
+        [{ "tipe": "paragraph", "text": "$24$" }]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x+y+z = 9$; $z=4$, $x=2$, $y=3$." },
+        { "tipe": "paragraph", "text": "$xyz = 24$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Seorang pedagang membeli 20 kg apel Rp300.000. Ia ingin untung minimal 20%. Harga jual minimal per kg adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp16.000" }],
+        [{ "tipe": "paragraph", "text": "Rp17.000" }],
+        [{ "tipe": "paragraph", "text": "Rp18.000" }],
+        [{ "tipe": "paragraph", "text": "Rp19.000" }],
+        [{ "tipe": "paragraph", "text": "Rp20.000" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total jual $\\geq 360.000$; per kg $\\geq 18.000$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $2x + 3y = 13$ dan $4x - y = 5$. Nilai $x + y$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari (ii): $y=4x-5$. Substitusi: $2x+3(4x-5)=13 \\Rightarrow 14x=28 \\Rightarrow x=2$, $y=3$." },
+        { "tipe": "paragraph", "text": "$x+y=5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $\\dfrac{2x + 1}{x - 2} \\leq 1$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$-3 \\leq x < 2$" }],
+        [{ "tipe": "paragraph", "text": "$-3 < x < 2$" }],
+        [{ "tipe": "paragraph", "text": "$x \\leq -3$ atau $x > 2$" }],
+        [{ "tipe": "paragraph", "text": "$x < -3$ atau $x > 2$" }],
+        [{ "tipe": "paragraph", "text": "$-3 \\leq x \\leq 2$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{x+3}{x-2} \\leq 0$; titik kritis $x=-3$, $x=2$ (dikecualikan)." },
+        { "tipe": "paragraph", "text": "HP: $-3 \\leq x < 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Umur Ibu 4 tahun lebih muda dari Ayah. 6 tahun lalu jumlah umur mereka 60. Umur Ibu sekarang adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$30$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$31$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$32$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$33$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$34$ tahun" }]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$I=A-4$; $(A-6)+(I-6)=60 \\Rightarrow A+I=72$." },
+        { "tipe": "paragraph", "text": "$A+(A-4)=72 \\Rightarrow 2A=76 \\Rightarrow A=38$, $I=34$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai minimum $f = 2x + 3y$ pada $x + y \\geq 5$, $x + 3y \\geq 6$, $x,y \\geq 0$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$10$" }],
+        [{ "tipe": "paragraph", "text": "$12$" }],
+        [{ "tipe": "paragraph", "text": "$13$" }],
+        [{ "tipe": "paragraph", "text": "$15$" }],
+        [{ "tipe": "paragraph", "text": "$16$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik sudut: $(5,0) \\Rightarrow 10$, $(0,5) \\Rightarrow 15$, dan titik potong $(4,1) \\Rightarrow 11$." },
+        { "tipe": "paragraph", "text": "Nilai minimum adalah $10$ di titik $(5,0)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $|x - 3| > 2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$x < 1$ atau $x > 5$" }],
+        [{ "tipe": "paragraph", "text": "$1 < x < 5$" }],
+        [{ "tipe": "paragraph", "text": "$x < -1$ atau $x > 5$" }],
+        [{ "tipe": "paragraph", "text": "$-1 < x < 5$" }],
+        [{ "tipe": "paragraph", "text": "$x > 5$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x-3 < -2$ atau $x-3 > 2 \\Rightarrow x<1$ atau $x>5$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-10-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Tiga bilangan jumlahnya 36. Bilangan kedua 2 kali pertama, ketiga 6 lebih dari kedua. Bilangan terbesar adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$9$" }],
+        [{ "tipe": "paragraph", "text": "$12$" }],
+        [{ "tipe": "paragraph", "text": "$15$" }],
+        [{ "tipe": "paragraph", "text": "$18$" }]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan: $a+b+c=36$, $b=2a$, dan $c=2a+6$." },
+        { "tipe": "paragraph", "text": "Substitusi: $a+2a+(2a+6)=36 \\Rightarrow 5a+6=36 \\Rightarrow 5a=30 \\Rightarrow a=6$." },
+        { "tipe": "paragraph", "text": "Diperoleh $b=12$ dan bilangan terbesar $c=18$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
