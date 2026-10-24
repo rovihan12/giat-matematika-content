@@ -1,0 +1,213 @@
+{
+  "id": "bs-k10-stat-s-01",
+  "nama": "Bank Soal Sedang - Paket 1",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang mean data tunggal dan tabel frekuensi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-s-01-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $5, 7, 8, 10, 12, 14$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$9{,}33$" } ],
+        [ { "tipe": "paragraph", "text": "$9{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $5+7+8+10+12+14 = 56$, $n = 6$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{56}{6} \\approx 9{,}33$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $4, 6, 6, 8, 9, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$8{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $4+6+6+8+9+12 = 45$, $n = 6$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{45}{6} = 7{,}5$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel frekuensi berikut. Nilai rata-ratanya adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frekuensi: $2, 4, 5, 3, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}6$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}8$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}0$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}2$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}4$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 2+4+5+3+1 = 15$" },
+        { "tipe": "paragraph", "text": "$\\sum fx = 4(2)+5(4)+6(5)+7(3)+8(1) = 8+20+30+21+8 = 87$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{87}{15} = 5{,}8$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 8 data adalah $6$. Jika satu data bernilai $10$ dikeluarkan, rata-rata data yang tersisa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5{,}43$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$5{,}71$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 8 data = $8 \\times 6 = 48$." },
+        { "tipe": "paragraph", "text": "Setelah dikeluarkan: jumlah = $48 - 10 = 38$, $n = 7$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{38}{7} \\approx 5{,}43$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 12 siswa adalah $75$. Setelah 3 siswa baru bergabung, rata-ratanya menjadi $76$. Rata-rata nilai 3 siswa baru tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$78$" } ],
+        [ { "tipe": "paragraph", "text": "$79$" } ],
+        [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$81$" } ],
+        [ { "tipe": "paragraph", "text": "$82$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 12 siswa = $12 \\times 75 = 900$." },
+        { "tipe": "paragraph", "text": "Jumlah 15 siswa = $15 \\times 76 = 1140$." },
+        { "tipe": "paragraph", "text": "Jumlah 3 siswa baru = $1140 - 900 = 240$ → rata-rata = $240/3 = 80$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai rata-ratanya adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $5, 6, 7, 8$" },
+        { "tipe": "paragraph", "text": "Frekuensi: $3, 2, 4, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6{,}2$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}3$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}4$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 3+2+4+1 = 10$" },
+        { "tipe": "paragraph", "text": "$\\sum fx = 5(3)+6(2)+7(4)+8(1) = 15+12+28+8 = 63$" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{63}{10} = 6{,}3$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data $2, 3, 5, 7, 8, 10, 12$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6{,}43$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}71$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}29$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $2+3+5+7+8+10+12 = 47$, $n = 7$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{47}{7} \\approx 6{,}71$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 10 data adalah $8$. Jika setiap data ditambah $3$, rata-rata baru menjadi..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$11$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap data ditambah $k$, rata-rata juga bertambah $k$." },
+        { "tipe": "paragraph", "text": "Rata-rata baru = $8 + 3 = 11$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika rata-ratanya $5{,}5$, maka nilai $x$ adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7$" },
+        { "tipe": "paragraph", "text": "Frek: $1, 2, x, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 1+2+x+1 = x+4$" },
+        { "tipe": "paragraph", "text": "$\\sum fx = 4(1)+5(2)+6x+7(1) = 21 + 6x$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{21+6x}{x+4} = 5{,}5 \\Rightarrow 21+6x = 5{,}5(x+4) = 5{,}5x+22$" },
+        { "tipe": "paragraph", "text": "$0{,}5x = 1 \\Rightarrow x = 2$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-01-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $15, 18, 20, 22, 25$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$23$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $15+18+20+22+25 = 100$, $n = 5$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{100}{5} = 20$" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
