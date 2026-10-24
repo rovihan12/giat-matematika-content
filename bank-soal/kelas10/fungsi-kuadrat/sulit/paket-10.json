@@ -125,7 +125,7 @@
     {
       "id": "bs-k10-fk-sulit-10-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 4\vert{}x\vert{} - 5 = 0$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 4|x| - 5 = 0$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\{-5, 5\\}$" } ],
@@ -136,9 +136,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $t = \vert{}x\vert{} \\geq 0$: $t^2 - 4t - 5 = 0$" },
+        { "tipe": "paragraph", "text": "Misal $t = |x| \\geq 0$: $t^2 - 4t - 5 = 0$" },
         { "tipe": "paragraph", "text": "$(t - 5)(t + 1) = 0 \\Rightarrow t = 5$ atau $t = -1$." },
-        { "tipe": "paragraph", "text": "$t = 5$ (valid), maka $\vert{}x\vert{} = 5 \\Rightarrow x = \\pm 5$." },
+        { "tipe": "paragraph", "text": "$t = 5$ (valid), maka $|x| = 5 \\Rightarrow x = \\pm 5$." },
         { "tipe": "paragraph", "text": "$t = -1$ (tidak valid)." },
         { "tipe": "paragraph", "text": "HP = $\\{-5, 5\\}$" }
       ],
@@ -161,4 +161,50 @@
         { "tipe": "paragraph", "text": "$\\alpha + \\beta = 7$; $\\alpha\\beta = 9$" },
         { "tipe": "paragraph", "text": "Jumlah baru: $\\alpha^2 + \\beta^2 = 49 - 18 = 31$" },
         { "tipe": "paragraph", "text": "Hasil kali baru: $(\\alpha\\beta)^2 = 81$" },
-        { "tipe": "paragraph
+        { "tipe": "paragraph", "text": "Persamaan: $x^2 - 31x + 81 = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = ax^2 + bx + c$ melalui titik $(1, 0)$, $(3, 0)$, dan $(0, 6)$, nilai $a + b + c$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Akar $x = 1$ dan $x = 3$: $f(x) = a(x-1)(x-3)$." },
+        { "tipe": "paragraph", "text": "Substitusi $(0, 6)$: $a(0-1)(0-3) = 6 \\Rightarrow 3a = 6 \\Rightarrow a = 2$." },
+        { "tipe": "paragraph", "text": "$f(x) = 2(x-1)(x-3) = 2x^2 - 8x + 6$." },
+        { "tipe": "paragraph", "text": "$a + b + c = 2 - 8 + 6 = 0$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 5x - 3 = 0$, nilai $\\alpha^3 + \\beta^3$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$170$" } ],
+        [ { "tipe": "paragraph", "text": "$160$" } ],
+        [ { "tipe": "paragraph", "text": "$180$" } ],
+        [ { "tipe": "paragraph", "text": "$150$" } ],
+        [ { "tipe": "paragraph", "text": "$190$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 5$; $\\alpha\\beta = -3$" },
+        { "tipe": "paragraph", "text": "$\\alpha^3 + \\beta^3 = (\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta)$" },
+        { "tipe": "paragraph", "text": "$= 125 - 3(-3)(5) = 125 + 45 = 170$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
