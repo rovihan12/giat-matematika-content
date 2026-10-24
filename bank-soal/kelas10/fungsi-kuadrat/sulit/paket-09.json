@@ -1,0 +1,205 @@
+{
+  "id": "bs-k10-fk-sulit-09",
+  "nama": "Bank Soal Sulit - Paket 9",
+  "kelas": 10,
+  "kategori": "Fungsi Kuadrat",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit aplikasi fungsi kuadrat dan optimasi (lanjutan)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-fk-sulit-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kawat panjang 100 cm akan dibuat persegi panjang. Luas maksimum persegi panjang tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$625$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$600$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$650$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$575$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$700$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling $= 100 \\Rightarrow p + l = 50$." },
+        { "tipe": "paragraph", "text": "$L = p(50 - p) = -p^2 + 50p$" },
+        { "tipe": "paragraph", "text": "$p_{opt} = 25$; $L_{max} = 25 \\cdot 25 = 625$ cm²" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah peluru ditembakkan dengan ketinggian $h(t) = 40t - 4t^2$ meter. Tinggi maksimum peluru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$100$ m" } ],
+        [ { "tipe": "paragraph", "text": "$90$ m" } ],
+        [ { "tipe": "paragraph", "text": "$110$ m" } ],
+        [ { "tipe": "paragraph", "text": "$80$ m" } ],
+        [ { "tipe": "paragraph", "text": "$120$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$t_p = -\\dfrac{40}{-8} = 5$" },
+        { "tipe": "paragraph", "text": "$h_{max} = 40(5) - 4(25) = 200 - 100 = 100$ m" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Biaya produksi $x$ unit barang dinyatakan $C(x) = x^2 - 24x + 200$ (ribu rupiah). Biaya minimum adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$56$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$60$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$64$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$52$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$48$ ribu" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = 12$" },
+        { "tipe": "paragraph", "text": "$C_{min} = 144 - 288 + 200 = 56$ ribu" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah dua bilangan adalah 40. Jika hasil kali kedua bilangan maksimum, bilangan terkecil adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$24$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $x$ dan $40 - x$." },
+        { "tipe": "paragraph", "text": "$P = x(40 - x) = -x^2 + 40x$" },
+        { "tipe": "paragraph", "text": "$x_{opt} = 20$; kedua bilangan = 20 dan 20." },
+        { "tipe": "paragraph", "text": "Bilangan terkecil = 20." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah roket mainan diluncurkan dengan ketinggian $h(t) = 30t - t^2$ meter. Waktu yang dibutuhkan roket untuk mencapai tanah kembali adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$25$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$35$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$20$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$40$ detik" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$h(t) = 0 \\Rightarrow 30t - t^2 = 0$" },
+        { "tipe": "paragraph", "text": "$t(30 - t) = 0 \\Rightarrow t = 0$ atau $t = 30$." },
+        { "tipe": "paragraph", "text": "Roket kembali ke tanah pada $t = 30$ detik." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah taman berbentuk persegi panjang dengan keliling 80 m. Agar luas taman maksimum, panjang taman adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$ m" } ],
+        [ { "tipe": "paragraph", "text": "$15$ m" } ],
+        [ { "tipe": "paragraph", "text": "$25$ m" } ],
+        [ { "tipe": "paragraph", "text": "$30$ m" } ],
+        [ { "tipe": "paragraph", "text": "$10$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$p + l = 40$; luas maksimum saat $p = l = 20$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keuntungan penjualan $x$ unit barang dinyatakan $P(x) = -3x^2 + 90x - 200$ (ribu rupiah). Keuntungan maksimum adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$475$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$450$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$500$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$425$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$525$ ribu" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{90}{-6} = 15$" },
+        { "tipe": "paragraph", "text": "$P_{max} = -3(225) + 90(15) - 200 = -675 + 1350 - 200 = 475$ ribu" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah jendela berbentuk persegi panjang dengan keliling 240 cm. Luas maksimum jendela adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$3600$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$3200$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$4000$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$2800$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$4400$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$p + l = 120$; luas maks saat $p = l = 60$." },
+        { "tipe": "paragraph", "text": "$L_{max} = 60 \\cdot 60 = 3600$ cm²" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bola dilempar ke atas dengan ketinggian $h(t) = 24t - 3t^2$. Tinggi maksimum bola adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$48$ m" } ],
+        [ { "tipe": "paragraph", "text": "$42$ m" } ],
+        [ { "tipe": "paragraph", "text": "$54$ m" } ],
+        [ { "tipe": "paragraph", "text": "$36$ m" } ],
+        [ { "tipe": "paragraph", "text": "$60$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$t_p = -\\dfrac{24}{-6} = 4$" },
+        { "tipe": "paragraph", "text": "$h_{max} = 24(4) - 3(16) = 96 - 48 = 48$ m" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-fk-sulit-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Harga jual $x$ unit barang ditentukan $H(x) = 600 - 3x$ rupiah/unit. Pendapatan maksimum adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp30.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp25.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp35.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp40.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp45.000" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pendapatan $R(x) = x \\cdot H(x) = x(600 - 3x) = -3x^2 + 600x$" },
+        { "tipe": "paragraph", "text": "$x_{opt} = -\\dfrac{600}{-6} = 100$" },
+        { "tipe": "paragraph", "text": "$R_{max} = -3(10000) + 600(100) = -30000 + 60000 = 30000$ rupiah" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
