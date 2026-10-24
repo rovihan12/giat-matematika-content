@@ -1,0 +1,213 @@
+{
+  "id": "bs-k10-bd-sulit-08",
+  "nama": "Bank Soal Sulit - Paket 8",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang barisan bertingkat, rekursif, dan deret lanjutan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-sulit-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-13 dari barisan bertingkat $6, 9, 14, 21, 30, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$170$" } ],
+        [ { "tipe": "paragraph", "text": "$172$" } ],
+        [ { "tipe": "paragraph", "text": "$174$" } ],
+        [ { "tipe": "paragraph", "text": "$176$" } ],
+        [ { "tipe": "paragraph", "text": "$178$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Selisih antar suku: $3, 5, 7, 9, \\ldots$ (barisan aritmatika beda 2)." },
+        { "tipe": "paragraph", "text": "Pola suku ke-$n$: $U_n = n^2 + 5$." },
+        { "tipe": "paragraph", "text": "$U_{13} = 13^2 + 5 = 169 + 5 = 174$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Barisan $z_1, z_2, z_3, \\ldots$ didefinisikan dengan $z_1 = 3$, $z_2 = 7$, dan $z_n = 3z_{n-1} - 2z_{n-2}$ untuk $n \\ge 3$. Nilai $z_5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$55$" } ],
+        [ { "tipe": "paragraph", "text": "$59$" } ],
+        [ { "tipe": "paragraph", "text": "$63$" } ],
+        [ { "tipe": "paragraph", "text": "$67$" } ],
+        [ { "tipe": "paragraph", "text": "$71$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$z_3 = 3(7) - 2(3) = 21 - 6 = 15$." },
+        { "tipe": "paragraph", "text": "$z_4 = 3(15) - 2(7) = 45 - 14 = 31$." },
+        { "tipe": "paragraph", "text": "$z_5 = 3(31) - 2(15) = 93 - 30 = 63$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret $\\dfrac{1}{3 \\cdot 5} + \\dfrac{1}{5 \\cdot 7} + \\dfrac{1}{7 \\cdot 9} + \\ldots + \\dfrac{1}{21 \\cdot 23}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{69}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{69}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{69}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{23}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan bentuk pecahan parsial: $\\dfrac{1}{(2k+1)(2k+3)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k+1} - \\dfrac{1}{2k+3}\\right)$." },
+        { "tipe": "paragraph", "text": "Telescoping dari $k=1$ sampai $k=10$:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(\\dfrac{1}{3} - \\dfrac{1}{23}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{20}{69} = \\dfrac{10}{69}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga bilangan membentuk barisan geometri. Jika hasil kalinya $729$ dan jumlahnya $39$, maka bilangan terbesarnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$27$" } ],
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan tiga bilangan tersebut adalah $\\dfrac{a}{r}, a, ar$." },
+        { "tipe": "paragraph", "text": "Hasil kali $= a^3 = 729 \\Rightarrow a = 9$." },
+        { "tipe": "paragraph", "text": "Jumlah $= \\dfrac{9}{r} + 9 + 9r = 39 \\Rightarrow 9r^2 - 30r + 9 = 0 \\Rightarrow 3r^2 - 10r + 3 = 0$." },
+        { "tipe": "paragraph", "text": "Faktorkan: $(3r-1)(r-3) = 0 \\Rightarrow r = 3$ atau $r = \\dfrac{1}{3}$." },
+        { "tipe": "paragraph", "text": "Tiga bilangan tersebut adalah $3, 9, 27$, sehingga bilangan terbesarnya adalah $27$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $S_n = 3n^3 - 2n^2 + n$. Suku ke-4 deret tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$94$" } ],
+        [ { "tipe": "paragraph", "text": "$98$" } ],
+        [ { "tipe": "paragraph", "text": "$102$" } ],
+        [ { "tipe": "paragraph", "text": "$106$" } ],
+        [ { "tipe": "paragraph", "text": "$110$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_4 = 3(4)^3 - 2(4)^2 + 4 = 192 - 32 + 4 = 164$." },
+        { "tipe": "paragraph", "text": "$S_3 = 3(3)^3 - 2(3)^2 + 3 = 81 - 18 + 3 = 66$." },
+        { "tipe": "paragraph", "text": "$U_4 = S_4 - S_3 = 164 - 66 = 98$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret $\\dfrac{3}{4} + \\dfrac{6}{16} + \\dfrac{9}{64} + \\dfrac{12}{256} + \\ldots$ sampai tak hingga adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{9}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{28}{9}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Deret Arithmetico-Geometric Progression (AGP): $S = \\sum_{n=1}^{\\infty} \\dfrac{3n}{4^n} = 3 \\sum_{n=1}^{\\infty} \\dfrac{n}{4^n}$." },
+        { "tipe": "paragraph", "text": "Gunakan rumus $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1-r)^2} = \\dfrac{1/4}{(3/4)^2} = \\dfrac{1/4}{9/16} = \\dfrac{4}{9}$." },
+        { "tipe": "paragraph", "text": "Maka $S = 3 \\cdot \\dfrac{4}{9} = \\dfrac{4}{3}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\log 2, \\log(2^x + 2), \\log(2^x + 14)$ membentuk barisan aritmatika, maka $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat barisan aritmatika: $2\\log(2^x + 2) = \\log 2 + \\log(2^x + 14)$." },
+        { "tipe": "paragraph", "text": "$(2^x + 2)^2 = 2(2^x + 14)$." },
+        { "tipe": "paragraph", "text": "Misalkan $t = 2^x$: $t^2 + 4t + 4 = 2t + 28 \\Rightarrow t^2 + 2t - 24 = 0$." },
+        { "tipe": "paragraph", "text": "Faktorkan: $(t + 6)(t - 4) = 0 \\Rightarrow t = 4$ (karena $t > 0$)." },
+        { "tipe": "paragraph", "text": "$2^x = 4 \\Rightarrow x = 2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah $n$ suku pertama deret geometri $4 + 12 + 36 + \\ldots$ adalah $4372$. Nilai $n$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_n = \\dfrac{4(3^n - 1)}{3 - 1} = 2(3^n - 1) = 4372$." },
+        { "tipe": "paragraph", "text": "$3^n - 1 = 2186 \\Rightarrow 3^n = 2187 = 3^7 \\Rightarrow n = 7$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bola dijatuhkan dari ketinggian $15$ m. Setiap pantulan mencapai $\\dfrac{2}{5}$ dari ketinggian sebelumnya. Total lintasan bola sampai berhenti adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$35$ m" } ],
+        [ { "tipe": "paragraph", "text": "$40$ m" } ],
+        [ { "tipe": "paragraph", "text": "$45$ m" } ],
+        [ { "tipe": "paragraph", "text": "$50$ m" } ],
+        [ { "tipe": "paragraph", "text": "$55$ m" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total lintasan $= h + 2 \\cdot \\dfrac{(2/5)h}{1 - 2/5} = h + \\dfrac{4h}{3} = \\dfrac{7h}{3}$." },
+        { "tipe": "paragraph", "text": "Untuk $h = 15$ m: Total $= \\dfrac{7 \\cdot 15}{3} = 35$ m." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret $1 \\cdot 3 + 2 \\cdot 4 + 3 \\cdot 5 + \\ldots + 15 \\cdot 17$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1400$" } ],
+        [ { "tipe": "paragraph", "text": "$1440$" } ],
+        [ { "tipe": "paragraph", "text": "$1480$" } ],
+        [ { "tipe": "paragraph", "text": "$1520$" } ],
+        [ { "tipe": "paragraph", "text": "$1560$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus $\\sum_{k=1}^{n} k(k+2) = \\sum k^2 + 2\\sum k = \\dfrac{n(n+1)(2n+1)}{6} + n(n+1)$." },
+        { "tipe": "paragraph", "text": "Untuk $n = 15$:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{15 \\cdot 16 \\cdot 31}{6} + 15 \\cdot 16 = 1240 + 240 = 1480$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
