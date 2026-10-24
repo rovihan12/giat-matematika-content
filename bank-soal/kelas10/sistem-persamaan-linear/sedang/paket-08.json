@@ -1,0 +1,176 @@
+{
+  "id": "bs-k10-spl-s-08",
+  "nama": "Bank Soal Sedang - Paket 8",
+  "kelas": 10,
+  "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
+  "tingkat": "SEDANG",
+  "deskripsi": "Aplikasi SPLDV dan SPLTV dalam konteks nyata (usia, pekerjaan, transportasi)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-spl-s-08-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Umur Ayah 3 kali umur Anak. 5 tahun lagi jumlah umur mereka 62. Umur Anak sekarang adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$11$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$12$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$13$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$14$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$15$ tahun" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$A=3a$; $(A+5)+(a+5)=62 \\Rightarrow 4a+10=62 \\Rightarrow a=13$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "A dan B bekerja bersama menyelesaikan proyek dalam 4 hari. A sendiri 12 hari. B sendiri berapa hari?" }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$5$ hari" }],
+        [{ "tipe": "paragraph", "text": "$6$ hari" }],
+        [{ "tipe": "paragraph", "text": "$7$ hari" }],
+        [{ "tipe": "paragraph", "text": "$8$ hari" }],
+        [{ "tipe": "paragraph", "text": "$9$ hari" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{12} + \\dfrac{1}{b} = \\dfrac{1}{4} \\Rightarrow \\dfrac{1}{b} = \\dfrac{1}{4} - \\dfrac{1}{12} = \\dfrac{2}{12} = \\dfrac{1}{6} \\Rightarrow b=6$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah pesawat terbang 3 jam dengan angin, 4 jam melawan angin. Kecepatan angin 20 km/jam. Kecepatan pesawat di udara tenang adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$120$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$130$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$140$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$150$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$160$ km/jam" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3(p+20) = 4(p-20) \\Rightarrow 3p+60 = 4p-80 \\Rightarrow p=140$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Empat tahun lalu umur kakak 3 kali umur adik. Sekarang umur kakak 2 kali umur adik. Umur adik sekarang adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$4$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$5$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$6$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$7$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$8$ tahun" }]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2a$; $K - 4 = 3(a - 4) \\Rightarrow 2a - 4 = 3a - 12 \\Rightarrow a = 8$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Toko A menjual 2 buku + 3 pensil Rp26.000. Toko B menjual 3 buku + 2 pensil Rp29.000. Harga 1 buku adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp5.000" }],
+        [{ "tipe": "paragraph", "text": "Rp6.000" }],
+        [{ "tipe": "paragraph", "text": "Rp7.000" }],
+        [{ "tipe": "paragraph", "text": "Rp8.000" }],
+        [{ "tipe": "paragraph", "text": "Rp9.000" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Menjumlahkan: $5b + 5p = 55.000 \\Rightarrow b + p = 11.000$." },
+        { "tipe": "paragraph", "text": "Mengurangkan: $b - p = 3.000$." },
+        { "tipe": "paragraph", "text": "Dijumlahkan: $2b = 14.000 \\Rightarrow b = 7.000$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah bilangan 2 angka. Jumlah angka 11. Jika angka ditukar, nilainya bertambah 27. Bilangan asli adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$47$" }],
+        [{ "tipe": "paragraph", "text": "$38$" }],
+        [{ "tipe": "paragraph", "text": "$29$" }],
+        [{ "tipe": "paragraph", "text": "$56$" }],
+        [{ "tipe": "paragraph", "text": "$65$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a+b=11$; $10b+a = 10a+b+27 \\Rightarrow 9(b-a)=27 \\Rightarrow b-a=3$." },
+        { "tipe": "paragraph", "text": "$a=4$, $b=7$ → bilangan 47." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Seorang penjual memiliki 30 kg campuran kopi A (Rp40.000/kg) dan B (Rp60.000/kg). Jika campuran dijual Rp48.000/kg, banyak kopi A adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$15$ kg" }],
+        [{ "tipe": "paragraph", "text": "$16$ kg" }],
+        [{ "tipe": "paragraph", "text": "$17$ kg" }],
+        [{ "tipe": "paragraph", "text": "$18$ kg" }],
+        [{ "tipe": "paragraph", "text": "$19$ kg" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a+b=30$; $40a+60b=48 \\times 30=1.440$ (dalam ribuan)." },
+        { "tipe": "paragraph", "text": "$40a+60(30-a)=1.440 \\Rightarrow -20a=-360 \\Rightarrow a=18$ kg." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Rina dan Sari berbelanja. Rina beli 3 kg apel + 2 kg jeruk Rp95.000. Sari beli 2 kg apel + 4 kg jeruk Rp90.000. Harga 1 kg apel adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp20.000" }],
+        [{ "tipe": "paragraph", "text": "Rp22.000" }],
+        [{ "tipe": "paragraph", "text": "Rp24.000" }],
+        [{ "tipe": "paragraph", "text": "Rp25.000" }],
+        [{ "tipe": "paragraph", "text": "Rp27.000" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$3a+2j=95.000$; $2a+4j=90.000$." },
+        { "tipe": "paragraph", "text": "(i)×2: $6a+4j=190.000$; (ii): $2a+4j=90.000$; $4a=100.000 \\Rightarrow a=25.000$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah toko menjual 3 jenis barang. Total 50 unit. Barang A = 2 × B, C = B + 10. Banyak barang B adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$8$" }],
+        [{ "tipe": "paragraph", "text": "$9$" }],
+        [{ "tipe": "paragraph", "text": "$10$" }],
+        [{ "tipe": "paragraph", "text": "$11$" }],
+        [{ "tipe": "paragraph", "text": "$12$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$A=2b$, $C=b+10$; $2b+b+(b+10)=50 \\Rightarrow 4b+10=50 \\Rightarrow 4b=40 \\Rightarrow b=10$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-spl-s-08-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Dua keran A dan B mengisi bak 6 jam. A sendiri 10 jam. B sendiri berapa jam?" }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$12$ jam" }],
+        [{ "tipe": "paragraph", "text": "$13$ jam" }],
+        [{ "tipe": "paragraph", "text": "$14$ jam" }],
+        [{ "tipe": "paragraph", "text": "$15$ jam" }],
+        [{ "tipe": "paragraph", "text": "$16$ jam" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{10} + \\dfrac{1}{b} = \\dfrac{1}{6} \\Rightarrow \\dfrac{1}{b} = \\dfrac{1}{6}-\\dfrac{1}{10} = \\dfrac{4}{60} = \\dfrac{1}{15} \\Rightarrow b=15$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
