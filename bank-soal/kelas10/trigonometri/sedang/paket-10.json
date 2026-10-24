@@ -1,0 +1,218 @@
+{
+  "id": "bs-k10-trig-s-10",
+  "nama": "Bank Soal Sedang - Paket 10 (Lanjutan)",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang identitas trigonometri, persamaan trigonometri, dan aturan segitiga (lanjutan)",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-trig-s-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 105° - \\sin 15°}{\\cos 105° + \\cos 15°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus jumlah ke perkalian:" },
+        { "tipe": "paragraph", "text": "$\\sin 105° - \\sin 15° = 2\\cos 60° \\sin 45°$." },
+        { "tipe": "paragraph", "text": "$\\cos 105° + \\cos 15° = 2\\cos 60° \\cos 45°$." },
+        { "tipe": "paragraph", "text": "Rasio: $\\dfrac{2\\cos 60° \\sin 45°}{2\\cos 60° \\cos 45°} = \\dfrac{\\sin 45°}{\\cos 45°} = \\tan 45° = 1$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui segitiga $ABC$ dengan $a = 10$ cm, $b = 12$ cm, dan $c = 14$ cm. Nilai $\\cos A$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Aturan cosinus: $\\cos A = \\dfrac{b^2 + c^2 - a^2}{2bc}$." },
+        { "tipe": "paragraph", "text": "$\\cos A = \\dfrac{12^2 + 14^2 - 10^2}{2 \\cdot 12 \\cdot 14} = \\dfrac{144 + 196 - 100}{336}$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{240}{336} = \\dfrac{5}{7}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin \\theta = \\dfrac{5}{13}$ dan $\\theta$ di kuadran II, maka nilai $\\cos 2\\theta$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{119}{169}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{119}{169}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{120}{169}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{120}{169}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{144}{169}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos 2\\theta = 1 - 2\\sin^2 \\theta$." },
+        { "tipe": "paragraph", "text": "$\\cos 2\\theta = 1 - 2\\left(\\dfrac{5}{13}\\right)^2 = 1 - 2\\left(\\dfrac{25}{169}\\right)$." },
+        { "tipe": "paragraph", "text": "$= 1 - \\dfrac{50}{169} = \\dfrac{119}{169}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah segitiga siku-siku memiliki panjang sisi tegak 24 cm dan sisi datar 7 cm. Nilai $\\sec \\alpha$ (dengan $\\alpha$ sudut di hadapan sisi tegak) adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sisi miring = $\\sqrt{24^2 + 7^2} = \\sqrt{576 + 49} = \\sqrt{625} = 25$." },
+        { "tipe": "paragraph", "text": "$\\cos \\alpha = \\dfrac{\\text{samping}}{\\text{miring}} = \\dfrac{7}{25}$." },
+        { "tipe": "paragraph", "text": "$\\sec \\alpha = \\dfrac{1}{\\cos \\alpha} = \\dfrac{25}{7}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\sin 40° \\cos 20° + \\cos 40° \\sin 20°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus jumlah sinus: $\\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B$." },
+        { "tipe": "paragraph", "text": "$= \\sin(40° + 20°) = \\sin 60° = \\dfrac{1}{2}\\sqrt{3}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\cos 2x = \\dfrac{1}{2}$ untuk $0° \\le x \\le 360°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°, 210°, 330°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 150°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 300°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 330°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 120°, 240°, 300°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 2x = \\dfrac{1}{2} = \\cos 60°$." },
+        { "tipe": "paragraph", "text": "Solusi 1: $2x = 60° + k \\cdot 360° \\Rightarrow x = 30° + k \\cdot 180°$." },
+        { "tipe": "paragraph", "text": "Untuk $k=0$: $x=30°$; $k=1$: $x=210°$." },
+        { "tipe": "paragraph", "text": "Solusi 2: $2x = -60° + k \\cdot 360° \\Rightarrow x = -30° + k \\cdot 180°$." },
+        { "tipe": "paragraph", "text": "Untuk $k=1$: $x=150°$; $k=2$: $x=330°$." },
+        { "tipe": "paragraph", "text": "HP = $\\{30°, 150°, 210°, 330°\\}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas segitiga dengan sisi $a = 6$ cm, $b = 8$ cm, dan sudut apit $C = 30°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$24$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$12\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$24\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$48$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L = \\dfrac{1}{2}ab \\sin C$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2}(6)(8)\\sin 30° = 24 \\cdot \\dfrac{1}{2} = 12$ cm²." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\tan 105°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-(2 + \\sqrt{3})$" } ],
+        [ { "tipe": "paragraph", "text": "$-(2 - \\sqrt{3})$" } ],
+        [ { "tipe": "paragraph", "text": "$2 + \\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\tan 105° = \\tan(60° + 45°) = \\dfrac{\\tan 60° + \\tan 45°}{1 - \\tan 60° \\tan 45°}$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{\\sqrt{3} + 1}{1 - \\sqrt{3}} = -(2 + \\sqrt{3})$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\cos x = -\\dfrac{3}{5}$ dan $x$ berada di kuadran III, maka nilai $\\sin 2x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{12}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{25}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Di kuadran III: $\\cos x = -\\dfrac{3}{5}$, $\\sin x = -\\dfrac{4}{5}$." },
+        { "tipe": "paragraph", "text": "$\\sin 2x = 2\\sin x \\cos x$." },
+        { "tipe": "paragraph", "text": "$= 2\\left(-\\dfrac{4}{5}\\right)\\left(-\\dfrac{3}{5}\\right) = \\dfrac{24}{25}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-trig-s-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga siku-siku $ABC$ berikut. Jika $AB = 24$ cm dan $BC = 7$ cm, maka nilai $\\csc A$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sedang/segitiga-siku-7-24-25.png",
+          "caption": "Segitiga siku-siku ABC, siku-siku di B. AB = 24 cm, BC = 7 cm.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{24}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sisi miring $AC = \\sqrt{24^2 + 7^2} = 25$ cm." },
+        { "tipe": "paragraph", "text": "$\\sin A = \\dfrac{BC}{AC} = \\dfrac{7}{25}$." },
+        { "tipe": "paragraph", "text": "$\\csc A = \\dfrac{1}{\\sin A} = \\dfrac{25}{7}$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
