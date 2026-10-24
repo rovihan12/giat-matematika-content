@@ -1,0 +1,227 @@
+{
+  "id": "bs-k10-trig-sulit-10",
+  "nama": "Bank Soal Sulit - Paket 10 (Lanjutan)",
+  "kelas": 10,
+  "kategori": "Trigonometri",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit OSN-style tentang identitas trigonometri, persamaan, dan geometri analitik (lanjutan)",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-trig-sulit-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{\\pi}{9} \\cdot \\cos\\dfrac{2\\pi}{9} \\cdot \\cos\\dfrac{4\\pi}{9}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{8}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos \\theta \\cos 2\\theta \\cos 4\\theta = \\dfrac{\\sin 8\\theta}{8 \\sin \\theta}$." },
+        { "tipe": "paragraph", "text": "Untuk $\\theta = \\dfrac{\\pi}{9}$, maka $\\sin 8\\theta = \\sin\\left(\\dfrac{8\\pi}{9}\\right) = \\sin\\left(\\pi - \\dfrac{\\pi}{9}\\right) = \\sin\\dfrac{\\pi}{9}$." },
+        { "tipe": "paragraph", "text": "Hasilnya $= \\dfrac{\\sin(\\pi/9)}{8\\sin(\\pi/9)} = \\dfrac{1}{8}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\sin x - \\cos x = \\dfrac{1}{3}$, maka nilai $\\sin^3 x - \\cos^3 x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{13}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{14}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{27}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{27}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(\\sin x - \\cos x)^2 = \\dfrac{1}{9} \\Rightarrow 1 - 2\\sin x \\cos x = \\dfrac{1}{9} \\Rightarrow \\sin x \\cos x = \\dfrac{4}{9}$." },
+        { "tipe": "paragraph", "text": "$\\sin^3 x - \\cos^3 x = (\\sin x - \\cos x)(\\sin^2 x + \\sin x \\cos x + \\cos^2 x)$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{3}\\left(1 + \\dfrac{4}{9}\\right) = \\dfrac{1}{3}\\left(\\dfrac{13}{9}\\right) = \\dfrac{13}{27}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\tan^2 x - (1+\\sqrt{3})\\tan x + \\sqrt{3} = 0$ untuk $0° \\le x \\le 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{45°, 60°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{45°, 135°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 120°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{30°, 60°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 135°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $y = \\tan x$: $y^2 - (1+\\sqrt{3})y + \\sqrt{3} = 0$." },
+        { "tipe": "paragraph", "text": "Faktorkan: $(y - 1)(y - \\sqrt{3}) = 0 \\Rightarrow y = 1$ atau $y = \\sqrt{3}$." },
+        { "tipe": "paragraph", "text": "$\\tan x = 1 \\Rightarrow x = 45°$ (untuk $0° \\le x \\le 180°$)." },
+        { "tipe": "paragraph", "text": "$\\tan x = \\sqrt{3} \\Rightarrow x = 60°$." },
+        { "tipe": "paragraph", "text": "HP = $\\{45°, 60°\\}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga $ABC$ berikut. Jika $a = 8$ cm, $b = 10$ cm, dan $\\angle C = 120°$, maka panjang sisi $c$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas10/trigonometri/sulit/segitiga-cos-8-10-120.png",
+          "caption": "Segitiga ABC dengan sisi a = 8 cm, b = 10 cm, dan sudut C = 120°.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{61}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{51}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{41}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{31}$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{21}$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$c^2 = a^2 + b^2 - 2ab \\cos C$." },
+        { "tipe": "paragraph", "text": "$c^2 = 8^2 + 10^2 - 2(8)(10)\\cos 120°$." },
+        { "tipe": "paragraph", "text": "$= 64 + 100 - 160\\left(-\\dfrac{1}{2}\\right) = 164 + 80 = 244$." },
+        { "tipe": "paragraph", "text": "$c = \\sqrt{244} = \\sqrt{4 \\cdot 61} = 2\\sqrt{61}$ cm." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 80° - \\sin 20°}{\\cos 80° + \\cos 20°}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus jumlah ke perkalian:" },
+        { "tipe": "paragraph", "text": "$\\sin 80° - \\sin 20° = 2\\cos 50° \\sin 30°$." },
+        { "tipe": "paragraph", "text": "$\\cos 80° + \\cos 20° = 2\\cos 50° \\cos 30°$." },
+        { "tipe": "paragraph", "text": "Rasio: $\\dfrac{2\\cos 50° \\sin 30°}{2\\cos 50° \\cos 30°} = \\dfrac{\\sin 30°}{\\cos 30°} = \\tan 30° = \\dfrac{1}{3}\\sqrt{3}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan \\alpha$ dan $\\tan \\beta$ adalah akar-akar persamaan $x^2 - 4x + 2 = 0$, maka nilai $\\cos^2(\\alpha + \\beta)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{17}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari persamaan kuadrat: $\\tan \\alpha + \\tan \\beta = 4$ dan $\\tan \\alpha \\tan \\beta = 2$." },
+        { "tipe": "paragraph", "text": "$\\tan(\\alpha + \\beta) = \\dfrac{4}{1 - 2} = -4$." },
+        { "tipe": "paragraph", "text": "$\\cos^2(\\alpha + \\beta) = \\dfrac{1}{1 + \\tan^2(\\alpha + \\beta)} = \\dfrac{1}{1 + (-4)^2} = \\dfrac{1}{17}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\cos^2 10° + \\cos^2 50° + \\cos^2 70°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan $\\cos^2 \\theta = \\dfrac{1 + \\cos 2\\theta}{2}$." },
+        { "tipe": "paragraph", "text": "Jumlahkan: $= \\dfrac{3}{2} + \\dfrac{1}{2}(\\cos 20° + \\cos 100° + \\cos 140°)$." },
+        { "tipe": "paragraph", "text": "Gunakan identitas: $\\cos 20° + \\cos 100° + \\cos 140° = 0$." },
+        { "tipe": "paragraph", "text": "Jadi hasilnya $\\dfrac{3}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\cos 3x = \\cos 60°$ untuk $0° \\le x \\le 180°$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\{20°, 100°, 140°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{20°, 100°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{20°, 140°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{60°, 180°\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{20°, 60°, 100°\\}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 3x = \\cos 60°$." },
+        { "tipe": "paragraph", "text": "Solusi 1: $3x = 60° + k \\cdot 360° \\Rightarrow x = 20° + k \\cdot 120°$." },
+        { "tipe": "paragraph", "text": "Untuk $k=0$: $x=20°$; $k=1$: $x=140°$." },
+        { "tipe": "paragraph", "text": "Solusi 2: $3x = -60° + k \\cdot 360° \\Rightarrow x = -20° + k \\cdot 120°$." },
+        { "tipe": "paragraph", "text": "Untuk $k=1$: $x=100°$." },
+        { "tipe": "paragraph", "text": "HP = $\\{20°, 100°, 140°\\}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum dari fungsi $f(x) = 5\\sin x - 12\\cos x + 7$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$13$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk $a\\sin x + b\\cos x$ memiliki nilai maksimum $\\sqrt{a^2 + b^2}$." },
+        { "tipe": "paragraph", "text": "Untuk $5\\sin x - 12\\cos x$, nilai maksimumnya adalah $\\sqrt{5^2 + (-12)^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$." },
+        { "tipe": "paragraph", "text": "Maka nilai maksimum $f(x) = 13 + 7 = 20$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-trig-sulit-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui segitiga $ABC$ dengan $a = 7$ cm, $b = 8$ cm, dan $c = 9$ cm. Nilai $\\cos(A + B)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ingat bahwa $A + B + C = 180°$, sehingga $A + B = 180° - C$." },
+        { "tipe": "paragraph", "text": "Maka $\\cos(A + B) = \\cos(180° - C) = -\\cos C$." },
+        { "tipe": "paragraph", "text": "Hitung $\\cos C$ dengan aturan cosinus:" },
+        { "tipe": "paragraph", "text": "$\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab} = \\dfrac{7^2 + 8^2 - 9^2}{2(7)(8)} = \\dfrac{49 + 64 - 81}{112} = \\dfrac{32}{112} = \\dfrac{2}{7}$." },
+        { "tipe": "paragraph", "text": "Maka $\\cos(A + B) = -\\dfrac{2}{7}$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
