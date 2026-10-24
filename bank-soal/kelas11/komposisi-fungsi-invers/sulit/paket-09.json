@@ -1,0 +1,214 @@
+{
+  "id": "bs-k11-kfi-sulit-09",
+  "nama": "Bank Soal Sulit - Paket 9",
+  "kelas": 11,
+  "kategori": "Komposisi Fungsi dan Fungsi Invers",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang invers fungsi kuadrat, komposisi tiga fungsi, dan persamaan fungsi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-kfi-sulit-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 12x + 32$ dengan domain $x \\geq 6$, maka $f^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6 + \\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$6 - \\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-6 + \\sqrt{x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$6 + \\sqrt{x - 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$-6 - \\sqrt{x + 4}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = (x - 6)^2 - 4 \\Rightarrow y + 4 = (x - 6)^2$" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq 6$: $x - 6 = \\sqrt{y + 4}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = 6 + \\sqrt{x + 4}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{4x + 5}{3x - 2}$, maka $f^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2x + 5}{3x - 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2x - 5}{3x + 4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4x - 5}{3x + 2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5x + 2}{4x - 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2x + 5}{4 - 3x}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = \\dfrac{4x + 5}{3x - 2} \\Rightarrow y(3x - 2) = 4x + 5$" },
+        { "tipe": "paragraph", "text": "$3xy - 2y = 4x + 5 \\Rightarrow 3xy - 4x = 2y + 5$" },
+        { "tipe": "paragraph", "text": "$x(3y - 4) = 2y + 5 \\Rightarrow x = \\dfrac{2y + 5}{3y - 4}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{2x + 5}{3x - 4}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x + 3$, $g(x) = 2x - 1$, dan $h(x) = x^2 + 1$, nilai $(h \\circ g \\circ f)(2)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$82$" } ],
+        [ { "tipe": "paragraph", "text": "$84$" } ],
+        [ { "tipe": "paragraph", "text": "$86$" } ],
+        [ { "tipe": "paragraph", "text": "$88$" } ],
+        [ { "tipe": "paragraph", "text": "$90$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(2) = 5$" },
+        { "tipe": "paragraph", "text": "$g(5) = 9$" },
+        { "tipe": "paragraph", "text": "$h(9) = 81 + 1 = 82$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x + 3$ dan $(g \\circ f)(x) = 8x^2 + 24x + 17$, maka $g(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2x^2 - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$2x^2 + 1$" } ],
+        [ { "tipe": "paragraph", "text": "$2x^2 - 2$" } ],
+        [ { "tipe": "paragraph", "text": "$4x^2 - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$4x^2 + 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(2x + 3) = 8x^2 + 24x + 17$. Misal $u = 2x + 3 \\Rightarrow x = \\dfrac{u - 3}{2}$." },
+        { "tipe": "paragraph", "text": "$g(u) = 8\\left(\\dfrac{u - 3}{2}\\right)^2 + 24\\left(\\dfrac{u - 3}{2}\\right) + 17$" },
+        { "tipe": "paragraph", "text": "$= 2(u - 3)^2 + 12(u - 3) + 17$" },
+        { "tipe": "paragraph", "text": "$= 2(u^2 - 6u + 9) + 12u - 36 + 17$" },
+        { "tipe": "paragraph", "text": "$= 2u^2 - 12u + 18 + 12u - 19 = 2u^2 - 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{x - 3}{2x + 1}$, nilai $f^{-1}(2)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{5}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{x - 3}{2x + 1} = 2 \\Rightarrow x - 3 = 4x + 2$" },
+        { "tipe": "paragraph", "text": "$-3x = 5 \\Rightarrow x = -\\dfrac{5}{3}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 - 4x + 1$ dengan domain $x \\geq 2$, maka $f^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2 + \\sqrt{x + 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{x + 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 + \\sqrt{x + 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$2 + \\sqrt{x - 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 - \\sqrt{x + 3}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = (x - 2)^2 - 3 \\Rightarrow y + 3 = (x - 2)^2$" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq 2$: $x - 2 = \\sqrt{y + 3}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = 2 + \\sqrt{x + 3}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 3x + 5$ dan $(f \\circ g)(x) = 6x^2 - 9x + 2$, maka $g(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2x^2 - 3x - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$2x^2 + 3x - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$2x^2 - 3x + 1$" } ],
+        [ { "tipe": "paragraph", "text": "$3x^2 - 3x - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$2x^2 - 2x - 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(g(x)) = 3 \\cdot g(x) + 5 = 6x^2 - 9x + 2$" },
+        { "tipe": "paragraph", "text": "$3 \\cdot g(x) = 6x^2 - 9x - 3$" },
+        { "tipe": "paragraph", "text": "$g(x) = 2x^2 - 3x - 1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = \\dfrac{6x + 1}{4x - 3}$, maka $f^{-1}(x)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3x + 1}{4x - 6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3x - 1}{4x + 6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6x - 1}{4x + 3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x + 3}{6x - 1}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3x + 1}{6 - 4x}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = \\dfrac{6x + 1}{4x - 3} \\Rightarrow y(4x - 3) = 6x + 1$" },
+        { "tipe": "paragraph", "text": "$4xy - 3y = 6x + 1 \\Rightarrow 4xy - 6x = 3y + 1$" },
+        { "tipe": "paragraph", "text": "$x(4y - 6) = 3y + 1 \\Rightarrow x = \\dfrac{3y + 1}{4y - 6}$" },
+        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{3x + 1}{4x - 6}$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2x - 1$, $g(x) = x^2 + 2$, dan $(g \\circ f)(a) = 11$, nilai $a$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-2$ atau $1$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$ atau $2$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$ atau $2$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$ atau $1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$ atau $2$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(g \\circ f)(a) = (2a - 1)^2 + 2 = 4a^2 - 4a + 3$" },
+        { "tipe": "paragraph", "text": "$4a^2 - 4a + 3 = 11 \\Rightarrow 4a^2 - 4a - 8 = 0$" },
+        { "tipe": "paragraph", "text": "$a^2 - a - 2 = 0 \\Rightarrow (a - 2)(a + 1) = 0$" },
+        { "tipe": "paragraph", "text": "$a = 2$ atau $a = -1$" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-kfi-sulit-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x^2 + 4x + 3$ dengan domain $x \\geq -2$, nilai $f^{-1}(8)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-5$" } ],
+        [ { "tipe": "paragraph", "text": "$-3$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 2)^2 - 1 = 8 \\Rightarrow (x + 2)^2 = 9$" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq -2$: $x + 2 = 3 \\Rightarrow x = 1$" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
