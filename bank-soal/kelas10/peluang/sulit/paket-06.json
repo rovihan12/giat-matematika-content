@@ -1,0 +1,214 @@
+{
+  "id": "bs-k10-pel-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit lanjutan tentang kombinatorik, peluang bersyarat, dan analisis data",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-pel-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kotak terdapat 7 kelereng merah dan 5 kelereng putih. Dari kotak itu diambil 3 kelereng sekaligus secara acak. Peluang terambil sekurang-kurangnya 1 kelereng putih adalah ...." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{44}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{44}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{34}{44}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{35}{44}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{37}{44}$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan komplemen: peluang TIDAK ada putih (semua merah)." },
+        { "tipe": "paragraph", "text": "$n(S) = C(12,3) = 220$." },
+        { "tipe": "paragraph", "text": "Semua merah = $C(7,3) = 35$." },
+        { "tipe": "paragraph", "text": "$P(\\text{tidak putih}) = \\dfrac{35}{220} = \\dfrac{7}{44}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{min 1 putih}) = 1 - \\dfrac{7}{44} = \\dfrac{37}{44}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 7 orang pria dan 5 orang wanita akan dipilih 4 orang yang terdiri dari 3 orang pria dan 1 orang wanita. Peluang terpilihnya 4 orang itu adalah ...." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{198}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{99}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{35}{396}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{35}{99}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{37}{99}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(12,4) = 495$." },
+        { "tipe": "paragraph", "text": "$n(A) = C(7,3) \\cdot C(5,1) = 35 \\cdot 5 = 175$." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{175}{495} = \\dfrac{35}{99}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak A berisi 4 kelereng merah dan 3 kelereng putih, kotak B berisi 6 kelereng merah dan 2 kelereng putih. Dari masing-masing kotak diambil sebuah kelereng, maka peluang yang terambil kelereng merah dari kotak A dan kelereng putih dari kotak B adalah ...." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{56}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{28}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Merah dari A = $\\dfrac{4}{7}$." },
+        { "tipe": "paragraph", "text": "Putih dari B = $\\dfrac{2}{8} = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{4}{7} \\times \\dfrac{1}{4} = \\dfrac{1}{7}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah dadu dilempar bersama-sama satu kali. Peluang munculnya jumlah mata kedua dadu 3 atau 10 adalah . . ." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{18}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{24}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 3 = (1,2), (2,1) → 2." },
+        { "tipe": "paragraph", "text": "Jumlah 10 = (4,6), (5,5), (6,4) → 3." },
+        { "tipe": "paragraph", "text": "Total = 5. Peluang = $\\dfrac{5}{36}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah dadu dilempar undi satu kali. Peluang muncul jumlah mata dadu yang muncul lebih dari 2 tetapi kurang dari 9 adalah . . ." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{12}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{18}{36}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{36}$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 3 sampai 8 (25 pasangan) atau komplemen dari (jumlah 2, 9, 10, 11, 12)." },
+        { "tipe": "paragraph", "text": "Jumlah 2 = 1, 9 = 4, 10 = 3, 11 = 2, 12 = 1 → total 11." },
+        { "tipe": "paragraph", "text": "Peluang = $1 - \\dfrac{11}{36} = \\dfrac{25}{36}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu kelas terdiri dari 40 orang siswa. Sebanyak 15 orang siswa menyukai kegiatan ilmiah, 20 orang menyukai kegiatan olahraga, dan 10 orang menyukai kedua-keduanya. Jika akan dipilih salah satu orang untuk menjadi koordinator kelas, maka peluang yang terpilih siswa yang tidak menyukai kedua kegiatan tersebut adalah . . ." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{8}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Suka salah satu = $15 + 20 - 10 = 25$." },
+        { "tipe": "paragraph", "text": "Tidak suka keduanya = $40 - 25 = 15$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{15}{40} = \\dfrac{3}{8}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika A dan B adalah dua kejadian dengan $P(A) = \\dfrac{1}{8}$ dan $P(B) = \\dfrac{1}{2}$ serta $P(A \\cup B) = \\dfrac{1}{2}$, maka kejadian A dan B adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "saling bebas" } ],
+        [ { "tipe": "paragraph", "text": "saling lepas" } ],
+        [ { "tipe": "paragraph", "text": "tidak saling bebas" } ],
+        [ { "tipe": "paragraph", "text": "saling lepas dan tidak bebas" } ],
+        [ { "tipe": "paragraph", "text": "tidak dapat ditentukan hubungannya" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diperoleh $P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = \\dfrac{1}{8} + \\dfrac{1}{2} - \\dfrac{1}{2} = \\dfrac{1}{8}$." },
+        { "tipe": "paragraph", "text": "Karena $P(A \\cap B) = \\dfrac{1}{8} \\neq 0$, maka kejadian A dan B tidak saling lepas." },
+        { "tipe": "paragraph", "text": "Uji saling bebas: $P(A) \\cdot P(B) = \\dfrac{1}{8} \\times \\dfrac{1}{2} = \\dfrac{1}{16} \\neq \\dfrac{1}{8}$. Karena $P(A \\cap B) \\neq P(A) \\cdot P(B)$, maka kejadian A dan B tidak saling bebas." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dalam sebuah kelompok terdapat 14 anak terdiri dari 10 anak gemar pop, 8 anak gemar dangdut. Bila 1 orang anak dipilih secara acak, maka peluang seorang anak yang terpilih gemar kedua-duanya adalah…" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{7}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total = 14. Pop = 10, Dangdut = 8." },
+        { "tipe": "paragraph", "text": "Gemar keduanya = $10 + 8 - 14 = 4$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{4}{14} = \\dfrac{2}{7}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Di atas meja terdapat dua set kartu. Setiap set kartu terdiri atas 52 lembar dengan empat warna berbeda (merah, kuning, hijau, dan biru). Masing-masing warna terdiri atas 13 kartu bernomor 1 sampai dengan 13. Satu kartu akan diambil secara acak dari dua set kartu tersebut. Peluang terambil kartu berwarna merah atau bernomor 13 adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{26}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{26}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{13}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{52}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total kartu dari 2 set = $2 \\times 52 = 104$." },
+        { "tipe": "paragraph", "text": "Banyak kartu merah = $2 \\times 13 = 26$." },
+        { "tipe": "paragraph", "text": "Banyak kartu bernomor 13 = $2 \\times 4 = 8$." },
+        { "tipe": "paragraph", "text": "Banyak kartu merah DAN bernomor 13 = $2 \\times 1 = 2$." },
+        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{26 + 8 - 2}{104} = \\dfrac{32}{104} = \\dfrac{4}{13}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada percobaan lempar undi 3 keping uang logam 600 kali, frekuensi harapan muncul dua gambar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$150$" } ],
+        [ { "tipe": "paragraph", "text": "$200$" } ],
+        [ { "tipe": "paragraph", "text": "$225$" } ],
+        [ { "tipe": "paragraph", "text": "$300$" } ],
+        [ { "tipe": "paragraph", "text": "$450$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Peluang 2 gambar dari 3 koin = $\\dfrac{3}{8}$." },
+        { "tipe": "paragraph", "text": "Frekuensi harapan = $\\dfrac{3}{8} \\times 600 = 225$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
