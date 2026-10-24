@@ -1,0 +1,215 @@
+{
+  "id": "bs-k10-pel-sulit-08",
+  "nama": "Bank Soal Sulit - Paket 8",
+  "kelas": 10,
+  "kategori": "Peluang",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang permutasi, kombinasi, dan peluang kejadian kompleks",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k10-pel-sulit-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Banyak cara menyusun huruf-huruf dari kata \"STATISTIKA\" adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10!}{2! \\cdot 3! \\cdot 2! \\cdot 2!}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10!}{3! \\cdot 2!}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10!}{2! \\cdot 2!}$" } ],
+        [ { "tipe": "paragraph", "text": "$10!$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10!}{3!}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kata \"STATISTIKA\" = 10 huruf." },
+        { "tipe": "paragraph", "text": "Frekuensi: S = 2, T = 3, A = 2, I = 2, K = 1." },
+        { "tipe": "paragraph", "text": "Gunakan permutasi dengan unsur yang sama:" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{10!}{2! \\cdot 3! \\cdot 2! \\cdot 2!}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 6 pria dan 4 wanita akan dibentuk tim beranggotakan 5 orang dengan syarat minimal 3 pria. Banyak tim yang mungkin adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$150$" } ],
+        [ { "tipe": "paragraph", "text": "$180$" } ],
+        [ { "tipe": "paragraph", "text": "$186$" } ],
+        [ { "tipe": "paragraph", "text": "$200$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kemungkinan: 3 pria + 2 wanita, 4 pria + 1 wanita, 5 pria + 0 wanita." },
+        { "tipe": "paragraph", "text": "$C(6,3) \\cdot C(4,2) = 20 \\cdot 6 = 120$." },
+        { "tipe": "paragraph", "text": "$C(6,4) \\cdot C(4,1) = 15 \\cdot 4 = 60$." },
+        { "tipe": "paragraph", "text": "$C(6,5) \\cdot C(4,0) = 6 \\cdot 1 = 6$." },
+        { "tipe": "paragraph", "text": "Total = $120 + 60 + 6 = 186$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak berisi 5 bola merah, 3 biru, 2 hijau. Diambil 3 bola sekaligus. Peluang terambil paling sedikit 1 bola merah adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{12}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(10,3) = 120$." },
+        { "tipe": "paragraph", "text": "Komplemen: TIDAK ada merah = ambil 3 dari 5 (biru + hijau)." },
+        { "tipe": "paragraph", "text": "$C(5,3) = 10$." },
+        { "tipe": "paragraph", "text": "$P(\\text{tidak merah}) = \\dfrac{10}{120} = \\dfrac{1}{12}$." },
+        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit 1 merah}) = 1 - \\dfrac{1}{12} = \\dfrac{11}{12}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua dadu dilempar bersamaan. Diketahui salah satu dadu menunjukkan angka $3$. Peluang jumlah kedua dadu lebih dari $6$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{6}{11}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Salah satu dadu $3$: $(3,1), (3,2), ..., (3,6), (1,3), (2,3), ..., (6,3) \\rightarrow$ total 11 pasangan." },
+        { "tipe": "paragraph", "text": "Jumlah $> 6$: $(3,4), (3,5), (3,6), (4,3), (5,3), (6,3) \\rightarrow 6$ pasangan." },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{6}{11}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kantong berisi 8 bola: 5 merah, 3 putih. Diambil 2 bola tanpa pengembalian. Peluang terambil 1 merah dan 1 putih adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{28}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{56}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{14}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{8}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dua kemungkinan: M-P atau P-M." },
+        { "tipe": "paragraph", "text": "M-P: $\\dfrac{5}{8} \\cdot \\dfrac{3}{7} = \\dfrac{15}{56}$." },
+        { "tipe": "paragraph", "text": "P-M: $\\dfrac{3}{8} \\cdot \\dfrac{5}{7} = \\dfrac{15}{56}$." },
+        { "tipe": "paragraph", "text": "Total = $\\dfrac{30}{56} = \\dfrac{15}{28}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Berapa banyak kata yang dapat dibentuk dari kata \"BUKU\" jika huruf U tidak boleh berdekatan?" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total susunan: $\\dfrac{4!}{2!} = 12$." },
+        { "tipe": "paragraph", "text": "U berdekatan (anggap UU sebagai 1): susunan $= 3! = 6$." },
+        { "tipe": "paragraph", "text": "U tidak berdekatan: $12 - 6 = 6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah dadu dilempar 4 kali. Peluang muncul mata $6$ tepat 2 kali adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{25}{216}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{125}{1296}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{150}{1296}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{200}{1296}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{625}{1296}$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Distribusi binomial: $P = C(4,2) \\cdot \\left(\\dfrac{1}{6}\\right)^2 \\cdot \\left(\\dfrac{5}{6}\\right)^2$." },
+        { "tipe": "paragraph", "text": "$= 6 \\cdot \\dfrac{1}{36} \\cdot \\dfrac{25}{36} = \\dfrac{150}{1296}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari 10 titik pada bidang, tidak ada 3 titik yang kolinear. Banyak segitiga yang dapat dibentuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$240$" } ],
+        [ { "tipe": "paragraph", "text": "$720$" } ],
+        [ { "tipe": "paragraph", "text": "$840$" } ],
+        [ { "tipe": "paragraph", "text": "$1440$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Setiap 3 titik membentuk 1 segitiga." },
+        { "tipe": "paragraph", "text": "$C(10,3) = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kotak berisi 4 bola merah, 3 biru, 3 hijau. Diambil 3 bola. Peluang terambil ketiga warna berbeda adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n(S) = C(10,3) = 120$." },
+        { "tipe": "paragraph", "text": "$n(A) = C(4,1) \\cdot C(3,1) \\cdot C(3,1) = 4 \\cdot 3 \\cdot 3 = 36$." },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{36}{120} = \\dfrac{3}{10}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-pel-sulit-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang siswa menjawab 5 soal pilihan ganda dengan 4 pilihan. Peluang ia menjawab benar tepat 3 soal (menebak acak) adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{45}{512}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{90}{1024}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{45}{256}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{135}{1024}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{270}{1024}$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(\\text{benar}) = \\dfrac{1}{4}$, $P(\\text{salah}) = \\dfrac{3}{4}$." },
+        { "tipe": "paragraph", "text": "$P = C(5,3) \\cdot \\left(\\dfrac{1}{4}\\right)^3 \\cdot \\left(\\dfrac{3}{4}\\right)^2$." },
+        { "tipe": "paragraph", "text": "$= 10 \\cdot \\dfrac{1}{64} \\cdot \\dfrac{9}{16} = \\dfrac{90}{1024} = \\dfrac{45}{512}$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
