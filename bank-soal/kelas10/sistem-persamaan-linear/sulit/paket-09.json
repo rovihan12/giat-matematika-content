@@ -1,157 +1,178 @@
 {
-  "id": "bs-k10-spl-m-09",
-  "nama": "Bank Soal Mudah - Paket 9",
+  "id": "bs-k10-spl-sulit-09",
+  "nama": "Bank Soal Sulit - Paket 9",
   "kelas": 10,
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
-  "tingkat": "MUDAH",
-  "deskripsi": "Campuran SPLTV sederhana (substitusi langsung) dan pertidaksamaan dasar",
+  "tingkat": "SULIT",
+  "deskripsi": "SPLTV lanjutan dan sistem persamaan nonlinear",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-spl-m-09-q01",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y + z = 14$, $x = 3$, $y = 5$. Nilai $z$ adalah..." }],
+      "id": "bs-k10-spl-sulit-09-q01",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y + z = 6$, $xy + yz + zx = 11$, $xyz = 6$. Nilai $x^3 + y^3 + z^3$ adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3 + 5 + z = 14 \\Rightarrow z = 6$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $a + b = 7$, $b + c = 9$, dan $c = 4$. Nilai $a$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$1$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$b = 9 - 4 = 5$; $a = 7 - 5 = 2$." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $x + 6 < 3x - 2$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x > 4$" }],
-        [{ "tipe": "paragraph", "text": "$x < 4$" }],
-        [{ "tipe": "paragraph", "text": "$x > -4$" }],
-        [{ "tipe": "paragraph", "text": "$x < -4$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq 4$" }]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$8 < 2x \\Rightarrow x > 4$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q04",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y + z = 20$, $x + y = 13$, $y + z = 15$. Nilai $y$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }],
-        [{ "tipe": "paragraph", "text": "$9$" }],
-        [{ "tipe": "paragraph", "text": "$10$" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$z = 20 - 13 = 7$; $y = 15 - 7 = 8$." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{2x - 1}{3} = 3$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$2x - 1 = 9 \\Rightarrow 2x = 10 \\Rightarrow x = 5$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $4 - 5x \\leq -6$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x \\leq 2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq 2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\leq -2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq -2$" }],
-        [{ "tipe": "paragraph", "text": "$x < 2$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$-5x \\leq -10 \\Rightarrow x \\geq 2$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui sistem $x + y + z = 6$, $x = 1$, $z = 2$. Nilai $y$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$1 + y + 2 = 6 \\Rightarrow y = 3$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $3(x + 2) \\geq 15$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x \\geq 3$" }],
-        [{ "tipe": "paragraph", "text": "$x \\leq 3$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq 5$" }],
-        [{ "tipe": "paragraph", "text": "$x \\leq 5$" }],
-        [{ "tipe": "paragraph", "text": "$x > 3$" }]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3x + 6 \\geq 15 \\Rightarrow 3x \\geq 9 \\Rightarrow x \\geq 3$" }],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-09-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y = 12$, $y + z = 14$, $x + z = 16$. Nilai $x + y + z$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$18$" }],
-        [{ "tipe": "paragraph", "text": "$19$" }],
-        [{ "tipe": "paragraph", "text": "$20$" }],
-        [{ "tipe": "paragraph", "text": "$21$" }],
-        [{ "tipe": "paragraph", "text": "$22$" }]
+        [{ "tipe": "paragraph", "text": "$30$" }],
+        [{ "tipe": "paragraph", "text": "$32$" }],
+        [{ "tipe": "paragraph", "text": "$34$" }],
+        [{ "tipe": "paragraph", "text": "$36$" }],
+        [{ "tipe": "paragraph", "text": "$38$" }]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x + y + z = \\dfrac{12 + 14 + 16}{2} = 21$" }
+        { "tipe": "paragraph", "text": "$x^3+y^3+z^3 = (x+y+z)^3 - 3(x+y+z)(xy+yz+zx) + 3xyz$." },
+        { "tipe": "paragraph", "text": "$= 216 - 3(6)(11) + 18 = 216 - 198 + 18 = 36$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-09-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ bulat terbesar yang memenuhi $2x + 5 \\leq 11$ adalah..." }],
+      "id": "bs-k10-spl-sulit-09-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x^2 + y^2 = 25$ dan $x + y = 7$. Nilai $x^3 + y^3$ adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$1$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
+        [{ "tipe": "paragraph", "text": "$90$" }],
+        [{ "tipe": "paragraph", "text": "$91$" }],
+        [{ "tipe": "paragraph", "text": "$92$" }],
+        [{ "tipe": "paragraph", "text": "$93$" }],
+        [{ "tipe": "paragraph", "text": "$94$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$49 = 25+2xy \\Rightarrow xy=12$." },
+        { "tipe": "paragraph", "text": "$x^3+y^3 = 343 - 3(12)(7) = 343-252=91$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jika $a + b + c = 5$ dan $a^2 + b^2 + c^2 = 15$, nilai $ab + bc + ca$ adalah..." }],
+      "pilihan": [
         [{ "tipe": "paragraph", "text": "$3$" }],
         [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$2x \\leq 6 \\Rightarrow x \\leq 3$; bulat terbesar $= 3$." }],
-      "tingkat": "MUDAH"
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$25 = 15 + 2S \\Rightarrow S=5$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $\\dfrac{1}{x} + \\dfrac{1}{y} = \\dfrac{3}{2}$ dan $\\dfrac{1}{x} - \\dfrac{1}{y} = \\dfrac{1}{2}$. Nilai $x + y$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$3$" }],
+        [{ "tipe": "paragraph", "text": "$4$" }],
+        [{ "tipe": "paragraph", "text": "$5$" }],
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$7$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlahkan: $2/x = 2 \\Rightarrow x=1$." },
+        { "tipe": "paragraph", "text": "$1 + 1/y = 3/2 \\Rightarrow 1/y = 1/2 \\Rightarrow y=2$." },
+        { "tipe": "paragraph", "text": "$x+y=3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q05",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jika $x + y = 6$ dan $xy = 8$, nilai $x^2 + y^2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$16$" }],
+        [{ "tipe": "paragraph", "text": "$18$" }],
+        [{ "tipe": "paragraph", "text": "$20$" }],
+        [{ "tipe": "paragraph", "text": "$22$" }],
+        [{ "tipe": "paragraph", "text": "$24$" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$36 = x^2+y^2+16 \\Rightarrow x^2+y^2=20$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x^2 - y = 7$ dan $x + y = 5$. Nilai $x^2 + y^2$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$13$" }],
+        [{ "tipe": "paragraph", "text": "$15$" }],
+        [{ "tipe": "paragraph", "text": "$17$" }],
+        [{ "tipe": "paragraph", "text": "$19$" }],
+        [{ "tipe": "paragraph", "text": "$21$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $y = 5 - x$: $x^2 - (5 - x) = 7 \\Rightarrow x^2 + x - 12 = 0 \\Rightarrow (x + 4)(x - 3) = 0$." },
+        { "tipe": "paragraph", "text": "Untuk $x = 3$, diperoleh $y = 2$. Maka $x^2 + y^2 = 3^2 + 2^2 = 13$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y + z = 12$, $x^2 + y^2 + z^2 = 50$, $xy + yz + zx = 47$. Nilai $xyz$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$30$" }],
+        [{ "tipe": "paragraph", "text": "$40$" }],
+        [{ "tipe": "paragraph", "text": "$50$" }],
+        [{ "tipe": "paragraph", "text": "$60$" }],
+        [{ "tipe": "paragraph", "text": "$70$" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan polinomial dengan akar-akar $x, y, z$: $t^3 - 12t^2 + 47t - xyz = 0$." },
+        { "tipe": "paragraph", "text": "Akar-akar yang memenuhi adalah $(3, 4, 5)$, sehingga nilai $xyz = 3 \\cdot 4 \\cdot 5 = 60$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y = 7$ dan $xy = 12$. Nilai $x^3 + y^3$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$90$" }],
+        [{ "tipe": "paragraph", "text": "$91$" }],
+        [{ "tipe": "paragraph", "text": "$92$" }],
+        [{ "tipe": "paragraph", "text": "$93$" }],
+        [{ "tipe": "paragraph", "text": "$94$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 7^3 - 3(12)(7) = 343 - 252 = 91$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y + z = 8$, $x^2 + y^2 + z^2 = 26$, $xy + yz + zx = 19$. Nilai $xyz$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$6$" }],
+        [{ "tipe": "paragraph", "text": "$8$" }],
+        [{ "tipe": "paragraph", "text": "$10$" }],
+        [{ "tipe": "paragraph", "text": "$12$" }],
+        [{ "tipe": "paragraph", "text": "$14$" }]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Akar-akar yang memenuhi sistem persamaan adalah $(1, 3, 4)$." },
+        { "tipe": "paragraph", "text": "Maka nilai $xyz = 1 \\cdot 3 \\cdot 4 = 12$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-09-q10",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Jika $x + \\dfrac{1}{x} = 5$, nilai $x^3 + \\dfrac{1}{x^3}$ adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$110$" }],
+        [{ "tipe": "paragraph", "text": "$115$" }],
+        [{ "tipe": "paragraph", "text": "$120$" }],
+        [{ "tipe": "paragraph", "text": "$125$" }],
+        [{ "tipe": "paragraph", "text": "$130$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x^3 + 1/x^3 = (x+1/x)^3 - 3(x+1/x) = 125 - 15 = 110$." }
+      ],
+      "tingkat": "SULIT"
     }
   ]
 }
