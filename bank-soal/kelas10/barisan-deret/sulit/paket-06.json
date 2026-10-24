@@ -1,0 +1,154 @@
+{
+  "id": "bs-k10-bd-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 10,
+  "kategori": "Barisan dan Deret",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang barisan bertingkat, rekursif, dan telescoping",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-bd-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suku ke-12 dari barisan bertingkat $4, 7, 12, 19, 28, \\ldots$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$143$" } ],
+        [ { "tipe": "paragraph", "text": "$147$" } ],
+        [ { "tipe": "paragraph", "text": "$151$" } ],
+        [ { "tipe": "paragraph", "text": "$155$" } ],
+        [ { "tipe": "paragraph", "text": "$159$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Selisih antar suku: $3, 5, 7, 9, \\ldots$ (barisan aritmatika dengan beda 2)." },
+        { "tipe": "paragraph", "text": "Pola suku ke-$n$: $U_n = n^2 + 3$." },
+        { "tipe": "paragraph", "text": "$U_{12} = 12^2 + 3 = 144 + 3 = 147$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Barisan $x_1, x_2, x_3, \\ldots$ didefinisikan dengan $x_1 = 2$, $x_2 = 5$, dan $x_n = 3x_{n-1} - 2x_{n-2}$ untuk $n \\ge 3$. Nilai $x_5$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$43$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$47$" } ],
+        [ { "tipe": "paragraph", "text": "$49$" } ],
+        [ { "tipe": "paragraph", "text": "$51$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$x_3 = 3(5) - 2(2) = 15 - 4 = 11$." },
+        { "tipe": "paragraph", "text": "$x_4 = 3(11) - 2(5) = 33 - 10 = 23$." },
+        { "tipe": "paragraph", "text": "$x_5 = 3(23) - 2(11) = 69 - 22 = 47$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret $\\dfrac{1}{1 \\cdot 3} + \\dfrac{1}{3 \\cdot 5} + \\dfrac{1}{5 \\cdot 7} + \\ldots + \\dfrac{1}{19 \\cdot 21}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{20}{21}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{21}$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan bentuk pecahan parsial: $\\dfrac{1}{(2k-1)(2k+1)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k-1} - \\dfrac{1}{2k+1}\\right)$." },
+        { "tipe": "paragraph", "text": "Dengan sifat telescoping dari $k=1$ sampai $k=10$:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(1 - \\dfrac{1}{21}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{20}{21} = \\dfrac{10}{21}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga bilangan membentuk barisan geometri. Jika hasil kalinya $343$ dan jumlahnya $57$, maka bilangan terbesarnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$28$" } ],
+        [ { "tipe": "paragraph", "text": "$49$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan tiga bilangan tersebut adalah $\\dfrac{a}{r}, a, ar$." },
+        { "tipe": "paragraph", "text": "Hasil kali $= a^3 = 343 \\Rightarrow a = 7$." },
+        { "tipe": "paragraph", "text": "Jumlah $= \\dfrac{7}{r} + 7 + 7r = 57 \\Rightarrow 7r^2 - 50r + 7 = 0$." },
+        { "tipe": "paragraph", "text": "Faktorkan: $(7r - 1)(r - 7) = 0 \\Rightarrow r = 7$ atau $r = \\dfrac{1}{7}$." },
+        { "tipe": "paragraph", "text": "Ketiga bilangan tersebut adalah $1, 7, 49$, sehingga bilangan terbesarnya adalah $49$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $S_n = 2n^3 - 3n^2 + 4n$. Suku ke-4 deret tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$53$" } ],
+        [ { "tipe": "paragraph", "text": "$55$" } ],
+        [ { "tipe": "paragraph", "text": "$57$" } ],
+        [ { "tipe": "paragraph", "text": "$59$" } ],
+        [ { "tipe": "paragraph", "text": "$61$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$S_4 = 2(4)^3 - 3(4)^2 + 4(4) = 128 - 48 + 16 = 96$." },
+        { "tipe": "paragraph", "text": "$S_3 = 2(3)^3 - 3(3)^2 + 4(3) = 54 - 27 + 12 = 39$." },
+        { "tipe": "paragraph", "text": "$U_4 = S_4 - S_3 = 96 - 39 = 57$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah deret $\\dfrac{1}{2} + \\dfrac{3}{4} + \\dfrac{5}{8} + \\dfrac{7}{16} + \\ldots$ sampai tak hingga adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Deret ini berbentuk Arithmetico-Geometric Progression (AGP): $S = \\sum_{n=1}^{\\infty} \\dfrac{2n-1}{2^n}$." },
+        { "tipe": "paragraph", "text": "$S = 2 \\sum_{n=1}^{\\infty} \\dfrac{n}{2^n} - \\sum_{n=1}^{\\infty} \\dfrac{1}{2^n} = 2(2) - 1 = 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\log 2, \\log(2^x - 2), \\log(2^x + 10)$ membentuk barisan aritmatika, maka $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat barisan aritmatika: $2\\log(2^x - 2) = \\log 2 + \\log(2^x + 10)$." },
+        { "tipe": "paragraph", "text": "$(2^x - 2)^2 = 2(2^x + 10)$." },
+        { "tipe": "paragraph", "text": "Misalkan $t = 2^x$: $t^2 - 4t + 4 = 2t + 20 \\Rightarrow t^2 - 6t - 16 = 0$." },
+        { "tipe": "paragraph", "text": "Faktorkan: $(t - 8)(t + 2) = 0 \\Rightarrow t = 8$ (karena $t > 0$)." },
+        { "tipe": "paragraph", "text": "$2^x = 8 \\Rightarrow x = 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-bd-sulit-06-q08",
