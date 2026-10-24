@@ -1,0 +1,208 @@
+{
+  "id": "bs-k10-stat-s-04",
+  "nama": "Bank Soal Sedang - Paket 4",
+  "kelas": 10,
+  "kategori": "Statistika",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang interpretasi data dan kombinasi ukuran pemusatan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k10-stat-s-04-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 20 siswa adalah $72$. Jika 5 siswa dengan nilai rata-rata $80$ bergabung, rata-rata seluruh siswa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$73$" } ],
+        [ { "tipe": "paragraph", "text": "$73{,}6$" } ],
+        [ { "tipe": "paragraph", "text": "$74$" } ],
+        [ { "tipe": "paragraph", "text": "$74{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$75$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 20 siswa = $20 \\times 72 = 1440$." },
+        { "tipe": "paragraph", "text": "Jumlah 5 siswa = $5 \\times 80 = 400$." },
+        { "tipe": "paragraph", "text": "Rata-rata = $\\dfrac{1440+400}{25} = \\dfrac{1840}{25} = 73{,}6$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $4, 6, 7, 7, 8, 10$. Pernyataan yang benar adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Mean = $7$, median = $7$, modus = $7$" } ],
+        [ { "tipe": "paragraph", "text": "Mean = $7$, median = $7{,}5$, modus = $7$" } ],
+        [ { "tipe": "paragraph", "text": "Mean = $7{,}5$, median = $7$, modus = $7$" } ],
+        [ { "tipe": "paragraph", "text": "Mean = $7$, median = $7$, modus = $6$" } ],
+        [ { "tipe": "paragraph", "text": "Mean = $6{,}5$, median = $7$, modus = $7$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Mean = $\\dfrac{4+6+7+7+8+10}{6} = \\dfrac{42}{6} = 7$." },
+        { "tipe": "paragraph", "text": "Median = $\\dfrac{7+7}{2} = 7$; modus = $7$ (muncul 2×)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai ulangan 10 siswa: $60, 65, 70, 70, 75, 80, 80, 80, 85, 90$. Median dan modus berturut-turut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$75$ dan $80$" } ],
+        [ { "tipe": "paragraph", "text": "$77{,}5$ dan $80$" } ],
+        [ { "tipe": "paragraph", "text": "$80$ dan $80$" } ],
+        [ { "tipe": "paragraph", "text": "$75$ dan $70$" } ],
+        [ { "tipe": "paragraph", "text": "$77{,}5$ dan $70$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 10$, median = $\\dfrac{75+80}{2} = 77{,}5$." },
+        { "tipe": "paragraph", "text": "Modus = $80$ (muncul 3×)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 5 data adalah $10$. Jika data $x$ ditambahkan, rata-rata menjadi $11$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 5 data = $50$. Jumlah 6 data = $66$." },
+        { "tipe": "paragraph", "text": "$x = 66 - 50 = 16$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $6, 8, 10, 12, 14, 16$. Jika setiap data dikalikan $2$ lalu dikurangi $3$, rata-rata baru adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata awal = $\\dfrac{66}{6} = 11$." },
+        { "tipe": "paragraph", "text": "Transformasi $y = 2x - 3$ → rata-rata baru = $2(11) - 3 = 19$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai median data tersebut adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $5, 6, 7, 8, 9$" },
+        { "tipe": "paragraph", "text": "Frek: $1, 2, 4, 2, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$6{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$7{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 10$, median = rata-rata data ke-5 dan ke-6." },
+        { "tipe": "paragraph", "text": "Akm: $5(1), 6(3), 7(7)$ → data ke-5 dan ke-6 sama-sama bernilai $7$." },
+        { "tipe": "paragraph", "text": "Median = $7$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari $x, 2x, 3x, 4x, 5x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2x$" } ],
+        [ { "tipe": "paragraph", "text": "$2{,}5x$" } ],
+        [ { "tipe": "paragraph", "text": "$3x$" } ],
+        [ { "tipe": "paragraph", "text": "$3{,}5x$" } ],
+        [ { "tipe": "paragraph", "text": "$4x$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah = $x+2x+3x+4x+5x = 15x$, $n = 5$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{15x}{5} = 3x$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: $3, 5, 5, 7, 9, 9, 9, 11$. Modus dan median berturut-turut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$5$ dan $8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$ dan $8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$ dan $7$" } ],
+        [ { "tipe": "paragraph", "text": "$5$ dan $7$" } ],
+        [ { "tipe": "paragraph", "text": "$9$ dan $9$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Modus = $9$ (muncul 3×)." },
+        { "tipe": "paragraph", "text": "$n = 8$, median = $\\dfrac{7+9}{2} = 8$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 15 data adalah $20$. Jika data terkecil $8$ dan terbesar $32$ dikeluarkan, rata-rata data yang tersisa adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$19{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$20{,}5$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$21{,}5$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah 15 data = $300$." },
+        { "tipe": "paragraph", "text": "Setelah dikeluarkan: $300 - 8 - 32 = 260$, $n = 13$." },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{260}{13} = 20$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k10-stat-s-04-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Modus data tersebut adalah..." },
+        { "tipe": "paragraph", "text": "Nilai: $2, 3, 4, 5, 6$" },
+        { "tipe": "paragraph", "text": "Frek: $3, 5, 2, 4, 1$" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Frekuensi terbesar adalah $5$, dengan nilai $3$." },
+        { "tipe": "paragraph", "text": "Modus = $3$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
