@@ -703,21 +703,36 @@
               "bank-soal/kelas10/peluang/mudah/paket-02.json",
               "bank-soal/kelas10/peluang/mudah/paket-03.json",
               "bank-soal/kelas10/peluang/mudah/paket-04.json",
-              "bank-soal/kelas10/peluang/mudah/paket-05.json"
+              "bank-soal/kelas10/peluang/mudah/paket-05.json",
+              "bank-soal/kelas10/peluang/mudah/paket-06.json",
+              "bank-soal/kelas10/peluang/mudah/paket-07.json",
+              "bank-soal/kelas10/peluang/mudah/paket-08.json",
+              "bank-soal/kelas10/peluang/mudah/paket-09.json",
+              "bank-soal/kelas10/peluang/mudah/paket-10.json"
             ],
             "sedang": [
               "bank-soal/kelas10/peluang/sedang/paket-01.json",
               "bank-soal/kelas10/peluang/sedang/paket-02.json",
               "bank-soal/kelas10/peluang/sedang/paket-03.json",
               "bank-soal/kelas10/peluang/sedang/paket-04.json",
-              "bank-soal/kelas10/peluang/sedang/paket-05.json"
+              "bank-soal/kelas10/peluang/sedang/paket-05.json",
+              "bank-soal/kelas10/peluang/sedang/paket-06.json",
+              "bank-soal/kelas10/peluang/sedang/paket-07.json",
+              "bank-soal/kelas10/peluang/sedang/paket-08.json",
+              "bank-soal/kelas10/peluang/sedang/paket-09.json",
+              "bank-soal/kelas10/peluang/sedang/paket-10.json"
             ],
             "sulit": [
               "bank-soal/kelas10/peluang/sulit/paket-01.json",
               "bank-soal/kelas10/peluang/sulit/paket-02.json",
               "bank-soal/kelas10/peluang/sulit/paket-03.json",
               "bank-soal/kelas10/peluang/sulit/paket-04.json",
-              "bank-soal/kelas10/peluang/sulit/paket-05.json"
+              "bank-soal/kelas10/peluang/sulit/paket-05.json",
+              "bank-soal/kelas10/peluang/sulit/paket-06.json",
+              "bank-soal/kelas10/peluang/sulit/paket-07.json",
+              "bank-soal/kelas10/peluang/sulit/paket-08.json",
+              "bank-soal/kelas10/peluang/sulit/paket-09.json",
+              "bank-soal/kelas10/peluang/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -737,6 +752,168 @@
               "file": "soal/kelas10/peluang/peluang-paket-02.json",
               "jumlah_soal": 10,
               "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-03",
+              "nama": "Paket 3 - Peluang Komplemen & Frekuensi Harapan",
+              "deskripsi": "Peluang komplemen, frekuensi harapan, dan konteks dasar",
+              "file": "soal/kelas10/peluang/peluang-paket-03.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-04",
+              "nama": "Paket 4 - Peluang Kartu & Koin",
+              "deskripsi": "Peluang pada kartu bridge, koin, dan bilangan",
+              "file": "soal/kelas10/peluang/peluang-paket-04.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-05",
+              "nama": "Paket 5 - Peluang Huruf & Kata",
+              "deskripsi": "Peluang huruf pada kata dan konteks sederhana",
+              "file": "soal/kelas10/peluang/peluang-paket-05.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-06",
+              "nama": "Paket 6 - Aturan Perkalian & Komplemen",
+              "deskripsi": "Aturan perkalian dasar dan peluang komplemen",
+              "file": "soal/kelas10/peluang/peluang-paket-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-07",
+              "nama": "Paket 7 - Peluang Dadu & Koin",
+              "deskripsi": "Peluang pada pelemparan dadu dan koin",
+              "file": "soal/kelas10/peluang/peluang-paket-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-08",
+              "nama": "Paket 8 - Faktor, Kelipatan & Huruf",
+              "deskripsi": "Peluang faktor bilangan, kelipatan, dan huruf",
+              "file": "soal/kelas10/peluang/peluang-paket-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-09",
+              "nama": "Paket 9 - Peluang Pelengkap & Kombinasi Dadu",
+              "deskripsi": "Peluang pelengkap dan kombinasi dadu",
+              "file": "soal/kelas10/peluang/peluang-paket-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-10",
+              "nama": "Paket 10 - Mudah Campuran",
+              "deskripsi": "Campuran peluang dasar dan pelengkap",
+              "file": "soal/kelas10/peluang/peluang-paket-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-11",
+              "nama": "Paket 11 - Sedang Lanjutan",
+              "deskripsi": "Peluang gabungan dan konteks kelas",
+              "file": "soal/kelas10/peluang/peluang-paket-11.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-12",
+              "nama": "Paket 12 - Tanpa Pengembalian",
+              "deskripsi": "Peluang tanpa pengembalian dan kombinasi",
+              "file": "soal/kelas10/peluang/peluang-paket-12.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-13",
+              "nama": "Paket 13 - Gabungan & Komplemen",
+              "deskripsi": "Peluang gabungan dan komplemen",
+              "file": "soal/kelas10/peluang/peluang-paket-13.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-14",
+              "nama": "Paket 14 - Majemuk Campuran",
+              "deskripsi": "Campuran peluang majemuk",
+              "file": "soal/kelas10/peluang/peluang-paket-14.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-15",
+              "nama": "Paket 15 - Sedang Campuran",
+              "deskripsi": "Campuran peluang majemuk lanjutan",
+              "file": "soal/kelas10/peluang/peluang-paket-15.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-16",
+              "nama": "Paket 16 - Kombinasi & Peluang Bersyarat",
+              "deskripsi": "Kombinasi ganda dan peluang bersyarat",
+              "file": "soal/kelas10/peluang/peluang-paket-16.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-17",
+              "nama": "Paket 17 - Permutasi & Kombinasi",
+              "deskripsi": "Permutasi, kombinasi, dan peluang kompleks",
+              "file": "soal/kelas10/peluang/peluang-paket-17.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-18",
+              "nama": "Paket 18 - Peluang Bersyarat & Bayes",
+              "deskripsi": "Peluang bersyarat dan teorema Bayes sederhana",
+              "file": "soal/kelas10/peluang/peluang-paket-18.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-19",
+              "nama": "Paket 19 - Distribusi Binomial",
+              "deskripsi": "Distribusi binomial dan peluang kompleks",
+              "file": "soal/kelas10/peluang/peluang-paket-19.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "peluang-paket-20",
+              "nama": "Paket 20 - Sulit Campuran",
+              "deskripsi": "Campuran peluang sulit dan kombinatorika lanjutan",
+              "file": "soal/kelas10/peluang/peluang-paket-20.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
               "versi": "1.0.0"
             }
           ]
