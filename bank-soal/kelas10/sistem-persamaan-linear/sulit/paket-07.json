@@ -1,174 +1,175 @@
 {
-  "id": "bs-k10-spl-m-07",
-  "nama": "Bank Soal Mudah - Paket 7",
+  "id": "bs-k10-spl-sulit-07",
+  "nama": "Bank Soal Sulit - Paket 7",
   "kelas": 10,
   "kategori": "Sistem Persamaan dan Pertidaksamaan Linear",
-  "tingkat": "MUDAH",
-  "deskripsi": "SPLDV dengan metode grafik dan substitusi dalam konteks sederhana",
+  "tingkat": "SULIT",
+  "deskripsi": "Aplikasi kontekstual sulit dan soal bergambar (grafik & geometri)",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-spl-m-07-q01",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian dari $x + y = 9$ dan $x - y = 1$ adalah..." }],
+      "id": "bs-k10-spl-sulit-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan grafik berikut. Titik potong kedua garis adalah..." },
+        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Garis+2x%2By%3D8+dan+x%2B2y%3D10", "caption": "Grafik 2x + y = 8 dan x + 2y = 10" }
+      ],
+      "gambar_prompt": "Bidang koordinat dengan garis 2x+y=8 (melalui (4,0),(0,8)) dan x+2y=10 (melalui (10,0),(0,5)), titik potong di (2,4) ditandai titik merah, grid ringan, label sumbu.",
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(5, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 5)$" }],
-        [{ "tipe": "paragraph", "text": "$(6, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(3, 6)$" }],
-        [{ "tipe": "paragraph", "text": "$(7, 2)$" }]
+        [{ "tipe": "paragraph", "text": "$(2, 4)$" }],
+        [{ "tipe": "paragraph", "text": "$(4, 2)$" }],
+        [{ "tipe": "paragraph", "text": "$(3, 3)$" }],
+        [{ "tipe": "paragraph", "text": "$(1, 5)$" }],
+        [{ "tipe": "paragraph", "text": "$(5, 1)$" }]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 10 \\Rightarrow x = 5$, $y = 4$." }
+        { "tipe": "paragraph", "text": "Sistem persamaan: $2x+y=8$ dan $x+2y=10$." },
+        { "tipe": "paragraph", "text": "Dari eliminasi diperoleh $3x = 6 \\Rightarrow x = 2$ dan $y = 4$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-07-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $y$ dari sistem $2x + y = 10$ dan $x = 4$ adalah..." }],
+      "id": "bs-k10-spl-sulit-07-q02",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah pabrik memproduksi 3 jenis barang A, B, C. Total 110 unit. A = 2B, C = B + 10. Banyak A adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$1$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
+        [{ "tipe": "paragraph", "text": "$30$" }],
+        [{ "tipe": "paragraph", "text": "$36$" }],
+        [{ "tipe": "paragraph", "text": "$40$" }],
+        [{ "tipe": "paragraph", "text": "$45$" }],
+        [{ "tipe": "paragraph", "text": "$50$" }]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2(4) + y = 10 \\Rightarrow y = 2$" }
+        { "tipe": "paragraph", "text": "Substitusi $A = 2B$ dan $C = B + 10$ ke $A + B + C = 110$:" },
+        { "tipe": "paragraph", "text": "$2B + B + (B + 10) = 110 \\Rightarrow 4B + 10 = 110 \\Rightarrow 4B = 100 \\Rightarrow B = 25$." },
+        { "tipe": "paragraph", "text": "Maka banyak barang A adalah $A = 2(25) = 50$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-07-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $3x + y = 11$ dan $x + y = 5$ adalah..." }],
+      "id": "bs-k10-spl-sulit-07-q03",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Dua pekerja A dan B menyelesaikan proyek 12 hari. A dan C 15 hari. B dan C 20 hari. A sendiri berapa hari?" }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$\\{(2, 3)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(3, 2)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(4, 1)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(1, 4)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(5, 0)\\}$" }]
+        [{ "tipe": "paragraph", "text": "$20$ hari" }],
+        [{ "tipe": "paragraph", "text": "$24$ hari" }],
+        [{ "tipe": "paragraph", "text": "$30$ hari" }],
+        [{ "tipe": "paragraph", "text": "$36$ hari" }],
+        [{ "tipe": "paragraph", "text": "$40$ hari" }]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kurangkan: $2x = 6 \\Rightarrow x = 3$, $y = 2$." }
+        { "tipe": "paragraph", "text": "Kecepatan kerja: $a+b=\\dfrac{1}{12}$, $a+c=\\dfrac{1}{15}$, $b+c=\\dfrac{1}{20}$." },
+        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan: $2(a+b+c) = \\dfrac{5+4+3}{60} = \\dfrac{12}{60} = \\dfrac{1}{5} \\Rightarrow a+b+c = \\dfrac{1}{10}$." },
+        { "tipe": "paragraph", "text": "Kecepatan A saja: $a = (a+b+c) - (b+c) = \\dfrac{1}{10} - \\dfrac{1}{20} = \\dfrac{1}{20}$." },
+        { "tipe": "paragraph", "text": "Jadi A sendiri memerlukan $20$ hari." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-07-q04",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Dua bilangan jumlahnya 24 dan selisihnya 8. Bilangan terkecil adalah..." }],
+      "id": "bs-k10-spl-sulit-07-q04",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Campuran 30% garam dari bahan A (20%) dan B (50%). Jika ingin 60 liter, banyak A adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
+        [{ "tipe": "paragraph", "text": "$30$ liter" }],
+        [{ "tipe": "paragraph", "text": "$35$ liter" }],
+        [{ "tipe": "paragraph", "text": "$40$ liter" }],
+        [{ "tipe": "paragraph", "text": "$45$ liter" }],
+        [{ "tipe": "paragraph", "text": "$50$ liter" }]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a+b=60$ dan $0{,}2a+0{,}5b = 0{,}3(60) = 18$." },
+        { "tipe": "paragraph", "text": "$0{,}2a+0{,}5(60-a)=18 \\Rightarrow -0{,}3a = -12 \\Rightarrow a = 40$ liter." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan daerah penyelesaian berikut. Nilai maksimum $f=3x+2y$ adalah..." },
+        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Daerah+x%2By%E2%89%A44%2C+2x%2By%E2%89%A48", "caption": "Daerah penyelesaian x+y≤4, 2x+y≤8" }
+      ],
+      "gambar_prompt": "Bidang koordinat dengan garis x+y=4 dan 2x+y=8, daerah fisibel di kuadran I diarsir, titik sudut (0,0),(4,0),(0,4),(2,2) ditandai.",
+      "pilihan": [
         [{ "tipe": "paragraph", "text": "$8$" }],
-        [{ "tipe": "paragraph", "text": "$9$" }],
-        [{ "tipe": "paragraph", "text": "$10$" }]
+        [{ "tipe": "paragraph", "text": "$10$" }],
+        [{ "tipe": "paragraph", "text": "$12$" }],
+        [{ "tipe": "paragraph", "text": "$14$" }],
+        [{ "tipe": "paragraph", "text": "$16$" }]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a + b = 24$, $a - b = 8$." },
-        { "tipe": "paragraph", "text": "$2b = 16 \\Rightarrow b = 8$" }
+        { "tipe": "paragraph", "text": "Uji titik sudut: $(0,0) \\Rightarrow 0$, $(4,0) \\Rightarrow 3(4)+0 = 12$, $(0,4) \\Rightarrow 2(4) = 8$, $(2,2) \\Rightarrow 3(2)+2(2) = 10$." },
+        { "tipe": "paragraph", "text": "Nilai maksimum adalah $12$ di titik $(4,0)$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-07-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Harga 2 pensil dan 3 buku Rp19.000. Harga 1 buku Rp5.000. Harga 1 pensil adalah..." }],
+      "id": "bs-k10-spl-sulit-07-q06",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Umur Ayah 6 tahun lebih tua dari Ibu. 10 tahun lalu jumlah umur mereka 50. Umur Ayah sekarang adalah..." }],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp1.000" }],
-        [{ "tipe": "paragraph", "text": "Rp1.500" }],
-        [{ "tipe": "paragraph", "text": "Rp2.000" }],
-        [{ "tipe": "paragraph", "text": "Rp2.500" }],
-        [{ "tipe": "paragraph", "text": "Rp3.000" }]
+        [{ "tipe": "paragraph", "text": "$34$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$35$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$36$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$37$ tahun" }],
+        [{ "tipe": "paragraph", "text": "$38$ tahun" }]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(A-10) + (I-10) = 50 \\Rightarrow A + I = 70$." },
+        { "tipe": "paragraph", "text": "Karena $A = I + 6$, maka $(I+6) + I = 70 \\Rightarrow 2I = 64 \\Rightarrow I = 32$ tahun." },
+        { "tipe": "paragraph", "text": "Umur Ayah sekarang $A = 32 + 6 = 38$ tahun." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-07-q07",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah bilangan 2 angka. Jumlah angka 9. Jika angka ditukar, nilainya berkurang 45. Bilangan asli adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$72$" }],
+        [{ "tipe": "paragraph", "text": "$63$" }],
+        [{ "tipe": "paragraph", "text": "$54$" }],
+        [{ "tipe": "paragraph", "text": "$45$" }],
+        [{ "tipe": "paragraph", "text": "$36$" }]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$a+b=9$ dan $10a+b - (10b+a) = 45 \\Rightarrow 9(a-b) = 45 \\Rightarrow a-b=5$." },
+        { "tipe": "paragraph", "text": "Diperoleh $a=7$ dan $b=2$, sehingga bilangan tersebut adalah 72." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-07-q08",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Kecepatan pesawat di udara tenang adalah 150 km/jam. Terbang 2 jam searah angin, dan 3 jam melawan angin menempuh jarak yang sama. Kecepatan angin adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$10$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$15$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$20$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$25$ km/jam" }],
+        [{ "tipe": "paragraph", "text": "$30$ km/jam" }]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan jarak: $2(150 + a) = 3(150 - a)$" },
+        { "tipe": "paragraph", "text": "$300 + 2a = 450 - 3a \\Rightarrow 5a = 150 \\Rightarrow a = 30$ km/jam." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k10-spl-sulit-07-q09",
+      "pertanyaan": [{ "tipe": "paragraph", "text": "Toko A: 3 buku + 2 pena Rp47.000. Toko B: 2 buku + 3 pena Rp43.000. Harga 1 buku + 1 pena adalah..." }],
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "Rp16.000" }],
+        [{ "tipe": "paragraph", "text": "Rp17.000" }],
+        [{ "tipe": "paragraph", "text": "Rp18.000" }],
+        [{ "tipe": "paragraph", "text": "Rp19.000" }],
+        [{ "tipe": "paragraph", "text": "Rp20.000" }]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2p + 15.000 = 19.000 \\Rightarrow 2p = 4.000 \\Rightarrow p = 2.000$" }
+        { "tipe": "paragraph", "text": "Menjumlahkan kedua persamaan: $5b + 5p = 90.000 \\Rightarrow b + p = 18.000$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-spl-m-07-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y = 6$ dan $2x + 2y = 12$ memiliki..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "Tidak ada solusi" }],
-        [{ "tipe": "paragraph", "text": "Tepat satu solusi" }],
-        [{ "tipe": "paragraph", "text": "Tak hingga solusi" }],
-        [{ "tipe": "paragraph", "text": "Dua solusi" }],
-        [{ "tipe": "paragraph", "text": "Tiga solusi" }]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Persamaan kedua = 2 × pertama → berimpit → tak hingga solusi." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-07-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x + y$ dari $4x - y = 10$ dan $2x + y = 8$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $6x = 18 \\Rightarrow x = 3$, $y = 2$." },
-        { "tipe": "paragraph", "text": "$x + y = 5$" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-07-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Andi membeli 3 roti dan 2 susu Rp17.000. Jika 1 susu Rp4.000, harga 1 roti adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp2.000" }],
-        [{ "tipe": "paragraph", "text": "Rp3.000" }],
-        [{ "tipe": "paragraph", "text": "Rp4.000" }],
-        [{ "tipe": "paragraph", "text": "Rp5.000" }],
-        [{ "tipe": "paragraph", "text": "Rp6.000" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$3r + 8.000 = 17.000 \\Rightarrow 3r = 9.000 \\Rightarrow r = 3.000$" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-07-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian $2x + 3y = 12$ dan $x = y$ adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(2, 2)$" }],
-        [{ "tipe": "paragraph", "text": "$(2{,}4; 2{,}4)$" }],
-        [{ "tipe": "paragraph", "text": "$(3, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(1{,}5; 1{,}5)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 4)$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x + 3x = 12 \\Rightarrow 5x = 12 \\Rightarrow x = 2{,}4$" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k10-spl-m-07-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Selisih dua bilangan 10, jumlahnya 30. Hasil kali kedua bilangan adalah..." }],
-      "pilihan": [
-        [{ "tipe": "paragraph", "text": "$180$" }],
-        [{ "tipe": "paragraph", "text": "$200$" }],
-        [{ "tipe": "paragraph", "text": "$220$" }],
-        [{ "tipe": "paragraph", "text": "$240$" }],
-        [{ "tipe": "paragraph", "text": "$260$" }]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "$a + b = 30$, $a - b = 10 \\Rightarrow a = 20$, $b = 10$." },
-        { "tipe": "paragraph", "text": "$ab = 200$" }
-      ],
-      "tingkat": "MUDAH"
-    }
-  ]
-}
+      "id": "bs-k10
