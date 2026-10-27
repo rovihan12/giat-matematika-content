@@ -5,7 +5,7 @@
   "kategori": "Statistika Lanjutan",
   "tingkat": "MUDAH",
   "deskripsi": "Penyajian data, rata-rata, median, dan modus data tunggal",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k11-stat-lanjut-mudah-06-q01",
@@ -14,12 +14,12 @@
         {
           "tipe": "image",
           "src": "images/kelas11/statistika/mudah/diagram-lingkaran-pekerjaan.png",
-          "caption": "Diagram lingkaran pekerjaan orang tua: Nelayan 10%, Buruh 13%, Petani 16%, Wirausaha 27%, PNS 34%.",
+          "caption": "Diagram lingkaran pekerjaan orang tua: Nelayan 10%, Buruh 12%, Petani 16%, Wirausaha 28%, PNS 34%.",
           "width": "medium"
         }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"Banyaknya orang tua yang pekerjaannya PNS adalah 120 siswa"}],
+        [{"tipe":"paragraph","text":"Banyaknya orang tua yang pekerjaannya PNS adalah 119 siswa"}],
         [{"tipe":"paragraph","text":"Banyaknya orang tua yang pekerjaannya Wirausaha adalah 100 siswa"}],
         [{"tipe":"paragraph","text":"Banyaknya orang tua yang pekerjaannya petani adalah 58 siswa"}],
         [{"tipe":"paragraph","text":"Banyaknya orang tua yang pekerjaannya buruh adalah 40 siswa"}],
@@ -29,11 +29,11 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Hitung jumlah untuk masing-masing profesi dari total 350 siswa:" },
         { "tipe": "formula_block", "latex": "\\text{PNS} = 34\\% \\times 350 = 119 \\text{ siswa}" },
-        { "tipe": "formula_block", "latex": "\\text{Wirausaha} = 27\\% \\times 350 = 94{,}5 \\text{ siswa}" },
+        { "tipe": "formula_block", "latex": "\\text{Wirausaha} = 28\\% \\times 350 = 98 \\text{ siswa}" },
         { "tipe": "formula_block", "latex": "\\text{Petani} = 16\\% \\times 350 = 56 \\text{ siswa}" },
-        { "tipe": "formula_block", "latex": "\\text{Buruh} = 13\\% \\times 350 = 45{,}5 \\text{ siswa}" },
+        { "tipe": "formula_block", "latex": "\\text{Buruh} = 12\\% \\times 350 = 42 \\text{ siswa}" },
         { "tipe": "formula_block", "latex": "\\text{Nelayan} = 10\\% \\times 350 = 35 \\text{ siswa}" },
-        { "tipe": "paragraph", "text": "Pernyataan yang paling mendekati kebenaran adalah PNS 120 siswa (hasil perhitungan 119, kemungkinan pembulatan pada soal)." }
+        { "tipe": "paragraph", "text": "Jadi, pernyataan yang benar adalah banyaknya orang tua yang bekerja sebagai PNS yaitu 119 siswa." }
       ],
       "tingkat": "MUDAH"
     },
@@ -55,12 +55,12 @@
         [{"tipe":"paragraph","text":"275"}],
         [{"tipe":"paragraph","text":"75"}]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Tiga tahun terakhir adalah 2018, 2019, dan 2020. Yang tidak melanjutkan adalah kategori Bekerja dan Menganggur." },
-        { "tipe": "paragraph", "text": "Dari grafik: 2018 (Bekerja 200, Menganggur 75), 2019 (Bekerja 250, Menganggur 25), 2020 (Bekerja 220, Menganggur 25)." },
-        { "tipe": "formula_block", "latex": "\\text{Total} = (200+75) + (250+25) + (220+25) = 275 + 275 + 245 = 795 \\approx 800" },
-        { "tipe": "paragraph", "text": "Jadi, banyaknya lulusan yang tidak melanjutkan adalah sekitar 800 orang." }
+        { "tipe": "paragraph", "text": "Dari grafik: 2018 (Bekerja 200, Menganggur 75), 2019 (Bekerja 250, Menganggur 25), 2020 (Bekerja 225, Menganggur 25)." },
+        { "tipe": "formula_block", "latex": "\\text{Total} = (200+75) + (250+25) + (225+25) = 275 + 275 + 250 = 800 \\text{ orang}" },
+        { "tipe": "paragraph", "text": "Jadi, banyaknya lulusan yang tidak melanjutkan adalah 800 orang." }
       ],
       "tingkat": "MUDAH"
     },
@@ -109,12 +109,12 @@
         [{"tipe":"paragraph","text":"18,75% dan 31,25%"}],
         [{"tipe":"paragraph","text":"20,25% dan 31,25%"}]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Total hasil panen = 5 + 10 + 15 + 25 + 15 + 10 = 80 kuintal." },
         { "tipe": "formula_block", "latex": "\\% \\text{Tomat} = \\dfrac{10}{80} \\times 100\\% = 12{,}5\\%" },
         { "tipe": "formula_block", "latex": "\\% \\text{Cabai} = \\dfrac{15}{80} \\times 100\\% = 18{,}75\\%" },
-        { "tipe": "paragraph", "text": "Berdasarkan perhitungan, persentase tomat 12,5% dan cabai 18,75%. Opsi A (6,25% dan 12,50%) kemungkinan memiliki kesalahan cetak pada total data, namun kunci yang diberikan adalah A." }
+        { "tipe": "paragraph", "text": "Jadi, persentase hasil panen tomat dan cabai berturut-turut adalah 12,50% dan 18,75%." }
       ],
       "tingkat": "MUDAH"
     },
@@ -136,11 +136,12 @@
         [{"tipe":"paragraph","text":"175 siswa"}],
         [{"tipe":"paragraph","text":"210 siswa"}]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Total sudut lingkaran = 360°." },
-        { "tipe": "formula_block", "latex": "\\text{Sudut Musik} = 360° - (130° + 100° + 80°) = 360° - 310° = 50°" },
-        { "tipe": "formula_block", "latex": "\\text{Jumlah siswa musik} = \\dfrac{50°}{360°} \\times 1260 = \\dfrac{1}{7{,}2} \\times 1260 = 175 \\text{ siswa}" }
+        { "tipe": "formula_block", "latex": "\\text{Sudut Musik} = 360^\\circ - (130^\\circ + 100^\\circ + 80^\\circ) = 360^\\circ - 310^\\circ = 50^\\circ" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah siswa musik} = \\dfrac{50^\\circ}{360^\\circ} \\times 1260 = 175 \\text{ siswa}" },
+        { "tipe": "paragraph", "text": "Jadi, banyaknya siswa yang mengikuti ekstrakurikuler musik adalah 175 siswa." }
       ],
       "tingkat": "MUDAH"
     },
@@ -175,12 +176,13 @@
         [{"tipe":"paragraph","text":"85"}],
         [{"tipe":"paragraph","text":"87"}]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Rata-rata = jumlah data / banyak data." },
         { "tipe": "formula_block", "latex": "71 = \\dfrac{25 + 55 + 75 + x + 90 + 68 + 88 + 80}{8}" },
         { "tipe": "formula_block", "latex": "71 \\times 8 = 481 + x" },
-        { "tipe": "formula_block", "latex": "568 = 481 + x \\Rightarrow x = 87" }
+        { "tipe": "formula_block", "latex": "568 = 481 + x \\Rightarrow x = 87" },
+        { "tipe": "paragraph", "text": "Jadi, nilai x yang sesuai adalah 87." }
       ],
       "tingkat": "MUDAH"
     },
@@ -220,7 +222,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Urutkan data: 3, 3, 5, 5, 6, 7, 7, 8, 9." },
         { "tipe": "paragraph", "text": "Banyak data (n) = 9 (ganjil)." },
-        { "tipe": "paragraph", "text": "Karena n ganjil, kuartil bawah (Q1) terletak pada data ke-$\\frac{n+1}{4} = \\frac{10}{4} = 2{,}5$." },
+        { "tipe": "paragraph", "text": "Karena n ganjil, kuartil bawah (Q1) terletak pada data ke-\\frac{n+1}{4} = \\frac{10}{4} = 2{,}5." },
         { "tipe": "paragraph", "text": "Q1 = data ke-2 + 0,5(data ke-3 - data ke-2) = 3 + 0,5(5 - 3) = 3 + 1 = 4." }
       ],
       "tingkat": "MUDAH"
