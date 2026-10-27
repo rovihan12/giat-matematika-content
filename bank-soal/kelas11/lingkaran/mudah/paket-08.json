@@ -1,0 +1,254 @@
+{
+  "id": "bs-k11-ling-m-08",
+  "nama": "Bank Soal Mudah - Paket 8",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sudut pusat, sudut keliling, dan garis singgung dasar",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika besar sudut pusat $\\angle AOB = 100^\\circ$, maka besar sudut keliling $\\angle ACB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-pusat-100.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat AOB = 100 derajat dan sudut keliling ACB menghadap busur AB yang sama.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$55^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling = $\\dfrac{1}{2} \\times$ sudut pusat yang menghadap busur sama." },
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle PRQ = 45^\\circ$, maka besar sudut pusat $\\angle POQ$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-keliling-45.png",
+          "caption": "Lingkaran dengan pusat O. Sudut keliling PRQ = 45 derajat menghadap busur PQ.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$85^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$95^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$180^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut pusat = $2 \\times$ sudut keliling." },
+        { "tipe": "paragraph", "text": "$\\angle POQ = 2 \\times 45^\\circ = 90^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. O adalah pusat lingkaran. Jika besar $\\angle ROS = 100^\\circ$, maka besar $\\angle RPQ$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-ros-100.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat ROS = 100 derajat. Titik P berada pada busur lingkaran dan membentuk sudut keliling RPQ.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling $\\angle RPQ = \\dfrac{1}{2} \\times \\angle ROS = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $CB$ adalah diameter dan $O$ adalah titik pusat lingkaran, maka besar $\\angle OAC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/diameter-oac.png",
+          "caption": "Lingkaran dengan diameter CB. Titik A berada pada lingkaran. Sudut ABC = 60 derajat. Sudut OAC ditanyakan.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$10^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$20^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $CB$ adalah diameter, maka $\\angle CAB = 90^\\circ$ (sudut keliling menghadap diameter)." },
+        { "tipe": "paragraph", "text": "Pada $\\triangle ABC$, besar $\\angle ACB = 180^\\circ - 90^\\circ - 60^\\circ = 30^\\circ$." },
+        { "tipe": "paragraph", "text": "Karena $\\triangle OAC$ adalah segitiga sama kaki ($OA = OC = r$), maka $\\angle OAC = \\angle OCA = 30^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Maka besar $\\angle BDC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-bdc.png",
+          "caption": "Segi empat tali busur ABCD di dalam lingkaran. Diketahui sudut BAC = 45 derajat dan sudut ACD = 55 derajat.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$55^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle BDC$ dan $\\angle BAC$ adalah sudut keliling yang menghadap busur yang sama, yaitu busur BC." },
+        { "tipe": "paragraph", "text": "Maka $\\angle BDC = \\angle BAC = 45^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada gambar di samping, jika besar sudut $\\angle BOC = 100^\\circ$, maka besar sudut $\\angle OAC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-boc-100.png",
+          "caption": "Lingkaran dengan diameter AB. Titik C berada pada lingkaran. Sudut pusat BOC = 100 derajat. Sudut OAC ditanyakan.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$75^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga OBC adalah segitiga sama kaki karena $OB = OC = r$." },
+        { "tipe": "paragraph", "text": "$\\angle OBC = \\angle OCB = \\dfrac{180^\\circ - 100^\\circ}{2} = 40^\\circ$." },
+        { "tipe": "paragraph", "text": "Karena AB adalah diameter, maka $\\angle ACB = 90^\\circ$." },
+        { "tipe": "paragraph", "text": "$\\angle OCA = \\angle ACB - \\angle OCB = 90^\\circ - 40^\\circ = 50^\\circ$." },
+        { "tipe": "paragraph", "text": "Segitiga OAC sama kaki ($OA = OC$), maka $\\angle OAC = \\angle OCA = 50^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika besar sudut $\\angle OCB = 65^\\circ$, maka besar sudut $\\angle AOC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-ocb-65.png",
+          "caption": "Lingkaran dengan titik A, B, C pada lingkaran. O adalah pusat. Sudut OCB = 65 derajat. Sudut AOC ditanyakan.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$65^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$70^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$130^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$140^\\circ$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga OBC adalah segitiga sama kaki karena $OB = OC = r$." },
+        { "tipe": "paragraph", "text": "$\\angle OBC = \\angle OCB = 65^\\circ$." },
+        { "tipe": "paragraph", "text": "$\\angle BOC = 180^\\circ - (65^\\circ + 65^\\circ) = 50^\\circ$." },
+        { "tipe": "paragraph", "text": "Karena AB adalah garis lurus (diameter), maka $\\angle AOC = 180^\\circ - \\angle BOC = 180^\\circ - 50^\\circ = 130^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika besar sudut $\\angle AOC = 70^\\circ$, maka besar sudut $\\angle ABC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-aoc-70.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat AOC = 70 derajat. Titik B berada pada busur mayor dan membentuk sudut keliling ABC.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$35^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$70^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$105^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$140^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$145^\\circ$" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling yang menghadap busur mayor (busur AC yang besar) adalah $\\angle ABC$." },
+        { "tipe": "paragraph", "text": "Sudut pusat yang menghadap busur mayor tersebut adalah $360^\\circ - 70^\\circ = 290^\\circ$." },
+        { "tipe": "paragraph", "text": "$\\angle ABC = \\dfrac{1}{2} \\times 290^\\circ = 145^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Untuk melukis lingkaran dalam sebuah segitiga, maka terlebih dahulu kita harus membuat..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Garis tinggi segitiga" } ],
+        [ { "tipe": "paragraph", "text": "Garis bagi segitiga" } ],
+        [ { "tipe": "paragraph", "text": "Garis singgung persekutuan luar" } ],
+        [ { "tipe": "paragraph", "text": "Garis singgung persekutuan dalam" } ],
+        [ { "tipe": "paragraph", "text": "Garis berat segitiga" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik pusat lingkaran dalam segitiga adalah titik potong **garis bagi** (bisector) sudut-sudut segitiga." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua buah lingkaran berjari-jari masing-masing $13$ cm dan $5$ cm. Jika jarak kedua pusat lingkaran sama dengan $17$ cm, maka panjang garis singgung persekutuan luar kedua lingkaran tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPL = \\sqrt{d^2 - (R - r)^2}$" },
+        { "tipe": "paragraph", "text": "$= \\sqrt{17^2 - (13 - 5)^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
