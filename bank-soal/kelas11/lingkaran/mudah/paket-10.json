@@ -1,0 +1,241 @@
+{
+  "id": "bs-k11-ling-m-10",
+  "nama": "Bank Soal Mudah - Paket 10",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang sudut keliling lanjutan, garis singgung persekutuan dalam, dan aplikasi keliling",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $AB$ adalah diameter dan panjang busur $BC = 12$ cm, maka panjang busur $AC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/busur-bc-12.png",
+          "caption": "Lingkaran dengan diameter AB. Titik C berada pada lingkaran. Sudut BOC = 72 derajat. Panjang busur BC = 12 cm.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$21$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$18$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$16$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Panjang busur sebanding dengan sudut pusatnya." },
+        { "tipe": "paragraph", "text": "Sudut BOC $= 72^\\circ$, maka sudut AOC $= 180^\\circ - 72^\\circ = 108^\\circ$." },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\text{Busur } AC}{\\text{Busur } BC} = \\dfrac{\\angle AOC}{\\angle BOC} \\Rightarrow \\dfrac{\\text{Busur } AC}{12} = \\dfrac{108^\\circ}{72^\\circ} = \\dfrac{3}{2}$." },
+        { "tipe": "paragraph", "text": "Busur $AC = 12 \\times \\dfrac{3}{2} = 18$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada gambar di bawah ini, panjang busur $AB = 30$ cm, $\\angle AOB = 40^\\circ$, dan $\\angle COD = 60^\\circ$. Panjang busur $CD$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/busur-ab-cd.png",
+          "caption": "Lingkaran dengan pusat O. Busur AB dengan sudut pusat 40 derajat dan busur CD dengan sudut pusat 60 derajat. Kedua busur terpisah.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$45$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$50$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$55$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$60$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{\\text{Busur } CD}{\\text{Busur } AB} = \\dfrac{\\angle COD}{\\angle AOB}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\text{Busur } CD}{30} = \\dfrac{60^\\circ}{40^\\circ} = \\dfrac{3}{2}$" },
+        { "tipe": "paragraph", "text": "Busur $CD = 30 \\times \\dfrac{3}{2} = 45$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle AOB = 80^\\circ$ (sudut pusat) dan $\\angle ACB$ adalah sudut keliling yang menghadap busur $AB$, besar $\\angle ACB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-pusat-keliling-80.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat AOB = 80 derajat. Titik C berada pada busur mayor dan membentuk sudut keliling ACB.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$160^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$20^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut keliling = $\\dfrac{1}{2} \\times$ sudut pusat." },
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\times 80^\\circ = 40^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\angle AOB = 90^\\circ$ (pusat) dan $\\angle ACB$ adalah sudut keliling pada busur yang sama. Nilai $\\angle ACB$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$180^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\times 90^\\circ = 45^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika sudut pusat dua kali sudut keliling, dan sudut keliling $= 36^\\circ$, maka sudut pusatnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$18^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$36^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$54^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$72^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$108^\\circ$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut pusat = $2 \\times$ sudut keliling = $2 \\times 36^\\circ = 72^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle AOB = 120^\\circ$ dan jari-jari lingkaran $21$ cm, panjang busur $AB$ adalah... ($\\pi = \\dfrac{22}{7}$)" },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/busur-ab-120.png",
+          "caption": "Lingkaran dengan pusat O, jari-jari 21 cm, dan sudut pusat AOB = 120 derajat. Busur AB ditanyakan.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$42$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$77$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$33$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Panjang busur = $\\dfrac{120^\\circ}{360^\\circ} \\times 2 \\times \\dfrac{22}{7} \\times 21$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{3} \\times 132 = 44$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle AOB = 100^\\circ$, maka besar $\\angle ACB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-100.png",
+          "caption": "Lingkaran dengan pusat O, sudut pusat AOB = 100 derajat, dan sudut keliling ACB menghadap busur AB yang sama.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$55^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle ACB = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle PRQ = 45^\\circ$, maka besar $\\angle POQ$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-keliling-45.png",
+          "caption": "Lingkaran dengan pusat O. Sudut keliling PRQ = 45 derajat menghadap busur PQ.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$85^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$95^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle POQ = 2 \\times \\angle PRQ = 2 \\times 45^\\circ = 90^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. O adalah pusat lingkaran. Jika besar $\\angle ROS = 100^\\circ$, maka $\\angle RPQ$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/sudut-ros-100.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat ROS = 100 derajat. Titik P berada pada busur lingkaran dan membentuk sudut keliling RPQ.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle RPQ = \\dfrac{1}{2} \\times \\angle ROS = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang garis singgung persekutuan dalam dua lingkaran dengan $R = 8$ cm, $r = 4$ cm, dan $d = 15$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$11$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$13$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$GSPD^2 = d^2 - (R + r)^2 = 15^2 - (8 + 4)^2$" },
+        { "tipe": "paragraph", "text": "$= 225 - 144 = 81 \\Rightarrow GSPD = 9$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
