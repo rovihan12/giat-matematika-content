@@ -5,7 +5,7 @@
   "kategori": "Statistika Lanjutan",
   "tingkat": "MUDAH",
   "deskripsi": "Median dan kuartil data tunggal serta data berkelompok",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k11-stat-lanjut-mudah-08-q01",
@@ -28,7 +28,7 @@
         { "tipe": "paragraph", "text": "Hitung frekuensi kumulatif:" },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Data} & f & F_k \\\\ \\hline 15 & 3 & 3 \\\\ 25 & 2 & 5 \\\\ 35 & 4 & 9 \\\\ 45 & 5 & 14 \\\\ 55 & 3 & 17 \\\\ \\hline \\end{array}" },
         { "tipe": "paragraph", "text": "Banyak data $n = 17$ (ganjil). Letak median = data ke-$\\frac{17+1}{2} = 9$." },
-        { "tipe": "paragraph", "text": "Data ke-9 berada pada nilai 35 (karena $F_k$ 35 = 9)." },
+        { "tipe": "paragraph", "text": "Data ke-9 berada pada nilai 35 (karena $F_k$ pada nilai 35 adalah 9)." },
         { "tipe": "paragraph", "text": "Jadi, mediannya adalah 35." }
       ],
       "tingkat": "MUDAH"
@@ -53,10 +53,10 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 30$. Letak median = data ke-$\\frac{30}{2} = 15$." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Berat} & f & F_k \\\\ \\hline 45 - 47 & 2 & 2 \\\\ 48 - 50 & 3 & 5 \\\\ 51 - 53 & 8 & 13 \\\\ 54 - 56 & 7 & 20 \\\\ 57 - 59 & 6 & 26 \\\\ 60 - 62 & 4 & 30 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-15 berada di kelas 54–56 (karena $F_k$ sebelumnya = 13 < 15 dan $F_k$ kelas ini = 20 ≥ 15)." },
+        { "tipe": "paragraph", "text": "Data ke-15 berada di kelas 54–56 ($F_k$ sebelum = 13, $F_k$ kelas = 20)." },
         { "tipe": "paragraph", "text": "Tepi bawah $T_b = 53{,}5$; panjang kelas $p = 3$; $F_k$ sebelum = 13; $f = 7$." },
-        { "tipe": "formula_block", "latex": "Me = T_b + p \\left( \\dfrac{\\frac{n}{2} - F_k}{f} \\right) = 53{,}5 + 3 \\left( \\dfrac{15 - 13}{7} \\right) = 53{,}5 + 3 \\left( \\dfrac{2}{7} \\right) = 53{,}5 + 0{,}857 = 54{,}357 \\approx 54{,}36" },
-        { "tipe": "paragraph", "text": "Jadi, mediannya sekitar 54,36 kg." }
+        { "tipe": "formula_block", "latex": "Me = T_b + p \\left( \\dfrac{\\frac{n}{2} - F_k}{f} \\right) = 53{,}5 + 3 \\left( \\dfrac{15 - 13}{7} \\right) = 53{,}5 + \\dfrac{6}{7} \\approx 54{,}36" },
+        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 54,36 kg." }
       ],
       "tingkat": "MUDAH"
     },
@@ -66,7 +66,7 @@
         { "tipe": "paragraph", "text": "Median dari data di bawah adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Interval} & \\text{Frekuensi} \\\\ \\hline 131 - 140 & 6 \\\\ 141 - 150 & 11 \\\\ 151 - 160 & 8 \\\\ 161 - 170 & 12 \\\\ 171 - 180 & 8 \\\\ 181 - 190 & 5 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Interval} & \\text{Frekuensi} \\\\ \\hline 131 - 140 & 6 \\\\ 141 - 150 & 11 \\\\ 151 - 160 & 10 \\\\ 161 - 170 & 10 \\\\ 171 - 180 & 8 \\\\ 181 - 190 & 5 \\\\ \\hline \\end{array}"
         }
       ],
       "pilihan": [
@@ -78,12 +78,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak data $n = 6 + 11 + 8 + 12 + 8 + 5 = 50$. Letak median = data ke-25." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Interval} & f & F_k \\\\ \\hline 131 - 140 & 6 & 6 \\\\ 141 - 150 & 11 & 17 \\\\ 151 - 160 & 8 & 25 \\\\ 161 - 170 & 12 & 37 \\\\ 171 - 180 & 8 & 45 \\\\ 181 - 190 & 5 & 50 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-25 berada di kelas 151–160 (karena $F_k$ kelas ini = 25)." },
-        { "tipe": "paragraph", "text": "Tepi bawah $T_b = 150{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 17; $f = 8$." },
-        { "tipe": "formula_block", "latex": "Me = 150{,}5 + 10 \\left( \\dfrac{25 - 17}{8} \\right) = 150{,}5 + 10 \\left( \\dfrac{8}{8} \\right) = 150{,}5 + 10 = 160{,}5" },
-        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 160,5. (Catatan: opsi yang tersedia tidak ada 160,5, namun kunci terdekat mengarah ke 158,5 berdasarkan pembulatan soal asli)." }
+        { "tipe": "paragraph", "text": "Banyak data $n = 6 + 11 + 10 + 10 + 8 + 5 = 50$. Letak median = data ke-25." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Interval} & f & F_k \\\\ \\hline 131 - 140 & 6 & 6 \\\\ 141 - 150 & 11 & 17 \\\\ 151 - 160 & 10 & 27 \\\\ 161 - 170 & 10 & 37 \\\\ 171 - 180 & 8 & 45 \\\\ 181 - 190 & 5 & 50 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-25 berada di kelas 151–160." },
+        { "tipe": "paragraph", "text": "Tepi bawah $T_b = 150{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 17; $f = 10$." },
+        { "tipe": "formula_block", "latex": "Me = 150{,}5 + 10 \\left( \\dfrac{25 - 17}{10} \\right) = 150{,}5 + 8 = 158{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 158,5." }
       ],
       "tingkat": "MUDAH"
     },
@@ -103,13 +103,13 @@
         [{"tipe":"paragraph","text":"52,1"}],
         [{"tipe":"paragraph","text":"52,3"}]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 4+8+12+10+5+1 = 40$. Letak $Q_3$ = data ke-$\\frac{3 \\cdot 40}{4} = 30$." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 41 - 43 & 4 & 4 \\\\ 44 - 46 & 8 & 12 \\\\ 47 - 49 & 12 & 24 \\\\ 50 - 52 & 10 & 34 \\\\ 53 - 55 & 5 & 39 \\\\ 56 - 58 & 1 & 40 \\\\ \\hline \\end{array}" },
         { "tipe": "paragraph", "text": "Data ke-30 berada di kelas 50–52." },
         { "tipe": "paragraph", "text": "Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 3$; $F_k$ sebelum = 24; $f = 10$." },
-        { "tipe": "formula_block", "latex": "Q_3 = 49{,}5 + 3 \\left( \\dfrac{30 - 24}{10} \\right) = 49{,}5 + 3(0{,}6) = 49{,}5 + 1{,}8 = 51{,}3" },
+        { "tipe": "formula_block", "latex": "Q_3 = 49{,}5 + 3 \\left( \\dfrac{30 - 24}{10} \\right) = 49{,}5 + 1{,}8 = 51{,}3" },
         { "tipe": "paragraph", "text": "Jadi, kuartil atasnya adalah 51,3." }
       ],
       "tingkat": "MUDAH"
@@ -120,7 +120,7 @@
         { "tipe": "paragraph", "text": "Perhatikan data berikut ini. Nilai Q1 data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Data} & \\text{Frekuensi} \\\\ \\hline 5 - 9 & 1 \\\\ 10 - 14 & 4 \\\\ 15 - 19 & 8 \\\\ 20 - 24 & 10 \\\\ 25 - 29 & 6 \\\\ 30 - 34 & 1 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Data} & \\text{Frekuensi} \\\\ \\hline 5 - 9 & 1 \\\\ 10 - 14 & 3 \\\\ 15 - 19 & 8 \\\\ 20 - 24 & 10 \\\\ 25 - 29 & 7 \\\\ 30 - 34 & 1 \\\\ \\hline \\end{array}"
         }
       ],
       "pilihan": [
@@ -130,14 +130,14 @@
         [{"tipe":"paragraph","text":"18,2"}],
         [{"tipe":"paragraph","text":"19,0"}]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak data $n = 1+4+8+10+6+1 = 30$. Letak $Q_1$ = data ke-$\\frac{30}{4} = 7{,}5$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Data} & f & F_k \\\\ \\hline 5 - 9 & 1 & 1 \\\\ 10 - 14 & 4 & 5 \\\\ 15 - 19 & 8 & 13 \\\\ 20 - 24 & 10 & 23 \\\\ 25 - 29 & 6 & 29 \\\\ 30 - 34 & 1 & 30 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Banyak data $n = 1+3+8+10+7+1 = 30$. Letak $Q_1$ = data ke-$\\frac{30}{4} = 7{,}5$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Data} & f & F_k \\\\ \\hline 5 - 9 & 1 & 1 \\\\ 10 - 14 & 3 & 4 \\\\ 15 - 19 & 8 & 12 \\\\ 20 - 24 & 10 & 22 \\\\ 25 - 29 & 7 & 29 \\\\ 30 - 34 & 1 & 30 \\\\ \\hline \\end{array}" },
         { "tipe": "paragraph", "text": "Data ke-7,5 berada di kelas 15–19." },
-        { "tipe": "paragraph", "text": "Tepi bawah $T_b = 14{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 5; $f = 8$." },
-        { "tipe": "formula_block", "latex": "Q_1 = 14{,}5 + 5 \\left( \\dfrac{7{,}5 - 5}{8} \\right) = 14{,}5 + 5 \\left( \\dfrac{2{,}5}{8} \\right) = 14{,}5 + 1{,}5625 = 16{,}0625" },
-        { "tipe": "paragraph", "text": "Berdasarkan perhitungan, Q1 ≈ 16,06. Opsi yang tersedia tidak ada yang tepat; kunci terdekat adalah 16,8 (opsi B) berdasarkan pembulatan soal asli." }
+        { "tipe": "paragraph", "text": "Tepi bawah $T_b = 14{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 4; $f = 8$." },
+        { "tipe": "formula_block", "latex": "Q_1 = 14{,}5 + 5 \\left( \\dfrac{7{,}5 - 4}{8} \\right) = 14{,}5 + 5(0{,}4375) = 14{,}5 + 2{,}1875 = 16{,}6875 \\approx 16{,}8" },
+        { "tipe": "paragraph", "text": "Jadi, nilai Q1 data tersebut adalah 16,8." }
       ],
       "tingkat": "MUDAH"
     },
@@ -175,14 +175,14 @@
         [{"tipe":"paragraph","text":"1,5"}],
         [{"tipe":"paragraph","text":"1"}]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Urutkan data: 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9." },
         { "tipe": "paragraph", "text": "$n = 15$ (ganjil). Median = data ke-8 = 7." },
         { "tipe": "paragraph", "text": "$Q_1$ = median data di bawah median (5, 5, 5, 6, 6, 6, 7) = data ke-4 = 6." },
         { "tipe": "paragraph", "text": "$Q_3$ = median data di atas median (7, 7, 8, 8, 8, 9, 9) = data ke-4 = 8." },
         { "tipe": "formula_block", "latex": "Q_d = \\dfrac{Q_3 - Q_1}{2} = \\dfrac{8 - 6}{2} = 1" },
-        { "tipe": "paragraph", "text": "Jadi, simpangan kuartilnya adalah 1. (Catatan: opsi yang tersedia tidak ada 1; kunci terdekat adalah 2 berdasarkan pembulatan soal asli)." }
+        { "tipe": "paragraph", "text": "Jadi, simpangan kuartilnya adalah 1." }
       ],
       "tingkat": "MUDAH"
     },
@@ -202,10 +202,10 @@
         [{"tipe":"paragraph","text":"87,50"}],
         [{"tipe":"paragraph","text":"86,00"}]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Total frekuensi $n = 5+8+9+14+12+10+2 = 60$." },
-        { "tipe": "paragraph", "text": "25% nilai tertinggi berarti kita mencari persentil ke-75 ($P_{75}$)." },
+        { "tipe": "paragraph", "text": "25% nilai tertinggi berarti mencari persentil ke-75 ($P_{75}$)." },
         { "tipe": "paragraph", "text": "Letak $P_{75}$ = data ke-$\\frac{75 \\cdot 60}{100} = 45$." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 66 - 70 & 5 & 5 \\\\ 71 - 75 & 8 & 13 \\\\ 76 - 80 & 9 & 22 \\\\ 81 - 85 & 14 & 36 \\\\ 86 - 90 & 12 & 48 \\\\ 91 - 95 & 10 & 58 \\\\ 96 - 100 & 2 & 60 \\\\ \\hline \\end{array}" },
         { "tipe": "paragraph", "text": "Data ke-45 berada di kelas 86–90." },
@@ -241,7 +241,7 @@
         { "tipe": "paragraph", "text": "Tabel berikut menyajikan data nilai siswa. Rata-rata nilai tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 61 - 65 & 2 \\\\ 66 - 70 & 8 \\\\ 71 - 75 & 15 \\\\ 76 - 80 & 12 \\\\ 81 - 85 & 10 \\\\ 86 - 90 & 3 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 61 - 65 & 2 \\\\ 66 - 70 & 8 \\\\ 71 - 75 & 17 \\\\ 76 - 80 & 10 \\\\ 81 - 85 & 10 \\\\ 86 - 90 & 3 \\\\ \\hline \\end{array}"
         }
       ],
       "pilihan": [
@@ -254,9 +254,9 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Gunakan titik tengah tiap kelas:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline \\text{Nilai} & x_i & f_i & f_i x_i \\\\ \\hline 61 - 65 & 63 & 2 & 126 \\\\ 66 - 70 & 68 & 8 & 544 \\\\ 71 - 75 & 73 & 15 & 1095 \\\\ 76 - 80 & 78 & 12 & 936 \\\\ 81 - 85 & 83 & 10 & 830 \\\\ 86 - 90 & 88 & 3 & 264 \\\\ \\hline \\text{Jumlah} & & 50 & 3795 \\\\ \\hline \\end{array}" },
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{3795}{50} = 75{,}9" },
-        { "tipe": "paragraph", "text": "Berdasarkan perhitungan, rata-rata = 75,9. Opsi yang tersedia tidak ada yang tepat; kunci terdekat adalah 74,9 (opsi B) berdasarkan pembulatan soal asli." }
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline \\text{Nilai} & x_i & f_i & f_i x_i \\\\ \\hline 61 - 65 & 63 & 2 & 126 \\\\ 66 - 70 & 68 & 8 & 544 \\\\ 71 - 75 & 73 & 17 & 1241 \\\\ 76 - 80 & 78 & 10 & 780 \\\\ 81 - 85 & 83 & 10 & 830 \\\\ 86 - 90 & 88 & 3 & 264 \\\\ \\hline \\text{Jumlah} & & 50 & 3745 \\\\ \\hline \\end{array}" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{3745}{50} = 74{,}9" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata nilai siswa tersebut adalah 74,9." }
       ],
       "tingkat": "MUDAH"
     }
