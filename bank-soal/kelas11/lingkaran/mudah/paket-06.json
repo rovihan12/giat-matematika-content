@@ -1,0 +1,201 @@
+{
+  "id": "bs-k11-ling-m-06",
+  "nama": "Bank Soal Mudah - Paket 6",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang unsur lingkaran, keliling, dan luas dasar",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Daerah yang diarsir pada lingkaran tersebut disebut..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/tembereng-lingkaran.png",
+          "caption": "Lingkaran dengan daerah yang diarsir di bagian atas, dibatasi oleh tali busur dan busur.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Juring" } ],
+        [ { "tipe": "paragraph", "text": "Tembereng" } ],
+        [ { "tipe": "paragraph", "text": "Tali Busur" } ],
+        [ { "tipe": "paragraph", "text": "Busur" } ],
+        [ { "tipe": "paragraph", "text": "Apotema" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Daerah yang dibatasi oleh tali busur dan busur lingkaran disebut **tembereng**." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Yang merupakan tali busur terpanjang pada sebuah lingkaran adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Diameter" } ],
+        [ { "tipe": "paragraph", "text": "Jari-jari" } ],
+        [ { "tipe": "paragraph", "text": "Apotema" } ],
+        [ { "tipe": "paragraph", "text": "Juring" } ],
+        [ { "tipe": "paragraph", "text": "Busur" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tali busur terpanjang adalah **diameter**, karena melewati titik pusat lingkaran." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling lingkaran yang berjari-jari $14$ cm dengan $\\pi = \\dfrac{22}{7}$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$44$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$88$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$616$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$132$ cm" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r = 2 \\cdot \\dfrac{22}{7} \\cdot 14 = 88$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran yang memiliki keliling $132$ cm adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$21$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$28$ cm" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K = 2\\pi r \\Rightarrow 132 = 2 \\cdot \\dfrac{22}{7} \\cdot r$" },
+        { "tipe": "paragraph", "text": "$132 = \\dfrac{44}{7} r \\Rightarrow r = \\dfrac{132 \\cdot 7}{44} = 21$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu lingkaran berjari-jari $7$ cm, maka luas lingkaran tersebut adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$308$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$44$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$22$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$77$ cm²" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L = \\pi r^2 = \\dfrac{22}{7} \\cdot 7^2 = \\dfrac{22}{7} \\cdot 49 = 154$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah taman memiliki bentuk lingkaran dengan diameter $70$ meter. Jika di sekeliling taman tersebut ditanami pohon dengan jarak antar pohon adalah $10$ meter, maka banyaknya pohon adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$ pohon" } ],
+        [ { "tipe": "paragraph", "text": "$220$ pohon" } ],
+        [ { "tipe": "paragraph", "text": "$154$ pohon" } ],
+        [ { "tipe": "paragraph", "text": "$385$ pohon" } ],
+        [ { "tipe": "paragraph", "text": "$616$ pohon" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling taman $= \\pi d = \\dfrac{22}{7} \\cdot 70 = 220$ meter." },
+        { "tipe": "paragraph", "text": "Banyak pohon $= \\dfrac{220}{10} = 22$ pohon." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perbandingan keliling lingkaran dengan panjang jari-jari $3$ cm dan $9$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1 : 3$" } ],
+        [ { "tipe": "paragraph", "text": "$1 : 6$" } ],
+        [ { "tipe": "paragraph", "text": "$1 : 9$" } ],
+        [ { "tipe": "paragraph", "text": "$2 : 9$" } ],
+        [ { "tipe": "paragraph", "text": "$3 : 9$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$K_1 : K_2 = 2\\pi r_1 : 2\\pi r_2 = r_1 : r_2 = 3 : 9 = 1 : 3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui dua buah lingkaran dengan perbandingan jari-jari $1 : 3$. Maka perbandingan luas kedua lingkaran tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1 : 3$" } ],
+        [ { "tipe": "paragraph", "text": "$1 : 6$" } ],
+        [ { "tipe": "paragraph", "text": "$1 : 9$" } ],
+        [ { "tipe": "paragraph", "text": "$2 : 8$" } ],
+        [ { "tipe": "paragraph", "text": "$3 : 9$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$L_1 : L_2 = r_1^2 : r_2^2 = 1^2 : 3^2 = 1 : 9$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika perbandingan keliling dua lingkaran adalah $a : b$, maka perbandingan luas kedua lingkaran tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$a : b$" } ],
+        [ { "tipe": "paragraph", "text": "$a^2 : b^2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{a} : \\sqrt{b}$" } ],
+        [ { "tipe": "paragraph", "text": "$2a : 2b$" } ],
+        [ { "tipe": "paragraph", "text": "$a^3 : b^3$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling berbanding lurus dengan jari-jari ($K \\propto r$), sehingga $r_1 : r_2 = a : b$." },
+        { "tipe": "paragraph", "text": "Luas berbanding lurus dengan kuadrat jari-jari ($L \\propto r^2$), maka $L_1 : L_2 = a^2 : b^2$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah roda berjari-jari $21$ cm. Jika roda itu berputar atau menggelinding sebanyak $600$ kali, panjang lintasannya adalah... ($\\pi = \\dfrac{22}{7}$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$792$ meter" } ],
+        [ { "tipe": "paragraph", "text": "$79{,}2$ meter" } ],
+        [ { "tipe": "paragraph", "text": "$7.920$ meter" } ],
+        [ { "tipe": "paragraph", "text": "$79{,}2$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$7.920$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling roda $= 2\\pi r = 2 \\cdot \\dfrac{22}{7} \\cdot 21 = 132$ cm." },
+        { "tipe": "paragraph", "text": "Panjang lintasan $= 132 \\text{ cm} \\times 600 = 79.200 \\text{ cm} = 792$ meter." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
