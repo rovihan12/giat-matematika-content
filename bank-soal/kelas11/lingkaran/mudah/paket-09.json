@@ -1,0 +1,276 @@
+{
+  "id": "bs-k11-ling-m-09",
+  "nama": "Bank Soal Mudah - Paket 9",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang bangun datar gabungan, garis singgung, dan penerapan sudut",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada gambar di samping, lapangan sepak bola berbentuk gabungan persegi panjang dan setengah lingkaran di kanan dan kiri. Panjang persegi panjang $20$ m dan lebar $14$ m. Jika ditanam rumput dengan harga Rp $2.000$ per m², maka biaya penanaman rumput adalah... ($\\pi = \\dfrac{22}{7}$)" },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/lapangan-sepak-bola.png",
+          "caption": "Lapangan berbentuk persegi panjang di tengah dengan panjang 20 m dan lebar 14 m, serta dua setengah lingkaran di sisi kiri dan kanannya.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp $868.000$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $896.000$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $696.000$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $689.000$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $986.000$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas persegi panjang $= 20 \\times 14 = 280$ m²." },
+        { "tipe": "paragraph", "text": "Dua setengah lingkaran = satu lingkaran penuh dengan diameter $14$ m, maka $r = 7$ m." },
+        { "tipe": "paragraph", "text": "Luas lingkaran $= \\dfrac{22}{7} \\times 7^2 = 154$ m²." },
+        { "tipe": "paragraph", "text": "Luas total $= 280 + 154 = 434$ m²." },
+        { "tipe": "paragraph", "text": "Biaya $= 434 \\times 2.000 = \\text{Rp } 868.000$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika panjang $AC = 8$ cm dan $AB = 17$ cm, maka luas layang-layang $ACBD$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/layang-layang-acbd.png",
+          "caption": "Lingkaran dengan pusat A. Titik C dan D pada lingkaran. Garis singgung dari B menyentuh lingkaran di C dan D. Garis AB memotong lingkaran di tengah.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$68$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$120$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$180$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$240$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga ACB siku-siku di C (sifat garis singgung)." },
+        { "tipe": "paragraph", "text": "$BC = \\sqrt{AB^2 - AC^2} = \\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$ cm." },
+        { "tipe": "paragraph", "text": "Luas segitiga ACB $= \\dfrac{1}{2} \\times AC \\times BC = \\dfrac{1}{2} \\times 8 \\times 15 = 60$ cm²." },
+        { "tipe": "paragraph", "text": "Luas layang-layang ACBD $= 2 \\times$ Luas segitiga ACB $= 2 \\times 60 = 120$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada gambar di samping, jika panjang garis singgung persekutuan luar $PQ = 24$ cm, jari-jari lingkaran $A = 13$ cm, dan jari-jari lingkaran $B = 6$ cm, maka jarak pusat $AB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/garis-singgung-pq-ab.png",
+          "caption": "Dua lingkaran dengan pusat A dan B. Garis singgung persekutuan luar PQ menyinggung lingkaran A di P dan lingkaran B di Q. Jari-jari lingkaran A = 13 cm, jari-jari lingkaran B = 6 cm, PQ = 24 cm. Jarak pusat AB ditanyakan.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$21$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$24$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$30$ cm" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$PQ$ adalah garis singgung persekutuan luar (GSPL) dengan panjang $24$ cm." },
+        { "tipe": "paragraph", "text": "$R = 13$ cm, $r = 6$ cm." },
+        { "tipe": "paragraph", "text": "$AB = \\sqrt{PQ^2 + (R - r)^2} = \\sqrt{24^2 + (13 - 6)^2} = \\sqrt{576 + 49} = \\sqrt{625} = 25$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dari gambar di samping, besar sudut $\\angle CAO = 2x^\\circ$ dan besar sudut $\\angle ABC = 3x^\\circ$, maka besar sudut $\\angle ABC$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/segi-empat-abcd.png",
+          "caption": "Segi empat tali busur ABCD di dalam lingkaran dengan diameter AB. Sudut CAO = 2x derajat dan sudut ABC = 3x derajat.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$48^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$54^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$72^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena AB adalah diameter, maka $\\angle ACB = 90^\\circ$." },
+        { "tipe": "paragraph", "text": "Pada segitiga ABC, $\\angle BAC + \\angle ABC = 90^\\circ$." },
+        { "tipe": "paragraph", "text": "$\\angle BAC = \\angle CAO = 2x^\\circ$ (karena titik O berada pada AB)." },
+        { "tipe": "paragraph", "text": "Maka $2x + 3x = 90 \\Rightarrow 5x = 90 \\Rightarrow x = 18$." },
+        { "tipe": "paragraph", "text": "$\\angle ABC = 3x = 3(18^\\circ) = 54^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika luas juring $OAB = 6\\sqrt{3}$ cm², maka luas tembereng $AB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/juring-oab-60.png",
+          "caption": "Lingkaran dengan pusat O dan jari-jari 4 cm. Sudut pusat AOB = 60 derajat. Daerah tembereng AB diarsir.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$1\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$5\\sqrt{3}$ cm²" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas segitiga OAB $= \\dfrac{1}{2} \\times OA \\times OB \\times \\sin 60^\\circ$." },
+        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\times 4 \\times 4 \\times \\dfrac{1}{2}\\sqrt{3} = 4\\sqrt{3}$ cm²." },
+        { "tipe": "paragraph", "text": "Luas tembereng $=$ Luas juring $-$ Luas segitiga." },
+        { "tipe": "paragraph", "text": "$= 6\\sqrt{3} - 4\\sqrt{3} = 2\\sqrt{3}$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada gambar di samping, jika panjang $OQ = 5$ cm dan $OP = 13$ cm, maka panjang $PQ$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/garis-singgung-pq.png",
+          "caption": "Lingkaran dengan pusat O. Garis singgung PQ menyinggung lingkaran di Q. Titik P berada di luar lingkaran. OQ = 5 cm, OP = 13 cm.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$12$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$14$ cm" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Segitiga OQP siku-siku di Q (sifat garis singgung)." },
+        { "tipe": "paragraph", "text": "$PQ = \\sqrt{OP^2 - OQ^2} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Terdapat pasangan busur sebagai berikut: (i) Busur AB dan busur EF, (ii) Busur AF dan busur CD, (iii) Busur BC dan busur ED, (iv) Busur AB dan busur ED. Pasangan busur di atas yang sama panjang adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/busur-sama-panjang.png",
+          "caption": "Lingkaran dengan beberapa titik A, B, C, D, E, F pada kelilingnya. Diketahui sudut-sudut pusat: AOB = 35 derajat, BOC = 45 derajat, COD = 98 derajat, DOE = 45 derajat, EOF = 102 derajat, FOA = 35 derajat.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "(i) dan (iii)" } ],
+        [ { "tipe": "paragraph", "text": "(ii) dan (iv)" } ],
+        [ { "tipe": "paragraph", "text": "(i) dan (ii)" } ],
+        [ { "tipe": "paragraph", "text": "(iii) dan (iv)" } ],
+        [ { "tipe": "paragraph", "text": "(i) dan (iv)" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Panjang busur sebanding dengan besar sudut pusatnya." },
+        { "tipe": "paragraph", "text": "Busur BC sudutnya $45^\\circ$ dan busur ED sudutnya $45^\\circ$ (sama panjang)." },
+        { "tipe": "paragraph", "text": "Busur AB sudutnya $35^\\circ$ dan busur AF sudutnya $35^\\circ$ (sama panjang)." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\angle AOB = 120^\\circ$ dan $\\angle COD = 72^\\circ$, jika luas juring $OCD = 12{,}8$ cm², maka luas juring $OAB$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/juring-oab-ocd.png",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat AOB = 120 derajat dan sudut pusat COD = 72 derajat. Juring OCD dan OAB ditandai.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$15{,}8$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$19{,}6$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$21{,}3$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$25{,}6$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$30{,}2$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\dfrac{L_{OAB}}{L_{OCD}} = \\dfrac{\\angle AOB}{\\angle COD}$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{L_{OAB}}{12{,}8} = \\dfrac{120^\\circ}{72^\\circ} = \\dfrac{5}{3}$" },
+        { "tipe": "paragraph", "text": "$L_{OAB} = 12{,}8 \\times \\dfrac{5}{3} = 21{,}33$ cm², yang dibulatkan menjadi $21{,}3$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Lingkaran A dan B bersinggungan luar dan berjari-jari sama. Jika panjang jari-jari kedua lingkaran adalah $5$ cm, dan $\\pi = 3{,}14$, maka panjang lilitan tali minimum adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/lilitan-tali-2-lingkaran.png",
+          "caption": "Dua lingkaran A dan B bersinggungan luar. Sebuah tali melilit kedua lingkaran tersebut.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$51{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$41{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$35{,}7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$25{,}7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$62{,}8$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus panjang lilitan tali minimum untuk dua lingkaran identik yang bersinggungan luar adalah $2d + 2\\pi r$ (dengan $d = 2r = 10$ cm)." },
+        { "tipe": "paragraph", "text": "Panjang lilitan $= 2(10) + 2(3{,}14)(5) = 20 + 31{,}4 = 51{,}4$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas daerah yang diarsir pada gambar berikut adalah... ($\\pi = 3{,}14$)" },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/daun-lingkaran.png",
+          "caption": "Persegi dengan sisi 20 cm. Di dalamnya terdapat dua buah seperempat lingkaran yang saling berpotongan membentuk daun di tengah. Daerah daun diarsir.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$157$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$196{,}25$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$228$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$235{,}5$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$314$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas daun $= 2 \\times (\\text{Luas seperempat lingkaran} - \\text{Luas segitiga siku-siku})$." },
+        { "tipe": "paragraph", "text": "Luas seperempat lingkaran $= \\dfrac{1}{4} \\times 3{,}14 \\times 20^2 = 314$ cm²." },
+        { "tipe": "paragraph", "text": "Luas segitiga siku-siku $= \\dfrac{1}{2} \\times 20 \\times 20 = 200$ cm²." },
+        { "tipe": "paragraph", "text": "Luas daun $= 2 \\times (314 - 200) = 2 \\times 114 = 228$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
