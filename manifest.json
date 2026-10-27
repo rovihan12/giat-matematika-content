@@ -1548,21 +1548,36 @@
               "bank-soal/kelas11/statistika-lanjutan/mudah/paket-02.json",
               "bank-soal/kelas11/statistika-lanjutan/mudah/paket-03.json",
               "bank-soal/kelas11/statistika-lanjutan/mudah/paket-04.json",
-              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-05.json"
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-05.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-06.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-07.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-08.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-09.json",
+              "bank-soal/kelas11/statistika-lanjutan/mudah/paket-10.json"
             ],
             "sedang": [
               "bank-soal/kelas11/statistika-lanjutan/sedang/paket-01.json",
               "bank-soal/kelas11/statistika-lanjutan/sedang/paket-02.json",
               "bank-soal/kelas11/statistika-lanjutan/sedang/paket-03.json",
               "bank-soal/kelas11/statistika-lanjutan/sedang/paket-04.json",
-              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-05.json"
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-05.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-06.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-07.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-08.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-09.json",
+              "bank-soal/kelas11/statistika-lanjutan/sedang/paket-10.json"
             ],
             "sulit": [
               "bank-soal/kelas11/statistika-lanjutan/sulit/paket-01.json",
               "bank-soal/kelas11/statistika-lanjutan/sulit/paket-02.json",
               "bank-soal/kelas11/statistika-lanjutan/sulit/paket-03.json",
               "bank-soal/kelas11/statistika-lanjutan/sulit/paket-04.json",
-              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-05.json"
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-05.json",
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-06.json",
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-07.json",
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-08.json",
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-09.json",
+              "bank-soal/kelas11/statistika-lanjutan/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -1580,6 +1595,141 @@
               "nama": "Paket 2 - Regresi Linear",
               "deskripsi": "Regresi linear dan interpretasi",
               "file": "soal/kelas11/statistika-lanjutan/statistika-lanjutan-paket-02.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-mudah-06",
+              "nama": "Bank Soal Mudah - Paket 6",
+              "deskripsi": "Penyajian data, rata-rata, median, dan modus data tunggal",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-mudah-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-mudah-07",
+              "nama": "Bank Soal Mudah - Paket 7",
+              "deskripsi": "Ukuran pemusatan dan penyebaran data tunggal",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-mudah-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-mudah-08",
+              "nama": "Bank Soal Mudah - Paket 8",
+              "deskripsi": "Median dan kuartil data tunggal serta data berkelompok",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-mudah-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-mudah-09",
+              "nama": "Bank Soal Mudah - Paket 9",
+              "deskripsi": "Rata-rata, modus, dan ukuran penyebaran data tunggal",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-mudah-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-mudah-10",
+              "nama": "Bank Soal Mudah - Paket 10",
+              "deskripsi": "Rata-rata, median, modus, dan ukuran penyebaran data tunggal",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-mudah-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sedang-06",
+              "nama": "Bank Soal Sedang - Paket 6",
+              "deskripsi": "Ukuran pemusatan dan penyebaran data berkelompok",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sedang-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sedang-07",
+              "nama": "Bank Soal Sedang - Paket 7",
+              "deskripsi": "Kuartil, desil, modus, dan simpangan baku data berkelompok",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sedang-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sedang-08",
+              "nama": "Bank Soal Sedang - Paket 8",
+              "deskripsi": "Ukuran pemusatan data berkelompok: mean, median, modus, kuartil, desil, persentil",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sedang-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sedang-09",
+              "nama": "Bank Soal Sedang - Paket 9",
+              "deskripsi": "Interpretasi statistik, median, dan kuartil data",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sedang-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sedang-10",
+              "nama": "Bank Soal Sedang - Paket 10",
+              "deskripsi": "Median, modus, kuartil, desil, dan simpangan baku data berkelompok",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sedang-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sulit-06",
+              "nama": "Bank Soal Sulit - Paket 6",
+              "deskripsi": "Analisis data, rata-rata gabungan, dan pengaruh perubahan data",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sulit-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sulit-07",
+              "nama": "Bank Soal Sulit - Paket 7",
+              "deskripsi": "Analisis perubahan statistik dan data gabungan",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sulit-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sulit-08",
+              "nama": "Bank Soal Sulit - Paket 8",
+              "deskripsi": "Analisis data dan interpretasi statistik",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sulit-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sulit-09",
+              "nama": "Bank Soal Sulit - Paket 9",
+              "deskripsi": "Soal analisis dan penerapan statistika",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sulit-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k11-stat-lanjut-sulit-10",
+              "nama": "Bank Soal Sulit - Paket 10",
+              "deskripsi": "Statistika terapan dan soal cerita",
+              "file": "soal/kelas11/statistika-lanjutan/bs-k11-stat-lanjut-sulit-10.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
