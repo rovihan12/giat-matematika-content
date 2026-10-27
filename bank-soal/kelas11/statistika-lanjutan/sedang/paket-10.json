@@ -13,7 +13,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai median dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 47 - 49 & 1 \\\\ 50 - 52 & 6 \\\\ 53 - 55 & 6 \\\\ 56 - 58 & 7 \\\\ 59 - 61 & 4 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Nilai} & \\text{Frekuensi} \\\\ 47 - 49 & 1 \\\\ 50 - 52 & 6 \\\\ 53 - 55 & 6 \\\\ 56 - 58 & 7 \\\\ 59 - 61 & 4 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -26,7 +26,10 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 24$. Letak median = data ke-\\frac{24}{2} = 12$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{ccc} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 47 - 49 & 1 & 1 \\\\ 50 - 52 & 6 & 7 \\\\ 53 - 55 & 6 & 13 \\\\ 56 - 58 & 7 & 20 \\\\ 59 - 61 & 4 & 24 \\\\ \\hline \\end{array}" },
+        { 
+          "tipe": "formula_block", 
+          "latex": "\\begin{matrix} \\text{Nilai} & f & F_k \\\\ 47 - 49 & 1 & 1 \\\\ 50 - 52 & 6 & 7 \\\\ 53 - 55 & 6 & 13 \\\\ 56 - 58 & 7 & 20 \\\\ 59 - 61 & 4 & 24 \\end{matrix}" 
+        },
         { "tipe": "paragraph", "text": "Data ke-12 berada di kelas 53–55. Tepi bawah $T_b = 52{,}5$; panjang kelas $p = 3$; $F_k$ sebelum = 7; $f = 6$." },
         { "tipe": "formula_block", "latex": "Me = 52{,}5 + 3 \\left( \\dfrac{12 - 7}{6} \\right) = 52{,}5 + 2{,}5 = 55{,}0" },
         { "tipe": "paragraph", "text": "Jadi, mediannya adalah 55,0." }
@@ -39,7 +42,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Modus dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Data} & \\text{Frekuensi} \\\\ \\hline 5 - 9 & 4 \\\\ 10 - 14 & 5 \\\\ 15 - 19 & 12 \\\\ 20 - 24 & 5 \\\\ 25 - 29 & 3 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Data} & \\text{Frekuensi} \\\\ 5 - 9 & 4 \\\\ 10 - 14 & 5 \\\\ 15 - 19 & 12 \\\\ 20 - 24 & 5 \\\\ 25 - 29 & 3 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -64,7 +67,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai kuartil atas ($Q_3$) dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 41 - 43 & 4 \\\\ 44 - 46 & 8 \\\\ 47 - 49 & 12 \\\\ 50 - 52 & 10 \\\\ 53 - 55 & 5 \\\\ 56 - 58 & 1 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Nilai} & \\text{Frekuensi} \\\\ 41 - 43 & 4 \\\\ 44 - 46 & 8 \\\\ 47 - 49 & 12 \\\\ 50 - 52 & 10 \\\\ 53 - 55 & 5 \\\\ 56 - 58 & 1 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -77,7 +80,10 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $Q_3$ = data ke-\\frac{3 \\cdot 40}{4} = 30$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{ccc} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 41 - 43 & 4 & 4 \\\\ 44 - 46 & 8 & 12 \\\\ 47 - 49 & 12 & 24 \\\\ 50 - 52 & 10 & 34 \\\\ 53 - 55 & 5 & 39 \\\\ 56 - 58 & 1 & 40 \\\\ \\hline \\end{array}" },
+        { 
+          "tipe": "formula_block", 
+          "latex": "\\begin{matrix} \\text{Nilai} & f & F_k \\\\ 41 - 43 & 4 & 4 \\\\ 44 - 46 & 8 & 12 \\\\ 47 - 49 & 12 & 24 \\\\ 50 - 52 & 10 & 34 \\\\ 53 - 55 & 5 & 39 \\\\ 56 - 58 & 1 & 40 \\end{matrix}" 
+        },
         { "tipe": "paragraph", "text": "Data ke-30 berada di kelas 50–52. Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 3$; $F_k$ sebelum = 24; $f = 10$." },
         { "tipe": "formula_block", "latex": "Q_3 = 49{,}5 + 3 \\left( \\dfrac{30 - 24}{10} \\right) = 49{,}5 + 1{,}8 = 51{,}3" },
         { "tipe": "paragraph", "text": "Jadi, kuartil atasnya adalah 51,3." }
@@ -90,7 +96,7 @@
         { "tipe": "paragraph", "text": "Perhatikan data berikut ini. Nilai $Q_1$ data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Data} & \\text{Frekuensi} \\\\ \\hline 5 - 9 & 1 \\\\ 10 - 14 & 3 \\\\ 15 - 19 & 8 \\\\ 20 - 24 & 10 \\\\ 25 - 29 & 7 \\\\ 30 - 34 & 1 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Data} & \\text{Frekuensi} \\\\ 5 - 9 & 1 \\\\ 10 - 14 & 3 \\\\ 15 - 19 & 8 \\\\ 20 - 24 & 10 \\\\ 25 - 29 & 7 \\\\ 30 - 34 & 1 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -103,7 +109,10 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 30$. Letak $Q_1$ = data ke-\\frac{30}{4} = 7{,}5$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{ccc} \\hline \\text{Data} & f & F_k \\\\ \\hline 5 - 9 & 1 & 1 \\\\ 10 - 14 & 3 & 4 \\\\ 15 - 19 & 8 & 12 \\\\ 20 - 24 & 10 & 22 \\\\ 25 - 29 & 7 & 29 \\\\ 30 - 34 & 1 & 30 \\\\ \\hline \\end{array}" },
+        { 
+          "tipe": "formula_block", 
+          "latex": "\\begin{matrix} \\text{Data} & f & F_k \\\\ 5 - 9 & 1 & 1 \\\\ 10 - 14 & 3 & 4 \\\\ 15 - 19 & 8 & 12 \\\\ 20 - 24 & 10 & 22 \\\\ 25 - 29 & 7 & 29 \\\\ 30 - 34 & 1 & 30 \\end{matrix}" 
+        },
         { "tipe": "paragraph", "text": "Data ke-7,5 berada di kelas 15–19. Tepi bawah $T_b = 14{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 4; $f = 8$." },
         { "tipe": "formula_block", "latex": "Q_1 = 14{,}5 + 5 \\left( \\dfrac{7{,}5 - 4}{8} \\right) = 14{,}5 + 2{,}1875 = 16{,}6875 \\approx 16{,}8" },
         { "tipe": "paragraph", "text": "Jadi, nilai $Q_1$ adalah 16,8." }
@@ -116,7 +125,7 @@
         { "tipe": "paragraph", "text": "Diketahui data hasil seleksi sebagai berikut. Jika 25% nilai tertinggi masuk seleksi tahap selanjutnya, maka nilai minimal yang bisa lolos adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 66 - 70 & 5 \\\\ 71 - 75 & 8 \\\\ 76 - 80 & 9 \\\\ 81 - 85 & 14 \\\\ 86 - 90 & 12 \\\\ 91 - 95 & 10 \\\\ 96 - 100 & 2 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Nilai} & \\text{Frekuensi} \\\\ 66 - 70 & 5 \\\\ 71 - 75 & 8 \\\\ 76 - 80 & 9 \\\\ 81 - 85 & 14 \\\\ 86 - 90 & 12 \\\\ 91 - 95 & 10 \\\\ 96 - 100 & 2 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -130,7 +139,10 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Total frekuensi $n = 60$. 25% nilai tertinggi berarti mencari persentil ke-75 ($P_{75}$)." },
         { "tipe": "paragraph", "text": "Letak $P_{75}$ = data ke-45." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{ccc} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 66 - 70 & 5 & 5 \\\\ 71 - 75 & 8 & 13 \\\\ 76 - 80 & 9 & 22 \\\\ 81 - 85 & 14 & 36 \\\\ 86 - 90 & 12 & 48 \\\\ 91 - 95 & 10 & 58 \\\\ 96 - 100 & 2 & 60 \\\\ \\hline \\end{array}" },
+        { 
+          "tipe": "formula_block", 
+          "latex": "\\begin{matrix} \\text{Nilai} & f & F_k \\\\ 66 - 70 & 5 & 5 \\\\ 71 - 75 & 8 & 13 \\\\ 76 - 80 & 9 & 22 \\\\ 81 - 85 & 14 & 36 \\\\ 86 - 90 & 12 & 48 \\\\ 91 - 95 & 10 & 58 \\\\ 96 - 100 & 2 & 60 \\end{matrix}" 
+        },
         { "tipe": "paragraph", "text": "Data ke-45 berada di kelas 86–90. Tepi bawah $T_b = 85{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 36; $f = 12$." },
         { "tipe": "formula_block", "latex": "P_{75} = 85{,}5 + 5 \\left( \\dfrac{45 - 36}{12} \\right) = 85{,}5 + 3{,}75 = 89{,}25" },
         { "tipe": "paragraph", "text": "Jadi, nilai minimal yang lolos adalah 89,25." }
@@ -143,7 +155,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai desil ke-8 ($D_8$) dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 41 - 45 & 3 \\\\ 46 - 50 & 6 \\\\ 51 - 55 & 10 \\\\ 56 - 60 & 12 \\\\ 61 - 65 & 5 \\\\ 66 - 70 & 4 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Nilai} & \\text{Frekuensi} \\\\ 41 - 45 & 3 \\\\ 46 - 50 & 6 \\\\ 51 - 55 & 10 \\\\ 56 - 60 & 12 \\\\ 61 - 65 & 5 \\\\ 66 - 70 & 4 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -156,7 +168,10 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $D_8$ = data ke-\\frac{8 \\cdot 40}{10} = 32$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{ccc} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 41 - 45 & 3 & 3 \\\\ 46 - 50 & 6 & 9 \\\\ 51 - 55 & 10 & 19 \\\\ 56 - 60 & 12 & 31 \\\\ 61 - 65 & 5 & 36 \\\\ 66 - 70 & 4 & 40 \\\\ \\hline \\end{array}" },
+        { 
+          "tipe": "formula_block", 
+          "latex": "\\begin{matrix} \\text{Nilai} & f & F_k \\\\ 41 - 45 & 3 & 3 \\\\ 46 - 50 & 6 & 9 \\\\ 51 - 55 & 10 & 19 \\\\ 56 - 60 & 12 & 31 \\\\ 61 - 65 & 5 & 36 \\\\ 66 - 70 & 4 & 40 \\end{matrix}" 
+        },
         { "tipe": "paragraph", "text": "Data ke-32 berada di kelas 61–65. Tepi bawah $T_b = 60{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 31; $f = 5$." },
         { "tipe": "formula_block", "latex": "D_8 = 60{,}5 + 5 \\left( \\dfrac{32 - 31}{5} \\right) = 60{,}5 + 1 = 61{,}5" },
         { "tipe": "paragraph", "text": "Jadi, desil ke-8 adalah 61,5." }
@@ -169,7 +184,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai persentil ke-64 ($P_{64}$) dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Skor} & \\text{Frekuensi} \\\\ \\hline 31 - 40 & 3 \\\\ 41 - 50 & 4 \\\\ 51 - 60 & 13 \\\\ 61 - 70 & 7 \\\\ 71 - 80 & 2 \\\\ 81 - 90 & 1 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Skor} & \\text{Frekuensi} \\\\ 31 - 40 & 3 \\\\ 41 - 50 & 4 \\\\ 51 - 60 & 13 \\\\ 61 - 70 & 7 \\\\ 71 - 80 & 2 \\\\ 81 - 90 & 1 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -182,7 +197,10 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 30$. Letak $P_{64}$ = data ke-\\frac{64 \\cdot 30}{100} = 19{,}2$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{ccc} \\hline \\text{Skor} & f & F_k \\\\ \\hline 31 - 40 & 3 & 3 \\\\ 41 - 50 & 4 & 7 \\\\ 51 - 60 & 13 & 20 \\\\ 61 - 70 & 7 & 27 \\\\ 71 - 80 & 2 & 29 \\\\ 81 - 90 & 1 & 30 \\\\ \\hline \\end{array}" },
+        { 
+          "tipe": "formula_block", 
+          "latex": "\\begin{matrix} \\text{Skor} & f & F_k \\\\ 31 - 40 & 3 & 3 \\\\ 41 - 50 & 4 & 7 \\\\ 51 - 60 & 13 & 20 \\\\ 61 - 70 & 7 & 27 \\\\ 71 - 80 & 2 & 29 \\\\ 81 - 90 & 1 & 30 \\end{matrix}" 
+        },
         { "tipe": "paragraph", "text": "Data ke-19,2 berada di kelas 51–60. Tepi bawah $T_b = 50{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 7; $f = 13$." },
         { "tipe": "formula_block", "latex": "P_{64} = 50{,}5 + 10 \\left( \\dfrac{19{,}2 - 7}{13} \\right) = 50{,}5 + 9{,}385 = 59{,}885 \\approx 60{,}0" },
         { "tipe": "paragraph", "text": "Jadi, persentil ke-64 adalah sekitar 60,0." }
@@ -195,7 +213,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai jangkauan dari data tersebut berdasarkan titik tengahnya adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 40 - 49 & 4 \\\\ 50 - 59 & 7 \\\\ 60 - 69 & 10 \\\\ 70 - 79 & 6 \\\\ 80 - 89 & 3 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Nilai} & \\text{Frekuensi} \\\\ 40 - 49 & 4 \\\\ 50 - 59 & 7 \\\\ 60 - 69 & 10 \\\\ 70 - 79 & 6 \\\\ 80 - 89 & 3 \\end{matrix}"
         }
       ],
       "pilihan": [
@@ -219,15 +237,15 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Simpangan baku dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{ccccc} \\hline \\text{Berat (kg)} & f & x & d & d^2 \\\\ \\hline 43 - 47 & 5 & 45 & -5 & 25 \\\\ 48 - 52 & 12 & 50 & 0 & 0 \\\\ 53 - 57 & 9 & 55 & 5 & 25 \\\\ 58 - 62 & 4 & 60 & 10 & 100 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Berat (kg)} & f & x & d & d^2 \\\\ 43 - 47 & 5 & 45 & -5 & 25 \\\\ 48 - 52 & 12 & 50 & 0 & 0 \\\\ 53 - 57 & 9 & 55 & 5 & 25 \\\\ 58 - 62 & 4 & 60 & 10 & 100 \\end{matrix}"
         }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"\\sqrt{21} \\text{ kg}"}],
-        [{"tipe":"paragraph","text":"\\sqrt{29} \\text{ kg}"}],
-        [{"tipe":"paragraph","text":"21 \\text{ kg}"}],
-        [{"tipe":"paragraph","text":"29 \\text{ kg}"}],
-        [{"tipe":"paragraph","text":"\\sqrt{35} \\text{ kg}"}]
+        [{"tipe":"paragraph","text":"$\\sqrt{21} \\text{ kg}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{29} \\text{ kg}$"}],
+        [{"tipe":"paragraph","text":"$21 \\text{ kg}$"}],
+        [{"tipe":"paragraph","text":"$29 \\text{ kg}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{35} \\text{ kg}$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
@@ -245,7 +263,7 @@
         { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai rata-rata dari data tersebut adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{cc} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 61 - 65 & 2 \\\\ 66 - 70 & 8 \\\\ 71 - 75 & 17 \\\\ 76 - 80 & 10 \\\\ 81 - 85 & 10 \\\\ 86 - 90 & 3 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{matrix} \\text{Nilai} & \\text{Frekuensi} \\\\ 61 - 65 & 2 \\\\ 66 - 70 & 8 \\\\ 71 - 75 & 17 \\\\ 76 - 80 & 10 \\\\ 81 - 85 & 10 \\\\ 86 - 90 & 3 \\end{matrix}"
         }
       ],
       "pilihan": [
