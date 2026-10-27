@@ -1,0 +1,264 @@
+{
+  "id": "bs-k11-stat-lanjut-sedang-08",
+  "nama": "Bank Soal Sedang - Paket 8",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SEDANG",
+  "deskripsi": "Ukuran pemusatan data berkelompok: mean, median, modus, kuartil, desil, persentil",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai rata-rata dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 40 - 44 & 1 \\\\ 45 - 49 & 2 \\\\ 50 - 54 & 3 \\\\ 55 - 59 & 6 \\\\ 60 - 64 & 7 \\\\ 65 - 69 & 5 \\\\ 70 - 74 & 7 \\\\ 75 - 79 & 9 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"61"}],
+        [{"tipe":"paragraph","text":"62"}],
+        [{"tipe":"paragraph","text":"63"}],
+        [{"tipe":"paragraph","text":"64"}],
+        [{"tipe":"paragraph","text":"65"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah tiap kelas: 42, 47, 52, 57, 62, 67, 72, 77. Total frekuensi $n = 40$." },
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 1(42) + 2(47) + 3(52) + 6(57) + 7(62) + 5(67) + 7(72) + 9(77)" },
+        { "tipe": "formula_block", "latex": "= 42 + 94 + 156 + 342 + 434 + 335 + 504 + 693 = 2600" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2600}{40} = 65" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 65." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data pada tabel berikut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Interval} & \\text{Frekuensi} \\\\ \\hline 131 - 140 & 6 \\\\ 141 - 150 & 11 \\\\ 151 - 160 & 8 \\\\ 161 - 170 & 12 \\\\ 171 - 180 & 8 \\\\ 181 - 190 & 5 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"158,0"}],
+        [{"tipe":"paragraph","text":"158,5"}],
+        [{"tipe":"paragraph","text":"159,0"}],
+        [{"tipe":"paragraph","text":"159,5"}],
+        [{"tipe":"paragraph","text":"160,5"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 50$. Letak median = data ke-25." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Interval} & f & F_k \\\\ \\hline 131 - 140 & 6 & 6 \\\\ 141 - 150 & 11 & 17 \\\\ 151 - 160 & 8 & 25 \\\\ 161 - 170 & 12 & 37 \\\\ 171 - 180 & 8 & 45 \\\\ 181 - 190 & 5 & 50 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-25 berada di kelas 151–160. Tepi bawah $T_b = 150{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 17; $f = 8$." },
+        { "tipe": "formula_block", "latex": "Me = 150{,}5 + 10 \\left( \\dfrac{25 - 17}{8} \\right) = 150{,}5 + 10 = 160{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 160,5." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Modus dari data berikut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Data} & \\text{Frekuensi} \\\\ \\hline 5 - 9 & 4 \\\\ 10 - 14 & 5 \\\\ 15 - 19 & 12 \\\\ 20 - 24 & 5 \\\\ 25 - 29 & 3 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"17,0"}],
+        [{"tipe":"paragraph","text":"16,5"}],
+        [{"tipe":"paragraph","text":"16,0"}],
+        [{"tipe":"paragraph","text":"15,5"}],
+        [{"tipe":"paragraph","text":"15,0"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas modus = 15–19 (frekuensi terbesar = 12). Tepi bawah $T_b = 14{,}5$; panjang kelas $p = 5$." },
+        { "tipe": "formula_block", "latex": "d_1 = 12 - 5 = 7; \\quad d_2 = 12 - 5 = 7" },
+        { "tipe": "formula_block", "latex": "Mo = 14{,}5 + 5 \\left( \\dfrac{7}{7+7} \\right) = 14{,}5 + 2{,}5 = 17{,}0" },
+        { "tipe": "paragraph", "text": "Jadi, modusnya adalah 17,0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan daftar distribusi frekuensi pada tabel berikut. Modus dari data di atas adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 11 - 20 & 1 \\\\ 21 - 30 & 5 \\\\ 31 - 40 & 6 \\\\ 41 - 50 & 9 \\\\ 51 - 60 & 15 \\\\ 61 - 70 & 7 \\\\ 71 - 80 & 4 \\\\ 81 - 90 & 3 \\\\ 91 - 100 & 1 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"54,78"}],
+        [{"tipe":"paragraph","text":"55,56"}],
+        [{"tipe":"paragraph","text":"57,32"}],
+        [{"tipe":"paragraph","text":"58,46"}],
+        [{"tipe":"paragraph","text":"59,84"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas modus = 51–60 (frekuensi terbesar = 15). Tepi bawah $T_b = 50{,}5$; panjang kelas $p = 10$." },
+        { "tipe": "formula_block", "latex": "d_1 = 15 - 9 = 6; \\quad d_2 = 15 - 7 = 8" },
+        { "tipe": "formula_block", "latex": "Mo = 50{,}5 + 10 \\left( \\dfrac{6}{6+8} \\right) = 50{,}5 + 10 \\left( \\dfrac{6}{14} \\right) = 50{,}5 + 4{,}2857 = 54{,}7857 \\approx 54{,}78" },
+        { "tipe": "paragraph", "text": "Jadi, modusnya adalah 54,78." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai $n - \\sum f_i$ jika $n$ adalah banyak data adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 40 - 49 & 5 \\\\ 50 - 59 & 10 \\\\ 60 - 69 & 15 \\\\ 70 - 79 & 12 \\\\ 80 - 89 & 8 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"20"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = \\sum f_i = 5 + 10 + 15 + 12 + 8 = 50$." },
+        { "tipe": "formula_block", "latex": "n - \\sum f_i = 50 - 50 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, hasilnya 0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai desil ke-8 ($D_8$) dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 41 - 45 & 3 \\\\ 46 - 50 & 6 \\\\ 51 - 55 & 10 \\\\ 56 - 60 & 12 \\\\ 61 - 65 & 5 \\\\ 66 - 70 & 4 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"60,0"}],
+        [{"tipe":"paragraph","text":"60,5"}],
+        [{"tipe":"paragraph","text":"61,0"}],
+        [{"tipe":"paragraph","text":"61,5"}],
+        [{"tipe":"paragraph","text":"62,0"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $D_8$ = data ke-$\\frac{8 \\cdot 40}{10} = 32$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 41 - 45 & 3 & 3 \\\\ 46 - 50 & 6 & 9 \\\\ 51 - 55 & 10 & 19 \\\\ 56 - 60 & 12 & 31 \\\\ 61 - 65 & 5 & 36 \\\\ 66 - 70 & 4 & 40 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-32 berada di kelas 61–65. Tepi bawah $T_b = 60{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 31; $f = 5$." },
+        { "tipe": "formula_block", "latex": "D_8 = 60{,}5 + 5 \\left( \\dfrac{32 - 31}{5} \\right) = 60{,}5 + 1 = 61{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, desil ke-8 adalah 61,5." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai kuartil bawah ($Q_1$) dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 30 - 39 & 3 \\\\ 40 - 49 & 6 \\\\ 50 - 59 & 10 \\\\ 60 - 69 & 10 \\\\ 70 - 79 & 7 \\\\ 80 - 89 & 4 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"50,5"}],
+        [{"tipe":"paragraph","text":"51,0"}],
+        [{"tipe":"paragraph","text":"51,5"}],
+        [{"tipe":"paragraph","text":"52,0"}],
+        [{"tipe":"paragraph","text":"52,5"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $Q_1$ = data ke-$\\frac{40}{4} = 10$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 30 - 39 & 3 & 3 \\\\ 40 - 49 & 6 & 9 \\\\ 50 - 59 & 10 & 19 \\\\ 60 - 69 & 10 & 29 \\\\ 70 - 79 & 7 & 36 \\\\ 80 - 89 & 4 & 40 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-10 berada di kelas 50–59. Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 9; $f = 10$." },
+        { "tipe": "formula_block", "latex": "Q_1 = 49{,}5 + 10 \\left( \\dfrac{10 - 9}{10} \\right) = 49{,}5 + 1 = 50{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, kuartil bawahnya adalah 50,5." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai persentil ke-64 ($P_{64}$) dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Skor} & \\text{Frekuensi} \\\\ \\hline 31 - 40 & 3 \\\\ 41 - 50 & 4 \\\\ 51 - 60 & 13 \\\\ 61 - 70 & 7 \\\\ 71 - 80 & 2 \\\\ 81 - 90 & 1 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"59,0"}],
+        [{"tipe":"paragraph","text":"59,5"}],
+        [{"tipe":"paragraph","text":"60,0"}],
+        [{"tipe":"paragraph","text":"60,5"}],
+        [{"tipe":"paragraph","text":"61,0"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 30$. Letak $P_{64}$ = data ke-$\\frac{64 \\cdot 30}{100} = 19{,}2$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Skor} & f & F_k \\\\ \\hline 31 - 40 & 3 & 3 \\\\ 41 - 50 & 4 & 7 \\\\ 51 - 60 & 13 & 20 \\\\ 61 - 70 & 7 & 27 \\\\ 71 - 80 & 2 & 29 \\\\ 81 - 90 & 1 & 30 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-19,2 berada di kelas 51–60. Tepi bawah $T_b = 50{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 7; $f = 13$." },
+        { "tipe": "formula_block", "latex": "P_{64} = 50{,}5 + 10 \\left( \\dfrac{19{,}2 - 7}{13} \\right) = 50{,}5 + 10 \\left( \\dfrac{12{,}2}{13} \\right) = 50{,}5 + 9{,}385 = 59{,}885 \\approx 60{,}0" },
+        { "tipe": "paragraph", "text": "Jadi, persentil ke-64 adalah sekitar 60,0." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Mean dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 1 - 5 & 2 \\\\ 6 - 10 & 5 \\\\ 11 - 15 & 8 \\\\ 16 - 20 & 5 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"14"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah: 3, 8, 13, 18. Total frekuensi $n = 20$." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2(3) + 5(8) + 8(13) + 5(18)}{20} = \\dfrac{6 + 40 + 104 + 90}{20} = \\dfrac{240}{20} = 12" },
+        { "tipe": "paragraph", "text": "Jadi, meannya adalah 12." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Modus data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Usia bayi (bulan)} & \\text{Frekuensi} \\\\ \\hline 10 - 13 & 14 \\\\ 14 - 17 & 27 \\\\ 18 - 21 & 36 \\\\ 22 - 25 & 25 \\\\ 26 - 29 & 18 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"19,3 bulan"}],
+        [{"tipe":"paragraph","text":"19,4 bulan"}],
+        [{"tipe":"paragraph","text":"19,5 bulan"}],
+        [{"tipe":"paragraph","text":"19,6 bulan"}],
+        [{"tipe":"paragraph","text":"19,7 bulan"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelas modus = 18–21 (frekuensi terbesar = 36). Tepi bawah $T_b = 17{,}5$; panjang kelas $p = 4$." },
+        { "tipe": "formula_block", "latex": "d_1 = 36 - 27 = 9; \\quad d_2 = 36 - 25 = 11" },
+        { "tipe": "formula_block", "latex": "Mo = 17{,}5 + 4 \\left( \\dfrac{9}{9+11} \\right) = 17{,}5 + 4 \\left( \\dfrac{9}{20} \\right) = 17{,}5 + 1{,}8 = 19{,}3" },
+        { "tipe": "paragraph", "text": "Jadi, modusnya adalah 19,3 bulan." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
