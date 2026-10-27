@@ -1,0 +1,209 @@
+{
+  "id": "bs-k11-stat-lanjut-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SULIT",
+  "deskripsi": "Analisis data, rata-rata gabungan, dan pengaruh perubahan data",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kelas 11A memiliki 20 siswa dengan rata-rata nilai ujian 75. Kelas 11B memiliki 30 siswa dengan rata-rata nilai 80. Rata-rata gabungan kedua kelas adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"76"}],
+        [{"tipe":"paragraph","text":"77"}],
+        [{"tipe":"paragraph","text":"78"}],
+        [{"tipe":"paragraph","text":"79"}],
+        [{"tipe":"paragraph","text":"80"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2} = \\dfrac{20(75) + 30(80)}{50} = \\dfrac{3900}{50} = 78" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata gabungannya adalah 78." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 15 siswa adalah 70. Setelah 5 siswa baru bergabung, rata-rata menjadi 72. Rata-rata nilai 5 siswa baru tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"73"}],
+        [{"tipe":"paragraph","text":"75"}],
+        [{"tipe":"paragraph","text":"76"}],
+        [{"tipe":"paragraph","text":"78"}],
+        [{"tipe":"paragraph","text":"80"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total nilai 15 siswa = $15 \\times 70 = 1050$." },
+        { "tipe": "paragraph", "text": "Total nilai 20 siswa = $20 \\times 72 = 1440$." },
+        { "tipe": "paragraph", "text": "Total nilai 5 siswa baru = $1440 - 1050 = 390$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{390}{5} = 78" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 78." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua kelompok data masing-masing berukuran 10 dan 15. Kelompok pertama memiliki rata-rata 60, kelompok kedua memiliki rata-rata 70. Rata-rata gabungan adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"63"}],
+        [{"tipe":"paragraph","text":"64"}],
+        [{"tipe":"paragraph","text":"65"}],
+        [{"tipe":"paragraph","text":"66"}],
+        [{"tipe":"paragraph","text":"67"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{10(60) + 15(70)}{25} = \\dfrac{1650}{25} = 66" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata gabungannya adalah 66." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data: 4, 6, 7, 8, 9, 10, 12. Jika setiap nilai ditambah 3, maka jangkauannya menjadi ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jangkauan awal = $12 - 4 = 8$." },
+        { "tipe": "paragraph", "text": "Jika setiap nilai ditambah konstanta, jangkauan **tidak berubah**." },
+        { "tipe": "paragraph", "text": "Jadi, jangkauannya tetap 8." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data: 2, 4, 5, 6, 8. Jika setiap nilai dikalikan 3, maka simpangan bakunya menjadi ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3× simpangan baku awal"}],
+        [{"tipe":"paragraph","text":"9× simpangan baku awal"}],
+        [{"tipe":"paragraph","text":"tetap sama"}],
+        [{"tipe":"paragraph","text":"berkurang 3×"}],
+        [{"tipe":"paragraph","text":"berkurang 9×"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap nilai dikalikan $k$, simpangan baku menjadi $k \\times S$ (varians menjadi $k^2 \\times S^2$)." },
+        { "tipe": "paragraph", "text": "Dengan $k = 3$, simpangan baku menjadi **3× simpangan baku awal**." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 3, 5, 5, 6, 7, 7, 7, 8. Median dan modus data tersebut berturut-turut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6 dan 5"}],
+        [{"tipe":"paragraph","text":"6,5 dan 7"}],
+        [{"tipe":"paragraph","text":"6,5 dan 5"}],
+        [{"tipe":"paragraph","text":"7 dan 7"}],
+        [{"tipe":"paragraph","text":"6 dan 7"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data = 8 (genap). Median = rata-rata data ke-4 dan ke-5 = $(6 + 7)/2 = 6{,}5$." },
+        { "tipe": "paragraph", "text": "Modus: nilai 7 muncul 3×. Modus = 7." },
+        { "tipe": "paragraph", "text": "Jadi, median = 6,5 dan modus = 7." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 10, 12, 14, 16, 18, 20. Simpangan rata-rata data tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = $90/6 = 15$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline x_i & |x_i - 15| \\\\ \\hline 10 & 5 \\\\ 12 & 3 \\\\ 14 & 1 \\\\ 16 & 1 \\\\ 18 & 3 \\\\ 20 & 5 \\\\ \\hline \\text{Jumlah} & 18 \\\\ \\hline \\end{array}" },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{18}{6} = 3" },
+        { "tipe": "paragraph", "text": "Jadi, simpangan rata-ratanya adalah 3." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data dengan rata-rata 50 dan simpangan baku 5. Koefisien variasi data tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5%"}],
+        [{"tipe":"paragraph","text":"8%"}],
+        [{"tipe":"paragraph","text":"10%"}],
+        [{"tipe":"paragraph","text":"12%"}],
+        [{"tipe":"paragraph","text":"15%"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\% = \\dfrac{5}{50} \\times 100\\% = 10\\%" },
+        { "tipe": "paragraph", "text": "Jadi, koefisien variasinya 10%." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tiga kelompok data masing-masing berukuran 10, 20, dan 30 dengan rata-rata 8, 10, dan 12. Rata-rata gabungan ketiganya adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"10,5"}],
+        [{"tipe":"paragraph","text":"10,67"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"11,5"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{10(8) + 20(10) + 30(12)}{60} = \\dfrac{80 + 200 + 360}{60} = \\dfrac{640}{60} = 10{,}67" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata gabungan ketiganya adalah 10,67." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 5, 6, 7, 8, 9. Jika data ke-3 dinaikkan menjadi 15, simpangan bakunya ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"bertambah"}],
+        [{"tipe":"paragraph","text":"berkurang"}],
+        [{"tipe":"paragraph","text":"tetap sama"}],
+        [{"tipe":"paragraph","text":"menjadi 0"}],
+        [{"tipe":"paragraph","text":"tidak dapat ditentukan"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data awal: 5, 6, 7, 8, 9 → rata-rata = 7, simpangan kecil." },
+        { "tipe": "paragraph", "text": "Setelah diubah: 5, 6, 15, 8, 9 → salah satu nilai (15) jauh dari rata-rata → **simpangan baku bertambah**." },
+        { "tipe": "paragraph", "text": "Jadi, simpangan baku bertambah." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
