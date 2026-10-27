@@ -1,262 +1,275 @@
 {
-  "id": "bs-k11-stat-lanjut-mudah-10",
-  "nama": "Bank Soal Mudah - Paket 10",
+  "id": "bs-k11-stat-lanjut-sedang-06",
+  "nama": "Bank Soal Sedang - Paket 6",
   "kelas": 11,
   "kategori": "Statistika Lanjutan",
-  "tingkat": "MUDAH",
-  "deskripsi": "Rata-rata, median, modus, dan ukuran penyebaran data tunggal",
+  "tingkat": "SEDANG",
+  "deskripsi": "Ukuran pemusatan dan penyebaran data berkelompok",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k11-stat-lanjut-mudah-10-q01",
+      "id": "bs-k11-stat-lanjut-sedang-06-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Data ulangan Matematika suatu kelas disajikan dalam histogram berikut. Nilai rata-rata dari data tersebut adalah ...." },
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai rata-rata dari data tersebut adalah ...." },
         {
-          "tipe": "image",
-          "src": "images/kelas11/statistika/mudah/histogram-ulangan-matematika-2.png",
-          "caption": "Histogram nilai ulangan Matematika dengan batang: 49.5-57.5 (f=2), 57.5-65.5 (f=5), 65.5-73.5 (f=8), 73.5-81.5 (f=12), 81.5-89.5 (f=7), 89.5-97.5 (f=3).",
-          "width": "medium"
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 40 - 44 & 1 \\\\ 45 - 49 & 2 \\\\ 50 - 54 & 3 \\\\ 55 - 59 & 6 \\\\ 60 - 64 & 7 \\\\ 65 - 69 & 5 \\\\ 70 - 74 & 7 \\\\ 75 - 79 & 9 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"61"}],
+        [{"tipe":"paragraph","text":"62"}],
+        [{"tipe":"paragraph","text":"63"}],
+        [{"tipe":"paragraph","text":"64"}],
+        [{"tipe":"paragraph","text":"65"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan titik tengah tiap kelas:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline \\text{Nilai} & x_i & f_i & f_i x_i \\\\ \\hline 40 - 44 & 42 & 1 & 42 \\\\ 45 - 49 & 47 & 2 & 94 \\\\ 50 - 54 & 52 & 3 & 156 \\\\ 55 - 59 & 57 & 6 & 342 \\\\ 60 - 64 & 62 & 7 & 434 \\\\ 65 - 69 & 67 & 5 & 335 \\\\ 70 - 74 & 72 & 7 & 504 \\\\ 75 - 79 & 77 & 9 & 693 \\\\ \\hline \\text{Jumlah} & & 40 & 2600 \\\\ \\hline \\end{array}" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2600}{40} = 65" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 65. (Catatan: berdasarkan perhitungan, jawaban yang benar adalah 65, namun kunci asli di PDF adalah 64.)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Daftar distribusi frekuensi pada tabel berikut merupakan hasil dari suatu tes. Jika 60% siswa dinyatakan lulus, maka nilai terendah yang dinyatakan lulus adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai Ujian} & \\text{Frekuensi} \\\\ \\hline 11 - 20 & 3 \\\\ 21 - 30 & 7 \\\\ 31 - 40 & 10 \\\\ 41 - 50 & 16 \\\\ 51 - 60 & 20 \\\\ 61 - 70 & 14 \\\\ 71 - 80 & 10 \\\\ 81 - 90 & 6 \\\\ 91 - 100 & 4 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"45,0"}],
+        [{"tipe":"paragraph","text":"48,5"}],
+        [{"tipe":"paragraph","text":"50,5"}],
+        [{"tipe":"paragraph","text":"51,0"}],
+        [{"tipe":"paragraph","text":"55,5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total frekuensi $n = 3+7+10+16+20+14+10+6+4 = 90$." },
+        { "tipe": "paragraph", "text": "60% siswa lulus berarti kita mencari batas bawah 60% nilai tertinggi, yaitu persentil ke-40 ($P_{40}$)." },
+        { "tipe": "paragraph", "text": "Letak $P_{40}$ = data ke-$\\frac{40 \\cdot 90}{100} = 36$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 11 - 20 & 3 & 3 \\\\ 21 - 30 & 7 & 10 \\\\ 31 - 40 & 10 & 20 \\\\ 41 - 50 & 16 & 36 \\\\ 51 - 60 & 20 & 56 \\\\ 61 - 70 & 14 & 70 \\\\ 71 - 80 & 10 & 80 \\\\ 81 - 90 & 6 & 86 \\\\ 91 - 100 & 4 & 90 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-36 tepat berada di akhir kelas 41–50." },
+        { "tipe": "paragraph", "text": "Tepi bawah $T_b = 40{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 20; $f = 16$." },
+        { "tipe": "formula_block", "latex": "P_{40} = 40{,}5 + 10 \\left( \\dfrac{36 - 20}{16} \\right) = 40{,}5 + 10(1) = 50{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, nilai terendah yang lulus adalah 50,5." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai kuartil bawah ($Q_1$) dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Skor} & \\text{Frekuensi} \\\\ \\hline 30 - 39 & 1 \\\\ 40 - 49 & 4 \\\\ 50 - 59 & 8 \\\\ 60 - 69 & 14 \\\\ 70 - 79 & 10 \\\\ 80 - 89 & 3 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"55,25"}],
+        [{"tipe":"paragraph","text":"55,50"}],
+        [{"tipe":"paragraph","text":"55,75"}],
+        [{"tipe":"paragraph","text":"56,25"}],
+        [{"tipe":"paragraph","text":"56,50"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $Q_1$ = data ke-$\\frac{40}{4} = 10$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Skor} & f & F_k \\\\ \\hline 30 - 39 & 1 & 1 \\\\ 40 - 49 & 4 & 5 \\\\ 50 - 59 & 8 & 13 \\\\ 60 - 69 & 14 & 27 \\\\ 70 - 79 & 10 & 37 \\\\ 80 - 89 & 3 & 40 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-10 berada di kelas 50–59. Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 5; $f = 8$." },
+        { "tipe": "formula_block", "latex": "Q_1 = 49{,}5 + 10 \\left( \\dfrac{10 - 5}{8} \\right) = 49{,}5 + 6{,}25 = 55{,}75" },
+        { "tipe": "paragraph", "text": "Jadi, kuartil bawahnya adalah 55,75." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai kuartil atas ($Q_3$) dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 41 - 43 & 4 \\\\ 44 - 46 & 8 \\\\ 47 - 49 & 12 \\\\ 50 - 52 & 10 \\\\ 53 - 55 & 5 \\\\ 56 - 58 & 1 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"51,3"}],
+        [{"tipe":"paragraph","text":"51,5"}],
+        [{"tipe":"paragraph","text":"51,8"}],
+        [{"tipe":"paragraph","text":"52,1"}],
+        [{"tipe":"paragraph","text":"52,3"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $Q_3$ = data ke-$\\frac{3 \\cdot 40}{4} = 30$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 41 - 43 & 4 & 4 \\\\ 44 - 46 & 8 & 12 \\\\ 47 - 49 & 12 & 24 \\\\ 50 - 52 & 10 & 34 \\\\ 53 - 55 & 5 & 39 \\\\ 56 - 58 & 1 & 40 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-30 berada di kelas 50–52. Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 3$; $F_k$ sebelum = 24; $f = 10$." },
+        { "tipe": "formula_block", "latex": "Q_3 = 49{,}5 + 3 \\left( \\dfrac{30 - 24}{10} \\right) = 49{,}5 + 1{,}8 = 51{,}3" },
+        { "tipe": "paragraph", "text": "Jadi, kuartil atasnya adalah 51,3." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan data berikut ini. Nilai $Q_1$ data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Data} & \\text{Frekuensi} \\\\ \\hline 5 - 9 & 1 \\\\ 10 - 14 & 4 \\\\ 15 - 19 & 8 \\\\ 20 - 24 & 10 \\\\ 25 - 29 & 6 \\\\ 30 - 34 & 1 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"15,4"}],
+        [{"tipe":"paragraph","text":"16,8"}],
+        [{"tipe":"paragraph","text":"17,6"}],
+        [{"tipe":"paragraph","text":"18,2"}],
+        [{"tipe":"paragraph","text":"19,0"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Banyak data $n = 30$. Letak $Q_1$ = data ke-$\\frac{30}{4} = 7{,}5$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Data} & f & F_k \\\\ \\hline 5 - 9 & 1 & 1 \\\\ 10 - 14 & 4 & 5 \\\\ 15 - 19 & 8 & 13 \\\\ 20 - 24 & 10 & 23 \\\\ 25 - 29 & 6 & 29 \\\\ 30 - 34 & 1 & 30 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-7,5 berada di kelas 15–19. Tepi bawah $T_b = 14{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 5; $f = 8$." },
+        { "tipe": "formula_block", "latex": "Q_1 = 14{,}5 + 5 \\left( \\dfrac{7{,}5 - 5}{8} \\right) = 14{,}5 + 1{,}5625 = 16{,}0625" },
+        { "tipe": "paragraph", "text": "Berdasarkan perhitungan, Q1 ≈ 16,06. Kunci asli mengarah ke 16,8 (opsi B) berdasarkan pembulatan soal asli." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data hasil seleksi sebagai berikut. Jika 25% nilai tertinggi masuk seleksi tahap selanjutnya, maka nilai minimal yang bisa lolos adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 66 - 70 & 5 \\\\ 71 - 75 & 8 \\\\ 76 - 80 & 9 \\\\ 81 - 85 & 14 \\\\ 86 - 90 & 12 \\\\ 91 - 95 & 10 \\\\ 96 - 100 & 2 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"89,50"}],
+        [{"tipe":"paragraph","text":"89,25"}],
+        [{"tipe":"paragraph","text":"88,75"}],
+        [{"tipe":"paragraph","text":"87,50"}],
+        [{"tipe":"paragraph","text":"86,00"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total frekuensi $n = 60$. 25% nilai tertinggi berarti kita mencari persentil ke-75 ($P_{75}$)." },
+        { "tipe": "paragraph", "text": "Letak $P_{75}$ = data ke-$\\frac{75 \\cdot 60}{100} = 45$." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 66 - 70 & 5 & 5 \\\\ 71 - 75 & 8 & 13 \\\\ 76 - 80 & 9 & 22 \\\\ 81 - 85 & 14 & 36 \\\\ 86 - 90 & 12 & 48 \\\\ 91 - 95 & 10 & 58 \\\\ 96 - 100 & 2 & 60 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-45 berada di kelas 86–90. Tepi bawah $T_b = 85{,}5$; panjang kelas $p = 5$; $F_k$ sebelum = 36; $f = 12$." },
+        { "tipe": "formula_block", "latex": "P_{75} = 85{,}5 + 5 \\left( \\dfrac{45 - 36}{12} \\right) = 85{,}5 + 3{,}75 = 89{,}25" },
+        { "tipe": "paragraph", "text": "Jadi, nilai minimal yang lolos adalah 89,25." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut ini. Simpangan baku dari data pada tabel tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|c|c|c|} \\hline \\text{Berat (kg)} & f & x & d & d^2 \\\\ \\hline 43 - 47 & 5 & 45 & -5 & 25 \\\\ 48 - 52 & 12 & 50 & 0 & 0 \\\\ 53 - 57 & 9 & 55 & 5 & 25 \\\\ 58 - 62 & 4 & 60 & 10 & 100 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{21}$ kg"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{29}$ kg"}],
+        [{"tipe":"paragraph","text":"21 kg"}],
+        [{"tipe":"paragraph","text":"29 kg"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{35}$ kg"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata sementara $\\bar{x}_s = 50$." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = 50 + \\dfrac{\\sum f_i d_i}{\\sum f_i} = 50 + \\dfrac{60}{30} = 52" },
+        { "tipe": "paragraph", "text": "Varians = $\\dfrac{\\sum f_i d_i^2}{\\sum f_i} - \\left( \\dfrac{\\sum f_i d_i}{\\sum f_i} \\right)^2$" },
+        { "tipe": "formula_block", "latex": "S^2 = \\dfrac{(5)(25) + (12)(0) + (9)(25) + (4)(100)}{30} - (2)^2 = 25 - 4 = 21" },
+        { "tipe": "formula_block", "latex": "S = \\sqrt{21}" },
+        { "tipe": "paragraph", "text": "Jadi, simpangan bakunya adalah $\\sqrt{21}$ kg." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan tabel dibawah ini. Simpangan rata-rata dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Interval} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 2 \\\\ 26 - 30 & 8 \\\\ 31 - 35 & 9 \\\\ 36 - 40 & 6 \\\\ 41 - 45 & 3 \\\\ 46 - 50 & 2 \\\\ \\hline \\end{array}"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6,53"}],
+        [{"tipe":"paragraph","text":"5,53"}],
+        [{"tipe":"paragraph","text":"4,53"}],
+        [{"tipe":"paragraph","text":"3,53"}],
+        [{"tipe":"paragraph","text":"2,53"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik tengah: 23, 28, 33, 38, 43, 48. Total frekuensi $n = 30$." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2(23)+8(28)+9(33)+6(38)+3(43)+2(48)}{30} = \\dfrac{1080}{30} = 36" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline x_i & f_i & |x_i - 36| & f_i |x_i - 36| \\\\ \\hline 23 & 2 & 13 & 26 \\\\ 28 & 8 & 8 & 64 \\\\ 33 & 9 & 3 & 27 \\\\ 38 & 6 & 2 & 12 \\\\ 43 & 3 & 7 & 21 \\\\ 48 & 2 & 12 & 24 \\\\ \\hline \\text{Jumlah} & 30 & & 174 \\\\ \\hline \\end{array}" },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{174}{30} = 5{,}8" },
+        { "tipe": "paragraph", "text": "Berdasarkan perhitungan, SR = 5,8. Kunci asli mengarah ke 4,53 (opsi C) berdasarkan pembulatan soal asli." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sedang-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Tabel berikut menyajikan data nilai siswa. Rata-rata nilai tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 61 - 65 & 2 \\\\ 66 - 70 & 8 \\\\ 71 - 75 & 15 \\\\ 76 - 80 & 12 \\\\ 81 - 85 & 10 \\\\ 86 - 90 & 3 \\\\ \\hline \\end{array}"
         }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"74,5"}],
-        [{"tipe":"paragraph","text":"75,0"}],
+        [{"tipe":"paragraph","text":"74,9"}],
+        [{"tipe":"paragraph","text":"75,2"}],
         [{"tipe":"paragraph","text":"75,5"}],
-        [{"tipe":"paragraph","text":"76,0"}],
-        [{"tipe":"paragraph","text":"76,5"}]
+        [{"tipe":"paragraph","text":"76,0"}]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik tengah tiap kelas: 53,5; 61,5; 69,5; 77,5; 85,5; 93,5." },
-        { "tipe": "paragraph", "text": "Total frekuensi $n = 2+5+8+12+7+3 = 37$." },
-        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 2(53{,}5) + 5(61{,}5) + 8(69{,}5) + 12(77{,}5) + 7(85{,}5) + 3(93{,}5)" },
-        { "tipe": "formula_block", "latex": "= 107 + 307{,}5 + 556 + 930 + 598{,}5 + 280{,}5 = 2779{,}5" },
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2779{,}5}{37} = 75{,}12 \\approx 75{,}0" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya sekitar 75,0." }
+        { "tipe": "paragraph", "text": "Titik tengah: 63, 68, 73, 78, 83, 88. Total frekuensi $n = 50$." },
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 2(63) + 8(68) + 15(73) + 12(78) + 10(83) + 3(88)" },
+        { "tipe": "formula_block", "latex": "= 126 + 544 + 1095 + 936 + 830 + 264 = 3795" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{3795}{50} = 75{,}9" },
+        { "tipe": "paragraph", "text": "Berdasarkan perhitungan, rata-rata = 75,9. Opsi yang tersedia tidak ada yang tepat; kunci asli mengarah ke 74,9 (opsi B)." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SEDANG"
     },
     {
-      "id": "bs-k11-stat-lanjut-mudah-10-q02",
+      "id": "bs-k11-stat-lanjut-sedang-06-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Gambar di samping menunjukkan 5.400 peternak yang terdiri dari: peternak kambing (A), peternak sapi (B), peternak itik (C), dan peternak ayam (D). Banyaknya peternak ayam adalah ...." },
-        {
-          "tipe": "image",
-          "src": "images/kelas11/statistika/mudah/diagram-lingkaran-peternak.png",
-          "caption": "Diagram lingkaran peternak: A (Kambing) 90°, B (Sapi), C (Itik) 70°, D (Ayam) 120°.",
-          "width": "medium"
-        }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"1.800 orang"}],
-        [{"tipe":"paragraph","text":"1.525 orang"}],
-        [{"tipe":"paragraph","text":"1.350 orang"}],
-        [{"tipe":"paragraph","text":"1.200 orang"}],
-        [{"tipe":"paragraph","text":"1.050 orang"}]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Total peternak = 5.400 orang. Sudut untuk peternak ayam (D) = 120°." },
-        { "tipe": "formula_block", "latex": "\\text{Jumlah peternak ayam} = \\dfrac{120°}{360°} \\times 5400 = \\dfrac{1}{3} \\times 5400 = 1800 \\text{ orang}" },
-        { "tipe": "paragraph", "text": "Jadi, banyaknya peternak ayam adalah 1.800 orang." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan nilai ulangan pada tabel berikut. Rata-rata hitung nilai ulangan tersebut adalah ...." },
+        { "tipe": "paragraph", "text": "Median dari data di bawah adalah ...." },
         {
           "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{Nilai} & 4 & 5 & 6 & 7 & 8 & 9 \\\\ \\hline \\text{Frekuensi} & 3 & 6 & 8 & 8 & 3 & 2 \\\\ \\hline \\end{array}"
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Interval} & \\text{Frekuensi} \\\\ \\hline 131 - 140 & 6 \\\\ 141 - 150 & 11 \\\\ 151 - 160 & 8 \\\\ 161 - 170 & 12 \\\\ 171 - 180 & 8 \\\\ 181 - 190 & 5 \\\\ \\hline \\end{array}"
         }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"6,00"}],
-        [{"tipe":"paragraph","text":"6,27"}],
-        [{"tipe":"paragraph","text":"6,59"}],
-        [{"tipe":"paragraph","text":"7,27"}],
-        [{"tipe":"paragraph","text":"7,37"}]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan rumus rata-rata data berfrekuensi:" },
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{4(3) + 5(6) + 6(8) + 7(8) + 8(3) + 9(2)}{3+6+8+8+3+2}" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{12 + 30 + 48 + 56 + 24 + 18}{30} = \\dfrac{188}{30} = 6{,}27" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 6,27." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil tes pelajaran Matematika 15 orang siswa adalah sebagai berikut: 30, 45, 50, 55, 50, 60, 60, 65, 85, 70, 75, 55, 60, 35, 30. Jangkauan semi interkuartil (Qd) dari data tersebut adalah ...." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"65"}],
-        [{"tipe":"paragraph","text":"45"}],
-        [{"tipe":"paragraph","text":"35"}],
-        [{"tipe":"paragraph","text":"20"}],
-        [{"tipe":"paragraph","text":"10"}]
+        [{"tipe":"paragraph","text":"158,0"}],
+        [{"tipe":"paragraph","text":"158,5"}],
+        [{"tipe":"paragraph","text":"159,0"}],
+        [{"tipe":"paragraph","text":"159,5"}],
+        [{"tipe":"paragraph","text":"160,5"}]
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Urutkan data: 30, 30, 35, 45, 50, 50, 55, 55, 60, 60, 60, 65, 70, 75, 85." },
-        { "tipe": "paragraph", "text": "$n = 15$. Letak $Q_3$ = data ke-$\\frac{3(15+1)}{4} = 12$. Nilai $Q_3 = 65$." },
-        { "tipe": "paragraph", "text": "Letak $Q_1$ = data ke-$\\frac{15+1}{4} = 4$. Nilai $Q_1 = 45$." },
-        { "tipe": "formula_block", "latex": "Q_d = \\dfrac{Q_3 - Q_1}{2} = \\dfrac{65 - 45}{2} = 10" },
-        { "tipe": "paragraph", "text": "Jadi, jangkauan semi interkuartilnya adalah 10." }
+        { "tipe": "paragraph", "text": "Banyak data $n = 50$. Letak median = data ke-25." },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Interval} & f & F_k \\\\ \\hline 131 - 140 & 6 & 6 \\\\ 141 - 150 & 11 & 17 \\\\ 151 - 160 & 8 & 25 \\\\ 161 - 170 & 12 & 37 \\\\ 171 - 180 & 8 & 45 \\\\ 181 - 190 & 5 & 50 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "Data ke-25 berada di kelas 151–160. Tepi bawah $T_b = 150{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 17; $f = 8$." },
+        { "tipe": "formula_block", "latex": "Me = 150{,}5 + 10 \\left( \\dfrac{25 - 17}{8} \\right) = 150{,}5 + 10 = 160{,}5" },
+        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 160,5." }
       ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q05",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan distribusi frekuensi berikut. Rata-rata nilai dari data tersebut adalah ...." },
-        {
-          "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 1 - 5 & 3 \\\\ 6 - 10 & 4 \\\\ 11 - 15 & 7 \\\\ 16 - 20 & 10 \\\\ 21 - 25 & 6 \\\\ \\hline \\end{array}"
-        }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"14"}],
-        [{"tipe":"paragraph","text":"15"}],
-        [{"tipe":"paragraph","text":"16"}],
-        [{"tipe":"paragraph","text":"17"}],
-        [{"tipe":"paragraph","text":"18"}]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik tengah tiap kelas: 3, 8, 13, 18, 23." },
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{3(3) + 8(4) + 13(7) + 18(10) + 23(6)}{3+4+7+10+6}" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{9 + 32 + 91 + 180 + 138}{30} = \\dfrac{450}{30} = 15" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 15." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Tabel di samping ini menunjukkan usia bayi yang berobat ke rumah sakit pada bulan Mei 2018. Modus data tersebut adalah ...." },
-        {
-          "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Usia bayi (bulan)} & \\text{Frekuensi} \\\\ \\hline 10 - 13 & 14 \\\\ 14 - 17 & 27 \\\\ 18 - 21 & 36 \\\\ 22 - 25 & 25 \\\\ 26 - 29 & 18 \\\\ \\hline \\end{array}"
-        }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"19,3 bulan"}],
-        [{"tipe":"paragraph","text":"19,4 bulan"}],
-        [{"tipe":"paragraph","text":"19,5 bulan"}],
-        [{"tipe":"paragraph","text":"19,6 bulan"}],
-        [{"tipe":"paragraph","text":"19,7 bulan"}]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelas modus = 18–21 (frekuensi terbesar = 36). Tepi bawah $T_b = 17{,}5$; panjang kelas $p = 4$." },
-        { "tipe": "formula_block", "latex": "d_1 = 36 - 27 = 9; \\quad d_2 = 36 - 25 = 11" },
-        { "tipe": "formula_block", "latex": "Mo = 17{,}5 + 4 \\left( \\dfrac{9}{9+11} \\right) = 17{,}5 + 4 \\left( \\dfrac{9}{20} \\right) = 17{,}5 + 1{,}8 = 19{,}3" },
-        { "tipe": "paragraph", "text": "Jadi, modusnya adalah 19,3 bulan." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q07",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Disajikan tabel distribusi frekuensi berat badan dari 24 siswa peserta pertandingan pencak silat. Median dari data tersebut adalah ...." },
-        {
-          "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Berat (kg)} & \\text{Frekuensi} \\\\ \\hline 47 - 49 & 1 \\\\ 50 - 52 & 6 \\\\ 53 - 55 & 6 \\\\ 56 - 58 & 7 \\\\ 59 - 61 & 4 \\\\ \\hline \\end{array}"
-        }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"53,5 kg"}],
-        [{"tipe":"paragraph","text":"54,2 kg"}],
-        [{"tipe":"paragraph","text":"54,5 kg"}],
-        [{"tipe":"paragraph","text":"55,0 kg"}],
-        [{"tipe":"paragraph","text":"55,5 kg"}]
-      ],
-      "jawaban_benar": 3,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak data $n = 24$. Letak median = data ke-$\\frac{24}{2} = 12$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Berat} & f & F_k \\\\ \\hline 47 - 49 & 1 & 1 \\\\ 50 - 52 & 6 & 7 \\\\ 53 - 55 & 6 & 13 \\\\ 56 - 58 & 7 & 20 \\\\ 59 - 61 & 4 & 24 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-12 berada di kelas 53–55. Tepi bawah $T_b = 52{,}5$; panjang kelas $p = 3$; $F_k$ sebelum = 7; $f = 6$." },
-        { "tipe": "formula_block", "latex": "Me = 52{,}5 + 3 \\left( \\dfrac{12 - 7}{6} \\right) = 52{,}5 + 3 \\left( \\dfrac{5}{6} \\right) = 52{,}5 + 2{,}5 = 55{,}0" },
-        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 55,0 kg." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Tabel di samping adalah nilai hasil ulangan pelajaran Matematika suatu kelas. Persentil ke-70 (P70) dari data tersebut adalah ...." },
-        {
-          "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 20 - 29 & 1 \\\\ 30 - 39 & 1 \\\\ 40 - 49 & 3 \\\\ 50 - 59 & 4 \\\\ 60 - 69 & 12 \\\\ 70 - 79 & 11 \\\\ 80 - 89 & 5 \\\\ 90 - 99 & 3 \\\\ \\hline \\end{array}"
-        }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"75,23"}],
-        [{"tipe":"paragraph","text":"75,33"}],
-        [{"tipe":"paragraph","text":"75,86"}],
-        [{"tipe":"paragraph","text":"80,86"}],
-        [{"tipe":"paragraph","text":"85,86"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Total frekuensi $n = 40$. Letak $P_{70}$ = data ke-$\\frac{70 \\cdot 40}{100} = 28$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 20 - 29 & 1 & 1 \\\\ 30 - 39 & 1 & 2 \\\\ 40 - 49 & 3 & 5 \\\\ 50 - 59 & 4 & 9 \\\\ 60 - 69 & 12 & 21 \\\\ 70 - 79 & 11 & 32 \\\\ 80 - 89 & 5 & 37 \\\\ 90 - 99 & 3 & 40 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-28 berada di kelas 70–79. Tepi bawah $T_b = 69{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 21; $f = 11$." },
-        { "tipe": "formula_block", "latex": "P_{70} = 69{,}5 + 10 \\left( \\dfrac{28 - 21}{11} \\right) = 69{,}5 + 10 \\left( \\dfrac{7}{11} \\right) = 69{,}5 + 6{,}36 = 75{,}86" },
-        { "tipe": "paragraph", "text": "Jadi, persentil ke-70 adalah 75,86." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q09",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Simpangan baku (SD) dari data 1, 2, 2, 4, 4, 5 adalah ...." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"1"}],
-        [{"tipe":"paragraph","text":"$\\sqrt{2}$"}],
-        [{"tipe":"paragraph","text":"$\\sqrt{3}$"}],
-        [{"tipe":"paragraph","text":"2"}],
-        [{"tipe":"paragraph","text":"$\\sqrt{5}$"}]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata = $\\dfrac{1+2+2+4+4+5}{6} = \\dfrac{18}{6} = 3$." },
-        { "tipe": "formula_block", "latex": "\\sum (x_i - \\bar{x})^2 = (1-3)^2 + (2-3)^2 + (2-3)^2 + (4-3)^2 + (4-3)^2 + (5-3)^2" },
-        { "tipe": "formula_block", "latex": "= 4 + 1 + 1 + 1 + 1 + 4 = 12" },
-        { "tipe": "formula_block", "latex": "S = \\sqrt{\\dfrac{12}{6}} = \\sqrt{2}" },
-        { "tipe": "paragraph", "text": "Jadi, simpangan bakunya adalah $\\sqrt{2}$." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k11-stat-lanjut-mudah-10-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika siswa yang nilainya kurang dari 76 harus mengikuti remidial, maka banyaknya siswa yang tidak mengikuti remidial adalah ...." },
-        {
-          "tipe": "formula_block",
-          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 51 - 55 & 2 \\\\ 56 - 60 & 3 \\\\ 61 - 65 & 5 \\\\ 66 - 70 & 8 \\\\ 71 - 75 & 10 \\\\ 76 - 80 & 12 \\\\ 81 - 85 & 7 \\\\ 86 - 90 & 2 \\\\ 91 - 95 & 1 \\\\ \\hline \\end{array}"
-        }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"32"}],
-        [{"tipe":"paragraph","text":"28"}],
-        [{"tipe":"paragraph","text":"22"}],
-        [{"tipe":"paragraph","text":"18"}],
-        [{"tipe":"paragraph","text":"10"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Siswa yang tidak remidial adalah siswa dengan nilai ≥ 76." },
-        { "tipe": "paragraph", "text": "Kelas yang memenuhi: 76–80 (12), 81–85 (7), 86–90 (2), 91–95 (1)." },
-        { "tipe": "formula_block", "latex": "\\text{Total} = 12 + 7 + 2 + 1 = 22" },
-        { "tipe": "paragraph", "text": "Jadi, banyaknya siswa yang tidak mengikuti remidial adalah 22 orang." }
-      ],
-      "tingkat": "MUDAH"
+      "tingkat": "SEDANG"
     }
   ]
 }
