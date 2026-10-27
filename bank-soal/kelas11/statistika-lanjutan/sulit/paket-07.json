@@ -1,0 +1,216 @@
+{
+  "id": "bs-k11-stat-lanjut-sulit-07",
+  "nama": "Bank Soal Sulit - Paket 7",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SULIT",
+  "deskripsi": "Analisis perubahan statistik dan data gabungan",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 20 data adalah 25. Jika setiap data dikurangi 5, rata-ratanya menjadi ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"18"}],
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"22"}],
+        [{"tipe":"paragraph","text":"25"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap nilai dikurangi konstanta $k$, rata-rata berkurang $k$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 25 - 5 = 20" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya menjadi 20." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 12 data adalah 30 dengan varians 25. Jika setiap nilai dikalikan 2, variansnya menjadi ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"25"}],
+        [{"tipe":"paragraph","text":"50"}],
+        [{"tipe":"paragraph","text":"75"}],
+        [{"tipe":"paragraph","text":"100"}],
+        [{"tipe":"paragraph","text":"125"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap nilai dikalikan $k$, varians menjadi $k^2 \\times S^2$." },
+        { "tipe": "formula_block", "latex": "S^2_{\\text{baru}} = 2^2 \\times 25 = 4 \\times 25 = 100" },
+        { "tipe": "paragraph", "text": "Jadi, variansnya menjadi 100." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 25 siswa adalah 68. Jika 5 siswa dengan rata-rata 80 keluar, rata-rata siswa yang tersisa adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"63"}],
+        [{"tipe":"paragraph","text":"64"}],
+        [{"tipe":"paragraph","text":"65"}],
+        [{"tipe":"paragraph","text":"66"}],
+        [{"tipe":"paragraph","text":"67"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total nilai 25 siswa = $25 \\times 68 = 1700$." },
+        { "tipe": "paragraph", "text": "Total nilai 5 siswa keluar = $5 \\times 80 = 400$." },
+        { "tipe": "paragraph", "text": "Total nilai 20 siswa sisa = $1700 - 400 = 1300$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{sisa}} = \\dfrac{1300}{20} = 65" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 65." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 4, 5, 6, 7, 8, 9, 10. Jika setiap nilai ditambah $k$ sehingga rata-rata menjadi 12, maka $k$ = ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata awal = $49/7 = 7$." },
+        { "tipe": "paragraph", "text": "Rata-rata baru = 12, maka $7 + k = 12 \\Rightarrow k = 5$." },
+        { "tipe": "paragraph", "text": "Jadi, $k = 5$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui data: 3, 4, 5, 6, 8. Nilai $Q_1$, $Q_2$, dan $Q_3$ berturut-turut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"4, 5, 6"}],
+        [{"tipe":"paragraph","text":"3, 5, 8"}],
+        [{"tipe":"paragraph","text":"4, 5, 8"}],
+        [{"tipe":"paragraph","text":"3, 5, 6"}],
+        [{"tipe":"paragraph","text":"4, 6, 8"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data urut: 3, 4, 5, 6, 8. $n = 5$ (ganjil)." },
+        { "tipe": "paragraph", "text": "$Q_2$ = median = data ke-3 = 5." },
+        { "tipe": "paragraph", "text": "$Q_1$ = median data di bawah median: (3, 4) → $Q_1 = 4$." },
+        { "tipe": "paragraph", "text": "$Q_3$ = median data di atas median: (6, 8) → $Q_3 = 6$." },
+        { "tipe": "paragraph", "text": "Jadi, $Q_1 = 4, Q_2 = 5, Q_3 = 6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata sekelompok data adalah 40 dan jangkauannya 30. Jika data terbesar adalah 60, data terkecil adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"25"}],
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"35"}],
+        [{"tipe":"paragraph","text":"40"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "30 = 60 - x_{\\min} \\Rightarrow x_{\\min} = 30" },
+        { "tipe": "paragraph", "text": "Jadi, data terkecilnya adalah 30." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai rata-rata ujian 30 siswa adalah 65. Jika nilai seorang siswa yang awalnya 80 diperbaiki menjadi 90, rata-rata baru adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"65,0"}],
+        [{"tipe":"paragraph","text":"65,3"}],
+        [{"tipe":"paragraph","text":"65,5"}],
+        [{"tipe":"paragraph","text":"66,0"}],
+        [{"tipe":"paragraph","text":"66,3"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total nilai awal = $30 \\times 65 = 1950$." },
+        { "tipe": "paragraph", "text": "Setelah perbaikan: $1950 - 80 + 90 = 1960$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{1960}{30} = 65{,}333\\ldots \\approx 65{,}3" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata barunya adalah 65,3." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 2, 3, 4, 5, 6, 7, 8. Nilai desil ke-3 ($D_3$) adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"3,4"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"4,5"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 7$. Letak $D_3$ = data ke-$\\frac{3(7+1)}{10} = 2{,}4$." },
+        { "tipe": "formula_block", "latex": "D_3 = x_2 + 0{,}4(x_3 - x_2) = 3 + 0{,}4(4-3) = 3 + 0{,}4 = 3{,}4" },
+        { "tipe": "paragraph", "text": "Jadi, $D_3 = 3{,}4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data: 15, 12, 18, 10, 14, 20, 16, 11 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"13,5"}],
+        [{"tipe":"paragraph","text":"14"}],
+        [{"tipe":"paragraph","text":"14,5"}],
+        [{"tipe":"paragraph","text":"15"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Urutkan: 10, 11, 12, 14, 15, 16, 18, 20. $n = 8$ (genap)." },
+        { "tipe": "paragraph", "text": "Median = rata-rata data ke-4 dan ke-5 = $(14 + 15)/2 = 14{,}5$." },
+        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 14,5." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata 5 data adalah 12. Jika satu data baru ditambahkan, rata-ratanya menjadi 13. Nilai data baru tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"16"}],
+        [{"tipe":"paragraph","text":"18"}],
+        [{"tipe":"paragraph","text":"20"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total 5 data = $5 \\times 12 = 60$." },
+        { "tipe": "paragraph", "text": "Total 6 data = $6 \\times 13 = 78$." },
+        { "tipe": "formula_block", "latex": "x_{\\text{baru}} = 78 - 60 = 18" },
+        { "tipe": "paragraph", "text": "Jadi, data baru tersebut adalah 18." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
