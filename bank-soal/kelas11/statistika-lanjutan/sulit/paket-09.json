@@ -1,0 +1,209 @@
+{
+  "id": "bs-k11-stat-lanjut-sulit-09",
+  "nama": "Bank Soal Sulit - Paket 9",
+  "kelas": 11,
+  "kategori": "Statistika Lanjutan",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal analisis dan penerapan statistika",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Median dari data: 12, 15, 18, 20, 25, 30 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"18"}],
+        [{"tipe":"paragraph","text":"19"}],
+        [{"tipe":"paragraph","text":"20"}],
+        [{"tipe":"paragraph","text":"21"}],
+        [{"tipe":"paragraph","text":"22"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$n = 6$ (genap). Median = rata-rata data ke-3 dan ke-4." },
+        { "tipe": "formula_block", "latex": "Me = \\dfrac{18+20}{2} = 19" },
+        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 19." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data: 5, 7, 8, 10, 12, 18 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"13"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{5+7+8+10+12+18}{6} = \\dfrac{60}{6} = 10" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 10." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 4, 6, 8, 10, 12. Jika data ke-3 dinaikkan menjadi 20, rata-ratanya menjadi ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"10,4"}],
+        [{"tipe":"paragraph","text":"12"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Data baru: 4, 6, 20, 10, 12 → jumlah = 52." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{52}{5} = 10{,}4" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya menjadi 10,4." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data tunggal: 5, 5, 6, 7, 7, 7, 8, 9. Nilai modus dan median data tersebut berturut-turut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5 dan 7"}],
+        [{"tipe":"paragraph","text":"7 dan 7"}],
+        [{"tipe":"paragraph","text":"7 dan 6,5"}],
+        [{"tipe":"paragraph","text":"7 dan 7,5"}],
+        [{"tipe":"paragraph","text":"5 dan 6,5"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Modus = nilai paling sering = 7 (muncul 3×)." },
+        { "tipe": "paragraph", "text": "$n = 8$ (genap). Median = rata-rata data ke-4 dan ke-5 = $(7 + 7)/2 = 7$." },
+        { "tipe": "paragraph", "text": "Jadi, modus = 7 dan median = 7." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Simpangan rata-rata dari data: 6, 8, 10, 12 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"1,5"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"2,5"}],
+        [{"tipe":"paragraph","text":"3"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rata-rata = $(6+8+10+12)/4 = 9$." },
+        { "tipe": "paragraph", "text": "Simpangan: 3, 1, 1, 3 → jumlah = 8." },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{8}{4} = 2" },
+        { "tipe": "paragraph", "text": "Jadi, simpangan rata-ratanya adalah 2." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata nilai 30 siswa adalah 70. Setelah 10 siswa dikeluarkan (dengan rata-rata 60), rata-rata siswa yang tersisa adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"73"}],
+        [{"tipe":"paragraph","text":"74"}],
+        [{"tipe":"paragraph","text":"75"}],
+        [{"tipe":"paragraph","text":"76"}],
+        [{"tipe":"paragraph","text":"77"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total 30 siswa = $30 \\times 70 = 2100$." },
+        { "tipe": "paragraph", "text": "Total 10 siswa keluar = $10 \\times 60 = 600$." },
+        { "tipe": "paragraph", "text": "Total 20 siswa sisa = $2100 - 600 = 1500$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{sisa}} = \\dfrac{1500}{20} = 75" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 75." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 10, 12, 15, 18, 20, 25. Nilai jangkauan antarkuartilnya adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bagi dua: bawah = 10, 12, 15 → $Q_1 = 12$; atas = 18, 20, 25 → $Q_3 = 20$." },
+        { "tipe": "formula_block", "latex": "H = Q_3 - Q_1 = 20 - 12 = 8" },
+        { "tipe": "paragraph", "text": "Jadi, jangkauan antarkuartilnya adalah 8." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Data: 4, 6, 8, 10, 12, 14. Jika setiap nilai dikurangi 2, maka simpangan bakunya ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"bertambah 2"}],
+        [{"tipe":"paragraph","text":"berkurang 2"}],
+        [{"tipe":"paragraph","text":"tetap sama"}],
+        [{"tipe":"paragraph","text":"menjadi 0"}],
+        [{"tipe":"paragraph","text":"menjadi 2×"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jika setiap nilai ditambah/dikurangi konstanta, simpangan baku **tidak berubah**." },
+        { "tipe": "paragraph", "text": "Jadi, simpangan bakunya tetap sama." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Rata-rata dari data: 4, 6, 8, 10, 12, 14 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"10"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{4+6+8+10+12+14}{6} = \\dfrac{54}{6} = 9" },
+        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 9." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-stat-lanjut-sulit-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu data berdistribusi menceng ke kanan (positif). Manakah urutan yang paling mungkin?" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"modus < median < rata-rata"}],
+        [{"tipe":"paragraph","text":"rata-rata < median < modus"}],
+        [{"tipe":"paragraph","text":"median < rata-rata < modus"}],
+        [{"tipe":"paragraph","text":"median < modus < rata-rata"}],
+        [{"tipe":"paragraph","text":"rata-rata = median = modus"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Distribusi menceng ke kanan: ekor di kanan panjang, sehingga modus < median < rata-rata." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
