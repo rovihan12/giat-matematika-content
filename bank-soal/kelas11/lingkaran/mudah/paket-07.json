@@ -1,0 +1,248 @@
+{
+  "id": "bs-k11-ling-m-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "MUDAH",
+  "deskripsi": "Soal mudah tentang aplikasi keliling dan luas lingkaran",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-ling-m-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah roda berputar sebanyak $200$ kali untuk melintasi jalan sepanjang $314$ meter. Jika $\\pi = 3{,}14$, maka jari-jari roda adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$22$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$23$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$25$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$50$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$100$ cm" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jarak tempuh $= 314$ m $= 31.400$ cm." },
+        { "tipe": "paragraph", "text": "Keliling roda $= \\dfrac{31.400}{200} = 157$ cm." },
+        { "tipe": "paragraph", "text": "$K = 2\\pi r \\Rightarrow 157 = 2 \\cdot 3{,}14 \\cdot r \\Rightarrow 157 = 6{,}28r \\Rightarrow r = 25$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah roda berjari-jari $25$ cm. Untuk menempuh jarak sejauh $157$ meter, maka roda harus berputar sebanyak... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50$ kali" } ],
+        [ { "tipe": "paragraph", "text": "$100$ kali" } ],
+        [ { "tipe": "paragraph", "text": "$110$ kali" } ],
+        [ { "tipe": "paragraph", "text": "$120$ kali" } ],
+        [ { "tipe": "paragraph", "text": "$150$ kali" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling roda $= 2\\pi r = 2 \\cdot 3{,}14 \\cdot 25 = 157$ cm $= 1{,}57$ m." },
+        { "tipe": "paragraph", "text": "Banyak putaran $= \\dfrac{157 \\text{ m}}{1{,}57 \\text{ m}} = 100$ kali." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perbandingan luas dua lingkaran yang memiliki keliling masing-masing $12$ cm dan $15$ cm adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$4 : 5$" } ],
+        [ { "tipe": "paragraph", "text": "$8 : 15$" } ],
+        [ { "tipe": "paragraph", "text": "$9 : 16$" } ],
+        [ { "tipe": "paragraph", "text": "$16 : 25$" } ],
+        [ { "tipe": "paragraph", "text": "$25 : 36$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Perbandingan keliling $K_1 : K_2 = 12 : 15 = 4 : 5$." },
+        { "tipe": "paragraph", "text": "Karena $K \\propto r$, maka $r_1 : r_2 = 4 : 5$." },
+        { "tipe": "paragraph", "text": "Perbandingan luas $L_1 : L_2 = r_1^2 : r_2^2 = 4^2 : 5^2 = 16 : 25$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Luas daerah yang diarsir adalah... ($\\pi = \\dfrac{22}{7}$)" },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/persegi-lingkaran.png",
+          "caption": "Sebuah persegi dengan panjang sisi 14 cm. Di dalamnya terdapat lingkaran yang menyinggung keempat sisi persegi. Daerah di luar lingkaran di dalam persegi diarsir.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$196$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$154$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$52$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$42$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$38$ cm²" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sisi persegi $= 14$ cm, maka luas persegi $= 14 \\times 14 = 196$ cm²." },
+        { "tipe": "paragraph", "text": "Diameter lingkaran $= 14$ cm, maka $r = 7$ cm. Luas lingkaran $= \\dfrac{22}{7} \\cdot 7^2 = 154$ cm²." },
+        { "tipe": "paragraph", "text": "Luas daerah diarsir $= 196 - 154 = 42$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika $\\pi = 3{,}14$, keliling daerah yang diarsir adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/persegi-gabungan-lingkaran.png",
+          "caption": "Persegi panjang berukuran 30 cm x 20 cm. Di sisi kiri dan kanannya terdapat setengah lingkaran yang dipotong (cekung) ke dalam. Daerah di antaranya diarsir.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$122{,}8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$114$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$108{,}5$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$91{,}4$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$80$ cm" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling daerah diarsir terdiri dari dua sisi lurus atas dan bawah (masing-masing 30 cm) dan dua busur setengah lingkaran (kiri dan kanan)." },
+        { "tipe": "paragraph", "text": "Diameter setengah lingkaran $= 20$ cm, maka keliling satu lingkaran penuh $= \\pi d = 3{,}14 \\times 20 = 62{,}8$ cm." },
+        { "tipe": "paragraph", "text": "Keliling total $= 30 + 30 + 62{,}8 = 122{,}8$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pada gambar di samping, AC adalah diameter, besar sudut AOB adalah $45^\\circ$. Jika panjang OA $= 7$ cm, maka luas juring OBC adalah... ($\\pi = \\dfrac{22}{7}$)" },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/juring-obc.png",
+          "caption": "Lingkaran dengan diameter AC. Titik B berada pada lingkaran. Sudut AOB = 45 derajat. Daerah juring OBC diarsir.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$59$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$58$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$57$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$56$ cm²" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut AOC adalah garis lurus $= 180^\\circ$." },
+        { "tipe": "paragraph", "text": "Sudut BOC $= 180^\\circ - 45^\\circ = 135^\\circ$." },
+        { "tipe": "paragraph", "text": "Luas juring OBC $= \\dfrac{135^\\circ}{360^\\circ} \\times \\dfrac{22}{7} \\times 7^2 = \\dfrac{3}{8} \\times 154 = 57{,}75$ cm²." },
+        { "tipe": "paragraph", "text": "Dibulatkan menjadi $58$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika panjang busur AB $= 5{,}5$ cm, dan $\\pi = \\dfrac{22}{7}$, maka besar sudut AOB adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/busur-ab-55.png",
+          "caption": "Lingkaran dengan pusat O dan jari-jari 7 cm. Terdapat busur AB dengan panjang 5,5 cm. Sudut AOB ditanyakan.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$120^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling lingkaran $= 2 \\cdot \\dfrac{22}{7} \\cdot 7 = 44$ cm." },
+        { "tipe": "paragraph", "text": "$\\text{Panjang busur} = \\dfrac{\\alpha}{360^\\circ} \\times K \\Rightarrow 5{,}5 = \\dfrac{\\alpha}{360^\\circ} \\times 44$." },
+        { "tipe": "paragraph", "text": "$\\alpha = \\dfrac{5{,}5}{44} \\times 360^\\circ = \\dfrac{1}{8} \\times 360^\\circ = 45^\\circ$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah taman rumput berbentuk lingkaran dengan jari-jari $20$ m. Di dalam taman itu terdapat kolam berbentuk persegi panjang dengan panjang $16$ m dan lebar $12$ m. Jika harga rumput Rp $3.250{,}00$ per m² dan ongkos tukang Rp $750.000{,}00$, maka biaya yang diperlukan untuk penanaman rumput adalah... ($\\pi = 3{,}14$)" }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Rp $3.650.000{,}00$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $4.208.000{,}00$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $4.400.000{,}00$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $5.150.000{,}00$" } ],
+        [ { "tipe": "paragraph", "text": "Rp $6.350.000{,}00$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas taman $= \\pi r^2 = 3{,}14 \\times 20^2 = 3{,}14 \\times 400 = 1.256$ m²." },
+        { "tipe": "paragraph", "text": "Luas kolam $= 16 \\times 12 = 192$ m²." },
+        { "tipe": "paragraph", "text": "Luas rumput $= 1.256 - 192 = 1.064$ m²." },
+        { "tipe": "paragraph", "text": "Biaya rumput $= 1.064 \\times 3.250 = 3.458.000$." },
+        { "tipe": "paragraph", "text": "Total biaya $= 3.458.000 + 750.000 = \\text{Rp } 4.208.000{,}00$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling daerah yang diarsir pada gambar berikut adalah... ($\\pi = 3{,}14$)" },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/keliling-seperempat-lingkaran.png",
+          "caption": "Bangun datar seperempat lingkaran dengan jari-jari 10 cm. Daerah diarsir adalah bagian dalam seperempat lingkaran tersebut.",
+          "width": "small"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$82{,}8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$67{,}1$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$61{,}1$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$47{,}1$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$35{,}7$ cm" } ]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Keliling daerah diarsir (seperempat lingkaran) terdiri dari dua sisi jari-jari dan satu busur seperempat lingkaran." },
+        { "tipe": "paragraph", "text": "Busur $= \\dfrac{1}{4} \\times 2\\pi r = \\dfrac{1}{4} \\times 2 \\times 3{,}14 \\times 10 = 15{,}7$ cm." },
+        { "tipe": "paragraph", "text": "Keliling total $= 10 + 10 + 15{,}7 = 35{,}7$ cm." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-ling-m-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika luas juring COD $= 80$ cm² dan besar sudut BOC adalah $45^\\circ$, maka luas juring BOC adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/mudah/juring-cod-boc.png",
+          "caption": "Lingkaran dengan diameter AB. Titik D berada di atas, titik C di kanan atas. Sudut COD = 60 derajat, dan sudut BOC adalah 45 derajat.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$50$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$45$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$40$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$30$ cm²" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari keterangan gambar, $\\angle BOC = 45^\\circ$ dan $\\angle COD = 60^\\circ$." },
+        { "tipe": "paragraph", "text": "$L_{BOC} = \\dfrac{\\angle BOC}{\\angle COD} \\times L_{COD} = \\dfrac{45^\\circ}{60^\\circ} \\times 80 = \\dfrac{3}{4} \\times 80 = 60$ cm²." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
