@@ -1,0 +1,215 @@
+{
+  "id": "bs-k11-mat-lanjut-mudah-08",
+  "nama": "Bank Soal Mudah - Paket 8",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Transformasi geometri dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $(2,4)$ oleh rotasi dengan pusat $(-2,-1)$ sebesar $90^\\circ$ berlawanan arah jarum jam adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-7,3)$"}],
+        [{"tipe":"paragraph","text":"$(-2,-7)$"}],
+        [{"tipe":"paragraph","text":"$(3,7)$"}],
+        [{"tipe":"paragraph","text":"$(4,3)$"}],
+        [{"tipe":"paragraph","text":"$(7,-3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus rotasi $90^\\circ$ dengan pusat $(a,b)$:" },
+        { "tipe": "formula_block", "latex": "x' - a = -(y - b) \\Rightarrow x' = a - (y - b)" },
+        { "tipe": "formula_block", "latex": "y' - b = x - a \\Rightarrow y' = b + (x - a)" },
+        { "tipe": "paragraph", "text": "Substitusi titik $(2,4)$ dan pusat $(-2,-1)$:" },
+        { "tipe": "formula_block", "latex": "x' = -2 - (4 - (-1)) = -2 - 5 = -7" },
+        { "tipe": "formula_block", "latex": "y' = -1 + (2 - (-2)) = -1 + 4 = 3" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya adalah $(-7,3)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika garis $y = x + 5$ ditranslasikan oleh $T\\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$, maka persamaan garis bayangannya adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = x + 8$"}],
+        [{"tipe":"paragraph","text":"$y = x + 7$"}],
+        [{"tipe":"paragraph","text":"$y = x + 6$"}],
+        [{"tipe":"paragraph","text":"$y = x - 6$"}],
+        [{"tipe":"paragraph","text":"$y = x$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Translasi $\\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ berarti $x' = x + 2 \\Rightarrow x = x' - 2$ dan $y' = y + 3 \\Rightarrow y = y' - 3$." },
+        { "tipe": "paragraph", "text": "Substitusi ke persamaan garis:" },
+        { "tipe": "formula_block", "latex": "y' - 3 = (x' - 2) + 5 \\Rightarrow y' = x' + 6" },
+        { "tipe": "paragraph", "text": "Jadi, persamaan bayangannya adalah $y = x + 6$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah titik $A(4,5)$ didilatasikan dengan faktor skala $-2$ terhadap titik $P(1,2)$. Selanjutnya, dicerminkan terhadap titik $P$. Bayangan dari titik $A$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(5,4)$"}],
+        [{"tipe":"paragraph","text":"$(6,8)$"}],
+        [{"tipe":"paragraph","text":"$(7,8)$"}],
+        [{"tipe":"paragraph","text":"$(8,6)$"}],
+        [{"tipe":"paragraph","text":"$(10,7)$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dilatasi terhadap $P(1,2)$ dengan skala $k = -2$:" },
+        { "tipe": "formula_block", "latex": "A' = P + k(A - P) = (1,2) - 2(4-1, 5-2) = (1,2) - 2(3,3) = (-5,-4)" },
+        { "tipe": "paragraph", "text": "Pencerminan terhadap titik $P(1,2)$:" },
+        { "tipe": "formula_block", "latex": "A'' = 2P - A' = 2(1,2) - (-5,-4) = (2,4) + (5,4) = (7,8)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangan akhirnya adalah $(7,8)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika titik $M(2,1)$ direfleksikan terhadap garis $x = 1$ dan terhadap garis $y = 2$, maka bayangan $M''$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$M''(0,1)$"}],
+        [{"tipe":"paragraph","text":"$M''(0,3)$"}],
+        [{"tipe":"paragraph","text":"$M''(2,4)$"}],
+        [{"tipe":"paragraph","text":"$M''(3,5)$"}],
+        [{"tipe":"paragraph","text":"$M''(12,3)$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap $x = 1$: $(x,y) \\to (2(1)-x, y) = (2-x, y)$." },
+        { "tipe": "formula_block", "latex": "M(2,1) \\to M'(0,1)" },
+        { "tipe": "paragraph", "text": "Refleksi terhadap $y = 2$: $(x,y) \\to (x, 2(2)-y) = (x, 4-y)$." },
+        { "tipe": "formula_block", "latex": "M'(0,1) \\to M''(0, 4-1) = (0,3)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bayangan titik $A(3,-2)$ yang ditranslasikan oleh $T = \\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$A'(0,6)$"}],
+        [{"tipe":"paragraph","text":"$A'(0,-2)$"}],
+        [{"tipe":"paragraph","text":"$A'(6,6)$"}],
+        [{"tipe":"paragraph","text":"$A'(6,-2)$"}],
+        [{"tipe":"paragraph","text":"$A'(0,-6)$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Translasi: $A' = A + T$." },
+        { "tipe": "formula_block", "latex": "A' = (3 + 3, -2 + 0) = (6, -2)" },
+        { "tipe": "paragraph", "text": "Jadi, bayangannya adalah $A'(6,-2)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah titik $P$ ditranslasi oleh $T\\begin{pmatrix} -10 \\\\ 7 \\end{pmatrix}$ menghasilkan bayangan titik $P'(-17,13)$. Koordinat titik asal $P$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-7,6)$"}],
+        [{"tipe":"paragraph","text":"$(-5,-4)$"}],
+        [{"tipe":"paragraph","text":"$(4,20)$"}],
+        [{"tipe":"paragraph","text":"$(12,-4)$"}],
+        [{"tipe":"paragraph","text":"$(12,-20)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Translasi: $P' = P + T \\Rightarrow P = P' - T$." },
+        { "tipe": "formula_block", "latex": "P = (-17 - (-10), 13 - 7) = (-7, 6)" },
+        { "tipe": "paragraph", "text": "Jadi, koordinat titik asal $P$ adalah $(-7,6)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $B(-1,4)$ ditranslasikan oleh $T\\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$. Bayangan titik $B$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-5,6)$"}],
+        [{"tipe":"paragraph","text":"$(-5,-2)$"}],
+        [{"tipe":"paragraph","text":"$(3,6)$"}],
+        [{"tipe":"paragraph","text":"$(3,5)$"}],
+        [{"tipe":"paragraph","text":"$(3,2)$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$B' = B + T = (-1 + 4, 4 + (-2)) = (3, 2)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $C(5,4)$ direfleksikan oleh $y=0$. Bayangan titik $C$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-5,-6)$"}],
+        [{"tipe":"paragraph","text":"$(-5,4)$"}],
+        [{"tipe":"paragraph","text":"$(4,5)$"}],
+        [{"tipe":"paragraph","text":"$(5,-4)$"}],
+        [{"tipe":"paragraph","text":"$(-4,5)$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap garis $y = 0$ (sumbu X): $(x,y) \\to (x, -y)$." },
+        { "tipe": "formula_block", "latex": "C(5,4) \\to C'(5,-4)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $D(6,3)$ direfleksikan oleh $x=2$. Bayangan titik $D$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-3,-6)$"}],
+        [{"tipe":"paragraph","text":"$(-3,4)$"}],
+        [{"tipe":"paragraph","text":"$(-4,5)$"}],
+        [{"tipe":"paragraph","text":"$(-2,3)$"}],
+        [{"tipe":"paragraph","text":"$(3,2)$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap garis $x = 2$: $(x,y) \\to (2(2)-x, y) = (4-x, y)$." },
+        { "tipe": "formula_block", "latex": "D(6,3) \\to D'(4-6, 3) = (-2,3)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis melalui titik $A(1,2)$ dan $B(3,6)$. Persamaan garis $AB$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 2x$"}],
+        [{"tipe":"paragraph","text":"$y = 3x - 1$"}],
+        [{"tipe":"paragraph","text":"$y = 2x + 1$"}],
+        [{"tipe":"paragraph","text":"$y = x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = x + 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gradien $m = \\frac{6-2}{3-1} = \\frac{4}{2} = 2$." },
+        { "tipe": "paragraph", "text": "Gunakan $y - y_1 = m(x - x_1)$:" },
+        { "tipe": "formula_block", "latex": "y - 2 = 2(x - 1) \\Rightarrow y = 2x" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
