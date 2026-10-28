@@ -1,0 +1,226 @@
+{
+  "id": "bs-k11-mat-lanjut-sedang-06",
+  "nama": "Bank Soal Sedang - Paket 6",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Aturan sinus, kosinus, & identitas trigonometri",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang pelaut mengamati cahaya mercusuar dengan sudut elevasi $60^\\circ$. Jika jarak horizontal antara kapal dan mercusuar 100 m, maka tinggi mercusuar adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$50\\sqrt{3}$ m"}],
+        [{"tipe":"paragraph","text":"$100\\sqrt{3}$ m"}],
+        [{"tipe":"paragraph","text":"$50$ m"}],
+        [{"tipe":"paragraph","text":"$100$ m"}],
+        [{"tipe":"paragraph","text":"$150$ m"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan perbandingan trigonometri pada segitiga siku-siku:" },
+        { "tipe": "formula_block", "latex": "\\tan 60^\\circ = \\frac{\\text{tinggi}}{\\text{jarak horizontal}}" },
+        { "tipe": "formula_block", "latex": "\\sqrt{3} = \\frac{t}{100} \\Rightarrow t = 100\\sqrt{3} \\text{ m}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\frac{\\sin x \\cos x}{\\sin^2 x - \\cos^2 x}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\tan x$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{2} \\sin 2x$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{1}{2} \\sin 2x$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{1}{2} \\tan 2x$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{1}{2} \\cot 2x$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ingat identitas sudut rangkap:" },
+        { "tipe": "paragraph", "text": "$\\sin 2x = 2 \\sin x \\cos x \\Rightarrow \\sin x \\cos x = \\frac{1}{2} \\sin 2x$." },
+        { "tipe": "paragraph", "text": "$\\cos 2x = \\cos^2 x - \\sin^2 x \\Rightarrow \\sin^2 x - \\cos^2 x = -\\cos 2x$." },
+        { "tipe": "paragraph", "text": "Substitusi ke bentuk pecahan:" },
+        { "tipe": "formula_block", "latex": "\\frac{\\frac{1}{2} \\sin 2x}{-\\cos 2x} = -\\frac{1}{2} \\tan 2x" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\frac{\\sin 81^\\circ + \\sin 21^\\circ}{\\sin 69^\\circ - \\sin 171^\\circ}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{2}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$-\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$-2$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus penjumlahan ke perkalian:" },
+        { "tipe": "paragraph", "text": "Pembilang: $\\sin 81^\\circ + \\sin 21^\\circ = 2 \\sin\\left(\\frac{81+21}{2}\\right)^\\circ \\cos\\left(\\frac{81-21}{2}\\right)^\\circ = 2 \\sin 51^\\circ \\cos 30^\\circ$." },
+        { "tipe": "paragraph", "text": "Penyebut: $\\sin 69^\\circ - \\sin 171^\\circ = 2 \\cos\\left(\\frac{69+171}{2}\\right)^\\circ \\sin\\left(\\frac{69-171}{2}\\right)^\\circ = 2 \\cos 120^\\circ \\sin(-51)^\\circ = -2 \\cos 120^\\circ \\sin 51^\\circ$." },
+        { "tipe": "paragraph", "text": "Maka:" },
+        { "tipe": "formula_block", "latex": "\\frac{2 \\sin 51^\\circ \\cos 30^\\circ}{-2 \\cos 120^\\circ \\sin 51^\\circ} = \\frac{\\frac{\\sqrt{3}}{2}}{-(-\\frac{1}{2})} = \\sqrt{3}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari persamaan $\\cos 2x^\\circ + 3 \\sin x^\\circ = 2$, untuk $0 \\le x \\le 360$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\{30, 150\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{30, 150, 270\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{90, 270\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{30, 90, 150\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{30, 90, 150, 270\\}$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas $\\cos 2x = 1 - 2 \\sin^2 x$:" },
+        { "tipe": "formula_block", "latex": "1 - 2 \\sin^2 x + 3 \\sin x - 2 = 0" },
+        { "tipe": "formula_block", "latex": "-2 \\sin^2 x + 3 \\sin x - 1 = 0 \\Rightarrow 2 \\sin^2 x - 3 \\sin x + 1 = 0" },
+        { "tipe": "paragraph", "text": "Faktorkan:" },
+        { "tipe": "formula_block", "latex": "(2 \\sin x - 1)(\\sin x - 1) = 0" },
+        { "tipe": "paragraph", "text": "Solusi 1: $\\sin x = \\frac{1}{2} \\Rightarrow x = 30^\\circ, 150^\\circ$." },
+        { "tipe": "paragraph", "text": "Solusi 2: $\\sin x = 1 \\Rightarrow x = 90^\\circ$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{30, 90, 150\\}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kapal berlayar dari pelabuhan A ke pelabuhan B dengan jurusan tiga angka $045^\\circ$ sejauh 800 km, kemudian berlayar menuju ke pelabuhan C dengan jurusan $315^\\circ$ sejauh 600 km. Jarak antara pelabuhan C dan A adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1000$ km"}],
+        [{"tipe":"paragraph","text":"$1200$ km"}],
+        [{"tipe":"paragraph","text":"$1400$ km"}],
+        [{"tipe":"paragraph","text":"$200\\sqrt{7}$ km"}],
+        [{"tipe":"paragraph","text":"$100\\sqrt{7}$ km"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sudut antara jalur AB dan BC adalah $180^\\circ - (45^\\circ + 45^\\circ) = 90^\\circ$." },
+        { "tipe": "paragraph", "text": "Karena membentuk sudut siku-siku, gunakan Pythagoras:" },
+        { "tipe": "formula_block", "latex": "AC = \\sqrt{800^2 + 600^2} = \\sqrt{640.000 + 360.000} = \\sqrt{1.000.000} = 1000 \\text{ km}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $y = a \\sin(bx + c) + d$ memiliki amplitudo 2, periode $\\pi$, dan titik minimum di $(0, 1)$. Bentuk fungsi tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 2 \\sin(2x) + 1$"}],
+        [{"tipe":"paragraph","text":"$y = -2 \\cos(2x) + 3$"}],
+        [{"tipe":"paragraph","text":"$y = -2 \\cos(2x) + 1$"}],
+        [{"tipe":"paragraph","text":"$y = 2 \\cos(2x) + 1$"}],
+        [{"tipe":"paragraph","text":"$y = -2 \\cos(2x - \\pi) + 1$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Amplitudo 2 $\\Rightarrow |a| = 2$." },
+        { "tipe": "paragraph", "text": "Periode $\\pi \\Rightarrow \\frac{2\\pi}{b} = \\pi \\Rightarrow b = 2$." },
+        { "tipe": "paragraph", "text": "Titik minimum di $(0,1)$." },
+        { "tipe": "paragraph", "text": "Gunakan bentuk $y = -2 \\cos(2x) + d$. Saat $x=0$, $y = -2(1) + d = 1 \\Rightarrow d = 3$." },
+        { "tipe": "paragraph", "text": "Jadi, fungsi yang sesuai adalah $y = -2 \\cos(2x) + 3$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu fungsi trigonometri memiliki periode $2\\pi$ dan titik potong maksimum di $(0, 4)$, serta titik potong minimum di $(\\pi, 0)$. Persamaan fungsi tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 2 \\sin x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = 2 \\cos x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = -2 \\cos x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = 2 \\cos x + 4$"}],
+        [{"tipe":"paragraph","text":"$y = 2 \\sin x + 4$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Amplitudo $A = \\frac{y_{max} - y_{min}}{2} = \\frac{4 - 0}{2} = 2$." },
+        { "tipe": "paragraph", "text": "Nilai tengah $d = \\frac{4 + 0}{2} = 2$." },
+        { "tipe": "paragraph", "text": "Fungsi mencapai maksimum di $x = 0$, yang merupakan karakteristik fungsi kosinus positif." },
+        { "tipe": "paragraph", "text": "Maka $y = 2 \\cos x + 2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan deskripsi grafik berikut!\nGrafik fungsi trigonometri memiliki titik puncak di $(30^\\circ, 1)$, memotong sumbu X di $60^\\circ$ dan $150^\\circ$, serta lembah di $y = -1$.\nPersamaan grafik fungsinya adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = \\cos(x - 30^\\circ)$"}],
+        [{"tipe":"paragraph","text":"$y = \\cos(x + 30^\\circ)$"}],
+        [{"tipe":"paragraph","text":"$y = \\sin(x - 30^\\circ)$"}],
+        [{"tipe":"paragraph","text":"$y = \\sin(x + 30^\\circ)$"}],
+        [{"tipe":"paragraph","text":"$y = 2 \\cos(x - 30^\\circ)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Grafik memiliki puncak di $x = 30^\\circ$." },
+        { "tipe": "paragraph", "text": "Fungsi kosinus standar memiliki puncak di $x = 0$. Jika digeser ke kanan sejauh $30^\\circ$, puncaknya menjadi di $x = 30^\\circ$." },
+        { "tipe": "paragraph", "text": "Maka persamaannya adalah $y = \\cos(x - 30^\\circ)$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Berikut pernyataan yang tepat terkait grafik fungsi $f(x) = 6 + 8 \\cos(2x - \\pi/6)$ dalam interval $0 \\le x \\le 2\\pi$, adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"terdapat 1 gelombang pada grafik"}],
+        [{"tipe":"paragraph","text":"grafik fungsi tersebut bergeser ke bawah sejauh 6 satuan"}],
+        [{"tipe":"paragraph","text":"grafik fungsi tersebut bergeser ke kanan sejauh $\\pi/12$"}],
+        [{"tipe":"paragraph","text":"periode grafik adalah $\\pi/2$"}],
+        [{"tipe":"paragraph","text":"simpangan terjauhnya 4 satuan"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(x) = 8 \\cos(2(x - \\pi/12)) + 6$." },
+        { "tipe": "paragraph", "text": "Fungsi ini adalah hasil pergeseran $\\cos(2x)$ ke kanan sejauh $\\pi/12$ dan ke atas sejauh 6." },
+        { "tipe": "paragraph", "text": "Opsi yang benar adalah grafik bergeser ke kanan sejauh $\\pi/12$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sedang-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diberikan segiempat $ABCD$. Pada segitiga $ADC$, panjang $AD = 6\\sqrt{2}$ cm, $\\angle D = 30^\\circ$, dan $\\angle ACD = 45^\\circ$. Pada segitiga $ABC$, diketahui panjang $AB = 6$ cm dan $\\angle BAC = 120^\\circ$. Panjang $BC$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6$ cm"}],
+        [{"tipe":"paragraph","text":"$6\\sqrt{2}$ cm"}],
+        [{"tipe":"paragraph","text":"$6\\sqrt{3}$ cm"}],
+        [{"tipe":"paragraph","text":"$12$ cm"}],
+        [{"tipe":"paragraph","text":"$12\\sqrt{2}$ cm"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan sinus pada segitiga $ADC$ untuk mencari $AC$:" },
+        { "tipe": "formula_block", "latex": "\\frac{AC}{\\sin 30^\\circ} = \\frac{AD}{\\sin 45^\\circ} \\Rightarrow \\frac{AC}{\\frac{1}{2}} = \\frac{6\\sqrt{2}}{\\frac{\\sqrt{2}}{2}} \\Rightarrow AC = 6 \\text{ cm}" },
+        { "tipe": "paragraph", "text": "Selanjutnya pada segitiga $ABC$, gunakan aturan kosinus untuk mencari $BC$:" },
+        { "tipe": "formula_block", "latex": "BC^2 = AB^2 + AC^2 - 2 \\cdot AB \\cdot AC \\cdot \\cos 120^\\circ" },
+        { "tipe": "formula_block", "latex": "BC^2 = 6^2 + 6^2 - 2(6)(6)\\left(-\\frac{1}{2}\\right) = 36 + 36 + 36 = 108" },
+        { "tipe": "formula_block", "latex": "BC = \\sqrt{108} = 6\\sqrt{3} \\text{ cm}" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
