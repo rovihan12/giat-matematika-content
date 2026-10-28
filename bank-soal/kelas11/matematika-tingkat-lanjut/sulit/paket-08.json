@@ -1,0 +1,199 @@
+{
+  "id": "bs-k11-mat-lanjut-sulit-08",
+  "nama": "Bank Soal Sulit - Paket 8",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Vektor: panjang, sudut, proyeksi, & operasi",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = (3, 4)$ dan $\\vec{b} = (4, -3)$, maka $\\vec{a} \\cdot \\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-12"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"7"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"25"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 3(4) + 4(-3) = 12 - 12 = 0" },
+        { "tipe": "paragraph", "text": "Karena dot product = 0, kedua vektor tegak lurus." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang vektor $\\vec{a} = (1, 2, 2)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{1^2 + 2^2 + 2^2} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Vektor $\\vec{a} = (2, 3)$ dan $\\vec{b} = (1, 5)$. Proyeksi skalar $\\vec{a}$ pada $\\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{17}{\\sqrt{26}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{15}{\\sqrt{26}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{13}{\\sqrt{26}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{11}{\\sqrt{26}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{\\sqrt{26}}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Proyeksi skalar $\\vec{a}$ pada $\\vec{b}$: $\\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}$." },
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 2(1) + 3(5) = 17; \\quad |\\vec{b}| = \\sqrt{1^2 + 5^2} = \\sqrt{26}" },
+        { "tipe": "formula_block", "latex": "\\text{Proyeksi skalar} = \\frac{17}{\\sqrt{26}}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (2, -1)$ dan $\\vec{b} = (1, 3)$, nilai $\\cos \\theta$ antara kedua vektor adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{1}{\\sqrt{50}}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{1}{\\sqrt{5}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{\\sqrt{50}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{\\sqrt{5}}$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\vec{a} \\cdot \\vec{b} = 2(1) + (-1)(3) = -1$." },
+        { "tipe": "paragraph", "text": "$|\\vec{a}| = \\sqrt{5}$; $|\\vec{b}| = \\sqrt{10}$." },
+        { "tipe": "formula_block", "latex": "\\cos \\theta = \\frac{-1}{\\sqrt{5} \\cdot \\sqrt{10}} = \\frac{-1}{\\sqrt{50}}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $A(1, 2)$ dan $B(4, 6)$. Panjang vektor $\\overrightarrow{AB}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"7"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\overrightarrow{AB} = (4 - 1, 6 - 2) = (3, 4)$." },
+        { "tipe": "formula_block", "latex": "|\\overrightarrow{AB}| = \\sqrt{3^2 + 4^2} = 5" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (x, 4)$ dan $|\\vec{a}| = 5$, maka nilai $x$ positif adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\sqrt{x^2 + 4^2} = 5 \\Rightarrow x^2 + 16 = 25 \\Rightarrow x^2 = 9" },
+        { "tipe": "paragraph", "text": "$x = \\pm 3$. Nilai $x$ positif = 3." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = 3\\vec{i} - 2\\vec{j}$ dan $\\vec{b} = -\\vec{i} + 4\\vec{j}$. Hasil $\\vec{a} + \\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\vec{i} + 2\\vec{j}$"}],
+        [{"tipe":"paragraph","text":"$2\\vec{i} + 6\\vec{j}$"}],
+        [{"tipe":"paragraph","text":"$4\\vec{i} + 2\\vec{j}$"}],
+        [{"tipe":"paragraph","text":"$4\\vec{i} + 6\\vec{j}$"}],
+        [{"tipe":"paragraph","text":"$2\\vec{i} - 6\\vec{j}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} + \\vec{b} = (3 - 1)\\vec{i} + (-2 + 4)\\vec{j} = 2\\vec{i} + 2\\vec{j}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Panjang vektor $\\vec{v} = 5\\vec{i} + 12\\vec{j}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"17"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"15"}],
+        [{"tipe":"paragraph","text":"144"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{v}| = \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = (3, 4)$ dan $\\vec{b} = (1, 2)$. Hasil $\\vec{a} \\cdot \\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"11"}],
+        [{"tipe":"paragraph","text":"13"}],
+        [{"tipe":"paragraph","text":"15"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 3(1) + 4(2) = 11" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (2, 1)$ dan $\\vec{b} = (1, -2)$, hasil $\\vec{a} \\cdot \\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 2(1) + 1(-2) = 0" },
+        { "tipe": "paragraph", "text": "Kedua vektor tegak lurus." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
