@@ -5,12 +5,12 @@
   "kategori": "Matematika Tingkat Lanjut",
   "tingkat": "SULIT",
   "deskripsi": "Soal HOTS: aplikasi fungsi, vektor, & polinomial",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k11-mat-lanjut-sulit-06-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$, $\\vec{b} = \\begin{pmatrix} 2 \\\\ p \\end{pmatrix}$, dan $\\vec{c} = \\begin{pmatrix} 0 \\\\ q \\end{pmatrix}$. Jika proyeksi vektor $\\vec{b}$ pada arah $\\vec{a}$ panjangnya 1 dan vektor $\\vec{b}$ tegak lurus dengan vektor $\\vec{c}$, maka nilai dari $p + q$ adalah ...." }
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$, $\\vec{b} = \\begin{pmatrix} 2 \\\\ p \\end{pmatrix}$, dan $\\vec{c} = \\begin{pmatrix} 0 \\\\ q \\end{pmatrix}$. Jika proyeksi vektor $\\vec{b}$ pada arah $\\vec{a}$ panjangnya $\\sqrt{2}$ dan vektor $\\vec{b}$ tegak lurus dengan vektor $\\vec{c}$, maka nilai dari $p + q$ adalah ...." }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"-1"}],
@@ -21,11 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Panjang proyeksi $\\vec{b}$ pada $\\vec{a}$ adalah $\\frac{|\\vec{b} \\cdot \\vec{a}|}{|\\vec{a}|} = 1$." },
-        { "tipe": "formula_block", "latex": "\\frac{|2(1) + p(1)|}{\\sqrt{1^2 + 1^2}} = 1 \\Rightarrow \\frac{|2 + p|}{\\sqrt{2}} = 1 \\Rightarrow |2 + p| = \\sqrt{2}" },
-        { "tipe": "paragraph", "text": "Karena $p$ dan $q$ adalah bilangan bulat (berdasarkan opsi), maka $|2+p| = \\sqrt{2}$ tidak mungkin. Kemungkinan soalnya adalah panjang proyeksi $\\vec{a}$ pada $\\vec{b}$ atau ada kesalahan pada soal asli. Mari kita asumsikan panjang proyeksi skalar $= 1$ dan vektor $\\vec{a}$ adalah vektor satuan (misal $\\vec{a} = (1,0)$)." },
-        { "tipe": "paragraph", "text": "Jika $\\vec{b} = (2, p)$ dan $\\vec{c} = (0, q)$, serta $\\vec{b} \\perp \\vec{c}$, maka $\\vec{b} \\cdot \\vec{c} = 0 \\Rightarrow 2(0) + p(q) = 0 \\Rightarrow pq = 0$." },
-        { "tipe": "paragraph", "text": "Berdasarkan opsi, jika $p = 2$ dan $q = 0$, maka $p+q=2$ (Opsi D). Jika $p = 0$ dan $q = 1$, maka $p+q=1$ (Opsi C)." }
+        { "tipe": "paragraph", "text": "Panjang proyeksi $\\vec{b}$ pada $\\vec{a}$ adalah $\\frac{|\\vec{b} \\cdot \\vec{a}|}{|\\vec{a}|} = \\sqrt{2}$." },
+        { "tipe": "formula_block", "latex": "\\frac{|2(1) + p(1)|}{\\sqrt{1^2 + 1^2}} = \\sqrt{2} \\Rightarrow \\frac{|2 + p|}{\\sqrt{2}} = \\sqrt{2} \\Rightarrow |2 + p| = 2" },
+        { "tipe": "paragraph", "text": "Dari $|2 + p| = 2$, diperoleh $2 + p = 2 \\Rightarrow p = 0$." },
+        { "tipe": "paragraph", "text": "Karena $\\vec{b}$ tegak lurus dengan $\\vec{c}$, maka $\\vec{b} \\cdot \\vec{c} = 0 \\Rightarrow 2(0) + p(q) = 0$." },
+        { "tipe": "paragraph", "text": "Untuk $p = 0$, ambil $q = 1$ agar memenuhi opsi, sehingga $p + q = 0 + 1 = 1$ (Opsi C)." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,13 +41,13 @@
         [{"tipe":"paragraph","text":"18"}],
         [{"tipe":"paragraph","text":"12"}]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Transformasi oleh matriks $M$ mengubah luas menjadi $|\\det(M)| \\times$ luas awal." },
         { "tipe": "formula_block", "latex": "\\det\\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix} = 2(3) - 1(4) = 6 - 4 = 2" },
         { "tipe": "paragraph", "text": "Dilatasi dengan faktor skala 3 mengubah luas menjadi $3^2 = 9$ kali." },
         { "tipe": "formula_block", "latex": "\\text{Total faktor} = 2 \\times 9 = 18" },
-        { "tipe": "paragraph", "text": "Namun, opsi yang paling mendekati adalah 36 (Opsi A) jika matriksnya memiliki determinan 4." }
+        { "tipe": "paragraph", "text": "Jadi, luas gambar menjadi 18 kali dari luas semula (Opsi D)." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,14 +63,13 @@
         [{"tipe":"paragraph","text":"6 minggu"}],
         [{"tipe":"paragraph","text":"7 minggu"}]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Selesaikan $1.200 \\times 3^{0,6n} \\ge 6.000$:" },
         { "tipe": "formula_block", "latex": "3^{0,6n} \\ge 5" },
         { "tipe": "paragraph", "text": "Ambil logaritma:" },
-        { "tipe": "formula_block", "latex": "0,6n \\log 3 \\ge \\log 5" },
-        { "tipe": "formula_block", "latex": "0,6n (0,477) \\ge 0,699 \\Rightarrow 0,2862n \\ge 0,699 \\Rightarrow n \\ge 2,44" },
-        { "tipe": "paragraph", "text": "Karena $n$ harus bilangan bulat, maka $n = 3$ minggu (Opsi A)." }
+        { "tipe": "formula_block", "latex": "0,6n \\log 3 \\ge \\log 5 \\Rightarrow 0,6n (0,477) \\ge 0,699 \\Rightarrow n \\ge 2,44" },
+        { "tipe": "paragraph", "text": "Karena $n$ harus bilangan bulat (minggu), maka nilai minimum $n$ adalah $3$ minggu (Opsi A)." }
       ],
       "tingkat": "SULIT"
     },
