@@ -1,0 +1,204 @@
+{
+  "id": "bs-k12-limit-mudah-08",
+  "nama": "Bank Soal Mudah - Paket 8",
+  "kelas": 12,
+  "kategori": "Limit Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Variasi lanjutan limit aljabar, bentuk tak tentu, dan trigonometri dasar",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-limit-mudah-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 4} \\dfrac{3x^2 - 48}{x - 4}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"18"}],
+        [{"tipe":"paragraph","text":"24"}],
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"36"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "3x^2 - 48 = 3(x^2 - 16) = 3(x - 4)(x + 4)" },
+        { "tipe": "formula_block", "latex": "\\dfrac{3(x - 4)(x + 4)}{x - 4} = 3(x + 4)" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 4} 3(x + 4) = 3(4 + 4) = 24" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin 8x}{4x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"12"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\sin 8x}{4x} = \\dfrac{8}{4} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 2} \\dfrac{x^2 + 2x - 8}{x^2 - 4}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{2}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\dfrac{x^2 + 2x - 8}{x^2 - 4} = \\dfrac{(x - 2)(x + 4)}{(x - 2)(x + 2)} = \\dfrac{x + 4}{x + 2}" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 2} \\dfrac{x + 4}{x + 2} = \\dfrac{2 + 4}{2 + 2} = \\dfrac{6}{4} = \\dfrac{3}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{5x^2 - 3x + 1}{10x^2 + 2x - 4}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Derajat pembilang = derajat penyebut = 2, maka limit sama dengan rasio koefisien pangkat tertinggi:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{5x^2 - 3x + 1}{10x^2 + 2x - 4} = \\dfrac{5}{10} = \\dfrac{1}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{1 - \\cos 6x}{2x^2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"9"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"18"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas $1 - \\cos 6x = 2\\sin^2 3x$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{2\\sin^2 3x}{2x^2} = \\lim\\limits_{x \\to 0} \\left(\\dfrac{\\sin 3x}{x}\\right)^2 = (3)^2 = 9" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 3} \\dfrac{x - 3}{\\sqrt{x+1} - 2}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kalikan dengan sekawan penyebut $\\sqrt{x+1} + 2$:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{x - 3}{\\sqrt{x+1} - 2} \\cdot \\dfrac{\\sqrt{x+1} + 2}{\\sqrt{x+1} + 2} = \\dfrac{(x - 3)(\\sqrt{x+1} + 2)}{(x + 1) - 4} = \\dfrac{(x - 3)(\\sqrt{x+1} + 2)}{x - 3}" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 3} (\\sqrt{x+1} + 2) = \\sqrt{4} + 2 = 2 + 2 = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\tan 5x + \\sin 3x}{4x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"8"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pecah menjadi dua bentuk limit trigonometri dasar:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\left( \\dfrac{\\tan 5x}{4x} + \\dfrac{\\sin 3x}{4x} \\right) = \\dfrac{5}{4} + \\dfrac{3}{4} = \\dfrac{8}{4} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to -1} \\dfrac{x^2 - 3x - 4}{x + 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-5"}],
+        [{"tipe":"paragraph","text":"-4"}],
+        [{"tipe":"paragraph","text":"-3"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"5"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "x^2 - 3x - 4 = (x + 1)(x - 4)" },
+        { "tipe": "formula_block", "latex": "\\dfrac{(x + 1)(x - 4)}{x + 1} = x - 4" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to -1} (x - 4) = -1 - 4 = -5" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{(4x - 1)(x + 2)}{(2x + 1)(x - 3)}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"8"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jabarkan pembilang dan penyebut:" },
+        { "tipe": "paragraph", "text": "Pembilang: $(4x - 1)(x + 2) = 4x^2 + 7x - 2$" },
+        { "tipe": "paragraph", "text": "Penyebut: $(2x + 1)(x - 3) = 2x^2 - 5x - 3$" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{4x^2 + 7x - 2}{2x^2 - 5x - 3} = \\dfrac{4}{2} = 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-limit-mudah-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin^2 3x}{x \\tan 2x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"3"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{9}{2}$"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"9"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\left( \\dfrac{\\sin 3x}{x} \\cdot \\dfrac{\\sin 3x}{\\tan 2x} \\right) = 3 \\cdot \\dfrac{3}{2} = \\dfrac{9}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
