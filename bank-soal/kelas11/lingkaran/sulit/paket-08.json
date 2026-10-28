@@ -1,0 +1,210 @@
+{
+  "id": "bs-k11-ling-sulit-08",
+  "nama": "Bank Soal Sulit - Paket 8",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal sulit tentang kedudukan garis, titik, dan lingkaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-sulit-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kedudukan garis $y = x + 3$ terhadap lingkaran $x^2 + y^2 = 9$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Tidak memotong" } ],
+        [ { "tipe": "paragraph", "text": "Menyinggung" } ],
+        [ { "tipe": "paragraph", "text": "Memotong di dua titik" } ],
+        [ { "tipe": "paragraph", "text": "Berimpit" } ],
+        [ { "tipe": "paragraph", "text": "Tidak dapat ditentukan" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi: $x^2 + (x + 3)^2 = 9 \\Rightarrow 2x^2 + 6x = 0$." },
+        { "tipe": "paragraph", "text": "$2x(x + 3) = 0 \\Rightarrow x = 0$ atau $x = -3$." },
+        { "tipe": "paragraph", "text": "Dua titik potong → memotong di dua titik." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kedudukan titik $P(3, 1)$ terhadap lingkaran $x^2 + y^2 - 4x + 2y - 4 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Di dalam lingkaran" } ],
+        [ { "tipe": "paragraph", "text": "Pada lingkaran" } ],
+        [ { "tipe": "paragraph", "text": "Di luar lingkaran" } ],
+        [ { "tipe": "paragraph", "text": "Di pusat lingkaran" } ],
+        [ { "tipe": "paragraph", "text": "Tidak dapat ditentukan" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $P(3, 1)$: $9 + 1 - 12 + 2 - 4 = -4 < 0$." },
+        { "tipe": "paragraph", "text": "Hasil negatif → titik di dalam lingkaran." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $m$ agar garis $y = mx + 5$ menyinggung lingkaran $x^2 + y^2 = 25$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$m = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$m = \\pm 1$" } ],
+        [ { "tipe": "paragraph", "text": "$m = \\pm 2$" } ],
+        [ { "tipe": "paragraph", "text": "$m = \\pm\\sqrt{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$m = \\pm 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi: $x^2 + (mx + 5)^2 = 25$." },
+        { "tipe": "paragraph", "text": "$(1 + m^2)x^2 + 10mx = 0$." },
+        { "tipe": "paragraph", "text": "$D = 0 \\Rightarrow 100m^2 = 0 \\Rightarrow m = 0$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis $4x + 3y = 25$ menyinggung lingkaran $x^2 + y^2 = 25$. Titik singgungnya adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$(4, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(5, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(-4, -3)$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk garis singgung $x \\cdot x_1 + y \\cdot y_1 = r^2$." },
+        { "tipe": "paragraph", "text": "$4x + 3y = 25 \\Rightarrow x_1 = 4$, $y_1 = 3$." },
+        { "tipe": "paragraph", "text": "Cek: $4^2 + 3^2 = 25$ ✓" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Lingkaran $x^2 + y^2 + 6x - 2y + k = 0$ menyinggung sumbu-$x$. Nilai $k$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$-9$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$(x + 3)^2 + (y - 1)^2 = 10 - k$." },
+        { "tipe": "paragraph", "text": "Pusat $(-3, 1)$, $r = \\sqrt{10 - k}$." },
+        { "tipe": "paragraph", "text": "Menyinggung sumbu-$x$: $r = |y_{\\text{pusat}}| = 1$." },
+        { "tipe": "paragraph", "text": "$\\sqrt{10 - k} = 1 \\Rightarrow k = 9$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung lingkaran $x^2 + y^2 = 13$ di titik $(2, 3)$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$2x + 3y = 13$" } ],
+        [ { "tipe": "paragraph", "text": "$3x + 2y = 13$" } ],
+        [ { "tipe": "paragraph", "text": "$2x - 3y = 13$" } ],
+        [ { "tipe": "paragraph", "text": "$x + y = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$2x + 3y = 5$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cek: $4 + 9 = 13$ ✓" },
+        { "tipe": "paragraph", "text": "$x \\cdot 2 + y \\cdot 3 = 13 \\Rightarrow 2x + 3y = 13$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua lingkaran dengan jari-jari $10$ cm dan $4$ cm. Jika jarak pusat $6$ cm, maka kedudukan kedua lingkaran adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "Bersinggungan dalam" } ],
+        [ { "tipe": "paragraph", "text": "Bersinggungan luar" } ],
+        [ { "tipe": "paragraph", "text": "Berpotongan" } ],
+        [ { "tipe": "paragraph", "text": "Saling lepas" } ],
+        [ { "tipe": "paragraph", "text": "Konsentris" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$d = 6$; $R - r = 10 - 4 = 6$." },
+        { "tipe": "paragraph", "text": "$d = R - r$ → bersinggungan dalam." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $p$ agar titik $(p, 4)$ berada pada lingkaran $x^2 + y^2 - 4x - 8y + 16 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$p = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$p = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$p = -2$" } ],
+        [ { "tipe": "paragraph", "text": "$p = 6$" } ],
+        [ { "tipe": "paragraph", "text": "$p = 8$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi: $p^2 + 16 - 4p - 32 + 16 = 0$." },
+        { "tipe": "paragraph", "text": "$p^2 - 4p = 0 \\Rightarrow p(p - 4) = 0$." },
+        { "tipe": "paragraph", "text": "$p = 0$ atau $p = 4$. Nilai yang ada di opsi = 4." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Lingkaran yang persamaannya $x^2 + y^2 - Ax - 10y + 4 = 0$ menyinggung sumbu-$x$. Nilai $A$ yang memenuhi adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$A = \\pm 4$" } ],
+        [ { "tipe": "paragraph", "text": "$A = \\pm 2$" } ],
+        [ { "tipe": "paragraph", "text": "$A = \\pm 8$" } ],
+        [ { "tipe": "paragraph", "text": "$A = \\pm 10$" } ],
+        [ { "tipe": "paragraph", "text": "$A = \\pm 16$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Menyinggung sumbu-$x$ berarti $y = 0$: $x^2 - Ax + 4 = 0$." },
+        { "tipe": "paragraph", "text": "$D = 0 \\Rightarrow A^2 - 16 = 0 \\Rightarrow A = \\pm 4$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-ling-sulit-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $c$ agar garis $y = -2x + c$ menyinggung lingkaran $x^2 + y^2 - 4x - y + 3 = 0$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$c = 7$ atau $c = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$c = -7$ atau $c = 2$" } ],
+        [ { "tipe": "paragraph", "text": "$c = 7$ atau $c = -2$" } ],
+        [ { "tipe": "paragraph", "text": "$c = -7$ atau $c = -2$" } ],
+        [ { "tipe": "paragraph", "text": "$c = 5$ atau $c = 1$" } ]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi $y = -2x + c$ ke lingkaran: $x^2 + (-2x + c)^2 - 4x - (-2x + c) + 3 = 0$." },
+        { "tipe": "paragraph", "text": "$5x^2 + (-4c - 2)x + (c^2 - c + 3) = 0$." },
+        { "tipe": "paragraph", "text": "$D = 0 \\Rightarrow (-4c - 2)^2 - 4 \\cdot 5(c^2 - c + 3) = 0$." },
+        { "tipe": "paragraph", "text": "$-4c^2 + 36c - 56 = 0 \\Rightarrow c^2 - 9c + 14 = 0$." },
+        { "tipe": "paragraph", "text": "$(c - 7)(c - 2) = 0 \\Rightarrow c = 7$ atau $c = 2$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
