@@ -5,83 +5,91 @@
   "kategori": "Statistika Lanjutan",
   "tingkat": "SEDANG",
   "deskripsi": "Campuran konsep data berkelompok",
-  "versi": "1.0.0",
+  "versi": "2.0.0",
   "soal": [
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Mean dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai rata-rata dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"29"}],
-        [{"tipe":"paragraph","text":"30"}],
-        [{"tipe":"paragraph","text":"31"}],
-        [{"tipe":"paragraph","text":"32"}],
-        [{"tipe":"paragraph","text":"33"}]
+        [{"tipe":"paragraph","text":"30,4"}],
+        [{"tipe":"paragraph","text":"30,9"}],
+        [{"tipe":"paragraph","text":"31,4"}],
+        [{"tipe":"paragraph","text":"31,9"}],
+        [{"tipe":"paragraph","text":"32,4"}]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|c|} \\hline \\text{Nilai} & x_i & f_i & f_i x_i \\\\ \\hline 21-25 & 23 & 3 & 69 \\\\ 26-30 & 28 & 7 & 196 \\\\ 31-35 & 33 & 10 & 330 \\\\ 36-40 & 38 & 5 & 190 \\\\ \\hline & & 25 & 785 \\\\ \\hline \\end{array}" },
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{785}{25} = 31{,}4" },
-        { "tipe": "paragraph", "text": "Pembulatan terdekat dari opsi: 31,0." }
+        { "tipe": "paragraph", "text": "Titik tengah ($x_i$): 23, 28, 33, 38. Total frekuensi $n = 25$." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{3(23) + 7(28) + 10(33) + 5(38)}{25} = \\dfrac{69 + 196 + 330 + 190}{25} = \\dfrac{785}{25} = 31{,}4" },
+        { "tipe": "paragraph", "text": "Jadi, nilai rata-rata dari data tersebut adalah 31,4." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Modus dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai modus dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"31,0"}],
-        [{"tipe":"paragraph","text":"31,5"}],
-        [{"tipe":"paragraph","text":"32,0"}],
-        [{"tipe":"paragraph","text":"32,5"}],
-        [{"tipe":"paragraph","text":"33,0"}]
+        [{"tipe":"paragraph","text":"31,875"}],
+        [{"tipe":"paragraph","text":"32,125"}],
+        [{"tipe":"paragraph","text":"32,375"}],
+        [{"tipe":"paragraph","text":"32,500"}],
+        [{"tipe":"paragraph","text":"33,000"}]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelas modus = 31–35 (frekuensi terbesar = 10). $T_b = 30{,}5$; $p = 5$." },
+        { "tipe": "paragraph", "text": "Kelas modus = 31–35 (frekuensi terbesar = 10). Tepi bawah $T_b = 30{,}5$; panjang kelas $p = 5$." },
         { "tipe": "formula_block", "latex": "d_1 = 10 - 7 = 3; \\quad d_2 = 10 - 5 = 5" },
-        { "tipe": "formula_block", "latex": "Mo = 30{,}5 + 5 \\cdot \\dfrac{3}{3+5} = 30{,}5 + 5 \\cdot \\dfrac{3}{8} = 30{,}5 + 1{,}875 = 32{,}375" },
-        { "tipe": "paragraph", "text": "Pembulatan terdekat: 32,5." }
+        { "tipe": "formula_block", "latex": "Mo = 30{,}5 + 5 \\left( \\dfrac{3}{3+5} \\right) = 30{,}5 + \\dfrac{15}{8} = 30{,}5 + 1{,}875 = 32{,}375" },
+        { "tipe": "paragraph", "text": "Jadi, modusnya adalah 32,375." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Kuartil bawah ($Q_1$) dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Nilai kuartil bawah ($Q_1$) dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"25,0"}],
-        [{"tipe":"paragraph","text":"25,5"}],
-        [{"tipe":"paragraph","text":"26,0"}],
-        [{"tipe":"paragraph","text":"26,5"}],
-        [{"tipe":"paragraph","text":"27,0"}]
+        [{"tipe":"paragraph","text":"25,50"}],
+        [{"tipe":"paragraph","text":"26,14"}],
+        [{"tipe":"paragraph","text":"27,00"}],
+        [{"tipe":"paragraph","text":"27,50"}],
+        [{"tipe":"paragraph","text":"27,82"}]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 25$. Letak $Q_1$ = data ke-$\\frac{25}{4} = 6{,}25 \\approx 6$." },
+        { "tipe": "paragraph", "text": "$n = 25$. Letak $Q_1$ = data ke-$\\frac{25}{4} = 6{,}25$." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 21-25 & 3 & 3 \\\\ 26-30 & 7 & 10 \\\\ 31-35 & 10 & 20 \\\\ 36-40 & 5 & 25 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-6 ada di kelas 26–30. $T_b = 25{,}5$; $p = 5$; $F_k$ sblm = 3; $f = 7$." },
-        { "tipe": "formula_block", "latex": "Q_1 = 25{,}5 + 5 \\cdot \\dfrac{6 - 3}{7} = 25{,}5 + 5 \\cdot \\dfrac{3}{7} = 25{,}5 + 2{,}14 = 27{,}64" },
-        { "tipe": "paragraph", "text": "Opsi terdekat: 27,0? Karena tidak ada yang pas, jawaban yang dipilih adalah 25,5 (pembulatan ke tepi kelas bawah)." }
+        { "tipe": "paragraph", "text": "Data ke-6,25 berada di kelas 26–30. $T_b = 25{,}5$; $p = 5$; $F_k = 3$; $f = 7$." },
+        { "tipe": "formula_block", "latex": "Q_1 = 25{,}5 + 5 \\left( \\dfrac{6{,}25 - 3}{7} \\right) = 25{,}5 + 5 \\left( \\dfrac{3{,}25}{7} \\right) = 25{,}5 + 2{,}3214 = 27{,}8214 \\approx 27{,}82" },
+        { "tipe": "paragraph", "text": "Jadi, kuartil bawahnya adalah 27,82." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Banyak data pada tabel tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Banyak data pada tabel tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"20"}],
@@ -92,16 +100,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "n = 3 + 7 + 10 + 5 = 25" }
+        { "tipe": "formula_block", "latex": "n = 3 + 7 + 10 + 5 = 25" },
+        { "tipe": "paragraph", "text": "Jadi, banyak data pada tabel tersebut adalah 25." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Kelas median dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Kelas median dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"21–25"}],
@@ -112,17 +123,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 25$; letak median = data ke-$\\frac{25}{2} = 12{,}5 \\approx 13$." },
-        { "tipe": "paragraph", "text": "$F_k$ kelas 26–30 = 10 (< 13); $F_k$ kelas 31–35 = 20 (≥ 13). Jadi, kelas median = 31–35." }
+        { "tipe": "paragraph", "text": "$n = 25$; letak median = data ke-$\\frac{25}{2} = 12{,}5$." },
+        { "tipe": "paragraph", "text": "$F_k$ kelas 26–30 = 10 ($< 12{,}5$); $F_k$ kelas 31–35 = 20 ($\\ge 12{,}5$). Jadi, kelas median adalah 31–35." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Kuartil atas ($Q_3$) dari data tersebut berada di kelas ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Kuartil atas ($Q_3$) dari data tersebut berada di kelas ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"21–25"}],
@@ -131,20 +144,21 @@
         [{"tipe":"paragraph","text":"36–40"}],
         [{"tipe":"paragraph","text":"Tidak ada"}]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Letak $Q_3$ = data ke-$\\frac{3 \\cdot 25}{4} = 18{,}75 \\approx 19$." },
-        { "tipe": "paragraph", "text": "$F_k$ kelas 31–35 = 20 (≥ 19). Jadi, $Q_3$ ada di kelas 31–35." },
-        { "tipe": "paragraph", "text": "Namun karena $18{,}75 \\approx 19$, dan 19 masih di kelas 31–35, jawaban = **31–35**." }
+        { "tipe": "paragraph", "text": "Letak $Q_3$ = data ke-$\\frac{3 \\cdot 25}{4} = 18{,}75$." },
+        { "tipe": "paragraph", "text": "$F_k$ kelas 31–35 = 20 ($\\ge 18{,}75$). Jadi, $Q_3$ berada di kelas 31–35." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Tepi bawah kelas modus dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Tepi bawah kelas modus dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"25,5"}],
@@ -156,16 +170,18 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Kelas modus = 31–35 (frekuensi terbesar = 10)." },
-        { "tipe": "paragraph", "text": "Tepi bawah = 31 − 0,5 = 30,5." }
+        { "tipe": "paragraph", "text": "Tepi bawah $T_b = 31 - 0{,}5 = 30{,}5$." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Frekuensi kumulatif sampai kelas ketiga dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Frekuensi kumulatif sampai kelas ketiga dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"10"}],
@@ -176,16 +192,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "F_3 = 3 + 7 + 10 = 20" }
+        { "tipe": "formula_block", "latex": "F_3 = 3 + 7 + 10 = 20" },
+        { "tipe": "paragraph", "text": "Jadi, frekuensi kumulatif sampai kelas ketiga adalah 20." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Titik tengah kelas keempat dari data tersebut adalah ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Titik tengah kelas keempat dari data tersebut adalah ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"35"}],
@@ -197,16 +216,19 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Kelas keempat = 36–40." },
-        { "tipe": "formula_block", "latex": "x_4 = \\dfrac{36 + 40}{2} = 38" }
+        { "tipe": "formula_block", "latex": "x_4 = \\dfrac{36 + 40}{2} = 38" },
+        { "tipe": "paragraph", "text": "Jadi, titik tengah kelas keempat adalah 38." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k11-stat-lanjut-sedang-05-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut:" },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & f \\\\ \\hline 21-25 & 3 \\\\ 26-30 & 7 \\\\ 31-35 & 10 \\\\ 36-40 & 5 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Rata-rata data tersebut adalah 31,4. Jika setiap nilai dikurangi 1,5, rata-ratanya menjadi ..." }
+        { "tipe": "paragraph", "text": "Perhatikan tabel distribusi frekuensi berikut. Rata-rata data tersebut adalah 31,4. Jika setiap nilai dikurangi 1,5, rata-ratanya menjadi ...." },
+        {
+          "tipe": "formula_block",
+          "latex": "\\begin{array}{|c|c|} \\hline \\text{Nilai} & \\text{Frekuensi} \\\\ \\hline 21 - 25 & 3 \\\\ 26 - 30 & 7 \\\\ 31 - 35 & 10 \\\\ 36 - 40 & 5 \\\\ \\hline \\end{array}"
+        }
       ],
       "pilihan": [
         [{"tipe":"paragraph","text":"28,9"}],
@@ -217,8 +239,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika setiap nilai dikurangi $k$, rata-rata berkurang $k$." },
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 31{,}4 - 1{,}5 = 29{,}9" }
+        { "tipe": "paragraph", "text": "Jika setiap nilai dikurangi $k$, maka rata-rata juga akan berkurang sebesar $k$." },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 31{,}4 - 1{,}5 = 29{,}9" },
+        { "tipe": "paragraph", "text": "Jadi, rata-rata baru setelah dikurangi 1,5 adalah 29,9." }
       ],
       "tingkat": "SEDANG"
     }
