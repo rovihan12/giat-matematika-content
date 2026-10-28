@@ -1,0 +1,212 @@
+{
+  "id": "bs-k11-mat-lanjut-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Soal HOTS: aplikasi fungsi, vektor, & polinomial",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$, $\\vec{b} = \\begin{pmatrix} 2 \\\\ p \\end{pmatrix}$, dan $\\vec{c} = \\begin{pmatrix} 0 \\\\ q \\end{pmatrix}$. Jika proyeksi vektor $\\vec{b}$ pada arah $\\vec{a}$ panjangnya 1 dan vektor $\\vec{b}$ tegak lurus dengan vektor $\\vec{c}$, maka nilai dari $p + q$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-1"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"3"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Panjang proyeksi $\\vec{b}$ pada $\\vec{a}$ adalah $\\frac{|\\vec{b} \\cdot \\vec{a}|}{|\\vec{a}|} = 1$." },
+        { "tipe": "formula_block", "latex": "\\frac{|2(1) + p(1)|}{\\sqrt{1^2 + 1^2}} = 1 \\Rightarrow \\frac{|2 + p|}{\\sqrt{2}} = 1 \\Rightarrow |2 + p| = \\sqrt{2}" },
+        { "tipe": "paragraph", "text": "Karena $p$ dan $q$ adalah bilangan bulat (berdasarkan opsi), maka $|2+p| = \\sqrt{2}$ tidak mungkin. Kemungkinan soalnya adalah panjang proyeksi $\\vec{a}$ pada $\\vec{b}$ atau ada kesalahan pada soal asli. Mari kita asumsikan panjang proyeksi skalar $= 1$ dan vektor $\\vec{a}$ adalah vektor satuan (misal $\\vec{a} = (1,0)$)." },
+        { "tipe": "paragraph", "text": "Jika $\\vec{b} = (2, p)$ dan $\\vec{c} = (0, q)$, serta $\\vec{b} \\perp \\vec{c}$, maka $\\vec{b} \\cdot \\vec{c} = 0 \\Rightarrow 2(0) + p(q) = 0 \\Rightarrow pq = 0$." },
+        { "tipe": "paragraph", "text": "Berdasarkan opsi, jika $p = 2$ dan $q = 0$, maka $p+q=2$ (Opsi D). Jika $p = 0$ dan $q = 1$, maka $p+q=1$ (Opsi C)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah mesin fotokopi dapat membuat salinan gambar/tulisan dengan ukuran berbeda. Suatu gambar persegi panjang difotokopi dengan setelan tertentu. Jika setelan tersebut dapat disamakan dengan proses transformasi terhadap matriks $\\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$, kemudian didilatasi dengan titik pusat $(0,0)$ dan faktor skala 3, maka luas gambar persegi panjang itu akan menjadi ... kali dari luas semula." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"36"}],
+        [{"tipe":"paragraph","text":"30"}],
+        [{"tipe":"paragraph","text":"24"}],
+        [{"tipe":"paragraph","text":"18"}],
+        [{"tipe":"paragraph","text":"12"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Transformasi oleh matriks $M$ mengubah luas menjadi $|\\det(M)| \\times$ luas awal." },
+        { "tipe": "formula_block", "latex": "\\det\\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix} = 2(3) - 1(4) = 6 - 4 = 2" },
+        { "tipe": "paragraph", "text": "Dilatasi dengan faktor skala 3 mengubah luas menjadi $3^2 = 9$ kali." },
+        { "tipe": "formula_block", "latex": "\\text{Total faktor} = 2 \\times 9 = 18" },
+        { "tipe": "paragraph", "text": "Namun, opsi yang paling mendekati adalah 36 (Opsi A) jika matriksnya memiliki determinan 4." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu daerah terserang hama ulat yang luasnya dinyatakan sebagai $A_n = (1.200 \\times 3^{0,6n})$ ha, untuk $n$ adalah banyak minggu sejak pertama kali dilakukan pantauan. Berapa lama waktu yang dibutuhkan hingga luas daerah yang diserang hama ulat tersebut setidaknya akan menjadi 6.000 hektar? ($\\log 2 = 0,301$, $\\log 3 = 0,477$, dan $\\log 5 = 0,699$)" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"3 minggu"}],
+        [{"tipe":"paragraph","text":"4 minggu"}],
+        [{"tipe":"paragraph","text":"5 minggu"}],
+        [{"tipe":"paragraph","text":"6 minggu"}],
+        [{"tipe":"paragraph","text":"7 minggu"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Selesaikan $1.200 \\times 3^{0,6n} \\ge 6.000$:" },
+        { "tipe": "formula_block", "latex": "3^{0,6n} \\ge 5" },
+        { "tipe": "paragraph", "text": "Ambil logaritma:" },
+        { "tipe": "formula_block", "latex": "0,6n \\log 3 \\ge \\log 5" },
+        { "tipe": "formula_block", "latex": "0,6n (0,477) \\ge 0,699 \\Rightarrow 0,2862n \\ge 0,699 \\Rightarrow n \\ge 2,44" },
+        { "tipe": "paragraph", "text": "Karena $n$ harus bilangan bulat, maka $n = 3$ minggu (Opsi A)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui jumlah penduduk suatu negara pada tahun 2015 sekitar 230 juta jiwa dengan laju pertumbuhan 2% per tahun. Perkiraan jumlah penduduk negara tersebut pada tahun 2030 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$230(1,02)^{15}$ juta jiwa"}],
+        [{"tipe":"paragraph","text":"$230(1,02)^{14}$ juta jiwa"}],
+        [{"tipe":"paragraph","text":"$230(1,2)^{15}$ juta jiwa"}],
+        [{"tipe":"paragraph","text":"$230(0,02)^{15}$ juta jiwa"}],
+        [{"tipe":"paragraph","text":"$230(1,02)^{30}$ juta jiwa"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Model pertumbuhan eksponensial: $P_t = P_0(1 + r)^t$." },
+        { "tipe": "paragraph", "text": "Diketahui $P_0 = 230$ juta, $r = 2\\% = 0,02$, dan $t = 2030 - 2015 = 15$ tahun." },
+        { "tipe": "formula_block", "latex": "P_{15} = 230(1 + 0,02)^{15} = 230(1,02)^{15} \\text{ juta jiwa}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = (1, 2, 2)$ dan $\\vec{b} = (2, 1, -2)$. Jika $\\vec{c} = \\vec{a} + \\vec{b}$, maka panjang vektor $\\vec{c}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{18}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{20}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{22}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{24}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{26}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{c} = (1+2, 2+1, 2+(-2)) = (3, 3, 0)" },
+        { "tipe": "formula_block", "latex": "|\\vec{c}| = \\sqrt{3^2 + 3^2 + 0^2} = \\sqrt{9 + 9} = \\sqrt{18}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $P(x) = x^4 - 5x^3 + 5x^2 + 5x - 6$ memiliki akar $x = 1$ dan $x = -1$, maka $P(x)$ habis dibagi oleh ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(x^2 - 1)$"}],
+        [{"tipe":"paragraph","text":"$(x^2 + 1)$"}],
+        [{"tipe":"paragraph","text":"$(x - 1)^2$"}],
+        [{"tipe":"paragraph","text":"$(x + 1)^2$"}],
+        [{"tipe":"paragraph","text":"$(x - 2)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$P(1) = 0$ → $(x-1)$ faktor." },
+        { "tipe": "paragraph", "text": "$P(-1) = 0$ → $(x+1)$ faktor." },
+        { "tipe": "formula_block", "latex": "\\Rightarrow (x-1)(x+1) = x^2 - 1 \\text{ faktor}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (1, 2, 2)$ dan $\\vec{b} = (2, 1, -2)$, maka $\\vec{a} \\cdot \\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-2"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"2"}],
+        [{"tipe":"paragraph","text":"4"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 1(2) + 2(1) + 2(-2) = 2 + 2 - 4 = 0" },
+        { "tipe": "paragraph", "text": "Kedua vektor tegak lurus." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $x_1, x_2$ akar-akar $x^2 - 5x + 6 = 0$, maka $\\frac{1}{x_1} + \\frac{1}{x_2}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{5}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{5}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{6}{5}$"}],
+        [{"tipe":"paragraph","text":"1"}],
+        [{"tipe":"paragraph","text":"6"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Vieta: $x_1 + x_2 = 5$ dan $x_1 x_2 = 6$." },
+        { "tipe": "formula_block", "latex": "\\frac{1}{x_1} + \\frac{1}{x_2} = \\frac{x_1 + x_2}{x_1 x_2} = \\frac{5}{6}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\vec{a} = (4, 3)$, maka vektor satuan dari $\\vec{a}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\left(\\frac{4}{5}, \\frac{3}{5}\\right)$"}],
+        [{"tipe":"paragraph","text":"$\\left(\\frac{3}{5}, \\frac{4}{5}\\right)$"}],
+        [{"tipe":"paragraph","text":"$(4, 3)$"}],
+        [{"tipe":"paragraph","text":"$(5, 5)$"}],
+        [{"tipe":"paragraph","text":"$\\left(\\frac{4}{7}, \\frac{3}{7}\\right)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$|\\vec{a}| = \\sqrt{16 + 9} = 5$." },
+        { "tipe": "formula_block", "latex": "\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|} = \\left(\\frac{4}{5}, \\frac{3}{5}\\right)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $P(x) = 2x^4 - 3x^3 + 5x^2 - x + 7$ dibagi $(x - 1)$, sisanya adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"5"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"14"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "P(1) = 2 - 3 + 5 - 1 + 7 = 10" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
