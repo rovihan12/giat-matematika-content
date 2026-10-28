@@ -1,0 +1,104 @@
+{
+  "id": "bs-k11-mat-lanjut-mudah-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Fungsi eksponen, logaritma, & domain",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-mudah-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Berikut merupakan fungsi logaritma yang tergolong ke dalam fungsi turun adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$f(x) = ^3\\log x$"}],
+        [{"tipe":"paragraph","text":"$f(x) = ^5\\log (x + 5)$"}],
+        [{"tipe":"paragraph","text":"$f(x) = ^8\\log (x^2 + 4x)$"}],
+        [{"tipe":"paragraph","text":"$f(x) = ^{0,5}\\log x + 4$"}],
+        [{"tipe":"paragraph","text":"$f(x) = \\log x$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Fungsi logaritma $f(x) = ^a\\log x$ merupakan fungsi turun jika basis $a$ memenuhi $0 < a < 1$." },
+        { "tipe": "paragraph", "text": "Dari pilihan yang ada, basis $0,5$ memenuhi $0 < 0,5 < 1$." },
+        { "tipe": "paragraph", "text": "Jadi, fungsi yang tergolong fungsi turun adalah $f(x) = ^{0,5}\\log x + 4$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika diketahui $^4\\log x = 1,25$, maka nilai dari $^{x}\\log 16$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"1,2"}],
+        [{"tipe":"paragraph","text":"1,4"}],
+        [{"tipe":"paragraph","text":"1,6"}],
+        [{"tipe":"paragraph","text":"1,7"}],
+        [{"tipe":"paragraph","text":"1,8"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan sifat logaritma $^{x}\\log 16 = \\frac{^4\\log 16}{^4\\log x}$." },
+        { "tipe": "paragraph", "text": "Karena $^4\\log 16 = 2$ dan diketahui $^4\\log x = 1,25$, maka:" },
+        { "tipe": "formula_block", "latex": "^{x}\\log 16 = \\frac{2}{1,25} = 1,6" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika diketahui intensitas bunyi sebesar $8.000 I_0$, maka taraf intensitas bunyi tersebut adalah ... dB." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"36,09"}],
+        [{"tipe":"paragraph","text":"37,03"}],
+        [{"tipe":"paragraph","text":"37,62"}],
+        [{"tipe":"paragraph","text":"39,03"}],
+        [{"tipe":"paragraph","text":"39,06"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus taraf intensitas bunyi: $TI = 10 \\log \\left(\\frac{I}{I_0}\\right)$." },
+        { "tipe": "formula_block", "latex": "TI = 10 \\log (8.000) = 10 \\log (8 \\times 10^3)" },
+        { "tipe": "formula_block", "latex": "= 10 (\\log 8 + 3) = 10 (0,903 + 3) = 39,03 \\text{ dB}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Asimtot vertikal dari fungsi rasional $f(x) = \\frac{2x - 8}{x^2 - 7x + 12}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"tidak ada"}],
+        [{"tipe":"paragraph","text":"$x = 2$"}],
+        [{"tipe":"paragraph","text":"$x = 3$"}],
+        [{"tipe":"paragraph","text":"$x = 3$ dan $x = 4$"}],
+        [{"tipe":"paragraph","text":"$x = 4$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Asimtot vertikal terjadi saat penyebut bernilai nol dan pembilang tidak nol." },
+        { "tipe": "formula_block", "latex": "x^2 - 7x + 12 = 0 \\Rightarrow (x - 3)(x - 4) = 0" },
+        { "tipe": "paragraph", "text": "Pembuat nol penyebut adalah $x = 3$ dan $x = 4$." },
+        { "tipe": "paragraph", "text": "Cek pembilang: untuk $x=3$, $2(3)-8 = -2 \\neq 0$ (asimtot vertikal). Untuk $x=4$, $2(4)-8 = 0$ (titik berlubang/hole)." },
+        { "tipe": "paragraph", "text": "Jadi, asimtot vertikalnya hanya $x = 3$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-mudah-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Daerah asal dari fungsi akar $f(x) = \\sqrt{x - 3}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x < 3$"}],
+        [{"tipe":"paragraph","text":"$x \\leq 3$"}],
+        [{"tipe":"paragraph","text":"$x > 3$"}],
+        [{"tipe":"paragraph","text":"$x \\geq 3$"}],
+        [{"tipe":"paragraph","text":"$x \\geq -3$"}]
+      ],
+      "jawaban_benar": 3,
