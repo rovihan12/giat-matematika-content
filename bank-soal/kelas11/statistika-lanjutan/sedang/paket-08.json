@@ -5,7 +5,7 @@
   "kategori": "Statistika Lanjutan",
   "tingkat": "SEDANG",
   "deskripsi": "Ukuran pemusatan data berkelompok: mean, median, modus, kuartil, desil, persentil",
-  "versi": "1.0.1",
+  "versi": "2.0.0",
   "soal": [
     {
       "id": "bs-k11-stat-lanjut-sedang-08-q01",
@@ -26,8 +26,7 @@
       "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "Titik tengah tiap kelas: 42, 47, 52, 57, 62, 67, 72, 77. Total frekuensi $n = 40$." },
-        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 1(42) + 2(47) + 3(52) + 6(57) + 7(62) + 5(67) + 7(72) + 9(77)" },
-        { "tipe": "formula_block", "latex": "= 42 + 94 + 156 + 342 + 434 + 335 + 504 + 693 = 2600" },
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 1(42) + 2(47) + 3(52) + 6(57) + 7(62) + 5(67) + 7(72) + 9(77) = 2600" },
         { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2600}{40} = 65" },
         { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 65." }
       ],
@@ -54,7 +53,7 @@
         { "tipe": "paragraph", "text": "Banyak data $n = 50$. Letak median = data ke-25." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Interval} & f & F_k \\\\ \\hline 131 - 140 & 6 & 6 \\\\ 141 - 150 & 11 & 17 \\\\ 151 - 160 & 8 & 25 \\\\ 161 - 170 & 12 & 37 \\\\ 171 - 180 & 8 & 45 \\\\ 181 - 190 & 5 & 50 \\\\ \\hline \\end{array}" },
         { "tipe": "paragraph", "text": "Data ke-25 berada di kelas 151–160. Tepi bawah $T_b = 150{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 17; $f = 8$." },
-        { "tipe": "formula_block", "latex": "Me = 150{,}5 + 10 \\left( \\dfrac{25 - 17}{8} \\right) = 150{,}5 + 10 = 160{,}5" },
+        { "tipe": "formula_block", "latex": "Me = 150{,}5 + 10 \\left( \\dfrac{25 - 17}{8} \\right) = 150{,}5 + 10(1) = 160{,}5" },
         { "tipe": "paragraph", "text": "Jadi, mediannya adalah 160,5." }
       ],
       "tingkat": "SEDANG"
@@ -179,7 +178,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 40$. Letak $Q_1$ = data ke-$\\frac{40}{4} = 10$." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Nilai} & f & F_k \\\\ \\hline 30 - 39 & 3 & 3 \\\\ 40 - 49 & 6 & 9 \\\\ 50 - 59 & 10 & 19 \\\\ 60 - 69 & 10 & 29 \\\\ 70 - 79 & 7 & 36 \\\\ 80 - 89 & 4 & 40 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-10 berada di kelas 50–59. Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 9; $f = 10$." },
+        { "tipe": "paragraph", "text": "Data ke-10 berada di kelas 50–59. Tepi bawah $T_b = 49{,}5$; panjang kelas $p = 10$; $F_k = 9$; $f = 10$." },
         { "tipe": "formula_block", "latex": "Q_1 = 49{,}5 + 10 \\left( \\dfrac{10 - 9}{10} \\right) = 49{,}5 + 1 = 50{,}5" },
         { "tipe": "paragraph", "text": "Jadi, kuartil bawahnya adalah 50,5." }
       ],
@@ -197,7 +196,7 @@
       "pilihan": [
         [{"tipe":"paragraph","text":"59,0"}],
         [{"tipe":"paragraph","text":"59,5"}],
-        [{"tipe":"paragraph","text":"60,0"}],
+        [{"tipe":"paragraph","text":"59,9"}],
         [{"tipe":"paragraph","text":"60,5"}],
         [{"tipe":"paragraph","text":"61,0"}]
       ],
@@ -205,9 +204,9 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Banyak data $n = 30$. Letak $P_{64}$ = data ke-$\\frac{64 \\cdot 30}{100} = 19{,}2$." },
         { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline \\text{Skor} & f & F_k \\\\ \\hline 31 - 40 & 3 & 3 \\\\ 41 - 50 & 4 & 7 \\\\ 51 - 60 & 13 & 20 \\\\ 61 - 70 & 7 & 27 \\\\ 71 - 80 & 2 & 29 \\\\ 81 - 90 & 1 & 30 \\\\ \\hline \\end{array}" },
-        { "tipe": "paragraph", "text": "Data ke-19,2 berada di kelas 51–60. Tepi bawah $T_b = 50{,}5$; panjang kelas $p = 10$; $F_k$ sebelum = 7; $f = 13$." },
-        { "tipe": "formula_block", "latex": "P_{64} = 50{,}5 + 10 \\left( \\dfrac{19{,}2 - 7}{13} \\right) = 50{,}5 + 10 \\left( \\dfrac{12{,}2}{13} \\right) = 50{,}5 + 9{,}385 = 59{,}885 \\approx 60{,}0" },
-        { "tipe": "paragraph", "text": "Jadi, persentil ke-64 adalah sekitar 60,0." }
+        { "tipe": "paragraph", "text": "Data ke-19,2 berada di kelas 51–60. Tepi bawah $T_b = 50{,}5$; panjang kelas $p = 10$; $F_k = 7$; $f = 13$." },
+        { "tipe": "formula_block", "latex": "P_{64} = 50{,}5 + 10 \\left( \\dfrac{19{,}2 - 7}{13} \\right) = 50{,}5 + 9{,}3846 = 59{,}8846 \\approx 59{,}9" },
+        { "tipe": "paragraph", "text": "Jadi, persentil ke-64 adalah sekitar 59,9." }
       ],
       "tingkat": "SEDANG"
     },
@@ -229,7 +228,7 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik tengah: 3, 8, 13, 18. Total frekuensi $n = 20$." },
+        { "tipe": "paragraph", "text": "Titik tengah ($x_i$): 3, 8, 13, 18. Total frekuensi $n = 20$." },
         { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{2(3) + 5(8) + 8(13) + 5(18)}{20} = \\dfrac{6 + 40 + 104 + 90}{20} = \\dfrac{240}{20} = 12" },
         { "tipe": "paragraph", "text": "Jadi, meannya adalah 12." }
       ],
