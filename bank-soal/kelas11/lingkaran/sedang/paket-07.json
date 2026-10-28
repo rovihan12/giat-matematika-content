@@ -1,0 +1,206 @@
+{
+  "id": "bs-k11-ling-s-07",
+  "nama": "Bank Soal Sedang - Paket 7",
+  "kelas": 11,
+  "kategori": "Lingkaran",
+  "tingkat": "SEDANG",
+  "deskripsi": "Soal sedang tentang sudut antara dua tali busur dan segi empat siklik",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k11-ling-s-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar. Dua tali busur $AB$ dan $CD$ berpotongan di titik $P$ di dalam lingkaran. Jika $\\angle APC = 80^\\circ$ dan busur $AC = 60^\\circ$, maka busur $BD$ adalah..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas11/lingkaran/sedang/dua-tali-busur.png",
+          "caption": "Dua tali busur AB dan CD berpotongan di P di dalam lingkaran. Sudut APC terbentuk.",
+          "width": "medium"
+        }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$120^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$160^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle APC = \\dfrac{1}{2}(\\text{busur } AC + \\text{busur } BD)$" },
+        { "tipe": "paragraph", "text": "$80^\\circ = \\dfrac{1}{2}(60^\\circ + \\text{busur } BD)$" },
+        { "tipe": "paragraph", "text": "$160^\\circ = 60^\\circ + \\text{busur } BD$" },
+        { "tipe": "paragraph", "text": "$\\text{busur } BD = 100^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di dalam lingkaran. Busur yang berhadapan besarnya $70^\\circ$ dan $90^\\circ$. Sudut yang terbentuk di antara tali busur adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$70^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$160^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(70^\\circ + 90^\\circ) = \\dfrac{1}{2}(160^\\circ) = 80^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat $PQRS$ siklik dengan $\\angle P = 2x^\\circ$ dan $\\angle R = (3x + 20)^\\circ$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$26$" } ],
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$32$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle P + \\angle R = 180^\\circ$" },
+        { "tipe": "paragraph", "text": "$2x + 3x + 20 = 180$" },
+        { "tipe": "paragraph", "text": "$5x = 160 \\Rightarrow x = 32$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di luar lingkaran. Busur besar $= 120^\\circ$, busur kecil $= 40^\\circ$. Sudut antara dua tali busur tersebut adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(120^\\circ - 40^\\circ) = \\dfrac{1}{2}(80^\\circ) = 40^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik $ABCD$ memiliki $\\angle A = 70^\\circ$ dan $\\angle B = 80^\\circ$. Besar $\\angle D$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$110^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$120^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sifat segi empat siklik: $\\angle B + \\angle D = 180^\\circ$" },
+        { "tipe": "paragraph", "text": "$\\angle D = 180^\\circ - 80^\\circ = 100^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di dalam lingkaran. Busur-busur yang berhadapan $50^\\circ$ dan $70^\\circ$. Sudut lancip yang terbentuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$70^\\circ$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(50^\\circ + 70^\\circ) = \\dfrac{1}{2}(120^\\circ) = 60^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik $ABCD$ dengan $\\angle A = (2x + 10)^\\circ$ dan $\\angle C = (3x - 30)^\\circ$. Nilai $x$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30$" } ],
+        [ { "tipe": "paragraph", "text": "$35$" } ],
+        [ { "tipe": "paragraph", "text": "$38$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle A + \\angle C = 180^\\circ$" },
+        { "tipe": "paragraph", "text": "$(2x + 10) + (3x - 30) = 180$" },
+        { "tipe": "paragraph", "text": "$5x - 20 = 180 \\Rightarrow 5x = 200 \\Rightarrow x = 40$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat siklik memiliki sudut-sudut $\\angle P = 85^\\circ$, $\\angle Q = 95^\\circ$, dan $\\angle R = 95^\\circ$. Besar $\\angle S$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$75^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$85^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$95^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle S = 180^\\circ - \\angle Q = 180^\\circ - 95^\\circ = 85^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua tali busur berpotongan di luar lingkaran. Busur besar $= 130^\\circ$, busur kecil $= 50^\\circ$. Sudut yang terbentuk adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$30^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle = \\dfrac{1}{2}(130^\\circ - 50^\\circ) = \\dfrac{1}{2}(80^\\circ) = 40^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k11-ling-s-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Segi empat $ABCD$ siklik. Jika $\\angle A = 80^\\circ$ dan $\\angle B = 70^\\circ$, maka besar $\\angle D$ adalah..." }
+      ],
+      "pilihan": [
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$90^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$100^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$110^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$120^\\circ$" } ]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\angle B + \\angle D = 180^\\circ$" },
+        { "tipe": "paragraph", "text": "$\\angle D = 180^\\circ - 70^\\circ = 110^\\circ$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
