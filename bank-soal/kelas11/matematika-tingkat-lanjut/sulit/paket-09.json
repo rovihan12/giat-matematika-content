@@ -1,0 +1,225 @@
+{
+  "id": "bs-k11-mat-lanjut-sulit-09",
+  "nama": "Bank Soal Sulit - Paket 9",
+  "kelas": 11,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Vektor 3D, titik kolinear, & sifat matriks",
+  "versi": "1.0.1",
+  "soal": [
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = \\vec{i} - 6\\vec{j} - \\vec{k}$, $\\vec{b} = 3\\vec{i} - 2\\vec{j} + \\vec{k}$, dan $\\vec{c} = 4\\vec{i} - 2\\vec{j} + 2\\vec{k}$. Panjang dari vektor $\\vec{d} = 2\\vec{a} - \\vec{b} + 3\\vec{c}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sqrt{386}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{396}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{406}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{416}$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{426}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung vektor $\\vec{d}$:" },
+        { "tipe": "formula_block", "latex": "\\vec{d} = 2(1, -6, -1) - (3, -2, 1) + 3(4, -2, 2)" },
+        { "tipe": "formula_block", "latex": "= (2, -12, -2) - (3, -2, 1) + (12, -6, 6)" },
+        { "tipe": "formula_block", "latex": "= (2-3+12, -12+2-6, -2-1+6) = (11, -16, 3)" },
+        { "tipe": "paragraph", "text": "Panjang vektor $\\vec{d}$:" },
+        { "tipe": "formula_block", "latex": "|\\vec{d}| = \\sqrt{11^2 + (-16)^2 + 3^2} = \\sqrt{121 + 256 + 9} = \\sqrt{386}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $A(1, 2, 4)$, $B(5, 3, 6)$, dan $C(13, 5, p)$ segaris (kolinear). Nilai $p$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"8"}],
+        [{"tipe":"paragraph","text":"10"}],
+        [{"tipe":"paragraph","text":"12"}],
+        [{"tipe":"paragraph","text":"14"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik-titik segaris jika $\\overrightarrow{AB} = k \\cdot \\overrightarrow{BC}$." },
+        { "tipe": "formula_block", "latex": "\\overrightarrow{AB} = (4, 1, 2)" },
+        { "tipe": "formula_block", "latex": "\\overrightarrow{BC} = (8, 2, p-6)" },
+        { "tipe": "paragraph", "text": "Karena $\\overrightarrow{BC} = 2 \\overrightarrow{AB}$, maka $p - 6 = 2(2) = 4 \\Rightarrow p = 10$ (Opsi C)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{a} = \\begin{pmatrix} p \\\\ 2 \\\\ -1 \\end{pmatrix}$, $\\vec{b} = \\begin{pmatrix} 4 \\\\ -3 \\\\ 6 \\end{pmatrix}$, dan $\\vec{c} = \\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix}$. Jika $\\vec{a}$ tegak lurus $\\vec{b}$, maka hasil dari $(\\vec{a} - 2\\vec{b}) \\cdot (3\\vec{c})$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-12"}],
+        [{"tipe":"paragraph","text":"-6"}],
+        [{"tipe":"paragraph","text":"0"}],
+        [{"tipe":"paragraph","text":"6"}],
+        [{"tipe":"paragraph","text":"12"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\vec{a} \\perp \\vec{b} \\Rightarrow \\vec{a} \\cdot \\vec{b} = 0$:" },
+        { "tipe": "formula_block", "latex": "4p - 6 - 6 = 0 \\Rightarrow 4p = 12 \\Rightarrow p = 3" },
+        { "tipe": "paragraph", "text": "Hitung $\\vec{a} - 2\\vec{b}$ dan $3\\vec{c}$:" },
+        { "tipe": "formula_block", "latex": "\\vec{a} - 2\\vec{b} = (3, 2, -1) - (8, -6, 12) = (-5, 8, -13)" },
+        { "tipe": "formula_block", "latex": "3\\vec{c} = 3(2, 1, 0) = (6, 3, 0)" },
+        { "tipe": "formula_block", "latex": "(\\vec{a} - 2\\vec{b}) \\cdot 3\\vec{c} = (-5)(6) + (8)(3) + (-13)(0) = -30 + 24 + 0 = -6 \\text{ (Opsi B)}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika vektor $\\vec{a} = x\\vec{i} - 4\\vec{j} + 8\\vec{k}$ tegak lurus vektor $\\vec{b} = 2x\\vec{i} + 2x\\vec{j} - 3\\vec{k}$, maka nilai $x$ yang memenuhi adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"-4 atau 2"}],
+        [{"tipe":"paragraph","text":"-2 atau 6"}],
+        [{"tipe":"paragraph","text":"-4 atau -2"}],
+        [{"tipe":"paragraph","text":"2 atau 4"}],
+        [{"tipe":"paragraph","text":"-8 atau 1"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = (x)(2x) + (-4)(2x) + (8)(-3) = 0" },
+        { "tipe": "formula_block", "latex": "2x^2 - 8x - 24 = 0 \\Rightarrow x^2 - 4x - 12 = 0" },
+        { "tipe": "formula_block", "latex": "(x - 6)(x + 2) = 0 \\Rightarrow x = 6 \\text{ atau } x = -2 \\text{ (Opsi B)}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui titik $A(1, 2, 0)$, $B(-2, 5, 6)$, dan $C(-4, 4, -4)$. Titik $P$ membagi $AB$ sehingga $AP : PB = 1 : 2$. Vektor yang diwakili $\\overrightarrow{PC}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-4, 1, -6)$"}],
+        [{"tipe":"paragraph","text":"$(-2, 1, -8)$"}],
+        [{"tipe":"paragraph","text":"$(-2, 1, 10)$"}],
+        [{"tipe":"paragraph","text":"$(2, -1, -10)$"}],
+        [{"tipe":"paragraph","text":"$(2, 1, 10)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Koordinat $P$:" },
+        { "tipe": "formula_block", "latex": "P = \\frac{2A + 1B}{3} = \\frac{2(1,2,0) + 1(-2,5,6)}{3} = \\frac{(0,9,6)}{3} = (0, 3, 2)" },
+        { "tipe": "paragraph", "text": "Vektor $\\overrightarrow{PC}$:" },
+        { "tipe": "formula_block", "latex": "\\overrightarrow{PC} = C - P = (-4, 4, -4) - (0, 3, 2) = (-4, 1, -6) \\text{ (Opsi A)}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $|\\vec{a}| = 6$, $|\\vec{b}| = 8$, dan $|\\vec{a} + \\vec{b}| = 2\\sqrt{26}$. Nilai $|\\vec{a} - \\vec{b}|$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\sqrt{6}$"}],
+        [{"tipe":"paragraph","text":"$4\\sqrt{6}$"}],
+        [{"tipe":"paragraph","text":"$6\\sqrt{6}$"}],
+        [{"tipe":"paragraph","text":"$8\\sqrt{6}$"}],
+        [{"tipe":"paragraph","text":"$10\\sqrt{6}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas jajaran genjang:" },
+        { "tipe": "formula_block", "latex": "|\\vec{a} + \\vec{b}|^2 + |\\vec{a} - \\vec{b}|^2 = 2(|\\vec{a}|^2 + |\\vec{b}|^2)" },
+        { "tipe": "formula_block", "latex": "(2\\sqrt{26})^2 + |\\vec{a} - \\vec{b}|^2 = 2(36 + 64) = 200" },
+        { "tipe": "formula_block", "latex": "104 + |\\vec{a} - \\vec{b}|^2 = 200 \\Rightarrow |\\vec{a} - \\vec{b}|^2 = 96" },
+        { "tipe": "formula_block", "latex": "|\\vec{a} - \\vec{b}| = \\sqrt{96} = 4\\sqrt{6} \\text{ (Opsi B)}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Besar sudut antara vektor $\\vec{a} = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ dan $\\vec{b} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$30^\\circ$"}],
+        [{"tipe":"paragraph","text":"$45^\\circ$"}],
+        [{"tipe":"paragraph","text":"$60^\\circ$"}],
+        [{"tipe":"paragraph","text":"$90^\\circ$"}],
+        [{"tipe":"paragraph","text":"$120^\\circ$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 3(1) + 1(2) = 5" },
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{3^2 + 1^2} = \\sqrt{10}; \\quad |\\vec{b}| = \\sqrt{1^2 + 2^2} = \\sqrt{5}" },
+        { "tipe": "formula_block", "latex": "\\cos \\theta = \\frac{5}{\\sqrt{10} \\cdot \\sqrt{5}} = \\frac{5}{\\sqrt{50}} = \\frac{5}{5\\sqrt{2}} = \\frac{1}{\\sqrt{2}}" },
+        { "tipe": "paragraph", "text": "Sehingga besar sudut $\\theta = 45^\\circ$ (Opsi B)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $\\vec{u} = \\begin{pmatrix} 1 \\\\ 2 \\\\ -1 \\end{pmatrix}$ dan $\\vec{v} = \\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}$. Proyeksi skalar $(3\\vec{u} + 2\\vec{v})$ pada $\\vec{u}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{5}{\\sqrt{6}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{10}{\\sqrt{6}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{15}{\\sqrt{6}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{20}{\\sqrt{6}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{25}{\\sqrt{6}}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "3\\vec{u} + 2\\vec{v} = (3, 6, -3) + (2, -2, 4) = (5, 4, 1)" },
+        { "tipe": "formula_block", "latex": "(3\\vec{u} + 2\\vec{v}) \\cdot \\vec{u} = 5(1) + 4(2) + 1(-1) = 5 + 8 - 1 = 10" },
+        { "tipe": "formula_block", "latex": "|\\vec{u}| = \\sqrt{1^2 + 2^2 + (-1)^2} = \\sqrt{6}" },
+        { "tipe": "paragraph", "text": "Proyeksi skalar = $\\frac{10}{\\sqrt{6}}$ (Opsi B)." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui segitiga $ABC$ dengan koordinat $A(2, -1, -1)$, $B(14, 3, -9)$, dan $C(5, 0, -3)$. Proyeksi vektor $\\overrightarrow{AB}$ pada $\\overrightarrow{AC}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4(3, 1, -2)$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}(3, 1, -2)$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}(3, -1, -2)$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}(3, -1, -2)$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}(-3, 1, -2)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\overrightarrow{AB} = (14-2, 3-(-1), -9-(-1)) = (12, 4, -8)" },
+        { "tipe": "formula_block", "latex": "\\overrightarrow{AC} = (5-2, 0-(-1), -3-(-1)) = (3, 1, -2)" },
+        { "tipe": "formula_block", "latex": "\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = 12(3) + 4(1) + (-8)(-2) = 36 + 4 + 16 = 56" },
+        { "tipe": "formula_block", "latex": "|\\overrightarrow{AC}|^2 = 3^2 + 1^2 + (-2)^2 = 14" },
+        { "tipe": "formula_block", "latex": "\\text{Proyeksi vektor} = \\frac{56}{14}(3, 1, -2) = 4(3, 1, -2) \\text{ (Opsi A)}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k11-mat-lanjut-sulit-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{a} = 2\\vec{i} - 4\\vec{j} - 6\\vec{k}$ dan vektor $\\vec{b} = 2\\vec{i} - 2\\vec{j} + 4\\vec{k}$. Proyeksi vektor ortogonal $\\vec{a}$ pada $\\vec{b}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{1}{6}(2\\vec{i} - 2\\vec{j} + 4\\vec{k})$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{6}(2\\vec{i} - 2\\vec{j} + 4\\vec{k})$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{1}{3}(2\\vec{i} - 2\\vec{j} + 4\\vec{k})$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{3}(2\\vec{i} - 2\\vec{j} + 4\\vec{k})$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{1}{2}(2\\vec{i} - 2\\vec{j} + 4\\vec{k})$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 2(2) + (-4)(-2) + (-6)(4) = 4 + 8 - 24 = -12" },
+        { "tipe": "formula_block", "latex": "|\\vec{b}|^2 = 2^2 + (-2)^2 + 4^2 = 4 + 4 + 16 = 24" },
+        { "tipe": "formula_block", "latex": "\\text{Proyeksi} = \\frac{-12}{24}(2\\vec{i} - 2\\vec{j} + 4\\vec{k}) = -\\frac{1}{2}(2\\vec{i} - 2\\vec{j} + 4\\vec{k}) \\text{ (Opsi E)}" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
