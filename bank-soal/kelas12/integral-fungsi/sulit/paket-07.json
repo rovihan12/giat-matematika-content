@@ -1,193 +1,225 @@
 {
-  "id": "bs-k12-integral-mudah-07",
-  "nama": "Bank Soal Mudah - Paket 7",
+  "id": "bs-k12-integral-sulit-07",
+  "nama": "Bank Soal Sulit - Paket 7",
   "kelas": 12,
   "kategori": "Integral Fungsi",
-  "tingkat": "MUDAH",
-  "deskripsi": "Integral tentu fungsi aljabar dasar",
-  "versi": "1.0.0",
+  "tingkat": "SULIT",
+  "deskripsi": "Aplikasi Integral: Analisis Grafik",
+  "versi": "1.0.1",
   "soal": [
     {
-      "id": "bs-k12-integral-mudah-07-q01",
+      "id": "bs-k12-integral-sulit-07-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{2} (3x^2) \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Luas daerah yang diarsir pada gambar dapat dinyatakan dengan rumus..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral/sulit/grafik-akar-garis.png",
+          "caption": "Grafik kurva y = akar(2x) dan garis x - y = 4. Daerah yang diarsir berada di antara kurva dan garis pada kuadran I.",
+          "width": "medium"
+        }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$4$"}],
-        [{"tipe":"paragraph","text":"$6$"}],
-        [{"tipe":"paragraph","text":"$8$"}],
-        [{"tipe":"paragraph","text":"$12$"}],
-        [{"tipe":"paragraph","text":"$16$"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{0}^{2} 3x^2 \\, dx = [x^3]_{0}^{2} = 8 - 0 = 8" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-07-q02",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{3} (2x + 1) \\, dx$ adalah ..." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$12$"}],
-        [{"tipe":"paragraph","text":"$16$"}],
-        [{"tipe":"paragraph","text":"$10$"}],
-        [{"tipe":"paragraph","text":"$14$"}],
-        [{"tipe":"paragraph","text":"$18$"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{1}^{3} (2x + 1) \\, dx = [x^2 + x]_{1}^{3} = (9+3) - (1+1) = 12 - 2 = 10" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-07-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{4} (4x - 5) \\, dx$ adalah ..." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$15$"}],
-        [{"tipe":"paragraph","text":"$5$"}],
-        [{"tipe":"paragraph","text":"$-5$"}],
-        [{"tipe":"paragraph","text":"$4$"}],
-        [{"tipe":"paragraph","text":"$8$"}]
+        [{"tipe":"paragraph","text":"$\\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x-4) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{8} \\sqrt{2x} \\, dx + \\int_{4}^{8} (x-4) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{8} (x-4) \\, dx - \\int_{0}^{8} \\sqrt{2x} \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{8} (\\sqrt{2x} - x + 4) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{4} \\sqrt{2x} \\, dx + \\int_{4}^{8} (\\sqrt{2x} - x + 4) \\, dx$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{1}^{4} (4x - 5) \\, dx = [2x^2 - 5x]_{1}^{4} = (32-20) - (2-5) = 12 - (-3) = 15" }
+        { "tipe": "paragraph", "text": "Garis $x - y = 4 \\Rightarrow y = x - 4$. Kurva $y = \\sqrt{2x}$. Titik potong: $\\sqrt{2x} = x - 4 \\Rightarrow 2x = x^2 - 8x + 16 \\Rightarrow x^2 - 10x + 16 = 0 \\Rightarrow x=2$ atau $x=8$." },
+        { "tipe": "paragraph", "text": "Berdasarkan gambar, daerah dibatasi oleh kurva (atas) dari $x=0$ sampai $x=8$ dan garis (bawah) dari $x=4$ sampai $x=8$. Maka rumusnya adalah $\\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x-4) \\, dx$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-07-q04",
+      "id": "bs-k12-integral-sulit-07-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{3} (x^2 + 2x) \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Luas daerah yang diarsir pada gambar berikut dapat dinyatakan dengan rumus..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral/sulit/grafik-sin-cos.png",
+          "caption": "Grafik kurva y = cos x dan y = sin 2x pada interval 0 sampai pi/2. Daerah yang diarsir dibatasi oleh kedua kurva tersebut.",
+          "width": "medium"
+        }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{50}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{28}{3}$"}],
-        [{"tipe":"paragraph","text":"$12$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{32}{3}$"}],
-        [{"tipe":"paragraph","text":"$10$"}]
+        [{"tipe":"paragraph","text":"$\\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{\\pi/6} (\\sin 2x - \\cos x) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{\\pi/6} (\\cos x - \\sin 2x) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{\\pi/6}^{\\pi/2} (\\sin 2x - \\cos x) \\, dx$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{1}^{3} (x^2 + 2x) \\, dx = [\\dfrac{1}{3}x^3 + x^2]_{1}^{3} = (9 + 9) - (\\dfrac{1}{3} + 1) = 18 - \\dfrac{4}{3} = \\dfrac{54-4}{3} = \\dfrac{50}{3}" }
+        { "tipe": "paragraph", "text": "Titik potong: $\\cos x = \\sin 2x = 2\\sin x \\cos x \\Rightarrow \\cos x(1 - 2\\sin x) = 0 \\Rightarrow \\sin x = 1/2 \\Rightarrow x = \\pi/6$." },
+        { "tipe": "paragraph", "text": "Pada interval $[\\pi/6, \\pi/2]$, kurva $y = \\cos x$ berada di atas $y = \\sin 2x$. Jadi rumusnya $\\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-07-q05",
+      "id": "bs-k12-integral-sulit-07-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{-1}^{1} (x^3 - x) \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Luas daerah yang diarsir pada gambar dapat dinyatakan dengan rumus..." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/integral/sulit/grafik-parabola-garis-2.png",
+          "caption": "Grafik kurva y = x^2 dan garis y = x + 2. Daerah yang diarsir berada di antara kurva dan garis pada kuadran I dan II.",
+          "width": "medium"
+        }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$-1$"}],
-        [{"tipe":"paragraph","text":"$-2$"}]
+        [{"tipe":"paragraph","text":"$\\int_{-1}^{2} ((x+2) - x^2) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{-1}^{2} (x^2 - (x+2)) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{-2}^{1} ((x+2) - x^2) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{-1}^{2} (x^2 + x + 2) \\, dx$"}],
+        [{"tipe":"paragraph","text":"$\\int_{0}^{2} ((x+2) - x^2) \\, dx$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Fungsi $f(x) = x^3 - x$ adalah fungsi ganjil dan batas simetris, sehingga integralnya 0." }
+        { "tipe": "paragraph", "text": "Titik potong: $x^2 = x + 2 \\Rightarrow x^2 - x - 2 = 0 \\Rightarrow (x-2)(x+1)=0 \\Rightarrow x=-1, x=2$." },
+        { "tipe": "paragraph", "text": "Garis berada di atas kurva, sehingga luas = $\\int_{-1}^{2} ((x+2) - x^2) \\, dx$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-07-q06",
+      "id": "bs-k12-integral-sulit-07-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{4} (12t - 4t^2) \\, dt$ adalah ..." }
+        { "tipe": "paragraph", "text": "Luas daerah yang dibatasi oleh kurva $y = x^2$ dan garis $y = 5x - 4$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{32}{3}$"}],
-        [{"tipe":"paragraph","text":"$32$"}],
-        [{"tipe":"paragraph","text":"$24$"}],
-        [{"tipe":"paragraph","text":"$48$"}],
-        [{"tipe":"paragraph","text":"$64$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{9}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{11}{6}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{11}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{15}{2}$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{0}^{4} (12t - 4t^2) \\, dt = [6t^2 - \\dfrac{4}{3}t^3]_{0}^{4} = (96 - \\dfrac{256}{3}) = \\dfrac{288-256}{3} = \\dfrac{32}{3}" }
+        { "tipe": "paragraph", "text": "Titik potong: $x^2 = 5x - 4 \\Rightarrow x^2 - 5x + 4 = 0 \\Rightarrow x=1, x=4$." },
+        { "tipe": "formula_block", "latex": "L = \\int_{1}^{4} ((5x-4) - x^2) \\, dx = [\\dfrac{5}{2}x^2 - 4x - \\dfrac{1}{3}x^3]_{1}^{4}" },
+        { "tipe": "formula_block", "latex": "= (40 - 16 - \\dfrac{64}{3}) - (2.5 - 4 - \\dfrac{1}{3}) = \\dfrac{8}{3} - (-\\dfrac{11}{6}) = \\dfrac{27}{6} = \\dfrac{9}{2}" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-07-q07",
+      "id": "bs-k12-integral-sulit-07-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{4} \\dfrac{2}{x\\sqrt{x}} \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Volume benda putar yang dibatasi oleh kurva $y = \\sqrt{x}$, sumbu-$x$, garis $x = 1$, dan garis $x = 4$ diputar mengelilingi sumbu-$x$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}$"}],
-        [{"tipe":"paragraph","text":"$1$"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Ubah bentuk: $\\dfrac{2}{x\\sqrt{x}} = 2x^{-3/2}$." },
-        { "tipe": "formula_block", "latex": "\\int_{1}^{4} 2x^{-3/2} \\, dx = [\\dfrac{2}{-1/2}x^{-1/2}]_{1}^{4} = [-4x^{-1/2}]_{1}^{4} = -4(\\dfrac{1}{2}) - (-4) = -2 + 4 = 2" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-07-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{-1}^{2} (3x - 1)(x + 5) \\, dx$ adalah ..." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$45$"}],
-        [{"tipe":"paragraph","text":"$37$"}],
-        [{"tipe":"paragraph","text":"$51$"}],
-        [{"tipe":"paragraph","text":"$41$"}],
-        [{"tipe":"paragraph","text":"$15$"}]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Ekspansi: $(3x-1)(x+5) = 3x^2 + 14x - 5$." },
-        { "tipe": "formula_block", "latex": "\\int_{-1}^{2} (3x^2 + 14x - 5) \\, dx = [x^3 + 7x^2 - 5x]_{-1}^{2} = (8+28-10) - (-1+7+5) = 26 - 11 = 15" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-07-q09",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{2} (x^3 - 6x^2 + 8x + 2) \\, dx$ adalah ..." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$4$"}],
-        [{"tipe":"paragraph","text":"$8$"}],
-        [{"tipe":"paragraph","text":"$12$"}],
-        [{"tipe":"paragraph","text":"$16$"}],
-        [{"tipe":"paragraph","text":"$20$"}]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{0}^{2} (x^3 - 6x^2 + 8x + 2) \\, dx = [\\dfrac{1}{4}x^4 - 2x^3 + 4x^2 + 2x]_{0}^{2} = (4 - 16 + 16 + 4) - 0 = 8" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-07-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{3} (3x^2 + 2x + 1) \\, dx$ adalah ..." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$39$"}],
-        [{"tipe":"paragraph","text":"$33$"}],
-        [{"tipe":"paragraph","text":"$27$"}],
-        [{"tipe":"paragraph","text":"$45$"}],
-        [{"tipe":"paragraph","text":"$21$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{15}{2}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{7}{2}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{2}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}\\pi$"}],
+        [{"tipe":"paragraph","text":"$12\\pi$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{0}^{3} (3x^2 + 2x + 1) \\, dx = [x^3 + x^2 + x]_{0}^{3} = (27 + 9 + 3) - 0 = 39" }
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{1}^{4} (\\sqrt{x})^2 \\, dx = \\pi \\int_{1}^{4} x \\, dx = \\pi [\\dfrac{1}{2}x^2]_{1}^{4} = \\pi(8 - 0.5) = \\dfrac{15}{2}\\pi" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas daerah yang dibatasi oleh parabola $y = 4x - x^2$, garis $y = -2x + 8$, dan sumbu-$Y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$4\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$12\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$20\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$10\\dfrac{1}{3}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong parabola dan garis: $4x-x^2 = -2x+8 \\Rightarrow x^2-6x+8=0 \\Rightarrow x=2, x=4$. Batas sumbu-Y adalah $x=0$." },
+        { "tipe": "paragraph", "text": "Pada interval $0 \\le x \\le 2$, garis $y = -2x+8$ berada di atas parabola $y = 4x-x^2$." },
+        { "tipe": "formula_block", "latex": "L = \\int_{0}^{2} ((-2x+8) - (4x-x^2)) \\, dx = \\int_{0}^{2} (x^2-6x+8) \\, dx" },
+        { "tipe": "formula_block", "latex": "= [\\dfrac{1}{3}x^3 - 3x^2 + 8x]_{0}^{2} = \\dfrac{8}{3} - 12 + 16 = \\dfrac{20}{3} = 6\\dfrac{2}{3}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar yang terjadi jika daerah yang dibatasi oleh kurva $y = 2x^2$ dan $y = 4x$ bila diputar mengelilingi sumbu-$X$ sejauh $360^\\circ$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{256}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{256}{18}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{320}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{265}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{320}{18}\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong: $2x^2 = 4x \\Rightarrow 2x(x-2)=0 \\Rightarrow x=0, x=2$." },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{2} [(4x)^2 - (2x^2)^2] \\, dx = \\pi \\int_{0}^{2} (16x^2 - 4x^4) \\, dx" },
+        { "tipe": "formula_block", "latex": "= \\pi [\\dfrac{16}{3}x^3 - \\dfrac{4}{5}x^5]_{0}^{2} = \\pi (\\dfrac{128}{3} - \\dfrac{128}{5}) = 128\\pi(\\dfrac{2}{15}) = \\dfrac{256}{15}\\pi" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Volume benda putar yang terbentuk dari daerah yang dibatasi oleh kurva $x = \\sqrt{3}y^2$, lingkaran $x^2 + y^2 = 4$ dan sumbu-$X$, diputar mengelilingi sumbu-$Y$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{46}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{16}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{34}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{32}{15}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{40}{15}\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong: $(\\sqrt{3}y^2)^2 + y^2 = 4 \\Rightarrow 3y^4 + y^2 - 4 = 0 \\Rightarrow (3y^2+4)(y^2-1)=0 \\Rightarrow y=1$." },
+        { "tipe": "paragraph", "text": "Volume = $\\pi \\int_{0}^{1} [(\\sqrt{4-y^2})^2 - (\\sqrt{3}y^2)^2] \\, dy = \\pi \\int_{0}^{1} (4 - y^2 - 3y^4) \\, dy$." },
+        { "tipe": "formula_block", "latex": "= \\pi [4y - \\dfrac{1}{3}y^3 - \\dfrac{3}{5}y^5]_{0}^{1} = \\pi(4 - \\dfrac{1}{3} - \\dfrac{3}{5}) = \\pi(\\dfrac{60-5-9}{15}) = \\dfrac{46}{15}\\pi" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Daerah yang dibatasi oleh kurva $y = x^2$ dan garis $x + y - 2 = 0$ diputar mengelilingi sumbu-$X$. Volume benda putar yang terjadi adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$14\\dfrac{2}{5}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{72}{5}\\pi$"}],
+        [{"tipe":"paragraph","text":"$15\\dfrac{2}{3}\\pi$"}],
+        [{"tipe":"paragraph","text":"$10\\dfrac{3}{5}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{32}{5}\\pi$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $y = -x + 2$. Titik potong: $x^2 = -x + 2 \\Rightarrow x^2+x-2=0 \\Rightarrow x=1, x=-2$." },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{-2}^{1} [(-x+2)^2 - (x^2)^2] \\, dx = \\pi \\int_{-2}^{1} (x^2 - 4x + 4 - x^4) \\, dx" },
+        { "tipe": "formula_block", "latex": "= \\pi [\\dfrac{1}{3}x^3 - 2x^2 + 4x - \\dfrac{1}{5}x^5]_{-2}^{1} = \\pi [\\dfrac{32}{15} - (-\\dfrac{184}{15})] = \\dfrac{216}{15}\\pi = \\dfrac{72}{5}\\pi = 14\\dfrac{2}{5}\\pi" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Luas daerah yang dibatasi oleh kurva $y = x^2$ dan garis $x + y = 6$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{125}{6}$"}],
+        [{"tipe":"paragraph","text":"$54$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{44}{6}$"}],
+        [{"tipe":"paragraph","text":"$18$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{32}{3}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $y = -x + 6$. Titik potong: $x^2 = -x+6 \\Rightarrow x^2+x-6=0 \\Rightarrow x=-3, x=2$." },
+        { "tipe": "formula_block", "latex": "L = \\int_{-3}^{2} ((-x+6) - x^2) \\, dx = [-\\dfrac{1}{3}x^3 - \\dfrac{1}{2}x^2 + 6x]_{-3}^{2}" },
+        { "tipe": "formula_block", "latex": "= (-\\dfrac{8}{3} - 2 + 12) - (9 - 4.5 - 18) = (\\dfrac{22}{3}) - (-13.5) = \\dfrac{22}{3} + \\dfrac{27}{2} = \\dfrac{125}{6}" }
+      ],
+      "tingkat": "SULIT"
     }
   ]
 }
