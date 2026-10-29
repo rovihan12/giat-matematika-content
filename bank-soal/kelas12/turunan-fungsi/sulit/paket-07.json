@@ -1,0 +1,234 @@
+{
+  "id": "bs-k12-turunan-sulit-07",
+  "nama": "Bank Soal Sulit - Paket 7",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Analisis fungsi lanjutan: titik belok, nilai ekstrem, dan garis singgung",
+  "versi": "1.1.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sulit-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Fungsi $f(x) = 2x^3 - 3x^2 - 12x + 1$ dalam interval $-2 \\le x \\le 3$, mencapai nilai maksimum pada titik $x = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 6x^2 - 6x - 12 = 0 \\Rightarrow x^2 - x - 2 = 0 \\Rightarrow (x-2)(x+1) = 0" },
+        { "tipe": "paragraph", "text": "Stasioner di $x=-1$ dan $x=2$." },
+        { "tipe": "paragraph", "text": "Cek nilai fungsi di titik ujung dan stasioner:" },
+        { "tipe": "paragraph", "text": "$f(-2) = -16 - 12 + 24 + 1 = -3$." },
+        { "tipe": "paragraph", "text": "$f(-1) = -2 - 3 + 12 + 1 = 8$." },
+        { "tipe": "paragraph", "text": "$f(2) = 16 - 12 - 24 + 1 = -19$." },
+        { "tipe": "paragraph", "text": "$f(3) = 54 - 27 - 36 + 1 = -8$." },
+        { "tipe": "paragraph", "text": "Nilai maksimum adalah $8$ yang tercapai di $x=-1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai minimum fungsi $y = (x-3)\\sqrt{x}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Domain $x \\ge 0$. $y = x^{3/2} - 3x^{1/2}$." },
+        { "tipe": "formula_block", "latex": "y' = \\frac{3}{2}x^{1/2} - \\frac{3}{2}x^{-1/2} = \\frac{3}{2}\\frac{x - 1}{\\sqrt{x}}" },
+        { "tipe": "paragraph", "text": "$y' = 0 \\Rightarrow x = 1$." },
+        { "tipe": "paragraph", "text": "Cek ujung dan stasioner: $y(0) = 0$, $y(1) = (1-3)(1) = -2$." },
+        { "tipe": "paragraph", "text": "Jadi nilai minimum adalah $-2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = x\\sqrt{2x}$ di titik pada kurva dengan absis 2 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 3x - 2$"}],
+        [{"tipe":"paragraph","text":"$y = 3x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = 3x - 1$"}],
+        [{"tipe":"paragraph","text":"$y = 2x + 3$"}],
+        [{"tipe":"paragraph","text":"$y = 2x - 3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$y = x\\sqrt{2x} = \\sqrt{2} x^{3/2}$." },
+        { "tipe": "paragraph", "text": "Di $x=2$: $y = \\sqrt{2} \\cdot (2)^{3/2} = \\sqrt{2} \\cdot 2\\sqrt{2} = 4$." },
+        { "tipe": "formula_block", "latex": "y' = \\sqrt{2} \\cdot \\frac{3}{2}x^{1/2} \\Rightarrow m = \\sqrt{2} \\cdot \\frac{3}{2}\\sqrt{2} = 3" },
+        { "tipe": "formula_block", "latex": "y - 4 = 3(x - 2) \\Rightarrow y = 3x - 2" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung kurva $y = x^2 - 4$ yang tegak lurus pada garis $y = x + 3$ memotong sumbu $Y$ di titik ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, -\\frac{13}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{15}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{17}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{19}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{21}{4})$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $y = x+3$ memiliki gradien $m_1 = 1$. Tegak lurus, maka $m_2 = -1$." },
+        { "tipe": "formula_block", "latex": "y' = 2x = -1 \\Rightarrow x = -1/2" },
+        { "tipe": "formula_block", "latex": "y = (-1/2)^2 - 4 = 1/4 - 16/4 = -15/4" },
+        { "tipe": "formula_block", "latex": "y + 15/4 = -1(x + 1/2) \\Rightarrow y = -x - 17/4" },
+        { "tipe": "paragraph", "text": "Memotong sumbu Y di $(0, -17/4)$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kerucut memiliki panjang jari-jari $r$ dan tinggi $t$. Jika $r + t = 12$, maka nilai maksimal volume kerucut tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$72\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\frac{215}{3}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\frac{225}{3}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\frac{256}{3}\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\frac{343}{3}\\pi$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$t = 12 - r$." },
+        { "tipe": "formula_block", "latex": "V = \\frac{1}{3}\\pi r^2 t = \\frac{\\pi}{3}(12r^2 - r^3)" },
+        { "tipe": "formula_block", "latex": "V' = \\frac{\\pi}{3}(24r - 3r^2) = 0 \\Rightarrow r = 8" },
+        { "tipe": "paragraph", "text": "Maka $t = 4$." },
+        { "tipe": "formula_block", "latex": "V = \\frac{1}{3}\\pi (64)(4) = \\frac{256}{3}\\pi" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bola dengan diameter 8 cm seluruhnya terdapat dalam kerucut tegak terbalik. Tinggi kerucut dengan volume terkecil yang mungkin adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$12$ cm"}],
+        [{"tipe":"paragraph","text":"$12\\sqrt{2}$ cm"}],
+        [{"tipe":"paragraph","text":"$16$ cm"}],
+        [{"tipe":"paragraph","text":"$16\\sqrt{2}$ cm"}],
+        [{"tipe":"paragraph","text":"$24$ cm"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jari-jari bola $R = 4$. Misal tinggi kerucut $h$ dan jari-jari alas $r$." },
+        { "tipe": "paragraph", "text": "Dari segitiga sebangun antara penampang bola dan kerucut diperoleh hubungan:" },
+        { "tipe": "formula_block", "latex": "\\frac{r}{h} = \\frac{4}{\\sqrt{(h-4)^2 - 16}}" },
+        { "tipe": "paragraph", "text": "Volume kerucut $V = \\frac{1}{3}\\pi r^2 h$. Substitusi $r^2$ dari hubungan di atas:" },
+        { "tipe": "formula_block", "latex": "r^2 = \\frac{16h^2}{(h-4)^2 - 16} = \\frac{16h^2}{h^2 - 8h}" },
+        { "tipe": "formula_block", "latex": "V = \\frac{1}{3}\\pi \\cdot \\frac{16h^3}{h^2 - 8h} = \\frac{16\\pi}{3} \\cdot \\frac{h^2}{h - 8}" },
+        { "tipe": "paragraph", "text": "Optimasi: $\\frac{dV}{dh} = 0$." },
+        { "tipe": "formula_block", "latex": "\\frac{d}{dh}\\left(\\frac{h^2}{h-8}\\right) = \\frac{2h(h-8) - h^2}{(h-8)^2} = \\frac{h^2 - 16h}{(h-8)^2} = 0 \\Rightarrow h = 16" },
+        { "tipe": "paragraph", "text": "Jadi tinggi kerucut minimum adalah $16$ cm." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = x^2 - 4x + 3$ yang tegak lurus dengan garis $x - 2y + 5 = 0$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x + y - 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$2x - y + 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$x + 2y - 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$x - 2y + 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$2x + y + 2 = 0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $x - 2y + 5 = 0 \\Rightarrow y = \\frac{1}{2}x + \\frac{5}{2}$, gradien $m_1 = \\frac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Tegak lurus, maka $m_2 = -2$." },
+        { "tipe": "formula_block", "latex": "y' = 2x - 4 = -2 \\Rightarrow x = 1" },
+        { "tipe": "formula_block", "latex": "y = 1 - 4 + 3 = 0" },
+        { "tipe": "formula_block", "latex": "y - 0 = -2(x - 1) \\Rightarrow 2x + y - 2 = 0" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Grafik fungsi $f(x) = x^3 - 3x^2 - 9x + 5$ turun pada interval ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1 < x < 3$"}],
+        [{"tipe":"paragraph","text":"$x < -1$ atau $x > 3$"}],
+        [{"tipe":"paragraph","text":"$-3 < x < 1$"}],
+        [{"tipe":"paragraph","text":"$x < -3$ atau $x > 1$"}],
+        [{"tipe":"paragraph","text":"$0 < x < 3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 6x - 9 < 0" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x - 3 < 0 \\Rightarrow (x - 3)(x + 1) < 0" },
+        { "tipe": "paragraph", "text": "Interval turun adalah $-1 < x < 3$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\frac{1}{3}x^3 + ax^2 - 2x + 1$. Fungsi $f(x)$ mempunyai nilai stasioner pada $x = -2$ untuk nilai $a = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = x^2 + 2ax - 2" },
+        { "tipe": "formula_block", "latex": "f'(-2) = 4 - 4a - 2 = 2 - 4a = 0 \\Rightarrow a = \\frac{1}{2}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum fungsi $f(x) = x^3 + 3x^2 - 9x$ dalam interval $-3 \\le x \\le 2$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$25$"}],
+        [{"tipe":"paragraph","text":"$27$"}],
+        [{"tipe":"paragraph","text":"$29$"}],
+        [{"tipe":"paragraph","text":"$31$"}],
+        [{"tipe":"paragraph","text":"$33$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 + 6x - 9 = 0 \\Rightarrow x^2 + 2x - 3 = 0 \\Rightarrow (x+3)(x-1) = 0" },
+        { "tipe": "paragraph", "text": "Stasioner di $x = -3$ dan $x = 1$." },
+        { "tipe": "paragraph", "text": "Cek nilai fungsi:" },
+        { "tipe": "paragraph", "text": "$f(-3) = -27 + 27 + 27 = 27$." },
+        { "tipe": "paragraph", "text": "$f(1) = 1 + 3 - 9 = -5$." },
+        { "tipe": "paragraph", "text": "$f(2) = 8 + 12 - 18 = 2$." },
+        { "tipe": "paragraph", "text": "Nilai maksimum adalah $27$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
