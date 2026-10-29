@@ -137,7 +137,7 @@
         [{"tipe":"paragraph","text":"$9$"}],
         [{"tipe":"paragraph","text":"$12$"}]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 6x + 4" },
         { "tipe": "formula_block", "latex": "f''(x) = 6x - 6" },
@@ -148,20 +148,20 @@
     {
       "id": "bs-k12-turunan-sedang-07-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $f(x) = x^3 - 3x^2 + 4$. Nilai $f''(2)$ adalah ...." }
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = x^3 - 3x + 2$ di titik yang berabsis $x = 2$ adalah ...." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$3$"}],
-        [{"tipe":"paragraph","text":"$6$"}],
-        [{"tipe":"paragraph","text":"$9$"}],
-        [{"tipe":"paragraph","text":"$12$"}]
+        [{"tipe":"paragraph","text":"$y = 9x - 18$"}],
+        [{"tipe":"paragraph","text":"$y = 9x - 16$"}],
+        [{"tipe":"paragraph","text":"$y = 9x - 14$"}],
+        [{"tipe":"paragraph","text":"$y = 9x - 12$"}],
+        [{"tipe":"paragraph","text":"$y = 9x - 10$"}]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 6x" },
-        { "tipe": "formula_block", "latex": "f''(x) = 6x - 6" },
-        { "tipe": "formula_block", "latex": "f''(2) = 12 - 6 = 6" }
+        { "tipe": "paragraph", "text": "Untuk $x = 2$, diperoleh $y = 2^3 - 3(2) + 2 = 8 - 6 + 2 = 4$." },
+        { "tipe": "formula_block", "latex": "y' = 3x^2 - 3 \\Rightarrow m = 3(2)^2 - 3 = 12 - 3 = 9" },
+        { "tipe": "formula_block", "latex": "y - 4 = 9(x - 2) \\Rightarrow y = 9x - 18 + 4 = 9x - 14" }
       ],
       "tingkat": "SEDANG"
     },
