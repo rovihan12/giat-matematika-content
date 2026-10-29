@@ -1,0 +1,209 @@
+{
+  "id": "bs-k12-turunan-sulit-10",
+  "nama": "Bank Soal Sulit - Paket 10",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Analisis fungsi lanjutan, komposisi, dan garis singgung",
+  "versi": "1.1.1",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sulit-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\frac{2x - 1}{3x + 4}$, maka turunan $f'(x)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{24x - 5}{(2 - 3x)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{5}{(2 - 3x)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{24x}{(2 - 3x)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{11 - 24x}{(2 - 3x)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{11}{(3x + 4)^2}$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\frac{2(3x+4) - (2x-1)(3)}{(3x+4)^2} = \\frac{6x + 8 - 6x + 3}{(3x+4)^2} = \\frac{11}{(3x+4)^2}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\sqrt{9x^2 - 12x + 4}$ untuk $x > \\frac{2}{3}$. Nilai dari $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3x + 2$"}],
+        [{"tipe":"paragraph","text":"$3x - 2$"}],
+        [{"tipe":"paragraph","text":"$2x - 3$"}],
+        [{"tipe":"paragraph","text":"$\\frac{9x - 6}{\\sqrt{9x^2 - 12x + 4}}$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk $9x^2 - 12x + 4$ dapat difaktorkan menjadi $(3x - 2)^2$." },
+        { "tipe": "formula_block", "latex": "f(x) = \\sqrt{(3x-2)^2} = |3x - 2|" },
+        { "tipe": "paragraph", "text": "Karena diberikan syarat $x > \\frac{2}{3}$, maka $3x - 2 > 0$ sehingga $f(x) = 3x - 2$." },
+        { "tipe": "formula_block", "latex": "f'(x) = \\frac{d}{dx}(3x - 2) = 3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = x^3 - 3x^2 + 4$. Nilai $f''(2)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$12$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 6x" },
+        { "tipe": "formula_block", "latex": "f''(x) = 6x - 6" },
+        { "tipe": "formula_block", "latex": "f''(2) = 12 - 6 = 6" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum fungsi $f(x) = x^3 + 3x^2 - 9x$ dalam interval $-3 \\le x \\le 2$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$25$"}],
+        [{"tipe":"paragraph","text":"$27$"}],
+        [{"tipe":"paragraph","text":"$29$"}],
+        [{"tipe":"paragraph","text":"$31$"}],
+        [{"tipe":"paragraph","text":"$33$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 + 6x - 9 = 0 \\Rightarrow x^2 + 2x - 3 = 0 \\Rightarrow (x+3)(x-1) = 0" },
+        { "tipe": "paragraph", "text": "Stasioner di $x=-3$ dan $x=1$." },
+        { "tipe": "paragraph", "text": "$f(-3) = -27 + 27 + 27 = 27$." },
+        { "tipe": "paragraph", "text": "$f(1) = 1 + 3 - 9 = -5$." },
+        { "tipe": "paragraph", "text": "$f(2) = 8 + 12 - 18 = 2$." },
+        { "tipe": "paragraph", "text": "Nilai maksimum $= 27$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\frac{2x - 5}{3x - 4}$ dan $f'(x)$ adalah turunan pertama dari $f(x)$. Nilai $f'(1) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-22$"}],
+        [{"tipe":"paragraph","text":"$-12$"}],
+        [{"tipe":"paragraph","text":"$-7$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$22$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = \\frac{7}{(3x-4)^2}" },
+        { "tipe": "formula_block", "latex": "f'(1) = \\frac{7}{(3-4)^2} = 7" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\frac{1}{3}x^3 - 3x^2 + 2x + 8$. Fungsi $f(x)$ cekung ke bawah pada interval ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x < 3$"}],
+        [{"tipe":"paragraph","text":"$x > 3$"}],
+        [{"tipe":"paragraph","text":"$x < -3$"}],
+        [{"tipe":"paragraph","text":"$x < 4$"}],
+        [{"tipe":"paragraph","text":"$x > 4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = x^2 - 6x + 2" },
+        { "tipe": "formula_block", "latex": "f''(x) = 2x - 6 < 0 \\Rightarrow x < 3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai stasioner untuk fungsi $f(x) = 2x^3 - 3x^2 - 12x + 1$ adalah pada $x = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$ dan $2$"}],
+        [{"tipe":"paragraph","text":"$1$ dan $-2$"}],
+        [{"tipe":"paragraph","text":"$-1$ dan $-2$"}],
+        [{"tipe":"paragraph","text":"$1$ dan $2$"}],
+        [{"tipe":"paragraph","text":"$0$ dan $3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 6x^2 - 6x - 12 = 0" },
+        { "tipe": "formula_block", "latex": "x^2 - x - 2 = 0 \\Rightarrow (x - 2)(x + 1) = 0" },
+        { "tipe": "paragraph", "text": "Maka $x = 2$ atau $x = -1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = x^5$. Nilai $f'''(1) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$20$"}],
+        [{"tipe":"paragraph","text":"$40$"}],
+        [{"tipe":"paragraph","text":"$60$"}],
+        [{"tipe":"paragraph","text":"$80$"}],
+        [{"tipe":"paragraph","text":"$120$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 5x^4, \\quad f''(x) = 20x^3, \\quad f'''(x) = 60x^2" },
+        { "tipe": "formula_block", "latex": "f'''(1) = 60" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = x^3 - 6x^2 + 9x + 7$. Nilai $f'(2) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-3$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$9$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 12x + 9" },
+        { "tipe": "formula_block", "latex": "f'(2) = 12 - 24 + 9 = -3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = 2x^3 - 3x^2 + 4x$. Nilai $f''(1) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$12$"}],
+        [{"tipe":"paragraph","text":"$15$"}],
+        [{"tipe":"paragraph","text":"$18$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 6x^2 - 6x + 4" },
+        { "tipe": "formula_block", "latex": "f''(x) = 12x - 6" },
+        { "tipe": "formula_block", "latex": "f''(1) = 12 - 6 = 6" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
