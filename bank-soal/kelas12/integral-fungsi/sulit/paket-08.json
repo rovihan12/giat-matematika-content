@@ -1,205 +1,205 @@
 {
-  "id": "bs-k12-integral-mudah-08",
-  "nama": "Bank Soal Mudah - Paket 8",
+  "id": "bs-k12-integral-sulit-08",
+  "nama": "Bank Soal Sulit - Paket 8",
   "kelas": 12,
   "kategori": "Integral Fungsi",
-  "tingkat": "MUDAH",
-  "deskripsi": "Aplikasi integral (kecepatan, debit, pertumbuhan)",
+  "tingkat": "SULIT",
+  "deskripsi": "Integral Substitusi Trigonometri Tingkat Lanjut",
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k12-integral-mudah-08-q01",
+      "id": "bs-k12-integral-sulit-08-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah mobil bergerak dengan kecepatan yang dinyatakan oleh fungsi $v(t) = 4t + 2$. Jika mobil mulai dari posisi awal $s(0) = 0$, berapa jarak yang ditempuh mobil dalam waktu 3 detik?" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int 2\\sin^2 x \\cos x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$24$ meter"}],
-        [{"tipe":"paragraph","text":"$30$ meter"}],
-        [{"tipe":"paragraph","text":"$36$ meter"}],
-        [{"tipe":"paragraph","text":"$42$ meter"}],
-        [{"tipe":"paragraph","text":"$18$ meter"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}\\sin^3 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}\\sin^3 x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{2}{3}\\sin^3 x + C$"}],
+        [{"tipe":"paragraph","text":"$2\\sin^3 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}\\sin^3 x + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jarak = integral dari kecepatan." },
-        { "tipe": "formula_block", "latex": "s(t) = \\int (4t + 2) \\, dt = 2t^2 + 2t + C" },
-        { "tipe": "paragraph", "text": "Karena $s(0)=0$, maka $C=0$. Jarak pada $t=3$: $s(3) = 2(3)^2 + 2(3) = 18 + 6 = 24$ meter." }
+        { "tipe": "paragraph", "text": "Misal $u = \\sin x$, $du = \\cos x dx$." },
+        { "tipe": "formula_block", "latex": "\\int 2u^2 \\, du = \\dfrac{2}{3}u^3 + C = \\dfrac{2}{3}\\sin^3 x + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-08-q02",
+      "id": "bs-k12-integral-sulit-08-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Debit air yang mengalir ke dalam tangki adalah $D(t) = 3t^2 - t + 1$ liter per menit. Berapa banyak air yang masuk ke tangki dari menit ke-0 hingga menit ke-3?" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos^3 x \\sin x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$15$ liter"}],
-        [{"tipe":"paragraph","text":"$20$ liter"}],
-        [{"tipe":"paragraph","text":"$30$ liter"}],
-        [{"tipe":"paragraph","text":"$35$ liter"}],
-        [{"tipe":"paragraph","text":"$25{,}5$ liter"}]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "formula_block", "latex": "V = \\int_{0}^{3} (3t^2 - t + 1) \\, dt = [t^3 - \\dfrac{1}{2}t^2 + t]_{0}^{3}" },
-        { "tipe": "formula_block", "latex": "= (27 - 4{,}5 + 3) - 0 = 25{,}5 \\text{ liter}" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-08-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah perusahaan memproduksi barang dengan kecepatan $v(t) = 2t^2 - 3t + 4$ barang per jam. Berapa jumlah barang yang diproduksi dari jam ke-1 hingga jam ke-4?" }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$39{,}5$ barang"}],
-        [{"tipe":"paragraph","text":"$24$ barang"}],
-        [{"tipe":"paragraph","text":"$30$ barang"}],
-        [{"tipe":"paragraph","text":"$32$ barang"}],
-        [{"tipe":"paragraph","text":"$36$ barang"}]
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{4}\\cos^4 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}\\cos^4 x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3}\\cos^3 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}\\sin^4 x + C$"}],
+        [{"tipe":"paragraph","text":"$3\\cos^4 x + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "Q = \\int_{1}^{4} (2t^2 - 3t + 4) \\, dt = [\\dfrac{2}{3}t^3 - \\dfrac{3}{2}t^2 + 4t]_{1}^{4}" },
-        { "tipe": "formula_block", "latex": "= (\\dfrac{128}{3} - 24 + 16) - (\\dfrac{2}{3} - \\dfrac{3}{2} + 4) = \\dfrac{237}{6} = 39{,}5 \\text{ barang}" }
+        { "tipe": "paragraph", "text": "Misal $u = \\cos x$, $du = -\\sin x dx$." },
+        { "tipe": "formula_block", "latex": "\\int -u^3 \\, du = -\\dfrac{1}{4}u^4 + C = -\\dfrac{1}{4}\\cos^4 x + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-08-q04",
+      "id": "bs-k12-integral-sulit-08-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Seorang peneliti mengamati pertumbuhan populasi bakteri yang mengikuti fungsi $P'(t) = 5t^2 + 3$, di mana $t$ adalah waktu dalam jam. Jika $P(0) = 0$, berapa banyak bakteri setelah 2 jam?" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin 5x \\cos 3x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{58}{3}$"}],
-        [{"tipe":"paragraph","text":"$35$"}],
-        [{"tipe":"paragraph","text":"$40$"}],
-        [{"tipe":"paragraph","text":"$50$"}],
-        [{"tipe":"paragraph","text":"$20$"}]
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{16}\\cos 8x - \\dfrac{1}{4}\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{16}\\cos 8x + \\dfrac{1}{4}\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{16}\\cos 8x - \\dfrac{1}{4}\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{8}\\cos 8x - \\dfrac{1}{2}\\cos 2x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{16}\\cos 8x + \\dfrac{1}{4}\\cos 2x + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "P(t) = \\int (5t^2 + 3) \\, dt = \\dfrac{5}{3}t^3 + 3t + C" },
-        { "tipe": "paragraph", "text": "$P(0) = 0 \\Rightarrow C = 0$. Maka $P(2) = \\dfrac{5}{3}(8) + 6 = \\dfrac{40}{3} + \\dfrac{18}{3} = \\dfrac{58}{3}$." }
+        { "tipe": "paragraph", "text": "$\\sin 5x \\cos 3x = \\dfrac{1}{2}(\\sin 8x + \\sin 2x)$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2}(\\sin 8x + \\sin 2x) \\, dx = \\dfrac{1}{2}(-\\dfrac{1}{8}\\cos 8x - \\dfrac{1}{2}\\cos 2x) + C = -\\dfrac{1}{16}\\cos 8x - \\dfrac{1}{4}\\cos 2x + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-08-q05",
+      "id": "bs-k12-integral-sulit-08-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Seorang pelukis menciptakan lukisan yang area permukaannya dinyatakan oleh fungsi laju $A'(x) = x^2 + x + 1$. Jika pelukis ingin mengetahui total area yang telah dilukis dari $x = 1$ hingga $x = 3$, berapa luas area tersebut?" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin 3x \\cos 2x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{38}{3}$"}],
-        [{"tipe":"paragraph","text":"$12$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{44}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{32}{3}$"}],
-        [{"tipe":"paragraph","text":"$15$"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{1}^{3} (x^2 + x + 1) \\, dx = [\\dfrac{1}{3}x^3 + \\dfrac{1}{2}x^2 + x]_{1}^{3}" },
-        { "tipe": "formula_block", "latex": "= (9 + 4{,}5 + 3) - (\\dfrac{1}{3} + 0{,}5 + 1) = 16{,}5 - \\dfrac{11}{6} = \\dfrac{88}{6} = \\dfrac{44}{3}" }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-08-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Biaya pemeliharaan mesin dinyatakan oleh fungsi laju $B'(x) = x^2 - 2x + 3$ juta rupiah per tahun. Berapa total biaya pemeliharaan dari tahun ke-2 hingga tahun ke-4?" }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{38}{3}$ Juta"}],
-        [{"tipe":"paragraph","text":"$14$ Juta"}],
-        [{"tipe":"paragraph","text":"$12$ Juta"}],
-        [{"tipe":"paragraph","text":"$10$ Juta"}],
-        [{"tipe":"paragraph","text":"$18$ Juta"}]
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{10}\\cos 5x - \\dfrac{1}{2}\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{10}\\cos 5x + \\dfrac{1}{2}\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{6}\\cos 5x - \\dfrac{1}{2}\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{10}\\cos 5x + \\dfrac{1}{2}\\cos x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{10}\\sin 5x + \\dfrac{1}{2}\\sin x + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{2}^{4} (x^2 - 2x + 3) \\, dx = [\\dfrac{1}{3}x^3 - x^2 + 3x]_{2}^{4}" },
-        { "tipe": "formula_block", "latex": "= (\\dfrac{64}{3} - 16 + 12) - (\\dfrac{8}{3} - 4 + 6) = \\dfrac{52}{3} - \\dfrac{14}{3} = \\dfrac{38}{3} \\text{ Juta}" }
+        { "tipe": "paragraph", "text": "$\\sin 3x \\cos 2x = \\dfrac{1}{2}(\\sin 5x + \\sin x)$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2}(\\sin 5x + \\sin x) \\, dx = \\dfrac{1}{2}(-\\dfrac{1}{5}\\cos 5x - \\cos x) + C = -\\dfrac{1}{10}\\cos 5x - \\dfrac{1}{2}\\cos x + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-08-q07",
+      "id": "bs-k12-integral-sulit-08-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil panen dinyatakan dengan fungsi laju $H'(x) = 3x^2 - 5x + 2$ ton per minggu. Berapa total hasil panen dari minggu ke-1 hingga minggu ke-3?" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\cos^5 x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$10$ ton"}],
-        [{"tipe":"paragraph","text":"$16$ ton"}],
-        [{"tipe":"paragraph","text":"$17$ ton"}],
-        [{"tipe":"paragraph","text":"$18$ ton"}],
-        [{"tipe":"paragraph","text":"$14$ ton"}]
+        [{"tipe":"paragraph","text":"$\\sin x - \\dfrac{2}{3}\\sin^3 x + \\dfrac{1}{5}\\sin^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{6}\\cos^6 x \\sin x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\sin x + \\dfrac{2}{3}\\sin^3 x + \\dfrac{1}{5}\\sin^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\sin x + \\dfrac{2}{3}\\sin^3 x + \\dfrac{1}{5}\\sin^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\cos x - \\dfrac{2}{3}\\cos^3 x + \\dfrac{1}{5}\\cos^5 x + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{1}^{3} (3x^2 - 5x + 2) \\, dx = [x^3 - \\dfrac{5}{2}x^2 + 2x]_{1}^{3}" },
-        { "tipe": "formula_block", "latex": "= (27 - 22{,}5 + 6) - (1 - 2{,}5 + 2) = 10{,}5 - 0{,}5 = 10 \\text{ ton}" }
+        { "tipe": "paragraph", "text": "$\\cos^5 x = \\cos x(1-\\sin^2 x)^2 = \\cos x(1 - 2\\sin^2 x + \\sin^4 x)$." },
+        { "tipe": "paragraph", "text": "Misal $u = \\sin x$, $du = \\cos x dx$." },
+        { "tipe": "formula_block", "latex": "\\int (1 - 2u^2 + u^4) \\, du = u - \\dfrac{2}{3}u^3 + \\dfrac{1}{5}u^5 + C = \\sin x - \\dfrac{2}{3}\\sin^3 x + \\dfrac{1}{5}\\sin^5 x + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-08-q08",
+      "id": "bs-k12-integral-sulit-08-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $\\dfrac{dy}{dx} = 3x^2 - 2x$. Kurva tersebut melewati titik $(2, 5)$. Tentukan persamaan kurva tersebut." }
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{\\pi/4}^{\\pi/2} \\sin 5x \\sin x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$y = x^3 - x^2 + 1$"}],
-        [{"tipe":"paragraph","text":"$y = x^3 - x + 1$"}],
-        [{"tipe":"paragraph","text":"$y = x^3 - x^2 + 2$"}],
-        [{"tipe":"paragraph","text":"$y = x^3 - x + 2$"}],
-        [{"tipe":"paragraph","text":"$y = x^3 - x^2 + 5$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{12}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5}{12}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{6}$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "y = \\int (3x^2 - 2x) \\, dx = x^3 - x^2 + C" },
-        { "tipe": "paragraph", "text": "Substitusi $(2,5)$: $5 = 8 - 4 + C \\Rightarrow C = 1$." },
-        { "tipe": "paragraph", "text": "Jadi, $y = x^3 - x^2 + 1$." }
+        { "tipe": "paragraph", "text": "$\\sin 5x \\sin x = \\dfrac{1}{2}(\\cos 4x - \\cos 6x)$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2}(\\cos 4x - \\cos 6x) \\, dx = \\dfrac{1}{2}(\\dfrac{1}{4}\\sin 4x - \\dfrac{1}{6}\\sin 6x)" },
+        { "tipe": "paragraph", "text": "Evaluasi batas menghasilkan $\\dfrac{1}{8}$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-08-q09",
+      "id": "bs-k12-integral-sulit-08-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $F'(x) = 6x^2 + 2x - 4$ dan $F(2) = 0$, maka $F(x) = \\dots$" }
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\cos^4 2x \\sin 2x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 4x + 28$"}],
-        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 4x - 8$"}],
-        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 4x - 12$"}],
-        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 2x - 24$"}],
-        [{"tipe":"paragraph","text":"$2x^3 + x^2 - 2x + 24$"}]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "formula_block", "latex": "F(x) = \\int (6x^2 + 2x - 4) \\, dx = 2x^3 + x^2 - 4x + C" },
-        { "tipe": "paragraph", "text": "$F(2) = 0 \\Rightarrow 2(8) + 4 - 8 + C = 0 \\Rightarrow 16 + 4 - 8 + C = 0 \\Rightarrow 12 + C = 0 \\Rightarrow C = -12$." },
-        { "tipe": "paragraph", "text": "Jadi, $F(x) = 2x^3 + x^2 - 4x - 12$." }
-      ],
-      "tingkat": "MUDAH"
-    },
-    {
-      "id": "bs-k12-integral-mudah-08-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Gradien garis singgung kurva $y=f(x)$ di sebarang titik dinyatakan oleh $\\dfrac{dy}{dx} = -3x^2 + 6x$. Kurva melalui titik $(-1, 10)$, maka persamaan kurva adalah ..." }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$y = -x^3 + 3x^2 + 6$"}],
-        [{"tipe":"paragraph","text":"$y = x^3 + 3x^2 - 6$"}],
-        [{"tipe":"paragraph","text":"$y = -2x^3 + 3x^2 + 5$"}],
-        [{"tipe":"paragraph","text":"$y = -x^3 + 3x^2 + 5$"}],
-        [{"tipe":"paragraph","text":"$y = -x^3 - 3x^2 + 6$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{10}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{20}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{15}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "y = \\int (-3x^2 + 6x) \\, dx = -x^3 + 3x^2 + C" },
-        { "tipe": "paragraph", "text": "Substitusi $(-1, 10)$: $10 = -(-1)^3 + 3(-1)^2 + C \\Rightarrow 10 = 1 + 3 + C \\Rightarrow C = 6$." },
-        { "tipe": "paragraph", "text": "Jadi, $y = -x^3 + 3x^2 + 6$." }
+        { "tipe": "paragraph", "text": "Misal $u = \\cos 2x$, $du = -2\\sin 2x dx$. Batas: $x=0 \\to u=1$; $x=\\pi/2 \\to u=-1$." },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{-1} u^4 (-\\dfrac{1}{2}du) = \\dfrac{1}{2} \\int_{-1}^{1} u^4 \\, du = \\dfrac{1}{2} [\\dfrac{1}{5}u^5]_{-1}^{1} = \\dfrac{1}{2}(\\dfrac{1}{5} - (-\\dfrac{1}{5})) = \\dfrac{1}{5}" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin^3 x \\cos^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3}\\cos^3 x + \\dfrac{1}{5}\\cos^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}\\cos^3 x - \\dfrac{1}{5}\\cos^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3}\\sin^3 x + \\dfrac{1}{5}\\sin^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}\\sin^3 x - \\dfrac{1}{5}\\sin^5 x + C$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{4}\\cos^4 x + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin^3 x \\cos^2 x = \\sin x(1-\\cos^2 x)\\cos^2 x = (\\cos^2 x - \\cos^4 x)\\sin x$." },
+        { "tipe": "paragraph", "text": "Misal $u = \\cos x$, $du = -\\sin x dx$." },
+        { "tipe": "formula_block", "latex": "\\int -(u^2 - u^4) \\, du = -\\dfrac{1}{3}u^3 + \\dfrac{1}{5}u^5 + C = -\\dfrac{1}{3}\\cos^3 x + \\dfrac{1}{5}\\cos^5 x + C" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\sin^4 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3\\pi}{16}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{16}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3\\pi}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{5\\pi}{16}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin^4 x = (\\dfrac{1-\\cos 2x}{2})^2 = \\dfrac{1 - 2\\cos 2x + \\cos^2 2x}{4}$." },
+        { "tipe": "paragraph", "text": "Substitusi $\\cos^2 2x = \\dfrac{1+\\cos 4x}{2}$ menghasilkan $\\dfrac{3}{8} - \\dfrac{1}{2}\\cos 2x + \\dfrac{1}{8}\\cos 4x$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} (\\dfrac{3}{8} - \\dfrac{1}{2}\\cos 2x + \\dfrac{1}{8}\\cos 4x) \\, dx = [\\dfrac{3}{8}x - \\dfrac{1}{4}\\sin 2x + \\dfrac{1}{32}\\sin 4x]_{0}^{\\pi/2} = \\dfrac{3\\pi}{16}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-integral-sulit-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} (2\\sin^2 x \\cos x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{\\sqrt{3}}$"}],
+        [{"tipe":"paragraph","text":"$1 + \\sqrt{3}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal $u = \\sin x$, $du = \\cos x dx$. Batas $x=0 \\to u=0$; $x=\\pi/2 \\to u=1$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} 2u^2 \\, du = [\\dfrac{2}{3}u^3]_{0}^{1} = \\dfrac{2}{3}" }
+      ],
+      "tingkat": "SULIT"
     }
   ]
 }
