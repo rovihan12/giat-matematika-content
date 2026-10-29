@@ -1,0 +1,217 @@
+{
+  "id": "bs-k12-turunan-mudah-09",
+  "nama": "Bank Soal Mudah - Paket 9",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Aplikasi turunan: gradien dan persamaan garis singgung",
+  "versi": "1.4.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-mudah-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui kurva $f(x) = x^3 - 2x^2 + 4$ dan $P(2,4)$. Persamaan garis singgung di $P$ pada kurva adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$f(x) = 4x + 4$"}],
+        [{"tipe":"paragraph","text":"$f(x) = 4x - 4$"}],
+        [{"tipe":"paragraph","text":"$f(x) = 18 - x$"}],
+        [{"tipe":"paragraph","text":"$4f(x) = 18 - x$"}],
+        [{"tipe":"paragraph","text":"$4f(x) = x - 18$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 4x \\Rightarrow m = f'(2) = 3(4) - 4(2) = 12 - 8 = 4" },
+        { "tipe": "formula_block", "latex": "y - y_1 = m(x - x_1) \\Rightarrow y - 4 = 4(x - 2) \\Rightarrow y = 4x - 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung pada kurva $y = x^2 + 5x - 2$ di titik yang berabsis 1 adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 7x + 3$"}],
+        [{"tipe":"paragraph","text":"$y = 7x - 3$"}],
+        [{"tipe":"paragraph","text":"$7x + y - 3 = 0$"}],
+        [{"tipe":"paragraph","text":"$3x + 7y - 3 = 0$"}],
+        [{"tipe":"paragraph","text":"$2x + 7y - 3 = 0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "x = 1 \\Rightarrow y = 1^2 + 5(1) - 2 = 4" },
+        { "tipe": "formula_block", "latex": "y' = 2x + 5 \\Rightarrow m = 2(1) + 5 = 7" },
+        { "tipe": "formula_block", "latex": "y - 4 = 7(x - 1) \\Rightarrow y = 7x - 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui kurva $f(x) = 3x^2 - 2x + 1$. Gradien garis singgung kurva tersebut pada titik $T(1,2)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$-4$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 6x - 2 \\Rightarrow m = f'(1) = 6(1) - 2 = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = x^2 - 4x + 3$ di titik $(1, 0)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 2x - 2$"}],
+        [{"tipe":"paragraph","text":"$y = -2x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = 2x + 2$"}],
+        [{"tipe":"paragraph","text":"$y = -2x - 2$"}],
+        [{"tipe":"paragraph","text":"$y = x - 1$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 2x - 4 \\Rightarrow m = 2(1) - 4 = -2" },
+        { "tipe": "formula_block", "latex": "y - 0 = -2(x - 1) \\Rightarrow y = -2x + 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = 4x^3 - 13x^2 + 4x - 3$ yang tegak lurus dengan garis $x - 10y = 5$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-10x + y - 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$-10x + y + 18 = 0$"}],
+        [{"tipe":"paragraph","text":"$10x + y - 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$10x + y + 2 = 0$"}],
+        [{"tipe":"paragraph","text":"$10x + y - 18 = 0$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $x - 10y = 5 \\Rightarrow y = \\frac{1}{10}x - \\frac{1}{2}$, gradien $m_1 = \\frac{1}{10}$." },
+        { "tipe": "paragraph", "text": "Tegak lurus, maka $m_2 = -10$." },
+        { "tipe": "formula_block", "latex": "y' = 12x^2 - 26x + 4 = -10 \\Rightarrow 12x^2 - 26x + 14 = 0 \\Rightarrow 6x^2 - 13x + 7 = 0" },
+        { "tipe": "paragraph", "text": "$(6x - 7)(x - 1) = 0 \\Rightarrow x = 1$ atau $x = 7/6$." },
+        { "tipe": "paragraph", "text": "Untuk $x=1$, $y = 4 - 13 + 4 - 3 = -8$. Garis: $y + 8 = -10(x - 1) \\Rightarrow y = -10x + 2 \\Rightarrow 10x + y - 2 = 0$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung kurva $y = -2x^2 + 6x + 7$ yang tegak lurus garis $x - 2y + 13 = 0$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x + y + 15 = 0$"}],
+        [{"tipe":"paragraph","text":"$2x + y - 15 = 0$"}],
+        [{"tipe":"paragraph","text":"$2x - y - 15 = 0$"}],
+        [{"tipe":"paragraph","text":"$4x - 2y + 29 = 0$"}],
+        [{"tipe":"paragraph","text":"$4x - 2y - 29 = 0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $x - 2y + 13 = 0 \\Rightarrow y = \\frac{1}{2}x + \\frac{13}{2}$, gradien $m_1 = 1/2$." },
+        { "tipe": "paragraph", "text": "Tegak lurus, maka $m_2 = -2$." },
+        { "tipe": "formula_block", "latex": "y' = -4x + 6 = -2 \\Rightarrow x = 2" },
+        { "tipe": "formula_block", "latex": "y = -2(4) + 6(2) + 7 = 11" },
+        { "tipe": "formula_block", "latex": "y - 11 = -2(x - 2) \\Rightarrow y = -2x + 15 \\Rightarrow 2x + y - 15 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung kurva $y = x^2 - 4$ yang tegak lurus pada garis $y = x + 3$ memotong sumbu $Y$ di titik ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, -\\frac{13}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{15}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{17}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{19}{4})$"}],
+        [{"tipe":"paragraph","text":"$(0, -\\frac{21}{4})$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $y = x+3$, gradien $m_1 = 1$. Tegak lurus maka $m_2 = -1$." },
+        { "tipe": "formula_block", "latex": "y' = 2x = -1 \\Rightarrow x = -1/2" },
+        { "tipe": "formula_block", "latex": "y = (-1/2)^2 - 4 = 1/4 - 16/4 = -15/4" },
+        { "tipe": "formula_block", "latex": "y + 15/4 = -1(x + 1/2) \\Rightarrow y = -x - 1/2 - 15/4 = -x - 17/4" },
+        { "tipe": "paragraph", "text": "Memotong sumbu Y di $(0, -17/4)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung kurva $y = (x^2 + 2)^2$ yang melalui titik $(1, 9)$ memotong sumbu $Y$ di titik ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, 8)$"}],
+        [{"tipe":"paragraph","text":"$(0, 4)$"}],
+        [{"tipe":"paragraph","text":"$(0, -3)$"}],
+        [{"tipe":"paragraph","text":"$(0, -12)$"}],
+        [{"tipe":"paragraph","text":"$(0, -21)$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "y' = 2(x^2+2)(2x) = 4x(x^2+2)" },
+        { "tipe": "paragraph", "text": "Di $x=1$, $m = 4(1)(3) = 12$." },
+        { "tipe": "formula_block", "latex": "y - 9 = 12(x - 1) \\Rightarrow y = 12x - 3" },
+        { "tipe": "paragraph", "text": "Memotong sumbu Y di $(0, -3)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis singgung kurva $y = x^3 - 3x + 4$ di titik $P$ sejajar dengan garis $9x - y = 7$. Koordinat titik $P$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(2,6)$"}],
+        [{"tipe":"paragraph","text":"$(6,2)$"}],
+        [{"tipe":"paragraph","text":"$(-2,2)$"}],
+        [{"tipe":"paragraph","text":"$(-6,2)$"}],
+        [{"tipe":"paragraph","text":"$(2,-2)$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $9x - y = 7 \\Rightarrow y = 9x - 7$, gradien $m = 9$." },
+        { "tipe": "formula_block", "latex": "y' = 3x^2 - 3 = 9 \\Rightarrow 3x^2 = 12 \\Rightarrow x^2 = 4 \\Rightarrow x = \\pm 2" },
+        { "tipe": "paragraph", "text": "Untuk $x=2$, $y = 8 - 6 + 4 = 6$. (Titik $(2,6)$)." },
+        { "tipe": "paragraph", "text": "Untuk $x=-2$, $y = -8 + 6 + 4 = 2$. (Titik $(-2,2)$)." },
+        { "tipe": "paragraph", "text": "Dari opsi, $(-2,2)$ tersedia di opsi C." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung parabola $y = 2x^2 + 1$ yang ditarik melalui titik $(2,9)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 7x - 8$"}],
+        [{"tipe":"paragraph","text":"$y = 8x - 7$"}],
+        [{"tipe":"paragraph","text":"$y = 2x + 4$"}],
+        [{"tipe":"paragraph","text":"$y = 4x - 2$"}],
+        [{"tipe":"paragraph","text":"$y = 2x^2 + 2$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misal titik singgung $(a, 2a^2+1)$. Gradien $m = 4a$." },
+        { "tipe": "formula_block", "latex": "y - (2a^2+1) = 4a(x - a)" },
+        { "tipe": "paragraph", "text": "Melalui $(2,9)$: $9 - 2a^2 - 1 = 4a(2 - a) \\Rightarrow 8 - 2a^2 = 8a - 4a^2 \\Rightarrow 2a^2 - 8a + 8 = 0 \\Rightarrow a^2 - 4a + 4 = 0 \\Rightarrow (a-2)^2 = 0 \\Rightarrow a=2$." },
+        { "tipe": "paragraph", "text": "Garis singgung di $a=2$: $m=8$, titik $(2,9)$. $y - 9 = 8(x - 2) \\Rightarrow y = 8x - 7$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
