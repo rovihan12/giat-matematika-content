@@ -1,6 +1,6 @@
 {
   "version": "4.5.0",
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "app_min_version": "1.0",
   "base_url_images": "https://cdn.jsdelivr.net/gh/rovihan12/giat-matematika-content@main/",
   "kelas": [
@@ -2040,7 +2040,7 @@
               "bank-soal/kelas12/turunan-fungsi/sulit/paket-07.json",
               "bank-soal/kelas12/turunan-fungsi/sulit/paket-08.json",
               "bank-soal/kelas12/turunan-fungsi/sulit/paket-09.json",
-              "bank-soal/kelas12/turunan-fungsi/sulit/paket-10.json",
+              "bank-soal/kelas12/turunan-fungsi/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -2105,7 +2105,7 @@
               "bank-soal/kelas12/integral-fungsi/sulit/paket-07.json",
               "bank-soal/kelas12/integral-fungsi/sulit/paket-08.json",
               "bank-soal/kelas12/integral-fungsi/sulit/paket-09.json",
-              "bank-soal/kelas12/integral-fungsi/sulit/paket-10.json",
+              "bank-soal/kelas12/integral-fungsi/sulit/paket-10.json"
             ]
           },
           "paket": [
@@ -2123,6 +2123,141 @@
               "nama": "Paket 2 - Integral Tentu & Aplikasi",
               "deskripsi": "Integral tentu, luas daerah, volume",
               "file": "soal/kelas12/integral-fungsi/integral-fungsi-paket-02.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-mudah-06",
+              "nama": "Bank Soal Mudah - Paket 6 (Lanjutan)",
+              "deskripsi": "Integral tak tentu fungsi aljabar dasar (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-mudah-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-mudah-07",
+              "nama": "Bank Soal Mudah - Paket 7 (Lanjutan)",
+              "deskripsi": "Integral tentu fungsi aljabar dasar (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-mudah-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-mudah-08",
+              "nama": "Bank Soal Mudah - Paket 8 (Lanjutan)",
+              "deskripsi": "Aplikasi integral: kecepatan, debit, pertumbuhan (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-mudah-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-mudah-09",
+              "nama": "Bank Soal Mudah - Paket 9 (Lanjutan)",
+              "deskripsi": "Integral fungsi eksponen dan logaritma dasar (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-mudah-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-mudah-10",
+              "nama": "Bank Soal Mudah - Paket 10 (Lanjutan)",
+              "deskripsi": "Integral bentuk akar dan pangkat rasional (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-mudah-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "MUDAH",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sedang-06",
+              "nama": "Bank Soal Sedang - Paket 6 (Lanjutan)",
+              "deskripsi": "Teknik substitusi aljabar (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sedang-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sedang-07",
+              "nama": "Bank Soal Sedang - Paket 7 (Lanjutan)",
+              "deskripsi": "Integral trigonometri & substitusi trigonometri (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sedang-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sedang-08",
+              "nama": "Bank Soal Sedang - Paket 8 (Lanjutan)",
+              "deskripsi": "Integral Parsial lanjutan",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sedang-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sedang-09",
+              "nama": "Bank Soal Sedang - Paket 9 (Lanjutan)",
+              "deskripsi": "Integral tentu lanjutan & sifat fungsi (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sedang-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sedang-10",
+              "nama": "Bank Soal Sedang - Paket 10 (Lanjutan)",
+              "deskripsi": "Integral trigonometri dan eksponen (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sedang-10.json",
+              "jumlah_soal": 10,
+              "tingkat": "SEDANG",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sulit-06",
+              "nama": "Bank Soal Sulit - Paket 6 (Lanjutan)",
+              "deskripsi": "Aplikasi Integral: Luas Daerah & Volume Benda Putar (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sulit-06.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sulit-07",
+              "nama": "Bank Soal Sulit - Paket 7 (Lanjutan)",
+              "deskripsi": "Aplikasi Integral: Analisis Grafik (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sulit-07.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sulit-08",
+              "nama": "Bank Soal Sulit - Paket 8 (Lanjutan)",
+              "deskripsi": "Integral Substitusi Trigonometri Tingkat Lanjut (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sulit-08.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sulit-09",
+              "nama": "Bank Soal Sulit - Paket 9 (Lanjutan)",
+              "deskripsi": "Integral Parsial Berulang & Substitusi Lanjut (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sulit-09.json",
+              "jumlah_soal": 10,
+              "tingkat": "SULIT",
+              "versi": "1.0.0"
+            },
+            {
+              "id": "bs-k12-integral-sulit-10",
+              "nama": "Bank Soal Sulit - Paket 10 (Lanjutan)",
+              "deskripsi": "Campuran Integral Tingkat UN / Ujian Nasional (lanjutan)",
+              "file": "soal/kelas12/integral-fungsi/bs-k12-integral-sulit-10.json",
               "jumlah_soal": 10,
               "tingkat": "SULIT",
               "versi": "1.0.0"
