@@ -5,7 +5,7 @@
   "kategori": "Turunan Fungsi",
   "tingkat": "SULIT",
   "deskripsi": "Turunan lanjutan dan aplikasi kompleks",
-  "versi": "1.0.1",
+  "versi": "1.1.0",
   "soal": [
     {
       "id": "bs-k12-turunan-sulit-09-q01",
@@ -73,44 +73,42 @@
     {
       "id": "bs-k12-turunan-sulit-09-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai maksimum fungsi $f(x) = x^3 - 9x + 2$ dalam interval $-2 \\le x \\le 4$ adalah ...." }
+        { "tipe": "paragraph", "text": "Fungsi $f(x) = 4x^3 - 18x^2 + 15x - 20$ mencapai maksimum untuk nilai $x = \\ldots$" }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$12$"}],
-        [{"tipe":"paragraph","text":"$18$"}],
-        [{"tipe":"paragraph","text":"$24$"}],
-        [{"tipe":"paragraph","text":"$30$"}],
-        [{"tipe":"paragraph","text":"$36$"}]
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{5}$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\frac{5}{2}$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
       ],
-      "jawaban_benar": 3,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 - 9 = 0 \\Rightarrow x = \\pm \\sqrt{3}" },
-        { "tipe": "paragraph", "text": "Cek titik ujung interval dan titik stasioner:" },
-        { "tipe": "paragraph", "text": "$f(-2) = -8 + 18 + 2 = 12$." },
-        { "tipe": "paragraph", "text": "$f(-\\sqrt{3}) = -3\\sqrt{3} + 9\\sqrt{3} + 2 = 6\\sqrt{3} + 2 \\approx 12{,}39$." },
-        { "tipe": "paragraph", "text": "$f(\\sqrt{3}) = 3\\sqrt{3} - 9\\sqrt{3} + 2 = -6\\sqrt{3} + 2 \\approx -8{,}39$." },
-        { "tipe": "paragraph", "text": "$f(4) = 64 - 36 + 2 = 30$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai maksimum fungsi pada interval tersebut adalah $30$." }
+        { "tipe": "formula_block", "latex": "f'(x) = 12x^2 - 36x + 15 = 0" },
+        { "tipe": "formula_block", "latex": "4x^2 - 12x + 5 = 0 \\Rightarrow (2x - 1)(2x - 5) = 0" },
+        { "tipe": "paragraph", "text": "$x = 1/2$ atau $x = 5/2$." },
+        { "tipe": "formula_block", "latex": "f''(x) = 24x - 36" },
+        { "tipe": "paragraph", "text": "$f''(1/2) = 12 - 36 = -24 < 0$ (maksimum)." }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k12-turunan-sulit-09-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Fungsi $f(x) = 2x^3 - 9x^2 + 12$ turun pada interval ...." }
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = x^3 + 6x^2 - 15x$. Fungsi $f(x)$ turun pada interval ...." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$x < 0$ atau $x > 3$"}],
-        [{"tipe":"paragraph","text":"$0 < x < 3$"}],
-        [{"tipe":"paragraph","text":"$x < -3$ atau $x > 0$"}],
-        [{"tipe":"paragraph","text":"$-3 < x < 0$"}],
-        [{"tipe":"paragraph","text":"$0 < x < 2$"}]
+        [{"tipe":"paragraph","text":"$-1 < x < 5$"}],
+        [{"tipe":"paragraph","text":"$-5 \\le x \\le 1$"}],
+        [{"tipe":"paragraph","text":"$-5 < x < 1$"}],
+        [{"tipe":"paragraph","text":"$x < -5$ atau $x > 1$"}],
+        [{"tipe":"paragraph","text":"$x \\le -5$ atau $x \\ge 3$"}]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "f'(x) = 6x^2 - 18x < 0" },
-        { "tipe": "formula_block", "latex": "6x(x - 3) < 0 \\Rightarrow 0 < x < 3" },
-        { "tipe": "paragraph", "text": "Jadi, fungsi $f(x)$ turun pada interval $0 < x < 3$." }
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 + 12x - 15 < 0" },
+        { "tipe": "formula_block", "latex": "x^2 + 4x - 5 < 0 \\Rightarrow (x+5)(x-1) < 0" },
+        { "tipe": "paragraph", "text": "Interval turun adalah $-5 < x < 1$." }
       ],
       "tingkat": "SULIT"
     },
