@@ -1,0 +1,223 @@
+{
+  "id": "bs-k12-turunan-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "SULIT",
+  "deskripsi": "Turunan fungsi trigonometri kompleks dan aturan rantai bertingkat",
+  "versi": "1.1.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $g(x) = (f \\circ f \\circ f)(x)$ dengan $f(0) = 0$ dan $f'(0) = 2$, maka nilai $g'(0) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$8$"}],
+        [{"tipe":"paragraph","text":"$16$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan rantai bertingkat: $g(x) = f(f(f(x)))$." },
+        { "tipe": "formula_block", "latex": "g'(x) = f'(f(f(x))) \\cdot f'(f(x)) \\cdot f'(x)" },
+        { "tipe": "paragraph", "text": "Substitusi $x=0$: $f(0)=0$, sehingga $f(f(0))=f(0)=0$." },
+        { "tipe": "formula_block", "latex": "g'(0) = f'(0) \\cdot f'(0) \\cdot f'(0) = 2 \\cdot 2 \\cdot 2 = 8" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\sin^3(2x)$. Nilai $f'\\left(\\frac{\\pi}{4}\\right) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-3$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}],
+        [{"tipe":"paragraph","text":"$9$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3\\sin^2(2x) \\cdot \\cos(2x) \\cdot 2 = 6\\sin^2(2x)\\cos(2x)" },
+        { "tipe": "paragraph", "text": "Substitusi $x = \\pi/4$: $\\sin(2 \\cdot \\pi/4) = \\sin(\\pi/2) = 1$, $\\cos(\\pi/2) = 0$." },
+        { "tipe": "formula_block", "latex": "f'(\\pi/4) = 6(1)^2(0) = 0" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = \\cos^4(3 - 4x^2)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-32x \\cos^3(3 - 4x^2) \\sin(3 - 4x^2)$"}],
+        [{"tipe":"paragraph","text":"$4x \\cos^3(3 - 4x^2) \\sin(3 - 4x^2)$"}],
+        [{"tipe":"paragraph","text":"$-32x \\cos^3(3 - 4x^2) \\sin(6 - 8x^2)$"}],
+        [{"tipe":"paragraph","text":"$16x \\cos^2(3 - 4x^2) \\sin(6 - 8x^2)$"}],
+        [{"tipe":"paragraph","text":"$-16x \\cos^2(3 - 4x^2) \\sin(6 - 8x^2)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan rantai bertingkat: $f(x) = [\\cos(3-4x^2)]^4$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 4[\\cos(3-4x^2)]^3 \\cdot (-\\sin(3-4x^2)) \\cdot (-8x)" },
+        { "tipe": "formula_block", "latex": "f'(x) = -32x \\cos^3(3-4x^2) \\sin(3-4x^2)" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Misalkan $f(x) = \\cos^3(4\\tan 2x)$. Maka $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-12 \\cos^2(4\\tan 2x) \\sin(4\\tan 2x)$"}],
+        [{"tipe":"paragraph","text":"$-12 \\cos^2(4\\tan 2x) \\cdot 4\\sec^2 2x$"}],
+        [{"tipe":"paragraph","text":"$-24 \\cos^2(4\\tan 2x) \\sin(4\\tan 2x) \\sec^2 2x$"}],
+        [{"tipe":"paragraph","text":"$-24 \\cos^2(4\\tan 2x) \\sin(4\\tan 2x) \\cdot 4\\sec^2 2x$"}],
+        [{"tipe":"paragraph","text":"$24 \\cos^2(4\\tan 2x) \\sin(4\\tan 2x) \\sec^2 2x$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(x) = [\\cos(4\\tan 2x)]^3$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 3[\\cos(4\\tan 2x)]^2 \\cdot (-\\sin(4\\tan 2x)) \\cdot (4\\sec^2 2x \\cdot 2)" },
+        { "tipe": "formula_block", "latex": "f'(x) = -24 \\cos^2(4\\tan 2x) \\sin(4\\tan 2x) \\sec^2 2x" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Misalkan $f(x) = 2\\tan(\\sqrt{\\sec x})$, maka $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sec^2(\\sqrt{\\sec x}) \\tan x$"}],
+        [{"tipe":"paragraph","text":"$\\sec^2(\\sqrt{\\sec x}) \\sqrt{\\sec x} \\tan x$"}],
+        [{"tipe":"paragraph","text":"$2\\sec^2(\\sqrt{\\sec x}) \\sqrt{\\sec x} \\tan x$"}],
+        [{"tipe":"paragraph","text":"$\\sec^2(\\sqrt{\\sec x}) \\sec x \\tan x$"}],
+        [{"tipe":"paragraph","text":"$2\\sec^2(\\sqrt{\\sec x}) \\sec x \\tan x$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(x) = 2\\tan((\\sec x)^{1/2})$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 2\\sec^2(\\sqrt{\\sec x}) \\cdot \\frac{1}{2}(\\sec x)^{-1/2} \\cdot \\sec x \\tan x" },
+        { "tipe": "formula_block", "latex": "f'(x) = \\sec^2(\\sqrt{\\sec x}) \\cdot \\frac{\\sec x \\tan x}{\\sqrt{\\sec x}} = \\sec^2(\\sqrt{\\sec x}) \\sqrt{\\sec x} \\tan x" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\sin^2 x$. Jika $f'(x)$ menyatakan turunan pertama dari $f(x)$, maka $\\lim_{h \\to \\infty} h \\left( f'\\left(x + \\frac{1}{h}\\right) - f'(x) \\right) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\sin 2x$"}],
+        [{"tipe":"paragraph","text":"$-\\cos 2x$"}],
+        [{"tipe":"paragraph","text":"$2\\cos 2x$"}],
+        [{"tipe":"paragraph","text":"$2\\sin x$"}],
+        [{"tipe":"paragraph","text":"$-2\\cos x$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$f(x) = \\sin^2 x \\Rightarrow f'(x) = 2\\sin x \\cos x = \\sin 2x$." },
+        { "tipe": "paragraph", "text": "Limit tersebut adalah definisi turunan dari $f'(x)$, yaitu $f''(x)$." },
+        { "tipe": "formula_block", "latex": "f''(x) = \\frac{d}{dx}(\\sin 2x) = 2\\cos 2x" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis yang melalui titik $O(0, 0)$ dan $P(a, b)$ berpotongan tegak lurus dengan garis singgung kurva $y = x^2 - \\frac{9}{2}$ di $P(a, b)$. Jika titik $P$ berada pada kuadran III, maka $a + b$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{9}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{5}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{-6-\\sqrt{6}}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{-15-2\\sqrt{3}}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{-8-\\sqrt{2}}{2}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gradien garis $OP$ adalah $m_{OP} = \\frac{b}{a}$." },
+        { "tipe": "paragraph", "text": "Gradien garis singgung kurva di $P$ adalah $y' = 2a$." },
+        { "tipe": "paragraph", "text": "Karena tegak lurus: $\\frac{b}{a} \\cdot 2a = -1 \\Rightarrow 2b = -1 \\Rightarrow b = -\\frac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Titik $P$ pada kurva: $-\\frac{1}{2} = a^2 - \\frac{9}{2} \\Rightarrow a^2 = 4 \\Rightarrow a = \\pm 2$." },
+        { "tipe": "paragraph", "text": "Karena $P$ di kuadran III, $a < 0$, maka $a = -2$." },
+        { "tipe": "paragraph", "text": "Jadi $a + b = -2 - \\frac{1}{2} = -\\frac{5}{2}$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Misalkan $y = 4x - 5$ garis singgung dari $y = f(x)$ di $x = 2$. Persamaan garis singgung dari $y = f(2x - 2)$ di $x = 2$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 8x - 5$"}],
+        [{"tipe":"paragraph","text":"$y = 8x - 10$"}],
+        [{"tipe":"paragraph","text":"$y = 8x - 13$"}],
+        [{"tipe":"paragraph","text":"$y = 8x - 15$"}],
+        [{"tipe":"paragraph","text":"$y = 8x - 17$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $y = 4x - 5$ di $x=2$, maka $f(2) = 3$ dan $f'(2) = 4$." },
+        { "tipe": "paragraph", "text": "Fungsi baru $g(x) = f(2x - 2)$." },
+        { "tipe": "paragraph", "text": "Di $x=2$: $g(2) = f(2) = 3$." },
+        { "tipe": "formula_block", "latex": "g'(x) = f'(2x-2) \\cdot 2 \\Rightarrow g'(2) = 4 \\cdot 2 = 8" },
+        { "tipe": "formula_block", "latex": "y - 3 = 8(x - 2) \\Rightarrow y = 8x - 13" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = x^3 + bx^2 + cx + d$ pada interval $[-4, 2]$ memotong sumbu $x$ di $-2$ dan memotong sumbu $y$ di $26$. Jika diketahui $f''(-3) = 0$, maka nilai minimum $f(x)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-3$"}],
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari $f(0) = 26$, maka $d = 26$." },
+        { "tipe": "paragraph", "text": "Dari $f(-2) = 0$: $-8 + 4b - 2c + 26 = 0 \\Rightarrow 4b - 2c = -18 \\Rightarrow 2b - c = -9$." },
+        { "tipe": "paragraph", "text": "Dari $f''(x) = 6x + 2b$, $f''(-3) = -18 + 2b = 0 \\Rightarrow b = 9$." },
+        { "tipe": "paragraph", "text": "Substitusi: $18 - c = -9 \\Rightarrow c = 27$." },
+        { "tipe": "paragraph", "text": "Jadi $f(x) = x^3 + 9x^2 + 27x + 26$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 3x^2 + 18x + 27 = 3(x+3)^2 \\ge 0" },
+        { "tipe": "paragraph", "text": "Karena $f'(x) \\ge 0$, maka $f(x)$ monoton naik pada interval $[-4, 2]$." },
+        { "tipe": "paragraph", "text": "Nilai minimum mutlak tercapai di ujung kiri interval, yaitu $x = -4$:" },
+        { "tipe": "formula_block", "latex": "f(-4) = (-4)^3 + 9(-4)^2 + 27(-4) + 26 = -64 + 144 - 108 + 26 = -2" },
+        { "tipe": "paragraph", "text": "Jadi, nilai minimum $f(x)$ pada interval $[-4, 2]$ adalah $-2$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-turunan-sulit-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Misalnya $f(1) = 2$, $f'(1) = -1$, $g(1) = 0$, dan $g'(1) = 1$. Jika $F(x) = f(x)\\cos(g(x))$, maka $F'(1) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$-2$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "F'(x) = f'(x)\\cos(g(x)) - f(x)\\sin(g(x)) \\cdot g'(x)" },
+        { "tipe": "formula_block", "latex": "F'(1) = (-1)\\cos(0) - 2\\sin(0)(1) = -1 - 0 = -1" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
