@@ -1,0 +1,228 @@
+{
+  "id": "bs-k12-limit-sedang-09",
+  "nama": "Bank Soal Sedang - Paket 9",
+  "kelas": 12,
+  "kategori": "Limit Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Limit trigonometri dasar, bentuk tak hingga, dan penerapan limit fungsi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-limit-sedang-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\tan x}{x^2 + 2x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan penyebutnya:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\tan x}{x(x + 2)} = \\lim\\limits_{x \\to 0} \\left(\\dfrac{\\tan x}{x} \\cdot \\dfrac{1}{x + 2}\\right)" },
+        { "tipe": "formula_block", "latex": "= 1 \\cdot \\dfrac{1}{0 + 2} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\sin^3 2x}{\\tan^3 \\frac{1}{2}x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2^3$"}],
+        [{"tipe":"paragraph","text":"$2^4$"}],
+        [{"tipe":"paragraph","text":"$2^5$"}],
+        [{"tipe":"paragraph","text":"$2^6$"}],
+        [{"tipe":"paragraph","text":"$2^7$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pisahkan pangkatnya:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\left(\\dfrac{\\sin 2x}{\\tan \\frac{1}{2}x}\\right)^3" },
+        { "tipe": "paragraph", "text": "Gunakan sifat limit trigonometri $\\dfrac{\\sin ax}{\\tan bx} = \\dfrac{a}{b}$:" },
+        { "tipe": "formula_block", "latex": "= \\left(\\dfrac{2}{1/2}\\right)^3 = (4)^3 = 64 = 2^6" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $2^6$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{2\\sin^2 2x}{3x\\tan 3x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{9}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{6}$"}],
+        [{"tipe":"paragraph","text":"$1$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelompokkan fungsi trigonometrinya:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{2}{3} \\cdot \\left(\\dfrac{\\sin 2x}{x}\\right) \\cdot \\left(\\dfrac{\\sin 2x}{\\tan 3x}\\right)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{2}{3} \\cdot (2) \\cdot \\left(\\dfrac{2}{3}\\right) = \\dfrac{8}{9}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{8}{9}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{1 - \\cos 6x}{6x \\tan 2x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan identitas $1 - \\cos 6x = 2\\sin^2 3x$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{2\\sin^2 3x}{6x \\tan 2x} = \\lim\\limits_{x \\to 0} \\dfrac{2}{6} \\cdot \\left(\\dfrac{\\sin 3x}{x}\\right) \\cdot \\left(\\dfrac{\\sin 3x}{\\tan 2x}\\right)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{3} \\cdot (3) \\cdot \\left(\\dfrac{3}{2}\\right) = \\dfrac{3}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{3}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\left(\\sqrt{x^2 - 2x + 1} - \\sqrt{x^2 + 3x + 2}\\right)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$4\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$3\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-2\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-2$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus cepat selisih akar tak hingga: $\\lim\\limits_{x \\to \\infty} (\\sqrt{x^2+bx+c} - \\sqrt{x^2+dx+e}) = \\dfrac{b-d}{2}$" },
+        { "tipe": "paragraph", "text": "Diketahui: $b = -2$ dan $d = 3$." },
+        { "tipe": "formula_block", "latex": "= \\dfrac{-2 - 3}{2} = \\dfrac{-5}{2} = -2\\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $-2\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\left(5x - 1 - \\sqrt{25x^2 + 5x - 7}\\right)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{3}{2}$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah bentuk $(5x - 1)$ menjadi akar: $(5x - 1) = \\sqrt{(5x-1)^2} = \\sqrt{25x^2 - 10x + 1}$." },
+        { "tipe": "paragraph", "text": "Gunakan rumus selisih akar $\\dfrac{b-d}{2\\sqrt{a}}$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left(\\sqrt{25x^2 - 10x + 1} - \\sqrt{25x^2 + 5x - 7}\\right)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{-10 - 5}{2\\sqrt{25}} = \\dfrac{-15}{10} = -\\dfrac{3}{2}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $-\\dfrac{3}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{\\tan(1/x)}{1/x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"Tidak terdefinisi"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = \\dfrac{1}{x}$. Ketika $x \\to \\infty$, maka $u \\to 0$." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\dfrac{\\tan(1/x)}{1/x} = \\lim\\limits_{u \\to 0} \\dfrac{\\tan u}{u} = 1" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 1." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 2} \\dfrac{(x-2)\\cos(\\pi x - 2\\pi)}{\\tan(2\\pi x - 4\\pi)}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\pi$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{\\pi}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2\\pi}$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = x - 2$. Ketika $x \\to 2$, maka $u \\to 0$." },
+        { "tipe": "paragraph", "text": "Substitusi ke dalam fungsi: $\\cos(\\pi(u+2) - 2\\pi) = \\cos(\\pi u)$ dan $\\tan(2\\pi(u+2) - 4\\pi) = \\tan(2\\pi u)$." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{u \\to 0} \\dfrac{u \\cos(\\pi u)}{\\tan(2\\pi u)} = \\lim\\limits_{u \\to 0} \\left(\\dfrac{u}{\\tan(2\\pi u)} \\cdot \\cos(\\pi u)\\right)" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2\\pi} \\cdot \\cos(0) = \\dfrac{1}{2\\pi}" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{1}{2\\pi}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 1} \\dfrac{\\tan(x-1)\\sin(1-\\sqrt{x})}{x^2 - 2x + 1}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$1$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan penyebutnya: $x^2 - 2x + 1 = (x-1)^2$." },
+        { "tipe": "paragraph", "text": "Karena $\\tan(x-1) \\sim (x-1)$, kita bisa menyederhanakan limitnya:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 1} \\dfrac{\\tan(x-1)}{x-1} \\cdot \\dfrac{\\sin(1-\\sqrt{x})}{x-1}" },
+        { "tipe": "paragraph", "text": "Gunakan bentuk sekawan untuk $\\dfrac{\\sin(1-\\sqrt{x})}{x-1}$. Kalikan dengan $\\dfrac{1+\\sqrt{x}}{1+\\sqrt{x}}$:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{\\sin(1-\\sqrt{x})}{(1-\\sqrt{x})(1+\\sqrt{x})} = \\dfrac{\\sin(1-\\sqrt{x})}{-(\\sqrt{x}-1)} \\cdot \\dfrac{1}{1+\\sqrt{x}}" },
+        { "tipe": "paragraph", "text": "Maka limitnya menjadi: $1 \\cdot (-1) \\cdot \\dfrac{1}{1+1} = -\\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $-\\dfrac{1}{2}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-limit-sedang-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\dfrac{\\sqrt{25x^2 - 9x - 16} - 5x + 3}{x}$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{39}{10}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{9}{10}$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{9}{10}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{39}{10}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bagi setiap suku pada pembilang dan penyebut dengan $x$:" },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left( \\dfrac{\\sqrt{25x^2 - 9x - 16}}{x} - \\dfrac{5x}{x} + \\dfrac{3}{x} \\right)" },
+        { "tipe": "paragraph", "text": "Masukkan $x$ ke dalam bentuk akar sebagai $x^2$:" },
+        { "tipe": "formula_block", "latex": "= \\lim\\limits_{x \\to \\infty} \\left( \\sqrt{\\dfrac{25x^2}{x^2} - \\dfrac{9x}{x^2} - \\dfrac{16}{x^2}} - 5 + \\dfrac{3}{x} \\right)" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{25 - 0 - 0} - 5 + 0 = 5 - 5 + 0 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $0$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
