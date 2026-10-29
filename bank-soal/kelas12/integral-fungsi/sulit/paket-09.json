@@ -1,196 +1,207 @@
 {
-  "id": "bs-k12-integral-mudah-09",
-  "nama": "Bank Soal Mudah - Paket 9",
+  "id": "bs-k12-integral-sulit-09",
+  "nama": "Bank Soal Sulit - Paket 9",
   "kelas": 12,
   "kategori": "Integral Fungsi",
-  "tingkat": "MUDAH",
-  "deskripsi": "Integral fungsi eksponen dan logaritma dasar",
-  "versi": "1.0.0",
+  "tingkat": "SULIT",
+  "deskripsi": "Integral Parsial Berulang & Substitusi Lanjut",
+  "versi": "1.0.1",
   "soal": [
     {
-      "id": "bs-k12-integral-mudah-09-q01",
+      "id": "bs-k12-integral-sulit-09-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int e^{2x} \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int 6x(3x - 1)^{1/3} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}e^{2x} + C$"}],
-        [{"tipe":"paragraph","text":"$2e^{2x} + C$"}],
-        [{"tipe":"paragraph","text":"$e^{2x} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}e^x + C$"}],
-        [{"tipe":"paragraph","text":"$2e^x + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{14}(4x+1)(3x-1)^{4/3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{14}(3x-1)(3x-1)^{4/3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{7}(4x+1)(3x-1)^{4/3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{7}(2x+1)(3x-1)^{4/3} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{14}(5x-1)(3x-1)^{4/3} + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int e^{2x} \\, dx = \\dfrac{1}{2}e^{2x} + C" }
+        { "tipe": "paragraph", "text": "Gunakan integral parsial: $u=6x \\Rightarrow du=6dx$, dan $dv=(3x-1)^{1/3}dx \\Rightarrow v=\\dfrac{1}{4}(3x-1)^{4/3}$." },
+        { "tipe": "formula_block", "latex": "\\int 6x(3x-1)^{1/3} dx = 6x \\cdot \\dfrac{1}{4}(3x-1)^{4/3} - \\int \\dfrac{6}{4}(3x-1)^{4/3} dx" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{3}{2}x(3x-1)^{4/3} - \\dfrac{3}{14}(3x-1)^{7/3} + C" },
+        { "tipe": "paragraph", "text": "Faktorkan $\\dfrac{3}{14}(3x-1)^{4/3}$: $\\dfrac{3}{14}(3x-1)^{4/3} [7x - (3x-1)] = \\dfrac{3}{14}(4x+1)(3x-1)^{4/3} + C$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q02",
+      "id": "bs-k12-integral-sulit-09-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int 6 \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (4x+3)(4x^2+6x-9)^9 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$6x + C$"}],
-        [{"tipe":"paragraph","text":"$6 + C$"}],
-        [{"tipe":"paragraph","text":"$3x^2 + C$"}],
-        [{"tipe":"paragraph","text":"$x + C$"}],
-        [{"tipe":"paragraph","text":"$6x^2 + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{20}(4x^2+6x-9)^{10} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{10}(4x^2+6x-9)^{10} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{15}(4x^2+6x-9)^{10} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(4x^2+6x-9)^{10} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{40}(4x^2+6x-9)^{10} + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int 6 \\, dx = 6x + C" }
+        { "tipe": "paragraph", "text": "Misal $u = 4x^2+6x-9$, maka $du = (8x+6)dx = 2(4x+3)dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^9 \\, du = \\dfrac{1}{20}u^{10} + C = \\dfrac{1}{20}(4x^2+6x-9)^{10} + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q03",
+      "id": "bs-k12-integral-sulit-09-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{4}{x} \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x(x+3)^4 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$4\\ln|x| + C$"}],
-        [{"tipe":"paragraph","text":"$\\ln|4x| + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{4}{x^2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\ln|x| + C$"}],
-        [{"tipe":"paragraph","text":"$4x + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(5x-3)(x+3)^5 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(3x-5)(x+3)^5 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{5}(x-3)(x+3)^5 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}(5x-3)(x+3)^6 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(x-3)(x+3)^5 + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int \\dfrac{4}{x} \\, dx = 4\\ln|x| + C" }
+        { "tipe": "paragraph", "text": "Gunakan integral parsial: $u=x$, $dv=(x+3)^4 dx \\Rightarrow v=\\dfrac{1}{5}(x+3)^5$." },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{5}x(x+3)^5 - \\dfrac{1}{5}\\int (x+3)^5 \\, dx = \\dfrac{1}{5}x(x+3)^5 - \\dfrac{1}{30}(x+3)^6 + C" },
+        { "tipe": "paragraph", "text": "Faktorkan $(x+3)^5$: $\\dfrac{1}{30}(x+3)^5[6x - (x+3)] = \\dfrac{1}{30}(5x-3)(x+3)^5 + C$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q04",
+      "id": "bs-k12-integral-sulit-09-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int (x + 3)^2 \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (2x-1)\\sqrt{x^2-x+5} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(x+3)^3 + C$"}],
-        [{"tipe":"paragraph","text":"$(x+3)^3 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}(x+3)^2 + C$"}],
-        [{"tipe":"paragraph","text":"$2(x+3) + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 + 3x^2 + 9x + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}(x^2-x+5)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(x^2-x+5)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}(x^2-x+5)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$2(x^2-x+5)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}(x^2-x+5)^{1/2} + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan substitusi $u = x+3$, maka $du = dx$." },
-        { "tipe": "formula_block", "latex": "\\int u^2 \\, du = \\dfrac{1}{3}u^3 + C = \\dfrac{1}{3}(x+3)^3 + C" }
+        { "tipe": "paragraph", "text": "Misal $u = x^2-x+5$, maka $du = (2x-1)dx$." },
+        { "tipe": "formula_block", "latex": "\\int u^{1/2} \\, du = \\dfrac{2}{3}u^{3/2} + C = \\dfrac{2}{3}(x^2-x+5)^{3/2} + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q05",
+      "id": "bs-k12-integral-sulit-09-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^2 - 2x + 1) \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (3x+1)\\sqrt{3x^2+2x-4} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 - x^2 + x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 - 2x^2 + x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 - x^2 + 1 + C$"}],
-        [{"tipe":"paragraph","text":"$x^3 - x^2 + x + C$"}],
-        [{"tipe":"paragraph","text":"$2x - 2 + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(3x^2+2x-4)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}(3x^2+2x-4)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}(3x^2+2x-4)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{18}(3x^2+2x-4)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{12}(3x^2+2x-4)^{3/2} + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int (x^2 - 2x + 1) \\, dx = \\dfrac{1}{3}x^3 - x^2 + x + C" }
+        { "tipe": "paragraph", "text": "Misal $u = 3x^2+2x-4$, maka $du = (6x+2)dx = 2(3x+1)dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^{1/2} \\, du = \\dfrac{1}{2} \\cdot \\dfrac{2}{3}u^{3/2} + C = \\dfrac{1}{3}(3x^2+2x-4)^{3/2} + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q06",
+      "id": "bs-k12-integral-sulit-09-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int (x^3 + 2x) \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (2x-3)(2x^2-6x+5)^{-1/2} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}x^4 + x^2 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}x^4 + 2x^2 + C$"}],
-        [{"tipe":"paragraph","text":"$x^4 + x^2 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 + x^2 + C$"}],
-        [{"tipe":"paragraph","text":"$3x^2 + 2 + C$"}]
+        [{"tipe":"paragraph","text":"$\\sqrt{2x^2-6x+5} + C$"}],
+        [{"tipe":"paragraph","text":"$2\\sqrt{2x^2-6x+5} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}\\sqrt{2x^2-6x+5} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{\\sqrt{2x^2-6x+5}} + C$"}],
+        [{"tipe":"paragraph","text":"$\\sqrt{2x^2-6x+5}^3 + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int (x^3 + 2x) \\, dx = \\dfrac{1}{4}x^4 + x^2 + C" }
+        { "tipe": "paragraph", "text": "Misal $u = 2x^2-6x+5$, maka $du = (4x-6)dx = 2(2x-3)dx$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^{-1/2} \\, du = \\dfrac{1}{2} \\cdot 2u^{1/2} + C = \\sqrt{2x^2-6x+5} + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q07",
+      "id": "bs-k12-integral-sulit-09-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int (2 - x)^4 \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{4} x\\sqrt{x^2+9} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{5}(2-x)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{5}(2-x)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{4}(2-x)^4 + C$"}],
-        [{"tipe":"paragraph","text":"$4(2-x)^3 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}(2-x)^4 + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{98}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{100}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{125}{3}$"}],
+        [{"tipe":"paragraph","text":"$40$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{92}{3}$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = 2-x$, maka $du = -dx$." },
-        { "tipe": "formula_block", "latex": "\\int u^4 (-du) = -\\dfrac{1}{5}u^5 + C = -\\dfrac{1}{5}(2-x)^5 + C" }
+        { "tipe": "paragraph", "text": "Misal $u=x^2+9$, $du=2x dx$. Batas: $x=0 \\to u=9$; $x=4 \\to u=25$." },
+        { "tipe": "formula_block", "latex": "\\int_{9}^{25} \\dfrac{1}{2}u^{1/2} \\, du = [\\dfrac{1}{3}u^{3/2}]_{9}^{25} = \\dfrac{1}{3}(125 - 27) = \\dfrac{98}{3}" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q08",
+      "id": "bs-k12-integral-sulit-09-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Hasil dari $\\int (x+1)(x-1) \\, dx$ adalah ..." }
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} 3x\\sqrt{3x^2+1} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 - x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 + x + C$"}],
-        [{"tipe":"paragraph","text":"$x^3 - x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}x^3 - \\dfrac{1}{2}x^2 + C$"}],
-        [{"tipe":"paragraph","text":"$2x + C$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{7}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{7}{2}$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ekspansi: $(x+1)(x-1) = x^2 - 1$." },
-        { "tipe": "formula_block", "latex": "\\int (x^2 - 1) \\, dx = \\dfrac{1}{3}x^3 - x + C" }
+        { "tipe": "paragraph", "text": "Misal $u=3x^2+1$, $du=6x dx \\Rightarrow 3x dx = \\dfrac{1}{2}du$. Batas: $x=0 \\to u=1$; $x=1 \\to u=4$." },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{4} \\dfrac{1}{2}u^{1/2} \\, du = [\\dfrac{1}{3}u^{3/2}]_{1}^{4} = \\dfrac{1}{3}(8 - 1) = \\dfrac{7}{3}" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q09",
+      "id": "bs-k12-integral-sulit-09-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $F'(x) = 4x + 2$ dan $F(1) = 3$, maka $F(x) = \\dots$" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int x(2x+1)^5 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$2x^2 + 2x - 1$"}],
-        [{"tipe":"paragraph","text":"$2x^2 + 2x + 1$"}],
-        [{"tipe":"paragraph","text":"$2x^2 + 2x - 3$"}],
-        [{"tipe":"paragraph","text":"$4x^2 + 2x - 3$"}],
-        [{"tipe":"paragraph","text":"$2x^2 + 2x$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{84}(12x-1)(2x+1)^6 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{42}(6x-1)(2x+1)^6 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{84}(6x-1)(2x+1)^6 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{28}(12x-1)(2x+1)^6 + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{84}(12x+1)(2x+1)^6 + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "F(x) = \\int (4x + 2) \\, dx = 2x^2 + 2x + C" },
-        { "tipe": "paragraph", "text": "$F(1)=3 \\Rightarrow 2+2+C=3 \\Rightarrow C=-1$." }
+        { "tipe": "paragraph", "text": "Gunakan integral parsial: $u=x \\Rightarrow du=dx$, $dv=(2x+1)^5 dx \\Rightarrow v=\\dfrac{1}{12}(2x+1)^6$." },
+        { "tipe": "formula_block", "latex": "\\int x(2x+1)^5 dx = \\dfrac{1}{12}x(2x+1)^6 - \\int \\dfrac{1}{12}(2x+1)^6 dx" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{12}x(2x+1)^6 - \\dfrac{1}{168}(2x+1)^7 + C" },
+        { "tipe": "paragraph", "text": "Faktorkan $\\dfrac{1}{168}(2x+1)^6$: $\\dfrac{1}{168}(2x+1)^6 [14x - (2x+1)] = \\dfrac{1}{168}(12x-1)(2x+1)^6 + C = \\dfrac{1}{84}(12x-1)(2x+1)^6 + C$." }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     },
     {
-      "id": "bs-k12-integral-mudah-09-q10",
+      "id": "bs-k12-integral-sulit-09-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $F'(x) = 6x^2 - 4x$ dan $F(0) = 5$, maka $F(x) = \\dots$" }
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (6x^2+4x)\\sqrt{x^3+x^2-7} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$2x^3 - 2x^2 + 5$"}],
-        [{"tipe":"paragraph","text":"$2x^3 - 2x^2 - 5$"}],
-        [{"tipe":"paragraph","text":"$2x^3 - 2x^2$"}],
-        [{"tipe":"paragraph","text":"$6x^3 - 4x^2 + 5$"}],
-        [{"tipe":"paragraph","text":"$2x^3 - 2x^2 + 5x$"}]
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}(x^3+x^2-7)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}(x^3+x^2-7)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(x^3+x^2-7)^{3/2} + C$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}(x^3+x^2-7)^{1/2} + C$"}],
+        [{"tipe":"paragraph","text":"$2(x^3+x^2-7)^{3/2} + C$"}]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "F(x) = \\int (6x^2 - 4x) \\, dx = 2x^3 - 2x^2 + C" },
-        { "tipe": "paragraph", "text": "$F(0) = 5 \\Rightarrow C = 5$." }
+        { "tipe": "paragraph", "text": "Misal $u = x^3+x^2-7$, maka $du = (3x^2+2x)dx$." },
+        { "tipe": "paragraph", "text": "Perhatikan bahwa $(6x^2+4x)dx = 2(3x^2+2x)dx = 2du$." },
+        { "tipe": "formula_block", "latex": "\\int 2u^{1/2} \\, du = 2 \\cdot \\dfrac{2}{3}u^{3/2} + C = \\dfrac{4}{3}(x^3+x^2-7)^{3/2} + C" }
       ],
-      "tingkat": "MUDAH"
+      "tingkat": "SULIT"
     }
   ]
 }
