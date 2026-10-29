@@ -1,0 +1,200 @@
+{
+  "id": "bs-k12-turunan-mudah-08",
+  "nama": "Bank Soal Mudah - Paket 8",
+  "kelas": 12,
+  "kategori": "Turunan Fungsi",
+  "tingkat": "MUDAH",
+  "deskripsi": "Aturan rantai dasar dan turunan fungsi komposisi",
+  "versi": "1.4.0",
+  "soal": [
+    {
+      "id": "bs-k12-turunan-mudah-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan pertama dari $f(x) = (3x^2 - 7)^4$ adalah $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$6x(3x^2 - 7)$"}],
+        [{"tipe":"paragraph","text":"$12x(3x^2 - 7)$"}],
+        [{"tipe":"paragraph","text":"$24x(3x^2 - 7)^3$"}],
+        [{"tipe":"paragraph","text":"$36x(3x^2 - 7)^3$"}],
+        [{"tipe":"paragraph","text":"$48x(3x^2 - 7)^3$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 4(3x^2 - 7)^3 \\cdot 6x = 24x(3x^2 - 7)^3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan $y = (x + 1)^2(2x - 3)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(2x + 2)(3x - 2)$"}],
+        [{"tipe":"paragraph","text":"$(2x + 2)(3x + 2)$"}],
+        [{"tipe":"paragraph","text":"$(2x - 2)(3x - 2)$"}],
+        [{"tipe":"paragraph","text":"$(2x - 2)(3x + 2)$"}],
+        [{"tipe":"paragraph","text":"$(2x - 2)(3x - 3)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan perkalian: $u = (x+1)^2$, $v = 2x-3$." },
+        { "tipe": "formula_block", "latex": "y' = 2(x+1)(2x-3) + (x+1)^2(2) = (x+1)[2(2x-3) + 2(x+1)] = (x+1)(6x-4)" },
+        { "tipe": "paragraph", "text": "Bentuk ini setara dengan $(2x+2)(3x-2)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan dari $f(x) = (3x-1)^3$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$9(3x-1)^2$"}],
+        [{"tipe":"paragraph","text":"$3(3x-1)^2$"}],
+        [{"tipe":"paragraph","text":"$6(3x-1)^2$"}],
+        [{"tipe":"paragraph","text":"$18(3x-1)^2$"}],
+        [{"tipe":"paragraph","text":"$27(3x-1)^2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 3(3x-1)^2 \\cdot 3 = 9(3x-1)^2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan kedua fungsi $f(x) = (3x-1)^3$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$54(3x-1)$"}],
+        [{"tipe":"paragraph","text":"$18(3x-1)$"}],
+        [{"tipe":"paragraph","text":"$18(3x-1)^2$"}],
+        [{"tipe":"paragraph","text":"$54(3x-1)^2$"}],
+        [{"tipe":"paragraph","text":"$6(3x-1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 9(3x-1)^2" },
+        { "tipe": "formula_block", "latex": "f''(x) = 18(3x-1) \\cdot 3 = 54(3x-1)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = 5(4x - 2)^3$ maka $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$30(4x - 2)^2$"}],
+        [{"tipe":"paragraph","text":"$60(4x - 2)^2$"}],
+        [{"tipe":"paragraph","text":"$20(4x - 2)^2$"}],
+        [{"tipe":"paragraph","text":"$30(4x - 2)$"}],
+        [{"tipe":"paragraph","text":"$60(4x - 2)$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 5 \\cdot 3(4x-2)^2 \\cdot 4 = 60(4x-2)^2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = (2x^3 - 4)^2$. Fungsi $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2(2x^3 - 4)$"}],
+        [{"tipe":"paragraph","text":"$2(6x^2)$"}],
+        [{"tipe":"paragraph","text":"$12x(2x^3 - 4)$"}],
+        [{"tipe":"paragraph","text":"$12x^2(2x^3 - 4)$"}],
+        [{"tipe":"paragraph","text":"$12x^3(2x^3 - 4)$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "f'(x) = 2(2x^3 - 4) \\cdot (6x^2) = 12x^2(2x^3 - 4)" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $f(x) = x\\sqrt{x} + \\frac{1}{\\sqrt{x}}$. Fungsi $f'(x) = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{x^2-1}{2x\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2x^2-1}{2x\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3x^2-1}{2x\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3x^2+1}{2x\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2x^2+1}{2x\\sqrt{x}}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah ke bentuk pangkat: $f(x) = x^{3/2} + x^{-1/2}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = \\frac{3}{2}x^{1/2} - \\frac{1}{2}x^{-3/2} = \\frac{3\\sqrt{x}}{2} - \\frac{1}{2x\\sqrt{x}}" },
+        { "tipe": "paragraph", "text": "Samakan penyebut: $\\frac{3x^2 - 1}{2x\\sqrt{x}}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan $g(x) = \\frac{3}{x^2} - x^2 + \\sqrt{x}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{6}{x^3} - 2x + \\frac{1}{2\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{6}{x^3} - 2x + \\frac{1}{2\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{6}{x^3} + 2x + \\frac{1}{2\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{6}{x^3} - 2x - \\frac{1}{2\\sqrt{x}}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{6}{x^3} + 2x + \\frac{1}{2\\sqrt{x}}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$g(x) = 3x^{-2} - x^2 + x^{1/2}$." },
+        { "tipe": "formula_block", "latex": "g'(x) = -6x^{-3} - 2x + \\frac{1}{2}x^{-1/2} = -\\frac{6}{x^3} - 2x + \\frac{1}{2\\sqrt{x}}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan $f(x) = \\frac{2x + 1}{2x}$ pada $x = 1$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sederhanakan: $f(x) = 1 + \\frac{1}{2x} = 1 + \\frac{1}{2}x^{-1}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = -\\frac{1}{2}x^{-2} = -\\frac{1}{2x^2}" },
+        { "tipe": "formula_block", "latex": "f'(1) = -\\frac{1}{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-turunan-mudah-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $y = \\frac{2}{3}(3x + 1)(x - 2)$, maka $\\frac{dy}{dx} = \\ldots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4x + \\frac{10}{3}$"}],
+        [{"tipe":"paragraph","text":"$4x - \\frac{10}{3}$"}],
+        [{"tipe":"paragraph","text":"$4x + 5$"}],
+        [{"tipe":"paragraph","text":"$4x - 5$"}],
+        [{"tipe":"paragraph","text":"$4x + \\frac{5}{3}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jabarkan: $y = \\frac{2}{3}(3x^2 - 6x + x - 2) = \\frac{2}{3}(3x^2 - 5x - 2) = 2x^2 - \\frac{10}{3}x - \\frac{4}{3}$." },
+        { "tipe": "formula_block", "latex": "\\frac{dy}{dx} = 4x - \\frac{10}{3}" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
