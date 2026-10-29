@@ -1,0 +1,200 @@
+{
+  "id": "bs-k12-integral-sedang-10",
+  "nama": "Bank Soal Sedang - Paket 10",
+  "kelas": 12,
+  "kategori": "Integral Fungsi",
+  "tingkat": "SEDANG",
+  "deskripsi": "Integral trigonometri dan eksponen",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-integral-sedang-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi} \\sin x \\cos x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Identitas: $\\sin x \\cos x = \\dfrac{1}{2}\\sin 2x$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi} \\dfrac{1}{2}\\sin 2x \\, dx = [-\\dfrac{1}{4}\\cos 2x]_{0}^{\\pi} = -\\dfrac{1}{4}(1 - 1) = 0" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\cos^2 x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{4}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{8}$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos^2 x = \\dfrac{1+\\cos 2x}{2}$." },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\dfrac{1+\\cos 2x}{2} \\, dx = [\\dfrac{x}{2} + \\dfrac{\\sin 2x}{4}]_{0}^{\\pi/2} = \\dfrac{\\pi}{4} + 0 = \\dfrac{\\pi}{4}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/3} (\\sin 5x + \\sin x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{3}{5}$"}],
+        [{"tipe":"paragraph","text":"$1$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/3} (\\sin 5x + \\sin x) \\, dx = [-\\dfrac{1}{5}\\cos 5x - \\cos x]_{0}^{\\pi/3}" },
+        { "tipe": "formula_block", "latex": "= (-\\dfrac{1}{5}(\\dfrac{1}{2}) - \\dfrac{1}{2}) - (-\\dfrac{1}{5} - 1) = -\\dfrac{1}{10} - \\dfrac{1}{2} + \\dfrac{1}{5} + 1 = \\dfrac{3}{5}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{\\pi/6}^{\\pi/2} \\sin 7x \\cos 3x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{3}{20}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{13}{10}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{5}{7}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{13}{10}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{17}{20}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\sin 7x \\cos 3x = \\dfrac{1}{2}(\\sin 10x + \\sin 4x)$." },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2}(\\sin 10x + \\sin 4x) \\, dx = \\dfrac{1}{2}(-\\dfrac{1}{10}\\cos 10x - \\dfrac{1}{4}\\cos 4x)" },
+        { "tipe": "paragraph", "text": "Substitusi batas menghasilkan $-\\dfrac{3}{20}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{\\pi/6}^{\\pi/2} \\cos 3x \\sin x \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\dfrac{9}{16}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{1}{16}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{4}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{1}{12}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "$\\cos 3x \\sin x = \\dfrac{1}{2}(\\sin 4x - \\sin 2x)$." },
+        { "tipe": "formula_block", "latex": "\\int_{\\pi/6}^{\\pi/2} \\dfrac{1}{2}(\\sin 4x - \\sin 2x) \\, dx = \\dfrac{1}{2}[-\\dfrac{1}{4}\\cos 4x + \\dfrac{1}{2}\\cos 2x]_{\\pi/6}^{\\pi/2}" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2}\\left(-\\dfrac{1}{4}(1) + \\dfrac{1}{2}(-1)\\right) - \\dfrac{1}{2}\\left(-\\dfrac{1}{4}\\left(-\\dfrac{1}{2}\\right) + \\dfrac{1}{2}\\left(\\dfrac{1}{2}\\right)\\right) = -\\dfrac{3}{8} - \\dfrac{3}{16} = -\\dfrac{9}{16}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi} (\\sin 3x + \\cos x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{10}{3}$"}],
+        [{"tipe":"paragraph","text":"$-\\dfrac{4}{3}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi} (\\sin 3x + \\cos x) \\, dx = [-\\dfrac{1}{3}\\cos 3x + \\sin x]_{0}^{\\pi}" },
+        { "tipe": "formula_block", "latex": "= (-\\dfrac{1}{3}(-1) + 0) - (-\\dfrac{1}{3}(1) + 0) = \\dfrac{1}{3} + \\dfrac{1}{3} = \\dfrac{2}{3}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} \\sin(2x - \\pi) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int \\sin(2x - \\pi) \\, dx = -\\dfrac{1}{2}\\cos(2x - \\pi)" },
+        { "tipe": "formula_block", "latex": "[-\\dfrac{1}{2}\\cos(2x - \\pi)]_{0}^{\\pi/2} = -\\dfrac{1}{2}\\cos(0) - (-\\dfrac{1}{2}\\cos(-\\pi)) = -\\dfrac{1}{2} - \\dfrac{1}{2} = -1" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} (e^x + e^{-x}) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{e}$"}],
+        [{"tipe":"paragraph","text":"$e + \\dfrac{1}{e}$"}],
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{e} - 2$"}],
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{e} + 2$"}],
+        [{"tipe":"paragraph","text":"$2e$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} (e^x + e^{-x}) \\, dx = [e^x - e^{-x}]_{0}^{1} = (e - \\dfrac{1}{e}) - (1 - 1) = e - \\dfrac{1}{e}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} e^{2x} \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\dfrac{e^2 - 1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e^2 + 1}{2}$"}],
+        [{"tipe":"paragraph","text":"$e^2 - 1$"}],
+        [{"tipe":"paragraph","text":"$e^2 + 1$"}],
+        [{"tipe":"paragraph","text":"$2(e^2 - 1)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} e^{2x} \\, dx = [\\dfrac{1}{2}e^{2x}]_{0}^{1} = \\dfrac{e^2}{2} - \\dfrac{1}{2} = \\dfrac{e^2 - 1}{2}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-integral-sedang-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} (e^x + x) \\, dx$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$e - \\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$e + \\dfrac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$e - 1$"}],
+        [{"tipe":"paragraph","text":"$e + 1$"}],
+        [{"tipe":"paragraph","text":"$\\dfrac{e}{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "\\int_{0}^{1} (e^x + x) \\, dx = [e^x + \\dfrac{1}{2}x^2]_{0}^{1} = (e + \\dfrac{1}{2}) - (1 + 0) = e - \\dfrac{1}{2}" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
