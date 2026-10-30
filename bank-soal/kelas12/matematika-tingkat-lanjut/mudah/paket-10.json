@@ -1,0 +1,235 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-10",
+  "nama": "Bank Soal Mudah - Paket 10",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Integral dasar, program linear, dan geometri analitik",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $F(x) = \\int (x+4)^3 dx$ dan $F(-3) = \\frac{5}{4}$, maka nilai $F(-2) = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Selesaikan integral tak tentu terlebih dahulu:" },
+        { "tipe": "formula_block", "latex": "F(x) = \\frac{1}{4}(x+4)^4 + C" },
+        { "tipe": "paragraph", "text": "Substitusi nilai $F(-3) = \\frac{5}{4}$ untuk mencari konstanta $C$:" },
+        { "tipe": "formula_block", "latex": "F(-3) = \\frac{1}{4}(-3+4)^4 + C = \\frac{1}{4}(1) + C = \\frac{5}{4} \\Rightarrow C = 1" },
+        { "tipe": "paragraph", "text": "Hitung nilai $F(-2)$:" },
+        { "tipe": "formula_block", "latex": "F(-2) = \\frac{1}{4}(-2+4)^4 + 1 = \\frac{1}{4}(16) + 1 = 4 + 1 = 5" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Setelah sembuh dari sakit, Rogu harus mengkonsumsi paling sedikit 10 unit vitamin B1 dan 15 unit B2. Sebuah apotek menjual vitamin tersebut dalam bentuk tablet dan kapsul. Bentuk tablet berisi 2 vitamin B1 dan 1 vitamin B2. Bentuk kapsul berisi 1 unit vitamin B1 dan 3 unit vitamin B2. Jika harga tablet Rp250 sedangkan kapsul Rp500. Agar biaya obat yang dikeluarkan Rogu minimum maka banyak tablet dan kapsul berturut-turut yang harus dikonsumsi adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2$ dan $4$"}],
+        [{"tipe":"paragraph","text":"$3$ dan $4$"}],
+        [{"tipe":"paragraph","text":"$2$ dan $3$"}],
+        [{"tipe":"paragraph","text":"$3$ dan $6$"}],
+        [{"tipe":"paragraph","text":"$4$ dan $5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Model matematika: Misal $x$ = tablet, $y$ = kapsul." },
+        { "tipe": "paragraph", "text": "Kendala B1: $2x + y \\ge 10$" },
+        { "tipe": "paragraph", "text": "Kendala B2: $x + 3y \\ge 15$" },
+        { "tipe": "paragraph", "text": "Fungsi tujuan: Min $Z = 250x + 500y$" },
+        { "tipe": "paragraph", "text": "Cari titik potong kedua garis:" },
+        { "tipe": "formula_block", "latex": "2x + y = 10 \\implies y = 10 - 2x" },
+        { "tipe": "formula_block", "latex": "x + 3(10 - 2x) = 15 \\implies -5x = -15 \\implies x = 3, y = 4" },
+        { "tipe": "paragraph", "text": "Uji titik-titik pojok wilayah penyelesaian:" },
+        { "tipe": "paragraph", "text": "• $(0, 10) \\implies Z = 250(0) + 500(10) = 5.000$" },
+        { "tipe": "paragraph", "text": "• $(15, 0) \\implies Z = 250(15) + 500(0) = 3.750$" },
+        { "tipe": "paragraph", "text": "• $(3, 4) \\implies Z = 250(3) + 500(4) = 750 + 2.000 = 2.750$ (Minimum)" },
+        { "tipe": "paragraph", "text": "Jadi, jumlah tablet dan kapsul minimum berturut-turut adalah $3$ dan $4$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 3} \\frac{x^3 - 3x^2 + 2x + 1}{5 + 3x - 9x^2} = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{7}{67}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{6}{67}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{6}{76}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{67}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{76}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi langsung nilai $x = 3$:" },
+        { "tipe": "formula_block", "latex": "\\text{Pembilang} = 3^3 - 3(3)^2 + 2(3) + 1 = 27 - 27 + 6 + 1 = 7" },
+        { "tipe": "formula_block", "latex": "\\text{Penyebut} = 5 + 3(3) - 9(3)^2 = 5 + 9 - 81 = -67" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 3} \\frac{x^3 - 3x^2 + 2x + 1}{5 + 3x - 9x^2} = -\\frac{7}{67}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 3} \\frac{1 - \\cos(6x-18)}{\\sin(6x-18)} = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $u = 6x - 18$. Ketika $x \\to 3$, maka $u \\to 0$:" },
+        { "tipe": "formula_block", "latex": "\\lim_{u \\to 0} \\frac{1 - \\cos u}{\\sin u}" },
+        { "tipe": "paragraph", "text": "Gunakan identitas trigonometri $1 - \\cos u = 2\\sin^2\\left(\\frac{u}{2}\\right)$ dan $\\sin u = 2\\sin\\left(\\frac{u}{2}\\right)\\cos\\left(\\frac{u}{2}\\right)$:" },
+        { "tipe": "formula_block", "latex": "= \\lim_{u \\to 0} \\frac{2\\sin^2(u/2)}{2\\sin(u/2)\\cos(u/2)} = \\lim_{u \\to 0} \\tan\\left(\\frac{u}{2}\\right) = \\tan(0) = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Koordinat titik potong grafik fungsi $f(x) = x^3 + 3x^2 - 10x - 24$ terhadap sumbu X adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-2,0)$"}],
+        [{"tipe":"paragraph","text":"$(-1,0)$"}],
+        [{"tipe":"paragraph","text":"$(3,0)$"}],
+        [{"tipe":"paragraph","text":"$(4,0)$"}],
+        [{"tipe":"paragraph","text":"$(5,0)$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik potong sumbu X terjadi saat $f(x) = 0$:" },
+        { "tipe": "formula_block", "latex": "x^3 + 3x^2 - 10x - 24 = 0" },
+        { "tipe": "paragraph", "text": "Uji faktor pembuat nol $x = 3$:" },
+        { "tipe": "formula_block", "latex": "3^3 + 3(3)^2 - 10(3) - 24 = 27 + 27 - 30 - 24 = 0 \\quad (x=3 \\text{ memenuhi})" },
+        { "tipe": "paragraph", "text": "Faktorkan persamaan polinomial:" },
+        { "tipe": "formula_block", "latex": "(x-3)(x^2 + 6x + 8) = (x-3)(x+2)(x+4) = 0" },
+        { "tipe": "paragraph", "text": "Akar-akarnya adalah $x = 3, x = -2,$ dan $x = -4$. Salah satu titik potong yang ada pada pilihan adalah $(3,0)$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung lingkaran $(x+2)^2 + (y-1)^2 = 26$ di titik $(-3, 6)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x+5y+33=0$"}],
+        [{"tipe":"paragraph","text":"$x-5y+33=0$"}],
+        [{"tipe":"paragraph","text":"$5x-y+33=0$"}],
+        [{"tipe":"paragraph","text":"$5x+y+33=0$"}],
+        [{"tipe":"paragraph","text":"$5x-5y+33=0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus garis singgung lingkaran berpusat di $(a,b)$ pada titik $(x_1, y_1)$:" },
+        { "tipe": "formula_block", "latex": "(x_1 - a)(x - a) + (y_1 - b)(y - b) = r^2" },
+        { "tipe": "paragraph", "text": "Dengan $(a,b) = (-2, 1)$ dan $(x_1, y_1) = (-3, 6)$:" },
+        { "tipe": "formula_block", "latex": "(-3 + 2)(x + 2) + (6 - 1)(y - 1) = 26" },
+        { "tipe": "formula_block", "latex": "-1(x + 2) + 5(y - 1) = 26" },
+        { "tipe": "formula_block", "latex": "-x - 2 + 5y - 5 = 26 \\implies -x + 5y - 33 = 0 \\implies x - 5y + 33 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Salah satu persamaan garis singgung pada lingkaran $x^2 + y^2 - 4x + 8y + 15 = 0$ di titik yang berordinat $-2$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x - 2y - 5 = 0$"}],
+        [{"tipe":"paragraph","text":"$x - 2y + 5 = 0$"}],
+        [{"tipe":"paragraph","text":"$x + 2y - 5 = 0$"}],
+        [{"tipe":"paragraph","text":"$x + 2y - 1 = 0$"}],
+        [{"tipe":"paragraph","text":"$x - 2y + 1 = 0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi ordinat $y = -2$ ke persamaan lingkaran untuk mencari absis $x$:" },
+        { "tipe": "formula_block", "latex": "x^2 + (-2)^2 - 4x + 8(-2) + 15 = 0" },
+        { "tipe": "formula_block", "latex": "x^2 + 4 - 4x - 16 + 15 = 0 \\implies x^2 - 4x + 3 = 0 \\implies (x-1)(x-3) = 0" },
+        { "tipe": "paragraph", "text": "Diperoleh dua titik singgung: $(1, -2)$ dan $(3, -2)$." },
+        { "tipe": "paragraph", "text": "Gunakan rumus garis singgung $x_1 x + y_1 y + A\\frac{x+x_1}{2} + B\\frac{y+y_1}{2} + C = 0$ untuk titik $(1, -2)$:" },
+        { "tipe": "formula_block", "latex": "1x - 2y - 2(x + 1) + 4(y - 2) + 15 = 0" },
+        { "tipe": "formula_block", "latex": "x - 2y - 2x - 2 + 4y - 8 + 15 = 0 \\implies -x + 2y + 5 = 0 \\implies x - 2y - 5 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Roni, penjual nasi goreng, menjual dagangannya sebanyak $p$ porsi dan memperoleh keuntungan (dalam jutaan rupiah) yang dinyatakan dengan fungsi $K(p) = \\frac{9p^2 + 2p + 10}{3p^2 + 3p + 2}$. Keuntungan yang akan diperoleh Roni apabila ia menjual nasi goreng dengan jumlah porsi sangat banyak adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"Rp2.000.000,00"}],
+        [{"tipe":"paragraph","text":"Rp3.000.000,00"}],
+        [{"tipe":"paragraph","text":"Rp5.000.000,00"}],
+        [{"tipe":"paragraph","text":"Rp9.000.000,00"}],
+        [{"tipe":"paragraph","text":"Rp10.000.000,00"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah porsi sangat banyak berarti $p \\to \\infty$:" },
+        { "tipe": "formula_block", "latex": "\\lim_{p \\to \\infty} \\frac{9p^2 + 2p + 10}{3p^2 + 3p + 2} = \\frac{9}{3} = 3" },
+        { "tipe": "paragraph", "text": "Keuntungan yang diperoleh adalah $3$ juta rupiah atau Rp3.000.000,00." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil dari $\\int (3x^2 - 4x + 5) \\, dx = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^3 - 2x^2 + 5x + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 + 2x^2 + 5x + C$"}],
+        [{"tipe":"paragraph","text":"$3x^3 - 2x^2 + 5x + C$"}],
+        [{"tipe":"paragraph","text":"$x^3 - 4x^2 + 5x + C$"}],
+        [{"tipe":"paragraph","text":"$6x - 4 + C$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan dasar integral tak tentu $\\int x^n \\, dx = \\frac{1}{n+1}x^{n+1} + C$:" },
+        { "tipe": "formula_block", "latex": "\\int (3x^2 - 4x + 5) \\, dx = \\frac{3}{3}x^3 - \\frac{4}{2}x^2 + 5x + C = x^3 - 2x^2 + 5x + C" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-10-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran yang berpusat di titik $(-3, 4)$ dan memiliki jari-jari $2$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 6x - 8y + 21 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 6x - 8y + 21 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 6x + 8y + 16 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 8x - 6y + 16 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 8x - 6y + 21 = 0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk baku persamaan lingkaran pusat $(a,b) = (-3,4)$ dan $r = 2$:" },
+        { "tipe": "formula_block", "latex": "(x - a)^2 + (y - b)^2 = r^2 \\implies (x + 3)^2 + (y - 4)^2 = 2^2" },
+        { "tipe": "formula_block", "latex": "x^2 + 6x + 9 + y^2 - 8y + 16 = 4 \\implies x^2 + y^2 + 6x - 8y + 21 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
