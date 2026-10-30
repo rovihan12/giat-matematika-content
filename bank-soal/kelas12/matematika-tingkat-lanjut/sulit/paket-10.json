@@ -1,0 +1,202 @@
+{
+  "id": "bs-k12-mat-lanjut-sulit-10",
+  "nama": "Bank Soal Sulit - Paket 10",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Kalkulus, geometri analitik, dan aljabar linear tingkat lanjut",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to \\infty} \\left(\\sqrt{9x^2 + 12x - 5} - \\sqrt{9x^2 - 6x + 2}\\right)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus cepat limit tak hingga bentuk selisih akar: $\\lim_{x \\to \\infty} (\\sqrt{ax^2+bx+c} - \\sqrt{ax^2+dx+e}) = \\frac{b-d}{2\\sqrt{a}}$." },
+        { "tipe": "formula_block", "latex": "L = \\frac{12 - (-6)}{2\\sqrt{9}} = \\frac{18}{2(3)} = \\frac{18}{6} = 3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung elips $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$ yang tegak lurus dengan garis $2x - 4y + 7 = 0$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = -2x \\pm 4\\sqrt{10}$"}],
+        [{"tipe":"paragraph","text":"$y = -2x \\pm 2\\sqrt{10}$"}],
+        [{"tipe":"paragraph","text":"$y = 2x \\pm 4\\sqrt{10}$"}],
+        [{"tipe":"paragraph","text":"$y = -2x \\pm 8\\sqrt{2}$"}],
+        [{"tipe":"paragraph","text":"$y = 2x \\pm 8\\sqrt{2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $2x - 4y + 7 = 0 \\implies y = \\frac{1}{2}x + \\frac{7}{4}$, gradiennya $m_1 = \\frac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Karena garis singgung tegak lurus, maka gradien $m = -\\frac{1}{m_1} = -2$." },
+        { "tipe": "paragraph", "text": "Elips $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$ memiliki $a^2 = 36$ dan $b^2 = 16$." },
+        { "tipe": "paragraph", "text": "Gunakan rumus garis singgung elips dengan gradien $m$ ($y = mx \\pm \\sqrt{a^2m^2 + b^2}$):" },
+        { "tipe": "formula_block", "latex": "y = -2x \\pm \\sqrt{36(-2)^2 + 16} = -2x \\pm \\sqrt{144 + 16} = -2x \\pm \\sqrt{160} = -2x \\pm 4\\sqrt{10}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan pertama dari fungsi $f(x) = \\frac{\\sin x}{1 + \\cos x}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{1}{1 + \\cos x}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{1 - \\cos x}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{\\cos x}{(1 + \\cos x)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{-1}{1 + \\cos x}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{\\sin x}{(1 + \\cos x)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan pembagian turunan $f'(x) = \\frac{u'v - uv'}{v^2}$:" },
+        { "tipe": "paragraph", "text": "$u = \\sin x \\implies u' = \\cos x$ dan $v = 1 + \\cos x \\implies v' = -\\sin x$." },
+        { "tipe": "formula_block", "latex": "f'(x) = \\frac{\\cos x(1 + \\cos x) - (\\sin x)(-\\sin x)}{(1 + \\cos x)^2}" },
+        { "tipe": "formula_block", "latex": "= \\frac{\\cos x + \\cos^2 x + \\sin^2 x}{(1 + \\cos x)^2} = \\frac{1 + \\cos x}{(1 + \\cos x)^2} = \\frac{1}{1 + \\cos x}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui fungsi objektif $Z = 3x + 4y$ akan dimaksimumkan dengan kendala $x + 2y \\le 10$, $x + y \\le 7$, $x \\ge 0$, dan $y \\ge 0$. Nilai maksimum dari fungsi objektif tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$20$"}],
+        [{"tipe":"paragraph","text":"$22$"}],
+        [{"tipe":"paragraph","text":"$24$"}],
+        [{"tipe":"paragraph","text":"$26$"}],
+        [{"tipe":"paragraph","text":"$28$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cari titik potong antar garis kendala $x + 2y = 10$ dan $x + y = 7$:" },
+        { "tipe": "formula_block", "latex": "(x + 2y) - (x + y) = 10 - 7 \\implies y = 3 \\implies x = 4" },
+        { "tipe": "paragraph", "text": "Titik-titik pojok daerah penyelesaian: $(0,0)$, $(7,0)$, $(0,5)$, dan $(4,3)$." },
+        { "tipe": "paragraph", "text": "Uji ke fungsi objektif $Z = 3x + 4y$:" },
+        { "tipe": "paragraph", "text": "• $(7,0) \\implies Z = 3(7) + 4(0) = 21$" },
+        { "tipe": "paragraph", "text": "• $(0,5) \\implies Z = 3(0) + 4(5) = 20$" },
+        { "tipe": "paragraph", "text": "• $(4,3) \\implies Z = 3(4) + 4(3) = 12 + 12 = 24$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai maksimumnya adalah 24." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan elips dengan titik puncak di $(0, 5)$ dan $(0, -5)$ serta panjang sumbu minor $8$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{16} + \\frac{y^2}{25} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{25} + \\frac{y^2}{16} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{64} + \\frac{y^2}{25} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{25} + \\frac{y^2}{64} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{4} + \\frac{y^2}{5} = 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik puncak di $(0, \\pm 5)$ menunjukkan elips vertikal dengan $a = 5 \\implies a^2 = 25$." },
+        { "tipe": "paragraph", "text": "Panjang sumbu minor $2b = 8 \\implies b = 4 \\implies b^2 = 16$." },
+        { "tipe": "paragraph", "text": "Persamaan elips vertikal berpusat di $(0,0)$:" },
+        { "tipe": "formula_block", "latex": "\\frac{x^2}{b^2} + \\frac{y^2}{a^2} = 1 \\implies \\frac{x^2}{16} + \\frac{y^2}{25} = 1" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 0} \\frac{\\tan 3x - \\sin 3x}{x^3}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{9}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{27}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{27}{4}$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$27$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah pembilang menjadi bentuk perkalian trigonometri:" },
+        { "tipe": "formula_block", "latex": "\\tan 3x - \\sin 3x = \\tan 3x (1 - \\cos 3x) = \\tan 3x \\cdot 2\\sin^2\\left(\\frac{3x}{2}\\right)" },
+        { "tipe": "paragraph", "text": "Substitusikan ke dalam limit:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 0} \\frac{\\tan 3x \\cdot 2\\sin^2\\left(\\frac{3x}{2}\\right)}{x^3} = \\lim_{x \\to 0} \\left(\\frac{\\tan 3x}{x}\\right) \\cdot 2 \\cdot \\left(\\frac{\\sin(3x/2)}{x}\\right)^2" },
+        { "tipe": "formula_block", "latex": "= 3 \\cdot 2 \\cdot \\left(\\frac{3}{2}\\right)^2 = 6 \\cdot \\frac{9}{4} = \\frac{27}{2}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui matriks $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix}$. Nilai dari determinan matriks $A$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ekspansi kofaktor sepanjang baris pertama:" },
+        { "tipe": "formula_block", "latex": "\\det(A) = 1(1 \\cdot 0 - 4 \\cdot 6) - 2(0 \\cdot 0 - 4 \\cdot 5) + 3(0 \\cdot 6 - 1 \\cdot 5)" },
+        { "tipe": "formula_block", "latex": "= 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui suku banyak $P(x)$ berderajat 3. Jika $P(1) = 0$, $P(2) = 0$, $P(3) = 0$, dan $P(4) = 6$, maka nilai dari $P(0)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-6$"}],
+        [{"tipe":"paragraph","text":"$-3$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Karena $x = 1, 2, 3$ adalah pembuat nol dari $P(x)$, bentuk umum sukubanyak adalah:" },
+        { "tipe": "formula_block", "latex": "P(x) = k(x - 1)(x - 2)(x - 3)" },
+        { "tipe": "paragraph", "text": "Gunakan nilai $P(4) = 6$ untuk mencari $k$:" },
+        { "tipe": "formula_block", "latex": "k(4 - 1)(4 - 2)(4 - 3) = 6 \\implies k(3)(2)(1) = 6 \\implies 6k = 6 \\implies k = 1" },
+        { "tipe": "paragraph", "text": "Maka $P(x) = 1(x - 1)(x - 2)(x - 3)$." },
+        { "tipe": "paragraph", "text": "Hitung $P(0)$:" },
+        { "tipe": "formula_block", "latex": "P(0) = 1(0 - 1)(0 - 2)(0 - 3) = (-1)(-2)(-3) = -6" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-10-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan hiperbola yang memiliki titik fokus di $(0, \\pm 5)$ dan panjang sumbu transversal $6$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{y^2}{9} - \\frac{x^2}{16} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{y^2}{16} - \\frac{x^2}{9} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{9} - \\frac{y^2}{16} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x^2}{16} - \\frac{y^2}{9} = 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{y^2}{25} - \\frac{x^2}{9} = 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Fokus di $(0, \\pm 5)$ menunjukkan hiperbola vertikal dengan $c = 5 \\implies c^2 = 25$." },
+        { "tipe": "paragraph", "text": "Panjang sumbu transversal $2a = 6 \\implies a = 3 \\implies a^2 = 9$." },
+        { "tipe": "paragraph", "text": "Gunakan hubungan $c^2 = a^2 + b^2 \\implies 25 = 9 + b^2 \\implies b^2 = 16$." },
+        { "tipe": "paragraph", "text": "Persamaan hiperbola vertikal berpusat di $(0,0)$:" },
+        { "tipe": "formula_block", "latex": "\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1 \\implies \\frac{y^2}{9
