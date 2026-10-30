@@ -1,0 +1,225 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-09",
+  "nama": "Bank Soal Mudah - Paket 9",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Peluang dasar, trigonometri, dan domain fungsi",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sepasang pengantin baru merencanakan mempunyai tiga anak. Variabel acak $X$ menyatakan banyak anak perempuan. Nilai $P(X = 1)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{1}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{4}{8}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{5}{8}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan distribusi binomial: $P(X=k) = C(n,k) p^k (1-p)^{n-k}$." },
+        { "tipe": "paragraph", "text": "Dengan $n=3$, $p=\\frac{1}{2}$, dan $k=1$:" },
+        { "tipe": "formula_block", "latex": "P(X=1) = C(3,1) \\left(\\frac{1}{2}\\right)^1 \\left(\\frac{1}{2}\\right)^2 = 3 \\cdot \\frac{1}{8} = \\frac{3}{8}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga berikut!" },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/mudah/segitiga-pqr.png",
+          "caption": "Segitiga PQR dengan sudut P = 60°, sisi PR = 4, dan sisi QR = √21.",
+          "width": "medium"
+        },
+        { "tipe": "paragraph", "text": "Panjang sisi PQ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$9$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan cosinus: $QR^2 = PR^2 + PQ^2 - 2 \\cdot PR \\cdot PQ \\cos P$." },
+        { "tipe": "formula_block", "latex": "(\\sqrt{21})^2 = 4^2 + x^2 - 2(4)(x)\\cos 60^\\circ" },
+        { "tipe": "formula_block", "latex": "21 = 16 + x^2 - 8x\\left(\\frac{1}{2}\\right)" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x - 5 = 0 \\Rightarrow (x-5)(x+1) = 0" },
+        { "tipe": "paragraph", "text": "Karena panjang sisi bernilai positif, maka $x = 5$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan nilai $x$ yang memenuhi $\\sin(50^\\circ - 3x) = \\cos(15^\\circ + 4x)$ dengan $0^\\circ \\le x \\le 90^\\circ$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\{25^\\circ\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{25^\\circ, 75^\\circ\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{35^\\circ, 75^\\circ\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{55^\\circ, 75^\\circ, 80^\\circ\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{25^\\circ, 45^\\circ, 75^\\circ, 80^\\circ\\}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan relasi sudut komplementer $\\cos A = \\sin(90^\\circ - A)$:" },
+        { "tipe": "formula_block", "latex": "\\sin(50^\\circ - 3x) = \\sin(90^\\circ - (15^\\circ + 4x))" },
+        { "tipe": "formula_block", "latex": "\\sin(50^\\circ - 3x) = \\sin(75^\\circ - 4x)" },
+        { "tipe": "paragraph", "text": "Maka, $50^\\circ - 3x = 75^\\circ - 4x \\Rightarrow x = 25^\\circ$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{25^\\circ\\}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika $\\tan A = \\frac{5}{12}$, maka nilai dari $\\tan 2A$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{5}{7}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{10}{7}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{720}{119}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{144}{119}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{120}{119}$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus sudut rangkap tangent $\\tan 2A = \\frac{2 \\tan A}{1 - \\tan^2 A}$:" },
+        { "tipe": "formula_block", "latex": "\\tan 2A = \\frac{2(5/12)}{1 - (5/12)^2} = \\frac{10/12}{1 - 25/144} = \\frac{10/12}{119/144}" },
+        { "tipe": "formula_block", "latex": "= \\frac{10}{12} \\cdot \\frac{144}{119} = \\frac{120}{119}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Banyak susunan huruf yang dapat dibentuk dari kata RUANGGURU adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1.680$"}],
+        [{"tipe":"paragraph","text":"$7.560$"}],
+        [{"tipe":"paragraph","text":"$13.440$"}],
+        [{"tipe":"paragraph","text":"$15.120$"}],
+        [{"tipe":"paragraph","text":"$30.240$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kata RUANGGURU memiliki $9$ huruf dengan unsur berulang: R ($2$), U ($3$), G ($2$)." },
+        { "tipe": "formula_block", "latex": "P = \\frac{9!}{2! \\cdot 3! \\cdot 2!} = \\frac{362.880}{2 \\cdot 6 \\cdot 2} = \\frac{362.880}{24} = 15.120" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to \\infty} x \\left(\\sqrt{9 + \\frac{4}{x}} - 3\\right)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{4}{5}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2}{5}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kalikan dengan bentuk sekawan:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to \\infty} x \\cdot \\frac{\\left(9 + \\frac{4}{x}\\right) - 9}{\\sqrt{9 + \\frac{4}{x}} + 3} = \\lim_{x \\to \\infty} \\frac{x \\cdot \\frac{4}{x}}{\\sqrt{9 + \\frac{4}{x}} + 3}" },
+        { "tipe": "formula_block", "latex": "= \\frac{4}{\\sqrt{9 + 0} + 3} = \\frac{4}{3 + 3} = \\frac{4}{6} = \\frac{2}{3}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x) = \\sqrt{2x+6}$ dan $g(x) = 2-x$. Domain fungsi $(f \\cdot g)(x)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\{x|x>3, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|x \\ge -3, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|-3 \\le x < 0, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|x \\ge 3, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|x \\le -3, x \\in \\mathbb{R}\\}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Fungsi $(f \\cdot g)(x) = f(x) \\cdot g(x) = \\sqrt{2x+6} \\cdot (2-x)$." },
+        { "tipe": "paragraph", "text": "Syarat domain agar nilai di dalam akar tak-negatif:" },
+        { "tipe": "formula_block", "latex": "2x+6 \\ge 0 \\Rightarrow 2x \\ge -6 \\Rightarrow x \\ge -3" },
+        { "tipe": "paragraph", "text": "Jadi, domain fungsinya adalah $\\{x \\mid x \\ge -3, x \\in \\mathbb{R}\\}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $^9\\log \\left(\\frac{3}{64}\\right) \\cdot ^2\\log \\left(\\frac{1}{3}\\right) = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sederhanakan masing-masing bentuk logaritma:" },
+        { "tipe": "formula_block", "latex": "^2\\log\\left(\\frac{1}{3}\\right) = ^2\\log(3^{-1}) = -^2\\log 3" },
+        { "tipe": "formula_block", "latex": "^9\\log\\left(\\frac{3}{64}\\right) = ^{3^2}\\log\\left(\\frac{3}{2^6}\\right) = \\frac{1}{2} \\left(^3\\log 3 - ^3\\log(2^6)\\right) = \\frac{1}{2} (1 - 6 \\cdot ^3\\log 2)" },
+        { "tipe": "paragraph", "text": "Sederhanakan perkalian dengan sifat logaritma $^3\\log 2 \\cdot ^2\\log 3 = 1$:" },
+        { "tipe": "formula_block", "latex": "\\left(\\frac{1}{2} - 3 \\cdot ^3\\log 2\\right) \\cdot (-^2\\log 3) = -\\frac{1}{2} \\cdot ^2\\log 3 + 3 \\cdot (^3\\log 2 \\cdot ^2\\log 3) = 1" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 0} \\frac{\\tan 2x - \\sin 2x}{x^3}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$8$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah bentuk $\\tan 2x - \\sin 2x$:" },
+        { "tipe": "formula_block", "latex": "\\tan 2x - \\sin 2x = \\sin 2x \\left(\\frac{1}{\\cos 2x} - 1\\right) = \\tan 2x (1 - \\cos 2x) = \\tan 2x (2 \\sin^2 x)" },
+        { "tipe": "paragraph", "text": "Substitusi ke dalam limit:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 0} \\frac{\\tan 2x \\cdot 2 \\sin^2 x}{x^3} = 2 \\left(\\lim_{x \\to 0} \\frac{\\tan 2x}{x}\\right) \\left(\\lim_{x \\to 0} \\frac{\\sin x}{x}\\right)^2 = 2 \\cdot 2 \\cdot 1^2 = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hitunglah turunan pertama dari $f(x) = 2x^3 + 4x^3 - 4x$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 + 12x^2 - 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 - 12x^2 - 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 + 12x^2 + 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 12x^2 - 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 18x^2 + 4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sederhanakan suku sejenis $f(x) = 6x^3 - 4x$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 18x^2 - 4" },
+        { "tipe": "paragraph", "text": "Atau turunan suku per suku $f'(x) = 6x^2 + 12x^2 - 4 = 18x^2 - 4$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
