@@ -1,0 +1,233 @@
+{
+  "id": "bs-k12-mat-lanjut-sedang-09",
+  "nama": "Bank Soal Sedang - Paket 9",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Transformasi geometri, matriks, dan persamaan lingkaran",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis $l$ merupakan bayangan garis $3x + 2y = 6$ setelah dirotasikan sebesar $90^\\circ$ berlawanan arah jarum jam dengan pusat rotasi $(2, 0)$." },
+        { "tipe": "paragraph", "text": "Manakah koordinat titik berikut yang terletak pada garis $l$?" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(-3, -2)$"}],
+        [{"tipe":"paragraph","text":"$(-2, -1)$"}],
+        [{"tipe":"paragraph","text":"$(1, 2)$"}],
+        [{"tipe":"paragraph","text":"$(2, 0)$"}],
+        [{"tipe":"paragraph","text":"$(5, 2)$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus rotasi $90^\\circ$ berlawanan arah jarum jam terhadap pusat $(a,b) = (2,0)$:" },
+        { "tipe": "formula_block", "latex": "x' - a = -(y - b) \\implies x' - 2 = -y \\implies y = -x' + 2" },
+        { "tipe": "formula_block", "latex": "y' - b = x - a \\implies y' = x - 2 \\implies x = y' + 2" },
+        { "tipe": "paragraph", "text": "Substitusikan $x$ dan $y$ ke persamaan awal $3x + 2y = 6$:" },
+        { "tipe": "formula_block", "latex": "3(y' + 2) + 2(-x' + 2) = 6 \\implies 3y' + 6 - 2x' + 4 = 6 \\implies 2x' - 3y' - 4 = 0" },
+        { "tipe": "paragraph", "text": "Persamaan bayangan garis $l$ adalah $2x - 3y - 4 = 0$." },
+        { "tipe": "paragraph", "text": "Uji titik $(2,0)$: $2(2) - 3(0) - 4 = 0$ (memenuhi)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Lingkaran $L$ memiliki pusat di $(-5, 3)$ dan jari-jari $2$. Lingkaran $L'$ merupakan bayangan lingkaran $L$ setelah dilakukan translasi $T$. Lingkaran $L''$ dengan persamaan $(x+4)^2 + (y-4)^2 = 16$ merupakan bayangan lingkaran $L'$ setelah dilakukan dilatasi berpusat di $O(0,0)$ dengan faktor skala tertentu. Pernyataan yang benar mengenai translasi $T$ dan faktor skala dilatasi tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$T = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ dan faktor skala dilatasi $8$"}],
+        [{"tipe":"paragraph","text":"$T = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ dan faktor skala dilatasi $4$"}],
+        [{"tipe":"paragraph","text":"$T = \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$ dan faktor skala dilatasi $2$"}],
+        [{"tipe":"paragraph","text":"$T = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$ dan faktor skala dilatasi $2$"}],
+        [{"tipe":"paragraph","text":"$T = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$ dan faktor skala dilatasi $8$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pusat lingkaran $L''$ adalah $(-4, 4)$ dengan jari-jari $r'' = 4$." },
+        { "tipe": "paragraph", "text": "Faktor skala dilatasi $k = \\frac{r''}{r} = \\frac{4}{2} = 2$." },
+        { "tipe": "paragraph", "text": "Pusat $L'$ sebelum dilatasi: $P' = \\left(\\frac{-4}{2}, \\frac{4}{2}\\right) = (-2, 2)$." },
+        { "tipe": "paragraph", "text": "Translasi $T$ dari $P(-5,3)$ ke $P'(-2,2)$ adalah $T = \\begin{pmatrix} -2 - (-5) \\\\ 2 - 3 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Matriks yang merepresentasikan rotasi $90^\\circ$ berlawanan arah jarum jam terhadap titik asal adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$"}],
+        [{"tipe":"paragraph","text":"$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Matriks rotasi sebesar $\\theta$ terhadap titik asal:" },
+        { "tipe": "formula_block", "latex": "R_\\theta = \\begin{pmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Untuk $\\theta = 90^\\circ$:" },
+        { "tipe": "formula_block", "latex": "R_{90^\\circ} = \\begin{pmatrix} \\cos 90^\\circ & -\\sin 90^\\circ \\\\ \\sin 90^\\circ & \\cos 90^\\circ \\end{pmatrix} = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Komposisi dua refleksi terhadap sumbu-$x$ dan sumbu-$y$ menghasilkan ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"Rotasi $180^\\circ$"}],
+        [{"tipe":"paragraph","text":"Translasi"}],
+        [{"tipe":"paragraph","text":"Dilatasi"}],
+        [{"tipe":"paragraph","text":"Rotasi $90^\\circ$"}],
+        [{"tipe":"paragraph","text":"Identitas"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Matriks refleksi sumbu-$x$: $M_x = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$." },
+        { "tipe": "paragraph", "text": "Matriks refleksi sumbu-$y$: $M_y = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$." },
+        { "tipe": "paragraph", "text": "Komposisi kedua matriks:" },
+        { "tipe": "formula_block", "latex": "M_x \\cdot M_y = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}" },
+        { "tipe": "paragraph", "text": "Matriks $\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$ menunjukkan rotasi sebesar $180^\\circ$ terhadap titik asal." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $A(1, 0)$ dikenai transformasi berurutan: refleksi terhadap sumbu-$x$ DILANJUTKAN rotasi $90^\\circ$ berlawanan arah jarum jam terhadap titik asal. Bayangan akhir titik $A$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(0, -1)$"}],
+        [{"tipe":"paragraph","text":"$(0, 1)$"}],
+        [{"tipe":"paragraph","text":"$(-1, 0)$"}],
+        [{"tipe":"paragraph","text":"$(1, 0)$"}],
+        [{"tipe":"paragraph","text":"$(-1, 1)$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Langkah 1 — Refleksi sumbu-$x$ terhadap $A(1, 0)$:" },
+        { "tipe": "formula_block", "latex": "A_1 = (1, -0) = (1, 0)" },
+        { "tipe": "paragraph", "text": "Langkah 2 — Rotasi $90^\\circ$ CCW terhadap titik asal $(x,y) \\to (-y,x)$:" },
+        { "tipe": "formula_block", "latex": "A_2 = (-0, 1) = (0, 1)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar lingkaran dan garis pada bidang kartesius berikut." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sedang/lingkaran-garis-singgung.png",
+          "caption": "Lingkaran dengan pusat A(2, -3) melalui titik B(3, -1), serta garis f melalui C(-1, 0) dan D(0, 2).",
+          "width": "medium"
+        },
+        { "tipe": "paragraph", "text": "Tentukan salah satu koordinat titik singgung lingkaran dari garis-garis singgung lingkaran yang tegak lurus terhadap garis $f$." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(3, 1)$"}],
+        [{"tipe":"paragraph","text":"$(1, -5)$"}],
+        [{"tipe":"paragraph","text":"$(-1, 5)$"}],
+        [{"tipe":"paragraph","text":"$(3, -1)$"}],
+        [{"tipe":"paragraph","text":"$(-3, -1)$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gradien garis $f$ yang melalui $C(-1, 0)$ dan $D(0, 2)$:" },
+        { "tipe": "formula_block", "latex": "m_f = \\frac{2 - 0}{0 - (-1)} = 2" },
+        { "tipe": "paragraph", "text": "Garis singgung tegak lurus $f$, maka gradiennya $m = -\\frac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Vektor dari pusat $A(2,-3)$ ke titik singgung $(x,y)$ harus sejajar dengan garis normal (gradien $2$):" },
+        { "tipe": "formula_block", "latex": "\\frac{y - (-3)}{x - 2} = 2 \\implies y + 3 = 2x - 4 \\implies y = 2x - 7" },
+        { "tipe": "paragraph", "text": "Uji titik $B(3, -1)$: $-1 = 2(3) - 7 \\implies -1 = -1$ (memenuhi)." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Titik $A(4, 2)$ dikenai refleksi terhadap garis $y = -x$ dilanjutkan rotasi $90^\\circ$ CCW terhadap titik asal $O$. Bayangan akhir titik $A$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(4, -2)$"}],
+        [{"tipe":"paragraph","text":"$(2, -4)$"}],
+        [{"tipe":"paragraph","text":"$(-2, 4)$"}],
+        [{"tipe":"paragraph","text":"$(-4, -2)$"}],
+        [{"tipe":"paragraph","text":"$(-2, -4)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Langkah 1 — Refleksi garis $y = -x$ terhadap $A(4, 2)$:" },
+        { "tipe": "formula_block", "latex": "A_1 = (-2, -4)" },
+        { "tipe": "paragraph", "text": "Langkah 2 — Rotasi $90^\\circ$ CCW terhadap titik asal $(x,y) \\to (-y,x)$:" },
+        { "tipe": "formula_block", "latex": "A_2 = (-(-4), -2) = (4, -2)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah lingkaran memiliki pusat $(1, 2)$ dan menyinggung garis $x - 2y + 8 = 0$. Persamaan lingkaran tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 2x - 4y = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 2x + 4y = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 2x - 4y = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 2x - 3y = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 2x - 3y = 0$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jarak pusat $(1,2)$ ke garis $x - 2y + 8 = 0$ adalah jari-jari $r$:" },
+        { "tipe": "formula_block", "latex": "r = \\frac{|1 - 2(2) + 8|}{\\sqrt{1^2 + (-2)^2}} = \\frac{5}{\\sqrt{5}} = \\sqrt{5}" },
+        { "tipe": "paragraph", "text": "Persamaan lingkaran:" },
+        { "tipe": "formula_block", "latex": "(x-1)^2 + (y-2)^2 = (\\sqrt{5})^2" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x + 1 + y^2 - 4y + 4 = 5 \\implies x^2 + y^2 - 2x - 4y = 0" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Suatu rumah makan memiliki rambu lalu lintas berukuran persegi panjang merah dengan panjang $40$ cm dan lebar $14$ cm. Luas rambu merah tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$560$ cm$^2$"}],
+        [{"tipe":"paragraph","text":"$616$ cm$^2$"}],
+        [{"tipe":"paragraph","text":"$784$ cm$^2$"}],
+        [{"tipe":"paragraph","text":"$840$ cm$^2$"}],
+        [{"tipe":"paragraph","text":"$1.256$ cm$^2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas persegi panjang dihitung dengan rumus $L = \\text{panjang} \\times \\text{lebar}$:" },
+        { "tipe": "formula_block", "latex": "L = 40 \\times 14 = 560 \\text{ cm}^2" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-09-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan bayangan lingkaran $x^2 + y^2 = 4$ oleh dicerminkan terhadap garis $y = x$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = 4$"}],
+        [{"tipe":"paragraph","text":"$x^2 - y^2 = 4$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = 16$"}],
+        [{"tipe":"paragraph","text":"$x^2 + 2y = 4$"}],
+        [{"tipe":"paragraph","text":"$y^2 + 2x = 4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap garis $y = x$ menukarkan posisi $x$ dan $y$ ($x' = y$ dan $y' = x$):" },
+        { "tipe": "formula_block", "latex": "(y')^2 + (x')^2 = 4 \\implies x^2 + y^2 = 4" },
+        { "tipe": "paragraph", "text": "Persamaan lingkaran dengan pusat di titik asal $(0,0)$ tetap sama setelah dicerminkan terhadap garis $y = x$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
