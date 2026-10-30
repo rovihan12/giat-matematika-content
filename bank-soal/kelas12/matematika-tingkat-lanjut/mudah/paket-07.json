@@ -1,0 +1,214 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-07",
+  "nama": "Bank Soal Mudah - Paket 7",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Fungsi, komposisi, domain, dan eksponen",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $f(x)=\\sqrt{2x+6}$ dan $g(x)=2-x$. Domain fungsi $(f \\cdot g)(x)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\{x|x>3, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|x \\ge -3, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|-3 \\le x < 0, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|x \\ge 3, x \\in \\mathbb{R}\\}$"}],
+        [{"tipe":"paragraph","text":"$\\{x|x \\le -3, x \\in \\mathbb{R}\\}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Fungsi $(f \\cdot g)(x) = f(x) \\cdot g(x) = \\sqrt{2x+6} \\cdot (2-x)$." },
+        { "tipe": "paragraph", "text": "Domain fungsi $g(x)$ adalah seluruh bilangan real $\\mathbb{R}$." },
+        { "tipe": "paragraph", "text": "Syarat domain untuk $f(x)$: bentuk di dalam akar harus tak-negatif ($\\ge 0$)." },
+        { "tipe": "formula_block", "latex": "2x + 6 \\ge 0 \\Rightarrow 2x \\ge -6 \\Rightarrow x \\ge -3" },
+        { "tipe": "paragraph", "text": "Irisan dari kedua domain adalah $\\{x \\mid x \\ge -3, x \\in \\mathbb{R}\\}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi persamaan $4^{2x+1} = 8^{x-2}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x = -8$"}],
+        [{"tipe":"paragraph","text":"$x = -4$"}],
+        [{"tipe":"paragraph","text":"$x = -3$"}],
+        [{"tipe":"paragraph","text":"$x = 3$"}],
+        [{"tipe":"paragraph","text":"$x = 4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah ke basis 2: $(2^2)^{2x+1} = (2^3)^{x-2}$." },
+        { "tipe": "formula_block", "latex": "2^{4x+2} = 2^{3x-6}" },
+        { "tipe": "formula_block", "latex": "4x+2 = 3x-6 \\Rightarrow x = -8" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan kuadrat $x^2 + (2p-2)x + (p^2-p-2) = 0$ memiliki akar real. Nilai $p$ yang memenuhi adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$p \\ge 3$"}],
+        [{"tipe":"paragraph","text":"$p = 3$"}],
+        [{"tipe":"paragraph","text":"$p \\le 3$"}],
+        [{"tipe":"paragraph","text":"$p > 3$"}],
+        [{"tipe":"paragraph","text":"$p < 3$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Syarat akar real: Diskriminan $D \\ge 0$." },
+        { "tipe": "formula_block", "latex": "D = b^2 - 4ac \\ge 0" },
+        { "tipe": "formula_block", "latex": "(2p-2)^2 - 4(1)(p^2-p-2) \\ge 0" },
+        { "tipe": "formula_block", "latex": "4p^2 - 8p + 4 - 4p^2 + 4p + 8 \\ge 0" },
+        { "tipe": "formula_block", "latex": "-4p + 12 \\ge 0 \\Rightarrow -4p \\ge -12 \\Rightarrow p \\le 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\frac{2x^2 - 2}{2}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 - 1$"}],
+        [{"tipe":"paragraph","text":"$x^2 + 1$"}],
+        [{"tipe":"paragraph","text":"$2x^2 - 1$"}],
+        [{"tipe":"paragraph","text":"$x^2 - 2$"}],
+        [{"tipe":"paragraph","text":"$x - 1$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan pembilang terlebih dahulu:" },
+        { "tipe": "formula_block", "latex": "\\frac{2(x^2 - 1)}{2} = x^2 - 1" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $g(x)=2x+1$ dan $f(x)=\\frac{x+3}{x-2}$. Jika $h(x) = (f \\circ g)(x)$, maka $h^{-1}(x) = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{x-4}{2x-2}, x \\ne 1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x+4}{2x+2}, x \\ne -1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x+2}{4x+2}, x \\ne -\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x+4}{x-2}, x \\ne 2$"}],
+        [{"tipe":"paragraph","text":"$\\frac{x+4}{2x-2}, x \\ne 1$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tentukan fungsi komposisi $h(x) = f(g(x))$:" },
+        { "tipe": "formula_block", "latex": "h(x) = f(2x+1) = \\frac{(2x+1)+3}{(2x+1)-2} = \\frac{2x+4}{2x-1}" },
+        { "tipe": "paragraph", "text": "Gunakan rumus invers fungsi rasional $y = \\frac{ax+b}{cx+d} \\Rightarrow y^{-1} = \\frac{-dx+b}{cx-a}$:" },
+        { "tipe": "formula_block", "latex": "h^{-1}(x) = \\frac{-(-1)x + 4}{2x - 2} = \\frac{x+4}{2x-2}, \\quad x \\ne 1" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 1} \\frac{6x - 3}{x^2}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi langsung $x=1$:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 1} \\frac{6x - 3}{x^2} = \\frac{6(1) - 3}{(1)^2} = \\frac{3}{1} = 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 2} \\frac{16 - 4x}{\\sqrt{3 - 2x + 5}}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi langsung nilai $x=2$:" },
+        { "tipe": "paragraph", "text": "Pembilang: $16 - 4(2) = 16 - 8 = 8$" },
+        { "tipe": "paragraph", "text": "Penyebut: $\\sqrt{3 - 2(2) + 5} = \\sqrt{3 - 4 + 5} = \\sqrt{4} = 2$" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 2} \\frac{16 - 4x}{\\sqrt{3 - 2x + 5}} = \\frac{8}{2} = 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 0} \\frac{2\\sin 3x}{\\tan 2x}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan sifat limit trigonometri: $\\lim_{x \\to 0} \\frac{\\sin ax}{\\tan bx} = \\frac{a}{b}$." },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 0} 2 \\cdot \\frac{\\sin 3x}{\\tan 2x} = 2 \\cdot \\frac{3}{2} = 3" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hitunglah turunan pertama dari $f(x) = 2x^4 + 3x^3 - 2x$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$f'(x) = 8x^3 + 9x^2 - 2$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 8x^3 - 9x^2 - 2$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 8x^3 + 9x^2 + 2$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 8x^3 - 9x^2 + 2$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 8x^3 - 9x^2 - 2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan turunan $d(x^n)/dx = nx^{n-1}$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 4 \\cdot 2x^3 + 3 \\cdot 3x^2 - 2" },
+        { "tipe": "formula_block", "latex": "f'(x) = 8x^3 + 9x^2 - 2" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hitunglah turunan pertama dari $f(x) = 2x^3 + 3x^3 - 4x$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 + 9x^2 - 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 - 9x^2 - 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 + 9x^2 + 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 - 9x^2 + 4$"}],
+        [{"tipe":"paragraph","text":"$f'(x) = 6x^2 - 12x^2 - 4$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sederhanakan suku sejenis terlebih dahulu: $f(x) = (2+3)x^3 - 4x = 5x^3 - 4x$." },
+        { "tipe": "formula_block", "latex": "f'(x) = 15x^2 - 4" },
+        { "tipe": "paragraph", "text": "Atau dengan menurunkan suku per suku: $f'(x) = 6x^2 + 9x^2 - 4 = 15x^2 - 4$." }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
