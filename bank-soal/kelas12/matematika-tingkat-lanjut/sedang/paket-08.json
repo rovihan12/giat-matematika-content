@@ -1,0 +1,240 @@
+{
+  "id": "bs-k12-mat-lanjut-sedang-08",
+  "nama": "Bank Soal Sedang - Paket 8",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Sistem persamaan linear, program linear, dan vektor 3D",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pak Andi memiliki beberapa sapi dan kambing. Semua hewan ternaknya selalu diberikan pakan berupa campuran rumput gajah dan rumput gamal. Setiap hari, ia selalu menyediakan 38 kg rumput gajah dan 34 kg rumput gamal untuk seluruh kambing dan sapi miliknya tanpa sisa." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sedang/ilustrasi-sapi-kambing.png",
+          "caption": "Ilustrasi sapi dan kambing dengan kebutuhan pakan: Sapi (10 kg rumput gajah, 10 kg rumput gamal), Kambing (2 kg rumput gajah, 1 kg rumput gamal).",
+          "width": "large"
+        },
+        { "tipe": "paragraph", "text": "Jika banyaknya sapi dan kambing yang dipelihara oleh Pak Andi berturut-turut adalah $x$ dan $y$, maka model matematika yang tepat untuk menentukan nilai $x$ dan $y$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$10x + 2y = 38$ dan $10x + y = 34$"}],
+        [{"tipe":"paragraph","text":"$10x + y = 38$ dan $2x + 10y = 34$"}],
+        [{"tipe":"paragraph","text":"$2x + 10y = 38$ dan $x + 10y = 34$"}],
+        [{"tipe":"paragraph","text":"$10x + 10y = 38$ dan $2x + y = 34$"}],
+        [{"tipe":"paragraph","text":"$x + 2y = 38$ dan $10x + y = 34$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan $x$ = banyak sapi dan $y$ = banyak kambing." },
+        { "tipe": "paragraph", "text": "Kebutuhan rumput gajah: $10x + 2y = 38$" },
+        { "tipe": "paragraph", "text": "Kebutuhan rumput gamal: $10x + 1y = 34 \\implies 10x + y = 34$" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pabrik minuman tradisional memproduksi tiga jenis minuman yaitu wedang jahe (WJ), beras kencur (BK), dan kunir asem (KA). Dalam proses produksinya, digunakan tiga bahan utama yaitu jahe (J) dalam gram, gula merah (GM) dalam gram, dan air (A) dalam mililiter. Setiap botol minuman memerlukan bahan sebagai berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{c|ccc} & J & GM & A \\\\ \\hline WJ & 20 & 15 & 50 \\\\ BK & 10 & 25 & 40 \\\\ KA & 12 & 8 & k \\end{array}" },
+        { "tipe": "paragraph", "text": "Pada suatu hari pabrik tersebut menerima pesanan sebanyak 100 botol WJ, 120 botol BK, dan 80 botol KA. Jumlah bahan baku yang digunakan dalam proses pembuatan seluruh minuman tersebut adalah 4360 gram jahe, 4960 gram gula merah, dan 13000 ml air. Banyak air yang dibutuhkan untuk memproduksi satu botol kunir asem ($k$) adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$30$ ml"}],
+        [{"tipe":"paragraph","text":"$35$ ml"}],
+        [{"tipe":"paragraph","text":"$40$ ml"}],
+        [{"tipe":"paragraph","text":"$45$ ml"}],
+        [{"tipe":"paragraph","text":"$50$ ml"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Susun persamaan untuk kebutuhan total air (A):" },
+        { "tipe": "formula_block", "latex": "50(100) + 40(120) + k(80) = 13000" },
+        { "tipe": "formula_block", "latex": "5000 + 4800 + 80k = 13000" },
+        { "tipe": "formula_block", "latex": "9800 + 80k = 13000 \\implies 80k = 3200 \\implies k = 40" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Seorang pemilik hotel mengelola 3 hotel yang berada pada kota yang berbeda. Hotel tersebut memiliki konsep dan tipe kamar yang sama yaitu Standard Room, Deluxe Room, dan Suite Room. Kapasitas kamar dan harga per malam disajikan pada tabel berikut:" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{c|ccc|c} \\text{Tipe Kamar} & \\text{Hotel A} & \\text{Hotel B} & \\text{Hotel C} & \\text{Harga} \\\\ \\hline \\text{Standard} & 9 & 6 & 7 & \\text{Rp}150.000 \\\\ \\text{Deluxe} & 6 & 7 & 5 & \\text{Rp}500.000 \\\\ \\text{Suite} & 3 & 2 & 4 & \\text{Rp}1.000.000 \\end{array}" },
+        { "tipe": "paragraph", "text": "Jika semua tipe kamar di ketiga hotel terisi penuh dalam 1 hari, pernyataan berikut yang benar adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"Pendapatan Hotel A dan Hotel C sama besar."}],
+        [{"tipe":"paragraph","text":"Pendapatan Hotel B lebih besar daripada Hotel A."}],
+        [{"tipe":"paragraph","text":"Pendapatan paling besar diperoleh dari Hotel C."}],
+        [{"tipe":"paragraph","text":"Masing-masing hotel memiliki selisih pendapatan yang sama besar."}],
+        [{"tipe":"paragraph","text":"Pendapatan yang diperoleh dari ketiga hotel tersebut lebih dari Rp20.000.000."}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung pendapatan harian tiap hotel:" },
+        { "tipe": "paragraph", "text": "• Hotel A = $9(150.000) + 6(500.000) + 3(1.000.000) = 1.350.000 + 3.000.000 + 3.000.000 = \\text{Rp}7.350.000$" },
+        { "tipe": "paragraph", "text": "• Hotel B = $6(150.000) + 7(500.000) + 2(1.000.000) = 900.000 + 3.500.000 + 2.000.000 = \\text{Rp}6.400.000$" },
+        { "tipe": "paragraph", "text": "• Hotel C = $7(150.000) + 5(500.000) + 4(1.000.000) = 1.050.000 + 2.500.000 + 4.000.000 = \\text{Rp}7.550.000$" },
+        { "tipe": "paragraph", "text": "Jadi, pendapatan paling besar diperoleh oleh Hotel C." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kereta api sedang melaju dengan kecepatan konstan pada sebuah lintasan lurus dari stasiun A sampai stasiun E. Diketahui koordinat stasiun A dan E (dalam km) berturut-turut adalah $(2, 3, 5)$ dan $(11, 6, 8)$. Waktu tempuh kereta antar stasiun digambarkan sebagai berikut:" },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sedang/lintasan-kereta.png",
+          "caption": "Lintasan kereta dari stasiun A ke E dengan waktu tempuh: A ke B = 5 menit, B ke C = 3 menit, C ke D = 2 menit, D ke E = 3 menit.",
+          "width": "large"
+        },
+        { "tipe": "paragraph", "text": "Pasangan stasiun yang jaraknya kurang dari $3{,}5$ km adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"AB"}],
+        [{"tipe":"paragraph","text":"BC"}],
+        [{"tipe":"paragraph","text":"CD"}],
+        [{"tipe":"paragraph","text":"DE"}],
+        [{"tipe":"paragraph","text":"CE"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung jarak total stasiun A ke E:" },
+        { "tipe": "formula_block", "latex": "|AE| = \\sqrt{(11-2)^2 + (6-3)^2 + (8-5)^2} = \\sqrt{81+9+9} = \\sqrt{99} \\approx 9{,}95 \\text{ km}" },
+        { "tipe": "paragraph", "text": "Total waktu tempuh = $5 + 3 + 2 + 3 = 13$ menit, sehingga kecepatan $v \\approx \\frac{9{,}95}{13} \\approx 0{,}765$ km/menit." },
+        { "tipe": "paragraph", "text": "Jarak segmen CD = $2 \\text{ menit} \\times 0{,}765 \\approx 1{,}53 \\text{ km} < 3{,}5 \\text{ km}$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{AB} = \\begin{pmatrix} 2m \\\\ m+3 \\\\ m \\end{pmatrix}$. Jika panjang vektor $\\vec{AB} = 9$ satuan panjang, maka nilai $m$ yang memenuhi adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-4$ atau $-3$"}],
+        [{"tipe":"paragraph","text":"$-4$ atau $3$"}],
+        [{"tipe":"paragraph","text":"$-3$ atau $4$"}],
+        [{"tipe":"paragraph","text":"$3$ atau $4$"}],
+        [{"tipe":"paragraph","text":"$4$ atau $5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{AB}| = \\sqrt{(2m)^2 + (m+3)^2 + m^2} = 9" },
+        { "tipe": "formula_block", "latex": "4m^2 + m^2 + 6m + 9 + m^2 = 81" },
+        { "tipe": "formula_block", "latex": "6m^2 + 6m - 72 = 0 \\implies m^2 + m - 12 = 0" },
+        { "tipe": "formula_block", "latex": "(m+4)(m-3) = 0 \\implies m = -4 \\text{ atau } m = 3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui trapesium $ABCD$ dengan $\\vec{AB} = (1, 4)$, $\\vec{AD} = (3, 0)$, dan $\\vec{BC} = (a, b)$. Jika $\\vec{DC}$ sejajar dengan $\\vec{AB}$ dan bernilai $\\vec{BC} = (3, 0) - (0, 0)$, maka nilai dari $a^2 + 2b = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$11$"}],
+        [{"tipe":"paragraph","text":"$13$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{BC} = (a, b) = (3, 0)$." },
+        { "tipe": "paragraph", "text": "Maka nilai $a = 3$ dan $b = 0$." },
+        { "tipe": "formula_block", "latex": "a^2 + 2b = 3^2 + 2(0) = 9" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jika matriks $A = \\begin{pmatrix} x & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & -1 \\\\ 2 & 1 \\end{pmatrix}$ memenuhi $\\det(A \\cdot B) = 18$, maka nilai $x$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan sifat determinan: $\\det(A \\cdot B) = \\det(A) \\cdot \\det(B)$." },
+        { "tipe": "formula_block", "latex": "\\det(A) = 4x - 6" },
+        { "tipe": "formula_block", "latex": "\\det(B) = (1)(1) - (-1)(2) = 1 + 2 = 3" },
+        { "tipe": "formula_block", "latex": "\\det(A) \\cdot \\det(B) = 18 \\implies (4x - 6) \\cdot 3 = 18" },
+        { "tipe": "formula_block", "latex": "4x - 6 = 6 \\implies 4x = 12 \\implies x = 3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $p$ yang memenuhi agar lingkaran $x^2 + y^2 - 2px + p^2 - 8 = 0$ bersinggungan dengan garis $y = x$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-2$ atau $2$"}],
+        [{"tipe":"paragraph","text":"$-3$ atau $3$"}],
+        [{"tipe":"paragraph","text":"$-2$ atau $3$"}],
+        [{"tipe":"paragraph","text":"$-4$ atau $4$"}],
+        [{"tipe":"paragraph","text":"$3$ atau $2$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bentuk baku lingkaran: $(x-p)^2 + y^2 = 8$, pusat $(p, 0)$ dan $r = \\sqrt{8} = 2\\sqrt{2}$." },
+        { "tipe": "paragraph", "text": "Garis singgung $x - y = 0$." },
+        { "tipe": "paragraph", "text": "Syarat bersinggungan (jarak pusat ke garis = $r$):" },
+        { "tipe": "formula_block", "latex": "\\frac{|p - 0|}{\\sqrt{1^2 + (-1)^2}} = 2\\sqrt{2} \\implies \\frac{|p|}{\\sqrt{2}} = 2\\sqrt{2} \\implies |p| = 4 \\implies p = \\pm 4" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Kedudukan lingkaran $x^2 + y^2 = 81$ dan $x^2 + y^2 - 6x + 8y - 11 = 0$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"Bersinggungan di dalam"}],
+        [{"tipe":"paragraph","text":"Sepusat"}],
+        [{"tipe":"paragraph","text":"Berpotongan"}],
+        [{"tipe":"paragraph","text":"Bersinggungan di luar"}],
+        [{"tipe":"paragraph","text":"Kedua lingkaran saling lepas"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "• Lingkaran 1: pusat $P_1(0,0)$ dan $r_1 = 9$." },
+        { "tipe": "paragraph", "text": "• Lingkaran 2: $(x-3)^2 + (y+4)^2 = 36$, pusat $P_2(3, -4)$ dan $r_2 = 6$." },
+        { "tipe": "paragraph", "text": "Jarak pusat $d = \\sqrt{(3-0)^2 + (-4-0)^2} = 5$." },
+        { "tipe": "paragraph", "text": "Karena $|r_1 - r_2| = 3 < d = 5 < r_1 + r_2 = 15$, maka kedua lingkaran **berpotongan**." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-08-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari pertidaksamaan rasional $\\frac{2x - 6}{x + 1} \\le 0$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1 < x \\le 3$"}],
+        [{"tipe":"paragraph","text":"$-1 \\le x \\le 3$"}],
+        [{"tipe":"paragraph","text":"$x < -1 \\text{ atau } x \\ge 3$"}],
+        [{"tipe":"paragraph","text":"$x \\le -1 \\text{ atau } x \\ge 3$"}],
+        [{"tipe":"paragraph","text":"$1 < x \\le 3$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Tentukan pembuat nol pembilang dan penyebut:" },
+        { "tipe": "paragraph", "text": "• Pembilang: $2x - 6 = 0 \\implies x = 3$" },
+        { "tipe": "paragraph", "text": "• Penyebut: $x + 1 = 0 \\implies x = -1$ (syarat penyebut $x \\ne -1$)" },
+        { "tipe": "paragraph", "text": "Uji tanda pada garis bilangan untuk pecahan $\\frac{2x-6}{x+1} \\le 0$:" },
+        { "tipe": "paragraph", "text": "Diperoleh daerah negatif pada rentang $-1 < x \\le 3$." }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
