@@ -211,32 +211,37 @@
       ],
       "tingkat": "MUDAH"
     },
+ {
+  "id": "bs-k12-mat-lanjut-mudah-10-q10",
+  "pertanyaan": [
+    { 
+      "tipe": "paragraph", 
+      "text": "Perhatikan gambar lingkaran berikut. Jika diameter lingkaran pada gambar adalah 4 satuan, persamaan lingkaran yang sepusat dengan lingkaran tersebut adalah ...." 
+    },
     {
-      "id": "bs-k12-mat-lanjut-mudah-10-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Persamaan lingkaran yang berpusat di titik $(-3, 4)$ dan memiliki jari-jari $2$ adalah ...." }
-      ],
-      {
       "tipe": "image",
       "src": "images/kelas12/mat-lanjut/mudah/lingkaran-sepusat.png",
       "caption": "Lingkaran A dengan pusat P di kuadran II pada bidang kartesius.",
       "width": "medium"
     }
-      ],
-      "pilihan": [
-        [{"tipe":"paragraph","text":"$x^2 + y^2 + 6x - 8y + 21 = 0$"}],
-        [{"tipe":"paragraph","text":"$x^2 + y^2 - 6x - 8y + 21 = 0$"}],
-        [{"tipe":"paragraph","text":"$x^2 + y^2 + 6x + 8y + 16 = 0$"}],
-        [{"tipe":"paragraph","text":"$x^2 + y^2 - 8x - 6y + 16 = 0$"}],
-        [{"tipe":"paragraph","text":"$x^2 + y^2 + 8x - 6y + 21 = 0$"}]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "Bentuk baku persamaan lingkaran pusat $(a,b) = (-3,4)$ dan $r = 2$:" },
-        { "tipe": "formula_block", "latex": "(x - a)^2 + (y - b)^2 = r^2 \\implies (x + 3)^2 + (y - 4)^2 = 2^2" },
-        { "tipe": "formula_block", "latex": "x^2 + 6x + 9 + y^2 - 8y + 16 = 4 \\implies x^2 + y^2 + 6x - 8y + 21 = 0" }
-      ],
-      "tingkat": "MUDAH"
-    }
+  ],
+  "pilihan": [
+    [{"tipe":"paragraph","text":"$x^2 + y^2 + 6x - 8y + 21 = 0$"}],
+    [{"tipe":"paragraph","text":"$x^2 + y^2 - 6x - 8y + 21 = 0$"}],
+    [{"tipe":"paragraph","text":"$x^2 + y^2 + 6x + 8y + 16 = 0$"}],
+    [{"tipe":"paragraph","text":"$x^2 + y^2 - 8x - 6y + 16 = 0$"}],
+    [{"tipe":"paragraph","text":"$x^2 + y^2 + 8x - 6y + 21 = 0$"}]
+  ],
+  "jawaban_benar": 0,
+  "pembahasan": [
+    { "tipe": "paragraph", "text": "Dari gambar, pusat lingkaran berada di titik $P(-3, 4)$ dan diameternya 4 satuan, sehingga jari-jari $r = 2$." },
+    { "tipe": "formula_block", "latex": "(x - (-3))^2 + (y - 4)^2 = 2^2" },
+    { "tipe": "formula_block", "latex": "(x + 3)^2 + (y - 4)^2 = 4" },
+    { "tipe": "formula_block", "latex": "x^2 + 6x + 9 + y^2 - 8y + 16 = 4" },
+    { "tipe": "formula_block", "latex": "x^2 + y^2 + 6x - 8y + 21 = 0" },
+    { "tipe": "paragraph", "text": "Jadi, persamaan lingkarannya adalah $x^2 + y^2 + 6x - 8y + 21 = 0$." }
+  ],
+  "tingkat": "MUDAH"
+}
   ]
 }
