@@ -1,0 +1,234 @@
+{
+  "id": "bs-k12-mat-lanjut-sulit-06",
+  "nama": "Bank Soal Sulit - Paket 6",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Vektor 3D, sistem persamaan linear, dan geometri analitik",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah kereta api sedang melaju dengan kecepatan konstan pada sebuah lintasan lurus dari stasiun A sampai stasiun E. Diketahui koordinat stasiun A dan E (dalam km) berturut-turut adalah $(2, 3, 5)$ dan $(11, 6, 8)$." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sulit/lintasan-kereta-3d.png",
+          "caption": "Ilustrasi lintasan kereta dari stasiun A ke E dengan waktu tempuh: A ke B = 5 menit, B ke C = 3 menit, C ke D = 2 menit, D ke E = 3 menit.",
+          "width": "large"
+        },
+        { "tipe": "paragraph", "text": "Pasangan stasiun berikut yang memiliki jarak paling pendek adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$AB$"}],
+        [{"tipe":"paragraph","text":"$BC$"}],
+        [{"tipe":"paragraph","text":"$CD$"}],
+        [{"tipe":"paragraph","text":"$DE$"}],
+        [{"tipe":"paragraph","text":"$CE$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Hitung panjang lintasan total $AE$:" },
+        { "tipe": "formula_block", "latex": "|AE| = \\sqrt{(11-2)^2 + (6-3)^2 + (8-5)^2} = \\sqrt{81 + 9 + 9} = \\sqrt{99} \\approx 9{,}95 \\text{ km}" },
+        { "tipe": "paragraph", "text": "Total waktu tempuh = $5 + 3 + 2 + 3 = 13$ menit, sehingga kecepatan $v \\approx \\frac{9{,}95}{13} \\approx 0{,}765$ km/menit." },
+        { "tipe": "paragraph", "text": "Karena kecepatan konstan, jarak terpendek dipenuhi oleh segmen dengan waktu tempuh terkecil, yaitu segmen $CD$ (2 menit) dengan jarak $1{,}53$ km." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pak Andi memiliki beberapa sapi dan kambing. Setiap hari, ia menyediakan 38 kg rumput gajah dan 34 kg rumput gamal untuk seluruh ternaknya tanpa sisa. Kebutuhan pakan per ekor: Sapi (10 kg rumput gajah, 10 kg rumput gamal), Kambing (2 kg rumput gajah, 1 kg rumput gamal). Jika banyaknya sapi dan kambing berturut-turut adalah $x$ dan $y$, maka selisih antara banyaknya kambing dan sapi ($y - x$) adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Susun sistem persamaan linear:" },
+        { "tipe": "formula_block", "latex": "10x + 2y = 38 \\implies 5x + y = 19" },
+        { "tipe": "formula_block", "latex": "10x + y = 34" },
+        { "tipe": "paragraph", "text": "Eliminasi $y$ dengan mengurangkan kedua persamaan:" },
+        { "tipe": "formula_block", "latex": "(10x + y) - (5x + y) = 34 - 19 \\implies 5x = 15 \\implies x = 3" },
+        { "tipe": "paragraph", "text": "Substitusikan $x=3$ ke $10(3) + y = 34 \\implies y = 4$." },
+        { "tipe": "paragraph", "text": "Maka $y - x = 4 - 3 = 1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah pabrik minuman tradisional memproduksi tiga jenis minuman yaitu wedang jahe (WJ), beras kencur (BK), dan kunir asem (KA). Setiap botol memerlukan bahan sebagai berikut: WJ (20g jahe, 15g gula merah, 50ml air), BK (10g jahe, 25g gula merah, 40ml air), KA (12g jahe, 8g gula merah, $k$ ml air)." },
+        { "tipe": "paragraph", "text": "Pada suatu hari, pabrik menerima pesanan 100 botol WJ, 120 botol BK, dan 80 botol KA. Total bahan baku yang digunakan adalah 4360 gram jahe, 4960 gram gula merah, dan 13000 ml air. Banyak air yang dibutuhkan untuk memproduksi satu botol kunir asem ($k$) adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$30$ ml"}],
+        [{"tipe":"paragraph","text":"$35$ ml"}],
+        [{"tipe":"paragraph","text":"$40$ ml"}],
+        [{"tipe":"paragraph","text":"$45$ ml"}],
+        [{"tipe":"paragraph","text":"$50$ ml"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan persamaan total kebutuhan air:" },
+        { "tipe": "formula_block", "latex": "50(100) + 40(120) + k(80) = 13000" },
+        { "tipe": "formula_block", "latex": "5000 + 4800 + 80k = 13000 \\implies 9800 + 80k = 13000" },
+        { "tipe": "formula_block", "latex": "80k = 3200 \\implies k = 40" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui vektor $\\vec{AB} = \\begin{pmatrix} 2m \\\\ m+3 \\\\ m \\end{pmatrix}$. Jika panjang vektor $\\vec{AB} = 9$ satuan panjang, maka nilai $m$ yang memenuhi adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-4$ atau $-3$"}],
+        [{"tipe":"paragraph","text":"$-4$ atau $3$"}],
+        [{"tipe":"paragraph","text":"$-3$ atau $4$"}],
+        [{"tipe":"paragraph","text":"$3$ atau $4$"}],
+        [{"tipe":"paragraph","text":"$4$ atau $5$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "formula_block", "latex": "|\\vec{AB}|^2 = (2m)^2 + (m+3)^2 + m^2 = 9^2" },
+        { "tipe": "formula_block", "latex": "4m^2 + m^2 + 6m + 9 + m^2 = 81" },
+        { "tipe": "formula_block", "latex": "6m^2 + 6m - 72 = 0 \\implies m^2 + m - 12 = 0" },
+        { "tipe": "formula_block", "latex": "(m+4)(m-3) = 0 \\implies m = -4 \\text{ atau } m = 3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui trapesium $ABCD$ dengan vektor posisi $\\vec{AB} = (1, 4)$, $\\vec{AD} = (3, 0)$, dan $\\vec{BC} = (a, b) = (3, 0)$. Nilai dari $a^2 + 2b = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$9$"}],
+        [{"tipe":"paragraph","text":"$11$"}],
+        [{"tipe":"paragraph","text":"$13$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Diketahui komponen vektor $\\vec{BC} = (a,b) = (3,0)$." },
+        { "tipe": "paragraph", "text": "Diperoleh $a = 3$ dan $b = 0$." },
+        { "tipe": "formula_block", "latex": "a^2 + 2b = 3^2 + 2(0) = 9" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah drum bahan bakar logam mengalami penambahan kapasitas volume saat terkena panas, dinyatakan dengan fungsi $V(T) = 0{,}05T^3 + 0{,}4T^2 + 20T$ dengan $T$ suhu (°C) dan $V(T)$ penambahan volume (liter). Apabila terdapat 10 drum dengan jenis dan ukuran yang sama, total penambahan volume dari drum-drum tersebut ketika terkena panas dengan suhu yang sama dapat dinyatakan dengan ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$50T^3 + 40T^2 + 200T$"}],
+        [{"tipe":"paragraph","text":"$50T^3 + 4T^2 + 200T$"}],
+        [{"tipe":"paragraph","text":"$5T^3 + 4T^2 + 200T$"}],
+        [{"tipe":"paragraph","text":"$0{,}5T^3 + 4T^2 + 200T$"}],
+        [{"tipe":"paragraph","text":"$0{,}5T^3 + 0{,}4T^2 + 200T$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Total penambahan volume untuk 10 drum adalah $10 \\cdot V(T)$:" },
+        { "tipe": "formula_block", "latex": "10(0{,}05T^3 + 0{,}4T^2 + 20T) = 0{,}5T^3 + 4T^2 + 200T" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui suku banyak $f(x) = x^4 + ax^3 + bx^2 + x - 6$ apabila dibagi oleh $x^2 + x + 1$ menghasilkan sisa $5x - 1$. Nilai dari $a + b = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$11$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$-5$"}],
+        [{"tipe":"paragraph","text":"$-7$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Misalkan hasil bagi adalah $x^2 + px + q$, maka:" },
+        { "tipe": "formula_block", "latex": "x^4 + ax^3 + bx^2 + x - 6 = (x^2+x+1)(x^2 + px + q) + (5x - 1)" },
+        { "tipe": "formula_block", "latex": "= x^4 + (p+1)x^3 + (q+p+1)x^2 + (q+p+5)x + (q-1)" },
+        { "tipe": "paragraph", "text": "Samakan koefisien kedua ruas:" },
+        { "tipe": "paragraph", "text": "• Konstanta: $q - 1 = -6 \\implies q = -5$" },
+        { "tipe": "paragraph", "text": "• Koefisien $x$: $q + p + 5 = 1 \\implies -5 + p + 5 = 1 \\implies p = 1$" },
+        { "tipe": "paragraph", "text": "• Koefisien $x^3$: $a = p + 1 = 1 + 1 = 2$" },
+        { "tipe": "paragraph", "text": "• Koefisien $x^2$: $b = q + p + 1 = -5 + 1 + 1 = -3$" },
+        { "tipe": "paragraph", "text": "Maka $a + b = 2 + (-3) = -1$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 3} \\frac{x^3 - 3x^2 + 2x + 1}{5 + 3x - 9x^2} = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-\\frac{7}{67}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{6}{67}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{6}{76}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{67}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{76}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusikan $x=3$ secara langsung:" },
+        { "tipe": "formula_block", "latex": "\\text{Pembilang: } 3^3 - 3(3^2) + 2(3) + 1 = 27 - 27 + 6 + 1 = 7" },
+        { "tipe": "formula_block", "latex": "\\text{Penyebut: } 5 + 3(3) - 9(3^2) = 5 + 9 - 81 = -67" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 3} \\frac{x^3 - 3x^2 + 2x + 1}{5 + 3x - 9x^2} = -\\frac{7}{67}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to \\infty} x \\left(3 - \\sqrt{9 + \\frac{4}{x}}\\right)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{2}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{3}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{4}{5}$"}],
+        [{"tipe":"paragraph","text":"$-\\frac{4}{6}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kalikan dengan bentuk sekawan:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to \\infty} x \\cdot \\frac{\\left(3 - \\sqrt{9 + \\frac{4}{x}}\\right)\\left(3 + \\sqrt{9 + \\frac{4}{x}}\\right)}{3 + \\sqrt{9 + \\frac{4}{x}}}" },
+        { "tipe": "formula_block", "latex": "= \\lim_{x \\to \\infty} x \\cdot \\frac{9 - \\left(9 + \\frac{4}{x}\\right)}{3 + \\sqrt{9 + \\frac{4}{x}}} = \\lim_{x \\to \\infty} \\frac{-4}{3 + \\sqrt{9 + \\frac{4}{x}}}" },
+        { "tipe": "formula_block", "latex": "= \\frac{-4}{3 + \\sqrt{9 + 0}} = \\frac{-4}{3 + 3} = -\\frac{2}{3}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to \\infty} \\left(\\sqrt{4x^2 + 8x - 1} - 2x + 1\\right)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah $2x - 1$ ke dalam bentuk akar: $\\sqrt{(2x-1)^2} = \\sqrt{4x^2 - 4x + 1}$." },
+        { "tipe": "paragraph", "text": "Limit menjadi $\\lim_{x \\to \\infty} \\left(\\sqrt{4x^2 + 8x - 1} - \\sqrt{4x^2 - 4x + 1}\\right)$." },
+        { "tipe": "paragraph", "text": "Gunakan rumus cepat $\\frac{b-d}{2\\sqrt{a}}$:" },
+        { "tipe": "formula_block", "latex": "L = \\frac{8 - (-4)}{2\\sqrt{4}} = \\frac{12}{4} = 3" }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
