@@ -1,0 +1,241 @@
+{
+  "id": "bs-k12-mat-lanjut-sulit-07",
+  "nama": "Bank Soal Sulit - Paket 7",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SULIT",
+  "deskripsi": "Geometri analitik lanjutan, kombinatorika, dan vektor",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar detail ornamen kaca patri berbentuk lingkaran berikut." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sulit/ornamen-kaca-patri.png",
+          "caption": "Ornamen kaca patri berbentuk lingkaran dengan belah ketupat di dalamnya, terbagi menjadi 4 daerah dengan luas total kaca merah adalah 1824 cm².",
+          "width": "medium"
+        },
+        { "tipe": "paragraph", "text": "Luas 4 potong kaca berwarna merah adalah $1824 \\text{ cm}^2$. Jika pendekatan $\\pi = 3{,}14$, maka jari-jari ($r$) lingkaran ornamen tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$20 \\text{ cm}$"}],
+        [{"tipe":"paragraph","text":"$30 \\text{ cm}$"}],
+        [{"tipe":"paragraph","text":"$40 \\text{ cm}$"}],
+        [{"tipe":"paragraph","text":"$50 \\text{ cm}$"}],
+        [{"tipe":"paragraph","text":"$60 \\text{ cm}$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas daerah merah merupakan selisih luas lingkaran dan luas belah ketupat di dalamnya:" },
+        { "tipe": "formula_block", "latex": "L_{\\text{merah}} = \\pi r^2 - 2r^2 = r^2(\\pi - 2)" },
+        { "tipe": "paragraph", "text": "Substitusikan nilai yang diketahui:" },
+        { "tipe": "formula_block", "latex": "r^2(3{,}14 - 2) = 1824 \\implies 1{,}14 r^2 = 1824 \\implies r^2 = 1600" },
+        { "tipe": "formula_block", "latex": "r = \\sqrt{1600} = 40 \\text{ cm}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Garis $ax + y - 9 = 0$ dan $x + by + 6 = 0$ dicerminkan terhadap garis $y = x$ kemudian dilanjutkan translasi $T = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$, menghasilkan bayangan dengan persamaan berturut-turut $x + 2y - 8 = 0$ dan $2x - y - 9 = 0$. Nilai $2a - b = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-6$"}],
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Refleksi terhadap $y = x$ menukar posisi $x$ dan $y$. Translasi $T(1,1)$ memberikan $x' = y + 1 \\implies y = x' - 1$ dan $y' = x + 1 \\implies x = y' - 1$." },
+        { "tipe": "paragraph", "text": "Substitusi ke garis pertama $ax + y - 9 = 0$:" },
+        { "tipe": "formula_block", "latex": "a(y' - 1) + (x' - 1) - 9 = 0 \\implies x' + ay' - a - 10 = 0" },
+        { "tipe": "paragraph", "text": "Bandingkan dengan $x + 2y - 8 = 0 \\implies a = 2$." },
+        { "tipe": "paragraph", "text": "Substitusi ke garis kedua $x + by + 6 = 0$:" },
+        { "tipe": "formula_block", "latex": "(y' - 1) + b(x' - 1) + 6 = 0 \\implies bx' + y' - b + 5 = 0" },
+        { "tipe": "paragraph", "text": "Bandingkan dengan $2x - y - 9 = 0 \\implies -bx' - y' + b - 5 = 0 \\implies b = -2$." },
+        { "tipe": "paragraph", "text": "Nilai $2a - b = 2(2) - (-2) = 4 + 2 = 6$." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah lingkaran $L$ memiliki pusat di $(-2, 4)$ dan jari-jari $3$. Lingkaran $L'$ merupakan bayangan $L$ setelah translasi $T = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$. Lingkaran $L''$ merupakan bayangan $L'$ setelah dilatasi berpusat di $O(0,0)$ dengan faktor skala $2$. Persamaan lingkaran $L''$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(x-4)^2 + (y-4)^2 = 36$"}],
+        [{"tipe":"paragraph","text":"$(x-4)^2 + (y-4)^2 = 9$"}],
+        [{"tipe":"paragraph","text":"$(x+4)^2 + (y+4)^2 = 36$"}],
+        [{"tipe":"paragraph","text":"$(x-8)^2 + (y-8)^2 = 36$"}],
+        [{"tipe":"paragraph","text":"$(x+8)^2 + (y+8)^2 = 36$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Pusat lingkaran $L$ adalah $P_1(-2, 4)$ dan $r_1 = 3$." },
+        { "tipe": "paragraph", "text": "Translasi $T(4, -2) \\implies P_2 = (-2+4, 4-2) = (2, 2)$." },
+        { "tipe": "paragraph", "text": "Dilatasi $[O, 2] \\implies P_3 = (2 \\cdot 2, 2 \\cdot 2) = (4, 4)$ dan $r_3 = 2 \\cdot 3 = 6$." },
+        { "tipe": "paragraph", "text": "Persamaan lingkaran $L''$:" },
+        { "tipe": "formula_block", "latex": "(x - 4)^2 + (y - 4)^2 = 6^2 = 36" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui suku banyak $f(x) = x^4 + ax^3 + bx^2 + x - 6$ apabila dibagi oleh $x^2 + x + 1$ menghasilkan sisa $5x - 1$. Nilai dari $2a - b = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$7$"}],
+        [{"tipe":"paragraph","text":"$9$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Dari penyelesaian identitas suku banyak:" },
+        { "tipe": "paragraph", "text": "$a = 2$ dan $b = -3$." },
+        { "tipe": "paragraph", "text": "Hitung $2a - b$:" },
+        { "tipe": "formula_block", "latex": "2a - b = 2(2) - (-3) = 4 + 3 = 7" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah perusahaan menawarkan saham kepada pembeli. Perusahaan menyiapkan modal saham yang dinyatakan dengan fungsi $f(x) = x^3 - 70x^2 - 600x + 74.000$ dengan nilai $f(x)$ dalam jutaan rupiah dan $x$ menyatakan banyak saham dalam satuan unit. Jika modal saham yang dimiliki perusahaan tersebut adalah 2 miliar rupiah (2.000 juta), berapakah jumlah unit saham yang dijual agar mencapai target tersebut?" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$30 \\text{ unit}$"}],
+        [{"tipe":"paragraph","text":"$40 \\text{ unit}$"}],
+        [{"tipe":"paragraph","text":"$50 \\text{ unit}$"}],
+        [{"tipe":"paragraph","text":"$60 \\text{ unit}$"}],
+        [{"tipe":"paragraph","text":"$70 \\text{ unit}$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusikan $f(x) = 2000$ jutaan rupiah:" },
+        { "tipe": "formula_block", "latex": "x^3 - 70x^2 - 600x + 74.000 = 2.000" },
+        { "tipe": "formula_block", "latex": "x^3 - 70x^2 - 600x + 72.000 = 0" },
+        { "tipe": "paragraph", "text": "Uji $x = 40$:" },
+        { "tipe": "formula_block", "latex": "40^3 - 70(40^2) - 600(40) + 72.000 = 64.000 - 112.000 - 24.000 + 72.000 = 0" },
+        { "tipe": "paragraph", "text": "Jadi, jumlah unit saham yang dijual adalah 40 unit." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Populasi kelinci di suatu pulau dimodelkan dengan fungsi eksponensial $K(t) = 4 \\cdot 2^{\\frac{t}{4}}$ dengan $t$ menyatakan waktu dalam tahun dan $K(t)$ populasi dalam ribu ekor. Pernyataan yang **BENAR** mengenai model tersebut adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"Setiap 4 tahun populasi bertambah menjadi 4 kalinya."}],
+        [{"tipe":"paragraph","text":"Pada saat awal populasi kelinci berjumlah 4 ribu ekor."}],
+        [{"tipe":"paragraph","text":"Populasi mencapai 1 juta sebelum 20 tahun."}],
+        [{"tipe":"paragraph","text":"Setiap 1 tahun populasi bertambah 2 kali lipat."}],
+        [{"tipe":"paragraph","text":"Populasi awal kelinci berjumlah 2 ribu ekor."}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Uji saat $t = 0$ (populasi awal):" },
+        { "tipe": "formula_block", "latex": "K(0) = 4 \\cdot 2^0 = 4 \\text{ ribu ekor}" },
+        { "tipe": "paragraph", "text": "Jadi, pernyataan yang benar adalah populasi kelinci awal berjumlah 4 ribu ekor." }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan gambar segitiga dengan setengah lingkaran di atasnya berikut." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sulit/segitiga-setengah-lingkaran.png",
+          "caption": "Segitiga sama kaki ABC dengan setengah lingkaran berdiameter AB di atasnya, membentuk daerah seperti es krim.",
+          "width": "medium"
+        },
+        { "tipe": "paragraph", "text": "Jika luas segitiga ABC dinyatakan dengan $X$ dan luas setengah lingkaran dinyatakan dengan $Y$, manakah pernyataan berikut yang benar mengenai nilai $\\lim_{\\theta \\to \\frac{\\pi}{2}} \\frac{Y}{X}$?" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$\\frac{\\pi}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\pi$"}],
+        [{"tipe":"paragraph","text":"$2\\pi$"}],
+        [{"tipe":"paragraph","text":"$\\infty$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Luas setengah lingkaran $Y = \\frac{1}{2}\\pi r^2$." },
+        { "tipe": "paragraph", "text": "Luas segitiga sama kaki $X = r^2 \\cot\\left(\\frac{\\theta}{2}\\right)$." },
+        { "tipe": "paragraph", "text": "Rasio luas $Y/X = \\frac{\\frac{1}{2}\\pi r^2}{r^2 \\cot\\left(\\frac{\\theta}{2}\\right)} = \\frac{\\pi}{2} \\tan\\left(\\frac{\\theta}{2}\\right)$." },
+        { "tipe": "paragraph", "text": "Hitung limit saat $\\theta \\to \\frac{\\pi}{2}$:" },
+        { "tipe": "formula_block", "latex": "\\lim_{\\theta \\to \\frac{\\pi}{2}} \\frac{\\pi}{2} \\tan\\left(\\frac{\\theta}{2}\\right) = \\frac{\\pi}{2} \\tan\\left(\\frac{\\pi}{4}\\right) = \\frac{\\pi}{2} \\cdot 1 = \\frac{\\pi}{2}" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Banyak susunan huruf berbeda yang dapat dibentuk dari kata \"MATEMATIKA\" adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$151.200$"}],
+        [{"tipe":"paragraph","text":"$75.600$"}],
+        [{"tipe":"paragraph","text":"$30.240$"}],
+        [{"tipe":"paragraph","text":"$10.080$"}],
+        [{"tipe":"paragraph","text":"$5.040$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kata MATEMATIKA terdiri dari 10 huruf dengan frekuensi huruf berulang:" },
+        { "tipe": "paragraph", "text": "M = 2, A = 3, T = 2, E = 1, I = 1, K = 1." },
+        { "tipe": "formula_block", "latex": "\\text{Permutasi} = \\frac{10!}{2! \\cdot 3! \\cdot 2!} = \\frac{3.628.800}{2 \\cdot 6 \\cdot 2} = \\frac{3.628.800}{24} = 151.200" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to \\infty} \\left(\\sqrt{4x^2 + 8x - 3} - \\sqrt{4x^2 - 4x + 2}\\right)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$6$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus cepat limit tak hingga bentuk akar $\\frac{b-d}{2\\sqrt{a}}$:" },
+        { "tipe": "formula_block", "latex": "L = \\frac{8 - (-4)}{2\\sqrt{4}} = \\frac{12}{2(2)} = \\frac{12}{4} = 3" }
+      ],
+      "tingkat": "SULIT"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sulit-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$. Jika $A^2 - xA + yI = 0$ dengan $I$ adalah matriks identitas, maka nilai $x + y = \\dots$" }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-1$"}],
+        [{"tipe":"paragraph","text":"$0$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Berdasarkan Teorema Cayley-Hamilton, setiap matriks persegi memenuhi persamaan karakteristiknya sendiri:" },
+        { "tipe": "formula_block", "latex": "A^2 - \\text{tr}(A)A + \\det(A)I = 0" },
+        { "tipe": "paragraph", "text": "• $\\text{tr}(A) = 1 + 4 = 5 \\implies x = 5$" },
+        { "tipe": "paragraph", "text": "• $\\det(A) = (1)(4) - (2)(3) = 4 - 6 = -2 \\implies y = -2$" },
+        { "tipe": "paragraph", "text": "Maka nilai $x + y = 5 + (-2) = 3$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
