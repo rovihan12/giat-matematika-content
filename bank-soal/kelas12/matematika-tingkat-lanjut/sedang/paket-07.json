@@ -1,0 +1,233 @@
+{
+  "id": "bs-k12-mat-lanjut-sedang-07",
+  "nama": "Bank Soal Sedang - Paket 7",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "SEDANG",
+  "deskripsi": "Aljabar lanjutan, limit, turunan, dan peluang",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Gambar grafik yang tepat dari persamaan garis $x + y = 1$ adalah ...." },
+        {
+          "tipe": "image",
+          "src": "images/kelas12/mat-lanjut/sedang/grafik-garis-x-y.png",
+          "caption": "Pilihan grafik untuk persamaan garis x + y = 1.",
+          "width": "large"
+        }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"Grafik A (memotong sumbu X di (1,0) dan sumbu Y di (0,1))"}],
+        [{"tipe":"paragraph","text":"Grafik B (memotong sumbu X di (-1,0) dan sumbu Y di (0,1))"}],
+        [{"tipe":"paragraph","text":"Grafik C (memotong sumbu X di (1,0) dan sumbu Y di (0,-1))"}],
+        [{"tipe":"paragraph","text":"Grafik D (memotong sumbu X di (-1,0) dan sumbu Y di (0,-1))"}],
+        [{"tipe":"paragraph","text":"Grafik E (memotong sumbu X di (2,0) dan sumbu Y di (0,2))"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Cari titik potong sumbu X (saat $y = 0$): $x + 0 = 1 \\implies x = 1$. Titik potong $(1,0)$." },
+        { "tipe": "paragraph", "text": "Cari titik potong sumbu Y (saat $x = 0$): $0 + y = 1 \\implies y = 1$. Titik potong $(0,1)$." },
+        { "tipe": "paragraph", "text": "Garis yang melalui titik $(1,0)$ dan $(0,1)$ ditunjukkan oleh Grafik A." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\frac{\\sqrt{5} + 2 + \\sqrt{3} + \\sqrt{2}}{\\sqrt{5} - 2 - \\sqrt{3} + \\sqrt{2}} \\times (2\\sqrt{3} + \\sqrt{10})$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$-4$"}],
+        [{"tipe":"paragraph","text":"$-2$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$4$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Kelompokkan suku-suku pada pembilang dan penyebut:" },
+        { "tipe": "paragraph", "text": "Misal $P = \\sqrt{5} + \\sqrt{2}$ dan $Q = 2 + \\sqrt{3}$." },
+        { "tipe": "paragraph", "text": "Maka pecahan dapat dituliskan sebagai $\\frac{P + Q}{P - Q}$." },
+        { "tipe": "paragraph", "text": "Rasionalkan penyebut dengan mengalikan $(P + Q)$:" },
+        { "tipe": "formula_block", "latex": "\\frac{(P + Q)^2}{P^2 - Q^2}" },
+        { "tipe": "formula_block", "latex": "P^2 = (\\sqrt{5} + \\sqrt{2})^2 = 7 + 2\\sqrt{10}" },
+        { "tipe": "formula_block", "latex": "Q^2 = (2 + \\sqrt{3})^2 = 7 + 4\\sqrt{3}" },
+        { "tipe": "formula_block", "latex": "P^2 - Q^2 = 2\\sqrt{10} - 4\\sqrt{3} = 2(\\sqrt{10} - 2\\sqrt{3})" },
+        { "tipe": "paragraph", "text": "Perhatikan bahwa perkalian dengan $(2\\sqrt{3} + \\sqrt{10})$ akan mengeliminasi bentuk akar pada penyebut:" },
+        { "tipe": "formula_block", "latex": "(\\sqrt{10} - 2\\sqrt{3})(\\sqrt{10} + 2\\sqrt{3}) = 10 - 12 = -2" },
+        { "tipe": "paragraph", "text": "Sehingga nilai penyederhanaan seluruh bentuk pecahan tersebut bernilai $-2$." }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 2} \\frac{x^2 + x - 6}{x - 2}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$3$"}],
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$5$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Substitusi langsung $x = 2$ menghasilkan bentuk tak tentu $\\frac{0}{0}$." },
+        { "tipe": "paragraph", "text": "Faktorkan pembilang terlebih dahulu:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 2} \\frac{(x - 2)(x + 3)}{x - 2} = \\lim_{x \\to 2} (x + 3)" },
+        { "tipe": "paragraph", "text": "Substitusikan $x = 2$:" },
+        { "tipe": "formula_block", "latex": "2 + 3 = 5" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to \\infty} \\left(\\sqrt{x^2 + 2x - 1} - \\sqrt{x^2 - 3x + 4}\\right)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{5}{2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan rumus cepat limit tak hingga bentuk akar $\\lim_{x \\to \\infty} (\\sqrt{ax^2+bx+c} - \\sqrt{ax^2+dx+e}) = \\frac{b-d}{2\\sqrt{a}}$:" },
+        { "tipe": "formula_block", "latex": "L = \\frac{2 - (-3)}{2\\sqrt{1}} = \\frac{5}{2}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Hasil turunan pertama dari fungsi trigonometri $f(x) = \\sin(3x^2 + 2x)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(6x+2)\\cos(3x^2+2x)$"}],
+        [{"tipe":"paragraph","text":"$\\cos(3x^2+2x)$"}],
+        [{"tipe":"paragraph","text":"$(6x+2)\\sin(3x^2+2x)$"}],
+        [{"tipe":"paragraph","text":"$-(6x+2)\\cos(3x^2+2x)$"}],
+        [{"tipe":"paragraph","text":"$(3x+2)\\cos(3x^2+2x)$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan rantai $f(x) = \\sin(u(x)) \\implies f'(x) = u'(x)\\cos(u(x))$:" },
+        { "tipe": "paragraph", "text": "Misalkan $u(x) = 3x^2 + 2x$, maka $u'(x) = 6x + 2$." },
+        { "tipe": "formula_block", "latex": "f'(x) = (6x+2)\\cos(3x^2+2x)" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah keranjang berisi 8 buah apel. Seminggu kemudian, setengah dari jumlah apel tersebut ternyata busuk. Jika seorang anak mengambil 3 buah apel secara acak sekaligus, maka peluang terambil ketiga apel yang busuk adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{5}{32}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{32}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{2}{33}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{33}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{14}$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Jumlah apel busuk = $\\frac{1}{2} \\times 8 = 4$ buah, dan apel baik = $4$ buah." },
+        { "tipe": "paragraph", "text": "Banyak cara memilih 3 apel busuk dari 4 apel busuk:" },
+        { "tipe": "formula_block", "latex": "C(4,3) = \\frac{4!}{3!1!} = 4" },
+        { "tipe": "paragraph", "text": "Banyak cara memilih 3 apel dari total 8 apel:" },
+        { "tipe": "formula_block", "latex": "C(8,3) = \\frac{8!}{3!5!} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56" },
+        { "tipe": "paragraph", "text": "Peluang kejadian:" },
+        { "tipe": "formula_block", "latex": "P = \\frac{C(4,3)}{C(8,3)} = \\frac{4}{56} = \\frac{1}{14}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan pertama dari fungsi $H(x) = (2x^4 - 3)(4x^4)$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$64x^7 - 48x^3$"}],
+        [{"tipe":"paragraph","text":"$32x^7 - 48x^3$"}],
+        [{"tipe":"paragraph","text":"$64x^7 + 48x^3$"}],
+        [{"tipe":"paragraph","text":"$128x^7 - 48x^3$"}],
+        [{"tipe":"paragraph","text":"$64x^6 - 48x^2$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Sederhanakan fungsi terlebih dahulu dengan mengalikan antar suku:" },
+        { "tipe": "formula_block", "latex": "H(x) = 8x^8 - 12x^4" },
+        { "tipe": "paragraph", "text": "Gunakan aturan turunan dasar $f'(x) = a \\cdot n \\cdot x^{n-1}$:" },
+        { "tipe": "formula_block", "latex": "H'(x) = 8(8)x^7 - 12(4)x^3 = 64x^7 - 48x^3" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Turunan pertama dari fungsi rasional $f(x) = \\frac{2x+1}{x-3}$ untuk $x \\ne 3$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{-7}{(x-3)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{7}{(x-3)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{-5}{(x-3)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{5}{(x-3)^2}$"}],
+        [{"tipe":"paragraph","text":"$\\frac{-1}{(x-3)^2}$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Gunakan aturan turunan pembagian $f(x) = \\frac{u}{v} \\implies f'(x) = \\frac{u'v - uv'}{v^2}$:" },
+        { "tipe": "paragraph", "text": "Misalkan $u = 2x+1 \\implies u' = 2$ dan $v = x-3 \\implies v' = 1$." },
+        { "tipe": "formula_block", "latex": "f'(x) = \\frac{2(x-3) - (2x+1)(1)}{(x-3)^2} = \\frac{2x - 6 - 2x - 1}{(x-3)^2} = \\frac{-7}{(x-3)^2}" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai dari $\\lim_{x \\to 0} \\frac{1 - \\cos 4x}{x \\sin 2x}$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$4$"}],
+        [{"tipe":"paragraph","text":"$2$"}],
+        [{"tipe":"paragraph","text":"$1$"}],
+        [{"tipe":"paragraph","text":"$\\frac{1}{2}$"}],
+        [{"tipe":"paragraph","text":"$0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah bentuk $1 - \\cos 4x$ menggunakan identitas $1 - \\cos 2A = 2\\sin^2 A$:" },
+        { "tipe": "formula_block", "latex": "1 - \\cos 4x = 2\\sin^2 2x" },
+        { "tipe": "paragraph", "text": "Substitusi ke dalam limit:" },
+        { "tipe": "formula_block", "latex": "\\lim_{x \\to 0} \\frac{2\\sin^2 2x}{x \\sin 2x} = \\lim_{x \\to 0} \\frac{2\\sin 2x}{x} = 2 \\cdot 2 = 4" }
+      ],
+      "tingkat": "SEDANG"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-sedang-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\frac{2x^2 - 8}{x - 2}$ untuk $x \\ne 2$ adalah ...." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2x - 4$"}],
+        [{"tipe":"paragraph","text":"$2x + 4$"}],
+        [{"tipe":"paragraph","text":"$x + 4$"}],
+        [{"tipe":"paragraph","text":"$2x + 2$"}],
+        [{"tipe":"paragraph","text":"$x - 2$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Faktorkan pembilang terlebih dahulu:" },
+        { "tipe": "formula_block", "latex": "2x^2 - 8 = 2(x^2 - 4) = 2(x - 2)(x + 2)" },
+        { "tipe": "paragraph", "text": "Sederhanakan dengan penyebut:" },
+        { "tipe": "formula_block", "latex": "\\frac{2(x - 2)(x + 2)}{x - 2} = 2(x + 2) = 2x + 4" }
+      ],
+      "tingkat": "SEDANG"
+    }
+  ]
+}
