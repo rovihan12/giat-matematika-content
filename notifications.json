@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "notifications": [
+    {
+      "id": "update_v6_0_0",
+      "versionCode": 6,
+      "title": "🎉 Update Versi 6.0.0",
+      "message": "Fitur baru: Toko Tiket, Leaderboard, dan Kalkulator Ilmiah! Yuk coba sekarang.",
+      "date": "2026-10-25",
+      "type": "update"
+    },
+    {
+      "id": "maintenance_oct",
+      "versionCode": 6,
+      "title": "🔧 Pemeliharaan Sistem",
+      "message": "Pada tanggal 30 Oktober pukul 02:00 WIB, akan ada pemeliharaan server selama 30 menit.",
+      "date": "2026-10-30",
+      "type": "maintenance"
+    }
+  ]
+}
