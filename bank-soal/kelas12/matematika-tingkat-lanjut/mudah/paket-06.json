@@ -1,0 +1,217 @@
+{
+  "id": "bs-k12-mat-lanjut-mudah-06",
+  "nama": "Bank Soal Mudah - Paket 6",
+  "kelas": 12,
+  "kategori": "Matematika Tingkat Lanjut",
+  "tingkat": "MUDAH",
+  "deskripsi": "Persamaan lingkaran pusat (0,0) dan (a,b)",
+  "versi": "1.0.0",
+  "soal": [
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q01",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran dengan pusat $(0,0)$ dan memiliki jari-jari $5$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = \\sqrt{5}$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = 5$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = 10$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = 15$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 = 25$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran berpusat di $(0,0)$ dengan jari-jari $r$ adalah $x^2 + y^2 = r^2$." },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 = 5^2 = 25" },
+        { "tipe": "paragraph", "text": "Jadi, persamaannya adalah $x^2 + y^2 = 25$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q02",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran dengan pusat $(1,2)$ dan memiliki jari-jari $5$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 2x - 4y - 20 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 - y^2 - 2x - 4y - 20 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 - y^2 + 2x - 4y - 16 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 4x - 4y - 16 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 4x - 4y - 20 = 0$"}]
+      ],
+      "jawaban_benar": 0,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran pusat $(a,b)$ adalah $(x-a)^2 + (y-b)^2 = r^2$." },
+        { "tipe": "formula_block", "latex": "(x-1)^2 + (y-2)^2 = 5^2" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x + 1 + y^2 - 4y + 4 = 25" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 - 2x - 4y - 20 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q03",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari lingkaran $x^2 + y^2 - 50 = 0$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$2\\sqrt{5}$"}],
+        [{"tipe":"paragraph","text":"$5$"}],
+        [{"tipe":"paragraph","text":"$5\\sqrt{2}$"}],
+        [{"tipe":"paragraph","text":"$10$"}],
+        [{"tipe":"paragraph","text":"$12$"}]
+      ],
+      "jawaban_benar": 2,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Ubah ke bentuk umum: $x^2 + y^2 = 50$." },
+        { "tipe": "paragraph", "text": "Bentuk $x^2 + y^2 = r^2$, maka $r^2 = 50$." },
+        { "tipe": "formula_block", "latex": "r = \\sqrt{50} = 5\\sqrt{2}" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q04",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran yang berpusat di titik $(3,4)$ dan berjari-jari $3$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$(x+3)^2 + (y+4)^2 = 3$"}],
+        [{"tipe":"paragraph","text":"$(x+3)^2 + (y-4)^2 = 3$"}],
+        [{"tipe":"paragraph","text":"$(x+3)^2 + (y+4)^2 = 9$"}],
+        [{"tipe":"paragraph","text":"$(x+3)^2 + (y-4)^2 = 9$"}],
+        [{"tipe":"paragraph","text":"$(x-3)^2 + (y-4)^2 = 9$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Rumus: $(x-a)^2 + (y-b)^2 = r^2$ dengan $(a,b) = (3,4)$ dan $r=3$." },
+        { "tipe": "formula_block", "latex": "(x-3)^2 + (y-4)^2 = 3^2" },
+        { "tipe": "formula_block", "latex": "(x-3)^2 + (y-4)^2 = 9" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q05",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jari-jari dan titik pusat lingkaran $4x^2 + 4y^2 + 4x - 12y + 1 = 0$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}$ dan $\\left(-\\frac{1}{2}, 1\\right)$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}$ dan $\\left(-\\frac{1}{2}, \\frac{3}{2}\\right)$"}],
+        [{"tipe":"paragraph","text":"$\\frac{3}{2}$ dan $\\left(\\frac{1}{2}, \\frac{3}{2}\\right)$"}],
+        [{"tipe":"paragraph","text":"$3$ dan $(1, 3)$"}],
+        [{"tipe":"paragraph","text":"$3$ dan $(-1, 3)$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Bagi persamaan dengan 4: $x^2 + y^2 + x - 3y + \\frac{1}{4} = 0$." },
+        { "tipe": "paragraph", "text": "Pusat $(-\\frac{A}{2}, -\\frac{B}{2}) = (-\\frac{1}{2}, \\frac{3}{2})$." },
+        { "tipe": "paragraph", "text": "Jari-jari $r = \\sqrt{(-\\frac{1}{2})^2 + (\\frac{3}{2})^2 - \\frac{1}{4}} = \\sqrt{\\frac{1}{4} + \\frac{9}{4} - \\frac{1}{4}} = \\sqrt{\\frac{9}{4}} = \\frac{3}{2}$." }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q06",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran yang berpusat di $(5,-3)$ dan menyinggung sumbu Y adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 10x - 6y + 9 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 10x - 6y + 9 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 10x - 6y - 9 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 10x - 6y + 6 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 10x - 6y - 6 = 0$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Menyinggung sumbu Y berarti jari-jari $r = |x_{pusat}| = 5$." },
+        { "tipe": "formula_block", "latex": "(x-5)^2 + (y+3)^2 = 25" },
+        { "tipe": "formula_block", "latex": "x^2 - 10x + 25 + y^2 + 6y + 9 = 25" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 - 10x + 6y + 9 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q07",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan lingkaran yang berpusat di $(-2,4)$ dan menyinggung garis $x+5=0$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 4x + 8y + 11 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 - 4x + 8y - 11 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 4x + 8y + 11 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 4x - 8y - 11 = 0$"}],
+        [{"tipe":"paragraph","text":"$x^2 + y^2 + 4x - 8y + 11 = 0$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $x = -5$. Jarak pusat $(-2,4)$ ke garis $x=-5$ adalah $r = |-2 - (-5)| = 3$." },
+        { "tipe": "formula_block", "latex": "(x+2)^2 + (y-4)^2 = 9" },
+        { "tipe": "formula_block", "latex": "x^2 + 4x + 4 + y^2 - 8y + 16 = 9" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 + 4x - 8y + 11 = 0" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q08",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung lingkaran $x^2 + y^2 = 8$ yang tegak lurus dengan garis $3x - 3y = 1$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = x \\pm 4$"}],
+        [{"tipe":"paragraph","text":"$y = -x \\pm 4$"}],
+        [{"tipe":"paragraph","text":"$y = x \\pm 5$"}],
+        [{"tipe":"paragraph","text":"$y = -x \\pm 5$"}],
+        [{"tipe":"paragraph","text":"$y = x \\pm 8$"}]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Garis $3x - 3y = 1 \\Rightarrow y = x - \\frac{1}{3}$, gradien $m_1 = 1$." },
+        { "tipe": "paragraph", "text": "Tegak lurus, maka gradien garis singgung $m = -\\frac{1}{m_1} = -1$." },
+        { "tipe": "paragraph", "text": "Lingkaran $x^2 + y^2 = 8$, maka $r = \\sqrt{8} = 2\\sqrt{2}$." },
+        { "tipe": "formula_block", "latex": "y = mx \\pm r\\sqrt{m^2 + 1}" },
+        { "tipe": "formula_block", "latex": "y = -x \\pm 2\\sqrt{2}\\sqrt{(-1)^2 + 1} = -x \\pm 2\\sqrt{2}\\sqrt{2} = -x \\pm 4" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q09",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung lingkaran $x^2 + y^2 = 25$ di titik $(3, 4)$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$7x + y = 25$"}],
+        [{"tipe":"paragraph","text":"$7x - y = 25$"}],
+        [{"tipe":"paragraph","text":"$4x - 3y = 25$"}],
+        [{"tipe":"paragraph","text":"$3x - 4y = 25$"}],
+        [{"tipe":"paragraph","text":"$3x + 4y = 25$"}]
+      ],
+      "jawaban_benar": 4,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Titik $(3,4)$ terletak pada lingkaran $x^2 + y^2 = 25$ karena $3^2 + 4^2 = 25$." },
+        { "tipe": "paragraph", "text": "Persamaan garis singgung di titik $(x_1, y_1)$ pada lingkaran $x^2 + y^2 = r^2$ adalah $x_1x + y_1y = r^2$." },
+        { "tipe": "formula_block", "latex": "3x + 4y = 25" }
+      ],
+      "tingkat": "MUDAH"
+    },
+    {
+      "id": "bs-k12-mat-lanjut-mudah-06-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Persamaan garis singgung lingkaran $x^2 + y^2 - 64 = 0$ dengan gradien $4$ adalah ..." }
+      ],
+      "pilihan": [
+        [{"tipe":"paragraph","text":"$y = 4x - 8\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$y = 4x + 8\\sqrt{3}$"}],
+        [{"tipe":"paragraph","text":"$y = 4x - 8\\sqrt{5}$"}],
+        [{"tipe":"paragraph","text":"$y = 4x + 8\\sqrt{17}$"}],
+        [{"tipe":"paragraph","text":"$y = 4x - \\sqrt{3}$"}]
+      ],
+      "jawaban_benar": 3,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "Lingkaran $x^2 + y^2 = 64$, maka $r = 8$." },
+        { "tipe": "paragraph", "text": "Gradien $m = 4$." },
+        { "tipe": "formula_block", "latex": "y = mx \\pm r\\sqrt{m^2 + 1}" },
+        { "tipe": "formula_block", "latex": "y = 4x \\pm 8\\sqrt{4^2 + 1} = 4x \\pm 8\\sqrt{17}" }
+      ],
+      "tingkat": "MUDAH"
+    }
+  ]
+}
