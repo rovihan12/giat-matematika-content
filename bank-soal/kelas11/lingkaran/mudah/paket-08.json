@@ -60,24 +60,26 @@
     {
       "id": "bs-k11-ling-m-08-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. O adalah pusat lingkaran. Jika besar $\\angle ROS = 100^\\circ$, maka besar $\\angle RPQ$ adalah..." },
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Diketahui segi empat tali busur $PQRS$ berada di dalam lingkaran. Jika besar sudut $\\angle PQR = 110^\\circ$, maka besar sudut $\\angle PSR$ adalah..." },
         {
           "tipe": "image",
-          "src": "images/kelas11/lingkaran/mudah/sudut-ros-100.png",
-          "caption": "Lingkaran dengan pusat O. Sudut pusat ROS = 100 derajat. Titik P berada pada busur lingkaran dan membentuk sudut keliling RPQ.",
+          "src": "images/kelas11/lingkaran/mudah/segiempat-tali-busur-pqr.png",
+          "caption": "Segi empat tali busur PQRS di dalam lingkaran dengan sudut PQR = 110 derajat.",
           "width": "medium"
         }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$40^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$45^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$50^\\circ$" } ],
         [ { "tipe": "paragraph", "text": "$60^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ]
+        [ { "tipe": "paragraph", "text": "$70^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$80^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$110^\\circ$" } ],
+        [ { "tipe": "paragraph", "text": "$250^\\circ$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Sudut keliling $\\angle RPQ = \\dfrac{1}{2} \\times \\angle ROS = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
+        { "tipe": "paragraph", "text": "Pada segi empat tali busur, jumlah sudut-sudut yang berhadapan adalah $180^\\circ$." },
+        { "tipe": "paragraph", "text": "$\\angle PQR + \\angle PSR = 180^\\circ$" },
+        { "tipe": "paragraph", "text": "$\\angle PSR = 180^\\circ - 110^\\circ = 70^\\circ$." }
       ],
       "tingkat": "MUDAH"
     },
