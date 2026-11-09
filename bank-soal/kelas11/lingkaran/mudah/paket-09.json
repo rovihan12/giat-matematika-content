@@ -119,7 +119,7 @@
     {
       "id": "bs-k11-ling-m-09-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika luas juring $OAB = 6\\sqrt{3}$ cm², maka luas tembereng $AB$ adalah..." },
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika luas juring $OAB = 6\\sqrt{3}$ cm² dan jari-jari lingkaran $r = 4$ cm, maka luas tembereng $AB$ adalah..." },
         {
           "tipe": "image",
           "src": "images/kelas11/lingkaran/mudah/juring-oab-60.png",
@@ -136,10 +136,8 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Luas segitiga OAB $= \\dfrac{1}{2} \\times OA \\times OB \\times \\sin 60^\\circ$." },
-        { "tipe": "paragraph", "text": "$= \\dfrac{1}{2} \\times 4 \\times 4 \\times \\dfrac{1}{2}\\sqrt{3} = 4\\sqrt{3}$ cm²." },
-        { "tipe": "paragraph", "text": "Luas tembereng $=$ Luas juring $-$ Luas segitiga." },
-        { "tipe": "paragraph", "text": "$= 6\\sqrt{3} - 4\\sqrt{3} = 2\\sqrt{3}$ cm²." }
+        { "tipe": "paragraph", "text": "Luas segitiga OAB $= \\dfrac{1}{2} \\times OA \\times OB \\times \\sin 60^\\circ = \\dfrac{1}{2} \\times 4 \\times 4 \\times \\dfrac{1}{2}\\sqrt{3} = 4\\sqrt{3}$ cm²." },
+        { "tipe": "paragraph", "text": "Luas tembereng $=$ Luas juring $-$ Luas segitiga $= 6\\sqrt{3} - 4\\sqrt{3} = 2\\sqrt{3}$ cm²." }
       ],
       "tingkat": "MUDAH"
     },
@@ -190,7 +188,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Panjang busur sebanding dengan besar sudut pusatnya." },
         { "tipe": "paragraph", "text": "Busur BC sudutnya $45^\\circ$ dan busur ED sudutnya $45^\\circ$ (sama panjang)." },
-        { "tipe": "paragraph", "text": "Busur AB sudutnya $35^\\circ$ dan busur AF sudutnya $35^\\circ$ (sama panjang)." }
+        { "tipe": "paragraph", "text": "Busur AB sudutnya $35^\\circ$ dan busur AF/FOA sudutnya $35^\\circ$ (sama panjang)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -248,7 +246,7 @@
     {
       "id": "bs-k11-ling-m-09-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Luas daerah yang diarsir pada gambar berikut adalah... ($\\pi = 3{,}14$)" },
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. Jika panjang sisi persegi adalah $20$ cm, maka luas daerah yang diarsir (daun) adalah... ($\\pi = 3{,}14$)" },
         {
           "tipe": "image",
           "src": "images/kelas11/lingkaran/mudah/daun-lingkaran.png",
