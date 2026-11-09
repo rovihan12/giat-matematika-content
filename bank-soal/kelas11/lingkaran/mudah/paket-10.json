@@ -5,7 +5,7 @@
   "kategori": "Lingkaran",
   "tingkat": "MUDAH",
   "deskripsi": "Soal mudah tentang sudut keliling lanjutan, garis singgung persekutuan dalam, dan aplikasi keliling",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k11-ling-m-10-q01",
@@ -29,7 +29,7 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "Panjang busur sebanding dengan sudut pusatnya." },
         { "tipe": "paragraph", "text": "Sudut BOC $= 72^\\circ$, maka sudut AOC $= 180^\\circ - 72^\\circ = 108^\\circ$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{\\text{Busur } AC}{\\text{Busur } BC} = \\dfrac{\\angle AOC}{\\angle BOC} \\Rightarrow \\dfrac{\\text{Busur } AC}{12} = \\dfrac{108^\\circ}{72^\\circ} = \\dfrac{3}{2}$."},
+        { "tipe": "paragraph", "text": "$\\dfrac{\\text{Busur } AC}{\\text{Busur } BC} = \\dfrac{\\angle AOC}{\\angle BOC} \\Rightarrow \\dfrac{\\text{Busur } AC}{12} = \\dfrac{108^\\circ}{72^\\circ} = \\dfrac{3}{2}$." },
         { "tipe": "paragraph", "text": "Busur $AC = 12 \\times \\dfrac{3}{2} = 18$ cm." }
       ],
       "tingkat": "MUDAH"
@@ -197,11 +197,11 @@
     {
       "id": "bs-k11-ling-m-10-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. O adalah pusat lingkaran. Jika besar $\\angle ROS = 100^\\circ$, maka $\\angle RPQ$ adalah..." },
+        { "tipe": "paragraph", "text": "Perhatikan gambar berikut. O adalah pusat lingkaran. Jika besar $\\angle ROS = 100^\\circ$, maka $\\angle RPS$ adalah..." },
         {
           "tipe": "image",
           "src": "images/kelas11/lingkaran/mudah/sudut-ros-100-2.png",
-          "caption": "Lingkaran dengan pusat O. Sudut pusat ROS = 100 derajat. Titik P berada pada busur lingkaran dan membentuk sudut keliling RPQ.",
+          "caption": "Lingkaran dengan pusat O. Sudut pusat ROS = 100 derajat. Titik P berada pada busur lingkaran dan membentuk sudut keliling RPS.",
           "width": "medium"
         }
       ],
@@ -214,7 +214,7 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\angle RPQ = \\dfrac{1}{2} \\times \\angle ROS = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
+        { "tipe": "paragraph", "text": "$\\angle RPS = \\dfrac{1}{2} \\times \\angle ROS = \\dfrac{1}{2} \\times 100^\\circ = 50^\\circ$." }
       ],
       "tingkat": "MUDAH"
     },
