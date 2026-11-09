@@ -154,11 +154,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Segitiga OBC adalah segitiga sama kaki karena $OB = OC = r$." },
-        { "tipe": "paragraph", "text": "$\\angle OBC = \\angle OCB = \\dfrac{180^\\circ - 100^\\circ}{2} = 40^\\circ$." },
-        { "tipe": "paragraph", "text": "Karena AB adalah diameter, maka $\\angle ACB = 90^\\circ$." },
-        { "tipe": "paragraph", "text": "$\\angle OCA = \\angle ACB - \\angle OCB = 90^\\circ - 40^\\circ = 50^\\circ$." },
-        { "tipe": "paragraph", "text": "Segitiga OAC sama kaki ($OA = OC$), maka $\\angle OAC = \\angle OCA = 50^\\circ$." }
+        { "tipe": "paragraph", "text": "$\\angle AOC$ dan $\\angle BOC$ saling berpelurus, maka $\\angle AOC = 180^\\circ - 100^\\circ = 80^\\circ$." },
+        { "tipe": "paragraph", "text": "Segitiga OAC adalah segitiga sama kaki karena $OA = OC = r$." },
+        { "tipe": "paragraph", "text": "$\\angle OAC = \\dfrac{180^\\circ - 80^\\circ}{2} = 50^\\circ$." }
       ],
       "tingkat": "MUDAH"
     },
