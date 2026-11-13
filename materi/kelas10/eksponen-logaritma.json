@@ -3,23 +3,23 @@
   "kategori": "Eksponen dan Logaritma",
   "emoji": "📐",
   "warna": "#4CAF50",
-  "versi": "1.0.2",
+  "versi": "2.0.0",
   "bab": [
     {
-      "id": "10-aljabar-bab-01",
+      "id": "eksponen-bab-01",
       "nomor": 1,
-      "judul": "Eksponen dan Logaritma",
-      "deskripsi": "Bilangan berpangkat, bentuk akar, dan logaritma beserta sifat-sifatnya",
-      "estimasi_menit": 90,
+      "judul": "Konsep Dasar Eksponen",
+      "deskripsi": "Pengertian eksponen dan sifat-sifat dasar perkalian/pembagian",
+      "estimasi_menit": 10,
       "konten": [
         {
           "tipe": "heading",
-          "level": 1,
+          "level": 2,
           "text": "A. Bilangan Berpangkat (Eksponen)"
         },
         {
           "tipe": "heading",
-          "level": 2,
+          "level": 3,
           "text": "1. Pengertian Eksponen"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
           "tipe": "heading",
-          "level": 2,
+          "level": 3,
           "text": "2. Sifat-Sifat Eksponen"
         },
         {
@@ -51,10 +51,7 @@
             "Sifat pembagian: $\\dfrac{a^m}{a^n} = a^{m-n}$",
             "Sifat pangkat dari pangkat: $(a^m)^n = a^{m \\cdot n}$",
             "Sifat pangkat dari perkalian: $(ab)^n = a^n \\cdot b^n$",
-            "Sifat pangkat dari pembagian: $\\left(\\dfrac{a}{b}\\right)^n = \\dfrac{a^n}{b^n}$, dengan $b \\neq 0$",
-            "Pangkat nol: $a^0 = 1$, dengan $a \\neq 0$",
-            "Pangkat negatif: $a^{-n} = \\dfrac{1}{a^n}$, dengan $a \\neq 0$",
-            "Pangkat pecahan: $a^{\\frac{m}{n}} = \\sqrt[n]{a^m}$"
+            "Sifat pangkat dari pembagian: $\\left(\\dfrac{a}{b}\\right)^n = \\dfrac{a^n}{b^n}$, dengan $b \\neq 0$"
           ]
         },
         {
@@ -70,10 +67,59 @@
             { "tipe": "formula_block", "latex": "2^3 \\cdot 2^5 = 2^{3+5} = 2^8 = 256" },
             { "tipe": "formula_block", "latex": "\\dfrac{3^7}{3^4} = 3^{7-4} = 3^3 = 27" }
           ]
+        }
+      ]
+    },
+    {
+      "id": "eksponen-bab-02",
+      "nomor": 2,
+      "judul": "Pangkat Nol, Negatif, dan Pecahan",
+      "deskripsi": "Memahami pangkat khusus: nol, negatif, dan pecahan",
+      "estimasi_menit": 10,
+      "konten": [
+        {
+          "tipe": "heading",
+          "level": 2,
+          "text": "B. Pangkat Nol, Negatif, dan Pecahan"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "1. Pangkat Nol dan Negatif"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Ada aturan khusus untuk pangkat nol dan pangkat negatif:"
+        },
+        {
+          "tipe": "list",
+          "ordered": false,
+          "items": [
+            "Pangkat nol: $a^0 = 1$, dengan $a \\neq 0$",
+            "Pangkat negatif: $a^{-n} = \\dfrac{1}{a^n}$, dengan $a \\neq 0$"
+          ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "2. Pangkat Pecahan"
+        },
+        {
+          "tipe": "paragraph",
+          "text": "Pangkat pecahan berhubungan erat dengan bentuk akar:"
+        },
+        {
+          "tipe": "formula_block",
+          "latex": "a^{\\frac{m}{n}} = \\sqrt[n]{a^m}"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Contoh Soal"
         },
         {
           "tipe": "example",
-          "judul": "Contoh 2: Pangkat Negatif dan Nol",
+          "judul": "Contoh 1: Pangkat Negatif dan Nol",
           "konten": [
             { "tipe": "paragraph", "text": "Hitung nilai dari $5^{-2}$ dan $(7)^0$." },
             { "tipe": "formula_block", "latex": "5^{-2} = \\dfrac{1}{5^2} = \\dfrac{1}{25}" },
@@ -82,22 +128,31 @@
         },
         {
           "tipe": "example",
-          "judul": "Contoh 3: Pangkat Pecahan",
+          "judul": "Contoh 2: Pangkat Pecahan",
           "konten": [
             { "tipe": "paragraph", "text": "Ubah $8^{\\frac{2}{3}}$ ke bentuk akar dan hitung nilainya." },
             { "tipe": "formula_block", "latex": "8^{\\frac{2}{3}} = \\sqrt[3]{8^2}" },
             { "tipe": "formula_block", "latex": "= \\sqrt[3]{64}" },
             { "tipe": "formula_block", "latex": "= 4" }
           ]
-        },
-        {
-          "tipe": "heading",
-          "level": 1,
-          "text": "B. Bentuk Akar dan Merasionalkan Penyebut"
-        },
+        }
+      ]
+    },
+    {
+      "id": "eksponen-bab-03",
+      "nomor": 3,
+      "judul": "Bentuk Akar dan Merasionalkan Penyebut",
+      "deskripsi": "Operasi bentuk akar dan cara merasionalkan penyebut pecahan",
+      "estimasi_menit": 10,
+      "konten": [
         {
           "tipe": "heading",
           "level": 2,
+          "text": "C. Bentuk Akar dan Merasionalkan Penyebut"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
           "text": "1. Pengertian Bentuk Akar"
         },
         {
@@ -125,7 +180,7 @@
         },
         {
           "tipe": "heading",
-          "level": 2,
+          "level": 3,
           "text": "2. Merasionalkan Penyebut"
         },
         {
@@ -140,6 +195,11 @@
             "Bentuk $\\dfrac{a}{\\sqrt{b} + \\sqrt{c}}$ dikalikan dengan $\\dfrac{\\sqrt{b} - \\sqrt{c}}{\\sqrt{b} - \\sqrt{c}}$",
             "Bentuk $\\dfrac{a}{\\sqrt{b} - \\sqrt{c}}$ dikalikan dengan $\\dfrac{\\sqrt{b} + \\sqrt{c}}{\\sqrt{b} + \\sqrt{c}}$"
           ]
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
+          "text": "Contoh Soal"
         },
         {
           "tipe": "example",
@@ -162,15 +222,24 @@
             { "tipe": "formula_block", "latex": "= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{5 - 2}" },
             { "tipe": "formula_block", "latex": "= \\dfrac{4(\\sqrt{5} - \\sqrt{2})}{3}" }
           ]
-        },
-        {
-          "tipe": "heading",
-          "level": 1,
-          "text": "C. Logaritma"
-        },
+        }
+      ]
+    },
+    {
+      "id": "eksponen-bab-04",
+      "nomor": 4,
+      "judul": "Logaritma dan Sifat-Sifatnya",
+      "deskripsi": "Pengertian logaritma, sifat-sifat, dan persamaan dasar",
+      "estimasi_menit": 10,
+      "konten": [
         {
           "tipe": "heading",
           "level": 2,
+          "text": "D. Logaritma"
+        },
+        {
+          "tipe": "heading",
+          "level": 3,
           "text": "1. Pengertian Logaritma"
         },
         {
@@ -187,7 +256,7 @@
         },
         {
           "tipe": "heading",
-          "level": 2,
+          "level": 3,
           "text": "2. Sifat-Sifat Logaritma"
         },
         {
@@ -242,49 +311,6 @@
             { "tipe": "formula_block", "latex": "{}^8\\log 32 = \\dfrac{{}^2\\log 32}{{}^2\\log 8}" },
             { "tipe": "formula_block", "latex": "= \\dfrac{{}^2\\log 2^5}{{}^2\\log 2^3}" },
             { "tipe": "formula_block", "latex": "= \\dfrac{5}{3}" }
-          ]
-        },
-        {
-          "tipe": "heading",
-          "level": 2,
-          "text": "3. Persamaan Logaritma Sederhana"
-        },
-        {
-          "tipe": "paragraph",
-          "text": "Persamaan logaritma dapat diselesaikan dengan menyamakan basis atau menggunakan sifat-sifat logaritma."
-        },
-        {
-          "tipe": "formula_block",
-          "latex": "{}^a\\log f(x) = {}^a\\log g(x) \\Rightarrow f(x) = g(x)"
-        },
-        {
-          "tipe": "example",
-          "judul": "Contoh: Persamaan Logaritma",
-          "konten": [
-            { "tipe": "paragraph", "text": "Tentukan nilai $x$ dari ${}^2\\log (x+3) = 3$." },
-            { "tipe": "formula_block", "latex": "{}^2\\log (x+3) = 3" },
-            { "tipe": "formula_block", "latex": "x + 3 = 2^3" },
-            { "tipe": "formula_block", "latex": "x + 3 = 8" },
-            { "tipe": "formula_block", "latex": "x = 5" }
-          ]
-        },
-        {
-          "tipe": "heading",
-          "level": 1,
-          "text": "D. Rangkuman"
-        },
-        {
-          "tipe": "list",
-          "ordered": false,
-          "items": [
-            "Eksponen: $a^n = a \\times a \\times \\cdots \\times a$ (sebanyak $n$ faktor)",
-            "Sifat utama: $a^m \\cdot a^n = a^{m+n}$, $\\dfrac{a^m}{a^n} = a^{m-n}$, $(a^m)^n = a^{mn}$",
-            "$a^0 = 1$ dan $a^{-n} = \\dfrac{1}{a^n}$",
-            "Bentuk akar: $\\sqrt[n]{a} = a^{\\frac{1}{n}}$",
-            "Merasionalkan penyebut dengan mengalikan bentuk sekawan",
-            "Logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$",
-            "Sifat logaritma: ${}^a\\log (bc) = {}^a\\log b + {}^a\\log c$, ${}^a\\log \\dfrac{b}{c} = {}^a\\log b - {}^a\\log c$",
-            "${}^a\\log b^n = n \\cdot {}^a\\log b$ dan ${}^a\\log b = \\dfrac{{}^c\\log b}{{}^c\\log a}$"
           ]
         }
       ]
