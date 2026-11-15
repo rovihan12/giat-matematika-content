@@ -2,12 +2,22 @@
   "version": "1.0",
   "notifications": [
     {
+      "id": "new_update_playstore",
+      "versionCode": 7,
+      "title": "🚀 Update Terbaru Tersedia!",
+      "message": "Versi terbaru aplikasi Giat Matematika SMA sudah bisa diunduh di Google Play Store. Perbarui sekarang untuk pengalaman belajar yang lebih optimal.",
+      "date": "2026-11-15",
+      "type": "update",
+      "actionUrl": "https://play.google.com/store/apps/details?id=rovihan.studio.giatmatematikasma"
+    },
+    {
       "id": "update_v6_0_0",
       "versionCode": 6,
       "title": "🎉 Update Versi 6.0.0",
       "message": "Fitur baru: Toko Tiket, Leaderboard, dan Kalkulator Ilmiah! Yuk coba sekarang.",
       "date": "2026-10-25",
-      "type": "update"
+      "type": "update",
+      "actionUrl": "https://play.google.com/store/apps/details?id=rovihan.studio.giatmatematikasma"
     },
     {
       "id": "maintenance_oct",
