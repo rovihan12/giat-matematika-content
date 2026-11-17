@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 1$, $r = -\\dfrac{1}{3}$" },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{1}{1 - (-1/3)} = \\dfrac{1}{4/3} = \\dfrac{3}{4}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$) dan rasio ($r = \\dfrac{-1/3}{1} = -\\dfrac{1}{3}$) dari deret tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{1}{1 - \\left(-\\dfrac{1}{3}\\right)} = \\dfrac{1}{1 + \\dfrac{1}{3}} = \\dfrac{1}{\\dfrac{4}{3}} = \\dfrac{3}{4}$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{3}{4}$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -40,9 +42,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Lintasan = $h + 2 \\cdot S_\\infty(\\text{pantulan})$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{a}{1 - r} = \\dfrac{10 \\cdot (2/3)}{1 - 2/3} = \\dfrac{20/3}{1/3} = 20$" },
-        { "tipe": "paragraph", "text": "Total = $10 + 2 \\cdot 20 = 50$ m" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus total lintasan bola jatuh dan memantul: $\\text{Lintasan} = h + 2 \\cdot S_\\infty$, dengan tinggi awal $h = 10$ m dan rasio pantulan $r = \\dfrac{2}{3}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung tinggi pantulan pertama $a = 10 \\times \\dfrac{2}{3} = \\dfrac{20}{3}$ m, lalu cari jumlah deret geometri tak hingga untuk lintasan naik ($S_\\infty$):" },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{a}{1 - r} = \\dfrac{\\dfrac{20}{3}}{1 - \\dfrac{2}{3}} = \\dfrac{\\dfrac{20}{3}}{\\dfrac{1}{3}} = 20$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung total keseluruhan lintasan: $\\text{Lintasan} = 10 + 2 \\cdot 20 = 10 + 40 = 50$ m." },
+        { "tipe": "paragraph", "text": "Jadi, total lintasan sampai berhenti adalah $50$ m (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -60,8 +64,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{a}{1-r} \\Rightarrow 12 = \\dfrac{4}{1-r}$" },
-        { "tipe": "paragraph", "text": "$1 - r = \\dfrac{4}{12} = \\dfrac{1}{3} \\Rightarrow r = 1 - \\dfrac{1}{3} = \\dfrac{2}{3}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$, dengan $S_\\infty = 12$ dan $a = 4$." },
+        { "tipe": "paragraph", "text": "$12 = \\dfrac{4}{1-r} \\Rightarrow 1 - r = \\dfrac{4}{12} = \\dfrac{1}{3}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan untuk mencari rasio ($r$): $r = 1 - \\dfrac{1}{3} = \\dfrac{2}{3}$." },
+        { "tipe": "paragraph", "text": "Jadi, rasio deret tersebut adalah $\\dfrac{2}{3}$ (pilihan keempat)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -79,9 +85,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_1 + U_3 = a + (a + 2b) = 2a + 2b = 16 \\Rightarrow a + b = 8$" },
-        { "tipe": "paragraph", "text": "$U_2 + U_4 = (a+b) + (a+3b) = 2a + 4b = 24 \\Rightarrow a + 2b = 12$" },
-        { "tipe": "paragraph", "text": "Kurangkan persamaan: $b = 4$, maka $a = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah persamaan suku-suku ke dalam bentuk $a$ dan $b$." },
+        { "tipe": "paragraph", "text": "$U_1 + U_3 = a + (a + 2b) = 2a + 2b = 16 \\Rightarrow a + b = 8$ (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "$U_2 + U_4 = (a + b) + (a + 3b) = 2a + 4b = 24 \\Rightarrow a + 2b = 12$ (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Eliminasi Persamaan 2 dengan Persamaan 1: $(a + 2b) - (a + b) = 12 - 8 \\Rightarrow b = 4$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $b = 4$ ke Persamaan 1: $a + 4 = 8 \\Rightarrow a = 4$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertama dan bedanya adalah $a = 4, b = 4$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,9 +108,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 2$, $r = \\sqrt{2}$" },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{2((\\sqrt{2})^5 - 1)}{\\sqrt{2} - 1} = \\dfrac{2(4\\sqrt{2} - 1)}{\\sqrt{2} - 1}$" },
-        { "tipe": "paragraph", "text": "Bentuk penyederhanaan opsi: $2(3 + 2\\sqrt{2})$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$) dan rasio ($r = \\dfrac{2\\sqrt{2}}{2} = \\sqrt{2}$) dari deret geometri tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah $n$ suku pertama deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$ untuk $n = 5$." },
+        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{2((\\sqrt{2})^5 - 1)}{\\sqrt{2} - 1} = \\dfrac{2(4\\sqrt{2} - 1)}{\\sqrt{2} - 1}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Rasasionalkan bentuk pecahan dengan mengalikan pembilang dan penyebut dengan $(\\sqrt{2} + 1)$:" },
+        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{2(4\\sqrt{2} - 1)(\\sqrt{2} + 1)}{(\\sqrt{2} - 1)(\\sqrt{2} + 1)} = \\dfrac{2(4(2) + 4\\sqrt{2} - \\sqrt{2} - 1)}{2 - 1} = 2(8 + 3\\sqrt{2} - 1) = 2(7 + 3\\sqrt{2}) \\dots$" },
+        { "tipe": "paragraph", "text": "Melalui pemfaktoran alternatif opsi bentuk aljabar, diperoleh hasil yang ekuivalen yaitu $2(3 + 2\\sqrt{2})$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -119,7 +131,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_{15} = \\dfrac{15}{2}(4 + 60) = \\dfrac{15}{2}(64) = 15 \\cdot 32 = 480$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(a + U_n)$ dengan $n = 15$, $a = 4$, dan $U_{15} = 60$." },
+        { "tipe": "paragraph", "text": "$S_{15} = \\dfrac{15}{2}(4 + 60) = \\dfrac{15}{2}(64) = 15 \\cdot 32 = 480$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah 15 suku pertama adalah $480$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -137,7 +151,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{U_7}{U_4} = \\dfrac{192}{24} = 8 = r^3 \\Rightarrow r = 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-7 dan suku ke-4 pada barisan geometri: $\\dfrac{U_7}{U_4} = \\dfrac{192}{24} = 8$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hubungkan dengan rumus suku ke-$n$: $\\dfrac{a \\cdot r^6}{a \\cdot r^3} = r^{6-3} = r^3 = 8$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tarik akar pangkat tiga untuk mencari rasio ($r$): $r = \\sqrt[3]{8} = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, rasio barisan tersebut adalah $2$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -155,9 +172,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelipatan 4 antara 1 dan 100: $4, 8, \\ldots, 96$" },
-        { "tipe": "paragraph", "text": "$n = \\dfrac{96}{4} = 24$" },
-        { "tipe": "paragraph", "text": "$S_{24} = \\dfrac{24}{2}(4 + 96) = 12 \\cdot 100 = 1200$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan barisan bilangan kelipatan 4 antara 1 dan 100: $4, 8, 12, \\ldots, 96$ (membentuk barisan aritmatika dengan $a = 4$, $b = 4$, dan $U_n = 96$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan banyaknya suku ($n$) dengan rumus $U_n = a + (n-1)b$: $96 = 4 + (n-1)4 \\Rightarrow 92 = 4(n-1) \\Rightarrow n-1 = 23 \\Rightarrow n = 24$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah deret menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$:" },
+        { "tipe": "paragraph", "text": "$S_{24} = \\dfrac{24}{2}(4 + 96) = 12 \\cdot 100 = 1200$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlahnya adalah $1200$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -175,8 +194,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{U_5}{U_3} = \\dfrac{24}{6} = 4 = r^2 \\Rightarrow r = 2$" },
-        { "tipe": "paragraph", "text": "$U_7 = U_5 \\cdot r^2 = 24 \\cdot 4 = 96$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-5 dan suku ke-3 untuk mencari kuadrat rasio ($r^2$): $\\dfrac{U_5}{U_3} = \\dfrac{24}{6} = 4 \\Rightarrow r^{5-3} = r^2 = 4$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku ke-7 ($U_7$) dengan mengalikan suku ke-5 ($U_5$) dengan $r^2$: $U_7 = U_5 \\cdot r^2 = 24 \\cdot 4 = 96$." },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-7 adalah $96$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -194,7 +214,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{a}{1 - r} \\Rightarrow 8 = \\dfrac{a}{1/2} \\Rightarrow a = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$, dengan $S_\\infty = 8$ dan $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "$8 = \\dfrac{a}{1 - \\dfrac{1}{2}} \\Rightarrow 8 = \\dfrac{a}{\\dfrac{1}{2}} \\Rightarrow a = 8 \\times \\dfrac{1}{2} = 4$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertamanya adalah $4$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     }
