@@ -21,7 +21,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3^5 \\cdot 3^2 = 3^{5+2} = 3^7$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $3^5$ dikali $3^2$. Basisnya sama-sama 3, sedangkan pangkatnya 5 dan 2." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya: $5 + 2 = 7$. Lalu tulis basisnya dengan pangkat baru: $3^7$. Jadi, jawabannya adalah $3^7$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,7 +41,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{6^{11}}{6^4 \\cdot 6^4} = \\dfrac{6^{11}}{6^8} = 6^{11-8} = 6^3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $6^{11}$ dibagi dengan $6^4 \\cdot 6^4$. Basisnya semua sama, yaitu 6." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $6^4 \\cdot 6^4 = 6^{4+4} = 6^8$. Lalu bagi: $\\dfrac{6^{11}}{6^8} = 6^{11-8} = 6^3$. Jadi, jawabannya adalah $6^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,7 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(4^3\\right)^2 = 4^{3 \\cdot 2} = 4^6$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(4^3\\right)^2$, yaitu pangkat yang dipangkatkan lagi. Basisnya 4, pangkat dalam 3, pangkat luar 2." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan: $3 \\times 2 = 6$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya: $3 \\times 2 = 6$. Lalu tulis basisnya dengan pangkat baru: $4^6$. Jadi, jawabannya adalah $4^6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -75,7 +81,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Setiap bilangan tak nol berpangkat nol bernilai 1, sehingga $2024^0 = 1$." }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $2024^0$, yaitu bilangan 2024 berpangkat nol." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, bukan 0." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: karena basisnya 2024 (tidak nol) dan pangkatnya 0, langsung pakai sifat tadi: $2024^0 = 1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -93,7 +101,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{5}{8}\\right)^{-1} = \\dfrac{8}{5}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{5}{8}\\right)^{-1}$, yaitu pecahan berpangkat negatif satu." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{5}{8}\\right)^{-1} = \\left(\\dfrac{8}{5}\\right)^1$. Lalu karena pangkat 1 tidak mengubah nilai, hasilnya $\\dfrac{8}{5}$. Jadi, jawabannya adalah $\\dfrac{8}{5}$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -111,7 +121,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika $a^c = b$, maka ${}^a\\log b = c$. Dari $2^7 = 128$ diperoleh ${}^2\\log 128 = 7$." }
+        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $2^7 = 128$. Di sini basisnya 2, pangkatnya 7, dan hasilnya 128." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis 2 menjadi angka depan: ${}^2\\log$. Hasil 128 masuk ke dalam log: ${}^2\\log 128$. Pangkat 7 menjadi hasilnya: ${}^2\\log 128 = 7$. Jadi, jawabannya adalah ${}^2\\log 128 = 7$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -129,7 +141,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^6\\log \\dfrac{1}{36} = {}^6\\log 6^{-2} = -2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^6\\log \\dfrac{1}{36}$. Pertanyaannya: 6 dipangkatkan berapa supaya hasilnya $\\dfrac{1}{36}$?" },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Selain itu, $\\dfrac{1}{a^n} = a^{-n}$. Artinya, pecahan $\\dfrac{1}{36}$ bisa ditulis sebagai pangkat negatif dari 6." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah $\\dfrac{1}{36}$ menjadi pangkat 6: $\\dfrac{1}{36} = \\dfrac{1}{6^2} = 6^{-2}$. Lalu ${}^6\\log \\dfrac{1}{36} = {}^6\\log 6^{-2} = -2$. Jadi, jawabannya adalah $-2$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -147,8 +161,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log 6 + {}^2\\log 8 - {}^2\\log 12 = {}^2\\log\\left(\\dfrac{6 \\cdot 8}{12}\\right)$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 4 = {}^2\\log 2^2 = 2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^2\\log 6 + {}^2\\log 8 - {}^2\\log 12$. Semua logaritma basisnya sama, yaitu 2." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$ untuk penjumlahan (angka di dalam log dikalikan), dan ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$ untuk pengurangan (angka di dalam log dibagi)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan penjumlahannya: ${}^2\\log 6 + {}^2\\log 8 = {}^2\\log (6 \\cdot 8) = {}^2\\log 48$. Lalu kurangkan: ${}^2\\log 48 - {}^2\\log 12 = {}^2\\log \\left(\\dfrac{48}{12}\\right) = {}^2\\log 4$. Karena $4 = 2^2$, maka ${}^2\\log 4 = {}^2\\log 2^2 = 2$. Jadi, jawabannya adalah $2$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -166,7 +181,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{12^7}{12^3 \\cdot 12^2} = \\dfrac{12^7}{12^5} = 12^{7-5} = 12^2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $12^7$ dibagi dengan $12^3 \\cdot 12^2$. Basisnya semua sama, yaitu 12." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $12^3 \\cdot 12^2 = 12^{3+2} = 12^5$. Lalu bagi: $\\dfrac{12^7}{12^5} = 12^{7-5} = 12^2$. Jadi, jawabannya adalah $12^2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -184,7 +201,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{2}{9}\\right)^{-2} = \\left(\\dfrac{9}{2}\\right)^2 = \\dfrac{81}{4}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{2}{9}\\right)^{-2}$, yaitu pecahan berpangkat negatif." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{2}{9}\\right)^{-2} = \\left(\\dfrac{9}{2}\\right)^2$. Lalu hitung $\\left(\\dfrac{9}{2}\\right)^2 = \\dfrac{9^2}{2^2} = \\dfrac{81}{4}$. Jadi, jawabannya adalah $\\dfrac{81}{4}$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     }
