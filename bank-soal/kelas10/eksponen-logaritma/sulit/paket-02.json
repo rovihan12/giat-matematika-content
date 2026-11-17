@@ -21,9 +21,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Substitusikan nilai $P(t) = 100.000$ ke dalam persamaan." },
         { "tipe": "paragraph", "text": "$50.000(1{,}02)^t = 100.000$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagi kedua ruas dengan $50.000$." },
         { "tipe": "paragraph", "text": "$(1{,}02)^t = 2$" },
-        { "tipe": "paragraph", "text": "$t = {}^1{,}02\\log 2 = \\dfrac{{}^2\\log 2}{{}^2\\log 1{,}02} = \\dfrac{1}{0{,}0286} \\approx 35$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Ubah ke bentuk logaritma dan gunakan sifat perubahan basis dengan basis $2$." },
+        { "tipe": "paragraph", "text": "$t = {}^1{,}02\\log 2 = \\dfrac{{}^2\\log 2}{{}^2\\log 1{,}02} = \\dfrac{1}{0{,}0286} \\approx 34{,}965 \\approx 35$" },
+        { "tipe": "paragraph", "text": "Jadi, populasi mencapai 100.000 jiwa pada tahun ke-$35$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,11 +45,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^x + \\dfrac{8}{2^x} = 9$" },
-        { "tipe": "paragraph", "text": "Misal $y = 2^x$, maka $y + \\dfrac{8}{y} = 9$" },
-        { "tipe": "paragraph", "text": "$y^2 - 9y + 8 = 0$" },
-        { "tipe": "paragraph", "text": "$(y - 8)(y - 1) = 0 \\Rightarrow y = 8$ atau $y = 1$" },
-        { "tipe": "paragraph", "text": "$2^x = 8 \\Rightarrow x = 3$; $2^x = 1 \\Rightarrow x = 0$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jabarkan bentuk $2^{3-x}$ menggunakan sifat eksponen $a^{m-n} = \\dfrac{a^m}{a^n}$." },
+        { "tipe": "paragraph", "text": "$2^x + \\dfrac{2^3}{2^x} = 9 \\Rightarrow 2^x + \\dfrac{8}{2^x} = 9$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Lakukan pemisalan $y = 2^x$ untuk membentuk persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$y + \\dfrac{8}{y} = 9 \\Rightarrow y^2 - 9y + 8 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(y - 8)(y - 1) = 0 \\Rightarrow y = 8 \\text{ atau } y = 1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Kembalikan ke pemisalan awal untuk menentukan nilai $x$." },
+        { "tipe": "paragraph", "text": "Untuk $y = 8 \\Rightarrow 2^x = 8 = 2^3 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "Untuk $y = 1 \\Rightarrow 2^x = 1 = 2^0 \\Rightarrow x = 0$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 0$ atau $x = 3$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,8 +72,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log 48 = {}^2\\log(16 \\cdot 3)$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 16 + {}^2\\log 3 = 4 + m$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Faktorkan angka $48$ ke dalam bentuk perkalian yang memuat angka $3$ dan perpangkatan basis $2$ ($48 = 16 \\cdot 3 = 2^4 \\cdot 3$)." },
+        { "tipe": "paragraph", "text": "${}^2\\log 48 = {}^2\\log(2^4 \\cdot 3)$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat penjumlahan logaritma ${}^a\\log(m \\cdot n) = {}^a\\log m + {}^a\\log n$." },
+        { "tipe": "paragraph", "text": "${}^2\\log 2^4 + {}^2\\log 3 = 4 + m$" },
+        { "tipe": "paragraph", "text": "Jadi, bentuk ${}^2\\log 48$ dalam $m$ adalah $4 + m$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -82,11 +94,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 2x > 0 \\Rightarrow x(x-2) > 0 \\Rightarrow x < 0$ atau $x > 2$" },
-        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 2x) \\geq 1 \\Rightarrow x^2 - 2x \\geq 3^1 = 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain (numerus harus bernilai positif)." },
+        { "tipe": "paragraph", "text": "$x^2 - 2x > 0 \\Rightarrow x(x-2) > 0 \\Rightarrow x < 0 \\text{ atau } x > 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan pertidaksamaan logaritma dengan mengubah konstanta $1$ menjadi ${}^3\\log 3$." },
+        { "tipe": "paragraph", "text": "${}^3\\log(x^2 - 2x) \\geq {}^3\\log 3^1 \\Rightarrow x^2 - 2x \\geq 3$" },
         { "tipe": "paragraph", "text": "$x^2 - 2x - 3 \\geq 0 \\Rightarrow (x - 3)(x + 1) \\geq 0$" },
-        { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 3$" },
-        { "tipe": "paragraph", "text": "Irisan dengan domain $x < 0$ atau $x > 2$ adalah $x \\leq -1$ atau $x \\geq 3$" }
+        { "tipe": "paragraph", "text": "Pembuat nol: $x = 3$ atau $x = -1$. Uji tanda menghasilkan $x \\leq -1$ atau $x \\geq 3$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Iriskan hasil pertidaksamaan dengan syarat domain. Irisan dari $x \\leq -1 \\text{ atau } x \\geq 3$ dengan $x < 0 \\text{ atau } x > 2$ tetap menghasilkan $x \\leq -1$ atau $x \\geq 3$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $x \\leq -1$ atau $x \\geq 3$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -104,9 +119,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(1{,}06)^t \\geq 2$" },
-        { "tipe": "paragraph", "text": "$t \\geq {}^1{,}06\\log 2 = \\dfrac{1}{{}^2\\log 1{,}06} = \\dfrac{1}{0{,}084} \\approx 11{,}9$" },
-        { "tipe": "paragraph", "text": "Jadi $t \\approx 12$ tahun" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Susun model matematika berdasarkan rumus bunga majemuk $M_t = M_0(1 + r)^t$." },
+        { "tipe": "paragraph", "text": "$M_0(1 + 0{,}06)^t \\geq 2M_0 \\Rightarrow (1{,}06)^t \\geq 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah bentuk eksponen ke dalam bentuk logaritma." },
+        { "tipe": "paragraph", "text": "$t \\geq {}^1{,}06\\log 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan sifat perubahan basis logaritma ke basis $2$." },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 2}{{}^2\\log 1{,}06} = \\dfrac{1}{0{,}084} \\approx 11{,}9$ tahun" },
+        { "tipe": "paragraph", "text": "Karena waktu berupa tahun penuh (minimum agar mencapai atau melebihi 2 kali lipat), dibulatkan ke atas atau dilihat dari pilihan terdekat yaitu $12$ tahun." },
+        { "tipe": "paragraph", "text": "Jadi, waktu minimumnya adalah $12$ tahun (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -124,12 +144,19 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat: $x + 2 > 0$ dan $x - 1 > 0 \\Rightarrow x > 1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain untuk setiap numerus." },
+        { "tipe": "paragraph", "text": "$x + 2 > 0 \\Rightarrow x > -2$" },
+        { "tipe": "paragraph", "text": "$x - 1 > 0 \\Rightarrow x > 1$" },
+        { "tipe": "paragraph", "text": "Irisan syarat domain adalah $x > 1$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan persamaan logaritma menggunakan sifat penjumlahan." },
         { "tipe": "paragraph", "text": "${}^2\\log[(x+2)(x-1)] = 2$" },
-        { "tipe": "paragraph", "text": "$(x+2)(x-1) = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Ubah bentuk logaritma ke bentuk eksponen." },
+        { "tipe": "paragraph", "text": "$(x+2)(x-1) = 2^2 = 4$" },
         { "tipe": "paragraph", "text": "$x^2 + x - 2 = 4 \\Rightarrow x^2 + x - 6 = 0$" },
-        { "tipe": "paragraph", "text": "$(x+3)(x-2) = 0 \\Rightarrow x = -3$ atau $x = 2$" },
-        { "tipe": "paragraph", "text": "Karena $x > 1$, maka $x = 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$(x+3)(x-2) = 0 \\Rightarrow x = -3 \\text{ atau } x = 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Uji nilai $x$ terhadap syarat domain $x > 1$. Nilai $x = -3$ tidak memenuhi, sehingga yang memenuhi hanya $x = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x = 2$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -147,8 +174,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat perkalian rantai logaritma ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$." },
         { "tipe": "paragraph", "text": "${}^a\\log c = {}^a\\log b \\cdot {}^b\\log c$" },
-        { "tipe": "paragraph", "text": "$= 2 \\cdot 3 = 6$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai yang diketahui." },
+        { "tipe": "paragraph", "text": "${}^a\\log c = 2 \\cdot 3 = 6$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai ${}^a\\log c$ adalah $6$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -166,10 +196,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Masukkan data awal ($P_0 = 1000$, $P = 4000$, dan $t = 10$) ke dalam model." },
         { "tipe": "paragraph", "text": "$4000 = 1000 \\cdot e^{10k}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagi kedua ruas dengan $1000$." },
         { "tipe": "paragraph", "text": "$e^{10k} = 4$" },
-        { "tipe": "paragraph", "text": "$10k = \\ln 4 = 2\\ln 2$" },
-        { "tipe": "paragraph", "text": "$k = \\dfrac{2\\ln 2}{10} = \\dfrac{\\ln 2}{5}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Ambil logaritma natural ($\\ln$) pada kedua ruas." },
+        { "tipe": "paragraph", "text": "$10k = \\ln 4 = \\ln(2^2) = 2\\ln 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Selesaikan untuk $k$." },
+        { "tipe": "paragraph", "text": "$k = \\dfrac{2\\ln 2}{10} = \\dfrac{\\ln 2}{5}$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $k$ adalah $\\dfrac{\\ln 2}{5}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,10 +222,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $p = {}^2\\log x$, maka $p^2 - p - 6 = 0$" },
-        { "tipe": "paragraph", "text": "$(p - 3)(p + 2) = 0 \\Rightarrow p = 3$ atau $p = -2$" },
-        { "tipe": "paragraph", "text": "$p = 3 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 8$" },
-        { "tipe": "paragraph", "text": "$p = -2 \\Rightarrow {}^2\\log x = -2 \\Rightarrow x = 2^{-2} = \\dfrac{1}{4}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan pemisalan $p = {}^2\\log x$ untuk membentuk persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$p^2 - p - 6 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(p - 3)(p + 2) = 0 \\Rightarrow p = 3 \\text{ atau } p = -2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Kembalikan ke pemisalan awal untuk mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Untuk $p = 3 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "Untuk $p = -2 \\Rightarrow {}^2\\log x = -2 \\Rightarrow x = 2^{-2} = \\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = \\dfrac{1}{4}$ atau $x = 8$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -208,11 +247,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan persamaan dari $f(a) = 5$." },
         { "tipe": "paragraph", "text": "$f(a) = 2^a + 2^{-a} = 5$" },
-        { "tipe": "paragraph", "text": "Kuadratkan: $(2^a + 2^{-a})^2 = 25$" },
-        { "tipe": "paragraph", "text": "$2^{2a} + 2 + 2^{-2a} = 25$" },
-        { "tipe": "paragraph", "text": "$2^{2a} + 2^{-2a} = 23$" },
-        { "tipe": "paragraph", "text": "$f(2a) = 2^{2a} + 2^{-2a} = 23$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kuadratkan kedua ruas persamaan tersebut." },
+        { "tipe": "paragraph", "text": "$(2^a + 2^{-a})^2 = 5^2$" },
+        { "tipe": "paragraph", "text": "$(2^a)^2 + 2 \\cdot 2^a \\cdot 2^{-a} + (2^{-a})^2 = 25$" },
+        { "tipe": "paragraph", "text": "$2^{2a} + 2 \\cdot 2^{a-a} + 2^{-2a} = 25 \\Rightarrow 2^{2a} + 2 + 2^{-2a} = 25$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Sederhanakan untuk mendapatkan nilai $2^{2a} + 2^{-2a}$." },
+        { "tipe": "paragraph", "text": "$2^{2a} + 2^{-2a} = 25 - 2 = 23$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Perhatikan bahwa $f(2a) = 2^{2a} + 2^{-2a} = 23$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $f(2a)$ adalah $23$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     }
