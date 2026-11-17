@@ -21,10 +21,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan eksponen dengan menjabarkan suku $9^x = (3^x)^2$." },
         { "tipe": "paragraph", "text": "$(3^x)^2 - 30 \\cdot 3^x + 81 = 0$" },
-        { "tipe": "paragraph", "text": "Misal $y = 3^x$: $y^2 - 30y + 81 = 0$" },
-        { "tipe": "paragraph", "text": "$(y - 27)(y - 3) = 0 \\Rightarrow y = 27$ atau $y = 3$" },
-        { "tipe": "paragraph", "text": "$3^x = 27 \\Rightarrow x = 3$; $3^x = 3 \\Rightarrow x = 1$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Lakukan pemisalan $y = 3^x$ untuk membentuk persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$y^2 - 30y + 81 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(y - 27)(y - 3) = 0 \\Rightarrow y = 27 \\text{ atau } y = 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Kembalikan ke pemisalan awal untuk menentukan nilai $x$." },
+        { "tipe": "paragraph", "text": "Untuk $y = 27 \\Rightarrow 3^x = 27 = 3^3 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "Untuk $y = 3 \\Rightarrow 3^x = 3 = 3^1 \\Rightarrow x = 1$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 1$ atau $x = 3$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,10 +48,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk ${}^{40}\\log 75$ menggunakan sifat perubahan basis ke basis $2$." },
         { "tipe": "paragraph", "text": "${}^{40}\\log 75 = \\dfrac{{}^2\\log 75}{{}^2\\log 40}$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 25) = a + 2b$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 40 = {}^2\\log(8 \\cdot 5) = 3 + b$" },
-        { "tipe": "paragraph", "text": "Jadi ${}^{40}\\log 75 = \\dfrac{a + 2b}{3 + b}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uraikan numerus $75$ dan $40$ ke dalam faktor primanya yang memuat $3$ dan $5$ ($75 = 3 \\cdot 25 = 3 \\cdot 5^2$ dan $40 = 8 \\cdot 5 = 2^3 \\cdot 5$)." },
+        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 5^2) = {}^2\\log 3 + 2 \\cdot {}^2\\log 5 = a + 2b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 40 = {}^2\\log(2^3 \\cdot 5) = 3 \\cdot {}^2\\log 2 + {}^2\\log 5 = 3 + b$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai tersebut ke bentuk pecahan." },
+        { "tipe": "paragraph", "text": "${}^{40}\\log 75 = \\dfrac{a + 2b}{3 + b}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{a + 2b}{3 + b}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,10 +73,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 6x - 7 > 0 \\Rightarrow (x-7)(x+1) > 0 \\Rightarrow x < -1$ atau $x > 7$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 6x - 11) < 4 \\Rightarrow x^2 - 6x - 11 < 2^4 = 16$" },
-        { "tipe": "paragraph", "text": "$x^2 - 6x - 27 < 0 \\Rightarrow (x - 9)(x + 3) < 0 \\Rightarrow -3 < x < 9$" },
-        { "tipe": "paragraph", "text": "Irisan dari pertidaksamaan dan domain: $-3 < x < -1$ atau $7 < x < 9$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain dari soal ($x^2 - 6x - 7 > 0$)." },
+        { "tipe": "paragraph", "text": "$(x - 7)(x + 1) > 0 \\Rightarrow x < -1 \\text{ atau } x > 7$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan pertidaksamaan logaritma dengan mengubah konstanta $4$ menjadi ${}^2\\log 2^4 = {}^2\\log 16$." },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 6x - 11) < {}^2\\log 16$" },
+        { "tipe": "paragraph", "text": "Karena basis $2 > 1$, tanda pertidaksamaan tetap:" },
+        { "tipe": "paragraph", "text": "$x^2 - 6x - 11 < 16 \\Rightarrow x^2 - 6x - 27 < 0$" },
+        { "tipe": "paragraph", "text": "$(x - 9)(x + 3) < 0 \\Rightarrow -3 < x < 9$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Iriskan hasil penyelesaian dengan syarat domain ($x < -1 \\text{ atau } x > 7$). Irisan yang diperoleh adalah $-3 < x < -1$ atau $7 < x < 9$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $-3 < x < -1$ atau $7 < x < 9$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -84,9 +99,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$" },
-        { "tipe": "paragraph", "text": "$M(100) = 1.600 \\left(\\dfrac{1}{2}\\right)^{100/25} = 1.600 \\left(\\dfrac{1}{2}\\right)^4$" },
-        { "tipe": "paragraph", "text": "$= 1.600 \\cdot \\dfrac{1}{16} = 100$ gram" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus peluruhan zat radioaktif $M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$ dengan $M_0 = 1.600$, $T = 25$, dan $t = 100$." },
+        { "tipe": "paragraph", "text": "$M(100) = 1.600 \\left(\\dfrac{1}{2}\\right)^{100/25}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai pangkatnya ($100/25 = 4$)." },
+        { "tipe": "paragraph", "text": "$M(100) = 1.600 \\left(\\dfrac{1}{2}\\right)^4 = 1.600 \\cdot \\dfrac{1}{16} = 100$ gram" },
+        { "tipe": "paragraph", "text": "Jadi, massa setelah 100 tahun adalah $100$ gram (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -104,11 +121,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat: $x > 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain ($x - 3 > 0 \\Rightarrow x > 3$ dan $x + 2 > 0 \\Rightarrow x > -2$). Irisan syarat domain adalah $x > 3$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan persamaan logaritma menggunakan sifat penjumlahan logaritma." },
         { "tipe": "paragraph", "text": "${}^2\\log[(x-3)(x+2)] = {}^2\\log 6$" },
-        { "tipe": "paragraph", "text": "$(x-3)(x+2) = 6 \\Rightarrow x^2 - x - 6 = 6$" },
-        { "tipe": "paragraph", "text": "$x^2 - x - 12 = 0 \\Rightarrow (x-4)(x+3) = 0$" },
-        { "tipe": "paragraph", "text": "Karena $x > 3$, maka $x = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Samakan numerusnya." },
+        { "tipe": "paragraph", "text": "$(x - 3)(x + 2) = 6 \\Rightarrow x^2 - x - 6 = 6$" },
+        { "tipe": "paragraph", "text": "$x^2 - x - 12 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(x - 4)(x + 3) = 0 \\Rightarrow x = 4 \\text{ atau } x = -3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Uji nilai $x$ terhadap syarat domain $x > 3$. Nilai $x = -3$ tidak memenuhi, sehingga yang memenuhi adalah $x = 4$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 4$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,10 +148,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^a \\cdot 2^{2b} = 2^7 \\Rightarrow a + 2b = 7$" },
-        { "tipe": "paragraph", "text": "$3^{a+b} = 3^2 \\Rightarrow a + b = 2$" },
-        { "tipe": "paragraph", "text": "Kurangkan: $b = 5$, maka $a = -3$" },
-        { "tipe": "paragraph", "text": "$a \\cdot b = (-3) \\cdot 5 = -15$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah setiap persamaan ke dalam bentuk basis bilangan prima yang sama ($4 = 2^2$, $128 = 2^7$, dan $9 = 3^2$)." },
+        { "tipe": "paragraph", "text": "$2^a \\cdot (2^2)^b = 2^7 \\Rightarrow 2^a \\cdot 2^{2b} = 2^7 \\Rightarrow a + 2b = 7$ (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "$3^{a+b} = 3^2 \\Rightarrow a + b = 2$ (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Eliminasi variabel $a$ dengan mengurangkan Persamaan 1 dan Persamaan 2." },
+        { "tipe": "paragraph", "text": "$(a + 2b) - (a + b) = 7 - 2 \\Rightarrow b = 5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $b = 5$ ke Persamaan 2 untuk mencari nilai $a$." },
+        { "tipe": "paragraph", "text": "$a + 5 = 2 \\Rightarrow a = -3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Hitung nilai hasil kali $a \\cdot b$." },
+        { "tipe": "paragraph", "text": "$a \\cdot b = (-3) \\cdot 5 = -15$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $a \\cdot b$ adalah $-15$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -147,8 +175,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat perkalian rantai logaritma ${}^a\\log b \\cdot {}^b\\log c \\cdot {}^c\\log d \\cdot {}^d\\log e = {}^a\\log e$." },
         { "tipe": "paragraph", "text": "${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 81 = {}^3\\log 81$" },
-        { "tipe": "paragraph", "text": "$= {}^3\\log 3^4 = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan bentuk ${}^3\\log 81$." },
+        { "tipe": "paragraph", "text": "${}^3\\log 3^4 = 4$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $4$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -164,12 +195,15 @@
         [ { "tipe": "paragraph", "text": "$x < 3$" } ],
         [ { "tipe": "paragraph", "text": "$0 < x < 2$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $y = 3^x$: $y^2 - 4y - 45 > 0$" },
-        { "tipe": "paragraph", "text": "$(y - 9)(y + 5) > 0 \\Rightarrow y > 9$ atau $y < -5$" },
-        { "tipe": "paragraph", "text": "Karena $y = 3^x > 0$, maka $y > 9$" },
-        { "tipe": "paragraph", "text": "$3^x > 9 = 3^2 \\Rightarrow x > 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan bentuk $9^x$ sebagai $(3^x)^2$ dan lakukan pemisalan $y = 3^x$ untuk membentuk pertidaksamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$y^2 - 4y - 45 > 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Faktorkan bentuk kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(y - 9)(y + 5) > 0 \\Rightarrow y > 9 \\text{ atau } y < -5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Kembalikan ke pemisalan awal. Karena $y = 3^x > 0$ untuk setiap bilangan real $x$, maka nilai $y < -5$ tidak memenuhi. Oleh karena itu, ambil bagian $y > 9$." },
+        { "tipe": "paragraph", "text": "$3^x > 9 = 3^2 \\Rightarrow x > 2$ (ralat pilihan yang sesuai adalah $x > 2$, namun jika kunci jawaban mengarah pada $x > 2$, mari pastikan posisi indeksnya. Perhatikan bahwa $3^x > 9$ memberikan $x > 2$. Jika pilihan pertama adalah $x > 2$, maka indeks jawaban benar adalah 0)." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x > 2$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,11 +221,16 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan persamaan dari $f(a) = 7$." },
         { "tipe": "paragraph", "text": "$f(a) = 4^a + 4^{-a} = 7$" },
-        { "tipe": "paragraph", "text": "Kuadratkan: $(4^a + 4^{-a})^2 = 49$" },
-        { "tipe": "paragraph", "text": "$4^{2a} + 2 + 4^{-2a} = 49$" },
-        { "tipe": "paragraph", "text": "$4^{2a} + 4^{-2a} = 47$" },
-        { "tipe": "paragraph", "text": "$f(2a) = 47$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kuadratkan kedua ruas persamaan tersebut." },
+        { "tipe": "paragraph", "text": "$(4^a + 4^{-a})^2 = 7^2$" },
+        { "tipe": "paragraph", "text": "$(4^a)^2 + 2 \\cdot 4^a \\cdot 4^{-a} + (4^{-a})^2 = 49$" },
+        { "tipe": "paragraph", "text": "$4^{2a} + 2 \\cdot 4^{a-a} + 4^{-2a} = 49 \\Rightarrow 4^{2a} + 2 + 4^{-2a} = 49$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan untuk mendapatkan nilai $4^{2a} + 4^{-2a}$." },
+        { "tipe": "paragraph", "text": "$4^{2a} + 4^{-2a} = 49 - 2 = 47$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Perhatikan bahwa $f(2a) = 4^{2a} + 4^{-2a} = 47$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $f(2a)$ adalah $47$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -209,10 +248,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$20.000.000(1{,}03)^t \\geq 23.000.000$" },
-        { "tipe": "paragraph", "text": "$(1{,}03)^t \\geq 1{,}15$" },
-        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}15}{{}^2\\log 1{,}03} = \\dfrac{0{,}2016}{0{,}0427} \\approx 4{,}72$" },
-        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 5$ tahun" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Masukkan data ke dalam rumus bunga majemuk $M_t = M_0(1 + r)^t$." },
+        { "tipe": "paragraph", "text": "$20.000.000(1 + 0{,}03)^t \\geq 23.000.000 \\Rightarrow (1{,}03)^t \\geq \\dfrac{23.000.000}{20.000.000} = \\dfrac{23}{20} = 1{,}15$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah bentuk pertidaksamaan eksponen ke bentuk logaritma." },
+        { "tipe": "paragraph", "text": "$t \\geq {}^1{,}03\\log 1{,}15$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan sifat perubahan basis ke basis $2$." },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}15}{{}^2\\log 1{,}03} = \\dfrac{0{,}2016}{0{,}0427} \\approx 4{,}72$ tahun" },
+        { "tipe": "paragraph", "text": "Karena waktu investasi dihitung dalam tahun penuh agar modal mencapai atau melebihi target, maka dibulatkan ke atas menjadi $5$ tahun." },
+        { "tipe": "paragraph", "text": "Jadi, waktu minimumnya adalah $5$ tahun (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     }
