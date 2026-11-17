@@ -21,7 +21,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$6^2 \\cdot 6^4 = 6^{2+4} = 6^6$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $6^2$ dikali $6^4$. Basisnya sama-sama 6." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya, yaitu $2 + 4 = 6$. Lalu tulis basisnya dengan pangkat baru: $6^6$. Jadi, jawabannya adalah $6^6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,7 +41,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{9^7}{9^4} = 9^{7-4} = 9^3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $9^7$ dibagi $9^4$. Basisnya sama-sama 9." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m : a^n = a^{m-n}$. Artinya, kalau basisnya sama dan dibagi, pangkatnya cukup dikurangkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kurangkan pangkatnya, yaitu $7 - 4 = 3$. Lalu tulis basisnya dengan pangkat baru: $9^3$. Jadi, jawabannya adalah $9^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,7 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(5^3)^2 = 5^{3 \\cdot 2} = 5^6$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $(5^3)^2$, yaitu pangkat yang dipangkatkan lagi." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya, yaitu $3 \\times 2 = 6$. Lalu tulis basisnya dengan pangkat baru: $5^6$. Jadi, jawabannya adalah $5^6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -75,7 +81,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$20^0 = 1$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $20^0$, yaitu bilangan 20 berpangkat nol." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, bukan 0 dan bukan 20." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: karena basisnya 20 (tidak nol) dan pangkatnya 0, langsung pakai sifat tadi, sehingga $20^0 = 1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -93,7 +101,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$4^{-3} = \\dfrac{1}{4^3} = \\dfrac{1}{64}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $4^{-3}$, yaitu pangkatnya bilangan negatif." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^{-n} = \\dfrac{1}{a^n}$. Artinya, pangkat negatif bukan berarti hasilnya negatif, tetapi menjadi pecahan $\\dfrac{1}{\\text{bilangan berpangkat positif}}$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah ke bentuk pecahan menjadi $\\dfrac{1}{4^3}$. Lalu hitung $4^3 = 4 \\times 4 \\times 4 = 64$, sehingga hasilnya $\\dfrac{1}{64}$. Jadi, jawabannya adalah $\\dfrac{1}{64}$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -111,7 +121,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $5^3 = 125$ diperoleh ${}^5\\log 125 = 3$." }
+        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $5^3 = 125$. Di sini basisnya 5, pangkatnya 3, dan hasilnya 125." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis 5 menjadi angka depan, hasil 125 masuk ke dalam log, dan pangkat 3 menjadi hasilnya, sehingga ${}^5\\log 125 = 3$. Jadi, jawabannya adalah ${}^5\\log 125 = 3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -129,7 +141,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^3\\log 9 = {}^3\\log 3^2 = 2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 9$. Pertanyaannya: 3 dipangkatkan berapa supaya hasilnya 9?" },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Jadi kita mencari pangkat $c$ dari basis 3 yang menghasilkan 9." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: ubah 9 menjadi pangkat 3, yaitu $9 = 3^2$ (karena $3 \\times 3 = 9$). Maka ${}^3\\log 9 = {}^3\\log 3^2 = 2$. Jadi, jawabannya adalah $2$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -147,7 +161,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^5\\log 4 + {}^5\\log 3 = {}^5\\log (4 \\cdot 3) = {}^5\\log 12$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^5\\log 4 + {}^5\\log 3$. Kedua logaritma basisnya sama, yaitu 5." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$. Artinya, kalau basisnya sama dan dijumlahkan, cukup kalikan angka di dalam log-nya." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan angka di dalam log, yaitu $4 \\times 3 = 12$. Lalu tulis dengan basis yang sama: ${}^5\\log 12$. Jadi, jawabannya adalah ${}^5\\log 12$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -165,7 +181,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{10^5}{10^3} = 10^{5-3} = 10^2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $10^5$ dibagi $10^3$. Basisnya sama-sama 10." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m : a^n = a^{m-n}$. Artinya, kalau basisnya sama dan dibagi, pangkatnya cukup dikurangkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kurangkan pangkatnya, yaitu $5 - 3 = 2$. Lalu tulis basisnya dengan pangkat baru: $10^2$. Jadi, jawabannya adalah $10^2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -183,7 +201,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{4}\\right)^{-1} = \\dfrac{1}{1/4} = 4$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{1}{4}\\right)^{-1}$, yaitu pecahan berpangkat negatif." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya menjadi $\\left(\\dfrac{4}{1}\\right)^1 = 4^1$. Lalu hitung $4^1 = 4$. Jadi, jawabannya adalah $4$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     }
