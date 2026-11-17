@@ -21,9 +21,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Substitusikan nilai $P(t) = 6400$ ke dalam persamaan." },
         { "tipe": "paragraph", "text": "$200 \\cdot 2^{t/4} = 6400$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagi kedua ruas dengan $200$ untuk mendapatkan bentuk eksponen sederhana." },
         { "tipe": "paragraph", "text": "$2^{t/4} = \\dfrac{6400}{200} = 32 = 2^5$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{t}{4} = 5 \\Rightarrow t = 20$ jam" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Samakan pangkat karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$\\dfrac{t}{4} = 5 \\Rightarrow t = 20$ jam" },
+        { "tipe": "paragraph", "text": "Jadi, waktu yang dibutuhkan adalah $20$ jam (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,10 +45,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $y = 2^x$, maka $y^2 - 5y + 4 = 0$" },
-        { "tipe": "paragraph", "text": "$(y - 4)(y - 1) = 0 \\Rightarrow y = 4$ atau $y = 1$" },
-        { "tipe": "paragraph", "text": "$2^x = 4 = 2^2 \\Rightarrow x = 2$" },
-        { "tipe": "paragraph", "text": "$2^x = 1 = 2^0 \\Rightarrow x = 0$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan ke bentuk kuadrat dengan pemisalan $y = 2^x$ (sehingga $2^{2x} = (2^x)^2 = y^2$)." },
+        { "tipe": "paragraph", "text": "$y^2 - 5y + 4 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(y - 4)(y - 1) = 0 \\Rightarrow y = 4 \\text{ atau } y = 1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Kembalikan ke pemisalan awal untuk mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Untuk $y = 4 \\Rightarrow 2^x = 4 = 2^2 \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "Untuk $y = 1 \\Rightarrow 2^x = 1 = 2^0 \\Rightarrow x = 0$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 0$ atau $x = 2$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -62,9 +70,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $2 \\cdot {}^2\\log x = 6 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 8$" },
-        { "tipe": "paragraph", "text": "Substitusi: $3 + {}^2\\log y = 5 \\Rightarrow {}^2\\log y = 2 \\Rightarrow y = 4$" },
-        { "tipe": "paragraph", "text": "$x \\cdot y = 8 \\cdot 4 = 32$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Eliminasi variabel ${}^2\\log y$ dengan menjumlahkan kedua persamaan." },
+        { "tipe": "paragraph", "text": "$({}^2\\log x + {}^2\\log y) + ({}^2\\log x - {}^2\\log y) = 5 + 1$" },
+        { "tipe": "paragraph", "text": "$2 \\cdot {}^2\\log x = 6 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai ${}^2\\log x = 3$ ke salah satu persamaan untuk mencari nilai $y$." },
+        { "tipe": "paragraph", "text": "$3 + {}^2\\log y = 5 \\Rightarrow {}^2\\log y = 2 \\Rightarrow y = 2^2 = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung hasil kali $x \\cdot y$." },
+        { "tipe": "paragraph", "text": "$x \\cdot y = 8 \\cdot 4 = 32$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $32$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -82,10 +95,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x - 1 > 0 \\Rightarrow x > 1$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x-1) < 3 \\Rightarrow x - 1 < 2^3 = 8$" },
-        { "tipe": "paragraph", "text": "$x < 9$" },
-        { "tipe": "paragraph", "text": "Irisan: $1 < x < 9$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat numerus logaritma (harus bernilai positif)." },
+        { "tipe": "paragraph", "text": "$x - 1 > 0 \\Rightarrow x > 1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan pertidaksamaan logaritma." },
+        { "tipe": "paragraph", "text": "${}^2\\log(x-1) < {}^2\\log 2^3 \\Rightarrow x - 1 < 8 \\Rightarrow x < 9$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Iriskan syarat numerus dengan hasil penyelesaian ($1 < x$ dan $x < 9$). Berdasarkan hal tersebut, diperoleh rentang nilai $1 < x < 9$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $1 < x < 9$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -103,9 +118,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/20}$" },
-        { "tipe": "paragraph", "text": "$M(60) = 80 \\left(\\dfrac{1}{2}\\right)^{60/20} = 80 \\left(\\dfrac{1}{2}\\right)^3$" },
-        { "tipe": "paragraph", "text": "$= 80 \\cdot \\dfrac{1}{8} = 10$ gram" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus peluruhan zat radioaktif $M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$ dengan $M_0 = 80$, $T = 20$, dan $t = 60$." },
+        { "tipe": "paragraph", "text": "$M(60) = 80 \\left(\\dfrac{1}{2}\\right)^{60/20}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai pangkatnya." },
+        { "tipe": "paragraph", "text": "$M(60) = 80 \\left(\\dfrac{1}{2}\\right)^3 = 80 \\cdot \\dfrac{1}{8} = 10$ gram" },
+        { "tipe": "paragraph", "text": "Jadi, massa setelah 60 tahun adalah $10$ gram (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -123,12 +140,17 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ambil log basis 3: ${}^3\\log 3^{x+1} = {}^3\\log 5^{x-1}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ambil logaritma basis 3 pada kedua ruas persamaan." },
+        { "tipe": "paragraph", "text": "${}^3\\log 3^{x+1} = {}^3\\log 5^{x-1}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat perpangkatan logaritma (${}^a\\log b^n = n \\cdot {}^a\\log b$ dan ${}^a\\log a = 1$)." },
         { "tipe": "paragraph", "text": "$(x+1) = (x-1) \\cdot {}^3\\log 5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Jabarkan dan kelompokkan suku yang memuat $x$ ke dalam satu ruas." },
         { "tipe": "paragraph", "text": "$x + 1 = x \\cdot {}^3\\log 5 - {}^3\\log 5$" },
         { "tipe": "paragraph", "text": "$x - x \\cdot {}^3\\log 5 = -{}^3\\log 5 - 1$" },
         { "tipe": "paragraph", "text": "$x(1 - {}^3\\log 5) = -({}^3\\log 5 + 1)$" },
-        { "tipe": "paragraph", "text": "$x = \\dfrac{{}^3\\log 5 + 1}{{}^3\\log 5 - 1}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Selesaikan untuk $x$." },
+        { "tipe": "paragraph", "text": "$x = \\dfrac{-({}^3\\log 5 + 1)}{1 - {}^3\\log 5} = \\dfrac{{}^3\\log 5 + 1}{{}^3\\log 5 - 1}$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $\\dfrac{{}^3\\log 5 + 1}{{}^3\\log 5 - 1}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -146,10 +168,14 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah basis ${}^{15}\\log 20$ menggunakan sifat perubahan basis ke basis $2$." },
         { "tipe": "paragraph", "text": "${}^{15}\\log 20 = \\dfrac{{}^2\\log 20}{{}^2\\log 15}$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 20 = {}^2\\log(4 \\cdot 5) = 2 + b$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 15 = {}^2\\log(3 \\cdot 5) = a + b$" },
-        { "tipe": "paragraph", "text": "Jadi ${}^{15}\\log 20 = \\dfrac{2 + b}{a + b}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uraikan numerus $20$ dan $15$ ke dalam faktor-faktor primanya ($20 = 4 \\cdot 5 = 2^2 \\cdot 5$ dan $15 = 3 \\cdot 5$)." },
+        { "tipe": "paragraph", "text": "${}^2\\log 20 = {}^2\\log(2^2 \\cdot 5) = 2 \\cdot {}^2\\log 2 + {}^2\\log 5 = 2 + b$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 15 = {}^2\\log(3 \\cdot 5) = {}^2\\log 3 + {}^2\\log 5 = a + b$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai yang diperoleh ke bentuk pecahan." },
+        { "tipe": "paragraph", "text": "${}^{15}\\log 20 = \\dfrac{2 + b}{a + b}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{2 + b}{a + b}$ (pilihan kelima)." }
       ],
       "tingkat": "SULIT"
     },
@@ -167,9 +193,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log(x+y) = 4 \\Rightarrow x + y = 16$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x-y) = 2 \\Rightarrow x - y = 4$" },
-        { "tipe": "paragraph", "text": "$x^2 - y^2 = (x+y)(x-y) = 16 \\cdot 4 = 64$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma ke dalam bentuk eksponen." },
+        { "tipe": "paragraph", "text": "${}^2\\log(x+y) = 4 \\Rightarrow x + y = 2^4 = 16$" },
+        { "tipe": "paragraph", "text": "${}^2\\log(x-y) = 2 \\Rightarrow x - y = 2^2 = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat aljabar selisih kuadrat $x^2 - y^2 = (x + y)(x - y)$." },
+        { "tipe": "paragraph", "text": "$x^2 - y^2 = 16 \\cdot 4 = 64$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x^2 - y^2$ adalah $64$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,10 +216,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Masukkan data ke dalam rumus bunga majemuk $M_t = M_0(1 + r)^t$." },
         { "tipe": "paragraph", "text": "$2.000.000(1 + r)^3 = 2.662.000$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan persamaan untuk mencari $(1 + r)^3$." },
         { "tipe": "paragraph", "text": "$(1 + r)^3 = \\dfrac{2.662.000}{2.000.000} = 1{,}331$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tarik akar pangkat tiga pada kedua ruas." },
         { "tipe": "paragraph", "text": "$1 + r = \\sqrt[3]{1{,}331} = 1{,}1$" },
-        { "tipe": "paragraph", "text": "$r = 0{,}1 = 10\\%$" }
+        { "tipe": "paragraph", "text": "$r = 1{,}1 - 1 = 0{,}1 = 10\\%$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $r$ adalah $10\\%$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -208,12 +241,18 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ambil logaritma basis 2 pada kedua ruas: ${}^2\\log\\left(x^{{}^2\\log x - 2}\\right) = {}^2\\log 8$" },
-        { "tipe": "paragraph", "text": " $({}^2\\log x - 2) \\cdot {}^2\\log x = 3$" },
-        { "tipe": "paragraph", "text": "Misal $y = {}^2\\log x$, maka $(y - 2)y = 3 \\Rightarrow y^2 - 2y - 3 = 0$" },
-        { "tipe": "paragraph", "text": "$(y - 3)(y + 1) = 0 \\Rightarrow y = 3$ atau $y = -1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ambil logaritma basis 2 pada kedua ruas persamaan." },
+        { "tipe": "paragraph", "text": "${}^2\\log\\left(x^{{}^2\\log x - 2}\\right) = {}^2\\log 8$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat perpangkatan logaritma (${}^a\\log b^n = n \\cdot {}^a\\log b$ dan ${}^2\\log 8 = 3$)." },
+        { "tipe": "paragraph", "text": "$({}^2\\log x - 2) \\cdot {}^2\\log x = 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan pemisalan $y = {}^2\\log x$ untuk membentuk persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$y(y - 2) = 3 \\Rightarrow y^2 - 2y - 3 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(y - 3)(y + 1) = 0 \\Rightarrow y = 3 \\text{ atau } y = -1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Kembalikan ke pemisalan awal untuk menentukan nilai $x$." },
         { "tipe": "paragraph", "text": "Untuk $y = 3 \\Rightarrow {}^2\\log x = 3 \\Rightarrow x = 2^3 = 8$" },
-        { "tipe": "paragraph", "text": "Untuk $y = -1 \\Rightarrow {}^2\\log x = -1 \\Rightarrow x = 2^{-1} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "Untuk $y = -1 \\Rightarrow {}^2\\log x = -1 \\Rightarrow x = 2^{-1} = \\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 8$ atau $x = \\dfrac{1}{2}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     }
