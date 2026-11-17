@@ -21,7 +21,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$7^2 \\cdot 7^3 = 7^{2+3} = 7^5$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $7^2$ dikali $7^3$. Basisnya sama-sama 7." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya, yaitu $2 + 3 = 5$. Lalu tulis basisnya dengan pangkat baru: $7^5$. Jadi, jawabannya adalah $7^5$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,7 +41,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{4^8}{4^5} = 4^{8-5} = 4^3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $4^8$ dibagi $4^5$. Basisnya sama-sama 4." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m : a^n = a^{m-n}$. Artinya, kalau basisnya sama dan dibagi, pangkatnya cukup dikurangkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kurangkan pangkatnya, yaitu $8 - 5 = 3$. Lalu tulis basisnya dengan pangkat baru: $4^3$. Jadi, jawabannya adalah $4^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,7 +61,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(6^2)^2 = 6^{2 \\cdot 2} = 6^4$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $(6^2)^2$, yaitu pangkat yang dipangkatkan lagi." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya, yaitu $2 \\times 2 = 4$. Lalu tulis basisnya dengan pangkat baru: $6^4$. Jadi, jawabannya adalah $6^4$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -75,7 +81,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$15^0 = 1$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $15^0$, yaitu bilangan 15 berpangkat nol." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, bukan 0 dan bukan 15." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: karena basisnya 15 (tidak nol) dan pangkatnya 0, langsung pakai sifat tadi, sehingga $15^0 = 1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -93,7 +101,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$6^{-2} = \\dfrac{1}{6^2} = \\dfrac{1}{36}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $6^{-2}$, yaitu pangkatnya bilangan negatif." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^{-n} = \\dfrac{1}{a^n}$. Artinya, pangkat negatif bukan berarti hasilnya negatif, tetapi menjadi pecahan $\\dfrac{1}{\\text{bilangan berpangkat positif}}$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah ke bentuk pecahan menjadi $\\dfrac{1}{6^2}$. Lalu hitung $6^2 = 6 \\times 6 = 36$, sehingga hasilnya $\\dfrac{1}{36}$. Jadi, jawabannya adalah $\\dfrac{1}{36}$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -111,7 +121,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $7^2 = 49$ diperoleh ${}^7\\log 49 = 2$." }
+        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $7^2 = 49$. Di sini basisnya 7, pangkatnya 2, dan hasilnya 49." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis 7 menjadi angka depan, hasil 49 masuk ke dalam log, dan pangkat 2 menjadi hasilnya, sehingga ${}^7\\log 49 = 2$. Jadi, jawabannya adalah ${}^7\\log 49 = 2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -129,7 +141,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^4\\log 64 = {}^4\\log 4^3 = 3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^4\\log 64$. Pertanyaannya: 4 dipangkatkan berapa supaya hasilnya 64?" },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Jadi kita mencari pangkat $c$ dari basis 4 yang menghasilkan 64." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: ubah 64 menjadi pangkat 4, yaitu $64 = 4^3$ (karena $4 \\times 4 \\times 4 = 64$). Maka ${}^4\\log 64 = {}^4\\log 4^3 = 3$. Jadi, jawabannya adalah $3$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -147,7 +161,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^6\\log 2 + {}^6\\log 3 = {}^6\\log (2 \\cdot 3) = {}^6\\log 6 = 1$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^6\\log 2 + {}^6\\log 3$. Kedua logaritma basisnya sama, yaitu 6." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$. Artinya, kalau basisnya sama dan dijumlahkan, cukup kalikan angka di dalam log-nya." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan angka di dalam log, yaitu $2 \\times 3 = 6$. Lalu tulis dengan basis yang sama: ${}^6\\log 6$. Karena ${}^6\\log 6 = 1$, hasil akhirnya adalah ${}^6\\log 6$ yang bernilai 1. Jadi, jawabannya adalah ${}^6\\log 6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -165,7 +181,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{5^7}{5^2} = 5^{7-2} = 5^5$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $5^7$ dibagi $5^2$. Basisnya sama-sama 5." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m : a^n = a^{m-n}$. Artinya, kalau basisnya sama dan dibagi, pangkatnya cukup dikurangkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kurangkan pangkatnya, yaitu $7 - 2 = 5$. Lalu tulis basisnya dengan pangkat baru: $5^5$. Jadi, jawabannya adalah $5^5$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -183,7 +201,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{2}\\right)^{-3} = \\dfrac{1}{(1/2)^3} = \\dfrac{1}{1/8} = 8$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{1}{2}\\right)^{-3}$, yaitu pecahan berpangkat negatif." },
+        { "tipe": "paragraph", "text": "Sifat yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya menjadi $\\left(\\dfrac{2}{1}\\right)^3 = 2^3$. Lalu hitung $2^3 = 2 \\times 2 \\times 2 = 8$. Jadi, jawabannya adalah $8$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     }
