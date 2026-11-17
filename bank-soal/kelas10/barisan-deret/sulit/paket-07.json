@@ -65,9 +65,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk umum suku ke-$k$ menggunakan pecahan parsial (telescoping series): $\\dfrac{1}{(2k)(2k+2)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k} - \\dfrac{1}{2k+2}\\right)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan penjumlahan dari $k=1$ sampai $k=10$:" },
-        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(\\left(\\dfrac{1}{2} - \\dfrac{1}{4}\\right) + \\left(\\dfrac{1}{4} - \\dfrac{1}{6}\\right) + \\ldots + \\left(\\dfrac{1}{20} - \\dfrac{1}{22}\\right)\\right)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk umum suku ke-$k$ menggunakan pecahan parsial: $\\dfrac{1}{(2k)(2k+2)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k} - \\dfrac{1}{2k+2}\\right)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan bentuk telescoping tanpa tanda kurung bertumpuk agar tidak terpotong:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2} \\left( \\dfrac{1}{2} - \\dfrac{1}{4} + \\dfrac{1}{4} - \\dfrac{1}{6} + \\dots - \\dfrac{1}{22} \\right)$." },
         { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Suku-suku di tengah saling menghilangkan, menyisakan suku pertama dan terakhir:" },
         { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(\\dfrac{1}{2} - \\dfrac{1}{22}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{10}{22} = \\dfrac{5}{22}$." },
         { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{5}{22}$ (pilihan pertama)." }
@@ -90,9 +90,11 @@
       "pembahasan": [
         { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan tiga bilangan geometri tersebut adalah $\\dfrac{a}{r}, a, ar$." },
         { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan informasi hasil kali $= a^3 = 512 \\Rightarrow a = 8$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan informasi jumlah $= \\dfrac{8}{r} + 8 + 8r = 28 \\Rightarrow \\dfrac{8}{r} + 8r = 20 \\Rightarrow 8r^2 - 20r + 8 = 0 \\Rightarrow 2r^2 - 5r + 2 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan kuadrat: $(2r-1)(r-2) = 0 \\Rightarrow r = 2$ atau $r = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Jika $a = 8$ dan $r = 2$, maka bilangan-bilangan tersebut adalah $4, 8, 16$, sehingga bilangan terbesarnya adalah $16$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan informasi jumlah:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{8}{r} + 8 + 8r = 28 \\Rightarrow \\dfrac{8}{r} + 8r = 20$." },
+        { "tipe": "paragraph", "text": "Kalikan $r$ dan sederhanakan menjadi: $8r^2 - 20r + 8 = 0 \\Rightarrow 2r^2 - 5r + 2 = 0$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan: $(2r-1)(r-2) = 0 \\Rightarrow r = 2$ atau $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Jika $a = 8$ dan $r = 2$, maka bilangan tersebut adalah $4, 8, 16$, sehingga bilangan terbesarnya adalah $16$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -110,7 +112,7 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku ($S_n$) dan suku ke-$n$ ($U_n = S_n - S_{n-1}$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku dan suku ke-$n$ ($U_n = S_n - S_{n-1}$)." },
         { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung $S_5$ dan $S_4$:" },
         { "tipe": "paragraph", "text": "$S_5 = 5^3 + 2(5)^2 - 5 = 125 + 50 - 5 = 170$." },
         { "tipe": "paragraph", "text": "$S_4 = 4^3 + 2(4)^2 - 4 = 64 + 32 - 4 = 92$." },
@@ -134,11 +136,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk deret Aritmatiko-Geometri (AGP): $S = \\sum_{n=1}^{\\infty} \\dfrac{2n}{3^n} = 2 \\sum_{n=1}^{\\infty} \\dfrac{n}{3^n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri turunan $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1-r)^2}$ dengan $r = \\dfrac{1}{3}$:" },
-        { "tipe": "paragraph", "text": "$\\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{3}\\right)^n = \\dfrac{1/3}{(1 - 1/3)^2} = \\dfrac{1/3}{(2/3)^2} = \\dfrac{1/3}{4/9} = \\dfrac{3}{4}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai total $S$:" },
-        { "tipe": "paragraph", "text": "$S = 2 \\cdot \\dfrac{3}{4} = \\dfrac{3}{2}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk AGP: $S = \\sum_{n=1}^{\\infty} \\dfrac{2n}{3^n} = 2 \\sum_{n=1}^{\\infty} \\dfrac{n}{3^n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus deret $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1-r)^2}$ dengan $r = \\dfrac{1}{3}$:" },
+        { "tipe": "paragraph", "text": "$\\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{3}\\right)^n = \\dfrac{\\dfrac{1}{3}}{\\left(1 - \\dfrac{1}{3}\\right)^2} = \\dfrac{\\dfrac{1}{3}}{\\dfrac{4}{9}} = \\dfrac{3}{4}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai total $S = 2 \\cdot \\dfrac{3}{4} = \\dfrac{3}{2}$." },
         { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{3}{2}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
@@ -158,10 +159,10 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat tengah barisan aritmatika: $2\\log(2^x + 2) = \\log 2 + \\log(2^x + 14)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan menggunakan sifat logaritma menjadi $(2^x + 2)^2 = 2(2^x + 14)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Lakukan pemisalan $t = 2^x$, sehingga diperoleh persamaan kuadrat: $t^2 + 4t + 4 = 2t + 28 \\Rightarrow t^2 + 2t - 24 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan: $(t + 6)(t - 4) = 0 \\Rightarrow t = 4$ (karena syarat $t = 2^x > 0$, maka $t = -6$ tidak memenuhi)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Kembalikan ke bentuk eksponen: $2^x = 4 \\Rightarrow x = 2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan menjadi: $(2^x + 2)^2 = 2(2^x + 14)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Misalkan $t = 2^x$, sehingga diperoleh: $t^2 + 4t + 4 = 2t + 28 \\Rightarrow t^2 + 2t - 24 = 0$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan: $(t + 6)(t - 4) = 0 \\Rightarrow t = 4$ (karena $t = 2^x > 0$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Selesaikan $2^x = 4 \\Rightarrow x = 2$." },
         { "tipe": "paragraph", "text": "Jadi, nilai $x$ adalah $2$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
@@ -180,10 +181,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 3$) dan rasio ($r = 3$) dari deret geometri tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$ dan masukkan nilai yang diketahui:" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan $a = 3$ dan $r = 3$ dari deret tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri:" },
         { "tipe": "paragraph", "text": "$S_n = \\dfrac{3(3^n - 1)}{3 - 1} = \\dfrac{3(3^n - 1)}{2} = 3279$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan eksponensial untuk mencari $n$:" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan eksponensial:" },
         { "tipe": "paragraph", "text": "$3^n - 1 = 3279 \\cdot \\dfrac{2}{3} = 2186 \\Rightarrow 3^n = 2187 = 3^7 \\Rightarrow n = 7$." },
         { "tipe": "paragraph", "text": "Jadi, nilai $n$ adalah $7$ (pilihan kedua)." }
       ],
@@ -203,9 +204,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus total lintasan bola jatuh dan memantul: $\\text{Total Lintasan} = h + 2 \\cdot \\dfrac{ar}{1 - r}$, dengan ketinggian awal $h = 12$ dan rasio pantulan $r = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai-nilai tersebut ke dalam rumus:" },
-        { "tipe": "paragraph", "text": "$\\text{Total Lintasan} = 12 + 2 \\cdot \\dfrac{12 \\cdot \\dfrac{1}{4}}{1 - \\dfrac{1}{4}} = 12 + 2 \\cdot \\dfrac{3}{\\dfrac{3}{4}} = 12 + 2 \\cdot 4 = 12 + 8 = 20$ m." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus total lintasan bola jatuh dan memantul: $\\text{Total} = h + 2 \\cdot \\dfrac{ar}{1 - r}$ dengan $h = 12$ dan $r = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai-nilai tersebut:" },
+        { "tipe": "paragraph", "text": "$\\text{Total} = 12 + 2 \\cdot \\dfrac{12 \\cdot \\dfrac{1}{4}}{1 - \\dfrac{1}{4}}$" },
+        { "tipe": "paragraph", "text": "$= 12 + 2 \\cdot \\dfrac{3}{\\dfrac{3}{4}} = 12 + 2(4) = 20$ m." },
         { "tipe": "paragraph", "text": "Jadi, total lintasan bola sampai berhenti adalah $20$ m (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
@@ -224,10 +226,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Nyatakan suku ke-$k$ dalam bentuk notasi sigma: $\\sum_{k=1}^{15} k(k+2) = \\sum_{k=1}^{15} (k^2 + 2k)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus deret penjumlahan kuadrat dan linier: $\\sum k^2 = \\dfrac{n(n+1)(2n+1)}{6}$ dan $\\sum k = \\dfrac{n(n+1)}{2}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $n = 15$:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{15 \\cdot 16 \\cdot (2(15)+1)}{6} + 2 \\cdot \\dfrac{15 \\cdot 16}{2} = \\dfrac{15 \\cdot 16 \\cdot 31}{6} + 15 \\cdot 16 = 1240 + 240 = 1480$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Nyatakan suku ke-$k$ dalam notasi sigma: $\\sum_{k=1}^{15} k(k+2) = \\sum_{k=1}^{15} (k^2 + 2k)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret kuadrat dan linier untuk $n = 15$:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{15 \\cdot 16 \\cdot 31}{6} + 15 \\cdot 16$" },
+        { "tipe": "paragraph", "text": "$= 1240 + 240 = 1480$." },
         { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $1480$ (pilihan keempat)." }
       ],
       "tingkat": "SULIT"
