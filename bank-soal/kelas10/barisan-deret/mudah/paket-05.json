@@ -21,7 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_{25} = 3 + 24 \\cdot 5 = 3 + 120 = 123$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 3$) dan beda ($b = 8 - 3 = 5$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$ untuk mencari $U_{25}$." },
+        { "tipe": "paragraph", "text": "$U_{25} = 3 + (25 - 1) \\cdot 5 = 3 + 24 \\cdot 5 = 3 + 120 = 123$" },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-25 adalah $123$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,8 +42,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 4$, $b = 4$, $U_n = 100$" },
-        { "tipe": "paragraph", "text": "$100 = 4 + (n-1) \\cdot 4 \\Rightarrow 96 = 4(n-1) \\Rightarrow n-1 = 24 \\Rightarrow n = 25$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 4$), beda ($b = 8 - 4 = 4$), dan suku terakhir ($U_n = 100$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Masukkan ke dalam rumus $U_n = a + (n-1)b$ untuk mencari nilai $n$." },
+        { "tipe": "paragraph", "text": "$100 = 4 + (n-1) \\cdot 4$" },
+        { "tipe": "paragraph", "text": "$96 = 4(n-1) \\Rightarrow n-1 = 24 \\Rightarrow n = 25$" },
+        { "tipe": "paragraph", "text": "Jadi, banyak suku pada barisan tersebut adalah $25$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -58,7 +64,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_3 = 8$ dengan $r = 2$: $a \\cdot r^2 = 8 \\Rightarrow a \\cdot 4 = 8 \\Rightarrow a = 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Perhatikan bahwa suku ketiga ($U_3$) dari barisan tersebut adalah $8$ dengan rasio $r = 2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$." },
+        { "tipe": "paragraph", "text": "$U_3 = a \\cdot 2^{3-1} = a \\cdot 2^2 = 4a = 8 \\Rightarrow a = 2$" },
+        { "tipe": "paragraph", "text": "Jadi, suku pertamanya adalah $2$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -76,7 +85,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_{15} = \\dfrac{15}{2}(2 \\cdot 2 + 14 \\cdot 2) = \\dfrac{15}{2}(4 + 28) = \\dfrac{15}{2}(32) = 240$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$), beda ($b = 2$), dan banyaknya suku ($n = 15$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
+        { "tipe": "paragraph", "text": "$S_{15} = \\dfrac{15}{2}(2(2) + (15-1)2) = \\dfrac{15}{2}(4 + 28) = \\dfrac{15}{2}(32) = 15 \\cdot 16 = 240$" },
+        { "tipe": "paragraph", "text": "Jadi, jumlah 15 suku pertama adalah $240$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -94,8 +106,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_7 - U_3 = 22 - 10 = 12 = 4b$" },
-        { "tipe": "paragraph", "text": "$b = 3$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan selisih suku pada barisan aritmatika: $U_7 - U_3 = (7 - 3)b$" },
+        { "tipe": "paragraph", "text": "$22 - 10 = 4b \\Rightarrow 12 = 4b \\Rightarrow b = 3$" },
+        { "tipe": "paragraph", "text": "Jadi, beda barisan tersebut adalah $3$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -113,7 +126,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_4 = 5 + 10 + 20 + 40 = 75$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan langsung suku-suku yang diketahui karena berjumlah 4 suku." },
+        { "tipe": "paragraph", "text": "$S_4 = 5 + 10 + 20 + 40 = 75$" },
+        { "tipe": "paragraph", "text": "Jadi, jumlah 4 suku pertama adalah $75$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -131,7 +146,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_3 = 5 \\cdot 4^{2} = 5 \\cdot 16 = 80$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$ dengan $a = 5$, $r = 4$, dan $n = 3$." },
+        { "tipe": "paragraph", "text": "$U_3 = 5 \\cdot 4^{3-1} = 5 \\cdot 4^2 = 5 \\cdot 16 = 80$" },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-3 adalah $80$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -149,8 +166,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 4$, $b = 3$" },
-        { "tipe": "paragraph", "text": "$U_n = 4 + (n-1) \\cdot 3 = 3n + 1$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 4$) dan beda ($b = 7 - 4 = 3$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $a$ dan $b$ ke dalam rumus $U_n = a + (n-1)b$." },
+        { "tipe": "paragraph", "text": "$U_n = 4 + (n-1) \\cdot 3 = 4 + 3n - 3 = 3n + 1$" },
+        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = 3n + 1$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -168,7 +187,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{8}{1 - \\frac{1}{2}} = \\dfrac{8}{\\frac{1}{2}} = 16$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 8$) dan rasio ($r = \\dfrac{4}{8} = \\dfrac{1}{2}$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{8}{1 - \\dfrac{1}{2}} = \\dfrac{8}{\\dfrac{1}{2}} = 8 \\times 2 = 16$" },
+        { "tipe": "paragraph", "text": "Jadi, jumlah deret tak hingga adalah $16$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -186,8 +208,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Barisan kuadrat: $U_n = n^2$." },
-        { "tipe": "paragraph", "text": "$U_5 = 25$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kenali pola barisan yang merupakan kuadrat bilangan asli ($U_n = n^2$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 5$." },
+        { "tipe": "paragraph", "text": "$U_5 = 5^2 = 25$" },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $25$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     }
