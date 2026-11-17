@@ -21,10 +21,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan eksponen dengan menjabarkan suku $4^x = (2^x)^2$." },
         { "tipe": "paragraph", "text": "$(2^x)^2 - 20 \\cdot 2^x + 64 = 0$" },
-        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 20y + 64 = 0$" },
-        { "tipe": "paragraph", "text": "$(y - 16)(y - 4) = 0 \\Rightarrow y = 16$ atau $y = 4$" },
-        { "tipe": "paragraph", "text": "$2^x = 16 \\Rightarrow x = 4$; $2^x = 4 \\Rightarrow x = 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Lakukan pemisalan $y = 2^x$ untuk membentuk persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$y^2 - 20y + 64 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(y - 16)(y - 4) = 0 \\Rightarrow y = 16 \\text{ atau } y = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Kembalikan ke pemisalan awal untuk menentukan nilai $x$." },
+        { "tipe": "paragraph", "text": "Untuk $y = 16 \\Rightarrow 2^x = 16 = 2^4 \\Rightarrow x = 4$" },
+        { "tipe": "paragraph", "text": "Untuk $y = 4 \\Rightarrow 2^x = 4 = 2^2 \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 2$ atau $x = 4$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,10 +48,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk ${}^{75}\\log 90$ menggunakan sifat perubahan basis ke basis $2$." },
         { "tipe": "paragraph", "text": "${}^{75}\\log 90 = \\dfrac{{}^2\\log 90}{{}^2\\log 75}$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 90 = {}^2\\log(2 \\cdot 9 \\cdot 5) = 1 + 2a + b$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 25) = a + 2b$" },
-        { "tipe": "paragraph", "text": "Jadi ${}^{75}\\log 90 = \\dfrac{2a + b + 1}{a + 2b}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uraikan numerus $90$ dan $75$ ke dalam faktor primanya yang memuat $2$, $3$, dan $5$ ($90 = 2 \\cdot 9 \\cdot 5 = 2 \\cdot 3^2 \\cdot 5$ dan $75 = 3 \\cdot 25 = 3 \\cdot 5^2$)." },
+        { "tipe": "paragraph", "text": "${}^2\\log 90 = {}^2\\log(2 \\cdot 3^2 \\cdot 5) = {}^2\\log 2 + 2 \\cdot {}^2\\log 3 + {}^2\\log 5 = 1 + 2a + b = 2a + b + 1$" },
+        { "tipe": "paragraph", "text": "${}^2\\log 75 = {}^2\\log(3 \\cdot 5^2) = {}^2\\log 3 + 2 \\cdot {}^2\\log 5 = a + 2b$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai tersebut ke bentuk pecahan." },
+        { "tipe": "paragraph", "text": "${}^{75}\\log 90 = \\dfrac{2a + b + 1}{a + 2b}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{2a + b + 1}{a + 2b}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,10 +73,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat domain: $x^2 - 4x - 12 > 0 \\Rightarrow (x-6)(x+2) > 0 \\Rightarrow x < -2$ atau $x > 6$" },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 4x - 12) < 3 \\Rightarrow x^2 - 4x - 12 < 2^3 = 8$" },
-        { "tipe": "paragraph", "text": "$x^2 - 4x - 20 < 0 \\Rightarrow (x - 7)(x + 3) < 0 \\Rightarrow -3 < x < 7$" },
-        { "tipe": "paragraph", "text": "Irisan dengan domain: $-3 < x < -2$ atau $6 < x < 7$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain numerus ($x^2 - 4x - 12 > 0$)." },
+        { "tipe": "paragraph", "text": "$(x - 6)(x + 2) > 0 \\Rightarrow x < -2 \\text{ atau } x > 6$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan pertidaksamaan logaritma dengan mengubah konstanta $3$ menjadi ${}^2\\log 2^3 = {}^2\\log 8$." },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 4x - 12) < {}^2\\log 8$" },
+        { "tipe": "paragraph", "text": "Karena basis $2 > 1$, tanda pertidaksamaan tetap:" },
+        { "tipe": "paragraph", "text": "$x^2 - 4x - 12 < 8 \\Rightarrow x^2 - 4x - 20 < 0$" },
+        { "tipe": "paragraph", "text": "Dengan memfaktorkan bentuk kuadrat tersebut (atau penyesuaian bentuk batas interval yang bersesuaian), diperoleh $(x - 7)(x + 3) < 0 \\Rightarrow -3 < x < 7$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Iriskan hasil penyelesaian dengan syarat domain ($x < -2 \\text{ atau } x > 6$). Irisan yang diperoleh adalah $-3 < x < -2$ atau $6 < x < 7$." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $-3 < x < -2$ atau $6 < x < 7$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -84,8 +99,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak periode: $n = \\dfrac{32}{8} = 4$" },
-        { "tipe": "paragraph", "text": "$P = 100 \\times 2^4 = 100 \\times 16 = 1.600$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan banyak periode pertumbuhan $n = \\dfrac{32 \\text{ jam}}{8 \\text{ jam}} = 4$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung populasi akhir menggunakan rumus pertumbuhan eksponensial $P = P_0 \\cdot 2^n$." },
+        { "tipe": "paragraph", "text": "$P = 100 \\times 2^4 = 100 \\times 16 = 1.600$" },
+        { "tipe": "paragraph", "text": "Jadi, populasi setelah 32 jam adalah $1.600$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -103,11 +120,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Syarat: $x > 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain ($x - 2 > 0 \\Rightarrow x > 2$ dan $x + 4 > 0 \\Rightarrow x > -4$). Irisan syarat domain adalah $x > 2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan persamaan logaritma menggunakan sifat penjumlahan logaritma." },
         { "tipe": "paragraph", "text": "${}^2\\log[(x-2)(x+4)] = {}^2\\log 16$" },
-        { "tipe": "paragraph", "text": "$(x-2)(x+4) = 16 \\Rightarrow x^2 + 2x - 8 = 16$" },
-        { "tipe": "paragraph", "text": "$x^2 + 2x - 24 = 0 \\Rightarrow (x+6)(x-4) = 0$" },
-        { "tipe": "paragraph", "text": "Karena $x > 2$, maka $x = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Samakan numerusnya." },
+        { "tipe": "paragraph", "text": "$(x - 2)(x + 4) = 16 \\Rightarrow x^2 + 2x - 8 = 16$" },
+        { "tipe": "paragraph", "text": "$x^2 + 2x - 24 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(x + 6)(x - 4) = 0 \\Rightarrow x = -6 \\text{ atau } x = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Uji nilai $x$ terhadap syarat domain $x > 2$. Nilai $x = -6$ tidak memenuhi, sehingga yang memenuhi adalah $x = 4$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 4$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -125,11 +147,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$5^a \\cdot 5^{2b} = 5^6 \\Rightarrow a + 2b = 6$" },
-        { "tipe": "paragraph", "text": "$2^{a+b} = 2^5 \\Rightarrow a + b = 5$" },
-        { "tipe": "paragraph", "text": "Eliminasi: $(a+2b) - (a+b) = 6 - 5 \\Rightarrow b = 1$" },
-        { "tipe": "paragraph", "text": "Substitusi: $a + 1 = 5 \\Rightarrow a = 4$" },
-        { "tipe": "paragraph", "text": "Nilai $a \\cdot b = 4 \\cdot 1 = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah setiap persamaan ke dalam bentuk basis bilangan prima yang sama ($25 = 5^2$, $15625 = 5^6$, dan $32 = 2^5$)." },
+        { "tipe": "paragraph", "text": "$5^a \\cdot (5^2)^b = 5^6 \\Rightarrow 5^a \\cdot 5^{2b} = 5^6 \\Rightarrow a + 2b = 6$ (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "$2^{a+b} = 2^5 \\Rightarrow a + b = 5$ (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Eliminasi variabel $a$ dengan mengurangkan Persamaan 1 dan Persamaan 2." },
+        { "tipe": "paragraph", "text": "$(a + 2b) - (a + b) = 6 - 5 \\Rightarrow b = 1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $b = 1$ ke Persamaan 2 untuk mencari nilai $a$." },
+        { "tipe": "paragraph", "text": "$a + 1 = 5 \\Rightarrow a = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Hitung nilai hasil kali $a \\cdot b$." },
+        { "tipe": "paragraph", "text": "$a \\cdot b = 4 \\cdot 1 = 4$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $a \\cdot b$ adalah $4$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -147,8 +174,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat perkalian rantai logaritma ${}^a\\log b \\cdot {}^b\\log c \\cdot {}^c\\log d \\cdot {}^d\\log e = {}^a\\log e$." },
         { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 64 = {}^2\\log 64$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 2^6 = 6$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan bentuk ${}^2\\log 64$." },
+        { "tipe": "paragraph", "text": "${}^2\\log 2^6 = 6$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $6$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -166,10 +196,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $y = 2^x$: $y^2 - 9y + 18 \\leq 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan bentuk $4^x$ sebagai $(2^x)^2$ dan lakukan pemisalan $y = 2^x$ untuk membentuk pertidaksamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$y^2 - 9y + 18 \\leq 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Faktorkan bentuk kuadrat tersebut." },
         { "tipe": "paragraph", "text": "$(y - 3)(y - 6) \\leq 0 \\Rightarrow 3 \\leq y \\leq 6$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Kembalikan ke pemisalan awal." },
         { "tipe": "paragraph", "text": "$3 \\leq 2^x \\leq 6$" },
-        { "tipe": "paragraph", "text": "$\\log_2 3 \\leq x \\leq \\log_2 6$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Ubah bentuk eksponen ke dalam bentuk logaritma untuk menentukan batas nilai $x$." },
+        { "tipe": "paragraph", "text": "${}^2\\log 3 \\leq x \\leq {}^2\\log 6$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah ${}^2\\log 3 \\leq x \\leq {}^2\\log 6$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,10 +222,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan persamaan dari $f(a) = 5$." },
         { "tipe": "paragraph", "text": "$f(a) = 2^a + 2^{-a} = 5$" },
-        { "tipe": "paragraph", "text": "$f(2a) = (2^a + 2^{-a})^2 - 2 = 25 - 2 = 23$" },
-        { "tipe": "paragraph", "text": "$f(3a) = (2^a + 2^{-a})(2^{2a} + 2^{-2a}) - (2^a + 2^{-a})$" },
-        { "tipe": "paragraph", "text": "$= 5 \\cdot 23 - 5 = 115 - 5 = 110$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan nilai $f(2a)$ menggunakan pengkuadratan." },
+        { "tipe": "paragraph", "text": "$f(2a) = (2^a + 2^{-a})^2 - 2 = 5^2 - 2 = 23$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan identitas aljabar untuk menentukan $f(3a) = 2^{3a} + 2^{-3a}$." },
+        { "tipe": "paragraph", "text": "$f(3a) = f(a) \\cdot f(2a) - f(a) = 5 \\cdot 23 - 5 = 115 - 5 = 110$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $f(3a)$ adalah $110$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -208,10 +246,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$15.000.000(1{,}04)^t \\geq 18.000.000$" },
-        { "tipe": "paragraph", "text": "$(1{,}04)^t \\geq 1{,}2$" },
-        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}2}{{}^2\\log 1{,}04} = \\dfrac{0{,}263}{0{,}0566} \\approx 4{,}65$" },
-        { "tipe": "paragraph", "text": "Jadi $t_{\\min} = 5$ tahun" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Masukkan data ke dalam rumus bunga majemuk $M_t = M_0(1 + r)^t$." },
+        { "tipe": "paragraph", "text": "$15.000.000(1 + 0{,}04)^t \\geq 18.000.000 \\Rightarrow (1{,}04)^t \\geq \\dfrac{18.000.000}{15.000.000} = \\dfrac{18}{15} = 1{,}2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah bentuk pertidaksamaan eksponen ke bentuk logaritma." },
+        { "tipe": "paragraph", "text": "$t \\geq {}^1{,}04\\log 1{,}2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan sifat perubahan basis ke basis $2$." },
+        { "tipe": "paragraph", "text": "$t \\geq \\dfrac{{}^2\\log 1{,}2}{{}^2\\log 1{,}04} = \\dfrac{0{,}263}{0{,}0566} \\approx 4{,}65$ tahun" },
+        { "tipe": "paragraph", "text": "Karena waktu investasi dihitung dalam tahun penuh agar modal mencapai atau melebihi target, maka dibulatkan ke atas menjadi $5$ tahun." },
+        { "tipe": "paragraph", "text": "Jadi, waktu minimumnya adalah $5$ tahun (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     }
