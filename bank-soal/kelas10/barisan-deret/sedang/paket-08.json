@@ -21,9 +21,14 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_2 + U_5 = (a+b) + (a+4b) = 2a + 5b = 25$." },
-        { "tipe": "paragraph", "text": "$U_3 = a + 2b = 11$." },
-        { "tipe": "paragraph", "text": "Dari $a = 11 - 2b$: $2(11-2b) + 5b = 25 \\Rightarrow 22 + b = 25 \\Rightarrow b = 3$, maka $a = 5$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah persamaan suku ke dalam bentuk $a$ dan $b$. Diketahui $U_3 = a + 2b = 11$, sehingga $a = 11 - 2b$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan persamaan $U_2 + U_5 = 25$:" },
+        { "tipe": "paragraph", "text": "$(a + b) + (a + 4b) = 25 \\Rightarrow 2a + 5b = 25$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $a = 11 - 2b$ ke dalam persamaan $2a + 5b = 25$:" },
+        { "tipe": "paragraph", "text": "$2(11 - 2b) + 5b = 25 \\Rightarrow 22 - 4b + 5b = 25 \\Rightarrow 22 + b = 25 \\Rightarrow b = 3$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Cari nilai suku pertama ($a$):" },
+        { "tipe": "paragraph", "text": "$a = 11 - 2(3) = 11 - 6 = 5$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $5$ (pilihan keempat)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,9 +46,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_7 = 2(49) + 7 = 105$." },
-        { "tipe": "paragraph", "text": "$S_6 = 2(36) + 6 = 78$." },
-        { "tipe": "paragraph", "text": "$U_7 = 105 - 78 = 27$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan $U_n = S_n - S_{n-1}$ untuk mencari suku ke-7 ($U_7 = S_7 - S_6$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung $S_7$ dengan mensubstitusikan $n = 7$:" },
+        { "tipe": "paragraph", "text": "$S_7 = 2(7)^2 + 7 = 2(49) + 7 = 98 + 7 = 105$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung $S_6$ dengan mensubstitusikan $n = 6$:" },
+        { "tipe": "paragraph", "text": "$S_6 = 2(6)^2 + 6 = 2(36) + 6 = 72 + 6 = 78$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Cari nilai suku ke-7 ($U_7$):" },
+        { "tipe": "paragraph", "text": "$U_7 = 105 - 78 = 27$." },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-7 deret tersebut adalah $27$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,8 +71,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = \\dfrac{3}{4}$, $r = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{3/4}{1 - 1/2} = \\dfrac{3/4}{1/2} = \\dfrac{3}{2}$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = \\dfrac{3}{4}$) dan rasio ($r = \\dfrac{3/8}{3/4} = \\dfrac{1}{2}$) dari deret tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{\\dfrac{3}{4}}{1 - \\dfrac{1}{2}} = \\dfrac{\\dfrac{3}{4}}{\\dfrac{1}{2}} = \\dfrac{3}{4} \\times 2 = \\dfrac{3}{2}$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah tak hingga deret tersebut adalah $\\dfrac{3}{2}$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,8 +92,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 400$, $b = 50$, $n = 10$." },
-        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2 \\cdot 400 + 9 \\cdot 50) = 5(800 + 450) = 5 \\cdot 1250 = 6250$ m." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi unsur barisan aritmatika: suku pertama ($a = 400$), beda kenaikan per hari ($b = 50$), dan banyak hari ($n = 10$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
+        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2(400) + (10 - 1) \\cdot 50) = 5(800 + 9 \\cdot 50) = 5(800 + 450) = 5 \\cdot 1250 = 6250$ m." },
+        { "tipe": "paragraph", "text": "Jadi, total jarak renang selama 10 hari adalah $6250$ m (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,8 +113,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{U_5}{U_2} = r^3 = \\dfrac{96}{12} = 8 \\Rightarrow r = 2$." },
-        { "tipe": "paragraph", "text": "$U_2 = a r = 12 \\Rightarrow a \\cdot 2 = 12 \\Rightarrow a = 6$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-5 dan suku ke-2 untuk mencari rasio ($r$): $\\dfrac{U_5}{U_2} = \\dfrac{96}{12} = 8 \\Rightarrow r^{5-2} = r^3 = 8 \\Rightarrow r = 2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku pertama ($a$) menggunakan rumus $U_2 = a \\cdot r = 12$:" },
+        { "tipe": "paragraph", "text": "$a \\cdot 2 = 12 \\Rightarrow a = \\dfrac{12}{2} = 6$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $6$ (pilihan keempat)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -118,9 +134,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelipatan 7: $7, 14, \\ldots, 98$." },
-        { "tipe": "paragraph", "text": "$n = \\dfrac{98}{7} = 14$." },
-        { "tipe": "paragraph", "text": "$S_{14} = \\dfrac{14}{2}(7 + 98) = 7 \\cdot 105 = 735$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan barisan kelipatan 7 yang kurang dari 100: $7, 14, 21, \\ldots, 98$ (membentuk barisan aritmatika dengan $a = 7$, $b = 7$, dan $U_n = 98$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung banyaknya suku ($n$) dengan rumus $U_n = a + (n-1)b$: $98 = 7 + (n-1)7 \\Rightarrow 91 = 7(n-1) \\Rightarrow n-1 = 13 \\Rightarrow n = 14$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah deret menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$:" },
+        { "tipe": "paragraph", "text": "$S_{14} = \\dfrac{14}{2}(7 + 98) = 7 \\cdot 105 = 735$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlahnya adalah $735$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -138,10 +156,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_6 = 3(2a + 5b) = 57 \\Rightarrow 2a + 5b = 19$." },
-        { "tipe": "paragraph", "text": "$S_{12} = 6(2a + 11b) = 222 \\Rightarrow 2a + 11b = 37$." },
-        { "tipe": "paragraph", "text": "Kurangkan kedua persamaan: $6b = 18 \\Rightarrow b = 3$." },
-        { "tipe": "paragraph", "text": "Substitusi nilai $b$: $2a + 5(3) = 19 \\Rightarrow 2a = 4 \\Rightarrow a = 2$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ untuk $S_6$ dan $S_{12}$:" },
+        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{6}{2}(2a + 5b) = 3(2a + 5b) = 57 \\Rightarrow 2a + 5b = 19$ (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2a + 11b) = 6(2a + 11b) = 222 \\Rightarrow 2a + 11b = 37$ (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Eliminasi Persamaan 2 dengan Persamaan 1:" },
+        { "tipe": "paragraph", "text": "$(2a + 11b) - (2a + 5b) = 37 - 19 \\Rightarrow 6b = 18 \\Rightarrow b = 3$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $b = 3$ ke dalam Persamaan 1:" },
+        { "tipe": "paragraph", "text": "$2a + 5(3) = 19 \\Rightarrow 2a + 15 = 19 \\Rightarrow 2a = 4 \\Rightarrow a = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $2$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -159,7 +181,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{U_7}{U_4} = r^3 = \\dfrac{192}{24} = 8 \\Rightarrow r = 2$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-7 dan suku ke-4 pada barisan geometri: $\\dfrac{U_7}{U_4} = \\dfrac{192}{24} = 8$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hubungkan dengan rumus suku ke-$n$: $\\dfrac{a \\cdot r^6}{a \\cdot r^3} = r^{6-3} = r^3 = 8$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tarik akar pangkat tiga untuk mencari rasio ($r$): $r = \\sqrt[3]{8} = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, rasio barisan tersebut adalah $2$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -177,8 +202,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 3$, $b = 4$, $n = 20$." },
-        { "tipe": "paragraph", "text": "$S_{20} = \\dfrac{20}{2}(2 \\cdot 3 + 19 \\cdot 4) = 10(6 + 76) = 10 \\cdot 82 = 820$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 3$), beda ($b = 7 - 3 = 4$), dan banyaknya suku ($n = 20$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
+        { "tipe": "paragraph", "text": "$S_{20} = \\dfrac{20}{2}(2(3) + (20 - 1) \\cdot 4) = 10(6 + 19 \\cdot 4) = 10(6 + 76) = 10 \\cdot 82 = 820$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah 20 suku pertama adalah $820$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -196,8 +223,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$24 = \\dfrac{a}{1 - 1/3} = \\dfrac{a}{2/3}$." },
-        { "tipe": "paragraph", "text": "$a = 24 \\cdot \\dfrac{2}{3} = 16$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$ dengan $S_\\infty = 24$ dan $r = \\dfrac{1}{3}$." },
+        { "tipe": "paragraph", "text": "$24 = \\dfrac{a}{1 - \\dfrac{1}{3}} \\Rightarrow 24 = \\dfrac{a}{\\dfrac{2}{3}}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan untuk mencari suku pertama ($a$): $a = 24 \\times \\dfrac{2}{3} = 8 \\times 2 = 16$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertama deret tersebut adalah $16$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     }
