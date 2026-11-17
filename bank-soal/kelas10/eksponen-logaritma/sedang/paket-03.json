@@ -21,8 +21,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^{x+3} = 64 = 2^6$" },
-        { "tipe": "paragraph", "text": "$x + 3 = 6 \\Rightarrow x = 3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $2^{x+3} = 64$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: kalau $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 64 menjadi pangkat 2: $64 = 2^6$, sehingga $2^{x+3} = 2^6$. Lalu samakan pangkatnya: $x + 3 = 6$. Karena itu $x = 6 - 3 = 3$. Jadi, jawabannya adalah $x = 3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -40,8 +41,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log(3x + 1) = 4 \\Rightarrow 3x + 1 = 2^4 = 16$" },
-        { "tipe": "paragraph", "text": "$3x = 15 \\Rightarrow x = 5$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^2\\log(3x + 1) = 4$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $3x + 1 = 2^4$. Lalu hitung $2^4 = 16$, sehingga $3x + 1 = 16$. Kurangkan 1 ke kedua ruas: $3x = 15$. Karena itu $x = \\dfrac{15}{3} = 5$. Jadi, jawabannya adalah $x = 5$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -59,10 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$9^{x-1} = 27 \\Rightarrow (3^2)^{x-1} = 3^3$" },
-        { "tipe": "paragraph", "text": "$3^{2(x-1)} = 3^3$" },
-        { "tipe": "paragraph", "text": "$2(x-1) = 3 \\Rightarrow 2x - 2 = 3$" },
-        { "tipe": "paragraph", "text": "$2x = 5 \\Rightarrow x = \\dfrac{5}{2}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $9^{x-1} = 27$. Basis kiri 9, basis kanan 27, dan kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ubah kedua basis menjadi basis yang sama, yaitu 3, menggunakan $(a^m)^n = a^{m \\cdot n}$. Lalu kalau $a^m = a^n$ dengan basis sama, maka $m = n$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 9 menjadi $3^2$ dan 27 menjadi $3^3$, sehingga $(3^2)^{x-1} = 3^3$. Lalu pakai sifat pangkat: $3^{2(x-1)} = 3^3$. Samakan pangkatnya: $2(x-1) = 3$, sehingga $2x - 2 = 3$. Tambahkan 2 ke kedua ruas: $2x = 5$. Karena itu $x = \\dfrac{5}{2}$. Jadi, jawabannya adalah $x = \\dfrac{5}{2}$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,8 +81,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^3\\log 18 - {}^3\\log 2 + {}^3\\log 3 = {}^3\\log\\left(\\dfrac{18 \\cdot 3}{2}\\right)$" },
-        { "tipe": "paragraph", "text": "$= {}^3\\log 27 = {}^3\\log 3^3 = 3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 18 - {}^3\\log 2 + {}^3\\log 3$. Semua logaritma basisnya sama, yaitu 3." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$ untuk pengurangan (angka di dalam log dibagi), dan ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$ untuk penjumlahan (angka di dalam log dikalikan)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan pengurangannya: ${}^3\\log 18 - {}^3\\log 2 = {}^3\\log \\left(\\dfrac{18}{2}\\right) = {}^3\\log 9$. Lalu tambahkan: ${}^3\\log 9 + {}^3\\log 3 = {}^3\\log (9 \\cdot 3) = {}^3\\log 27$. Karena $27 = 3^3$, maka ${}^3\\log 27 = {}^3\\log 3^3 = 3$. Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,8 +101,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^5\\log 2 \\cdot {}^2\\log 125 = {}^5\\log 125$" },
-        { "tipe": "paragraph", "text": "$= {}^5\\log 5^3 = 3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^5\\log 2 \\cdot {}^2\\log 125$. Perhatikan basis log pertama (5) dan angka dalam log kedua (2) saling bertemu di tengah." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, kalau basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret dan hasilnya menjadi log dengan basis pertama dan angka dalam log kedua." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama coret angka 2 di tengah: ${}^5\\log 2 \\cdot {}^2\\log 125 = {}^5\\log 125$. Lalu ubah 125 menjadi pangkat 5: $125 = 5^3$, sehingga ${}^5\\log 125 = {}^5\\log 5^3 = 3$. Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -118,9 +121,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$7^{x^2 - 5x} = 1 = 7^0$" },
-        { "tipe": "paragraph", "text": "$x^2 - 5x = 0$" },
-        { "tipe": "paragraph", "text": "$x(x - 5) = 0 \\Rightarrow x = 0$ atau $x = 5$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $7^{x^2 - 5x} = 1$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, angka 1 bisa ditulis sebagai $7^0$. Lalu kalau $a^m = a^n$ dengan basis sama, maka $m = n$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 1 menjadi $7^0$, sehingga $7^{x^2 - 5x} = 7^0$. Lalu samakan pangkatnya: $x^2 - 5x = 0$. Faktorkan: $x(x - 5) = 0$. Karena itu $x = 0$ atau $x = 5$. Jadi, jawabannya adalah $x = 0$ atau $x = 5$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -138,9 +141,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^4\\log(x^2 - 3x) = 1 \\Rightarrow x^2 - 3x = 4^1 = 4$" },
-        { "tipe": "paragraph", "text": "$x^2 - 3x - 4 = 0$" },
-        { "tipe": "paragraph", "text": "$(x - 4)(x + 1) = 0 \\Rightarrow x = 4$ atau $x = -1$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^4\\log(x^2 - 3x) = 1$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log. Setelah itu selesaikan persamaan kuadrat dengan memfaktorkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $x^2 - 3x = 4^1$. Lalu hitung $4^1 = 4$, sehingga $x^2 - 3x = 4$. Pindahkan 4 ke ruas kiri: $x^2 - 3x - 4 = 0$. Faktorkan: $(x - 4)(x + 1) = 0$. Karena itu $x = 4$ atau $x = -1$. Jadi, jawabannya adalah $x = -1$ atau $x = 4$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -158,9 +161,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{3}\\right)^{2x-1} \\ge 9 \\Rightarrow (3^{-1})^{2x-1} \\ge 3^2$" },
-        { "tipe": "paragraph", "text": "$3^{-(2x-1)} \\ge 3^2 \\Rightarrow -2x + 1 \\ge 2$" },
-        { "tipe": "paragraph", "text": "$-2x \\ge 1 \\Rightarrow x \\le -\\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: pertidaksamaan $\\left(\\dfrac{1}{3}\\right)^{2x-1} \\ge 9$. Kita harus mencari rentang nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\dfrac{1}{3} = 3^{-1}$, sehingga $\\left(\\dfrac{1}{3}\\right)^{2x-1} = 3^{-(2x-1)}$. Lalu kalau $a^m \\ge a^n$ dengan basis $a > 1$, tanda pertidaksamaan tetap: $m \\ge n$. Artinya, karena basis 3 lebih besar dari 1, arah tanda tidak berubah." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah $\\left(\\dfrac{1}{3}\\right)^{2x-1}$ menjadi $3^{-(2x-1)}$ dan ubah 9 menjadi $3^2$, sehingga $3^{-(2x-1)} \\ge 3^2$. Lalu karena basis $3 > 1$, tanda tetap: $-(2x - 1) \\ge 2$, sehingga $-2x + 1 \\ge 2$. Kurangkan 1 ke kedua ruas: $-2x \\ge 1$. Bagi dengan $-2$ (tanda berbalik): $x \\le -\\dfrac{1}{2}$. Jadi, jawabannya adalah $x \\le -\\dfrac{1}{2}$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -178,9 +181,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log 45 = {}^2\\log(9 \\times 5) = {}^2\\log(3^2 \\times 5)$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 3^2 + {}^2\\log 5 = 2 \\cdot {}^2\\log 3 + {}^2\\log 5$" },
-        { "tipe": "paragraph", "text": "$= 2a + b$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$. Kita harus mencari ${}^2\\log 45$ dalam bentuk $a$ dan $b$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log (m \\cdot n) = {}^a\\log m + {}^a\\log n$ untuk perkalian (log dari perkalian = jumlah log), dan ${}^a\\log m^n = n \\cdot {}^a\\log m$ untuk pangkat (pangkat bisa dikeluarkan ke depan)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama uraikan 45 menjadi $9 \\times 5 = 3^2 \\times 5$, sehingga ${}^2\\log 45 = {}^2\\log(3^2 \\times 5)$. Lalu pakai sifat perkalian: ${}^2\\log 45 = {}^2\\log 3^2 + {}^2\\log 5$. Lalu pakai sifat pangkat: ${}^2\\log 3^2 = 2 \\cdot {}^2\\log 3 = 2a$, sehingga ${}^2\\log 45 = 2a + b$. Jadi, jawabannya adalah $2a + b$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -198,9 +201,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak periode peluruhan: $n = \\dfrac{12}{4} = 3$" },
-        { "tipe": "paragraph", "text": "$M = M_0 \\times \\left(\\dfrac{1}{2}\\right)^n = 80 \\times \\left(\\dfrac{1}{2}\\right)^3$" },
-        { "tipe": "paragraph", "text": "$= 80 \\times \\dfrac{1}{8} = 10\\text{ gram}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: massa awal 80 gram, zat menyusut menjadi setengah setiap 4 jam, dan waktu yang ditanyakan 12 jam." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: banyak periode peluruhan $n = \\dfrac{\\text{waktu total}}{\\text{waktu per periode}}$, lalu massa akhir $M = M_0 \\times \\left(\\dfrac{1}{2}\\right)^n$. Artinya, setiap satu periode massa dikali $\\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama hitung banyak periode: $n = \\dfrac{12}{4} = 3$, artinya zat menyusut 3 kali. Lalu hitung $\\left(\\dfrac{1}{2}\\right)^3 = \\dfrac{1}{8}$. Karena itu $M = 80 \\times \\dfrac{1}{8} = 10$ gram. Jadi, jawabannya adalah $10\\text{ gram}$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     }
