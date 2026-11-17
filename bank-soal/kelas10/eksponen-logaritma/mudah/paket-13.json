@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $5^4$ dikali $5^3$. Basisnya sama-sama 5, sedangkan pangkatnya 4 dan 3." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya: $4 + 3 = 7$. Lalu tulis basisnya dengan pangkat baru: $5^7$. Jadi, jawabannya adalah $5^7$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perkalian bentuk eksponen $5^4 \\cdot 5^3$. Basis kedua bilangan sama, yaitu $5$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan pangkatnya karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$5^{4+3} = 5^7$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $5^7$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -41,9 +43,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $2^{15}$ dibagi dengan $2^6 \\cdot 2^5$. Basisnya semua sama, yaitu 2." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $2^6 \\cdot 2^5 = 2^{6+5} = 2^{11}$. Lalu bagi: $\\dfrac{2^{15}}{2^{11}} = 2^{15-11} = 2^4$. Jadi, jawabannya adalah $2^4$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $2^{15}$, penyebut $2^6 \\cdot 2^5$. Semua basis bilangan sama, yaitu $2$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "paragraph", "text": "$2^6 \\cdot 2^5 = 2^{6+5} = 2^{11}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "paragraph", "text": "$\\dfrac{2^{15}}{2^{11}} = 2^{15-11} = 2^4$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2^4$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -61,9 +67,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(6^3\\right)^2$, yaitu pangkat yang dipangkatkan lagi. Basisnya 6, pangkat dalam 3, pangkat luar 2." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan: $3 \\times 2 = 6$." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya: $3 \\times 2 = 6$. Lalu tulis basisnya dengan pangkat baru: $6^6$. Jadi, jawabannya adalah $6^6$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perpangkatan dari suatu bilangan berpangkat $\\left(6^3\\right)^2$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
+        { "tipe": "paragraph", "text": "$6^{3 \\cdot 2} = 6^6$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $6^6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -81,9 +89,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{11}{13}\\right)^0$, yaitu pecahan berpangkat nol." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, termasuk pecahan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: karena pecahan $\\dfrac{11}{13}$ tidak nol dan pangkatnya 0, langsung pakai sifat tadi: $\\left(\\dfrac{11}{13}\\right)^0 = 1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan $\\dfrac{11}{13}$ dipangkatkan nol $\\left(\\dfrac{11}{13}\\right)^0$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1, \\text{ untuk } a \\neq 0$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Terapkan sifat pangkat nol pada pecahan tersebut." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{11}{13}\\right)^0 = 1$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -101,9 +111,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{1}{5}\\right)^{-3}$, yaitu pecahan berpangkat negatif." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{1}{5}\\right)^{-3} = \\left(\\dfrac{5}{1}\\right)^3 = 5^3$. Lalu hitung $5^3 = 5 \\times 5 \\times 5 = 125$. Jadi, jawabannya adalah $125$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{1}{5}\\right)^{-3}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{5}\\right)^{-3} = \\left(\\dfrac{5}{1}\\right)^3 = 5^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung hasil perpangkatannya ($5^3 = 125$)." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $125$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -121,9 +134,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $\\left(\\dfrac{1}{3}\\right)^2 = \\dfrac{1}{9}$. Di sini basisnya $\\dfrac{1}{3}$, pangkatnya 2, dan hasilnya $\\dfrac{1}{9}$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis $\\dfrac{1}{3}$ menjadi angka depan: ${}^{1/3}\\log$. Hasil $\\dfrac{1}{9}$ masuk ke dalam log: ${}^{1/3}\\log \\dfrac{1}{9}$. Pangkat 2 menjadi hasilnya: ${}^{1/3}\\log \\dfrac{1}{9} = 2$. Jadi, jawabannya adalah ${}^{1/3}\\log \\dfrac{1}{9} = 2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk persamaan eksponen $\\left(\\dfrac{1}{3}\\right)^2 = \\dfrac{1}{9}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk eksponen ke bentuk logaritma dengan basis $\\dfrac{1}{3}$, numerus $\\dfrac{1}{9}$, dan hasil $2$." },
+        { "tipe": "paragraph", "text": "${}^{1/3}\\log \\dfrac{1}{9} = 2$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^{1/3}\\log \\dfrac{1}{9} = 2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -141,9 +156,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^7\\log \\dfrac{1}{49}$. Pertanyaannya: 7 dipangkatkan berapa supaya hasilnya $\\dfrac{1}{49}$?" },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Selain itu, $\\dfrac{1}{a^n} = a^{-n}$. Artinya, pecahan $\\dfrac{1}{49}$ bisa ditulis sebagai pangkat negatif dari 7." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah $\\dfrac{1}{49}$ menjadi pangkat 7: $\\dfrac{1}{49} = \\dfrac{1}{7^2} = 7^{-2}$. Lalu ${}^7\\log \\dfrac{1}{49} = {}^7\\log 7^{-2} = -2$. Jadi, jawabannya adalah $-2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk logaritma ${}^7\\log \\dfrac{1}{49}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat ${}^a\\log a^n = n$ serta $\\dfrac{1}{a^n} = a^{-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah pecahan $\\dfrac{1}{49}$ menjadi bentuk perpangkatan dengan basis $7$ ($49 = 7^2$, sehingga $\\dfrac{1}{49} = 7^{-2}$)." },
+        { "tipe": "paragraph", "text": "${}^7\\log \\dfrac{1}{49} = {}^7\\log 7^{-2}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= -2$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $-2$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -161,9 +180,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 2 + {}^3\\log 9 - {}^3\\log 6$. Semua logaritma basisnya sama, yaitu 3." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$ untuk penjumlahan (angka di dalam log dikalikan), dan ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$ untuk pengurangan (angka di dalam log dibagi)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan penjumlahannya: ${}^3\\log 2 + {}^3\\log 9 = {}^3\\log (2 \\cdot 9) = {}^3\\log 18$. Lalu kurangkan: ${}^3\\log 18 - {}^3\\log 6 = {}^3\\log \\left(\\dfrac{18}{6}\\right) = {}^3\\log 3$. Karena ${}^3\\log 3 = 1$, hasilnya $1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Operasi hitung logaritma ${}^3\\log 2 + {}^3\\log 9 - {}^3\\log 6$ dengan basis yang sama ($3$)." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat penjumlahan dan pengurangan logaritma ${}^a\\log m + {}^a\\log n - {}^a\\log p = {}^a\\log\\left(\\dfrac{m \\cdot n}{p}\\right)$ serta ${}^a\\log a = 1$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gabungkan numerus dengan operasi perkalian dan pembagian." },
+        { "tipe": "paragraph", "text": "${}^3\\log\\left(\\dfrac{2 \\cdot 9}{6}\\right) = {}^3\\log\\left(\\dfrac{18}{6}\\right) = {}^3\\log 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a = 1$." },
+        { "tipe": "paragraph", "text": "$= 1$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -181,9 +204,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $15^8$ dibagi dengan $15^3 \\cdot 15^2$. Basisnya semua sama, yaitu 15." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $15^3 \\cdot 15^2 = 15^{3+2} = 15^5$. Lalu bagi: $\\dfrac{15^8}{15^5} = 15^{8-5} = 15^3$. Jadi, jawabannya adalah $15^3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $15^8$, penyebut $15^3 \\cdot 15^2$. Semua basis bilangan sama, yaitu $15$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "paragraph", "text": "$15^3 \\cdot 15^2 = 15^{3+2} = 15^5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "paragraph", "text": "$\\dfrac{15^8}{15^5} = 15^{8-5} = 15^3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $15^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -201,9 +228,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{7}{2}\\right)^{-2}$, yaitu pecahan berpangkat negatif." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{7}{2}\\right)^{-2} = \\left(\\dfrac{2}{7}\\right)^2$. Lalu hitung $\\left(\\dfrac{2}{7}\\right)^2 = \\dfrac{2^2}{7^2} = \\dfrac{4}{49}$. Jadi, jawabannya adalah $\\dfrac{4}{49}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{7}{2}\\right)^{-2}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{7}{2}\\right)^{-2} = \\left(\\dfrac{2}{7}\\right)^2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung perpangkatan pembilang dan penyebut $\\dfrac{2^2}{7^2} = \\dfrac{4}{49}$." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{4}{49}$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     }
