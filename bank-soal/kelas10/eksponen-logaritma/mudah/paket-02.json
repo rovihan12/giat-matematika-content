@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $3^4$ dikali $3^2$. Basisnya sama-sama 3." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya, yaitu $4 + 2 = 6$. Lalu tulis basisnya dengan pangkat baru: $3^6$. Jadi, jawabannya adalah $3^6$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perkalian bentuk eksponen $3^4 \\cdot 3^2$. Basis kedua bilangan sama, yaitu $3$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan pangkatnya karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$3^{4+2} = 3^6$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3^6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -41,9 +43,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $7^8$ dibagi $7^5$. Basisnya sama-sama 7." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m : a^n = a^{m-n}$. Artinya, kalau basisnya sama dan dibagi, pangkatnya cukup dikurangkan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kurangkan pangkatnya, yaitu $8 - 5 = 3$. Lalu tulis basisnya dengan pangkat baru: $7^3$. Jadi, jawabannya adalah $7^3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembagian bentuk eksponen $\\dfrac{7^8}{7^5}$. Basis kedua bilangan sama, yaitu $7$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pembagian eksponen dengan basis yang sama $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kurangkan pangkat pembagi dari pangkat yang dibagi." },
+        { "tipe": "paragraph", "text": "$7^{8-5} = 7^3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $7^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -61,9 +65,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $(2^3)^2$, yaitu pangkat yang dipangkatkan lagi." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya, yaitu $3 \\times 2 = 6$. Lalu tulis basisnya dengan pangkat baru: $2^6$. Jadi, jawabannya adalah $2^6$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perpangkatan dari suatu bilangan berpangkat $(2^3)^2$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
+        { "tipe": "paragraph", "text": "$2^{3 \\cdot 2} = 2^6$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2^6$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -81,9 +87,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $9^0$, yaitu bilangan 9 berpangkat nol." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, bukan 0 dan bukan 9." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: karena basisnya 9 (tidak nol) dan pangkatnya 0, langsung pakai sifat tadi, sehingga $9^0 = 1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bilangan $9$ dipangkatkan nol ($9^0$)." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1, \\text{ untuk } a \\neq 0$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Terapkan sifat pangkat nol pada bilangan $9$." },
+        { "tipe": "paragraph", "text": "$9^0 = 1$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -101,9 +109,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $3^{-2}$, yaitu pangkatnya bilangan negatif." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^{-n} = \\dfrac{1}{a^n}$. Artinya, pangkat negatif bukan berarti hasilnya negatif, tetapi menjadi pecahan $\\dfrac{1}{\\text{bilangan berpangkat positif}}$." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah ke bentuk pecahan menjadi $\\dfrac{1}{3^2}$. Lalu hitung $3^2 = 3 \\times 3 = 9$, sehingga hasilnya $\\dfrac{1}{9}$. Jadi, jawabannya adalah $\\dfrac{1}{9}$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bilangan berpangkat negatif $3^{-2}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif $a^{-n} = \\dfrac{1}{a^n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah ke bentuk pecahan dengan pangkat positif." },
+        { "tipe": "paragraph", "text": "$3^{-2} = \\dfrac{1}{3^2}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai penyebutnya ($3^2 = 9$)." },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{9}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{1}{9}$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -121,9 +133,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $2^5 = 32$. Di sini basisnya 2, pangkatnya 5, dan hasilnya 32." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis 2 menjadi angka depan, hasil 32 masuk ke dalam log, dan pangkat 5 menjadi hasilnya, sehingga ${}^2\\log 32 = 5$. Jadi, jawabannya adalah ${}^2\\log 32 = 5$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk persamaan eksponen $2^5 = 32$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk eksponen ke bentuk logaritma dengan basis $2$, numerus $32$, dan hasil $5$." },
+        { "tipe": "paragraph", "text": "${}^2\\log 32 = 5$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^2\\log 32 = 5$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -141,9 +155,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 27$. Pertanyaannya: 3 dipangkatkan berapa supaya hasilnya 27?" },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Jadi kita mencari pangkat $c$ dari basis 3 yang menghasilkan 27." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: ubah 27 menjadi pangkat 3, yaitu $27 = 3^3$. Maka ${}^3\\log 27 = {}^3\\log 3^3 = 3$. Jadi, jawabannya adalah $3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk logaritma ${}^3\\log 27$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat ${}^a\\log a^n = n$ atau mencari bilangan pangkat dari basis." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah angka $27$ menjadi bentuk perpangkatan dengan basis $3$ ($27 = 3^3$)." },
+        { "tipe": "paragraph", "text": "${}^3\\log 27 = {}^3\\log 3^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= 3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -161,9 +179,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^2\\log 6 + {}^2\\log 3$. Kedua logaritma basisnya sama, yaitu 2." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$. Artinya, kalau basisnya sama dan dijumlahkan, cukup kalikan angka di dalam log-nya." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan angka di dalam log, yaitu $6 \\times 3 = 18$. Lalu tulis dengan basis yang sama: ${}^2\\log 18$. Jadi, jawabannya adalah ${}^2\\log 18$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Penjumlahan dua logaritma dengan basis yang sama (${}^2\\log 6 + {}^2\\log 3$)." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat penjumlahan logaritma ${}^a\\log m + {}^a\\log n = {}^a\\log(m \\cdot n)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan kedua numerus karena basis logaritma sudah sama." },
+        { "tipe": "paragraph", "text": "${}^2\\log 6 + {}^2\\log 3 = {}^2\\log(6 \\cdot 3) = {}^2\\log 18$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^2\\log 18$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -181,9 +201,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $6^5$ dibagi $6^3$. Basisnya sama-sama 6." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $a^m : a^n = a^{m-n}$. Artinya, kalau basisnya sama dan dibagi, pangkatnya cukup dikurangkan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kurangkan pangkatnya, yaitu $5 - 3 = 2$. Lalu tulis basisnya dengan pangkat baru: $6^2$. Jadi, jawabannya adalah $6^2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembagian bentuk eksponen $6^5 : 6^3$. Basis kedua bilangan sama, yaitu $6$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pembagian eksponen dengan basis yang sama $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kurangkan pangkat pembagi dari pangkat yang dibagi." },
+        { "tipe": "paragraph", "text": "$6^{5-3} = 6^2$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $6^2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -201,9 +223,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{1}{3}\\right)^{-1}$, yaitu pecahan berpangkat negatif." },
-        { "tipe": "paragraph", "text": "Sifat yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya menjadi $\\left(\\dfrac{3}{1}\\right)^1 = 3^1$. Lalu hitung $3^1 = 3$. Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{1}{3}\\right)^{-1}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{3}\\right)^{-1} = \\left(\\dfrac{3}{1}\\right)^1 = 3^1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung hasil perpangkatannya ($3^1 = 3$)." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     }
