@@ -21,9 +21,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Selisih antar suku: $3, 5, 7, 9, \\ldots$ (barisan aritmatika beda 2)." },
-        { "tipe": "paragraph", "text": "Pola suku ke-$n$: $U_n = n^2 + 6$." },
-        { "tipe": "paragraph", "text": "$U_{14} = 14^2 + 6 = 196 + 6 = 202$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis selisih antar-suku bertingkat: $3, 5, 7, 9, \\ldots$ (aritmatika dengan beda tetap $2$). Pola ini menunjukkan rumus umum suku ke-$n$ berbentuk kuadrat, yaitu $U_n = n^2 + 6$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung suku ke-14 ($U_{14}$) dengan mensubstitusikan $n = 14$:" },
+        { "tipe": "paragraph", "text": "$U_{14} = 14^2 + 6 = 196 + 6 = 202$." },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-14 adalah $202$ (pilihan keempat)." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,9 +42,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus rekurensi secara bertahap mulai dari $n = 3$ hingga $n = 5$:" },
         { "tipe": "paragraph", "text": "$w_3 = 4(6) - 3(2) = 24 - 6 = 18$." },
         { "tipe": "paragraph", "text": "$w_4 = 4(18) - 3(6) = 72 - 18 = 54$." },
-        { "tipe": "paragraph", "text": "$w_5 = 4(54) - 3(18) = 216 - 54 = 162$." }
+        { "tipe": "paragraph", "text": "$w_5 = 4(54) - 3(18) = 216 - 54 = 162$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $w_5$ adalah $162$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -61,9 +64,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan bentuk pecahan parsial: $\\dfrac{1}{(2k+2)(2k+4)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k+2} - \\dfrac{1}{2k+4}\\right)$." },
-        { "tipe": "paragraph", "text": "Telescoping dari $k=1$ sampai $k=11$:" },
-        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(\\dfrac{1}{4} - \\dfrac{1}{26}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{22}{104} = \\dfrac{11}{104}$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk umum suku ke-$k$ menggunakan pecahan parsial: $\\dfrac{1}{(2k+2)(2k+4)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k+2} - \\dfrac{1}{2k+4}\\right)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan bentuk telescoping dari $k=1$ sampai $k=11$:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2} \\left( \\dfrac{1}{4} - \\dfrac{1}{6} + \\dfrac{1}{6} - \\dfrac{1}{8} + \\dots - \\dfrac{1}{26} \\right)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Suku-suku di tengah saling menghilangkan, menyisakan suku pertama dan terakhir:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(\\dfrac{1}{4} - \\dfrac{1}{26}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{22}{104} = \\dfrac{11}{104}$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{11}{104}$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -81,11 +87,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misalkan tiga bilangan tersebut adalah $\\dfrac{a}{r}, a, ar$." },
-        { "tipe": "paragraph", "text": "Hasil kali $= a^3 = 1000 \\Rightarrow a = 10$." },
-        { "tipe": "paragraph", "text": "Jumlah $= \\dfrac{10}{r} + 10 + 10r = 35 \\Rightarrow 10r^2 - 25r + 10 = 0 \\Rightarrow 2r^2 - 5r + 2 = 0$." },
-        { "tipe": "paragraph", "text": "Faktorkan: $(2r-1)(r-2) = 0 \\Rightarrow r = 2$ atau $r = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "Tiga bilangan tersebut adalah $5, 10, 20$, sehingga bilangan terbesarnya adalah $20$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan tiga bilangan geometri tersebut adalah $\\dfrac{a}{r}, a, ar$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan informasi hasil kali $= a^3 = 1000 \\Rightarrow a = 10$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan informasi jumlah:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{10}{r} + 10 + 10r = 35 \\Rightarrow \\dfrac{10}{r} + 10r = 25$." },
+        { "tipe": "paragraph", "text": "Kalikan $r$ dan sederhanakan menjadi: $10r^2 - 25r + 10 = 0 \\Rightarrow 2r^2 - 5r + 2 = 0$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan: $(2r-1)(r-2) = 0 \\Rightarrow r = 2$ atau $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Jika $a = 10$ dan $r = 2$, maka bilangan tersebut adalah $5, 10, 20$, sehingga bilangan terbesarnya adalah $20$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -103,9 +111,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku dan suku ke-$n$ ($U_n = S_n - S_{n-1}$). সাহ" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung $S_5$ dan $S_4$:" },
         { "tipe": "paragraph", "text": "$S_5 = 2(5)^3 + (5)^2 - 3(5) = 250 + 25 - 15 = 260$." },
         { "tipe": "paragraph", "text": "$S_4 = 2(4)^3 + (4)^2 - 3(4) = 128 + 16 - 12 = 132$." },
-        { "tipe": "paragraph", "text": "$U_5 = S_5 - S_4 = 260 - 132 = 128$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tentukan suku ke-5 ($U_5$):" },
+        { "tipe": "paragraph", "text": "$U_5 = S_5 - S_4 = 260 - 132 = 128$." },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $128$ (pilihan pertama)." }
       ],
       "tingkat": "SULIT"
     },
@@ -123,9 +135,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Deret Arithmetico-Geometric Progression (AGP): $S = \\sum_{n=1}^{\\infty} \\dfrac{n^2}{5^n}$." },
-        { "tipe": "paragraph", "text": "Gunakan rumus $\\sum_{n=1}^{\\infty} n^2 r^n = \\dfrac{r(1+r)}{(1-r)^3}$ untuk $|r| < 1$." },
-        { "tipe": "paragraph", "text": "Dengan $r = \\dfrac{1}{5}$: $S = \\dfrac{(1/5)(6/5)}{(4/5)^3} = \\dfrac{6/25}{64/125} = \\dfrac{6}{25} \\cdot \\dfrac{125}{64} = \\dfrac{30}{64} = \\dfrac{15}{32}$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk AGP: $S = \\sum_{n=1}^{\\infty} \\dfrac{n^2}{5^n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus $\\sum_{n=1}^{\\infty} n^2 r^n = \\dfrac{r(1+r)}{(1-r)^3}$ dengan $r = \\dfrac{1}{5}$:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{\\dfrac{1}{5}\\left(1 + \\dfrac{1}{5}\\right)}{\\left(1 - \\dfrac{1}{5}\\right)^3} = \\dfrac{\\dfrac{6}{25}}{\\dfrac{64}{125}}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan perhitungan:" },
+        { "tipe": "paragraph", "text": "$S = \\dfrac{6}{25} \\cdot \\dfrac{125}{64} = \\dfrac{30}{64} = \\dfrac{15}{32}$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{15}{32}$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,11 +158,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Sifat barisan aritmatika: $2\\log(4^x - 4) = \\log 4 + \\log(4^x + 20)$." },
-        { "tipe": "paragraph", "text": "$(4^x - 4)^2 = 4(4^x + 20)$." },
-        { "tipe": "paragraph", "text": "Misalkan $t = 4^x$: $t^2 - 8t + 16 = 4t + 80 \\Rightarrow t^2 - 12t - 64 = 0$." },
-        { "tipe": "paragraph", "text": "Faktorkan: $(t - 16)(t + 4) = 0 \\Rightarrow t = 16$ (karena $t > 0$)." },
-        { "tipe": "paragraph", "text": "$4^x = 16 \\Rightarrow x = 2$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat tengah barisan aritmatika: $2\\log(4^x - 4) = \\log 4 + \\log(4^x + 20)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan menjadi: $(4^x - 4)^2 = 4(4^x + 20)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Misalkan $t = 4^x$, sehingga diperoleh: $t^2 - 8t + 16 = 4t + 80 \\Rightarrow t^2 - 12t - 64 = 0$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan: $(t - 16)(t + 4) = 0 \\Rightarrow t = 16$ (karena $t = 4^x > 0$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Selesaikan $4^x = 16 \\Rightarrow x = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ adalah $2$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -165,8 +181,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan $a = 5$ dan $r = 3$ dari deret tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri:" },
         { "tipe": "paragraph", "text": "$S_n = \\dfrac{5(3^n - 1)}{3 - 1} = \\dfrac{5(3^n - 1)}{2} = 16400$." },
-        { "tipe": "paragraph", "text": "$3^n - 1 = 6560 \\Rightarrow 3^n = 6561 = 3^8 \\Rightarrow n = 8$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan eksponensial:" },
+        { "tipe": "paragraph", "text": "$3^n - 1 = 16400 \\cdot \\dfrac{2}{5} = 6560 \\Rightarrow 3^n = 6561 = 3^8 \\Rightarrow n = 8$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $n$ adalah $8$ (pilihan ketiga)." }
       ],
       "tingkat": "SULIT"
     },
@@ -184,8 +204,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total lintasan $= h + 2 \\cdot \\dfrac{(1/3)h}{1 - 1/3} = h + h = 2h$." },
-        { "tipe": "paragraph", "text": "Untuk $h = 18$ m: Total $= 2 \\cdot 18 = 36$ m." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus total lintasan bola jatuh dan memantul: $\\text{Total} = h + 2 \\cdot \\dfrac{ar}{1 - r}$ dengan $h = 18$ dan $r = \\dfrac{1}{3}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai-nilai tersebut:" },
+        { "tipe": "paragraph", "text": "$\\text{Total} = 18 + 2 \\cdot \\dfrac{18 \\cdot \\dfrac{1}{3}}{1 - \\dfrac{1}{3}}$" },
+        { "tipe": "paragraph", "text": "$= 18 + 2 \\cdot \\dfrac{6}{\\dfrac{2}{3}} = 18 + 2(9) = 36$ m." },
+        { "tipe": "paragraph", "text": "Jadi, total lintasan bola sampai berhenti adalah $36$ m (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     },
@@ -203,9 +226,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan rumus $\\sum_{k=1}^{n} k(k+1)(k+2) = \\dfrac{n(n+1)(n+2)(n+3)}{4}$." },
-        { "tipe": "paragraph", "text": "Untuk $n = 10$:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{10 \\cdot 11 \\cdot 12 \\cdot 13}{4} = 4290$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus deret perkalian tiga suku berurutan: $\\sum_{k=1}^{n} k(k+1)(k+2) = \\dfrac{n(n+1)(n+2)(n+3)}{4}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 10$:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{10 \\cdot 11 \\cdot 12 \\cdot 13}{4} = 10 \\cdot 11 \\cdot 3 \\cdot 13 = 4290$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $4290$ (pilihan kedua)." }
       ],
       "tingkat": "SULIT"
     }
