@@ -21,9 +21,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan $2^{x+3} = 64$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\nJika $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah 64 menjadi pangkat 2:\n$64 = 2^6$\n\n2. Samakan basisnya:\n$2^{x+3} = 2^6$\n\n3. Samakan pangkatnya:\n$x + 3 = 6$\n\n4. Kurangi 3 pada kedua ruas:\n$x = 6 - 3 = 3$\n\n**Jadi, jawabannya adalah $x = 3$ (pilihan ketiga).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Persamaan eksponen $2^{x+3} = 64$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Jika $a^m = a^n$ dengan basis $a$ sama (dan $a > 0$, $a \\neq 1$), maka pangkatnya harus sama: $m = n$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah angka $64$ menjadi bentuk bilangan berpangkat dengan basis $2$ ($64 = 2^6$)." },
+        { "tipe": "paragraph", "text": "$2^{x+3} = 2^6$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Samakan pangkat dari kedua ruas karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$x + 3 = 6$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan linear untuk mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "$x = 6 - 3 = 3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x = 3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,9 +47,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan logaritma ${}^2\\log(3x + 1) = 4$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah bentuk log ke bentuk pangkat:\n$3x + 1 = 2^4$\n\n2. Hitung hasil pangkatnya:\n$2^4 = 16$\n\n3. Tulis persamaannya:\n$3x + 1 = 16$\n\n4. Kurangi 1 pada kedua ruas:\n$3x = 15$\n\n5. Bagi 3 pada kedua ruas:\n$x = \\dfrac{15}{3} = 5$\n\n**Jadi, jawabannya adalah $x = 5$ (pilihan ketiga).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Persamaan logaritma ${}^2\\log(3x + 1) = 4$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi logaritma ${}^a\\log b = c \\Leftrightarrow b = a^c$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma ke dalam bentuk eksponen." },
+        { "tipe": "paragraph", "text": "$3x + 1 = 2^4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai perpangkatan pada ruas kanan ($2^4 = 16$)." },
+        { "tipe": "paragraph", "text": "$3x + 1 = 16$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan linear untuk mendapatkan nilai $x$." },
+        { "tipe": "paragraph", "text": "$3x = 16 - 1$" },
+        { "tipe": "paragraph", "text": "$3x = 15 \\Rightarrow x = \\dfrac{15}{3} = 5$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x = 5$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,9 +74,19 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan $9^{x-1} = 27$. Basis kiri 9, basis kanan 27, dan kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\nUbah kedua basis menjadi basis yang sama, yaitu 3, menggunakan sifat $(a^m)^n = a^{m \\cdot n}$. Lalu jika $a^m = a^n$, maka $m = n$." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah 9 menjadi $3^2$ dan 27 menjadi $3^3$:\n$(3^2)^{x-1} = 3^3$\n\n2. Kalikan pangkat di ruas kiri:\n$3^{2(x-1)} = 3^3$\n\n3. Samakan pangkatnya:\n$2(x - 1) = 3$\n\n4. Kalikan 2 ke dalam kurung:\n$2x - 2 = 3$\n\n5. Tambahkan 2 pada kedua ruas:\n$2x = 5$\n\n6. Bagi 2 pada kedua ruas:\n$x = \\dfrac{5}{2}$\n\n**Jadi, jawabannya adalah $x = \\dfrac{5}{2}$ (pilihan kedua).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Persamaan eksponen $9^{x-1} = 27$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perpangkatan $(a^m)^n = a^{m \\cdot n}$ dan penyamaan basis." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah basis $9$ menjadi $3^2$ dan basis $27$ menjadi $3^3$." },
+        { "tipe": "paragraph", "text": "$(3^2)^{x-1} = 3^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kalikan pangkat di ruas kiri dengan sifat perpangkatan." },
+        { "tipe": "paragraph", "text": "$3^{2(x-1)} = 3^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Samakan pangkat dari kedua ruas karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$2(x - 1) = 3$" },
+        { "tipe": "paragraph", "text": "$2x - 2 = 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Selesaikan persamaan linear untuk mendapatkan nilai $x$." },
+        { "tipe": "paragraph", "text": "$2x = 3 + 2$" },
+        { "tipe": "paragraph", "text": "$2x = 5 \\Rightarrow x = \\dfrac{5}{2}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x = \\dfrac{5}{2}$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -81,9 +104,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nKita punya ${}^3\\log 18 - {}^3\\log 2 + {}^3\\log 3$. Semua logaritma basisnya sama, yaitu 3." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n- Pengurangan: ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$\n- Penjumlahan: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$" },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Gabungkan pengurangannya:\n${}^3\\log 18 - {}^3\\log 2 = {}^3\\log \\left(\\dfrac{18}{2}\\right) = {}^3\\log 9$\n\n2. Tambahkan dengan log yang tersisa:\n${}^3\\log 9 + {}^3\\log 3 = {}^3\\log (9 \\cdot 3) = {}^3\\log 27$\n\n3. Hitung hasil akhirnya (karena $27 = 3^3$):\n${}^3\\log 27 = 3$\n\n**Jadi, jawabannya adalah $3$ (pilihan ketiga).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Operasi hitung logaritma dengan basis yang sama (${}^3\\log 18 - {}^3\\log 2 + {}^3\\log 3$)." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pengurangan (${}^a\\log m - {}^a\\log n = {}^a\\log \\frac{m}{n}$) dan penjumlahan logaritma (${}^a\\log m + {}^a\\log n = {}^a\\log(m \\cdot n)$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gabungkan seluruh suku logaritma menjadi satu bentuk." },
+        { "tipe": "paragraph", "text": "${}^3\\log 18 - {}^3\\log 2 + {}^3\\log 3 = {}^3\\log \\left(\\dfrac{18 \\cdot 3}{2}\\right)$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan bentuk perhitungan di dalam numerus." },
+        { "tipe": "paragraph", "text": "$= {}^3\\log \\left(\\dfrac{54}{2}\\right) = {}^3\\log 27$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Ubah angka $27$ menjadi $3^3$, lalu gunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= {}^3\\log 3^3 = 3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -101,9 +130,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nKita punya ${}^5\\log 2 \\cdot {}^2\\log 125$. Perhatikan basis log pertama (5) dan angka dalam log kedua (2)." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, jika basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Coret angka 2 di tengah:\n${}^5\\log 2 \\cdot {}^2\\log 125 = {}^5\\log 125$\n\n2. Ubah 125 menjadi pangkat 5 (karena $125 = 5^3$):\n${}^5\\log 125 = {}^5\\log 5^3$\n\n3. Hitung hasil akhirnya:\n${}^5\\log 5^3 = 3$\n\n**Jadi, jawabannya adalah $3$ (pilihan ketiga).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perkalian dua bentuk logaritma ${}^5\\log 2 \\cdot {}^2\\log 125$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian berantai logaritma ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Terapkan sifat perkalian berantai logaritma karena numerus suku pertama sama dengan basis suku kedua (yaitu $2$)." },
+        { "tipe": "paragraph", "text": "${}^5\\log 2 \\cdot {}^2\\log 125 = {}^5\\log 125$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah angka $125$ menjadi bentuk bilangan berpangkat dengan basis $5$ ($125 = 5^3$)." },
+        { "tipe": "paragraph", "text": "$= {}^5\\log 5^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan menggunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= 3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -121,9 +156,17 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan $7^{x^2 - 5x} = 1$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n$a^0 = 1$ untuk setiap $a$ yang tidak nol. Angka 1 bisa ditulis sebagai $7^0$. Lalu jika $a^m = a^n$, maka $m = n$." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah 1 menjadi $7^0$:\n$7^{x^2 - 5x} = 7^0$\n\n2. Samakan pangkatnya:\n$x^2 - 5x = 0$\n\n3. Faktorkan persamaan kuadratnya (keluarkan $x$):\n$x(x - 5) = 0$\n\n4. Cari nilai $x$:\n$x = 0$ atau $x = 5$\n\n**Jadi, jawabannya adalah $x = 0$ atau $x = 5$ (pilihan pertama).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Persamaan eksponen $7^{x^2 - 5x} = 1$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Setiap bilangan real tak nol dipangkatkan nol bernilai $1$ ($a^0 = 1$). Jadi, angka $1$ dapat ditulis sebagai $7^0$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan dengan menyamakan basis kedua ruas." },
+        { "tipe": "paragraph", "text": "$7^{x^2 - 5x} = 7^0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Samakan pangkat pada kedua ruas karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$x^2 - 5x = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat dengan mengeluarkan variabel $x$." },
+        { "tipe": "paragraph", "text": "$x(x - 5) = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Tentukan nilai $x$ yang memenuhi." },
+        { "tipe": "paragraph", "text": "$x = 0$ atau $x = 5$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x = 0$ atau $x = 5$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -141,9 +184,18 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan logaritma ${}^4\\log(x^2 - 3x) = 1$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b = c$ sama artinya dengan $b = a^c$. Setelah itu selesaikan persamaan kuadrat dengan memfaktorkan." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah bentuk log ke bentuk pangkat:\n$x^2 - 3x = 4^1$\n\n2. Hitung hasil pangkatnya:\n$x^2 - 3x = 4$\n\n3. Pindahkan 4 ke ruas kiri:\n$x^2 - 3x - 4 = 0$\n\n4. Faktorkan persamaan kuadratnya:\n$(x - 4)(x + 1) = 0$\n\n5. Cari nilai $x$:\n$x = 4$ atau $x = -1$\n\n**Jadi, jawabannya adalah $x = -1$ atau $x = 4$ (pilihan pertama).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Persamaan logaritma ${}^4\\log(x^2 - 3x) = 1$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi logaritma ${}^a\\log b = c \\Leftrightarrow b = a^c$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma ke dalam bentuk eksponen." },
+        { "tipe": "paragraph", "text": "$x^2 - 3x = 4^1$" },
+        { "tipe": "paragraph", "text": "$x^2 - 3x = 4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Pindahkan seluruh suku ke ruas kiri untuk membentuk persamaan kuadrat." },
+        { "tipe": "paragraph", "text": "$x^2 - 3x - 4 = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
+        { "tipe": "paragraph", "text": "$(x - 4)(x + 1) = 0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Dapatkan nilai $x$ dari masing-masing faktor." },
+        { "tipe": "paragraph", "text": "$x = 4$ atau $x = -1$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x = -1$ atau $x = 4$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -161,9 +213,20 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPertidaksamaan $\\left(\\dfrac{1}{3}\\right)^{2x-1} \\ge 9$. Kita harus mencari rentang nilai $x$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n$\\dfrac{1}{3} = 3^{-1}$, sehingga $\\left(\\dfrac{1}{3}\\right)^{2x-1} = 3^{-(2x-1)}$. Jika $a^m \\ge a^n$ dengan basis $a > 1$, tanda pertidaksamaan tetap: $m \\ge n$." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah bentuk pecahan dan angka 9:\n$3^{-(2x-1)} \\ge 3^2$\n\n2. Karena basis $3 > 1$, tanda tetap dan samakan pangkatnya:\n$-(2x - 1) \\ge 2$\n\n3. Buka kurung:\n$-2x + 1 \\ge 2$\n\n4. Kurangi 1 pada kedua ruas:\n$-2x \\ge 1$\n\n5. Bagi -2 pada kedua ruas (tanda berbalik):\n$x \\le -\\dfrac{1}{2}$\n\n**Jadi, jawabannya adalah $x \\le -\\dfrac{1}{2}$ (pilihan pertama).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pertidaksamaan eksponen $\\left(\\dfrac{1}{3}\\right)^{2x-1} \\ge 9$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif $\\dfrac{1}{a} = a^{-1}$ serta sifat pertidaksamaan eksponen untuk basis $a > 1$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk pecahan $\\dfrac{1}{3}$ menjadi $3^{-1}$ dan angka $9$ menjadi $3^2$ agar kedua ruas memiliki basis $3$." },
+        { "tipe": "paragraph", "text": "$(3^{-1})^{2x-1} \\ge 3^2$" },
+        { "tipe": "paragraph", "text": "$3^{-(2x-1)} \\ge 3^2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Karena basis $3 > 1$, tanda pertidaksamaan tetap dan bandingkan pangkatnya." },
+        { "tipe": "paragraph", "text": "$-(2x - 1) \\ge 2$" },
+        { "tipe": "paragraph", "text": "$-2x + 1 \\ge 2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan pertidaksamaan linear." },
+        { "tipe": "paragraph", "text": "$-2x \\ge 2 - 1$" },
+        { "tipe": "paragraph", "text": "$-2x \\ge 1$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Bagi kedua ruas dengan $-2$ (ingat: tanda pertidaksamaan berbalik arah saat dibagi bilangan negatif)." },
+        { "tipe": "paragraph", "text": "$x \\le -\\dfrac{1}{2}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $x \\le -\\dfrac{1}{2}$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -181,9 +244,17 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\n${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$. Kita harus mencari ${}^2\\log 45$ dalam bentuk $a$ dan $b$." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n- Perkalian: ${}^a\\log (m \\cdot n) = {}^a\\log m + {}^a\\log n$\n- Pangkat: ${}^a\\log m^n = n \\cdot {}^a\\log m$" },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Uraikan 45 menjadi $9 \\times 5 = 3^2 \\times 5$:\n${}^2\\log 45 = {}^2\\log(3^2 \\times 5)$\n\n2. Pakai sifat perkalian (log dipecah menjadi tambah):\n${}^2\\log 45 = {}^2\\log 3^2 + {}^2\\log 5$\n\n3. Pakai sifat pangkat (pangkat 2 maju ke depan):\n${}^2\\log 3^2 = 2 \\cdot {}^2\\log 3 = 2a$\n\n4. Substitusi nilai $a$ dan $b$:\n${}^2\\log 45 = 2a + b$\n\n**Jadi, jawabannya adalah $2a + b$ (pilihan kedua).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$. Kita harus mencari nilai ${}^2\\log 45$ dalam bentuk $a$ dan $b$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian logaritma (${}^a\\log(m \\cdot n) = {}^a\\log m + {}^a\\log n$) dan sifat perpangkatan (${}^a\\log m^n = n \\cdot {}^a\\log m$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Uraikan angka $45$ menjadi faktorisasi prima ($45 = 9 \\times 5 = 3^2 \\times 5$)." },
+        { "tipe": "paragraph", "text": "${}^2\\log 45 = {}^2\\log(3^2 \\times 5)$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uraikan bentuk perkalian di dalam numerus menjadi penjumlahan logaritma." },
+        { "tipe": "paragraph", "text": "${}^2\\log 45 = {}^2\\log 3^2 + {}^2\\log 5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Turunkan pangkat $2$ pada suku pertama ke depan." },
+        { "tipe": "paragraph", "text": "${}^2\\log 45 = 2 \\cdot {}^2\\log 3 + {}^2\\log 5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Substitusikan nilai $a$ dan $b$ yang diketahui." },
+        { "tipe": "paragraph", "text": "${}^2\\log 45 = 2a + b$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2a + b$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -201,9 +272,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Yang diketahui:**\nMassa awal 80 gram, zat menyusut menjadi setengah setiap 4 jam, dan waktu yang ditanyakan 12 jam." },
-        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\nBanyak periode peluruhan $n = \\dfrac{\\text{waktu total}}{\\text{waktu per periode}}$. Lalu massa akhir $M = M_0 \\times \\left(\\dfrac{1}{2}\\right)^n$." },
-        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Hitung banyak periode peluruhan:\n$n = \\dfrac{12}{4} = 3$\n\n2. Masukkan ke rumus massa akhir:\n$M = 80 \\times \\left(\\dfrac{1}{2}\\right)^3$\n\n3. Hitung pangkatnya:\n$\\left(\\dfrac{1}{2}\\right)^3 = \\dfrac{1}{8}$\n\n4. Kalikan dengan massa awal:\n$M = 80 \\times \\dfrac{1}{8} = 10\\text{ gram}$\n\n**Jadi, jawabannya adalah $10\\text{ gram}$ (pilihan ketiga).**" }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Massa awal ($M_0$) = $80\\text{ gram}$, faktor peluruhan ($r$) = $\\dfrac{1}{2}$ setiap $4$ jam, dan total waktu = $12$ jam." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Rumus peluruhan eksponensial $M_n = M_0 \\times \\left(\\dfrac{1}{2}\\right)^n$, dengan $n = \\dfrac{\\text{waktu total}}{\\text{waktu paruh}}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Hitung banyaknya periode peluruhan ($n$) selama $12$ jam." },
+        { "tipe": "paragraph", "text": "$n = \\dfrac{12}{4} = 3\\text{ periode}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $M_0$ dan $n$ ke dalam rumus peluruhan." },
+        { "tipe": "paragraph", "text": "$M_3 = 80 \\times \\left(\\dfrac{1}{2}\\right)^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai perpangkatan dan kalikan dengan massa awal." },
+        { "tipe": "paragraph", "text": "$M_3 = 80 \\times \\dfrac{1}{8} = 10\\text{ gram}$" },
+        { "tipe": "paragraph", "text": "Jadi, massa zat yang tersisa setelah $12$ jam adalah $10\\text{ gram}$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     }
