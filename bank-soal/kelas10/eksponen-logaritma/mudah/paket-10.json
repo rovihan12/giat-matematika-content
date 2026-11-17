@@ -21,7 +21,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^6 \\cdot 2^3 = 2^{6+3} = 2^9$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $2^6$ dikali $2^3$. Basisnya sama-sama 2, sedangkan pangkatnya 6 dan 3." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya: $6 + 3 = 9$. Lalu tulis basisnya dengan pangkat baru: $2^9$. Jadi, jawabannya adalah $2^9$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,7 +41,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{10^{12}}{10^5 \\cdot 10^3} = \\dfrac{10^{12}}{10^8} = 10^{12-8} = 10^4$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $10^{12}$ dibagi dengan $10^5 \\cdot 10^3$. Basisnya semua sama, yaitu 10." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $10^5 \\cdot 10^3 = 10^{5+3} = 10^8$. Lalu bagi: $\\dfrac{10^{12}}{10^8} = 10^{12-8} = 10^4$. Jadi, jawabannya adalah $10^4$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,7 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(2^4\\right)^2 = 2^{4 \\cdot 2} = 2^8$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(2^4\\right)^2$, yaitu pangkat yang dipangkatkan lagi. Basisnya 2, pangkat dalam 4, pangkat luar 2." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan: $4 \\times 2 = 8$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya: $4 \\times 2 = 8$. Lalu tulis basisnya dengan pangkat baru: $2^8$. Jadi, jawabannya adalah $2^8$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -75,7 +81,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(-5)^0 = 1$ dan $3^0 = 1$, sehingga $(-5)^0 + 3^0 = 1 + 1 = 2$." }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $(-5)^0$ ditambah $3^0$. Keduanya berpangkat nol." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, termasuk bilangan negatif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama hitung $(-5)^0 = 1$. Lalu hitung $3^0 = 1$. Karena itu $(-5)^0 + 3^0 = 1 + 1 = 2$. Jadi, jawabannya adalah $2$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -93,7 +101,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{2}{7}\\right)^{-2} = \\left(\\dfrac{7}{2}\\right)^2 = \\dfrac{49}{4}$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{2}{7}\\right)^{-2}$, yaitu pecahan berpangkat negatif." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{2}{7}\\right)^{-2} = \\left(\\dfrac{7}{2}\\right)^2$. Lalu hitung $\\left(\\dfrac{7}{2}\\right)^2 = \\dfrac{7^2}{2^2} = \\dfrac{49}{4}$. Jadi, jawabannya adalah $\\dfrac{49}{4}$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -111,7 +121,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika $a^c = b$, maka ${}^a\\log b = c$. Dari $9^2 = 81$ diperoleh ${}^9\\log 81 = 2$." }
+        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $9^2 = 81$. Di sini basisnya 9, pangkatnya 2, dan hasilnya 81." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis 9 menjadi angka depan: ${}^9\\log$. Hasil 81 masuk ke dalam log: ${}^9\\log 81$. Pangkat 2 menjadi hasilnya: ${}^9\\log 81 = 2$. Jadi, jawabannya adalah ${}^9\\log 81 = 2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -129,7 +141,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log \\dfrac{1}{8} = {}^2\\log 2^{-3} = -3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^2\\log \\dfrac{1}{8}$. Pertanyaannya: 2 dipangkatkan berapa supaya hasilnya $\\dfrac{1}{8}$?" },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Selain itu, $\\dfrac{1}{a^n} = a^{-n}$. Artinya, pecahan $\\dfrac{1}{8}$ bisa ditulis sebagai pangkat negatif dari 2." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah $\\dfrac{1}{8}$ menjadi pangkat 2: $\\dfrac{1}{8} = \\dfrac{1}{2^3} = 2^{-3}$. Lalu ${}^2\\log \\dfrac{1}{8} = {}^2\\log 2^{-3} = -3$. Jadi, jawabannya adalah $-3$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -147,7 +161,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5 = {}^5\\log(2 \\cdot 3 \\cdot 5) = {}^5\\log 30$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5$. Ketiga logaritma basisnya sama, yaitu 5." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$. Artinya, kalau basisnya sama dan dijumlahkan, cukup kalikan angka di dalam log-nya." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan dua logaritma pertama: ${}^5\\log 2 + {}^5\\log 3 = {}^5\\log (2 \\cdot 3) = {}^5\\log 6$. Lalu gabungkan dengan yang ketiga: ${}^5\\log 6 + {}^5\\log 5 = {}^5\\log (6 \\cdot 5) = {}^5\\log 30$. Jadi, jawabannya adalah ${}^5\\log 30$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -165,7 +181,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{8^9}{8^4 \\cdot 8^3} = \\dfrac{8^9}{8^7} = 8^{9-7} = 8^2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $8^9$ dibagi dengan $8^4 \\cdot 8^3$. Basisnya semua sama, yaitu 8." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $8^4 \\cdot 8^3 = 8^{4+3} = 8^7$. Lalu bagi: $\\dfrac{8^9}{8^7} = 8^{9-7} = 8^2$. Jadi, jawabannya adalah $8^2$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -183,7 +201,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{10}\\right)^{-2} = 10^2 = 100$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{1}{10}\\right)^{-2}$, yaitu pecahan berpangkat negatif." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{1}{10}\\right)^{-2} = \\left(\\dfrac{10}{1}\\right)^2 = 10^2$. Lalu hitung $10^2 = 10 \\times 10 = 100$. Jadi, jawabannya adalah $100$ (pilihan ketiga)." }
       ],
       "tingkat": "MUDAH"
     }
