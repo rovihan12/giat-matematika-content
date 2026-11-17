@@ -21,9 +21,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $3^{x+2} = 81$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: kalau $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 81 menjadi pangkat 3: $81 = 3^4$, sehingga $3^{x+2} = 3^4$. Lalu samakan pangkatnya: $x + 2 = 4$. Karena itu $x = 4 - 2 = 2$. Jadi, jawabannya adalah $x = 2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan $3^{x+2} = 81$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\nJika $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah 81 menjadi pangkat 3:\n$81 = 3^4$\n\n2. Samakan basisnya:\n$3^{x+2} = 3^4$\n\n3. Samakan pangkatnya:\n$x + 2 = 4$\n\n4. Kurangi 2 pada kedua ruas:\n$x = 4 - 2 = 2$\n\n**Jadi, jawabannya adalah $x = 2$ (pilihan kedua).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,9 +41,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^5\\log(3x - 2) = 2$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $3x - 2 = 5^2$. Lalu hitung $5^2 = 25$, sehingga $3x - 2 = 25$. Tambahkan 2 ke kedua ruas: $3x = 27$. Karena itu $x = \\dfrac{27}{3} = 9$. Jadi, jawabannya adalah $x = 9$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan logaritma ${}^5\\log(3x - 2) = 2$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah bentuk log ke bentuk pangkat:\n$3x - 2 = 5^2$\n\n2. Hitung hasil pangkatnya:\n$5^2 = 25$\n\n3. Tulis persamaannya:\n$3x - 2 = 25$\n\n4. Tambahkan 2 pada kedua ruas:\n$3x = 27$\n\n5. Bagi 3 pada kedua ruas:\n$x = \\dfrac{27}{3} = 9$\n\n**Jadi, jawabannya adalah $x = 9$ (pilihan ketiga).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,9 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $2^{3x-2} = 32$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: kalau $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 32 menjadi pangkat 2: $32 = 2^5$, sehingga $2^{3x-2} = 2^5$. Lalu samakan pangkatnya: $3x - 2 = 5$. Tambahkan 2 ke kedua ruas: $3x = 7$. Karena itu $x = \\dfrac{7}{3}$. Jadi, jawabannya adalah $x = \\dfrac{7}{3}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan $2^{3x-2} = 32$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\nJika $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah 32 menjadi pangkat 2:\n$32 = 2^5$\n\n2. Samakan basisnya:\n$2^{3x-2} = 2^5$\n\n3. Samakan pangkatnya:\n$3x - 2 = 5$\n\n4. Tambahkan 2 pada kedua ruas:\n$3x = 7$\n\n5. Bagi 3 pada kedua ruas:\n$x = \\dfrac{7}{3}$\n\n**Jadi, jawabannya adalah $x = \\dfrac{7}{3}$ (pilihan kedua).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -81,9 +81,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^2\\log 24 - {}^2\\log 3 + {}^2\\log 2$. Semua logaritma basisnya sama, yaitu 2." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$ untuk pengurangan (angka di dalam log dibagi), dan ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$ untuk penjumlahan (angka di dalam log dikalikan)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan pengurangannya: ${}^2\\log 24 - {}^2\\log 3 = {}^2\\log \\left(\\dfrac{24}{3}\\right) = {}^2\\log 8$. Lalu tambahkan: ${}^2\\log 8 + {}^2\\log 2 = {}^2\\log (8 \\cdot 2) = {}^2\\log 16$. Karena $16 = 2^4$, maka ${}^2\\log 16 = {}^2\\log 2^4 = 4$. Jadi, jawabannya adalah $4$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nKita punya ${}^2\\log 24 - {}^2\\log 3 + {}^2\\log 2$. Semua logaritma basisnya sama, yaitu 2." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n- Pengurangan: ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$\n- Penjumlahan: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$" },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Gabungkan pengurangannya:\n${}^2\\log 24 - {}^2\\log 3 = {}^2\\log \\left(\\dfrac{24}{3}\\right) = {}^2\\log 8$\n\n2. Tambahkan dengan log yang tersisa:\n${}^2\\log 8 + {}^2\\log 2 = {}^2\\log (8 \\cdot 2) = {}^2\\log 16$\n\n3. Hitung hasil akhirnya (karena $16 = 2^4$):\n${}^2\\log 16 = 4$\n\n**Jadi, jawabannya adalah $4$ (pilihan ketiga).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -101,9 +101,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^2\\log 3 \\cdot {}^3\\log 8$. Perhatikan basis log pertama (2) dan angka dalam log kedua (3) saling bertemu di tengah." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, kalau basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret dan hasilnya menjadi log dengan basis pertama dan angka dalam log kedua." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama coret angka 3 di tengah: ${}^2\\log 3 \\cdot {}^3\\log 8 = {}^2\\log 8$. Lalu ubah 8 menjadi pangkat 2: $8 = 2^3$, sehingga ${}^2\\log 8 = {}^2\\log 2^3 = 3$. Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nKita punya ${}^2\\log 3 \\cdot {}^3\\log 8$. Perhatikan basis log pertama (2) dan angka dalam log kedua (3)." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, jika basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Coret angka 3 di tengah:\n${}^2\\log 3 \\cdot {}^3\\log 8 = {}^2\\log 8$\n\n2. Ubah 8 menjadi pangkat 2 (karena $8 = 2^3$):\n${}^2\\log 8 = {}^2\\log 2^3$\n\n3. Hitung hasil akhirnya:\n${}^2\\log 2^3 = 3$\n\n**Jadi, jawabannya adalah $3$ (pilihan ketiga).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -121,9 +121,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $4^{x^2 - 3x} = 1$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, angka 1 bisa ditulis sebagai $4^0$. Lalu kalau $a^m = a^n$ dengan basis sama, maka $m = n$." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 1 menjadi $4^0$, sehingga $4^{x^2 - 3x} = 4^0$. Lalu samakan pangkatnya: $x^2 - 3x = 0$. Faktorkan: $x(x - 3) = 0$. Karena itu $x = 0$ atau $x = 3$. Jadi, jawabannya adalah $x = 0$ atau $x = 3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan $4^{x^2 - 3x} = 1$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n$a^0 = 1$ untuk setiap $a$ yang tidak nol. Angka 1 bisa ditulis sebagai $4^0$. Lalu jika $a^m = a^n$, maka $m = n$." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah 1 menjadi $4^0$:\n$4^{x^2 - 3x} = 4^0$\n\n2. Samakan pangkatnya:\n$x^2 - 3x = 0$\n\n3. Faktorkan persamaan kuadratnya (keluarkan $x$):\n$x(x - 3) = 0$\n\n4. Cari nilai $x$:\n$x = 0$ atau $x = 3$\n\n**Jadi, jawabannya adalah $x = 0$ atau $x = 3$ (pilihan pertama).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -141,9 +141,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 2 \\cdot {}^2\\log 9$. Perhatikan basis log pertama (3) dan angka dalam log kedua (2) saling bertemu di tengah." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, kalau basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret dan hasilnya menjadi log dengan basis pertama dan angka dalam log kedua." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama coret angka 2 di tengah: ${}^3\\log 2 \\cdot {}^2\\log 9 = {}^3\\log 9$. Lalu ubah 9 menjadi pangkat 3: $9 = 3^2$, sehingga ${}^3\\log 9 = {}^3\\log 3^2 = 2$. Jadi, jawabannya adalah $2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nKita punya ${}^3\\log 2 \\cdot {}^2\\log 9$. Perhatikan basis log pertama (3) dan angka dalam log kedua (2)." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, jika basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Coret angka 2 di tengah:\n${}^3\\log 2 \\cdot {}^2\\log 9 = {}^3\\log 9$\n\n2. Ubah 9 menjadi pangkat 3 (karena $9 = 3^2$):\n${}^3\\log 9 = {}^3\\log 3^2$\n\n3. Hitung hasil akhirnya:\n${}^3\\log 3^2 = 2$\n\n**Jadi, jawabannya adalah $2$ (pilihan kedua).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -161,9 +161,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^3\\log(x^2 - 2x) = 1$. Kita harus mencari nilai $x$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log. Setelah itu selesaikan persamaan kuadrat dengan memfaktorkan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $x^2 - 2x = 3^1$. Lalu hitung $3^1 = 3$, sehingga $x^2 - 2x = 3$. Pindahkan 3 ke ruas kiri: $x^2 - 2x - 3 = 0$. Faktorkan: $(x - 3)(x + 1) = 0$. Karena itu $x = 3$ atau $x = -1$. Jadi, jawabannya adalah $x = -1$ atau $x = 3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPersamaan logaritma ${}^3\\log(x^2 - 2x) = 1$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n${}^a\\log b = c$ sama artinya dengan $b = a^c$. Setelah itu selesaikan persamaan kuadrat dengan memfaktorkan." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah bentuk log ke bentuk pangkat:\n$x^2 - 2x = 3^1$\n\n2. Hitung hasil pangkatnya:\n$x^2 - 2x = 3$\n\n3. Pindahkan 3 ke ruas kiri:\n$x^2 - 2x - 3 = 0$\n\n4. Faktorkan persamaan kuadratnya:\n$(x - 3)(x + 1) = 0$\n\n5. Cari nilai $x$:\n$x = 3$ atau $x = -1$\n\n**Jadi, jawabannya adalah $x = -1$ atau $x = 3$ (pilihan pertama).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -181,9 +181,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: pertidaksamaan $\\left(\\dfrac{1}{2}\\right)^x < 8$. Kita harus mencari rentang nilai $x$." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\dfrac{1}{2} = 2^{-1}$, sehingga $\\left(\\dfrac{1}{2}\\right)^x = 2^{-x}$. Lalu kalau $a^m < a^n$ dengan basis $a > 1$, tanda pertidaksamaan tetap: $m < n$. Artinya, karena basis 2 lebih besar dari 1, arah tanda tidak berubah." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah $\\left(\\dfrac{1}{2}\\right)^x$ menjadi $2^{-x}$ dan ubah 8 menjadi $2^3$, sehingga $2^{-x} < 2^3$. Lalu karena basis $2 > 1$, tanda tetap: $-x < 3$. Kalikan kedua ruas dengan $-1$ (tanda berbalik): $x > -3$. Jadi, jawabannya adalah $x > -3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPertidaksamaan $\\left(\\dfrac{1}{2}\\right)^x < 8$. Kita harus mencari rentang nilai $x$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\n$\\dfrac{1}{2} = 2^{-1}$, sehingga $\\left(\\dfrac{1}{2}\\right)^x = 2^{-x}$. Jika $a^m < a^n$ dengan basis $a > 1$, tanda pertidaksamaan tetap: $m < n$." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Ubah bentuk pecahan dan angka 8:\n$2^{-x} < 2^3$\n\n2. Karena basis $2 > 1$, tanda tetap dan samakan pangkatnya:\n$-x < 3$\n\n3. Kalikan -1 pada kedua ruas (tanda berbalik):\n$x > -3$\n\n**Jadi, jawabannya adalah $x > -3$ (pilihan pertama).**" }
       ],
       "tingkat": "SEDANG"
     },
@@ -201,9 +201,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: populasi awal 100 bakteri, berlipat ganda (dikali 2) setiap 3 jam, dan waktu yang ditanyakan 9 jam." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: banyak periode penggandaan $n = \\dfrac{\\text{waktu total}}{\\text{waktu per periode}}$, lalu populasi akhir $P = P_0 \\times 2^n$. Artinya, setiap satu periode jumlahnya dikali 2." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama hitung banyak periode: $n = \\dfrac{9}{3} = 3$, artinya bakteri berlipat ganda 3 kali. Lalu hitung $2^3 = 8$. Karena itu $P = 100 \\times 8 = 800$. Jadi, jawabannya adalah $800$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:**\nPopulasi awal 100 bakteri, berlipat ganda (dikali 2) setiap 3 jam, dan waktu yang ditanyakan 9 jam." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:**\nBanyak periode penggandaan $n = \\dfrac{\\text{waktu total}}{\\text{waktu per periode}}$. Lalu populasi akhir $P = P_0 \\times 2^n$." },
+        { "tipe": "paragraph", "text": "**Langkah pengerjaan:**\n1. Hitung banyak periode penggandaan:\n$n = \\dfrac{9}{3} = 3$\n\n2. Masukkan ke rumus populasi akhir:\n$P = 100 \\times 2^3$\n\n3. Hitung pangkatnya:\n$2^3 = 8$\n\n4. Kalikan dengan populasi awal:\n$P = 100 \\times 8 = 800$\n\n**Jadi, jawabannya adalah $800$ (pilihan ketiga).**" }
       ],
       "tingkat": "SEDANG"
     }
