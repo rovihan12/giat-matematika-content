@@ -21,8 +21,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^{x+2} = 32 = 2^5$" },
-        { "tipe": "paragraph", "text": "$x + 2 = 5 \\Rightarrow x = 3$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bilangan di ruas kanan ($32$) menjadi bentuk bilangan berpangkat dengan basis $2$ agar kedua ruas memiliki basis yang sama." },
+        { "tipe": "paragraph", "text": "$2^{x+2} = 32$" },
+        { "tipe": "paragraph", "text": "$2^{x+2} = 2^5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Karena kedua ruas sudah memiliki basis yang sama (yaitu $2$), samakan pangkatnya untuk mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "$x + 2 = 5$" },
+        { "tipe": "paragraph", "text": "$x = 5 - 2$" },
+        { "tipe": "paragraph", "text": "$x = 3$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -40,8 +45,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^3\\log(2x + 1) = 3 \\Rightarrow 2x + 1 = 3^3 = 27$" },
-        { "tipe": "paragraph", "text": "$2x = 26 \\Rightarrow x = 13$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma ke bentuk eksponen menggunakan definisi dasar logaritma: jika ${}^a\\log b = c$, maka $b = a^c$." },
+        { "tipe": "paragraph", "text": "${}^3\\log(2x + 1) = 3$" },
+        { "tipe": "paragraph", "text": "$2x + 1 = 3^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai pangkat pada ruas kanan, lalu selesaikan persamaan linear untuk mendapatkan nilai $x$." },
+        { "tipe": "paragraph", "text": "$2x + 1 = 27$" },
+        { "tipe": "paragraph", "text": "$2x = 27 - 1$" },
+        { "tipe": "paragraph", "text": "$2x = 26$" },
+        { "tipe": "paragraph", "text": "$x = \\dfrac{26}{2} = 13$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3 (Uji Syarat Numerus):</strong> Pastikan syarat numerus terpenuhi ($2x + 1 > 0$). Untuk $x = 13$, diperoleh $2(13) + 1 = 27 > 0$ (memenuhi)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -59,8 +71,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gabungkan seluruh suku menggunakan sifat pengurangan (${}^a\\log b - {}^a\\log c = {}^a\\log \\frac{b}{c}$) dan penjumlahan logaritma (${}^a\\log b + {}^a\\log d = {}^a\\log (b \\cdot d)$)." },
         { "tipe": "paragraph", "text": "${}^2\\log 20 - {}^2\\log 5 + {}^2\\log 4 = {}^2\\log\\left(\\dfrac{20 \\cdot 4}{5}\\right)$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 16 = {}^2\\log 2^4 = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan perhitungan pecahan di dalam numerus." },
+        { "tipe": "paragraph", "text": "$= {}^2\\log\\left(\\dfrac{80}{5}\\right) = {}^2\\log 16$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Ubah angka $16$ menjadi bentuk pangkat berbasis $2$, lalu gunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^4 = 4 \\cdot {}^2\\log 2 = 4 \\cdot 1 = 4$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -78,8 +94,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat perkalian berantai logaritma (${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$) karena numerus pada suku pertama sama dengan basis pada suku kedua (yaitu $5$)." },
         { "tipe": "paragraph", "text": "${}^2\\log 5 \\cdot {}^5\\log 16 = {}^2\\log 16$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 2^4 = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah numerus $16$ menjadi bentuk pangkat berbasis $2$, lalu terapkan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^4 = 4 \\cdot {}^2\\log 2 = 4 \\cdot 1 = 4$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -97,9 +115,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3^{x^2 - 4x} = 1 = 3^0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ingat sifat bilangan berpangkat nol bahwa $a^0 = 1$ (untuk $a \\neq 0$). Ubah angka $1$ pada ruas kanan menjadi $3^0$ agar basis kedua ruas sama." },
+        { "tipe": "paragraph", "text": "$3^{x^2 - 4x} = 1$" },
+        { "tipe": "paragraph", "text": "$3^{x^2 - 4x} = 3^0$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Samakan pangkat pada kedua ruas karena basisnya sudah sama." },
         { "tipe": "paragraph", "text": "$x^2 - 4x = 0$" },
-        { "tipe": "paragraph", "text": "$x(x - 4) = 0 \\Rightarrow x = 0$ atau $x = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut untuk menemukan nilai-nilai $x$ yang memenuhi." },
+        { "tipe": "paragraph", "text": "$x(x - 4) = 0$" },
+        { "tipe": "paragraph", "text": "Diperoleh $x = 0$ atau $x - 4 = 0 \\Rightarrow x = 4$." }
       ],
       "tingkat": "SEDANG"
     },
@@ -117,9 +140,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 2x) = 3 \\Rightarrow x^2 - 2x = 2^3 = 8$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma ke bentuk eksponen menggunakan definisi ${}^a\\log b = c \\Leftrightarrow b = a^c$." },
+        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 2x) = 3$" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x = 2^3$" },
+        { "tipe": "paragraph", "text": "$x^2 - 2x = 8$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Pindahkan seluruh suku ke ruas kiri untuk membentuk persamaan kuadrat, lalu faktorkan." },
         { "tipe": "paragraph", "text": "$x^2 - 2x - 8 = 0$" },
-        { "tipe": "paragraph", "text": "$(x - 4)(x + 2) = 0 \\Rightarrow x = 4$ atau $x = -2$" }
+        { "tipe": "paragraph", "text": "$(x - 4)(x + 2) = 0$" },
+        { "tipe": "paragraph", "text": "Diperoleh $x = 4$ atau $x = -2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3 (Uji Syarat Numerus):</strong> Numerus harus bernilai positif ($x^2 - 2x > 0$). Untuk $x = 4$, diperoleh $4^2 - 2(4) = 8 > 0$ (memenuhi). Untuk $x = -2$, diperoleh $(-2)^2 - 2(-2) = 8 > 0$ (memenuhi)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -137,8 +166,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3^x > 81 = 3^4$" },
-        { "tipe": "paragraph", "text": "Karena basis $3 > 1$: $x > 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bilangan di ruas kanan ($81$) menjadi bentuk bilangan berpangkat dengan basis $3$." },
+        { "tipe": "paragraph", "text": "$3^x > 81$" },
+        { "tipe": "paragraph", "text": "$3^x > 3^4$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat pertidaksamaan eksponen: untuk basis $a > 1$, jika $a^{f(x)} > a^{g(x)}$, maka tanda pertidaksamaan <strong>tetap</strong> sehingga $f(x) > g(x)$." },
+        { "tipe": "paragraph", "text": "Karena basisnya adalah $3$ ($3 > 1$), maka tanda pertidaksamaan tidak berubah:" },
+        { "tipe": "paragraph", "text": "$x > 4$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -156,8 +189,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat perkalian berantai logaritma (${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$) karena numerus suku pertama sama dengan basis suku kedua (yaitu $3$)." },
         { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 4 = {}^2\\log 4$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 2^2 = 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah numerus $4$ menjadi bentuk berpangkat berbasis $2$, lalu gunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= {}^2\\log 2^2 = 2 \\cdot {}^2\\log 2 = 2 \\cdot 1 = 2$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -175,9 +210,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$5^{2x-3} = 125 = 5^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Samakan basis kedua ruas dengan mengubah $125$ menjadi bentuk bilangan berpangkat berbasis $5$." },
+        { "tipe": "paragraph", "text": "$5^{2x-3} = 125$" },
+        { "tipe": "paragraph", "text": "$5^{2x-3} = 5^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Karena basis di kedua ruas sudah sama, samakan pangkatnya untuk menyelesaikan nilai $x$." },
         { "tipe": "paragraph", "text": "$2x - 3 = 3$" },
-        { "tipe": "paragraph", "text": "$2x = 6 \\Rightarrow x = 3$" }
+        { "tipe": "paragraph", "text": "$2x = 3 + 3$" },
+        { "tipe": "paragraph", "text": "$2x = 6$" },
+        { "tipe": "paragraph", "text": "$x = \\dfrac{6}{2} = 3$" }
       ],
       "tingkat": "SEDANG"
     },
@@ -195,9 +235,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$M_n = M_0(1 + i)^n$" },
-        { "tipe": "paragraph", "text": "$M_2 = 2.000.000(1 + 0{,}05)^2 = 2.000.000(1{,}05)^2$" },
-        { "tipe": "paragraph", "text": "$= 2.000.000 \\times 1{,}1025 = 2.205.000$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi komponen yang diketahui dari soal dan tulis rumus pertumbuhan eksponensial untuk bunga majemuk." },
+        { "tipe": "paragraph", "text": "Modal awal ($M_0$) = $\\text{Rp}2.000.000$, suku bunga ($i$) = $5\\% = 0{,}05$ per tahun, dan periode waktu ($n$) = $2$ tahun." },
+        { "tipe": "paragraph", "text": "Rumus bunga majemuk: $M_n = M_0(1 + i)^n$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai yang diketahui ke dalam rumus." },
+        { "tipe": "paragraph", "text": "$M_2 = 2.000.000(1 + 0{,}05)^2$" },
+        { "tipe": "paragraph", "text": "$M_2 = 2.000.000(1{,}05)^2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai pangkat dan kalikan dengan modal awal untuk mendapatkan besar tabungan akhir." },
+        { "tipe": "paragraph", "text": "$M_2 = 2.000.000 \\times 1{,}1025$" },
+        { "tipe": "paragraph", "text": "$M_2 = 2.205.000$" },
+        { "tipe": "paragraph", "text": "Jadi, besar tabungan setelah $2$ tahun adalah $\\text{Rp}2.205.000{,}00$." }
       ],
       "tingkat": "SEDANG"
     }
