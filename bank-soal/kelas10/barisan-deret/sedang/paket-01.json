@@ -21,7 +21,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_t = \\dfrac{a + U_n}{2} = \\dfrac{3 + 43}{2} = 23$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku tengah barisan aritmatika $U_t = \\dfrac{a + U_n}{2}$ dengan $a = 3$ dan $U_{11} = 43$." },
+        { "tipe": "paragraph", "text": "$U_t = \\dfrac{3 + 43}{2} = \\dfrac{46}{2} = 23$" },
+        { "tipe": "paragraph", "text": "Jadi, suku tengahnya adalah $23$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -39,8 +41,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Disisipkan $k = 4$ bilangan → total suku baru = $n + k = 2 + 4 = 6$." },
-        { "tipe": "paragraph", "text": "$b = \\dfrac{U_{baru} - U_{awal}}{k+1} = \\dfrac{32 - 2}{4+1} = \\dfrac{30}{5} = 6$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus beda barisan baru setelah disisipkan $k$ bilangan: $b' = \\dfrac{y - x}{k + 1}$, dengan $x = 2$, $y = 32$, dan $k = 4$." },
+        { "tipe": "paragraph", "text": "$b' = \\dfrac{32 - 2}{4 + 1} = \\dfrac{30}{5} = 6$" },
+        { "tipe": "paragraph", "text": "Jadi, beda barisan baru adalah $6$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -58,9 +61,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_7 - U_3 = 27 - 11 = 16 = 4b \\Rightarrow b = 4$" },
-        { "tipe": "paragraph", "text": "$U_3 = a + 2b = 11 \\Rightarrow a = 11 - 8 = 3$" },
-        { "tipe": "paragraph", "text": "$U_{15} = 3 + 14 \\cdot 4 = 3 + 56 = 59$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) menggunakan selisih suku ke-7 dan suku ke-3: $U_7 - U_3 = (7 - 3)b \\Rightarrow 27 - 11 = 4b \\Rightarrow 16 = 4b \\Rightarrow b = 4$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan suku pertama ($a$) menggunakan persamaan $U_3 = a + 2b = 11 \\Rightarrow a + 2(4) = 11 \\Rightarrow a + 8 = 11 \\Rightarrow a = 3$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Cari suku ke-15 ($U_{15}$) menggunakan rumus $U_n = a + (n-1)b$." },
+        { "tipe": "paragraph", "text": "$U_{15} = 3 + (15 - 1) \\cdot 4 = 3 + 14 \\cdot 4 = 3 + 56 = 59$" },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-15 adalah $59$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -76,11 +81,14 @@
         [ { "tipe": "paragraph", "text": "$5050$" } ],
         [ { "tipe": "paragraph", "text": "$5100$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelipatan 3: pertama $102$, terakhir $198$." },
-        { "tipe": "paragraph", "text": "$n = \\dfrac{198 - 102}{3} + 1 = \\dfrac{96}{3} + 1 = 33$" },
-        { "tipe": "paragraph", "text": "$S_{33} = \\dfrac{33}{2}(102 + 198) = \\dfrac{33}{2}(300) = 33 \\cdot 150 = 4950$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a$) dan suku terakhir ($U_n$) yang merupakan kelipatan 3 antara 100 dan 200. Suku pertama $a = 102$ dan suku terakhir $U_n = 198$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan banyaknya suku ($n$) dengan rumus $U_n = a + (n-1)b$." },
+        { "tipe": "paragraph", "text": "$198 = 102 + (n - 1)3 \\Rightarrow 96 = 3(n - 1) \\Rightarrow n - 1 = 32 \\Rightarrow n = 33$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah 33 suku pertama ($S_{33}$) menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$." },
+        { "tipe": "paragraph", "text": "$S_{33} = \\dfrac{33}{2}(102 + 198) = \\dfrac{33}{2}(300) = 33 \\cdot 150 = 4950$" },
+        { "tipe": "paragraph", "text": "Jadi, jumlahnya adalah $4950$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -98,7 +106,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_t = \\sqrt{a \\cdot U_n} = \\sqrt{2 \\cdot 512} = \\sqrt{1024} = 32$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku tengah barisan geometri $U_t = \\sqrt{a \\cdot U_n}$ dengan $a = 2$ dan $U_9 = 512$." },
+        { "tipe": "paragraph", "text": "$U_t = \\sqrt{2 \\cdot 512} = \\sqrt{1024} = 32$" },
+        { "tipe": "paragraph", "text": "Jadi, suku tengahnya adalah $32$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -116,8 +126,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 5$, $b = 3$" },
-        { "tipe": "paragraph", "text": "$U_n = 5 + (n-1) \\cdot 3 = 5 + 3n - 3 = 3n + 2$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 5$) dan beda ($b = 8 - 5 = 3$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $a$ dan $b$ ke dalam rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$." },
+        { "tipe": "paragraph", "text": "$U_n = 5 + (n - 1) \\cdot 3 = 5 + 3n - 3 = 3n + 2$" },
+        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = 3n + 2$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -135,8 +147,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = \\dfrac{1}{2}$, $r = \\dfrac{1}{1/2} = 2$" },
-        { "tipe": "paragraph", "text": "$U_4 = \\dfrac{1}{2} \\cdot 2^{3} = \\dfrac{1}{2} \\cdot 8 = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = \\dfrac{1}{2}$) dan rasio ($r = \\dfrac{1}{\\frac{1}{2}} = 2$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus $U_n = a \\cdot r^{n-1}$ untuk mencari suku ke-4 ($U_4$)." },
+        { "tipe": "paragraph", "text": "$U_4 = \\dfrac{1}{2} \\cdot 2^{4-1} = \\dfrac{1}{2} \\cdot 2^3 = \\dfrac{1}{2} \\cdot 8 = 4$" },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-4 adalah $4$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -154,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 3$, $b = 2$, $n = 12$" },
-        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2 \\cdot 3 + 11 \\cdot 2) = 6(6 + 22) = 6 \\cdot 28 = 168$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 3$), beda ($b = 5 - 3 = 2$), dan banyaknya suku ($n = 12$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
+        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2(3) + (12 - 1)2) = 6(6 + 11 \\cdot 2) = 6(6 + 22) = 6 \\cdot 28 = 168$" },
+        { "tipe": "paragraph", "text": "Jadi, jumlah 12 suku pertama adalah $168$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -173,8 +189,9 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$U_{10} - U_5 = 37 - 17 = 20 = 5b \\Rightarrow b = 4$" },
-        { "tipe": "paragraph", "text": "$U_5 = a + 4b = 17 \\Rightarrow a = 17 - 16 = 1$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) dengan menggunakan selisih $U_{10}$ dan $U_5$: $U_{10} - U_5 = (10 - 5)b \\Rightarrow 37 - 17 = 5b \\Rightarrow 20 = 5b \\Rightarrow b = 4$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan suku pertama ($a$) menggunakan persamaan $U_5 = a + 4b = 17 \\Rightarrow a + 4(4) = 17 \\Rightarrow a + 16 = 17 \\Rightarrow a = 1$." },
+        { "tipe": "paragraph", "text": "Jadi, suku pertama dan bedanya berturut-turut adalah $a = 1$ dan $b = 4$ (pilihan kelima)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -192,8 +209,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Diketahui $U_3 = 12$, $U_4 = 24$, $U_5 = 48$, sehingga rasio $r = \\dfrac{24}{12} = 2$." },
-        { "tipe": "paragraph", "text": "$U_5 = U_3 \\cdot r^{5-3} = 12 \\cdot 2^2 = 12 \\cdot 4 = 48$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan rasio ($r$) barisan geometri dari dua suku berurutan yang diketahui: $r = \\dfrac{24}{12} = 2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ untuk mencari suku ke-5 ($U_5$) dari suku ke-3 ($U_3 = 12$)." },
+        { "tipe": "paragraph", "text": "$U_5 = U_3 \\cdot r^{5-3} = 12 \\cdot 2^2 = 12 \\cdot 4 = 48$" },
+        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $48$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     }
