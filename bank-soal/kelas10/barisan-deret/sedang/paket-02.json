@@ -21,9 +21,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Barisan aritmatika: $a = 2.000.000$, $b = 100.000$." },
-        { "tipe": "paragraph", "text": "Gaji tahun ke-5 = tahun ke-5 (bukan suku ke-5 dari awal)? Kita anggap tahun pertama = gaji awal." },
-        { "tipe": "paragraph", "text": "$U_5 = 2.000.000 + 4 \\cdot 100.000 = 2.400.000$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi unsur barisan aritmatika: suku pertama ($a = 2.000.000$) dan beda kenaikan per tahun ($b = 100.000$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$ untuk mencari gaji pada tahun ke-5 ($U_5$)." },
+        { "tipe": "paragraph", "text": "$U_5 = 2.000.000 + (5 - 1) \\cdot 100.000 = 2.000.000 + 4 \\cdot 100.000 = 2.000.000 + 400.000 = 2.400.000$" },
+        { "tipe": "paragraph", "text": "Jadi, gaji pada tahun ke-5 adalah Rp2.400.000 (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,9 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Lintasan = $h + 2 \\cdot S_\\infty(\\text{pantulan})$." },
-        { "tipe": "paragraph", "text": "Pantulan pertama = $4$ m, lalu $2, 1, \\ldots$ → $S_\\infty = \\dfrac{4}{1 - 1/2} = 8$." },
-        { "tipe": "paragraph", "text": "Total = $8 + 2 \\cdot 8 = 24$ m" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus total lintasan bola jatuh dan memantul: $\\text{Lintasan} = h + 2 \\cdot S_\\infty$, dengan tinggi awal $h = 8$ m dan rasio pantulan $r = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung jumlah deret geometri tak hingga untuk lintasan naik ($S_\\infty$). Tinggi pantulan pertama adalah $8 \\times \\dfrac{1}{2} = 4$ m, sehingga $S_\\infty = \\dfrac{a}{1 - r} = \\dfrac{4}{1 - \\frac{1}{2}} = \\dfrac{4}{\\frac{1}{2}} = 8$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung total keseluruhan lintasan: $\\text{Lintasan} = 8 + 2 \\cdot 8 = 8 + 16 = 24$ m." },
+        { "tipe": "paragraph", "text": "Jadi, total panjang lintasan bola adalah $24$ m (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,8 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pertumbuhan → barisan geometri: $a = 500.000$, $r = 1{,}02$." },
-        { "tipe": "paragraph", "text": "$U_4 = 500.000 \\cdot (1{,}02)^3$ (tahun ke-3 setelah awal)." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Masalah pertumbuhan penduduk mengikuti konsep barisan geometri dengan nilai awal $P_0 = 500.000$ dan faktor pengali pertumbuhan $1 + p = 1 + 0{,}02 = 1{,}02$ per tahun." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus pertumbuhan penduduk setelah $t$ tahun: $P_t = P_0 \\cdot (1 + p)^t$." },
+        { "tipe": "paragraph", "text": "Untuk $t = 3$ tahun, jumlah penduduk adalah $500.000 \\cdot (1{,}02)^3$." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $500.000 \\cdot (1{,}02)^3$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,8 +84,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{n(n+1)}{2} = 78 \\Rightarrow n(n+1) = 156$" },
-        { "tipe": "paragraph", "text": "$12 \\cdot 13 = 156$, jadi $n = 12$." }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah $n$ bilangan asli pertama: $S_n = \\dfrac{n(n+1)}{2}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai jumlah yang diketahui ke dalam persamaan: $\\dfrac{n(n+1)}{2} = 78 \\Rightarrow n(n+1) = 78 \\times 2 = 156$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Cari dua bilangan bulat berurutan yang hasil kalinya $156$, yaitu $12 \\times 13 = 156$, sehingga diperoleh $n = 12$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $n$ adalah $12$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,8 +105,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = 10$, $b = 2$" },
-        { "tipe": "paragraph", "text": "$U_{10} = 10 + 9 \\cdot 2 = 28$ km" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 10$) dan beda ($b = 12 - 10 = 2$) dari barisan aritmatika tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$ untuk mencari jarak pada menit ke-10 ($U_{10}$)." },
+        { "tipe": "paragraph", "text": "$U_{10} = 10 + (10 - 1) \\cdot 2 = 10 + 9 \\cdot 2 = 10 + 18 = 28$ km." },
+        { "tipe": "paragraph", "text": "Jadi, jarak yang ditempuh pada menit ke-10 adalah $28$ km (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -118,7 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{6}{2}(a + U_6) = 3(5 + 30) = 3 \\cdot 35 = 105$ cm" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan informasi yang diketahui: banyaknya potongan $n = 6$, potongan terpendek (suku pertama $a = 5$ cm), dan potongan terpanjang (suku ke-6 $U_6 = 30$ cm)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah $n$ suku pertama deret aritmatika $S_n = \\dfrac{n}{2}(a + U_n)$ untuk mencari panjang tali semula ($S_6$)." },
+        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{6}{2}(5 + 30) = 3 \\cdot 35 = 105$ cm." },
+        { "tipe": "paragraph", "text": "Jadi, panjang tali semula adalah $105$ cm (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -136,8 +147,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a = \\dfrac{1}{2}$, $r = \\dfrac{1/6}{1/2} = \\dfrac{1}{3}$" },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{1/2}{1 - 1/3} = \\dfrac{1/2}{2/3} = \\dfrac{3}{4}$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = \\dfrac{1}{2}$) dan rasio ($r = \\dfrac{1/6}{1/2} = \\dfrac{1}{6} \\times 2 = \\dfrac{1}{3}$) dari deret tersebut." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$." },
+        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{\\dfrac{1}{2}}{1 - \\dfrac{1}{3}} = \\dfrac{\\dfrac{1}{2}}{\\dfrac{2}{3}} = \\dfrac{1}{2} \\times \\dfrac{3}{2} = \\dfrac{3}{4}$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah deret tak hingga tersebut adalah $\\dfrac{3}{4}$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -155,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_n = n^2$ (jumlah $n$ bilangan ganjil pertama)." },
-        { "tipe": "paragraph", "text": "$S_{20} = 20^2 = 400$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kenali sifat jumlah $n$ bilangan ganjil pertama yang bernilai sama dengan $n^2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 20$ ke dalam rumus $S_n = n^2$." },
+        { "tipe": "paragraph", "text": "$S_{20} = 20^2 = 400$." },
+        { "tipe": "paragraph", "text": "Jadi, jumlah 20 suku pertama adalah $400$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -174,8 +189,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{U_5}{U_2} = \\dfrac{48}{6} = 8 = r^3 \\Rightarrow r = 2$" },
-        { "tipe": "paragraph", "text": "$U_2 = a \\cdot r = 6 \\Rightarrow a = 3$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-5 dan suku ke-2 untuk mencari rasio ($r$): $\\dfrac{U_5}{U_2} = \\dfrac{48}{6} = 8 \\Rightarrow r^{5-2} = 8 \\Rightarrow r^3 = 8 \\Rightarrow r = 2$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku pertama ($U_1$ atau $a$) menggunakan persamaan $U_2 = a \\cdot r$." },
+        { "tipe": "paragraph", "text": "$6 = a \\cdot 2 \\Rightarrow a = \\dfrac{6}{2} = 3$." },
+        { "tipe": "paragraph", "text": "Jadi, nilai $U_1$ adalah $3$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -193,8 +210,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2 \\cdot 5 + 9b) = 5(10 + 9b) = 230$" },
-        { "tipe": "paragraph", "text": "$10 + 9b = 46 \\Rightarrow 9b = 36 \\Rightarrow b = 4$" }
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan rumus jumlah 10 suku pertama deret aritmatika: $S_{10} = \\dfrac{10}{2}(2a + (10-1)b) = 5(2a + 9b)$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $a = 5$ dan $S_{10} = 230$ ke dalam persamaan." },
+        { "tipe": "paragraph", "text": "$230 = 5(2(5) + 9b) \\Rightarrow 230 = 5(10 + 9b) \\Rightarrow 10 + 9b = \\dfrac{230}{5} = 46$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan linear untuk mencari beda ($b$): $9b = 46 - 10 = 36 \\Rightarrow b = 4$." },
+        { "tipe": "paragraph", "text": "Jadi, beda deret tersebut adalah $4$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     }
