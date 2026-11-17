@@ -21,9 +21,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^{x+1} = 8 = 2^3$" },
-        { "tipe": "paragraph", "text": "Karena basis sama, maka $x + 1 = 3$" },
-        { "tipe": "paragraph", "text": "$x = 2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $2^{x+1} = 8$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: kalau $a^m = a^n$ dengan basis $a$ sama (dan $a > 0$, $a \\neq 1$), maka pangkatnya harus sama: $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 8 menjadi pangkat 2: $8 = 2^3$, sehingga $2^{x+1} = 2^3$. Lalu karena basisnya sudah sama, samakan pangkatnya: $x + 1 = 3$. Karena itu $x = 3 - 1 = 2$. Jadi, jawabannya adalah $x = 2$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,8 +41,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log(x+3) = 3 \\Rightarrow x + 3 = 2^3 = 8$" },
-        { "tipe": "paragraph", "text": "$x = 8 - 3 = 5$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^2\\log(x+3) = 3$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $x + 3 = 2^3$. Lalu hitung $2^3 = 8$, sehingga $x + 3 = 8$. Karena itu $x = 8 - 3 = 5$. Jadi, jawabannya adalah $x = 5$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -60,9 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3^{2x-1} = 27 = 3^3$" },
-        { "tipe": "paragraph", "text": "$2x - 1 = 3$" },
-        { "tipe": "paragraph", "text": "$2x = 4 \\Rightarrow x = 2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $3^{2x-1} = 27$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: kalau $a^m = a^n$ dengan basis sama, maka $m = n$. Jadi, kita perlu menyamakan basis kedua ruas." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 27 menjadi pangkat 3: $27 = 3^3$, sehingga $3^{2x-1} = 3^3$. Lalu samakan pangkatnya: $2x - 1 = 3$. Tambahkan 1 ke kedua ruas: $2x = 4$. Karena itu $x = \\dfrac{4}{2} = 2$. Jadi, jawabannya adalah $x = 2$ (pilihan kedua)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,8 +81,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^3\\log(2x-1) = 2 \\Rightarrow 2x - 1 = 3^2 = 9$" },
-        { "tipe": "paragraph", "text": "$2x = 10 \\Rightarrow x = 5$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^3\\log(2x-1) = 2$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $2x - 1 = 3^2$. Lalu hitung $3^2 = 9$, sehingga $2x - 1 = 9$. Tambahkan 1 ke kedua ruas: $2x = 10$. Karena itu $x = \\dfrac{10}{2} = 5$. Jadi, jawabannya adalah $x = 5$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,8 +101,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log 12 + {}^2\\log 4 - {}^2\\log 3 = {}^2\\log\\left(\\dfrac{12 \\cdot 4}{3}\\right)$" },
-        { "tipe": "paragraph", "text": "$= {}^2\\log 16 = {}^2\\log 2^4 = 4$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^2\\log 12 + {}^2\\log 4 - {}^2\\log 3$. Semua logaritma basisnya sama, yaitu 2." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$ untuk penjumlahan (angka di dalam log dikalikan), dan ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$ untuk pengurangan (angka di dalam log dibagi)." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan penjumlahannya: ${}^2\\log 12 + {}^2\\log 4 = {}^2\\log (12 \\cdot 4) = {}^2\\log 48$. Lalu kurangkan: ${}^2\\log 48 - {}^2\\log 3 = {}^2\\log \\left(\\dfrac{48}{3}\\right) = {}^2\\log 16$. Karena $16 = 2^4$, maka ${}^2\\log 16 = {}^2\\log 2^4 = 4$. Jadi, jawabannya adalah $4$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -118,8 +121,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan sifat ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$" },
-        { "tipe": "paragraph", "text": "${}^3\\log 5 \\cdot {}^5\\log 27 = {}^3\\log 27 = {}^3\\log 3^3 = 3$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 5 \\cdot {}^5\\log 27$. Perhatikan basis log pertama (3) dan angka dalam log kedua (5) saling bertemu di tengah." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b \\cdot {}^b\\log c = {}^a\\log c$. Artinya, kalau basis log pertama sama dengan angka dalam log kedua, keduanya bisa dicoret dan hasilnya menjadi log dengan basis pertama dan angka dalam log kedua." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama coret angka 5 di tengah: ${}^3\\log 5 \\cdot {}^5\\log 27 = {}^3\\log 27$. Lalu ubah 27 menjadi pangkat 3: $27 = 3^3$, sehingga ${}^3\\log 27 = {}^3\\log 3^3 = 3$. Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -137,9 +141,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$5^{x^2 - 2x} = 1 = 5^0$" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x = 0$" },
-        { "tipe": "paragraph", "text": "$x(x - 2) = 0 \\Rightarrow x = 0$ atau $x = 2$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan $5^{x^2 - 2x} = 1$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, angka 1 bisa ditulis sebagai $5^0$. Lalu kalau $a^m = a^n$ dengan basis sama, maka $m = n$." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 1 menjadi $5^0$, sehingga $5^{x^2 - 2x} = 5^0$. Lalu samakan pangkatnya: $x^2 - 2x = 0$. Faktorkan: $x(x - 2) = 0$. Karena itu $x = 0$ atau $x = 2$. Jadi, jawabannya adalah $x = 0$ atau $x = 2$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -157,9 +161,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 4x) = 5 \\Rightarrow x^2 - 4x = 2^5 = 32$" },
-        { "tipe": "paragraph", "text": "$x^2 - 4x - 32 = 0$" },
-        { "tipe": "paragraph", "text": "$(x - 8)(x + 4) = 0 \\Rightarrow x = 8$ atau $x = -4$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: persamaan logaritma ${}^2\\log(x^2 - 4x) = 5$. Kita harus mencari nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $b = a^c$. Artinya, angka di dalam log sama dengan basis dipangkatkan hasil log. Setelah itu selesaikan persamaan kuadrat dengan memfaktorkan." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bentuk log ke bentuk pangkat: $x^2 - 4x = 2^5$. Lalu hitung $2^5 = 32$, sehingga $x^2 - 4x = 32$. Pindahkan 32 ke ruas kiri: $x^2 - 4x - 32 = 0$. Faktorkan: $(x - 8)(x + 4) = 0$. Karena itu $x = 8$ atau $x = -4$. Jadi, jawabannya adalah $x = -4$ atau $x = 8$ (pilihan pertama)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -177,9 +181,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2^x > 16 = 2^4$" },
-        { "tipe": "paragraph", "text": "Karena basis $2 > 1$, tanda pertidaksamaan tetap" },
-        { "tipe": "paragraph", "text": "$x > 4$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: pertidaksamaan $2^x > 16$. Kita harus mencari rentang nilai $x$." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: kalau $a^m > a^n$ dengan basis $a > 1$, maka tanda pertidaksamaan tetap: $m > n$. Artinya, karena basis 2 lebih besar dari 1, arah tanda tidak berubah." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah 16 menjadi pangkat 2: $16 = 2^4$, sehingga $2^x > 2^4$. Lalu karena basis $2 > 1$, tanda tetap: $x > 4$. Jadi, jawabannya adalah $x > 4$ (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     },
@@ -197,9 +201,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rumus bunga majemuk: $M_n = M_0(1 + i)^n$" },
-        { "tipe": "paragraph", "text": "$M_2 = 1.000.000(1 + 0{,}1)^2 = 1.000.000(1{,}1)^2$" },
-        { "tipe": "paragraph", "text": "$= 1.000.000 \\times 1{,}21 = 1.210.000$" }
+        { "tipe": "paragraph", "text": "Yang diketahui: modal awal Rp1.000.000,00, bunga majemuk 10% per tahun, dan lama menabung 2 tahun." },
+        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: rumus bunga majemuk $M_n = M_0(1 + i)^n$, dengan $M_0$ modal awal, $i$ bunga per tahun (dalam bentuk desimal), dan $n$ lama tahun. Artinya, modal dikali faktor $(1 + i)$ sebanyak $n$ kali." },
+        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah bunga 10% menjadi desimal: $i = 0{,}1$, sehingga $1 + i = 1{,}1$. Lalu hitung $(1{,}1)^2 = 1{,}1 \\times 1{,}1 = 1{,}21$. Karena itu $M_2 = 1.000.000 \\times 1{,}21 = 1.210.000$. Jadi, jawabannya adalah Rp1.210.000,00 (pilihan ketiga)." }
       ],
       "tingkat": "SEDANG"
     }
