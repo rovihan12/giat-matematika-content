@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $6^3$ dikali $6^2$. Basisnya sama-sama 6, sedangkan pangkatnya 3 dan 2." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^m \\cdot a^n = a^{m+n}$. Artinya, kalau basisnya sama dan dikali, pangkatnya cukup dijumlahkan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama jumlahkan pangkatnya: $3 + 2 = 5$. Lalu tulis basisnya dengan pangkat baru: $6^5$. Jadi, jawabannya adalah $6^5$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perkalian bentuk eksponen $6^3 \\cdot 6^2$. Basis kedua bilangan sama, yaitu $6$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan pangkatnya karena basisnya sudah sama." },
+        { "tipe": "paragraph", "text": "$6^{3+2} = 6^5$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $6^5$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -41,9 +43,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $7^{10}$ dibagi dengan $7^3 \\cdot 7^4$. Basisnya semua sama, yaitu 7." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $7^3 \\cdot 7^4 = 7^{3+4} = 7^7$. Lalu bagi: $\\dfrac{7^{10}}{7^7} = 7^{10-7} = 7^3$. Jadi, jawabannya adalah $7^3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $7^{10}$, penyebut $7^3 \\cdot 7^4$. Semua basis bilangan sama, yaitu $7$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "paragraph", "text": "$7^3 \\cdot 7^4 = 7^{3+4} = 7^7$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "paragraph", "text": "$\\dfrac{7^{10}}{7^7} = 7^{10-7} = 7^3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $7^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -61,9 +67,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(3^2\\right)^5$, yaitu pangkat yang dipangkatkan lagi. Basisnya 3, pangkat dalam 2, pangkat luar 5." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $(a^m)^n = a^{m \\cdot n}$. Artinya, kalau pangkat dipangkatkan lagi, pangkatnya cukup dikalikan: $2 \\times 5 = 10$." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama kalikan pangkatnya: $2 \\times 5 = 10$. Lalu tulis basisnya dengan pangkat baru: $3^{10}$. Jadi, jawabannya adalah $3^{10}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perpangkatan dari suatu bilangan berpangkat $\\left(3^2\\right)^5$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
+        { "tipe": "paragraph", "text": "$3^{2 \\cdot 5} = 3^{10}$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3^{10}$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -81,9 +89,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{23}{29}\\right)^0$, yaitu pecahan berpangkat nol." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $a^0 = 1$ untuk setiap $a$ yang tidak nol. Artinya, bilangan apa pun (selain nol) kalau pangkatnya 0 hasilnya selalu 1, termasuk pecahan." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: karena pecahan $\\dfrac{23}{29}$ tidak nol dan pangkatnya 0, langsung pakai sifat tadi: $\\left(\\dfrac{23}{29}\\right)^0 = 1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan $\\dfrac{23}{29}$ dipangkatkan nol $\\left(\\dfrac{23}{29}\\right)^0$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1, \\text{ untuk } a \\neq 0$)." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Terapkan sifat pangkat nol pada pecahan tersebut." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{23}{29}\\right)^0 = 1$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -101,9 +111,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{1}{6}\\right)^{-2}$, yaitu pecahan berpangkat negatif." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{1}{6}\\right)^{-2} = \\left(\\dfrac{6}{1}\\right)^2 = 6^2$. Lalu hitung $6^2 = 6 \\times 6 = 36$. Jadi, jawabannya adalah $36$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{1}{6}\\right)^{-2}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{6}\\right)^{-2} = \\left(\\dfrac{6}{1}\\right)^2 = 6^2$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung hasil perpangkatannya ($6^2 = 36$)." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $36$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -121,9 +134,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: bentuk pangkat $6^3 = 216$. Di sini basisnya 6, pangkatnya 3, dan hasilnya 216." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: jika $a^c = b$, maka ${}^a\\log b = c$. Artinya, basis pangkat menjadi angka kecil di depan log, hasil pangkat masuk ke dalam log, dan pangkatnya menjadi hasil logaritma." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: basis 6 menjadi angka depan: ${}^6\\log$. Hasil 216 masuk ke dalam log: ${}^6\\log 216$. Pangkat 3 menjadi hasilnya: ${}^6\\log 216 = 3$. Jadi, jawabannya adalah ${}^6\\log 216 = 3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk persamaan eksponen $6^3 = 216$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk eksponen ke bentuk logaritma dengan basis $6$, numerus $216$, dan hasil $3$." },
+        { "tipe": "paragraph", "text": "${}^6\\log 216 = 3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^6\\log 216 = 3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -141,9 +156,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^4\\log \\dfrac{1}{64}$. Pertanyaannya: 4 dipangkatkan berapa supaya hasilnya $\\dfrac{1}{64}$?" },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log b = c$ sama artinya dengan $a^c = b$. Selain itu, $\\dfrac{1}{a^n} = a^{-n}$. Artinya, pecahan $\\dfrac{1}{64}$ bisa ditulis sebagai pangkat negatif dari 4." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama ubah $\\dfrac{1}{64}$ menjadi pangkat 4: $\\dfrac{1}{64} = \\dfrac{1}{4^3} = 4^{-3}$. Lalu ${}^4\\log \\dfrac{1}{64} = {}^4\\log 4^{-3} = -3$. Jadi, jawabannya adalah $-3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk logaritma ${}^4\\log \\dfrac{1}{64}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat ${}^a\\log a^n = n$ serta $\\dfrac{1}{a^n} = a^{-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah pecahan $\\dfrac{1}{64}$ menjadi bentuk perpangkatan dengan basis $4$ ($64 = 4^3$, sehingga $\\dfrac{1}{64} = 4^{-3}$)." },
+        { "tipe": "paragraph", "text": "${}^4\\log \\dfrac{1}{64} = {}^4\\log 4^{-3}$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "paragraph", "text": "$= -3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $-3$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -161,9 +180,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya ${}^3\\log 8 + {}^3\\log 9 - {}^3\\log 24$. Semua logaritma basisnya sama, yaitu 3." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: ${}^a\\log m + {}^a\\log n = {}^a\\log (m \\cdot n)$ untuk penjumlahan (angka di dalam log dikalikan), dan ${}^a\\log m - {}^a\\log n = {}^a\\log \\left(\\dfrac{m}{n}\\right)$ untuk pengurangan (angka di dalam log dibagi)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama gabungkan penjumlahannya: ${}^3\\log 8 + {}^3\\log 9 = {}^3\\log (8 \\cdot 9) = {}^3\\log 72$. Lalu kurangkan: ${}^3\\log 72 - {}^3\\log 24 = {}^3\\log \\left(\\dfrac{72}{24}\\right) = {}^3\\log 3$. Karena ${}^3\\log 3 = 1$, hasilnya $1$. Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Operasi hitung logaritma ${}^3\\log 8 + {}^3\\log 9 - {}^3\\log 24$ dengan basis yang sama ($3$)." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat penjumlahan dan pengurangan logaritma ${}^a\\log m + {}^a\\log n - {}^a\\log p = {}^a\\log\\left(\\dfrac{m \\cdot n}{p}\\right)$ serta ${}^a\\log a = 1$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gabungkan numerus dengan operasi perkalian dan pembagian." },
+        { "tipe": "paragraph", "text": "${}^3\\log\\left(\\dfrac{8 \\cdot 9}{24}\\right) = {}^3\\log\\left(\\dfrac{72}{24}\\right) = {}^3\\log 3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a = 1$." },
+        { "tipe": "paragraph", "text": "$= 1$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -181,9 +204,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $20^8$ dibagi dengan $20^3 \\cdot 20^2$. Basisnya semua sama, yaitu 20." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: untuk perkalian, $a^m \\cdot a^n = a^{m+n}$ (pangkat dijumlahkan). Untuk pembagian, $a^m : a^n = a^{m-n}$ (pangkat dikurangkan)." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama selesaikan penyebutnya: $20^3 \\cdot 20^2 = 20^{3+2} = 20^5$. Lalu bagi: $\\dfrac{20^8}{20^5} = 20^{8-5} = 20^3$. Jadi, jawabannya adalah $20^3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $20^8$, penyebut $20^3 \\cdot 20^2$. Semua basis bilangan sama, yaitu $20$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "paragraph", "text": "$20^3 \\cdot 20^2 = 20^{3+2} = 20^5$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "paragraph", "text": "$\\dfrac{20^8}{20^5} = 20^{8-5} = 20^3$" },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $20^3$ (pilihan pertama)." }
       ],
       "tingkat": "MUDAH"
     },
@@ -201,9 +228,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Yang diketahui: kita punya $\\left(\\dfrac{3}{4}\\right)^{-3}$, yaitu pecahan berpangkat negatif." },
-        { "tipe": "paragraph", "text": "Sifat/cara yang dipakai: $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$. Artinya, pangkat negatif membalik pecahan (pembilang dan penyebut bertukar) dan pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "Langkah pengerjaan: pertama balik pecahannya: $\\left(\\dfrac{3}{4}\\right)^{-3} = \\left(\\dfrac{4}{3}\\right)^3$. Lalu hitung $\\left(\\dfrac{4}{3}\\right)^3 = \\dfrac{4^3}{3^3} = \\dfrac{64}{27}$. Jadi, jawabannya adalah $\\dfrac{64}{27}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{3}{4}\\right)^{-3}$." },
+        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "paragraph", "text": "$\\left(\\dfrac{3}{4}\\right)^{-3} = \\left(\\dfrac{4}{3}\\right)^3$" },
+        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung perpangkatan pembilang dan penyebut $\\dfrac{4^3}{3^3} = \\dfrac{64}{27}$." },
+        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{64}{27}$ (pilihan kedua)." }
       ],
       "tingkat": "MUDAH"
     }
