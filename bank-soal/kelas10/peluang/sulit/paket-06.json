@@ -21,11 +21,17 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan komplemen: peluang TIDAK ada putih (semua merah)." },
-        { "tipe": "paragraph", "text": "$n(S) = C(12,3) = 220$." },
-        { "tipe": "paragraph", "text": "Semua merah = $C(7,3) = 35$." },
-        { "tipe": "paragraph", "text": "$P(\\text{tidak putih}) = \\dfrac{35}{220} = \\dfrac{7}{44}$." },
-        { "tipe": "paragraph", "text": "$P(\\text{min 1 putih}) = 1 - \\dfrac{7}{44} = \\dfrac{37}{44}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
+        { "tipe": "paragraph", "text": "Total kelereng = $7 + 5 = 12$ kelereng. Diambil 3 kelereng sekaligus:" },
+        { "tipe": "paragraph", "text": "$n(S) = C(12, 3) = \\dfrac{12!}{3!9!} = \\dfrac{12 \\cdot 11 \\cdot 10}{3 \\cdot 2 \\cdot 1} = 220$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan konsep peluang komplemen.**" },
+        { "tipe": "paragraph", "text": "Peluang terambil sekurang-kurangnya 1 kelereng putih sama dengan $1$ dikurangi peluang tidak terambil kelereng putih sama sekali (artinya ketiga kelereng yang terambil adalah merah seluruhnya)." },
+        { "tipe": "paragraph", "text": "Banyak cara mengambil 3 kelereng merah dari 7 kelereng merah:" },
+        { "tipe": "paragraph", "text": "$C(7, 3) = \\dfrac{7!}{3!4!} = \\dfrac{7 \\cdot 6 \\cdot 5}{3 \\cdot 2 \\cdot 1} = 35$" },
+        { "tipe": "paragraph", "text": "Peluang tidak ada kelereng putih = $\\dfrac{35}{220} = \\dfrac{7}{44}$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang akhir.**" },
+        { "tipe": "paragraph", "text": "$P(\\text{sekurang-kurangnya 1 putih}) = 1 - \\dfrac{7}{44} = \\dfrac{44}{44} - \\dfrac{7}{44} = \\dfrac{37}{44}$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terambil sekurang-kurangnya 1 kelereng putih adalah $\\dfrac{37}{44}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -43,9 +49,17 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n(S) = C(12,4) = 495$." },
-        { "tipe": "paragraph", "text": "$n(A) = C(7,3) \\cdot C(5,1) = 35 \\cdot 5 = 175$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{175}{495} = \\dfrac{35}{99}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
+        { "tipe": "paragraph", "text": "Total orang = $7 + 5 = 12$ orang. Dipilih 4 orang secara acak:" },
+        { "tipe": "paragraph", "text": "$n(S) = C(12, 4) = \\dfrac{12!}{4!8!} = \\dfrac{12 \\cdot 11 \\cdot 10 \\cdot 9}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 495$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung titik sampel kejadian yang diinginkan ($n(A)$).**" },
+        { "tipe": "paragraph", "text": "Dipilih 3 pria dari 7 pria dan 1 wanita dari 5 wanita:" },
+        { "tipe": "paragraph", "text": "- $C(7, 3) = \\dfrac{7!}{3!4!} = \\dfrac{7 \\cdot 6 \\cdot 5}{3 \\cdot 2 \\cdot 1} = 35$" },
+        { "tipe": "paragraph", "text": "- $C(5, 1) = 5$" },
+        { "tipe": "paragraph", "text": "Maka, $n(A) = 35 \\cdot 5 = 175$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{175}{495} = \\dfrac{35}{99}$ (setelah masing-masing dibagi 5)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terpilihnya 4 orang sesuai ketentuan adalah $\\dfrac{35}{99}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,9 +77,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Merah dari A = $\\dfrac{4}{7}$." },
-        { "tipe": "paragraph", "text": "Putih dari B = $\\dfrac{2}{8} = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{4}{7} \\times \\dfrac{1}{4} = \\dfrac{1}{7}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang terambil kelereng merah dari Kotak A.**" },
+        { "tipe": "paragraph", "text": "Kotak A berisi 4 merah dan 3 putih (total 7 kelereng):" },
+        { "tipe": "paragraph", "text": "$P(\\text{merah dari A}) = \\dfrac{4}{7}$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang terambil kelereng putih dari Kotak B.**" },
+        { "tipe": "paragraph", "text": "Kotak B berisi 6 merah dan 2 putih (total 8 kelereng):" },
+        { "tipe": "paragraph", "text": "$P(\\text{putih dari B}) = \\dfrac{2}{8} = \\dfrac{1}{4}$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kalikan kedua peluang kejadian yang saling bebas.**" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{7} \\cdot \\dfrac{1}{4} = \\dfrac{4}{28} = \\dfrac{1}{7}$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terambil kelereng merah dari kotak A dan putih dari kotak B adalah $\\dfrac{1}{7}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -83,9 +103,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 3 = (1,2), (2,1) → 2." },
-        { "tipe": "paragraph", "text": "Jumlah 10 = (4,6), (5,5), (6,4) → 3." },
-        { "tipe": "paragraph", "text": "Total = 5. Peluang = $\\dfrac{5}{36}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan ruang sampel ($n(S)$).**" },
+        { "tipe": "paragraph", "text": "Untuk pelemparan 2 dadu, total titik sampel adalah $n(S) = 6 \\times 6 = 36$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan pasangan mata dadu yang jumlahnya 3 atau 10.**" },
+        { "tipe": "paragraph", "text": "- **Jumlah 3:** $(1,2), (2,1) \\rightarrow$ 2 pasangan." },
+        { "tipe": "paragraph", "text": "- **Jumlah 10:** $(4,6), (5,5), (6,4) \\rightarrow$ 3 pasangan." },
+        { "tipe": "paragraph", "text": "Total pasangan yang memenuhi adalah $n(A) = 2 + 3 = 5$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{36}$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang munculnya jumlah mata kedua dadu 3 atau 10 adalah $\\dfrac{5}{36}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -103,9 +129,18 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 3 sampai 8 (25 pasangan) atau komplemen dari (jumlah 2, 9, 10, 11, 12)." },
-        { "tipe": "paragraph", "text": "Jumlah 2 = 1, 9 = 4, 10 = 3, 11 = 2, 12 = 1 → total 11." },
-        { "tipe": "paragraph", "text": "Peluang = $1 - \\dfrac{11}{36} = \\dfrac{25}{36}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan konsep peluang komplemen.**" },
+        { "tipe": "paragraph", "text": "Jumlah mata dadu yang lebih dari 2 tetapi kurang dari 9 berarti jumlahnya adalah $3, 4, 5, 6, 7,$ atau $8$." },
+        { "tipe": "paragraph", "text": "Lebih mudah menghitung komplemennya, yaitu jumlah mata dadu $\\leq 2$ atau $\\geq 9$ (artinya jumlah $2, 9, 10, 11,$ atau $12$):" },
+        { "tipe": "paragraph", "text": "- Jumlah 2: $(1,1) \\rightarrow 1$ pasangan" },
+        { "tipe": "paragraph", "text": "- Jumlah 9: $(3,6), (4,5), (5,4), (6,3) \\rightarrow 4$ pasangan" },
+        { "tipe": "paragraph", "text": "- Jumlah 10: $(4,6), (5,5), (6,4) \\rightarrow 3$ pasangan" },
+        { "tipe": "paragraph", "text": "- Jumlah 11: $(5,6), (6,5) \\rightarrow 2$ pasangan" },
+        { "tipe": "paragraph", "text": "- Jumlah 12: $(6,6) \\rightarrow 1$ pasangan" },
+        { "tipe": "paragraph", "text": "Total pasangan komplemen = $1 + 4 + 3 + 2 + 1 = 11$ pasangan." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang akhir.**" },
+        { "tipe": "paragraph", "text": "$P(\\text{jumlah } 3 \\text{ s.d. } 8) = 1 - \\dfrac{11}{36} = \\dfrac{36}{36} - \\dfrac{11}{36} = \\dfrac{25}{36}$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang muncul jumlah mata dadu lebih dari 2 tetapi kurang dari 9 adalah $\\dfrac{25}{36}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -123,9 +158,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Suka salah satu = $15 + 20 - 10 = 25$." },
-        { "tipe": "paragraph", "text": "Tidak suka keduanya = $40 - 25 = 15$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{15}{40} = \\dfrac{3}{8}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus prinsip inklusi-eksklusi untuk himpunan.**" },
+        { "tipe": "paragraph", "text": "Banyak siswa yang menyukai setidaknya satu kegiatan (ilmiah atau olahraga):" },
+        { "tipe": "paragraph", "text": "$n(I \\cup O) = n(I) + n(O) - n(I \\cap O)$" },
+        { "tipe": "paragraph", "text": "$n(I \\cup O) = 15 + 20 - 10 = 25$ orang." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah siswa yang tidak menyukai kedua kegiatan.**" },
+        { "tipe": "paragraph", "text": "$n(\\text{tidak keduanya}) = \\text{Total siswa} - n(I \\cup O) = 40 - 25 = 15$ orang." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang terpilihnya siswa tersebut.**" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{15}{40} = \\dfrac{3}{8}$ (setelah masing-masing dibagi 5)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terpilih siswa yang tidak menyukai kedua kegiatan tersebut adalah $\\dfrac{3}{8}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,9 +184,18 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Diperoleh $P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = \\dfrac{1}{8} + \\dfrac{1}{2} - \\dfrac{1}{2} = \\dfrac{1}{8}$." },
-        { "tipe": "paragraph", "text": "Karena $P(A \\cap B) = \\dfrac{1}{8} \\neq 0$, maka kejadian A dan B tidak saling lepas." },
-        { "tipe": "paragraph", "text": "Uji saling bebas: $P(A) \\cdot P(B) = \\dfrac{1}{8} \\times \\dfrac{1}{2} = \\dfrac{1}{16} \\neq \\dfrac{1}{8}$. Karena $P(A \\cap B) \\neq P(A) \\cdot P(B)$, maka kejadian A dan B tidak saling bebas." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai $P(A \\cap B)$ menggunakan rumus penjumlahan peluang.**" },
+        { "tipe": "paragraph", "text": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{2} = \\dfrac{1}{8} + \\dfrac{1}{2} - P(A \\cap B)$" },
+        { "tipe": "paragraph", "text": "$P(A \\cap B) = \\dfrac{1}{8}$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji sifat kejadian saling lepas.**" },
+        { "tipe": "paragraph", "text": "Kejadian A dan B dikatakan saling lepas jika $P(A \\cap B) = 0$. Karena $P(A \\cap B) = \\dfrac{1}{8} \\neq 0$, maka kejadian A dan B **tidak saling lepas**." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji sifat kejadian saling bebas.**" },
+        { "tipe": "paragraph", "text": "Kejadian A dan B dikatakan saling bebas jika $P(A \\cap B) = P(A) \\cdot P(B)$." },
+        { "tipe": "paragraph", "text": "- $P(A) \\cdot P(B) = \\dfrac{1}{8} \\cdot \\dfrac{1}{2} = \\dfrac{1}{16}$" },
+        { "tipe": "paragraph", "text": "- $P(A \\cap B) = \\dfrac{1}{8}$" },
+        { "tipe": "paragraph", "text": "Karena $P(A \\cap B) \\neq P(A) \\cdot P(B)$, maka kejadian A dan B **tidak saling bebas**." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Hubungan kedua kejadian tersebut adalah tidak saling bebas." }
       ],
       "tingkat": "SULIT"
     },
@@ -163,9 +213,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = 14. Pop = 10, Dangdut = 8." },
-        { "tipe": "paragraph", "text": "Gemar keduanya = $10 + 8 - 14 = 4$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{4}{14} = \\dfrac{2}{7}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah anak yang gemar kedua jenis musik.**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus prinsip inklusi-eksklusi himpunan:" },
+        { "tipe": "paragraph", "text": "$n(P \\cup D) = n(P) + n(D) - n(P \\cap D)$" },
+        { "tipe": "paragraph", "text": "$14 = 10 + 8 - n(P \\cap D)$" },
+        { "tipe": "paragraph", "text": "$14 = 18 - n(P \\cap D) \\Rightarrow n(P \\cap D) = 18 - 14 = 4$ anak." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang terpilihnya anak yang gemar keduanya.**" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{14} = \\dfrac{2}{7}$ (setelah dibagi 2)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang anak yang terpilih gemar kedua-duanya adalah $\\dfrac{2}{7}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -183,11 +238,18 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total kartu dari 2 set = $2 \\times 52 = 104$." },
-        { "tipe": "paragraph", "text": "Banyak kartu merah = $2 \\times 13 = 26$." },
-        { "tipe": "paragraph", "text": "Banyak kartu bernomor 13 = $2 \\times 4 = 8$." },
-        { "tipe": "paragraph", "text": "Banyak kartu merah DAN bernomor 13 = $2 \\times 1 = 2$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{26 + 8 - 2}{104} = \\dfrac{32}{104} = \\dfrac{4}{13}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
+        { "tipe": "paragraph", "text": "Karena terdapat 2 set kartu, maka total seluruh kartu adalah $n(S) = 2 \\times 52 = 104$ kartu." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah kartu merah, kartu bernomor 13, dan irisannya.**" },
+        { "tipe": "paragraph", "text": "- **Banyak kartu merah ($n(M)$):** Setiap set memiliki 1 warna merah dari 4 warna (berisi 13 kartu). Untuk 2 set kartu, $n(M) = 2 \\times 13 = 26$ kartu." },
+        { "tipe": "paragraph", "text": "- **Banyak kartu bernomor 13 ($n(13)$):** Setiap set memiliki 4 kartu bernomor 13 (satu untuk tiap warna). Untuk 2 set kartu, $n(13) = 2 \\times 4 = 8$ kartu." },
+        { "tipe": "paragraph", "text": "- **Banyak kartu merah dan bernomor 13 ($n(M \\cap 13)$):** Setiap set memiliki 1 kartu bernomor 13 berwarna merah. Untuk 2 set kartu, $n(M \\cap 13) = 2 \\times 1 = 2$ kartu." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Gunakan aturan penjumlahan peluang (gabungan dua kejadian).**" },
+        { "tipe": "paragraph", "text": "$n(M \\cup 13) = n(M) + n(13) - n(M \\cap 13)$" },
+        { "tipe": "paragraph", "text": "$n(M \\cup 13) = 26 + 8 - 2 = 32$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung peluang akhir.**" },
+        { "tipe": "paragraph", "text": "$P = \\dfrac{32}{104} = \\dfrac{4}{13}$ (setelah pembilang dan penyebut dibagi 8)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terambil kartu berwarna merah atau bernomor 13 adalah $\\dfrac{4}{13}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -205,8 +267,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang 2 gambar dari 3 koin = $\\dfrac{3}{8}$." },
-        { "tipe": "paragraph", "text": "Frekuensi harapan = $\\dfrac{3}{8} \\times 600 = 225$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan ruang sampel pelemparan 3 keping uang logam.**`" },
+        { "tipe": "paragraph", "text": "Banyak titik sampel seluruhnya adalah $n(S) = 2^3 = 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik sampel munculnya tepat dua gambar ($n(A)$).**" },
+        { "tipe": "paragraph", "text": "Kejadian muncul dua gambar (G) dan satu angka (A): $\\{GGA, GAG, AGG\\} \\rightarrow n(A) = 3$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang muncul dua gambar ($P(A)$).**" },
+        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{8}$" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung frekuensi harapan ($F_h$).**" },
+        { "tipe": "paragraph", "text": "$F_h = P(A) \\times \\text{Banyak Percobaan}$" },
+        { "tipe": "paragraph", "text": "$F_h = \\dfrac{3}{8} \\times 600 = 3 \\times 75 = 225$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Frekuensi harapan muncul dua gambar adalah $225$." }
       ],
       "tingkat": "SULIT"
     }
