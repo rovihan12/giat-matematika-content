@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang pertidaksamaan kuadrat dan aplikasi fungsi kuadrat (lanjutan)",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-08-q01",
@@ -39,13 +39,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\dfrac{x^2 - 4}{x - 3} \\geq 0$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-2 \\leq x \\leq 2$ atau $x > 3$" } ],
         [ { "tipe": "paragraph", "text": "$-2 < x < 2$ atau $x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 \\leq x \\leq 2$ atau $x > 3$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq -2$ atau $2 \\leq x < 3$" } ],
         [ { "tipe": "paragraph", "text": "$-2 \\leq x \\leq 2$" } ],
         [ { "tipe": "paragraph", "text": "$x > 3$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang.**" },
         { "tipe": "paragraph", "text": "$\\dfrac{(x - 2)(x + 2)}{x - 3} \\geq 0$" },
@@ -67,13 +67,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 8x + 5 = 0$, nilai $\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{54}{5}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{44}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{54}{5}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{64}{5}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{34}{5}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{24}{5}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar (Teorema Vieta).**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 8x + 5 = 0$ ($a = 1$, $b = -8$, $c = 5$):" },
@@ -93,13 +93,13 @@
         { "tipe": "paragraph", "text": "Nilai minimum dari $f(x) = x^2 - 6x + 11$ untuk $0 \\leq x \\leq 6$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) dan periksa apakah berada di dalam interval.**" },
         { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 6x + 11$, diketahui $a = 1 > 0$ (parabola terbuka ke atas) dan $b = -6$." },
@@ -119,13 +119,13 @@
         { "tipe": "paragraph", "text": "Jika $x^2 + (p-3)x + 9 = 0$ memiliki akar-akar positif, nilai $p$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$p \\leq -3$" } ],
         [ { "tipe": "paragraph", "text": "$p \\geq 9$" } ],
         [ { "tipe": "paragraph", "text": "$p < -3$" } ],
         [ { "tipe": "paragraph", "text": "$p > 9$" } ],
-        [ { "tipe": "paragraph", "text": "$-3 < p < 9$" } ]
+        [ { "tipe": "paragraph", "text": "$-3 < p < 9$" } ],
+        [ { "tipe": "paragraph", "text": "$p \\leq -3$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 + (p-3)x + 9 = 0$, diperoleh $a = 1$, $b = p - 3$, dan $c = 9$." },
@@ -150,13 +150,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $|x^2 - 5x| = 6$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\{-1, 2, 3, 6\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{-1, 6\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{-1, 2, 3, 6\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{2, 3\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{-1, 2, 6\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{2, 3, 6\\}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan definisi persamaan nilai mutlak.**" },
         { "tipe": "paragraph", "text": "Sifat $|f(x)| = a \\iff f(x) = a$ atau $f(x) = -a$, sehingga terbagi menjadi dua kasus." },
@@ -174,13 +174,13 @@
         { "tipe": "paragraph", "text": "Nilai $m$ agar $x^2 - 2mx + (m+6) = 0$ memiliki akar-akar $\\alpha$ dan $\\beta$ dengan $\\alpha\\beta = 4$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-2$" } ],
         [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$-2$" } ],
         [ { "tipe": "paragraph", "text": "$1$" } ],
         [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$3$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 2mx + (m+6) = 0$, diperoleh $a = 1$, $b = -2m$, dan $c = m + 6$." },
@@ -197,13 +197,13 @@
         { "tipe": "paragraph", "text": "Fungsi $f(x) = -x^2 + 8x - 12$ bernilai positif pada interval..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$2 < x < 6$" } ],
         [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > 6$" } ],
+        [ { "tipe": "paragraph", "text": "$2 < x < 6$" } ],
         [ { "tipe": "paragraph", "text": "$-6 < x < -2$" } ],
         [ { "tipe": "paragraph", "text": "$x < -6$ atau $x > -2$" } ],
         [ { "tipe": "paragraph", "text": "$0 < x < 6$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Bentuk pertidaksamaan sesuai syarat fungsi bernilai positif ($f(x) > 0$).**" },
         { "tipe": "paragraph", "text": "$-x^2 + 8x - 12 > 0$" },
@@ -223,20 +223,20 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 9x + 14 = 0$, persamaan kuadrat baru dengan akar $\\alpha + 3$ dan $\\beta + 3$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x^2 - 15x + 50 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 15x - 50 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 + 15x + 50 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 15x + 50 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 15x + 40 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 9x + 50 = 0$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 9x + 14 = 0$ ($a = 1$, $b = -9$, $c = 14$):" },
         { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{-9}{1} = 9$" },
         { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{14}{1} = 14$" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar-akar baru ($x_1 = \\alpha + 3$ dan $x_2 = \\beta + 3$).**" },
-        { "tipe": "paragraph", "text": "Jumlah akar baru: $x_1 + x_2 = (\\alpha + 3) + (\\beta + 3) = (\\alpha + \\beta) + 6 = 9 + 6 = 15$" },
+        { "tipe": "paragraph", "text": "Jumlah akar baru: $x_1 + x_2 = (\\alpha + 3) + (\\beta + 3) = (\\alpha + \beta) + 6 = 9 + 6 = 15$" },
         { "tipe": "paragraph", "text": "Hasil kali akar baru: $x_1 \\cdot x_2 = (\\alpha + 3)(\\beta + 3) = \\alpha\\beta + 3(\\alpha + \\beta) + 9 = 14 + 3(9) + 9 = 14 + 27 + 9 = 50$" },
         { "tipe": "paragraph", "text": "**Langkah 3: Susun persamaan kuadrat baru.**" },
         { "tipe": "paragraph", "text": "$x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0$" },
@@ -251,13 +251,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 6x + 8 > 0$ dan $x^2 - 9x + 18 \\leq 0$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$4 < x \\leq 6$" } ],
         [ { "tipe": "paragraph", "text": "$x < 2$ atau $x > 4$" } ],
         [ { "tipe": "paragraph", "text": "$2 < x < 4$" } ],
         [ { "tipe": "paragraph", "text": "$3 \\leq x \\leq 6$" } ],
+        [ { "tipe": "paragraph", "text": "$4 < x \\leq 6$" } ],
         [ { "tipe": "paragraph", "text": "Tidak ada solusi" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan pertama.**" },
         { "tipe": "paragraph", "text": "$x^2 - 6x + 8 > 0 \\Rightarrow (x - 2)(x - 4) > 0$" },
