@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang sistem persamaan kuadrat dan akar simetris",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-02-q01",
@@ -13,13 +13,13 @@
         { "tipe": "paragraph", "text": "Salah satu akar $x^2 - 6x + k = 0$ adalah dua kali akar yang lain. Nilai $k$ adalah..." }
       ],
       "pilihan": [
+        [ { "tipe": "paragraph", "text": "$8$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ],
-        [ { "tipe": "paragraph", "text": "$8$" } ],
         [ { "tipe": "paragraph", "text": "$10$" } ],
         [ { "tipe": "paragraph", "text": "$12$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Misalkan akar-akar persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Misalkan akar pertama adalah $\\alpha$, maka akar kedua adalah $2\\alpha$." },
@@ -100,13 +100,13 @@
         { "tipe": "paragraph", "text": "Nilai $p$ agar grafik $y = x^2 + px + 4$ selalu di atas sumbu-$x$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-4 < p < 4$" } ],
         [ { "tipe": "paragraph", "text": "$p < -4$ atau $p > 4$" } ],
         [ { "tipe": "paragraph", "text": "$p = 4$" } ],
         [ { "tipe": "paragraph", "text": "$p \\geq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-4 < p < 4$" } ],
         [ { "tipe": "paragraph", "text": "$p \\leq -4$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat grafik selalu di atas sumbu-$x$ (definit positif).**" },
         { "tipe": "paragraph", "text": "Fungsi kuadrat $y = ax^2 + bx + c$ selalu berada di atas sumbu-$x$ jika memenuhi dua syarat: $a > 0$ (parabola terbuka ke atas) dan $D < 0$ (tidak memotong sumbu-$x$)." },
@@ -129,11 +129,11 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-15$" } ],
         [ { "tipe": "paragraph", "text": "$-10$" } ],
-        [ { "tipe": "paragraph", "text": "$-5$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ],
-        [ { "tipe": "paragraph", "text": "$10$" } ]
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$-5$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 + 2x - 5 = 0$ ($a = 1$, $b = 2$, $c = -5$):" },
@@ -155,13 +155,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\dfrac{x+2}{x-3} \\leq 1$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
         [ { "tipe": "paragraph", "text": "$x > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq 3$" } ],
         [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ],
         [ { "tipe": "paragraph", "text": "Semua $x$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pindahkan konstanta $1$ ke ruas kiri dan samakan penyebutnya.**" },
         { "tipe": "paragraph", "text": "$\\dfrac{x+2}{x-3} - 1 \\leq 0$" },
@@ -182,12 +182,12 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$40$" } ],
-        [ { "tipe": "paragraph", "text": "$42$" } ],
         [ { "tipe": "paragraph", "text": "$44$" } ],
+        [ { "tipe": "paragraph", "text": "$42$" } ],
         [ { "tipe": "paragraph", "text": "$46$" } ],
         [ { "tipe": "paragraph", "text": "$48$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 5x + 2 = 0$ ($a = 1$, $b = -5$, $c = 2$):" },
@@ -209,13 +209,13 @@
         { "tipe": "paragraph", "text": "Nilai $m$ agar $x^2 - 2(m+1)x + 4 = 0$ memiliki dua akar positif berbeda adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$m > 1$" } ],
         [ { "tipe": "paragraph", "text": "$m > 2$" } ],
         [ { "tipe": "paragraph", "text": "$0 < m < 1$" } ],
         [ { "tipe": "paragraph", "text": "$m > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$m > 1$" } ],
         [ { "tipe": "paragraph", "text": "$m < -3$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 2(m+1)x + 4 = 0$, diketahui $a = 1$, $b = -2(m+1)$, dan $c = 4$." },
@@ -241,12 +241,12 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$x = 1$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
         [ { "tipe": "paragraph", "text": "$x = 3$" } ],
         [ { "tipe": "paragraph", "text": "$x = 4$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 5$" } ]
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $f(x) = 2x^2 - 8x + 5$, diperoleh $a = 2$, $b = -8$, dan $c = 5$. Karena $a > 0$, parabola terbuka ke atas sehingga memiliki nilai minimum di titik puncaknya." },
