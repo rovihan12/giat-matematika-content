@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit OSN-style tentang fungsi kuadrat (lanjutan)",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-10-q01",
@@ -39,13 +39,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 4x + 2 = 0$, nilai $\\alpha^4 + \\beta^4$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$136$" } ],
         [ { "tipe": "paragraph", "text": "$80$" } ],
+        [ { "tipe": "paragraph", "text": "$136$" } ],
         [ { "tipe": "paragraph", "text": "$96$" } ],
         [ { "tipe": "paragraph", "text": "$72$" } ],
         [ { "tipe": "paragraph", "text": "$104$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 4x + 2 = 0$ ($a = 1$, $b = -4$, $c = 2$):" },
@@ -67,13 +67,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 3x - 4 > 0$ dan $x^2 - 5x + 4 < 0$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "Tidak ada solusi" } ],
         [ { "tipe": "paragraph", "text": "$1 < x < 4$" } ],
         [ { "tipe": "paragraph", "text": "$4 < x < 5$" } ],
+        [ { "tipe": "paragraph", "text": "Tidak ada solusi" } ],
         [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 4$" } ],
         [ { "tipe": "paragraph", "text": "$x > 4$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan pertama.**" },
         { "tipe": "paragraph", "text": "$x^2 - 3x - 4 > 0 \\Rightarrow (x - 4)(x + 1) > 0$" },
@@ -94,13 +94,13 @@
         { "tipe": "paragraph", "text": "Jika $x + y = 10$ dan $xy = 21$, nilai $x^2 + y^2$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$58$" } ],
         [ { "tipe": "paragraph", "text": "$60$" } ],
         [ { "tipe": "paragraph", "text": "$62$" } ],
         [ { "tipe": "paragraph", "text": "$56$" } ],
+        [ { "tipe": "paragraph", "text": "$58$" } ],
         [ { "tipe": "paragraph", "text": "$64$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah dua suku.**" },
         { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 \\Rightarrow x^2 + y^2 = (x + y)^2 - 2xy$" },
@@ -117,13 +117,13 @@
         { "tipe": "paragraph", "text": "Nilai $a$ agar persamaan $x^2 + ax + (a^2 - 9) = 0$ memiliki akar-akar yang saling berlawanan adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$a = 0$" } ],
         [ { "tipe": "paragraph", "text": "$a = 1$" } ],
         [ { "tipe": "paragraph", "text": "$a = 2$" } ],
         [ { "tipe": "paragraph", "text": "$a = 3$" } ],
-        [ { "tipe": "paragraph", "text": "$a = 4$" } ]
+        [ { "tipe": "paragraph", "text": "$a = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$a = 0$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat dua akar saling berlawanan.**" },
         { "tipe": "paragraph", "text": "Dua akar saling berlawanan berarti $x_1 = -x_2$, sehingga jumlah kedua akarnya sama dengan nol ($x_1 + x_2 = 0$)." },
@@ -143,13 +143,13 @@
         { "tipe": "paragraph", "text": "Nilai minimum dari $f(x) = x^2 - 4x + 8$ untuk $x \\in \\mathbb{R}$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ],
         [ { "tipe": "paragraph", "text": "$7$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) fungsi kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 4x + 8$, diketahui $a = 1 > 0$ (parabola terbuka ke atas sehingga memiliki nilai minimum) dan $b = -4$." },
@@ -167,13 +167,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 4|x| - 5 = 0$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\{-5, 5\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{-1, 1\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{-5, -1\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{-5, 5\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{1, 5\\}$" } ],
         [ { "tipe": "paragraph", "text": "$\\{-1, 5\\}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Lakukan pemisalan variabel.**" },
         { "tipe": "paragraph", "text": "Ingat sifat $x^2 = |x|^2$. Misalkan $t = |x|$ dengan syarat $t \\geq 0$, maka persamaan menjadi:" },
@@ -194,13 +194,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 7x + 9 = 0$, persamaan kuadrat baru dengan akar $\\alpha^2$ dan $\\beta^2$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x^2 - 31x + 81 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 31x - 81 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 + 31x + 81 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 31x + 18 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 - 31x + 81 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 18x + 81 = 0$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 7x + 9 = 0$ ($a = 1$, $b = -7$, $c = 9$):" },
@@ -222,13 +222,13 @@
         { "tipe": "paragraph", "text": "Jika $f(x) = ax^2 + bx + c$ melalui titik $(1, 0)$, $(3, 0)$, dan $(0, 6)$, nilai $a + b + c$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$0$" } ],
         [ { "tipe": "paragraph", "text": "$1$" } ],
         [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$3$" } ],
-        [ { "tipe": "paragraph", "text": "$4$" } ]
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Bentuk persamaan fungsi kuadrat dari dua titik potong sumbu-$x$.**" },
         { "tipe": "paragraph", "text": "Karena grafik memotong sumbu-$x$ di $(1, 0)$ dan $(3, 0)$, gunakan rumus $f(x) = a(x - x_1)(x - x_2)$:" },
@@ -249,13 +249,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 5x - 3 = 0$, nilai $\\alpha^3 + \\beta^3$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$170$" } ],
         [ { "tipe": "paragraph", "text": "$160$" } ],
+        [ { "tipe": "paragraph", "text": "$170$" } ],
         [ { "tipe": "paragraph", "text": "$180$" } ],
         [ { "tipe": "paragraph", "text": "$150$" } ],
         [ { "tipe": "paragraph", "text": "$190$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 5x - 3 = 0$ ($a = 1$, $b = -5$, $c = -3$):" },
