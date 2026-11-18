@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang pertidaksamaan kuadrat dan tanda fungsi",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-01-q01",
@@ -41,13 +41,13 @@
         { "tipe": "paragraph", "text": "Nilai $m$ agar persamaan $x^2 - 2mx + (m+2) = 0$ memiliki dua akar real berbeda adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$m < -1$ atau $m > 2$" } ],
         [ { "tipe": "paragraph", "text": "$-1 < m < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$m < -1$ atau $m > 2$" } ],
         [ { "tipe": "paragraph", "text": "$m \\leq -1$ atau $m \\geq 2$" } ],
         [ { "tipe": "paragraph", "text": "$m > 2$" } ],
         [ { "tipe": "paragraph", "text": "$m < -1$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 2mx + (m + 2) = 0$, diperoleh $a = 1$, $b = -2m$, dan $c = m + 2$." },
@@ -96,13 +96,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $|x^2 - 4x| < 3$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{7} < x < 1$ atau $3 < x < 2 + \\sqrt{7}$" } ],
+        [ { "tipe": "paragraph", "text": "$0 < x < 4$" } ],
         [ { "tipe": "paragraph", "text": "$1 < x < 3$" } ],
         [ { "tipe": "paragraph", "text": "$-1 < x < 5$" } ],
-        [ { "tipe": "paragraph", "text": "$0 < x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{7} < x < 1$ atau $3 < x < 2 + \\sqrt{7}$" } ],
         [ { "tipe": "paragraph", "text": "$x < 1$ atau $x > 3$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Ubah pertidaksamaan nilai mutlak menjadi pertidaksamaan ganda.**" },
         { "tipe": "paragraph", "text": "Sifat $|f(x)| < a \\iff -a < f(x) < a$, sehingga:" },
@@ -128,13 +128,13 @@
         { "tipe": "paragraph", "text": "Jika $f(x) = x^2 + px + q$ memiliki nilai minimum $-4$ di $x = 2$, nilai $p + q$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$-2$" } ],
         [ { "tipe": "paragraph", "text": "$0$" } ],
         [ { "tipe": "paragraph", "text": "$2$" } ],
-        [ { "tipe": "paragraph", "text": "$4$" } ]
+        [ { "tipe": "paragraph", "text": "$-4$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus sumbu simetri ($x_p$) untuk mencari nilai $p$.**" },
         { "tipe": "paragraph", "text": "Fungsi $f(x) = x^2 + px + q$ memiliki $a = 1$, $b = p$, dan titik puncak $(2, -4)$." },
@@ -155,13 +155,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 4x + 3 \\leq 0$ dan $x^2 - 4x - 5 \\leq 0$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 3$" } ],
         [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 3$" } ],
         [ { "tipe": "paragraph", "text": "$3 \\leq x \\leq 5$" } ],
         [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 1$" } ],
         [ { "tipe": "paragraph", "text": "Tidak ada solusi" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan pertama.**" },
         { "tipe": "paragraph", "text": "$x^2 - 4x + 3 \\leq 0$" },
@@ -210,13 +210,13 @@
         { "tipe": "paragraph", "text": "Fungsi $f(x) = x^2 - 6x + 5$ memiliki nilai minimum $m$ di $x = p$. Nilai $p + m$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$-4$" } ],
         [ { "tipe": "paragraph", "text": "$-2$" } ],
         [ { "tipe": "paragraph", "text": "$-3$" } ],
-        [ { "tipe": "paragraph", "text": "$-4$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
         [ { "tipe": "paragraph", "text": "$-5$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Cari pembuat nilai minimum ($p$) menggunakan rumus sumbu simetri.**" },
         { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 6x + 5$, diketahui $a = 1$, $b = -6$, dan $c = 5$." },
@@ -236,13 +236,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $x^2 - 4 \\leq 3x$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 4$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 \\leq x \\leq 2$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 4$" } ],
         [ { "tipe": "paragraph", "text": "$-4 \\leq x \\leq 1$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq -4$ atau $x \\geq 1$" } ],
-        [ { "tipe": "paragraph", "text": "$-2 \\leq x \\leq 2$" } ]
+        [ { "tipe": "paragraph", "text": "$-1 \\leq x \\leq 4$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pindahkan semua suku ke ruas kiri agar ruas kanan bernilai nol.**" },
         { "tipe": "paragraph", "text": "$x^2 - 3x - 4 \\leq 0$" },
@@ -261,13 +261,13 @@
         { "tipe": "paragraph", "text": "Jika $x_1$ dan $x_2$ akar $2x^2 - 4x + 1 = 0$, nilai $x_1^2 x_2 + x_1 x_2^2$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
         [ { "tipe": "paragraph", "text": "$2$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $2x^2 - 4x + 1 = 0$ ($a = 2$, $b = -4$, $c = 1$):" },
