@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit tentang sistem persamaan kuadrat dan akar simetris (lanjutan)",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-07-q01",
@@ -39,13 +39,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 5x + 3 = 0$, persamaan kuadrat baru yang akar-akarnya $\\dfrac{1}{\\alpha}$ dan $\\dfrac{1}{\\beta}$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$3x^2 - 5x + 1 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$3x^2 + 5x + 1 = 0$" } ],
+        [ { "tipe": "paragraph", "text": "$3x^2 - 5x + 1 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$3x^2 - 5x - 1 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 5x + 3 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$3x^2 + 5x - 1 = 0$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 5x + 3 = 0$ ($a = 1$, $b = -5$, $c = 3$):" },
@@ -68,13 +68,13 @@
         { "tipe": "paragraph", "text": "Jika $x^2 - (a+3)x + 16 = 0$ memiliki akar kembar positif, nilai $a$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$3$" } ],
         [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Terapkan syarat akar kembar ($D = 0$).**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - (a+3)x + 16 = 0$, diketahui $a_{\\text{koef}} = 1$, $b = -(a+3)$, dan $c = 16$." },
@@ -98,13 +98,13 @@
         { "tipe": "paragraph", "text": "Nilai $p$ agar grafik $y = x^2 - px + 9$ selalu di atas sumbu-$x$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-6 < p < 6$" } ],
         [ { "tipe": "paragraph", "text": "$p < -6$ atau $p > 6$" } ],
         [ { "tipe": "paragraph", "text": "$p = 6$" } ],
         [ { "tipe": "paragraph", "text": "$p \\geq 6$" } ],
+        [ { "tipe": "paragraph", "text": "$-6 < p < 6$" } ],
         [ { "tipe": "paragraph", "text": "$p \\leq -6$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat grafik selalu di atas sumbu-$x$ (definit positif).**" },
         { "tipe": "paragraph", "text": "Fungsi kuadrat selalu berada di atas sumbu-$x$ jika $a > 0$ dan $D < 0$." },
@@ -124,13 +124,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 + 4x - 3 = 0$, nilai $\\alpha^2\\beta + \\alpha\\beta^2 + 2\\alpha\\beta$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$6$" } ],
         [ { "tipe": "paragraph", "text": "$-6$" } ],
         [ { "tipe": "paragraph", "text": "$12$" } ],
         [ { "tipe": "paragraph", "text": "$-12$" } ],
-        [ { "tipe": "paragraph", "text": "$18$" } ]
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 + 4x - 3 = 0$ ($a = 1$, $b = 4$, $c = -3$):" },
@@ -139,7 +139,7 @@
         { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan bentuk aljabar yang ditanyakan.**" },
         { "tipe": "paragraph", "text": "$\\alpha^2\\beta + \\alpha\\beta^2 + 2\\alpha\\beta = \\alpha\\beta(\\alpha + \\beta) + 2\\alpha\\beta$" },
         { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diperoleh.**" },
-        { "tipe": "paragraph", "text": "$= (-3)(-4) + 2(-3) = 12 - 6 = 6$" },
+        { "tipe": "paragraph", "text": "= $(-3)(-4) + 2(-3) = 12 - 6 = 6$" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $\\alpha^2\\beta + \\alpha\\beta^2 + 2\\alpha\\beta$ adalah $6$." }
       ],
       "tingkat": "SULIT"
@@ -150,13 +150,13 @@
         { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\dfrac{x-1}{x+3} \\leq 2$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x \\leq -7$ atau $x > -3$" } ],
         [ { "tipe": "paragraph", "text": "$x > -3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -7$ atau $x > -3$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq -7$" } ],
         [ { "tipe": "paragraph", "text": "$-7 \\leq x < -3$" } ],
         [ { "tipe": "paragraph", "text": "Semua $x$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pindahkan konstanta $2$ ke ruas kiri dan samakan penyebutnya.**" },
         { "tipe": "paragraph", "text": "$\\dfrac{x - 1}{x + 3} - 2 \\leq 0 \\Rightarrow \\dfrac{(x - 1) - 2(x + 3)}{x + 3} \\leq 0$" },
@@ -177,13 +177,13 @@
         { "tipe": "paragraph", "text": "Jika akar-akar $x^2 - 7x + 3 = 0$ adalah $\\alpha$ dan $\\beta$, nilai $\\alpha^3\\beta + \\alpha\\beta^3$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$129$" } ],
         [ { "tipe": "paragraph", "text": "$120$" } ],
         [ { "tipe": "paragraph", "text": "$135$" } ],
+        [ { "tipe": "paragraph", "text": "$129$" } ],
         [ { "tipe": "paragraph", "text": "$140$" } ],
         [ { "tipe": "paragraph", "text": "$150$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 7x + 3 = 0$ ($a = 1$, $b = -7$, $c = 3$):" },
@@ -205,13 +205,13 @@
         { "tipe": "paragraph", "text": "Nilai $m$ agar $x^2 - 2(m+2)x + 9 = 0$ memiliki dua akar positif berbeda adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$m > 1$" } ],
         [ { "tipe": "paragraph", "text": "$m > 2$" } ],
         [ { "tipe": "paragraph", "text": "$0 < m < 1$" } ],
         [ { "tipe": "paragraph", "text": "$m > 3$" } ],
+        [ { "tipe": "paragraph", "text": "$m > 1$" } ],
         [ { "tipe": "paragraph", "text": "$m < -3$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 2(m+2)x + 9 = 0$, diketahui $a = 1$, $b = -2(m+2)$, dan $c = 9$." },
@@ -236,13 +236,13 @@
         { "tipe": "paragraph", "text": "Jika $f(x) = 3x^2 - 12x + 7$, nilai $x$ agar $f(x)$ minimum adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x = 2$" } ],
         [ { "tipe": "paragraph", "text": "$x = 1$" } ],
         [ { "tipe": "paragraph", "text": "$x = 3$" } ],
         [ { "tipe": "paragraph", "text": "$x = 4$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 5$" } ]
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $f(x) = 3x^2 - 12x + 7$, diperoleh $a = 3$, $b = -12$, dan $c = 7$. Karena $a > 0$, parabola terbuka ke atas sehingga memiliki nilai minimum." },
@@ -258,13 +258,13 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $3x^2 - 9x + 5 = 0$, nilai $\\dfrac{3}{\\alpha} + \\dfrac{3}{\\beta}$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{27}{5}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{9}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{27}{5}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{9}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{5}{27}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{18}{5}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
         { "tipe": "paragraph", "text": "Dari $3x^2 - 9x + 5 = 0$ ($a = 3$, $b = -9$, $c = 5$):" },
