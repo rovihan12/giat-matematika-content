@@ -21,8 +21,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x - 5)(x + 2) < 0 \\Rightarrow -2 < x < 5$." },
-        { "tipe": "paragraph", "text": "$x$ bulat: $-1, 0, 1, 2, 3, 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk kuadrat untuk mencari pembuat nol.**" },
+        { "tipe": "paragraph", "text": "$x^2 - 3x - 10 < 0$" },
+        { "tipe": "paragraph", "text": "$(x - 5)(x + 2) < 0$" },
+        { "tipe": "paragraph", "text": "Diperoleh pembuat nol $x = -2$ dan $x = 5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval penyelesaian.**" },
+        { "tipe": "paragraph", "text": "Karena koefisien $x^2$ positif dan tanda pertidaksamaan $< 0$ (selang terbuka), maka daerah penyelesaian berada di antara kedua akar: $-2 < x < 5$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Daftarkan anggota bilangan bulat dalam interval tersebut.**" },
+        { "tipe": "paragraph", "text": "Bilangan bulat yang terletak di antara $-2$ dan $5$ (tanpa menyertakan $-2$ dan $5$) adalah $-1, 0, 1, 2, 3, 4$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaiannya adalah $\\{-1, 0, 1, 2, 3, 4\\}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -40,13 +47,17 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{(x-2)(x+2)}{x-3} \\geq 0$" },
-        { "tipe": "paragraph", "text": "Titik kritis: $x = -2$, $x = 2$, $x = 3$ (dikecualikan)." },
-        { "tipe": "paragraph", "text": "Uji $x = -3$: $\\dfrac{(-)(-)}{-} = - < 0$ ✗" },
-        { "tipe": "paragraph", "text": "Uji $x = 0$: $\\dfrac{(-)(+)}{-} = + \\geq 0$ ✓" },
-        { "tipe": "paragraph", "text": "Uji $x = 2{,}5$: $\\dfrac{(+)(+)}{-} = - < 0$ ✗" },
-        { "tipe": "paragraph", "text": "Uji $x = 4$: $\\dfrac{(+)(+)}{+} = + \\geq 0$ ✓" },
-        { "tipe": "paragraph", "text": "HP = $-2 \\leq x \\leq 2$ atau $x > 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang.**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{(x - 2)(x + 2)}{x - 3} \\geq 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik pembuat nol dan syarat penyebut.**" },
+        { "tipe": "paragraph", "text": "Pembuat nol pembilang: $x = -2$ dan $x = 2$ (selang tertutup karena tanda $\\geq$)." },
+        { "tipe": "paragraph", "text": "Pembuat nol penyebut: $x = 3$ (selang terbuka karena penyebut tidak boleh nol, $x \\neq 3$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji tanda pada garis bilangan.**" },
+        { "tipe": "paragraph", "text": "Untuk $x < -2$ (misal $x = -3$): $\\dfrac{(-)(-)}{-} = -$ (tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "Untuk $-2 \\leq x \\leq 2$ (misal $x = 0$): $\\dfrac{(-)(+)}{-} = +$ (memenuhi $\\geq 0$)" },
+        { "tipe": "paragraph", "text": "Untuk $2 < x < 3$ (misal $x = 2{,}5$): $\\dfrac{(+)(+)}{-} = -$ (tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "Untuk $x > 3$ (misal $x = 4$): $\\dfrac{(+)(+)}{+} = +$ (memenuhi $\\geq 0$)" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaiannya adalah $-2 \\leq x \\leq 2$ atau $x > 3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -64,8 +75,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 8$; $\\alpha\\beta = 5$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{64 - 10}{5} = \\dfrac{54}{5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar (Teorema Vieta).**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 8x + 5 = 0$ ($a = 1$, $b = -8$, $c = 5$):" },
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{b}{a} = -\\dfrac{-8}{1} = 8$" },
+        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{c}{a} = \\dfrac{5}{1} = 5$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan ubah bentuk aljabar.**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui.**" },
+        { "tipe": "paragraph", "text": "$= \\dfrac{(8)^2 - 2(5)}{5} = \\dfrac{64 - 10}{5} = \\dfrac{54}{5}$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}$ adalah $\\dfrac{54}{5}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -83,10 +101,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x_p = 3$ (dalam interval)." },
-        { "tipe": "paragraph", "text": "$f(3) = 9 - 18 + 11 = 2$ (minimum)." },
-        { "tipe": "paragraph", "text": "Bandingkan titik ujung: $f(0) = 11$, $f(6) = 36 - 36 + 11 = 11$." },
-        { "tipe": "paragraph", "text": "Minimum = 2." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) dan periksa apakah berada di dalam interval.**" },
+        { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 6x + 11$, diketahui $a = 1 > 0$ (parabola terbuka ke atas) dan $b = -6$." },
+        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{b}{2a} = -\\dfrac{-6}{2(1)} = 3$" },
+        { "tipe": "paragraph", "text": "Karena $x_p = 3$ berada di dalam interval $0 \\leq x \\leq 6$, maka nilai minimum fungsi tercapai di titik puncak tersebut." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai fungsi di titik puncak dan bandingkan dengan batas interval.**" },
+        { "tipe": "paragraph", "text": "Nilai di titik puncak: $f(3) = (3)^2 - 6(3) + 11 = 9 - 18 + 11 = 2$" },
+        { "tipe": "paragraph", "text": "Nilai di ujung kiri: $f(0) = (0)^2 - 6(0) + 11 = 11$" },
+        { "tipe": "paragraph", "text": "Nilai di ujung kanan: $f(6) = (6)^2 - 6(6) + 11 = 36 - 36 + 11 = 11$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai minimum fungsi pada interval tersebut adalah $2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -104,11 +127,20 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Akar positif: $x_1 + x_2 > 0$ dan $x_1 x_2 > 0$ dan $D \\geq 0$." },
-        { "tipe": "paragraph", "text": "$x_1 + x_2 = 3 - p > 0 \\Rightarrow p < 3$." },
-        { "tipe": "paragraph", "text": "$x_1 x_2 = 9 > 0$ ✓" },
-        { "tipe": "paragraph", "text": "$D \\geq 0 \\Rightarrow (p-3)^2 - 36 \\geq 0 \\Rightarrow p \\leq -3$ atau $p \\geq 9$." },
-        { "tipe": "paragraph", "text": "Irisan dengan $p < 3$: $p \\leq -3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 + (p-3)x + 9 = 0$, diperoleh $a = 1$, $b = p - 3$, dan $c = 9$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan 3 syarat memiliki akar-akar real positif.**" },
+        { "tipe": "paragraph", "text": "**Syarat 1 — Memiliki akar real ($D \\geq 0$):**" },
+        { "tipe": "paragraph", "text": "$b^2 - 4ac \\geq 0 \\Rightarrow (p-3)^2 - 4(1)(9) \\geq 0$" },
+        { "tipe": "paragraph", "text": "$(p-3)^2 - 36 \\geq 0 \\Rightarrow (p - 3 - 6)(p - 3 + 6) \\geq 0$" },
+        { "tipe": "paragraph", "text": "$(p - 9)(p + 3) \\geq 0 \\Rightarrow p \\leq -3$ atau $p \\geq 9$" },
+        { "tipe": "paragraph", "text": "**Syarat 2 — Jumlah kedua akar positif ($x_1 + x_2 > 0$):**" },
+        { "tipe": "paragraph", "text": "$-\\dfrac{b}{a} > 0 \\Rightarrow -(p - 3) > 0 \\Rightarrow 3 - p > 0 \\Rightarrow p < 3$" },
+        { "tipe": "paragraph", "text": "**Syarat 3 — Hasil kali kedua akar positif ($x_1 \\cdot x_2 > 0$):**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{c}{a} > 0 \\Rightarrow 9 > 0$ (selalu terpenuhi)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan irisan dari semua syarat.**" },
+        { "tipe": "paragraph", "text": "Irisan dari $(p \\leq -3 \\text{ atau } p \\geq 9)$ dengan $(p < 3)$ adalah $p \\leq -3$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Batas nilai $p$ yang memenuhi adalah $p \\leq -3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,11 +158,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kasus 1: $x^2 - 5x = 6 \\Rightarrow x^2 - 5x - 6 = 0$" },
-        { "tipe": "paragraph", "text": "$(x-6)(x+1) = 0 \\Rightarrow x = 6$ atau $x = -1$." },
-        { "tipe": "paragraph", "text": "Kasus 2: $x^2 - 5x = -6 \\Rightarrow x^2 - 5x + 6 = 0$" },
-        { "tipe": "paragraph", "text": "$(x-2)(x-3) = 0 \\Rightarrow x = 2$ atau $x = 3$." },
-        { "tipe": "paragraph", "text": "HP = $\\{-1, 2, 3, 6\\}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan definisi persamaan nilai mutlak.**" },
+        { "tipe": "paragraph", "text": "Sifat $|f(x)| = a \\iff f(x) = a$ atau $f(x) = -a$, sehingga terbagi menjadi dua kasus." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan Kasus 1 ($x^2 - 5x = 6$).**" },
+        { "tipe": "paragraph", "text": "$x^2 - 5x - 6 = 0 \\Rightarrow (x - 6)(x + 1) = 0 \\Rightarrow x = 6$ atau $x = -1$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan Kasus 2 ($x^2 - 5x = -6$).**" },
+        { "tipe": "paragraph", "text": "$x^2 - 5x + 6 = 0 \\Rightarrow (x - 2)(x - 3) = 0 \\Rightarrow x = 2$ atau $x = 3$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaian dari semua kasus adalah $\\{-1, 2, 3, 6\\}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -148,7 +182,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = m + 6 = 4 \\Rightarrow m = -2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 2mx + (m+6) = 0$, diperoleh $a = 1$, $b = -2m$, dan $c = m + 6$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus hasil kali akar (Teorema Vieta).**" },
+        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{c}{a} \\Rightarrow 4 = \\dfrac{m + 6}{1}$" },
+        { "tipe": "paragraph", "text": "$m + 6 = 4 \\Rightarrow m = 4 - 6 = -2$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai $m$ yang memenuhi adalah $-2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -166,9 +205,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$f(x) > 0 \\Rightarrow -x^2 + 8x - 12 > 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk pertidaksamaan sesuai syarat fungsi bernilai positif ($f(x) > 0$).**" },
+        { "tipe": "paragraph", "text": "$-x^2 + 8x - 12 > 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan kedua ruas dengan $-1$ agar koefisien $x^2$ positif.**" },
+        { "tipe": "paragraph", "text": "Ingat bahwa mengalikan pertidaksamaan dengan bilangan negatif akan membalik arah tanda pertidaksamaan:" },
         { "tipe": "paragraph", "text": "$x^2 - 8x + 12 < 0$" },
-        { "tipe": "paragraph", "text": "$(x - 2)(x - 6) < 0 \\Rightarrow 2 < x < 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan dan tentukan interval penyelesaian.**" },
+        { "tipe": "paragraph", "text": "$(x - 2)(x - 6) < 0$" },
+        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = 2$ dan $x = 6$. Karena tanda $< 0$, maka daerah penyelesaian berada di antara kedua akar." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Fungsi bernilai positif pada interval $2 < x < 6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -186,10 +231,17 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 9$; $\\alpha\\beta = 14$" },
-        { "tipe": "paragraph", "text": "Jumlah baru: $(\\alpha+3) + (\\beta+3) = 15$" },
-        { "tipe": "paragraph", "text": "Hasil kali: $(\\alpha+3)(\\beta+3) = 14 + 27 + 9 = 50$" },
-        { "tipe": "paragraph", "text": "Persamaan: $x^2 - 15x + 50 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal.**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 9x + 14 = 0$ ($a = 1$, $b = -9$, $c = 14$):" },
+        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{-9}{1} = 9$" },
+        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{14}{1} = 14$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar-akar baru ($x_1 = \\alpha + 3$ dan $x_2 = \\beta + 3$).**" },
+        { "tipe": "paragraph", "text": "Jumlah akar baru: $x_1 + x_2 = (\\alpha + 3) + (\\beta + 3) = (\\alpha + \\beta) + 6 = 9 + 6 = 15$" },
+        { "tipe": "paragraph", "text": "Hasil kali akar baru: $x_1 \\cdot x_2 = (\\alpha + 3)(\\beta + 3) = \\alpha\\beta + 3(\\alpha + \\beta) + 9 = 14 + 3(9) + 9 = 14 + 27 + 9 = 50$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Susun persamaan kuadrat baru.**" },
+        { "tipe": "paragraph", "text": "$x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0$" },
+        { "tipe": "paragraph", "text": "$x^2 - 15x + 50 = 0$" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Persamaan kuadrat barunya adalah $x^2 - 15x + 50 = 0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -207,9 +259,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x^2 - 6x + 8 > 0 \\Rightarrow (x-2)(x-4) > 0 \\Rightarrow x < 2$ atau $x > 4$." },
-        { "tipe": "paragraph", "text": "$x^2 - 9x + 18 \\leq 0 \\Rightarrow (x-3)(x-6) \\leq 0 \\Rightarrow 3 \\leq x \\leq 6$." },
-        { "tipe": "paragraph", "text": "Irisan: $4 < x \\leq 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan pertama.**" },
+        { "tipe": "paragraph", "text": "$x^2 - 6x + 8 > 0 \\Rightarrow (x - 2)(x - 4) > 0$" },
+        { "tipe": "paragraph", "text": "Pembuat nol $x = 2$ dan $x = 4$. Karena tanda $> 0$, penyelesaiannya adalah: $x < 2$ atau $x > 4$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan kedua.**" },
+        { "tipe": "paragraph", "text": "$x^2 - 9x + 18 \\leq 0 \\Rightarrow (x - 3)(x - 6) \\leq 0$" },
+        { "tipe": "paragraph", "text": "Pembuat nol $x = 3$ dan $x = 6$. Karena tanda $\\leq 0$, penyelesaiannya adalah: $3 \\leq x \\leq 6$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Cari irisan dari kedua penyelesaian.**" },
+        { "tipe": "paragraph", "text": "Kata hubung **dan** berarti mencari irisan antara $(x < 2 \\text{ atau } x > 4)$ dengan $(3 \\leq x \\leq 6)$." },
+        { "tipe": "paragraph", "text": "Irisan dari daerah $x > 4$ dan $3 \\leq x \\leq 6$ adalah $4 < x \\leq 6$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaiannya adalah $4 < x \\leq 6$." }
       ],
       "tingkat": "SULIT"
     }
