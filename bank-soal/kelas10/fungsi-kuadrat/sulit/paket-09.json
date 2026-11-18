@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit aplikasi fungsi kuadrat dan optimasi (lanjutan)",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-09-q01",
@@ -41,13 +41,13 @@
         { "tipe": "paragraph", "text": "Sebuah peluru ditembakkan dengan ketinggian $h(t) = 40t - 4t^2$ meter. Tinggi maksimum peluru adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$100$ m" } ],
         [ { "tipe": "paragraph", "text": "$90$ m" } ],
+        [ { "tipe": "paragraph", "text": "$100$ m" } ],
         [ { "tipe": "paragraph", "text": "$110$ m" } ],
         [ { "tipe": "paragraph", "text": "$80$ m" } ],
         [ { "tipe": "paragraph", "text": "$120$ m" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian.**" },
         { "tipe": "paragraph", "text": "Ubah urutan suku fungsi menjadi bentuk umum: $h(t) = -4t^2 + 40t$, sehingga diperoleh $a = -4$, $b = 40$, dan $c = 0$." },
@@ -66,13 +66,13 @@
         { "tipe": "paragraph", "text": "Biaya produksi $x$ unit barang dinyatakan $C(x) = x^2 - 24x + 200$ (ribu rupiah). Biaya minimum adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$56$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$60$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$64$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$56$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$52$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$48$ ribu" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi biaya.**" },
         { "tipe": "paragraph", "text": "Dari $C(x) = x^2 - 24x + 200$, diperoleh $a = 1$, $b = -24$, dan $c = 200$." },
@@ -91,13 +91,13 @@
         { "tipe": "paragraph", "text": "Jumlah dua bilangan adalah 40. Jika hasil kali kedua bilangan maksimum, bilangan terkecil adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$20$" } ],
         [ { "tipe": "paragraph", "text": "$18$" } ],
         [ { "tipe": "paragraph", "text": "$22$" } ],
         [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
         [ { "tipe": "paragraph", "text": "$24$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Misalkan kedua bilangan tersebut dalam satu variabel.**" },
         { "tipe": "paragraph", "text": "Jika bilangan pertama adalah $x$, karena jumlah keduanya $40$, maka bilangan kedua adalah $40 - x$." },
@@ -117,13 +117,13 @@
         { "tipe": "paragraph", "text": "Sebuah roket mainan diluncurkan dengan ketinggian $h(t) = 30t - t^2$ meter. Waktu yang dibutuhkan roket untuk mencapai tanah kembali adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$30$ detik" } ],
         [ { "tipe": "paragraph", "text": "$25$ detik" } ],
         [ { "tipe": "paragraph", "text": "$35$ detik" } ],
         [ { "tipe": "paragraph", "text": "$20$ detik" } ],
-        [ { "tipe": "paragraph", "text": "$40$ detik" } ]
+        [ { "tipe": "paragraph", "text": "$40$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$30$ detik" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat roket menyentuh tanah.**" },
         { "tipe": "paragraph", "text": "Saat roket berada di permukaan tanah, ketinggiannya sama dengan nol ($h(t) = 0$)." },
@@ -141,13 +141,13 @@
         { "tipe": "paragraph", "text": "Sebuah taman berbentuk persegi panjang dengan keliling 80 m. Agar luas taman maksimum, panjang taman adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$20$ m" } ],
         [ { "tipe": "paragraph", "text": "$15$ m" } ],
+        [ { "tipe": "paragraph", "text": "$20$ m" } ],
         [ { "tipe": "paragraph", "text": "$25$ m" } ],
         [ { "tipe": "paragraph", "text": "$30$ m" } ],
         [ { "tipe": "paragraph", "text": "$10$ m" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling.**" },
         { "tipe": "paragraph", "text": "$K = 2(p + l) = 80 \\Rightarrow p + l = 40 \\Rightarrow l = 40 - p$" },
@@ -166,13 +166,13 @@
         { "tipe": "paragraph", "text": "Keuntungan penjualan $x$ unit barang dinyatakan $P(x) = -3x^2 + 90x - 200$ (ribu rupiah). Keuntungan maksimum adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$475$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$450$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$500$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$475$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$425$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$525$ ribu" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi keuntungan.**" },
         { "tipe": "paragraph", "text": "Dari $P(x) = -3x^2 + 90x - 200$, diperoleh $a = -3$, $b = 90$, dan $c = -200$." },
@@ -192,13 +192,13 @@
         { "tipe": "paragraph", "text": "Sebuah jendela berbentuk persegi panjang dengan keliling 240 cm. Luas maksimum jendela adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$3600$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$3200$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$4000$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$2800$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$3600$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$4400$ cm²" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling.**" },
         { "tipe": "paragraph", "text": "$K = 2(p + l) = 240 \\Rightarrow p + l = 120 \\Rightarrow l = 120 - p$" },
@@ -220,13 +220,13 @@
         { "tipe": "paragraph", "text": "Sebuah bola dilempar ke atas dengan ketinggian $h(t) = 24t - 3t^2$. Tinggi maksimum bola adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$48$ m" } ],
         [ { "tipe": "paragraph", "text": "$42$ m" } ],
         [ { "tipe": "paragraph", "text": "$54$ m" } ],
         [ { "tipe": "paragraph", "text": "$36$ m" } ],
-        [ { "tipe": "paragraph", "text": "$60$ m" } ]
+        [ { "tipe": "paragraph", "text": "$60$ m" } ],
+        [ { "tipe": "paragraph", "text": "$48$ m" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian.**" },
         { "tipe": "paragraph", "text": "Ubah urutan suku fungsi menjadi $h(t) = -3t^2 + 24t$, sehingga diperoleh $a = -3$, $b = 24$, dan $c = 0$." },
