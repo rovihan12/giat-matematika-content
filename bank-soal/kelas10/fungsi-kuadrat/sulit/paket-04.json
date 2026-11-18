@@ -5,7 +5,7 @@
   "kategori": "Fungsi Kuadrat",
   "tingkat": "SULIT",
   "deskripsi": "Soal sulit aplikasi fungsi kuadrat dan optimasi",
-  "versi": "1.0.0",
+  "versi": "1.0.1",
   "soal": [
     {
       "id": "bs-k10-fk-sulit-04-q01",
@@ -13,13 +13,13 @@
         { "tipe": "paragraph", "text": "Sebuah kawat panjang 80 cm akan dibuat persegi panjang. Luas maksimum persegi panjang tersebut adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$300$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$350$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$400$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$350$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$300$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$450$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$500$ cm²" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan hubungan antara panjang ($p$) dan lebar ($l$) dari keliling.**" },
         { "tipe": "paragraph", "text": "$K = 2(p + l) = 80 \\Rightarrow p + l = 40 \\Rightarrow l = 40 - p$" },
@@ -42,12 +42,12 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$40$ m" } ],
-        [ { "tipe": "paragraph", "text": "$45$ m" } ],
         [ { "tipe": "paragraph", "text": "$50$ m" } ],
+        [ { "tipe": "paragraph", "text": "$45$ m" } ],
         [ { "tipe": "paragraph", "text": "$55$ m" } ],
         [ { "tipe": "paragraph", "text": "$60$ m" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian.**" },
         { "tipe": "paragraph", "text": "Ubah urutan suku fungsi menjadi bentuk umum: $h(t) = -5t^2 + 30t$, sehingga diperoleh $a = -5$, $b = 30$, dan $c = 0$." },
@@ -66,13 +66,13 @@
         { "tipe": "paragraph", "text": "Biaya produksi $x$ unit barang dinyatakan $C(x) = x^2 - 20x + 150$ (ribu rupiah). Biaya minimum adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$50$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$60$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$50$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$70$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$80$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$100$ ribu" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi biaya.**" },
         { "tipe": "paragraph", "text": "Dari $C(x) = x^2 - 20x + 150$, diperoleh $a = 1$, $b = -20$, dan $c = 150$." },
@@ -118,12 +118,12 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$20$ detik" } ],
-        [ { "tipe": "paragraph", "text": "$25$ detik" } ],
         [ { "tipe": "paragraph", "text": "$30$ detik" } ],
+        [ { "tipe": "paragraph", "text": "$25$ detik" } ],
         [ { "tipe": "paragraph", "text": "$35$ detik" } ],
         [ { "tipe": "paragraph", "text": "$50$ detik" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat roket menyentuh tanah.**" },
         { "tipe": "paragraph", "text": "Saat roket berada di permukaan tanah, ketinggiannya sama dengan nol ($h(t) = 0$)." },
@@ -143,11 +143,11 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$10$ m" } ],
         [ { "tipe": "paragraph", "text": "$12$ m" } ],
-        [ { "tipe": "paragraph", "text": "$15$ m" } ],
+        [ { "tipe": "paragraph", "text": "$20$ m" } ],
         [ { "tipe": "paragraph", "text": "$18$ m" } ],
-        [ { "tipe": "paragraph", "text": "$20$ m" } ]
+        [ { "tipe": "paragraph", "text": "$15$ m" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling.**" },
         { "tipe": "paragraph", "text": "$K = 2(p + l) = 60 \\Rightarrow p + l = 30 \\Rightarrow l = 30 - p$" },
@@ -168,11 +168,11 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$400$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$450$ ribu" } ],
-        [ { "tipe": "paragraph", "text": "$500$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$550$ ribu" } ],
+        [ { "tipe": "paragraph", "text": "$500$ ribu" } ],
         [ { "tipe": "paragraph", "text": "$600$ ribu" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi keuntungan.**" },
         { "tipe": "paragraph", "text": "Dari $P(x) = -2x^2 + 80x - 300$, diperoleh $a = -2$, $b = 80$, dan $c = -300$." },
@@ -194,11 +194,11 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$2000$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$2200$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$2500$ cm²" } ],
         [ { "tipe": "paragraph", "text": "$2800$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$3000$ cm²" } ]
+        [ { "tipe": "paragraph", "text": "$3000$ cm²" } ],
+        [ { "tipe": "paragraph", "text": "$2500$ cm²" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling.**" },
         { "tipe": "paragraph", "text": "$K = 2(p + l) = 200 \\Rightarrow p + l = 100 \\Rightarrow l = 100 - p$" },
@@ -222,11 +222,11 @@
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$40$ m" } ],
         [ { "tipe": "paragraph", "text": "$45$ m" } ],
-        [ { "tipe": "paragraph", "text": "$50$ m" } ],
         [ { "tipe": "paragraph", "text": "$55$ m" } ],
+        [ { "tipe": "paragraph", "text": "$50$ m" } ],
         [ { "tipe": "paragraph", "text": "$60$ m" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian.**" },
         { "tipe": "paragraph", "text": "Ubah urutan suku fungsi menjadi $h(t) = -2t^2 + 20t$, sehingga diperoleh $a = -2$, $b = 20$, dan $c = 0$." },
@@ -246,12 +246,12 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "Rp25.000" } ],
-        [ { "tipe": "paragraph", "text": "$31.250$ rupiah" } ],
         [ { "tipe": "paragraph", "text": "Rp32.500" } ],
+        [ { "tipe": "paragraph", "text": "$31.250$ rupiah" } ],
         [ { "tipe": "paragraph", "text": "Rp35.000" } ],
         [ { "tipe": "paragraph", "text": "Rp40.000" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Bentuk fungsi total pendapatan $R(x)$.**" },
         { "tipe": "paragraph", "text": "Total pendapatan merupakan hasil kali jumlah unit terjual ($x$) dengan harga jual per unit ($H(x)$):" },
@@ -259,7 +259,7 @@
         { "tipe": "paragraph", "text": "Diperoleh koefisien $a = -2$, $b = 500$, dan $c = 0$." },
         { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jumlah unit ($x_{\\text{opt}}$) agar pendapatan maksimum.**" },
         { "tipe": "paragraph", "text": "$x_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{500}{2(-2)} = -\\dfrac{500}{-4} = 125\\text{ unit}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 125$ ke fungsi $R(x)$ untuk menghitung pendapatan maksimum.**" },
+        { "tipo": "paragraph", "text": "**Langkah 3: Substitusikan $x = 125$ ke fungsi $R(x)$ untuk menghitung pendapatan maksimum.**" },
         { "tipe": "paragraph", "text": "$R_{\\text{maks}} = R(125) = -2(125)^2 + 500(125)$" },
         { "tipe": "paragraph", "text": "$R_{\\text{maks}} = -2(15.625) + 62.500 = -31.250 + 62.500 = 31.250\\text{ rupiah}$" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Pendapatan maksimum yang diperoleh adalah $31.250$ rupiah." }
