@@ -21,11 +21,23 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $x + y = 7 \\Rightarrow y = 7 - x$." },
-        { "tipe": "paragraph", "text": "$x^2 + (7 - x)^2 = 25 \\Rightarrow 2x^2 - 14x + 24 = 0 \\Rightarrow x^2 - 7x + 12 = 0$" },
-        { "tipe": "paragraph", "text": "$(x - 3)(x - 4) = 0 \\Rightarrow x = 3$ atau $x = 4$" },
-        { "tipe": "paragraph", "text": "Solusi: $(3, 4)$ dan $(4, 3)$. $x_1 = 4$, $y_1 = 3$." },
-        { "tipe": "paragraph", "text": "$x_1 - y_1 = 4 - 3 = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $y$ dalam variabel $x$ dari persamaan linear**" },
+        { "tipe": "paragraph", "text": "$x + y = 7 \\Rightarrow y = 7 - x$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $y$ ke persamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "$x^2 + (7 - x)^2 = 25$" },
+        { "tipe": "paragraph", "text": "$x^2 + (49 - 14x + x^2) = 25$" },
+        { "tipe": "paragraph", "text": "$2x^2 - 14x + 24 = 0$" },
+        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan $2$ untuk menyederhanakan:" },
+        { "tipe": "paragraph", "text": "$x^2 - 7x + 12 = 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat untuk mencari nilai $x$**" },
+        { "tipe": "paragraph", "text": "$(x - 3)(x - 4) = 0$" },
+        { "tipe": "paragraph", "text": "Diperoleh $x = 3$ atau $x = 4$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Tentukan pasangan $(x_1, y_1)$ sesuai syarat $x_1 > x_2$**" },
+        { "tipe": "paragraph", "text": "Karena $x_1 > x_2$, maka diambil nilai $x$ yang lebih besar, yaitu $x_1 = 4$." },
+        { "tipe": "paragraph", "text": "Substitusikan $x_1 = 4$ ke $y = 7 - x$:" },
+        { "tipe": "paragraph", "text": "$y_1 = 7 - 4 = 3$" },
+        { "tipe": "paragraph", "text": "**Langkah 5: Hitung nilai $x_1 - y_1$**" },
+        { "tipe": "paragraph", "text": "$x_1 - y_1 = 4 - 3 = 1$." }
       ],
       "tingkat": "SULIT"
     },
@@ -43,10 +55,20 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x^2 - y^2 = (x - y)(x + y) = 9$." },
-        { "tipe": "paragraph", "text": "Karena $x + y = 3$: $(x - y) \\cdot 3 = 9 \\Rightarrow x - y = 3$." },
-        { "tipe": "paragraph", "text": "Dari $x + y = 3$ dan $x - y = 3$: $2x = 6 \\Rightarrow x = 3$, $y = 0$." },
-        { "tipe": "paragraph", "text": "HP = $\\{(3, 0)\\}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk selisih kuadrat $x^2 - y^2$**" },
+        { "tipe": "paragraph", "text": "Gunakan identitas aljabar $a^2 - b^2 = (a - b)(a + b)$:" },
+        { "tipe": "paragraph", "text": "$x^2 - y^2 = 9 \\Rightarrow (x - y)(x + y) = 9$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 3$**" },
+        { "tipe": "paragraph", "text": "$(x - y) \\cdot 3 = 9$" },
+        { "tipe": "paragraph", "text": "$x - y = \\dfrac{9}{3} = 3$ ... (Persamaan baru)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Eliminasi kedua persamaan linear**" },
+        { "tipe": "paragraph", "text": "Jumlahkan $x + y = 3$ dan $x - y = 3$:" },
+        { "tipe": "paragraph", "text": "$(x + y) + (x - y) = 3 + 3$" },
+        { "tipe": "paragraph", "text": "$2x = 6 \\Rightarrow x = 3$" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Cari nilai $y$ dan tulis himpunan penyelesaian**" },
+        { "tipe": "paragraph", "text": "Substitusikan $x = 3$ ke persamaan $x + y = 3$:" },
+        { "tipe": "paragraph", "text": "$3 + y = 3 \\Rightarrow y = 0$" },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{(3, 0)\\}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -64,8 +86,13 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 = (x^2 + y^2) + 2xy$" },
-        { "tipe": "paragraph", "text": "$= 20 + 2(8) = 20 + 16 = 36$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan bentuk kuadrat $(x + y)^2$**" },
+        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2$" },
+        { "tipe": "paragraph", "text": "Kelompokkan suku-suku yang diketahui nilainya:" },
+        { "tipe": "paragraph", "text": "$(x + y)^2 = (x^2 + y^2) + 2(xy)$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x^2 + y^2 = 20$ dan $xy = 8$**" },
+        { "tipe": "paragraph", "text": "$(x + y)^2 = 20 + 2(8)$" },
+        { "tipe": "paragraph", "text": "$(x + y)^2 = 20 + 16 = 36$." }
       ],
       "tingkat": "SULIT"
     },
@@ -83,11 +110,22 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $a = \\dfrac{1}{x}$, $b = \\dfrac{1}{y}$." },
-        { "tipe": "paragraph", "text": "$a + 2b = 3$; $2a - b = 1$" },
-        { "tipe": "paragraph", "text": "(i) + 2(ii): $5a = 5 \\Rightarrow a = 1$" },
-        { "tipe": "paragraph", "text": "Substitusi: $1 + 2b = 3 \\Rightarrow b = 1$" },
-        { "tipe": "paragraph", "text": "$x = 1$, $y = 1$, $xy = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Lakukan pemisalan variabel**" },
+        { "tipe": "paragraph", "text": "Misalkan $a = \\dfrac{1}{x}$ dan $b = \\dfrac{1}{y}$, sehingga sistem menjadi persamaan linear:" },
+        { "tipe": "paragraph", "text": "(1) $a + 2b = 3$" },
+        { "tipe": "paragraph", "text": "(2) $2a - b = 1$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi variabel $b$**" },
+        { "tipe": "paragraph", "text": "Kalikan persamaan (2) dengan $2$, lalu jumlahkan dengan persamaan (1):" },
+        { "tipe": "paragraph", "text": "$(a + 2b) + 2(2a - b) = 3 + 2(1)$" },
+        { "tipe": "paragraph", "text": "$(a + 2b) + (4a - 2b) = 5$" },
+        { "tipe": "paragraph", "text": "$5a = 5 \\Rightarrow a = 1$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Cari nilai $b$ dengan substitusi**" },
+        { "tipe": "paragraph", "text": "Substitusikan $a = 1$ ke persamaan (1):" },
+        { "tipe": "paragraph", "text": "$1 + 2b = 3 \\Rightarrow 2b = 2 \\Rightarrow b = 1$" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Kembalikan ke variabel $x$ dan $y$, lalu hitung $x \\cdot y$**" },
+        { "tipe": "paragraph", "text": "• $a = \\dfrac{1}{x} = 1 \\Rightarrow x = 1$" },
+        { "tipe": "paragraph", "text": "• $b = \\dfrac{1}{y} = 1 \\Rightarrow y = 1$" },
+        { "tipe": "paragraph", "text": "Maka, nilai $x \\cdot y = 1 \\cdot 1 = 1$." }
       ],
       "tingkat": "SULIT"
     },
@@ -105,11 +143,31 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Cek solusi $(1, 3, 5)$:" },
-        { "tipe": "paragraph", "text": "$S_1 = 1+3+5 = 9$ ✓" },
-        { "tipe": "paragraph", "text": "$S_2 = 1{\\cdot}3 + 1{\\cdot}5 + 3{\\cdot}5 = 3 + 5 + 15 = 23$ ✓" },
-        { "tipe": "paragraph", "text": "$x^2 + y^2 + z^2 = 1 + 9 + 25 = 35$ ✓" },
-        { "tipe": "paragraph", "text": "$(x - 1)(y - 1)(z - 1) = (1-1)(3-1)(5-1) = 0 \\cdot 2 \\cdot 4 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan bentuk $(x - 1)(y - 1)(z - 1)$**" },
+        { "tipe": "paragraph", "text": "Kalikan dua faktor pertama terlebih dahulu:" },
+        { "tipe": "paragraph", "text": "$(x - 1)(y - 1) = xy - x - y + 1$" },
+        { "tipe": "paragraph", "text": "Kalikan hasilnya dengan $(z - 1)$:" },
+        { "tipe": "paragraph", "text": "$(xy - x - y + 1)(z - 1) = xyz - xy - xz + x - yz + y + z - 1$" },
+        { "tipe": "paragraph", "text": "Susun ulang suku-sukunya berdasarkan bentuk simetris:" },
+        { "tipe": "paragraph", "text": "$= xyz - (xy + xz + yz) + (x + y + z) - 1$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai $xyz$ menggunakan identitas polinomial**" },
+        { "tipe": "paragraph", "text": "Ingat identitas: $x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - xz - yz)$, atau kita dapat membentuk persamaan kubik berakar $x, y, z$:" },
+        { "tipe": "paragraph", "text": "$(t - x)(t - y)(t - z) = t^3 - (x + y + z)t^2 + (xy + xz + yz)t - xyz = 0$" },
+        { "tipe": "paragraph", "text": "Substitusikan nilai yang diketahui ($x + y + z = 9$ dan $xy + xz + yz = 23$):" },
+        { "tipe": "paragraph", "text": "$t^3 - 9t^2 + 23t - xyz = 0$" },
+        { "tipe": "paragraph", "text": "Perhatikan bahwa $(x - 1)(y - 1)(z - 1)$ adalah nilai polinomial tersebut saat $t = 1$:" },
+        { "tipe": "paragraph", "text": "$(1 - x)(1 - y)(1 - z) = 1^3 - 9(1)^2 + 23(1) - xyz$" },
+        { "tipe": "paragraph", "text": "Karena tanda negatifnya dikalikan tiga kali, maka:" },
+        { "tipe": "paragraph", "text": "$(x - 1)(y - 1)(z - 1) = -(1 - 9 + 23 - xyz) = xyz - 15$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan nilai $x, y, z$ yang memenuhi**" },
+        { "tipe": "paragraph", "text": "Dari persamaan kubik $t^3 - 9t^2 + 23t - xyz = 0$, cari tiga bilangan bulat positif yang jumlahnya $9$ dan jumlah kuadratnya $35$:" },
+        { "tipe": "paragraph", "text": "Bilangan tersebut adalah $1, 3,$ dan $5$ karena:" },
+        { "tipe": "paragraph", "text": "• $1 + 3 + 5 = 9$" },
+        { "tipe": "paragraph", "text": "• $1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35$" },
+        { "tipe": "paragraph", "text": "• $1(3) + 1(5) + 3(5) = 3 + 5 + 15 = 23$" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung nilai yang ditanyakan**" },
+        { "tipe": "paragraph", "text": "Substitusikan $(x, y, z) = (1, 3, 5)$:" },
+        { "tipe": "paragraph", "text": "$(x - 1)(y - 1)(z - 1) = (1 - 1)(3 - 1)(5 - 1) = 0 \\cdot 2 \\cdot 4 = 0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -127,8 +185,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas penjumlahan pangkat tiga**" },
+        { "tipe": "paragraph", "text": "Ingat rumus penjabaran $(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3$, yang dapat ditulis ulang menjadi:" },
+        { "tipe": "paragraph", "text": "$(x + y)^3 = x^3 + y^3 + 3xy(x + y)$" },
+        { "tipe": "paragraph", "text": "Pindahkan ruas sehingga diperoleh rumus $x^3 + y^3$:" },
         { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
-        { "tipe": "paragraph", "text": "$= 125 - 3 \\cdot 6 \\cdot 5 = 125 - 90 = 35$" }
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 5$ dan $xy = 6$**" },
+        { "tipe": "paragraph", "text": "$x^3 + y^3 = (5)^3 - 3(6)(5)$" },
+        { "tipe": "paragraph", "text": "$x^3 + y^3 = 125 - 90 = 35$." }
       ],
       "tingkat": "SULIT"
     },
@@ -146,11 +210,22 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x^2 + y^2 = (x + y)^2 - 2xy = 10$" },
-        { "tipe": "paragraph", "text": "$16 - 2xy = 10 \\Rightarrow xy = 3$" },
-        { "tipe": "paragraph", "text": "Akar-akar: $t^2 - 4t + 3 = 0 \\Rightarrow t = 1$ atau $t = 3$." },
-        { "tipe": "paragraph", "text": "Solusi: $(1, 3)$ dan $(3, 1)$. $x_1 = 3$, $y_1 = 1$." },
-        { "tipe": "paragraph", "text": "$x_1 \\cdot y_1 = 3 \\cdot 1 = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $y$ dalam variabel $x$**" },
+        { "tipe": "paragraph", "text": "Dari $x + y = 4$, diperoleh $y = 4 - x$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $y$ ke persamaan $x^2 + y^2 = 10$**" },
+        { "tipe": "paragraph", "text": "$x^2 + (4 - x)^2 = 10$" },
+        { "tipe": "paragraph", "text": "$x^2 + (16 - 8x + x^2) = 10$" },
+        { "tipe": "paragraph", "text": "$2x^2 - 8x + 6 = 0$" },
+        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan $2$:" },
+        { "tipe": "paragraph", "text": "$x^2 - 4x + 3 = 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "$(x - 1)(x - 3) = 0$" },
+        { "tipe": "paragraph", "text": "Diperoleh $x = 1$ atau $x = 3$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Tentukan $(x_1, y_1)$ dan hitung $x_1 \\cdot y_1$**" },
+        { "tipe": "paragraph", "text": "Karena syaratnya $x_1 > x_2$, maka $x_1 = 3$." },
+        { "tipe": "paragraph", "text": "Substitusikan $x_1 = 3$ ke $y = 4 - x$:" },
+        { "tipe": "paragraph", "text": "$y_1 = 4 - 3 = 1$" },
+        { "tipe": "paragraph", "text": "Maka, nilai $x_1 \\cdot y_1 = 3 \\cdot 1 = 3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -168,7 +243,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{a} + \\dfrac{1}{b} = \\dfrac{a + b}{ab} = \\dfrac{7}{12}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut bentuk pecahan**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{1}{a} + \\dfrac{1}{b} = \\dfrac{1 \\cdot b}{a \\cdot b} + \\dfrac{1 \\cdot a}{b \\cdot a} = \\dfrac{a + b}{ab}$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui $a + b = 7$ dan $ab = 12$, maka:" },
+        { "tipe": "paragraph", "text": "$\\dfrac{a + b}{ab} = \\dfrac{7}{12}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -186,11 +265,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $x - y = 1 \\Rightarrow y = x - 1$." },
-        { "tipe": "paragraph", "text": "Substitusi: $x^2 - (x - 1) = 3 \\Rightarrow x^2 - x - 2 = 0$" },
-        { "tipe": "paragraph", "text": "$(x - 2)(x + 1) = 0 \\Rightarrow x = 2$ atau $x = -1$." },
-        { "tipe": "paragraph", "text": "$x > 0 \\Rightarrow x = 2$, $y = 1$." },
-        { "tipe": "paragraph", "text": "$x + y = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $y$ dari kedua persamaan**" },
+        { "tipe": "paragraph", "text": "Kurangkan persamaan pertama ($x^2 - y = 3$) dengan persamaan kedua ($x - y = 1$):" },
+        { "tipe": "paragraph", "text": "$(x^2 - y) - (x - y) = 3 - 1$" },
+        { "tipe": "paragraph", "text": "$x^2 - x = 2$" },
+        { "tipe": "paragraph", "text": "$x^2 - x - 2 = 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan persamaan kuadrat untuk mencari $x$**" },
+        { "tipe": "paragraph", "text": "$(x - 2)(x + 1) = 0$" },
+        { "tipe": "paragraph", "text": "Diperoleh $x = 2$ atau $x = -1$." },
+        { "tipe": "paragraph", "text": "Karena syarat pada soal adalah $x > 0$, maka nilai yang memenuhi adalah $x = 2$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Cari nilai $y$ dan hitung $x + y$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $x = 2$ ke persamaan $x - y = 1$:" },
+        { "tipe": "paragraph", "text": "$2 - y = 1 \\Rightarrow y = 1$" },
+        { "tipe": "paragraph", "text": "Maka, nilai $x + y = 2 + 1 = 3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -208,9 +295,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\left(x + \\dfrac{1}{x}\\right)^2 = x^2 + 2 + \\dfrac{1}{x^2}$" },
-        { "tipe": "paragraph", "text": "$9 = x^2 + 2 + \\dfrac{1}{x^2}$" },
-        { "tipe": "paragraph", "text": "$x^2 + \\dfrac{1}{x^2} = 7$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan**" },
+        { "tipe": "paragraph", "text": "$\\left(x + \\dfrac{1}{x}\\right)^2 = 3^2$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan bentuk kuadrat di ruas kiri**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus $(a + b)^2 = a^2 + 2ab + b^2$:" },
+        { "tipe": "paragraph", "text": "$x^2 + 2 \\cdot x \\cdot \\dfrac{1}{x} + \\left(\\dfrac{1}{x}\\right)^2 = 9$" },
+        { "tipe": "paragraph", "text": "Sederhanakan $2 \\cdot x \\cdot \\dfrac{1}{x} = 2$:" },
+        { "tipe": "paragraph", "text": "$x^2 + 2 + \\dfrac{1}{x^2} = 9$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Pindahkan konstanta ke ruas kanan**" },
+        { "tipe": "paragraph", "text": "$x^2 + \\dfrac{1}{x^2} = 9 - 2 = 7$." }
       ],
       "tingkat": "SULIT"
     }
