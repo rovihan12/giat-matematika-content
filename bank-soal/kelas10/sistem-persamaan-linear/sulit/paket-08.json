@@ -19,9 +19,18 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{(x-3)(x+3)}{x-1} \\geq 0$. Pembuat nol: $x = -3$, $x = 1$ (dikecualikan), $x = 3$." },
-        { "tipe": "paragraph", "text": "Uji interval: negatif pada $x < -3$ dan $1 < x < 3$; positif pada $-3 \\leq x < 1$ dan $x \\geq 3$." },
-        { "tipe": "paragraph", "text": "Maka HP: $-3 \\leq x < 1$ atau $x \\geq 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang menjadi faktor linear**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{(x - 3)(x + 3)}{x - 1} \\geq 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan pembuat nol dan syarat penyebut**" },
+        { "tipe": "paragraph", "text": "• Pembuat nol pembilang: $x = -3$ dan $x = 3$ (termasuk dalam penyelesaian karena tanda $\\geq$)." },
+        { "tipe": "paragraph", "text": "• Pembuat nol penyebut: $x = 1$ (dikecualikan karena $x \\neq 1$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji tanda pada empat interval garis bilangan**" },
+        { "tipe": "paragraph", "text": "1) Interval $x \\leq -3$ (uji $x = -4$): $\\dfrac{(-7)(-1)}{-5} = -\\dfrac{7}{5} < 0$ (Tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "2) Interval $-3 \\leq x < 1$ (uji $x = 0$): $\\dfrac{(-3)(3)}{-1} = +9 > 0$ (Memenuhi)" },
+        { "tipe": "paragraph", "text": "3) Interval $1 < x \\leq 3$ (uji $x = 2$): $\\dfrac{(-1)(5)}{1} = -5 < 0$ (Tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "4) Interval $x \\geq 3$ (uji $x = 4$): $\\dfrac{(1)(7)}{3} = +\\dfrac{7}{3} > 0$ (Memenuhi)" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Gabungkan interval yang memenuhi**" },
+        { "tipe": "paragraph", "text": "Himpunan penyelesaiannya adalah $-3 \\leq x < 1$ atau $x \\geq 3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -37,9 +46,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x-1 \\leq -(x+2) \\Rightarrow 3x \\leq -1 \\Rightarrow x \\leq -1/3$." },
-        { "tipe": "paragraph", "text": "$2x-1 \\geq x+2 \\Rightarrow x \\geq 3$." },
-        { "tipe": "paragraph", "text": "HP: $x \\leq -1/3$ atau $x \\geq 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat $|f(x)| \\geq g(x) \\iff f(x) \\leq -g(x)$ atau $f(x) \\geq g(x)$**" },
+        { "tipe": "paragraph", "text": "• **Kasus 1:** $2x - 1 \\leq -(x + 2)$" },
+        { "tipe": "paragraph", "text": "$2x - 1 \\leq -x - 2 \\Rightarrow 3x \\leq -1 \\Rightarrow x \\leq -\\dfrac{1}{3}$" },
+        { "tipe": "paragraph", "text": "• **Kasus 2:** $2x - 1 \\geq x + 2$" },
+        { "tipe": "paragraph", "text": "$2x - x \\geq 2 + 1 \\Rightarrow x \\geq 3$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Verifikasi syarat batas dan gabungkan hasil**" },
+        { "tipe": "paragraph", "text": "Untuk $x \\leq -\\dfrac{1}{3}$, nilai mutlak $|2x - 1| = 1 - 2x \\geq \\dfrac{5}{3} > 0$, sedangkan $x + 2 \\leq \\dfrac{5}{3}$ (selalu memenuhi $|2x - 1| \\geq x + 2$)." },
+        { "tipe": "paragraph", "text": "Untuk $x \\geq 3$, $|2x - 1| = 2x - 1 \\geq x + 2$ (selalu memenuhi)." },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $x \\leq -\\dfrac{1}{3}$ atau $x \\geq 3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -55,8 +70,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut daerah penyelesaian: $(3,0) \\Rightarrow 3(3)+0 = 9$, $(0,6) \\Rightarrow 4(6) = 24$." },
-        { "tipe": "paragraph", "text": "Nilai minimum adalah $9$ di titik $(3,0)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong garis batas dengan sumbu koordinat**" },
+        { "tipe": "paragraph", "text": "• Garis $x + y = 6$: memotong sumbu-$x$ di $(6, 0)$ dan sumbu-$y$ di $(0, 6)$." },
+        { "tipe": "paragraph", "text": "• Garis $2x + y = 6$: memotong sumbu-$x$ di $(3, 0)$ dan sumbu-$y$ di $(0, 6)$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik-titik sudut daerah penyelesaian**" },
+        { "tipe": "paragraph", "text": "Daerah fisibel berada di kuadran I ($x \\geq 0, y \\geq 0$), di bawah $x + y = 6$, dan di atas $2x + y = 6$. Titik-titik sudutnya adalah $(3, 0)$, $(6, 0)$, dan $(0, 6)$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji setiap titik sudut ke fungsi objektif $f(x, y) = 3x + 4y$**" },
+        { "tipe": "paragraph", "text": "• Titik $(3, 0)$: $f(3, 0) = 3(3) + 4(0) = 9$" },
+        { "tipe": "paragraph", "text": "• Titik $(6, 0)$: $f(6, 0) = 3(6) + 4(0) = 18$" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 6)$: $f(0, 6) = 3(0) + 4(6) = 24$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai minimumnya adalah $9$ (dicapai di titik $(3, 0)$)." }
       ],
       "tingkat": "SULIT"
     },
@@ -72,11 +95,22 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Analisis interval:" },
-        { "tipe": "paragraph", "text": "Untuk $x < -3$: $-(x-2) - (x+3) = 7 \\Rightarrow -2x - 1 = 7 \\Rightarrow x = -4$ (memenuhi)." },
-        { "tipe": "paragraph", "text": "Untuk $-3 \\leq x < 2$: $-(x-2) + (x+3) = 5 \\neq 7$ (tidak ada solusi)." },
-        { "tipe": "paragraph", "text": "Untuk $x \\geq 2$: $(x-2) + (x+3) = 7 \\Rightarrow 2x + 1 = 7 \\Rightarrow x = 3$ (memenuhi)." },
-        { "tipe": "paragraph", "text": "Maka HP = $\\{-4, 3\\}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pembuat nol masing-masing nilai mutlak**" },
+        { "tipe": "paragraph", "text": "• $|x + 3| = 0 \\Rightarrow x = -3$" },
+        { "tipe": "paragraph", "text": "• $|x - 2| = 0 \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "Kedua titik membagi garis bilangan menjadi 3 kasus interval:" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan pada setiap interval**" },
+        { "tipe": "paragraph", "text": "• **Kasus 1: Untuk $x < -3$**" },
+        { "tipe": "paragraph", "text": "Kedua bentuk mutlak bernilai negatif, sehingga:" },
+        { "tipe": "paragraph", "text": "$-(x - 2) - (x + 3) = 7 \\Rightarrow -2x - 1 = 7 \\Rightarrow -2x = 8 \\Rightarrow x = -4$ (Memenuhi karena $-4 < -3$)." },
+        { "tipe": "paragraph", "text": "• **Kasus 2: Untuk $-3 \\leq x < 2$**" },
+        { "tipe": "paragraph", "text": "$(x - 2)$ negatif dan $(x + 3)$ tak negatif, sehingga:" },
+        { "tipe": "paragraph", "text": "$-(x - 2) + (x + 3) = 7 \\Rightarrow -x + 2 + x + 3 = 7 \\Rightarrow 5 = 7$ (Tidak ada solusi pada interval ini)." },
+        { "tipe": "paragraph", "text": "• **Kasus 3: Untuk $x \\geq 2$**" },
+        { "tipe": "paragraph", "text": "Kedua bentuk mutlak bernilai tak negatif, sehingga:" },
+        { "tipe": "paragraph", "text": "$(x - 2) + (x + 3) = 7 \\Rightarrow 2x + 1 = 7 \\Rightarrow 2x = 6 \\Rightarrow x = 3$ (Memenuhi karena $3 \\geq 2$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Gabungkan solusi yang memenuhi**" },
+        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $\\{-4, 3\\}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -92,8 +126,17 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{2x-5}{x+1} - 1 > 0 \\Rightarrow \\dfrac{x-6}{x+1} > 0$." },
-        { "tipe": "paragraph", "text": "Titik kritis: $x = 6$, $x = -1$ (dikecualikan). HP: $x < -1$ atau $x > 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pindahkan ruas kanan ke ruas kiri dan samakan penyebut**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{2x - 5}{x + 1} - 1 > 0$" },
+        { "tipe": "paragraph", "text": "$\\dfrac{(2x - 5) - (x + 1)}{x + 1} > 0 \\Rightarrow \\dfrac{x - 6}{x + 1} > 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik kritis dan syarat penyebut**" },
+        { "tipe": "paragraph", "text": "• Pembuat nol pembilang: $x - 6 = 0 \\Rightarrow x = 6$ (tidak termasuk karena tanda $>$)." },
+        { "tipe": "paragraph", "text": "• Pembuat nol penyebut: $x + 1 = 0 \\Rightarrow x = -1$ (dikecualikan karena $x \\neq -1$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji tanda pada tiga interval garis bilangan (dicari hasil positif / $> 0$)**" },
+        { "tipe": "paragraph", "text": "1) Interval $x < -1$ (uji $x = -2$): $\\dfrac{-2 - 6}{-2 + 1} = \\dfrac{-8}{-1} = +8 > 0$ (Memenuhi)" },
+        { "tipe": "paragraph", "text": "2) Interval $-1 < x < 6$ (uji $x = 0$): $\\dfrac{0 - 6}{0 + 1} = -6 < 0$ (Tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "3) Interval $x > 6$ (uji $x = 7$): $\\dfrac{7 - 6}{7 + 1} = +\\dfrac{1}{8} > 0$ (Memenuhi)" },
+        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $x < -1$ atau $x > 6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -109,8 +152,21 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut daerah: $(0,0) \\Rightarrow 0$, $(3,0) \\Rightarrow 6$, $(0,3) \\Rightarrow 9$, dan titik potong $(2,2) \\Rightarrow 2(2)+3(2) = 10$." },
-        { "tipe": "paragraph", "text": "Nilai maksimum adalah $10$ di titik $(2,2)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong garis batas dengan sumbu koordinat**" },
+        { "tipe": "paragraph", "text": "• Garis $x + 2y = 6$: memotong sumbu-$x$ di $(6, 0)$ dan sumbu-$y$ di $(0, 3)$." },
+        { "tipe": "paragraph", "text": "• Garis $2x + y = 6$: memotong sumbu-$x$ di $(3, 0)$ dan sumbu-$y$ di $(0, 6)$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari titik potong kedua garis batas**" },
+        { "tipe": "paragraph", "text": "Dari $x + 2y = 6 \\Rightarrow x = 6 - 2y$. Substitusikan ke $2x + y = 6$:" },
+        { "tipe": "paragraph", "text": "$2(6 - 2y) + y = 6 \\Rightarrow 12 - 4y + y = 6 \\Rightarrow -3y = -6 \\Rightarrow y = 2$." },
+        { "tipe": "paragraph", "text": "Substitusikan $y = 2$: $x = 6 - 2(2) = 2$. Titik potongnya adalah $(2, 2)$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan titik sudut daerah fisibel di kuadran I**" },
+        { "tipe": "paragraph", "text": "Titik-titik sudutnya adalah $(0, 0)$, $(3, 0)$, $(0, 3)$, dan $(2, 2)$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Uji setiap titik sudut ke fungsi objektif $f(x, y) = 2x + 3y$**" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 0)$: $f(0, 0) = 2(0) + 3(0) = 0$" },
+        { "tipe": "paragraph", "text": "• Titik $(3, 0)$: $f(3, 0) = 2(3) + 3(0) = 6$" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 3)$: $f(0, 3) = 2(0) + 3(3) = 9$" },
+        { "tipe": "paragraph", "text": "• Titik $(2, 2)$: $f(2, 2) = 2(2) + 3(2) = 4 + 6 = 10$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai maksimumnya adalah $10$ (dicapai di titik $(2, 2)$)." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,10 +182,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kuadratkan kedua ruas: $(x+1)^2 < (2x-3)^2$." },
-        { "tipe": "paragraph", "text": "$(x+1)^2 - (2x-3)^2 < 0 \\Rightarrow ((x+1)-(2x-3))((x+1)+(2x-3)) < 0$." },
-        { "tipe": "paragraph", "text": "$(-x+4)(3x-2) < 0 \\Rightarrow (x-4)(3x-2) > 0$." },
-        { "tipe": "paragraph", "text": "Maka HP: $x < 2/3$ atau $x > 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas karena keduanya bernilai tak negatif**" },
+        { "tipe": "paragraph", "text": "$(x + 1)^2 < (2x - 3)^2$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Pindahkan ke satu ruas dan gunakan sifat selisih kuadrat $A^2 - B^2 = (A - B)(A + B)$**" },
+        { "tipe": "paragraph", "text": "$(x + 1)^2 - (2x - 3)^2 < 0$" },
+        { "tipe": "paragraph", "text": "$[(x + 1) - (2x - 3)][(x + 1) + (2x - 3)] < 0$" },
+        { "tipe": "paragraph", "text": "$(-x + 4)(3x - 2) < 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Ubah koefisien $x$ agar positif dan tentukan interval**" },
+        { "tipe": "paragraph", "text": "Kalikan faktor pertama dengan $-1$ (tanda ketidaksamaan berbalik menjadi $>$):" },
+        { "tipe": "paragraph", "text": "$(x - 4)(3x - 2) > 0$" },
+        { "tipe": "paragraph", "text": "Pembuat nolnya adalah $x = \dfrac{2}{3}$ dan $x = 4$. Karena tandanya $> 0$, maka daerah penyelesaian berada di luar akar-akarnya: $x < \dfrac{2}{3}$ atau $x > 4$." }
       ],
       "tingkat": "SULIT"
     },
@@ -145,8 +207,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut daerah di Kuadran I: $(4,0)$, $(8,0)$, dan $(0,4)$." },
-        { "tipe": "paragraph", "text": "Luas = $\\dfrac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\dfrac{1}{2} \\times (8 - 4) \\times 4 = 8$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong garis batas dengan sumbu koordinat**" },
+        { "tipe": "paragraph", "text": "• Garis $x + y = 4$: memotong sumbu-$x$ di $(4, 0)$ dan sumbu-$y$ di $(0, 4)$." },
+        { "tipe": "paragraph", "text": "• Garis $x + 2y = 8$: memotong sumbu-$x$ di $(8, 0)$ dan sumbu-$y$ di $(0, 4)$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi bentuk dan titik sudut daerah penyelesaian**" },
+        { "tipe": "paragraph", "text": "Kedua garis berpotongan di titik $(0, 4)$ pada sumbu-$y$. Di kuadran I ($x \\geq 0, y \\geq 0$), daerah di atas $x + y = 4$ dan di bawah $x + 2y = 8$ membentuk segitiga dengan titik sudut $(4, 0)$, $(8, 0)$, dan $(0, 4)$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung luas segitiga**" },
+        { "tipe": "paragraph", "text": "• Panjang alas pada sumbu-$x$ (dari $x = 4$ ke $x = 8$): $\\text{alas} = 8 - 4 = 4$ satuan." },
+        { "tipe": "paragraph", "text": "• Tinggi segitiga (jarak vertikal dari sumbu-$x$ ke puncak $(0, 4)$): $\\text{tinggi} = 4$ satuan." },
+        { "tipe": "paragraph", "text": "$\\text{Luas} = \\dfrac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\dfrac{1}{2} \\times 4 \\times 4 = 8$." }
       ],
       "tingkat": "SULIT"
     },
@@ -162,9 +231,18 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{(x-2)(x+2)}{x+3} \\leq 0$. Pembuat nol: $x = -3$ (dikecualikan), $x = -2$, $x = 2$." },
-        { "tipe": "paragraph", "text": "Uji interval: negatif pada $x < -3$ dan $-2 \\leq x \\leq 2$." },
-        { "tipe": "paragraph", "text": "Maka HP: $x < -3$ atau $-2 \\leq x \\leq 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang menjadi faktor linear**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{(x - 2)(x + 2)}{x + 3} \\leq 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan pembuat nol dan syarat penyebut**" },
+        { "tipe": "paragraph", "text": "• Pembuat nol pembilang: $x = -2$ dan $x = 2$ (termasuk dalam penyelesaian karena tanda $\\leq$)." },
+        { "tipe": "paragraph", "text": "• Pembuat nol penyebut: $x = -3$ (dikecualikan karena $x \\neq -3$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji tanda pada empat interval garis bilangan (dicari hasil negatif / $\\leq 0$)**" },
+        { "tipe": "paragraph", "text": "1) Interval $x < -3$ (uji $x = -4$): $\\dfrac{(-6)(-2)}{-1} = -12 < 0$ (Memenuhi)" },
+        { "tipe": "paragraph", "text": "2) Interval $-3 < x \\leq -2$ (uji $x = -2{,}5$): $\\dfrac{(-4{,}5)(-0{,}5)}{0{,}5} = +4{,}5 > 0$ (Tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "3) Interval $-2 \\leq x \\leq 2$ (uji $x = 0$): $\\dfrac{(-2)(2)}{3} = -\\dfrac{4}{3} < 0$ (Memenuhi)" },
+        { "tipe": "paragraph", "text": "4) Interval $x \\geq 2$ (uji $x = 3$): $\\dfrac{(1)(5)}{6} = +\\dfrac{5}{6} > 0$ (Tidak memenuhi)" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Gabungkan interval yang memenuhi**" },
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi adalah $x < -3$ atau $-2 \\leq x \\leq 2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -180,8 +258,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x-3=5 \\Rightarrow x_1=4$; $2x-3=-5 \\Rightarrow x_2=-1$." },
-        { "tipe": "paragraph", "text": "Maka $x_1+x_2 = 4 + (-1) = 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pecah persamaan nilai mutlak menjadi dua persamaan linear**" },
+        { "tipe": "paragraph", "text": "Berdasarkan definisi $|A| = k$ (dengan $k \\geq 0$), maka $A = k$ atau $A = -k$:" },
+        { "tipe": "paragraph", "text": "• **Kemungkinan 1:** $2x - 3 = 5 \\Rightarrow 2x = 8 \\Rightarrow x_1 = 4$" },
+        { "tipe": "paragraph", "text": "• **Kemungkinan 2:** $2x - 3 = -5 \\Rightarrow 2x = -2 \\Rightarrow x_2 = -1$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x_1 + x_2$**" },
+        { "tipe": "paragraph", "text": "$x_1 + x_2 = 4 + (-1) = 3$." }
       ],
       "tingkat": "SULIT"
     }
