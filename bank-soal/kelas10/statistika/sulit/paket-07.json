@@ -19,10 +19,13 @@
         [ { "tipe": "paragraph", "text": "$12{,}5$" } ],
         [ { "tipe": "paragraph", "text": "$13$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Urutkan: $7, 9, 10, 11, 12, 14, 15, 18$." },
-        { "tipe": "paragraph", "text": "$n = 8$, median = $\\dfrac{11+12}{2} = 11{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data dari terkecil ke terbesar ($n = 8$)**" },
+        { "tipe": "paragraph", "text": "$7, 9, 10, 11, 12, 14, 15, 18$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung median untuk data genap ($n = 8$)**" },
+        { "tipe": "paragraph", "text": "Median terletak di antara data ke-$4$ ($11$) dan data ke-$5$ ($12$):" },
+        { "tipe": "paragraph", "text": "$Me = \\dfrac{11 + 12}{2} = \\dfrac{23}{2} = 11{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,9 +45,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 2+4+5+3+1 = 15$ (ganjil), median = data ke-8." },
-        { "tipe": "paragraph", "text": "Akm: $4(2), 5(6), 6(11)$ → data ke-8 bernilai $6$." },
-        { "tipe": "paragraph", "text": "Median = $6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah data ($n$) dan tentukan letak median**" },
+        { "tipe": "paragraph", "text": "$n = 2 + 4 + 5 + 3 + 1 = 15$ (ganjil), sehingga median berada pada data ke-$\\dfrac{15 + 1}{2} = 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun frekuensi kumulatif untuk menemukan nilai data ke-$8$**" },
+        { "tipe": "paragraph", "text": "• Nilai $4$: frekuensi $2$ (data ke-$1$ s.d. $2$)" },
+        { "tipe": "paragraph", "text": "• Nilai $5$: frekuensi $4$, kumulatif $6$ (data ke-$3$ s.d. $6$)" },
+        { "tipe": "paragraph", "text": "• Nilai $6$: frekuensi $5$, kumulatif $11$ (data ke-$7$ s.d. $11$)" },
+        { "tipe": "paragraph", "text": "Data ke-$8$ berada pada rentang data ke-$7$ s.d. $11$, sehingga nilainya adalah $6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -62,8 +69,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 9$, median = data ke-5 = $7$." },
-        { "tipe": "paragraph", "text": "Modus = $7$ (muncul 3×)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median data terurut ($n = 9$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut dari kecil ke besar: $3, 5, 5, 6, 7, 7, 7, 9, 10$. Median terletak pada data ke-$\\dfrac{9 + 1}{2} = 5$, yaitu $7$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan modus (nilai yang paling sering muncul)**" },
+        { "tipe": "paragraph", "text": "Angka $7$ muncul sebanyak $3$ kali (lebih banyak daripada angka lainnya), sehingga modus $= 7$." },
+        { "tipe": "paragraph", "text": "Jadi, pernyataan yang benar adalah Median $= 7$ dan modus $= 7$." }
       ],
       "tingkat": "SULIT"
     },
@@ -81,8 +91,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 9$, median = data ke-5 = $9$." },
-        { "tipe": "paragraph", "text": "$Q_1$ = median ($3, 4, 6, 8$) = $\\dfrac{4+6}{2} = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median dan kelompok data bagian bawah ($n = 9$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut: $3, 4, 6, 8, 9, 11, 12, 15, 17$. Median berada pada data ke-$5$, yaitu $9$." },
+        { "tipe": "paragraph", "text": "Kelompok data di bawah median adalah $3, 4, 6, 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung kuartil pertama ($Q_1$) sebagai median kelompok bawah**" },
+        { "tipe": "paragraph", "text": "$Q_1 = \\dfrac{4 + 6}{2} = \\dfrac{10}{2} = 5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,8 +115,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Frekuensi terbesar adalah $6$, dengan nilai $7$." },
-        { "tipe": "paragraph", "text": "Modus = $7$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan frekuensi setiap nilai pada tabel**" },
+        { "tipe": "paragraph", "text": "Frekuensi masing-masing nilai: $5$ muncul $2$ kali, $6$ muncul $4$ kali, $7$ muncul $6$ kali, $8$ muncul $3$ kali, dan $9$ muncul $1$ kali." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai dengan frekuensi terbesar**" },
+        { "tipe": "paragraph", "text": "Frekuensi terbesar adalah $6$ yang dimiliki oleh nilai $7$, sehingga modusnya adalah $7$." }
       ],
       "tingkat": "SULIT"
     },
@@ -121,9 +136,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 9$, median = $15$." },
-        { "tipe": "paragraph", "text": "$Q_1$ = median ($5, 8, 10, 12$) = $9$; $Q_3$ = median ($18, 20, 22, 25$) = $21$." },
-        { "tipe": "paragraph", "text": "IQR = $21 - 9 = 12$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median dan kelompok data bawah serta atas ($n = 9$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut. Median berada pada data ke-$5$, yaitu $15$." },
+        { "tipe": "paragraph", "text": "• Kelompok data bawah: $5, 8, 10, 12$" },
+        { "tipe": "paragraph", "text": "• Kelompok data atas: $18, 20, 22, 25$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $Q_1$ dan $Q_3$**" },
+        { "tipe": "paragraph", "text": "• $Q_1 = \\dfrac{8 + 10}{2} = 9$" },
+        { "tipe": "paragraph", "text": "• $Q_3 = \\dfrac{20 + 22}{2} = 21$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jangkauan interkuartil ($H = Q_3 - Q_1$)**" },
+        { "tipe": "paragraph", "text": "$H = 21 - 9 = 12$." }
       ],
       "tingkat": "SULIT"
     },
@@ -141,8 +162,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Urutkan: $10, 11, 12, 13, 14, 15, 16, 17, 18, 20$." },
-        { "tipe": "paragraph", "text": "$n = 10$, median = $\\dfrac{14+15}{2} = 14{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data dari terkecil ke terbesar ($n = 10$)**" },
+        { "tipe": "paragraph", "text": "$10, 11, 12, 13, 14, 15, 16, 17, 18, 20$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung median untuk data genap ($n = 10$)**" },
+        { "tipe": "paragraph", "text": "Median terletak di antara data ke-$5$ ($14$) dan data ke-$6$ ($15$):" },
+        { "tipe": "paragraph", "text": "$Me = \\dfrac{14 + 15}{2} = \\dfrac{29}{2} = 14{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -162,9 +186,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 1+2+4+4+2+1 = 14$, median = rata-rata data ke-7 dan ke-8." },
-        { "tipe": "paragraph", "text": "Akm: $3(1), 4(3), 5(7), 6(11)$ → data ke-7 = $5$, data ke-8 = $6$." },
-        { "tipe": "paragraph", "text": "Median = $\\dfrac{5+6}{2} = 5{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah data ($n$) dan tentukan letak median**" },
+        { "tipe": "paragraph", "text": "$n = 1 + 2 + 4 + 4 + 2 + 1 = 14$ (genap), sehingga median adalah rata-rata data ke-$7$ dan data ke-$8$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai data ke-$7$ dan ke-$8$ menggunakan frekuensi kumulatif**" },
+        { "tipe": "paragraph", "text": "• Nilai $3$: kumulatif $1$ (data ke-$1$)" },
+        { "tipe": "paragraph", "text": "• Nilai $4$: kumulatif $3$ (data ke-$2$ s.d. $3$)" },
+        { "tipe": "paragraph", "text": "• Nilai $5$: kumulatif $7$ (data ke-$4$ s.d. $7$) $\\Rightarrow$ data ke-$7$ bernilai $5$." },
+        { "tipe": "paragraph", "text": "• Nilai $6$: kumulatif $11$ (data ke-$8$ s.d. $11$) $\\Rightarrow$ data ke-$8$ bernilai $6$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai median**" },
+        { "tipe": "paragraph", "text": "$Me = \\dfrac{5 + 6}{2} = 5{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -182,8 +212,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Frekuensi: $2(1), 3(2), 4(2), 5(3), 6(2), 7(1)$." },
-        { "tipe": "paragraph", "text": "Modus = $5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung kemunculan setiap nilai pada data**" },
+        { "tipe": "paragraph", "text": "• Angka $2$ muncul $1$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $3$ muncul $2$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $4$ muncul $2$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $5$ muncul $3$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $6$ muncul $2$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $7$ muncul $1$ kali" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan modus**" },
+        { "tipe": "paragraph", "text": "Nilai yang paling sering muncul adalah $5$ (sebanyak $3$ kali), sehingga modusnya adalah $5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -201,8 +238,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 11$, median = data ke-6 = $11$." },
-        { "tipe": "paragraph", "text": "$Q_3$ = median ($13, 15, 16, 18, 20$) = $16$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median dan kelompok data bagian atas ($n = 11$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut: $4, 5, 7, 8, 10, 11, 13, 15, 16, 18, 20$. Median berada pada data ke-$6$, yaitu $11$." },
+        { "tipe": "paragraph", "text": "Kelompok data di atas median adalah $13, 15, 16, 18, 20$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung kuartil ketiga ($Q_3$) sebagai median kelompok atas**" },
+        { "tipe": "paragraph", "text": "Nilai tengah dari $13, 15, 16, 18, 20$ adalah data ke-$3$ pada kelompok tersebut, yaitu $16$." }
       ],
       "tingkat": "SULIT"
     }
