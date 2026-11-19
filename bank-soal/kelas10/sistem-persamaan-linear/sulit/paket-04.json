@@ -21,10 +21,18 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal produk A $= a$, B $= b$, C $= c$." },
-        { "tipe": "paragraph", "text": "$a + b + c = 225$; $a = 2b$; $c = b + 25$" },
-        { "tipe": "paragraph", "text": "$2b + b + b + 25 = 225 \\Rightarrow 4b = 200 \\Rightarrow b = 50$" },
-        { "tipe": "paragraph", "text": "$a = 100$; $c = 75$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat model matematika dari soal cerita**" },
+        { "tipe": "paragraph", "text": "Misalkan banyak produksi masing-masing produk adalah $a$ (produk A), $b$ (produk B), dan $c$ (produk C)." },
+        { "tipe": "paragraph", "text": "• Total produksi ketiganya 225 unit $\\Rightarrow a + b + c = 225$" },
+        { "tipe": "paragraph", "text": "• Produk A 2 kali produk B $\\Rightarrow a = 2b$" },
+        { "tipe": "paragraph", "text": "• Produk C 25 lebih banyak dari produk B $\\Rightarrow c = b + 25$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a$ dan $c$ ke persamaan pertama**" },
+        { "tipe": "paragraph", "text": "$(2b) + b + (b + 25) = 225$" },
+        { "tipe": "paragraph", "text": "$4b + 25 = 225$" },
+        { "tipe": "paragraph", "text": "$4b = 225 - 25$" },
+        { "tipe": "paragraph", "text": "$4b = 200 \\Rightarrow b = 50$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung banyak produk A**" },
+        { "tipe": "paragraph", "text": "$a = 2b = 2(50) = 100$ unit." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,9 +50,20 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal komik $= k$; novel $= k + 5.000$; majalah $= k - 10.000$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan semua harga dalam variabel harga komik ($k$)**" },
+        { "tipe": "paragraph", "text": "Misalkan harga 1 komik $= k$, maka:" },
+        { "tipe": "paragraph", "text": "• Harga 1 novel ($n$) $= k + 5.000$" },
+        { "tipe": "paragraph", "text": "• Harga 1 majalah ($m$) $= k - 10.000$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan total harga penjualan**" },
+        { "tipe": "paragraph", "text": "$3n + 2k + 1m = 137.000$" },
+        { "tipe": "paragraph", "text": "Substitusikan $n$ dan $m$:" },
         { "tipe": "paragraph", "text": "$3(k + 5.000) + 2k + (k - 10.000) = 137.000$" },
-        { "tipe": "paragraph", "text": "$6k + 5.000 = 137.000 \\Rightarrow 6k = 132.000 \\Rightarrow k = 22.000$" }
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan untuk mencari $k$**" },
+        { "tipe": "paragraph", "text": "$(3k + 15.000) + 2k + k - 10.000 = 137.000$" },
+        { "tipe": "paragraph", "text": "$6k + 5.000 = 137.000$" },
+        { "tipe": "paragraph", "text": "$6k = 137.000 - 5.000$" },
+        { "tipe": "paragraph", "text": "$6k = 132.000 \\Rightarrow k = \\dfrac{132.000}{6} = 22.000$" },
+        { "tipe": "paragraph", "text": "Jadi, harga 1 komik adalah Rp22.000." }
       ],
       "tingkat": "SULIT"
     },
@@ -62,10 +81,18 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
-        { "tipe": "paragraph", "text": "$A - 2 = 3(a - 2) \\Rightarrow A = 3a - 4$" },
-        { "tipe": "paragraph", "text": "$A + a = 36$" },
-        { "tipe": "paragraph", "text": "$3a - 4 + a = 36 \\Rightarrow 4a = 40 \\Rightarrow a = 10$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Definisikan variabel umur sekarang**" },
+        { "tipe": "paragraph", "text": "Misalkan umur ayah sekarang $= A$ dan umur anak sekarang $= a$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat dua persamaan dari informasi soal**" },
+        { "tipe": "paragraph", "text": "• Kondisi 2 tahun lalu: umur ayah $(A - 2)$ dan umur anak $(a - 2)$, maka:" },
+        { "tipe": "paragraph", "text": "$A - 2 = 3(a - 2) \\Rightarrow A - 2 = 3a - 6 \\Rightarrow A = 3a - 4$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "• Jumlah umur sekarang 36 tahun:" },
+        { "tipe": "paragraph", "text": "$A + a = 36$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan persamaan (1) ke persamaan (2)**" },
+        { "tipe": "paragraph", "text": "$(3a - 4) + a = 36$" },
+        { "tipe": "paragraph", "text": "$4a - 4 = 36$" },
+        { "tipe": "paragraph", "text": "$4a = 40 \\Rightarrow a = 10$" },
+        { "tipe": "paragraph", "text": "Jadi, umur anak sekarang adalah $10$ tahun." }
       ],
       "tingkat": "SULIT"
     },
@@ -83,8 +110,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat fungsi biaya untuk masing-masing taksi**" },
+        { "tipe": "paragraph", "text": "Misalkan jarak tempuh $= k$ (dalam km)." },
+        { "tipe": "paragraph", "text": "• Tarif taksi pertama ($T_1$) $= 5.000 + 3.000k$" },
+        { "tipe": "paragraph", "text": "• Tarif taksi kedua ($T_2$) $= 8.000 + 2.000k$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan kedua fungsi tarif ($T_1 = T_2$)**" },
         { "tipe": "paragraph", "text": "$5.000 + 3.000k = 8.000 + 2.000k$" },
-        { "tipe": "paragraph", "text": "$1.000k = 3.000 \\Rightarrow k = 3$ km" }
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan untuk mencari jarak $k$**" },
+        { "tipe": "paragraph", "text": "$3.000k - 2.000k = 8.000 - 5.000$" },
+        { "tipe": "paragraph", "text": "$1.000k = 3.000 \\Rightarrow k = \\dfrac{3.000}{1.000} = 3$" },
+        { "tipe": "paragraph", "text": "Jadi, tarif kedua taksi akan sama pada jarak $3$ km (dengan total tarif Rp14.000)." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,10 +137,22 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a + b = \\dfrac{1}{6}$; $a + c = \\dfrac{1}{8}$; $b + c = \\dfrac{1}{12}$" },
-        { "tipe": "paragraph", "text": "Jumlahkan: $2(a + b + c) = \\dfrac{1}{6} + \\dfrac{1}{8} + \\dfrac{1}{12} = \\dfrac{4+3+2}{24} = \\dfrac{3}{8}$" },
-        { "tipe": "paragraph", "text": "$a + b + c = \\dfrac{3}{16}$; $a = \\dfrac{3}{16} - \\dfrac{1}{12} = \\dfrac{9-4}{48} = \\dfrac{5}{48}$" },
-        { "tipe": "paragraph", "text": "Waktu A $= \\dfrac{48}{5}$ hari" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah waktu kerja menjadi kecepatan (bagian pekerjaan per hari)**" },
+        { "tipe": "paragraph", "text": "Misalkan kecepatan kerja per hari masing-masing tukang adalah $a, b,$ dan $c$:" },
+        { "tipe": "paragraph", "text": "(1) A dan B selesai dalam 6 hari $\\Rightarrow a + b = \\dfrac{1}{6}$ bagian/hari" },
+        { "tipe": "paragraph", "text": "(2) A dan C selesai dalam 8 hari $\\Rightarrow a + c = \\dfrac{1}{8}$ bagian/hari" },
+        { "tipe": "paragraph", "text": "(3) B dan C selesai dalam 12 hari $\\Rightarrow b + c = \\dfrac{1}{12}$ bagian/hari" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan ketiga persamaan kecepatan**" },
+        { "tipe": "paragraph", "text": "$(a + b) + (a + c) + (b + c) = \\dfrac{1}{6} + \\dfrac{1}{8} + \\dfrac{1}{12}$" },
+        { "tipe": "paragraph", "text": "Samakan penyebut pecahan di ruas kanan menjadi $24$:" },
+        { "tipe": "paragraph", "text": "$2a + 2b + 2c = \\dfrac{4 + 3 + 2}{24} = \\dfrac{9}{24} = \\dfrac{3}{8}$" },
+        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan $2$ untuk mendapatkan kecepatan gabungan ketiganya:" },
+        { "tipe": "paragraph", "text": "$a + b + c = \\dfrac{3}{16}$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Cari kecepatan tukang A ($a$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan $b + c = \\dfrac{1}{12}$ ke persamaan gabungan:" },
+        { "tipe": "paragraph", "text": "$a + \\dfrac{1}{12} = \\dfrac{3}{16} \\Rightarrow a = \\dfrac{3}{16} - \\dfrac{1}{12} = \\dfrac{9 - 4}{48} = \\dfrac{5}{48}$ bagian/hari." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung waktu yang diperlukan A sendiri**" },
+        { "tipe": "paragraph", "text": "Waktu $= \\dfrac{1 \\text{ pekerjaan}}{\\text{kecepatan } a} = \\dfrac{1}{\\frac{5}{48}} = \\dfrac{48}{5}$ hari." }
       ],
       "tingkat": "SULIT"
     },
@@ -123,9 +170,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a + b = 100$; $0{,}2a + 0{,}5b = 30$" },
-        { "tipe": "paragraph", "text": "$b = 100 - a$: $0{,}2a + 50 - 0{,}5a = 30$" },
-        { "tipe": "paragraph", "text": "$-0{,}3a = -20 \\Rightarrow a = \\dfrac{200}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat persamaan total volume larutan**" },
+        { "tipe": "paragraph", "text": "Misalkan volume bahan A $= a$ liter dan bahan B $= b$ liter." },
+        { "tipe": "paragraph", "text": "$a + b = 100 \\Rightarrow b = 100 - a$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat persamaan kandungan garam murni**" },
+        { "tipe": "paragraph", "text": "• Garam dalam bahan A $= 20\\% \\times a = 0{,}2a$" },
+        { "tipe": "paragraph", "text": "• Garam dalam bahan B $= 50\\% \\times b = 0{,}5b$" },
+        { "tipe": "paragraph", "text": "• Garam dalam campuran akhir $= 30\\% \\times 100 = 30$ liter" },
+        { "tipe": "paragraph", "text": "Maka: $0{,}2a + 0{,}5b = 30$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan persamaan (1) ke persamaan (2)**" },
+        { "tipe": "paragraph", "text": "$0{,}2a + 0{,}5(100 - a) = 30$" },
+        { "tipe": "paragraph", "text": "$0{,}2a + 50 - 0{,}5a = 30$" },
+        { "tipe": "paragraph", "text": "$-0{,}3a = 30 - 50$" },
+        { "tipe": "paragraph", "text": "$-0{,}3a = -20 \\Rightarrow a = \\dfrac{-20}{-0{,}3} = \\dfrac{200}{3}$ liter." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,9 +200,18 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$A - 4 = 4(a - 4) \\Rightarrow A = 4a - 12$" },
-        { "tipe": "paragraph", "text": "$A + 8 = 2(a + 8) \\Rightarrow A = 2a + 8$" },
-        { "tipe": "paragraph", "text": "$4a - 12 = 2a + 8 \\Rightarrow 2a = 20 \\Rightarrow a = 10$; $A = 28$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Definisikan variabel umur sekarang**" },
+        { "tipe": "paragraph", "text": "Misalkan umur ayah sekarang $= A$ dan umur anak sekarang $= a$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat persamaan dari kondisi 4 tahun lalu dan 8 tahun mendatang**" },
+        { "tipe": "paragraph", "text": "• 4 tahun lalu: $A - 4 = 4(a - 4) \\Rightarrow A - 4 = 4a - 16 \\Rightarrow A = 4a - 12$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "• 8 tahun mendatang: $A + 8 = 2(a + 8) \\Rightarrow A + 8 = 2a + 16 \\Rightarrow A = 2a + 8$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Samakan persamaan (1) dan (2) untuk mencari umur anak ($a$)**" },
+        { "tipe": "paragraph", "text": "$4a - 12 = 2a + 8$" },
+        { "tipe": "paragraph", "text": "$4a - 2a = 8 + 12$" },
+        { "tipe": "paragraph", "text": "$2a = 20 \\Rightarrow a = 10$ tahun." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung umur ayah sekarang ($A$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan $a = 10$ ke persamaan (2):" },
+        { "tipe": "paragraph", "text": "$A = 2(10) + 8 = 20 + 8 = 28$ tahun." }
       ],
       "tingkat": "SULIT"
     },
@@ -163,9 +229,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$A + 2J = 50.000$; $2A + 3J = 85.000$" },
-        { "tipe": "paragraph", "text": "(i)×2: $2A + 4J = 100.000$; (ii): $2A + 3J = 85.000$; kurangkan: $J = 15.000$" },
-        { "tipe": "paragraph", "text": "$A = 50.000 - 30.000 = 20.000$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat model matematika**" },
+        { "tipe": "paragraph", "text": "Misalkan harga 1 kg apel $= A$ dan harga 1 kg jeruk $= J$:" },
+        { "tipe": "paragraph", "text": "(1) $A + 2J = 50.000$" },
+        { "tipe": "paragraph", "text": "(2) $2A + 3J = 85.000$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi variabel $A$ untuk mencari harga jeruk ($J$)**" },
+        { "tipe": "paragraph", "text": "Kalikan persamaan (1) dengan $2$, lalu kurangkan dengan persamaan (2):" },
+        { "tipe": "paragraph", "text": "$2(A + 2J) - (2A + 3J) = 2(50.000) - 85.000$" },
+        { "tipe": "paragraph", "text": "$(2A + 4J) - (2A + 3J) = 100.000 - 85.000$" },
+        { "tipe": "paragraph", "text": "$J = 15.000$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $J = 15.000$ ke persamaan (1) untuk mencari harga apel ($A$)**" },
+        { "tipe": "paragraph", "text": "$A + 2(15.000) = 50.000$" },
+        { "tipe": "paragraph", "text": "$A + 30.000 = 50.000 \\Rightarrow A = 20.000$" },
+        { "tipe": "paragraph", "text": "Jadi, harga 1 kg apel adalah Rp20.000." }
       ],
       "tingkat": "SULIT"
     },
@@ -183,10 +259,22 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kendala: $2x + y \\leq 100$; $x + 3y \\leq 100$" },
-        { "tipe": "paragraph", "text": "Titik-titik sudut: $(50, 0) = 50$; $(0, 33{,}3)$; titik potong:" },
-        { "tipe": "paragraph", "text": "$y = 100 - 2x$; $x + 300 - 6x = 100 \\Rightarrow 5x = 200 \\Rightarrow x = 40$, $y = 20$" },
-        { "tipe": "paragraph", "text": "$x + y = 60$ ✓" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun sistem pertidaksamaan kendala waktu mesin**" },
+        { "tipe": "paragraph", "text": "• Kendala mesin A: $2x + y \\leq 100$ (memotong sumbu di $(50, 0)$ dan $(0, 100)$)" },
+        { "tipe": "paragraph", "text": "• Kendala mesin B: $x + 3y \\leq 100$ (memotong sumbu di $(100, 0)$ dan $(0, 33{,}3)$)" },
+        { "tipe": "paragraph", "text": "• Syarat non-negatif: $x \\geq 0, y \\geq 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari titik potong kedua garis kendala**" },
+        { "tipe": "paragraph", "text": "Dari kendala mesin A, diperoleh $y = 100 - 2x$. Substitusikan ke kendala mesin B:" },
+        { "tipe": "paragraph", "text": "$x + 3(100 - 2x) = 100$" },
+        { "tipe": "paragraph", "text": "$x + 300 - 6x = 100$" },
+        { "tipe": "paragraph", "text": "$-5x = -200 \\Rightarrow x = 40$" },
+        { "tipe": "paragraph", "text": "Substitusikan $x = 40$: $y = 100 - 2(40) = 20$. Titik potongnya adalah $(40, 20)$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji semua titik sudut daerah fisibel ke fungsi $f(x, y) = x + y$**" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 0)$: $0 + 0 = 0$" },
+        { "tipe": "paragraph", "text": "• Titik $(50, 0)$: $50 + 0 = 50$" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 33{,}3)$: $0 + 33{,}3 = 33{,}3$" },
+        { "tipe": "paragraph", "text": "• Titik $(40, 20)$: $40 + 20 = 60$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai maksimum $x + y$ adalah $60$." }
       ],
       "tingkat": "SULIT"
     },
@@ -204,11 +292,24 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bilangan $= 10a + b$; $a + b = 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan bilangan berdasarkan nilai tempat puluhan dan satuan**" },
+        { "tipe": "paragraph", "text": "Misalkan angka puluhan $= a$ dan angka satuan $= b$, maka:" },
+        { "tipe": "paragraph", "text": "• Nilai bilangan asli $= 10a + b$" },
+        { "tipe": "paragraph", "text": "• Nilai bilangan setelah angka ditukar $= 10b + a$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat dua persamaan dari informasi soal**" },
+        { "tipe": "paragraph", "text": "• Jumlah kedua angka adalah 8: $a + b = 8 \\Rightarrow b = 8 - a$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "• Nilai bilangan baru $= 2 \\times \\text{nilai asli} + 10$:" },
         { "tipe": "paragraph", "text": "$10b + a = 2(10a + b) + 10$" },
-        { "tipe": "paragraph", "text": "$8b - 19a = 10$" },
-        { "tipe": "paragraph", "text": "$b = 8 - a$: $64 - 8a - 19a = 10 \\Rightarrow 27a = 54 \\Rightarrow a = 2$; $b = 6$." },
-        { "tipe": "paragraph", "text": "Bilangan asli = $26$" }
+        { "tipe": "paragraph", "text": "$10b + a = 20a + 2b + 10$" },
+        { "tipe": "paragraph", "text": "$8b - 19a = 10$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan persamaan (1) ke persamaan (2)**" },
+        { "tipe": "paragraph", "text": "$8(8 - a) - 19a = 10$" },
+        { "tipe": "paragraph", "text": "$64 - 8a - 19a = 10$" },
+        { "tipe": "paragraph", "text": "$64 - 27a = 10$" },
+        { "tipe": "paragraph", "text": "$-27a = -54 \\Rightarrow a = 2$" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Tentukan angka satuan ($b$) dan bilangan aslinya**" },
+        { "tipe": "paragraph", "text": "$b = 8 - 2 = 6$" },
+        { "tipe": "paragraph", "text": "Jadi, bilangan aslinya adalah $10(2) + 6 = 26$." }
       ],
       "tingkat": "SULIT"
     }
