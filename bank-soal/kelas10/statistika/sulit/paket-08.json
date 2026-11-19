@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 20 siswa = $1500$." },
-        { "tipe": "paragraph", "text": "Jumlah 4 siswa baru = $80+82+88+98 = 348$." },
-        { "tipe": "paragraph", "text": "Rata-rata = $\\dfrac{1500+348}{24} = \\dfrac{1848}{24} = 77$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 20 siswa awal dan 4 siswa baru**" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai 20 siswa $= 20 \\times 75 = 1.500$" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai 4 siswa baru $= 80 + 82 + 88 + 98 = 348$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata gabungan 24 siswa**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{gab}} = \\dfrac{1.500 + 348}{20 + 4} = \\dfrac{1.848}{24} = 77$." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,9 +43,12 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 8 data = $620$." },
-        { "tipe": "paragraph", "text": "Jumlah 6 data = $620 - 60 - 95 = 465$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{465}{6} = 77{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh 8 data**" },
+        { "tipe": "paragraph", "text": "Jumlah 8 data $= 60 + 65 + 70 + 75 + 80 + 85 + 90 + 95 = 620$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangi dengan nilai $60$ dan $95$ untuk mendapatkan jumlah 6 data tersisa**" },
+        { "tipe": "paragraph", "text": "Jumlah 6 data tersisa $= 620 - 60 - 95 = 465$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata 6 data tersisa**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = \\dfrac{465}{6} = 77{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -61,8 +66,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 9 data = $9 \\times 8 = 72$." },
-        { "tipe": "paragraph", "text": "Jumlah 10 data = $10 \\times 8{,}5 = 85$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 9 data awal dan 10 data akhir**" },
+        { "tipe": "paragraph", "text": "• Jumlah 9 data awal $= 9 \\times 8 = 72$" },
+        { "tipe": "paragraph", "text": "• Jumlah 10 data akhir $= 10 \\times 8{,}5 = 85$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai data tambahan $x$**" },
         { "tipe": "paragraph", "text": "$x = 85 - 72 = 13$." }
       ],
       "tingkat": "SULIT"
@@ -81,8 +88,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Median awal = data ke-4 = $7$." },
-        { "tipe": "paragraph", "text": "Jika semua data ditambah $k$, median juga bertambah $k$ → median baru = $7 + 5 = 12$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median awal dari data terurut ($n = 7$)**" },
+        { "tipe": "paragraph", "text": "Median berada pada data ke-$4$, yaitu $7$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan sifat pergeseran median**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai data ditambah konstanta $k$, maka median juga bertambah sebesar $k$: $\\text{Median baru} = 7 + 5 = 12$." }
       ],
       "tingkat": "SULIT"
     },
@@ -100,9 +109,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah awal = $60$." },
-        { "tipe": "paragraph", "text": "Jumlah baru = $60 - 6 + 16 = 70$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{70}{5} = 14$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah 5 data awal**" },
+        { "tipe": "paragraph", "text": "Jumlah awal $= 5 \\times 12 = 60$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah baru setelah mengganti $6$ menjadi $16$**" },
+        { "tipe": "paragraph", "text": "Jumlah baru $= 60 - 6 + 16 = 70$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata baru**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = \\dfrac{70}{5} = 14$." }
       ],
       "tingkat": "SULIT"
     },
@@ -122,9 +134,12 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total frekuensi $n = 1+2+3+x+1 = x+7$." },
-        { "tipe": "paragraph", "text": "Jika $x = 6$, maka $n = 13$ (ganjil), median adalah data ke-7." },
-        { "tipe": "paragraph", "text": "Frekuensi kumulatif: nilai $3$ (1), nilai $4$ (3), nilai $5$ (6), nilai $6$ (12). Data ke-7 berada pada nilai $6$, sehingga median = $6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan banyak data ($n$) dan susun frekuensi kumulatif**" },
+        { "tipe": "paragraph", "text": "$n = 1 + 2 + 3 + x + 1 = x + 7$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif sebelum nilai $6$ adalah $1 + 2 + 3 = 6$ (menempati urutan data ke-$1$ s.d. $6$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji nilai $x = 6$**" },
+        { "tipe": "paragraph", "text": "Jika $x = 6$, maka $n = 6 + 7 = 13$ (ganjil), sehingga median berada pada data ke-$\\dfrac{13 + 1}{2} = 7$." },
+        { "tipe": "paragraph", "text": "Karena nilai $6$ memiliki frekuensi $6$ (menempati urutan data ke-$7$ s.d. $12$), maka data ke-$7$ bernilai $6$. Jadi, nilai $x$ yang memenuhi adalah $6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -142,8 +157,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Range awal = $18 - 10 = 8$." },
-        { "tipe": "paragraph", "text": "Jika semua data dikurangi $k$, jangkauan tidak berubah → jangkauan baru = $8$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jangkauan awal**" },
+        { "tipe": "paragraph", "text": "$R_{\\text{awal}} = 18 - 10 = 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan sifat jangkauan terhadap pergeseran data**" },
+        { "tipe": "paragraph", "text": "Mengurangi setiap data dengan konstanta tidak mengubah selisih antara nilai terbesar dan terkecil, sehingga jangkauan baru tetap $8$." }
       ],
       "tingkat": "SULIT"
     },
@@ -161,8 +178,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 4 data = $60$." },
-        { "tipe": "paragraph", "text": "Jumlah 5 data = $80$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah 4 data awal dan 5 data akhir**" },
+        { "tipe": "paragraph", "text": "• Jumlah 4 data awal $= 4 \\times 15 = 60$" },
+        { "tipe": "paragraph", "text": "• Jumlah 5 data akhir $= 5 \\times 16 = 80$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x$**" },
         { "tipe": "paragraph", "text": "$x = 80 - 60 = 20$." }
       ],
       "tingkat": "SULIT"
@@ -183,9 +202,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 12$, $Q_1$ = data ke-$\\dfrac{12+1}{4} = 3{,}25$ ≈ data ke-3 dan ke-4." },
-        { "tipe": "paragraph", "text": "Akm: $4(2), 5(5)$ → data ke-3 dan ke-4 bernilai $5$." },
-        { "tipe": "paragraph", "text": "$Q_1 = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah data ($n$) dan letak kuartil pertama ($Q_1$)**" },
+        { "tipe": "paragraph", "text": "$n = 2 + 3 + 4 + 2 + 1 = 12$. Letak $Q_1$ berada pada posisi $\\dfrac{12 + 1}{4} = 3{,}25$ (antara data ke-$3$ dan ke-$4$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai data ke-$3$ dan ke-$4$ melalui frekuensi kumulatif**" },
+        { "tipe": "paragraph", "text": "• Nilai $4$: frekuensi $2$ (data ke-$1$ s.d. $2$)" },
+        { "tipe": "paragraph", "text": "• Nilai $5$: frekuensi $3$, kumulatif $5$ (data ke-$3$ s.d. $5$)" },
+        { "tipe": "paragraph", "text": "Data ke-$3$ dan ke-$4$ sama-sama bernilai $5$, sehingga $Q_1 = 5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -203,8 +225,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Data baru: $6, 7, 8, 9, 10, 11$." },
-        { "tipe": "paragraph", "text": "Range = $11 - 6 = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun data baru setelah mengeluarkan nilai terkecil ($5$) dan terbesar ($12$)**" },
+        { "tipe": "paragraph", "text": "Data tersisa: $6, 7, 8, 9, 10, 11$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jangkauan data baru**" },
+        { "tipe": "paragraph", "text": "$R_{\\text{baru}} = x_{\\text{maks}} - x_{\\text{min}} = 11 - 6 = 5$." }
       ],
       "tingkat": "SULIT"
     }
