@@ -21,14 +21,21 @@
         [ { "tipe": "paragraph", "text": "$64{,}0$" } ],
         [ { "tipe": "paragraph", "text": "$64{,}5$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik tengah: $44{,}5; 54{,}5; 64{,}5; 74{,}5; 84{,}5$" },
-        { "tipe": "paragraph", "text": "$n = 3+7+10+6+4 = 30$" },
-        { "tipe": "paragraph", "text": "$\\sum f x = 44{,}5(3) + 54{,}5(7) + 64{,}5(10) + 74{,}5(6) + 84{,}5(4)$" },
-        { "tipe": "paragraph", "text": "$= 133{,}5 + 381{,}5 + 645 + 447 + 338 = 1945$" },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{1945}{30} = 64{,}83$" },
-        { "tipe": "paragraph", "text": "Opsi terdekat: $64{,}5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah data ($n$) dan titik tengah ($x_i$) tiap interval**" },
+        { "tipe": "paragraph", "text": "• $n = 3 + 7 + 10 + 6 + 4 = 30$" },
+        { "tipe": "paragraph", "text": "• Titik tengah ($x_i = \\dfrac{\\text{batas bawah} + \\text{batas atas}}{2}$): $44{,}5$; $54{,}5$; $64{,}5$; $74{,}5$; $84{,}5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah perkalian frekuensi dan titik tengah ($\\sum f_i \\cdot x_i$)**" },
+        { "tipe": "paragraph", "text": "• $3 \\times 44{,}5 = 133{,}5$" },
+        { "tipe": "paragraph", "text": "• $7 \\times 54{,}5 = 381{,}5$" },
+        { "tipe": "paragraph", "text": "• $10 \\times 64{,}5 = 645{,}0$" },
+        { "tipe": "paragraph", "text": "• $6 \\times 74{,}5 = 447{,}0$" },
+        { "tipe": "paragraph", "text": "• $4 \\times 84{,}5 = 338{,}0$" },
+        { "tipe": "paragraph", "text": "$\\sum f_i \\cdot x_i = 133{,}5 + 381{,}5 + 645 + 447 + 338 = 1.945$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata ($\\bar{x}$)**" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{\\sum f_i \\cdot x_i}{n} = \\dfrac{1.945}{30} \\approx 64{,}83$." },
+        { "tipe": "paragraph", "text": "Dari pilihan yang tersedia, nilai yang paling mendekati adalah $64{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -46,13 +53,19 @@
         [ { "tipe": "paragraph", "text": "$64{,}0$" } ],
         [ { "tipe": "paragraph", "text": "$64{,}5$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 30$, median = data ke-$\\dfrac{30}{2} = 15$ dan ke-$16$." },
-        { "tipe": "paragraph", "text": "Frek kumulatif: $3, 10, 20$ → kelas median = $60-69$." },
-        { "tipe": "paragraph", "text": "$L = 59{,}5$, $f_k = 10$, $f_m = 10$, $c = 10$" },
-        { "tipe": "paragraph", "text": "$Me = L + \\left(\\dfrac{\\tfrac{n}{2} - f_k}{f_m}\\right) \\cdot c$" },
-        { "tipe": "paragraph", "text": "$Me = 59{,}5 + \\left(\\dfrac{15 - 10}{10}\\right) \\cdot 10 = 59{,}5 + 5 = 64{,}5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas median**" },
+        { "tipe": "paragraph", "text": "Letak median berada pada data ke-$\\dfrac{n}{2} = \\dfrac{30}{2} = 15$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif tiap kelas: $3$ (kelas 1), $10$ (kelas 2), $20$ (kelas 3). Data ke-$15$ terletak pada kelas ketiga, yaitu interval $60-69$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus median data berkelompok**" },
+        { "tipe": "paragraph", "text": "• Tepi bawah kelas median ($L$) $= 60 - 0{,}5 = 59{,}5$" },
+        { "tipe": "paragraph", "text": "• Frekuensi kumulatif sebelum kelas median ($f_k$) $= 10$" },
+        { "tipe": "paragraph", "text": "• Frekuensi kelas median ($f_m$) $= 10$" },
+        { "tipe": "paragraph", "text": "• Panjang kelas ($c$) $= 10$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan ke rumus median**" },
+        { "tipe": "paragraph", "text": "$Me = L + \\left(\\dfrac{\\frac{n}{2} - f_k}{f_m}\\right) \\cdot c$" },
+        { "tipe": "paragraph", "text": "$Me = 59{,}5 + \\left(\\dfrac{15 - 10}{10}\\right) \\cdot 10 = 59{,}5 + 5 = 64{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -70,13 +83,19 @@
         [ { "tipe": "paragraph", "text": "$63{,}0$" } ],
         [ { "tipe": "paragraph", "text": "$63{,}5$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelas modus = $60-64$ (frekuensi tertinggi $12$)." },
-        { "tipe": "paragraph", "text": "$L = 59{,}5$, $d_1 = 12 - 5 = 7$, $d_2 = 12 - 7 = 5$, $c = 5$" },
-        { "tipe": "paragraph", "text": "$Mo = L + \\dfrac{d_1}{d_1 + d_2} \\cdot c$" },
-        { "tipe": "paragraph", "text": "$Mo = 59{,}5 + \\dfrac{7}{12} \\cdot 5 = 59{,}5 + 2{,}917 \\approx 62{,}42$" },
-        { "tipe": "paragraph", "text": "Opsi terdekat: $62{,}0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan kelas modus**" },
+        { "tipe": "paragraph", "text": "Frekuensi terbesar adalah $12$, sehingga kelas modusnya adalah interval $60-64$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus modus data berkelompok**" },
+        { "tipe": "paragraph", "text": "• Tepi bawah kelas modus ($L$) $= 60 - 0{,}5 = 59{,}5$" },
+        { "tipe": "paragraph", "text": "• Selisih frekuensi kelas modus dengan kelas sebelumnya ($d_1$) $= 12 - 5 = 7$" },
+        { "tipe": "paragraph", "text": "• Selisih frekuensi kelas modus dengan kelas sesudahnya ($d_2$) $= 12 - 7 = 5$" },
+        { "tipe": "paragraph", "text": "• Panjang kelas ($c$) $= 5$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung modus ($Mo$)**" },
+        { "tipe": "paragraph", "text": "$Mo = L + \\left(\\dfrac{d_1}{d_1 + d_2}\\right) \\cdot c$" },
+        { "tipe": "paragraph", "text": "$Mo = 59{,}5 + \\left(\\dfrac{7}{7 + 5}\\right) \\cdot 5 = 59{,}5 + \\dfrac{35}{12} \\approx 59{,}5 + 2{,}92 = 62{,}42$." },
+        { "tipe": "paragraph", "text": "Pembulatan terdekat pada pilihan adalah $62{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -96,10 +115,18 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 40$, $Q_1$ = data ke-$\\dfrac{1}{4} \\cdot 40 = 10$." },
-        { "tipe": "paragraph", "text": "Frek kumulatif: $4, 12$ → kelas $Q_1$ = $30-39$." },
-        { "tipe": "paragraph", "text": "$L = 29{,}5$, $f_k = 4$, $f_{Q1} = 8$, $c = 10$" },
-        { "tipe": "paragraph", "text": "$Q_1 = 29{,}5 + \\left(\\dfrac{10 - 4}{8}\\right) \\cdot 10 = 29{,}5 + 7{,}5 = 37$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas kuartil pertama ($Q_1$)**" },
+        { "tipe": "paragraph", "text": "Banyak data $n = 4 + 8 + 12 + 10 + 6 = 40$." },
+        { "tipe": "paragraph", "text": "Letak $Q_1$ berada pada data ke-$\\dfrac{1}{4} n = \\dfrac{1}{4} \\times 40 = 10$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif: $4$ (kelas 1), $12$ (kelas 2). Data ke-$10$ berada di kelas kedua, yaitu interval $30-39$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus $Q_1$**" },
+        { "tipe": "paragraph", "text": "• $L = 30 - 0{,}5 = 29{,}5$" },
+        { "tipe": "paragraph", "text": "• $f_k = 4$" },
+        { "tipe": "paragraph", "text": "• $f_{Q_1} = 8$" },
+        { "tipe": "paragraph", "text": "• $c = 10$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $Q_1$**" },
+        { "tipe": "paragraph", "text": "$Q_1 = L + \\left(\\dfrac{\\frac{1}{4}n - f_k}{f_{Q_1}}\\right) \\cdot c$" },
+        { "tipe": "paragraph", "text": "$Q_1 = 29{,}5 + \\left(\\dfrac{10 - 4}{8}\\right) \\cdot 10 = 29{,}5 + 7{,}5 = 37{,}0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -117,12 +144,19 @@
         [ { "tipe": "paragraph", "text": "$55{,}0$" } ],
         [ { "tipe": "paragraph", "text": "$55{,}5$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$Q_3$ = data ke-$\\dfrac{3}{4} \\cdot 40 = 30$." },
-        { "tipe": "paragraph", "text": "Frek kumulatif: $4, 12, 24, 34$ → kelas $Q_3$ = $50-59$." },
-        { "tipe": "paragraph", "text": "$L = 49{,}5$, $f_k = 24$, $f_{Q3} = 10$, $c = 10$" },
-        { "tipe": "paragraph", "text": "$Q_3 = 49{,}5 + \\left(\\dfrac{30 - 24}{10}\\right) \\cdot 10 = 49{,}5 + 6 = 55{,}5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas kuartil ketiga ($Q_3$)**" },
+        { "tipe": "paragraph", "text": "Dengan $n = 40$, letak $Q_3$ berada pada data ke-$\\dfrac{3}{4} n = \\dfrac{3}{4} \\times 40 = 30$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif: $4$, $12$, $24$, $34$. Data ke-$30$ berada di kelas keempat, yaitu interval $50-59$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus $Q_3$**" },
+        { "tipe": "paragraph", "text": "• $L = 50 - 0{,}5 = 49{,}5$" },
+        { "tipe": "paragraph", "text": "• $f_k = 24$" },
+        { "tipe": "paragraph", "text": "• $f_{Q_3} = 10$" },
+        { "tipe": "paragraph", "text": "• $c = 10$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $Q_3$**" },
+        { "tipe": "paragraph", "text": "$Q_3 = L + \\left(\\dfrac{\\frac{3}{4}n - f_k}{f_{Q_3}}\\right) \\cdot c$" },
+        { "tipe": "paragraph", "text": "$Q_3 = 49{,}5 + \\left(\\dfrac{30 - 24}{10}\\right) \\cdot 10 = 49{,}5 + 6 = 55{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -140,13 +174,20 @@
         [ { "tipe": "paragraph", "text": "$42{,}5$" } ],
         [ { "tipe": "paragraph", "text": "$43{,}0$" } ]
       ],
-      "jawaban_benar": 2,
+      "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D_7$ = data ke-$\\dfrac{7}{10} \\cdot 50 = 35$." },
-        { "tipe": "paragraph", "text": "Frek kumulatif: $5, 15, 30, 42$ → kelas $D_7$ = $40-49$." },
-        { "tipe": "paragraph", "text": "$L = 39{,}5$, $f_k = 30$, $f_{D7} = 12$, $c = 10$" },
-        { "tipe": "paragraph", "text": "$D_7 = 39{,}5 + \\left(\\dfrac{35 - 30}{12}\\right) \\cdot 10 = 39{,}5 + 4{,}17 \\approx 43{,}67$" },
-        { "tipe": "paragraph", "text": "Opsi terdekat: $43{,}0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas desil ke-7 ($D_7$)**" },
+        { "tipe": "paragraph", "text": "Letak $D_7$ berada pada data ke-$\\dfrac{7}{10} n = \\dfrac{7}{10} \\times 50 = 35$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif: $5$, $15$, $30$, $42$. Data ke-$35$ berada di kelas keempat, yaitu interval $40-49$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus $D_7$**" },
+        { "tipe": "paragraph", "text": "• $L = 40 - 0{,}5 = 39{,}5$" },
+        { "tipe": "paragraph", "text": "• $f_k = 30$" },
+        { "tipe": "paragraph", "text": "• $f_{D_7} = 12$" },
+        { "tipe": "paragraph", "text": "• $c = 10$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $D_7$**" },
+        { "tipe": "paragraph", "text": "$D_7 = L + \\left(\\dfrac{\\frac{7}{10}n - f_k}{f_{D_7}}\\right) \\cdot c$" },
+        { "tipe": "paragraph", "text": "$D_7 = 39{,}5 + \\left(\\dfrac{35 - 30}{12}\\right) \\cdot 10 = 39{,}5 + \\dfrac{50}{12} \\approx 39{,}5 + 4{,}17 = 43{,}67$." },
+        { "tipe": "paragraph", "text": "Nilai pada pilihan yang paling mendekati adalah $43{,}0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -166,10 +207,17 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 20$, median = data ke-$10$ dan ke-$11$." },
-        { "tipe": "paragraph", "text": "Frek kumulatif: $3, 11$ → kelas median = $6-10$." },
-        { "tipe": "paragraph", "text": "$L = 5{,}5$, $f_k = 3$, $f_m = 8$, $c = 5$" },
-        { "tipe": "paragraph", "text": "$Me = 5{,}5 + \\left(\\dfrac{10 - 3}{8}\\right) \\cdot 5 = 5{,}5 + 4{,}375 = 9{,}875 \\approx 10{,}0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas median**" },
+        { "tipe": "paragraph", "text": "Jumlah frekuensi $n = 3 + 8 + 6 + 3 = 20$, sehingga letak median berada pada $\\dfrac{n}{2} = 10$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif: $3$ (kelas 1), $11$ (kelas 2). Data ke-$10$ berada di kelas kedua, yaitu interval $6-10$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus median**" },
+        { "tipe": "paragraph", "text": "• $L = 6 - 0{,}5 = 5{,}5$" },
+        { "tipe": "paragraph", "text": "• $f_k = 3$" },
+        { "tipe": "paragraph", "text": "• $f_m = 8$" },
+        { "tipe": "paragraph", "text": "• $c = 5$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai median ($Me$)**" },
+        { "tipe": "paragraph", "text": "$Me = L + \\left(\\dfrac{\\frac{n}{2} - f_k}{f_m}\\right) \\cdot c$" },
+        { "tipe": "paragraph", "text": "$Me = 5{,}5 + \\left(\\dfrac{10 - 3}{8}\\right) \\cdot 5 = 5{,}5 + \\dfrac{35}{8} = 5{,}5 + 4{,}375 = 9{,}875 \\approx 10{,}0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,9 +235,17 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\bar{x} = 10$" },
-        { "tipe": "paragraph", "text": "Simpangan: $2, 1, 0, 1, 2$ → jumlah $6$" },
-        { "tipe": "paragraph", "text": "SR = $\\dfrac{6}{5} = 1{,}2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata ($\\bar{x}$)**" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{8 + 9 + 10 + 11 + 12}{5} = \\dfrac{50}{5} = 10$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai mutlak simpangan $|x_i - \\bar{x}|$**" },
+        { "tipe": "paragraph", "text": "• $|8 - 10| = 2$" },
+        { "tipe": "paragraph", "text": "• $|9 - 10| = 1$" },
+        { "tipe": "paragraph", "text": "• $|10 - 10| = 0$" },
+        { "tipe": "paragraph", "text": "• $|11 - 10| = 1$" },
+        { "tipe": "paragraph", "text": "• $|12 - 10| = 2$" },
+        { "tipe": "paragraph", "text": "Jumlah simpangan $= 2 + 1 + 0 + 1 + 2 = 6$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung simpangan rata-rata ($SR$)**" },
+        { "tipe": "paragraph", "text": "$SR = \\dfrac{\\sum |x_i - \\bar{x}|}{n} = \\dfrac{6}{5} = 1{,}2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -207,9 +263,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\bar{x} = 4$" },
-        { "tipe": "paragraph", "text": "Kuadrat simpangan: $9, 4, 1, 0, 1, 4, 9$ → jumlah $28$" },
-        { "tipe": "paragraph", "text": "$S^2 = \\dfrac{28}{7} = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata ($\\bar{x}$)**" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{1 + 2 + 3 + 4 + 5 + 6 + 7}{7} = \\dfrac{28}{7} = 4$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah kuadrat simpangan $\\sum (x_i - \\bar{x})^2$**" },
+        { "tipe": "paragraph", "text": "• $(1 - 4)^2 = (-3)^2 = 9$" },
+        { "tipe": "paragraph", "text": "• $(2 - 4)^2 = (-2)^2 = 4$" },
+        { "tipe": "paragraph", "text": "• $(3 - 4)^2 = (-1)^2 = 1$" },
+        { "tipe": "paragraph", "text": "• $(4 - 4)^2 = 0^2 = 0$" },
+        { "tipe": "paragraph", "text": "• $(5 - 4)^2 = 1^2 = 1$" },
+        { "tipe": "paragraph", "text": "• $(6 - 4)^2 = 2^2 = 4$" },
+        { "tipe": "paragraph", "text": "• $(7 - 4)^2 = 3^2 = 9$" },
+        { "tipe": "paragraph", "text": "Jumlah kuadrat simpangan $= 9 + 4 + 1 + 0 + 1 + 4 + 9 = 28$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung ragam ($S^2$)**" },
+        { "tipe": "paragraph", "text": "$S^2 = \\dfrac{\\sum (x_i - \\bar{x})^2}{n} = \\dfrac{28}{7} = 4$." }
       ],
       "tingkat": "SULIT"
     },
@@ -227,8 +293,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika setiap data dikurangi $k$, rata-rata juga berkurang $k$." },
-        { "tipe": "paragraph", "text": "$\\bar{x}_{baru} = 50 - 3 = 47$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat pergeseran rata-rata**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai data ditambah atau dikurangi dengan suatu konstanta $k$, maka nilai rata-rata baru juga akan bertambah atau berkurang sebesar $k$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata baru**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = \\bar{x}_{\\text{lama}} - 3 = 50 - 3 = 47$." }
       ],
       "tingkat": "SULIT"
     }
