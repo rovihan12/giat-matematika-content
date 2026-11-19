@@ -1,6 +1,6 @@
 {
-  "id": "bs-k10-stat-t-04",
-  "nama": "Bank Soal Sulit - Paket 4",
+  "id": "bs-k10-stat-t-09",
+  "nama": "Bank Soal Sulit - Paket 9",
   "kelas": 10,
   "kategori": "Statistika",
   "tingkat": "SULIT",
@@ -25,11 +25,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(1) Mean = $\\dfrac{4+6+8+10+12}{5} = 8$ ✓." },
-        { "tipe": "paragraph", "text": "(2) Median = data ke-3 = $8$ ✓." },
-        { "tipe": "paragraph", "text": "(3) Range = $12 - 4 = 8$ ✓." },
-        { "tipe": "paragraph", "text": "(4) Semua data muncul 1× → tidak ada modus ✗." },
-        { "tipe": "paragraph", "text": "Jadi pernyataan 1, 2, dan 3 benar." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Uji pernyataan (1) dan (2)**" },
+        { "tipe": "paragraph", "text": "• (1) Mean $= \\dfrac{4 + 6 + 8 + 10 + 12}{5} = \\dfrac{40}{5} = 8$ (Benar)." },
+        { "tipe": "paragraph", "text": "• (2) Data terurut dengan $n = 5$; median berada pada data ke-$3$, yaitu $8$ (Benar)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji pernyataan (3) dan (4)**" },
+        { "tipe": "paragraph", "text": "• (3) Jangkauan $= x_{\\text{maks}} - x_{\\text{min}} = 12 - 4 = 8$ (Benar)." },
+        { "tipe": "paragraph", "text": "• (4) Setiap nilai muncul tepat $1$ kali, sehingga tidak ada modus (Salah)." },
+        { "tipe": "paragraph", "text": "Jadi, pernyataan yang benar adalah **1, 2, dan 3**." }
       ],
       "tingkat": "SULIT"
     },
@@ -47,7 +49,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Transformasi $y = 2x - 5$ → rata-rata baru $= 2(15) - 5 = 25$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat transformasi linear pada rata-rata**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai data $x_i$ ditransformasikan menjadi $2x_i - 5$, maka rata-rata barunya adalah $\\bar{x}_{\\text{baru}} = 2\\bar{x} - 5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $\\bar{x} = 15$**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = 2(15) - 5 = 30 - 5 = 25$." }
       ],
       "tingkat": "SULIT"
     },
@@ -65,8 +70,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika semua data ditambah $k$: mean bertambah $k$, jangkauan tetap." },
-        { "tipe": "paragraph", "text": "Jadi mean bertambah $4$, jangkauan tetap." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis pengaruh penambahan konstanta ($+4$) terhadap mean**" },
+        { "tipe": "paragraph", "text": "Menambah setiap data dengan konstanta $k = 4$ akan menggeser rata-rata sebesar $+4$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Analisis pengaruh penambahan konstanta ($+4$) terhadap jangkauan**" },
+        { "tipe": "paragraph", "text": "Jangkauan adalah selisih nilai terbesar dan terkecil ($11 - 3 = 8$). Karena keduanya sama-sama bertambah $4$ menjadi $15$ dan $7$, selisihnya tetap $15 - 7 = 8$." },
+        { "tipe": "paragraph", "text": "Jadi, **mean bertambah $4$, jangkauan tetap**." }
       ],
       "tingkat": "SULIT"
     },
@@ -86,9 +94,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 2+3+x+2 = x+7$." },
-        { "tipe": "paragraph", "text": "Jika $x = 4$, maka $n = 11$, median = data ke-6." },
-        { "tipe": "paragraph", "text": "Akm: $4(2), 5(5), 6(9)$ → data ke-6 bernilai $6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan banyak data ($n$) dan frekuensi kumulatif**" },
+        { "tipe": "paragraph", "text": "$n = 2 + 3 + x + 2 = x + 7$." },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif sebelum nilai $6$ adalah $2 + 3 = 5$ (menempati urutan data ke-$1$ s.d. $5$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji nilai $x = 4$**" },
+        { "tipe": "paragraph", "text": "Jika $x = 4$, maka $n = 4 + 7 = 11$ (ganjil), sehingga median berada pada data ke-$\\dfrac{11 + 1}{2} = 6$." },
+        { "tipe": "paragraph", "text": "Nilai $6$ memiliki frekuensi $4$ (menempati urutan data ke-$6$ s.d. $9$), sehingga data ke-$6$ bernilai $6$. Jadi, nilai $x$ yang memenuhi adalah $4$." }
       ],
       "tingkat": "SULIT"
     },
@@ -106,9 +117,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 10 data = $200$." },
-        { "tipe": "paragraph", "text": "Jumlah 8 data = $200 - 10 - 30 = 160$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{160}{8} = 20$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 10 data awal**" },
+        { "tipe": "paragraph", "text": "Jumlah 10 data $= 10 \\times 20 = 200$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 8 data setelah mengeluarkan $10$ dan $30$**" },
+        { "tipe": "paragraph", "text": "Jumlah 8 data tersisa $= 200 - 10 - 30 = 160$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata 8 data tersisa**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = \\dfrac{160}{8} = 20$." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,8 +140,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 7$, median = data ke-4 = $6$." },
-        { "tipe": "paragraph", "text": "Frekuensi: $2(1), 4(2), 6(1), 8(2), 10(1)$ → modus = $4$ dan $8$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median dari data terurut ($n = 7$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut: $2, 4, 4, 6, 8, 8, 10$. Median terletak pada data ke-$\\dfrac{7 + 1}{2} = 4$, yaitu $6$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan modus (nilai dengan frekuensi tertinggi)**" },
+        { "tipe": "paragraph", "text": "Frekuensi tiap angka: $2$ ($1$ kali), $4$ ($2$ kali), $6$ ($1$ kali), $8$ ($2$ kali), $10$ ($1$ kali). Nilai $4$ dan $8$ sama-sama muncul paling banyak ($2$ kali), sehingga modusnya adalah $4$ dan $8$." }
       ],
       "tingkat": "SULIT"
     },
@@ -145,8 +161,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 6 data = $84$." },
-        { "tipe": "paragraph", "text": "Jumlah 7 data = $105$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 6 data awal dan 7 data akhir**" },
+        { "tipe": "paragraph", "text": "• Jumlah 6 data awal $= 6 \\times 14 = 84$" },
+        { "tipe": "paragraph", "text": "• Jumlah 7 data akhir $= 7 \\times 15 = 105$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai data tambahan $x$**" },
         { "tipe": "paragraph", "text": "$x = 105 - 84 = 21$." }
       ],
       "tingkat": "SULIT"
@@ -165,10 +183,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Range = $15 - 5 = 10$." },
-        { "tipe": "paragraph", "text": "$n = 6$, median = $\\dfrac{8+10}{2} = 9$." },
-        { "tipe": "paragraph", "text": "$Q_1$ = median ($5, 7, 8$) = $7$; $Q_3$ = median ($10, 12, 15$) = $12$." },
-        { "tipe": "paragraph", "text": "IQR = $12 - 7 = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jangkauan ($R$)**" },
+        { "tipe": "paragraph", "text": "$R = x_{\\text{maks}} - x_{\\text{min}} = 15 - 5 = 10$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan $Q_1$ dan $Q_3$ dari data terurut ($n = 6$)**" },
+        { "tipe": "paragraph", "text": "Data terurut $5, 7, 8, 10, 12, 15$ terbagi dua sama banyak: bagian bawah ($5, 7, 8$) dan bagian atas ($10, 12, 15$)." },
+        { "tipe": "paragraph", "text": "• $Q_1 = \\text{median dari } (5, 7, 8) = 7$" },
+        { "tipe": "paragraph", "text": "• $Q_3 = \\text{median dari } (10, 12, 15) = 12$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jangkauan interkuartil ($H = Q_3 - Q_1$)**" },
+        { "tipe": "paragraph", "text": "$H = 12 - 7 = 5$. Jadi, jangkauan dan jangkauan interkuartil berturut-turut adalah **$10$ dan $5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -188,9 +210,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 3+3+6+3 = 15$." },
-        { "tipe": "paragraph", "text": "$\\sum fx = 5(3)+6(3)+7(6)+8(3) = 15+18+42+24 = 99$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{99}{15} = 6{,}6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak data ($n$) dan jumlah hasil kali $\\sum f_i x_i$**" },
+        { "tipe": "paragraph", "text": "• $n = 3 + 3 + 6 + 3 = 15$" },
+        { "tipe": "paragraph", "text": "• $\\sum f_i x_i = (5 \\times 3) + (6 \\times 3) + (7 \\times 6) + (8 \\times 3) = 15 + 18 + 42 + 24 = 99$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata ($\\bar{x}$)**" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{\\sum f_i x_i}{n} = \\dfrac{99}{15} = 6{,}6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -208,8 +232,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Data baru: $4, 6, 8, 10, 12, 14$, $n = 6$." },
-        { "tipe": "paragraph", "text": "Median = $\\dfrac{8+10}{2} = 9$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data baru setelah menambahkan $4$ ($n = 6$)**" },
+        { "tipe": "paragraph", "text": "$4, 6, 8, 10, 12, 14$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung median untuk data genap ($n = 6$)**" },
+        { "tipe": "paragraph", "text": "Median terletak di antara data ke-$3$ ($8$) dan data ke-$4$ ($10$):" },
+        { "tipe": "paragraph", "text": "$Me = \\dfrac{8 + 10}{2} = \\dfrac{18}{2} = 9$." }
       ],
       "tingkat": "SULIT"
     }
