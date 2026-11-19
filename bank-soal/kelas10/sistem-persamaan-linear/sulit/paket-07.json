@@ -23,8 +23,18 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Sistem persamaan: $2x+y=8$ dan $x+2y=10$." },
-        { "tipe": "paragraph", "text": "Dari eliminasi diperoleh $3x = 6 \\Rightarrow x = 2$ dan $y = 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tuliskan kedua persamaan garis**" },
+        { "tipe": "paragraph", "text": "(1) $2x + y = 8$" },
+        { "tipe": "paragraph", "text": "(2) $x + 2y = 10$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi variabel $y$ untuk mencari nilai $x$**" },
+        { "tipe": "paragraph", "text": "Kalikan persamaan (1) dengan $2$, lalu kurangkan dengan persamaan (2):" },
+        { "tipe": "paragraph", "text": "$2(2x + y) - (x + 2y) = 2(8) - 10$" },
+        { "tipe": "paragraph", "text": "$(4x + 2y) - (x + 2y) = 16 - 10$" },
+        { "tipe": "paragraph", "text": "$3x = 6 \\Rightarrow x = 2$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 2$ ke persamaan (1) untuk mencari $y$**" },
+        { "tipe": "paragraph", "text": "$2(2) + y = 8$" },
+        { "tipe": "paragraph", "text": "$4 + y = 8 \\Rightarrow y = 4$" },
+        { "tipe": "paragraph", "text": "Jadi, titik potong kedua garis adalah $(2, 4)$." }
       ],
       "tingkat": "SULIT"
     },
@@ -40,9 +50,16 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $A = 2B$ dan $C = B + 10$ ke $A + B + C = 110$:" },
-        { "tipe": "paragraph", "text": "$2B + B + (B + 10) = 110 \\Rightarrow 4B + 10 = 110 \\Rightarrow 4B = 100 \\Rightarrow B = 25$." },
-        { "tipe": "paragraph", "text": "Maka banyak barang A adalah $A = 2(25) = 50$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat model matematika dari soal**" },
+        { "tipe": "paragraph", "text": "• Total produksi ketiga barang: $A + B + C = 110$" },
+        { "tipe": "paragraph", "text": "• Hubungan antarbarang: $A = 2B$ dan $C = B + 10$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $A$ dan $C$ ke dalam persamaan total**" },
+        { "tipe": "paragraph", "text": "$(2B) + B + (B + 10) = 110$" },
+        { "tipe": "paragraph", "text": "$4B + 10 = 110$" },
+        { "tipe": "paragraph", "text": "$4B = 110 - 10$" },
+        { "tipe": "paragraph", "text": "$4B = 100 \\Rightarrow B = 25$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung banyak barang A**" },
+        { "tipe": "paragraph", "text": "$A = 2B = 2(25) = 50$ unit." }
       ],
       "tingkat": "SULIT"
     },
@@ -58,10 +75,22 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kecepatan kerja: $a+b=\\dfrac{1}{12}$, $a+c=\\dfrac{1}{15}$, $b+c=\\dfrac{1}{20}$." },
-        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan: $2(a+b+c) = \\dfrac{5+4+3}{60} = \\dfrac{12}{60} = \\dfrac{1}{5} \\Rightarrow a+b+c = \\dfrac{1}{10}$." },
-        { "tipe": "paragraph", "text": "Kecepatan A saja: $a = (a+b+c) - (b+c) = \\dfrac{1}{10} - \\dfrac{1}{20} = \\dfrac{1}{20}$." },
-        { "tipe": "paragraph", "text": "Jadi A sendiri memerlukan $20$ hari." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah waktu penyelesaian menjadi kecepatan kerja (bagian proyek per hari)**" },
+        { "tipe": "paragraph", "text": "Misalkan kecepatan kerja per hari masing-masing pekerja adalah $a, b,$ dan $c$:" },
+        { "tipe": "paragraph", "text": "(1) A dan B selesai 12 hari $\\Rightarrow a + b = \\dfrac{1}{12}$" },
+        { "tipe": "paragraph", "text": "(2) A dan C selesai 15 hari $\\Rightarrow a + c = \\dfrac{1}{15}$" },
+        { "tipe": "paragraph", "text": "(3) B dan C selesai 20 hari $\\Rightarrow b + c = \\dfrac{1}{20}$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan ketiga persamaan kecepatan**" },
+        { "tipe": "paragraph", "text": "$(a + b) + (a + c) + (b + c) = \\dfrac{1}{12} + \\dfrac{1}{15} + \\dfrac{1}{20}$" },
+        { "tipe": "paragraph", "text": "Samakan penyebut pecahan di ruas kanan menjadi $60$:" },
+        { "tipe": "paragraph", "text": "$2a + 2b + 2c = \\dfrac{5 + 4 + 3}{60} = \\dfrac{12}{60} = \\dfrac{1}{5}$" },
+        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan $2$:" },
+        { "tipe": "paragraph", "text": "$a + b + c = \\dfrac{1}{10}$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Cari kecepatan kerja A sendiri ($a$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan $b + c = \\dfrac{1}{20}$ ke persamaan gabungan:" },
+        { "tipe": "paragraph", "text": "$a + \\dfrac{1}{20} = \\dfrac{1}{10} \\Rightarrow a = \\dfrac{1}{10} - \\dfrac{1}{20} = \\dfrac{2 - 1}{20} = \\dfrac{1}{20}$ bagian/hari." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung waktu yang diperlukan A sendiri**" },
+        { "tipe": "paragraph", "text": "Waktu $= \\dfrac{1 \\text{ proyek}}{\\text{kecepatan } a} = \\dfrac{1}{\\frac{1}{20}} = 20$ hari." }
       ],
       "tingkat": "SULIT"
     },
@@ -77,8 +106,19 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a+b=60$ dan $0{,}2a+0{,}5b = 0{,}3(60) = 18$." },
-        { "tipe": "paragraph", "text": "$0{,}2a+0{,}5(60-a)=18 \\Rightarrow -0{,}3a = -12 \\Rightarrow a = 40$ liter." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat persamaan total volume campuran**" },
+        { "tipe": "paragraph", "text": "Misalkan volume bahan A $= a$ liter dan bahan B $= b$ liter:" },
+        { "tipe": "paragraph", "text": "$a + b = 60 \\Rightarrow b = 60 - a$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat persamaan kandungan garam murni**" },
+        { "tipe": "paragraph", "text": "• Garam dari bahan A $= 20\\% \\times a = 0{,}2a$" },
+        { "tipe": "paragraph", "text": "• Garam dari bahan B $= 50\\% \\times b = 0{,}5b$" },
+        { "tipe": "paragraph", "text": "• Garam pada larutan akhir $= 30\\% \\times 60 = 18$ liter" },
+        { "tipe": "paragraph", "text": "Maka: $0{,}2a + 0{,}5b = 18$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan persamaan (1) ke persamaan (2)**" },
+        { "tipe": "paragraph", "text": "$0{,}2a + 0{,}5(60 - a) = 18$" },
+        { "tipe": "paragraph", "text": "$0{,}2a + 30 - 0{,}5a = 18$" },
+        { "tipe": "paragraph", "text": "$-0{,}3a = 18 - 30$" },
+        { "tipe": "paragraph", "text": "$-0{,}3a = -12 \\Rightarrow a = \\dfrac{-12}{-0{,}3} = 40$ liter." }
       ],
       "tingkat": "SULIT"
     },
@@ -86,9 +126,9 @@
       "id": "bs-k10-spl-sulit-07-q05",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan daerah penyelesaian berikut. Nilai maksimum $f=3x+2y$ adalah..." },
-        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Daerah+x%2By%E2%89%A44%2C+2x%2By%E2%89%A48", "caption": "Daerah penyelesaian x+y≤4, 2x+y≤8" }
+        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Daerah+x%2By%E2%89%A44%2C+2x%2By%E2%89%A48", "caption": "Daerah penyelesaian x+y≤4, 2x+y≤8 di kuadran I" }
       ],
-      "gambar_prompt": "Bidang koordinat dengan garis x+y=4 dan 2x+y=8, daerah fisibel di kuadran I diarsir, titik sudut (0,0),(4,0),(0,4),(2,2) ditandai.",
+      "gambar_prompt": "Bidang koordinat dengan garis x+y=4 (melalui (4,0),(0,4)) dan 2x+y=8 (melalui (4,0),(0,8)), daerah fisibel segitiga di kuadran I diarsir, titik sudut (0,0),(4,0),(0,4) ditandai.",
       "pilihan": [
         [{ "tipe": "paragraph", "text": "$8$" }],
         [{ "tipe": "paragraph", "text": "$10$" }],
@@ -98,8 +138,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Uji titik sudut: $(0,0) \\Rightarrow 0$, $(4,0) \\Rightarrow 3(4)+0 = 12$, $(0,4) \\Rightarrow 2(4) = 8$, $(2,2) \\Rightarrow 3(2)+2(2) = 10$." },
-        { "tipe": "paragraph", "text": "Nilai maksimum adalah $12$ di titik $(4,0)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi titik potong garis batas pada kuadran I ($x \\geq 0, y \\geq 0$)**" },
+        { "tipe": "paragraph", "text": "• Garis $x + y = 4$: memotong sumbu-$x$ di $(4, 0)$ dan sumbu-$y$ di $(0, 4)$." },
+        { "tipe": "paragraph", "text": "• Garis $2x + y = 8$: memotong sumbu-$x$ di $(4, 0)$ dan sumbu-$y$ di $(0, 8)$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik-titik sudut daerah penyelesaian (irisan)**" },
+        { "tipe": "paragraph", "text": "Karena daerah $x + y \\leq 4$ berada seluruhnya di dalam daerah $2x + y \\leq 8$ pada kuadran I, maka daerah penyelesaiannya berbentuk segitiga dengan titik-titik sudut: $(0, 0)$, $(4, 0)$, dan $(0, 4)$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji setiap titik sudut ke fungsi objektif $f(x, y) = 3x + 2y$**" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 0)$: $f(0, 0) = 3(0) + 2(0) = 0$" },
+        { "tipe": "paragraph", "text": "• Titik $(4, 0)$: $f(4, 0) = 3(4) + 2(0) = 12$" },
+        { "tipe": "paragraph", "text": "• Titik $(0, 4)$: $f(0, 4) = 3(0) + 2(4) = 8$" },
+        { "tipe": "paragraph", "text": "Jadi, nilai maksimumnya adalah $12$ (dicapai di titik $(4, 0)$)." }
       ],
       "tingkat": "SULIT"
     },
@@ -115,9 +163,19 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(A-10) + (I-10) = 50 \\Rightarrow A + I = 70$." },
-        { "tipe": "paragraph", "text": "Karena $A = I + 6$, maka $(I+6) + I = 70 \\Rightarrow 2I = 64 \\Rightarrow I = 32$ tahun." },
-        { "tipe": "paragraph", "text": "Umur Ayah sekarang $A = 32 + 6 = 38$ tahun." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Definisikan variabel umur sekarang**" },
+        { "tipe": "paragraph", "text": "Misalkan umur Ayah sekarang $= A$ dan umur Ibu sekarang $= I$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat dua persamaan dari informasi soal**" },
+        { "tipe": "paragraph", "text": "• Umur Ayah 6 tahun lebih tua dari Ibu: $A = I + 6$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "• 10 tahun lalu jumlah umur mereka 50 tahun:" },
+        { "tipe": "paragraph", "text": "$(A - 10) + (I - 10) = 50$" },
+        { "tipe": "paragraph", "text": "$A + I - 20 = 50 \\Rightarrow A + I = 70$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan persamaan (1) ke persamaan (2)**" },
+        { "tipe": "paragraph", "text": "$(I + 6) + I = 70$" },
+        { "tipe": "paragraph", "text": "$2I + 6 = 70$" },
+        { "tipe": "paragraph", "text": "$2I = 64 \\Rightarrow I = 32$ tahun." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung umur Ayah sekarang ($A$)**" },
+        { "tipe": "paragraph", "text": "$A = I + 6 = 32 + 6 = 38$ tahun." }
       ],
       "tingkat": "SULIT"
     },
@@ -133,8 +191,22 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a+b=9$ dan $10a+b - (10b+a) = 45 \\Rightarrow 9(a-b) = 45 \\Rightarrow a-b=5$." },
-        { "tipe": "paragraph", "text": "Diperoleh $a=7$ dan $b=2$, sehingga bilangan tersebut adalah 72." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan bilangan berdasarkan nilai tempat puluhan dan satuan**" },
+        { "tipe": "paragraph", "text": "Misalkan angka puluhan $= a$ dan angka satuan $= b$, maka:" },
+        { "tipe": "paragraph", "text": "• Nilai bilangan asli $= 10a + b$" },
+        { "tipe": "paragraph", "text": "• Nilai bilangan setelah angka ditukar $= 10b + a$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun dua persamaan dari informasi soal**" },
+        { "tipe": "paragraph", "text": "• Jumlah kedua angka adalah 9: $a + b = 9$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "• Setelah ditukar nilainya berkurang 45 (selisihnya 45):" },
+        { "tipe": "paragraph", "text": "$(10a + b) - (10b + a) = 45$" },
+        { "tipe": "paragraph", "text": "$9a - 9b = 45$" },
+        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan $9$: $a - b = 5$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Eliminasi persamaan (1) dan (2)**" },
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan:" },
+        { "tipe": "paragraph", "text": "$(a + b) + (a - b) = 9 + 5$" },
+        { "tipe": "paragraph", "text": "$2a = 14 \\Rightarrow a = 7$" },
+        { "tipe": "paragraph", "text": "Substitusikan $a = 7$ ke persamaan (1): $7 + b = 9 \\Rightarrow b = 2$." },
+        { "tipe": "paragraph", "text": "Jadi, bilangan aslinya adalah $10(7) + 2 = 72$." }
       ],
       "tingkat": "SULIT"
     },
@@ -150,8 +222,19 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Persamaan jarak: $2(150 + a) = 3(150 - a)$" },
-        { "tipe": "paragraph", "text": "$300 + 2a = 450 - 3a \\Rightarrow 5a = 150 \\Rightarrow a = 30$ km/jam." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan kecepatan total pesawat pada kedua kondisi**" },
+        { "tipe": "paragraph", "text": "Misalkan kecepatan angin $= a$ km/jam." },
+        { "tipe": "paragraph", "text": "• Kecepatan searah angin ($v_1$) $= 150 + a$ km/jam (angin mendorong pesawat)." },
+        { "tipe": "paragraph", "text": "• Kecepatan melawan angin ($v_2$) $= 150 - a$ km/jam (angin menghambat pesawat)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus $\\text{Jarak} = \\text{Kecepatan} \\times \\text{Waktu}$**" },
+        { "tipe": "paragraph", "text": "Karena jarak tempuh kedua perjalanan sama ($s_1 = s_2$), maka:" },
+        { "tipe": "paragraph", "text": "$v_1 \\times t_1 = v_2 \\times t_2$" },
+        { "tipe": "paragraph", "text": "$(150 + a) \\times 2 = (150 - a) \\times 3$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan untuk mencari $a$**" },
+        { "tipe": "paragraph", "text": "$300 + 2a = 450 - 3a$" },
+        { "tipe": "paragraph", "text": "$2a + 3a = 450 - 300$" },
+        { "tipe": "paragraph", "text": "$5a = 150 \\Rightarrow a = \\dfrac{150}{5} = 30$" },
+        { "tipe": "paragraph", "text": "Jadi, kecepatan angin adalah $30$ km/jam." }
       ],
       "tingkat": "SULIT"
     },
@@ -167,9 +250,54 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Menjumlahkan kedua persamaan: $5b + 5p = 90.000 \\Rightarrow b + p = 18.000$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat model matematika dari harga di kedua toko**" },
+        { "tipe": "paragraph", "text": "Misalkan harga 1 buku $= b$ dan harga 1 pena $= p$:" },
+        { "tipe": "paragraph", "text": "(1) $3b + 2p = 47.000$" },
+        { "tipe": "paragraph", "text": "(2) $2b + 3p = 43.000$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan kedua persamaan secara langsung**" },
+        { "tipe": "paragraph", "text": "Perhatikan koefisien yang simetris; jika dijumlahkan menghasilkan koefisien yang sama untuk $b$ dan $p$:" },
+        { "tipe": "paragraph", "text": "$(3b + 2p) + (2b + 3p) = 47.000 + 43.000$" },
+        { "tipe": "paragraph", "text": "$5b + 5p = 90.000$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Bagi kedua ruas dengan $5$**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{5b + 5p}{5} = \\dfrac{90.000}{5}$" },
+        { "tipe": "paragraph", "text": "$b + p = 18.000$" },
+        { "tipe": "paragraph", "text": "Jadi, harga 1 buku + 1 pena adalah Rp18.000." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10
+      "id": "bs-k10-spl-sulit-07-q10",
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Perhatikan segitiga berikut. Keliling segitiga tersebut adalah $36\\text{ cm}$. Jika sisi $a$ lebih panjang $3\\text{ cm}$ dari sisi $b$, dan sisi $c$ lebih pendek $3\\text{ cm}$ dari sisi $b$, luas segitiga tersebut adalah..." },
+        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Segitiga+Sisi+a%2C+b%2C+c", "caption": "Segitiga dengan panjang sisi a, b, dan c" }
+      ],
+      "gambar_prompt": "Gambar segitiga siku-siku dengan label sisi miring a, sisi alas b, dan sisi tegak c, latar belakang putih bersih, gaya ilustrasi matematika.",
+      "pilihan": [
+        [{ "tipe": "paragraph", "text": "$48\\text{ cm}^2$" }],
+        [{ "tipe": "paragraph", "text": "$54\\text{ cm}^2$" }],
+        [{ "tipe": "paragraph", "text": "$60\\text{ cm}^2$" }],
+        [{ "tipe": "paragraph", "text": "$64\\text{ cm}^2$" }],
+        [{ "tipe": "paragraph", "text": "$72\\text{ cm}^2$" }]
+      ],
+      "jawaban_benar": 1,
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Buat model matematika dari keliling dan hubungan sisi segitiga**" },
+        { "tipe": "paragraph", "text": "• Keliling segitiga: $a + b + c = 36$" },
+        { "tipe": "paragraph", "text": "• Sisi $a$ lebih panjang $3\\text{ cm}$ dari $b$: $a = b + 3$" },
+        { "tipe": "paragraph", "text": "• Sisi $c$ lebih pendek $3\\text{ cm}$ dari $b$: $c = b - 3$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a$ dan $c$ ke persamaan keliling**" },
+        { "tipe": "paragraph", "text": "$(b + 3) + b + (b - 3) = 36$" },
+        { "tipe": "paragraph", "text": "$3b = 36 \\Rightarrow b = 12\\text{ cm}$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan panjang ketiga sisi segitiga**" },
+        { "tipe": "paragraph", "text": "• $a = 12 + 3 = 15\\text{ cm}$" },
+        { "tipe": "paragraph", "text": "• $b = 12\\text{ cm}$" },
+        { "tipe": "paragraph", "text": "• $c = 12 - 3 = 9\\text{ cm}$" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Identifikasi jenis segitiga dan hitung luasnya**" },
+        { "tipe": "paragraph", "text": "Periksa dengan Teorema Pythagoras: $b^2 + c^2 = 12^2 + 9^2 = 144 + 81 = 225 = 15^2 = a^2$." },
+        { "tipe": "paragraph", "text": "Karena memenuhi Pythagoras, segitiga tersebut merupakan segitiga siku-siku dengan alas $b = 12\\text{ cm}$ dan tinggi $c = 9\\text{ cm}$." },
+        { "tipe": "paragraph", "text": "$\\text{Luas} = \\dfrac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\dfrac{1}{2} \\times 12 \\times 9 = 54\\text{ cm}^2$." }
+      ],
+      "tingkat": "SULIT"
+    }
+  ]
+}
