@@ -21,9 +21,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah awal = $10 \\times 7{,}5 = 75$." },
-        { "tipe": "paragraph", "text": "Jumlah baru = $10 \\times 7{,}8 = 78$." },
-        { "tipe": "paragraph", "text": "Perubahan: $-12 + x = 78 - 75 = 3 \\Rightarrow x = 15$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal dan jumlah nilai baru ($n = 10$)**" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai awal $= 10 \\times 7{,}5 = 75$" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai baru $= 10 \\times 7{,}8 = 78$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan perubahan data dan selesaikan untuk $x$**" },
+        { "tipe": "paragraph", "text": "$75 - 12 + x = 78$" },
+        { "tipe": "paragraph", "text": "$63 + x = 78 \\Rightarrow x = 78 - 63 = 15$." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,9 +44,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah total = $20 \\times 70 = 1400$." },
-        { "tipe": "paragraph", "text": "Jumlah laki-laki = $12 \\times 65 = 780$." },
-        { "tipe": "paragraph", "text": "Jumlah perempuan = $1400 - 780 = 620$ → rata-rata = $620/8 = 77{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai seluruh siswa dan siswa laki-laki**" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai seluruh siswa (20 siswa) $= 20 \\times 70 = 1.400$" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai siswa laki-laki (12 siswa) $= 12 \\times 65 = 780$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai dan rata-rata siswa perempuan (8 siswa)**" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai siswa perempuan $= 1.400 - 780 = 620$" },
+        { "tipe": "paragraph", "text": "• Rata-rata siswa perempuan $= \\dfrac{620}{8} = 77{,}5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,10 +69,16 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 2+3+x+1 = x+6$." },
-        { "tipe": "paragraph", "text": "$\\sum fx = 4(2)+5(3)+6x+7(1) = 30+6x$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{30+6x}{x+6} = 5{,}5 \\Rightarrow 30+6x = 5{,}5(x+6) = 5{,}5x+33$." },
-        { "tipe": "paragraph", "text": "$0{,}5x = 3 \\Rightarrow x = 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan total frekuensi ($n$) dan jumlah hasil kali $\\sum f_i x_i$ dalam $x$**" },
+        { "tipe": "paragraph", "text": "• $n = 2 + 3 + x + 1 = x + 6$" },
+        { "tipe": "paragraph", "text": "• $\\sum f_i x_i = (4 \\times 2) + (5 \\times 3) + (6 \\times x) + (7 \\times 1) = 8 + 15 + 6x + 7 = 30 + 6x$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus rata-rata $\\bar{x} = 5{,}5$**" },
+        { "tipe": "paragraph", "text": "$\\dfrac{30 + 6x}{x + 6} = 5{,}5$" },
+        { "tipe": "paragraph", "text": "$30 + 6x = 5{,}5(x + 6)$" },
+        { "tipe": "paragraph", "text": "$30 + 6x = 5{,}5x + 33$" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan untuk mencari nilai $x$**" },
+        { "tipe": "paragraph", "text": "$6x - 5{,}5x = 33 - 30$" },
+        { "tipe": "paragraph", "text": "$0{,}5x = 3 \\Rightarrow x = \\dfrac{3}{0{,}5} = 6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -84,7 +96,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Transformasi $y = 3x + 2$ → rata-rata baru $= 3(12) + 2 = 38$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat transformasi linear rata-rata**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai data $x_i$ diubah menjadi $3x_i + 2$, maka rata-rata barunya adalah $\\bar{x}_{\\text{baru}} = 3\\bar{x} + 2$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $\\bar{x} = 12$**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = 3(12) + 2 = 36 + 2 = 38$." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,9 +117,16 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 8 data = $80$. Jumlah 10 data = $110$." },
-        { "tipe": "paragraph", "text": "Jumlah 2 data baru = $30$. Misal $a + b = 30$, $a - b = 2$." },
-        { "tipe": "paragraph", "text": "$2a = 32 \\Rightarrow a = 16$ (dan $b = 14$)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai sebelum dan sesudah penambahan data**" },
+        { "tipe": "paragraph", "text": "• Jumlah 8 data awal $= 8 \\times 10 = 80$" },
+        { "tipe": "paragraph", "text": "• Jumlah 10 data akhir $= 10 \\times 11 = 110$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Buat sistem persamaan untuk kedua data baru ($a$ dan $b$, dengan $a > b$)**" },
+        { "tipe": "paragraph", "text": "• Jumlah kedua data baru: $a + b = 110 - 80 = 30$ ... (Persamaan 1)" },
+        { "tipe": "paragraph", "text": "• Selisih kedua data baru: $a - b = 2$ ... (Persamaan 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Eliminasi $b$ dengan menjumlahkan kedua persamaan**" },
+        { "tipe": "paragraph", "text": "$(a + b) + (a - b) = 30 + 2$" },
+        { "tipe": "paragraph", "text": "$2a = 32 \\Rightarrow a = 16$ (dan $b = 14$)." },
+        { "tipe": "paragraph", "text": "Jadi, data baru yang lebih besar adalah $16$." }
       ],
       "tingkat": "SULIT"
     },
@@ -124,9 +146,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 2+3+4+3+2 = 14$." },
-        { "tipe": "paragraph", "text": "$\\sum fx = 4(2)+5(3)+6(4)+7(3)+8(2) = 8+15+24+21+16 = 84$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{84}{14} = 6{,}0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak data ($n$) dan jumlah hasil kali $\\sum f_i x_i$**" },
+        { "tipe": "paragraph", "text": "• $n = 2 + 3 + 4 + 3 + 2 = 14$" },
+        { "tipe": "paragraph", "text": "• $\\sum f_i x_i = (4 \\times 2) + (5 \\times 3) + (6 \\times 4) + (7 \\times 3) + (8 \\times 2)$" },
+        { "tipe": "paragraph", "text": "$\\sum f_i x_i = 8 + 15 + 24 + 21 + 16 = 84$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata ($\\bar{x}$)**" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{\\sum f_i x_i}{n} = \\dfrac{84}{14} = 6{,}0$." }
       ],
       "tingkat": "SULIT"
     },
@@ -144,9 +169,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 12 data = $300$." },
-        { "tipe": "paragraph", "text": "Jumlah 11 data = $300 - 40 = 260$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{260}{11} \\approx 23{,}64$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 12 data awal**" },
+        { "tipe": "paragraph", "text": "Jumlah 12 data $= 12 \\times 25 = 300$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangi dengan nilai data yang dikeluarkan ($40$) untuk 11 data tersisa**" },
+        { "tipe": "paragraph", "text": "Jumlah 11 data tersisa $= 300 - 40 = 260$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata 11 data tersisa**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = \\dfrac{260}{11} \\approx 23{,}64$." }
       ],
       "tingkat": "SULIT"
     },
@@ -164,9 +192,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 5 bilangan = $90$." },
-        { "tipe": "paragraph", "text": "Jumlah 4 bilangan = $90 - 6 = 84$." },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{84}{4} = 21$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 5 bilangan awal**" },
+        { "tipe": "paragraph", "text": "Jumlah 5 bilangan $= 5 \\times 18 = 90$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 4 bilangan sisanya**" },
+        { "tipe": "paragraph", "text": "Jumlah 4 bilangan $= 90 - 6 = 84$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata 4 bilangan sisanya**" },
+        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = \\dfrac{84}{4} = 21$." }
       ],
       "tingkat": "SULIT"
     },
@@ -184,9 +215,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 30 siswa = $2160$." },
-        { "tipe": "paragraph", "text": "Jumlah 5 siswa pindah = $400$." },
-        { "tipe": "paragraph", "text": "Jumlah 25 siswa = $2160 - 400 = 1760$ → rata-rata = $1760/25 = 70{,}4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal dan jumlah nilai siswa yang pindah**" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai 30 siswa $= 30 \\times 72 = 2.160$" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai 5 siswa yang pindah $= 5 \\times 80 = 400$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai dan rata-rata 25 siswa yang tersisa**" },
+        { "tipe": "paragraph", "text": "• Jumlah nilai 25 siswa tersisa $= 2.160 - 400 = 1.760$" },
+        { "tipe": "paragraph", "text": "• Rata-rata 25 siswa tersisa $= \\dfrac{1.760}{25} = 70{,}4$." }
       ],
       "tingkat": "SULIT"
     },
@@ -204,8 +238,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{2x+4x+6x+8x}{4} = \\dfrac{20x}{4} = 5x$." },
-        { "tipe": "paragraph", "text": "$5x = 10 \\Rightarrow x = 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan rata-rata keempat data dalam variabel $x$**" },
+        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{2x + 4x + 6x + 8x}{4} = \\dfrac{20x}{4} = 5x$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan dengan rata-rata yang diketahui ($10$) dan cari $x$**" },
+        { "tipe": "paragraph", "text": "$5x = 10 \\Rightarrow x = \\dfrac{10}{5} = 2$." }
       ],
       "tingkat": "SULIT"
     }
