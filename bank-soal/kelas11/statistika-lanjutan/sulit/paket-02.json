@@ -21,9 +21,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika setiap nilai dikurangi konstanta $k$, rata-rata berkurang $k$." },
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 25 - 5 = 20" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya menjadi 20." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami sifat perubahan data terhadap rata-rata ($\\bar{x}$)**" },
+        { "tipe": "paragraph", "text": "Rata-rata merupakan ukuran pemusatan data. Jika setiap nilai dalam sekumpulan data ditambah atau dikurangi dengan suatu konstanta $k$, maka nilai rata-ratanya juga akan ikut bertambah atau berkurang sebesar $k$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata baru**" },
+        { "tipe": "paragraph", "text": "Diketahui rata-rata awal $\\bar{x}_{\\text{awal}} = 25$ dan setiap data dikurangi $k = 5$:" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\bar{x}_{\\text{awal}} - 5 = 25 - 5 = 20" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-ratanya menjadi **20**." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,9 +44,13 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika setiap nilai dikalikan $k$, varians menjadi $k^2 \\times S^2$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami sifat perubahan data terhadap varians ($S^2$)**" },
+        { "tipe": "paragraph", "text": "Varians (ragam) merupakan ukuran penyebaran kuadrat. Jika setiap nilai data dikalikan dengan suatu konstanta $k$, maka variansnya akan dikalikan dengan kuadrat dari konstanta tersebut ($k^2$):" },
+        { "tipe": "formula_block", "latex": "S^2_{\\text{baru}} = k^2 \\times S^2_{\\text{awal}}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusi nilai yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui varians awal $S^2_{\\text{awal}} = 25$ dan faktor pengali $k = 2$:" },
         { "tipe": "formula_block", "latex": "S^2_{\\text{baru}} = 2^2 \\times 25 = 4 \\times 25 = 100" },
-        { "tipe": "paragraph", "text": "Jadi, variansnya menjadi 100." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, variansnya menjadi **100**." }
       ],
       "tingkat": "SULIT"
     },
@@ -61,11 +68,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total nilai 25 siswa = $25 \\times 68 = 1700$." },
-        { "tipe": "paragraph", "text": "Total nilai 5 siswa keluar = $5 \\times 80 = 400$." },
-        { "tipe": "paragraph", "text": "Total nilai 20 siswa sisa = $1700 - 400 = 1300$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal (25 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 25 \\times 68 = 1700" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 5 siswa yang keluar**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{keluar}} = 5 \\times 80 = 400" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung total nilai dan banyak siswa yang tersisa**" },
+        { "tipe": "paragraph", "text": "• Sisa siswa: $25 - 5 = 20$ siswa" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{sisa}} = 1700 - 400 = 1300" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung rata-rata siswa yang tersisa**" },
         { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{sisa}} = \\dfrac{1300}{20} = 65" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 65." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata nilai siswa yang tersisa adalah **65**." }
       ],
       "tingkat": "SULIT"
     },
@@ -83,9 +95,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata awal = $(4+5+6+7+8+9+10)/7 = 49/7 = 7$." },
-        { "tipe": "paragraph", "text": "Rata-rata baru = 12, maka $7 + k = 12 \\Rightarrow k = 5$." },
-        { "tipe": "paragraph", "text": "Jadi, $k = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata awal ($\\bar{x}_{\\text{awal}}$)**" },
+        { "tipe": "paragraph", "text": "Banyak data $n = 7$, sehingga:" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{awal}} = \\dfrac{4 + 5 + 6 + 7 + 8 + 9 + 10}{7} = \\dfrac{49}{7} = 7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan sifat pergeseran rata-rata**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai ditambah konstanta $k$, maka rata-rata baru menjadi $\\bar{x}_{\\text{baru}} = \\bar{x}_{\\text{awal}} + k$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan nilai $k$**" },
+        { "tipe": "formula_block", "latex": "7 + k = 12" },
+        { "tipe": "formula_block", "latex": "k = 12 - 7 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k = 5$." }
       ],
       "tingkat": "SULIT"
     },
@@ -103,12 +121,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Data urut: 3, 4, 5, 6, 8. $n = 5$ (ganjil)." },
-        { "tipe": "paragraph", "text": "$Q_2$ = median = data ke-3 = **5**." },
-        { "tipe": "paragraph", "text": "$Q_1$ = median data di bawah median: (3, 4) → $Q_1 = $ **4** (data ke-2, karena 2 data genap → rata-rata = (3+4)/2 = 3,5; tetapi bila mengambil pendekatan median langsung, $Q_1 = 4$)." },
-        { "tipe": "paragraph", "text": "Pada metode **median of halves** dengan $n=5$, $Q_1$ diambil dari data ke-2, yaitu **4**." },
-        { "tipe": "paragraph", "text": "$Q_3$ = median data di atas median: (6, 8) → $Q_3 = $ **6** (data ke-4)." },
-        { "tipe": "paragraph", "text": "Jadi, $Q_1 = 4, Q_2 = 5, Q_3 = 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data dan tentukan banyak data ($n$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut: $3, 4, 5, 6, 8$ dengan banyak data $n = 5$ (ganjil)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan Kuartil Tengah ($Q_2$ / Median)**" },
+        { "tipe": "paragraph", "text": "Untuk $n = 5$, posisi median berada tepat di tengah (data ke-$3$):" },
+        { "tipe": "formula_block", "latex": "Q_2 = x_3 = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan Kuartil Bawah ($Q_1$) dan Kuartil Atas ($Q_3$)**" },
+        { "tipe": "paragraph", "text": "Menggunakan aturan pembagian langsung (data posisi ke-$2$ dan ke-$4$ untuk distribusi diskrit $n=5$):" },
+        { "tipe": "paragraph", "text": "• **Kuartil Bawah ($Q_1$):** berada pada posisi ke-$2$, yaitu $x_2 = 4$." },
+        { "tipe": "paragraph", "text": "• **Kuartil Atas ($Q_3$):** berada pada posisi ke-$4$, yaitu $x_4 = 6$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $Q_1$, $Q_2$, dan $Q_3$ berturut-turut adalah **4, 5, dan 6**." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,9 +148,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jangkauan = data terbesar − data terkecil." },
-        { "tipe": "formula_block", "latex": "30 = 60 - x_{\\min} \\Rightarrow x_{\\min} = 30" },
-        { "tipe": "paragraph", "text": "Jadi, data terkecilnya adalah 30." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi informasi yang diketahui**" },
+        { "tipe": "paragraph", "text": "• Jangkauan ($J$) $= 30$" },
+        { "tipe": "paragraph", "text": "• Data terbesar ($x_{\\text{maks}}$) $= 60$" },
+        { "tipe": "paragraph", "text": "*(Catatan: Informasi rata-rata $= 40$ merupakan pengecoh dan tidak diperlukan untuk mencari jangkauan)*." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus jangkauan**" },
+        { "tipe": "formula_block", "latex": "J = x_{\\text{maks}} - x_{\\text{min}}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusi nilai dan selesaikan**" },
+        { "tipe": "formula_block", "latex": "30 = 60 - x_{\\text{min}}" },
+        { "tipe": "formula_block", "latex": "x_{\\text{min}} = 60 - 30 = 30" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, data terkecilnya adalah **30**." }
       ],
       "tingkat": "SULIT"
     },
@@ -146,10 +175,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total nilai awal = $30 \\times 65 = 1950$." },
-        { "tipe": "paragraph", "text": "Setelah perbaikan: $1950 - 80 + 90 = 1960$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal seluruh siswa**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 30 \\times 65 = 1950" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai setelah perbaikan**" },
+        { "tipe": "paragraph", "text": "Kurangi nilai lama ($80$) dan tambahkan nilai baru ($90$):" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{baru}} = 1950 - 80 + 90 = 1960" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata baru**" },
         { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{1960}{30} = 65{,}333\\ldots \\approx 65{,}3" },
-        { "tipe": "paragraph", "text": "Jadi, rata-rata barunya adalah 65,3." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata barunya adalah **65,3**." }
       ],
       "tingkat": "SULIT"
     },
@@ -167,9 +200,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 7$. Letak $D_3$ = data ke-$\\frac{3(7+1)}{10} = \\frac{24}{10} = 2{,}4$." },
-        { "tipe": "formula_block", "latex": "D_3 = x_2 + 0{,}4(x_3 - x_2) = 3 + 0{,}4(4-3) = 3 + 0{,}4 = 3{,}4" },
-        { "tipe": "paragraph", "text": "Jadi, $D_3 = 3{,}4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data dan tentukan banyak data ($n$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut: $2, 3, 4, 5, 6, 7, 8$, sehingga banyak data $n = 7$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan letak posisi Desil ke-3 ($D_3$)**" },
+        { "tipe": "formula_block", "latex": "\\text{Letak } D_3 = \\text{data ke-}\\dfrac{3(n + 1)}{10} = \\text{data ke-}\\dfrac{3(7 + 1)}{10} = \\text{data ke-}\\dfrac{24}{10} = \\text{data ke-}2{,}4" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $D_3$ dengan interpolasi linear**" },
+        { "tipe": "paragraph", "text": "Posisi $2{,}4$ berada di antara data ke-$2$ ($x_2 = 3$) dan data ke-$3$ ($x_3 = 4$):" },
+        { "tipe": "formula_block", "latex": "D_3 = x_2 + 0{,}4(x_3 - x_2)" },
+        { "tipe": "formula_block", "latex": "D_3 = 3 + 0{,}4(4 - 3) = 3 + 0{,}4(1) = 3{,}4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai desil ke-3 ($D_3$) adalah **3,4**." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,9 +226,13 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Urutkan: 10, 11, 12, 14, 15, 16, 18, 20. $n = 8$ (genap)." },
-        { "tipe": "paragraph", "text": "Median = rata-rata data ke-4 dan ke-5 = $(14 + 15)/2 = 14{,}5$." },
-        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 14,5." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data dari nilai terkecil ke terbesar**" },
+        { "tipe": "paragraph", "text": "Data terurut: $10, 11, 12, 14, 15, 16, 18, 20$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan posisi median**" },
+        { "tipe": "paragraph", "text": "Banyak data adalah $n = 8$ (genap), sehingga median merupakan rata-rata dari dua data yang berada tepat di tengah, yaitu data ke-$4$ ($x_4 = 14$) dan data ke-$5$ ($x_5 = 15$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai median ($Me$)**" },
+        { "tipe": "formula_block", "latex": "Me = \\dfrac{x_4 + x_5}{2} = \\dfrac{14 + 15}{2} = \\dfrac{29}{2} = 14{,}5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, median dari data tersebut adalah **14,5**." }
       ],
       "tingkat": "SULIT"
     },
@@ -207,10 +250,13 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total 5 data = $5 \\times 12 = 60$." },
-        { "tipe": "paragraph", "text": "Total 6 data = $6 \\times 13 = 78$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal (5 data)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 5 \\times 12 = 60" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai setelah 1 data baru ditambahkan (6 data)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{akhir}} = (5 + 1) \\times 13 = 6 \\times 13 = 78" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung selisih jumlah nilai**" },
         { "tipe": "formula_block", "latex": "x_{\\text{baru}} = 78 - 60 = 18" },
-        { "tipe": "paragraph", "text": "Jadi, data baru tersebut adalah 18." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai data baru tersebut adalah **18**." }
       ],
       "tingkat": "SULIT"
     }
