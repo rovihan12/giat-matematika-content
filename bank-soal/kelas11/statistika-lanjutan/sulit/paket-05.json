@@ -21,10 +21,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total 25 siswa = $25 \\times 72 = 1800$." },
-        { "tipe": "paragraph", "text": "Total 5 siswa baru = 80+85+90+95+100 = 450." },
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{1800+450}{30} = \\dfrac{2250}{30} = 75" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 75." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal (25 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 25 \\times 72 = 1800" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 5 siswa yang bergabung**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{5 siswa}} = 80 + 85 + 90 + 95 + 100 = 450" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata kelas baru (total $25 + 5 = 30$ siswa)**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{1800 + 450}{25 + 5} = \\dfrac{2250}{30} = 75" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata kelas yang baru adalah **75**." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,8 +45,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{5+6+7+8+9+10}{6} = \\dfrac{45}{6} = 7{,}5" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 7,5." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh nilai data ($\\sum x_i$) dan banyak data ($n$)**" },
+        { "tipe": "paragraph", "text": "• Banyak data: $n = 6$" },
+        { "tipe": "paragraph", "text": "• Jumlah seluruh data: $5 + 6 + 7 + 8 + 9 + 10 = 45$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus rata-rata ($\\bar{x}$)**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{\\sum x_i}{n} = \\dfrac{45}{6} = 7{,}5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata data tersebut adalah **7,5**." }
       ],
       "tingkat": "SULIT"
     },
@@ -61,10 +68,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total 4 siswa = $4 \\times 80 = 320$." },
-        { "tipe": "paragraph", "text": "Total 3 siswa = 75+85+90 = 250." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai keseluruhan (4 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{4 siswa}} = 4 \\times 80 = 320" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 3 siswa yang diketahui**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{3 siswa}} = 75 + 85 + 90 = 250" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung selisih untuk menemukan nilai siswa keempat ($x_4$)**" },
         { "tipe": "formula_block", "latex": "x_4 = 320 - 250 = 70" },
-        { "tipe": "paragraph", "text": "Jadi, nilai siswa keempat adalah 70." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai siswa keempat adalah **70**." }
       ],
       "tingkat": "SULIT"
     },
@@ -82,9 +92,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D_5$ sama dengan $Q_2$ = median." },
-        { "tipe": "paragraph", "text": "$n = 11$ (ganjil), median = data ke-6 = 7." },
-        { "tipe": "paragraph", "text": "Jadi, $D_5 = 7$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami konsep Desil ke-5 ($D_5$)**" },
+        { "tipe": "paragraph", "text": "Desil membagi data terurut menjadi $10$ bagian yang sama besar. Desil ke-$5$ ($D_5$) membagi data tepat di tengah ($50\\%$), sehingga nilainya selalu sama dengan kuartil tengah ($Q_2$) atau **median ($Me$)**." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan letak dan nilai $D_5$**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut: $2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12$ dengan banyak data $n = 11$ (ganjil)." },
+        { "tipe": "formula_block", "latex": "\\text{Letak } D_5 = \\text{data ke-}\\dfrac{5(n + 1)}{10} = \\text{data ke-}\\dfrac{5(11 + 1)}{10} = \\text{data ke-}6" },
+        { "tipe": "paragraph", "text": "Nilai pada urutan ke-$6$ adalah **7**." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai desil ke-5 ($D_5$) adalah **7**." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,8 +116,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\% = \\dfrac{4}{20} \\times 100\\% = 20\\%" },
-        { "tipe": "paragraph", "text": "Jadi, koefisien variasinya 20%." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi informasi yang diketahui**" },
+        { "tipe": "paragraph", "text": "• Rata-rata ($\\bar{x}$) $= 20$" },
+        { "tipe": "paragraph", "text": "• Simpangan baku ($S$) $= 4$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus Koefisien Variasi ($KV$)**" },
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\%" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusi nilai dan hitung**" },
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{4}{20} \\times 100\\% = 0{,}2 \\times 100\\% = 20\\%" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, koefisien variasi data tersebut adalah **20%**." }
       ],
       "tingkat": "SULIT"
     },
@@ -121,11 +141,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total 40 siswa = $40 \\times 65 = 2600$." },
-        { "tipe": "paragraph", "text": "Total 10 siswa keluar = $10 \\times 70 = 700$." },
-        { "tipe": "paragraph", "text": "Total 30 siswa sisa = $2600 - 700 = 1900$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal (40 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 40 \\times 65 = 2600" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 10 siswa yang keluar**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{keluar}} = 10 \\times 70 = 700" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah nilai dan banyak siswa yang tersisa**" },
+        { "tipe": "paragraph", "text": "• Banyak siswa tersisa: $40 - 10 = 30$ siswa" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{sisa}} = 2600 - 700 = 1900" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung rata-rata siswa yang tersisa**" },
         { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{sisa}} = \\dfrac{1900}{30} = 63{,}333\\ldots \\approx 63{,}3" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 63,3." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata nilai siswa yang tersisa adalah **63,3**." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,9 +168,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 5$, median = 9. $Q_1 = 6$, $Q_3 = 12$." },
-        { "tipe": "formula_block", "latex": "H = 12 - 6 = 6" },
-        { "tipe": "paragraph", "text": "Jadi, jangkauan antarkuartilnya adalah 6." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai kuartil bawah ($Q_1$) dan kuartil atas ($Q_3$)**" },
+        { "tipe": "paragraph", "text": "Dari data terurut $3, 6, 9, 12, 15$ ($n = 5$), diperoleh:" },
+        { "tipe": "paragraph", "text": "• Median ($Q_2$) $= 9$" },
+        { "tipe": "paragraph", "text": "• Kuartil bawah ($Q_1$) $= 6$" },
+        { "tipe": "paragraph", "text": "• Kuartil atas ($Q_3$) $= 12$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung Jangkauan Antarkuartil / Hamparan ($H$)**" },
+        { "tipe": "formula_block", "latex": "H = Q_3 - Q_1 = 12 - 6 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jangkauan antarkuartilnya adalah **6**." }
       ],
       "tingkat": "SULIT"
     },
@@ -163,10 +193,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata awal = $(4+8+12+16+20)/5 = 60/5 = 12$." },
-        { "tipe": "paragraph", "text": "Jika setiap nilai dikalikan $k$, rata-rata menjadi $k \\times \\bar{x}$." },
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 2 \\times 12 = 24" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya menjadi 24." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata awal ($\\bar{x}_{\\text{awal}}$)**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{awal}} = \\dfrac{4 + 8 + 12 + 16 + 20}{5} = \\dfrac{60}{5} = 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan sifat perubahan data terhadap rata-rata**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai dalam sekumpulan data dikalikan dengan konstanta $k$, maka nilai rata-ratanya juga akan ikut dikalikan sebesar $k$:" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = k \\times \\bar{x}_{\\text{awal}} = 2 \\times 12 = 24" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-ratanya menjadi **24**." }
       ],
       "tingkat": "SULIT"
     },
@@ -184,9 +216,16 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Modus = nilai paling sering = 7 (muncul 3×)." },
-        { "tipe": "paragraph", "text": "$n = 9$ (ganjil). Median = data ke-5 = 7." },
-        { "tipe": "paragraph", "text": "Jadi, modus = 7 dan median = 7." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan Modus ($Mo$)**" },
+        { "tipe": "paragraph", "text": "Periksa frekuensi kemunculan masing-masing nilai pada data $5, 5, 6, 7, 7, 7, 8, 9, 9$:" },
+        { "tipe": "paragraph", "text": "• Nilai $5$ dan $9$ masing-masing muncul $2$ kali" },
+        { "tipe": "paragraph", "text": "• Nilai $6$ dan $8$ masing-masing muncul $1$ kali" },
+        { "tipe": "paragraph", "text": "• Nilai $7$ muncul $3$ kali (frekuensi paling banyak)" },
+        { "tipe": "paragraph", "text": "Maka, $Mo = 7$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan Median ($Me$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut dengan banyak data $n = 9$ (ganjil). Letak median berada tepat di tengah, yaitu data ke-$\\frac{9 + 1}{2} = \\text{data ke-}5$." },
+        { "tipe": "paragraph", "text": "Nilai pada urutan ke-$5$ adalah $7$, sehingga $Me = 7$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai modus dan median berturut-turut adalah **7 dan 7**." }
       ],
       "tingkat": "SULIT"
     },
@@ -204,10 +243,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 6$ (genap). Bagi dua: bawah = 10, 12, 14; atas = 16, 18, 20." },
-        { "tipe": "paragraph", "text": "$Q_1$ = median bawah = 12." },
-        { "tipe": "paragraph", "text": "$Q_3$ = median atas = 18." },
-        { "tipe": "paragraph", "text": "Jadi, $Q_1 = 12$ dan $Q_3 = 18$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bagi data terurut menjadi dua kelompok sama banyak**" },
+        { "tipe": "paragraph", "text": "Banyak data $n = 6$ (genap). Jika dibagi tepat di tengah (antara data ke-$3$ dan ke-$4$), diperoleh:" },
+        { "tipe": "paragraph", "text": "• **Kelompok bawah:** $10, 12, 14$" },
+        { "tipe": "paragraph", "text": "• **Kelompok atas:** $16, 18, 20$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan Kuartil Bawah ($Q_1$) dan Kuartil Atas ($Q_3$)**" },
+        { "tipe": "paragraph", "text": "• $Q_1$ merupakan nilai tengah dari kelompok bawah ($10, 12, 14$), yaitu **12**." },
+        { "tipe": "paragraph", "text": "• $Q_3$ merupakan nilai tengah dari kelompok atas ($16, 18, 20$), yaitu **18**." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $Q_1$ dan $Q_3$ berturut-turut adalah **12 dan 18**." }
       ],
       "tingkat": "SULIT"
     }
