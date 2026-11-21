@@ -21,8 +21,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$g(1) = 3$" },
-        { "tipe": "paragraph", "text": "$f(g(1)) = f(3) = \\dfrac{3 + 1}{3 - 2} = \\dfrac{4}{1} = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai fungsi bagian dalam $g(1)$**" },
+        { "tipe": "formula_block", "latex": "g(1) = 3(1) = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan hasil $g(1)$ ke dalam fungsi $f(x)$**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(1) = f(g(1)) = f(3) = \\dfrac{3 + 1}{3 - 2} = \\dfrac{4}{1} = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(f \\circ g)(1)$ adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -40,8 +43,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = \\sqrt{x^2 - 7 + 5} = \\sqrt{x^2 - 2}$" },
-        { "tipe": "paragraph", "text": "Syarat: $x^2 - 2 \\geq 0 \\Rightarrow x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus fungsi komposisi $(f \\circ g)(x)$**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(x) = f(g(x)) = \\sqrt{(x^2 - 7) + 5} = \\sqrt{x^2 - 2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan syarat terdefinisi bentuk akar (radikan tidak negatif)**" },
+        { "tipe": "formula_block", "latex": "x^2 - 2 \\geq 0 \\Rightarrow (x - \\sqrt{2})(x + \\sqrt{2}) \\geq 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan interval penyelesaian pertidaksamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "Karena tanda pertidaksamaan $\\geq 0$ pada parabola terbuka ke atas dengan akar-akar $-\\sqrt{2}$ dan $\\sqrt{2}$, daerah penyelesaiannya adalah $x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$ (dan seluruh nilai $x$ ini juga terdefinisi pada $g(x) = x^2 - 7$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, domain dari $(f \\circ g)(x)$ adalah **$x \\leq -\\sqrt{2}$ atau $x \\geq \\sqrt{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -59,9 +67,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$g(1) = 1$" },
-        { "tipe": "paragraph", "text": "$f(g(1)) = f(1) = 3$" },
-        { "tipe": "paragraph", "text": "$g(f(g(1))) = g(3) = 9$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Evaluasi dari fungsi terdalam, yaitu $g(1)$**" },
+        { "tipe": "formula_block", "latex": "g(1) = 1^2 = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Evaluasi fungsi tengah $f(g(1)) = f(1)$**" },
+        { "tipe": "formula_block", "latex": "f(1) = 2(1) + 1 = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Evaluasi fungsi terluar $g(f(g(1))) = g(3)$**" },
+        { "tipe": "formula_block", "latex": "(g \\circ f \\circ g)(1) = g(3) = 3^2 = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(g \\circ f \\circ g)(1)$ adalah **$9$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -79,10 +91,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = \\dfrac{5x + 2}{3x - 1} \\Rightarrow y(3x - 1) = 5x + 2$" },
-        { "tipe": "paragraph", "text": "$3xy - y = 5x + 2 \\Rightarrow 3xy - 5x = y + 2$" },
-        { "tipe": "paragraph", "text": "$x(3y - 5) = y + 2 \\Rightarrow x = \\dfrac{y + 2}{3y - 5}$" },
-        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{x + 2}{3x - 5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $y = f(x)$ dan kalikan silang penyebut**" },
+        { "tipe": "formula_block", "latex": "y = \\dfrac{5x + 2}{3x - 1} \\Rightarrow y(3x - 1) = 5x + 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kelompokkan suku yang memuat $x$ di satu ruas**" },
+        { "tipe": "formula_block", "latex": "3xy - y = 5x + 2 \\Rightarrow 3xy - 5x = y + 2" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $x$ dan nyatakan dalam bentuk $x = \\dots$**" },
+        { "tipe": "formula_block", "latex": "x(3y - 5) = y + 2 \\Rightarrow x = \\dfrac{y + 2}{3y - 5}" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Ganti variabel $y$ menjadi $x$ untuk mendapatkan $f^{-1}(x)$**" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{x + 2}{3x - 5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, $f^{-1}(x)$ adalah **$\\dfrac{x + 2}{3x - 5}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -100,9 +117,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = (x + 1)^2 - 4 \\Rightarrow y + 4 = (x + 1)^2$" },
-        { "tipe": "paragraph", "text": "Karena $x \\geq -1$: $x + 1 = \\sqrt{y + 4}$" },
-        { "tipe": "paragraph", "text": "$f^{-1}(x) = -1 + \\sqrt{x + 4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah bentuk fungsi kuadrat menjadi bentuk kuadrat sempurna**" },
+        { "tipe": "formula_block", "latex": "y = x^2 + 2x - 3 = (x + 1)^2 - 1 - 3 = (x + 1)^2 - 4" },
+        { "tipe": "formula_block", "latex": "(x + 1)^2 = y + 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Ambil akar kuadrat dengan memperhatikan domain $x \\geq -1$**" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq -1$, maka $x + 1 \\geq 0$, sehingga akar yang diambil adalah akar positif:" },
+        { "tipe": "formula_block", "latex": "x + 1 = \\sqrt{y + 4} \\Rightarrow x = -1 + \\sqrt{y + 4}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Ganti $y$ menjadi $x$ untuk menyatakan $f^{-1}(x)$**" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = -1 + \\sqrt{x + 4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, $f^{-1}(x)$ adalah **$-1 + \\sqrt{x + 4}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -120,8 +143,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(a) = f(2a + 4) = 3(2a + 4) + 1 = 6a + 13$" },
-        { "tipe": "paragraph", "text": "$6a + 13 = 19 \\Rightarrow 6a = 6 \\Rightarrow a = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun ekspresi $(f \\circ g)(a)$**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(a) = f(g(a)) = f(2a + 4) = 3(2a + 4) + 1 = 6a + 12 + 1 = 6a + 13" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan dengan $19$ dan selesaikan untuk $a$**" },
+        { "tipe": "formula_block", "latex": "6a + 13 = 19 \\Rightarrow 6a = 6 \\Rightarrow a = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ adalah **$1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -139,9 +165,13 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(16) = f(4) = 16$" },
-        { "tipe": "paragraph", "text": "$(g \\circ f)(16) = g(256) = 16$" },
-        { "tipe": "paragraph", "text": "$16 + 16 = 32$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai $(f \\circ g)(16)$**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(16) = f(g(16)) = f(\\sqrt{16}) = f(4) = 4^2 = 16" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $(g \\circ f)(16)$**" },
+        { "tipe": "formula_block", "latex": "(g \\circ f)(16) = g(f(16)) = g(16^2) = g(256) = \\sqrt{256} = 16" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Jumlahkan kedua hasil komposisi**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(16) + (g \\circ f)(16) = 16 + 16 = 32" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(f \\circ g)(16) + (g \\circ f)(16)$ adalah **$32$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -159,9 +189,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(g \\circ f)(x) = 2 \\cdot \\dfrac{x + 1}{x - 1} + 1$" },
-        { "tipe": "paragraph", "text": "$2 \\cdot \\dfrac{x + 1}{x - 1} = 4 \\Rightarrow \\dfrac{x + 1}{x - 1} = 2$" },
-        { "tipe": "paragraph", "text": "$x + 1 = 2x - 2 \\Rightarrow x = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan $(g \\circ f)(x) = 5$**" },
+        { "tipe": "formula_block", "latex": "(g \\circ f)(x) = g(f(x)) = 2 \\cdot \\dfrac{x + 1}{x - 1} + 1 = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan persamaan rasional tersebut**" },
+        { "tipe": "formula_block", "latex": "2 \\cdot \\dfrac{x + 1}{x - 1} = 4 \\Rightarrow \\dfrac{x + 1}{x - 1} = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kalikan silang dan selesaikan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "x + 1 = 2(x - 1) \\Rightarrow x + 1 = 2x - 2 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -179,10 +213,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = \\dfrac{4x + 3}{2x - 5} \\Rightarrow y(2x - 5) = 4x + 3$" },
-        { "tipe": "paragraph", "text": "$2xy - 5y = 4x + 3 \\Rightarrow 2xy - 4x = 5y + 3$" },
-        { "tipe": "paragraph", "text": "$x(2y - 4) = 5y + 3 \\Rightarrow x = \\dfrac{5y + 3}{2y - 4}$" },
-        { "tipe": "paragraph", "text": "$f(x) = \\dfrac{5x + 3}{2x - 4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat invers dari fungsi invers, yaitu $(f^{-1})^{-1}(x) = f(x)$**" },
+        { "tipe": "paragraph", "text": "Misalkan $y = f^{-1}(x) = \\dfrac{4x + 3}{2x - 5}$, lalu nyatakan $x$ dalam $y$:" },
+        { "tipe": "formula_block", "latex": "y(2x - 5) = 4x + 3 \\Rightarrow 2xy - 5y = 4x + 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kumpulkan suku $x$ dan faktorkan**" },
+        { "tipe": "formula_block", "latex": "2xy - 4x = 5y + 3 \\Rightarrow x(2y - 4) = 5y + 3" },
+        { "tipe": "formula_block", "latex": "x = \\dfrac{5y + 3}{2y - 4}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Ganti variabel $y$ menjadi $x$ untuk memperoleh $f(x)$**" },
+        { "tipe": "formula_block", "latex": "f(x) = \\dfrac{5x + 3}{2x - 4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, $f(x)$ adalah **$\\dfrac{5x + 3}{2x - 4}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -200,8 +239,11 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$g(3) = \\dfrac{1}{3 - 1} = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "$f(g(3)) = f\\left(\\dfrac{1}{2}\\right) = \\dfrac{1}{2} + 2 = \\dfrac{5}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai fungsi bagian dalam $g(3)$**" },
+        { "tipe": "formula_block", "latex": "g(3) = \\dfrac{1}{3 - 1} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $g(3)$ ke dalam fungsi $f(x)$**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(3) = f(g(3)) = f\\left(\\dfrac{1}{2}\\right) = \\dfrac{1}{2} + 2 = \\dfrac{5}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(f \\circ g)(3)$ adalah **$\\dfrac{5}{2}$**." }
       ],
       "tingkat": "SULIT"
     }
