@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Teorema Vieta derajat 3: $x_1 x_2 + x_2 x_3 + x_1 x_3 = \\dfrac{c}{a}$." },
-        { "tipe": "formula_block", "latex": "= \\dfrac{1}{1} = 1" },
-        { "tipe": "paragraph", "text": "Jadi, nilai jumlah hasil kali pasangan akarnya adalah 1." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien polinomial kubik**" },
+        { "tipe": "paragraph", "text": "Dari $P(x) = x^3 - 4x^2 + x + 6$ dengan bentuk umum $ax^3 + bx^2 + cx + d$, diperoleh $a = 1$, $b = -4$, $c = 1$, dan $d = 6$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan Teorema Vieta untuk jumlah hasil kali dua akar**" },
+        { "tipe": "formula_block", "latex": "x_1 x_2 + x_2 x_3 + x_1 x_3 = \\dfrac{c}{a} = \\dfrac{1}{1} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1 \\cdot x_2 + x_2 \\cdot x_3 + x_1 \\cdot x_3$ adalah **1**." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,8 +43,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan Teorema Sisa**" },
+        { "tipe": "paragraph", "text": "Jika polinomial $P(x)$ dibagi oleh $(x - c)$, maka sisa pembagiannya adalah $P(c)$. Untuk pembagi $(x - 1)$, substitusikan $x = 1$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $P(1)$**" },
+        { "tipe": "formula_block", "latex": "P(1) = (1)^4 - 3(1)^3 + 2(1)^2 - 5(1) + 6" },
         { "tipe": "formula_block", "latex": "P(1) = 1 - 3 + 2 - 5 + 6 = 1" },
-        { "tipe": "paragraph", "text": "Jadi, sisanya 1." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sisa pembagiannya adalah **1**." }
       ],
       "tingkat": "SULIT"
     },
@@ -60,9 +66,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Untuk matriks 2×2, $\\det(kA) = k^2 \\det(A)$." },
-        { "tipe": "formula_block", "latex": "\\det(A) = 1 \\cdot 3 - 2 \\cdot 2 = -1" },
-        { "tipe": "formula_block", "latex": "\\det(2A) = 2^2 \\cdot (-1) = -4" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung determinan matriks $A$**" },
+        { "tipe": "formula_block", "latex": "\\det(A) = (1)(3) - (2)(2) = 3 - 4 = -1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan sifat perkalian skalar pada determinan matriks ordo $n$**" },
+        { "tipe": "paragraph", "text": "Untuk matriks persegi berordo $n \\times n$, berlaku $\\det(kA) = k^n \\det(A)$. Karena ordo matriks $A$ adalah $2 \\times 2$ ($n = 2$) dan $k = 2$:" },
+        { "tipe": "formula_block", "latex": "\\det(2A) = 2^2 \\cdot \\det(A) = 4 \\cdot (-1) = -4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\det(2A)$ adalah **-4**." }
       ],
       "tingkat": "SULIT"
     },
@@ -80,8 +89,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tegak lurus → $\\vec{a} \\cdot \\vec{b} = 0$." },
-        { "tipe": "formula_block", "latex": "1 \\cdot 3 + 2 \\cdot k = 0 \\Rightarrow 3 + 2k = 0 \\Rightarrow k = -\\dfrac{3}{2}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat dua vektor saling tegak lurus**" },
+        { "tipe": "paragraph", "text": "Dua vektor $\\vec{a}$ dan $\\vec{b}$ saling tegak lurus jika dan hanya jika hasil kali titiknya sama dengan nol, yaitu $\\vec{a} \\cdot \\vec{b} = 0$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan dan selesaikan untuk $k$**" },
+        { "tipe": "formula_block", "latex": "(1)(3) + (2)(k) = 0 \\Rightarrow 3 + 2k = 0" },
+        { "tipe": "formula_block", "latex": "2k = -3 \\Rightarrow k = -\\dfrac{3}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ adalah **$-\\dfrac{3}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -99,9 +112,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(x) = (x-1)(x-2)(x-3) = x^3 - 6x^2 + 11x - 6$." },
-        { "tipe": "paragraph", "text": "Bandingkan dengan $x^3 + ax^2 + bx + c$: $a = -6$." },
-        { "tipe": "paragraph", "text": "Jadi, $a = -6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun bentuk faktor polinomial dari akar-akarnya**" },
+        { "tipe": "paragraph", "text": "Karena akarnya $1$, $2$, dan $3$ serta koefisien $x^3$ sama dengan $1$, polinomial dapat ditulis sebagai:" },
+        { "tipe": "formula_block", "latex": "P(x) = (x - 1)(x - 2)(x - 3)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan bentuk perkalian tersebut**" },
+        { "tipe": "formula_block", "latex": "(x - 1)(x - 2) = x^2 - 3x + 2" },
+        { "tipe": "formula_block", "latex": "(x^2 - 3x + 2)(x - 3) = x^3 - 3x^2 + 2x - 3x^2 + 9x - 6 = x^3 - 6x^2 + 11x - 6" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Bandingkan koefisien $x^2$ dengan $x^3 + ax^2 + bx + c$**" },
+        { "tipe": "paragraph", "text": "Diperoleh koefisien $x^2$ adalah $a = -6$ (atau dengan Teorema Vieta: $a = -(1 + 2 + 3) = -6$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ adalah **-6**." }
       ],
       "tingkat": "SULIT"
     },
@@ -119,10 +138,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\det(A) = 1 \\cdot 4 - 2 \\cdot 3 = -2" },
-        { "tipe": "formula_block", "latex": "\\det(B) = 2 \\cdot 3 - 1 \\cdot 4 = 2" },
-        { "tipe": "formula_block", "latex": "\\det(A) - \\det(B) = -2 - 2 = -4" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah -4." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung determinan matriks $A$ dan matriks $B$**" },
+        { "tipe": "formula_block", "latex": "\\det(A) = (1)(4) - (2)(3) = 4 - 6 = -2" },
+        { "tipe": "formula_block", "latex": "\\det(B) = (2)(3) - (1)(4) = 6 - 4 = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung selisih $\\det(A) - \\det(B)$**" },
+        { "tipe": "formula_block", "latex": "\\det(A) - \\det(B) = (-2) - 2 = -4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\det(A) - \\det(B)$ adalah **-4**." }
       ],
       "tingkat": "SULIT"
     },
@@ -140,8 +161,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = 2 \\cdot 1 + 1 \\cdot (-2) = 2 - 2 = 0" },
-        { "tipe": "paragraph", "text": "Kedua vektor tegak lurus." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung hasil kali titik (*dot product*) $\\vec{a} \\cdot \\vec{b}$**" },
+        { "tipe": "formula_block", "latex": "\\vec{a} \\cdot \\vec{b} = (2)(1) + (1)(-2) = 2 - 2 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Catatan hubungan vektor**" },
+        { "tipe": "paragraph", "text": "Karena hasil kali titiknya sama dengan $0$, maka vektor $\\vec{a}$ dan $\\vec{b}$ saling tegak lurus." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil $\\vec{a} \\cdot \\vec{b}$ adalah **0**." }
       ],
       "tingkat": "SULIT"
     },
@@ -159,9 +183,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Vieta: $x_1 + x_2 = 7$; $x_1 x_2 = 12$." },
-        { "tipe": "formula_block", "latex": "x_1^2 + x_2^2 = 7^2 - 2 \\cdot 12 = 49 - 24 = 25" },
-        { "tipe": "paragraph", "text": "Jadi, nilainya adalah 25." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 7x + 12 = 0$ ($a = 1, b = -7, c = 12$), diperoleh $x_1 + x_2 = 7$ dan $x_1 x_2 = 12$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x_1^2 + x_2^2$**" },
+        { "tipe": "formula_block", "latex": "x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2" },
+        { "tipe": "formula_block", "latex": "x_1^2 + x_2^2 = (7)^2 - 2(12) = 49 - 24 = 25" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1^2 + x_2^2$ adalah **25**." }
       ],
       "tingkat": "SULIT"
     },
@@ -179,8 +206,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{9 + 16} = 5" },
-        { "tipe": "formula_block", "latex": "|2\\vec{a}| = |2| \\cdot |\\vec{a}| = 2 \\cdot 5 = 10" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung panjang vektor $\\vec{a}$**" },
+        { "tipe": "formula_block", "latex": "|\\vec{a}| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung panjang vektor $2\\vec{a}$**" },
+        { "tipe": "paragraph", "text": "Mengalikan vektor dengan skalar positif $k = 2$ akan mengalikan panjang vektornya dengan $2$:" },
+        { "tipe": "formula_block", "latex": "|2\\vec{a}| = 2 \\cdot |\\vec{a}| = 2 \\cdot 5 = 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, panjang vektor $2\\vec{a}$ adalah **10**." }
       ],
       "tingkat": "SULIT"
     },
@@ -198,8 +229,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\det(A) = 1 \\cdot 4 - 2 \\cdot 3 = -2$." },
-        { "tipe": "formula_block", "latex": "\\det(A^{-1}) = \\dfrac{1}{\\det(A)} = -\\dfrac{1}{2}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung determinan matriks $A$**" },
+        { "tipe": "formula_block", "latex": "\\det(A) = (1)(4) - (2)(3) = 4 - 6 = -2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan sifat determinan invers matriks**" },
+        { "tipe": "paragraph", "text": "Untuk matriks invertible $A$, berlaku $\\det(A^{-1}) = \\dfrac{1}{\\det(A)}$:" },
+        { "tipe": "formula_block", "latex": "\\det(A^{-1}) = \\dfrac{1}{-2} = -\\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\det(A^{-1})$ adalah **$-\\dfrac{1}{2}$**." }
       ],
       "tingkat": "SULIT"
     }
