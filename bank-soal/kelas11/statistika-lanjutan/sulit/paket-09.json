@@ -21,9 +21,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n = 6$ (genap). Median = rata-rata data ke-3 dan ke-4." },
-        { "tipe": "formula_block", "latex": "Me = \\dfrac{18+20}{2} = 19" },
-        { "tipe": "paragraph", "text": "Jadi, mediannya adalah 19." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data dan hitung banyak data ($n$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut dari terkecil ke terbesar: $12, 15, 18, 20, 25, 30$, dengan banyak data $n = 6$ (genap)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan posisi median**" },
+        { "tipe": "paragraph", "text": "Karena $n = 6$ (genap), median berada tepat di tengah antara data ke-$3$ ($x_3 = 18$) dan data ke-$4$ ($x_4 = 20$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai median ($Me$)**" },
+        { "tipe": "formula_block", "latex": "Me = \\dfrac{x_3 + x_4}{2} = \\dfrac{18 + 20}{2} = \\dfrac{38}{2} = 19" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, median dari data tersebut adalah **19**." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,8 +45,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{5+7+8+10+12+18}{6} = \\dfrac{60}{6} = 10" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 10." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh nilai data ($\\sum x_i$) dan banyak data ($n$)**" },
+        { "tipe": "paragraph", "text": "• Banyak data: $n = 6$" },
+        { "tipe": "paragraph", "text": "• Jumlah seluruh data: $5 + 7 + 8 + 10 + 12 + 18 = 60$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus rata-rata ($\\bar{x}$)**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{\\sum x_i}{n} = \\dfrac{60}{6} = 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata dari data tersebut adalah **10**." }
       ],
       "tingkat": "SULIT"
     },
@@ -60,9 +68,13 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Data baru: 4, 6, 20, 10, 12 → jumlah = 52." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun data baru setelah perubahan**" },
+        { "tipe": "paragraph", "text": "Data awal adalah $4, 6, 8, 10, 12$ ($n = 5$). Setelah data ke-$3$ (yaitu $8$) diubah menjadi $20$, susunan data barunya adalah: $4, 6, 20, 10, 12$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai data baru**" },
+        { "tipe": "formula_block", "latex": "\\sum x_{\\text{baru}} = 4 + 6 + 20 + 10 + 12 = 52" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata baru ($\\bar{x}_{\\text{baru}}$)**" },
         { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{52}{5} = 10{,}4" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya menjadi 10,4." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-ratanya menjadi **10,4**." }
       ],
       "tingkat": "SULIT"
     },
@@ -80,9 +92,16 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Modus = nilai paling sering = 7 (muncul 3×)." },
-        { "tipe": "paragraph", "text": "$n = 8$ (genap). Median = rata-rata data ke-4 dan ke-5 = $(7 + 7)/2 = 7$." },
-        { "tipe": "paragraph", "text": "Jadi, modus = 7 dan median = 7." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan Modus ($Mo$)**" },
+        { "tipe": "paragraph", "text": "Periksa frekuensi masing-masing nilai pada data $5, 5, 6, 7, 7, 7, 8, 9$:" },
+        { "tipe": "paragraph", "text": "• Nilai $5$ muncul $2$ kali" },
+        { "tipe": "paragraph", "text": "• Nilai $6, 8, 9$ masing-masing muncul $1$ kali" },
+        { "tipe": "paragraph", "text": "• Nilai $7$ muncul $3$ kali (frekuensi tertinggi)" },
+        { "tipe": "paragraph", "text": "Maka, $Mo = 7$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan Median ($Me$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut dengan banyak data $n = 8$ (genap). Median merupakan rata-rata dari data ke-$4$ ($x_4 = 7$) dan data ke-$5$ ($x_5 = 7$):" },
+        { "tipe": "formula_block", "latex": "Me = \\dfrac{7 + 7}{2} = \\dfrac{14}{2} = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai modus dan median data tersebut berturut-turut adalah **7 dan 7**." }
       ],
       "tingkat": "SULIT"
     },
@@ -100,10 +119,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata = $(6+8+10+12)/4 = 9$." },
-        { "tipe": "paragraph", "text": "Simpangan: 3, 1, 1, 3 → jumlah = 8." },
-        { "tipe": "formula_block", "latex": "SR = \\dfrac{8}{4} = 2" },
-        { "tipe": "paragraph", "text": "Jadi, simpangan rata-ratanya adalah 2." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata ($\\bar{x}$) dari $n = 4$ data**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{6 + 8 + 10 + 12}{4} = \\dfrac{36}{4} = 9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah selisih mutlak setiap data terhadap rata-rata ($\\sum |x_i - \\bar{x}|$)**" },
+        { "tipe": "formula_block", "latex": "\\sum |x_i - \\bar{x}| = |6 - 9| + |8 - 9| + |10 - 9| + |12 - 9|" },
+        { "tipe": "formula_block", "latex": "\\sum |x_i - \\bar{x}| = 3 + 1 + 1 + 3 = 8" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung Simpangan Rata-rata ($SR$)**" },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{\\sum |x_i - \\bar{x}|}{n} = \\dfrac{8}{4} = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, simpangan rata-rata dari data tersebut adalah **2**." }
       ],
       "tingkat": "SULIT"
     },
@@ -121,11 +144,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total 30 siswa = $30 \\times 70 = 2100$." },
-        { "tipe": "paragraph", "text": "Total 10 siswa keluar = $10 \\times 60 = 600$." },
-        { "tipe": "paragraph", "text": "Total 20 siswa sisa = $2100 - 600 = 1500$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal (30 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 30 \\times 70 = 2100" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai 10 siswa yang dikeluarkan**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{keluar}} = 10 \\times 60 = 600" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah nilai dan banyak siswa yang tersisa**" },
+        { "tipe": "paragraph", "text": "• Banyak siswa tersisa: $30 - 10 = 20$ siswa" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{sisa}} = 2100 - 600 = 1500" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung rata-rata siswa yang tersisa**" },
         { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{sisa}} = \\dfrac{1500}{20} = 75" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 75." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata nilai siswa yang tersisa adalah **75**." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,9 +171,16 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bagi dua: bawah = 10, 12, 15 → $Q_1 = 12$; atas = 18, 20, 25 → $Q_3 = 20$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Bagi data terurut menjadi dua kelompok sama banyak**" },
+        { "tipe": "paragraph", "text": "Banyak data $n = 6$ (genap). Jika dibagi tepat di tengah (antara data ke-$3$ dan ke-$4$), diperoleh:" },
+        { "tipe": "paragraph", "text": "• **Kelompok bawah:** $10, 12, 15$" },
+        { "tipe": "paragraph", "text": "• **Kelompok atas:** $18, 20, 25$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan Kuartil Bawah ($Q_1$) dan Kuartil Atas ($Q_3$)**" },
+        { "tipe": "paragraph", "text": "• $Q_1$ adalah nilai tengah kelompok bawah ($10, 12, 15$), yaitu $Q_1 = 12$." },
+        { "tipe": "paragraph", "text": "• $Q_3$ adalah nilai tengah kelompok atas ($18, 20, 25$), yaitu $Q_3 = 20$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung Jangkauan Antarkuartil / Hamparan ($H$)**" },
         { "tipe": "formula_block", "latex": "H = Q_3 - Q_1 = 20 - 12 = 8" },
-        { "tipe": "paragraph", "text": "Jadi, jangkauan antarkuartilnya adalah 8." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai jangkauan antarkuartilnya adalah **8**." }
       ],
       "tingkat": "SULIT"
     },
@@ -163,8 +198,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika setiap nilai ditambah/dikurangi konstanta, simpangan baku **tidak berubah**." },
-        { "tipe": "paragraph", "text": "Jadi, simpangan bakunya tetap sama." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami sifat perubahan data terhadap simpangan baku**" },
+        { "tipe": "paragraph", "text": "Simpangan baku merupakan ukuran penyebaran yang mengukur jarak rata-rata tiap data terhadap pusat datanya." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Analisis dampak pengurangan dengan konstanta**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai dalam sekumpulan data ditambah atau dikurangi dengan suatu konstanta $k$, maka seluruh nilai data beserta rata-ratanya bergeser sebesar $k$ ke arah yang sama. Akibatnya, jarak antardata maupun jarak tiap data ke rata-rata **tidak berubah**." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, simpangan bakunya **tetap sama**." }
       ],
       "tingkat": "SULIT"
     },
@@ -182,8 +220,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{4+6+8+10+12+14}{6} = \\dfrac{54}{6} = 9" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 9." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi jumlah seluruh data ($\\sum x_i$) dan banyak data ($n$)**" },
+        { "tipe": "paragraph", "text": "• Banyak data: $n = 6$" },
+        { "tipe": "paragraph", "text": "• Jumlah seluruh data: $4 + 6 + 8 + 10 + 12 + 14 = 54$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai rata-rata ($\\bar{x}$)**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{\\sum x_i}{n} = \\dfrac{54}{6} = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata dari data tersebut adalah **9**." }
       ],
       "tingkat": "SULIT"
     },
@@ -201,7 +243,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Distribusi menceng ke kanan: ekor di kanan panjang, sehingga modus < median < rata-rata." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami karakteristik kurva menceng ke kanan (positif)**" },
+        { "tipe": "paragraph", "text": "Pada distribusi yang menceng ke kanan (*positively skewed*), sebagian besar data mengumpul di nilai yang lebih rendah (sebelah kiri), sedangkan ekor kurva memanjang ke arah nilai yang lebih tinggi (sebelah kanan)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan posisi modus, median, dan rata-rata**" },
+        { "tipe": "paragraph", "text": "• **Modus** berada pada puncak tertinggi kurva, sehingga nilainya paling kecil (paling kiri)." },
+        { "tipe": "paragraph", "text": "• **Rata-rata** sangat dipengaruhi oleh nilai-nilai ekstrem besar di ekor kanan, sehingga tertarik ke arah kanan dan nilainya menjadi paling besar." },
+        { "tipe": "paragraph", "text": "• **Median** berada di tengah-tengah di antara modus dan rata-rata." },
+        { "tipe": "paragraph", "text": "Sehingga urutannya dari terkecil ke terbesar adalah: $\\text{modus} < \\text{median} < \\text{rata-rata}$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, urutan yang paling mungkin adalah **modus < median < rata-rata**." }
       ],
       "tingkat": "SULIT"
     }
