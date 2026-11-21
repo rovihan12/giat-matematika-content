@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$f^{-1}(1)$: nilai $x$ saat $f(x) = 1$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{2x - 1}{x + 3} = 1 \\Rightarrow 2x - 1 = x + 3$" },
-        { "tipe": "paragraph", "text": "$x = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan invers $f^{-1}(1) = x \\iff f(x) = 1$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2x - 1}{x + 3} = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan silang dan selesaikan persamaan linear untuk $x$**" },
+        { "tipe": "formula_block", "latex": "2x - 1 = 1(x + 3) \\Rightarrow 2x - x = 3 + 1 \\Rightarrow x = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $f^{-1}(1)$ adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -41,9 +43,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = (x + 2)^2 - 3 \\Rightarrow y + 3 = (x + 2)^2$" },
-        { "tipe": "paragraph", "text": "Karena $x \\geq -2$: $x + 2 = \\sqrt{y + 3}$" },
-        { "tipe": "paragraph", "text": "$f^{-1}(x) = -2 + \\sqrt{x + 3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah fungsi kuadrat ke bentuk kuadrat sempurna**" },
+        { "tipe": "formula_block", "latex": "y = x^2 + 4x + 1 = (x + 2)^2 - 4 + 1 = (x + 2)^2 - 3" },
+        { "tipe": "formula_block", "latex": "(x + 2)^2 = y + 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan untuk $x$ dengan memperhatikan domain $x \\geq -2$**" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq -2$, maka $x + 2 \\geq 0$, sehingga diambil akar kuadrat positif:" },
+        { "tipe": "formula_block", "latex": "x + 2 = \\sqrt{y + 3} \\Rightarrow x = -2 + \\sqrt{y + 3}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Ganti variabel $y$ menjadi $x$ untuk mendapatkan $f^{-1}(x)$**" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = -2 + \\sqrt{x + 3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, $f^{-1}(x)$ adalah **$-2 + \\sqrt{x + 3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -61,9 +69,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(5) = f(4) = 7$" },
-        { "tipe": "paragraph", "text": "$(g \\circ f)(5) = g(9) = 6$" },
-        { "tipe": "paragraph", "text": "$7 - 6 = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai $(f \\circ g)(5)$**" },
+        { "tipe": "formula_block", "latex": "g(5) = \\dfrac{5 + 3}{2} = \\dfrac{8}{2} = 4" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(5) = f(4) = 2(4) - 1 = 7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $(g \\circ f)(5)$**" },
+        { "tipe": "formula_block", "latex": "f(5) = 2(5) - 1 = 9" },
+        { "tipe": "formula_block", "latex": "(g \\circ f)(5) = g(9) = \\dfrac{9 + 3}{2} = \\dfrac{12}{2} = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung selisih kedua nilai komposisi**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(5) - (g \\circ f)(5) = 7 - 6 = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(f \\circ g)(5) - (g \\circ f)(5)$ adalah **$1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -81,10 +95,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = \\dfrac{3x + 1}{2x - 5} \\Rightarrow y(2x - 5) = 3x + 1$" },
-        { "tipe": "paragraph", "text": "$2xy - 5y = 3x + 1 \\Rightarrow 2xy - 3x = 5y + 1$" },
-        { "tipe": "paragraph", "text": "$x(2y - 3) = 5y + 1 \\Rightarrow x = \\dfrac{5y + 1}{2y - 3}$" },
-        { "tipe": "paragraph", "text": "$f^{-1}(x) = \\dfrac{5x + 1}{2x - 3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $y = f(x)$ dan kalikan dengan penyebut $(2x - 5)$**" },
+        { "tipe": "formula_block", "latex": "y = \\dfrac{3x + 1}{2x - 5} \\Rightarrow y(2x - 5) = 3x + 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kumpulkan suku yang memuat $x$ ke satu ruas**" },
+        { "tipe": "formula_block", "latex": "2xy - 5y = 3x + 1 \\Rightarrow 2xy - 3x = 5y + 1" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $x$ dan nyatakan dalam bentuk $x = \\dots$**" },
+        { "tipe": "formula_block", "latex": "x(2y - 3) = 5y + 1 \\Rightarrow x = \\dfrac{5y + 1}{2y - 3}" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Ganti variabel $y$ menjadi $x$ untuk memperoleh $f^{-1}(x)$**" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = \\dfrac{5x + 1}{2x - 3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, $f^{-1}(x)$ adalah **$\\dfrac{5x + 1}{2x - 3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,9 +121,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y = (x - 3)^2 - 4 \\Rightarrow y + 4 = (x - 3)^2$" },
-        { "tipe": "paragraph", "text": "Karena $x \\geq 3$: $x - 3 = \\sqrt{y + 4}$" },
-        { "tipe": "paragraph", "text": "$f^{-1}(x) = 3 + \\sqrt{x + 4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah fungsi kuadrat ke bentuk kuadrat sempurna**" },
+        { "tipe": "formula_block", "latex": "y = x^2 - 6x + 5 = (x - 3)^2 - 9 + 5 = (x - 3)^2 - 4" },
+        { "tipe": "formula_block", "latex": "(x - 3)^2 = y + 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Ambil akar kuadrat dengan memperhatikan domain $x \\geq 3$**" },
+        { "tipe": "paragraph", "text": "Karena $x \\geq 3$, maka $x - 3 \\geq 0$, sehingga:" },
+        { "tipe": "formula_block", "latex": "x - 3 = \\sqrt{y + 4} \\Rightarrow x = 3 + \\sqrt{y + 4}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Ganti variabel $y$ menjadi $x$ untuk mendapatkan $f^{-1}(x)$**" },
+        { "tipe": "formula_block", "latex": "f^{-1}(x) = 3 + \\sqrt{x + 4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, $f^{-1}(x)$ adalah **$3 + \\sqrt{x + 4}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -122,9 +147,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(f \\circ g)(x) = f(x^2 - 1) = 2(x^2 - 1) + 3 = 2x^2 + 1$" },
-        { "tipe": "paragraph", "text": "$2x^2 + 1 = 19 \\Rightarrow 2x^2 = 18 \\Rightarrow x^2 = 9$" },
-        { "tipe": "paragraph", "text": "$x = \\pm 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun rumus $(f \\circ g)(x)$**" },
+        { "tipe": "formula_block", "latex": "(f \\circ g)(x) = f(g(x)) = f(x^2 - 1) = 2(x^2 - 1) + 3 = 2x^2 - 2 + 3 = 2x^2 + 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan dengan $19$ dan selesaikan persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "2x^2 + 1 = 19 \\Rightarrow 2x^2 = 18 \\Rightarrow x^2 = 9" },
+        { "tipe": "formula_block", "latex": "x = \\pm \\sqrt{9} = \\pm 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$-3$ atau $3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -142,8 +170,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$f(6) = \\dfrac{4}{6 - 2} = \\dfrac{4}{4} = 1$" },
-        { "tipe": "paragraph", "text": "$g(f(6)) = g(1) = 1 + 3 = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai fungsi bagian dalam $f(6)$**" },
+        { "tipe": "formula_block", "latex": "f(6) = \\dfrac{4}{6 - 2} = \\dfrac{4}{4} = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan hasil $f(6)$ ke dalam fungsi $g(x)$**" },
+        { "tipe": "formula_block", "latex": "(g \\circ f)(6) = g(f(6)) = g(1) = 1 + 3 = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(g \\circ f)(6)$ adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -161,11 +192,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$g(3x - 2) = 9x^2 - 12x + 8$. Misal $u = 3x - 2 \\Rightarrow x = \\dfrac{u + 2}{3}$." },
-        { "tipe": "paragraph", "text": "$g(u) = 9 \\cdot \\dfrac{(u+2)^2}{9} - 12 \\cdot \\dfrac{u+2}{3} + 8$" },
-        { "tipe": "paragraph", "text": "$= (u + 2)^2 - 4(u + 2) + 8$" },
-        { "tipe": "paragraph", "text": "$= u^2 + 4u + 4 - 4u - 8 + 8 = u^2 + 4$" },
-        { "tipe": "paragraph", "text": "$g(x) = x^2 + 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $u = f(x) = 3x - 2$, lalu nyatakan $x$ dalam $u$**" },
+        { "tipe": "formula_block", "latex": "u = 3x - 2 \\Rightarrow 3x = u + 2 \\Rightarrow x = \\dfrac{u + 2}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = \\dfrac{u + 2}{3}$ ke dalam $(g \\circ f)(x) = g(u)$**" },
+        { "tipe": "formula_block", "latex": "g(u) = 9\\left(\\dfrac{u + 2}{3}\\right)^2 - 12\\left(\\dfrac{u + 2}{3}\\right) + 8" },
+        { "tipe": "formula_block", "latex": "g(u) = 9 \\cdot \\dfrac{(u + 2)^2}{9} - 4(u + 2) + 8 = (u + 2)^2 - 4(u + 2) + 8" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Jabarkan dan sederhanakan bentuk aljabarnya**" },
+        { "tipe": "formula_block", "latex": "g(u) = (u^2 + 4u + 4) - (4u + 8) + 8 = u^2 + 4" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Ganti variabel $u$ menjadi $x$**" },
+        { "tipe": "formula_block", "latex": "g(x) = x^2 + 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus fungsi $g(x)$ adalah **$x^2 + 4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -183,9 +219,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$f^{-1}(3)$: nilai $x$ saat $f(x) = 3$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{x}{x - 1} = 3 \\Rightarrow x = 3(x - 1)$" },
-        { "tipe": "paragraph", "text": "$x = 3x - 3 \\Rightarrow 2x = 3 \\Rightarrow x = \\dfrac{3}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat invers $f^{-1}(3) = x \\iff f(x) = 3$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{x}{x - 1} = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan silang dan selesaikan persamaan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "x = 3(x - 1) \\Rightarrow x = 3x - 3" },
+        { "tipe": "formula_block", "latex": "2x = 3 \\Rightarrow x = \\dfrac{3}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $f^{-1}(3)$ adalah **$\\dfrac{3}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -203,9 +242,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$f^{-1}(x) = 2x - 1$; $g^{-1}(x) = \\dfrac{x + 1}{3}$" },
-        { "tipe": "paragraph", "text": "$g^{-1}(5) = \\dfrac{5 + 1}{3} = 2$" },
-        { "tipe": "paragraph", "text": "$f^{-1}(2) = 2(2) - 1 = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus fungsi invers $f^{-1}(x)$ dan $g^{-1}(x)$**" },
+        { "tipe": "formula_block", "latex": "y = \\dfrac{x + 1}{2} \\Rightarrow 2y = x + 1 \\Rightarrow x = 2y - 1 \\Rightarrow f^{-1}(x) = 2x - 1" },
+        { "tipe": "formula_block", "latex": "y = 3x - 1 \\Rightarrow 3x = y + 1 \\Rightarrow x = \\dfrac{y + 1}{3} \\Rightarrow g^{-1}(x) = \\dfrac{x + 1}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $(f^{-1} \\circ g^{-1})(5) = f^{-1}(g^{-1}(5))$**" },
+        { "tipe": "formula_block", "latex": "g^{-1}(5) = \\dfrac{5 + 1}{3} = \\dfrac{6}{3} = 2" },
+        { "tipe": "formula_block", "latex": "f^{-1}(g^{-1}(5)) = f^{-1}(2) = 2(2) - 1 = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(f^{-1} \\circ g^{-1})(5)$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     }
