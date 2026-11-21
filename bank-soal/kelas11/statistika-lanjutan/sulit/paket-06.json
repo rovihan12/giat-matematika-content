@@ -21,8 +21,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2} = \\dfrac{20(75) + 30(80)}{50} = \\dfrac{3900}{50} = 78" },
-        { "tipe": "paragraph", "text": "Jadi, rata-rata gabungannya adalah 78." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi informasi yang diketahui**" },
+        { "tipe": "paragraph", "text": "• Kelas 11A: $n_1 = 20$ siswa, dengan rata-rata $\\bar{x}_1 = 75$" },
+        { "tipe": "paragraph", "text": "• Kelas 11B: $n_2 = 30$ siswa, dengan rata-rata $\\bar{x}_2 = 80$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus rata-rata gabungan**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{n_1 \\cdot \\bar{x}_1 + n_2 \\cdot \\bar{x}_2}{n_1 + n_2}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusi nilai dan hitung hasilnya**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{(20 \\times 75) + (30 \\times 80)}{20 + 30}" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{1500 + 2400}{50} = \\dfrac{3900}{50} = 78" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata gabungan kedua kelas tersebut adalah **78**." }
       ],
       "tingkat": "SULIT"
     },
@@ -40,11 +47,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total nilai 15 siswa = $15 \\times 70 = 1050$." },
-        { "tipe": "paragraph", "text": "Total nilai 20 siswa = $20 \\times 72 = 1440$." },
-        { "tipe": "paragraph", "text": "Total nilai 5 siswa baru = $1440 - 1050 = 390$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal (15 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{awal}} = 15 \\times 70 = 1050" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai setelah 5 siswa bergabung (total 20 siswa)**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{akhir}} = (15 + 5) \\times 72 = 20 \\times 72 = 1440" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung selisih nilai untuk mendapatkan total nilai 5 siswa baru**" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah Nilai}_{\\text{5 siswa}} = 1440 - 1050 = 390" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Bagi dengan banyak siswa baru (5 siswa)**" },
         { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{390}{5} = 78" },
-        { "tipe": "paragraph", "text": "Jadi, rata-ratanya adalah 78." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata nilai 5 siswa baru tersebut adalah **78**." }
       ],
       "tingkat": "SULIT"
     },
@@ -62,8 +73,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{10(60) + 15(70)}{25} = \\dfrac{1650}{25} = 66" },
-        { "tipe": "paragraph", "text": "Jadi, rata-rata gabungannya adalah 66." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi informasi yang diketahui**" },
+        { "tipe": "paragraph", "text": "• Kelompok pertama: $n_1 = 10$, $\\bar{x}_1 = 60$" },
+        { "tipe": "paragraph", "text": "• Kelompok kedua: $n_2 = 15$, $\\bar{x}_2 = 70$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Masukkan ke dalam rumus rata-rata gabungan**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{n_1 \\cdot \\bar{x}_1 + n_2 \\cdot \\bar{x}_2}{n_1 + n_2}" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{(10 \\times 60) + (15 \\times 70)}{10 + 15}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan perhitungan**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{600 + 1050}{25} = \\dfrac{1650}{25} = 66" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata gabungan kedua kelompok tersebut adalah **66**." }
       ],
       "tingkat": "SULIT"
     },
@@ -81,9 +99,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jangkauan awal = $12 - 4 = 8$." },
-        { "tipe": "paragraph", "text": "Jika setiap nilai ditambah konstanta, jangkauan **tidak berubah**." },
-        { "tipe": "paragraph", "text": "Jadi, jangkauannya tetap 8." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jangkauan ($J$) data awal**" },
+        { "tipe": "paragraph", "text": "Dari data terurut $4, 6, 7, 8, 9, 10, 12$, diperoleh nilai maksimum $x_{\\text{maks}} = 12$ dan nilai minimum $x_{\\text{min}} = 4$." },
+        { "tipe": "formula_block", "latex": "J_{\\text{awal}} = x_{\\text{maks}} - x_{\\text{min}} = 12 - 4 = 8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Analisis perubahan setelah setiap data ditambah 3**" },
+        { "tipe": "paragraph", "text": "• Nilai maksimum baru: $12 + 3 = 15$" },
+        { "tipe": "paragraph", "text": "• Nilai minimum baru: $4 + 3 = 7$" },
+        { "tipe": "formula_block", "latex": "J_{\\text{baru}} = 15 - 7 = 8" },
+        { "tipe": "paragraph", "text": "**Catatan Konsep:** Operasi penjumlahan atau pengurangan dengan konstanta pada seluruh data menggeser posisi data secara merata, sehingga ukuran penyebaran (seperti jangkauan dan simpangan baku) **tidak berubah**." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jangkauannya tetap **8**." }
       ],
       "tingkat": "SULIT"
     },
@@ -101,8 +125,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika setiap nilai dikalikan $k$, simpangan baku menjadi $k \\times S$ (varians menjadi $k^2 \\times S^2$)." },
-        { "tipe": "paragraph", "text": "Dengan $k = 3$, simpangan baku menjadi **3× simpangan baku awal**." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami sifat perubahan data terhadap simpangan baku ($S$)**" },
+        { "tipe": "paragraph", "text": "Jika setiap nilai dalam sekumpulan data dikalikan dengan suatu konstanta $k$ (dengan $k > 0$), maka:" },
+        { "tipe": "paragraph", "text": "• **Simpangan baku ($S$)** akan ikut dikalikan sebesar $k$, yaitu $S_{\\text{baru}} = k \\times S_{\\text{awal}}$." },
+        { "tipe": "paragraph", "text": "• **Ragam/Varians ($S^2$)** akan dikalikan sebesar $k^2$, yaitu $S^2_{\\text{baru}} = k^2 \\times S^2_{\\text{awal}}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan pada soal**" },
+        { "tipe": "paragraph", "text": "Diketahui setiap nilai dikalikan dengan $k = 3$, maka:" },
+        { "tipe": "formula_block", "latex": "S_{\\text{baru}} = 3 \\times S_{\\text{awal}}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, simpangan bakunya menjadi **3× simpangan baku awal**." }
       ],
       "tingkat": "SULIT"
     },
@@ -120,9 +150,18 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak data = 8 (genap). Median = rata-rata data ke-4 dan ke-5 = $(6 + 7)/2 = 6{,}5$." },
-        { "tipe": "paragraph", "text": "Modus: nilai 7 muncul 3×. Modus = 7." },
-        { "tipe": "paragraph", "text": "Jadi, median = 6,5 dan modus = 7." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Periksa urutan dan jumlah data ($n$)**" },
+        { "tipe": "paragraph", "text": "Data sudah terurut dari terkecil ke terbesar: $3, 5, 5, 6, 7, 7, 7, 8$, dengan total banyak data $n = 8$ (genap)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan Median ($Me$)**" },
+        { "tipe": "paragraph", "text": "Karena $n = 8$ (genap), median berada di tengah-tengah antara data ke-$4$ ($x_4 = 6$) dan data ke-$5$ ($x_5 = 7$):" },
+        { "tipe": "formula_block", "latex": "Me = \\dfrac{x_4 + x_5}{2} = \\dfrac{6 + 7}{2} = \\dfrac{13}{2} = 6{,}5" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan Modus ($Mo$)**" },
+        { "tipe": "paragraph", "text": "Modus adalah nilai dengan frekuensi kemunculan paling banyak:" },
+        { "tipe": "paragraph", "text": "• Angka $3, 6, 8$ masing-masing muncul $1$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $5$ muncul $2$ kali" },
+        { "tipe": "paragraph", "text": "• Angka $7$ muncul $3$ kali (paling sering)" },
+        { "tipe": "paragraph", "text": "Maka, $Mo = 7$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, median dan modus data tersebut berturut-turut adalah **6,5 dan 7**." }
       ],
       "tingkat": "SULIT"
     },
@@ -140,10 +179,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rata-rata = $90/6 = 15$." },
-        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|} \\hline x_i & |x_i - 15| \\\\ \\hline 10 & 5 \\\\ 12 & 3 \\\\ 14 & 1 \\\\ 16 & 1 \\\\ 18 & 3 \\\\ 20 & 5 \\\\ \\hline \\text{Jumlah} & 18 \\\\ \\hline \\end{array}" },
-        { "tipe": "formula_block", "latex": "SR = \\dfrac{18}{6} = 3" },
-        { "tipe": "paragraph", "text": "Jadi, simpangan rata-ratanya adalah 3." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata ($\\bar{x}$) dari $n = 6$ data**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{10 + 12 + 14 + 16 + 18 + 20}{6} = \\dfrac{90}{6} = 15" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung selisih mutlak setiap data terhadap rata-rata ($|x_i - \\bar{x}|$)**" },
+        { "tipe": "formula_block", "latex": "\\begin{array}{|c|c|c|} \\hline x_i & |x_i - 15| & \\text{Hasil} \\\\ \\hline 10 & |10 - 15| & 5 \\\\ 12 & |12 - 15| & 3 \\\\ 14 & |14 - 15| & 1 \\\\ 16 & |16 - 15| & 1 \\\\ 18 & |18 - 15| & 3 \\\\ 20 & |20 - 15| & 5 \\\\ \\hline \\multicolumn{2}{|c|}{\\text{Total } \\sum |x_i - \\bar{x}|} & 18 \\\\ \\hline \\end{array}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung Simpangan Rata-rata ($SR$)**" },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{\\sum |x_i - \\bar{x}|}{n} = \\dfrac{18}{6} = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, simpangan rata-rata data tersebut adalah **3**." }
       ],
       "tingkat": "SULIT"
     },
@@ -161,8 +203,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\% = \\dfrac{5}{50} \\times 100\\% = 10\\%" },
-        { "tipe": "paragraph", "text": "Jadi, koefisien variasinya 10%." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi informasi yang diketahui**" },
+        { "tipe": "paragraph", "text": "• Rata-rata ($\\bar{x}$) $= 50$" },
+        { "tipe": "paragraph", "text": "• Simpangan baku ($S$) $= 5$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus Koefisien Variasi ($KV$)**" },
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\%" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusi nilai dan hitung**" },
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{5}{50} \\times 100\\% = 0{,}1 \\times 100\\% = 10\\%" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, koefisien variasi data tersebut adalah **10%**." }
       ],
       "tingkat": "SULIT"
     },
@@ -180,8 +228,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{10(8) + 20(10) + 30(12)}{60} = \\dfrac{80 + 200 + 360}{60} = \\dfrac{640}{60} = 10{,}67" },
-        { "tipe": "paragraph", "text": "Jadi, rata-rata gabungan ketiganya adalah 10,67." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi informasi tiap kelompok**" },
+        { "tipe": "paragraph", "text": "• Kelompok 1: $n_1 = 10$, $\\bar{x}_1 = 8$" },
+        { "tipe": "paragraph", "text": "• Kelompok 2: $n_2 = 20$, $\\bar{x}_2 = 10$" },
+        { "tipe": "paragraph", "text": "• Kelompok 3: $n_3 = 30$, $\\bar{x}_3 = 12$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus rata-rata gabungan untuk 3 kelompok**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{n_1 \\cdot \\bar{x}_1 + n_2 \\cdot \\bar{x}_2 + n_3 \\cdot \\bar{x}_3}{n_1 + n_2 + n_3}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusi nilai dan hitung hasilnya**" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{(10 \\times 8) + (20 \\times 10) + (30 \\times 12)}{10 + 20 + 30}" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{80 + 200 + 360}{60} = \\dfrac{640}{60} = \\dfrac{32}{3} \\approx 10{,}67" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata gabungan ketiganya adalah **10,67**." }
       ],
       "tingkat": "SULIT"
     },
@@ -199,9 +255,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Data awal: 5, 6, 7, 8, 9 → rata-rata = 7, simpangan kecil." },
-        { "tipe": "paragraph", "text": "Setelah diubah: 5, 6, 15, 8, 9 → salah satu nilai (15) jauh dari rata-rata → **simpangan baku bertambah**." },
-        { "tipe": "paragraph", "text": "Jadi, simpangan baku bertambah." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami konsep simpangan baku**" },
+        { "tipe": "paragraph", "text": "Simpangan baku mengukur seberapa jauh sebaran nilai-nilai data terhadap rata-ratanya. Semakin jauh suatu nilai menyimpang dari rata-rata, semakin besar simpangan bakunya." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bandingkan sebaran data awal dan data baru**" },
+        { "tipe": "paragraph", "text": "• **Data awal:** $5, 6, 7, 8, 9$ memiliki rata-rata $\\bar{x} = 7$ dan rentang sebaran yang sempit ($5$ sampai $9$, jangkauan $= 4$)." },
+        { "tipe": "paragraph", "text": "• **Data baru:** $5, 6, 15, 8, 9$ memiliki rata-rata baru $\\bar{x} = 8{,}6$. Nilai $15$ terpaut jauh dari nilai lainnya maupun dari rata-rata (jangkauan melebar menjadi $15 - 5 = 10$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Karena sebaran data menjadi lebih lebar dan menjauh dari pusat data, maka simpangan bakunya **bertambah**." }
       ],
       "tingkat": "SULIT"
     }
