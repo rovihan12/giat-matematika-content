@@ -21,10 +21,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $u = x^2$: $u^2 - 5u + 4 = 0$." },
-        { "tipe": "formula_block", "latex": "(u-1)(u-4) = 0 \\Rightarrow u = 1 \\text{ atau } u = 4" },
-        { "tipe": "paragraph", "text": "$x^2 = 1 \\Rightarrow x = \\pm 1$; $x^2 = 4 \\Rightarrow x = \\pm 2$." },
-        { "tipe": "paragraph", "text": "Akar-akarnya: $\\pm 1, \\pm 2$. Jadi, salah satunya adalah $-2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $u = x^2$ untuk menyederhanakan bentuk kuadratik**" },
+        { "tipe": "paragraph", "text": "Karena $x^4 = (x^2)^2 = u^2$, persamaan dapat ditulis ulang menjadi:" },
+        { "tipe": "formula_block", "latex": "u^2 - 5u + 4 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan persamaan kuadrat dalam $u$**" },
+        { "tipe": "formula_block", "latex": "(u - 1)(u - 4) = 0 \\Rightarrow u = 1 \\text{ atau } u = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = x^2$ untuk mencari nilai $x$**" },
+        { "tipe": "paragraph", "text": "• Untuk $u = 1$: $x^2 = 1 \\Rightarrow x = \\pm 1$ (yaitu $x = 1$ atau $x = -1$)." },
+        { "tipe": "paragraph", "text": "• Untuk $u = 4$: $x^2 = 4 \\Rightarrow x = \\pm 2$ (yaitu $x = 2$ atau $x = -2$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan akar-akarnya adalah $\\{-2, -1, 1, 2\\}$, sehingga salah satu akarnya yang tersedia pada pilihan adalah **-2**." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,9 +47,16 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Teorema Vieta: $x_1 + x_2 + x_3 = -\\dfrac{b}{a}$." },
-        { "tipe": "formula_block", "latex": "= -\\dfrac{-5}{2} = \\dfrac{5}{2}" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah akar-akarnya adalah $\\dfrac{5}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien polinomial kubik**" },
+        { "tipe": "paragraph", "text": "Bentuk umum persamaan kubik adalah $ax^3 + bx^2 + cx + d = 0$. Dari persamaan $2x^3 - 5x^2 - 4x + 3 = 0$, diperoleh:" },
+        { "tipe": "paragraph", "text": "• $a = 2$" },
+        { "tipe": "paragraph", "text": "• $b = -5$" },
+        { "tipe": "paragraph", "text": "• $c = -4$" },
+        { "tipe": "paragraph", "text": "• $d = 3$" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan Teorema Vieta untuk jumlah ketiga akar**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 + x_3 = -\\dfrac{b}{a}" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 + x_3 = -\\dfrac{-5}{2} = \\dfrac{5}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1 + x_2 + x_3$ adalah **$\\dfrac{5}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -62,9 +74,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Teorema Vieta untuk polinomial berderajat 4:" },
-        { "tipe": "formula_block", "latex": "x_1 x_2 x_3 x_4 = \\dfrac{d}{a}" },
-        { "tipe": "paragraph", "text": "Dengan $a = 1$ dan hasil kali $= -6$, maka $d = -6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ingat aturan Teorema Vieta untuk polinomial berderajat genap ($n = 4$)**" },
+        { "tipe": "paragraph", "text": "Untuk polinomial berderajat $4$ berbentuk $ax^4 + bx^3 + cx^2 + dx + e = 0$ (atau pada soal: $x^4 + ax^3 + bx^2 + cx + d$ dengan koefisien pangkat tertinggi $= 1$ dan konstanta $= d$), hasil kali seluruh akar memenuhi:" },
+        { "tipe": "formula_block", "latex": "x_1 x_2 x_3 x_4 = (-1)^4 \\cdot \\dfrac{d}{1} = d" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai hasil kali akar yang diketahui**" },
+        { "tipe": "paragraph", "text": "Karena diketahui $x_1 x_2 x_3 x_4 = -6$, maka:" },
+        { "tipe": "formula_block", "latex": "d = -6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $d$ adalah **-6**." }
       ],
       "tingkat": "SULIT"
     },
@@ -82,10 +98,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Uji dengan mengalikan $(x^2 - 2x + 2)(x^2 - x + 4)$:" },
-        { "tipe": "formula_block", "latex": "= x^4 - x^3 + 4x^2 - 2x^3 + 2x^2 - 8x + 2x^2 - 2x + 8" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan bentuk umum hasil bagi dan verifikasi dengan perkalian polinomial**" },
+        { "tipe": "paragraph", "text": "Karena $P(x)$ berderajat $4$ dibagi pembagi berderajat $2$, hasil baginya $H(x)$ berderajat $2$. Kita dapat menguji kandidat $H(x) = x^2 - x + 4$ menggunakan hubungan $P(x) = (x^2 - 2x + 2) \\cdot H(x)$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan hasil perkalian $(x^2 - 2x + 2)(x^2 - x + 4)$**" },
+        { "tipe": "formula_block", "latex": "(x^2 - 2x + 2)(x^2 - x + 4) = x^2(x^2 - x + 4) - 2x(x^2 - x + 4) + 2(x^2 - x + 4)" },
+        { "tipe": "formula_block", "latex": "= (x^4 - x^3 + 4x^2) - (2x^3 - 2x^2 + 8x) + (2x^2 - 2x + 8)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kelompokkan dan jumlahkan suku-suku sejenis**" },
+        { "tipe": "formula_block", "latex": "= x^4 + (-1 - 2)x^3 + (4 + 2 + 2)x^2 + (-8 - 2)x + 8" },
         { "tipe": "formula_block", "latex": "= x^4 - 3x^3 + 8x^2 - 10x + 8" },
-        { "tipe": "paragraph", "text": "Cocok dengan $P(x)$. Jadi, hasil baginya $x^2 - x + 4$." }
+        { "tipe": "paragraph", "text": "Hasilnya sama persis dengan $P(x)$ (sisa pembagian $= 0$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil baginya adalah **$x^2 - x + 4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -103,9 +125,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(1) = 0 \\Rightarrow (x-1)$ faktor." },
-        { "tipe": "paragraph", "text": "$P(-1) = 0 \\Rightarrow (x+1)$ faktor." },
-        { "tipe": "paragraph", "text": "Jadi, dua faktornya adalah $(x-1)$ dan $(x+1)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ingat Teorema Faktor pada polinomial**" },
+        { "tipe": "paragraph", "text": "Suatu bentuk linear $(x - c)$ merupakan faktor dari polinomial $P(x)$ jika dan hanya jika nilai polinomial tersebut saat $x = c$ sama dengan nol, yaitu $P(c) = 0$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan pada nilai $P(1) = 0$ dan $P(-1) = 0$**" },
+        { "tipe": "paragraph", "text": "• Karena $P(1) = 0$, maka $(x - 1)$ adalah faktor dari $P(x)$." },
+        { "tipe": "paragraph", "text": "• Karena $P(-1) = 0$, maka $(x - (-1)) = (x + 1)$ adalah faktor dari $P(x)$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, dua faktor dari $P(x)$ adalah **$(x-1)$ dan $(x+1)$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -123,9 +148,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Vieta: $x_1 + x_2 = 5$, $x_1 x_2 = 6$." },
-        { "tipe": "formula_block", "latex": "x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = 25 - 12 = 13" },
-        { "tipe": "paragraph", "text": "Jadi, nilainya adalah 13." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dengan Teorema Vieta**" },
+        { "tipe": "paragraph", "text": "Dari persamaan $x^2 - 5x + 6 = 0$ ($a = 1, b = -5, c = 6$):" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{b}{a} = 5 \\quad \\text{dan} \\quad x_1 x_2 = \\dfrac{c}{a} = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas aljabar untuk $x_1^2 + x_2^2$**" },
+        { "tipe": "formula_block", "latex": "x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang sudah diperoleh**" },
+        { "tipe": "formula_block", "latex": "x_1^2 + x_2^2 = (5)^2 - 2(6) = 25 - 12 = 13" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1^2 + x_2^2$ adalah **13**." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,9 +173,17 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Uji $x = 1$: $P(1) = 1 - 3 + 4 - 2 = 0$ → $(x-1)$ faktor." },
-        { "tipe": "paragraph", "text": "Bagi: hasil = $x^2 - 2x + 2$. Diskriminan $= 4 - 8 = -4 < 0$ → akar kompleks." },
-        { "tipe": "paragraph", "text": "Jadi, hanya 1 akar real, yaitu $x = 1$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari satu akar real dengan menguji pembagi konstanta ($-2$)**" },
+        { "tipe": "paragraph", "text": "Uji $x = 1$:" },
+        { "tipe": "formula_block", "latex": "P(1) = (1)^3 - 3(1)^2 + 4(1) - 2 = 1 - 3 + 4 - 2 = 0" },
+        { "tipe": "paragraph", "text": "Karena $P(1) = 0$, maka $(x - 1)$ adalah faktor dan $x = 1$ merupakan akar real." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan $P(x)$ dengan membagi oleh $(x - 1)$**" },
+        { "tipe": "formula_block", "latex": "P(x) = (x - 1)(x^2 - 2x + 2) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Periksa jenis akar dari faktor kuadrat $(x^2 - 2x + 2)$**" },
+        { "tipe": "paragraph", "text": "Hitung diskriminan ($D = b^2 - 4ac$) untuk $x^2 - 2x + 2 = 0$:" },
+        { "tipe": "formula_block", "latex": "D = (-2)^2 - 4(1)(2) = 4 - 8 = -4 < 0" },
+        { "tipe": "paragraph", "text": "Karena $D < 0$, persamaan kuadrat tersebut tidak memiliki akar real (akar-akarnya berupa bilangan kompleks konjugat)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak akar real dari persamaan tersebut adalah **1** (yaitu $x = 1$)." }
       ],
       "tingkat": "SULIT"
     },
@@ -163,10 +201,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(-1) = -1 + 2 + 5 - 6 = 0$." },
-        { "tipe": "paragraph", "text": "$P(1) = 1 + 2 - 5 - 6 = -8$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai $P(-1)$**" },
+        { "tipe": "formula_block", "latex": "P(-1) = (-1)^3 + 2(-1)^2 - 5(-1) - 6 = -1 + 2 + 5 - 6 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $P(1)$**" },
+        { "tipe": "formula_block", "latex": "P(1) = (1)^3 + 2(1)^2 - 5(1) - 6 = 1 + 2 - 5 - 6 = -8" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Jumlahkan kedua nilai tersebut**" },
         { "tipe": "formula_block", "latex": "P(-1) + P(1) = 0 + (-8) = -8" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah -8." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(-1) + P(1)$ adalah **-8**." }
       ],
       "tingkat": "SULIT"
     },
@@ -184,10 +225,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika $(x+1)^2$ muncul sebagai faktor, maka derajat faktornya adalah 2." },
-        { "tipe": "paragraph", "text": "Verifikasi: $P(-1) = -1 - 1 + 5 + 1 - 8 + 4 = 0$." },
-        { "tipe": "paragraph", "text": "Bagi dua kali dengan $(x+1)$: hasilnya $x^3 - 3x^2 + 2x + 4$ (tidak habis lagi)." },
-        { "tipe": "paragraph", "text": "Jadi, derajat faktornya adalah 2." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan derajat dari bentuk faktor $(x + 1)^2$**" },
+        { "tipe": "paragraph", "text": "Derajat suatu bentuk perpangkatan faktor linear $(x - c)^m$ adalah pangkatnya, yaitu $m$. Untuk $(x + 1)^2$, pangkatnya adalah $2$, sehingga derajatnya adalah **2**." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Verifikasi bahwa $(x + 1)^2$ memang membagi habis $P(x)$**" },
+        { "tipe": "paragraph", "text": "• Substitusi $x = -1$: $P(-1) = (-1)^5 - (-1)^4 - 5(-1)^3 + (-1)^2 + 8(-1) + 4 = -1 - 1 + 5 + 1 - 8 + 4 = 0$, sehingga $(x + 1)$ merupakan faktor." },
+        { "tipe": "paragraph", "text": "• Membagi $P(x)$ secara berulang dengan $(x + 1)$ menghasilkan faktor $(x + 1)^2$ dengan hasil bagi akhir berderajat $3$ yang tidak lagi habis dibagi $(x + 1)$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, derajat dari $(x+1)^2$ sebagai faktor adalah **2**." }
       ],
       "tingkat": "SULIT"
     },
@@ -205,11 +248,20 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x^2 - 1)$ faktor → $P(1) = 0$ dan $P(-1) = 0$." },
-        { "tipe": "paragraph", "text": "$P(1) = 1 - 3 + 2 + a + b = a + b = 0$." },
-        { "tipe": "paragraph", "text": "$P(-1) = 1 + 3 + 2 - a + b = 6 - a + b = 0 \\Rightarrow -a + b = -6$." },
-        { "tipe": "paragraph", "text": "Selesaikan: $a + b = 0$, $-a + b = -6$ → $b = -3$, $a = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, $a + b = 3 + (-3) = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan Teorema Sisa / Teorema Faktor pada pembagi $(x^2 - 1)$**" },
+        { "tipe": "paragraph", "text": "Karena $x^2 - 1 = (x - 1)(x + 1)$ membagi habis $P(x)$, maka sisa pembagiannya nol untuk $x = 1$ dan $x = -1$, yaitu $P(1) = 0$ dan $P(-1) = 0$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk persamaan dari $P(1) = 0$**" },
+        { "tipe": "formula_block", "latex": "P(1) = (1)^4 - 3(1)^3 + 2(1)^2 + a(1) + b = 0" },
+        { "tipe": "formula_block", "latex": "1 - 3 + 2 + a + b = 0 \\Rightarrow a + b = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Bentuk persamaan dari $P(-1) = 0$**" },
+        { "tipe": "formula_block", "latex": "P(-1) = (-1)^4 - 3(-1)^3 + 2(-1)^2 + a(-1) + b = 0" },
+        { "tipe": "formula_block", "latex": "1 + 3 + 2 - a + b = 0 \\Rightarrow -a + b = -6" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Selesaikan sistem persamaan untuk mendapatkan nilai $a$ dan $b$**" },
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan: $(a + b) + (-a + b) = 0 + (-6) \\Rightarrow 2b = -6 \\Rightarrow b = -3$." },
+        { "tipe": "paragraph", "text": "Substitusikan $b = -3$ ke $a + b = 0 \\Rightarrow a - 3 = 0 \\Rightarrow a = 3$." },
+        { "tipe": "paragraph", "text": "Sehingga diperoleh:" },
+        { "tipe": "formula_block", "latex": "a + b = 3 + (-3) = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a + b$ adalah **0**." }
       ],
       "tingkat": "SULIT"
     }
