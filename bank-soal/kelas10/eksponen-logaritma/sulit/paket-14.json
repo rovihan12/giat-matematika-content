@@ -26,7 +26,7 @@
         { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $y = 2^x$ untuk membentuk persamaan kuadrat**" },
         { "tipe": "formula_block", "latex": "y^2 - 20y + 64 = 0" },
         { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat tersebut**" },
-        { "tipe": "formula_block", "latex": "(y - 16)(y - 4) = 0 \\Rightarrow y = 16 \\quad \\text{atau} \\quad y = 4" },
+        { "tipe": "formula_block", "latex": "(y - 16)(y - 4) = 0 \\Rightarrow y = 16 \\quad \\text{atau} \\Rightarrow \\quad y = 4" },
         { "tipe": "paragraph", "text": "**Langkah 4: Kembalikan ke pemisalan awal $y = 2^x$ untuk menentukan nilai $x$**" },
         { "tipe": "formula_block", "latex": "y = 16 \\Rightarrow 2^x = 16 = 2^4 \\Rightarrow x = 4" },
         { "tipe": "formula_block", "latex": "y = 4 \\Rightarrow 2^x = 4 = 2^2 \\Rightarrow x = 2" },
