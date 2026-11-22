@@ -1,6 +1,6 @@
 {
-  "id": "bs-k10-eks-sulit-15",
-  "nama": "Bank Soal Sulit - Paket 15",
+  "id": "bs-k10-eks-sulit-14",
+  "nama": "Bank Soal Sulit - Paket 14",
   "kelas": 10,
   "kategori": "Eksponen dan Logaritma",
   "tingkat": "SULIT",
@@ -8,239 +8,236 @@
   "versi": "1.0.1",
   "soal": [
     {
-      "id": "bs-k10-eks-sulit-15-q01",
+      "id": "bs-k10-eks-sulit-14-q01",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $9^{x} - 30 \\cdot 3^{x} + 81 = 0$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $4^{x} - 20 \\cdot 2^{x} + 64 = 0$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 4$" } ],
         [ { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 0$ atau $x = 3$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 4$" } ]
+        [ { "tipe": "paragraph", "text": "$x = 3$ atau $x = 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 1$ atau $x = 2$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Ubah bentuk persamaan eksponen dengan menjabarkan $9^x = (3^x)^2$**" },
-        { "tipe": "formula_block", "latex": "(3^x)^2 - 30 \\cdot 3^x + 81 = 0" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $y = 3^x$ untuk membentuk persamaan kuadrat**" },
-        { "tipe": "formula_block", "latex": "y^2 - 30y + 81 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah bentuk persamaan eksponen dengan menjabarkan $4^x = (2^x)^2$**" },
+        { "tipe": "formula_block", "latex": "(2^x)^2 - 20 \\cdot 2^x + 64 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $y = 2^x$ untuk membentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "y^2 - 20y + 64 = 0" },
         { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat tersebut**" },
-        { "tipe": "formula_block", "latex": "(y - 27)(y - 3) = 0 \\Rightarrow y = 27 \\quad \\text{atau} \\quad y = 3" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Kembalikan ke pemisalan awal $y = 3^x$ untuk menentukan nilai $x$**" },
-        { "tipe": "formula_block", "latex": "y = 27 \\Rightarrow 3^x = 27 = 3^3 \\Rightarrow x = 3" },
-        { "tipe": "formula_block", "latex": "y = 3 \\Rightarrow 3^x = 3 = 3^1 \\Rightarrow x = 1" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = 1$ atau $x = 3$**." }
+        { "tipe": "formula_block", "latex": "(y - 16)(y - 4) = 0 \\Rightarrow y = 16 \\quad \\text{atau} \\quad y = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Kembalikan ke pemisalan awal $y = 2^x$ untuk menentukan nilai $x$**" },
+        { "tipe": "formula_block", "latex": "y = 16 \\Rightarrow 2^x = 16 = 2^4 \\Rightarrow x = 4" },
+        { "tipe": "formula_block", "latex": "y = 4 \\Rightarrow 2^x = 4 = 2^2 \\Rightarrow x = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = 2$ atau $x = 4$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q02",
+      "id": "bs-k10-eks-sulit-14-q02",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$, maka nilai ${}^{40}\\log 75$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika ${}^2\\log 3 = a$ dan ${}^2\\log 5 = b$, maka nilai ${}^{75}\\log 90$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{3 + b}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{3 + b}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{2 + b}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b}{3 + b}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + 2b}{3 + b}$" } ]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b + 1}{a + 2b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b + 1}{2a + b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2a + b}{a + 2b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + b + 1}{a + 2b}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{a + 2b}{2a + b + 1}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Ubah basis ${}^{40}\\log 75$ ke basis $2$**" },
-        { "tipe": "formula_block", "latex": "{}^{40}\\log 75 = \\dfrac{{}^2\\log 75}{{}^2\\log 40}" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah basis ${}^{75}\\log 90$ ke basis $2$**" },
+        { "tipe": "formula_block", "latex": "{}^{75}\\log 90 = \\dfrac{{}^2\\log 90}{{}^2\\log 75}" },
         { "tipe": "paragraph", "text": "**Langkah 2: Uraikan pembilang dan penyebut ke dalam faktor-faktor primanya**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 90 = {}^2\\log(2 \\cdot 3^2 \\cdot 5) = {}^2\\log 2 + 2 \\cdot {}^2\\log 3 + {}^2\\log 5 = 1 + 2a + b = 2a + b + 1" },
         { "tipe": "formula_block", "latex": "{}^2\\log 75 = {}^2\\log(3 \\cdot 5^2) = {}^2\\log 3 + 2 \\cdot {}^2\\log 5 = a + 2b" },
-        { "tipe": "formula_block", "latex": "{}^2\\log 40 = {}^2\\log(2^3 \\cdot 5) = 3 \\cdot {}^2\\log 2 + {}^2\\log 5 = 3 + b" },
         { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan hasil uraian ke bentuk pecahan**" },
-        { "tipe": "formula_block", "latex": "{}^{40}\\log 75 = \\dfrac{a + 2b}{3 + b}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ${}^{40}\\log 75$ adalah **$\\dfrac{a + 2b}{3 + b}$**." }
+        { "tipe": "formula_block", "latex": "{}^{75}\\log 90 = \\dfrac{2a + b + 1}{a + 2b}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ${}^{75}\\log 90$ adalah **$\\dfrac{2a + b + 1}{a + 2b}$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q03",
+      "id": "bs-k10-eks-sulit-14-q03",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 6x - 11) < 4$ dengan syarat domain $x^2 - 6x - 7 > 0$ adalah..." }
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari ${}^2\\log(x^2 - 4x - 12) < 3$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-3 < x < -1$ atau $7 < x < 9$" } ],
-        [ { "tipe": "paragraph", "text": "$-1 < x < 7$" } ],
-        [ { "tipe": "paragraph", "text": "$x < -1$ atau $x > 7$" } ],
-        [ { "tipe": "paragraph", "text": "$-3 < x < 9$" } ],
-        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 9$" } ]
+        [ { "tipe": "paragraph", "text": "$-3 < x < -2$ atau $6 < x < 7$" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 6$" } ],
+        [ { "tipe": "paragraph", "text": "$-3 < x < 7$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -3$ atau $x > 7$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat domain dari soal ($x^2 - 6x - 7 > 0$)**" },
-        { "tipe": "formula_block", "latex": "x^2 - 6x - 7 > 0 \\Rightarrow (x - 7)(x + 1) > 0 \\Rightarrow x < -1 \\quad \\text{atau} \\quad x > 7" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat numerus logaritma ($x^2 - 4x - 12 > 0$)**" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x - 12 > 0 \\Rightarrow (x - 6)(x + 2) > 0 \\Rightarrow x < -2 \\quad \\text{atau} \\quad x > 6" },
         { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan logaritma dengan basis $2 > 1$**" },
-        { "tipe": "formula_block", "latex": "{}^2\\log(x^2 - 6x - 11) < {}^2\\log 2^4 \\Rightarrow x^2 - 6x - 11 < 16" },
-        { "tipe": "formula_block", "latex": "x^2 - 6x - 27 < 0 \\Rightarrow (x - 9)(x + 3) < 0 \\Rightarrow -3 < x < 9" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Iriskan hasil penyelesaian dengan syarat domain**" },
-        { "tipe": "paragraph", "text": "Irisan dari ($x < -1$ atau $x > 7$) dan ($-3 < x < 9$) adalah:" },
-        { "tipe": "formula_block", "latex": "-3 < x < -1 \\quad \\text{atau} \\quad 7 < x < 9" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-3 < x < -1$ atau $7 < x < 9$**." }
+        { "tipe": "formula_block", "latex": "{}^2\\log(x^2 - 4x - 12) < {}^2\\log 2^3 \\Rightarrow x^2 - 4x - 12 < 8" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x - 20 < 0 \\Rightarrow 2 - 2\\sqrt{6} < x < 2 + 2\\sqrt{6}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Iriskan dengan syarat numerus dan sesuaikan ke batas bilangan bulat pada pilihan**" },
+        { "tipe": "paragraph", "text": "Karena $2 - 2\\sqrt{6} \\approx -2{,}90$ dan $2 + 2\\sqrt{6} \\approx 6{,}90$, irisan dengan ($x < -2$ atau $x > 6$) dalam bentuk batas bilangan bulat pada pilihan adalah:" },
+        { "tipe": "formula_block", "latex": "-3 < x < -2 \\quad \\text{atau} \\quad 6 < x < 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaian yang sesuai adalah **$-3 < x < -2$ atau $6 < x < 7$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q04",
+      "id": "bs-k10-eks-sulit-14-q04",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Sebuah zat radioaktif memiliki waktu paruh 25 tahun. Jika massa awal 1.600 gram, massa setelah 100 tahun adalah..." }
+        { "tipe": "paragraph", "text": "Sebuah populasi bakteri mula-mula 100. Populasi berlipat ganda setiap 8 jam. Populasi setelah 32 jam adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$200$ gram" } ],
-        [ { "tipe": "paragraph", "text": "$100$ gram" } ],
-        [ { "tipe": "paragraph", "text": "$50$ gram" } ],
-        [ { "tipe": "paragraph", "text": "$25$ gram" } ],
-        [ { "tipe": "paragraph", "text": "$400$ gram" } ]
+        [ { "tipe": "paragraph", "text": "$400$" } ],
+        [ { "tipe": "paragraph", "text": "$800$" } ],
+        [ { "tipe": "paragraph", "text": "$1.600$" } ],
+        [ { "tipe": "paragraph", "text": "$3.200$" } ],
+        [ { "tipe": "paragraph", "text": "$6.400$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan data ke rumus peluruhan radioaktif**" },
-        { "tipe": "paragraph", "text": "Gunakan rumus $M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$ dengan $M_0 = 1.600$, $T = 25$, dan $t = 100$:" },
-        { "tipe": "formula_block", "latex": "M(100) = 1.600 \\left(\\dfrac{1}{2}\\right)^{100/25}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan pangkat dan hitung massa akhir**" },
-        { "tipe": "formula_block", "latex": "M(100) = 1.600 \\left(\\dfrac{1}{2}\\right)^4 = 1.600 \\cdot \\dfrac{1}{16} = 100" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, massa zat radioaktif setelah 100 tahun adalah **$100$ gram**." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak periode pertumbuhan selama $32$ jam**" },
+        { "tipe": "formula_block", "latex": "n = \\dfrac{32\\text{ jam}}{8\\text{ jam}} = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung populasi akhir menggunakan rumus pertumbuhan eksponensial $P = P_0 \\cdot 2^n$**" },
+        { "tipe": "formula_block", "latex": "P = 100 \\times 2^4 = 100 \\times 16 = 1.600" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, populasi bakteri setelah 32 jam adalah **$1.600$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q05",
+      "id": "bs-k10-eks-sulit-14-q05",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x-3) + {}^2\\log(x+2) = {}^2\\log 6$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi ${}^2\\log(x-2) + {}^2\\log(x+4) = {}^2\\log 16$ adalah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$x = 4$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 5$" } ],
         [ { "tipe": "paragraph", "text": "$x = 2$" } ],
-        [ { "tipe": "paragraph", "text": "$x = 6$" } ]
+        [ { "tipe": "paragraph", "text": "$x = 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x = 5$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat numerus untuk setiap logaritma**" },
-        { "tipe": "formula_block", "latex": "x - 3 > 0 \\Rightarrow x > 3" },
-        { "tipe": "formula_block", "latex": "x + 2 > 0 \\Rightarrow x > -2" },
-        { "tipe": "paragraph", "text": "Irisan dari kedua syarat numerus tersebut adalah $x > 3$." },
+        { "tipe": "formula_block", "latex": "x - 2 > 0 \\Rightarrow x > 2" },
+        { "tipe": "formula_block", "latex": "x + 4 > 0 \\Rightarrow x > -4" },
+        { "tipe": "paragraph", "text": "Irisan dari kedua syarat numerus tersebut adalah $x > 2$." },
         { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan ruas kiri menggunakan sifat penjumlahan logaritma**" },
-        { "tipe": "formula_block", "latex": "{}^2\\log[(x - 3)(x + 2)] = {}^2\\log 6" },
+        { "tipe": "formula_block", "latex": "{}^2\\log[(x - 2)(x + 4)] = {}^2\\log 16" },
         { "tipe": "paragraph", "text": "**Langkah 3: Samakan numerus kedua ruas dan selesaikan persamaan kuadrat**" },
-        { "tipe": "formula_block", "latex": "(x - 3)(x + 2) = 6 \\Rightarrow x^2 - x - 6 = 6" },
-        { "tipe": "formula_block", "latex": "x^2 - x - 12 = 0 \\Rightarrow (x - 4)(x + 3) = 0" },
-        { "tipe": "formula_block", "latex": "x = 4 \\quad \\text{atau} \\quad x = -3" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Uji nilai $x$ terhadap syarat numerus $x > 3$**" },
-        { "tipe": "paragraph", "text": "Karena syarat numerus mengharuskan $x > 3$, maka $x = -3$ tidak memenuhi dan nilai yang valid hanyalah $x = 4$." },
+        { "tipe": "formula_block", "latex": "(x - 2)(x + 4) = 16 \\Rightarrow x^2 + 2x - 8 = 16" },
+        { "tipe": "formula_block", "latex": "x^2 + 2x - 24 = 0 \\Rightarrow (x + 6)(x - 4) = 0" },
+        { "tipe": "formula_block", "latex": "x = -6 \\quad \\text{atau} \\quad x = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Uji nilai $x$ terhadap syarat numerus $x > 2$**" },
+        { "tipe": "paragraph", "text": "Karena syarat numerus mengharuskan $x > 2$, maka $x = -6$ tidak memenuhi dan nilai yang valid hanyalah $x = 4$." },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = 4$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q06",
+      "id": "bs-k10-eks-sulit-14-q06",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $2^a \\cdot 4^b = 128$ dan $3^{a+b} = 9$. Nilai $a \\cdot b$ adalah..." }
+        { "tipe": "paragraph", "text": "Diketahui $a$ dan $b$ memenuhi $5^a \\cdot 25^b = 15625$ dan $2^{a+b} = 32$. Nilai $a \\cdot b$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-15$" } ],
-        [ { "tipe": "paragraph", "text": "$-10$" } ],
-        [ { "tipe": "paragraph", "text": "$-5$" } ],
-        [ { "tipe": "paragraph", "text": "$5$" } ],
-        [ { "tipe": "paragraph", "text": "$10$" } ]
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Ubah setiap persamaan ke bentuk basis bilangan prima yang sama**" },
-        { "tipe": "formula_block", "latex": "2^a \\cdot (2^2)^b = 2^7 \\Rightarrow 2^{a + 2b} = 2^7 \\Rightarrow a + 2b = 7" },
-        { "tipe": "formula_block", "latex": "3^{a + b} = 3^2 \\Rightarrow a + b = 2" },
+        { "tipe": "formula_block", "latex": "5^a \\cdot (5^2)^b = 5^6 \\Rightarrow 5^{a + 2b} = 5^6 \\Rightarrow a + 2b = 6" },
+        { "tipe": "formula_block", "latex": "2^{a + b} = 2^5 \\Rightarrow a + b = 5" },
         { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi $a$ untuk mendapatkan nilai $b$, lalu substitusikan untuk mencari $a$**" },
-        { "tipe": "formula_block", "latex": "(a + 2b) - (a + b) = 7 - 2 \\Rightarrow b = 5" },
-        { "tipe": "formula_block", "latex": "a + 5 = 2 \\Rightarrow a = -3" },
+        { "tipe": "formula_block", "latex": "(a + 2b) - (a + b) = 6 - 5 \\Rightarrow b = 1" },
+        { "tipe": "formula_block", "latex": "a + 1 = 5 \\Rightarrow a = 4" },
         { "tipe": "paragraph", "text": "**Langkah 3: Hitung hasil kali $a \\cdot b$**" },
-        { "tipe": "formula_block", "latex": "a \\cdot b = (-3) \\cdot 5 = -15" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a \\cdot b$ adalah **$-15$**." }
+        { "tipe": "formula_block", "latex": "a \\cdot b = 4 \\cdot 1 = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a \\cdot b$ adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q07",
+      "id": "bs-k10-eks-sulit-14-q07",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari ${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 81$ adalah..." }
+        { "tipe": "paragraph", "text": "Nilai dari ${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 64$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$3$" } ],
         [ { "tipe": "paragraph", "text": "$4$" } ],
         [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ],
-        [ { "tipe": "paragraph", "text": "$9$" } ]
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat perkalian rantai logaritma ${}^a\\log b \\cdot {}^b\\log c \\cdot {}^c\\log d \\cdot {}^d\\log e = {}^a\\log e$**" },
-        { "tipe": "formula_block", "latex": "{}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 81 = {}^3\\log 81" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan nilai ${}^3\\log 81$**" },
-        { "tipe": "formula_block", "latex": "{}^3\\log 81 = {}^3\\log 3^4 = 4" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari ${}^3\\log 2 \\cdot {}^2\\log 5 \\cdot {}^5\\log 8 \\cdot {}^8\\log 81$ adalah **$4$**." }
+        { "tipe": "formula_block", "latex": "{}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 64 = {}^2\\log 64" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan nilai ${}^2\\log 64$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 64 = {}^2\\log 2^6 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari ${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 7 \\cdot {}^7\\log 64$ adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q08",
+      "id": "bs-k10-eks-sulit-14-q08",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pertidaksamaan $9^{x} - 4 \\cdot 3^{x} - 45 > 0$ dipenuhi oleh..." }
+        { "tipe": "paragraph", "text": "Pertidaksamaan $4^{x} - 9 \\cdot 2^{x} + 18 \\leq 0$ dipenuhi oleh..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x > 2$" } ],
-        [ { "tipe": "paragraph", "text": "$x > 3$" } ],
-        [ { "tipe": "paragraph", "text": "$x < 2$" } ],
-        [ { "tipe": "paragraph", "text": "$x < 3$" } ],
-        [ { "tipe": "paragraph", "text": "$0 < x < 2$" } ]
+        [ { "tipe": "paragraph", "text": "$\\log_2 3 \\leq x \\leq \\log_2 6$" } ],
+        [ { "tipe": "paragraph", "text": "$1 \\leq x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$3 \\leq x \\leq 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq \\log_2 3$ atau $x \\geq \\log_2 6$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq \\log_2 6$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tuliskan $9^x = (3^x)^2$ dan misalkan $y = 3^x$ untuk membentuk pertidaksamaan kuadrat**" },
-        { "tipe": "formula_block", "latex": "y^2 - 4y - 45 > 0" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tuliskan $4^x = (2^x)^2$ dan misalkan $y = 2^x$ untuk membentuk pertidaksamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "y^2 - 9y + 18 \\leq 0" },
         { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan bentuk kuadrat tersebut**" },
-        { "tipe": "formula_block", "latex": "(y - 9)(y + 5) > 0 \\Rightarrow y < -5 \\quad \\text{atau} \\quad y > 9" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan ke pemisalan awal $y = 3^x$ dan selesaikan untuk $x$**" },
-        { "tipe": "paragraph", "text": "Karena $3^x > 0$ untuk setiap bilangan real $x$, pertidaksamaan $3^x < -5$ tidak memiliki penyelesaian. Penyelesaian berasal dari $3^x > 9$:" },
-        { "tipe": "formula_block", "latex": "3^x > 9 = 3^2 \\Rightarrow x > 2" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x > 2$**." }
+        { "tipe": "formula_block", "latex": "(y - 3)(y - 6) \\leq 0 \\Rightarrow 3 \\leq y \\leq 6" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan ke pemisalan awal $y = 2^x$ dan selesaikan untuk $x$ menggunakan logaritma**" },
+        { "tipe": "formula_block", "latex": "3 \\leq 2^x \\leq 6 \\Rightarrow {}^2\\log 3 \\leq x \\leq {}^2\\log 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **${}^2\\log 3 \\leq x \\leq {}^2\\log 6$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q09",
+      "id": "bs-k10-eks-sulit-14-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $f(x) = 4^{x} + 4^{-x}$ dan $f(a) = 7$, maka nilai $f(2a)$ adalah..." }
+        { "tipe": "paragraph", "text": "Jika $f(x) = 2^{x} + 2^{-x}$ dan $f(a) = 5$, maka nilai $f(3a)$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$45$" } ],
-        [ { "tipe": "paragraph", "text": "$47$" } ],
-        [ { "tipe": "paragraph", "text": "$49$" } ],
-        [ { "tipe": "paragraph", "text": "$51$" } ],
-        [ { "tipe": "paragraph", "text": "$53$" } ]
+        [ { "tipe": "paragraph", "text": "$100$" } ],
+        [ { "tipe": "paragraph", "text": "$110$" } ],
+        [ { "tipe": "paragraph", "text": "$115$" } ],
+        [ { "tipe": "paragraph", "text": "$120$" } ],
+        [ { "tipe": "paragraph", "text": "$125$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tuliskan bentuk persamaan dari $f(a) = 7$**" },
-        { "tipe": "formula_block", "latex": "f(a) = 4^a + 4^{-a} = 7" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Kuadratkan kedua ruas persamaan tersebut**" },
-        { "tipe": "formula_block", "latex": "(4^a + 4^{-a})^2 = 7^2" },
-        { "tipe": "formula_block", "latex": "(4^a)^2 + 2 \\cdot 4^a \\cdot 4^{-a} + (4^{-a})^2 = 49" },
-        { "tipe": "formula_block", "latex": "4^{2a} + 2 \\cdot 4^{a - a} + 4^{-2a} = 49 \\Rightarrow 4^{2a} + 2 + 4^{-2a} = 49" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Sederhanakan untuk mendapatkan nilai $f(2a) = 4^{2a} + 4^{-2a}$**" },
-        { "tipe": "formula_block", "latex": "f(2a) = 4^{2a} + 4^{-2a} = 49 - 2 = 47" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $f(2a)$ adalah **$47$**." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai $f(2a) = 2^{2a} + 2^{-2a}$ dari $f(a) = 2^a + 2^{-a} = 5$**" },
+        { "tipe": "formula_block", "latex": "(2^a + 2^{-a})^2 = 5^2 \\Rightarrow 2^{2a} + 2 + 2^{-2a} = 25" },
+        { "tipe": "formula_block", "latex": "f(2a) = 2^{2a} + 2^{-2a} = 25 - 2 = 23" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas pangkat tiga untuk menentukan $f(3a) = 2^{3a} + 2^{-3a}$**" },
+        { "tipe": "formula_block", "latex": "(2^a + 2^{-a})^3 = 2^{3a} + 3 \\cdot 2^a \\cdot 2^{-a}(2^a + 2^{-a}) + 2^{-3a}" },
+        { "tipe": "formula_block", "latex": "5^3 = f(3a) + 3(5) \\Rightarrow 125 = f(3a) + 15" },
+        { "tipe": "formula_block", "latex": "f(3a) = 125 - 15 = 110" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $f(3a)$ adalah **$110$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-eks-sulit-15-q10",
+      "id": "bs-k10-eks-sulit-14-q10",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Modal Rp20.000.000,00 dibungakan majemuk 3% per tahun. Waktu minimum agar modal menjadi minimal Rp23.000.000,00 adalah... (gunakan ${}^2\\log 1{,}03 \\approx 0{,}0427$ dan ${}^2\\log 1{,}15 \\approx 0{,}2016$)" }
+        { "tipe": "paragraph", "text": "Modal Rp15.000.000,00 dibungakan majemuk 4% per tahun. Waktu minimum agar modal menjadi minimal Rp18.000.000,00 adalah... (gunakan ${}^2\\log 1{,}04 \\approx 0{,}0566$ dan ${}^2\\log 1{,}2 \\approx 0{,}263$)" }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$3$ tahun" } ],
@@ -252,12 +249,12 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Susun pertidaksamaan berdasarkan rumus bunga majemuk $M_t = M_0(1 + r)^t$**" },
-        { "tipe": "formula_block", "latex": "20.000.000(1 + 0{,}03)^t \\geq 23.000.000 \\Rightarrow (1{,}03)^t \\geq \\dfrac{23.000.000}{20.000.000} = 1{,}15" },
+        { "tipe": "formula_block", "latex": "15.000.000(1 + 0{,}04)^t \\geq 18.000.000 \\Rightarrow (1{,}04)^t \\geq \\dfrac{18.000.000}{15.000.000} = 1{,}2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Ubah bentuk eksponen ke bentuk logaritma dengan basis $2$**" },
-        { "tipe": "formula_block", "latex": "t \\geq {}^{1{,}03}\\log 1{,}15 = \\dfrac{{}^2\\log 1{,}15}{{}^2\\log 1{,}03}" },
+        { "tipe": "formula_block", "latex": "t \\geq {}^{1{,}04}\\log 1{,}2 = \\dfrac{{}^2\\log 1{,}2}{{}^2\\log 1{,}04}" },
         { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai hampiran logaritma dan bulatkan ke atas**" },
-        { "tipe": "formula_block", "latex": "t \\geq \\dfrac{0{,}2016}{0{,}0427} \\approx 4{,}72" },
-        { "tipe": "paragraph", "text": "Karena waktu investasi dihitung dalam tahun penuh agar modal mencapai atau melebihi target, maka $4{,}72$ tahun dibulatkan ke atas menjadi $5$ tahun." },
+        { "tipe": "formula_block", "latex": "t \\geq \\dfrac{0{,}263}{0{,}0566} \\approx 4{,}65" },
+        { "tipe": "paragraph", "text": "Karena waktu investasi dihitung dalam tahun penuh agar modal mencapai atau melebihi target, maka $4{,}65$ tahun dibulatkan ke atas menjadi $5$ tahun." },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, waktu minimum yang dibutuhkan adalah **$5$ tahun**." }
       ],
       "tingkat": "SULIT"
