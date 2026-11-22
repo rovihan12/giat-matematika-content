@@ -21,16 +21,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan eksponen dengan menjabarkan suku $9^x = (3^x)^2$." },
-        { "tipe": "paragraph", "text": "$(3^x)^2 - 4 \\cdot 3^x + 3 = 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Lakukan pemisalan $y = 3^x$ untuk membentuk persamaan kuadrat." },
-        { "tipe": "paragraph", "text": "$y^2 - 4y + 3 = 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
-        { "tipe": "paragraph", "text": "$(y - 3)(y - 1) = 0 \\Rightarrow y = 3 \\text{ atau } y = 1$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Kembalikan ke pemisalan awal untuk menentukan nilai $x$." },
-        { "tipe": "paragraph", "text": "Untuk $y = 3 \\Rightarrow 3^x = 3 = 3^1 \\Rightarrow x = 1$" },
-        { "tipe": "paragraph", "text": "Untuk $y = 1 \\Rightarrow 3^x = 1 = 3^0 \\Rightarrow x = 0$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 0$ atau $x = 1$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah bentuk persamaan eksponen dengan menjabarkan $9^x = (3^x)^2$**" },
+        { "tipe": "formula_block", "latex": "(3^x)^2 - 4 \\cdot 3^x + 3 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $y = 3^x$ untuk membentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "y^2 - 4y + 3 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat tersebut**" },
+        { "tipe": "formula_block", "latex": "(y - 3)(y - 1) = 0 \\Rightarrow y = 3 \\quad \\text{atau} \\quad y = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Kembalikan ke pemisalan awal $y = 3^x$ untuk menentukan nilai $x$**" },
+        { "tipe": "formula_block", "latex": "y = 3 \\Rightarrow 3^x = 3 = 3^1 \\Rightarrow x = 1" },
+        { "tipe": "formula_block", "latex": "y = 1 \\Rightarrow 3^x = 1 = 3^0 \\Rightarrow x = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = 0$ atau $x = 1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -48,13 +48,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Faktorkan numerus $72$ ke dalam faktor primanya ($72 = 8 \\cdot 9 = 2^3 \\cdot 3^2$)." },
-        { "tipe": "paragraph", "text": "${}^3\\log 72 = {}^3\\log(2^3 \\cdot 3^2)$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat penjumlahan logaritma dan sifat perpangkatan logaritma (${}^a\\log b^n = n \\cdot {}^a\\log b$)." },
-        { "tipe": "paragraph", "text": "${}^3\\log 2^3 + {}^3\\log 3^2 = 3 \\cdot {}^3\\log 2 + 2 \\cdot {}^3\\log 3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan ${}^3\\log 2 = a$ dan ${}^3\\log 3 = 1$." },
-        { "tipe": "paragraph", "text": "$3a + 2(1) = 3a + 2 = 2 + 3a$" },
-        { "tipe": "paragraph", "text": "Jadi, bentuk ${}^3\\log 72$ adalah $2 + 3a$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan numerus $72$ ke dalam faktor-faktor primanya**" },
+        { "tipe": "paragraph", "text": "Karena $72 = 8 \\cdot 9 = 2^3 \\cdot 3^2$, maka:" },
+        { "tipe": "formula_block", "latex": "{}^3\\log 72 = {}^3\\log(2^3 \\cdot 3^2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan sifat penjumlahan dan perpangkatan logaritma (${}^a\\log b^n = n \\cdot {}^a\\log b$)**" },
+        { "tipe": "formula_block", "latex": "{}^3\\log(2^3 \\cdot 3^2) = {}^3\\log 2^3 + {}^3\\log 3^2 = 3 \\cdot {}^3\\log 2 + 2 \\cdot {}^3\\log 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan ${}^3\\log 2 = a$ dan ${}^3\\log 3 = 1$**" },
+        { "tipe": "formula_block", "latex": "3a + 2(1) = 3a + 2 = 2 + 3a" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bentuk ${}^3\\log 72$ adalah **$2 + 3a$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -65,20 +66,22 @@
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$-2\\sqrt{3} \\leq x < -2$ atau $2 < x \\leq 2\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "-2 < x < 2" } ],
+        [ { "tipe": "paragraph", "text": "$-2 < x < 2$" } ],
         [ { "tipe": "paragraph", "text": "$x \\leq -2$ atau $x \\geq 2$" } ],
         [ { "tipe": "paragraph", "text": "$-2\\sqrt{3} < x < 2\\sqrt{3}$" } ],
         [ { "tipe": "paragraph", "text": "$x < -2$ atau $x > 2$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain (numerus harus bernilai positif)." },
-        { "tipe": "paragraph", "text": "$x^2 - 4 > 0 \\Rightarrow (x - 2)(x + 2) > 0 \\Rightarrow x < -2 \\text{ atau } x > 2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan pertidaksamaan logaritma dengan mengubah konstanta $3$ menjadi ${}^2\\log 2^3$." },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 4) \\leq {}^2\\log 2^3 \\Rightarrow x^2 - 4 \\leq 8$" },
-        { "tipe": "paragraph", "text": "$x^2 \\leq 12 \\Rightarrow -2\\sqrt{3} \\leq x \\leq 2\\sqrt{3}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Iriskan hasil pertidaksamaan dengan syarat domain. Daerah yang memenuhi adalah $-2\\sqrt{3} \\leq x < -2$ atau $2 < x \\leq 2\\sqrt{3}$." },
-        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $-2\\sqrt{3} \\leq x < -2$ atau $2 < x \\leq 2\\sqrt{3}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat numerus logaritma (harus bernilai positif)**" },
+        { "tipe": "formula_block", "latex": "x^2 - 4 > 0 \\Rightarrow (x - 2)(x + 2) > 0 \\Rightarrow x < -2 \\quad \\text{atau} \\quad x > 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan logaritma dengan basis $2 > 1$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log(x^2 - 4) \\leq {}^2\\log 2^3 \\Rightarrow x^2 - 4 \\leq 8" },
+        { "tipe": "formula_block", "latex": "x^2 \\leq 12 \\Rightarrow -2\\sqrt{3} \\leq x \\leq 2\\sqrt{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Iriskan syarat numerus dengan hasil penyelesaian**" },
+        { "tipe": "paragraph", "text": "Irisan dari ($x < -2$ atau $x > 2$) dan ($-2\\sqrt{3} \\leq x \\leq 2\\sqrt{3}$) adalah:" },
+        { "tipe": "formula_block", "latex": "-2\\sqrt{3} \\leq x < -2 \\quad \\text{atau} \\quad 2 < x \\leq 2\\sqrt{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-2\\sqrt{3} \\leq x < -2$ atau $2 < x \\leq 2\\sqrt{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -96,11 +99,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus peluruhan zat radioaktif $M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$ dengan $M_0 = 200$, $T = 30$, dan $t = 90$." },
-        { "tipe": "paragraph", "text": "$M(90) = 200 \\left(\\dfrac{1}{2}\\right)^{90/30}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai pangkatnya." },
-        { "tipe": "paragraph", "text": "$M(90) = 200 \\left(\\dfrac{1}{2}\\right)^3 = 200 \\cdot \\dfrac{1}{8} = 25$ gram" },
-        { "tipe": "paragraph", "text": "Jadi, massa setelah 90 tahun adalah $25$ gram (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan data ke rumus peluruhan radioaktif**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus $M(t) = M_0 \\left(\\dfrac{1}{2}\\right)^{t/T}$ dengan $M_0 = 200$, $T = 30$, dan $t = 90$:" },
+        { "tipe": "formula_block", "latex": "M(90) = 200 \\left(\\dfrac{1}{2}\\right)^{90/30}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan pangkat dan hitung massa akhir**" },
+        { "tipe": "formula_block", "latex": "M(90) = 200 \\left(\\dfrac{1}{2}\\right)^3 = 200 \\cdot \\dfrac{1}{8} = 25" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, massa zat radioaktif setelah 90 tahun adalah **$25$ gram**." }
       ],
       "tingkat": "SULIT"
     },
@@ -118,14 +122,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah semua bentuk eksponen ke dalam basis yang sama, yaitu $2$ ($4 = 2^2$ dan $32 = 2^5$)." },
-        { "tipe": "paragraph", "text": "$2^x \\cdot (2^2)^{x-1} = 2^5$" },
-        { "tipe": "paragraph", "text": "$2^x \\cdot 2^{2x-2} = 2^5$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat perkalian eksponen $a^m \\cdot a^n = a^{m+n}$ pada ruas kiri." },
-        { "tipe": "paragraph", "text": "$2^{x + 2x - 2} = 2^5 \\Rightarrow 2^{3x - 2} = 2^5$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Samakan pangkatnya." },
-        { "tipe": "paragraph", "text": "$3x - 2 = 5 \\Rightarrow 3x = 7 \\Rightarrow x = \\dfrac{7}{3}$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = \\dfrac{7}{3}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah semua bentuk eksponen ke basis yang sama, yaitu $2$**" },
+        { "tipe": "formula_block", "latex": "2^x \\cdot (2^2)^{x-1} = 2^5 \\Rightarrow 2^x \\cdot 2^{2x-2} = 2^5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan sifat perkalian eksponen $a^m \\cdot a^n = a^{m+n}$ pada ruas kiri**" },
+        { "tipe": "formula_block", "latex": "2^{x + 2x - 2} = 2^5 \\Rightarrow 2^{3x - 2} = 2^5" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Samakan pangkat kedua ruas dan selesaikan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "3x - 2 = 5 \\Rightarrow 3x = 7 \\Rightarrow x = \\dfrac{7}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = \\dfrac{7}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,14 +146,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk ${}^6\\log 45$ menggunakan sifat perubahan basis ke basis $2$." },
-        { "tipe": "paragraph", "text": "${}^6\\log 45 = \\dfrac{{}^2\\log 45}{{}^2\\log 6}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uraikan numerus $45$ dan $6$ ke dalam faktor primanya ($45 = 9 \\cdot 5 = 3^2 \\cdot 5$ dan $6 = 2 \\cdot 3$)." },
-        { "tipe": "paragraph", "text": "${}^2\\log 45 = {}^2\\log(3^2 \\cdot 5) = 2 \\cdot {}^2\\log 3 + {}^2\\log 5 = 2a + b$" },
-        { "tipe": "paragraph", "text": "${}^2\\log 6 = {}^2\\log(2 \\cdot 3) = {}^2\\log 2 + {}^2\\log 3 = 1 + a$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai tersebut ke bentuk pecahan." },
-        { "tipe": "paragraph", "text": "${}^6\\log 45 = \\dfrac{2a + b}{a + 1}$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai ${}^6\\log 45$ adalah $\\dfrac{2a + b}{a + 1}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah basis ${}^6\\log 45$ ke basis $2$**" },
+        { "tipe": "formula_block", "latex": "{}^6\\log 45 = \\dfrac{{}^2\\log 45}{{}^2\\log 6}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uraikan pembilang dan penyebut ke dalam faktor-faktor primanya**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 45 = {}^2\\log(3^2 \\cdot 5) = 2 \\cdot {}^2\\log 3 + {}^2\\log 5 = 2a + b" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 6 = {}^2\\log(2 \\cdot 3) = {}^2\\log 2 + {}^2\\log 3 = 1 + a" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan hasil uraian ke bentuk pecahan**" },
+        { "tipe": "formula_block", "latex": "{}^6\\log 45 = \\dfrac{2a + b}{a + 1}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ${}^6\\log 45$ adalah **$\\dfrac{2a + b}{a + 1}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -168,13 +171,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah ruas kanan pertidaksamaan ke dalam basis eksponen yang sama, yaitu $\\dfrac{1}{3}$ ($\\dfrac{1}{81} = \\left(\\dfrac{1}{3}\\right)^4$)." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{3}\\right)^{2x-1} \\geq \\left(\\dfrac{1}{3}\\right)^4$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Karena basis eksponen bernilai antara $0$ dan $1$ ($\\dfrac{1}{3} < 1$), tanda pertidaksamaan harus dibalik saat menyamakan pangkatnya." },
-        { "tipe": "paragraph", "text": "$2x - 1 \\leq 4$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan pertidaksamaan linear untuk $x$." },
-        { "tipe": "paragraph", "text": "$2x \\leq 5 \\Rightarrow x \\leq \\dfrac{5}{2}$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x \\leq \\dfrac{5}{2}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah ruas kanan pertidaksamaan ke basis $\\dfrac{1}{3}$**" },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{1}{3}\\right)^{2x-1} \\geq \\left(\\dfrac{1}{3}\\right)^4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Balik tanda pertidaksamaan karena basis $\\dfrac{1}{3} < 1$**" },
+        { "tipe": "formula_block", "latex": "2x - 1 \\leq 4" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan pertidaksamaan linear untuk memperoleh nilai $x$**" },
+        { "tipe": "formula_block", "latex": "2x \\leq 5 \\Rightarrow x \\leq \\dfrac{5}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x \\leq \\dfrac{5}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -192,15 +195,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma ke dalam bentuk eksponen." },
-        { "tipe": "paragraph", "text": "${}^3\\log(x+y) = 2 \\Rightarrow x + y = 3^2 = 9$" },
-        { "tipe": "paragraph", "text": "${}^3\\log(x-y) = 1 \\Rightarrow x - y = 3^1 = 3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan sistem persamaan linear dua variabel untuk mencari nilai $x$ dan $y$." },
-        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan: $(x + y) + (x - y) = 9 + 3 \\Rightarrow 2x = 12 \\Rightarrow x = 6$" },
-        { "tipe": "paragraph", "text": "Kurangkan kedua persamaan: $(x + y) - (x - y) = 9 - 3 \\Rightarrow 2y = 6 \\Rightarrow y = 3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai hasil kali $x \\cdot y$." },
-        { "tipe": "paragraph", "text": "$x \\cdot y = 6 \\cdot 3 = 18$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x \\cdot y$ adalah $18$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah kedua persamaan logaritma ke dalam bentuk eksponen**" },
+        { "tipe": "formula_block", "latex": "{}^3\\log(x + y) = 2 \\Rightarrow x + y = 3^2 = 9" },
+        { "tipe": "formula_block", "latex": "{}^3\\log(x - y) = 1 \\Rightarrow x - y = 3^1 = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan sistem persamaan linear untuk mencari nilai $x$ dan $y$**" },
+        { "tipe": "formula_block", "latex": "(x + y) + (x - y) = 9 + 3 \\Rightarrow 2x = 12 \\Rightarrow x = 6" },
+        { "tipe": "formula_block", "latex": "(x + y) - (x - y) = 9 - 3 \\Rightarrow 2y = 6 \\Rightarrow y = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung hasil kali $x \\cdot y$**" },
+        { "tipe": "formula_block", "latex": "x \\cdot y = 6 \\cdot 3 = 18" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x \\cdot y$ adalah **$18$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -218,13 +221,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan masing-masing suku logaritma menggunakan sifat ${}^a\\log a^n = n$." },
-        { "tipe": "paragraph", "text": "${}^2\\log 8 = {}^2\\log 2^3 = 3$" },
-        { "tipe": "paragraph", "text": "${}^3\\log 9 = {}^3\\log 3^2 = 2$" },
-        { "tipe": "paragraph", "text": "${}^5\\log 125 = {}^5\\log 5^3 = 3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Lakukan operasi hitung penjumlahan dan pengurangan." },
-        { "tipe": "paragraph", "text": "$3 + 2 - 3 = 2$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Sederhanakan setiap suku logaritma menggunakan sifat ${}^a\\log a^n = n$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 8 = {}^2\\log 2^3 = 3" },
+        { "tipe": "formula_block", "latex": "{}^3\\log 9 = {}^3\\log 3^2 = 2" },
+        { "tipe": "formula_block", "latex": "{}^5\\log 125 = {}^5\\log 5^3 = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung hasil penjumlahan dan pengurangannya**" },
+        { "tipe": "formula_block", "latex": "3 + 2 - 3 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari ${}^2\\log 8 + {}^3\\log 9 - {}^5\\log 125$ adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -242,19 +245,18 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ambil logaritma berbasis $3$ pada kedua ruas persamaan." },
-        { "tipe": "paragraph", "text": "${}^3\\log\\left(x^{{}^3\\log x - 1}\\right) = {}^3\\log 9$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat perpangkatan logaritma (${}^a\\log b^n = n \\cdot {}^a\\log b$ dan ${}^3\\log 9 = 2$)." },
-        { "tipe": "paragraph", "text": "$({}^3\\log x - 1) \\cdot {}^3\\log x = 2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Lakukan pemisalan $y = {}^3\\log x$ untuk membentuk persamaan kuadrat." },
-        { "tipe": "paragraph", "text": "$y(y - 1) = 2 \\Rightarrow y^2 - y - 2 = 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan kuadrat atau gunakan sifat akar-akar persamaan kuadrat ($y_1 + y_2 = -\\dfrac{b}{a} = 1$)." },
-        { "tipe": "paragraph", "text": "Dari $y_1 + y_2 = 1$, kita peroleh:" },
-        { "tipe": "paragraph", "text": "${}^3\\log x_1 + {}^3\\log x_2 = 1$" },
-        { "tipe": "paragraph", "text": "${}^3\\log(x_1 \\cdot x_2) = 1$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Ubah bentuk logaritma ke bentuk eksponen untuk mencari nilai $x_1 \\cdot x_2$." },
-        { "tipe": "paragraph", "text": "$x_1 \\cdot x_2 = 3^1 = 3$" },
-        { "tipe": "paragraph", "text": "Jadi, hasil kali $x_1 \\cdot x_2$ adalah $3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ambil logaritma basis $3$ pada kedua ruas persamaan (dengan syarat $x > 0$)**" },
+        { "tipe": "formula_block", "latex": "{}^3\\log\\left(x^{{}^3\\log x - 1}\\right) = {}^3\\log 9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan sifat perpangkatan logaritma (${}^a\\log b^n = n \\cdot {}^a\\log b$ dan ${}^3\\log 9 = 2$)**" },
+        { "tipe": "formula_block", "latex": "({}^3\\log x - 1) \\cdot {}^3\\log x = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Misalkan $y = {}^3\\log x$ untuk membentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "y(y - 1) = 2 \\Rightarrow y^2 - y - 2 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Gunakan rumus jumlah akar persamaan kuadrat $y_1 + y_2 = -\\dfrac{b}{a}$**" },
+        { "tipe": "formula_block", "latex": "y_1 + y_2 = -\\dfrac{-1}{1} = 1" },
+        { "tipe": "formula_block", "latex": "{}^3\\log x_1 + {}^3\\log x_2 = 1 \\Rightarrow {}^3\\log(x_1 \\cdot x_2) = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 5: Ubah bentuk logaritma ke eksponen untuk memperoleh hasil kali $x_1 \\cdot x_2$**" },
+        { "tipe": "formula_block", "latex": "x_1 \\cdot x_2 = 3^1 = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil kali $x_1 \\cdot x_2$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     }
