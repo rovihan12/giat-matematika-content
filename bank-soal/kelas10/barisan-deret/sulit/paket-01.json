@@ -21,14 +21,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah persamaan suku ke dalam bentuk $a$ dan $b$. Diketahui $U_4 = a + 3b = 11$, sehingga $a = 11 - 3b$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan persamaan $U_2 + U_5 = 19$:" },
-        { "tipe": "paragraph", "text": "$(a + b) + (a + 4b) = 19 \\Rightarrow 2a + 5b = 19$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $a = 11 - 3b$ ke dalam persamaan $2a + 5b = 19$:" },
-        { "tipe": "paragraph", "text": "$2(11 - 3b) + 5b = 19 \\Rightarrow 22 - 6b + 5b = 19 \\Rightarrow 22 - b = 19 \\Rightarrow b = 3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Cari nilai suku pertama ($a$):" },
-        { "tipe": "paragraph", "text": "$a = 11 - 3(3) = 11 - 9 = 2$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan suku-suku barisan aritmatika dalam suku pertama ($a$) dan beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "U_4 = a + 3b = 11 \\Rightarrow a = 11 - 3b" },
+        { "tipe": "formula_block", "latex": "U_2 + U_5 = (a + b) + (a + 4b) = 19 \\Rightarrow 2a + 5b = 19" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 11 - 3b$ untuk mencari nilai $b$**" },
+        { "tipe": "formula_block", "latex": "2(11 - 3b) + 5b = 19 \\Rightarrow 22 - b = 19 \\Rightarrow b = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai suku pertama ($a$)**" },
+        { "tipe": "formula_block", "latex": "a = 11 - 3(3) = 11 - 9 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama barisan tersebut adalah **$2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -46,14 +46,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan $U_n = S_n - S_{n-1}$ untuk mencari suku ke-8 ($U_8 = S_8 - S_7$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung $S_8$ dengan mensubstitusikan $n = 8$:" },
-        { "tipe": "paragraph", "text": "$S_8 = 8^2 + 4(8) = 64 + 32 = 96$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung $S_7$ dengan mensubstitusikan $n = 7$:" },
-        { "tipe": "paragraph", "text": "$S_7 = 7^2 + 4(7) = 49 + 28 = 77$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Cari nilai suku ke-8 ($U_8$):" },
-        { "tipe": "paragraph", "text": "$U_8 = 96 - 77 = 19$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-8 deret tersebut adalah $19$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan suku ke-$n$ dan jumlah $n$ suku pertama ($U_n = S_n - S_{n-1}$)**" },
+        { "tipe": "formula_block", "latex": "U_8 = S_8 - S_7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $S_8$ dan $S_7$**" },
+        { "tipe": "formula_block", "latex": "S_8 = 8^2 + 4(8) = 64 + 32 = 96" },
+        { "tipe": "formula_block", "latex": "S_7 = 7^2 + 4(7) = 49 + 28 = 77" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kurangkan $S_8$ dengan $S_7$ untuk memperoleh $U_8$**" },
+        { "tipe": "formula_block", "latex": "U_8 = 96 - 77 = 19" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-8 deret tersebut adalah **$19$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -71,10 +71,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = \\dfrac{4}{5}$) dan rasio ($r = \\dfrac{4/25}{4/5} = \\dfrac{1}{5}$) dari deret tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{\\dfrac{4}{5}}{1 - \\dfrac{1}{5}} = \\dfrac{\\dfrac{4}{5}}{\\dfrac{4}{5}} = 1$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah tak hingga deret tersebut adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama ($a$) dan rasio ($r$) deret geometri**" },
+        { "tipe": "formula_block", "latex": "a = \\dfrac{4}{5}, \\qquad r = \\dfrac{\\dfrac{4}{25}}{\\dfrac{4}{5}} = \\dfrac{1}{5}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah tak hingga menggunakan rumus $S_\\infty = \\dfrac{a}{1 - r}$**" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{\\dfrac{4}{5}}{1 - \\dfrac{1}{5}} = \\dfrac{\\dfrac{4}{5}}{\\dfrac{4}{5}} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah tak hingga deret tersebut adalah **$1$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -92,10 +93,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi unsur barisan aritmatika: suku pertama ($a = 30$), beda kenaikan per hari ($b = 5$), dan banyak hari ($n = 12$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2(30) + (12 - 1) \\cdot 5) = 6(60 + 11 \\cdot 5) = 6(60 + 55) = 6 \\cdot 115 = 690$." },
-        { "tipe": "paragraph", "text": "Jadi, total mangkok terjual selama 12 hari adalah $690$ (pilihan keempat)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur barisan aritmatika dari soal**" },
+        { "tipe": "formula_block", "latex": "a = 30, \\qquad b = 5, \\qquad n = 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung total penjualan menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
+        { "tipe": "formula_block", "latex": "S_{12} = \\dfrac{12}{2}\\big(2(30) + (12 - 1) \\cdot 5\\big) = 6(60 + 55) = 6 \\cdot 115 = 690" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, total mangkok terjual selama 12 hari adalah **$690$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -113,10 +115,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-5 dan suku ke-2 untuk mencari rasio ($r$): $\\dfrac{U_5}{U_2} = \\dfrac{160}{20} = 8 \\Rightarrow r^{5-2} = r^3 = 8 \\Rightarrow r = 2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku pertama ($a$) menggunakan rumus $U_2 = a \\cdot r = 20$:" },
-        { "tipe": "paragraph", "text": "$a \\cdot 2 = 20 \\Rightarrow a = \\dfrac{20}{2} = 10$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $10$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) dari perbandingan $U_5$ dan $U_2$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{U_5}{U_2} = \\dfrac{160}{20} \\Rightarrow r^{5 - 2} = 8 \\Rightarrow r^3 = 8 \\Rightarrow r = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku pertama ($a$) dari persamaan $U_2 = a \\cdot r$**" },
+        { "tipe": "formula_block", "latex": "a \\cdot 2 = 20 \\Rightarrow a = 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama barisan tersebut adalah **$10$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -134,11 +137,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan barisan kelipatan 11 yang kurang dari 200: $11, 22, \\ldots, 198$ (membentuk barisan aritmatika dengan $a = 11$, $b = 11$, dan $U_n = 198$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung banyaknya suku ($n$) dengan rumus $U_n = a + (n-1)b$: $198 = 11 + (n-1)11 \\Rightarrow 187 = 11(n-1) \\Rightarrow n-1 = 17 \\Rightarrow n = 18$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah deret menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$:" },
-        { "tipe": "paragraph", "text": "$S_{18} = \\dfrac{18}{2}(11 + 198) = 9 \\cdot 209 = 1881$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlahnya adalah $1881$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun barisan aritmatika kelipatan 11 yang kurang dari 200**" },
+        { "tipe": "formula_block", "latex": "11, 22, \\ldots, 198 \\quad (a = 11, \\; b = 11, \\; U_n = 198)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyak suku ($n$) menggunakan rumus $U_n = a + (n - 1)b$**" },
+        { "tipe": "formula_block", "latex": "198 = 11 + (n - 1) \\cdot 11 \\Rightarrow 11(n - 1) = 187 \\Rightarrow n - 1 = 17 \\Rightarrow n = 18" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah deret menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$**" },
+        { "tipe": "formula_block", "latex": "S_{18} = \\dfrac{18}{2}(11 + 198) = 9 \\cdot 209 = 1881" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah semua bilangan asli kelipatan 11 yang kurang dari 200 adalah **$1881$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -156,12 +161,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ untuk $S_4$ dan $S_8$:" },
-        { "tipe": "paragraph", "text": "$S_4 = \\dfrac{4}{2}(2a + 3b) = 2(2a + 3b) = 30 \\Rightarrow 2a + 3b = 15$ (Persamaan 1)" },
-        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2a + 7b) = 4(2a + 7b) = 108 \\Rightarrow 2a + 7b = 27$ (Persamaan 2)" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Eliminasi Persamaan 2 dengan Persamaan 1:" },
-        { "tipe": "paragraph", "text": "$(2a + 7b) - (2a + 3b) = 27 - 15 \\Rightarrow 4b = 12 \\Rightarrow b = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, beda barisan tersebut adalah $3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah $S_4$ dan $S_8$ ke persamaan linear dalam $a$ dan $b$**" },
+        { "tipe": "formula_block", "latex": "S_4 = \\dfrac{4}{2}(2a + 3b) = 30 \\Rightarrow 2(2a + 3b) = 30 \\Rightarrow 2a + 3b = 15" },
+        { "tipe": "formula_block", "latex": "S_8 = \\dfrac{8}{2}(2a + 7b) = 108 \\Rightarrow 4(2a + 7b) = 108 \\Rightarrow 2a + 7b = 27" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi $a$ untuk memperoleh nilai beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "(2a + 7b) - (2a + 3b) = 27 - 15 \\Rightarrow 4b = 12 \\Rightarrow b = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, beda barisan aritmatika tersebut adalah **$3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -179,9 +184,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat suku tengah atau rata-rata geometris barisan geometri untuk mencari suku ke-4 ($U_4$ antara $U_3$ dan $U_5$):" },
-        { "tipe": "paragraph", "text": "$U_4 = \\sqrt{U_3 \\cdot U_5} = \\sqrt{18 \\cdot 162} = \\sqrt{2916} = 54$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-4 adalah $54$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat suku tengah barisan geometri ($U_4^2 = U_3 \\cdot U_5$)**" },
+        { "tipe": "formula_block", "latex": "U_4 = \\sqrt{U_3 \\cdot U_5} = \\sqrt{18 \\cdot 162}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai akar kuadratnya**" },
+        { "tipe": "formula_block", "latex": "U_4 = \\sqrt{2916} = 54" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-4 barisan geometri tersebut adalah **$54$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -199,10 +206,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$), beda ($b = 5 - 1 = 4$), dan banyaknya suku ($n = 18$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_{18} = \\dfrac{18}{2}(2(1) + (18 - 1) \\cdot 4) = 9(2 + 17 \\cdot 4) = 9(2 + 68) = 9 \\cdot 70 = 630$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 18 suku pertama adalah $630$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama ($a$), beda ($b$), dan banyak suku ($n$)**" },
+        { "tipe": "formula_block", "latex": "a = 1, \\qquad b = 5 - 1 = 4, \\qquad n = 18" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah 18 suku pertama menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
+        { "tipe": "formula_block", "latex": "S_{18} = \\dfrac{18}{2}\\big(2(1) + (18 - 1) \\cdot 4\\big) = 9(2 + 68) = 9 \\cdot 70 = 630" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah 18 suku pertama deret tersebut adalah **$630$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -220,10 +228,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$ dengan $S_\\infty = 20$ dan $r = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "$20 = \\dfrac{a}{1 - \\dfrac{1}{4}} \\Rightarrow 20 = \\dfrac{a}{\\dfrac{3}{4}}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan untuk mencari suku pertama ($a$): $a = 20 \\times \\dfrac{3}{4} = 5 \\times 3 = 15$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertama deret tersebut adalah $15$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $S_\\infty = 20$ dan $r = \\dfrac{1}{4}$ ke rumus deret geometri tak hingga**" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{a}{1 - r} \\Rightarrow 20 = \\dfrac{a}{1 - \\dfrac{1}{4}} = \\dfrac{a}{\\dfrac{3}{4}}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai suku pertama ($a$)**" },
+        { "tipe": "formula_block", "latex": "a = 20 \\times \\dfrac{3}{4} = 5 \\times 3 = 15" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama deret geometri tak hingga tersebut adalah **$15$**." }
       ],
       "tingkat": "SEDANG"
     }
