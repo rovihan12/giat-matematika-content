@@ -21,11 +21,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Perhatikan pola barisan bilangan: $2 = 1 \\times 2$, $6 = 2 \\times 3$, $12 = 3 \\times 4$, $20 = 4 \\times 5$, $30 = 5 \\times 6$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan rumus suku ke-$n$ ($U_n$), yaitu $U_n = n(n+1)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung suku ke-10 ($U_{10}$) dengan mensubstitusikan $n = 10$:" },
-        { "tipe": "paragraph", "text": "$U_{10} = 10(10 + 1) = 10 \\times 11 = 110$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-10 barisan tersebut adalah $110$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi pola perkalian berurutan untuk menentukan rumus suku ke-$n$**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1 \\times 2, \\quad U_2 = 2 \\times 3, \\quad U_3 = 3 \\times 4, \\quad \\ldots \\Rightarrow U_n = n(n + 1)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 10$ untuk menghitung suku ke-10**" },
+        { "tipe": "formula_block", "latex": "U_{10} = 10(10 + 1) = 10 \\times 11 = 110" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-10 barisan tersebut adalah **$110$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -43,10 +43,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$) dan rasio ($r = \\dfrac{\\dfrac{4}{3}}{2} = \\dfrac{2}{3}$) dari deret tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$:" },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{2}{1 - \\dfrac{2}{3}} = \\dfrac{2}{\\dfrac{1}{3}} = 2 \\times 3 = 6$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $6$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan rasio ($r$) deret geometri**" },
+        { "tipe": "formula_block", "latex": "a = 2, \\qquad r = \\dfrac{\\dfrac{4}{3}}{2} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah tak hingga menggunakan rumus $S_\\infty = \\dfrac{a}{1 - r}$**" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{2}{1 - \\dfrac{2}{3}} = \\dfrac{2}{\\dfrac{1}{3}} = 2 \\times 3 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret geometri tak hingga tersebut adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -64,10 +65,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat suku tengah pada tiga suku berurutan barisan aritmatika: $2q = p + r$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $p + r = 10$ ke dalam persamaan:" },
-        { "tipe": "paragraph", "text": "$2q = 10 \\Rightarrow q = \\dfrac{10}{2} = 5$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $q$ adalah $5$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat suku tengah barisan aritmatika ($2q = p + r$)**" },
+        { "tipe": "formula_block", "latex": "2q = p + r" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $p + r = 10$ dan selesaikan untuk $q$**" },
+        { "tipe": "formula_block", "latex": "2q = 10 \\Rightarrow q = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $q$ adalah **$5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -85,10 +87,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = \\sqrt{2}$) dan rasio ($r = \\dfrac{2}{\\sqrt{2}} = \\sqrt{2}$) dari barisan geometri tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$ untuk mencari suku ke-5 ($U_5$):" },
-        { "tipe": "paragraph", "text": "$U_5 = \\sqrt{2} \\cdot (\\sqrt{2})^{5-1} = \\sqrt{2} \\cdot (\\sqrt{2})^4 = \\sqrt{2} \\cdot 4 = 4\\sqrt{2}$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $4\\sqrt{2}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama ($a$) dan rasio ($r$) barisan geometri**" },
+        { "tipe": "formula_block", "latex": "a = \\sqrt{2}, \\qquad r = \\dfrac{2}{\\sqrt{2}} = \\sqrt{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-5 menggunakan rumus $U_n = a \\cdot r^{n - 1}$**" },
+        { "tipe": "formula_block", "latex": "U_5 = \\sqrt{2} \\cdot (\\sqrt{2})^{5 - 1} = \\sqrt{2} \\cdot (\\sqrt{2})^4 = \\sqrt{2} \\cdot 4 = 4\\sqrt{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-5 barisan tersebut adalah **$4\\sqrt{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -106,10 +109,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$), rasio ($r = 3$), dan nyatakan suku terakhir sebagai perpangkatan: $2187 = 3^7$ (artinya terdapat $8$ suku karena dimulai dari $3^0$ hingga $3^7$, sehingga $n = 8$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$:" },
-        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{1(3^8 - 1)}{3 - 1} = \\dfrac{6561 - 1}{2} = \\dfrac{6560}{2} = 3280$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $3280$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$), rasio ($r$), dan banyak suku ($n$)**" },
+        { "tipe": "formula_block", "latex": "a = 1, \\qquad r = 3, \\qquad U_n = 2187 = 3^7 \\Rightarrow n = 8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah deret geometri menggunakan rumus $S_n = \\dfrac{a(r^n - 1)}{r - 1}$**" },
+        { "tipe": "formula_block", "latex": "S_8 = \\dfrac{1(3^8 - 1)}{3 - 1} = \\dfrac{6561 - 1}{2} = \\dfrac{6560}{2} = 3280" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$3280$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -127,10 +131,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi unsur barisan aritmatika: suku pertama ($a = 100$), beda kenaikan per bulan ($b = 20$), dan banyak bulan dalam satu tahun ($n = 12$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$:" },
-        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2(100) + (12 - 1) \\cdot 20) = 6(200 + 11 \\cdot 20) = 6(200 + 220) = 6 \\cdot 420 = 2520$." },
-        { "tipe": "paragraph", "text": "Jadi, total produksi pada tahun pertama adalah $2520$ unit (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur barisan aritmatika untuk 1 tahun (12 bulan)**" },
+        { "tipe": "formula_block", "latex": "a = 100, \\qquad b = 20, \\qquad n = 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung total produksi menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
+        { "tipe": "formula_block", "latex": "S_{12} = \\dfrac{12}{2}\\big(2(100) + (12 - 1) \\cdot 20\\big) = 6(200 + 220) = 6 \\cdot 420 = 2520" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, total produksi pada tahun pertama adalah **$2520$ unit**." }
       ],
       "tingkat": "SULIT"
     },
@@ -148,12 +153,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) menggunakan selisih suku ke-10 dan suku ke-5: $\\dfrac{U_{10} - U_5}{10 - 5} = \\dfrac{35 - 15}{5} = \\dfrac{20}{5} = 4$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku pertama ($a$) menggunakan persamaan $U_5 = a + 4b = 15$:" },
-        { "tipe": "paragraph", "text": "$a + 4(4) = 15 \\Rightarrow a + 16 = 15 \\Rightarrow a = -1$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung suku ke-20 ($U_{20}$) dengan rumus $U_n = a + (n-1)b$:" },
-        { "tipe": "paragraph", "text": "$U_{20} = -1 + (20 - 1) \\cdot 4 = -1 + 19 \\cdot 4 = -1 + 76 = 75$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-20 adalah $75$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan beda ($b$) dan suku pertama ($a$) barisan aritmatika**" },
+        { "tipe": "formula_block", "latex": "b = \\dfrac{U_{10} - U_5}{10 - 5} = \\dfrac{35 - 15}{5} = 4" },
+        { "tipe": "formula_block", "latex": "U_5 = a + 4b = 15 \\Rightarrow a + 4(4) = 15 \\Rightarrow a = -1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-20 menggunakan rumus $U_n = a + (n - 1)b$**" },
+        { "tipe": "formula_block", "latex": "U_{20} = -1 + (20 - 1) \\cdot 4 = -1 + 76 = 75" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-20 barisan aritmatika tersebut adalah **$75$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -171,18 +176,18 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat barisan aritmatika pada suku-suku tersebut: $\\dfrac{2}{y} = \\dfrac{1}{x} + \\dfrac{1}{z}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Samakan penyebut di ruas kanan: $\\dfrac{2}{y} = \\dfrac{z + x}{xz}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Kali silang untuk menyelesaikan variabel $y$:" },
-        { "tipe": "paragraph", "text": "$y(x + z) = 2xz \\Rightarrow y = \\dfrac{2xz}{x + z}$." },
-        { "tipe": "paragraph", "text": "Jadi, hubungan yang benar adalah $y = \\dfrac{2xz}{x + z}$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat barisan aritmatika pada tiga suku berurutan**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{y} = \\dfrac{1}{x} + \\dfrac{1}{z}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan selesaikan persamaan untuk $y$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{y} = \\dfrac{x + z}{xz} \\Rightarrow y(x + z) = 2xz \\Rightarrow y = \\dfrac{2xz}{x + z}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hubungan yang benar adalah **$y = \\dfrac{2xz}{x + z}$**." }
       ],
       "tingkat": "SULIT"
     },
     {
       "id": "bs-k10-bd-sulit-03-q09",
       "pertanyaan": [
-        { "tipe": "paragraph", "text": "Deret $\\sum_{n=1}^{\\\infty} \\dfrac{1}{n(n+1)}$ memiliki jumlah..." }
+        { "tipe": "paragraph", "text": "Deret $\\sum_{n=1}^{\\infty} \\dfrac{1}{n(n+1)}$ memiliki jumlah..." }
       ],
       "pilihan": [
         [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
@@ -193,11 +198,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jabarkan pecahan menggunakan pecahan parsial (telescoping series): $\\dfrac{1}{n(n+1)} = \\dfrac{1}{n} - \\dfrac{1}{n+1}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tuliskan bentuk jumlah parsial ($S_N$):" },
-        { "tipe": "paragraph", "text": "$S_N = \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\ldots + \\left(\\dfrac{1}{N} - \\dfrac{1}{N+1}\\right) = 1 - \\dfrac{1}{N+1}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Ambil batas saat $N \\to \\infty$: $S_\\infty = \\lim_{N \\to \\infty} \\left(1 - \\dfrac{1}{N+1}\\right) = 1 - 0 = 1$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $1$ (pilihan keempat)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Uraikan suku umum deret menjadi pecahan parsial (bentuk teleskopik)**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{n(n + 1)} = \\dfrac{1}{n} - \\dfrac{1}{n + 1}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun jumlah parsial ke-$N$ dan ambil limit saat $N$ menuju tak hingga**" },
+        { "tipe": "formula_block", "latex": "S_N = \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\ldots + \\left(\\dfrac{1}{N} - \\dfrac{1}{N + 1}\\right) = 1 - \\dfrac{1}{N + 1}" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\lim_{N \\to \\infty} \\left(1 - \\dfrac{1}{N + 1}\\right) = 1 - 0 = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -215,10 +221,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan tiga suku barisan geometri tersebut adalah $\\dfrac{a}{r}$, $a$, dan $ar$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan informasi hasil kali ketiga suku: $\\dfrac{a}{r} \\cdot a \\cdot ar = a^3 = 216$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tarik akar pangkat tiga untuk mencari nilai $a$ (suku tengah): $a = \\sqrt[3]{216} = 6$." },
-        { "tipe": "paragraph", "text": "Jadi, suku tengahnya adalah $6$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan tiga suku berurutan barisan geometri dengan suku tengah $a$ dan rasio $r$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{a}{r}, \\quad a, \\quad ar" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan persamaan hasil kali ketiga suku untuk mencari nilai $a$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{a}{r} \\cdot a \\cdot ar = 216 \\Rightarrow a^3 = 216 \\Rightarrow a = \\sqrt[3]{216} = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku tengah barisan geometri tersebut adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     }
