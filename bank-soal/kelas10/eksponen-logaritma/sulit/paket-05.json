@@ -21,16 +21,16 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan eksponen dengan menjabarkan suku $25^x = (5^x)^2$." },
-        { "tipe": "paragraph", "text": "$(5^x)^2 - 6 \\cdot 5^x + 5 = 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Lakukan pemisalan $y = 5^x$ untuk membentuk persamaan kuadrat." },
-        { "tipe": "paragraph", "text": "$y^2 - 6y + 5 = 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
-        { "tipe": "paragraph", "text": "$(y - 5)(y - 1) = 0 \\Rightarrow y = 5 \\text{ atau } y = 1$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Kembalikan ke pemisalan awal untuk menentukan nilai $x$." },
-        { "tipe": "paragraph", "text": "Untuk $y = 5 \\Rightarrow 5^x = 5 = 5^1 \\Rightarrow x = 1$" },
-        { "tipe": "paragraph", "text": "Untuk $y = 1 \\Rightarrow 5^x = 1 = 5^0 \\Rightarrow x = 0$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 0$ atau $x = 1$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah bentuk persamaan eksponen dengan menjabarkan $25^x = (5^x)^2$**" },
+        { "tipe": "formula_block", "latex": "(5^x)^2 - 6 \\cdot 5^x + 5 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $y = 5^x$ untuk membentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "y^2 - 6y + 5 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat tersebut**" },
+        { "tipe": "formula_block", "latex": "(y - 5)(y - 1) = 0 \\Rightarrow y = 5 \\quad \\text{atau} \\quad y = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Kembalikan ke pemisalan awal $y = 5^x$ untuk menentukan nilai $x$**" },
+        { "tipe": "formula_block", "latex": "y = 5 \\Rightarrow 5^x = 5 = 5^1 \\Rightarrow x = 1" },
+        { "tipe": "formula_block", "latex": "y = 1 \\Rightarrow 5^x = 1 = 5^0 \\Rightarrow x = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = 0$ atau $x = 1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -48,14 +48,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk ${}^{10}\\log 30$ menggunakan sifat perubahan basis ke basis $3$." },
-        { "tipe": "paragraph", "text": "${}^{10}\\log 30 = \\dfrac{{}^3\\log 30}{{}^3\\log 10}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uraikan numerus $30$ dan $10$ ke dalam faktor primanya ($30 = 2 \\cdot 3 \\cdot 5$ dan $10 = 2 \\cdot 5$)." },
-        { "tipe": "paragraph", "text": "${}^3\\log 30 = {}^3\\log(2 \\cdot 3 \\cdot 5) = {}^3\\log 2 + {}^3\\log 3 + {}^3\\log 5 = b + 1 + a = a + b + 1$" },
-        { "tipe": "paragraph", "text": "${}^3\\log 10 = {}^3\\log(2 \\cdot 5) = {}^3\\log 2 + {}^3\\log 5 = b + a = a + b$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai tersebut ke bentuk pecahan." },
-        { "tipe": "paragraph", "text": "${}^{10}\\log 30 = \\dfrac{a + b + 1}{a + b}$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{a + b + 1}{a + b}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah basis ${}^{10}\\log 30$ ke basis $3$**" },
+        { "tipe": "formula_block", "latex": "{}^{10}\\log 30 = \\dfrac{{}^3\\log 30}{{}^3\\log 10}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uraikan pembilang dan penyebut ke dalam faktor-faktor primanya**" },
+        { "tipe": "formula_block", "latex": "{}^3\\log 30 = {}^3\\log(2 \\cdot 3 \\cdot 5) = {}^3\\log 2 + {}^3\\log 3 + {}^3\\log 5 = b + 1 + a = a + b + 1" },
+        { "tipe": "formula_block", "latex": "{}^3\\log 10 = {}^3\\log(2 \\cdot 5) = {}^3\\log 2 + {}^3\\log 5 = b + a = a + b" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan hasil uraian ke bentuk pecahan**" },
+        { "tipe": "formula_block", "latex": "{}^{10}\\log 30 = \\dfrac{a + b + 1}{a + b}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ${}^{10}\\log 30$ adalah **$\\dfrac{a + b + 1}{a + b}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -73,13 +73,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan syarat domain (numerus harus bernilai positif)." },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 3 > 0 \\Rightarrow (x - 3)(x + 1) > 0 \\Rightarrow x < -1 \\text{ atau } x > 3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan pertidaksamaan logaritma dengan mengubah konstanta $5$ menjadi ${}^2\\log 2^5 = {}^2\\log 32$." },
-        { "tipe": "paragraph", "text": "${}^2\\log(x^2 - 2x - 3) < {}^2\\log 32 \\Rightarrow x^2 - 2x - 3 < 32$" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 35 < 0 \\Rightarrow (x - 7)(x + 5) < 0 \\Rightarrow -5 < x < 7$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Iriskan hasil penyelesaian dengan syarat domain ($x < -1 \\text{ atau } x > 3$). Irisan yang diperoleh adalah $-5 < x < -1$ atau $3 < x < 7$." },
-        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $-5 < x < -1$ atau $3 < x < 7$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat numerus logaritma (harus bernilai positif)**" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x - 3 > 0 \\Rightarrow (x - 3)(x + 1) > 0 \\Rightarrow x < -1 \\quad \\text{atau} \\quad x > 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan logaritma dengan basis $2 > 1$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log(x^2 - 2x - 3) < {}^2\\log 2^5 \\Rightarrow x^2 - 2x - 3 < 32" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x - 35 < 0 \\Rightarrow (x - 7)(x + 5) < 0 \\Rightarrow -5 < x < 7" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Iriskan syarat numerus dengan hasil penyelesaian**" },
+        { "tipe": "paragraph", "text": "Irisan dari ($x < -1$ atau $x > 3$) dan ($-5 < x < 7$) adalah:" },
+        { "tipe": "formula_block", "latex": "-5 < x < -1 \\quad \\text{atau} \\quad 3 < x < 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-5 < x < -1$ atau $3 < x < 7$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -97,13 +99,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus penurunan/peluruhan nilai aset (penyusutan) $V_t = V_0(1 - r)^t$ dengan $V_0 = 200.000.000$, $r = 15\\% = 0{,}15$, dan $t = 3$." },
-        { "tipe": "paragraph", "text": "$V_3 = 200.000.000 \\times (1 - 0{,}15)^3 = 200.000.000 \\times (0{,}85)^3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai perpangkatan $(0{,}85)^3$." },
-        { "tipe": "paragraph", "text": "$(0{,}85)^3 = 0{,}614125$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung total nilai jual setelah 3 tahun." },
-        { "tipe": "paragraph", "text": "$V_3 = 200.000.000 \\times 0{,}614125 = 122.825.000$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai jual mobil setelah 3 tahun adalah Rp122.825.000,00 (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan data ke rumus penyusutan nilai aset $V_t = V_0(1 - r)^t$**" },
+        { "tipe": "paragraph", "text": "Dengan $V_0 = 200.000.000$, laju penyusutan $r = 15\\% = 0{,}15$, dan $t = 3$:" },
+        { "tipe": "formula_block", "latex": "V_3 = 200.000.000 \\times (1 - 0{,}15)^3 = 200.000.000 \\times (0{,}85)^3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai perpangkatan dan total harga jual akhir**" },
+        { "tipe": "formula_block", "latex": "V_3 = 200.000.000 \\times 0{,}614125 = 122.825.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai jual mobil setelah 3 tahun adalah **Rp122.825.000,00**." }
       ],
       "tingkat": "SULIT"
     },
@@ -121,13 +122,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gabungkan basis pada ruas kiri menggunakan sifat eksponen $(a \\cdot b)^x = a^x \\cdot b^x$." },
-        { "tipe": "paragraph", "text": "$(2 \\cdot 3)^x = 36 \\Rightarrow 6^x = 36$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Ubah ruas kanan ke dalam bentuk basis $6$ ($36 = 6^2$)." },
-        { "tipe": "paragraph", "text": "$6^x = 6^2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Samakan pangkatnya." },
-        { "tipe": "paragraph", "text": "$x = 2$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x = 2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gabungkan basis pada ruas kiri menggunakan sifat eksponen $a^x \\cdot b^x = (a \\cdot b)^x$**" },
+        { "tipe": "formula_block", "latex": "(2 \\cdot 3)^x = 36 \\Rightarrow 6^x = 36" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan basis kedua ruas dengan mengubah $36 = 6^2$**" },
+        { "tipe": "formula_block", "latex": "6^x = 6^2 \\Rightarrow x = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x = 2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -145,17 +144,17 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk persamaan logaritma menggunakan sifat penjumlahan logaritma ${}^a\\log m + {}^a\\log n = {}^a\\log(m \\cdot n)$." },
-        { "tipe": "paragraph", "text": "${}^2\\log(xy) = 6 \\Rightarrow xy = 2^6 = 64$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan hubungan $x - y = 12$, sehingga $x = y + 12$. Substitusikan ke dalam persamaan perkalian." },
-        { "tipe": "paragraph", "text": "$(y + 12)y = 64 \\Rightarrow y^2 + 12y - 64 = 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat tersebut." },
-        { "tipe": "paragraph", "text": "$(y + 16)(y - 4) = 0 \\Rightarrow y = -16 \\text{ atau } y = 4$" },
-        { "tipe": "paragraph", "text": "Karena syarat numerus logaritma $y > 0$, maka nilai yang memenuhi adalah $y = 4$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Cari nilai $x$ dan hitung $x + y$." },
-        { "tipe": "paragraph", "text": "$x = 4 + 12 = 16$" },
-        { "tipe": "paragraph", "text": "$x + y = 16 + 4 = 20$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x + y$ adalah $20$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah persamaan logaritma ke bentuk perkalian menggunakan sifat ${}^a\\log m + {}^a\\log n = {}^a\\log(m \\cdot n)$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log(xy) = 6 \\Rightarrow xy = 2^6 = 64" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = y + 12$ ke persamaan $xy = 64$**" },
+        { "tipe": "formula_block", "latex": "(y + 12)y = 64 \\Rightarrow y^2 + 12y - 64 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan persamaan kuadrat dan pilih nilai yang memenuhi syarat numerus $y > 0$**" },
+        { "tipe": "formula_block", "latex": "(y + 16)(y - 4) = 0 \\Rightarrow y = -16 \\quad \\text{atau} \\quad y = 4" },
+        { "tipe": "paragraph", "text": "Karena syarat numerus logaritma mengharuskan $y > 0$, maka nilai yang memenuhi adalah $y = 4$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Tentukan nilai $x$ dan hitung jumlah $x + y$**" },
+        { "tipe": "formula_block", "latex": "x = 4 + 12 = 16" },
+        { "tipe": "formula_block", "latex": "x + y = 16 + 4 = 20" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y$ adalah **$20$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -173,11 +172,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat perkalian rantai logaritma ${}^a\\log b \\cdot {}^b\\log c \\cdot {}^c\\log d \\cdot {}^d\\log e = {}^a\\log e$." },
-        { "tipe": "paragraph", "text": "${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 6 \\cdot {}^6\\log 8 = {}^2\\log 8$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan bentuk ${}^2\\log 8$." },
-        { "tipe": "paragraph", "text": "${}^2\\log 2^3 = 3$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat perkalian rantai logaritma ${}^a\\log b \\cdot {}^b\\log c \\cdot {}^c\\log d \\cdot {}^d\\log e = {}^a\\log e$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 6 \\cdot {}^6\\log 8 = {}^2\\log 8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan nilai ${}^2\\log 8$**" },
+        { "tipe": "formula_block", "latex": "{}^2\\log 8 = {}^2\\log 2^3 = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari ${}^2\\log 3 \\cdot {}^3\\log 5 \\cdot {}^5\\log 6 \\cdot {}^6\\log 8$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -195,14 +194,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jabarkan bentuk $4^x = (2^x)^2$ dan $2^{x+1} = 2 \\cdot 2^x$." },
-        { "tipe": "paragraph", "text": "$(2^x)^2 - 2 \\cdot 2^x - 8 > 0$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan pemisalan $y = 2^x$ untuk membentuk pertidaksamaan kuadrat." },
-        { "tipe": "paragraph", "text": "$y^2 - 2y - 8 > 0 \\Rightarrow (y - 4)(y + 2) > 0$" },
-        { "tipe": "paragraph", "text": "Pembuat nol: $y = 4$ atau $y = -2$. Daerah penyelesaian pertidaksamaan: $y > 4 \\text{ atau } y < -2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Kembalikan ke pemisalan awal. Karena $y = 2^x > 0$ untuk setiap bilangan real $x$, maka syarat $y < -2$ tidak memenuhi." },
-        { "tipe": "paragraph", "text": "$y > 4 \\Rightarrow 2^x > 4 = 2^2 \\Rightarrow x > 2$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ yang memenuhi adalah $x > 2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan $4^x = (2^x)^2$ dan $2^{x+1} = 2 \\cdot 2^x$**" },
+        { "tipe": "formula_block", "latex": "(2^x)^2 - 2 \\cdot 2^x - 8 > 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $y = 2^x$ untuk membentuk pertidaksamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "y^2 - 2y - 8 > 0 \\Rightarrow (y - 4)(y + 2) > 0" },
+        { "tipe": "formula_block", "latex": "y < -2 \\quad \\text{atau} \\quad y > 4" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan ke pemisalan awal $y = 2^x$ (dengan syarat $2^x > 0$)**" },
+        { "tipe": "paragraph", "text": "Karena $y = 2^x > 0$ untuk setiap $x \\in \\mathbb{R}$, maka $y < -2$ tidak memenuhi dan hanya berlaku $y > 4$:" },
+        { "tipe": "formula_block", "latex": "2^x > 4 = 2^2 \\Rightarrow x > 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x > 2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -220,16 +220,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tuliskan persamaan dari $f(a) = 3$." },
-        { "tipe": "paragraph", "text": "$f(a) = 2^a + 2^{-a} = 3$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kuadratkan kedua ruas persamaan tersebut." },
-        { "tipe": "paragraph", "text": "$(2^a + 2^{-a})^2 = 3^2$" },
-        { "tipe": "paragraph", "text": "$(2^a)^2 + 2 \\cdot 2^a \\cdot 2^{-a} + (2^{-a})^2 = 9$" },
-        { "tipe": "paragraph", "text": "$2^{2a} + 2 \\cdot 2^{a-a} + 2^{-2a} = 9 \\Rightarrow 2^{2a} + 2 + 2^{-2a} = 9$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan untuk mendapatkan nilai $2^{2a} + 2^{-2a}$." },
-        { "tipe": "paragraph", "text": "$2^{2a} + 2^{-2a} = 9 - 2 = 7$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Perhatikan bahwa $f(2a) = 2^{2a} + 2^{-2a} = 7$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $f(2a)$ adalah $7$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tuliskan bentuk persamaan dari $f(a) = 3$**" },
+        { "tipe": "formula_block", "latex": "f(a) = 2^a + 2^{-a} = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kuadratkan kedua ruas persamaan tersebut**" },
+        { "tipe": "formula_block", "latex": "(2^a + 2^{-a})^2 = 3^2" },
+        { "tipe": "formula_block", "latex": "(2^a)^2 + 2 \\cdot 2^a \\cdot 2^{-a} + (2^{-a})^2 = 9" },
+        { "tipe": "formula_block", "latex": "2^{2a} + 2 \\cdot 2^{a - a} + 2^{-2a} = 9 \\Rightarrow 2^{2a} + 2 + 2^{-2a} = 9" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Sederhanakan untuk mendapatkan nilai $f(2a) = 2^{2a} + 2^{-2a}$**" },
+        { "tipe": "formula_block", "latex": "f(2a) = 2^{2a} + 2^{-2a} = 9 - 2 = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $f(2a)$ adalah **$7$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -247,13 +246,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan jumlah periode (semester). Karena 1 tahun = 2 semester, maka untuk 2 tahun diperoleh $n = 2 \\times 2 = 4$ semester." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Masukkan data ke dalam rumus bunga majemuk $M_n = M_0(1 + i)^n$ dengan $M_0 = 10.000.000$, suku bunga $i = 4\\% = 0{,}04$ per semester, dan $n = 4$." },
-        { "tipe": "paragraph", "text": "$M_4 = 10.000.000(1 + 0{,}04)^4 = 10.000.000(1{,}04)^4$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai $(1{,}04)^4 \\approx 1{,}16985856$." },
-        { "tipe": "paragraph", "text": "$M_4 = 10.000.000 \\times 1{,}16985856 = 11.698.585{,}60$" },
-        { "tipe": "paragraph", "text": "Jika dibulatkan ke rupiah terdekat, hasilnya adalah Rp11.698.585,00." },
-        { "tipe": "paragraph", "text": "Jadi, besar modal setelah 2 tahun adalah Rp11.698.585,00 (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak periode bunga majemuk (semester) dalam $2$ tahun**" },
+        { "tipe": "formula_block", "latex": "n = 2\\text{ tahun} \\times 2\\text{ semester/tahun} = 4\\text{ semester}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan data ke rumus bunga majemuk $M_n = M_0(1 + i)^n$**" },
+        { "tipe": "paragraph", "text": "Dengan $M_0 = 10.000.000$, suku bunga $i = 4\\% = 0{,}04$ per semester, dan $n = 4$:" },
+        { "tipe": "formula_block", "latex": "M_4 = 10.000.000(1 + 0{,}04)^4 = 10.000.000(1{,}04)^4" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai akhir modal dan bulatkan ke pilihan terdekat**" },
+        { "tipe": "formula_block", "latex": "M_4 = 10.000.000 \\times 1{,}16985856 = 11.698.585{,}60 \\approx 11.698.585" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, besar modal setelah 2 tahun adalah **Rp11.698.585,00**." }
       ],
       "tingkat": "SULIT"
     }
