@@ -21,10 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Perhatikan pola barisan bilangan: $1 = 1^2$, $4 = 2^2$, $9 = 3^2$, $16 = 4^2$, $25 = 5^2$ (merupakan barisan kuadrat bilangan asli)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus umum suku ke-$n$ ($U_n = n^2$) untuk mencari suku ke-20 ($U_{20}$):" },
-        { "tipe": "paragraph", "text": "$U_{20} = 20^2 = 400$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-20 adalah $400$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi pola barisan bilangan kuadrat untuk menentukan rumus suku ke-$n$**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1^2, \\quad U_2 = 2^2, \\quad U_3 = 3^2, \\quad \\ldots \\Rightarrow U_n = n^2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 20$ untuk menghitung suku ke-20**" },
+        { "tipe": "formula_block", "latex": "U_{20} = 20^2 = 400" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-20 barisan tersebut adalah **$400$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,10 +43,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$ dengan $a = 6$ dan $S_\\infty = 9$." },
-        { "tipe": "paragraph", "text": "$9 = \\dfrac{6}{1 - r} \\Rightarrow 1 - r = \\dfrac{6}{9} = \\dfrac{2}{3}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan persamaan untuk mencari rasio ($r$): $r = 1 - \\dfrac{2}{3} = \\dfrac{1}{3}$." },
-        { "tipe": "paragraph", "text": "Jadi, rasio deret tersebut adalah $\\dfrac{1}{3}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $a = 6$ dan $S_\\infty = 9$ ke rumus jumlah deret geometri tak hingga**" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{a}{1 - r} \\Rightarrow 9 = \\dfrac{6}{1 - r} \\Rightarrow 1 - r = \\dfrac{6}{9} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "r = 1 - \\dfrac{2}{3} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rasio deret geometri tersebut adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,11 +65,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Perhatikan pola barisan bilangan: $2 = 1 \\times 2$, $6 = 2 \\times 3$, $12 = 3 \\times 4$, $20 = 4 \\times 5$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan rumus suku ke-$n$ ($U_n$), yaitu $U_n = n(n+1)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung suku ke-8 ($U_8$) dengan mensubstitusikan $n = 8$:" },
-        { "tipe": "paragraph", "text": "$U_8 = 8(8 + 1) = 8 \\times 9 = 72$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-8 adalah $72$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi pola perkalian berurutan untuk menentukan rumus suku ke-$n$**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1 \\times 2, \\quad U_2 = 2 \\times 3, \\quad U_3 = 3 \\times 4, \\quad \\ldots \\Rightarrow U_n = n(n + 1)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 8$ untuk menghitung suku ke-8**" },
+        { "tipe": "formula_block", "latex": "U_8 = 8(8 + 1) = 8 \\times 9 = 72" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-8 barisan tersebut adalah **$72$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -85,10 +87,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku ke-$n$ yang diberikan: $U_n = 3n^2 - 2n$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 5$ ke dalam rumus:" },
-        { "tipe": "paragraph", "text": "$U_5 = 3(5)^2 - 2(5) = 3(25) - 10 = 75 - 10 = 65$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $U_5$ adalah $65$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $n = 5$ ke rumus umum suku ke-$n$**" },
+        { "tipe": "formula_block", "latex": "U_5 = 3(5)^2 - 2(5)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai aritmatikanya**" },
+        { "tipe": "formula_block", "latex": "U_5 = 3(25) - 10 = 75 - 10 = 65" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $U_5$ adalah **$65$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -106,11 +109,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_5 = a \\cdot r^4 = 243$ dengan $a = 3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari nilai rasio ($r$): $3r^4 = 243 \\Rightarrow r^4 = \\dfrac{243}{3} = 81 \\Rightarrow r = 3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan rumus jumlah 5 suku pertama deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$:" },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{3(3^5 - 1)}{3 - 1} = \\dfrac{3(243 - 1)}{2} = \\dfrac{3 \\cdot 242}{2} = 3 \\cdot 121 = 363$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 5 suku pertama adalah $363$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) dari $U_1 = a = 3$ dan $U_5 = a \\cdot r^4 = 243$**" },
+        { "tipe": "formula_block", "latex": "3r^4 = 243 \\Rightarrow r^4 = 81 \\Rightarrow r = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah 5 suku pertama menggunakan rumus $S_n = \\dfrac{a(r^n - 1)}{r - 1}$**" },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{3(3^5 - 1)}{3 - 1} = \\dfrac{3(243 - 1)}{2} = \\dfrac{3 \\cdot 242}{2} = 3 \\cdot 121 = 363" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah 5 suku pertama deret geometri tersebut adalah **$363$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -128,10 +131,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kenali pola barisan bilangan segitiga: $1, 3, 6, 10, 15, \\ldots$ yang memiliki rumus umum $U_n = \\dfrac{n(n+1)}{2}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung suku ke-6 ($U_6$) dengan mensubstitusikan $n = 6$:" },
-        { "tipe": "paragraph", "text": "$U_6 = \\dfrac{6(6 + 1)}{2} = \\dfrac{6 \\cdot 7}{2} = \\dfrac{42}{2} = 21$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-6 adalah $21$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus umum barisan bilangan segitiga**" },
+        { "tipe": "formula_block", "latex": "U_n = \\dfrac{n(n + 1)}{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 6$ untuk menghitung suku ke-6**" },
+        { "tipe": "formula_block", "latex": "U_6 = \\dfrac{6(6 + 1)}{2} = \\dfrac{42}{2} = 21" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-6 barisan tersebut adalah **$21$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -149,12 +153,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jabarkan setiap pecahan menggunakan sifat pecahan parsial (telescoping series): $\\dfrac{1}{n(n+1)} = \\dfrac{1}{n} - \\dfrac{1}{n+1}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tuliskan bentuk penjumlahannya:" },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{1} - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\left(\\dfrac{1}{3} - \\dfrac{1}{4}\\right) + \\ldots + \\left(\\dfrac{1}{99} - \\dfrac{1}{100}\\right)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Sederhanakan suku-suku yang saling menghilangkan, menyisakan suku pertama dan suku terakhir:" },
-        { "tipe": "paragraph", "text": "$1 - \\dfrac{1}{100} = \\dfrac{100}{100} - \\dfrac{1}{100} = \\dfrac{99}{100}$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{99}{100}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Uraikan setiap suku menjadi pecahan parsial (bentuk teleskopik)**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{n(n + 1)} = \\dfrac{1}{n} - \\dfrac{1}{n + 1}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan penjumlahan suku-suku yang saling meniadakan**" },
+        { "tipe": "formula_block", "latex": "\\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\ldots + \\left(\\dfrac{1}{99} - \\dfrac{1}{100}\\right) = 1 - \\dfrac{1}{100} = \\dfrac{99}{100}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$\\dfrac{99}{100}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -172,17 +175,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ untuk $S_5$ dan $S_{10}$:" },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{5}{2}(2a + 4b) = 35 \\Rightarrow 2a + 4b = 14 \\Rightarrow a + 2b = 7$ (Persamaan 1)" },
-        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2a + 9b) = 120 \\Rightarrow 2a + 9b = 24$ (Persamaan 2)" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kalikan Persamaan 1 dengan 2, lalu eliminasi dengan Persamaan 2:" },
-        { "tipe": "paragraph", "text": "$2a + 4b = 14$" },
-        { "tipe": "paragraph", "text": "$2a + 9b = 24$" },
-        { "tipe": "paragraph", "text": "------------------------ (-)" },
-        { "tipe": "paragraph", "text": "$-5b = -10 \\Rightarrow b = 2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan nilai $b = 2$ ke dalam Persamaan 1:" },
-        { "tipe": "paragraph", "text": "$a + 2(2) = 7 \\Rightarrow a + 4 = 7 \\Rightarrow a = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertamanya adalah $3$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun sistem persamaan linear dalam $a$ dan $b$ dari $S_5 = 35$ dan $S_{10} = 120$**" },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{5}{2}(2a + 4b) = 35 \\Rightarrow 2a + 4b = 14 \\Rightarrow a + 2b = 7" },
+        { "tipe": "formula_block", "latex": "S_{10} = \\dfrac{10}{2}(2a + 9b) = 120 \\Rightarrow 2a + 9b = 24" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi $a$ untuk mencari nilai $b$, lalu substitusikan untuk memperoleh $a$**" },
+        { "tipe": "formula_block", "latex": "(2a + 9b) - 2(a + 2b) = 24 - 14 \\Rightarrow 5b = 10 \\Rightarrow b = 2" },
+        { "tipe": "formula_block", "latex": "a + 2(2) = 7 \\Rightarrow a = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama deret aritmatika tersebut adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -200,10 +199,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$ dengan $S_\\infty = 12$ dan $a = 3$." },
-        { "tipe": "paragraph", "text": "$12 = \\dfrac{3}{1 - r} \\Rightarrow 1 - r = \\dfrac{3}{12} = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan persamaan untuk mencari rasio ($r$): $r = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$." },
-        { "tipe": "paragraph", "text": "Jadi, rasio deret tersebut adalah $\\dfrac{3}{4}$ (pilihan keempat)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $S_\\infty = 12$ dan $a = 3$ ke rumus jumlah deret geometri tak hingga**" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{a}{1 - r} \\Rightarrow 12 = \\dfrac{3}{1 - r} \\Rightarrow 1 - r = \\dfrac{3}{12} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "r = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rasio deret geometri tak hingga tersebut adalah **$\\dfrac{3}{4}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -221,12 +221,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis barisan bilangan: $3, 6, 11, 18, 27, \\ldots$ Selisih antar-suku berturut-turut adalah $3, 5, 7, 9, \\ldots$ (membentuk barisan aritmatika dengan beda tetap $2$, yang menunjukkan barisan kuadrat)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Uji pilihan rumus suku ke-$n$ ($U_n = n^2 + 2$):" },
-        { "tipe": "paragraph", "text": "- Untuk $n = 1$: $1^2 + 2 = 3$ (sesuai)" },
-        { "tipe": "paragraph", "text": "- Untuk $n = 2$: $2^2 + 2 = 6$ (sesuai)" },
-        { "tipe": "paragraph", "text": "- Untuk $n = 3$: $3^2 + 2 = 11$ (sesuai)" },
-        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = n^2 + 2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis selisih bertingkat untuk menentukan bentuk rumus kuadrat suku ke-$n$**" },
+        { "tipe": "paragraph", "text": "Selisih tingkat pertama adalah $3, 5, 7, 9, \\ldots$ dengan beda tetap $2$, sehingga suku ke-$n$ memenuhi:" },
+        { "tipe": "formula_block", "latex": "U_n = n^2 + 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji rumus untuk beberapa suku awal barisan**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1^2 + 2 = 3, \\qquad U_2 = 2^2 + 2 = 6, \\qquad U_3 = 3^2 + 2 = 11" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus suku ke-$n$ barisan tersebut adalah **$U_n = n^2 + 2$**." }
       ],
       "tingkat": "SULIT"
     }
