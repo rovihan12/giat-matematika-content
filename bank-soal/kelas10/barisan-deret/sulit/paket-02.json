@@ -21,11 +21,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis selisih antar-suku bertingkat: selisih pertamanya adalah $4, 6, 8, 10, \\ldots$ (membentuk barisan aritmatika dengan beda tetap $2$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan rumus umum suku ke-$n$ ($U_n$), yaitu $U_n = n^2 + n - 1$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung suku ke-12 ($U_{12}$) dengan mensubstitusikan $n = 12$:" },
-        { "tipe": "paragraph", "text": "$U_{12} = 12^2 + 12 - 1 = 144 + 12 - 1 = 155$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-12 adalah $155$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis selisih bertingkat barisan untuk menentukan rumus suku ke-$n$**" },
+        { "tipe": "paragraph", "text": "Selisih tingkat pertama adalah $4, 6, 8, 10, \\ldots$ dan selisih tingkat kedua tetap yaitu $2$, sehingga suku ke-$n$ berbentuk kuadrat:" },
+        { "tipe": "formula_block", "latex": "U_n = n^2 + n - 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 12$ untuk memperoleh suku ke-12**" },
+        { "tipe": "formula_block", "latex": "U_{12} = 12^2 + 12 - 1 = 144 + 12 - 1 = 155" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-12 dari barisan tersebut adalah **$155$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -43,11 +44,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_3 = a \\cdot r^2 = 2$ dengan suku pertama $a = 8$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari nilai rasio ($r$): $8r^2 = 2 \\Rightarrow r^2 = \\dfrac{2}{8} = \\dfrac{1}{4} \\Rightarrow r = \\dfrac{1}{2}$ (karena rasio bernilai positif)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$:" },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{8}{1 - \\dfrac{1}{2}} = \\dfrac{8}{\\dfrac{1}{2}} = 8 \\times 2 = 16$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah tak hingga deret tersebut adalah $16$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio positif ($r$) dari $U_1 = a = 8$ dan $U_3 = a \\cdot r^2 = 2$**" },
+        { "tipe": "formula_block", "latex": "8r^2 = 2 \\Rightarrow r^2 = \\dfrac{2}{8} = \\dfrac{1}{4} \\Rightarrow r = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah tak hingga menggunakan rumus $S_\\infty = \\dfrac{a}{1 - r}$**" },
+        { "tipe": "formula_block", "latex": "S_\\infty = \\dfrac{8}{1 - \\dfrac{1}{2}} = \\dfrac{8}{\\dfrac{1}{2}} = 8 \\times 2 = 16" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah tak hingga deret geometri tersebut adalah **$16$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -65,10 +66,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis pola barisan bertingkat: selisih antar-suku adalah $5, 7, 9, 11, \\ldots$ (beda tetap 2), sehingga diperoleh rumus suku ke-$n$ yaitu $U_n = n^2 + 2n$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung suku ke-15 ($U_{15}$) dengan mensubstitusikan $n = 15$:" },
-        { "tipe": "paragraph", "text": "$U_{15} = 15^2 + 2(15) = 225 + 30 = 255$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-15 adalah $255$ (pilihan keempat)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus suku ke-$n$ dari pola barisan bertingkat**" },
+        { "tipe": "paragraph", "text": "Selisih tingkat pertama adalah $5, 7, 9, 11, \\ldots$ dengan beda tetap $2$, sehingga diperoleh:" },
+        { "tipe": "formula_block", "latex": "U_n = n^2 + 2n" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 15$ untuk menghitung suku ke-15**" },
+        { "tipe": "formula_block", "latex": "U_{15} = 15^2 + 2(15) = 225 + 30 = 255" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-15 dari barisan tersebut adalah **$255$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -86,11 +89,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat tiga suku berurutan pada barisan aritmatika: $2 \\cdot \\dfrac{1}{b} = \\dfrac{1}{a} + \\dfrac{1}{c}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $a = 2$ dan $c = 6$:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{2}{b} = \\dfrac{1}{2} + \\dfrac{1}{6} = \\dfrac{3}{6} + \\dfrac{1}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan untuk mencari $b$: $2b = 6 \\Rightarrow b = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $b$ adalah $3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat barisan aritmatika pada tiga suku berurutan**" },
+        { "tipe": "formula_block", "latex": "2 \\cdot \\dfrac{1}{b} = \\dfrac{1}{a} + \\dfrac{1}{c}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 2$ dan $c = 6$ lalu selesaikan untuk $b$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{b} = \\dfrac{1}{2} + \\dfrac{1}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}" },
+        { "tipe": "formula_block", "latex": "2b = 6 \\Rightarrow b = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $b$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -108,12 +112,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$) dan beda ($b = 3$) dari deret aritmatika tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b) = 145$:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{n}{2}(2(1) + (n-1)3) = 145 \\Rightarrow \\dfrac{n(2 + 3n - 3)}{2} = 145 \\Rightarrow \\dfrac{n(3n - 1)}{2} = 145$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Bentuk persamaan kuadrat: $n(3n - 1) = 290 \\Rightarrow 3n^2 - n - 290 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Uji nilai $n = 10$: $3(10)^2 - 10 = 300 - 10 = 290$ (terbukti benar)." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $n$ adalah $10$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi $a = 1$ dan $b = 3$, lalu susun persamaan dari $S_n = 145$**" },
+        { "tipe": "formula_block", "latex": "S_n = \\dfrac{n}{2}\\big(2(1) + (n - 1) \\cdot 3\\big) = 145" },
+        { "tipe": "formula_block", "latex": "\\dfrac{n(3n - 1)}{2} = 145 \\Rightarrow 3n^2 - n - 290 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan atau uji nilai $n$ bilangan asli yang memenuhi**" },
+        { "tipe": "formula_block", "latex": "(n - 10)(3n + 29) = 0 \\Rightarrow n = 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $n$ adalah **$10$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -131,10 +135,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_3 = a \\cdot r^2 = 8$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai rasio $r = 2$ ke dalam persamaan:" },
-        { "tipe": "paragraph", "text": "$a \\cdot 2^2 = 8 \\Rightarrow 4a = 8 \\Rightarrow a = \\dfrac{8}{4} = 2$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus suku ke-$3$ barisan geometri ($U_3 = a \\cdot r^2 = 8$)**" },
+        { "tipe": "formula_block", "latex": "a \\cdot r^2 = 8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $r = 2$ untuk menghitung suku pertama ($a$)**" },
+        { "tipe": "formula_block", "latex": "a \\cdot 2^2 = 8 \\Rightarrow 4a = 8 \\Rightarrow a = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama barisan geometri tersebut adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -152,10 +157,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah kuadrat bilangan asli $\\sum_{k=1}^n k^2 = \\dfrac{n(n+1)(2n+1)}{6}$ dengan $n = 10$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 10$:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{10(10 + 1)(2(10) + 1)}{6} = \\dfrac{10 \\cdot 11 \\cdot 21}{6} = \\dfrac{2310}{6} = 385$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $385$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jumlah kuadrat $n$ bilangan asli pertama**" },
+        { "tipe": "formula_block", "latex": "\\sum_{k=1}^{n} k^2 = \\dfrac{n(n + 1)(2n + 1)}{6}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 10$ dan hitung hasilnya**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{10(10 + 1)(2 \\cdot 10 + 1)}{6} = \\dfrac{10 \\cdot 11 \\cdot 21}{6} = \\dfrac{2310}{6} = 385" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$385$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -173,10 +179,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis selisih antar-suku bertingkat: $6, 8, 10, 12, \\ldots$ (aritmatika dengan beda tetap $2$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan rumus umum suku ke-$n$ ($U_n$), yaitu $U_n = n^2 + 3n + 1$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Uji kebenaran rumus untuk suku pertama dan kedua: $n=1 \\rightarrow 1^2 + 3(1) + 1 = 5$ (sesuai $U_1$), dan $n=2 \\rightarrow 2^2 + 3(2) + 1 = 11$ (sesuai $U_2$)." },
-        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = n^2 + 3n + 1$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis pola selisih bertingkat dari barisan**" },
+        { "tipe": "paragraph", "text": "Selisih tingkat pertama adalah $6, 8, 10, 12, \\ldots$ dengan beda tetap $2$, sehingga suku ke-$n$ berbentuk:" },
+        { "tipe": "formula_block", "latex": "U_n = n^2 + 3n + 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Verifikasi rumus untuk $n = 1$ dan $n = 2$**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1^2 + 3(1) + 1 = 5, \\qquad U_2 = 2^2 + 3(2) + 1 = 11" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus suku ke-$n$ barisan tersebut adalah **$U_n = n^2 + 3n + 1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -194,11 +202,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat barisan aritmatika untuk tiga suku logaritma: $2 \\log(x+1) = \\log 2 + \\log(x+5)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan menggunakan sifat logaritma: $\\log((x+1)^2) = \\log(2(x+5))$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hilangkan tanda logaritma pada kedua ruas: $(x+1)^2 = 2(x+5) \\Rightarrow x^2 + 2x + 1 = 2x + 10$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Selesaikan persamaan kuadrat: $x^2 = 9 \\Rightarrow x = 3$ atau $x = -3$. Karena syarat numerus logaritma ($x+1 > 0$ dan $x+5 > 0$), maka nilai yang memenuhi adalah $x = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ adalah $3$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat barisan aritmatika pada tiga suku berurutan**" },
+        { "tipe": "formula_block", "latex": "2 \\log(x + 1) = \\log 2 + \\log(x + 5)" },
+        { "tipe": "formula_block", "latex": "\\log(x + 1)^2 = \\log\\big(2(x + 5)\\big)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan numerus dan selesaikan persamaan kuadratnya**" },
+        { "tipe": "formula_block", "latex": "(x + 1)^2 = 2(x + 5) \\Rightarrow x^2 + 2x + 1 = 2x + 10 \\Rightarrow x^2 = 9" },
+        { "tipe": "formula_block", "latex": "x = 3 \\quad \\text{atau} \\quad x = -3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji syarat numerus ($x + 1 > 0$ dan $x + 5 > 0$)**" },
+        { "tipe": "paragraph", "text": "Untuk $x = -3$, numerus $x + 1 = -2$ tidak memenuhi syarat positif, sehingga nilai yang memenuhi adalah $x = 3$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -216,11 +228,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kenali bentuk deret aritmatika-geometri tak hingga: $\\sum_{n=1}^{\\infty} \\dfrac{n}{2^n} = \\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{2}\\right)^n$ dengan $r = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika-geometri tak hingga $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1-r)^2}$ untuk $|r| < 1$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Substitusikan $r = \\dfrac{1}{2}$:" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{\\dfrac{1}{2}}{\\left(1 - \\dfrac{1}{2}\\right)^2} = \\dfrac{\\dfrac{1}{2}}{\\left(\\dfrac{1}{2}\\right)^2} = \\dfrac{\\dfrac{1}{2}}{\\dfrac{1}{4}} = \\dfrac{1}{2} \\times 4 = 2$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tak hingga tersebut adalah $2$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan deret sebagai deret aritmatika-geometri tak hingga dengan $r = \\dfrac{1}{2}$**" },
+        { "tipe": "formula_block", "latex": "\\sum_{n=1}^{\\infty} \\dfrac{n}{2^n} = \\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{2}\\right)^n" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1 - r)^2}$ untuk $|r| < 1$**" },
+        { "tipe": "formula_block", "latex": "\\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{2}\\right)^n = \\dfrac{\\dfrac{1}{2}}{\\left(1 - \\dfrac{1}{2}\\right)^2} = \\dfrac{\\dfrac{1}{2}}{\\dfrac{1}{4}} = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tak hingga tersebut adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     }
