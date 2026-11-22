@@ -21,10 +21,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis selisih antar-suku bertingkat: $3, 5, 7, 9, \\ldots$ (aritmatika dengan beda tetap $2$). Pola ini menunjukkan rumus umum suku ke-$n$ berbentuk kuadrat, yaitu $U_n = n^2 + 3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung suku ke-12 ($U_{12}$) dengan mensubstitusikan $n = 12$:" },
-        { "tipe": "paragraph", "text": "$U_{12} = 12^2 + 3 = 144 + 3 = 147$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-12 adalah $147$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis selisih bertingkat untuk menentukan rumus umum suku ke-$n$**" },
+        { "tipe": "paragraph", "text": "Selisih tingkat pertama adalah $3, 5, 7, 9, \\ldots$ dengan beda tetap $2$, sehingga suku ke-$n$ berbentuk:" },
+        { "tipe": "formula_block", "latex": "U_n = n^2 + 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 12$ untuk menghitung suku ke-12**" },
+        { "tipe": "formula_block", "latex": "U_{12} = 12^2 + 3 = 144 + 3 = 147" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-12 dari barisan tersebut adalah **$147$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,10 +44,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus rekursif untuk mencari nilai $x_3$ dan $x_4$ secara bertahap. Untuk $n = 3$: $x_3 = 3(5) - 2(2) = 15 - 4 = 11$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Untuk $n = 4$: $x_4 = 3(11) - 2(5) = 33 - 10 = 23$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Untuk $n = 5$: $x_5 = 3(23) - 2(11) = 69 - 22 = 47$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x_5$ adalah $47$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus rekursif $x_n = 3x_{n-1} - 2x_{n-2}$ untuk mencari $x_3$ dan $x_4$**" },
+        { "tipe": "formula_block", "latex": "x_3 = 3x_2 - 2x_1 = 3(5) - 2(2) = 15 - 4 = 11" },
+        { "tipe": "formula_block", "latex": "x_4 = 3x_3 - 2x_2 = 3(11) - 2(5) = 33 - 10 = 23" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x_5$ dari $x_4$ dan $x_3$**" },
+        { "tipe": "formula_block", "latex": "x_5 = 3x_4 - 2x_3 = 3(23) - 2(11) = 69 - 22 = 47" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_5$ adalah **$47$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -63,10 +67,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Uraikan bentuk pecahan parsial dari suku umum deret: $\\dfrac{1}{(2k-1)(2k+1)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k-1} - \\dfrac{1}{2k+1}\\right)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tuliskan penjabaran deret dengan sifat telescoping dari $k=1$ sampai $k=10$ ($21 = 2(10)+1$), di mana suku-suku tengah saling menghilangkan." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung hasil akhirnya: $S = \\dfrac{1}{2}\\left(1 - \\dfrac{1}{21}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{20}{21} = \\dfrac{10}{21}$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{10}{21}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Uraikan suku umum deret menjadi pecahan parsial teleskopik**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{(2k - 1)(2k + 1)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k - 1} - \\dfrac{1}{2k + 1}\\right)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan dari $k = 1$ hingga $k = 10$ dan sederhanakan suku-suku tengahnya**" },
+        { "tipe": "formula_block", "latex": "S = \\dfrac{1}{2}\\left(1 - \\dfrac{1}{3} + \\dfrac{1}{3} - \\dfrac{1}{5} + \\ldots + \\dfrac{1}{19} - \\dfrac{1}{21}\\right) = \\dfrac{1}{2}\\left(1 - \\dfrac{1}{21}\\right)" },
+        { "tipe": "formula_block", "latex": "S = \\dfrac{1}{2} \\cdot \\dfrac{20}{21} = \\dfrac{10}{21}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$\\dfrac{10}{21}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -84,10 +90,14 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan tiga bilangan tersebut adalah $\\dfrac{a}{r}, a, ar$. Dari hasil kali $= a^3 = 343$, didapatkan nilai $a = 7$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan informasi jumlah $= \\dfrac{7}{r} + 7 + 7r = 57 \\Rightarrow \\dfrac{7}{r} + 7r = 50 \\Rightarrow 7r^2 - 50r + 7 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat: $(7r - 1)(r - 7) = 0 \\Rightarrow r = 7$ atau $r = \\dfrac{1}{7}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Ketiga bilangan tersebut adalah $1, 7, 49$, sehingga bilangan terbesarnya adalah $49$ (pilihan kelima)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan tiga bilangan geometri adalah $\\dfrac{a}{r}, a, ar$ dan cari $a$ dari hasil kalinya**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{a}{r} \\cdot a \\cdot ar = 343 \\Rightarrow a^3 = 343 \\Rightarrow a = 7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan jumlah ketiga bilangan ($57$) untuk menentukan rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{7}{r} + 7 + 7r = 57 \\Rightarrow \\dfrac{7}{r} + 7r = 50 \\Rightarrow 7r^2 - 50r + 7 = 0" },
+        { "tipe": "formula_block", "latex": "(7r - 1)(r - 7) = 0 \\Rightarrow r = 7 \\quad \\text{atau} \\quad r = \\dfrac{1}{7}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan ketiga bilangan dan ambil nilai terbesarnya**" },
+        { "tipe": "formula_block", "latex": "\\text{Barisan bilangan: } 1, 7, 49 \\Rightarrow \\text{bilangan terbesar} = 49" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan terbesarnya adalah **$49$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -105,10 +115,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku dan suku ke-$n$, yaitu $U_n = S_n - S_{n-1}$, sehingga untuk $n = 4$ berlaku $U_4 = S_4 - S_3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai $S_4$: $S_4 = 2(4)^3 - 3(4)^2 + 4(4) = 128 - 48 + 16 = 96$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai $S_3$: $S_3 = 2(3)^3 - 3(3)^2 + 4(3) = 54 - 27 + 12 = 39$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Hitung $U_4 = S_4 - S_3 = 96 - 39 = 57$. Jadi, suku ke-4 adalah $57$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan $U_n = S_n - S_{n - 1}$ untuk $n = 4$**" },
+        { "tipe": "formula_block", "latex": "U_4 = S_4 - S_3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $S_4$ dan $S_3$**" },
+        { "tipe": "formula_block", "latex": "S_4 = 2(4)^3 - 3(4)^2 + 4(4) = 128 - 48 + 16 = 96" },
+        { "tipe": "formula_block", "latex": "S_3 = 2(3)^3 - 3(3)^2 + 4(3) = 54 - 27 + 12 = 39" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kurangkan $S_4$ dengan $S_3$ untuk memperoleh $U_4$**" },
+        { "tipe": "formula_block", "latex": "U_4 = 96 - 39 = 57" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-4 deret tersebut adalah **$57$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,10 +140,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk deret sebagai *Arithmetico-Geometric Progression* (AGP): $S = \\sum_{n=1}^{\\infty} \\dfrac{2n-1}{2^n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Pecah deret menjadi dua bagian bentuk standar: $S = 2 \\sum_{n=1}^{\\infty} \\dfrac{n}{2^n} - \\sum_{n=1}^{\\infty} \\dfrac{1}{2^n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai masing-masing deret ($\\sum \\dfrac{n}{2^n} = 2$ dan $\\sum \\dfrac{1}{2^n} = 1$), sehingga $S = 2(2) - 1 = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah tak hingga deret tersebut adalah $3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan deret dalam notasi sigma dan pecah menjadi deret standar**" },
+        { "tipe": "formula_block", "latex": "S = \\sum_{n=1}^{\\infty} \\dfrac{2n - 1}{2^n} = 2 \\sum_{n=1}^{\\infty} \\dfrac{n}{2^n} - \\sum_{n=1}^{\\infty} \\dfrac{1}{2^n}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai masing-masing deret tak hingga**" },
+        { "tipe": "formula_block", "latex": "\\sum_{n=1}^{\\infty} \\dfrac{n}{2^n} = \\dfrac{\\dfrac{1}{2}}{\\left(1 - \\dfrac{1}{2}\\right)^2} = 2, \\qquad \\sum_{n=1}^{\\infty} \\dfrac{1}{2^n} = \\dfrac{\\dfrac{1}{2}}{1 - \\dfrac{1}{2}} = 1" },
+        { "tipe": "formula_block", "latex": "S = 2(2) - 1 = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tak hingga tersebut adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -147,10 +163,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat barisan aritmatika untuk tiga suku logaritma: $2\\log(2^x - 2) = \\log 2 + \\log(2^x + 10)$ atau $(2^x - 2)^2 = 2(2^x + 10)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Misalkan $t = 2^x$, lalu substitusikan ke dalam persamaan: $t^2 - 4t + 4 = 2t + 20 \\Rightarrow t^2 - 6t - 16 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Faktorkan persamaan kuadrat: $(t - 8)(t + 2) = 0$, sehingga diperoleh $t = 8$ (karena syarat $t = 2^x > 0$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Kembalikan ke variabel $x$: $2^x = 8 \\Rightarrow x = 3$. Jadi, nilai $x$ adalah $3$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat barisan aritmatika pada tiga suku logaritma**" },
+        { "tipe": "formula_block", "latex": "2 \\log(2^x - 2) = \\log 2 + \\log(2^x + 10) \\Rightarrow (2^x - 2)^2 = 2(2^x + 10)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $t = 2^x$ dan selesaikan persamaan kuadratnya**" },
+        { "tipe": "formula_block", "latex": "(t - 2)^2 = 2(t + 10) \\Rightarrow t^2 - 4t + 4 = 2t + 20 \\Rightarrow t^2 - 6t - 16 = 0" },
+        { "tipe": "formula_block", "latex": "(t - 8)(t + 2) = 0 \\Rightarrow t = 8 \\quad (\\text{karena } t = 2^x > 0)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan ke variabel $x$ untuk memperoleh penyelesaiannya**" },
+        { "tipe": "formula_block", "latex": "2^x = 8 = 2^3 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -168,10 +188,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku dan suku ke-$n$, yaitu $U_n = S_n - S_{n-1}$, sehingga untuk $n = 5$ berlaku $U_5 = S_5 - S_4$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung nilai $S_5 = 3^5 - 1 = 243 - 1 = 242$ dan $S_4 = 3^4 - 1 = 81 - 1 = 80$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung $U_5 = 242 - 80 = 162$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $162$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan $U_5 = S_5 - S_4$**" },
+        { "tipe": "formula_block", "latex": "U_5 = S_5 - S_4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $S_5$ dan $S_4$ lalu kurangkan**" },
+        { "tipe": "formula_block", "latex": "S_5 = 3^5 - 1 = 243 - 1 = 242, \\qquad S_4 = 3^4 - 1 = 81 - 1 = 80" },
+        { "tipe": "formula_block", "latex": "U_5 = 242 - 80 = 162" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-5 deret tersebut adalah **$162$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -189,10 +211,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan akar-akar persamaan kubik tersebut adalah $a-b, a, a+b$ (membentuk barisan aritmatika dengan beda $b$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan sifat Vieta untuk jumlah akar-akar: $(a-b) + a + (a+b) = 3a = 12 \\Rightarrow a = 4$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan sifat Vieta untuk hasil kali akar-akar: $(a-b)a(a+b) = a(a^2 - b^2) = 4(16 - b^2) = 28 \\Rightarrow 16 - b^2 = 7 \\Rightarrow b^2 = 9 \\Rightarrow b = \\pm 3$." },
-        { "tipe": "paragraph", "text": "Jadi, beda barisan tersebut adalah $-3$ atau $3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan tiga akar persamaan kubik sebagai $a - b, a, a + b$ dan gunakan jumlah akarnya**" },
+        { "tipe": "formula_block", "latex": "(a - b) + a + (a + b) = 3a = 12 \\Rightarrow a = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan hasil kali ketiga akarnya untuk mencari nilai beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "(a - b)a(a + b) = a(a^2 - b^2) = 28" },
+        { "tipe": "formula_block", "latex": "4(4^2 - b^2) = 28 \\Rightarrow 16 - b^2 = 7 \\Rightarrow b^2 = 9 \\Rightarrow b = \\pm 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, beda barisan aritmatika tersebut adalah **$-3$ atau $3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -210,10 +234,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Rasasionalkan penyebut setiap suku dengan mengalikannya dengan sekawan: $\\dfrac{1}{\\sqrt{k} + \\sqrt{k+1}} = \\sqrt{k+1} - \\sqrt{k}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan penjumlahan deret telescoping tersebut: $(\\sqrt{2} - \\sqrt{1}) + (\\sqrt{3} - \\sqrt{2}) + \\ldots + (\\sqrt{100} - \\sqrt{99})$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Suku-suku di tengah saling menghilangkan, menyisakan $-\\sqrt{1} + \\sqrt{100} = -1 + 10 = 9$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $9$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Rasionalkan penyebut setiap suku dengan bentuk sekawannya**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{\\sqrt{k} + \\sqrt{k + 1}} = \\dfrac{\\sqrt{k + 1} - \\sqrt{k}}{(k + 1) - k} = \\sqrt{k + 1} - \\sqrt{k}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan secara teleskopik dari $k = 1$ sampai $k = 99$**" },
+        { "tipe": "formula_block", "latex": "\\sum_{k=1}^{99} (\\sqrt{k + 1} - \\sqrt{k}) = (\\sqrt{2} - \\sqrt{1}) + (\\sqrt{3} - \\sqrt{2}) + \\ldots + (\\sqrt{100} - \\sqrt{99})" },
+        { "tipe": "formula_block", "latex": "\\sqrt{100} - \\sqrt{1} = 10 - 1 = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai deret tersebut adalah **$9$**." }
       ],
       "tingkat": "SULIT"
     }
