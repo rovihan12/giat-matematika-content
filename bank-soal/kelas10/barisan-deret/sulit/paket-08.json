@@ -21,10 +21,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis selisih antar-suku bertingkat: $3, 5, 7, 9, \\ldots$ (aritmatika dengan beda tetap $2$). Pola ini menunjukkan rumus umum suku ke-$n$ berbentuk kuadrat, yaitu $U_n = n^2 + 5$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung suku ke-13 ($U_{13}$) dengan mensubstitusikan $n = 13$:" },
-        { "tipe": "paragraph", "text": "$U_{13} = 13^2 + 5 = 169 + 5 = 174$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-13 adalah $174$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis selisih bertingkat untuk menentukan rumus umum suku ke-$n$**" },
+        { "tipe": "paragraph", "text": "Selisih tingkat pertama adalah $3, 5, 7, 9, \\ldots$ dengan beda tetap $2$, sehingga suku ke-$n$ berbentuk:" },
+        { "tipe": "formula_block", "latex": "U_n = n^2 + 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $n = 13$ untuk menghitung suku ke-13**" },
+        { "tipe": "formula_block", "latex": "U_{13} = 13^2 + 5 = 169 + 5 = 174" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-13 dari barisan tersebut adalah **$174$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,11 +44,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus rekurensi secara bertahap mulai dari $n = 3$ hingga $n = 5$:" },
-        { "tipe": "paragraph", "text": "$z_3 = 3(7) - 2(3) = 21 - 6 = 15$." },
-        { "tipe": "paragraph", "text": "$z_4 = 3(15) - 2(7) = 45 - 14 = 31$." },
-        { "tipe": "paragraph", "text": "$z_5 = 3(31) - 2(15) = 93 - 30 = 63$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $z_5$ adalah $63$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan rumus rekurensi $z_n = 3z_{n - 1} - 2z_{n - 2}$ untuk mencari $z_3$ dan $z_4$**" },
+        { "tipe": "formula_block", "latex": "z_3 = 3z_2 - 2z_1 = 3(7) - 2(3) = 21 - 6 = 15" },
+        { "tipe": "formula_block", "latex": "z_4 = 3z_3 - 2z_2 = 3(15) - 2(7) = 45 - 14 = 31" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $z_5$ dari $z_4$ dan $z_3$**" },
+        { "tipe": "formula_block", "latex": "z_5 = 3z_4 - 2z_3 = 3(31) - 2(15) = 93 - 30 = 63" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $z_5$ adalah **$63$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -64,12 +67,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk umum suku ke-$k$ menggunakan pecahan parsial: $\\dfrac{1}{(2k+1)(2k+3)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k+1} - \\dfrac{1}{2k+3}\\right)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan bentuk telescoping dari $k=1$ sampai $k=10$:" },
-        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2} \\left( \\dfrac{1}{3} - \\dfrac{1}{5} + \\dfrac{1}{5} - \\dfrac{1}{7} + \\dots - \\dfrac{1}{23} \\right)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Suku-suku di tengah saling menghilangkan, menyisakan suku pertama dan terakhir:" },
-        { "tipe": "paragraph", "text": "$S = \\dfrac{1}{2}\\left(\\dfrac{1}{3} - \\dfrac{1}{23}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{20}{69} = \\dfrac{10}{69}$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{10}{69}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Uraikan suku umum deret menjadi pecahan parsial teleskopik**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{(2k + 1)(2k + 3)} = \\dfrac{1}{2}\\left(\\dfrac{1}{2k + 1} - \\dfrac{1}{2k + 3}\\right)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan dari $k = 1$ hingga $k = 10$ dan sederhanakan suku-suku tengahnya**" },
+        { "tipe": "formula_block", "latex": "S = \\dfrac{1}{2}\\left(\\dfrac{1}{3} - \\dfrac{1}{5} + \\dfrac{1}{5} - \\dfrac{1}{7} + \\ldots + \\dfrac{1}{21} - \\dfrac{1}{23}\\right) = \\dfrac{1}{2}\\left(\\dfrac{1}{3} - \\dfrac{1}{23}\\right)" },
+        { "tipe": "formula_block", "latex": "S = \\dfrac{1}{2} \\cdot \\dfrac{20}{69} = \\dfrac{10}{69}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$\\dfrac{10}{69}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -87,13 +90,14 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan tiga bilangan geometri tersebut adalah $\\dfrac{a}{r}, a, ar$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan informasi hasil kali $= a^3 = 729 \\Rightarrow a = 9$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan informasi jumlah:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{9}{r} + 9 + 9r = 39 \\Rightarrow \\dfrac{9}{r} + 9r = 30$." },
-        { "tipe": "paragraph", "text": "Kalikan $r$ dan sederhanakan menjadi: $9r^2 - 30r + 9 = 0 \\Rightarrow 3r^2 - 10r + 3 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan persamaan: $(3r-1)(r-3) = 0 \\Rightarrow r = 3$ atau $r = \\dfrac{1}{3}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Jika $a = 9$ dan $r = 3$, maka bilangan tersebut adalah $3, 9, 27$, sehingga bilangan terbesarnya adalah $27$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan tiga bilangan geometri adalah $\\dfrac{a}{r}, a, ar$ dan cari $a$ dari hasil kalinya**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{a}{r} \\cdot a \\cdot ar = 729 \\Rightarrow a^3 = 729 \\Rightarrow a = 9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan jumlah ketiga bilangan ($39$) untuk menentukan rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{9}{r} + 9 + 9r = 39 \\Rightarrow \\dfrac{9}{r} + 9r = 30 \\Rightarrow 9r^2 - 30r + 9 = 0 \\Rightarrow 3r^2 - 10r + 3 = 0" },
+        { "tipe": "formula_block", "latex": "(3r - 1)(r - 3) = 0 \\Rightarrow r = 3 \\quad \\text{atau} \\quad r = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan ketiga bilangan dan ambil nilai terbesarnya**" },
+        { "tipe": "formula_block", "latex": "\\text{Barisan bilangan: } 3, 9, 27 \\Rightarrow \\text{bilangan terbesar} = 27" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan terbesarnya adalah **$27$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -111,13 +115,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku dan suku ke-$n$ ($U_n = S_n - S_{n-1}$).হরণ" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung $S_4$ dan $S_3$:" },
-        { "tipe": "paragraph", "text": "$S_4 = 3(4)^3 - 2(4)^2 + 4 = 192 - 32 + 4 = 164$." },
-        { "tipe": "paragraph", "text": "$S_3 = 3(3)^3 - 2(3)^2 + 3 = 81 - 18 + 3 = 66$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tentukan suku ke-4 ($U_4$):" },
-        { "tipe": "paragraph", "text": "$U_4 = S_4 - S_3 = 164 - 66 = 98$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-4 adalah $98$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan $U_n = S_n - S_{n - 1}$ untuk $n = 4$**" },
+        { "tipe": "formula_block", "latex": "U_4 = S_4 - S_3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $S_4$ dan $S_3$**" },
+        { "tipe": "formula_block", "latex": "S_4 = 3(4)^3 - 2(4)^2 + 4 = 192 - 32 + 4 = 164" },
+        { "tipe": "formula_block", "latex": "S_3 = 3(3)^3 - 2(3)^2 + 3 = 81 - 18 + 3 = 66" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kurangkan $S_4$ dengan $S_3$ untuk memperoleh $U_4$**" },
+        { "tipe": "formula_block", "latex": "U_4 = 164 - 66 = 98" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-4 deret tersebut adalah **$98$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -135,11 +140,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk AGP: $S = \\sum_{n=1}^{\\infty} \\dfrac{3n}{4^n} = 3 \\sum_{n=1}^{\\infty} \\dfrac{n}{4^n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus deret $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1-r)^2}$ dengan $r = \\dfrac{1}{4}$:" },
-        { "tipe": "paragraph", "text": "$\\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{4}\\right)^n = \\dfrac{\\dfrac{1}{4}}{\\left(1 - \\dfrac{1}{4}\\right)^2} = \\dfrac{\\dfrac{1}{4}}{\\dfrac{9}{16}} = \\dfrac{4}{9}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung nilai total $S = 3 \\cdot \\dfrac{4}{9} = \\dfrac{4}{3}$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $\\dfrac{4}{3}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan deret sebagai deret aritmatika-geometri tak hingga dengan $r = \\dfrac{1}{4}$**" },
+        { "tipe": "formula_block", "latex": "S = \\sum_{n=1}^{\\infty} \\dfrac{3n}{4^n} = 3 \\sum_{n=1}^{\\infty} n \\left(\\dfrac{1}{4}\\right)^n" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus $\\sum_{n=1}^{\\infty} n r^n = \\dfrac{r}{(1 - r)^2}$ dan hitung hasilnya**" },
+        { "tipe": "formula_block", "latex": "S = 3 \\cdot \\dfrac{\\dfrac{1}{4}}{\\left(1 - \\dfrac{1}{4}\\right)^2} = 3 \\cdot \\dfrac{\\dfrac{1}{4}}{\\dfrac{9}{16}} = 3 \\cdot \\dfrac{4}{9} = \\dfrac{4}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tak hingga tersebut adalah **$\\dfrac{4}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -157,12 +162,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan sifat tengah barisan aritmatika: $2\\log(2^x + 2) = \\log 2 + \\log(2^x + 14)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Sederhanakan menjadi: $(2^x + 2)^2 = 2(2^x + 14)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Misalkan $t = 2^x$, sehingga diperoleh: $t^2 + 4t + 4 = 2t + 28 \\Rightarrow t^2 + 2t - 24 = 0$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Faktorkan: $(t + 6)(t - 4) = 0 \\Rightarrow t = 4$ (karena $t = 2^x > 0$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 5:</strong> Selesaikan $2^x = 4 \\Rightarrow x = 2$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $x$ adalah $2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat barisan aritmatika pada tiga suku logaritma**" },
+        { "tipe": "formula_block", "latex": "2 \\log(2^x + 2) = \\log 2 + \\log(2^x + 14) \\Rightarrow (2^x + 2)^2 = 2(2^x + 14)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Misalkan $t = 2^x$ dan selesaikan persamaan kuadratnya**" },
+        { "tipe": "formula_block", "latex": "(t + 2)^2 = 2(t + 14) \\Rightarrow t^2 + 4t + 4 = 2t + 28 \\Rightarrow t^2 + 2t - 24 = 0" },
+        { "tipe": "formula_block", "latex": "(t + 6)(t - 4) = 0 \\Rightarrow t = 4 \\quad (\\text{karena } t = 2^x > 0)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan ke variabel $x$ untuk memperoleh penyelesaiannya**" },
+        { "tipe": "formula_block", "latex": "2^x = 4 = 2^2 \\Rightarrow x = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -180,12 +187,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan $a = 4$ dan $r = 3$ dari deret tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri:" },
-        { "tipe": "paragraph", "text": "$S_n = \\dfrac{4(3^n - 1)}{3 - 1} = 2(3^n - 1) = 4372$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Selesaikan persamaan eksponensial:" },
-        { "tipe": "paragraph", "text": "$3^n - 1 = 2186 \\Rightarrow 3^n = 2187 = 3^7 \\Rightarrow n = 7$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $n$ adalah $7$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi $a = 4$ dan $r = 3$, lalu susun persamaan dari $S_n = 4372$**" },
+        { "tipe": "formula_block", "latex": "S_n = \\dfrac{4(3^n - 1)}{3 - 1} = 4372 \\Rightarrow 2(3^n - 1) = 4372" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan eksponensial untuk mencari nilai $n$**" },
+        { "tipe": "formula_block", "latex": "3^n - 1 = 2186 \\Rightarrow 3^n = 2187 = 3^7 \\Rightarrow n = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $n$ adalah **$7$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -203,11 +209,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus total lintasan bola jatuh dan memantul: $\\text{Total} = h + 2 \\cdot \\dfrac{ar}{1 - r}$ dengan $h = 15$ dan $r = \\dfrac{2}{5}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai-nilai tersebut:" },
-        { "tipe": "paragraph", "text": "$\\text{Total} = 15 + 2 \\cdot \\dfrac{15 \\cdot \\dfrac{2}{5}}{1 - \\dfrac{2}{5}}$" },
-        { "tipe": "paragraph", "text": "$= 15 + 2 \\cdot \\dfrac{6}{\\dfrac{3}{5}} = 15 + 2(10) = 35$ m." },
-        { "tipe": "paragraph", "text": "Jadi, total lintasan bola sampai berhenti adalah $35$ m (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus total lintasan bola jatuh dan memantul tak hingga**" },
+        { "tipe": "formula_block", "latex": "\\text{Total Lintasan} = h + 2 \\cdot \\dfrac{ar}{1 - r}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $h = 15$, $a = 15$, dan $r = \\dfrac{2}{5}$ lalu hitung nilainya**" },
+        { "tipe": "formula_block", "latex": "\\text{Total Lintasan} = 15 + 2 \\cdot \\dfrac{15 \\cdot \\dfrac{2}{5}}{1 - \\dfrac{2}{5}} = 15 + 2 \\cdot \\dfrac{6}{\\dfrac{3}{5}} = 15 + 2(10) = 35" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, total lintasan bola sampai berhenti adalah **$35$ m**." }
       ],
       "tingkat": "SULIT"
     },
@@ -225,11 +231,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Nyatakan suku ke-$k$ dalam notasi sigma: $\\sum_{k=1}^{15} k(k+2) = \\sum_{k=1}^{15} (k^2 + 2k)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret kuadrat dan linier untuk $n = 15$:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{15 \\cdot 16 \\cdot 31}{6} + 15 \\cdot 16$" },
-        { "tipe": "paragraph", "text": "$= 1240 + 240 = 1480$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $1480$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan suku ke-$k$ dalam notasi sigma dan jabarkan**" },
+        { "tipe": "formula_block", "latex": "\\sum_{k=1}^{15} k(k + 2) = \\sum_{k=1}^{15} k^2 + 2 \\sum_{k=1}^{15} k" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus jumlah kuadrat dan jumlah bilangan asli untuk $n = 15$**" },
+        { "tipe": "formula_block", "latex": "\\sum_{k=1}^{15} k^2 + 2 \\sum_{k=1}^{15} k = \\dfrac{15 \\cdot 16 \\cdot 31}{6} + 2 \\cdot \\dfrac{15 \\cdot 16}{2} = 1240 + 240 = 1480" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret tersebut adalah **$1480$**." }
       ],
       "tingkat": "SULIT"
     }
