@@ -13,17 +13,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{1}{x}\\right)^x$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$e$"}],
-        [{"tipe":"paragraph","text":"$\\infty$"}]
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ],
+        [ { "tipe": "paragraph", "text": "$\\infty$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ini adalah definisi bilangan Euler $e$." },
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit tak hingga $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{1}{x}\\right)^x$ yang menghasilkan bentuk tak tentu $1^{\\infty}$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Definisi dasar bilangan Euler $e$ ($e \\approx 2{,}71828$)." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menerapkan Definisi Bilangan Euler** Saat $x$ membesar menuju tak hingga, suku $\\dfrac{1}{x}$ mendekati $0$ sementara pangkat $x$ membesar tak hingga, sehingga nilainya konvergen ke $e$." },
         { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{1}{x}\\right)^x = e" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $e$." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $e$." }
       ],
       "tingkat": "SULIT"
     },
@@ -33,17 +35,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{2}{x}\\right)^x$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$e$"}],
-        [{"tipe":"paragraph","text":"$e^2$"}],
-        [{"tipe":"paragraph","text":"$2e$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$\\infty$"}]
+        [ { "tipe": "paragraph", "text": "$e$" } ],
+        [ { "tipe": "paragraph", "text": "$e^2$" } ],
+        [ { "tipe": "paragraph", "text": "$2e$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$\\infty$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan rumus $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{k}{x}\\right)^x = e^k$:" },
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{2}{x}\\right)^x = e^2" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $e^2$." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{2}{x}\\right)^x$ dengan koefisien pembilang $k = 2$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus limit bentuk $1^{\\infty}$: $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{k}{x}\\right)^x = e^k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyesuaikan Pangkat dengan Bentuk Baku** Misalkan $u = \\dfrac{x}{2}$, maka ketika $x \\to \\infty$ diperoleh $u \\to \\infty$ dan $x = 2u$." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{2}{x}\\right)^x = \\lim\\limits_{u \\to \\infty} \\left[\\left(1 + \\dfrac{1}{u}\\right)^u\\right]^2 = e^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $e^2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -53,17 +57,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} (1 + 3x)^{1/x}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$e$"}],
-        [{"tipe":"paragraph","text":"$e^2$"}],
-        [{"tipe":"paragraph","text":"$e^3$"}],
-        [{"tipe":"paragraph","text":"$3e$"}]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ],
+        [ { "tipe": "paragraph", "text": "$e^2$" } ],
+        [ { "tipe": "paragraph", "text": "$e^3$" } ],
+        [ { "tipe": "paragraph", "text": "$3e$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Rumus $\\lim\\limits_{x \\to 0} (1 + kx)^{1/x} = e^k$." },
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} (1 + 3x)^{1/x} = e^3" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $e^3$." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit $\\lim\\limits_{x \\to 0} (1 + 3x)^{1/x}$ dengan $k = 3$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus limit menuju nol: $\\lim\\limits_{x \\to 0} (1 + kx)^{1/x} = e^k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyamakan Eksponen dengan Suku $3x$** Ubah pangkat $\\dfrac{1}{x}$ menjadi $\\dfrac{3}{3x}$ lalu pisahkan pangkat $3$-nya." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} (1 + 3x)^{1/x} = \\lim\\limits_{x \\to 0} \\left[(1 + 3x)^{1/(3x)}\\right]^3 = e^3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $e^3$." }
       ],
       "tingkat": "SULIT"
     },
@@ -73,17 +79,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\left(1 - \\dfrac{1}{x}\\right)^x$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$-e$"}],
-        [{"tipe":"paragraph","text":"$-1$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$1/e$"}],
-        [{"tipe":"paragraph","text":"$e$"}]
+        [ { "tipe": "paragraph", "text": "$-e$" } ],
+        [ { "tipe": "paragraph", "text": "$-1$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$1/e$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tulis $1 - \\dfrac{1}{x} = 1 + \\dfrac{-1}{x}$:" },
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit $\\lim\\limits_{x \\to \\infty} \\left(1 - \\dfrac{1}{x}\\right)^x$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{k}{x}\\right)^x = e^k$ dan sifat pangkat negatif $e^{-1} = \\dfrac{1}{e}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah Tanda Pengurangan Menjadi Penjumlahan** Tuliskan $1 - \\dfrac{1}{x}$ sebagai $1 + \\dfrac{-1}{x}$, sehingga $k = -1$." },
         { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{-1}{x}\\right)^x = e^{-1} = \\dfrac{1}{e}" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $\\dfrac{1}{e}$." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $\\dfrac{1}{e}$." }
       ],
       "tingkat": "SULIT"
     },
@@ -93,17 +101,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{e^{2x} - 1}{x}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$e$"}],
-        [{"tipe":"paragraph","text":"$e^2$"}]
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ],
+        [ { "tipe": "paragraph", "text": "$e^2$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan $\\lim\\limits_{x \\to 0} \\dfrac{e^{kx}-1}{x} = k$:" },
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{e^{2x}-1}{x} = 2" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 2." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit fungsi eksponensial $\\lim\\limits_{x \\to 0} \\dfrac{e^{2x} - 1}{x}$ (bentuk $\\dfrac{0}{0}$ saat $x = 0$) dengan $k = 2$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus dasar limit eksponen alami: $\\lim\\limits_{x \\to 0} \\dfrac{e^{kx} - 1}{x} = k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyamakan Penyebut dengan Pangkat Eksponen** Kalikan pembilang dan penyebut dengan $2$ agar penyebutnya menjadi $2x$." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{e^{2x} - 1}{x} = 2 \\cdot \\lim\\limits_{x \\to 0} \\dfrac{e^{2x} - 1}{2x} = 2 \\cdot 1 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -113,18 +123,21 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{e^{3x} - e^{x}}{x}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$3$"}],
-        [{"tipe":"paragraph","text":"$4$"}],
-        [{"tipe":"paragraph","text":"$e$"}]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktorkan $e^x$:" },
-        { "tipe": "formula_block", "latex": "\\dfrac{e^{3x}-e^x}{x} = e^x \\cdot \\dfrac{e^{2x}-1}{x}" },
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} e^x \\cdot \\lim\\limits_{x \\to 0} \\dfrac{e^{2x}-1}{x} = 1 \\cdot 2 = 2" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 2." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit $\\lim\\limits_{x \\to 0} \\dfrac{e^{3x} - e^x}{x}$ yang menghasilkan bentuk $\\dfrac{0}{0}$ jika langsung disubstitusi." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Sifat eksponen $e^{3x} = e^x \\cdot e^{2x}$ dan rumus $\\lim\\limits_{x \\to 0} \\dfrac{e^{kx} - 1}{x} = k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Memfaktorkan $e^x$ pada Pembilang** Keluarkan faktor $e^x$ sehingga muncul bentuk $\\dfrac{e^{2x} - 1}{x}$." },
+        { "tipe": "formula_block", "latex": "\\dfrac{e^{3x} - e^x}{x} = \\dfrac{e^x(e^{2x} - 1)}{x} = e^x \\cdot \\dfrac{e^{2x} - 1}{x}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menghitung Nilai Limit Masing-Masing Faktor** Substitusikan $x \\to 0$ pada $e^x$ (menjadi $1$) dan terapkan rumus limit eksponen pada $\\dfrac{e^{2x} - 1}{x}$ (menjadi $2$)." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} e^x \\cdot \\lim\\limits_{x \\to 0} \\dfrac{e^{2x} - 1}{x} = 1 \\cdot 2 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -134,17 +147,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1+2x)}{x}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$e$"}],
-        [{"tipe":"paragraph","text":"$\\ln 2$"}]
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ],
+        [ { "tipe": "paragraph", "text": "$\\ln 2$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1+kx)}{x} = k$:" },
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1+2x)}{x} = 2" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 2." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit logaritma natural $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + 2x)}{x}$ dengan $k = 2$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus dasar limit logaritma alami: $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + kx)}{x} = k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyamakan Penyebut dengan argumen $2x$** Sesuaikan penyebut menjadi $2x$ dengan mengalikan faktor $2$ di luar limit." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + 2x)}{x} = 2 \\cdot \\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + 2x)}{2x} = 2 \\cdot 1 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $2$." }
       ],
       "tingkat": "SULIT"
     },
@@ -154,16 +169,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1+x)}{\\sin x}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$e$"}]
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1+x)}{\\sin x} = \\dfrac{\\lim\\limits_{x \\to 0} \\frac{\\ln(1+x)}{x}}{\\lim\\limits_{x \\to 0} \\frac{\\sin x}{x}} = \\dfrac{1}{1} = 1" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah 1." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + x)}{\\sin x}$ yang menghasilkan bentuk $\\dfrac{0}{0}$ saat $x \\to 0$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus $\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + x)}{x} = 1$ dan limit trigonometri dasar $\\lim\\limits_{x \\to 0} \\dfrac{\\sin x}{x} = 1$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Membagi Pembilang dan Penyebut dengan $x$** Bagi pembilang dan penyebut masing-masing dengan $x$ agar terbentuk dua limit standar." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + x)}{\\sin x} = \\dfrac{\\lim\\limits_{x \\to 0} \\dfrac{\\ln(1 + x)}{x}}{\\lim\\limits_{x \\to 0} \\dfrac{\\sin x}{x}} = \\dfrac{1}{1} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $1$." }
       ],
       "tingkat": "SULIT"
     },
@@ -173,17 +191,21 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{3}{x}\\right)^{2x}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$e^3$"}],
-        [{"tipe":"paragraph","text":"$e^5$"}],
-        [{"tipe":"paragraph","text":"$e^6$"}],
-        [{"tipe":"paragraph","text":"$2e^3$"}],
-        [{"tipe":"paragraph","text":"$3e^2$"}]
+        [ { "tipe": "paragraph", "text": "$e^3$" } ],
+        [ { "tipe": "paragraph", "text": "$e^5$" } ],
+        [ { "tipe": "paragraph", "text": "$e^6$" } ],
+        [ { "tipe": "paragraph", "text": "$2e^3$" } ],
+        [ { "tipe": "paragraph", "text": "$3e^2$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tulis $\\left(1 + \\frac{3}{x}\\right)^{2x} = \\left[\\left(1 + \\frac{3}{x}\\right)^x\\right]^2$:" },
-        { "tipe": "formula_block", "latex": "= \\left(e^3\\right)^2 = e^6" },
-        { "tipe": "paragraph", "text": "Jadi, nilai limitnya adalah $e^6$." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{3}{x}\\right)^{2x}$ dengan basis $1 + \\dfrac{3}{x}$ dan pangkat $2x$." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Sifat pangkat $(a^m)^n = a^{mn}$ dan rumus $\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{k}{x}\\right)^x = e^k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Memisahkan Pangkat $2$ ke Luar** Tuliskan pangkat $2x$ sebagai perkalian $x \\cdot 2$ agar bagian dalamnya cocok dengan rumus dasar." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{3}{x}\\right)^{2x} = \\left[\\lim\\limits_{x \\to \\infty} \\left(1 + \\dfrac{3}{x}\\right)^x\\right]^2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menyubstitusikan Nilai Limit ke Dalam Kurung** Nilai di dalam kurung adalah $e^3$, lalu dipangkatkan $2$." },
+        { "tipe": "formula_block", "latex": "\\left(e^3\\right)^2 = e^{3 \\cdot 2} = e^6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $e^6$." }
       ],
       "tingkat": "SULIT"
     },
@@ -193,16 +215,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\lim\\limits_{x \\to 0} \\dfrac{e^{5x} - 1}{e^{3x} - 1}$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{5}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{5}{3}$"}],
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$2$"}],
-        [{"tipe":"paragraph","text":"$5$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{e^{5x}-1}{e^{3x}-1} = \\dfrac{5}{3}" },
-        { "tipe": "paragraph", "text": "Alasan: $\\dfrac{e^{5x}-1}{x} \\to 5$ dan $\\dfrac{e^{3x}-1}{x} \\to 3$, sehingga hasilnya $\\dfrac{5}{3}$." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk limit pecahan eksponensial $\\lim\\limits_{x \\to 0} \\dfrac{e^{5x} - 1}{e^{3x} - 1}$ (bentuk $\\dfrac{0}{0}$ saat $x \\to 0$)." },
+        { "tipe": "paragraph", "text": "**Rumus/sifat yang dipakai:** Rumus $\\lim\\limits_{x \\to 0} \\dfrac{e^{kx} - 1}{x} = k$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Membagi Pembilang dan Penyebut dengan $x$** Bagi masing-masing bagian dengan $x$ supaya dapat dihitung dengan rumus dasar." },
+        { "tipe": "formula_block", "latex": "\\lim\\limits_{x \\to 0} \\dfrac{e^{5x} - 1}{e^{3x} - 1} = \\dfrac{\\lim\\limits_{x \\to 0} \\dfrac{e^{5x} - 1}{x}}{\\lim\\limits_{x \\to 0} \\dfrac{e^{3x} - 1}{x}} = \\dfrac{5}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai limitnya adalah $\\dfrac{5}{3}$." }
       ],
       "tingkat": "SULIT"
     }
