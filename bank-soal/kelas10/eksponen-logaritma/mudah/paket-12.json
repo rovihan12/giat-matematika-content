@@ -21,11 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perkalian bentuk eksponen $2^7 \\cdot 2^2$. Basis kedua bilangan sama, yaitu $2$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan pangkatnya karena basisnya sudah sama." },
-        { "tipe": "paragraph", "text": "$2^{7+2} = 2^9$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2^9$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Perkalian bentuk eksponen $2^7 \\cdot 2^2$. Basis kedua bilangan sama, yaitu $2$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menjumlahkan Pangkat** Jumlahkan pangkatnya karena basisnya sudah sama." },
+        { "tipe": "formula_block", "latex": "2^7 \\cdot 2^2 = 2^{7+2} = 2^9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $2^9$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -43,13 +43,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $5^{13}$, penyebut $5^6 \\cdot 5^4$. Semua basis bilangan sama, yaitu $5$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
-        { "tipe": "paragraph", "text": "$5^6 \\cdot 5^4 = 5^{6+4} = 5^{10}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
-        { "tipe": "paragraph", "text": "$\\dfrac{5^{13}}{5^{10}} = 5^{13-10} = 5^3$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $5^3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pembilang $5^{13}$, penyebut $5^6 \\cdot 5^4$. Semua basis bilangan sama, yaitu $5$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyederhanakan Penyebut** Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "formula_block", "latex": "5^6 \\cdot 5^4 = 5^{6+4} = 5^{10}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Mengurangkan Pangkat** Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "formula_block", "latex": "\\dfrac{5^{13}}{5^{10}} = 5^{13-10} = 5^3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $5^3$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -67,11 +67,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perpangkatan dari suatu bilangan berpangkat $\\left(3^4\\right)^2$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
-        { "tipe": "paragraph", "text": "$3^{4 \\cdot 2} = 3^8$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $3^8$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Perpangkatan dari suatu bilangan berpangkat $\\left(3^4\\right)^2$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengalikan Pangkat** Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
+        { "tipe": "formula_block", "latex": "\\left(3^4\\right)^2 = 3^{4 \\cdot 2} = 3^8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $3^8$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -89,11 +89,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan $\\dfrac{7}{9}$ dipangkatkan nol $\\left(\\dfrac{7}{9}\\right)^0$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1, \\text{ untuk } a \\neq 0$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Terapkan sifat pangkat nol pada pecahan tersebut." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{7}{9}\\right)^0 = 1$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pecahan $\\dfrac{7}{9}$ dipangkatkan nol $\\left(\\dfrac{7}{9}\\right)^0$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1$ untuk $a \\neq 0$)." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menerapkan Sifat Pangkat Nol** Terapkan sifat pangkat nol pada pecahan tersebut." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{7}{9}\\right)^0 = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $1$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -111,11 +111,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif satu $\\left(\\dfrac{4}{9}\\right)^{-1}$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{4}{9}\\right)^{-1} = \\left(\\dfrac{9}{4}\\right)^1 = \\dfrac{9}{4}$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{9}{4}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pecahan berpangkat negatif satu $\\left(\\dfrac{4}{9}\\right)^{-1}$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah ke Pangkat Positif** Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{4}{9}\\right)^{-1} = \\left(\\dfrac{9}{4}\\right)^1 = \\dfrac{9}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $\\dfrac{9}{4}$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -133,11 +133,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk persamaan eksponen $3^5 = 243$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk eksponen ke bentuk logaritma dengan basis $3$, numerus $243$, dan hasil $5$." },
-        { "tipe": "paragraph", "text": "${}^3\\log 243 = 5$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^3\\log 243 = 5$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk persamaan eksponen $3^5 = 243$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$ (dengan $a > 0, a \\neq 1,$ dan $b > 0$)." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah ke Bentuk Logaritma** Ubah bentuk eksponen ke bentuk logaritma dengan basis $3$, numerus $243$, dan hasil $5$." },
+        { "tipe": "formula_block", "latex": "3^5 = 243 \\Leftrightarrow {}^3\\log 243 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah ${}^3\\log 243 = 5$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -155,13 +155,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk logaritma ${}^5\\log \\dfrac{1}{125}$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat ${}^a\\log a^n = n$ serta $\\dfrac{1}{a^n} = a^{-n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah pecahan $\\dfrac{1}{125}$ menjadi bentuk perpangkatan dengan basis $5$ ($125 = 5^3$, sehingga $\\dfrac{1}{125} = 5^{-3}$)." },
-        { "tipe": "paragraph", "text": "${}^5\\log \\dfrac{1}{125} = {}^5\\log 5^{-3}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
-        { "tipe": "paragraph", "text": "$= -3$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $-3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk logaritma ${}^5\\log \\dfrac{1}{125}$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat ${}^a\\log a^n = n$ serta $\\dfrac{1}{a^n} = a^{-n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah Numerus ke Bentuk Pangkat** Ubah pecahan $\\dfrac{1}{125}$ menjadi bentuk perpangkatan dengan basis $5$ ($125 = 5^3$, sehingga $\\dfrac{1}{125} = 5^{-3}$)." },
+        { "tipe": "formula_block", "latex": "{}^5\\log \\dfrac{1}{125} = {}^5\\log 5^{-3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menentukan Nilai Logaritma** Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "formula_block", "latex": "{}^5\\log 5^{-3} = -3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $-3$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -179,13 +179,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Operasi hitung logaritma ${}^2\\log 5 + {}^2\\log 6 - {}^2\\log 15$ dengan basis yang sama ($2$)." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat penjumlahan dan pengurangan logaritma ${}^a\\log m + {}^a\\log n - {}^a\\log p = {}^a\\log\\left(\\dfrac{m \\cdot n}{p}\\right)$ serta ${}^a\\log a = 1$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gabungkan numerus dengan operasi perkalian dan pembagian." },
-        { "tipe": "paragraph", "text": "${}^2\\log\\left(\\dfrac{5 \\cdot 6}{15}\\right) = {}^2\\log\\left(\\dfrac{30}{15}\\right) = {}^2\\log 2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a = 1$." },
-        { "tipe": "paragraph", "text": "$= 1$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $1$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Operasi hitung logaritma ${}^2\\log 5 + {}^2\\log 6 - {}^2\\log 15$ dengan basis yang sama ($2$)." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat penjumlahan dan pengurangan logaritma ${}^a\\log m + {}^a\\log n - {}^a\\log p = {}^a\\log\\left(\\dfrac{m \\cdot n}{p}\\right)$ serta ${}^a\\log a = 1$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menggabungkan Numerus** Gabungkan numerus dengan operasi perkalian dan pembagian." },
+        { "tipe": "formula_block", "latex": "{}^2\\log 5 + {}^2\\log 6 - {}^2\\log 15 = {}^2\\log\\left(\\dfrac{5 \\cdot 6}{15}\\right) = {}^2\\log\\left(\\dfrac{30}{15}\\right) = {}^2\\log 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menentukan Nilai Logaritma** Tentukan hasilnya menggunakan sifat ${}^a\\log a = 1$." },
+        { "tipe": "formula_block", "latex": "{}^2\\log 2 = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $1$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -203,13 +203,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $10^9$, penyebut $10^4 \\cdot 10^3$. Semua basis bilangan sama, yaitu $10$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
-        { "tipe": "paragraph", "text": "$10^4 \\cdot 10^3 = 10^{4+3} = 10^7$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
-        { "tipe": "paragraph", "text": "$\\dfrac{10^9}{10^7} = 10^{9-7} = 10^2$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $10^2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pembilang $10^9$, penyebut $10^4 \\cdot 10^3$. Semua basis bilangan sama, yaitu $10$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyederhanakan Penyebut** Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "formula_block", "latex": "10^4 \\cdot 10^3 = 10^{4+3} = 10^7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Mengurangkan Pangkat** Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "formula_block", "latex": "\\dfrac{10^9}{10^7} = 10^{9-7} = 10^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $10^2$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -227,12 +227,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{3}{7}\\right)^{-2}$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{3}{7}\\right)^{-2} = \\left(\\dfrac{7}{3}\\right)^2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung perpangkatan pembilang dan penyebut $\\dfrac{7^2}{3^2} = \\dfrac{49}{9}$." },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{49}{9}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pecahan berpangkat negatif $\\left(\\dfrac{3}{7}\\right)^{-2}$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah ke Pangkat Positif** Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{3}{7}\\right)^{-2} = \\left(\\dfrac{7}{3}\\right)^2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menghitung Hasil Perpangkatan** Hitung perpangkatan pembilang dan penyebut." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{7}{3}\\right)^2 = \\dfrac{7^2}{3^2} = \\dfrac{49}{9}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $\\dfrac{49}{9}$." }
       ],
       "tingkat": "MUDAH"
     }
