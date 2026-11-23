@@ -21,11 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perkalian bentuk eksponen $2^6 \\cdot 2^3$. Basis kedua bilangan sama, yaitu $2$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan pangkatnya karena basisnya sudah sama." },
-        { "tipe": "paragraph", "text": "$2^{6+3} = 2^9$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2^9$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Perkalian bentuk eksponen $2^6 \\cdot 2^3$. Basis kedua bilangan sama, yaitu $2$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perkalian eksponen dengan basis yang sama $a^m \\cdot a^n = a^{m+n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menjumlahkan Pangkat** Jumlahkan pangkatnya karena basisnya sudah sama." },
+        { "tipe": "formula_block", "latex": "2^6 \\cdot 2^3 = 2^{6+3} = 2^9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $2^9$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -43,13 +43,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $10^{12}$, penyebut $10^5 \\cdot 10^3$. Semua basis bilangan sama, yaitu $10$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
-        { "tipe": "paragraph", "text": "$10^5 \\cdot 10^3 = 10^{5+3} = 10^8$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
-        { "tipe": "paragraph", "text": "$\\dfrac{10^{12}}{10^8} = 10^{12-8} = 10^4$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $10^4$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pembilang $10^{12}$, penyebut $10^5 \\cdot 10^3$. Semua basis bilangan sama, yaitu $10$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyederhanakan Penyebut** Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "formula_block", "latex": "10^5 \\cdot 10^3 = 10^{5+3} = 10^8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Mengurangkan Pangkat** Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "formula_block", "latex": "\\dfrac{10^{12}}{10^8} = 10^{12-8} = 10^4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $10^4$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -67,11 +67,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Perpangkatan dari suatu bilangan berpangkat $\\left(2^4\\right)^2$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
-        { "tipe": "paragraph", "text": "$2^{4 \\cdot 2} = 2^8$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2^8$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Perpangkatan dari suatu bilangan berpangkat $\\left(2^4\\right)^2$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perpangkatan bilangan berpangkat $(a^m)^n = a^{m \\cdot n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengalikan Pangkat** Kalikan pangkat di dalam kurung dengan pangkat di luar kurung." },
+        { "tipe": "formula_block", "latex": "\\left(2^4\\right)^2 = 2^{4 \\cdot 2} = 2^8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $2^8$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -89,13 +89,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Operasi penjumlahan bilangan berpangkat nol $(-5)^0 + 3^0$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1, \\text{ untuk } a \\neq 0$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan nilai dari masing-masing bilangan berpangkat nol." },
-        { "tipe": "paragraph", "text": "$(-5)^0 = 1$ dan $3^0 = 1$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jumlahkan hasil keduanya." },
-        { "tipe": "paragraph", "text": "$1 + 1 = 2$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $2$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Operasi penjumlahan bilangan berpangkat nol $(-5)^0 + 3^0$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Setiap bilangan real tak nol yang dipangkatkan nol selalu bernilai $1$ ($a^0 = 1$ untuk $a \\neq 0$)." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menentukan Nilai Pangkat Nol** Tentukan nilai dari masing-masing bilangan berpangkat nol." },
+        { "tipe": "formula_block", "latex": "(-5)^0 = 1 \\quad \\text{dan} \\quad 3^0 = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menjumlahkan Hasil** Jumlahkan hasil keduanya." },
+        { "tipe": "formula_block", "latex": "1 + 1 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $2$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -113,12 +113,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{2}{7}\\right)^{-2}$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{2}{7}\\right)^{-2} = \\left(\\dfrac{7}{2}\\right)^2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung perpangkatan pembilang dan penyebut $\\dfrac{7^2}{2^2} = \\dfrac{49}{4}$." },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $\\dfrac{49}{4}$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pecahan berpangkat negatif $\\left(\\dfrac{2}{7}\\right)^{-2}$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah ke Pangkat Positif** Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{2}{7}\\right)^{-2} = \\left(\\dfrac{7}{2}\\right)^2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menghitung Hasil Perpangkatan** Hitung perpangkatan pembilang dan penyebut." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{7}{2}\\right)^2 = \\dfrac{7^2}{2^2} = \\dfrac{49}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $\\dfrac{49}{4}$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -136,11 +137,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk persamaan eksponen $9^2 = 81$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah bentuk eksponen ke bentuk logaritma dengan basis $9$, numerus $81$, dan hasil $2$." },
-        { "tipe": "paragraph", "text": "${}^9\\log 81 = 2$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^9\\log 81 = 2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk persamaan eksponen $9^2 = 81$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Definisi hubungan eksponen dan logaritma: $a^c = b \\Leftrightarrow {}^a\\log b = c$ (dengan $a > 0, a \\neq 1,$ dan $b > 0$)." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah ke Bentuk Logaritma** Ubah bentuk eksponen ke bentuk logaritma dengan basis $9$, numerus $81$, dan hasil $2$." },
+        { "tipe": "formula_block", "latex": "9^2 = 81 \\Leftrightarrow {}^9\\log 81 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah ${}^9\\log 81 = 2$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -158,13 +159,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Bentuk logaritma ${}^2\\log \\dfrac{1}{8}$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat ${}^a\\log a^n = n$ serta $\\dfrac{1}{a^n} = a^{-n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah pecahan $\\dfrac{1}{8}$ menjadi bentuk perpangkatan dengan basis $2$ ($8 = 2^3$, sehingga $\\dfrac{1}{8} = 2^{-3}$)." },
-        { "tipe": "paragraph", "text": "${}^2\\log \\dfrac{1}{8} = {}^2\\log 2^{-3}$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
-        { "tipe": "paragraph", "text": "$= -3$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $-3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Bentuk logaritma ${}^2\\log \\dfrac{1}{8}$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat ${}^a\\log a^n = n$ serta $\\dfrac{1}{a^n} = a^{-n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah Numerus ke Bentuk Pangkat** Ubah pecahan $\\dfrac{1}{8}$ menjadi bentuk perpangkatan dengan basis $2$ ($8 = 2^3$, sehingga $\\dfrac{1}{8} = 2^{-3}$)." },
+        { "tipe": "formula_block", "latex": "{}^2\\log \\dfrac{1}{8} = {}^2\\log 2^{-3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menentukan Nilai Logaritma** Tentukan hasilnya menggunakan sifat ${}^a\\log a^n = n$." },
+        { "tipe": "formula_block", "latex": "{}^2\\log 2^{-3} = -3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $-3$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -182,11 +183,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Penjumlahan tiga logaritma dengan basis yang sama (${}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat penjumlahan logaritma ${}^a\\log m + {}^a\\log n + {}^a\\log p = {}^a\\log(m \\cdot n \\cdot p)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kalikan semua numerus karena basis logaritma sudah sama." },
-        { "tipe": "paragraph", "text": "${}^5\\log(2 \\cdot 3 \\cdot 5) = {}^5\\log 30$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah ${}^5\\log 30$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Penjumlahan tiga logaritma dengan basis yang sama (${}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5$)." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat penjumlahan logaritma ${}^a\\log m + {}^a\\log n + {}^a\\log p = {}^a\\log(m \\cdot n \\cdot p)$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengalikan Semua Numerus** Kalikan semua numerus karena basis logaritma sudah sama." },
+        { "tipe": "formula_block", "latex": "{}^5\\log 2 + {}^5\\log 3 + {}^5\\log 5 = {}^5\\log(2 \\cdot 3 \\cdot 5) = {}^5\\log 30" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah ${}^5\\log 30$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -204,13 +205,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pembilang $8^9$, penyebut $8^4 \\cdot 8^3$. Semua basis bilangan sama, yaitu $8$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Sederhanakan bagian penyebut terlebih dahulu." },
-        { "tipe": "paragraph", "text": "$8^4 \\cdot 8^3 = 8^{4+3} = 8^7$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
-        { "tipe": "paragraph", "text": "$\\dfrac{8^9}{8^7} = 8^{9-7} = 8^2$" },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $8^2$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pembilang $8^9$, penyebut $8^4 \\cdot 8^3$. Semua basis bilangan sama, yaitu $8$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat perkalian $a^m \\cdot a^n = a^{m+n}$ dan pembagian eksponen $a^m : a^n = a^{m-n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Menyederhanakan Penyebut** Sederhanakan bagian penyebut terlebih dahulu." },
+        { "tipe": "formula_block", "latex": "8^4 \\cdot 8^3 = 8^{4+3} = 8^7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Mengurangkan Pangkat** Bagikan pembilang dengan penyebut yang sudah disederhanakan." },
+        { "tipe": "formula_block", "latex": "\\dfrac{8^9}{8^7} = 8^{9-7} = 8^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $8^2$." }
       ],
       "tingkat": "MUDAH"
     },
@@ -228,12 +229,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Yang diketahui:</strong> Pecahan berpangkat negatif $\\left(\\dfrac{1}{10}\\right)^{-2}$." },
-        { "tipe": "paragraph", "text": "<strong>Sifat yang dipakai:</strong> Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Balikkan pecahan dan ubah pangkatnya menjadi positif." },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{10}\\right)^{-2} = \\left(\\dfrac{10}{1}\\right)^2 = 10^2$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung hasil perpangkatannya ($10^2 = 100$)." },
-        { "tipe": "paragraph", "text": "Jadi, jawabannya adalah $100$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Yang diketahui:** Pecahan berpangkat negatif $\\left(\\dfrac{1}{10}\\right)^{-2}$." },
+        { "tipe": "paragraph", "text": "**Sifat yang dipakai:** Sifat pangkat negatif pada pecahan $\\left(\\dfrac{a}{b}\\right)^{-n} = \\left(\\dfrac{b}{a}\\right)^n$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Mengubah ke Pangkat Positif** Balikkan pecahan dan ubah pangkatnya menjadi positif." },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{1}{10}\\right)^{-2} = \\left(\\dfrac{10}{1}\\right)^2 = 10^2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Menghitung Hasil Perpangkatan** Hitung nilai perpangkatannya." },
+        { "tipe": "formula_block", "latex": "10^2 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jawabannya adalah $100$." }
       ],
       "tingkat": "MUDAH"
     }
