@@ -21,11 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah $> 9$: $10, 11, 12$." },
-        { "tipe": "paragraph", "text": "$10$: $(4,6), (5,5), (6,4)$ → 3" },
-        { "tipe": "paragraph", "text": "$11$: $(5,6), (6,5)$ → 2" },
-        { "tipe": "paragraph", "text": "$12$: $(6,6)$ → 1" },
-        { "tipe": "paragraph", "text": "Total = 6 pasangan → $P = \\dfrac{6}{36} = \\dfrac{1}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah lebih dari $9$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Jumlah lebih dari $9$ terdiri dari $10$ dengan $(4,6), (5,5), (6,4)$ ($3$ pasangan), $11$ dengan $(5,6), (6,5)$ ($2$ pasangan), dan $12$ dengan $(6,6)$ ($1$ pasangan), sehingga $n(A) = 3 + 2 + 1 = 6$ dari $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu lebih dari $9$ adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -43,8 +42,10 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Semua bola pasti merah atau biru → kejadian pasti." },
-        { "tipe": "paragraph", "text": "$P = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang terambil bola merah atau biru**" },
+        { "tipe": "paragraph", "text": "Seluruh isi kotak ($4 + 6 = 10$ bola) hanya terdiri dari bola merah dan biru, sehingga kejadian terambil bola merah atau biru merupakan kejadian pasti." },
+        { "tipe": "formula_block", "latex": "P(\\text{merah atau biru}) = \\dfrac{4}{10} + \\dfrac{6}{10} = \\dfrac{10}{10} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola merah atau biru adalah **$1$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -62,9 +63,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah $\\leq 4$: $2$ (1 pasangan), $3$ (2), $4$ (3) → total 6 pasangan." },
-        { "tipe": "paragraph", "text": "$P(\\leq 4) = \\dfrac{6}{36} = \\dfrac{1}{6}$" },
-        { "tipe": "paragraph", "text": "$P(> 4) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang jumlah mata dadu paling banyak $4$ ($\\leq 4$)**" },
+        { "tipe": "paragraph", "text": "Pasangan dengan jumlah $\\leq 4$ adalah jumlah $2$: $(1,1)$ ($1$ pasangan), jumlah $3$: $(1,2), (2,1)$ ($2$ pasangan), dan jumlah $4$: $(1,3), (2,2), (3,1)$ ($3$ pasangan), sehingga totalnya $6$ dari $36$ pasangan." },
+        { "tipe": "formula_block", "latex": "P(\\text{jumlah} \\leq 4) = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus peluang kejadian komplemen untuk jumlah tidak lebih dari $4$ ($> 4$)**" },
+        { "tipe": "formula_block", "latex": "P(\\text{jumlah} > 4) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang jumlah mata dadu tidak lebih dari $4$ adalah **$\\dfrac{5}{6}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -82,8 +86,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{2}{5} + \\dfrac{1}{3} = \\dfrac{6 + 5}{15} = \\dfrac{11}{15}$" },
-        { "tipe": "paragraph", "text": "$P((A \\cup B)^c) = 1 - \\dfrac{11}{15} = \\dfrac{4}{15}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung $P(A \\cup B)$ karena $A$ dan $B$ saling lepas**" },
+        { "tipe": "paragraph", "text": "Karena saling lepas, peluang gabungan $A$ dan $B$ adalah jumlah kedua peluangnya." },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = \\dfrac{2}{5} + \\dfrac{1}{3} = \\dfrac{6 + 5}{15} = \\dfrac{11}{15}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan hukum De Morgan dan komplemen untuk $P(A^c \\cap B^c)$**" },
+        { "tipe": "formula_block", "latex": "P(A^c \\cap B^c) = P((A \\cup B)^c) = 1 - \\dfrac{11}{15} = \\dfrac{4}{15}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(A^c \\cap B^c)$ adalah **$\\dfrac{4}{15}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -101,8 +109,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{genap}) = \\dfrac{3}{6} = \\dfrac{1}{2}$, $P(\\text{ganjil}) = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "Saling bebas: $P = \\dfrac{1}{2} \\cdot \\dfrac{1}{2} = \\dfrac{1}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan peluang mata dadu pertama genap dan mata dadu kedua ganjil**" },
+        { "tipe": "paragraph", "text": "Pada masing-masing dadu, peluang muncul bilangan genap adalah $\\dfrac{3}{6} = \\dfrac{1}{2}$ dan bilangan ganjil adalah $\\dfrac{3}{6} = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang dua kejadian saling bebas**" },
+        { "tipe": "formula_block", "latex": "P(A \\cap B) = \\dfrac{1}{2} \\cdot \\dfrac{1}{2} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu pertama genap dan mata dadu kedua ganjil adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -120,7 +131,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P = 0{,}7 + 0{,}8 - 0{,}6 = 0{,}9 = 90\\%$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus aturan penjumlahan untuk kejadian tidak saling lepas**" },
+        { "tipe": "paragraph", "text": "Diketahui $P(M) = 70\\%$, $P(B) = 80\\%$, dan $P(M \\cap B) = 60\\%$." },
+        { "tipe": "formula_block", "latex": "P(M \\cup B) = 70\\% + 80\\% - 60\\% = 90\\%" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persentase siswa yang lulus matematika atau bahasa adalah **$90\\%$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -138,9 +152,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{King}) = \\dfrac{4}{52}$, $P(\\text{hati}) = \\dfrac{13}{52}$" },
-        { "tipe": "paragraph", "text": "$P(\\text{King hati}) = \\dfrac{1}{52}$" },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{4}{52} + \\dfrac{13}{52} - \\dfrac{1}{52} = \\dfrac{16}{52}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan peluang terambil kartu King, kartu hati, dan irisannya**" },
+        { "tipe": "paragraph", "text": "Dalam satu set kartu bridge ($n(S) = 52$), terdapat $4$ kartu King ($P(K) = \\dfrac{4}{52}$), $13$ kartu hati ($P(H) = \\dfrac{13}{52}$), dan $1$ kartu King hati ($P(K \\cap H) = \\dfrac{1}{52}$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang gabungan kartu King atau hati**" },
+        { "tipe": "formula_block", "latex": "P(K \\cup H) = \\dfrac{4}{52} + \\dfrac{13}{52} - \\dfrac{1}{52} = \\dfrac{16}{52}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu King atau kartu bergambar hati adalah **$\\dfrac{16}{52}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -158,7 +174,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak menang}) = 1 - 0{,}6 = 0{,}4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian Rina tidak menang lomba merupakan komplemen dari kejadian Rina menang lomba." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak menang}) = 1 - 0{,}6 = 0{,}4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang Rina tidak menang lomba adalah **$0{,}4$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -176,9 +195,12 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Hasil kali GANJIL jika KEDUA dadu ganjil: $3 \\times 3 = 9$ pasangan." },
-        { "tipe": "paragraph", "text": "$P(\\text{ganjil}) = \\dfrac{9}{36} = \\dfrac{1}{4}$" },
-        { "tipe": "paragraph", "text": "$P(\\text{genap}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang hasil kali kedua mata dadu ganjil**" },
+        { "tipe": "paragraph", "text": "Hasil kali dua bilangan bernilai ganjil hanya jika kedua mata dadu ganjil ($\\{1, 3, 5\\}$), yaitu $3 \\times 3 = 9$ pasangan dari $36$ pasangan ruang sampel." },
+        { "tipe": "formula_block", "latex": "P(\\text{hasil kali ganjil}) = \\dfrac{9}{36} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan komplemen untuk peluang hasil kali genap**" },
+        { "tipe": "formula_block", "latex": "P(\\text{hasil kali genap}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul hasil kali kedua mata dadu genap adalah **$\\dfrac{3}{4}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -196,8 +218,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Saling bebas: $P(A \\cap B) = 0{,}4 \\cdot 0{,}5 = 0{,}2$" },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = 0{,}4 + 0{,}5 - 0{,}2 = 0{,}7$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung $P(A \\cap B)$ karena $A$ dan $B$ saling bebas**" },
+        { "tipe": "paragraph", "text": "Karena saling bebas, peluang irisannya adalah hasil kali $P(A)$ dan $P(B)$." },
+        { "tipe": "formula_block", "latex": "P(A \\cap B) = 0{,}4 \\cdot 0{,}5 = 0{,}2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $P(A \\cup B)$**" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0{,}4 + 0{,}5 - 0{,}2 = 0{,}7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(A \\cup B)$ adalah **$0{,}7$**." }
       ],
       "tingkat": "SEDANG"
     }
