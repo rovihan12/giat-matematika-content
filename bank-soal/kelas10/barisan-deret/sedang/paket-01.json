@@ -21,8 +21,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus suku tengah barisan aritmatika**" },
-        { "tipe": "paragraph", "text": "Diketahui $a = U_1 = 3$ dan $U_{11} = 43$. Rumus suku tengah adalah $U_t = \\dfrac{a + U_n}{2}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama dan suku terakhir**" },
+        { "tipe": "paragraph", "text": "Diketahui $a = U_1 = 3$ dan $U_{11} = 43$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku tengah dengan rumus $U_t = \\dfrac{a + U_n}{2}$**" },
         { "tipe": "formula_block", "latex": "U_t = \\dfrac{3 + 43}{2} = \\dfrac{46}{2} = 23" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku tengah barisan aritmatika tersebut adalah **$23$**." }
       ],
@@ -42,8 +43,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus beda barisan baru setelah disisipkan $k$ bilangan**" },
-        { "tipe": "paragraph", "text": "Diketahui $x = 2$, $y = 32$, dan banyak bilangan yang disisipkan $k = 4$, dengan rumus $b' = \\dfrac{y - x}{k + 1}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi nilai awal, nilai akhir, dan banyak sisipan**" },
+        { "tipe": "paragraph", "text": "Diketahui $x = 2$, $y = 32$, dan banyak bilangan yang disisipkan $k = 4$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung beda barisan baru dengan rumus $b' = \\dfrac{y - x}{k + 1}$**" },
         { "tipe": "formula_block", "latex": "b' = \\dfrac{32 - 2}{4 + 1} = \\dfrac{30}{5} = 6" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, beda barisan baru tersebut adalah **$6$**." }
       ],
@@ -88,8 +90,8 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama ($a$), beda ($b$), dan suku terakhir ($U_n$)**" },
-        { "tipe": "paragraph", "text": "Bilangan kelipatan $3$ pertama setelah $100$ adalah $a = 102$, beda $b = 3$, dan kelipatan $3$ terakhir sebelum $200$ adalah $U_n = 198$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyaknya suku ($n$) menggunakan rumus $U_n = a + (n - 1)b$**" },
+        { "tipe": "paragraph", "text": "Kelipatan $3$ pertama setelah $100$ adalah $a = 102$, beda $b = 3$, dan kelipatan $3$ terakhir sebelum $200$ adalah $U_n = 198$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyak suku ($n$) menggunakan rumus $U_n = a + (n - 1)b$**" },
         { "tipe": "formula_block", "latex": "198 = 102 + (n - 1)3 \\Rightarrow 96 = 3(n - 1) \\Rightarrow n - 1 = 32 \\Rightarrow n = 33" },
         { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah $33$ suku pertama ($S_{33}$) dengan rumus $S_n = \\dfrac{n}{2}(a + U_n)$**" },
         { "tipe": "formula_block", "latex": "S_{33} = \\dfrac{33}{2}(102 + 198) = \\dfrac{33}{2}(300) = 33 \\cdot 150 = 4950" },
@@ -111,8 +113,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus suku tengah barisan geometri**" },
-        { "tipe": "paragraph", "text": "Diketahui $a = U_1 = 2$ dan $U_9 = 512$. Rumus suku tengah barisan geometri adalah $U_t = \\sqrt{a \\cdot U_n}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama dan suku terakhir**" },
+        { "tipe": "paragraph", "text": "Diketahui $a = U_1 = 2$ dan $U_9 = 512$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku tengah dengan rumus $U_t = \\sqrt{a \\cdot U_n}$**" },
         { "tipe": "formula_block", "latex": "U_t = \\sqrt{2 \\cdot 512} = \\sqrt{1024} = 32" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku tengah barisan geometri tersebut adalah **$32$**." }
       ],
@@ -133,7 +136,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan beda ($b$) barisan aritmatika**" },
-        { "tipe": "paragraph", "text": "Diperoleh $a = 5$ dan $b = 8 - 5 = 3$." },
+        { "tipe": "formula_block", "latex": "a = 5, \\qquad b = 8 - 5 = 3" },
         { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$**" },
         { "tipe": "formula_block", "latex": "U_n = 5 + (n - 1) \\cdot 3 = 5 + 3n - 3 = 3n + 2" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus suku ke-$n$ barisan tersebut adalah **$U_n = 3n + 2$**." }
@@ -155,7 +158,7 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan rasio ($r$) barisan geometri**" },
-        { "tipe": "formula_block", "latex": "a = \\dfrac{1}{2}, \\qquad r = \\dfrac{1}{\\frac{1}{2}} = 2" },
+        { "tipe": "formula_block", "latex": "a = \\dfrac{1}{2}, \\qquad r = \\dfrac{1}{\\dfrac{1}{2}} = 2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-4 ($U_4$) menggunakan rumus $U_n = a \\cdot r^{n-1}$**" },
         { "tipe": "formula_block", "latex": "U_4 = \\dfrac{1}{2} \\cdot 2^{4-1} = \\dfrac{1}{2} \\cdot 2^3 = \\dfrac{1}{2} \\cdot 8 = 4" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-4 barisan geometri tersebut adalah **$4$**." }
