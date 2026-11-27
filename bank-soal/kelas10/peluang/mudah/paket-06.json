@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan aturan perkalian." },
-        { "tipe": "paragraph", "text": "Banyak cara = $6 \\times 3 \\times 2 = 36$ cara." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak cara memadukan perlengkapan menggunakan aturan perkalian**" },
+        { "tipe": "paragraph", "text": "Kalikan banyak pilihan dari masing-masing jenis perlengkapan (pakaian, tas, dan sepatu)." },
+        { "tipe": "formula_block", "latex": "\\text{Banyak cara} = 6 \\times 3 \\times 2 = 36" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak cara Ami dapat memadukan pakaian, tas, dan sepatunya adalah **$36$ cara**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total kelereng = $5 + 4 + 7 = 16$." },
-        { "tipe": "paragraph", "text": "Peluang hitam = $\\dfrac{7}{16}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh kelereng ($n(S)$) dan banyak kelereng hitam ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total kelereng adalah $5 + 4 + 7 = 16$ sehingga $n(S) = 16$, sedangkan kelereng hitam berjumlah $n(A) = 7$." },
+        { "tipe": "formula_block", "latex": "P(\\text{hitam}) = \\dfrac{n(A)}{n(S)} = \\dfrac{7}{16}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kelereng hitam adalah **$\\dfrac{7}{16}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,10 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah 9: (3,6), (4,5), (5,4), (6,3) = 4 pasangan." },
-        { "tipe": "paragraph", "text": "Jumlah 11: (5,6), (6,5) = 2 pasangan." },
-        { "tipe": "paragraph", "text": "Total = 6 pasangan dari 36." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{6}{36} = \\dfrac{1}{6}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak pasangan mata dadu berjumlah $9$ atau $11$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan berjumlah $9$ adalah $(3,6), (4,5), (5,4), (6,3)$ ($4$ pasangan) dan berjumlah $11$ adalah $(5,6), (6,5)$ ($2$ pasangan), sehingga $n(A) = 4 + 2 = 6$ dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $9$ atau $11$ adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -80,9 +84,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Siswa yang gemar MTK atau IPA = $25 + 21 - 9 = 37$." },
-        { "tipe": "paragraph", "text": "Siswa yang tidak gemar keduanya = $40 - 37 = 3$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{3}{40}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak siswa yang tidak gemar matematika maupun IPA ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Banyak siswa yang gemar matematika atau IPA adalah $25 + 21 - 9 = 37$ siswa, sehingga yang tidak gemar keduanya berjumlah $n(A) = 40 - 37 = 3$ siswa dari $n(S) = 40$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{40}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang seorang siswa tidak gemar matematika maupun IPA adalah **$\\dfrac{3}{40}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -100,8 +105,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang muncul mata 4 = $\\dfrac{1}{6}$." },
-        { "tipe": "paragraph", "text": "Peluang bukan 4 = $1 - \\dfrac{1}{6} = \\dfrac{5}{6}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang muncul mata dadu $4$ adalah $P(A) = \\dfrac{1}{6}$, sehingga peluang muncul mata dadu bukan $4$ adalah komplemennya." },
+        { "tipe": "formula_block", "latex": "P(A^c) = 1 - P(A) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu bukan $4$ adalah **$\\dfrac{5}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -119,7 +126,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang hujan = $1 - 0,13 = 0,87$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian hari ini turun hujan merupakan komplemen dari kejadian hari ini tidak turun hujan." },
+        { "tipe": "formula_block", "latex": "P(\\text{hujan}) = 1 - 0{,}13 = 0{,}87" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang hari ini turun hujan adalah **$0{,}87$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -137,9 +147,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu hitam = 26, Kartu As = 4, As hitam = 2." },
-        { "tipe": "paragraph", "text": "Hitam atau As = $26 + 4 - 2 = 28$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{28}{52}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel gabungan kartu hitam atau kartu As ($n(H \\cup A)$)**" },
+        { "tipe": "paragraph", "text": "Dalam satu set kartu bridge ($n(S) = 52$), terdapat $26$ kartu hitam, $4$ kartu As, dan $2$ kartu As hitam, sehingga:" },
+        { "tipe": "formula_block", "latex": "n(H \\cup A) = 26 + 4 - 2 = 28" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang kejadian terambil kartu hitam atau As**" },
+        { "tipe": "formula_block", "latex": "P(H \\cup A) = \\dfrac{28}{52}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu hitam atau kartu As adalah **$\\dfrac{28}{52}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -157,9 +170,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang Merah dari Kotak I = $\\dfrac{2}{5}$." },
-        { "tipe": "paragraph", "text": "Peluang Putih dari Kotak II = $\\dfrac{3}{8}$." },
-        { "tipe": "paragraph", "text": "Peluang gabungan = $\\dfrac{2}{5} \\times \\dfrac{3}{8} = \\dfrac{6}{40} = \\dfrac{3}{20}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan peluang masing-masing kejadian pada Kotak I dan Kotak II**" },
+        { "tipe": "paragraph", "text": "Peluang terambil bola merah dari Kotak I ($5$ bola) adalah $P(M_1) = \\dfrac{2}{5}$, sedangkan peluang terambil bola putih dari Kotak II ($8$ bola) adalah $P(P_2) = \\dfrac{3}{8}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang dua kejadian saling bebas**" },
+        { "tipe": "formula_block", "latex": "P(M_1 \\cap P_2) = \\dfrac{2}{5} \\times \\dfrac{3}{8} = \\dfrac{6}{40} = \\dfrac{3}{20}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola merah dari kotak I dan bola putih dari kotak II adalah **$\\dfrac{3}{20}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -177,8 +192,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Telur tidak busuk = $10 - 3 = 7$." },
-        { "tipe": "paragraph", "text": "Peluang = $\\dfrac{7}{10}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak telur yang tidak busuk ($n(A)$) dari seluruh telur ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Dari $n(S) = 10$ butir telur dengan $3$ butir rusak, banyak telur yang tidak busuk adalah $n(A) = 10 - 3 = 7$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{7}{10}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil telur yang tidak busuk adalah **$\\dfrac{7}{10}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -194,10 +211,12 @@
         [ { "tipe": "paragraph", "text": "$\\dfrac{612}{625}$" } ],
         [ { "tipe": "paragraph", "text": "$\\dfrac{720}{625}$" } ]
       ],
-      "jawaban_benar": 0,
+      "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan distribusi binomial: $P = C(5,3) \\cdot (\\dfrac{3}{5})^3 \\cdot (\\dfrac{2}{5})^2$." },
-        { "tipe": "paragraph", "text": "$P = 10 \\cdot \\dfrac{27}{125} \\cdot \\dfrac{4}{25} = \\dfrac{1080}{3125} = \\dfrac{216}{625}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang distribusi binomial untuk $n = 5$, $x = 3$, dan $p = \\dfrac{3}{5}$**" },
+        { "tipe": "paragraph", "text": "Peluang gagal menahan tendangan adalah $q = 1 - \\dfrac{3}{5} = \\dfrac{2}{5}$, sehingga:" },
+        { "tipe": "formula_block", "latex": "P(X = 3) = C(5, 3) \\cdot \\left(\\dfrac{3}{5}\\right)^3 \\cdot \\left(\\dfrac{2}{5}\\right)^2 = 10 \\cdot \\dfrac{27}{125} \\cdot \\dfrac{4}{25} = \\dfrac{1080}{3125} = \\dfrac{216}{625}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang penjaga gawang mampu menahan tepat 3 kali tendangan penalti adalah **$\\dfrac{216}{625}$**." }
       ],
       "tingkat": "MUDAH"
     }
