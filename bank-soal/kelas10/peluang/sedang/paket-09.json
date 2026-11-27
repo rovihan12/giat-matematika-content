@@ -21,10 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah $< 5$: $2, 3, 4$ $\\rightarrow$ $(1,1), (1,2), (2,1), (1,3), (2,2), (3,1)$ (6 pasangan)." },
-        { "tipe": "paragraph", "text": "Jumlah $> 10$: $11, 12$ $\\rightarrow$ $(5,6), (6,5), (6,6)$ (3 pasangan)." },
-        { "tipe": "paragraph", "text": "Kedua kejadian saling lepas $\\rightarrow n(A) = 6 + 3 = 9$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{9}{36} = \\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan berjumlah kurang dari $5$ dan lebih dari $10$**" },
+        { "tipe": "paragraph", "text": "Jumlah kurang dari $5$ ($2, 3, 4$) terdiri dari $(1,1), (1,2), (2,1), (1,3), (2,2), (3,1)$ ($6$ pasangan), sedangkan jumlah lebih dari $10$ ($11, 12$) terdiri dari $(5,6), (6,5), (6,6)$ ($3$ pasangan). Kedua kejadian saling lepas sehingga $n(A) = 6 + 3 = 9$ dari $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{9}{36} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu kurang dari $5$ atau lebih dari $10$ adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -42,9 +42,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Siswa menyukai salah satu/keduanya: $N(M \\cup F) = 55 + 40 - 20 = 75$." },
-        { "tipe": "paragraph", "text": "Siswa tidak menyukai keduanya: $100 - 75 = 25$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{25}{100} = \\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak siswa yang menyukai matematika atau fisika**" },
+        { "tipe": "paragraph", "text": "Dengan aturan inklusi-eksklusi, banyak siswa yang menyukai paling sedikit satu mata pelajaran adalah $n(M \\cup F) = 55 + 40 - 20 = 75$ siswa." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang siswa yang tidak menyukai keduanya**" },
+        { "tipe": "paragraph", "text": "Siswa yang tidak menyukai matematika maupun fisika berjumlah $100 - 75 = 25$ siswa dari $100$ siswa." },
+        { "tipe": "formula_block", "latex": "P((M \\cup F)^c) = \\dfrac{25}{100} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang siswa tersebut tidak menyukai matematika maupun fisika adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -62,9 +65,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu genap: $5 \\times 4 = 20$ kartu. Kartu keriting: $13$ kartu." },
-        { "tipe": "paragraph", "text": "Kartu genap DAN keriting: $5$ kartu." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{20 + 13 - 5}{52} = \\dfrac{28}{52} = \\dfrac{7}{13}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak kartu genap, kartu keriting, dan irisannya**" },
+        { "tipe": "paragraph", "text": "Dalam satu set kartu bridge ($n(S) = 52$), terdapat $5 \\times 4 = 20$ kartu bernomor genap, $13$ kartu keriting, dan $5$ kartu yang sekaligus bernomor genap serta keriting." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang gabungan kejadian tidak saling lepas**" },
+        { "tipe": "formula_block", "latex": "P(G \\cup K) = \\dfrac{20 + 13 - 5}{52} = \\dfrac{28}{52} = \\dfrac{7}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu bernomor genap atau kartu bergambar keriting adalah **$\\dfrac{7}{13}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -82,8 +87,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Karena $A$ dan $B$ saling lepas, $P(A \\cup B) = P(A) + P(B) = 0{,}6 + 0{,}3 = 0{,}9$." },
-        { "tipe": "paragraph", "text": "Berdasarkan Hukum De Morgan, $P(A^c \\cap B^c) = P((A \\cup B)^c) = 1 - 0{,}9 = 0{,}1$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung $P(A \\cup B)$ karena $A$ dan $B$ saling lepas**" },
+        { "tipe": "paragraph", "text": "Karena saling lepas, peluang gabungan $A$ dan $B$ adalah jumlah kedua peluangnya." },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) = 0{,}6 + 0{,}3 = 0{,}9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan Hukum De Morgan dan komplemen untuk $P(A^c \\cap B^c)$**" },
+        { "tipe": "formula_block", "latex": "P(A^c \\cap B^c) = P((A \\cup B)^c) = 1 - 0{,}9 = 0{,}1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(A^c \\cap B^c)$ adalah **$0{,}1$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -101,9 +110,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah kelipatan $3$: $3, 6, 9, 12$." },
-        { "tipe": "paragraph", "text": "Banyak pasangan: $3(2) + 6(5) + 9(4) + 12(1) = 2 + 5 + 4 + 1 = 12$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{36} = \\dfrac{1}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah kelipatan $3$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Jumlah mata dadu kelipatan $3$ adalah $3$ ($2$ pasangan), $6$ ($5$ pasangan), $9$ ($4$ pasangan), dan $12$ ($1$ pasangan), sehingga $n(A) = 2 + 5 + 4 + 1 = 12$ dari $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{12}{36} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu kelipatan $3$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -121,8 +131,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang gagal dalam 1 tembakan: $P(\\text{gagal}) = 1 - 0{,}75 = 0{,}25 = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "Peluang gagal 4 kali berturut-turut: $\\left(\\dfrac{1}{4}\\right)^4 = \\dfrac{1}{256}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan peluang gagal dalam satu tembakan**" },
+        { "tipe": "paragraph", "text": "Peluang mengenai sasaran adalah $0{,}75$, sehingga peluang gagal pada satu tembakan adalah komplemennya: $P(\\text{gagal}) = 1 - 0{,}75 = 0{,}25 = \\dfrac{1}{4}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang gagal pada keempat tembakan yang saling bebas**" },
+        { "tipe": "formula_block", "latex": "P(\\text{gagal 4 kali}) = \\left(\\dfrac{1}{4}\\right)^4 = \\dfrac{1}{256}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang ia gagal mengenai sasaran pada keempat tembakan tersebut adalah **$\\dfrac{1}{256}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -140,8 +153,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0{,}5 + 0{,}4 - 0{,}7 = 0{,}2$." },
-        { "tipe": "paragraph", "text": "$P(A \\cap B^c) = P(A) - P(A \\cap B) = 0{,}5 - 0{,}2 = 0{,}3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang irisan $P(A \\cap B)$**" },
+        { "tipe": "formula_block", "latex": "P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0{,}5 + 0{,}4 - 0{,}7 = 0{,}2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $P(A \\cap B^c)$ (kejadian $A$ tetapi bukan $B$)**" },
+        { "tipe": "formula_block", "latex": "P(A \\cap B^c) = P(A) - P(A \\cap B) = 0{,}5 - 0{,}2 = 0{,}3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $P(A \\cap B^c)$ adalah **$0{,}3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -159,9 +175,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan komplemen: paling banyak 2 gambar = $1 - P(\\text{3 gambar})$." },
-        { "tipe": "paragraph", "text": "$P(\\text{3 gambar}) = P(GGG) = \\dfrac{1}{8}$." },
-        { "tipe": "paragraph", "text": "$P(\\text{paling banyak 2 gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang komplemennya, yaitu muncul $3$ gambar ($GGG$)**" },
+        { "tipe": "paragraph", "text": "Dari $2^3 = 8$ hasil pada pelemparan tiga koin, kejadian muncul $3$ gambar hanya ada $1$ hasil ($GGG$), sehingga $P(GGG) = \\dfrac{1}{8}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus komplemen untuk paling banyak $2$ gambar**" },
+        { "tipe": "formula_block", "latex": "P(\\text{paling banyak } 2 \\text{ gambar}) = 1 - P(GGG) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul paling banyak 2 gambar adalah **$\\dfrac{7}{8}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -179,10 +197,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Banyak bola merah = $\\dfrac{5}{8} \\times 8 = 5$ bola $\\rightarrow$ bola kuning = $8 - 5 = 3$ bola." },
-        { "tipe": "paragraph", "text": "$n(S) = C(8,2) = 28$." },
-        { "tipe": "paragraph", "text": "$n(\\text{2 kuning}) = C(3,2) = 3$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{28}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak bola merah dan bola kuning di dalam kotak**" },
+        { "tipe": "paragraph", "text": "Dari $8$ bola dengan peluang terambil merah $\\dfrac{5}{8}$, terdapat $\\dfrac{5}{8} \\times 8 = 5$ bola merah dan $8 - 5 = 3$ bola kuning." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang terambil $2$ bola kuning sekaligus menggunakan kombinasi**" },
+        { "tipe": "formula_block", "latex": "P(\\text{2 kuning}) = \\dfrac{C(3, 2)}{C(8, 2)} = \\dfrac{3}{28}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil 2 bola kuning sekaligus adalah **$\\dfrac{3}{28}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -200,9 +219,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dadu 1 bukan angka $6$: 5 kemungkinan. Dadu 2 bukan angka $6$: 5 kemungkinan." },
-        { "tipe": "paragraph", "text": "Banyak pasangan = $5 \\times 5 = 25$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{25}{36}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu tanpa angka $6$**" },
+        { "tipe": "paragraph", "text": "Setiap dadu memiliki $5$ pilihan mata dadu selain $6$ ($1, 2, 3, 4, 5$), sehingga banyak pasangan tanpa angka $6$ adalah $5 \\times 5 = 25$ dari $36$ pasangan ruang sampel." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak ada } 6) = \\dfrac{25}{36}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul kedua mata dadu tidak ada yang bernilai $6$ adalah **$\\dfrac{25}{36}$**." }
       ],
       "tingkat": "SEDANG"
     }
