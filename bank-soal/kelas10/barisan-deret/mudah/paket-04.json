@@ -21,10 +21,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 5$) dan beda ($b = 10 - 5 = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$ untuk mencari $U_{20}$." },
-        { "tipe": "paragraph", "text": "$U_{20} = 5 + (20 - 1) \\cdot 5 = 5 + 19 \\cdot 5 = 5 + 95 = 100$" },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-20 adalah $100$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 5$) dan beda ($b = 10 - 5 = 5$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_{20}$ menggunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_{20} = 5 + (20 - 1) \\cdot 5 = 5 + 19 \\cdot 5 = 5 + 95 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-20 barisan tersebut adalah **$100$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -42,10 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 3$) dan rasio ($r = \\dfrac{6}{3} = 2$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$ untuk mencari $U_7$." },
-        { "tipe": "paragraph", "text": "$U_7 = 3 \\cdot 2^{7-1} = 3 \\cdot 2^6 = 3 \\cdot 64 = 192$" },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-7 adalah $192$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 3$) dan rasio ($r = \\dfrac{6}{3} = 2$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_7$ menggunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$." },
+        { "tipe": "formula_block", "latex": "U_7 = 3 \\cdot 2^{7-1} = 3 \\cdot 2^6 = 3 \\cdot 64 = 192" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-7 barisan geometri tersebut adalah **$192$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -63,10 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Perhatikan jumlah suku pada barisan tersebut yang berjumlah $5$ suku (ganjil)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Suku tengah terletak di posisi ke-$3$ ($U_3$) dari barisan tersebut." },
-        { "tipe": "paragraph", "text": "$U_3 = 8$" },
-        { "tipe": "paragraph", "text": "Jadi, suku tengahnya adalah $8$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan posisi suku tengah dari barisan ganjil ($5$ suku)**" },
+        { "tipe": "paragraph", "text": "Pada barisan $2, 5, 8, 11, 14$, suku tengah berada di urutan ke-$3$ ($U_3$)." },
+        { "tipe": "formula_block", "latex": "U_3 = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku tengah barisan aritmatika tersebut adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -84,10 +84,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 100$) dan beda ($b = 95 - 100 = -5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus $U_n = a + (n-1)b$ untuk mencari $U_{15}$." },
-        { "tipe": "paragraph", "text": "$U_{15} = 100 + (15 - 1) \\cdot (-5) = 100 + 14 \\cdot (-5) = 100 - 70 = 30$" },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-15 adalah $30$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 100$) dan beda ($b = 95 - 100 = -5$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_{15}$ menggunakan rumus $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_{15} = 100 + (15 - 1) \\cdot (-5) = 100 + 14 \\cdot (-5) = 100 - 70 = 30" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-15 barisan tersebut adalah **$30$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -105,9 +105,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret bilangan asli $S_n = \\dfrac{n(n+1)}{2}$ dengan $n = 20$." },
-        { "tipe": "paragraph", "text": "$S_{20} = \\dfrac{20(20 + 1)}{2} = \\dfrac{20 \\cdot 21}{2} = 10 \\cdot 21 = 210$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 20 suku pertama adalah $210$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jumlah $n$ bilangan asli pertama $S_n = \\dfrac{n(n + 1)}{2}$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $n = 20$ ke dalam rumus." },
+        { "tipe": "formula_block", "latex": "S_{20} = \\dfrac{20(20 + 1)}{2} = \\dfrac{20 \\cdot 21}{2} = 10 \\cdot 21 = 210" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $20$ suku pertama deret tersebut adalah **$210$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -125,10 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$) dan rasio ($r = \\dfrac{6}{2} = 3$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus $U_n = a \\cdot r^{n-1}$ untuk mencari suku ke-8." },
-        { "tipe": "paragraph", "text": "$U_8 = 2 \\cdot 3^{8-1} = 2 \\cdot 3^7 = 2 \\cdot 2187 = 4374$" },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-8 adalah $4374$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$) dan rasio ($r = \\dfrac{6}{2} = 3$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_8$ menggunakan rumus $U_n = a \\cdot r^{n-1}$." },
+        { "tipe": "formula_block", "latex": "U_8 = 2 \\cdot 3^{8-1} = 2 \\cdot 3^7 = 2 \\cdot 2187 = 4374" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-8 barisan geometri tersebut adalah **$4374$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -146,10 +147,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 4$) dan rasio ($r = \\dfrac{2}{4} = \\dfrac{1}{2}$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{4}{1 - \\dfrac{1}{2}} = \\dfrac{4}{\\dfrac{1}{2}} = 4 \\times 2 = 8$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tak hingga adalah $8$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 4$) dan rasio ($r = \\dfrac{2}{4} = \\dfrac{1}{2}$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_{\\infty}$ menggunakan rumus jumlah deret geometri tak hingga $S_{\\infty} = \\dfrac{a}{1 - r}$." },
+        { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{4}{1 - \\dfrac{1}{2}} = \\dfrac{4}{\\dfrac{1}{2}} = 4 \\times 2 = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret geometri tak hingga tersebut adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -167,10 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis pola barisan yang merupakan barisan kuadrat bilangan asli ($U_n = n^2$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 10$." },
-        { "tipe": "paragraph", "text": "$U_{10} = 10^2 = 100$" },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-10 adalah $100$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kenali pola kuadrat bilangan asli $U_n = n^2$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $n = 10$ ke dalam rumus pola tersebut." },
+        { "tipe": "formula_block", "latex": "U_{10} = 10^2 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-10 barisan tersebut adalah **$100$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -188,10 +189,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis pola barisan bilangan berpola perkalian berurutan $U_n = n(n+1)$." },
-        { "tipe": "paragraph", "text": "$U_1 = 1 \\cdot 2 = 2$, $U_2 = 2 \\cdot 3 = 6$, $U_3 = 3 \\cdot 4 = 12$, $U_4 = 4 \\cdot 5 = 20$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung suku ke-5 ($U_5$).rumus $U_5 = 5 \\cdot (5+1) = 5 \\cdot 6 = 30$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $30$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kenali pola perkalian dua bilangan berurutan $U_n = n(n + 1)$**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1 \\cdot 2 = 2, \\quad U_2 = 2 \\cdot 3 = 6, \\quad U_3 = 3 \\cdot 4 = 12, \\quad U_4 = 4 \\cdot 5 = 20" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-5 ($U_5$)**" },
+        { "tipe": "formula_block", "latex": "U_5 = 5 \\cdot (5 + 1) = 5 \\cdot 6 = 30" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-5 barisan tersebut adalah **$30$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -209,14 +211,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Periksa selisih antar suku yang berdekatan:" },
-        { "tipe": "paragraph", "text": "$3 - 2 = 1$" },
-        { "tipe": "paragraph", "text": "$5 - 3 = 2$" },
-        { "tipe": "paragraph", "text": "$8 - 5 = 3$" },
-        { "tipe": "paragraph", "text": "$12 - 8 = 4$" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Pola selisih bertambah $1$ secara konstan, sehingga selisih berikutnya adalah $5$." },
-        { "tipe": "paragraph", "text": "$U_6 = 12 + 5 = 17$" },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-6 adalah $17$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pola selisih antar suku yang berdekatan**" },
+        { "tipe": "formula_block", "latex": "3 - 2 = 1, \\quad 5 - 3 = 2, \\quad 8 - 5 = 3, \\quad 12 - 8 = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tambahkan selisih berikutnya ($5$) ke suku ke-5 ($12$)**" },
+        { "tipe": "formula_block", "latex": "U_6 = 12 + 5 = 17" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-6 barisan tersebut adalah **$17$**." }
       ],
       "tingkat": "MUDAH"
     }
