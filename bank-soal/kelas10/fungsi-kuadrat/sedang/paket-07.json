@@ -21,8 +21,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$t_p = -\\dfrac{30}{-10} = 3$ detik" },
-        { "tipe": "paragraph", "text": "$h_{max} = -5(9) + 30(3) = -45 + 90 = 45$ m" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung waktu mencapai titik puncak ($t_p$) menggunakan $t_p = -\\dfrac{b}{2a}$**" },
+        { "tipe": "formula_block", "latex": "t_p = -\\dfrac{30}{2(-5)} = 3 \\text{ detik}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $t = 3$ ke $h(t)$ untuk mencari tinggi maksimum ($h_{\\max}$)**" },
+        { "tipe": "formula_block", "latex": "h_{\\max} = -5(3)^2 + 30(3) = -45 + 90 = 45 \\text{ m}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, tinggi maksimum bola adalah **$45$ m**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -40,10 +43,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal panjang $p$, lebar $l$: $2(p + l) = 60 \\Rightarrow p + l = 30$." },
-        { "tipe": "paragraph", "text": "$L = p \\cdot l = p(30 - p) = -p^2 + 30p$" },
-        { "tipe": "paragraph", "text": "$p_{opt} = -\\dfrac{30}{-2} = 15$; $l = 15$." },
-        { "tipe": "paragraph", "text": "$L_{max} = 15 \\cdot 15 = 225$ cm²" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar dalam panjang dari keliling $2(p + l) = 60$**" },
+        { "tipe": "formula_block", "latex": "p + l = 30 \\Rightarrow l = 30 - p" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun fungsi luas $L(p)$ dan cari nilai maksimumnya**" },
+        { "tipe": "formula_block", "latex": "L(p) = p(30 - p) = -p^2 + 30p" },
+        { "tipe": "formula_block", "latex": "p_{\\text{opt}} = -\\dfrac{30}{2(-1)} = 15 \\Rightarrow L_{\\max} = 15(30 - 15) = 225 \\text{ cm}^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas maksimum persegi panjang tersebut adalah **$225$ cm²**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,8 +66,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{12}{-2} = 6$" },
-        { "tipe": "paragraph", "text": "$P_{max} = -(36) + 72 - 20 = 16$ juta" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah unit ($x_p$) untuk keuntungan maksimum dengan $x_p = -\\dfrac{b}{2a}$**" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{12}{2(-1)} = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 6$ ke fungsi keuntungan $P(x)$**" },
+        { "tipe": "formula_block", "latex": "P_{\\max} = -(6)^2 + 12(6) - 20 = -36 + 72 - 20 = 16 \\text{ juta rupiah}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, keuntungan maksimum adalah **$16$ juta**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,9 +88,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$h(t) = 0 \\Rightarrow 50t - 5t^2 = 0$" },
-        { "tipe": "paragraph", "text": "$5t(10 - t) = 0 \\Rightarrow t = 0$ (awal) atau $t = 10$ detik." },
-        { "tipe": "paragraph", "text": "Kembali ke tanah pada $t = 10$ detik." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Set ketinggian $h(t) = 0$ dan faktorkan persamaannya**" },
+        { "tipe": "formula_block", "latex": "50t - 5t^2 = 0 \\Rightarrow 5t(10 - t) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $t$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "t = 0 \\text{ (saat ditembakkan)} \\qquad \\text{atau} \\qquad 10 - t = 0 \\Rightarrow t = 10 \\text{ detik}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluru kembali ke tanah pada saat **$10$ detik**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -100,9 +110,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal bilangan $x$ dan $24 - x$." },
-        { "tipe": "paragraph", "text": "$P = x(24 - x) = -x^2 + 24x$" },
-        { "tipe": "paragraph", "text": "$x_p = 12$; $P_{max} = 12 \\cdot 12 = 144$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan kedua bilangan adalah $x$ dan $24 - x$, lalu susun fungsi hasil kali $P(x)$**" },
+        { "tipe": "formula_block", "latex": "P(x) = x(24 - x) = -x^2 + 24x" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai $x$ puncak dan hitung hasil kali maksimumnya**" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{24}{2(-1)} = 12 \\Rightarrow P_{\\max} = 12(24 - 12) = 144" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil kali maksimum kedua bilangan tersebut adalah **$144$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -120,8 +132,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{-6}{6} = 1$" },
-        { "tipe": "paragraph", "text": "$y_{min} = 3 - 6 + 8 = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung absis titik puncak ($x_p$) menggunakan $x_p = -\\dfrac{b}{2a}$**" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{-6}{2(3)} = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 1$ ke fungsi untuk mencari nilai minimum ($y_{\\min}$)**" },
+        { "tipe": "formula_block", "latex": "y_{\\min} = 3(1)^2 - 6(1) + 8 = 3 - 6 + 8 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai minimum fungsi tersebut adalah **$5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -139,8 +154,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Akar real: $D \\geq 0$" },
-        { "tipe": "paragraph", "text": "$49 - 4k \\geq 0 \\Rightarrow k \\leq \\dfrac{49}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat akar-akar real yaitu $D \\geq 0$**" },
+        { "tipe": "formula_block", "latex": "D = (-7)^2 - 4(1)(k) \\geq 0 \\Rightarrow 49 - 4k \\geq 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan untuk mencari batas nilai $k$**" },
+        { "tipe": "formula_block", "latex": "-4k \\geq -49 \\Rightarrow k \\leq \\dfrac{49}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan memiliki akar-akar real jika **$k \\leq \\dfrac{49}{4}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -158,9 +176,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -2$; $\\alpha\\beta = -8$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{(\\alpha+\\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta} = \\dfrac{4 + 16}{-8} = -\\dfrac{20}{8} = -\\dfrac{5}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 + 2x - 8 = 0$**" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -2, \\qquad \\alpha\\beta = -8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan nyatakan dalam $(\\alpha + \\beta)^2 - 2\\alpha\\beta$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diperoleh**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{(-2)^2 - 2(-8)}{-8} = \\dfrac{4 + 16}{-8} = -\\dfrac{20}{8} = -\\dfrac{5}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}$ adalah **$-\\dfrac{5}{2}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -178,8 +200,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Menyinggung: $D = 0$" },
-        { "tipe": "paragraph", "text": "$36 - 4m = 0 \\Rightarrow m = 9$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat menyinggung sumbu-$x$ yaitu $D = 0$**" },
+        { "tipe": "formula_block", "latex": "D = (-6)^2 - 4(1)(m) = 0 \\Rightarrow 36 - 4m = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $m$**" },
+        { "tipe": "formula_block", "latex": "4m = 36 \\Rightarrow m = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $m$ adalah **$9$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -197,8 +222,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik puncak $(2, -9)$: $-\\dfrac{b}{2} = 2 \\Rightarrow b = -4$" },
-        { "tipe": "paragraph", "text": "Substitusi $(2, -9)$: $4 - 8 + c = -9 \\Rightarrow c = -5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan absis titik puncak $x_p = 2$ untuk mencari nilai $b$**" },
+        { "tipe": "formula_block", "latex": "-\\dfrac{b}{2(1)} = 2 \\Rightarrow -b = 4 \\Rightarrow b = -4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan titik puncak $(2, -9)$ dan $b = -4$ ke persamaan fungsi**" },
+        { "tipe": "formula_block", "latex": "-9 = (2)^2 + (-4)(2) + c \\Rightarrow -9 = 4 - 8 + c \\Rightarrow c = -5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $c$ adalah **$-5$**." }
       ],
       "tingkat": "SEDANG"
     }
