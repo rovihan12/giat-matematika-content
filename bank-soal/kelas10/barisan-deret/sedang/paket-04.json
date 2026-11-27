@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis pola barisan bilangan tersebut. Suku-suku dapat dinyatakan sebagai hasil kali dua bilangan asli berurutan: $1 \\cdot 2 = 2$, $2 \\cdot 3 = 6$, $3 \\cdot 4 = 12$, $4 \\cdot 5 = 20$, dan seterusnya." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Rumus umum suku ke-$n$ dari pola tersebut adalah $U_n = n(n+1) = n^2 + n$." },
-        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = n^2 + n$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis pola perkalian dua bilangan asli berurutan**" },
+        { "tipe": "formula_block", "latex": "U_1 = 1 \\cdot 2 = 2, \\quad U_2 = 2 \\cdot 3 = 6, \\quad U_3 = 3 \\cdot 4 = 12, \\quad U_4 = 4 \\cdot 5 = 20" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Rumuskan suku ke-$n$ dari pola tersebut**" },
+        { "tipe": "formula_block", "latex": "U_n = n(n + 1) = n^2 + n" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus suku ke-$n$ barisan tersebut adalah **$U_n = n^2 + n$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,11 +43,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) menggunakan selisih persamaan yang diketahui: $(U_4 + U_6) - (U_3 + U_5) = 38 - 30 \\Rightarrow 2b = 8 \\Rightarrow b = 4$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan persamaan $U_3 + U_5 = 30$ ke dalam bentuk $a$ dan $b$: $(a + 2b) + (a + 4b) = 30 \\Rightarrow 2a + 6b = 30$." },
-        { "tipe": "paragraph", "text": "Substitusikan nilai $b = 4$: $2a + 6(4) = 30 \\Rightarrow 2a + 24 = 30 \\Rightarrow 2a = 6 \\Rightarrow a = 3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung suku ke-8 ($U_8$) menggunakan rumus $U_n = a + (n-1)b$: $U_8 = 3 + (8 - 1) \\cdot 4 = 3 + 7 \\cdot 4 = 3 + 28 = 31$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-8 adalah $31$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan beda ($b$) dari selisih kedua persamaan**" },
+        { "tipe": "formula_block", "latex": "(U_4 + U_6) - (U_3 + U_5) = 38 - 30 \\Rightarrow 2b = 8 \\Rightarrow b = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan suku pertama ($a$) dari persamaan $U_3 + U_5 = 30$**" },
+        { "tipe": "formula_block", "latex": "(a + 2b) + (a + 4b) = 30 \\Rightarrow 2a + 6(4) = 30 \\Rightarrow 2a = 6 \\Rightarrow a = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung suku ke-8 ($U_8$) dengan rumus $U_n = a + (n - 1)b$**" },
+        { "tipe": "formula_block", "latex": "U_8 = 3 + (8 - 1) \\cdot 4 = 3 + 28 = 31" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-8 deret aritmatika tersebut adalah **$31$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -63,11 +67,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$) dan rasio ($r = 3$) dari deret geometri tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah $n$ suku pertama $S_n = \\dfrac{a(r^n - 1)}{r - 1}$, dengan $S_n = 364$." },
-        { "tipe": "paragraph", "text": "$\\dfrac{1(3^n - 1)}{3 - 1} = 364 \\Rightarrow \\dfrac{3^n - 1}{2} = 364 \\Rightarrow 3^n - 1 = 728 \\Rightarrow 3^n = 729$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Nyatakan $729$ sebagai perpangkatan basis $3$, yaitu $3^6 = 729$, sehingga diperoleh $n = 6$." },
-        { "tipe": "paragraph", "text": "Jadi, nilai $n$ adalah $6$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi suku pertama ($a = 1$) dan rasio ($r = 3$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke rumus jumlah $n$ suku pertama deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$ dengan $S_n = 364$." },
+        { "tipe": "formula_block", "latex": "\\dfrac{1(3^n - 1)}{3 - 1} = 364 \\Rightarrow 3^n - 1 = 728 \\Rightarrow 3^n = 729" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Ubah $729$ menjadi perpangkatan basis $3$ untuk mencari $n$**" },
+        { "tipe": "formula_block", "latex": "3^n = 3^6 \\Rightarrow n = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $n$ adalah **$6$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -85,12 +90,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) menggunakan rumus $b = \\dfrac{U_7 - U_3}{7 - 3}$." },
-        { "tipe": "paragraph", "text": "$b = \\dfrac{20 - 8}{4} = \\dfrac{12}{4} = 3$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku pertama ($a$) menggunakan persamaan $U_3 = a + 2b = 8 \\Rightarrow a + 2(3) = 8 \\Rightarrow a + 6 = 8 \\Rightarrow a = 2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung suku ke-10 ($U_{10}$) menggunakan rumus $U_n = a + (n-1)b$." },
-        { "tipe": "paragraph", "text": "$U_{10} = 2 + (10 - 1) \\cdot 3 = 2 + 9 \\cdot 3 = 2 + 27 = 29$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-10 adalah $29$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan beda ($b$) dan suku pertama ($a$)**" },
+        { "tipe": "formula_block", "latex": "b = \\dfrac{U_7 - U_3}{7 - 3} = \\dfrac{20 - 8}{4} = 3" },
+        { "tipe": "formula_block", "latex": "U_3 = a + 2b = 8 \\Rightarrow a + 2(3) = 8 \\Rightarrow a = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-10 ($U_{10}$) menggunakan $U_n = a + (n - 1)b$**" },
+        { "tipe": "formula_block", "latex": "U_{10} = 2 + (10 - 1) \\cdot 3 = 2 + 27 = 29" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-10 barisan aritmatika tersebut adalah **$29$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -108,9 +113,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$, dengan $a = 6$ dan $r = \\dfrac{1}{3}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{6}{1 - \\dfrac{1}{3}} = \\dfrac{6}{\\dfrac{2}{3}} = 6 \\times \\dfrac{3}{2} = 9$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $9$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jumlah deret geometri tak hingga $S_{\\infty} = \\dfrac{a}{1 - r}$**" },
+        { "tipe": "paragraph", "text": "Diketahui $a = 6$ dan $r = \\dfrac{1}{3}$." },
+        { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{6}{1 - \\dfrac{1}{3}} = \\dfrac{6}{\\dfrac{2}{3}} = 6 \\times \\dfrac{3}{2} = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret geometri tak hingga tersebut adalah **$9$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -128,11 +134,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Misalkan ketiga bilangan tersebut adalah $(a - b)$, $a$, dan $(a + b)$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan informasi jumlah ketiga bilangan: $(a - b) + a + (a + b) = 27 \\Rightarrow 3a = 27 \\Rightarrow a = 9$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Gunakan informasi hasil kali ketiga bilangan: $(9 - b) \\cdot 9 \\cdot (9 + b) = 504 \\Rightarrow (9 - b)(9 + b) = \\dfrac{504}{9} = 56$." },
-        { "tipe": "paragraph", "text": "$81 - b^2 = 56 \\Rightarrow b^2 = 81 - 56 = 25 \\Rightarrow b = 5$." },
-        { "tipe": "paragraph", "text": "Jadi, beda barisan tersebut adalah $5$ (pilihan keempat)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan ketiga bilangan sebagai $(a - b)$, $a$, dan $(a + b)$, lalu cari nilai $a$**" },
+        { "tipe": "formula_block", "latex": "(a - b) + a + (a + b) = 27 \\Rightarrow 3a = 27 \\Rightarrow a = 9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan informasi hasil kali ketiga bilangan untuk mencari beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "(9 - b) \\cdot 9 \\cdot (9 + b) = 504 \\Rightarrow 81 - b^2 = \\dfrac{504}{9} = 56" },
+        { "tipe": "formula_block", "latex": "b^2 = 81 - 56 = 25 \\Rightarrow b = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, beda barisan aritmatika tersebut adalah **$5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -150,10 +157,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$) dan rasio ($r = \\dfrac{2}{1} = 2$) dari barisan geometri tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$ untuk mencari suku ke-5 ($U_5$). Atau, perhatikan langsung suku ke-5 yang tertulis pada barisan ($1, 2, 4, 8, 16$ adalah suku ke-1 sampai ke-5)." },
-        { "tipe": "paragraph", "text": "$U_5 = 1 \\cdot 2^{5-1} = 1 \\cdot 2^4 = 16$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $16$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 1$) dan rasio ($r = 2$) barisan geometri**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$ untuk $n = 5$." },
+        { "tipe": "formula_block", "latex": "U_5 = 1 \\cdot 2^{5-1} = 1 \\cdot 2^4 = 16" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-5 barisan geometri tersebut adalah **$16$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -171,10 +178,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 5$), beda ($b = 9 - 5 = 4$), dan banyaknya suku ($n = 8$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2(5) + (8-1)4) = 4(10 + 7 \\cdot 4) = 4(10 + 28) = 4 \\cdot 38 = 152$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 8 suku pertama adalah $152$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $a = 5$, $b = 9 - 5 = 4$, dan $n = 8$**" },
+        { "tipe": "paragraph", "text": "Hitung $S_8$ menggunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "formula_block", "latex": "S_8 = \\dfrac{8}{2}\\left(2(5) + (8 - 1)4\\right) = 4(10 + 28) = 4 \\cdot 38 = 152" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $8$ suku pertama deret tersebut adalah **$152$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -192,10 +199,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan rasio ($r$) dengan membandingkan $U_4$ dan $U_1$: $\\dfrac{U_4}{U_1} = \\dfrac{24}{3} = 8 \\Rightarrow r^{4-1} = r^3 = 8 \\Rightarrow r = 2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah 5 suku pertama deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$, dengan $a = 3$, $r = 2$, dan $n = 5$." },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{3(2^5 - 1)}{2 - 1} = \\dfrac{3(32 - 1)}{1} = 3 \\cdot 31 = 93$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 5 suku pertamanya adalah $93$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) dari perbandingan $U_4$ dan $U_1$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{U_4}{U_1} = r^{4-1} \\Rightarrow \\dfrac{24}{3} = r^3 \\Rightarrow r^3 = 8 \\Rightarrow r = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah $5$ suku pertama ($S_5$) dengan $S_n = \\dfrac{a(r^n - 1)}{r - 1}$**" },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{3(2^5 - 1)}{2 - 1} = \\dfrac{3(32 - 1)}{1} = 3 \\cdot 31 = 93" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $5$ suku pertama deret geometri tersebut adalah **$93$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -213,11 +221,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan barisan kelipatan 5 yang kurang dari 100: $5, 10, 15, \\ldots, 95$ (membentuk barisan aritmatika dengan $a = 5$, $b = 5$, dan $U_n = 95$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tentukan banyaknya suku ($n$) dengan rumus $U_n = a + (n-1)b$: $95 = 5 + (n-1)5 \\Rightarrow 90 = 5(n-1) \\Rightarrow n-1 = 18 \\Rightarrow n = 19$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah deret menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$:" },
-        { "tipe": "paragraph", "text": "$S_{19} = \\dfrac{19}{2}(5 + 95) = \\dfrac{19}{2}(100) = 19 \\cdot 50 = 950$." },
-        { "tipx": "paragraph", "text": "Jadi, jumlahnya adalah $950$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi barisan kelipatan $5$ yang kurang dari $100$**" },
+        { "tipe": "paragraph", "text": "Barisannya adalah $5, 10, 15, \\ldots, 95$, dengan $a = 5$, $b = 5$, dan $U_n = 95$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyaknya suku ($n$) menggunakan $U_n = a + (n - 1)b$**" },
+        { "tipe": "formula_block", "latex": "95 = 5 + (n - 1)5 \\Rightarrow 90 = 5(n - 1) \\Rightarrow n - 1 = 18 \\Rightarrow n = 19" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah deret ($S_{19}$) menggunakan $S_n = \\dfrac{n}{2}(a + U_n)$**" },
+        { "tipe": "formula_block", "latex": "S_{19} = \\dfrac{19}{2}(5 + 95) = \\dfrac{19}{2}(100) = 19 \\cdot 50 = 950" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah semua bilangan asli kelipatan $5$ yang kurang dari $100$ adalah **$950$**." }
       ],
       "tingkat": "SEDANG"
     }
