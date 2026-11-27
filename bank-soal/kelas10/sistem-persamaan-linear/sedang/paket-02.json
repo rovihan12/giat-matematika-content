@@ -21,12 +21,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(i) $x + y + z = 6$; (ii) $2x - y + z = 3$; (iii) $x + 2y - z = 2$" },
-        { "tipe": "paragraph", "text": "(ii) $-$ (i): $x - 2y = -3$ … (iv)" },
-        { "tipe": "paragraph", "text": "(iii) + (i): $2x + 3y = 8$ … (v)" },
-        { "tipe": "paragraph", "text": "Dari (iv): $x = 2y - 3$. Substitusi (v): $4y - 6 + 3y = 8 \\Rightarrow 7y = 14 \\Rightarrow y = 2$" },
-        { "tipe": "paragraph", "text": "$x = 1$; dari (i): $1 + 2 + z = 6 \\Rightarrow z = 3$" },
-        { "tipe": "paragraph", "text": "HP = $\\{(1, 2, 3)\\}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $z$ untuk membentuk SPLDV dalam $x$ dan $y$**" },
+        { "tipe": "formula_block", "latex": "(2x - y + z) - (x + y + z) = 3 - 6 \\Rightarrow x - 2y = -3" },
+        { "tipe": "formula_block", "latex": "(x + 2y - z) + (x + y + z) = 2 + 6 \\Rightarrow 2x + 3y = 8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan SPLDV untuk memperoleh $x$, $y$, lalu substitusikan untuk mencari $z$**" },
+        { "tipe": "formula_block", "latex": "x = 2y - 3 \\Rightarrow 2(2y - 3) + 3y = 8 \\Rightarrow 7y = 14 \\Rightarrow y = 2, \\quad x = 1" },
+        { "tipe": "formula_block", "latex": "1 + 2 + z = 6 \\Rightarrow z = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian sistem tersebut adalah **$(1, 2, 3)$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -44,9 +45,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(i) $x + y + z = 8$; (ii) $x - y + z = 6$; (iii) $x + y - z = 4$" },
-        { "tipe": "paragraph", "text": "(i) $+$ (iii): $2x + 2y = 12 \\Rightarrow x + y = 6$" },
-        { "tipe": "paragraph", "text": "Substitusi ke (i): $6 + z = 8 \\Rightarrow z = 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $z$ dari persamaan pertama dan ketiga**" },
+        { "tipe": "formula_block", "latex": "(x + y + z) + (x + y - z) = 8 + 4 \\Rightarrow 2x + 2y = 12 \\Rightarrow x + y = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x + y = 6$ ke persamaan $x + y + z = 8$**" },
+        { "tipe": "formula_block", "latex": "6 + z = 8 \\Rightarrow z = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $z$ dari sistem tersebut adalah **$2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -64,8 +67,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan: $4x + 4y + 4z = 28$" },
-        { "tipe": "paragraph", "text": "$4(x + y + z) = 28 \\Rightarrow x + y + z = 7$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan untuk memperoleh nilai $x + y + z$**" },
+        { "tipe": "formula_block", "latex": "(2x + y + z) + (x + 2y + z) + (x + y + 2z) = 9 + 9 + 10 \\Rightarrow 4(x + y + z) = 28 \\Rightarrow x + y + z = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y + z$ sama dengan **$7$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -83,9 +87,12 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x + y + z = \\dfrac{5 + 7 + 6}{2} = 9$" },
-        { "tipe": "paragraph", "text": "$x = 9 - 7 = 2$; $y = 9 - 6 = 3$; $z = 9 - 5 = 4$" },
-        { "tipe": "paragraph", "text": "$xyz = 2 \\cdot 3 \\cdot 4 = 24$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan untuk memperoleh $x + y + z$, lalu cari masing-masing variabel**" },
+        { "tipe": "formula_block", "latex": "2(x + y + z) = 5 + 7 + 6 = 18 \\Rightarrow x + y + z = 9" },
+        { "tipe": "formula_block", "latex": "x = 9 - 7 = 2, \\qquad y = 9 - 6 = 3, \\qquad z = 9 - 5 = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai perkalian $xyz$**" },
+        { "tipe": "formula_block", "latex": "xyz = 2 \\cdot 3 \\cdot 4 = 24" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xyz$ adalah **$24$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -103,10 +110,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $x - y = 2 \\Rightarrow x = y + 2$" },
-        { "tipe": "paragraph", "text": "Dari $y - z = 2 \\Rightarrow z = y - 2$" },
-        { "tipe": "paragraph", "text": "Substitusi: $(y + 2) + y + (y - 2) = 12 \\Rightarrow 3y = 12 \\Rightarrow y = 4$" },
-        { "tipe": "paragraph", "text": "$x = 6$, $z = 2$. HP = $(6, 4, 2)$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $x$ dan $z$ dalam $y$, lalu substitusikan ke $x + y + z = 12$**" },
+        { "tipe": "formula_block", "latex": "x = y + 2 \\quad \\text{dan} \\quad z = y - 2" },
+        { "tipe": "formula_block", "latex": "(y + 2) + y + (y - 2) = 12 \\Rightarrow 3y = 12 \\Rightarrow y = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dan $z$**" },
+        { "tipe": "formula_block", "latex": "x = 4 + 2 = 6 \\quad \\text{dan} \\quad z = 4 - 2 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian sistem tersebut adalah **$(6, 4, 2)$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -124,12 +133,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(i) $2x + 3y - z = 4$; (ii) $x - y + 2z = 7$; (iii) $3x + 2y + z = 11$" },
-        { "tipe": "paragraph", "text": "(i) + (iii): $5x + 5y = 15 \\Rightarrow x + y = 3$ … (iv)" },
-        { "tipe": "paragraph", "text": "(ii) + 2(i): $x - y + 2z + 4x + 6y - 2z = 7 + 8$" },
-        { "tipe": "paragraph", "text": "$5x + 5y = 15 \\Rightarrow x + y = 3$ (konsisten)." },
-        { "tipe": "paragraph", "text": "Substitusi solusi $(2, 1, 3)$: cek (i) $4+3-3=4$ ✓; (ii) $2-1+6=7$ ✓; (iii) $6+2+3=11$ ✓." },
-        { "tipe": "paragraph", "text": "$x = 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $z$ pada pasangan persamaan pertama dan ketiga, serta kedua dan pertama**" },
+        { "tipe": "formula_block", "latex": "(2x + 3y - z) + (3x + 2y + z) = 4 + 11 \\Rightarrow 5x + 5y = 15 \\Rightarrow x + y = 3" },
+        { "tipe": "formula_block", "latex": "(x - y + 2z) + 2(2x + 3y - z) = 7 + 2(4) \\Rightarrow 5x + 5y = 15 \\Rightarrow x + y = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai solusi $(x, y, z) = (2, 1, 3)$ untuk memastikan pemenuhan sistem**" },
+        { "tipe": "formula_block", "latex": "2(2) + 3(1) - 3 = 4, \\quad 2 - 1 + 2(3) = 7, \\quad 3(2) + 2(1) + 3 = 11 \\Rightarrow x = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ dari sistem tersebut adalah **$2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -147,8 +156,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Solusi $(1, 2, 3)$: (i) $1+4+9=14$ ✓; (ii) $2+2+3=7$ ✓; (iii) $3+2+6=11$ ✓." },
-        { "tipe": "paragraph", "text": "$x + y + z = 1 + 2 + 3 = 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan sistem persamaan untuk memperoleh nilai $x$, $y$, dan $z$**" },
+        { "tipe": "formula_block", "latex": "(3x + y + 2z) - (2x + y + z) = 11 - 7 \\Rightarrow x + z = 4 \\Rightarrow z = 4 - x" },
+        { "tipe": "formula_block", "latex": "2x + y + (4 - x) = 7 \\Rightarrow y = 3 - x, \\qquad x + 2(3 - x) + 3(4 - x) = 14 \\Rightarrow 18 - 4x = 14 \\Rightarrow x = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $y$, $z$, dan jumlah $x + y + z$**" },
+        { "tipe": "formula_block", "latex": "y = 3 - 1 = 2, \\quad z = 4 - 1 = 3 \\Rightarrow x + y + z = 1 + 2 + 3 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y + z$ adalah **$6$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -166,10 +179,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $a$, $b$, $c$." },
-        { "tipe": "paragraph", "text": "$a + b + c = 18$; $b = 2a$; $c = b + 3 = 2a + 3$" },
-        { "tipe": "paragraph", "text": "$a + 2a + 2a + 3 = 18 \\Rightarrow 5a = 15 \\Rightarrow a = 3$" },
-        { "tipe": "paragraph", "text": "$b = 6$; $c = 9$. Terbesar $= 9$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan ketiga bilangan dalam variabel $a$ lalu jumlahkan sama dengan $18$**" },
+        { "tipe": "paragraph", "text": "Misalkan bilangan pertama adalah $a$, maka bilangan kedua adalah $b = 2a$ dan bilangan ketiga adalah $c = b + 3 = 2a + 3$." },
+        { "tipe": "formula_block", "latex": "a + 2a + (2a + 3) = 18 \\Rightarrow 5a + 3 = 18 \\Rightarrow 5a = 15 \\Rightarrow a = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan ketiga bilangan dan pilih yang terbesar**" },
+        { "tipe": "formula_block", "latex": "a = 3, \\qquad b = 2(3) = 6, \\qquad c = 6 + 3 = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan terbesar dari ketiga bilangan tersebut adalah **$9$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -187,11 +202,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Verifikasi $(2, 3, 5)$:" },
-        { "tipe": "paragraph", "text": "(i) $2+3+5=10$ ✓" },
-        { "tipe": "paragraph", "text": "(ii) $4+3-5=2$ ✓" },
-        { "tipe": "paragraph", "text": "(iii) $2-3+10=9$ ✓" },
-        { "tipe": "paragraph", "text": "HP = $\\{(2, 3, 5)\\}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $z$ dari persamaan pertama dan kedua**" },
+        { "tipe": "formula_block", "latex": "(x + y + z) + (2x + y - z) = 10 + 2 \\Rightarrow 3x + 2y = 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi variabel $z$ dari persamaan pertama dan ketiga, lalu selesaikan sistem**" },
+        { "tipe": "formula_block", "latex": "2(x + y + z) - (x - y + 2z) = 20 - 9 \\Rightarrow x + 3y = 11 \\Rightarrow x = 11 - 3y" },
+        { "tipe": "formula_block", "latex": "3(11 - 3y) + 2y = 12 \\Rightarrow 33 - 7y = 12 \\Rightarrow y = 3, \\quad x = 2, \\quad z = 10 - 2 - 3 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian sistem tersebut adalah **$(2, 3, 5)$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -209,11 +225,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "(i) $x + y + z = 6$; (ii) $x - y + z = 4$; (iii) $x + y - z = 2$" },
-        { "tipe": "paragraph", "text": "(i) + (iii): $2x + 2y = 8 \\Rightarrow x + y = 4$" },
-        { "tipe": "paragraph", "text": "(i) - (ii): $2y = 2 \\Rightarrow y = 1$" },
-        { "tipe": "paragraph", "text": "$x = 3$; dari (i): $3 + 1 + z = 6 \\Rightarrow z = 2$" },
-        { "tipe": "paragraph", "text": "$x + 2y + 3z = 3 + 2 + 6 = 11$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $x$, $y$, dan $z$ melalui penjumlahan dan pengurangan persamaan**" },
+        { "tipe": "formula_block", "latex": "(x + y + z) + (x + y - z) = 6 + 2 \\Rightarrow 2x + 2y = 8 \\Rightarrow x + y = 4" },
+        { "tipe": "formula_block", "latex": "(x + y + z) - (x - y + z) = 6 - 4 \\Rightarrow 2y = 2 \\Rightarrow y = 1, \\quad x = 3, \\quad z = 6 - 3 - 1 = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x + 2y + 3z$**" },
+        { "tipe": "formula_block", "latex": "x + 2y + 3z = 3 + 2(1) + 3(2) = 3 + 2 + 6 = 11" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + 2y + 3z$ adalah **$11$**." }
       ],
       "tingkat": "SEDANG"
-   
+    }
+  ]
+}
