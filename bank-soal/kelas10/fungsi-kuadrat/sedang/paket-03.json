@@ -22,7 +22,7 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan untuk menentukan $\\alpha$ dan $\\beta$ ($\\alpha > \\beta$)**" },
-        { "tipe": "formula_block", "latex": "x^2 - 7x + 10 = 0 \\Rightarrow (x - 5)(x - 2) = 0 \\Rightarrow \\alpha = 5, \\quad \\beta = 2" },
+        { "tipe": "formula_block", "latex": "x^2 - 7x + 10 = 0 \\Rightarrow (x - 5)(x - 2) = 0 \\Rightarrow \\alpha = 5, \\Rightarrow \\beta = 2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $\\alpha - \\beta$**" },
         { "tipe": "formula_block", "latex": "\\alpha - \\beta = 5 - 2 = 3" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha - \\beta$ adalah **$3$**." }
