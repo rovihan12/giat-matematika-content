@@ -1,222 +1,457 @@
 {
-  "id": "bs-k10-trig-sulit-02",
-  "nama": "Bank Soal Sulit - Paket 2",
-  "kelas": 10,
-  "kategori": "Trigonometri",
-  "tingkat": "SULIT",
-  "deskripsi": "Soal sulit tentang identitas trigonometri dan persamaan trigonometri",
-  "versi": "1.0.0",
-  "soal": [
-    {
-      "id": "bs-k10-trig-sulit-02-q01",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Bentuk identitas $\\dfrac{\\sin^2 \\alpha - \\sin^2 \\beta}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta}$ ekuivalen dengan..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\tan^2 \\alpha - \\tan^2 \\beta$" } ],
-        [ { "tipe": "paragraph", "text": "$\\tan^2 \\alpha + \\tan^2 \\beta$" } ],
-        [ { "tipe": "paragraph", "text": "$\\tan \\alpha - \\tan \\beta$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sec^2 \\alpha - \\sec^2 \\beta$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pisahkan pembilang menjadi dua pecahan lalu terapkan identitas $\\dfrac{\\sin^2 \\theta}{\\cos^2 \\theta} = \\tan^2 \\theta$**" },
-        { "formula_block", "latex": "\\dfrac{\\sin^2 \\alpha - \\sin^2 \\beta}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta} = \\dfrac{\\sin^2 \\alpha}{\\cos^2 \\alpha} \\cdot \\dfrac{1}{\\cos^2 \\beta} - \\dfrac{1}{\\cos^2 \\alpha} \\cdot \\dfrac{\\sin^2 \\beta}{\\cos^2 \\beta}" },
-        { "paragraph", "text": "Dengan menggunakan identitas $\\dfrac{\\sin^2 \\theta}{\\cos^2 \\theta} = \\tan^2 \\theta$ dan menyederhanakan faktor $\\sec^2$, bentuk tersebut bersesuaian dengan selisih kuadrat tangen $\\tan^2 \\alpha - \\tan^2 \\beta$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bentuk identitas tersebut ekuivalen dengan **$\\tan^2 \\alpha - \\tan^2 \\beta$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q02",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\sin 10^\\circ \\cdot \\sin 50^\\circ \\cdot \\sin 70^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas $\\sin \\theta \\sin(60^\\circ - \\theta)\\sin(60^\\circ + \\theta) = \\dfrac{1}{4}\\sin 3\\theta$ untuk $\\theta = 10^\\circ$**" },
-        { "formula_block", "latex": "\\sin 10^\\circ \\cdot \\sin 50^\\circ \\cdot \\sin 70^\\circ = \\dfrac{1}{4} \\sin(3 \\times 10^\\circ) = \\dfrac{1}{4} \\sin 30^\\circ = \\dfrac{1}{4} \\cdot \\dfrac{1}{2} = \\dfrac{1}{8}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai perkalian tersebut adalah **$\\dfrac{1}{8}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian $\\cos 2x = \\cos 60^\\circ$ untuk $0^\\circ \\leq x \\leq 360^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 330^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 150^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{60^\\circ, 300^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ, 150^\\circ, 270^\\circ\\}$" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus umum penyelesaian dari $\\cos 2x = \\cos 60^\\circ$**" },
-        { "formula_block", "latex": "2x = \\pm 60^\\circ + k \\cdot 360^\\circ \\Rightarrow x = 30^\\circ + k \\cdot 180^\\circ \\text{ atau } x = -30^\\circ + k \\cdot 180^\\circ" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Pilih nilai $x$ untuk $k \\in \\mathbb{Z}$ yang berada pada interval $0^\\circ \\leq x \\leq 360^\\circ$**" },
-        { "formula_block", "latex": "x = \\{30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ\\}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ\\}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $\\sin \\alpha + \\cos \\alpha = \\dfrac{1}{2}$, maka nilai $\\sin 2\\alpha$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{3}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan $\\sin \\alpha + \\cos \\alpha = \\dfrac{1}{2}$**" },
-        { "formula_block", "latex": "(\\sin \\alpha + \\cos \\alpha)^2 = \\left(\\dfrac{1}{2}\\right)^2 \\Rightarrow \\sin^2 \\alpha + 2\\sin \\alpha \\cos \\alpha + \\cos^2 \\alpha = \\dfrac{1}{4}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$ dan $2\\sin \\alpha \\cos \\alpha = \\sin 2\\alpha$**" },
-        { "formula_block", "latex": "1 + \\sin 2\\alpha = \\dfrac{1}{4} \\Rightarrow \\sin 2\\alpha = -\\dfrac{3}{4}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin 2\\alpha$ adalah **$-\\dfrac{3}{4}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q05",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\tan 20^\\circ \\cdot \\tan 40^\\circ \\cdot \\tan 80^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$3$" } ],
-        [ { "tipe": "paragraph", "text": "$\\tan 60^\\circ$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas $\\tan \\theta \\tan(60^\\circ - \\theta)\\tan(60^\\circ + \\theta) = \\tan 3\\theta$ untuk $\\theta = 20^\\circ$**" },
-        { "formula_block", "latex": "\\tan 20^\\circ \\cdot \\tan 40^\\circ \\cdot \\tan 80^\\circ = \\tan(3 \\times 20^\\circ) = \\tan 60^\\circ = \\sqrt{3}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai perkalian tersebut adalah **$\\sqrt{3}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{\\pi}{7} \\cdot \\cos\\dfrac{2\\pi}{7} \\cdot \\cos\\dfrac{3\\pi}{7}$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas $\\cos\\dfrac{\\pi}{2n+1}\\cos\\dfrac{2\\pi}{2n+1}\\cdots\\cos\\dfrac{n\\pi}{2n+1} = \\dfrac{1}{2^n}$ dengan $n = 3$**" },
-        { "formula_block", "latex": "\\cos\\dfrac{\\pi}{7} \\cdot \\cos\\dfrac{2\\pi}{7} \\cdot \\cos\\dfrac{3\\pi}{7} = \\dfrac{1}{2^3} = \\dfrac{1}{8}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai perkalian tersebut adalah **$\\dfrac{1}{8}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q07",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $\\cos x = \\dfrac{3}{5}$ dan $x$ di kuadran IV, maka nilai $\\sin 2x$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{24}{25}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{12}{25}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{7}{25}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\sin x$ di kuadran IV dari $\\cos x = \\dfrac{3}{5}$**" },
-        { "formula_block", "latex": "\\sin x = -\\sqrt{1 - \\cos^2 x} = -\\sqrt{1 - \\dfrac{9}{25}} = -\\dfrac{4}{5}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\sin 2x = 2\\sin x \\cos x$**" },
-        { "formula_block", "latex": "\\sin 2x = 2 \\cdot \\left(-\\dfrac{4}{5}\\right) \\cdot \\dfrac{3}{5} = -\\dfrac{24}{25}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin 2x$ adalah **$-\\dfrac{24}{25}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 3\\alpha}{\\sin \\alpha} - \\dfrac{\\cos 3\\alpha}{\\cos \\alpha}$ untuk $\\alpha = 20^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$1$" } ],
-        [ { "tipe": "paragraph", "text": "$2$" } ],
-        [ { "tipe": "paragraph", "text": "$4$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan $\\sin 3\\alpha$ dan $\\cos 3\\alpha$, lalu sederhanakan tiap pecahan**" },
-        { "formula_block", "latex": "\\dfrac{\\sin 3\\alpha}{\\sin \\alpha} - \\dfrac{\\cos 3\\alpha}{\\cos \\alpha} = (3 - 4\\sin^2 \\alpha) - (4\\cos^2 \\alpha - 3) = 6 - 4(\\sin^2 \\alpha + \\cos^2 \\alpha)" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$ (berlaku untuk setiap $\\alpha$, termasuk $\\alpha = 20^\\circ$)**" },
-        { "formula_block", "latex": "6 - 4(1) = 2" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ekspresi tersebut adalah **$2$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q09",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\sin 2x = \\sin 40^\\circ$ untuk $0^\\circ \\leq x \\leq 180^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\{20^\\circ, 70^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{20^\\circ, 40^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{20^\\circ, 160^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{40^\\circ, 70^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{20^\\circ, 40^\\circ, 70^\\circ\\}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus umum penyelesaian dari $\\sin 2x = \\sin 40^\\circ$**" },
-        { "formula_block", "latex": "2x = 40^\\circ + k \\cdot 360^\\circ \\Rightarrow x = 20^\\circ + k \\cdot 180^\\circ \\text{ atau } 2x = 140^\\circ + k \\cdot 360^\\circ \\Rightarrow x = 70^\\circ + k \\cdot 180^\\circ" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Pilih nilai $x$ pada interval $0^\\circ \\leq x \\leq 180^\\circ$ (untuk $k = 0$)**" },
-        { "formula_block", "latex": "x = \\{20^\\circ, 70^\\circ\\}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{20^\\circ, 70^\\circ\\}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-02-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai maksimum dari $f(x) = 3\\sin x + 4\\cos x$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$5$" } ],
-        [ { "tipe": "paragraph", "text": "$6$" } ],
-        [ { "tipe": "paragraph", "text": "$7$" } ],
-        [ { "tipe": "paragraph", "text": "$12$" } ],
-        [ { "tipe": "paragraph", "text": "$25$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai maksimum $\\sqrt{a^2 + b^2}$ untuk $a = 3$ dan $b = 4$**" },
-        { "formula_block", "latex": "f_{\\text{maks}} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai maksimum fungsi tersebut adalah **$5$**." }
-      ],
-      "tingkat": "SULIT"
-    }
-  ]
+
+"id": "bs-k10-trig-sulit-02",
+
+"nama": "Bank Soal Sulit - Paket 2",
+
+"kelas": 10,
+
+"kategori": "Trigonometri",
+
+"tingkat": "SULIT",
+
+"deskripsi": "Soal sulit tentang identitas trigonometri dan persamaan trigonometri",
+
+"versi": "1.0.0",
+
+"soal": [
+
+{
+
+"id": "bs-k10-trig-sulit-02-q01",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Bentuk identitas $\\dfrac{\\sin^2 \\alpha - \\sin^2 \\beta}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta}$ ekuivalen dengan..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\tan^2 \\alpha - \\tan^2 \\beta$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\tan^2 \\alpha + \\tan^2 \\beta$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\tan \\alpha - \\tan \\beta$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sec^2 \\alpha - \\sec^2 \\beta$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Uraikan pembilang menjadi selisih dua suku**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{\\sin^2 \\alpha - \\sin^2 \\beta}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta} = \\dfrac{\\sin^2 \\alpha}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta} - \\dfrac{\\sin^2 \\beta}{\\cos^2 \\alpha \\cdot \\cos^2 \\beta}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Kaitkan perbandingan $\\dfrac{\\sin^2}{\\cos^2}$ dengan bentuk tangen kuadrat**" },
+
+{ "tipe": "paragraph", "text": "Menggunakan identitas $\\dfrac{\\sin^2 \\theta}{\\cos^2 \\theta} = \\tan^2 \\theta$, bentuk tersebut bersesuaian dengan selisih kuadrat tangen $\\tan^2 \\alpha - \\tan^2 \\beta$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q02",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\sin 10^\\circ \\cdot \\sin 50^\\circ \\cdot \\sin 70^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Nyatakan sudut dalam bentuk $\\sin \\theta \\sin(60^\\circ - \\theta)\\sin(60^\\circ + \\theta)$**" },
+
+{ "tipe": "paragraph", "text": "Untuk $\\theta = 10^\\circ$, berlaku $50^\\circ = 60^\\circ - 10^\\circ$ dan $70^\\circ = 60^\\circ + 10^\\circ$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas perkalian sinus $\\sin \\theta \\sin(60^\\circ - \\theta)\\sin(60^\\circ + \\theta) = \\dfrac{1}{4}\\sin 3\\theta$**" },
+
+{ "tipe": "paragraph", "text": "$\\sin 10^\\circ \\cdot \\sin 50^\\circ \\cdot \\sin 70^\\circ = \\dfrac{1}{4} \\sin(3 \\times 10^\\circ) = \\dfrac{1}{4} \\sin 30^\\circ = \\dfrac{1}{4} \\cdot \\dfrac{1}{2} = \\dfrac{1}{8}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q03",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Himpunan penyelesaian $\\cos 2x = \\cos 60^\\circ$ untuk $0^\\circ \\leq x \\leq 360^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 330^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 150^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{60^\\circ, 300^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ, 150^\\circ, 270^\\circ\\}$" } ]
+
+],
+
+"jawaban_benar": 1,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus umum penyelesaian persamaan cosinus**" },
+
+{ "tipe": "paragraph", "text": "Dari $\\cos 2x = \\cos 60^\\circ$, diperoleh dua cabang penyelesaian:" },
+
+{ "tipe": "paragraph", "text": "• $2x = 60^\\circ + k \\cdot 360^\\circ \\Rightarrow x = 30^\\circ + k \\cdot 180^\\circ$" },
+
+{ "tipe": "paragraph", "text": "• $2x = -60^\\circ + k \\cdot 360^\\circ \\Rightarrow x = -30^\\circ + k \\cdot 180^\\circ$" },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Substitusikan bilangan bulat $k$ agar memenuhi $0^\\circ \\leq x \\leq 360^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "• Untuk $x = 30^\\circ + k \\cdot 180^\\circ$: $k = 0 \\Rightarrow x = 30^\\circ$ dan $k = 1 \\Rightarrow x = 210^\\circ$." },
+
+{ "tipe": "paragraph", "text": "• Untuk $x = -30^\\circ + k \\cdot 180^\\circ$: $k = 1 \\Rightarrow x = 150^\\circ$ dan $k = 2 \\Rightarrow x = 330^\\circ$." },
+
+{ "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{30^\\circ, 150^\\circ, 210^\\circ, 330^\\circ\\}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q04",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Jika $\\sin \\alpha + \\cos \\alpha = \\dfrac{1}{2}$, maka nilai $\\sin 2\\alpha$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{3}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan $\\sin \\alpha + \\cos \\alpha = \\dfrac{1}{2}$**" },
+
+{ "tipe": "paragraph", "text": "$(\\sin \\alpha + \\cos \\alpha)^2 = \\left(\\dfrac{1}{2}\\right)^2$" },
+
+{ "tipe": "paragraph", "text": "$\\sin^2 \\alpha + 2\\sin \\alpha \\cos \\alpha + \\cos^2 \\alpha = \\dfrac{1}{4}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$ dan $2\\sin \\alpha \\cos \\alpha = \\sin 2\\alpha$**" },
+
+{ "tipe": "paragraph", "text": "$1 + \\sin 2\\alpha = \\dfrac{1}{4} \\Rightarrow \\sin 2\\alpha = \\dfrac{1}{4} - 1 = -\\dfrac{3}{4}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q05",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\tan 20^\\circ \\cdot \\tan 40^\\circ \\cdot \\tan 80^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$1$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$3$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\tan 60^\\circ$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas perkalian tangen $\\tan \\theta \\tan(60^\\circ - \\theta)\\tan(60^\\circ + \\theta) = \\tan 3\\theta$**" },
+
+{ "tipe": "paragraph", "text": "Untuk $\\theta = 20^\\circ$, perhatikan bahwa $60^\\circ - 20^\\circ = 40^\\circ$ dan $60^\\circ + 20^\\circ = 80^\\circ$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $\\tan 3\\theta$**" },
+
+{ "tipe": "paragraph", "text": "$\\tan 20^\\circ \\cdot \\tan 40^\\circ \\cdot \\tan 80^\\circ = \\tan(3 \\times 20^\\circ) = \\tan 60^\\circ = \\sqrt{3}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q06",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{\\pi}{7} \\cdot \\cos\\dfrac{2\\pi}{7} \\cdot \\cos\\dfrac{3\\pi}{7}$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas perkalian cosinus $\\cos\\dfrac{\\pi}{2n+1}\\cos\\dfrac{2\\pi}{2n+1}\\cdots\\cos\\dfrac{n\\pi}{2n+1} = \\dfrac{1}{2^n}$**" },
+
+{ "tipe": "paragraph", "text": "Dengan $n = 3$, penyebutnya adalah $2n + 1 = 7$, sehingga rumusnya menjadi $\\cos\\dfrac{\\pi}{7} \\cdot \\cos\\dfrac{2\\pi}{7} \\cdot \\cos\\dfrac{3\\pi}{7} = \\dfrac{1}{2^3}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai pangkatnya**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{1}{2^3} = \\dfrac{1}{8}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q07",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Jika $\\cos x = \\dfrac{3}{5}$ dan $x$ di kuadran IV, maka nilai $\\sin 2x$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{24}{25}$" } ],
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{12}{25}$" } ],
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{7}{25}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{7}{25}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{24}{25}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $\\sin x$ pada kuadran IV**" },
+
+{ "tipe": "paragraph", "text": "Dari $\\cos x = \\dfrac{3}{5}$, sisi depan adalah $\\sqrt{5^2 - 3^2} = 4$. Karena $x$ berada di kuadran IV (nilai sinus negatif), maka $\\sin x = -\\dfrac{4}{5}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\sin 2x$ menggunakan rumus sudut ganda**" },
+
+{ "tipe": "paragraph", "text": "$\\sin 2x = 2 \\sin x \\cos x = 2 \\cdot \\left(-\\dfrac{4}{5}\\right) \\cdot \\dfrac{3}{5} = -\\dfrac{24}{25}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q08",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 3\\alpha}{\\sin \\alpha} - \\dfrac{\\cos 3\\alpha}{\\cos \\alpha}$ untuk $\\alpha = 20^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$1$" } ],
+
+[ { "tipe": "paragraph", "text": "$2$" } ],
+
+[ { "tipe": "paragraph", "text": "$4$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+
+],
+
+"jawaban_benar": 1,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Jabarkan $\\sin 3\\alpha$ dan $\\cos 3\\alpha$**" },
+
+{ "tipe": "paragraph", "text": "• $\\dfrac{\\sin 3\\alpha}{\\sin \\alpha} = \\dfrac{3\\sin \\alpha - 4\\sin^3 \\alpha}{\\sin \\alpha} = 3 - 4\\sin^2 \\alpha$" },
+
+{ "tipe": "paragraph", "text": "• $\\dfrac{\\cos 3\\alpha}{\\cos \\alpha} = \\dfrac{4\\cos^3 \\alpha - 3\\cos \\alpha}{\\cos \\alpha} = 4\\cos^2 \\alpha - 3$" },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Kurangkan kedua bentuk dan gunakan identitas Pythagoras**" },
+
+{ "tipe": "paragraph", "text": "$(3 - 4\\sin^2 \\alpha) - (4\\cos^2 \\alpha - 3) = 6 - 4(\\sin^2 \\alpha + \\cos^2 \\alpha) = 6 - 4(1) = 2$ (berlaku untuk setiap $\\alpha$, termasuk $\\alpha = 20^\\circ$)." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q09",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Himpunan penyelesaian dari $\\sin 2x = \\sin 40^\\circ$ untuk $0^\\circ \\leq x \\leq 180^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\{20^\\circ, 70^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{20^\\circ, 40^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{20^\\circ, 160^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{40^\\circ, 70^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{20^\\circ, 40^\\circ, 70^\\circ\\}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Tentukan rumus umum penyelesaian persamaan sinus**" },
+
+{ "tipe": "paragraph", "text": "Dari $\\sin 2x = \\sin 40^\\circ$, diperoleh dua cabang:" },
+
+{ "tipe": "paragraph", "text": "• $2x = 40^\\circ + k \\cdot 360^\\circ \\Rightarrow x = 20^\\circ + k \\cdot 180^\\circ$" },
+
+{ "tipe": "paragraph", "text": "• $2x = (180^\\circ - 40^\\circ) + k \\cdot 360^\\circ = 140^\\circ + k \\cdot 360^\\circ \\Rightarrow x = 70^\\circ + k \\cdot 180^\\circ$" },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Pilih nilai $x$ pada interval $0^\\circ \\leq x \\leq 180^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "Untuk $k = 0$, diperoleh $x = 20^\\circ$ dan $x = 70^\\circ$ (untuk $k = 1$, nilainya melebihi $180^\\circ$). Jadi, HP $= \\{20^\\circ, 70^\\circ\\}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-02-q10",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai maksimum dari $f(x) = 3\\sin x + 4\\cos x$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$5$" } ],
+
+[ { "tipe": "paragraph", "text": "$6$" } ],
+
+[ { "tipe": "paragraph", "text": "$7$" } ],
+
+[ { "tipe": "paragraph", "text": "$12$" } ],
+
+[ { "tipe": "paragraph", "text": "$25$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus nilai maksimum bentuk $a\\sin x + b\\cos x$**" },
+
+{ "tipe": "paragraph", "text": "Nilai maksimum bentuk $a\\sin x + b\\cos x$ adalah $\\sqrt{a^2 + b^2}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 3$ dan $b = 4$**" },
+
+{ "tipe": "paragraph", "text": "$f_{\\text{maks}} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$." }
+
+],
+
+"tingkat": "SULIT"
+
+}
+
+]
+
 }
