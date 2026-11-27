@@ -21,14 +21,13 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Ubah persamaan suku ke dalam bentuk suku pertama ($a$) dan beda ($b$). Diketahui $U_4 = a + 3b = 12$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Jabarkan persamaan $U_3 + U_7 = 28$:" },
-        { "tipe": "paragraph", "text": "$(a + 2b) + (a + 6b) = 28 \\Rightarrow 2a + 8b = 28 \\Rightarrow a + 4b = 14$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Eliminasi kedua persamaan untuk mencari beda ($b$):" },
-        { "tipe": "paragraph", "text": "$(a + 4b) - (a + 3b) = 14 - 12 \\Rightarrow b = 2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Substitusikan nilai $b = 2$ ke dalam persamaan $U_4$:" },
-        { "tipe": "paragraph", "text": "$a + 3(2) = 12 \\Rightarrow a + 6 = 12 \\Rightarrow a = 6$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $6$ (pilihan kelima)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan persamaan suku ke dalam suku pertama ($a$) dan beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "U_4 = a + 3b = 12" },
+        { "tipe": "formula_block", "latex": "U_3 + U_7 = (a + 2b) + (a + 6b) = 28 \\Rightarrow 2a + 8b = 28 \\Rightarrow a + 4b = 14" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi untuk mencari beda ($b$) lalu substitusi untuk mencari $a$**" },
+        { "tipe": "formula_block", "latex": "(a + 4b) - (a + 3b) = 14 - 12 \\Rightarrow b = 2" },
+        { "tipe": "formula_block", "latex": "a + 3(2) = 12 \\Rightarrow a + 6 = 12 \\Rightarrow a = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama barisan aritmatika tersebut adalah **$6$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -46,14 +45,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan hubungan antara jumlah suku ($S_n$) dan suku ke-$n$ ($U_n$), yaitu $U_n = S_n - S_{n-1}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung jumlah 6 suku pertama ($S_6$) dengan mensubstitusikan $n = 6$:" },
-        { "tipe": "paragraph", "text": "$S_6 = 6^2 + 3(6) = 36 + 18 = 54$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah 5 suku pertama ($S_5$) dengan mensubstitusikan $n = 5$:" },
-        { "tipe": "paragraph", "text": "$S_5 = 5^2 + 3(5) = 25 + 15 = 40$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 4:</strong> Cari nilai suku ke-6 ($U_6$):" },
-        { "tipe": "paragraph", "text": "$U_6 = S_6 - S_5 = 54 - 40 = 14$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-6 deret tersebut adalah $14$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah $6$ suku pertama ($S_6$) dan jumlah $5$ suku pertama ($S_5$)**" },
+        { "tipe": "formula_block", "latex": "S_6 = 6^2 + 3(6) = 36 + 18 = 54" },
+        { "tipe": "formula_block", "latex": "S_5 = 5^2 + 3(5) = 25 + 15 = 40" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-6 ($U_6$) menggunakan hubungan $U_n = S_n - S_{n-1}$**" },
+        { "tipe": "formula_block", "latex": "U_6 = S_6 - S_5 = 54 - 40 = 14" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-6 deret tersebut adalah **$14$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -71,10 +68,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = \\dfrac{2}{3}$) dan rasio ($r = \\dfrac{2/9}{2/3} = \\dfrac{1}{3}$) dari deret tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{\\dfrac{2}{3}}{1 - \\dfrac{1}{3}} = \\dfrac{\\dfrac{2}{3}}{\\dfrac{2}{3}} = 1$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tersebut adalah $1$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan rasio ($r$) deret geometri**" },
+        { "tipe": "formula_block", "latex": "a = \\dfrac{2}{3}, \\qquad r = \\dfrac{\\dfrac{2}{9}}{\\dfrac{2}{3}} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah tak hingga dengan rumus $S_{\\infty} = \\dfrac{a}{1 - r}$**" },
+        { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{\\dfrac{2}{3}}{1 - \\dfrac{1}{3}} = \\dfrac{\\dfrac{2}{3}}{\\dfrac{2}{3}} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah tak hingga deret geometri tersebut adalah **$1$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -92,11 +90,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi unsur barisan aritmatika: suku pertama ($a = 500.000$), beda kenaikan tiap bulan ($b = 50.000$), dan banyak bulan ($n = 12$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_{12} = \\dfrac{12}{2}(2(500.000) + (12 - 1) \\cdot 50.000) = 6(1.000.000 + 11 \\cdot 50.000)$." },
-        { "tipe": "paragraph", "text": "$S_{12} = 6(1.000.000 + 550.000) = 6 \\cdot 1.550.000 = 9.300.000$." },
-        { "tipe": "paragraph", "text": "Jadi, total tabungan setelah 12 bulan adalah Rp9.300.000 (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur deret aritmatika**" },
+        { "tipe": "paragraph", "text": "Diketahui setoran awal $a = 500.000$, kenaikan tiap bulan $b = 50.000$, dan banyak bulan $n = 12$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung total tabungan ($S_{12}$) menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
+        { "tipe": "formula_block", "latex": "S_{12} = \\dfrac{12}{2}\\left(2(500.000) + (12 - 1) \\cdot 50.000\\right) = 6(1.000.000 + 550.000) = 6 \\cdot 1.550.000 = 9.300.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, total tabungan setelah $12$ bulan adalah **Rp9.300.000**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -114,10 +112,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-6 dan suku ke-3 pada barisan geometri: $\\dfrac{U_6}{U_3} = \\dfrac{486}{18} = 27$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hubungkan dengan rumus suku ke-$n$: $\\dfrac{a \\cdot r^5}{a \\cdot r^2} = r^{5-2} = r^3 = 27$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Tarik akar pangkat tiga untuk mencari rasio ($r$): $r = \\sqrt[3]{27} = 3$." },
-        { "tipe": "paragraph", "text": "Jadi, rasio barisan tersebut adalah $3$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan $U_6$ dan $U_3$ untuk mencari nilai $r^3$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{U_6}{U_3} = r^{6 - 3} \\Rightarrow \\dfrac{486}{18} = r^3 \\Rightarrow 27 = r^3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tarik akar pangkat tiga untuk menentukan rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "r = \\sqrt[3]{27} = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rasio barisan geometri tersebut adalah **$3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -135,11 +134,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan barisan kelipatan 6 yang kurang dari 120: $6, 12, 18, \\ldots, 114$ (membentuk barisan aritmatika dengan $a = 6$, $b = 6$, dan $U_n = 114$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Hitung banyaknya suku ($n$) dengan rumus $U_n = a + (n-1)b$: $114 = 6 + (n-1)6 \\Rightarrow 108 = 6(n-1) \\Rightarrow n-1 = 18 \\Rightarrow n = 19$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 3:</strong> Hitung jumlah deret menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$:" },
-        { "tipe": "paragraph", "text": "$S_{19} = \\dfrac{19}{2}(6 + 114) = \\dfrac{19}{2}(120) = 19 \\cdot 60 = 1140$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlahnya adalah $1140$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi barisan kelipatan $6$ yang kurang dari $120$**" },
+        { "tipe": "paragraph", "text": "Barisannya adalah $6, 12, 18, \\ldots, 114$, sehingga $a = 6$, beda $b = 6$, dan suku terakhir $U_n = 114$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyak suku ($n$) menggunakan rumus $U_n = a + (n - 1)b$**" },
+        { "tipe": "formula_block", "latex": "114 = 6 + (n - 1)6 \\Rightarrow 108 = 6(n - 1) \\Rightarrow n - 1 = 18 \\Rightarrow n = 19" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah deret ($S_{19}$) menggunakan rumus $S_n = \\dfrac{n}{2}(a + U_n)$**" },
+        { "tipe": "formula_block", "latex": "S_{19} = \\dfrac{19}{2}(6 + 114) = \\dfrac{19}{2}(120) = 19 \\cdot 60 = 1140" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah semua bilangan asli kelipatan $6$ yang kurang dari $120$ adalah **$1140$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -155,17 +156,14 @@
         [ { "tipe": "paragraph", "text": "$5$" } ],
         [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
-      "jawaban_benar": 1,
+      "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ untuk $S_5$ dan $S_{10}$." },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{5}{2}(2a + 4b) = 40 \\Rightarrow 2a + 4b = 16 \\Rightarrow a + 2b = 8$ (Persamaan 1)" },
-        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2a + 9b) = 130 \\Rightarrow 2a + 9b = 26$ (Persamaan 2)" },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kalikan Persamaan 1 dengan 2, lalu eliminasi dengan Persamaan 2:" },
-        { "tipe": "paragraph", "text": "$2a + 4b = 16$" },
-        { "tipe": "paragraph", "text": "$2a + 9b = 26$" },
-        { "tipe": "paragraph", "text": "------------------------ (-)" },
-        { "tipe": "paragraph", "text": "$-5b = -10 \\Rightarrow b = 2$." },
-        { "tipe": "paragraph", "text": "Jadi, beda barisan tersebut adalah $2$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan dari $S_5$ dan $S_{10}$ menggunakan $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{5}{2}(2a + 4b) = 40 \\Rightarrow 2a + 4b = 16" },
+        { "tipe": "formula_block", "latex": "S_{10} = \\dfrac{10}{2}(2a + 9b) = 130 \\Rightarrow 2a + 9b = 26" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi $2a$ untuk menentukan beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "(2a + 9b) - (2a + 4b) = 26 - 16 \\Rightarrow 5b = 10 \\Rightarrow b = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, beda barisan aritmatika tersebut adalah **$2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -183,10 +181,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Bandingkan suku ke-6 dan suku ke-3 untuk mencari rasio ($r$): $\\dfrac{U_6}{U_3} = \\dfrac{128}{16} = 8 \\Rightarrow r^{6-3} = r^3 = 8 \\Rightarrow r = 2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Cari suku pertama ($a$) menggunakan rumus $U_3 = a \\cdot r^2 = 16$:" },
-        { "tipe": "paragraph", "text": "$a \\cdot 2^2 = 16 \\Rightarrow a \\cdot 4 = 16 \\Rightarrow a = 4$." },
-        { "tipe": "paragraph", "text": "Jadi, suku pertama barisan tersebut adalah $4$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) dari perbandingan $U_6$ dan $U_3$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{U_6}{U_3} = r^{6 - 3} \\Rightarrow \\dfrac{128}{16} = r^3 \\Rightarrow r^3 = 8 \\Rightarrow r = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku pertama ($a$) dari persamaan $U_3 = a \\cdot r^2$**" },
+        { "tipe": "formula_block", "latex": "a \\cdot 2^2 = 16 \\Rightarrow 4a = 16 \\Rightarrow a = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku pertama barisan geometri tersebut adalah **$4$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -204,10 +203,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$), beda ($b = 6 - 2 = 4$), dan banyaknya suku ($n = 15$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_{15} = \\dfrac{15}{2}(2(2) + (15 - 1) \\cdot 4) = \\dfrac{15}{2}(4 + 14 \\cdot 4) = \\dfrac{15}{2}(4 + 56) = \\dfrac{15}{2}(60) = 15 \\cdot 30 = 450$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 15 suku pertama adalah $450$ (pilihan keempat)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur deret aritmatika**" },
+        { "tipe": "paragraph", "text": "Diketahui $a = 2$, beda $b = 6 - 2 = 4$, dan banyak suku $n = 15$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $S_{15}$ menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
+        { "tipe": "formula_block", "latex": "S_{15} = \\dfrac{15}{2}\\left(2(2) + (15 - 1) \\cdot 4\\right) = \\dfrac{15}{2}(4 + 56) = \\dfrac{15}{2} \\cdot 60 = 15 \\cdot 30 = 450" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $15$ suku pertama deret tersebut adalah **$450$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -225,10 +225,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1 - r}$ dengan $S_\\infty = 16$ dan $a = 8$." },
-        { "tipe": "paragraph", "text": "$16 = \\dfrac{8}{1 - r} \\Rightarrow 1 - r = \\dfrac{8}{16} = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Selesaikan persamaan untuk mencari rasio ($r$): $r = 1 - \\dfrac{1}{2} = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "Jadi, rasio deret tersebut adalah $\\dfrac{1}{2}$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $S_{\\infty} = 16$ dan $a = 8$ ke rumus $S_{\\infty} = \\dfrac{a}{1 - r}$**" },
+        { "tipe": "formula_block", "latex": "16 = \\dfrac{8}{1 - r} \\Rightarrow 1 - r = \\dfrac{8}{16} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "r = 1 - \\dfrac{1}{2} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rasio deret geometri tersebut adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "SEDANG"
     }
