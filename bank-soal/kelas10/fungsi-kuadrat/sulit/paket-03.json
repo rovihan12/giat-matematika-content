@@ -21,15 +21,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk kuadrat untuk mencari pembuat nol.**" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 8 < 0$" },
-        { "tipe": "paragraph", "text": "$(x - 4)(x + 2) < 0$" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk kuadrat untuk mencari pembuat nol**" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x - 8 < 0 \\Rightarrow (x - 4)(x + 2) < 0" },
         { "tipe": "paragraph", "text": "Diperoleh pembuat nol $x = -2$ dan $x = 4$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval penyelesaian.**" },
-        { "tipe": "paragraph", "text": "Karena koefisien $x^2$ positif dan tanda pertidaksamaan $< 0$ (selang terbuka), maka daerah penyelesaian berada di antara kedua akar: $-2 < x < 4$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Daftarkan anggota bilangan bulat dalam interval tersebut.**" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval penyelesaian**" },
+        { "tipe": "paragraph", "text": "Karena koefisien $x^2$ positif dan tanda pertidaksamaan $< 0$ (selang terbuka), daerah penyelesaian berada di antara kedua akar:" },
+        { "tipe": "formula_block", "latex": "-2 < x < 4" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Daftarkan anggota bilangan bulat dalam interval tersebut**" },
         { "tipe": "paragraph", "text": "Bilangan bulat yang terletak di antara $-2$ dan $4$ (tanpa menyertakan $-2$ dan $4$) adalah $-1, 0, 1, 2, 3$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaiannya adalah $\\{-1, 0, 1, 2, 3\\}$." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{-1, 0, 1, 2, 3\\}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -47,17 +47,16 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang.**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{(x - 3)(x + 3)}{x + 1} \\geq 0$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik pembuat nol dan syarat penyebut.**" },
-        { "tipe": "paragraph", "text": "Pembuat nol pembilang: $x = -3$ dan $x = 3$ (selang tertutup karena tanda $\\geq$)." },
-        { "tipe": "paragraph", "text": "Pembuat nol penyebut: $x = -1$ (selang terbuka karena penyebut tidak boleh nol, $x \\neq -1$)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Uji tanda pada garis bilangan.**" },
-        { "tipe": "paragraph", "text": "Untuk $x < -3$ (misal $x = -4$): $\\dfrac{(-)(-)}{-} = -$ (tidak memenuhi)" },
-        { "tipe": "paragraph", "text": "Untuk $-3 < x < -1$ (misal $x = -2$): $\\dfrac{(-)(+)}{-} = +$ (memenuhi $\\geq 0$)" },
-        { "tipe": "paragraph", "text": "Untuk $-1 < x < 3$ (misal $x = 0$): $\\dfrac{(-)(+)}{+} = -$ (tidak memenuhi)" },
-        { "tipe": "paragraph", "text": "Untuk $x > 3$ (misal $x = 4$): $\\dfrac{(+)(+)}{+} = +$ (memenuhi $\\geq 0$)" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Daerah yang bertanda positif ($\\geq 0$) adalah $-3 \\leq x < -1$ atau $x \\geq 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk kuadrat pada pembilang**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{(x - 3)(x + 3)}{x + 1} \\geq 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik pembuat nol pembilang dan syarat penyebut**" },
+        { "tipe": "paragraph", "text": "Pembuat nol pembilang adalah $x = -3$ dan $x = 3$ (selang tertutup karena tanda $\\geq$), sedangkan pembuat nol penyebut adalah $x = -1$ (selang terbuka karena syarat $x \\neq -1$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Lakukan uji tanda pada garis bilangan untuk mencari daerah $\\geq 0$**" },
+        { "tipe": "formula_block", "latex": "x < -3 \\; (\\text{misal } x = -4) \\Rightarrow \\dfrac{(-)(-)}{(-)} = (-) \\quad [\\text{Tidak memenuhi}]" },
+        { "tipe": "formula_block", "latex": "-3 < x < -1 \\; (\\text{misal } x = -2) \\Rightarrow \\dfrac{(-)(+)}{(-)} = (+) \\quad [\\text{Memenuhi}]" },
+        { "tipe": "formula_block", "latex": "-1 < x < 3 \\; (\\text{misal } x = 0) \\Rightarrow \\dfrac{(-)(+)}{(+)} = (-) \\quad [\\text{Tidak memenuhi}]" },
+        { "tipe": "formula_block", "latex": "x > 3 \\; (\\text{misal } x = 4) \\Rightarrow \\dfrac{(+)(+)}{(+)} = (+) \\quad [\\text{Memenuhi}]" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-3 \\leq x < -1$ atau $x \\geq 3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -75,15 +74,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar (Teorema Vieta).**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 - 6x + 4 = 0$ ($a = 1$, $b = -6$, $c = 4$):" },
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{b}{a} = -\\dfrac{-6}{1} = 6$" },
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{c}{a} = \\dfrac{4}{1} = 4$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan ubah menggunakan identitas aljabar.**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui.**" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{(6)^2 - 2(4)}{4} = \\dfrac{36 - 8}{4} = \\dfrac{28}{4} = 7$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}$ adalah $7$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar (Teorema Vieta)**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 6x + 4 = 0$ ($a = 1$, $b = -6$, $c = 4$), diperoleh:" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{b}{a} = -\\dfrac{-6}{1} = 6" },
+        { "tipe": "formula_block", "latex": "\\alpha\\beta = \\dfrac{c}{a} = \\dfrac{4}{1} = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan ubah menggunakan identitas aljabar**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta} = \\dfrac{(6)^2 - 2(4)}{4} = \\dfrac{36 - 8}{4} = \\dfrac{28}{4} = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}$ adalah **$7$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -101,15 +100,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) dan periksa apakah berada di dalam interval.**" },
-        { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 4x + 7$, diketahui $a = 1 > 0$ (parabola terbuka ke atas) dan $b = -4$." },
-        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{b}{2a} = -\\dfrac{-4}{2(1)} = 2$" },
-        { "tipe": "paragraph", "text": "Karena $x_p = 2$ berada di dalam interval $0 \\leq x \\leq 5$, maka nilai minimum fungsi tercapai di titik puncak tersebut." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai fungsi di titik puncak dan bandingkan dengan batas interval.**" },
-        { "tipe": "paragraph", "text": "Nilai di titik puncak: $f(2) = (2)^2 - 4(2) + 7 = 4 - 8 + 7 = 3$" },
-        { "tipe": "paragraph", "text": "Nilai di ujung kiri: $f(0) = (0)^2 - 4(0) + 7 = 7$" },
-        { "tipe": "paragraph", "text": "Nilai di ujung kanan: $f(5) = (5)^2 - 4(5) + 7 = 25 - 20 + 7 = 12$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai minimum fungsi pada interval tersebut adalah $3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) dan periksa posisinya terhadap interval**" },
+        { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 4x + 7$, diketahui $a = 1 > 0$ (parabola terbuka ke atas) dan $b = -4$:" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{b}{2a} = -\\dfrac{-4}{2(1)} = 2" },
+        { "tipe": "paragraph", "text": "Karena $x_p = 2$ berada di dalam interval $0 \\leq x \\leq 5$, nilai minimum tercapai pada titik puncak tersebut." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai fungsi pada titik puncak dan kedua ujung interval**" },
+        { "tipe": "formula_block", "latex": "f(2) = (2)^2 - 4(2) + 7 = 4 - 8 + 7 = 3" },
+        { "tipe": "formula_block", "latex": "f(0) = (0)^2 - 4(0) + 7 = 7" },
+        { "tipe": "formula_block", "latex": "f(5) = (5)^2 - 4(5) + 7 = 25 - 20 + 7 = 12" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai minimum fungsi pada interval tersebut adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -127,20 +126,19 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat**" },
         { "tipe": "paragraph", "text": "Dari $x^2 + (p-1)x + 4 = 0$, diperoleh $a = 1$, $b = p - 1$, dan $c = 4$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan 3 syarat memiliki akar-akar real positif.**" },
-        { "tipe": "paragraph", "text": "**Syarat 1 — Memiliki akar real ($D \\geq 0$):**" },
-        { "tipe": "paragraph", "text": "$b^2 - 4ac \\geq 0 \\Rightarrow (p-1)^2 - 4(1)(4) \\geq 0$" },
-        { "tipe": "paragraph", "text": "$(p-1)^2 - 16 \\geq 0 \\Rightarrow (p - 1 - 4)(p - 1 + 4) \\geq 0$" },
-        { "tipe": "paragraph", "text": "$(p - 5)(p + 3) \\geq 0 \\Rightarrow p \\leq -3$ atau $p \\geq 5$" },
-        { "tipe": "paragraph", "text": "**Syarat 2 — Jumlah kedua akar positif ($x_1 + x_2 > 0$):**" },
-        { "tipe": "paragraph", "text": "$-\\dfrac{b}{a} > 0 \\Rightarrow -(p - 1) > 0 \\Rightarrow 1 - p > 0 \\Rightarrow p < 1$" },
-        { "tipe": "paragraph", "text": "**Syarat 3 — Hasil kali kedua akar positif ($x_1 \\cdot x_2 > 0$):**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{c}{a} > 0 \\Rightarrow 4 > 0$ (selalu terpenuhi)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan irisan dari semua syarat.**" },
-        { "tipe": "paragraph", "text": "Irisan dari $(p \\leq -3 \\text{ atau } p \\geq 5)$ dengan $(p < 1)$ adalah $p \\leq -3$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Batas nilai $p$ yang memenuhi adalah $p \\leq -3$." }
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan syarat memiliki akar-akar real ($D \\geq 0$)**" },
+        { "tipe": "formula_block", "latex": "b^2 - 4ac \\geq 0 \\Rightarrow (p-1)^2 - 4(1)(4) \\geq 0" },
+        { "tipe": "formula_block", "latex": "(p-1)^2 - 16 \\geq 0 \\Rightarrow (p - 5)(p + 3) \\geq 0" },
+        { "tipe": "formula_block", "latex": "p \\leq -3 \\quad \\text{atau} \\quad p \\geq 5" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Terapkan syarat jumlah ($x_1 + x_2 > 0$) dan hasil kali ($x_1 \\cdot x_2 > 0$) akar positif**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 > 0 \\Rightarrow -\\dfrac{b}{a} > 0 \\Rightarrow -(p - 1) > 0 \\Rightarrow p < 1" },
+        { "tipe": "formula_block", "latex": "x_1 \\cdot x_2 > 0 \\Rightarrow \\dfrac{c}{a} > 0 \\Rightarrow 4 > 0 \\quad [\\text{Selalu terpenuhi}]" },
+        { "tipe": "paragraph", "text": "**Langkah 4: Iriskan ketiga syarat tersebut**" },
+        { "tipe": "paragraph", "text": "Irisan dari $(p \\leq -3 \\text{ atau } p \\geq 5)$ dengan $p < 1$ menghasilkan:" },
+        { "tipe": "formula_block", "latex": "p \\leq -3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, batas nilai $p$ yang memenuhi adalah **$p \\leq -3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -158,16 +156,17 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan definisi persamaan nilai mutlak.**" },
-        { "tipe": "paragraph", "text": "Sifat $|f(x)| = a \\iff f(x) = a$ atau $f(x) = -a$, sehingga terbagi menjadi dua kasus." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan Kasus 1 ($x^2 - 3x = 4$).**" },
-        { "tipe": "paragraph", "text": "$x^2 - 3x - 4 = 0$" },
-        { "tipe": "paragraph", "text": "$(x - 4)(x + 1) = 0 \\Rightarrow x = 4$ atau $x = -1$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan Kasus 2 ($x^2 - 3x = -4$).**" },
-        { "tipe": "paragraph", "text": "$x^2 - 3x + 4 = 0$" },
-        { "tipe": "paragraph", "text": "Cek diskriminannya: $D = b^2 - 4ac = (-3)^2 - 4(1)(4) = 9 - 16 = -7 < 0$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan definisi persamaan nilai mutlak**" },
+        { "tipe": "paragraph", "text": "Berdasarkan sifat $|f(x)| = a \\iff f(x) = a$ atau $f(x) = -a$, persamaan terbagi menjadi dua kasus." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan Kasus 1 ($x^2 - 3x = 4$)**" },
+        { "tipe": "formula_block", "latex": "x^2 - 3x - 4 = 0 \\Rightarrow (x - 4)(x + 1) = 0" },
+        { "tipe": "formula_block", "latex": "x = 4 \\quad \\text{atau} \\quad x = -1" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan Kasus 2 ($x^2 - 3x = -4$)**" },
+        { "tipe": "formula_block", "latex": "x^2 - 3x + 4 = 0" },
+        { "tipe": "paragraph", "text": "Periksa nilai diskriminannya untuk memastikan keberadaan akar real:" },
+        { "tipe": "formula_block", "latex": "D = b^2 - 4ac = (-3)^2 - 4(1)(4) = 9 - 16 = -7 < 0" },
         { "tipe": "paragraph", "text": "Karena $D < 0$, persamaan pada Kasus 2 tidak memiliki akar real." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Gabungan solusi realnya adalah $\\{-1, 4\\}$." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{-1, 4\\}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -185,12 +184,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien persamaan kuadrat**" },
         { "tipe": "paragraph", "text": "Dari $x^2 - 2mx + (m+2) = 0$, diperoleh $a = 1$, $b = -2m$, dan $c = m + 2$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus hasil kali akar (Teorema Vieta).**" },
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{c}{a} \\Rightarrow 3 = \\dfrac{m + 2}{1}$" },
-        { "tipe": "paragraph", "text": "$m + 2 = 3 \\Rightarrow m = 3 - 2 = 1$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai $m$ yang memenuhi adalah $1$." }
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus hasil kali akar (Teorema Vieta)**" },
+        { "tipe": "formula_block", "latex": "\\alpha\\beta = \\dfrac{c}{a} \\Rightarrow 3 = \\dfrac{m + 2}{1}" },
+        { "tipe": "formula_block", "latex": "m + 2 = 3 \\Rightarrow m = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $m$ yang memenuhi adalah **$1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -208,15 +207,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk pertidaksamaan sesuai syarat fungsi bernilai positif ($f(x) > 0$).**" },
-        { "tipe": "paragraph", "text": "$-x^2 + 6x - 5 > 0$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan kedua ruas dengan $-1$ agar koefisien $x^2$ positif.**" },
-        { "tipe": "paragraph", "text": "Ingat bahwa mengalikan pertidaksamaan dengan bilangan negatif akan membalik arah tanda pertidaksamaan:" },
-        { "tipe": "paragraph", "text": "$x^2 - 6x + 5 < 0$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan dan tentukan interval penyelesaian.**" },
-        { "tipe": "paragraph", "text": "$(x - 1)(x - 5) < 0$" },
-        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = 1$ dan $x = 5$. Karena tanda $< 0$, maka daerah penyelesaian berada di antara kedua akar." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Fungsi bernilai positif pada interval $1 < x < 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk pertidaksamaan sesuai syarat fungsi bernilai positif ($f(x) > 0$)**" },
+        { "tipe": "formula_block", "latex": "-x^2 + 6x - 5 > 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan kedua ruas dengan $-1$ agar koefisien $x^2$ positif**" },
+        { "tipe": "paragraph", "text": "Mengalikan pertidaksamaan dengan bilangan negatif membalik arah tanda pertidaksamaan:" },
+        { "tipe": "formula_block", "latex": "x^2 - 6x + 5 < 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan dan tentukan interval penyelesaian**" },
+        { "tipe": "formula_block", "latex": "(x - 1)(x - 5) < 0" },
+        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = 1$ dan $x = 5$. Karena tanda $< 0$, daerah penyelesaian berada di antara kedua akar:" },
+        { "tipe": "formula_block", "latex": "1 < x < 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, fungsi bernilai positif pada interval **$1 < x < 5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -226,7 +226,7 @@
         { "tipe": "paragraph", "text": "Jika $\\alpha$ dan $\\beta$ akar-akar $x^2 - 7x + 10 = 0$, persamaan kuadrat baru dengan akar $\\alpha + 2$ dan $\\beta + 2$ adalah..." }
       ],
       "pilihan": [
-        [ { "tipe": "paragraph", "text": "$x^2 - 11x - 28 = 0$" },
+        [ { "tipe": "paragraph", "text": "$x^2 - 11x - 28 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 + 11x + 28 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 11x + 28 = 0$" } ],
         [ { "tipe": "paragraph", "text": "$x^2 - 11x + 30 = 0$" } ],
@@ -234,17 +234,17 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal.**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 - 7x + 10 = 0$ ($a = 1$, $b = -7$, $c = 10$):" },
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{-7}{1} = 7$" },
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{10}{1} = 10$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar-akar baru ($x_1 = \\alpha + 2$ dan $x_2 = \\beta + 2$).**" },
-        { "tipe": "paragraph", "text": "Jumlah akar baru: $x_1 + x_2 = (\\alpha + 2) + (\\beta + 2) = (\\alpha + \\beta) + 4 = 7 + 4 = 11$" },
-        { "tipe": "paragraph", "text": "Hasil kali akar baru: $x_1 \\cdot x_2 = (\\alpha + 2)(\\beta + 2) = \\alpha\\beta + 2(\\alpha + \\beta) + 4 = 10 + 2(7) + 4 = 28$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Susun persamaan kuadrat baru.**" },
-        { "tipe": "paragraph", "text": "$x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0$" },
-        { "tipe": "paragraph", "text": "$x^2 - 11x + 28 = 0$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Persamaan kuadrat barunya adalah $x^2 - 11x + 28 = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 7x + 10 = 0$ ($a = 1$, $b = -7$, $c = 10$), diperoleh:" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-7}{1} = 7" },
+        { "tipe": "formula_block", "latex": "\\alpha\\beta = \\dfrac{10}{1} = 10" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar-akar baru ($x_1 = \\alpha + 2$ dan $x_2 = \\beta + 2$)**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = (\\alpha + 2) + (\\beta + 2) = (\\alpha + \\beta) + 4 = 7 + 4 = 11" },
+        { "tipe": "formula_block", "latex": "x_1 \\cdot x_2 = (\\alpha + 2)(\\beta + 2) = \\alpha\\beta + 2(\\alpha + \\beta) + 4 = 10 + 2(7) + 4 = 28" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Susun persamaan kuadrat baru**" },
+        { "tipe": "formula_block", "latex": "x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0" },
+        { "tipe": "formula_block", "latex": "x^2 - 11x + 28 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat barunya adalah **$x^2 - 11x + 28 = 0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -262,16 +262,18 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan pertama.**" },
-        { "tipe": "paragraph", "text": "$x^2 - 5x + 6 > 0 \\Rightarrow (x - 2)(x - 3) > 0$" },
-        { "tipe": "paragraph", "text": "Pembuat nol $x = 2$ dan $x = 3$. Karena tanda $> 0$, penyelesaiannya adalah: $x < 2$ atau $x > 3$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan kedua.**" },
-        { "tipe": "paragraph", "text": "$x^2 - 8x + 15 \\leq 0 \\Rightarrow (x - 3)(x - 5) \\leq 0$" },
-        { "tipe": "paragraph", "text": "Pembuat nol $x = 3$ dan $x = 5$. Karena tanda $\\leq 0$, penyelesaiannya adalah: $3 \\leq x \\leq 5$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Cari irisan dari kedua penyelesaian.**" },
-        { "tipe": "paragraph", "text": "Kata hubung **dan** berarti mencari irisan antara $(x < 2 \\text{ atau } x > 3)$ dengan $(3 \\leq x \\leq 5)$." },
-        { "tipe": "paragraph", "text": "Perhatikan titik $x = 3$: pada pertidaksamaan pertama $x = 3$ tidak termasuk (selang terbuka $> 3$), sehingga pada irisannya $x = 3$ juga tidak termasuk." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaiannya adalah $3 < x \\leq 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan kuadrat pertama**" },
+        { "tipe": "formula_block", "latex": "x^2 - 5x + 6 > 0 \\Rightarrow (x - 2)(x - 3) > 0" },
+        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = 2$ dan $x = 3$. Karena tanda $> 0$, diperoleh interval pertama:" },
+        { "tipe": "formula_block", "latex": "x < 2 \\quad \\text{atau} \\quad x > 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan kuadrat kedua**" },
+        { "tipe": "formula_block", "latex": "x^2 - 8x + 15 \\leq 0 \\Rightarrow (x - 3)(x - 5) \\leq 0" },
+        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = 3$ dan $x = 5$. Karena tanda $\\leq 0$, diperoleh interval kedua:" },
+        { "tipe": "formula_block", "latex": "3 \\leq x \\leq 5" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Iriskan kedua interval penyelesaian**" },
+        { "tipe": "paragraph", "text": "Kata hubung **dan** menunjukkan irisan antara $(x < 2 \\text{ atau } x > 3)$ dengan $3 \\leq x \\leq 5$. Karena $x = 3$ tidak termuat pada pertidaksamaan pertama, diperoleh:" },
+        { "tipe": "formula_block", "latex": "3 < x \\leq 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$3 < x \\leq 5$**." }
       ],
       "tingkat": "SULIT"
     }
