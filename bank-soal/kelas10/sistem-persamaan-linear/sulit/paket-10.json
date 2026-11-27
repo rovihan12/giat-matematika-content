@@ -19,12 +19,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas jumlah pangkat tiga**" },
-        { "tipe": "paragraph", "text": "$a^3 + b^3 = (a + b)^3 - 3ab(a + b)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $a + b = 5$ dan $ab = 6$**" },
-        { "tipe": "paragraph", "text": "$a^3 + b^3 = (5)^3 - 3(6)(5)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung hasil akhirnya**" },
-        { "tipe": "paragraph", "text": "$a^3 + b^3 = 125 - 90 = 35$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas jumlah pangkat tiga dan substitusikan $a + b = 5$ serta $ab = 6$**" },
+        { "tipe": "formula_block", "latex": "a^3 + b^3 = (a + b)^3 - 3ab(a + b) = 5^3 - 3(6)(5) = 125 - 90 = 35" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a^3 + b^3$ adalah **$35$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -40,12 +37,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan bentuk kuadrat selisih $(x - y)^2$**" },
-        { "tipe": "paragraph", "text": "$(x - y)^2 = x^2 - 2xy + y^2 = (x^2 + y^2) - 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x^2 + y^2 = 20$ dan $xy = 8$**" },
-        { "tipe": "paragraph", "text": "$(x - y)^2 = 20 - 2(8)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung hasil akhirnya**" },
-        { "tipe": "paragraph", "text": "$(x - y)^2 = 20 - 16 = 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan $(x - y)^2$ dan substitusikan $x^2 + y^2 = 20$ serta $xy = 8$**" },
+        { "tipe": "formula_block", "latex": "(x - y)^2 = (x^2 + y^2) - 2xy = 20 - 2(8) = 20 - 16 = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $(x - y)^2$ adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -61,16 +55,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pembuat nol masing-masing nilai mutlak**" },
-        { "tipe": "paragraph", "text": "• $|x - 1| = 0 \\Rightarrow x = 1$" },
-        { "tipe": "paragraph", "text": "• $|x - 3| = 0 \\Rightarrow x = 3$" },
-        { "tipe": "paragraph", "text": "Kedua titik membagi garis bilangan menjadi 3 interval:" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Uji persamaan pada setiap interval**" },
-        { "tipe": "paragraph", "text": "• **Interval $x < 1$:** $-(x - 1) - (x - 3) = 2 \\Rightarrow -2x + 4 = 2 \\Rightarrow x = 1$ (tidak memenuhi syarat $x < 1$)." },
-        { "tipe": "paragraph", "text": "• **Interval $1 \\leq x \\leq 3$:** $(x - 1) - (x - 3) = 2 \\Rightarrow x - 1 - x + 3 = 2 \\Rightarrow 2 = 2$ (selalu benar untuk semua $x$ pada interval ini)." },
-        { "tipe": "paragraph", "text": "• **Interval $x > 3$:** $(x - 1) + (x - 3) = 2 \\Rightarrow 2x - 4 = 2 \\Rightarrow x = 3$ (tidak memenuhi syarat $x > 3$)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Kesimpulan**" },
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi adalah seluruh bilangan pada interval $1 \\leq x \\leq 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tinjau persamaan pada interval yang dibatasi pembuat nol $x = 1$ dan $x = 3$**" },
+        { "tipe": "formula_block", "latex": "x < 1 : -(x - 1) - (x - 3) = 2 \\Rightarrow x = 1 \\text{ (tidak memenuhi } x < 1\\text{)}" },
+        { "tipe": "formula_block", "latex": "1 \\leq x \\leq 3 : (x - 1) - (x - 3) = 2 \\Rightarrow 2 = 2 \\text{ (selalu benar)}" },
+        { "tipe": "formula_block", "latex": "x > 3 : (x - 1) + (x - 3) = 2 \\Rightarrow x = 3 \\text{ (tidak memenuhi } x > 3\\text{)}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$1 \\leq x \\leq 3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -86,20 +75,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Lakukan pemisalan variabel**" },
-        { "tipe": "paragraph", "text": "Misalkan $a = \\dfrac{1}{x}$ dan $b = \\dfrac{1}{y}$, sehingga sistem menjadi:" },
-        { "tipe": "paragraph", "text": "(1) $2a + 3b = 8$" },
-        { "tipe": "paragraph", "text": "(2) $3a + 2b = 7$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi variabel $b$**" },
-        { "tipe": "paragraph", "text": "Kalikan persamaan (1) dengan $2$ dan persamaan (2) dengan $3$, lalu kurangkan:" },
-        { "tipe": "paragraph", "text": "$3(3a + 2b) - 2(2a + 3b) = 3(7) - 2(8)$" },
-        { "tipe": "paragraph", "text": "$(9a + 6b) - (4a + 6b) = 21 - 16$" },
-        { "tipe": "paragraph", "text": "$5a = 5 \\Rightarrow a = 1$ — tunggu, periksa kembali: jika $a = 1$, maka dari (1) $2(1) + 3b = 8 \\Rightarrow 3b = 6 \\Rightarrow b = 2$." },
-        { "tipe": "paragraph", "text": "Cek ke persamaan (2): $3(1) + 2(2) = 3 + 4 = 7$ (Benar!)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan ke variabel $x$ dan $y$, lalu hitung $x \\cdot y$**" },
-        { "tipe": "paragraph", "text": "• $a = \\dfrac{1}{x} = 1 \\Rightarrow x = 1$" },
-        { "tipe": "paragraph", "text": "• $b = \\dfrac{1}{y} = 2 \\Rightarrow y = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "Maka, nilai $x \\cdot y = 1 \\cdot \\dfrac{1}{2} = \\dfrac{1}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $a = \\dfrac{1}{x}$ dan $b = \\dfrac{1}{y}$, lalu eliminasi untuk mencari $a$ dan $b$**" },
+        { "tipe": "formula_block", "latex": "3(3a + 2b) - 2(2a + 3b) = 3(7) - 2(8) \\Rightarrow 5a = 5 \\Rightarrow a = 1" },
+        { "tipe": "formula_block", "latex": "2(1) + 3b = 8 \\Rightarrow 3b = 6 \\Rightarrow b = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan $x$ dan $y$, lalu hitung $x \\cdot y$**" },
+        { "tipe": "formula_block", "latex": "x = 1, \\qquad y = \\dfrac{1}{2} \\qquad \\Rightarrow \\qquad x \\cdot y = 1 \\cdot \\dfrac{1}{2} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x \\cdot y$ adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -115,14 +96,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah tiga variabel**" },
-        { "tipe": "paragraph", "text": "$(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui**" },
-        { "tipe": "paragraph", "text": "$(9)^2 = 35 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "$81 = 35 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $xy + yz + zx$**" },
-        { "tipe": "paragraph", "text": "$2(xy + yz + zx) = 81 - 35$" },
-        { "tipe": "paragraph", "text": "$2(xy + yz + zx) = 46 \\Rightarrow xy + yz + zx = \\dfrac{46}{2} = 23$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat tiga variabel dan substitusikan nilai yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 9$ dan $x^2 + y^2 + z^2 = 35$:" },
+        { "tipe": "formula_block", "latex": "(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx) \\Rightarrow 9^2 = 35 + 2(xy + yz + zx)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $xy + yz + zx$**" },
+        { "tipe": "formula_block", "latex": "81 - 35 = 2(xy + yz + zx) \\Rightarrow 2(xy + yz + zx) = 46 \\Rightarrow xy + yz + zx = 23" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xy + yz + zx$ adalah **$23$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -138,13 +117,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Cari nilai $xy$ menggunakan identitas kuadrat**" },
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + y^2 + 2xy$" },
-        { "tipe": "paragraph", "text": "$(4)^2 = 10 + 2xy \\Rightarrow 16 = 10 + 2xy \\Rightarrow 2xy = 6 \\Rightarrow xy = 3$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $x^3 + y^3$ menggunakan identitas pangkat tiga**" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
-        { "tipe": "paragraph", "text": "Substitusikan $x + y = 4$ dan $xy = 3$:" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (4)^3 - 3(3)(4) = 64 - 36 = 28$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari nilai $xy$ dari identitas kuadrat jumlah**" },
+        { "tipe": "formula_block", "latex": "(x + y)^2 = x^2 + y^2 + 2xy \\Rightarrow 4^2 = 10 + 2xy \\Rightarrow 2xy = 6 \\Rightarrow xy = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x^3 + y^3$ menggunakan identitas jumlah pangkat tiga**" },
+        { "tipe": "formula_block", "latex": "x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 4^3 - 3(3)(4) = 64 - 36 = 28" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^3 + y^3$ adalah **$28$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -160,18 +137,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang bentuk kuadrat**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{(x - 2)(x - 3)}{x - 4} \\leq 0$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik kritis dan syarat penyebut**" },
-        { "tipe": "paragraph", "text": "• Pembuat nol pembilang: $x = 2$ dan $x = 3$ (termasuk dalam penyelesaian karena tanda $\\leq$)." },
-        { "tipe": "paragraph", "text": "• Pembuat nol penyebut: $x = 4$ (dikecualikan karena $x \\neq 4$)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Uji tanda pada empat interval garis bilangan (dicari hasil negatif / $\\leq 0$)**" },
-        { "tipe": "paragraph", "text": "1) Interval $x \\leq 2$ (uji $x = 0$): $\\dfrac{(-2)(-3)}{-4} = -\\dfrac{6}{4} < 0$ (Memenuhi)" },
-        { "tipe": "paragraph", "text": "2) Interval $2 \\leq x \\leq 3$ (uji $x = 2{,}5$): $\\dfrac{(0{,}5)(-0{,}5)}{-1{,}5} = +\\dfrac{0{,}25}{1{,}5} > 0$ (Tidak memenuhi)" },
-        { "tipe": "paragraph", "text": "3) Interval $3 \\leq x < 4$ (uji $x = 3{,}5$): $\\dfrac{(1{,}5)(0{,}5)}{-0{,}5} = -1{,}5 < 0$ (Memenuhi)" },
-        { "tipe": "paragraph", "text": "4) Interval $x > 4$ (uji $x = 5$): $\\dfrac{(3)(2)}{1} = +6 > 0$ (Tidak memenuhi)" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Gabungkan interval yang memenuhi**" },
-        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi adalah $x \\leq 2$ atau $3 \\leq x < 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pembilang dan tentukan titik-titik kritis**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{(x - 2)(x - 3)}{x - 4} \\leq 0, \\qquad x \\neq 4" },
+        { "tipe": "paragraph", "text": "Pembuat nol pembilang adalah $x = 2$ dan $x = 3$ (termasuk penyelesaian), sedangkan pembuat nol penyebut adalah $x = 4$ (dikecualikan)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji tanda pada setiap interval garis bilangan**" },
+        { "tipe": "formula_block", "latex": "x \\leq 2 : -\\dfrac{3}{2} < 0 \\text{ (ya)}, \\qquad 2 \\leq x \\leq 3 : +\\dfrac{1}{6} > 0 \\text{ (tidak)}, \\qquad 3 \\leq x < 4 : -\\dfrac{3}{2} < 0 \\text{ (ya)}, \\qquad x > 4 : +6 > 0 \\text{ (tidak)}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x \\leq 2$ atau $3 \\leq x < 4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,14 +158,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan bentuk kuadrat $(x + y)^2$**" },
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 = (x^2 + y^2) + 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 5$ dan $x^2 + y^2 = 13$**" },
-        { "tipe": "paragraph", "text": "$(5)^2 = 13 + 2xy$" },
-        { "tipe": "paragraph", "text": "$25 = 13 + 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $x \\cdot y$**" },
-        { "tipe": "paragraph", "text": "$2xy = 25 - 13$" },
-        { "tipe": "paragraph", "text": "$2xy = 12 \\Rightarrow xy = \\dfrac{12}{2} = 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan $x + y = 5$ dan substitusikan $x^2 + y^2 = 13$**" },
+        { "tipe": "formula_block", "latex": "(x + y)^2 = (x^2 + y^2) + 2xy \\Rightarrow 5^2 = 13 + 2xy" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $x \\cdot y$**" },
+        { "tipe": "formula_block", "latex": "25 - 13 = 2xy \\Rightarrow 2xy = 12 \\Rightarrow xy = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x \\cdot y$ adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -210,13 +178,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan**" },
-        { "tipe": "paragraph", "text": "$\\left(x + \\dfrac{1}{x}\\right)^2 = 3^2$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan ruas kiri menggunakan rumus $(a + b)^2 = a^2 + 2ab + b^2$**" },
-        { "tipe": "paragraph", "text": "$x^2 + 2 \\cdot x \\cdot \\dfrac{1}{x} + \\left(\\dfrac{1}{x}\\right)^2 = 9$" },
-        { "tipe": "paragraph", "text": "$x^2 + 2 + \\dfrac{1}{x^2} = 9$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Pindahkan konstanta ke ruas kanan**" },
-        { "tipe": "paragraph", "text": "$x^2 + \\dfrac{1}{x^2} = 9 - 2 = 7$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan $x + \\dfrac{1}{x} = 3$**" },
+        { "tipe": "formula_block", "latex": "\\left(x + \\dfrac{1}{x}\\right)^2 = 3^2 \\Rightarrow x^2 + 2 \\cdot x \\cdot \\dfrac{1}{x} + \\dfrac{1}{x^2} = 9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan dan pindahkan konstanta ke ruas kanan**" },
+        { "tipe": "formula_block", "latex": "x^2 + 2 + \\dfrac{1}{x^2} = 9 \\Rightarrow x^2 + \\dfrac{1}{x^2} = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^2 + \\dfrac{1}{x^2}$ adalah **$7$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -232,14 +198,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi tiga bilangan yang memenuhi syarat simetris**" },
-        { "tipe": "paragraph", "text": "Cari tiga bilangan $x, y, z$ dengan jumlah $6$, jumlah kuadrat $14$, dan jumlah hasil kali berpasangan $11$." },
-        { "tipe": "paragraph", "text": "Bilangan yang memenuhi adalah $1, 2,$ dan $3$ karena:" },
-        { "tipe": "paragraph", "text": "• $1 + 2 + 3 = 6$" },
-        { "tipe": "paragraph", "text": "• $1^2 + 2^2 + 3^2 = 1 + 4 + 9 = 14$" },
-        { "tipe": "paragraph", "text": "• $(1)(2) + (2)(3) + (1)(3) = 2 + 6 + 3 = 11$" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan tiga bilangan $x, y, z$ yang memenuhi syarat simetris**" },
+        { "tipe": "paragraph", "text": "Bilangan $1$, $2$, dan $3$ memenuhi $1 + 2 + 3 = 6$, $1^2 + 2^2 + 3^2 = 14$, serta $1(2) + 2(3) + 1(3) = 11$." },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $xyz$**" },
-        { "tipe": "paragraph", "text": "$xyz = 1 \\cdot 2 \\cdot 3 = 6$." }
+        { "tipe": "formula_block", "latex": "xyz = 1 \\cdot 2 \\cdot 3 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xyz$ adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     }
