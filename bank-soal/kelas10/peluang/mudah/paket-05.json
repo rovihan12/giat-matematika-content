@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian $\\{1, 2\\}$ → $n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu $1$ atau $2$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kejadian muncul mata dadu $1$ atau $2$ adalah $\\{1, 2\\}$ sehingga $n(A) = 2$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{6} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu $1$ atau $2$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,9 +42,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ruang sampel: $\\{AA, AG, GA, GG\\}$ → $n(S) = 4$." },
-        { "tipe": "paragraph", "text": "Kejadian $\\{GG\\}$ → $n(A) = 1$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak ruang sampel ($n(S)$) dan kejadian keduanya gambar ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Ruang sampel dua koin adalah $\\{AA, AG, GA, GG\\}$ sehingga $n(S) = 4$, sedangkan kejadian keduanya gambar adalah $\\{GG\\}$ sehingga $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul keduanya gambar adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -60,8 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $3 + 4 + 5 = 12$." },
-        { "tipe": "paragraph", "text": "$P(\\text{biru}) = \\dfrac{4}{12} = \\dfrac{1}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh bola ($n(S)$) dan banyak bola biru ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total bola adalah $3 + 4 + 5 = 12$ sehingga $n(S) = 12$, dan banyak bola biru adalah $n(A) = 4$." },
+        { "tipe": "formula_block", "latex": "P(\\text{biru}) = \\dfrac{4}{12} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola biru adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -79,8 +84,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $8$: $(2,6), (3,5), (4,4), (5,3), (6,2)$ → $n(A) = 5$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{36}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $8$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang berjumlah $8$ adalah $(2,6), (3,5), (4,4), (5,3), (6,2)$ sehingga $n(A) = 5$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{36}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $8$ adalah **$\\dfrac{5}{36}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -98,7 +105,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian mustahil tidak mungkin terjadi → $P(A) = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat kejadian mustahil dalam peluang**" },
+        { "tipe": "paragraph", "text": "Kejadian mustahil tidak memiliki titik sampel ($n(A) = 0$) karena tidak mungkin terjadi." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{0}{n(S)} = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kejadian mustahil adalah **$0$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -116,8 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu bergambar J, Q, K = $3 \\times 4$ jenis = 12 kartu." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{52} = \\dfrac{3}{13}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu bergambar ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu, dan kartu bergambar (J, Q, K) berjumlah $3 \\times 4 = 12$ kartu." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{12}{52} = \\dfrac{3}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu bergambar (J, Q, K) adalah **$\\dfrac{3}{13}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -135,7 +147,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak hujan}) = 1 - \\dfrac{2}{5} = \\dfrac{3}{5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian hari ini tidak hujan merupakan komplemen dari kejadian hari ini hujan." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak hujan}) = 1 - \\dfrac{2}{5} = \\dfrac{3}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang hari ini tidak hujan adalah **$\\dfrac{3}{5}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -153,8 +168,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelipatan $3$ dari $1$ s.d. $15$: $\\{3, 6, 9, 12, 15\\}$ → $n(A) = 5$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{15} = \\dfrac{1}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak ruang sampel ($n(S)$) dan banyak bilangan kelipatan $3$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Dari himpunan $\\{1, 2, 3, ..., 15\\}$ diperoleh $n(S) = 15$, sedangkan kelipatan $3$ adalah $\\{3, 6, 9, 12, 15\\}$ sehingga $n(A) = 5$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{15} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih bilangan kelipatan $3$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -172,9 +189,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kata \"STATISTIKA\" = 10 huruf: S-T-A-T-I-S-T-I-K-A." },
-        { "tipe": "paragraph", "text": "Huruf S muncul 2 kali." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{2}{10} = \\dfrac{1}{5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak huruf total ($n(S)$) dan kemunculan huruf S ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kata \"STATISTIKA\" terdiri dari $10$ huruf sehingga $n(S) = 10$, dan huruf S muncul sebanyak $2$ kali sehingga $n(A) = 2$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{10} = \\dfrac{1}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih huruf S adalah **$\\dfrac{1}{5}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -192,7 +210,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A^c) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang komplemen kejadian $A$ dihitung dengan mengurangkan $P(A)$ dari $1$." },
+        { "tipe": "formula_block", "latex": "P(A^c) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang komplemennya adalah **$\\dfrac{3}{4}$**." }
       ],
       "tingkat": "MUDAH"
     }
