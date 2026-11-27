@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang muncul mata $3$: $P(A) = \\dfrac{1}{6}$." },
-        { "tipe": "paragraph", "text": "$P(A^c) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang komplemen kejadian muncul mata dadu $3$**" },
+        { "tipe": "paragraph", "text": "Peluang muncul mata dadu $3$ adalah $P(A) = \\dfrac{1}{6}$, sehingga peluang muncul mata dadu bukan $3$ adalah komplemennya." },
+        { "tipe": "formula_block", "latex": "P(A^c) = 1 - P(A) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu bukan $3$ adalah **$\\dfrac{5}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bilangan prima pada dadu: $\\{2, 3, 5\\}$ → $n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu prima ($n(A)$) dan ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Bilangan prima pada dadu adalah $\\{2, 3, 5\\}$ sehingga $n(A) = 3$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{6} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu prima adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelipatan $3$ pada dadu: $\\{3, 6\\}$ → $n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu kelipatan $3$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kelipatan $3$ pada dadu adalah $\\{3, 6\\}$ sehingga $n(A) = 2$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{6} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu kelipatan $3$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,9 +84,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total bola = $4 + 3 + 5 = 12$." },
-        { "tipe": "paragraph", "text": "Bola hijau = $3$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{12} = \\dfrac{1}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh bola ($n(S)$) dan banyak bola hijau ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total bola adalah $4 + 3 + 5 = 12$ sehingga $n(S) = 12$, dan banyak bola hijau adalah $n(A) = 3$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{12} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola hijau adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -98,7 +105,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dua dadu → $n(S) = 6 \\times 6 = 36$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel pelemparan $2$ dadu**" },
+        { "tipe": "paragraph", "text": "Setiap dadu memiliki $6$ kemungkinan mata sehingga untuk $2$ dadu berlaku aturan perkalian." },
+        { "tipe": "formula_block", "latex": "n(S) = 6 \\times 6 = 36" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak anggota ruang sampelnya adalah **$36$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -116,8 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $7$: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$ → $n(A) = 6$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $7$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan yang berjumlah $7$ adalah $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$ sehingga $n(A) = 6$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $7$ adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -135,8 +147,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Satu set bridge = 52 kartu, kartu As ada 4." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{52} = \\dfrac{1}{13}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu As ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu dan memiliki $4$ kartu As." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{52} = \\dfrac{1}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu As adalah **$\\dfrac{1}{13}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -154,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian pasti memiliki peluang $P(A) = 1$." },
-        { "tipe": "paragraph", "text": "Sebaliknya, kejadian mustahil memiliki peluang $P(A) = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat kejadian pasti dalam peluang**" },
+        { "tipe": "paragraph", "text": "Kejadian pasti selalu terjadi sehingga banyak titik sampel kejadian sama dengan banyak titik sampel ruang sampel ($n(A) = n(S)$), sedangkan kejadian mustahil bernilai $0$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(S)}{n(S)} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kejadian yang pasti terjadi adalah **$1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -173,9 +189,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kata \"MATEMATIKA\" terdiri dari 10 huruf: M-A-T-E-M-A-T-I-K-A." },
-        { "tipe": "paragraph", "text": "Huruf A muncul 3 kali." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{10}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak huruf total ($n(S)$) dan kemunculan huruf A ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kata \"MATEMATIKA\" terdiri dari $10$ huruf sehingga $n(S) = 10$, dan huruf A muncul sebanyak $3$ kali sehingga $n(A) = 3$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{10}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih huruf A adalah **$\\dfrac{3}{10}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -193,7 +210,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak hujan}) = 1 - 0{,}6 = 0{,}4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian tidak turun hujan merupakan komplemen dari kejadian turun hujan." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak hujan}) = 1 - 0{,}6 = 0{,}4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang tidak turun hujan adalah **$0{,}4$**." }
       ],
       "tingkat": "MUDAH"
     }
