@@ -21,15 +21,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan rumus Peluang Binomial.**" },
-        { "tipe": "paragraph", "text": "$P(X = k) = C(n, k) \\cdot p^k \\cdot q^{n-k}$" },
-        { "tipe": "paragraph", "text": "- Banyak lemparan ($n$) = 6" },
-        { "tipe": "paragraph", "text": "- Banyak kemunculan angka ($k$) = 4" },
-        { "tipe": "paragraph", "text": "- Peluang muncul angka ($p$) = $\\dfrac{1}{2}$, Peluang muncul gambar ($q$) = $\\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai peluang.**" },
-        { "tipe": "paragraph", "text": "$P(X = 4) = C(6, 4) \\cdot \\left(\\dfrac{1}{2}\\right)^4 \\cdot \\left(\\dfrac{1}{2}\\right)^{6-4}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{6!}{4!2!} \\cdot \\left(\\dfrac{1}{2}\\right)^6 = 15 \\cdot \\dfrac{1}{64} = \\dfrac{15}{64}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang muncul tepat 4 angka adalah $\\dfrac{15}{64}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan parameter distribusi binomial**" },
+        { "tipe": "paragraph", "text": "Diketahui banyak lemparan $n = 6$, banyak muncul angka yang diinginkan $k = 4$, peluang muncul angka $p = \dfrac{1}{2}$, dan peluang muncul gambar $q = \dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang menggunakan rumus distribusi binomial**" },
+        { "tipe": "formula_block", "latex": "P(X = 4) = C(6, 4) \\cdot \\left(\\dfrac{1}{2}\\right)^4 \\cdot \\left(\\dfrac{1}{2}\\right)^{6-4}" },
+        { "tipe": "formula_block", "latex": "P(X = 4) = 15 \\cdot \\left(\\dfrac{1}{2}\\right)^6 = 15 \\cdot \\dfrac{1}{64} = \\dfrac{15}{64}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul tepat 4 angka adalah **$\dfrac{15}{64}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -47,15 +44,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan parameter peluang.**" },
-        { "tipe": "paragraph", "text": "- Mata dadu ganjil pada sebuah dadu: $\\{1, 3, 5\\}$ (ada 3 dari 6 sisi)." },
-        { "tipe": "paragraph", "text": "- Peluang muncul ganjil ($p$) = $\\dfrac{3}{6} = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "- Peluang muncul genap ($q$) = $1 - \\dfrac{1}{2} = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "- Banyak lemparan ($n$) = 5, banyak sukses ($k$) = 3." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung menggunakan rumus distribusi binomial.**" },
-        { "tipe": "paragraph", "text": "$P(X = 3) = C(5, 3) \\cdot \\left(\\dfrac{1}{2}\\right)^3 \\cdot \\left(\\dfrac{1}{2}\\right)^{5-3}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{5!}{3!2!} \\cdot \\left(\\dfrac{1}{2}\\right)^5 = 10 \\cdot \\dfrac{1}{32} = \\dfrac{10}{32} = \\dfrac{5}{16}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang muncul mata ganjil tepat 3 kali adalah $\\dfrac{5}{16}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan parameter distribusi binomial**" },
+        { "tipe": "paragraph", "text": "Mata dadu ganjil adalah $\{1, 3, 5\}$ ($3$ dari $6$ sisi), sehingga $p = \dfrac{3}{6} = \dfrac{1}{2}$, $q = 1 - \dfrac{1}{2} = \dfrac{1}{2}$, $n = 5$, dan $k = 3$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung dan sederhanakan nilai peluang**" },
+        { "tipe": "formula_block", "latex": "P(X = 3) = C(5, 3) \\cdot \\left(\\dfrac{1}{2}\\right)^3 \\cdot \\left(\\dfrac{1}{2}\\right)^{5-3}" },
+        { "tipe": "formula_block", "latex": "P(X = 3) = 10 \\cdot \\left(\\dfrac{1}{2}\\right)^5 = 10 \\cdot \\dfrac{1}{32} = \\dfrac{10}{32} = \\dfrac{5}{16}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata ganjil tepat 3 kali adalah **$\dfrac{5}{16}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -73,17 +67,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
-        { "tipe": "paragraph", "text": "Total kelereng = 10 buah. Diambil 3 kelereng sekaligus:" },
-        { "tipe": "paragraph", "text": "$n(S) = C(10, 3) = \\dfrac{10!}{3!7!} = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung titik sampel kejadian yang diinginkan ($n(A)$).**" },
-        { "tipe": "paragraph", "text": "Terambil 2 merah dari 4 merah dan 1 biru dari 3 biru:" },
-        { "tipe": "paragraph", "text": "- $C(4, 2) = \\dfrac{4!}{2!2!} = \\dfrac{4 \\cdot 3}{2 \\cdot 1} = 6$" },
-        { "tipe": "paragraph", "text": "- $C(3, 1) = 3$" },
-        { "tipe": "paragraph", "text": "Maka, $n(A) = 6 \\cdot 3 = 18$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{18}{120} = \\dfrac{3}{20}$ (setelah dibagi 6)." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terambil 2 merah dan 1 biru adalah $\\dfrac{3}{20}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Dari $10$ kelereng diambil $3$ kelereng sekaligus:" },
+        { "tipe": "formula_block", "latex": "n(S) = C(10, 3) = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak titik sampel kejadian ($n(A)$) terambil 2 merah dan 1 biru**" },
+        { "tipe": "formula_block", "latex": "n(A) = C(4, 2) \\cdot C(3, 1) = 6 \\cdot 3 = 18" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang kejadian $P(A)$**" },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{18}{120} = \\dfrac{3}{20}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil 2 merah dan 1 biru adalah **$\dfrac{3}{20}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -101,16 +92,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat peluang paling sedikit 3 soal benar.**" },
-        { "tipe": "paragraph", "text": "Paling sedikit 3 soal benar berarti siswa tersebut menjawab benar **tepat 3 soal** atau **tepat 4 soal**." },
-        { "tipe": "paragraph", "text": "Diketahui: $p = 0{,}6$ (benar), $q = 1 - 0{,}6 = 0{,}4$ (salah), dan $n = 4$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang tepat 3 soal benar ($P(X = 3)$).**" },
-        { "tipe": "paragraph", "text": "$P(X = 3) = C(4, 3) \\cdot (0{,}6)^3 \\cdot (0{,}4)^1 = 4 \\cdot 0{,}216 \\cdot 0{,}4 = 0{,}3456$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang tepat 4 soal benar ($P(X = 4)$).**" },
-        { "tipe": "paragraph", "text": "$P(X = 4) = C(4, 4) \\cdot (0{,}6)^4 \\cdot (0{,}4)^0 = 1 \\cdot 0{,}1296 \\cdot 1 = 0{,}1296$" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Jumlahkan kedua peluang tersebut.**" },
-        { "tipe": "paragraph", "text": "Total Peluang = $0{,}3456 + 0{,}1296 = 0{,}4752$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang ia benar paling sedikit 3 soal adalah $0{,}4752$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi kasus benar paling sedikit 3 soal dari 4 soal**" },
+        { "tipe": "paragraph", "text": "Dengan $n = 4$, $p = 0{,}6$, dan $q = 1 - 0{,}6 = 0{,}4$, kejadian benar paling sedikit $3$ soal mencakup **tepat 3 soal benar** atau **tepat 4 soal benar**." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang tiap kasus lalu jumlahkan**" },
+        { "tipe": "formula_block", "latex": "P(X = 3) = C(4, 3) \\cdot (0{,}6)^3 \\cdot (0{,}4)^1 = 4 \\cdot 0{,}216 \\cdot 0{,}4 = 0{,}3456" },
+        { "tipe": "formula_block", "latex": "P(X = 4) = C(4, 4) \\cdot (0{,}6)^4 \\cdot (0{,}4)^0 = 1 \\cdot 0{,}1296 \\cdot 1 = 0{,}1296" },
+        { "tipe": "formula_block", "latex": "P(X \\geq 3) = 0{,}3456 + 0{,}1296 = 0{,}4752" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang ia benar paling sedikit 3 soal adalah **$0{,}4752$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -128,19 +116,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi huruf vokal dan konsonan.**" },
-        { "tipe": "paragraph", "text": "Kata \"PELUANG\" terdiri dari 7 huruf unik." },
-        { "tipe": "paragraph", "text": "- Huruf vokal: E, U, A (ada 3 huruf)." },
-        { "tipe": "paragraph", "text": "- Huruf konsonan: P, L, N, G (ada 4 huruf)." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan metode pengelompokan (blok vokal).**" },
-        { "tipe": "paragraph", "text": "Karena ketiga huruf vokal harus selalu bersebelahan, anggap kelompok vokal $\\{E, U, A\\}$ sebagai **1 objek tunggal**." },
-        { "tipe": "paragraph", "text": "Maka total objek yang akan disusun menjadi: $1$ blok vokal + $4$ konsonan = $5$ objek." },
-        { "tipe": "paragraph", "text": "Banyak susunan 5 objek tersebut = $5! = 120$ cara." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung permutasi internal di dalam blok vokal.**" },
-        { "tipe": "paragraph", "text": "Di dalam kelompok vokal, huruf E, U, dan A dapat saling bertukar posisi sebanyak $3! = 6$ cara." },
-        { "tipe": "paragraph", "text": "**Langkah 4: Kalikan hasil kedua tahapan.**" },
-        { "tipe": "paragraph", "text": "Total susunan = $120 \\cdot 6 = 720$ cara." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak susunan huruf yang terbentuk adalah $720$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kelompokkan huruf vokal menjadi satu blok**" },
+        { "tipe": "paragraph", "text": "Kata \"PELUANG\" memiliki $7$ huruf berbeda: $3$ vokal (**E, U, A**) dan $4$ konsonan (**P, L, N, G**). Menganggap **(EUA)** sebagai $1$ blok bersama $4$ konsonan menghasilkan $5$ objek yang disusun." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan permutasi antarobjek dengan permutasi di dalam blok vokal**" },
+        { "tipe": "formula_block", "latex": "\\text{Banyak susunan} = 5! \\times 3! = 120 \\times 6 = 720" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak susunan berbeda dari huruf-huruf tersebut adalah **$720$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -158,17 +138,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
-        { "tipe": "paragraph", "text": "Total bola = $5 + 4 + 3 = 12$ bola. Diambil 4 bola sekaligus:" },
-        { "tipe": "paragraph", "text": "$n(S) = C(12, 4) = \\dfrac{12!}{4!8!} = \\dfrac{12 \\cdot 11 \\cdot 10 \\cdot 9}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 495$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung titik sampel kejadian yang diinginkan ($n(A)$).**" },
-        { "tipe": "paragraph", "text": "- 2 merah dari 5: $C(5, 2) = \\dfrac{5!}{2!3!} = 10$" },
-        { "tipe": "paragraph", "text": "- 1 biru dari 4: $C(4, 1) = 4$" },
-        { "tipe": "paragraph", "text": "- 1 hijau dari 3: $C(3, 1) = 3$" },
-        { "tipe": "paragraph", "text": "Maka, $n(A) = 10 \\cdot 4 \\cdot 3 = 120$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{120}{495} = \\dfrac{8}{33}$ (setelah masing-masing dibagi 15)." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terambil 2 merah, 1 biru, dan 1 hijau adalah $\\dfrac{8}{33}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Jumlah seluruh bola adalah $5 + 4 + 3 = 12$ bola dan diambil $4$ bola sekaligus:" },
+        { "tipe": "formula_block", "latex": "n(S) = C(12, 4) = \\dfrac{12 \\cdot 11 \\cdot 10 \\cdot 9}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 495" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak titik sampel kejadian ($n(A)$) terambil 2 merah, 1 biru, dan 1 hijau**" },
+        { "tipe": "formula_block", "latex": "n(A) = C(5, 2) \\cdot C(4, 1) \\cdot C(3, 1) = 10 \\cdot 4 \\cdot 3 = 120" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang kejadian $P(A)$**" },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{120}{495} = \\dfrac{8}{33}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil 2 merah, 1 biru, dan 1 hijau adalah **$\dfrac{8}{33}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -186,17 +163,15 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan ruang sampel ($n(S)$).**" },
-        { "tipe": "paragraph", "text": "Untuk pelemparan 2 dadu, total titik sampel adalah $n(S) = 6 \\times 6 = 36$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik sampel yang memenuhi syarat (selisih $\\leq 2$).**" },
-        { "tipe": "paragraph", "text": "Selisih $\\leq 2$ mencakup pasangan mata dadu dengan selisih $0$, $1$, atau $2$:" },
-        { "tipe": "paragraph", "text": "- **Selisih 0 (sama):** $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$ $\\rightarrow$ 6 pasangan." },
-        { "tipe": "paragraph", "text": "- **Selisih 1:** $(1,2), (2,1), (2,3), (3,2), (3,4), (4,3), (4,5), (5,4), (5,6), (6,5)$ $\\rightarrow$ 10 pasangan." },
-        { "tipe": "paragraph", "text": "- **Selisih 2:** $(1,3), (3,1), (2,4), (4,2), (3,5), (5,3), (4,6), (6,4)$ $\\rightarrow$ 8 pasangan." },
-        { "tipe": "paragraph", "text": "Total pasangan yang memenuhi adalah $n(A) = 6 + 10 + 8 = 24$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{24}{36} = \\dfrac{2}{3}$ (setelah masing-masing dibagi 12)." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang muncul selisih kedua mata dadu $\\leq 2$ adalah $\\dfrac{2}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak titik sampel ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Pada pelemparan dua dadu sekaligus, banyak seluruh pasangan mata dadu adalah:" },
+        { "tipe": "formula_block", "latex": "n(S) = 6 \\times 6 = 36" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak pasangan mata dadu dengan selisih $\leq 2$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan dengan selisih $0$ ada $6$ pasang, selisih $1$ ada $10$ pasang, dan selisih $2$ ada $8$ pasang:" },
+        { "tipe": "formula_block", "latex": "n(A) = 6 + 10 + 8 = 24" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang kejadian $P(A)$**" },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{24}{36} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul selisih kedua mata dadu $\leq 2$ adalah **$\dfrac{2}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -214,17 +189,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan konsep komplemen untuk memudahkan perhitungan.**" },
-        { "tipe": "paragraph", "text": "Syarat minimal 1 wanita berarti kita mencari total seluruh kemungkinan pembentukan tim dikurangi dengan kemungkinan tim yang **tidak mengandung wanita sama sekali** (artinya semua anggota tim adalah pria)." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung total seluruh kemungkinan tanpa syarat.**" },
-        { "tipe": "paragraph", "text": "Total orang = $7 + 6 = 13$ orang. Dipilih 5 orang secara acak:" },
-        { "tipe": "paragraph", "text": "$C(13, 5) = \\dfrac{13!}{5!8!} = \\dfrac{13 \\cdot 12 \\cdot 11 \\cdot 10 \\cdot 9}{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1} = 1287$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung kemungkinan tim yang beranggotakan hanya pria (tanpa wanita).**" },
-        { "tipe": "paragraph", "text": "Dipilih 5 orang dari 7 pria:" },
-        { "tipe": "paragraph", "text": "$C(7, 5) = \\dfrac{7!}{5!2!} = \\dfrac{7 \\cdot 6}{2 \\cdot 1} = 21$" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Kurangkan total kemungkinan dengan tim tanpa wanita.**" },
-        { "tipe": "paragraph", "text": "Banyak tim minimal 1 wanita = $1287 - 21 = 1266$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak tim yang mungkin dibentuk adalah $1266$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung seluruh kemungkinan tim beranggotakan 5 orang dari 13 orang**" },
+        { "tipe": "paragraph", "text": "Jumlah seluruh calon adalah $7 + 6 = 13$ orang dan dipilih $5$ orang:" },
+        { "tipe": "formula_block", "latex": "C(13, 5) = \\dfrac{13 \\cdot 12 \\cdot 11 \\cdot 10 \\cdot 9}{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1} = 1287" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan dengan banyak tim yang seluruh anggotanya pria (0 wanita)**" },
+        { "tipe": "formula_block", "latex": "\\text{Tim minimal 1 wanita} = C(13, 5) - C(7, 5) = 1287 - 21 = 1266" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak tim yang mungkin dibentuk adalah **$1266$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -242,16 +212,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan rumus Distribusi Binomial.**" },
-        { "tipe": "paragraph", "text": "- Banyak radio ($n$) = 5" },
-        { "tipe": "paragraph", "text": "- Radio rusak yang diinginkan ($k$) = 2" },
-        { "tipe": "paragraph", "text": "- Peluang rusak ($p$) = $0{,}1$" },
-        { "tipe": "paragraph", "text": "- Peluang tidak rusak ($q$) = $1 - 0{,}1 = 0{,}9$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai peluang.**" },
-        { "tipe": "paragraph", "text": "$P(X = 2) = C(5, 2) \\cdot (0{,}1)^2 \\cdot (0{,}9)^{5-2}$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{5!}{2!3!} \\cdot (0{,}01) \\cdot (0{,}9)^3$" },
-        { "tipe": "paragraph", "text": "$= 10 \\cdot 0{,}01 \\cdot 0{,}729 = 0{,}0729$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang tepat 2 radio rusak adalah $0{,}0729$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan parameter distribusi binomial**" },
+        { "tipe": "paragraph", "text": "Diketahui banyak radio $n = 5$, banyak radio rusak yang diinginkan $k = 2$, peluang rusak $p = 0{,}1$, dan peluang tidak rusak $q = 1 - 0{,}1 = 0{,}9$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai peluang menggunakan rumus binomial**" },
+        { "tipe": "formula_block", "latex": "P(X = 2) = C(5, 2) \\cdot (0{,}1)^2 \\cdot (0{,}9)^{5-2}" },
+        { "tipe": "formula_block", "latex": "P(X = 2) = 10 \\cdot 0{,}01 \\cdot 0{,}729 = 0{,}0729" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang tepat 2 radio rusak adalah **$0{,}0729$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -269,17 +235,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi pola susunan berselang-seling.**" },
-        { "tipe": "paragraph", "text": "Karena jumlah pria dan wanita sama (masing-masing 3 orang), posisi duduk berselang-seling dapat terjadi dalam 2 pola utama:" },
-        { "tipe": "paragraph", "text": "1. **Pola 1:** Dimulai oleh Pria di kursi pertama (P - W - P - W - P - W)" },
-        { "tipe": "paragraph", "text": "2. **Pola 2:** Dimulai oleh Wanita di kursi pertama (W - P - W - P - W - P)" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah susunan untuk masing-masing pola.**" },
-        { "tipe": "paragraph", "text": "- Untuk **Pola 1**: 3 pria duduk di 3 posisi khusus ($3!$ cara) dan 3 wanita duduk di 3 posisi berselang ($3!$ cara)." },
-        { "tipe": "paragraph", "text": "  Jumlah susunan = $3! \\cdot 3! = 6 \\cdot 6 = 36$ cara." },
-        { "tipe": "paragraph", "text": "- Untuk **Pola 2**: Sama seperti pola pertama, jumlah susunan = $3! \\cdot 3! = 36$ cara." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Jumlahkan kedua kemungkinan pola.**" },
-        { "tipe": "paragraph", "text": "Total cara = $36 + 36 = 72$ cara." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak cara menyusun mereka duduk berselang-seling adalah $72$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi dua pola posisi duduk berselang-seling**" },
+        { "tipe": "paragraph", "text": "Karena masing-masing terdapat $3$ pria dan $3$ wanita, susunan berselang-seling dapat diawali **Pria** (**P-W-P-W-P-W**) atau diawali **Wanita** (**W-P-W-P-W-P**)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak susunan untuk kedua pola**" },
+        { "tipe": "formula_block", "latex": "\\text{Banyak cara} = 2 \\times (3! \\times 3!) = 2 \\times (6 \\times 6) = 72" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak cara menyusun mereka duduk berselang-seling adalah **$72$**." }
       ],
       "tingkat": "SULIT"
     }
