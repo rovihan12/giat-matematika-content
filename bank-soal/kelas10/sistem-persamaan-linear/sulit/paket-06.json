@@ -19,26 +19,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Beri nama ketiga persamaan**" },
-        { "tipe": "paragraph", "text": "(1) $x + y + z = 6$" },
-        { "tipe": "paragraph", "text": "(2) $2x - y + z = 3$" },
-        { "tipe": "paragraph", "text": "(3) $x + 2y - z = 2$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Eliminasi variabel $z$ dari persamaan (1) dan (3)**" },
-        { "tipe": "paragraph", "text": "Jumlahkan persamaan (1) dan (3):" },
-        { "tipe": "paragraph", "text": "$(x + y + z) + (x + 2y - z) = 6 + 2$" },
-        { "tipe": "paragraph", "text": "$2x + 3y = 8$ ... (Persamaan 4)" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Eliminasi variabel $z$ dari persamaan (2) dan (3)**" },
-        { "tipe": "paragraph", "text": "Jumlahkan persamaan (2) dan (3):" },
-        { "tipe": "paragraph", "text": "$(2x - y + z) + (x + 2y - z) = 3 + 2$" },
-        { "tipe": "paragraph", "text": "$3x + y = 5 \\Rightarrow y = 5 - 3x$ ... (Persamaan 5)" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Cari nilai $x, y,$ dan $z$ dengan substitusi**" },
-        { "tipe": "paragraph", "text": "Substitusikan $y = 5 - 3x$ ke persamaan (4):" },
-        { "tipe": "paragraph", "text": "$2x + 3(5 - 3x) = 8$" },
-        { "tipe": "paragraph", "text": "$2x + 15 - 9x = 8 \\Rightarrow -7x = -7 \\Rightarrow x = 1$" },
-        { "tipe": "paragraph", "text": "Substitusikan $x = 1$ ke persamaan (5): $y = 5 - 3(1) = 2$." },
-        { "tipe": "paragraph", "text": "Substitusikan $x = 1$ dan $y = 2$ ke persamaan (1): $1 + 2 + z = 6 \\Rightarrow z = 3$." },
-        { "tipe": "paragraph", "text": "**Langkah 5: Hitung nilai $x^2 + y^2 + z^2$**" },
-        { "tipe": "paragraph", "text": "$x^2 + y^2 + z^2 = 1^2 + 2^2 + 3^2 = 1 + 4 + 9 = 14$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $z$ untuk membentuk SPLDV dalam $x$ dan $y$**" },
+        { "tipe": "paragraph", "text": "Jumlahkan persamaan pertama ($x + y + z = 6$) dengan ketiga ($x + 2y - z = 2$), serta jumlahkan persamaan kedua ($2x - y + z = 3$) dengan ketiga:" },
+        { "tipe": "formula_block", "latex": "2x + 3y = 8" },
+        { "tipe": "formula_block", "latex": "3x + y = 5 \\Rightarrow y = 5 - 3x" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$, $y$, dan $z$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $y = 5 - 3x$ ke $2x + 3y = 8$ sehingga diperoleh $x = 1$ dan $y = 2$, lalu substitusikan ke $x + y + z = 6$:" },
+        { "tipe": "formula_block", "latex": "1 + 2 + z = 6 \\Rightarrow z = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $x^2 + y^2 + z^2$**" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 + z^2 = 1^2 + 2^2 + 3^2 = 1 + 4 + 9 = 14" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^2 + y^2 + z^2$ adalah **$14$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -54,14 +44,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan bentuk kuadrat $(x + y)^2$**" },
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 = (x^2 + y^2) + 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 5$ dan $x^2 + y^2 = 13$**" },
-        { "tipe": "paragraph", "text": "$(5)^2 = 13 + 2xy$" },
-        { "tipe": "paragraph", "text": "$25 = 13 + 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $xy$**" },
-        { "tipe": "paragraph", "text": "$2xy = 25 - 13$" },
-        { "tipe": "paragraph", "text": "$2xy = 12 \\Rightarrow xy = \\dfrac{12}{2} = 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan $x + y = 5$ dan substitusikan $x^2 + y^2 = 13$**" },
+        { "tipe": "formula_block", "latex": "(x + y)^2 = (x^2 + y^2) + 2xy \\Rightarrow 5^2 = 13 + 2xy" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $xy$**" },
+        { "tipe": "formula_block", "latex": "25 - 13 = 2xy \\Rightarrow 2xy = 12 \\Rightarrow xy = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xy$ adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -77,16 +64,11 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $y$ dalam variabel $x$ dari persamaan pertama**" },
-        { "tipe": "paragraph", "text": "$2x + y = 7 \\Rightarrow y = 7 - 2x$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $y$ ke persamaan kedua**" },
-        { "tipe": "paragraph", "text": "$x + 3(7 - 2x) = 11$" },
-        { "tipe": "paragraph", "text": "$x + 21 - 6x = 11$" },
-        { "tipe": "paragraph", "text": "$-5x = 11 - 21$" },
-        { "tipe": "paragraph", "text": "$-5x = -10 \\Rightarrow x = 2$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Cari nilai $y$ dan hitung $x^2 + y^2$**" },
-        { "tipe": "paragraph", "text": "Substitusikan $x = 2$: $y = 7 - 2(2) = 3$." },
-        { "tipe": "paragraph", "text": "Maka, $x^2 + y^2 = 2^2 + 3^2 = 4 + 9 = 13$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $y = 7 - 2x$ ke persamaan $x + 3y = 11$**" },
+        { "tipe": "formula_block", "latex": "x + 3(7 - 2x) = 11 \\Rightarrow -5x = -10 \\Rightarrow x = 2 \\quad \\text{dan} \\quad y = 7 - 2(2) = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x^2 + y^2$**" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 = 2^2 + 3^2 = 4 + 9 = 13" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^2 + y^2$ adalah **$13$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,15 +84,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah tiga variabel**" },
-        { "tipe": "paragraph", "text": "$(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui**" },
-        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 10$ dan $x^2 + y^2 + z^2 = 40$, maka:" },
-        { "tipe": "paragraph", "text": "$(10)^2 = 40 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "$100 = 40 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $xy + yz + zx$**" },
-        { "tipe": "paragraph", "text": "$2(xy + yz + zx) = 100 - 40$" },
-        { "tipe": "paragraph", "text": "$2(xy + yz + zx) = 60 \\Rightarrow xy + yz + zx = \\dfrac{60}{2} = 30$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat tiga variabel dan substitusikan nilai yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 10$ dan $x^2 + y^2 + z^2 = 40$:" },
+        { "tipe": "formula_block", "latex": "(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx) \\Rightarrow 10^2 = 40 + 2(xy + yz + zx)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $xy + yz + zx$**" },
+        { "tipe": "formula_block", "latex": "100 - 40 = 2(xy + yz + zx) \\Rightarrow 2(xy + yz + zx) = 60 \\Rightarrow xy + yz + zx = 30" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xy + yz + zx$ adalah **$30$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,15 +105,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Cari nilai $xy$ terlebih dahulu**" },
-        { "tipe": "paragraph", "text": "Gunakan identitas $(x + y)^2 = x^2 + y^2 + 2xy$:" },
-        { "tipe": "paragraph", "text": "$(7)^2 = 25 + 2xy$" },
-        { "tipe": "paragraph", "text": "$49 = 25 + 2xy \\Rightarrow 2xy = 24 \\Rightarrow xy = 12$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x^3 + y^3$ menggunakan identitas pangkat tiga**" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
-        { "tipe": "paragraph", "text": "Substitusikan $x + y = 7$ dan $xy = 12$:" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (7)^3 - 3(12)(7)$" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = 343 - 252 = 91$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari nilai $xy$ dari identitas kuadrat jumlah**" },
+        { "tipe": "formula_block", "latex": "(x + y)^2 = x^2 + y^2 + 2xy \\Rightarrow 7^2 = 25 + 2xy \\Rightarrow 2xy = 24 \\Rightarrow xy = 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x^3 + y^3$ menggunakan identitas jumlah pangkat tiga**" },
+        { "tipe": "formula_block", "latex": "x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 7^3 - 3(12)(7) = 343 - 252 = 91" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^3 + y^3$ adalah **$91$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -150,17 +125,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan secara bersamaan**" },
-        { "tipe": "paragraph", "text": "$(2x + y + z) + (x + 2y + z) + (x + y + 2z) = 7 + 8 + 9$" },
-        { "tipe": "paragraph", "text": "$4x + 4y + 4z = 24$" },
-        { "tipe": "paragraph", "text": "Bagi kedua ruas dengan $4$:" },
-        { "tipe": "paragraph", "text": "$x + y + z = 6$ ... (Persamaan utama)" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai masing-masing variabel dengan mengurangkan persamaan**" },
-        { "tipe": "paragraph", "text": "• Kurangkan persamaan (1) dengan persamaan utama: $(2x + y + z) - (x + y + z) = 7 - 6 \\Rightarrow x = 1$" },
-        { "tipe": "paragraph", "text": "• Kurangkan persamaan (2) dengan persamaan utama: $(x + 2y + z) - (x + y + z) = 8 - 6 \\Rightarrow y = 2$" },
-        { "tipe": "paragraph", "text": "• Kurangkan persamaan (3) dengan persamaan utama: $(x + y + 2z) - (x + y + z) = 9 - 6 \\Rightarrow z = 3$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $xyz$**" },
-        { "tipe": "paragraph", "text": "$xyz = 1 \\cdot 2 \\cdot 3 = 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan untuk memperoleh nilai $x + y + z$**" },
+        { "tipe": "formula_block", "latex": "(2x + y + z) + (x + 2y + z) + (x + y + 2z) = 7 + 8 + 9 \\Rightarrow 4(x + y + z) = 24 \\Rightarrow x + y + z = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$, $y$, $z$ lalu hitung $xyz$**" },
+        { "tipe": "paragraph", "text": "Kurangkan $x + y + z = 6$ dari masing-masing persamaan awal untuk mendapatkan $x = 1$, $y = 2$, dan $z = 3$:" },
+        { "tipe": "formula_block", "latex": "xyz = 1 \\cdot 2 \\cdot 3 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xyz$ adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -177,12 +147,10 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah tiga bilangan**" },
-        { "tipe": "paragraph", "text": "$(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui**" },
-        { "tipe": "paragraph", "text": "$(6)^2 = a^2 + b^2 + c^2 + 2(11)$" },
-        { "tipe": "paragraph", "text": "$36 = a^2 + b^2 + c^2 + 22$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $a^2 + b^2 + c^2$**" },
-        { "tipe": "paragraph", "text": "$a^2 + b^2 + c^2 = 36 - 22 = 14$." }
+        { "tipe": "formula_block", "latex": "(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a + b + c = 6$ dan $ab + bc + ca = 11$**" },
+        { "tipe": "formula_block", "latex": "6^2 = a^2 + b^2 + c^2 + 2(11) \\Rightarrow 36 = a^2 + b^2 + c^2 + 22 \\Rightarrow a^2 + b^2 + c^2 = 14" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a^2 + b^2 + c^2$ adalah **$14$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -198,12 +166,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas penjumlahan pangkat tiga**" },
-        { "tipe": "paragraph", "text": "Dari penjabaran $(x + y)^3 = x^3 + y^3 + 3xy(x + y)$, diperoleh:" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 4$ dan $xy = 3$**" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (4)^3 - 3(3)(4)$" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = 64 - 36 = 28$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas jumlah pangkat tiga dan substitusikan $x + y = 4$ serta $xy = 3$**" },
+        { "tipe": "formula_block", "latex": "x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 4^3 - 3(3)(4) = 64 - 36 = 28" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^3 + y^3$ adalah **$28$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -219,13 +184,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan**" },
-        { "tipe": "paragraph", "text": "$\\left(x + \\dfrac{1}{x}\\right)^2 = 4^2$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan bentuk kuadrat di ruas kiri**" },
-        { "tipe": "paragraph", "text": "$x^2 + 2 \\cdot x \\cdot \\dfrac{1}{x} + \\left(\\dfrac{1}{x}\\right)^2 = 16$" },
-        { "tipe": "paragraph", "text": "$x^2 + 2 + \\dfrac{1}{x^2} = 16$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Pindahkan konstanta ke ruas kanan**" },
-        { "tipe": "paragraph", "text": "$x^2 + \\dfrac{1}{x^2} = 16 - 2 = 14$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas persamaan $x + \\dfrac{1}{x} = 4$**" },
+        { "tipe": "formula_block", "latex": "\\left(x + \\dfrac{1}{x}\\right)^2 = 4^2 \\Rightarrow x^2 + 2 \\cdot x \\cdot \\dfrac{1}{x} + \\dfrac{1}{x^2} = 16" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan dan pindahkan konstanta ke ruas kanan**" },
+        { "tipe": "formula_block", "latex": "x^2 + 2 + \\dfrac{1}{x^2} = 16 \\Rightarrow x^2 + \\dfrac{1}{x^2} = 14" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^2 + \\dfrac{1}{x^2}$ adalah **$14$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -241,12 +204,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk selisih kuadrat $x^2 - y^2$**" },
-        { "tipe": "paragraph", "text": "Gunakan identitas aljabar $a^2 - b^2 = (a - b)(a + b)$:" },
-        { "tipe": "paragraph", "text": "$x^2 - y^2 = 12 \\Rightarrow (x - y)(x + y) = 12$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 6$**" },
-        { "tipe": "paragraph", "text": "$(x - y) \\cdot 6 = 12$" },
-        { "tipe": "paragraph", "text": "$x - y = \\dfrac{12}{6} = 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan $x^2 - y^2 = 12$ dan substitusikan $x + y = 6$**" },
+        { "tipe": "formula_block", "latex": "(x - y)(x + y) = 12 \\Rightarrow (x - y) \\cdot 6 = 12 \\Rightarrow x - y = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x - y$ adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     }
