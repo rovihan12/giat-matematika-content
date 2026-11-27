@@ -13,16 +13,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{x+2}{x^2+4x-3} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}\\ln|x^2+4x-3| + C$"}],
-        [{"tipe":"paragraph","text":"$\\ln|x^2+4x-3| + C$"}],
-        [{"tipe":"paragraph","text":"$2\\ln|x^2+4x-3| + C$"}],
-        [{"tipe":"paragraph","text":"$\\sqrt{x^2+4x-3} + C$"}],
-        [{"tipe":"paragraph","text":"$6\\sqrt{x^2+4x-3} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\ln|x^2+4x-3| + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\ln|x^2+4x-3| + C$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\ln|x^2+4x-3| + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{x^2+4x-3} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{x^2+4x-3} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = x^2+4x-3$, maka $du = (2x+4)dx = 2(x+2)dx$, sehingga $(x+2)dx = \\dfrac{1}{2}du$." },
-        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2u} \\, du = \\dfrac{1}{2}\\ln|u| + C = \\dfrac{1}{2}\\ln|x^2+4x-3| + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = x^2 + 4x - 3$**" },
+        { "tipe": "formula_block", "latex": "du = (2x + 4) \\, dx = 2(x + 2) \\, dx \\Rightarrow (x + 2) \\, dx = \\dfrac{1}{2} \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{u} \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\int \\dfrac{1}{u} \\, du = \\dfrac{1}{2}\\ln|u| + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = x^2 + 4x - 3$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{2}\\ln|x^2 + 4x - 3| + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{2}\\ln|x^2+4x-3| + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -32,16 +37,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{2}^{4} (6x^2-6x-1) \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$74$"}],
-        [{"tipe":"paragraph","text":"$72$"}],
-        [{"tipe":"paragraph","text":"$68$"}],
-        [{"tipe":"paragraph","text":"$64$"}],
-        [{"tipe":"paragraph","text":"$76$"}]
+        [ { "tipe": "paragraph", "text": "$74$" } ],
+        [ { "tipe": "paragraph", "text": "$72$" } ],
+        [ { "tipe": "paragraph", "text": "$68$" } ],
+        [ { "tipe": "paragraph", "text": "$64$" } ],
+        [ { "tipe": "paragraph", "text": "$76$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{2}^{4} (6x^2-6x-1) \\, dx = [2x^3 - 3x^2 - x]_{2}^{4}" },
-        { "tipe": "formula_block", "latex": "= (128 - 48 - 4) - (16 - 12 - 2) = 76 - 2 = 74" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan hasil antiturunan dari setiap suku pada integran**" },
+        { "tipe": "formula_block", "latex": "\\int_{2}^{4} (6x^2 - 6x - 1) \\, dx = \\left[ \\dfrac{6x^3}{3} - \\dfrac{6x^2}{2} - x \\right]_{2}^{4} = \\left[ 2x^3 - 3x^2 - x \\right]_{2}^{4}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = 4$ dan batas bawah $x = 2$**" },
+        { "tipe": "formula_block", "latex": "= \\left( 2(4)^3 - 3(4)^2 - 4 \\right) - \\left( 2(2)^3 - 3(2)^2 - 2 \\right)" },
+        { "tipe": "formula_block", "latex": "= (128 - 48 - 4) - (16 - 12 - 2) = 76 - 2 = 74" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$74$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -51,17 +60,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x(3x-5)^4 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{54}(3x+1)(3x-5)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{54}(3x+1)(3x-5)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{108}(1-3x)(3x-5)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{108}(1-3x)(3x-5)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{54}(1-3x)(3x-5)^5 + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{54}(3x+1)(3x-5)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{54}(3x+1)(3x-5)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{108}(1-3x)(3x-5)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{108}(1-3x)(3x-5)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{54}(1-3x)(3x-5)^5 + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Parsial: $u=x$, $dv=(3x-5)^4dx \\Rightarrow v=\\dfrac{1}{15}(3x-5)^5$." },
-        { "tipe": "formula_block", "latex": "= \\dfrac{1}{15}x(3x-5)^5 - \\dfrac{1}{15}\\int (3x-5)^5 \\, dx = \\dfrac{1}{15}x(3x-5)^5 - \\dfrac{1}{270}(3x-5)^6 + C" },
-        { "tipe": "paragraph", "text": "Faktorkan $\\dfrac{1}{270}(3x-5)^5 [18x - (3x-5)] = \\dfrac{1}{270}(15x+5)(3x-5)^5 + C = \\dfrac{1}{54}(3x+1)(3x-5)^5 + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pemisalan $u$ dan $dv$ untuk integral parsial ($\\int u \\, dv = uv - \\int v \\, du$)**" },
+        { "tipe": "paragraph", "text": "Pilih $u = x \\Rightarrow du = dx$ dan $dv = (3x - 5)^4 \\, dx \\Rightarrow v = \\dfrac{1}{3} \\cdot \\dfrac{1}{5}(3x - 5)^5 = \\dfrac{1}{15}(3x - 5)^5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus integral parsial dan selesaikan integral sisanya**" },
+        { "tipe": "formula_block", "latex": "\\int x(3x - 5)^4 \\, dx = \\dfrac{1}{15}x(3x - 5)^5 - \\dfrac{1}{15} \\int (3x - 5)^5 \\, dx = \\dfrac{1}{15}x(3x - 5)^5 - \\dfrac{1}{270}(3x - 5)^6 + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $\\dfrac{1}{270}(3x - 5)^5$ dan sederhanakan bentuk dalamnya**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{270}(3x - 5)^5 \\left[ 18x - (3x - 5) \\right] = \\dfrac{1}{270}(15x + 5)(3x - 5)^5 + C = \\dfrac{1}{54}(3x + 1)(3x - 5)^5 + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{54}(3x+1)(3x-5)^5 + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -71,16 +84,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{-1}^{2} (x^2-4x+3) \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$6$"}],
-        [{"tipe":"paragraph","text":"$4$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{16}{3}$"}],
-        [{"tipe":"paragraph","text":"$3$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{22}{3}$"}]
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{22}{3}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{-1}^{2} (x^2-4x+3) \\, dx = [\\dfrac{1}{3}x^3 - 2x^2 + 3x]_{-1}^{2}" },
-        { "tipe": "formula_block", "latex": "= (\\dfrac{8}{3} - 8 + 6) - (-\\dfrac{1}{3} - 2 - 3) = \\dfrac{2}{3} - (-\\dfrac{16}{3}) = \\dfrac{18}{3} = 6" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan hasil antiturunan dari fungsi polinomial tersebut**" },
+        { "tipe": "formula_block", "latex": "\\int_{-1}^{2} (x^2 - 4x + 3) \\, dx = \\left[ \\dfrac{1}{3}x^3 - 2x^2 + 3x \\right]_{-1}^{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = 2$ dan batas bawah $x = -1$**" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{1}{3}(2)^3 - 2(2)^2 + 3(2) \\right) - \\left( \\dfrac{1}{3}(-1)^3 - 2(-1)^2 + 3(-1) \\right)" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{8}{3} - 8 + 6 \\right) - \\left( -\\dfrac{1}{3} - 2 - 3 \\right) = \\dfrac{2}{3} - \\left(-\\dfrac{16}{3}\\right) = \\dfrac{18}{3} = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -90,16 +107,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int \\sin^2 2x \\cos 2x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}\\sin^3 2x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}\\sin^3 2x + C$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}\\sin^3 2x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}\\cos^3 2x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{12}\\sin^3 2x + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}\\sin^3 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}\\sin^3 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}\\sin^3 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\cos^3 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}\\sin^3 2x + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = \\sin 2x$, $du = 2\\cos 2x dx \\Rightarrow \\cos 2x dx = \\dfrac{1}{2}du$." },
-        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^2 \\, du = \\dfrac{1}{6}u^3 + C = \\dfrac{1}{6}\\sin^3 2x + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = \\sin 2x$**" },
+        { "tipe": "formula_block", "latex": "du = 2\\cos 2x \\, dx \\Rightarrow \\cos 2x \\, dx = \\dfrac{1}{2} \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int u^2 \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\cdot \\dfrac{u^3}{3} + C = \\dfrac{1}{6}u^3 + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = \\sin 2x$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{6}\\sin^3 2x + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{6}\\sin^3 2x + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -109,17 +131,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int \\dfrac{6x-9}{\\sqrt{x^2-3x-5}} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$6\\sqrt{x^2-3x-5} + C$"}],
-        [{"tipe":"paragraph","text":"$3\\sqrt{x^2-3x-5} + C$"}],
-        [{"tipe":"paragraph","text":"$2\\sqrt{x^2-3x-5} + C$"}],
-        [{"tipe":"paragraph","text":"$18\\sqrt{x^2-3x-5} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}\\sqrt{x^2-3x-5} + C$"}]
+        [ { "tipe": "paragraph", "text": "$6\\sqrt{x^2-3x-5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$3\\sqrt{x^2-3x-5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{x^2-3x-5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$18\\sqrt{x^2-3x-5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}\\sqrt{x^2-3x-5} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = x^2-3x-5$, maka $du = (2x-3)dx$." },
-        { "tipe": "paragraph", "text": "Perhatikan $6x-9 = 3(2x-3)$, sehingga pembilangnya adalah $3du$." },
-        { "tipe": "formula_block", "latex": "\\int 3u^{-1/2} \\, du = 3(2u^{1/2}) + C = 6\\sqrt{x^2-3x-5} + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = x^2 - 3x - 5$**" },
+        { "tipe": "formula_block", "latex": "du = (2x - 3) \\, dx \\Rightarrow (6x - 9) \\, dx = 3(2x - 3) \\, dx = 3 \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int \\dfrac{3 \\, du}{u^{1/2}} = 3 \\int u^{-1/2} \\, du = 3 \\left( \\dfrac{u^{1/2}}{1/2} \\right) + C = 3(2u^{1/2}) + C = 6u^{1/2} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = x^2 - 3x - 5$**" },
+        { "tipe": "formula_block", "latex": "= 6\\sqrt{x^2 - 3x - 5} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$6\\sqrt{x^2-3x-5} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -129,16 +155,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int 4\\sin 4x \\cos 2x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3}\\cos 6x - \\cos 2x + C$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{6}\\cos 6x - \\dfrac{1}{2}\\cos 2x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}\\cos 6x - \\dfrac{1}{2}\\cos 2x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}\\cos 6x + \\dfrac{1}{2}\\cos 2x + C$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{3}\\cos 6x + \\cos 2x + C$"}]
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{3}\\cos 6x - \\cos 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{6}\\cos 6x - \\dfrac{1}{2}\\cos 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}\\cos 6x - \\dfrac{1}{2}\\cos 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}\\cos 6x + \\dfrac{1}{2}\\cos 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{3}\\cos 6x + \\cos 2x + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$4\\sin 4x \\cos 2x = 2(2\\sin 4x \\cos 2x) = 2(\\sin 6x + \\sin 2x) = 2\\sin 6x + 2\\sin 2x$." },
-        { "tipe": "formula_block", "latex": "\\int (2\\sin 6x + 2\\sin 2x) \\, dx = -\\dfrac{1}{3}\\cos 6x - \\cos 2x + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah perkalian menjadi bentuk penjumlahan menggunakan identitas $2\\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$**" },
+        { "tipe": "formula_block", "latex": "4\\sin 4x \\cos 2x = 2(2\\sin 4x \\cos 2x) = 2\\left(\\sin(4x + 2x) + \\sin(4x - 2x)\\right) = 2\\sin 6x + 2\\sin 2x" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Integralkan setiap suku terhadap $x$**" },
+        { "tipe": "formula_block", "latex": "\\int (2\\sin 6x + 2\\sin 2x) \\, dx = 2\\left(-\\dfrac{1}{6}\\cos 6x\\right) + 2\\left(-\\dfrac{1}{2}\\cos 2x\\right) + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Sederhanakan koefisien pecahannya**" },
+        { "tipe": "formula_block", "latex": "= -\\dfrac{1}{3}\\cos 6x - \\cos 2x + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$-\\dfrac{1}{3}\\cos 6x - \\cos 2x + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -148,16 +179,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi/2} (\\sin 2x \\cos 2x) \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{2}$"}],
-        [{"tipe":"paragraph","text":"$-\\dfrac{1}{4}$"}]
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{4}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\sin 2x \\cos 2x = \\dfrac{1}{2}\\sin 4x$." },
-        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\dfrac{1}{2}\\sin 4x \\, dx = [-\\dfrac{1}{8}\\cos 4x]_{0}^{\\pi/2} = -\\dfrac{1}{8}(1 - 1) = 0" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Sederhanakan integran menggunakan identitas sudut rangkap $\\sin 2\\alpha = 2\\sin \\alpha \\cos \\alpha$**" },
+        { "tipe": "formula_block", "latex": "\\sin 2x \\cos 2x = \\dfrac{1}{2} \\sin 4x" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan antiturunannya dan substitusikan batas atas $x = \\dfrac{\\pi}{2}$ serta batas bawah $x = 0$**" },
+        { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi/2} \\dfrac{1}{2}\\sin 4x \\, dx = \\left[ -\\dfrac{1}{8}\\cos 4x \\right]_{0}^{\\pi/2} = -\\dfrac{1}{8}\\cos 2\\pi - \\left(-\\dfrac{1}{8}\\cos 0\\right)" },
+        { "tipe": "formula_block", "latex": "= -\\dfrac{1}{8}(1) + \\dfrac{1}{8}(1) = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -167,16 +202,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{-1}^{2} (x^3+3x^2+4x+5) \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$34\\dfrac{1}{4}$"}],
-        [{"tipe":"paragraph","text":"$33\\dfrac{3}{4}$"}],
-        [{"tipe":"paragraph","text":"$32\\dfrac{1}{4}$"}],
-        [{"tipe":"paragraph","text":"$31\\dfrac{3}{4}$"}],
-        [{"tipe":"paragraph","text":"$23\\dfrac{3}{4}$"}]
+        [ { "tipe": "paragraph", "text": "$34\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$33\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$32\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$31\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$23\\dfrac{3}{4}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{-1}^{2} (x^3+3x^2+4x+5) \\, dx = [\\dfrac{1}{4}x^4 + x^3 + 2x^2 + 5x]_{-1}^{2}" },
-        { "tipe": "formula_block", "latex": "= (4 + 8 + 8 + 10) - (\\dfrac{1}{4} - 1 + 2 - 5) = 30 - (-\\dfrac{17}{4}) = 30 + 4.25 = 34.25 = 34\\dfrac{1}{4}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan hasil antiturunan dari setiap suku polinomial**" },
+        { "tipe": "formula_block", "latex": "\\int_{-1}^{2} (x^3 + 3x^2 + 4x + 5) \\, dx = \\left[ \\dfrac{1}{4}x^4 + x^3 + 2x^2 + 5x \\right]_{-1}^{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = 2$ dan batas bawah $x = -1$**" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{1}{4}(2)^4 + (2)^3 + 2(2)^2 + 5(2) \\right) - \\left( \\dfrac{1}{4}(-1)^4 + (-1)^3 + 2(-1)^2 + 5(-1) \\right)" },
+        { "tipe": "formula_block", "latex": "= (4 + 8 + 8 + 10) - \\left( \\dfrac{1}{4} - 1 + 2 - 5 \\right) = 30 - \\left(-\\dfrac{17}{4}\\right) = 30 + 4\\dfrac{1}{4} = 34\\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$34\\dfrac{1}{4}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -186,15 +225,19 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{2} x(x^2-1) \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{9}{4}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{7}{4}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{4}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{4}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{5}{4}$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{4}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "\\int_{1}^{2} (x^3 - x) \\, dx = [\\dfrac{1}{4}x^4 - \\dfrac{1}{2}x^2]_{1}^{2} = (4 - 2) - (\\dfrac{1}{4} - \\dfrac{1}{2}) = 2 - (-\\dfrac{1}{4}) = \\dfrac{9}{4}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan perkalian pada integran dan tentukan antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{2} x(x^2 - 1) \\, dx = \\int_{1}^{2} (x^3 - x) \\, dx = \\left[ \\dfrac{1}{4}x^4 - \\dfrac{1}{2}x^2 \\right]_{1}^{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = 2$ dan batas bawah $x = 1$**" },
+        { "tipe": "formula_block", "latex": "= \\left( \\dfrac{1}{4}(2)^4 - \\dfrac{1}{2}(2)^2 \\right) - \\left( \\dfrac{1}{4}(1)^4 - \\dfrac{1}{2}(1)^2 \\right) = (4 - 2) - \\left( \\dfrac{1}{4} - \\dfrac{1}{2} \\right) = 2 - \\left(-\\dfrac{1}{4}\\right) = \\dfrac{9}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$\\dfrac{9}{4}$**." }
       ],
       "tingkat": "SULIT"
     }
