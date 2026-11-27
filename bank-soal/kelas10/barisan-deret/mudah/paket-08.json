@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) dengan mengurangkan suku kedua dengan suku pertama ($16 - 10 = 6$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tambahkan beda ke suku terakhir yang diketahui ($28 + 6 = 34$)." },
-        { "tipe": "paragraph", "text": "Jadi, suku berikutnya adalah $34$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan beda ($b$) barisan aritmatika**" },
+        { "tipe": "formula_block", "latex": "b = 16 - 10 = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tambahkan beda ke suku terakhir ($28$) untuk mendapatkan suku berikutnya**" },
+        { "tipe": "formula_block", "latex": "U_5 = 28 + 6 = 34" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku berikutnya dari barisan tersebut adalah **$34$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -41,9 +43,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan rasio ($r$) dengan membagi suku kedua dengan suku pertama ($\\dfrac{32}{64} = \\dfrac{1}{2}$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kalikan suku terakhir dengan rasio ($8 \\times \\dfrac{1}{2} = 4$)." },
-        { "tipe": "paragraph", "text": "Jadi, suku berikutnya adalah $4$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) barisan geometri**" },
+        { "tipe": "formula_block", "latex": "r = \\dfrac{32}{64} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan suku terakhir ($8$) dengan rasio untuk mendapatkan suku berikutnya**" },
+        { "tipe": "formula_block", "latex": "U_5 = 8 \\times \\dfrac{1}{2} = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku berikutnya dari barisan tersebut adalah **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -61,10 +65,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 5$) dan beda ($b = 9 - 5 = 4$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Masukkan ke dalam rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$." },
-        { "tipe": "paragraph", "text": "$U_9 = 5 + (9 - 1) \\cdot 4 = 5 + 8 \\cdot 4 = 5 + 32 = 37$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-9 adalah $37$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 5$) dan beda ($b = 9 - 5 = 4$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_9$ menggunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_9 = 5 + (9 - 1) \\cdot 4 = 5 + 8 \\cdot 4 = 5 + 32 = 37" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-9 barisan aritmatika tersebut adalah **$37$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -82,10 +86,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 4$) dan rasio ($r = \\dfrac{12}{4} = 3$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Masukkan ke dalam rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$." },
-        { "tipe": "paragraph", "text": "$U_5 = 4 \\cdot 3^{5-1} = 4 \\cdot 3^4 = 4 \\cdot 81 = 324$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-5 adalah $324$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 4$) dan rasio ($r = \\dfrac{12}{4} = 3$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_5$ menggunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$." },
+        { "tipe": "formula_block", "latex": "U_5 = 4 \\cdot 3^{5-1} = 4 \\cdot 3^4 = 4 \\cdot 81 = 324" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-5 barisan geometri tersebut adalah **$324$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -103,9 +107,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Gunakan rumus beda barisan aritmatika $b = U_2 - U_1$." },
-        { "tipe": "paragraph", "text": "$b = 14 - 20 = -6$." },
-        { "tipe": "paragraph", "text": "Jadi, beda barisan tersebut adalah $-6$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus beda barisan aritmatika $b = U_2 - U_1$**" },
+        { "tipe": "formula_block", "latex": "b = 14 - 20 = -6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, beda barisan aritmatika tersebut adalah **$-6$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -123,10 +127,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$), beda ($b = 5 - 2 = 3$), dan banyaknya suku ($n = 8$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2(2) + (8-1)3) = 4(4 + 7(3)) = 4(4 + 21) = 4 \\cdot 25 = 100$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 8 suku pertama adalah $100$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$), beda ($b = 5 - 2 = 3$), dan banyaknya suku ($n = 8$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_8$ menggunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "formula_block", "latex": "S_8 = \\dfrac{8}{2}\\left(2(2) + (8 - 1)3\\right) = 4(4 + 21) = 4 \\cdot 25 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $8$ suku pertama deret tersebut adalah **$100$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -144,10 +148,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 5$) dan beda ($b = 10 - 5 = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $a$ dan $b$ ke dalam rumus $U_n = a + (n-1)b$." },
-        { "tipe": "paragraph", "text": "$U_n = 5 + (n-1) \\cdot 5 = 5 + 5n - 5 = 5n$." },
-        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = 5n$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 5$) dan beda ($b = 10 - 5 = 5$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_n = 5 + (n - 1) \\cdot 5 = 5 + 5n - 5 = 5n" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus suku ke-$n$ barisan tersebut adalah **$U_n = 5n$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -165,10 +169,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kenali pola barisan yang merupakan bilangan segitiga dengan rumus $U_n = \\dfrac{n(n+1)}{2}$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 7$." },
-        { "tipe": "paragraph", "text": "$U_7 = \\dfrac{7(7+1)}{2} = \\dfrac{7 \\cdot 8}{2} = 7 \\cdot 4 = 28$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-7 adalah $28$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kenali pola bilangan segitiga dengan rumus $U_n = \\dfrac{n(n + 1)}{2}$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $n = 7$ ke dalam rumus pola tersebut." },
+        { "tipe": "formula_block", "latex": "U_7 = \\dfrac{7(7 + 1)}{2} = \\dfrac{7 \\cdot 8}{2} = 7 \\cdot 4 = 28" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-7 barisan tersebut adalah **$28$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -186,10 +190,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$), rasio ($r = 2$), dan banyaknya suku ($n = 6$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri $S_n = \\dfrac{a(r^n - 1)}{r-1}$." },
-        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{1(2^6 - 1)}{2 - 1} = \\dfrac{64 - 1}{1} = 63$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 6 suku pertama adalah $63$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 1$), rasio ($r = 2$), dan banyaknya suku ($n = 6$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_6$ menggunakan rumus jumlah deret geometri $S_n = \\dfrac{a(r^n - 1)}{r - 1}$." },
+        { "tipe": "formula_block", "latex": "S_6 = \\dfrac{1(2^6 - 1)}{2 - 1} = \\dfrac{64 - 1}{1} = 63" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $6$ suku pertama deret geometri tersebut adalah **$63$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -207,10 +211,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 10$) dan rasio ($r = \\dfrac{5}{10} = \\dfrac{1}{2}$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{10}{1 - \\dfrac{1}{2}} = \\dfrac{10}{\\dfrac{1}{2}} = 10 \\times 2 = 20$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah tak hingga deret tersebut adalah $20$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 10$) dan rasio ($r = \\dfrac{5}{10} = \\dfrac{1}{2}$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_{\\infty}$ menggunakan rumus jumlah deret geometri tak hingga $S_{\\infty} = \\dfrac{a}{1 - r}$." },
+        { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{10}{1 - \\dfrac{1}{2}} = \\dfrac{10}{\\dfrac{1}{2}} = 10 \\times 2 = 20" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah tak hingga deret geometri tersebut adalah **$20$**." }
       ],
       "tingkat": "MUDAH"
     }
