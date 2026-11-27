@@ -8,7 +8,7 @@
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-stat-t-03-q01",
+      "id": "bs-k10-stat-t-08-q01",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Nilai rata-rata 20 siswa adalah $75$. Setelah 4 siswa baru bergabung dengan nilai masing-masing $80, 82, 88, 98$, rata-rata seluruh siswa adalah..." }
       ],
@@ -22,15 +22,15 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai 20 siswa awal dan 4 siswa baru**" },
-        { "formula_block", "latex": "\\text{Jumlah 20 siswa} = 20 \\times 75 = 1.500, \\qquad \\text{Jumlah 4 siswa baru} = 80 + 82 + 88 + 98 = 348" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah 20 siswa} = 20 \\times 75 = 1.500, \\qquad \\text{Jumlah 4 siswa baru} = 80 + 82 + 88 + 98 = 348" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata gabungan 24 siswa**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{1.500 + 348}{20 + 4} = \\dfrac{1.848}{24} = 77" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{gab}} = \\dfrac{1.500 + 348}{20 + 4} = \\dfrac{1.848}{24} = 77" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata seluruh siswa adalah **$77$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q02",
+      "id": "bs-k10-stat-t-08-q02",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data nilai: $60, 65, 70, 75, 80, 85, 90, 95$. Jika nilai $60$ dan $95$ dikeluarkan, rata-rata data tersisa adalah..." }
       ],
@@ -44,15 +44,15 @@
       "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh 8 data**" },
-        { "formula_block", "latex": "\\text{Jumlah 8 data} = 60 + 65 + 70 + 75 + 80 + 85 + 90 + 95 = 620" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah 8 data} = 60 + 65 + 70 + 75 + 80 + 85 + 90 + 95 = 620" },
         { "tipe": "paragraph", "text": "**Langkah 2: Kurangi dengan $60$ dan $95$, lalu bagi dengan $6$ data tersisa**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{620 - 60 - 95}{6} = \\dfrac{465}{6} = 77{,}5" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{620 - 60 - 95}{6} = \\dfrac{465}{6} = 77{,}5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata data tersisa adalah **$77{,}5$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q03",
+      "id": "bs-k10-stat-t-08-q03",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 9 data adalah $8$. Jika data $x$ ditambahkan sehingga rata-rata menjadi $8{,}5$, maka nilai $x$ adalah..." }
       ],
@@ -66,13 +66,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung selisih jumlah nilai 10 data akhir dan 9 data awal**" },
-        { "formula_block", "latex": "x = (10 \\times 8{,}5) - (9 \\times 8) = 85 - 72 = 13" },
+        { "tipe": "formula_block", "latex": "x = (10 \\times 8{,}5) - (9 \\times 8) = 85 - 72 = 13" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$13$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q04",
+      "id": "bs-k10-stat-t-08-q04",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $4, 5, 6, 7, 8, 9, 10$. Jika setiap data ditambah $5$, maka median baru adalah..." }
       ],
@@ -86,13 +86,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median awal (data ke-$4$) dan terapkan pergeseran $+5$**" },
-        { "formula_block", "latex": "Me_{\\text{awal}} = 7 \\qquad \\Rightarrow \\qquad Me_{\\text{baru}} = 7 + 5 = 12" },
+        { "tipe": "formula_block", "latex": "Me_{\\text{awal}} = 7 \\qquad \\Rightarrow \\qquad Me_{\\text{baru}} = 7 + 5 = 12" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, median baru adalah **$12$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q05",
+      "id": "bs-k10-stat-t-08-q05",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 5 data adalah $12$. Jika data terkecil $6$ diganti dengan $16$, rata-rata baru adalah..." }
       ],
@@ -106,13 +106,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Sesuaikan jumlah 5 data dengan mengganti $6$ menjadi $16$, lalu bagi dengan $5$**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(5 \\times 12) - 6 + 16}{5} = \\dfrac{60 + 10}{5} = \\dfrac{70}{5} = 14" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(5 \\times 12) - 6 + 16}{5} = \\dfrac{60 + 10}{5} = \\dfrac{70}{5} = 14" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata baru adalah **$14$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q06",
+      "id": "bs-k10-stat-t-08-q06",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika median data adalah $6$, maka nilai $x$ yang memenuhi adalah..." },
         { "tipe": "paragraph", "text": "Nilai: $3, 4, 5, 6, 7$" },
@@ -128,17 +128,17 @@
       "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $n$ dan tentukan posisi data sebelum nilai $6$**" },
-        { "formula_block", "latex": "n = 1 + 2 + 3 + x + 1 = x + 7" },
-        { "paragraph", "text": "Nilai $3, 4,$ dan $5$ memiliki frekuensi kumulatif $1 + 2 + 3 = 6$ (menempati data ke-$1$ s.d. $6$)." },
+        { "tipe": "formula_block", "latex": "n = 1 + 2 + 3 + x + 1 = x + 7" },
+        { "tipe": "paragraph", "text": "Nilai $3, 4,$ dan $5$ memiliki frekuensi kumulatif $1 + 2 + 3 = 6$ (menempati data ke-$1$ s.d. $6$)." },
         { "tipe": "paragraph", "text": "**Langkah 2: Uji nilai $x = 6$ agar median terletak pada nilai $6$**" },
-        { "formula_block", "latex": "x = 6 \\Rightarrow n = 13 \\Rightarrow \\text{letak } Me = \\dfrac{13 + 1}{2} = 7" },
-        { "paragraph", "text": "Data ke-$7$ berada pada kelompok nilai $6$ (data ke-$7$ s.d. $12$), sehingga median sama dengan $6$." },
+        { "tipe": "formula_block", "latex": "x = 6 \\Rightarrow n = 13 \\Rightarrow \\text{letak } Me = \\dfrac{13 + 1}{2} = 7" },
+        { "tipe": "paragraph", "text": "Data ke-$7$ berada pada kelompok nilai $6$ (data ke-$7$ s.d. $12$), sehingga median sama dengan $6$." },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q07",
+      "id": "bs-k10-stat-t-08-q07",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $10, 12, 14, 16, 18$. Jika setiap data dikurangi $3$, jangkauan baru adalah..." }
       ],
@@ -152,13 +152,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jangkauan awal dan terapkan sifat invarian terhadap pergeseran**" },
-        { "formula_block", "latex": "R_{\\text{awal}} = 18 - 10 = 8 \\qquad \\Rightarrow \\qquad R_{\\text{baru}} = (18 - 3) - (10 - 3) = 8" },
+        { "tipe": "formula_block", "latex": "R_{\\text{awal}} = 18 - 10 = 8 \\qquad \\Rightarrow \\qquad R_{\\text{baru}} = (18 - 3) - (10 - 3) = 8" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jangkauan baru tetap sebesar **$8$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q08",
+      "id": "bs-k10-stat-t-08-q08",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 4 data adalah $15$. Jika data $x$ ditambahkan dan rata-rata menjadi $16$, maka nilai $x$ adalah..." }
       ],
@@ -172,13 +172,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung selisih jumlah 5 data akhir dan 4 data awal**" },
-        { "formula_block", "latex": "x = (5 \\times 16) - (4 \\times 15) = 80 - 60 = 20" },
+        { "tipe": "formula_block", "latex": "x = (5 \\times 16) - (4 \\times 15) = 80 - 60 = 20" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$20$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q09",
+      "id": "bs-k10-stat-t-08-q09",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai $Q_1$ data tersebut adalah..." },
         { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
@@ -194,16 +194,16 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan posisi $Q_1$ dari total $n = 12$ data**" },
-        { "formula_block", "latex": "n = 2 + 3 + 4 + 2 + 1 = 12 \\qquad \\Rightarrow \\qquad \\text{letak } Q_1 = \\dfrac{12 + 1}{4} = 3{,}25" },
+        { "tipe": "formula_block", "latex": "n = 2 + 3 + 4 + 2 + 1 = 12 \\qquad \\Rightarrow \\qquad \\text{letak } Q_1 = \\dfrac{12 + 1}{4} = 3{,}25" },
         { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai data ke-$3$ dan ke-$4$ melalui frekuensi kumulatif**" },
-        { "paragraph", "text": "Frekuensi kumulatif adalah $2$ untuk nilai $4$ (data ke-$1$ s.d. $2$) dan $5$ untuk nilai $5$ (data ke-$3$ s.d. $5$), sehingga data ke-$3$ dan ke-$4$ sama-sama bernilai $5$." },
-        { "formula_block", "latex": "Q_1 = 5" },
+        { "tipe": "paragraph", "text": "Frekuensi kumulatif adalah $2$ untuk nilai $4$ (data ke-$1$ s.d. $2$) dan $5$ untuk nilai $5$ (data ke-$3$ s.d. $5$), sehingga data ke-$3$ dan ke-$4$ sama-sama bernilai $5$." },
+        { "tipe": "formula_block", "latex": "Q_1 = 5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $Q_1$ data tersebut adalah **$5$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-03-q10",
+      "id": "bs-k10-stat-t-08-q10",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $5, 6, 7, 8, 9, 10, 11, 12$. Jika data terkecil dan terbesar dikeluarkan, jangkauan data baru adalah..." }
       ],
@@ -217,7 +217,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi nilai ekstrem baru ($6$ dan $11$) lalu hitung jangkauannya**" },
-        { "formula_block", "latex": "R_{\\text{baru}} = 11 - 6 = 5" },
+        { "tipe": "formula_block", "latex": "R_{\\text{baru}} = 11 - 6 = 5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jangkauan data baru adalah **$5$**." }
       ],
       "tingkat": "SULIT"
