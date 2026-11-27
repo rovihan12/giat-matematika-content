@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ganjil = $\\{1, 3, 5\\}$, prima = $\\{2, 3, 5\\}$." },
-        { "tipe": "paragraph", "text": "Irisan = $\\{3, 5\\}$ → $P(A \\cap B) = \\dfrac{2}{6}$." },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{3}{6} + \\dfrac{3}{6} - \\dfrac{2}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan ruang sampel, kejadian ganjil ($A$), prima ($B$), dan irisannya ($A \\cap B$)**" },
+        { "tipe": "paragraph", "text": "Pada sebuah dadu ($n(S) = 6$), mata dadu ganjil adalah $A = \\{1, 3, 5\\}$ dengan $P(A) = \\dfrac{3}{6}$, mata dadu prima adalah $B = \\{2, 3, 5\\}$ dengan $P(B) = \\dfrac{3}{6}$, dan irisannya adalah $A \\cap B = \\{3, 5\\}$ dengan $P(A \\cap B) = \\dfrac{2}{6}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang kejadian majemuk tidak saling lepas**" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = \\dfrac{3}{6} + \\dfrac{3}{6} - \\dfrac{2}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu ganjil atau prima adalah **$\\dfrac{2}{3}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -41,9 +43,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $4 + 5 + 6 = 15$." },
-        { "tipe": "paragraph", "text": "Merah atau biru = $4 + 5 = 9$." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{9}{15} = \\dfrac{3}{5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh bola ($n(S)$) dan banyak bola merah atau biru ($n(A \\cup B)$)**" },
+        { "tipe": "paragraph", "text": "Total bola adalah $4 + 5 + 6 = 15$ sehingga $n(S) = 15$, sedangkan banyak bola merah atau biru yang saling lepas adalah $4 + 5 = 9$." },
+        { "tipe": "formula_block", "latex": "P(\\text{merah atau biru}) = \\dfrac{4}{15} + \\dfrac{5}{15} = \\dfrac{9}{15} = \\dfrac{3}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola merah atau biru adalah **$\\dfrac{3}{5}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,8 +64,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$" },
-        { "tipe": "paragraph", "text": "$= 0{,}4 + 0{,}5 - 0{,}2 = 0{,}7$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan nilai yang diketahui ke rumus aturan penjumlahan peluang**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus peluang gabungan dua kejadian yang memiliki irisan." },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0{,}4 + 0{,}5 - 0{,}2 = 0{,}7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(A \\cup B)$ adalah **$0{,}7$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,8 +85,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dua kejadian saling lepas ($A \\cap B = \\emptyset$) jika tidak bisa terjadi bersamaan." },
-        { "tipe": "paragraph", "text": "Artinya $P(A \\cap B) = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan definisi dua kejadian saling lepas**" },
+        { "tipe": "paragraph", "text": "Dua kejadian $A$ dan $B$ dikatakan saling lepas jika keduanya tidak dapat terjadi secara bersamaan, sehingga irisannya merupakan himpunan kosong ($A \\cap B = \\emptyset$)." },
+        { "tipe": "formula_block", "latex": "P(A \\cap B) = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, dua kejadian $A$ dan $B$ disebut saling lepas jika **$P(A \\cap B) = 0$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,9 +106,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{As}) = \\dfrac{4}{52} = \\dfrac{1}{13}$, $P(\\text{merah}) = \\dfrac{26}{52} = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "$P(\\text{As merah}) = \\dfrac{2}{52} = \\dfrac{1}{26}$" },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{4}{52} + \\dfrac{26}{52} - \\dfrac{2}{52} = \\dfrac{28}{52} = \\dfrac{7}{13}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan peluang terambil kartu As, kartu merah, dan irisannya**" },
+        { "tipe": "paragraph", "text": "Dalam satu set kartu bridge ($n(S) = 52$), terdapat $4$ kartu As ($P(A) = \\dfrac{4}{52}$), $26$ kartu merah ($P(M) = \\dfrac{26}{52}$), dan $2$ kartu As merah ($P(A \\cap M) = \\dfrac{2}{52}$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang gabungan kartu As atau kartu merah**" },
+        { "tipe": "formula_block", "latex": "P(A \\cup M) = \\dfrac{4}{52} + \\dfrac{26}{52} - \\dfrac{2}{52} = \\dfrac{28}{52} = \\dfrac{7}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu As atau kartu merah adalah **$\\dfrac{7}{13}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -119,9 +128,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah $6$: $(1,5), (2,4), (3,3), (4,2), (5,1)$ → 5 pasangan." },
-        { "tipe": "paragraph", "text": "Jumlah $8$: $(2,6), (3,5), (4,4), (5,3), (6,2)$ → 5 pasangan." },
-        { "tipe": "paragraph", "text": "Keduanya saling lepas → $P = \\dfrac{5 + 5}{36} = \\dfrac{10}{36} = \\dfrac{5}{18}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak pasangan mata dadu berjumlah $6$ dan berjumlah $8$**" },
+        { "tipe": "paragraph", "text": "Pasangan berjumlah $6$ adalah $(1,5), (2,4), (3,3), (4,2), (5,1)$ ($5$ pasangan) dan berjumlah $8$ adalah $(2,6), (3,5), (4,4), (5,3), (6,2)$ ($5$ pasangan)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang dua kejadian saling lepas dengan $n(S) = 36$**" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = \\dfrac{5}{36} + \\dfrac{5}{36} = \\dfrac{10}{36} = \\dfrac{5}{18}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $6$ atau $8$ adalah **$\\dfrac{5}{18}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -139,7 +150,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(M \\cup F) = 0{,}6 + 0{,}5 - 0{,}3 = 0{,}8 = 80\\%$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus aturan penjumlahan untuk kejadian tidak saling lepas**" },
+        { "tipe": "paragraph", "text": "Diketahui $P(M) = 60\\%$, $P(F) = 50\\%$, dan $P(M \\cap F) = 30\\%$, sehingga:" },
+        { "tipe": "formula_block", "latex": "P(M \\cup F) = 60\\% + 50\\% - 30\\% = 80\\%" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persentase siswa yang suka matematika atau fisika adalah **$80\\%$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -157,8 +171,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Karena saling lepas: $P(A \\cup B) = P(A) + P(B)$" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{1}{3} + \\dfrac{1}{4} = \\dfrac{4 + 3}{12} = \\dfrac{7}{12}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus penjumlahan dua kejadian saling lepas**" },
+        { "tipe": "paragraph", "text": "Karena $A$ dan $B$ saling lepas, maka $P(A \\cap B) = 0$ sehingga peluang gabungannya adalah:" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) = \\dfrac{1}{3} + \\dfrac{1}{4} = \\dfrac{4 + 3}{12} = \\dfrac{7}{12}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(A \\cup B)$ adalah **$\\dfrac{7}{12}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -176,8 +192,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{rusak}) = \\dfrac{3}{10}$" },
-        { "tipe": "paragraph", "text": "$P(\\text{tidak rusak}) = 1 - \\dfrac{3}{10} = \\dfrac{7}{10}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang terambil lampu rusak adalah $P(\\text{rusak}) = \\dfrac{3}{10}$, sehingga peluang terambil lampu tidak rusak adalah:" },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak rusak}) = 1 - \\dfrac{3}{10} = \\dfrac{7}{10}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang lampu tersebut tidak rusak adalah **$\\dfrac{7}{10}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -195,9 +213,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = P(A) + P(B)$ (saling lepas)" },
-        { "tipe": "paragraph", "text": "$0{,}7 = 0{,}3 + P(B)$" },
-        { "tipe": "paragraph", "text": "$P(B) = 0{,}4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan ke rumus penjumlahan dua kejadian saling lepas**" },
+        { "tipe": "paragraph", "text": "Karena $A$ dan $B$ saling lepas, berlaku $P(A \\cup B) = P(A) + P(B)$." },
+        { "tipe": "formula_block", "latex": "0{,}7 = 0{,}3 + P(B) \\implies P(B) = 0{,}7 - 0{,}3 = 0{,}4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $P(B)$ adalah **$0{,}4$**." }
       ],
       "tingkat": "SEDANG"
     }
