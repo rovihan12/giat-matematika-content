@@ -21,8 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x + 2)(x - 5) > 0$" },
-        { "tipe": "paragraph", "text": "HP = $x < -2$ atau $x > 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pertidaksamaan kuadrat dan tentukan pembuat nol**" },
+        { "tipe": "formula_block", "latex": "x^2 - 3x - 10 > 0 \\Rightarrow (x + 2)(x - 5) > 0 \\Rightarrow x = -2 \\text{ atau } x = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($> 0$)**" },
+        { "tipe": "formula_block", "latex": "x < -2 \\quad \\text{atau} \\quad x > 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x < -2$ atau $x > 5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -40,8 +43,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x - 3)(x - 4) \\leq 0$" },
-        { "tipe": "paragraph", "text": "HP = $3 \\leq x \\leq 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pertidaksamaan kuadrat dan tentukan pembuat nol**" },
+        { "tipe": "formula_block", "latex": "x^2 - 7x + 12 \\leq 0 \\Rightarrow (x - 3)(x - 4) \\leq 0 \\Rightarrow x = 3 \\text{ atau } x = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($\\leq 0$)**" },
+        { "tipe": "formula_block", "latex": "3 \\leq x \\leq 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$3 \\leq x \\leq 4$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -59,8 +65,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$y < 0 \\Rightarrow (x + 1)(x - 5) < 0$" },
-        { "tipe": "paragraph", "text": "HP = $-1 < x < 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Syarat grafik berada di bawah sumbu-$x$ adalah $y < 0$, lalu faktorkan**" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x - 5 < 0 \\Rightarrow (x + 1)(x - 5) < 0 \\Rightarrow x = -1 \\text{ atau } x = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval nilai $x$ yang memenuhi**" },
+        { "tipe": "formula_block", "latex": "-1 < x < 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, grafik berada di bawah sumbu-$x$ untuk **$-1 < x < 5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -78,8 +87,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(3x + 2)(x - 3) \\geq 0$" },
-        { "tipe": "paragraph", "text": "HP = $x \\leq -\\dfrac{2}{3}$ atau $x \\geq 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pertidaksamaan kuadrat dan tentukan pembuat nol**" },
+        { "tipe": "formula_block", "latex": "3x^2 - 7x - 6 \\geq 0 \\Rightarrow (3x + 2)(x - 3) \\geq 0 \\Rightarrow x = -\\dfrac{2}{3} \\text{ atau } x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($\\geq 0$)**" },
+        { "tipe": "formula_block", "latex": "x \\leq -\\dfrac{2}{3} \\quad \\text{atau} \\quad x \\geq 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x \\leq -\\dfrac{2}{3}$ atau $x \\geq 3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -97,9 +109,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x + 3)^2 > 0$" },
-        { "tipe": "paragraph", "text": "$(x+3)^2 \\geq 0$ untuk semua $x$, dan $= 0$ hanya saat $x = -3$." },
-        { "tipe": "paragraph", "text": "HP = $x \\neq -3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah ke bentuk kuadrat sempurna**" },
+        { "tipe": "formula_block", "latex": "x^2 + 6x + 9 > 0 \\Rightarrow (x + 3)^2 > 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Analisis nilai kuadrat suatu bilangan real**" },
+        { "tipe": "paragraph", "text": "Bentuk $(x + 3)^2$ selalu bernilai lebih besar dari atau sama dengan $0$ untuk semua $x$ real, dan bernilai tepat $0$ hanya ketika $x = -3$. Karena tanda pertidaksamaan ketat ($> 0$), nilai $x = -3$ tidak termasuk." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\neq -3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -117,8 +131,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x - 3)(x + 3) < 0$" },
-        { "tipe": "paragraph", "text": "HP = $-3 < x < 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan selisih dua kuadrat dan tentukan pembuat nol**" },
+        { "tipe": "formula_block", "latex": "x^2 - 9 < 0 \\Rightarrow (x - 3)(x + 3) < 0 \\Rightarrow x = -3 \\text{ atau } x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($< 0$)**" },
+        { "tipe": "formula_block", "latex": "-3 < x < 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$-3 < x < 3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -136,8 +153,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x + 2)(x - 5) = 0$" },
-        { "tipe": "paragraph", "text": "$x = -2$ atau $x = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan $f(x) = 0$**" },
+        { "tipe": "formula_block", "latex": "x^2 - 3x - 10 = 0 \\Rightarrow (x + 2)(x - 5) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "x + 2 = 0 \\Rightarrow x = -2 \\qquad \\text{atau} \\qquad x - 5 = 0 \\Rightarrow x = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$-2$ dan $5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -155,9 +175,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D < 0 \\Rightarrow (k-2)^2 - 64 < 0$" },
-        { "tipe": "paragraph", "text": "$(k-2)^2 < 64 \\Rightarrow -8 < k - 2 < 8$" },
-        { "tipe": "paragraph", "text": "$-6 < k < 10$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat tidak memiliki akar real yaitu $D < 0$**" },
+        { "tipe": "formula_block", "latex": "D = (k - 2)^2 - 4(1)(16) < 0 \\Rightarrow (k - 2)^2 - 64 < 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan untuk mencari interval nilai $k$**" },
+        { "tipe": "formula_block", "latex": "(k - 2)^2 < 64 \\Rightarrow -8 < k - 2 < 8 \\Rightarrow -6 < k < 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ yang memenuhi adalah **$-6 < k < 10$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -175,8 +197,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x - 3)(x - 5) < 0$" },
-        { "tipe": "paragraph", "text": "HP = $3 < x < 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pertidaksamaan kuadrat dan tentukan pembuat nol**" },
+        { "tipe": "formula_block", "latex": "x^2 - 8x + 15 < 0 \\Rightarrow (x - 3)(x - 5) < 0 \\Rightarrow x = 3 \\text{ atau } x = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($< 0$)**" },
+        { "tipe": "formula_block", "latex": "3 < x < 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$3 < x < 5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -194,8 +219,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik kritis: $x = 2$ dan $x = -4$." },
-        { "tipe": "paragraph", "text": "HP = $x \\leq -4$ atau $x \\geq 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pembuat nol (titik kritis) dari $(x - 2)(x + 4) = 0$**" },
+        { "tipe": "formula_block", "latex": "x - 2 = 0 \\Rightarrow x = 2 \\qquad \\text{dan} \\qquad x + 4 = 0 \\Rightarrow x = -4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($\\geq 0$)**" },
+        { "tipe": "formula_block", "latex": "x \\leq -4 \\quad \\text{atau} \\quad x \\geq 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x \\leq -4$ atau $x \\geq 2$**." }
       ],
       "tingkat": "SEDANG"
     }
