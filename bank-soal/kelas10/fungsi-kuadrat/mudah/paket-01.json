@@ -21,8 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktorkan: $(x - 2)(x - 3) = 0$" },
-        { "tipe": "paragraph", "text": "$x = 2$ atau $x = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "x^2 - 5x + 6 = 0 \\Rightarrow (x - 2)(x - 3) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "x - 2 = 0 \\Rightarrow x = 2 \\qquad \\text{atau} \\qquad x - 3 = 0 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, akar-akar persamaan tersebut adalah **$x = 2$ atau $x = 3$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +43,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktorkan: $(x + 3)(x + 4) = 0$" },
-        { "tipe": "paragraph", "text": "$x = -3$ atau $x = -4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "x^2 + 7x + 12 = 0 \\Rightarrow (x + 3)(x + 4) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "x + 3 = 0 \\Rightarrow x = -3 \\qquad \\text{atau} \\qquad x + 4 = 0 \\Rightarrow x = -4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, akar-akar persamaan tersebut adalah **$x = -3$ atau $x = -4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +65,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x^2 - 9 = (x - 3)(x + 3) = 0$" },
-        { "tipe": "paragraph", "text": "$x = 3$ atau $x = -3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat selisih dua kuadrat untuk memfaktorkan**" },
+        { "tipe": "formula_block", "latex": "x^2 - 9 = 0 \\Rightarrow (x - 3)(x + 3) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "x - 3 = 0 \\Rightarrow x = 3 \\qquad \\text{atau} \\qquad x + 3 = 0 \\Rightarrow x = -3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, akar-akar persamaan tersebut adalah **$x = 3$ atau $x = -3$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,8 +87,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x(x - 4) = 0$" },
-        { "tipe": "paragraph", "text": "$x = 0$ atau $x = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Keluarkan faktor persekutuan $x$**" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x = 0 \\Rightarrow x(x - 4) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "x = 0 \\qquad \\text{atau} \\qquad x - 4 = 0 \\Rightarrow x = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, akar-akar persamaan tersebut adalah **$x = 0$ atau $x = 4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -97,8 +109,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktorkan: $(2x - 1)(x - 3) = 0$" },
-        { "tipe": "paragraph", "text": "$x = \\dfrac{1}{2}$ atau $x = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "2x^2 - 7x + 3 = 0 \\Rightarrow (2x - 1)(x - 3) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "2x - 1 = 0 \\Rightarrow x = \\dfrac{1}{2} \\qquad \\text{atau} \\qquad x - 3 = 0 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, akar-akar persamaan tersebut adalah **$x = 3$ atau $x = \\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -116,8 +131,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = b^2 - 4ac = (-6)^2 - 4(1)(8)$" },
-        { "tipe": "paragraph", "text": "$= 36 - 32 = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a$, $b$, dan $c$**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 6x + 8 = 0$, diperoleh $a = 1$, $b = -6$, dan $c = 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung diskriminan dengan rumus $D = b^2 - 4ac$**" },
+        { "tipe": "formula_block", "latex": "D = (-6)^2 - 4(1)(8) = 36 - 32 = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, diskriminan dari persamaan tersebut adalah **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -135,7 +153,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = 3^2 - 4(2)(-2) = 9 + 16 = 25$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 2$, $b = 3$, dan $c = -2$**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke dalam rumus diskriminan $D = b^2 - 4ac$." },
+        { "tipe": "formula_block", "latex": "D = 3^2 - 4(2)(-2) = 9 + 16 = 25" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, diskriminan dari persamaan tersebut adalah **$25$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -153,7 +174,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah akar: $x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{-7}{1} = 7$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 1$ dan $b = -7$**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus jumlah akar persamaan kuadrat $x_1 + x_2 = -\\dfrac{b}{a}$." },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{-7}{1} = 7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1 + x_2$ adalah **$7$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -171,7 +195,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Hasil kali akar: $x_1 \\cdot x_2 = \\dfrac{c}{a} = \\dfrac{12}{1} = 12$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 1$ dan konstanta $c = 12$**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus hasil kali akar persamaan kuadrat $x_1 \\cdot x_2 = \\dfrac{c}{a}$." },
+        { "tipe": "formula_block", "latex": "x_1 \\cdot x_2 = \\dfrac{12}{1} = 12" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1 \\cdot x_2$ adalah **$12$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -189,9 +216,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x_1 + x_2 = 2 + 5 = 7$; $x_1 \\cdot x_2 = 2 \\cdot 5 = 10$" },
-        { "tipe": "paragraph", "text": "Persamaan: $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$" },
-        { "tipe": "paragraph", "text": "$x^2 - 7x + 10 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah dan hasil kali akar-akar ($x_1 = 2$ dan $x_2 = 5$)**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = 2 + 5 = 7, \\qquad x_1 \\cdot x_2 = 2 \\cdot 5 = 10" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke bentuk persamaan $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$**" },
+        { "tipe": "formula_block", "latex": "x^2 - 7x + 10 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$x^2 - 7x + 10 = 0$**." }
       ],
       "tingkat": "MUDAH"
     }
