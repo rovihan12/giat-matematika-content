@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n(S) = 2$, kejadian muncul gambar $n(A) = 1$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak anggota ruang sampel ($n(S)$) dan kejadian muncul gambar ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pada pelemparan satu koin berlaku $n(S) = 2$, dan sisi gambar muncul $1$ kali sehingga $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul gambar pada pelemparan sebuah koin adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +42,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Faktor dari $6$: $\\{1, 2, 3, 6\\}$ → $n(A) = 4$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu faktor dari $6$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Faktor dari $6$ pada dadu adalah $\\{1, 2, 3, 6\\}$ sehingga $n(A) = 4$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{6} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu faktor dari $6$ adalah **$\\dfrac{2}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $6 + 4 = 10$." },
-        { "tipe": "paragraph", "text": "$P(\\text{putih}) = \\dfrac{4}{10} = \\dfrac{2}{5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh bola ($n(S)$) dan banyak bola putih ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total bola adalah $6 + 4 = 10$ sehingga $n(S) = 10$, dan banyak bola putih adalah $n(A) = 4$." },
+        { "tipe": "formula_block", "latex": "P(\\text{putih}) = \\dfrac{4}{10} = \\dfrac{2}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola putih adalah **$\\dfrac{2}{5}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,9 +84,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian: dadu pertama $3$, dadu kedua bebas ($6$ kemungkinan)." },
-        { "tipe": "paragraph", "text": "$n(A) = 6$, $n(S) = 36$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel kejadian ($n(A)$) dan ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Jika dadu pertama muncul $3$, dadu kedua memiliki $6$ kemungkinan mata sehingga $n(A) = 6$, sedangkan pada dua dadu berlaku $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu pertama $3$ adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -98,7 +105,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak lulus}) = 1 - 0{,}85 = 0{,}15$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian tidak lulus merupakan komplemen dari kejadian lulus ujian." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak lulus}) = 1 - 0{,}85 = 0{,}15" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang siswa tidak lulus adalah **$0{,}15$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -116,7 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n(S) = 2^3 = 8$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel pelemparan $3$ koin**" },
+        { "tipe": "paragraph", "text": "Setiap koin memiliki $2$ kemungkinan hasil sehingga untuk $3$ koin berlaku aturan pangkat $2^n$." },
+        { "tipe": "formula_block", "latex": "n(S) = 2^3 = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak anggota ruang sampelnya adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -134,8 +147,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian $\\{AAA\\}$ → $n(A) = 1$, $n(S) = 8$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{8}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kejadian muncul ketiganya angka ($n(A)$) dan ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Kejadian muncul ketiganya angka hanya $\\{AAA\\}$ sehingga $n(A) = 1$, sedangkan pada tiga koin berlaku $n(S) = 8$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{8}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul ketiganya angka pada pelemparan tiga koin adalah **$\\dfrac{1}{8}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -153,8 +168,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu kurang dari $5$: $\\{1, 2, 3, 4\\}$ → $n(A) = 4$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu kurang dari $5$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu kurang dari $5$ adalah $\\{1, 2, 3, 4\\}$ sehingga $n(A) = 4$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{6} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu kurang dari $5$ adalah **$\\dfrac{2}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -172,8 +189,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $20 + 15 = 35$." },
-        { "tipe": "paragraph", "text": "$P(\\text{putra}) = \\dfrac{20}{35} = \\dfrac{4}{7}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh siswa ($n(S)$) dan banyak siswa putra ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Jumlah seluruh siswa adalah $20 + 15 = 35$ sehingga $n(S) = 35$, dan banyak siswa putra adalah $n(A) = 20$." },
+        { "tipe": "formula_block", "latex": "P(\\text{putra}) = \\dfrac{20}{35} = \\dfrac{4}{7}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih siswa putra adalah **$\\dfrac{4}{7}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -191,7 +210,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A^c) = 1 - \\dfrac{3}{5} = \\dfrac{2}{5}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang komplemen kejadian $A$ diperoleh dengan mengurangkan $P(A)$ dari $1$." },
+        { "tipe": "formula_block", "latex": "P(A^c) = 1 - \\dfrac{3}{5} = \\dfrac{2}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang komplemennya adalah **$\\dfrac{2}{5}$**." }
       ],
       "tingkat": "MUDAH"
     }
