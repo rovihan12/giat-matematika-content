@@ -21,8 +21,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x - 5x \\leq 6 + 3 \\Rightarrow -3x \\leq 9$" },
-        { "tipe": "paragraph", "text": "Bagi $-3$ (tanda berbalik): $x \\geq -3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kelompokkan suku bervariabel $x$ di kiri dan konstanta di kanan**" },
+        { "tipe": "formula_block", "latex": "2x - 5x \\leq 6 + 3 \\Rightarrow -3x \\leq 9" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bagi kedua ruas dengan $-3$ (tanda pertidaksamaan dibalik)**" },
+        { "tipe": "formula_block", "latex": "x \\geq \\dfrac{9}{-3} \\Rightarrow x \\geq -3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\geq -3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -40,9 +43,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kalikan silang (KPK 12): $4(2x-1) \\leq 3(x+2)$" },
-        { "tipe": "paragraph", "text": "$8x - 4 \\leq 3x + 6$" },
-        { "tipe": "paragraph", "text": "$5x \\leq 10 \\Rightarrow x \\leq 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kalikan kedua ruas dengan KPK dari $3$ dan $4$ yaitu $12$**" },
+        { "tipe": "formula_block", "latex": "12 \\cdot \\dfrac{2x - 1}{3} \\leq 12 \\cdot \\dfrac{x + 2}{4} \\Rightarrow 4(2x - 1) \\leq 3(x + 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan tanda kurung dan selesaikan pertidaksamaan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "8x - 4 \\leq 3x + 6 \\Rightarrow 8x - 3x \\leq 6 + 4 \\Rightarrow 5x \\leq 10 \\Rightarrow x \\leq 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x \\leq 2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -60,7 +65,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Irisan: $x > 2$ DAN $x \\leq 5$ → $2 < x \\leq 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan irisan dari kedua pertidaksamaan**" },
+        { "tipe": "paragraph", "text": "Nilai $x$ harus lebih besar dari $2$ sekaligus kurang dari atau sama dengan $5$." },
+        { "tipe": "formula_block", "latex": "x > 2 \\quad \\text{dan} \\quad x \\leq 5 \\quad \\Rightarrow \\quad 2 < x \\leq 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$2 < x \\leq 5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -78,9 +86,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$-5 < 2x - 3 < 5$" },
-        { "tipe": "paragraph", "text": "$-2 < 2x < 8$" },
-        { "tipe": "paragraph", "text": "$-1 < x < 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah pertidaksamaan nilai mutlak menjadi pertidaksamaan rangkap**" },
+        { "tipe": "formula_block", "latex": "|2x - 3| < 5 \\Rightarrow -5 < 2x - 3 < 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tambahkan $3$ pada tiap bagian lalu bagi dengan $2$**" },
+        { "tipe": "formula_block", "latex": "-5 + 3 < 2x < 5 + 3 \\Rightarrow -2 < 2x < 8 \\Rightarrow -1 < x < 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-1 < x < 4$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -98,9 +108,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3x \\leq 9 \\Rightarrow x \\leq 3$" },
-        { "tipe": "paragraph", "text": "$2x > 4 \\Rightarrow x > 2$" },
-        { "tipe": "paragraph", "text": "Irisan: $2 < x \\leq 3$ → $x$ bulat = $\\{3\\}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan masing-masing pertidaksamaan**" },
+        { "tipe": "formula_block", "latex": "3x + 1 \\leq 10 \\Rightarrow 3x \\leq 9 \\Rightarrow x \\leq 3" },
+        { "tipe": "formula_block", "latex": "2x - 1 > 3 \\Rightarrow 2x > 4 \\Rightarrow x > 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan irisan interval dan pilih nilai $x$ bulat**" },
+        { "tipe": "formula_block", "latex": "2 < x \\leq 3 \\Rightarrow x_{\\text{bulat}} = \\{3\\}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ bulat yang memenuhi adalah **$ \\{3\\}$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -118,11 +131,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik kritis: $x = -1$ (pembilang nol) dan $x = 2$ (penyebut nol, dikecualikan)." },
-        { "tipe": "paragraph", "text": "Uji $x = -2$: $\\dfrac{-1}{-4} = \\dfrac{1}{4} > 0$ ✓" },
-        { "tipe": "paragraph", "text": "Uji $x = 0$: $\\dfrac{1}{-2} < 0$ ✗" },
-        { "tipe": "paragraph", "text": "Uji $x = 3$: $\\dfrac{4}{1} = 4 > 0$ ✓" },
-        { "tipe": "paragraph", "text": "HP = $x < -1$ atau $x > 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pembuat nol pembilang dan penyebut**" },
+        { "tipe": "paragraph", "text": "Pembilang bernilai nol di $x = -1$ dan penyebut bernilai nol di $x = 2$ (sehingga $x \\neq 2$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji tanda pada setiap interval garis bilangan**" },
+        { "tipe": "formula_block", "latex": "x = -2: \\dfrac{-1}{-4} = \\dfrac{1}{4} > 0 \\text{ (memenuhi)}, \\quad x = 0: \\dfrac{1}{-2} < 0, \\quad x = 3: \\dfrac{4}{1} = 4 > 0 \\text{ (memenuhi)}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x < -1$ atau $x > 2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -140,8 +153,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x - 2 \\leq -3$ atau $x - 2 \\geq 3$" },
-        { "tipe": "paragraph", "text": "$x \\leq -1$ atau $x \\geq 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Uraikan pertidaksamaan nilai mutlak menjadi dua kasus**" },
+        { "tipe": "formula_block", "latex": "x - 2 \\leq -3 \\quad \\text{atau} \\quad x - 2 \\geq 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan masing-masing pertidaksamaan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "x \\leq -3 + 2 \\Rightarrow x \\leq -1 \\qquad \\text{atau} \\qquad x \\geq 3 + 2 \\Rightarrow x \\geq 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\leq -1$ atau $x \\geq 5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -159,7 +175,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kurangkan 1 dari ketiga ruas: $-3 < x \\leq 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan $1$ pada semua ruas pertidaksamaan rangkap**" },
+        { "tipe": "formula_block", "latex": "-2 - 1 < x + 1 - 1 \\leq 4 - 1 \\Rightarrow -3 < x \\leq 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-3 < x \\leq 3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -177,11 +195,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pembilang nol di $x = 2$; penyebut nol di $x = -1$ (titik kritis, dikecualikan)." },
-        { "tipe": "paragraph", "text": "Uji $x = -2$: $\\dfrac{-12}{-1} = 12 > 0$ → bukan solusi ($\\leq 0$)." },
-        { "tipe": "paragraph", "text": "Uji $x = 0$: $\\dfrac{-6}{1} = -6 \\leq 0$ ✓" },
-        { "tipe": "paragraph", "text": "Uji $x = 3$: $\\dfrac{3}{4} > 0$ → bukan solusi." },
-        { "tipe": "paragraph", "text": "HP = $-1 < x \\leq 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pembuat nol pembilang dan syarat penyebut**" },
+        { "tipe": "paragraph", "text": "Pembilang bernilai nol di $x = 2$ (termasuk karena tanda $\\leq$), sedangkan penyebut tidak boleh nol sehingga $x \\neq -1$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji tanda pada setiap interval**" },
+        { "tipe": "formula_block", "latex": "x = -2: \\dfrac{-12}{-1} = 12 > 0, \\quad x = 0: \\dfrac{-6}{1} = -6 \\leq 0 \\text{ (memenuhi)}, \\quad x = 3: \\dfrac{3}{4} > 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$-1 < x \\leq 2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -199,10 +217,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$5x - 3 \\leq 2x + 9 \\Rightarrow 3x \\leq 12 \\Rightarrow x \\leq 4$" },
-        { "tipe": "paragraph", "text": "$x + 4 > 2 \\Rightarrow x > -2$" },
-        { "tipe": "paragraph", "text": "Irisan: $-2 < x \\leq 4$." },
-        { "tipe": "paragraph", "text": "Nilai bulat positif = $\\{1, 2, 3, 4\\}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan masing-masing pertidaksamaan**" },
+        { "tipe": "formula_block", "latex": "5x - 3 \\leq 2x + 9 \\Rightarrow 3x \\leq 12 \\Rightarrow x \\leq 4" },
+        { "tipe": "formula_block", "latex": "x + 4 > 2 \\Rightarrow x > -2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan irisan dan pilih bilangan bulat positif**" },
+        { "tipe": "formula_block", "latex": "-2 < x \\leq 4 \\Rightarrow x_{\\text{bulat positif}} = \\{1, 2, 3, 4\\}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ bulat positif yang memenuhi kedua pertidaksamaan adalah **$ \\{1, 2, 3, 4\\}$**." }
       ],
       "tingkat": "SEDANG"
     }
