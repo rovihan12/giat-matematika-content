@@ -21,8 +21,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $x = 1$, $y = 2$: $1 + 2 + z = 6$" },
-        { "tipe": "paragraph", "text": "$z = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 1$ dan $y = 2$ ke persamaan $x + y + z = 6$**" },
+        { "tipe": "formula_block", "latex": "1 + 2 + z = 6 \\Rightarrow 3 + z = 6 \\Rightarrow z = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian dari sistem tersebut adalah **$(1, 2, 3)$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,7 +41,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2 + 3 + z = 10 \\Rightarrow z = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 2$ dan $y = 3$ ke persamaan $x + y + z = 10$**" },
+        { "tipe": "formula_block", "latex": "2 + 3 + z = 10 \\Rightarrow 5 + z = 10 \\Rightarrow z = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $z$ dari sistem tersebut adalah **$5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -58,8 +61,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $y + z = 7$ dan $z = 3$: $y = 4$" },
-        { "tipe": "paragraph", "text": "Dari $x + y = 5$: $x + 4 = 5 \\Rightarrow x = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $z = 3$ ke $y + z = 7$ untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "y + 3 = 7 \\Rightarrow y = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $y = 4$ ke $x + y = 5$ untuk memperoleh nilai $x$**" },
+        { "tipe": "formula_block", "latex": "x + 4 = 5 \\Rightarrow x = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -77,7 +83,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3 + 4 + z = 12 \\Rightarrow z = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 3$ dan $y = 4$ ke persamaan $x + y + z = 12$**" },
+        { "tipe": "formula_block", "latex": "3 + 4 + z = 12 \\Rightarrow 7 + z = 12 \\Rightarrow z = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $z$ adalah **$5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -95,8 +103,9 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan ketiga persamaan: $2(x + y + z) = 8 + 10 + 12 = 30$" },
-        { "tipe": "paragraph", "text": "$x + y + z = 15$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan untuk memperoleh nilai $x + y + z$**" },
+        { "tipe": "formula_block", "latex": "(x + y) + (y + z) + (x + z) = 8 + 10 + 12 \\Rightarrow 2(x + y + z) = 30 \\Rightarrow x + y + z = 15" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y + z$ adalah **$15$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -114,7 +123,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x + 4 + 1 = 9 \\Rightarrow x = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $y = 2$ dan $z = 1$ ke persamaan $x + 2y + z = 9$**" },
+        { "tipe": "formula_block", "latex": "x + 2(2) + 1 = 9 \\Rightarrow x + 5 = 9 \\Rightarrow x = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -132,8 +143,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x + y + z = \\dfrac{10 + 12 + 14}{2} = 18$" },
-        { "tipe": "paragraph", "text": "$z = 18 - (x + y) = 18 - 10 = 8$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan untuk memperoleh nilai $x + y + z$**" },
+        { "tipe": "formula_block", "latex": "2(x + y + z) = 10 + 12 + 14 = 36 \\Rightarrow x + y + z = 18" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan $x + y = 10$ dari $x + y + z = 18$ untuk memperoleh nilai $z$**" },
+        { "tipe": "formula_block", "latex": "z = 18 - 10 = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $z$ adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -151,7 +165,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2(1) + y - 2 = 5 \\Rightarrow y = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 1$ dan $z = 2$ ke persamaan $2x + y - z = 5$**" },
+        { "tipe": "formula_block", "latex": "2(1) + y - 2 = 5 \\Rightarrow y = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $y$ dari sistem tersebut adalah **$5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -169,9 +185,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$z = 15 - (x + y) = 15 - 9 = 6$" },
-        { "tipe": "paragraph", "text": "$y = 11 - z = 11 - 6 = 5$" },
-        { "tipe": "paragraph", "text": "$x = 9 - y = 9 - 5 = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $z$ dan $y$ melalui substitusi**" },
+        { "tipe": "formula_block", "latex": "z = 15 - (x + y) = 15 - 9 = 6, \\qquad y = 11 - z = 11 - 6 = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x$ dari $x + y = 9$**" },
+        { "tipe": "formula_block", "latex": "x = 9 - 5 = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -189,7 +207,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3 + 7 + z = 20 \\Rightarrow z = 10$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan dari jumlah ketiga bilangan**" },
+        { "tipe": "paragraph", "text": "Misalkan bilangan ketiga adalah $z$, maka jumlah ketiga bilangan sama dengan $20$." },
+        { "tipe": "formula_block", "latex": "3 + 7 + z = 20 \\Rightarrow 10 + z = 20 \\Rightarrow z = 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan ketiga adalah **$10$**." }
       ],
       "tingkat": "MUDAH"
     }
