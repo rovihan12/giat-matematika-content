@@ -21,10 +21,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pasangkan sudut berpenyiku menggunakan $\\sin^2 \\theta + \\sin^2(90^\\circ - \\theta) = \\sin^2 \\theta + \\cos^2 \\theta = 1$**" },
-        { "tipe": "paragraph", "text": "Terdapat $44$ pasangan sudut: $(1^\\circ, 89^\\circ), (2^\\circ, 88^\\circ), \\ldots, (44^\\circ, 46^\\circ)$, yang masing-masing bernilai $1$, sehingga jumlahnya adalah $44 \\times 1 = 44$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tambahkan suku tengah yang tidak berpasangan ($\\sin^2 45^\\circ$)**" },
-        { "tipe": "paragraph", "text": "Karena $\\sin 45^\\circ = \\dfrac{1}{2}\\sqrt{2}$, maka $\\sin^2 45^\\circ = \\dfrac{1}{2} = 0{,}5$. Total nilainya adalah $44 + 0{,}5 = 44{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pasangkan $44$ sudut berpenyiku menggunakan $\\sin^2 \\theta + \\sin^2(90^\\circ - \\theta) = 1$ dan tambahkan $\\sin^2 45^\\circ$**" },
+        { "formula_block", "latex": "\\sum_{k=1}^{89} \\sin^2 k^\\circ = 44(1) + \\sin^2 45^\\circ = 44 + \\left(\\dfrac{\\sqrt{2}}{2}\\right)^2 = 44 + 0{,}5 = 44{,}5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai penjumlahan tersebut adalah **$44{,}5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -42,11 +41,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Cari nilai $\\sin x \\cos x$ dengan menguadratkan $\\sin x - \\cos x = \\dfrac{1}{2}$**" },
-        { "tipe": "paragraph", "text": "$(\\sin x - \\cos x)^2 = \\left(\\dfrac{1}{2}\\right)^2 \\Rightarrow \\sin^2 x - 2\\sin x \\cos x + \\cos^2 x = \\dfrac{1}{4}$." },
-        { "tipe": "paragraph", "text": "$1 - 2\\sin x \\cos x = \\dfrac{1}{4} \\Rightarrow 2\\sin x \\cos x = \\dfrac{3}{4} \\Rightarrow \\sin x \\cos x = \\dfrac{3}{8}$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan selisih pangkat tiga $\\sin^3 x - \\cos^3 x$**" },
-        { "tipe": "paragraph", "text": "$\\sin^3 x - \\cos^3 x = (\\sin x - \\cos x)(\\sin^2 x + \\sin x \\cos x + \\cos^2 x) = \\dfrac{1}{2}\\left(1 + \\dfrac{3}{8}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{11}{8} = \\dfrac{11}{16}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas untuk memperoleh nilai $\\sin x \\cos x$**" },
+        { "formula_block", "latex": "(\\sin x - \\cos x)^2 = \\left(\\dfrac{1}{2}\\right)^2 \\Rightarrow 1 - 2\\sin x \\cos x = \\dfrac{1}{4} \\Rightarrow \\sin x \\cos x = \\dfrac{3}{8}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan selisih pangkat tiga $\\sin^3 x - \\cos^3 x$ lalu substitusikan nilai yang diketahui**" },
+        { "formula_block", "latex": "\\sin^3 x - \\cos^3 x = (\\sin x - \\cos x)(1 + \\sin x \\cos x) = \\dfrac{1}{2}\\left(1 + \\dfrac{3}{8}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{11}{8} = \\dfrac{11}{16}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin^3 x - \\cos^3 x$ adalah **$\\dfrac{11}{16}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -64,11 +63,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pasangkan sudut berpelurus menggunakan $\\cos \\theta + \\cos(180^\\circ - \\theta) = 0$**" },
-        { "tipe": "paragraph", "text": "• $\\cos 0^\\circ + \\cos 180^\\circ = 1 + (-1) = 0$." },
-        { "tipe": "paragraph", "text": "• Setiap pasangan $(\\theta, 180^\\circ - \\theta)$ untuk $1^\\circ \\leq \\theta \\leq 89^\\circ$ saling meniadakan (jumlahnya $0$)." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Perhatikan suku tengah $\\cos 90^\\circ$**" },
-        { "tipe": "paragraph", "text": "Karena $\\cos 90^\\circ = 0$, jumlah seluruh suku dari $\\cos 0^\\circ$ hingga $\\cos 180^\\circ$ adalah $0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Pasangkan sudut berpelurus menggunakan $\\cos \\theta + \\cos(180^\\circ - \\theta) = 0$ dan perhatikan $\\cos 90^\\circ = 0$**" },
+        { "formula_block", "latex": "(\\cos 0^\\circ + \\cos 180^\\circ) + \\sum_{k=1}^{89} (\\cos k^\\circ + \\cos(180^\\circ - k^\\circ)) + \\cos 90^\\circ = 0 + 0 + 0 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai penjumlahan tersebut adalah **$0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -86,11 +83,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari $x^2 - 5x + 6 = 0$**" },
-        { "tipe": "paragraph", "text": "• $\\tan \\alpha + \\tan \\beta = -\\dfrac{-5}{1} = 5$" },
-        { "tipe": "paragraph", "text": "• $\\tan \\alpha \\cdot \\tan \\beta = \\dfrac{6}{1} = 6$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\tan \\alpha + \\tan \\beta$ dan $\\tan \\alpha \\tan \\beta$ dari $x^2 - 5x + 6 = 0$**" },
+        { "formula_block", "latex": "\\tan \\alpha + \\tan \\beta = 5, \\qquad \\tan \\alpha \\cdot \\tan \\beta = 6" },
         { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus $\\tan(\\alpha + \\beta)$**" },
-        { "tipe": "paragraph", "text": "$\\tan(\\alpha + \\beta) = \\dfrac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\tan \\beta} = \\dfrac{5}{1 - 6} = \\dfrac{5}{-5} = -1$." }
+        { "formula_block", "latex": "\\tan(\\alpha + \\beta) = \\dfrac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\tan \\beta} = \\dfrac{5}{1 - 6} = -1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\tan(\\alpha + \\beta)$ adalah **$-1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -114,10 +111,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan aturan cosinus untuk sudut $C$**" },
-        { "tipe": "paragraph", "text": "$\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab}$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 5$, $b = 6$, dan $c = 7$**" },
-        { "tipe": "paragraph", "text": "$\\cos C = \\dfrac{5^2 + 6^2 - 7^2}{2 \\cdot 5 \\cdot 6} = \\dfrac{25 + 36 - 49}{60} = \\dfrac{12}{60} = \\dfrac{1}{5}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan aturan cosinus untuk sudut $C$ dengan $a = 5$, $b = 6$, dan $c = 7$**" },
+        { "formula_block", "latex": "\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab} = \\dfrac{5^2 + 6^2 - 7^2}{2 \\cdot 5 \\cdot 6} = \\dfrac{25 + 36 - 49}{60} = \\dfrac{12}{60} = \\dfrac{1}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\cos C$ adalah **$\\dfrac{1}{5}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -135,11 +131,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Sederhanakan masing-masing suku menggunakan identitas sudut rangkap tiga**" },
-        { "tipe": "paragraph", "text": "• $\\dfrac{\\sin 3x}{\\sin x} = \\dfrac{3\\sin x - 4\\sin^3 x}{\\sin x} = 3 - 4\\sin^2 x$" },
-        { "tipe": "paragraph", "text": "• $\\dfrac{\\cos 3x}{\\cos x} = \\dfrac{4\\cos^3 x - 3\\cos x}{\\cos x} = 4\\cos^2 x - 3$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung selisihnya**" },
-        { "tipe": "paragraph", "text": "$(3 - 4\\sin^2 x) - (4\\cos^2 x - 3) = 6 - 4(\\sin^2 x + \\cos^2 x) = 6 - 4(1) = 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan $\\sin 3x$ dan $\\cos 3x$, lalu sederhanakan tiap suku**" },
+        { "formula_block", "latex": "\\dfrac{\\sin 3x}{\\sin x} - \\dfrac{\\cos 3x}{\\cos x} = (3 - 4\\sin^2 x) - (4\\cos^2 x - 3) = 6 - 4(\\sin^2 x + \\cos^2 x)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas $\\sin^2 x + \\cos^2 x = 1$**" },
+        { "formula_block", "latex": "6 - 4(1) = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ekspresi tersebut adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -158,11 +154,10 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan kuadrat dalam $\\sin x$**" },
-        { "tipe": "paragraph", "text": "$2\\sin^2 x + \\sin x - 1 = 0 \\Rightarrow (2\\sin x - 1)(\\sin x + 1) = 0$, sehingga $\\sin x = \\dfrac{1}{2}$ atau $\\sin x = -1$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ pada interval $0^\\circ \\leq x \\leq 360^\\circ$**" },
-        { "tipe": "paragraph", "text": "• $\\sin x = \\dfrac{1}{2} \\Rightarrow x = 30^\\circ$ atau $x = 150^\\circ$." },
-        { "tipe": "paragraph", "text": "• $\\sin x = -1 \\Rightarrow x = 270^\\circ$." },
-        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{30^\\circ, 150^\\circ, 270^\\circ\\}$." }
+        { "formula_block", "latex": "2\\sin^2 x + \\sin x - 1 = 0 \\Rightarrow (2\\sin x - 1)(\\sin x + 1) = 0 \\Rightarrow \\sin x = \\dfrac{1}{2} \\text{ atau } \\sin x = -1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan semua nilai $x$ pada interval $0^\\circ \\leq x \\leq 360^\\circ$**" },
+        { "formula_block", "latex": "\\sin x = \\dfrac{1}{2} \\Rightarrow x = 30^\\circ, 150^\\circ; \\qquad \\sin x = -1 \\Rightarrow x = 270^\\circ" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{30^\\circ, 150^\\circ, 270^\\circ\\}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -180,13 +175,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut pecahan**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{\\sin 10^\\circ} - \\dfrac{\\sqrt{3}}{\\cos 10^\\circ} = \\dfrac{\\cos 10^\\circ - \\sqrt{3}\\sin 10^\\circ}{\\sin 10^\\circ \\cos 10^\\circ}$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan pembilang dan penyebut**" },
-        { "tipe": "paragraph", "text": "• Pembilang: $\\cos 10^\\circ - \\sqrt{3}\\sin 10^\\circ = 2\\left(\\dfrac{1}{2}\\cos 10^\\circ - \\dfrac{1}{2}\\sqrt{3}\\sin 10^\\circ\\right) = 2\\cos(10^\\circ + 60^\\circ) = 2\\cos 70^\\circ = 2\\sin 20^\\circ$." },
-        { "tipe": "paragraph", "text": "• Penyebut: $\\sin 10^\\circ \\cos 10^\\circ = \\dfrac{1}{2}\\sin 20^\\circ$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Bagi pembilang dengan penyebut**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{2\\sin 20^\\circ}{\\frac{1}{2}\\sin 20^\\circ} = 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut lalu sederhanakan pembilang dan penyebut**" },
+        { "formula_block", "latex": "\\dfrac{\\cos 10^\\circ - \\sqrt{3}\\sin 10^\\circ}{\\sin 10^\\circ \\cos 10^\\circ} = \\dfrac{2\\cos(10^\\circ + 60^\\circ)}{\\frac{1}{2}\\sin 20^\\circ} = \\dfrac{2\\cos 70^\\circ}{\\frac{1}{2}\\sin 20^\\circ}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan $\\cos 70^\\circ = \\sin 20^\\circ$ dan sederhanakan**" },
+        { "formula_block", "latex": "\\dfrac{2\\sin 20^\\circ}{\\frac{1}{2}\\sin 20^\\circ} = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ekspresi tersebut adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -204,13 +197,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung kuadrat cosinus pada masing-masing sudut istimewa**" },
-        { "tipe": "paragraph", "text": "• $\\cos^2 45^\\circ = \\left(\\dfrac{\\sqrt{2}}{2}\\right)^2 = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "• $\\cos^2 135^\\circ = \\left(-\\dfrac{\\sqrt{2}}{2}\\right)^2 = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "• $\\cos^2 225^\\circ = \\left(-\\dfrac{\\sqrt{2}}{2}\\right)^2 = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "• $\\cos^2 315^\\circ = \\left(\\dfrac{\\sqrt{2}}{2}\\right)^2 = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan keempat nilainya**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{2} + \\dfrac{1}{2} + \\dfrac{1}{2} + \\dfrac{1}{2} = 4 \\times \\dfrac{1}{2} = 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan nilai kuadrat cosinus pada masing-masing sudut ($\\cos^2 \\theta = \\dfrac{1}{2}$)**" },
+        { "formula_block", "latex": "\\cos^2 45^\\circ + \\cos^2 135^\\circ + \\cos^2 225^\\circ + \\cos^2 315^\\circ = \\dfrac{1}{2} + \\dfrac{1}{2} + \\dfrac{1}{2} + \\dfrac{1}{2} = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai penjumlahan tersebut adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -228,10 +217,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut dan gunakan rumus selisih sudut pada sinus**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{\\sin 4x}{\\sin 2x} - \\dfrac{\\cos 4x}{\\cos 2x} = \\dfrac{\\sin 4x \\cos 2x - \\cos 4x \\sin 2x}{\\sin 2x \\cos 2x} = \\dfrac{\\sin(4x - 2x)}{\\sin 2x \\cos 2x} = \\dfrac{\\sin 2x}{\\sin 2x \\cos 2x}$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan faktor yang sama**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{\\sin 2x}{\\sin 2x \\cos 2x} = \\dfrac{1}{\\cos 2x} = \\sec 2x$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut dan gunakan identitas $\\sin 4x \\cos 2x - \\cos 4x \\sin 2x = \\sin(4x - 2x) = \\sin 2x$**" },
+        { "formula_block", "latex": "\\dfrac{\\sin 4x}{\\sin 2x} - \\dfrac{\\cos 4x}{\\cos 2x} = \\dfrac{\\sin(4x - 2x)}{\\sin 2x \\cos 2x} = \\dfrac{\\sin 2x}{\\sin 2x \\cos 2x} = \\dfrac{1}{\\cos 2x} = \\sec 2x" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bentuk paling sederhananya adalah **$\\sec 2x$**." }
       ],
       "tingkat": "SULIT"
     }
