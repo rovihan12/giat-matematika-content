@@ -22,7 +22,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan untuk mencari pembuat nol fungsi ($y = 0$)**" },
-        { "tipe": "formula_block", "latex": "x^2 - 7x + 10 = 0 \\Rightarrow (x - 2)(x - 5) = 0 \\Rightarrow x = 2 \\text{ atau } x = 5" },
+        { "tipe": "formula_block", "latex": "x^2 - 7x + 10 = 0 \\Rightarrow (x - 2)(x - 5) = 0 \\Rightarrow x = 2 \\Rightarrow \\text{atau} \\Rightarrow x = 5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, grafik memotong sumbu-$x$ di titik **$(2, 0)$ dan $(5, 0)$**." }
       ],
       "tingkat": "SEDANG"
@@ -89,7 +89,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $x_1 + x_2$ dan $x_1 x_2$ dari $3x^2 - 7x + 2 = 0$**" },
-        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{-7}{3} = \\dfrac{7}{3}, \\qquad x_1 x_2 = \\dfrac{2}{3}" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{-7}{3} = \\dfrac{7}{3} \\Rightarrow x_1 x_2 = \\dfrac{2}{3}" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\dfrac{1}{x_1} + \\dfrac{1}{x_2}$ menggunakan rumus $\\dfrac{x_1 + x_2}{x_1 x_2}$**" },
         { "tipe": "formula_block", "latex": "\\dfrac{1}{x_1} + \\dfrac{1}{x_2} = \\dfrac{x_1 + x_2}{x_1 x_2} = \\dfrac{7/3}{2/3} = \\dfrac{7}{2}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\dfrac{1}{x_1} + \\dfrac{1}{x_2}$ adalah **$\\dfrac{7}{2}$**." }
@@ -131,7 +131,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 - 8x + 12 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-8}{1} = 8, \\qquad \\alpha\\beta = \\dfrac{12}{1} = 12" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-8}{1} = 8 \\Rightarrow \\alpha\\beta = \\dfrac{12}{1} = 12" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\alpha^2 + \\beta^2$ dengan identitas $(\\alpha + \\beta)^2 - 2\\alpha\\beta$**" },
         { "tipe": "formula_block", "latex": "\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 8^2 - 2(12) = 64 - 24 = 40" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha^2 + \\beta^2$ adalah **$40$**." }
@@ -175,7 +175,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah dan hasil kali kedua akar**" },
-        { "tipe": "formula_block", "latex": "(3 + \\sqrt{2}) + (3 - \\sqrt{2}) = 6, \\qquad (3 + \\sqrt{2})(3 - \\sqrt{2}) = 3^2 - (\\sqrt{2})^2 = 9 - 2 = 7" },
+        { "tipe": "formula_block", "latex": "(3 + \\sqrt{2}) + (3 - \\sqrt{2}) = 6 \\Rightarrow (3 + \\sqrt{2})(3 - \\sqrt{2}) = 3^2 - (\\sqrt{2})^2 = 9 - 2 = 7" },
         { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan kuadrat dengan rumus $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$**" },
         { "tipe": "formula_block", "latex": "x^2 - 6x + 7 = 0" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$x^2 - 6x + 7 = 0$**." }
@@ -199,7 +199,7 @@
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat akar kembar yaitu $D = 0$**" },
         { "tipe": "formula_block", "latex": "D = (-(m - 2))^2 - 4(1)(9) = 0 \\Rightarrow (m - 2)^2 - 36 = 0" },
         { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $m$ positif**" },
-        { "tipe": "formula_block", "latex": "(m - 2)^2 = 36 \\Rightarrow m - 2 = \\pm 6 \\Rightarrow m = 8 \\text{ atau } m = -4" },
+        { "tipe": "formula_block", "latex": "(m - 2)^2 = 36 \\Rightarrow m - 2 = \\pm 6 \\Rightarrow m = 8 \\Rightarrow \\text{atau} \\Rightarrow m = -4" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $m$ positif yang memenuhi adalah **$8$**." }
       ],
       "tingkat": "SEDANG"
