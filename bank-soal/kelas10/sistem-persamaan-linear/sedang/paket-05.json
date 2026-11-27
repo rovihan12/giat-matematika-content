@@ -21,12 +21,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal buku $= b$, pulpen $= p$." },
-        { "tipe": "paragraph", "text": "$3b + 2p = 31.000$ … (i)" },
-        { "tipe": "paragraph", "text": "$2b + 3p = 29.000$ … (ii)" },
-        { "tipe": "paragraph", "text": "(i) + (ii): $5b + 5p = 60.000 \\Rightarrow b + p = 12.000$" },
-        { "tipe": "paragraph", "text": "(i) $-$ (ii): $b - p = 2.000$" },
-        { "tipe": "paragraph", "text": "Jumlahkan: $2b = 14.000 \\Rightarrow b = 7.000$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun model SPLDV dari informasi harga buku dan pulpen**" },
+        { "tipe": "paragraph", "text": "Misalkan harga $1$ buku adalah $b$ dan harga $1$ pulpen adalah $p$ (dalam rupiah)." },
+        { "tipe": "formula_block", "latex": "3b + 2p = 31.000 \\qquad \\text{dan} \\qquad 2b + 3p = 29.000" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan kedua persamaan untuk mengeliminasi variabel $p$, lalu selesaikan**" },
+        { "tipe": "formula_block", "latex": "(3b + 2p) + (2b + 3p) = 31.000 + 29.000 \\Rightarrow 5(b + p) = 60.000 \\Rightarrow b + p = 12.000" },
+        { "tipe": "formula_block", "latex": "(3b + 2p) - (2b + 3p) = 31.000 - 29.000 \\Rightarrow b - p = 2.000 \\Rightarrow 2b = 14.000 \\Rightarrow b = 7.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, harga 1 buku adalah **Rp7.000**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -44,10 +45,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal jeruk $= j$." },
-        { "tipe": "paragraph", "text": "$20(10.000) + 15j = 320.000$" },
-        { "tipe": "paragraph", "text": "$200.000 + 15j = 320.000$" },
-        { "tipe": "paragraph", "text": "$15j = 120.000 \\Rightarrow j = 8.000$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan harga $1$ kg mangga Rp10.000 ke persamaan penjualan**" },
+        { "tipe": "paragraph", "text": "Misalkan harga $1$ kg jeruk adalah $j$ (dalam rupiah)." },
+        { "tipe": "formula_block", "latex": "20(10.000) + 15j = 320.000 \\Rightarrow 200.000 + 15j = 320.000" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $j$**" },
+        { "tipe": "formula_block", "latex": "15j = 320.000 - 200.000 = 120.000 \\Rightarrow j = \\dfrac{120.000}{15} = 8.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, harga 1 kg jeruk adalah **Rp8.000**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -65,10 +68,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
-        { "tipe": "paragraph", "text": "$A + a = 45$ … (i)" },
-        { "tipe": "paragraph", "text": "$A - 5 = 4(a - 5) \\Rightarrow A = 4a - 15$ … (ii)" },
-        { "tipe": "paragraph", "text": "Substitusi (i): $4a - 15 + a = 45 \\Rightarrow 5a = 60 \\Rightarrow a = 12$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan umur sekarang dan lima tahun yang lalu**" },
+        { "tipe": "paragraph", "text": "Misalkan umur ayah sekarang adalah $A$ dan umur anak sekarang adalah $a$ (dalam tahun)." },
+        { "tipe": "formula_block", "latex": "A + a = 45 \\qquad \\text{dan} \\qquad A - 5 = 4(a - 5) \\Rightarrow A = 4a - 15" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $A = 4a - 15$ ke persamaan jumlah umur**" },
+        { "tipe": "formula_block", "latex": "(4a - 15) + a = 45 \\Rightarrow 5a = 60 \\Rightarrow a = 12" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, umur anak sekarang adalah **$12$ tahun**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -86,12 +91,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal bilangan $= 10a + b$." },
-        { "tipe": "paragraph", "text": "$a + b = 9$ … (i)" },
-        { "tipe": "paragraph", "text": "Setelah ditukar: $10b + a$. Selisih: $(10a + b) - (10b + a) = 27$." },
-        { "tipe": "paragraph", "text": "$9a - 9b = 27 \\Rightarrow a - b = 3$ … (ii)" },
-        { "tipe": "paragraph", "text": "(i) + (ii): $2a = 12 \\Rightarrow a = 6$, $b = 3$." },
-        { "tipe": "paragraph", "text": "Bilangan asli = 63." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan bilangan dua angka dan susun sistem persamaan**" },
+        { "tipe": "paragraph", "text": "Misalkan angka puluhan adalah $a$ dan angka satuan adalah $b$, sehingga bilangan asli bernilai $10a + b$ dan bilangan setelah ditukar bernilai $10b + a$." },
+        { "tipe": "formula_block", "latex": "a + b = 9 \\qquad \\text{dan} \\qquad (10a + b) - (10b + a) = 27 \\Rightarrow 9a - 9b = 27 \\Rightarrow a - b = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan sistem persamaan untuk memperoleh $a$ dan $b$**" },
+        { "tipe": "formula_block", "latex": "(a + b) + (a - b) = 9 + 3 \\Rightarrow 2a = 12 \\Rightarrow a = 6, \\qquad b = 9 - 6 = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan asli tersebut adalah **$63$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -109,10 +114,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal kakak $= K$, adik $= A$." },
-        { "tipe": "paragraph", "text": "$K = 2A$ … (i)" },
-        { "tipe": "paragraph", "text": "$K - 2 = 3(A - 2) \\Rightarrow K = 3A - 4$ … (ii)" },
-        { "tipe": "paragraph", "text": "Dari (i) = (ii): $2A = 3A - 4 \\Rightarrow A = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan berdasarkan kondisi sekarang dan dua tahun lalu**" },
+        { "tipe": "paragraph", "text": "Misalkan umur kakak sekarang adalah $K$ dan umur adik sekarang adalah $A$ (dalam tahun)." },
+        { "tipe": "formula_block", "latex": "K = 2A \\qquad \\text{dan} \\qquad K - 2 = 3(A - 2) \\Rightarrow K = 3A - 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Samakan kedua ekspresi untuk $K$ dan hitung nilai $A$**" },
+        { "tipe": "formula_block", "latex": "2A = 3A - 4 \\Rightarrow A = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, umur adik sekarang adalah **$4$ tahun**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -130,10 +137,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal lebar $= l$, panjang $= p = 2l$." },
-        { "tipe": "paragraph", "text": "$2(p + l) = 60 \\Rightarrow p + l = 30$" },
-        { "tipe": "paragraph", "text": "$2l + l = 30 \\Rightarrow l = 10$; $p = 20$" },
-        { "tipe": "paragraph", "text": "Luas $= 20 \\cdot 10 = 200$ cm²" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan panjang dan lebar persegi panjang dari rumus keliling**" },
+        { "tipe": "paragraph", "text": "Misalkan lebar adalah $l$ cm, maka panjang adalah $p = 2l$ cm." },
+        { "tipe": "formula_block", "latex": "2(p + l) = 60 \\Rightarrow 2(2l + l) = 60 \\Rightarrow 6l = 60 \\Rightarrow l = 10, \\quad p = 20" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung luas persegi panjang**" },
+        { "tipe": "formula_block", "latex": "\\text{Luas} = p \\times l = 20 \\times 10 = 200\\text{ cm}^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas persegi panjang tersebut adalah **$200$ cm²**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -151,10 +160,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $m$ = menang, $s$ = seri." },
-        { "tipe": "paragraph", "text": "Tanpa kalah: $m + s = 20$." },
-        { "tipe": "paragraph", "text": "$3m + s = 30$" },
-        { "tipe": "paragraph", "text": "Kurangkan: $2m = 10 \\Rightarrow m = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan jumlah pertandingan dan total poin**" },
+        { "tipe": "paragraph", "text": "Misalkan banyak kemenangan adalah $m$ dan banyak seri adalah $s$ (karena tidak pernah kalah)." },
+        { "tipe": "formula_block", "latex": "m + s = 20 \\qquad \\text{dan} \\qquad 3m + 1s = 30" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan kedua persamaan untuk memperoleh nilai $m$**" },
+        { "tipe": "formula_block", "latex": "(3m + s) - (m + s) = 30 - 20 \\Rightarrow 2m = 10 \\Rightarrow m = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak kemenangan tim tersebut adalah **$5$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -172,10 +183,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal tarif motor $= t$." },
-        { "tipe": "paragraph", "text": "$25t + 15(8.000) = 182.500$" },
-        { "tipe": "paragraph", "text": "$25t + 120.000 = 182.500$" },
-        { "tipe": "paragraph", "text": "$25t = 62.500 \\Rightarrow t = 2.500$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan tarif mobil Rp8.000 ke persamaan pemasukan parkir**" },
+        { "tipe": "paragraph", "text": "Misalkan tarif parkir satu motor adalah $t$ (dalam rupiah)." },
+        { "tipe": "formula_block", "latex": "25t + 15(8.000) = 182.500 \\Rightarrow 25t + 120.000 = 182.500" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $t$**" },
+        { "tipe": "formula_block", "latex": "25t = 182.500 - 120.000 = 62.500 \\Rightarrow t = \\dfrac{62.500}{25} = 2.500" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, tarif parkir motor adalah **Rp2.500**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -193,11 +206,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal ayah $= A$, anak $= a$." },
-        { "tipe": "paragraph", "text": "$A = 3a$ … (i)" },
-        { "tipe": "paragraph", "text": "$A - 4 = 4(a - 4) \\Rightarrow A = 4a - 12$ … (ii)" },
-        { "tipe": "paragraph", "text": "Dari (i) = (ii): $3a = 4a - 12 \\Rightarrow a = 12$, $A = 36$." },
-        { "tipe": "paragraph", "text": "$A + a = 36 + 12 = 48$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan umur sekarang dan empat tahun lalu**" },
+        { "tipe": "paragraph", "text": "Misalkan umur ayah sekarang adalah $A$ dan umur anak sekarang adalah $a$ (dalam tahun)." },
+        { "tipe": "formula_block", "latex": "A = 3a \\qquad \\text{dan} \\qquad A - 4 = 4(a - 4) \\Rightarrow A = 4a - 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai $a$, $A$, lalu hitung jumlah umur mereka sekarang**" },
+        { "tipe": "formula_block", "latex": "3a = 4a - 12 \\Rightarrow a = 12, \\qquad A = 3(12) = 36 \\Rightarrow A + a = 36 + 12 = 48" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah umur mereka sekarang adalah **$48$ tahun**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -215,12 +229,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal kue A $= a$, kue B $= b$." },
-        { "tipe": "paragraph", "text": "$a + b = 50$ … (i)" },
-        { "tipe": "paragraph", "text": "$3.000a + 5.000b = 190.000$ … (ii)" },
-        { "tipe": "paragraph", "text": "Bagi (ii) dengan 1.000: $3a + 5b = 190$" },
-        { "tipe": "paragraph", "text": "Dari (i): $a = 50 - b$. Substitusi: $3(50 - b) + 5b = 190$" },
-        { "tipe": "paragraph", "text": "$150 - 3b + 5b = 190 \\Rightarrow 2b = 40 \\Rightarrow b = 20$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun sistem persamaan dari jumlah kue dan total penjualan**" },
+        { "tipe": "paragraph", "text": "Misalkan banyak kue A yang terjual adalah $a$ dan banyak kue B yang terjual adalah $b$." },
+        { "tipe": "formula_block", "latex": "a + b = 50 \\qquad \\text{dan} \\qquad 3.000a + 5.000b = 190.000 \\Rightarrow 3a + 5b = 190" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 50 - b$ ke persamaan kedua untuk memperoleh nilai $b$**" },
+        { "tipe": "formula_block", "latex": "3(50 - b) + 5b = 190 \\Rightarrow 150 - 3b + 5b = 190 \\Rightarrow 2b = 40 \\Rightarrow b = 20" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak kue B yang terjual adalah **$20$**." }
       ],
       "tingkat": "SEDANG"
     }
