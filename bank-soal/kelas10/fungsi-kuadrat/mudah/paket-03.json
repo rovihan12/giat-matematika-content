@@ -21,8 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x_1 + x_2 = 3 + (-2) = 1$; $x_1 \\cdot x_2 = 3 \\cdot (-2) = -6$" },
-        { "tipe": "paragraph", "text": "$x^2 - (1)x + (-6) = 0 \\Rightarrow x^2 - x - 6 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah dan hasil kali akar-akar ($x_1 = 3$ dan $x_2 = -2$)**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = 3 + (-2) = 1, \\qquad x_1 \\cdot x_2 = 3 \\cdot (-2) = -6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan kuadrat dengan rumus $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$**" },
+        { "tipe": "formula_block", "latex": "x^2 - (1)x + (-6) = 0 \\Rightarrow x^2 - x - 6 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$x^2 - x - 6 = 0$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +43,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah $= -9$; hasil kali $= 20$" },
-        { "tipe": "paragraph", "text": "$x^2 - (-9)x + 20 = 0 \\Rightarrow x^2 + 9x + 20 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah dan hasil kali akar-akar ($x_1 = -4$ dan $x_2 = -5$)**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -4 + (-5) = -9, \\qquad x_1 \\cdot x_2 = (-4)(-5) = 20" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan kuadrat dengan rumus $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$**" },
+        { "tipe": "formula_block", "latex": "x^2 - (-9)x + 20 = 0 \\Rightarrow x^2 + 9x + 20 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$x^2 + 9x + 20 = 0$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +65,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 5$; $\\alpha \\beta = 6$" },
-        { "tipe": "paragraph", "text": "$\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 25 - 12 = 13$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 - 5x + 6 = 0$**" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-5}{1} = 5, \\qquad \\alpha\\beta = \\dfrac{6}{1} = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\alpha^2 + \\beta^2$ dengan identitas $(\\alpha + \\beta)^2 - 2\\alpha\\beta$**" },
+        { "tipe": "formula_block", "latex": "\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 5^2 - 2(6) = 25 - 12 = 13" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha^2 + \\beta^2$ adalah **$13$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,7 +87,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{b}{a} = \\dfrac{5}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 2$ dan $b = -5$**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus jumlah akar $\\alpha + \\beta = -\\dfrac{b}{a}$." },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-5}{2} = \\dfrac{5}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha + \\beta$ adalah **$\\dfrac{5}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -96,7 +108,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha \\beta = \\dfrac{c}{a} = \\dfrac{-2}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 3$ dan konstanta $c = -2$**" },
+        { "tipe": "paragraph", "text": "Gunakan rumus hasil kali akar $\\alpha\\beta = \\dfrac{c}{a}$." },
+        { "tipe": "formula_block", "latex": "\\alpha \\cdot \\beta = \\dfrac{-2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha \\cdot \\beta$ adalah **$-\\dfrac{2}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -114,8 +129,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = 3$; $\\alpha \\beta = -4$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{\\alpha} + \\dfrac{1}{\\beta} = \\dfrac{\\alpha + \\beta}{\\alpha\\beta} = \\dfrac{3}{-4} = -\\dfrac{3}{4}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 - 3x - 4 = 0$**" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = 3, \\qquad \\alpha\\beta = -4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\dfrac{1}{\\alpha} + \\dfrac{1}{\\beta}$ dengan rumus $\\dfrac{\\alpha + \\beta}{\\alpha\\beta}$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{\\alpha} + \\dfrac{1}{\\beta} = \\dfrac{\\alpha + \\beta}{\\alpha\\beta} = \\dfrac{3}{-4} = -\\dfrac{3}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\dfrac{1}{\\alpha} + \\dfrac{1}{\\beta}$ adalah **$-\\dfrac{3}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -133,9 +151,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Akar lama: $2$ dan $3$. Akar baru: $4$ dan $6$." },
-        { "tipe": "paragraph", "text": "Jumlah $= 10$; hasil kali $= 24$." },
-        { "tipe": "paragraph", "text": "$x^2 - 10x + 24 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan akar lama dan akar baru**" },
+        { "tipe": "paragraph", "text": "Akar lama dari $x^2 - 5x + 6 = 0$ adalah $2$ dan $3$. Akar baru (masing-masing dikali $2$) adalah $4$ dan $6$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar baru lalu susun persamaannya**" },
+        { "tipe": "formula_block", "latex": "4 + 6 = 10, \\qquad 4 \\cdot 6 = 24 \\Rightarrow x^2 - 10x + 24 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat baru tersebut adalah **$x^2 - 10x + 24 = 0$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -153,8 +173,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -4$; $\\alpha \\beta = -5$" },
-        { "tipe": "paragraph", "text": "$\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha + \\beta) = (-5)(-4) = 20$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 + 4x - 5 = 0$**" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -4, \\qquad \\alpha\\beta = -5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan bentuk $\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha + \\beta)$ lalu substitusi**" },
+        { "tipe": "formula_block", "latex": "\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha + \\beta) = (-5)(-4) = 20" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha^2\\beta + \\alpha\\beta^2$ adalah **$20$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -172,7 +195,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $x = 2$: $4 - 2k + 6 = 0 \\Rightarrow -2k = -10 \\Rightarrow k = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 2$ ke persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "(2)^2 - k(2) + 6 = 0 \\Rightarrow 10 - 2k = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $k$**" },
+        { "tipe": "formula_block", "latex": "-2k = -10 \\Rightarrow k = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ adalah **$5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -190,8 +217,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jika akar $\\alpha, \\beta$, maka akar baru $\\dfrac{1}{\\alpha}, \\dfrac{1}{\\beta}$." },
-        { "tipe": "paragraph", "text": "Persamaan baru: $cx^2 + bx + a = 0 \\Rightarrow 3x^2 - 5x + 2 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat kebalikan akar persamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "Jika persamaan awal $ax^2 + bx + c = 0$ berakar $\\alpha$ dan $\\beta$, maka persamaan dengan akar $\\dfrac{1}{\\alpha}$ dan $\\dfrac{1}{\\beta}$ adalah $cx^2 + bx + a = 0$." },
+        { "tipe": "formula_block", "latex": "3x^2 - 5x + 2 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$3x^2 - 5x + 2 = 0$**." }
       ],
       "tingkat": "MUDAH"
     }
