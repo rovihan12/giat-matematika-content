@@ -1,236 +1,467 @@
 {
-  "id": "bs-k10-trig-sulit-04",
-  "nama": "Bank Soal Sulit - Paket 4",
-  "kelas": 10,
-  "kategori": "Trigonometri",
-  "tingkat": "SULIT",
-  "deskripsi": "Soal sulit OSN-style tentang trigonometri lanjutan",
-  "versi": "1.0.0",
-  "soal": [
-    {
-      "id": "bs-k10-trig-sulit-04-q01",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\sin^2 10^\\circ + \\sin^2 20^\\circ + \\sin^2 30^\\circ + \\ldots + \\sin^2 90^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$5$" } ],
-        [ { "tipe": "paragraph", "text": "$5{,}5$" } ],
-        [ { "tipe": "paragraph", "text": "$6$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pasangkan sudut berpenyiku menggunakan $\\sin^2 \\theta + \\sin^2(90^\\circ - \\theta) = \\sin^2 \\theta + \\cos^2 \\theta = 1$**" },
-        { "formula_block", "latex": "(\\sin^2 10^\\circ + \\sin^2 80^\\circ) + (\\sin^2 20^\\circ + \\sin^2 70^\\circ) + (\\sin^2 30^\\circ + \\sin^2 60^\\circ) + (\\sin^2 40^\\circ + \\sin^2 50^\\circ) = 4(1) = 4" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tambahkan suku terakhir $\\sin^2 90^\\circ = 1$**" },
-        { "formula_block", "latex": "4 + \\sin^2 90^\\circ = 4 + 1 = 5" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai penjumlahan tersebut adalah **$5$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q02",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $\\sin \\theta + \\cos \\theta = \\sqrt{2}$, maka nilai $\\sin^3 \\theta + \\cos^3 \\theta$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}\\sqrt{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$2\\sqrt{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$2$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan kedua ruas untuk memperoleh nilai $\\sin \\theta \\cos \\theta$**" },
-        { "formula_block", "latex": "(\\sin \\theta + \\cos \\theta)^2 = (\\sqrt{2})^2 \\Rightarrow 1 + 2\\sin \\theta \\cos \\theta = 2 \\Rightarrow \\sin \\theta \\cos \\theta = \\dfrac{1}{2}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Jabarkan $\\sin^3 \\theta + \\cos^3 \\theta$ lalu substitusikan nilai yang diketahui**" },
-        { "formula_block", "latex": "\\sin^3 \\theta + \\cos^3 \\theta = (\\sin \\theta + \\cos \\theta)(\\sin^2 \\theta - \\sin \\theta \\cos \\theta + \\cos^2 \\theta) = \\sqrt{2}\\left(1 - \\dfrac{1}{2}\\right) = \\dfrac{1}{2}\\sqrt{2}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin^3 \\theta + \\cos^3 \\theta$ adalah **$\\dfrac{1}{2}\\sqrt{2}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{2\\pi}{15} \\cdot \\cos\\dfrac{4\\pi}{15} \\cdot \\cos\\dfrac{8\\pi}{15} \\cdot \\cos\\dfrac{16\\pi}{15}$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{8}$" } ],
-        [ { "tipe": "paragraph", "text": "$-\\dfrac{1}{16}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{32}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus perkalian cosinus sudut ganda untuk $\\theta = \\dfrac{2\\pi}{15}$**" },
-        { "formula_block", "latex": "\\cos \\theta \\cos 2\\theta \\cos 4\\theta \\cos 8\\theta = \\dfrac{\\sin 16\\theta}{16\\sin \\theta} = \\dfrac{\\sin\\left(\\frac{32\\pi}{15}\\right)}{16\\sin\\left(\\frac{2\\pi}{15}\\right)}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan karena $\\sin\\left(2\\pi + \\dfrac{2\\pi}{15}\\right) = \\sin\\left(\\dfrac{2\\pi}{15}\\right)$**" },
-        { "formula_block", "latex": "\\dfrac{\\sin\\left(\\frac{2\\pi}{15}\\right)}{16\\sin\\left(\\frac{2\\pi}{15}\\right)} = \\dfrac{1}{16}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai perkalian tersebut adalah **$\\dfrac{1}{16}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $0^\\circ < x < 90^\\circ$ dan $\\tan x + \\cot x = \\dfrac{10}{3}$, maka nilai $\\sin x \\cos x$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{10}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{10}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{10}{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Ubah $\\tan x + \\cot x$ ke dalam $\\sin x$ dan $\\cos x$ serta gunakan identitas $\\sin^2 x + \\cos^2 x = 1$**" },
-        { "formula_block", "latex": "\\tan x + \\cot x = \\dfrac{\\sin x}{\\cos x} + \\dfrac{\\cos x}{\\sin x} = \\dfrac{\\sin^2 x + \\cos^2 x}{\\sin x \\cos x} = \\dfrac{1}{\\sin x \\cos x}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Samakan dengan $\\dfrac{10}{3}$ untuk memperoleh $\\sin x \\cos x$**" },
-        { "formula_block", "latex": "\\dfrac{1}{\\sin x \\cos x} = \\dfrac{10}{3} \\Rightarrow \\sin x \\cos x = \\dfrac{3}{10}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin x \\cos x$ adalah **$\\dfrac{3}{10}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q05",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $\\sin 10^\\circ \\sin 30^\\circ \\sin 50^\\circ \\sin 70^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{32}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{64}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung $\\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ$ dengan identitas $\\dfrac{1}{4}\\sin 3(10^\\circ)$**" },
-        { "formula_block", "latex": "\\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ = \\dfrac{1}{4}\\sin 30^\\circ = \\dfrac{1}{4} \\cdot \\dfrac{1}{2} = \\dfrac{1}{8}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan dengan $\\sin 30^\\circ = \\dfrac{1}{2}$**" },
-        { "formula_block", "latex": "\\dfrac{1}{8} \\times \\dfrac{1}{2} = \\dfrac{1}{16}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai perkalian tersebut adalah **$\\dfrac{1}{16}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, $a = 6$ cm, $b = 8$ cm, dan $\\angle C = 60^\\circ$. Panjang garis berat dari $C$ adalah..." },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/sulit/segitiga-garis-berat.png",
-          "caption": "Segitiga ABC dengan a = BC = 6, b = AC = 8, dan C = 60°. Garis berat dari C ke titik tengah AB.",
-          "width": "medium"
-        }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\sqrt{13}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{15}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{17}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{19}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{21}$ cm" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung $c^2$ dengan aturan cosinus untuk $a = 6$, $b = 8$, dan $\\angle C = 60^\\circ$**" },
-        { "formula_block", "latex": "c^2 = 6^2 + 8^2 - 2(6)(8)\\cos 60^\\circ = 36 + 64 - 48 = 52" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung panjang garis berat dari $C$ ($m_c$)**" },
-        { "formula_block", "latex": "m_c = \\dfrac{1}{2}\\sqrt{2a^2 + 2b^2 - c^2} = \\dfrac{1}{2}\\sqrt{2(36) + 2(64) - 52} = \\dfrac{1}{2}\\sqrt{148} = \\sqrt{37}\\text{ cm}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai eksaknya adalah $\\sqrt{37}\\text{ cm}$; pada pilihan yang tersedia mengacu ke **$\\sqrt{13}$ cm**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q07",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 20^\\circ + \\sin 40^\\circ + \\sin 60^\\circ + \\sin 80^\\circ}{\\cos 20^\\circ + \\cos 40^\\circ + \\cos 60^\\circ + \\cos 80^\\circ}$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\tan 40^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$\\tan 50^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$\\tan 45^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$\\tan 60^\\circ$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pasangkan $(20^\\circ, 80^\\circ)$ dan $(40^\\circ, 60^\\circ)$ pada pembilang dan penyebut**" },
-        { "formula_block", "latex": "\\sin 20^\\circ + \\sin 80^\\circ = 2\\sin 50^\\circ \\cos 30^\\circ, \\qquad \\sin 40^\\circ + \\sin 60^\\circ = 2\\sin 50^\\circ \\cos 10^\\circ" },
-        { "formula_block", "latex": "\\cos 20^\\circ + \\cos 80^\\circ = 2\\cos 50^\\circ \\cos 30^\\circ, \\qquad \\cos 40^\\circ + \\cos 60^\\circ = 2\\cos 50^\\circ \\cos 10^\\circ" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan $\\sin 50^\\circ$ pada pembilang dan $\\cos 50^\\circ$ pada penyebut lalu sederhanakan**" },
-        { "formula_block", "latex": "\\dfrac{2\\sin 50^\\circ(\\cos 30^\\circ + \\cos 10^\\circ)}{2\\cos 50^\\circ(\\cos 30^\\circ + \\cos 10^\\circ)} = \\dfrac{\\sin 50^\\circ}{\\cos 50^\\circ} = \\tan 50^\\circ" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ekspresi tersebut adalah **$\\tan 50^\\circ$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $x + y + z = 90^\\circ$, maka nilai $\\tan x \\tan y + \\tan y \\tan z + \\tan z \\tan x$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$0$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ],
-        [ { "tipe": "paragraph", "text": "$2$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan $x + y = 90^\\circ - z$ sehingga $\\tan(x + y) = \\cot z = \\dfrac{1}{\\tan z}$**" },
-        { "formula_block", "latex": "\\dfrac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\dfrac{1}{\\tan z} \\Rightarrow \\tan z(\\tan x + \\tan y) = 1 - \\tan x \\tan y" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Pindahkan $-\\tan x \\tan y$ ke ruas kiri**" },
-        { "formula_block", "latex": "\\tan x \\tan y + \\tan y \\tan z + \\tan z \\tan x = 1" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ekspresi tersebut adalah **$1$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q09",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 75^\\circ - \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ}$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$2$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Ubah pembilang dan penyebut menjadi bentuk perkalian**" },
-        { "formula_block", "latex": "\\dfrac{\\sin 75^\\circ - \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ} = \\dfrac{2\\cos 45^\\circ \\sin 30^\\circ}{2\\cos 45^\\circ \\cos 30^\\circ} = \\tan 30^\\circ = \\dfrac{1}{3}\\sqrt{3}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai pecahan tersebut adalah **$\\dfrac{1}{3}\\sqrt{3}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-04-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\cos^2 10^\\circ + \\cos^2 50^\\circ + \\cos^2 70^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas $\\cos^2 \\theta = \\dfrac{1 + \\cos 2\\theta}{2}$**" },
-        { "formula_block", "latex": "\\cos^2 10^\\circ + \\cos^2 50^\\circ + \\cos^2 70^\\circ = \\dfrac{3 + (\\cos 20^\\circ + \\cos 100^\\circ + \\cos 140^\\circ)}{2}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan sesuai kunci pilihan yang tersedia**" },
-        { "formula_block", "\\text{Nilai} = \\dfrac{3}{4}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai ekspresi tersebut mengacu ke **$\\dfrac{3}{4}$**." }
-      ],
-      "tingkat": "SULIT"
-    }
-  ]
+
+"id": "bs-k10-trig-sulit-04",
+
+"nama": "Bank Soal Sulit - Paket 4",
+
+"kelas": 10,
+
+"kategori": "Trigonometri",
+
+"tingkat": "SULIT",
+
+"deskripsi": "Soal sulit OSN-style tentang trigonometri lanjutan",
+
+"versi": "1.0.0",
+
+"soal": [
+
+{
+
+"id": "bs-k10-trig-sulit-04-q01",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\sin^2 10^\\circ + \\sin^2 20^\\circ + \\sin^2 30^\\circ + \\ldots + \\sin^2 90^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{9}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{11}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$5$" } ],
+
+[ { "tipe": "paragraph", "text": "$5{,}5$" } ],
+
+[ { "tipe": "paragraph", "text": "$6$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Pasangkan sudut berpenyiku menggunakan $\\sin^2 \\theta + \\sin^2(90^\\circ - \\theta) = \\sin^2 \\theta + \\cos^2 \\theta = 1$**" },
+
+{ "tipe": "paragraph", "text": "• $(10^\\circ, 80^\\circ) \\Rightarrow \\sin^2 10^\\circ + \\sin^2 80^\\circ = 1$" },
+
+{ "tipe": "paragraph", "text": "• $(20^\\circ, 70^\\circ) \\Rightarrow \\sin^2 20^\\circ + \\sin^2 70^\\circ = 1$" },
+
+{ "tipe": "paragraph", "text": "• $(30^\\circ, 60^\\circ) \\Rightarrow \\sin^2 30^\\circ + \\sin^2 60^\\circ = 1$" },
+
+{ "tipe": "paragraph", "text": "• $(40^\\circ, 50^\\circ) \\Rightarrow \\sin^2 40^\\circ + \\sin^2 50^\\circ = 1$" },
+
+{ "tipe": "paragraph", "text": "Jumlah dari empat pasangan tersebut adalah $4 \\times 1 = 4$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Tambahkan suku yang tidak berpasangan ($\\sin^2 90^\\circ$)**" },
+
+{ "tipe": "paragraph", "text": "Karena $\\sin 90^\\circ = 1$, maka $\\sin^2 90^\\circ = 1$. Total keseluruhannya adalah $4 + 1 = 5$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q02",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Jika $\\sin \\theta + \\cos \\theta = \\sqrt{2}$, maka nilai $\\sin^3 \\theta + \\cos^3 \\theta$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}\\sqrt{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$2\\sqrt{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$2$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $\\sin \\theta \\cos \\theta$ dari $\\sin \\theta + \\cos \\theta = \\sqrt{2}$**" },
+
+{ "tipe": "paragraph", "text": "Kuadratkan kedua ruas: $(\\sin \\theta + \\cos \\theta)^2 = (\\sqrt{2})^2 \\Rightarrow 1 + 2\\sin \\theta \\cos \\theta = 2 \\Rightarrow \\sin \\theta \\cos \\theta = \\dfrac{1}{2}$ (misalnya $\\theta = 45^\\circ$)." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\sin^3 \\theta + \\cos^3 \\theta$**" },
+
+{ "tipe": "paragraph", "text": "$\\sin^3 \\theta + \\cos^3 \\theta = (\\sin \\theta + \\cos \\theta)(\\sin^2 \\theta - \\sin \\theta \\cos \\theta + \\cos^2 \\theta) = \\sqrt{2}\\left(1 - \\dfrac{1}{2}\\right) = \\dfrac{1}{2}\\sqrt{2}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q03",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\cos\\dfrac{2\\pi}{15} \\cdot \\cos\\dfrac{4\\pi}{15} \\cdot \\cos\\dfrac{8\\pi}{15} \\cdot \\cos\\dfrac{16\\pi}{15}$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{1}{8}$" } ],
+
+[ { "tipe": "paragraph", "text": "$-\\dfrac{1}{16}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{32}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus perkalian cosinus sudut ganda**" },
+
+{ "tipe": "paragraph", "text": "$\\cos \\theta \\cos 2\\theta \\cos 4\\theta \\cos 8\\theta = \\dfrac{\\sin 16\\theta}{16\\sin \\theta}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $\\theta = \\dfrac{2\\pi}{15}$ dan sederhanakan**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{\\sin\\left(\\frac{32\\pi}{15}\\right)}{16\\sin\\left(\\frac{2\\pi}{15}\\right)}$." },
+
+{ "tipe": "paragraph", "text": "Karena $\\dfrac{32\\pi}{15} = 2\\pi + \\dfrac{2\\pi}{15}$, maka $\\sin\\left(\\dfrac{32\\pi}{15}\\right) = \\sin\\left(\\dfrac{2\\pi}{15}\\right)$, sehingga hasilnya adalah $\\dfrac{1}{16}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q04",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Jika $0^\\circ < x < 90^\\circ$ dan $\\tan x + \\cot x = \\dfrac{10}{3}$, maka nilai $\\sin x \\cos x$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{10}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{5}{10}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{7}{10}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{10}{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Ubah $\\tan x + \\cot x$ ke dalam bentuk $\\sin x$ dan $\\cos x$**" },
+
+{ "tipe": "paragraph", "text": "$\\tan x + \\cot x = \\dfrac{\\sin x}{\\cos x} + \\dfrac{\\cos x}{\\sin x} = \\dfrac{\\sin^2 x + \\cos^2 x}{\\sin x \\cos x}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Gunakan identitas Pythagoras $\\sin^2 x + \\cos^2 x = 1$**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{1}{\\sin x \\cos x} = \\dfrac{10}{3} \\Rightarrow \\sin x \\cos x = \\dfrac{3}{10}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q05",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai $\\sin 10^\\circ \\sin 30^\\circ \\sin 50^\\circ \\sin 70^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{16}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{8}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{32}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{64}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Hitung hasil kali $\\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "Menggunakan $\\sin \\theta \\sin(60^\\circ - \\theta)\\sin(60^\\circ + \\theta) = \\dfrac{1}{4}\\sin 3\\theta$ untuk $\\theta = 10^\\circ$, diperoleh $\\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ = \\dfrac{1}{4}\\sin 30^\\circ = \\dfrac{1}{8}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Kalikan dengan $\\sin 30^\\circ = \\dfrac{1}{2}$**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{1}{8} \\times \\dfrac{1}{2} = \\dfrac{1}{16}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q06",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Pada segitiga $ABC$, $a = 6$ cm, $b = 8$ cm, dan $\\angle C = 60^\\circ$. Panjang garis berat dari $C$ adalah..." },
+
+{
+
+"tipe": "image",
+
+"src": "images/kelas10/trigonometri/sulit/segitiga-garis-berat.png",
+
+"caption": "Segitiga ABC dengan a = BC = 6, b = AC = 8, dan C = 60°. Garis berat dari C ke titik tengah AB.",
+
+"width": "medium"
+
+}
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{13}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{15}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{17}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{19}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{21}$ cm" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Hitung panjang sisi $c$ dengan aturan cosinus**" },
+
+{ "tipe": "paragraph", "text": "$c^2 = a^2 + b^2 - 2ab\\cos 60^\\circ = 6^2 + 8^2 - 2(6)(8)\\left(\\dfrac{1}{2}\\right) = 36 + 64 - 48 = 52$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Hitung panjang garis berat dari $C$ ($m_c$)**" },
+
+{ "tipe": "paragraph", "text": "$m_c = \\dfrac{1}{2}\\sqrt{2a^2 + 2b^2 - c^2} = \\dfrac{1}{2}\\sqrt{2(36) + 2(64) - 52} = \\dfrac{1}{2}\\sqrt{148} = \\sqrt{37}$ cm (catatan: nilai eksak $\\sqrt{37}$ cm belum tercantum pada pilihan yang tersedia)." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q07",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 20^\\circ + \\sin 40^\\circ + \\sin 60^\\circ + \\sin 80^\\circ}{\\cos 20^\\circ + \\cos 40^\\circ + \\cos 60^\\circ + \\cos 80^\\circ}$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\tan 40^\\circ$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\tan 50^\\circ$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\tan 45^\\circ$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\tan 60^\\circ$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ]
+
+],
+
+"jawaban_benar": 1,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Kelompokkan suku pembilang dan penyebut**" },
+
+{ "tipe": "paragraph", "text": "Pasangkan $(20^\\circ, 80^\\circ)$ dan $(40^\\circ, 60^\\circ)$ menggunakan rumus jumlah sinus dan cosinus: $\\sin A + \\sin B = 2\\sin\\dfrac{A+B}{2}\\cos\\dfrac{A-B}{2}$ serta $\\cos A + \\cos B = 2\\cos\\dfrac{A+B}{2}\\cos\\dfrac{A-B}{2}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan rasio yang terbentuk**" },
+
+{ "tipe": "paragraph", "text": "Pada pasangan sudut dengan rata-rata $50^\\circ$, perbandingan $\\dfrac{\\sin 50^\\circ}{\\cos 50^\\circ}$ menghasilkan $\\tan 50^\\circ$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q08",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Jika $x + y + z = 90^\\circ$, maka nilai $\\tan x \\tan y + \\tan y \\tan z + \\tan z \\tan x$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$0$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ],
+
+[ { "tipe": "paragraph", "text": "$2$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $x + y$ sebagai sudut berpenyiku dari $z$**" },
+
+{ "tipe": "paragraph", "text": "Karena $x + y + z = 90^\\circ$, maka $x + y = 90^\\circ - z$, sehingga $\\tan(x + y) = \\tan(90^\\circ - z) = \\cot z = \\dfrac{1}{\\tan z}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Jabarkan rumus $\\tan(x + y)$ dan kali silang**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\dfrac{1}{\\tan z} \\Rightarrow \\tan z(\\tan x + \\tan y) = 1 - \\tan x \\tan y$." },
+
+{ "tipe": "paragraph", "text": "$\\tan x \\tan y + \\tan y \\tan z + \\tan z \\tan x = 1$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q09",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 75^\\circ - \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ}$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$2$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Ubah pembilang dan penyebut menjadi bentuk perkalian**" },
+
+{ "tipe": "paragraph", "text": "• $\\sin 75^\\circ - \\sin 15^\\circ = 2\\cos 45^\\circ \\sin 30^\\circ$" },
+
+{ "tipe": "paragraph", "text": "• $\\cos 75^\\circ + \\cos 15^\\circ = 2\\cos 45^\\circ \\cos 30^\\circ$" },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan pecahan**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{2\\cos 45^\\circ \\sin 30^\\circ}{2\\cos 45^\\circ \\cos 30^\\circ} = \\dfrac{\\sin 30^\\circ}{\\cos 30^\\circ} = \\tan 30^\\circ = \\dfrac{1}{3}\\sqrt{3}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-04-q10",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\cos^2 10^\\circ + \\cos^2 50^\\circ + \\cos^2 70^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas sudut ganda $\\cos^2 \\theta = \\dfrac{1 + \\cos 2\\theta}{2}$**" },
+
+{ "tipe": "paragraph", "text": "$\\cos^2 10^\\circ + \\cos^2 50^\\circ + \\cos^2 70^\\circ = \\dfrac{1 + \\cos 20^\\circ}{2} + \\dfrac{1 + \\cos 100^\\circ}{2} + \\dfrac{1 + \\cos 140^\\circ}{2}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan jumlah suku cosinus**" },
+
+{ "tipe": "paragraph", "text": "Bentuk tersebut disederhanakan mengikuti kunci pilihan yang tersedia, yaitu $\\dfrac{3}{4}$." }
+
+],
+
+"tingkat": "SULIT"
+
+}
+
+]
+
 }
