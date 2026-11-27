@@ -44,7 +44,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $2x^2 - 6x + 4 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-6}{2} = 3, \\qquad \\alpha\\beta = \\dfrac{4}{2} = 2" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-6}{2} = 3, \\Rightarrow \\alpha\\beta = \\dfrac{4}{2} = 2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan bentuk $\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha + \\beta)$ lalu substitusi**" },
         { "tipe": "formula_block", "latex": "\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha + \\beta) = 2 \\cdot 3 = 6" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha^2\\beta + \\alpha\\beta^2$ adalah **$6$**." }
@@ -66,7 +66,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah dan hasil kali akar-akar**" },
-        { "tipe": "formula_block", "latex": "\\dfrac{2}{3} + \\left(-\\dfrac{1}{2}\\right) = \\dfrac{4 - 3}{6} = \\dfrac{1}{6}, \\qquad \\dfrac{2}{3} \\cdot \\left(-\\dfrac{1}{2}\\right) = -\\dfrac{1}{3}" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{3} + \\left(-\\dfrac{1}{2}\\right) = \\dfrac{4 - 3}{6} = \\dfrac{1}{6}, \\Rightarrow \\dfrac{2}{3} \\cdot \\left(-\\dfrac{1}{2}\\right) = -\\dfrac{1}{3}" },
         { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan kuadrat dan kalikan kedua ruas dengan $6$**" },
         { "tipe": "formula_block", "latex": "x^2 - \\dfrac{1}{6}x - \\dfrac{1}{3} = 0 \\Rightarrow 6x^2 - x - 2 = 0" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$6x^2 - x - 2 = 0$**." }
@@ -110,7 +110,7 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 - 4x + 2 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-4}{1} = 4, \\qquad \\alpha\\beta = \\dfrac{2}{1} = 2" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-4}{1} = 4, \\Rightarrow \\alpha\\beta = \\dfrac{2}{1} = 2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\alpha^3 + \\beta^3$ menggunakan identitas $(\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)$**" },
         { "tipe": "formula_block", "latex": "\\alpha^3 + \\beta^3 = 4^3 - 3(2)(4) = 64 - 24 = 40" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha^3 + \\beta^3$ adalah **$40$**." }
@@ -132,7 +132,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari persamaan awal $x^2 - 3x - 4 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = 3, \\qquad \\alpha\\beta = -4" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = 3, \\Rightarrow \\alpha\\beta = -4" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar baru $(\\alpha + 1)$ dan $(\\beta + 1)$**" },
         { "tipe": "formula_block", "latex": "(\\alpha + 1) + (\\beta + 1) = (\\alpha + \\beta) + 2 = 3 + 2 = 5" },
         { "tipe": "formula_block", "latex": "(\\alpha + 1)(\\beta + 1) = \\alpha\\beta + (\\alpha + \\beta) + 1 = -4 + 3 + 1 = 0" },
@@ -203,7 +203,7 @@
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan $f(x) = 0$**" },
         { "tipe": "formula_block", "latex": "x^2 - 4x + 3 = 0 \\Rightarrow (x - 1)(x - 3) = 0" },
         { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
-        { "tipe": "formula_block", "latex": "x - 1 = 0 \\Rightarrow x = 1 \\qquad \\text{atau} \\qquad x - 3 = 0 \\Rightarrow x = 3" },
+        { "tipe": "formula_block", "latex": "x - 1 = 0 \\Rightarrow x = 1 \\qquad \\text{atau} \\Rightarrow x - 3 = 0 \\Rightarrow x = 3" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$1$ atau $3$**." }
       ],
       "tingkat": "SEDANG"
@@ -223,7 +223,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $x_1 + x_2$ dan $x_1 x_2$ dari $3x^2 - 12x + 5 = 0$**" },
-        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{-12}{3} = 4, \\qquad x_1 x_2 = \\dfrac{5}{3}" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{-12}{3} = 4, \\Rightarrow x_1 x_2 = \\dfrac{5}{3}" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x_1 + x_2 + x_1 x_2$**" },
         { "tipe": "formula_block", "latex": "x_1 + x_2 + x_1 x_2 = 4 + \\dfrac{5}{3} = \\dfrac{12 + 5}{3} = \\dfrac{17}{3}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x_1 + x_2 + x_1 x_2$ adalah **$\\dfrac{17}{3}$**." }
