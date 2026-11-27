@@ -13,20 +13,22 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x^3 e^x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$e^x(x^3 - 3x^2 + 6x - 6) + C$"}],
-        [{"tipe":"paragraph","text":"$e^x(x^3 + 3x^2 + 6x + 6) + C$"}],
-        [{"tipe":"paragraph","text":"$e^x(x^3 - 3x^2 - 6x + 6) + C$"}],
-        [{"tipe":"paragraph","text":"$e^x(x^3 - 3x^2 + 6x + 6) + C$"}],
-        [{"tipe":"paragraph","text":"$x^3 e^x - 3x^2 e^x + C$"}]
+        [ { "tipe": "paragraph", "text": "$e^x(x^3 - 3x^2 + 6x - 6) + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x(x^3 + 3x^2 + 6x + 6) + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x(x^3 - 3x^2 - 6x + 6) + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x(x^3 - 3x^2 + 6x + 6) + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x^3 e^x - 3x^2 e^x + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Integral parsial tiga kali:" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan integral parsial pertama ($\\int u \\, dv = uv - \\int v \\, du$) dengan $u = x^3$ dan $dv = e^x \\, dx$**" },
         { "tipe": "formula_block", "latex": "\\int x^3 e^x \\, dx = x^3 e^x - 3\\int x^2 e^x \\, dx" },
-        { "tipe": "formula_block", "latex": "= x^3 e^x - 3(x^2 e^x - 2\\int x e^x \\, dx)" },
-        { "tipe": "formula_block", "latex": "= x^3 e^x - 3x^2 e^x + 6(xe^x - e^x) + C" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Lanjutkan integral parsial kedua dan ketiga untuk menurunkan pangkat $x$**" },
+        { "tipe": "formula_block", "latex": "= x^3 e^x - 3\\left(x^2 e^x - 2\\int x e^x \\, dx\\right)" },
+        { "tipe": "formula_block", "latex": "= x^3 e^x - 3x^2 e^x + 6\\left(x e^x - \\int e^x \\, dx\\right) = x^3 e^x - 3x^2 e^x + 6x e^x - 6e^x + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $e^x$ dari setiap suku**" },
         { "tipe": "formula_block", "latex": "= e^x(x^3 - 3x^2 + 6x - 6) + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $e^x(x^3 - 3x^2 + 6x - 6) + C$." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$e^x(x^3 - 3x^2 + 6x - 6) + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -36,19 +38,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x^2 \\sin x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$-x^2 \\cos x + 2x \\sin x + 2\\cos x + C$"}],
-        [{"tipe":"paragraph","text":"$x^2 \\cos x - 2x \\sin x + 2\\cos x + C$"}],
-        [{"tipe":"paragraph","text":"$-x^2 \\cos x - 2x \\sin x - 2\\cos x + C$"}],
-        [{"tipe":"paragraph","text":"$-x^2 \\sin x + 2x \\cos x + 2\\sin x + C$"}],
-        [{"tipe":"paragraph","text":"$x^2 \\cos x + 2x \\sin x + 2\\cos x + C$"}]
+        [ { "tipe": "paragraph", "text": "$-x^2 \\cos x + 2x \\sin x + 2\\cos x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 \\cos x - 2x \\sin x + 2\\cos x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-x^2 \\cos x - 2x \\sin x - 2\\cos x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$-x^2 \\sin x + 2x \\cos x + 2\\sin x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x^2 \\cos x + 2x \\sin x + 2\\cos x + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Parsial: $u = x^2$, $dv = \\sin x \\, dx$, $v = -\\cos x$." },
-        { "tipe": "formula_block", "latex": "\\int x^2 \\sin x \\, dx = -x^2 \\cos x + 2\\int x \\cos x \\, dx" },
-        { "tipe": "paragraph", "text": "Dari paket sebelumnya: $\\int x \\cos x \\, dx = x \\sin x + \\cos x$." },
-        { "tipe": "formula_block", "latex": "= -x^2 \\cos x + 2(x \\sin x + \\cos x) + C = -x^2 \\cos x + 2x \\sin x + 2\\cos x + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $-x^2 \\cos x + 2x \\sin x + 2\\cos x + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan integral parsial pertama dengan $u = x^2$ ($du = 2x \\, dx$) dan $dv = \\sin x \\, dx$ ($v = -\\cos x$)**" },
+        { "tipe": "formula_block", "latex": "\\int x^2 \\sin x \\, dx = -x^2 \\cos x - \\int (-\\cos x)(2x \\, dx) = -x^2 \\cos x + 2\\int x \\cos x \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan integral parsial kedua pada $\\int x \\cos x \\, dx$ dengan $u = x$ dan $dv = \\cos x \\, dx$ ($v = \\sin x$)**" },
+        { "tipe": "formula_block", "latex": "\\int x \\cos x \\, dx = x \\sin x - \\int \\sin x \\, dx = x \\sin x + \\cos x + C_1" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan hasil parsial kedua ke persamaan awal**" },
+        { "tipe": "formula_block", "latex": "\\int x^2 \\sin x \\, dx = -x^2 \\cos x + 2(x \\sin x + \\cos x) + C = -x^2 \\cos x + 2x \\sin x + 2\\cos x + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$-x^2 \\cos x + 2x \\sin x + 2\\cos x + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -58,19 +62,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int e^x \\cos x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{e^x(\\sin x + \\cos x)}{2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{e^x(\\sin x - \\cos x)}{2} + C$"}],
-        [{"tipe":"paragraph","text":"$e^x(\\sin x + \\cos x) + C$"}],
-        [{"tipe":"paragraph","text":"$e^x \\sin x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{e^x(\\cos x - \\sin x)}{2} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{e^x(\\sin x + \\cos x)}{2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{e^x(\\sin x - \\cos x)}{2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x(\\sin x + \\cos x) + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x \\sin x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{e^x(\\cos x - \\sin x)}{2} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Parsial dua kali lalu selesaikan:" },
-        { "tipe": "formula_block", "latex": "I = \\int e^x \\cos x \\, dx = e^x \\cos x + \\int e^x \\sin x \\, dx" },
-        { "tipe": "formula_block", "latex": "= e^x \\cos x + e^x \\sin x - \\int e^x \\cos x \\, dx = e^x(\\cos x + \\sin x) - I" },
-        { "tipe": "formula_block", "latex": "2I = e^x(\\cos x + \\sin x) \\Rightarrow I = \\dfrac{e^x(\\sin x + \\cos x)}{2} + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $\\dfrac{e^x(\\sin x + \\cos x)}{2} + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $I = \\int e^x \\cos x \\, dx$, lalu terapkan parsial pertama ($u = \\cos x$, $dv = e^x \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "I = e^x \\cos x - \\int e^x (-\\sin x) \\, dx = e^x \\cos x + \\int e^x \\sin x \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan integral parsial kedua pada $\\int e^x \\sin x \\, dx$ ($u = \\sin x$, $dv = e^x \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "I = e^x \\cos x + \\left( e^x \\sin x - \\int e^x \\cos x \\, dx \\right) = e^x(\\cos x + \\sin x) - I" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Pindahkan $-I$ ke ruas kiri dan selesaikan untuk memperoleh $I$**" },
+        { "tipe": "formula_block", "latex": "2I = e^x(\\sin x + \\cos x) \\Rightarrow I = \\dfrac{e^x(\\sin x + \\cos x)}{2} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{e^x(\\sin x + \\cos x)}{2} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -80,18 +86,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int e^x \\sin x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{e^x(\\sin x - \\cos x)}{2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{e^x(\\sin x + \\cos x)}{2} + C$"}],
-        [{"tipe":"paragraph","text":"$e^x \\cos x + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{e^x(\\cos x - \\sin x)}{2} + C$"}],
-        [{"tipe":"paragraph","text":"$e^x(\\sin x + \\cos x) + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{e^x(\\sin x - \\cos x)}{2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{e^x(\\sin x + \\cos x)}{2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x \\cos x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{e^x(\\cos x - \\sin x)}{2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$e^x(\\sin x + \\cos x) + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "I = \\int e^x \\sin x \\, dx = e^x \\sin x - \\int e^x \\cos x \\, dx" },
-        { "tipe": "formula_block", "latex": "= e^x \\sin x - e^x \\cos x - \\int e^x \\sin x \\, dx = e^x(\\sin x - \\cos x) - I" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan $I = \\int e^x \\sin x \\, dx$, lalu terapkan parsial pertama ($u = \\sin x$, $dv = e^x \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "I = e^x \\sin x - \\int e^x \\cos x \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan integral parsial kedua pada $\\int e^x \\cos x \\, dx$ ($u = \\cos x$, $dv = e^x \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "I = e^x \\sin x - \\left( e^x \\cos x + \\int e^x \\sin x \\, dx \\right) = e^x(\\sin x - \\cos x) - I" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kelompokkan $I$ di satu ruas untuk mendapatkan hasil akhir**" },
         { "tipe": "formula_block", "latex": "2I = e^x(\\sin x - \\cos x) \\Rightarrow I = \\dfrac{e^x(\\sin x - \\cos x)}{2} + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $\\dfrac{e^x(\\sin x - \\cos x)}{2} + C$." }
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{e^x(\\sin x - \\cos x)}{2} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -101,18 +110,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x^3 \\ln x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{x^4 \\ln x}{4} - \\dfrac{x^4}{16} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{x^4 \\ln x}{4} + \\dfrac{x^4}{16} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{x^4 \\ln x}{4} + C$"}],
-        [{"tipe":"paragraph","text":"$x^4 \\ln x - \\dfrac{x^4}{4} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{x^3 \\ln x}{3} - \\dfrac{x^3}{9} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x^4 \\ln x}{4} - \\dfrac{x^4}{16} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x^4 \\ln x}{4} + \\dfrac{x^4}{16} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x^4 \\ln x}{4} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x^4 \\ln x - \\dfrac{x^4}{4} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{x^3 \\ln x}{3} - \\dfrac{x^3}{9} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pilih $u = \\ln x$, $dv = x^3 \\, dx$, $v = \\dfrac{x^4}{4}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pemisalan $u$ dan $dv$ untuk integral parsial**" },
+        { "tipe": "paragraph", "text": "Pilih $u = \\ln x \\Rightarrow du = \\dfrac{1}{x} \\, dx$ dan $dv = x^3 \\, dx \\Rightarrow v = \\dfrac{x^4}{4}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus integral parsial $\\int u \\, dv = uv - \\int v \\, du$**" },
         { "tipe": "formula_block", "latex": "\\int x^3 \\ln x \\, dx = \\dfrac{x^4 \\ln x}{4} - \\int \\dfrac{x^4}{4} \\cdot \\dfrac{1}{x} \\, dx = \\dfrac{x^4 \\ln x}{4} - \\dfrac{1}{4} \\int x^3 \\, dx" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{x^4 \\ln x}{4} - \\dfrac{x^4}{16} + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $\\dfrac{x^4 \\ln x}{4} - \\dfrac{x^4}{16} + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan integral suku kedua**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{x^4 \\ln x}{4} - \\dfrac{1}{4} \\left(\\dfrac{x^4}{4}\\right) + C = \\dfrac{x^4 \\ln x}{4} - \\dfrac{x^4}{16} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{x^4 \\ln x}{4} - \\dfrac{x^4}{16} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -122,18 +134,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{\\pi} x \\sin x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\pi$"}],
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$2\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{\\pi}{2}$"}],
-        [{"tipe":"paragraph","text":"$-\\pi$"}]
+        [ { "tipe": "paragraph", "text": "$\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{\\pi}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$-\\pi$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari paket sebelumnya: $\\int x \\sin x \\, dx = -x \\cos x + \\sin x$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari antiturunan $\\int x \\sin x \\, dx$ menggunakan integral parsial ($u = x$, $dv = \\sin x \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "\\int x \\sin x \\, dx = -x \\cos x - \\int (-\\cos x) \\, dx = -x \\cos x + \\sin x" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Evaluasi hasil integral pada batas bawah $0$ hingga batas atas $\\pi$**" },
         { "tipe": "formula_block", "latex": "\\int_{0}^{\\pi} x \\sin x \\, dx = \\left[ -x \\cos x + \\sin x \\right]_{0}^{\\pi}" },
-        { "tipe": "formula_block", "latex": "= (-\\pi \\cos\\pi + \\sin\\pi) - (0 + 0) = -\\pi(-1) + 0 = \\pi" },
-        { "tipe": "paragraph", "text": "Jadi, nilainya adalah $\\pi$." }
+        { "tipe": "formula_block", "latex": "= (-\\pi \\cos \\pi + \\sin \\pi) - (-0 \\cdot \\cos 0 + \\sin 0) = (-\\pi(-1) + 0) - 0 = \\pi" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$\\pi$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -143,18 +157,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} x^2 e^x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$e - 2$"}],
-        [{"tipe":"paragraph","text":"$e - 1$"}],
-        [{"tipe":"paragraph","text":"$e + 1$"}],
-        [{"tipe":"paragraph","text":"$2e - 2$"}],
-        [{"tipe":"paragraph","text":"$e$"}]
+        [ { "tipe": "paragraph", "text": "$e - 2$" } ],
+        [ { "tipe": "paragraph", "text": "$e - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$e + 1$" } ],
+        [ { "tipe": "paragraph", "text": "$2e - 2$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari paket sebelumnya: $\\int x^2 e^x \\, dx = e^x(x^2 - 2x + 2)$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari antiturunan $\\int x^2 e^x \\, dx$ dengan integral parsial dua kali ($u = x^2$, $dv = e^x \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "\\int x^2 e^x \\, dx = x^2 e^x - 2\\int x e^x \\, dx = x^2 e^x - 2(x e^x - e^x) = e^x(x^2 - 2x + 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = 1$ dan batas bawah $x = 0$**" },
         { "tipe": "formula_block", "latex": "\\int_{0}^{1} x^2 e^x \\, dx = \\left[ e^x(x^2 - 2x + 2) \\right]_{0}^{1}" },
-        { "tipe": "formula_block", "latex": "= e(1 - 2 + 2) - 1(0 - 0 + 2) = e - 2" },
-        { "tipe": "paragraph", "text": "Jadi, nilainya adalah $e - 2$." }
+        { "tipe": "formula_block", "latex": "= e^1(1^2 - 2(1) + 2) - e^0(0^2 - 2(0) + 2) = e(1) - 1(2) = e - 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$e - 2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -164,18 +180,20 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{1}^{e} \\ln x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$1$"}],
-        [{"tipe":"paragraph","text":"$e - 1$"}],
-        [{"tipe":"paragraph","text":"$e$"}],
-        [{"tipe":"paragraph","text":"$0$"}],
-        [{"tipe":"paragraph","text":"$e + 1$"}]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$e - 1$" } ],
+        [ { "tipe": "paragraph", "text": "$e$" } ],
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$e + 1$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari paket sebelumnya: $\\int \\ln x \\, dx = x \\ln x - x$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari antiturunan $\\int \\ln x \\, dx$ menggunakan integral parsial ($u = \\ln x$, $dv = dx$)**" },
+        { "tipe": "formula_block", "latex": "\\int \\ln x \\, dx = x \\ln x - \\int x \\cdot \\dfrac{1}{x} \\, dx = x \\ln x - \\int 1 \\, dx = x \\ln x - x" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = e$ dan batas bawah $x = 1$ (ingat $\\ln e = 1$ dan $\\ln 1 = 0$)**" },
         { "tipe": "formula_block", "latex": "\\int_{1}^{e} \\ln x \\, dx = \\left[ x \\ln x - x \\right]_{1}^{e}" },
-        { "tipe": "formula_block", "latex": "= (e \\cdot 1 - e) - (1 \\cdot 0 - 1) = 0 + 1 = 1" },
-        { "tipe": "paragraph", "text": "Jadi, nilainya adalah 1." }
+        { "tipe": "formula_block", "latex": "= (e \\ln e - e) - (1 \\ln 1 - 1) = (e \\cdot 1 - e) - (0 - 1) = 0 + 1 = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$1$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -185,17 +203,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x \\sec^2 x \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$x \\tan x + \\ln|\\cos x| + C$"}],
-        [{"tipe":"paragraph","text":"$x \\tan x - \\ln|\\cos x| + C$"}],
-        [{"tipe":"paragraph","text":"$x \\sec x + \\tan x + C$"}],
-        [{"tipe":"paragraph","text":"$x \\tan x + C$"}],
-        [{"tipe":"paragraph","text":"$\\tan x - x + C$"}]
+        [ { "tipe": "paragraph", "text": "$x \\tan x + \\ln|\\cos x| + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\tan x - \\ln|\\cos x| + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\sec x + \\tan x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\tan x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\tan x - x + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pilih $u = x$, $dv = \\sec^2 x \\, dx$, maka $v = \\tan x$." },
-        { "tipe": "formula_block", "latex": "\\int x \\sec^2 x \\, dx = x \\tan x - \\int \\tan x \\, dx = x \\tan x + \\ln|\\cos x| + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $x \\tan x + \\ln|\\cos x| + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pemisalan $u$ dan $dv$ untuk integral parsial**" },
+        { "tipe": "paragraph", "text": "Pilih $u = x \\Rightarrow du = dx$ dan $dv = \\sec^2 x \\, dx \\Rightarrow v = \\tan x$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam rumus integral parsial**" },
+        { "tipe": "formula_block", "latex": "\\int x \\sec^2 x \\, dx = x \\tan x - \\int \\tan x \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan $\\int \\tan x \\, dx = -\\ln|\\cos x| + C$ untuk memperoleh hasil akhir**" },
+        { "tipe": "formula_block", "latex": "= x \\tan x - (-\\ln|\\cos x|) + C = x \\tan x + \\ln|\\cos x| + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$x \\tan x + \\ln|\\cos x| + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -205,19 +227,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int (\\ln x)^2 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$x(\\ln x)^2 - 2x \\ln x + 2x + C$"}],
-        [{"tipe":"paragraph","text":"$x(\\ln x)^2 + 2x \\ln x - 2x + C$"}],
-        [{"tipe":"paragraph","text":"$x(\\ln x)^2 - 2x \\ln x - 2x + C$"}],
-        [{"tipe":"paragraph","text":"$x(\\ln x)^2 - 2x \\ln x + C$"}],
-        [{"tipe":"paragraph","text":"$x(\\ln x)^2 + C$"}]
+        [ { "tipe": "paragraph", "text": "$x(\\ln x)^2 - 2x \\ln x + 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x(\\ln x)^2 + 2x \\ln x - 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x(\\ln x)^2 - 2x \\ln x - 2x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x(\\ln x)^2 - 2x \\ln x + C$" } ],
+        [ { "tipe": "paragraph", "text": "$x(\\ln x)^2 + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pilih $u = (\\ln x)^2$, $dv = dx$, $v = x$." },
-        { "tipe": "formula_block", "latex": "\\int (\\ln x)^2 \\, dx = x(\\ln x)^2 - 2\\int \\ln x \\, dx" },
-        { "tipe": "paragraph", "text": "Dari paket sebelumnya: $\\int \\ln x \\, dx = x \\ln x - x$." },
-        { "tipe": "formula_block", "latex": "= x(\\ln x)^2 - 2(x \\ln x - x) + C = x(\\ln x)^2 - 2x \\ln x + 2x + C" },
-        { "tipe": "paragraph", "text": "Jadi, hasilnya adalah $x(\\ln x)^2 - 2x \\ln x + 2x + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan integral parsial pertama dengan $u = (\\ln x)^2$ ($du = \\dfrac{2\\ln x}{x} \\, dx$) dan $dv = dx$ ($v = x$)**" },
+        { "tipe": "formula_block", "latex": "\\int (\\ln x)^2 \\, dx = x(\\ln x)^2 - \\int x \\cdot \\dfrac{2\\ln x}{x} \\, dx = x(\\ln x)^2 - 2\\int \\ln x \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan integral parsial kedua pada $\\int \\ln x \\, dx = x \\ln x - x$**" },
+        { "tipe": "formula_block", "latex": "= x(\\ln x)^2 - 2(x \\ln x - x) + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Jabarkan bentuk perkaliannya**" },
+        { "tipe": "formula_block", "latex": "= x(\\ln x)^2 - 2x \\ln x + 2x + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$x(\\ln x)^2 - 2x \\ln x + 2x + C$**." }
       ],
       "tingkat": "SULIT"
     }
