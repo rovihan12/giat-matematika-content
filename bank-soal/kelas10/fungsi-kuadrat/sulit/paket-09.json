@@ -21,17 +21,17 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan hubungan antara panjang ($p$) dan lebar ($l$) dari keliling.**" },
-        { "tipe": "paragraph", "text": "$K = 2(p + l) = 100 \\Rightarrow p + l = 50 \\Rightarrow l = 50 - p$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk fungsi luas $L(p)$ dalam satu variabel.**" },
-        { "tipe": "paragraph", "text": "$L(p) = p \\cdot l = p(50 - p) = -p^2 + 50p$" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan hubungan antara panjang ($p$) dan lebar ($l$) dari keliling**" },
+        { "tipe": "formula_block", "latex": "K = 2(p + l) = 100 \\Rightarrow p + l = 50 \\Rightarrow l = 50 - p" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk fungsi luas $L(p)$ dalam satu variabel**" },
+        { "tipe": "formula_block", "latex": "L(p) = p \\cdot l = p(50 - p) = -p^2 + 50p" },
         { "tipe": "paragraph", "text": "Dari fungsi kuadrat tersebut, diperoleh $a = -1$, $b = 50$, dan $c = 0$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Cari panjang optimal ($p_{\\text{opt}}$) menggunakan rumus sumbu simetri.**" },
-        { "tipe": "paragraph", "text": "$p_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{50}{2(-1)} = 25\\text{ cm}$" },
-        { "tipe": "paragraph", "text": "Maka lebarnya adalah $l = 50 - 25 = 25\\text{ cm}$." },
-        { "tipe": "paragraph", "text": "**Langkah 4: Hitung luas maksimum.**" },
-        { "tipe": "paragraph", "text": "$L_{\\text{maks}} = p \\cdot l = 25 \\cdot 25 = 625\\text{ cm}^2$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Luas maksimum persegi panjang tersebut adalah $625$ cm²." }
+        { "tipe": "paragraph", "text": "**Langkah 3: Cari panjang optimal ($p_{\\text{opt}}$) menggunakan rumus sumbu simetri**" },
+        { "tipe": "formula_block", "latex": "p_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{50}{2(-1)} = 25\\text{ cm}" },
+        { "tipe": "paragraph", "text": "Diperoleh lebarnya adalah $l = 50 - 25 = 25\\text{ cm}$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung luas maksimum persegi panjang**" },
+        { "tipe": "formula_block", "latex": "L_{\\text{maks}} = p \\cdot l = 25 \\cdot 25 = 625\\text{ cm}^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas maksimum persegi panjang tersebut adalah **$625$ cm²**." }
       ],
       "tingkat": "SULIT"
     },
@@ -49,14 +49,13 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian.**" },
-        { "tipe": "paragraph", "text": "Ubah urutan suku fungsi menjadi bentuk umum: $h(t) = -4t^2 + 40t$, sehingga diperoleh $a = -4$, $b = 40$, dan $c = 0$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung waktu untuk mencapai tinggi maksimum ($t_p$).**" },
-        { "tipe": "paragraph", "text": "$t_p = -\\dfrac{b}{2a} = -\\dfrac{40}{2(-4)} = -\\dfrac{40}{-8} = 5\\text{ detik}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $t = 5$ ke fungsi $h(t)$ untuk mencari tinggi maksimum.**" },
-        { "tipe": "paragraph", "text": "$h_{\\text{maks}} = h(5) = 40(5) - 4(5)^2$" },
-        { "tipe": "paragraph", "text": "$h_{\\text{maks}} = 200 - 4(25) = 200 - 100 = 100\\text{ m}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Tinggi maksimum yang dicapai peluru adalah $100$ m." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian**" },
+        { "tipe": "paragraph", "text": "Susun ulang fungsi menjadi $h(t) = -4t^2 + 40t$, sehingga diperoleh $a = -4$, $b = 40$, dan $c = 0$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung waktu saat peluru mencapai tinggi maksimum ($t_p$)**" },
+        { "tipe": "formula_block", "latex": "t_p = -\\dfrac{b}{2a} = -\\dfrac{40}{2(-4)} = -\\dfrac{40}{-8} = 5\\text{ detik}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $t = 5$ ke fungsi $h(t)$ untuk menghitung tinggi maksimum**" },
+        { "tipe": "formula_block", "latex": "h_{\\text{maks}} = h(5) = 40(5) - 4(5)^2 = 200 - 100 = 100\\text{ m}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, tinggi maksimum peluru adalah **$100$ m**." }
       ],
       "tingkat": "SULIT"
     },
@@ -74,14 +73,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi biaya.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi biaya**" },
         { "tipe": "paragraph", "text": "Dari $C(x) = x^2 - 24x + 200$, diperoleh $a = 1$, $b = -24$, dan $c = 200$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jumlah unit ($x_p$) agar biaya minimum.**" },
-        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{b}{2a} = -\\dfrac{-24}{2(1)} = 12\\text{ unit}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 12$ ke fungsi $C(x)$ untuk mendapatkan biaya minimum.**" },
-        { "tipe": "paragraph", "text": "$C_{\\text{min}} = C(12) = (12)^2 - 24(12) + 200$" },
-        { "tipe": "paragraph", "text": "$C_{\\text{min}} = 144 - 288 + 200 = 56\\text{ ribu rupiah}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Biaya produksi minimumnya adalah $56$ ribu." }
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jumlah unit ($x_p$) agar biaya minimum**" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{b}{2a} = -\\dfrac{-24}{2(1)} = 12\\text{ unit}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 12$ ke fungsi $C(x)$ untuk mendapatkan biaya minimum**" },
+        { "tipe": "formula_block", "latex": "C_{\\text{min}} = C(12) = (12)^2 - 24(12) + 200 = 144 - 288 + 200 = 56\\text{ ribu rupiah}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, biaya minimumnya adalah **$56$ ribu**." }
       ],
       "tingkat": "SULIT"
     },
@@ -99,15 +97,15 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan kedua bilangan tersebut dalam satu variabel.**" },
-        { "tipe": "paragraph", "text": "Jika bilangan pertama adalah $x$, karena jumlah keduanya $40$, maka bilangan kedua adalah $40 - x$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Susun fungsi hasil kali $P(x)$.**" },
-        { "tipe": "paragraph", "text": "$P(x) = x(40 - x) = -x^2 + 40x$" },
-        { "tipe": "paragraph", "text": "Diperoleh koefisien $a = -1$ dan $b = 40$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan nilai $x$ yang memaksimumkan hasil kali.**" },
-        { "tipe": "paragraph", "text": "$x_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{40}{2(-1)} = 20$" },
-        { "tipe": "paragraph", "text": "Maka bilangan pertama adalah $20$ dan bilangan kedua adalah $40 - 20 = 20$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Karena kedua bilangan bernilai sama, bilangan terkecilnya adalah $20$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan kedua bilangan dalam satu variabel**" },
+        { "tipe": "paragraph", "text": "Misalkan bilangan pertama adalah $x$, maka bilangan kedua adalah $40 - x$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk fungsi hasil kali $P(x)$**" },
+        { "tipe": "formula_block", "latex": "P(x) = x(40 - x) = -x^2 + 40x" },
+        { "tipe": "paragraph", "text": "Dari fungsi kuadrat tersebut, diperoleh $a = -1$ dan $b = 40$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Tentukan nilai $x$ yang memaksimumkan hasil kali**" },
+        { "tipe": "formula_block", "latex": "x_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{40}{2(-1)} = 20" },
+        { "tipe": "paragraph", "text": "Bilangan pertama adalah $20$ dan bilangan kedua adalah $40 - 20 = 20$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan terkecilnya adalah **$20$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -125,13 +123,13 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat roket menyentuh tanah.**" },
-        { "tipe": "paragraph", "text": "Saat roket berada di permukaan tanah, ketinggiannya sama dengan nol ($h(t) = 0$)." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan kuadrat $h(t) = 0$.**" },
-        { "tipe": "paragraph", "text": "$30t - t^2 = 0$" },
-        { "tipe": "paragraph", "text": "Faktorkan variabel $t$: $t(30 - t) = 0$" },
-        { "tipe": "paragraph", "text": "Diperoleh dua nilai waktu: $t = 0$ (saat roket baru diluncurkan) atau $t = 30$ (saat roket jatuh kembali ke tanah)." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Waktu yang dibutuhkan roket untuk mencapai tanah kembali adalah $30$ detik." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan syarat ketinggian roket saat menyentuh tanah**" },
+        { "tipe": "paragraph", "text": "Roket menyentuh tanah kembali ketika ketinggiannya bernilai nol ($h(t) = 0$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan dan selesaikan persamaan kuadrat $h(t) = 0$**" },
+        { "tipe": "formula_block", "latex": "30t - t^2 = 0 \\Rightarrow t(30 - t) = 0" },
+        { "tipe": "formula_block", "latex": "t = 0 \\quad \\text{atau} \\quad t = 30" },
+        { "tipe": "paragraph", "text": "Nilai $t = 0$ menunjukkan saat peluncuran awal, sedangkan $t = 30$ menunjukkan saat roket kembali menyentuh tanah." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, waktu yang dibutuhkan roket untuk mencapai tanah kembali adalah **$30$ detik**." }
       ],
       "tingkat": "SULIT"
     },
@@ -149,14 +147,14 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling.**" },
-        { "tipe": "paragraph", "text": "$K = 2(p + l) = 80 \\Rightarrow p + l = 40 \\Rightarrow l = 40 - p$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Susun fungsi luas taman $L(p)$.**" },
-        { "tipe": "paragraph", "text": "$L(p) = p \\cdot l = p(40 - p) = -p^2 + 40p$" },
-        { "tipe": "paragraph", "text": "Diperoleh koefisien $a = -1$ dan $b = 40$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung panjang optimal ($p_{\\text{opt}}$) menggunakan rumus sumbu simetri.**" },
-        { "tipe": "paragraph", "text": "$p_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{40}{2(-1)} = 20\\text{ m}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Agar luas taman maksimum, panjang taman haruslah $20$ m." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling**" },
+        { "tipe": "formula_block", "latex": "K = 2(p + l) = 80 \\Rightarrow p + l = 40 \\Rightarrow l = 40 - p" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk fungsi luas taman $L(p)$**" },
+        { "tipe": "formula_block", "latex": "L(p) = p \\cdot l = p(40 - p) = -p^2 + 40p" },
+        { "tipe": "paragraph", "text": "Dari fungsi kuadrat tersebut, diperoleh $a = -1$ dan $b = 40$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung panjang optimal ($p_{\\text{opt}}$) menggunakan rumus sumbu simetri**" },
+        { "tipe": "formula_block", "latex": "p_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{40}{2(-1)} = 20\\text{ m}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, agar luas taman maksimum, panjang taman adalah **$20$ m**." }
       ],
       "tingkat": "SULIT"
     },
@@ -174,15 +172,13 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi keuntungan.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi keuntungan**" },
         { "tipe": "paragraph", "text": "Dari $P(x) = -3x^2 + 90x - 200$, diperoleh $a = -3$, $b = 90$, dan $c = -200$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Cari jumlah unit ($x_p$) yang menghasilkan keuntungan maksimum.**" },
-        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{b}{2a} = -\\dfrac{90}{2(-3)} = -\\dfrac{90}{-6} = 15\\text{ unit}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 15$ ke fungsi $P(x)$ untuk mendapatkan keuntungan maksimum.**" },
-        { "tipe": "paragraph", "text": "$P_{\\text{maks}} = P(15) = -3(15)^2 + 90(15) - 200$" },
-        { "tipe": "paragraph", "text": "$P_{\\text{maks}} = -3(225) + 1350 - 200$" },
-        { "tipe": "paragraph", "text": "$P_{\\text{maks}} = -675 + 1350 - 200 = 475\\text{ ribu rupiah}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Keuntungan maksimum yang diperoleh adalah $475$ ribu." }
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari jumlah unit ($x_p$) yang menghasilkan keuntungan maksimum**" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{b}{2a} = -\\dfrac{90}{2(-3)} = -\\dfrac{90}{-6} = 15\\text{ unit}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 15$ ke fungsi $P(x)$ untuk mendapatkan keuntungan maksimum**" },
+        { "tipe": "formula_block", "latex": "P_{\\text{maks}} = P(15) = -3(15)^2 + 90(15) - 200 = -675 + 1350 - 200 = 475\\text{ ribu rupiah}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, keuntungan maksimumnya adalah **$475$ ribu**." }
       ],
       "tingkat": "SULIT"
     },
@@ -200,17 +196,17 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling.**" },
-        { "tipe": "paragraph", "text": "$K = 2(p + l) = 240 \\Rightarrow p + l = 120 \\Rightarrow l = 120 - p$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk fungsi luas jendela $L(p)$.**" },
-        { "tipe": "paragraph", "text": "$L(p) = p \\cdot l = p(120 - p) = -p^2 + 120p$" },
-        { "tipe": "paragraph", "text": "Diperoleh koefisien $a = -1$ dan $b = 120$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung panjang optimal ($p_{\\text{opt}}$) menggunakan rumus sumbu simetri.**" },
-        { "tipe": "paragraph", "text": "$p_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{120}{2(-1)} = 60\\text{ cm}$" },
-        { "tipe": "paragraph", "text": "Maka lebarnya adalah $l = 120 - 60 = 60\\text{ cm}$." },
-        { "tipe": "paragraph", "text": "**Langkah 4: Hitung luas maksimum jendela.**" },
-        { "tipe": "paragraph", "text": "$L_{\\text{maks}} = p \\cdot l = 60 \\cdot 60 = 3600\\text{ cm}^2$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Luas maksimum jendela tersebut adalah $3600$ cm²." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan lebar ($l$) dalam panjang ($p$) dari rumus keliling**" },
+        { "tipe": "formula_block", "latex": "K = 2(p + l) = 240 \\Rightarrow p + l = 120 \\Rightarrow l = 120 - p" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bentuk fungsi luas jendela $L(p)$**" },
+        { "tipe": "formula_block", "latex": "L(p) = p \\cdot l = p(120 - p) = -p^2 + 120p" },
+        { "tipe": "paragraph", "text": "Dari fungsi kuadrat tersebut, diperoleh $a = -1$ dan $b = 120$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung panjang optimal ($p_{\\text{opt}}$) menggunakan rumus sumbu simetri**" },
+        { "tipe": "formula_block", "latex": "p_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{120}{2(-1)} = 60\\text{ cm}" },
+        { "tipe": "paragraph", "text": "Diperoleh lebarnya adalah $l = 120 - 60 = 60\\text{ cm}$." },
+        { "tipe": "paragraph", "text": "**Langkah 4: Hitung luas maksimum jendela**" },
+        { "tipe": "formula_block", "latex": "L_{\\text{maks}} = p \\cdot l = 60 \\cdot 60 = 3600\\text{ cm}^2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas maksimum jendela tersebut adalah **$3600$ cm²**." }
       ],
       "tingkat": "SULIT"
     },
@@ -228,14 +224,13 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian.**" },
-        { "tipe": "paragraph", "text": "Ubah urutan suku fungsi menjadi $h(t) = -3t^2 + 24t$, sehingga diperoleh $a = -3$, $b = 24$, dan $c = 0$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung waktu saat bola mencapai tinggi maksimum ($t_p$).**" },
-        { "tipe": "paragraph", "text": "$t_p = -\\dfrac{b}{2a} = -\\dfrac{24}{2(-3)} = -\\dfrac{24}{-6} = 4\\text{ detik}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $t = 4$ ke fungsi $h(t)$ untuk mendapatkan tinggi maksimum.**" },
-        { "tipe": "paragraph", "text": "$h_{\\text{maks}} = h(4) = 24(4) - 3(4)^2$" },
-        { "tipe": "paragraph", "text": "$h_{\\text{maks}} = 96 - 3(16) = 96 - 48 = 48\\text{ m}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Tinggi maksimum yang dicapai bola adalah $48$ m." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien fungsi ketinggian**" },
+        { "tipe": "paragraph", "text": "Susun ulang fungsi menjadi $h(t) = -3t^2 + 24t$, sehingga diperoleh $a = -3$, $b = 24$, dan $c = 0$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung waktu saat bola mencapai tinggi maksimum ($t_p$)**" },
+        { "tipe": "formula_block", "latex": "t_p = -\\dfrac{b}{2a} = -\\dfrac{24}{2(-3)} = -\\dfrac{24}{-6} = 4\\text{ detik}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $t = 4$ ke fungsi $h(t)$ untuk mendapatkan tinggi maksimum**" },
+        { "tipe": "formula_block", "latex": "h_{\\text{maks}} = h(4) = 24(4) - 3(4)^2 = 96 - 48 = 48\\text{ m}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, tinggi maksimum bola adalah **$48$ m**." }
       ],
       "tingkat": "SULIT"
     },
@@ -253,16 +248,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk fungsi total pendapatan $R(x)$.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk fungsi total pendapatan $R(x)$**" },
         { "tipe": "paragraph", "text": "Total pendapatan merupakan hasil kali jumlah unit terjual ($x$) dengan harga jual per unit ($H(x)$):" },
-        { "tipe": "paragraph", "text": "$R(x) = x \\cdot H(x) = x(600 - 3x) = -3x^2 + 600x$" },
+        { "tipe": "formula_block", "latex": "R(x) = x \\cdot H(x) = x(600 - 3x) = -3x^2 + 600x" },
         { "tipe": "paragraph", "text": "Diperoleh koefisien $a = -3$, $b = 600$, dan $c = 0$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jumlah unit ($x_{\\text{opt}}$) agar pendapatan maksimum.**" },
-        { "tipe": "paragraph", "text": "$x_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{600}{2(-3)} = -\\dfrac{600}{-6} = 100\\text{ unit}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 100$ ke fungsi $R(x)$ untuk menghitung pendapatan maksimum.**" },
-        { "tipe": "paragraph", "text": "$R_{\\text{maks}} = R(100) = -3(100)^2 + 600(100)$" },
-        { "tipe": "paragraph", "text": "$R_{\\text{maks}} = -3(10.000) + 60.000 = -30.000 + 60.000 = 30.000\\text{ rupiah}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Pendapatan maksimum yang diperoleh adalah Rp30.000." }
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jumlah unit ($x_{\\text{opt}}$) agar pendapatan maksimum**" },
+        { "tipe": "formula_block", "latex": "x_{\\text{opt}} = -\\dfrac{b}{2a} = -\\dfrac{600}{2(-3)} = -\\dfrac{600}{-6} = 100\\text{ unit}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan $x = 100$ ke fungsi $R(x)$ untuk menghitung pendapatan maksimum**" },
+        { "tipe": "formula_block", "latex": "R_{\\text{maks}} = R(100) = -3(100)^2 + 600(100) = -30.000 + 60.000 = 30.000\\text{ rupiah}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, pendapatan maksimumnya adalah **Rp30.000**." }
       ],
       "tingkat": "SULIT"
     }
