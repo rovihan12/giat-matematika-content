@@ -22,7 +22,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan untuk mencari pembuat nol fungsi ($f(x) = 0$)**" },
-        { "tipe": "formula_block", "latex": "x^2 - 6x + 5 = 0 \\Rightarrow (x - 1)(x - 5) = 0 \\Rightarrow x = 1 \\text{ atau } x = 5" },
+        { "tipe": "formula_block", "latex": "x^2 - 6x + 5 = 0 \\Rightarrow (x - 1)(x - 5) = 0 \\Rightarrow x = 1 \\Rightarrow \\text{atau} \\Rightarrow x = 5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, fungsi memotong sumbu-$x$ di titik **$(1, 0)$ dan $(5, 0)$**." }
       ],
       "tingkat": "SEDANG"
@@ -64,7 +64,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 - 3x - 10 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-3}{1} = 3, \\qquad \\alpha\\beta = \\dfrac{-10}{1} = -10" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-3}{1} = 3 \\Rightarrow \\alpha\\beta = \\dfrac{-10}{1} = -10" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\alpha^2 + \\beta^2$ dengan identitas $(\\alpha + \\beta)^2 - 2\\alpha\\beta$**" },
         { "tipe": "formula_block", "latex": "\\alpha^2 + \\beta^2 = 3^2 - 2(-10) = 9 + 20 = 29" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\alpha^2 + \\beta^2$ adalah **$29$**." }
@@ -108,7 +108,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah dan hasil kali akar-akar ($x_1 = -3$ dan $x_2 = 4$)**" },
-        { "tipe": "formula_block", "latex": "x_1 + x_2 = -3 + 4 = 1, \\qquad x_1 \\cdot x_2 = (-3)(4) = -12" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -3 + 4 = 1 \\Rightarrow x_1 \\cdot x_2 = (-3)(4) = -12" },
         { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan kuadrat dengan rumus $x^2 - (x_1 + x_2)x + x_1 x_2 = 0$**" },
         { "tipe": "formula_block", "latex": "x^2 - (1)x + (-12) = 0 \\Rightarrow x^2 - x - 12 = 0" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat yang dimaksud adalah **$x^2 - x - 12 = 0$**." }
@@ -152,7 +152,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan pertidaksamaan kuadrat dan tentukan pembuat nol**" },
-        { "tipe": "formula_block", "latex": "x^2 - 3x - 10 \\leq 0 \\Rightarrow (x + 2)(x - 5) \\leq 0 \\Rightarrow x = -2 \\text{ atau } x = 5" },
+        { "tipe": "formula_block", "latex": "x^2 - 3x - 10 \\leq 0 \\Rightarrow (x + 2)(x - 5) \\leq 0 \\Rightarrow x = -2 \\Rightarrow \\text{atau} \\Rightarrow x = 5" },
         { "tipe": "paragraph", "text": "**Langkah 2: Tentukan interval yang memenuhi tanda pertidaksamaan ($\\leq 0$)**" },
         { "tipe": "formula_block", "latex": "-2 \\leq x \\leq 5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$-2 \\leq x \\leq 5$**." }
@@ -219,7 +219,7 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 - 5x + 1 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-5}{1} = 5, \\qquad \\alpha\\beta = \\dfrac{1}{1} = 1" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-5}{1} = 5 \\Rightarrow \\alpha\\beta = \\dfrac{1}{1} = 1" },
         { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan nyatakan dalam $(\\alpha + \\beta)^2 - 2\\alpha\\beta$**" },
         { "tipe": "formula_block", "latex": "\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}" },
         { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diperoleh**" },
