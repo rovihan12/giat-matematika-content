@@ -8,7 +8,7 @@
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-stat-t-01-q01",
+      "id": "bs-k10-stat-t-10-q01",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 10 data adalah $7{,}5$. Jika satu data bernilai $12$ dikeluarkan dan diganti dengan data baru $x$, rata-rata menjadi $7{,}8$. Nilai $x$ adalah..." }
       ],
@@ -22,15 +22,15 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai awal dan jumlah nilai baru ($n = 10$)**" },
-        { "formula_block", "latex": "\\text{Jumlah awal} = 10 \\times 7{,}5 = 75, \\qquad \\text{Jumlah baru} = 10 \\times 7{,}8 = 78" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah awal} = 10 \\times 7{,}5 = 75, \\qquad \\text{Jumlah baru} = 10 \\times 7{,}8 = 78" },
         { "tipe": "paragraph", "text": "**Langkah 2: Susun persamaan perubahan data dan selesaikan untuk $x$**" },
-        { "formula_block", "latex": "75 - 12 + x = 78 \\Rightarrow 63 + x = 78 \\Rightarrow x = 15" },
+        { "tipe": "formula_block", "latex": "75 - 12 + x = 78 \\Rightarrow 63 + x = 78 \\Rightarrow x = 15" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$15$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q02",
+      "id": "bs-k10-stat-t-10-q02",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata nilai 20 siswa adalah $70$. Rata-rata 12 siswa laki-laki adalah $65$. Rata-rata 8 siswa perempuan adalah..." }
       ],
@@ -44,15 +44,15 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah nilai seluruh siswa dan siswa laki-laki**" },
-        { "formula_block", "latex": "\\text{Jumlah 20 siswa} = 20 \\times 70 = 1.400, \\qquad \\text{Jumlah 12 siswa laki-laki} = 12 \\times 65 = 780" },
+        { "tipe": "formula_block", "latex": "\\text{Jumlah 20 siswa} = 20 \\times 70 = 1.400, \\qquad \\text{Jumlah 12 siswa laki-laki} = 12 \\times 65 = 780" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata 8 siswa perempuan**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{perempuan}} = \\dfrac{1.400 - 780}{8} = \\dfrac{620}{8} = 77{,}5" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{perempuan}} = \\dfrac{1.400 - 780}{8} = \\dfrac{620}{8} = 77{,}5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata 8 siswa perempuan adalah **$77{,}5$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q03",
+      "id": "bs-k10-stat-t-10-q03",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika rata-ratanya $5{,}5$, maka nilai $x$ adalah..." },
         { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7$" },
@@ -68,16 +68,16 @@
       "jawaban_benar": 4,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $n$ dan $\\sum f_i x_i$ dalam $x$, lalu substitusikan ke $\\bar{x} = 5{,}5$**" },
-        { "formula_block", "latex": "n = 2 + 3 + x + 1 = x + 6, \\qquad \\sum f_i x_i = 4(2) + 5(3) + 6(x) + 7(1) = 30 + 6x" },
-        { "formula_block", "latex": "\\dfrac{30 + 6x}{x + 6} = 5{,}5 \\Rightarrow 30 + 6x = 5{,}5x + 33" },
+        { "tipe": "formula_block", "latex": "n = 2 + 3 + x + 1 = x + 6, \\qquad \\sum f_i x_i = 4(2) + 5(3) + 6(x) + 7(1) = 30 + 6x" },
+        { "tipe": "formula_block", "latex": "\\dfrac{30 + 6x}{x + 6} = 5{,}5 \\Rightarrow 30 + 6x = 5{,}5x + 33" },
         { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $x$**" },
-        { "formula_block", "latex": "0{,}5x = 3 \\Rightarrow x = 6" },
+        { "tipe": "formula_block", "latex": "0{,}5x = 3 \\Rightarrow x = 6" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$6$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q04",
+      "id": "bs-k10-stat-t-10-q04",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 15 data adalah $12$. Jika setiap data dikalikan $3$ kemudian ditambah $2$, rata-rata baru adalah..." }
       ],
@@ -91,13 +91,13 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat transformasi linear rata-rata ($\\bar{x}_{\\text{baru}} = 3\\bar{x} + 2$)**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 3(12) + 2 = 36 + 2 = 38" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 3(12) + 2 = 36 + 2 = 38" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata baru adalah **$38$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q05",
+      "id": "bs-k10-stat-t-10-q05",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 8 data adalah $10$. Setelah 2 data baru ditambahkan, rata-rata menjadi $11$. Jika selisih kedua data baru adalah $2$, data baru yang lebih besar adalah..." }
       ],
@@ -111,15 +111,15 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Susun sistem persamaan dari jumlah kedua data baru ($a + b$) dan selisihnya ($a - b$)**" },
-        { "formula_block", "latex": "a + b = (10 \\times 11) - (8 \\times 10) = 110 - 80 = 30, \\qquad a - b = 2" },
+        { "tipe": "formula_block", "latex": "a + b = (10 \\times 11) - (8 \\times 10) = 110 - 80 = 30, \\qquad a - b = 2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan kedua persamaan untuk mencari nilai $a$ (data lebih besar)**" },
-        { "formula_block", "latex": "2a = 32 \\Rightarrow a = 16" },
+        { "tipe": "formula_block", "latex": "2a = 32 \\Rightarrow a = 16" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, data baru yang lebih besar adalah **$16$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q06",
+      "id": "bs-k10-stat-t-10-q06",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai rata-ratanya adalah..." },
         { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7, 8$" },
@@ -135,16 +135,16 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak data ($n$) dan jumlah hasil kali $\\sum f_i x_i$**" },
-        { "formula_block", "latex": "n = 2 + 3 + 4 + 3 + 2 = 14" },
-        { "formula_block", "latex": "\\sum f_i x_i = 4(2) + 5(3) + 6(4) + 7(3) + 8(2) = 8 + 15 + 24 + 21 + 16 = 84" },
+        { "tipe": "formula_block", "latex": "n = 2 + 3 + 4 + 3 + 2 = 14" },
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 4(2) + 5(3) + 6(4) + 7(3) + 8(2) = 8 + 15 + 24 + 21 + 16 = 84" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung rata-rata ($\\bar{x}$)**" },
-        { "formula_block", "latex": "\\bar{x} = \\dfrac{84}{14} = 6{,}0" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{84}{14} = 6{,}0" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai rata-ratanya adalah **$6{,}0$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q07",
+      "id": "bs-k10-stat-t-10-q07",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 12 data adalah $25$. Jika data terbesar $40$ dikeluarkan, rata-rata data tersisa adalah..." }
       ],
@@ -158,13 +158,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Kurangi jumlah nilai 12 data awal dengan $40$, lalu bagi dengan $11$ data tersisa**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(12 \\times 25) - 40}{11} = \\dfrac{300 - 40}{11} = \\dfrac{260}{11} \\approx 23{,}64" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(12 \\times 25) - 40}{11} = \\dfrac{300 - 40}{11} = \\dfrac{260}{11} \\approx 23{,}64" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata data tersisa adalah **$23{,}64$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q08",
+      "id": "bs-k10-stat-t-10-q08",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 5 bilangan adalah $18$. Jika bilangan terkecil $6$ dikeluarkan, rata-rata 4 bilangan sisanya adalah..." }
       ],
@@ -178,13 +178,13 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Kurangi jumlah nilai 5 bilangan awal dengan $6$, lalu bagi dengan $4$ bilangan sisanya**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(5 \\times 18) - 6}{4} = \\dfrac{90 - 6}{4} = \\dfrac{84}{4} = 21" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(5 \\times 18) - 6}{4} = \\dfrac{90 - 6}{4} = \\dfrac{84}{4} = 21" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata 4 bilangan sisanya adalah **$21$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q09",
+      "id": "bs-k10-stat-t-10-q09",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 30 siswa adalah $72$. Jika 5 siswa dengan rata-rata $80$ pindah, rata-rata siswa yang tersisa adalah..." }
       ],
@@ -198,13 +198,13 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung selisih jumlah nilai lalu bagi dengan $25$ siswa yang tersisa**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(30 \\times 72) - (5 \\times 80)}{30 - 5} = \\dfrac{2.160 - 400}{25} = \\dfrac{1.760}{25} = 70{,}4" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(30 \\times 72) - (5 \\times 80)}{30 - 5} = \\dfrac{2.160 - 400}{25} = \\dfrac{1.760}{25} = 70{,}4" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata siswa yang tersisa adalah **$70{,}4$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-01-q10",
+      "id": "bs-k10-stat-t-10-q10",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata dari $2x, 4x, 6x, 8x$ adalah $10$. Nilai $x$ adalah..." }
       ],
@@ -218,7 +218,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata keempat data dalam bentuk $x$ dan samakan dengan $10$**" },
-        { "formula_block", "latex": "\\dfrac{2x + 4x + 6x + 8x}{4} = 10 \\Rightarrow \\dfrac{20x}{4} = 10 \\Rightarrow 5x = 10 \\Rightarrow x = 2" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2x + 4x + 6x + 8x}{4} = 10 \\Rightarrow \\dfrac{20x}{4} = 10 \\Rightarrow 5x = 10 \\Rightarrow x = 2" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$2$**." }
       ],
       "tingkat": "SULIT"
