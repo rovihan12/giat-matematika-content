@@ -13,18 +13,22 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int 6x(3x - 1)^{1/3} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{14}(4x+1)(3x-1)^{4/3} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{14}(3x-1)(3x-1)^{4/3} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{7}(4x+1)(3x-1)^{4/3} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{7}(2x+1)(3x-1)^{4/3} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{14}(5x-1)(3x-1)^{4/3} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{14}(4x+1)(3x-1)^{4/3} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{14}(3x-1)(3x-1)^{4/3} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{7}(4x+1)(3x-1)^{4/3} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{7}(2x+1)(3x-1)^{4/3} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{14}(5x-1)(3x-1)^{4/3} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan integral parsial: $u=6x \\Rightarrow du=6dx$, dan $dv=(3x-1)^{1/3}dx \\Rightarrow v=\\dfrac{1}{4}(3x-1)^{4/3}$." },
-        { "tipe": "formula_block", "latex": "\\int 6x(3x-1)^{1/3} dx = 6x \\cdot \\dfrac{1}{4}(3x-1)^{4/3} - \\int \\dfrac{6}{4}(3x-1)^{4/3} dx" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{3}{2}x(3x-1)^{4/3} - \\dfrac{3}{14}(3x-1)^{7/3} + C" },
-        { "tipe": "paragraph", "text": "Faktorkan $\\dfrac{3}{14}(3x-1)^{4/3}$: $\\dfrac{3}{14}(3x-1)^{4/3} [7x - (3x-1)] = \\dfrac{3}{14}(4x+1)(3x-1)^{4/3} + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pemisalan $u$ dan $dv$ untuk integral parsial ($\\int u \\, dv = uv - \\int v \\, du$)**" },
+        { "tipe": "paragraph", "text": "Pilih $u = 6x \\Rightarrow du = 6 \\, dx$ dan $dv = (3x - 1)^{1/3} \\, dx \\Rightarrow v = \\dfrac{1}{3} \\cdot \\dfrac{3}{4}(3x - 1)^{4/3} = \\dfrac{1}{4}(3x - 1)^{4/3}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus integral parsial dan selesaikan integral lanjutannya**" },
+        { "tipe": "formula_block", "latex": "\\int 6x(3x - 1)^{1/3} \\, dx = 6x \\cdot \\dfrac{1}{4}(3x - 1)^{4/3} - \\int \\dfrac{1}{4}(3x - 1)^{4/3} \\cdot 6 \\, dx" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{3}{2}x(3x - 1)^{4/3} - \\dfrac{3}{2} \\cdot \\dfrac{1}{3} \\cdot \\dfrac{3}{7}(3x - 1)^{7/3} + C = \\dfrac{3}{2}x(3x - 1)^{4/3} - \\dfrac{3}{14}(3x - 1)^{7/3} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $\\dfrac{3}{14}(3x - 1)^{4/3}$ dari kedua suku**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{3}{14}(3x - 1)^{4/3} \\left[ 7x - (3x - 1) \\right] = \\dfrac{3}{14}(3x - 1)^{4/3}(4x + 1) + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{3}{14}(4x+1)(3x-1)^{4/3} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -34,16 +38,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int (4x+3)(4x^2+6x-9)^9 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{20}(4x^2+6x-9)^{10} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{10}(4x^2+6x-9)^{10} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{15}(4x^2+6x-9)^{10} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(4x^2+6x-9)^{10} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{40}(4x^2+6x-9)^{10} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{20}(4x^2+6x-9)^{10} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{10}(4x^2+6x-9)^{10} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{15}(4x^2+6x-9)^{10} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{30}(4x^2+6x-9)^{10} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{40}(4x^2+6x-9)^{10} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = 4x^2+6x-9$, maka $du = (8x+6)dx = 2(4x+3)dx$." },
-        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^9 \\, du = \\dfrac{1}{20}u^{10} + C = \\dfrac{1}{20}(4x^2+6x-9)^{10} + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = 4x^2 + 6x - 9$**" },
+        { "tipe": "formula_block", "latex": "du = (8x + 6) \\, dx = 2(4x + 3) \\, dx \\Rightarrow (4x + 3) \\, dx = \\dfrac{1}{2} \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int u^9 \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\cdot \\dfrac{u^{10}}{10} + C = \\dfrac{1}{20}u^{10} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = 4x^2 + 6x - 9$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{20}(4x^2 + 6x - 9)^{10} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{20}(4x^2+6x-9)^{10} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -53,17 +62,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x(x+3)^4 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(5x-3)(x+3)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(3x-5)(x+3)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{5}(x-3)(x+3)^5 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}(5x-3)(x+3)^6 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{30}(x-3)(x+3)^5 + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{30}(5x-3)(x+3)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{30}(3x-5)(x+3)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}(x-3)(x+3)^5 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}(5x-3)(x+3)^6 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{30}(x-3)(x+3)^5 + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan integral parsial: $u=x$, $dv=(x+3)^4 dx \\Rightarrow v=\\dfrac{1}{5}(x+3)^5$." },
-        { "tipe": "formula_block", "latex": "= \\dfrac{1}{5}x(x+3)^5 - \\dfrac{1}{5}\\int (x+3)^5 \\, dx = \\dfrac{1}{5}x(x+3)^5 - \\dfrac{1}{30}(x+3)^6 + C" },
-        { "tipe": "paragraph", "text": "Faktorkan $(x+3)^5$: $\\dfrac{1}{30}(x+3)^5[6x - (x+3)] = \\dfrac{1}{30}(5x-3)(x+3)^5 + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pemisalan $u$ dan $dv$ untuk integral parsial**" },
+        { "tipe": "paragraph", "text": "Pilih $u = x \\Rightarrow du = dx$ dan $dv = (x + 3)^4 \\, dx \\Rightarrow v = \\dfrac{1}{5}(x + 3)^5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus integral parsial dan integralkan sisanya**" },
+        { "tipe": "formula_block", "latex": "\\int x(x + 3)^4 \\, dx = \\dfrac{1}{5}x(x + 3)^5 - \\dfrac{1}{5} \\int (x + 3)^5 \\, dx = \\dfrac{1}{5}x(x + 3)^5 - \\dfrac{1}{30}(x + 3)^6 + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $\\dfrac{1}{30}(x + 3)^5$ dan sederhanakan bentuk dalamnya**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{30}(x + 3)^5 \\left[ 6x - (x + 3) \\right] = \\dfrac{1}{30}(5x - 3)(x + 3)^5 + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{30}(5x-3)(x+3)^5 + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -73,16 +86,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int (2x-1)\\sqrt{x^2-x+5} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}(x^2-x+5)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(x^2-x+5)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}(x^2-x+5)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$2(x^2-x+5)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}(x^2-x+5)^{1/2} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}(x^2-x+5)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}(x^2-x+5)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}(x^2-x+5)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$2(x^2-x+5)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}(x^2-x+5)^{1/2} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = x^2-x+5$, maka $du = (2x-1)dx$." },
-        { "tipe": "formula_block", "latex": "\\int u^{1/2} \\, du = \\dfrac{2}{3}u^{3/2} + C = \\dfrac{2}{3}(x^2-x+5)^{3/2} + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = x^2 - x + 5$**" },
+        { "tipe": "formula_block", "latex": "du = (2x - 1) \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int u^{1/2} \\, du = \\dfrac{u^{3/2}}{3/2} + C = \\dfrac{2}{3}u^{3/2} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = x^2 - x + 5$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{2}{3}(x^2 - x + 5)^{3/2} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{2}{3}(x^2-x+5)^{3/2} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -92,16 +110,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int (3x+1)\\sqrt{3x^2+2x-4} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(3x^2+2x-4)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}(3x^2+2x-4)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{6}(3x^2+2x-4)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{18}(3x^2+2x-4)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{12}(3x^2+2x-4)^{3/2} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}(3x^2+2x-4)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(3x^2+2x-4)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{6}(3x^2+2x-4)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{18}(3x^2+2x-4)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{12}(3x^2+2x-4)^{3/2} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = 3x^2+2x-4$, maka $du = (6x+2)dx = 2(3x+1)dx$." },
-        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^{1/2} \\, du = \\dfrac{1}{2} \\cdot \\dfrac{2}{3}u^{3/2} + C = \\dfrac{1}{3}(3x^2+2x-4)^{3/2} + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = 3x^2 + 2x - 4$**" },
+        { "tipe": "formula_block", "latex": "du = (6x + 2) \\, dx = 2(3x + 1) \\, dx \\Rightarrow (3x + 1) \\, dx = \\dfrac{1}{2} \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int u^{1/2} \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\cdot \\dfrac{2}{3}u^{3/2} + C = \\dfrac{1}{3}u^{3/2} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = 3x^2 + 2x - 4$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{3}(3x^2 + 2x - 4)^{3/2} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{3}(3x^2+2x-4)^{3/2} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -111,16 +134,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int (2x-3)(2x^2-6x+5)^{-1/2} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\sqrt{2x^2-6x+5} + C$"}],
-        [{"tipe":"paragraph","text":"$2\\sqrt{2x^2-6x+5} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{2}\\sqrt{2x^2-6x+5} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{\\sqrt{2x^2-6x+5}} + C$"}],
-        [{"tipe":"paragraph","text":"$\\sqrt{2x^2-6x+5}^3 + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2x^2-6x+5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$2\\sqrt{2x^2-6x+5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{2x^2-6x+5} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{\\sqrt{2x^2-6x+5}} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\sqrt{2x^2-6x+5}^3 + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = 2x^2-6x+5$, maka $du = (4x-6)dx = 2(2x-3)dx$." },
-        { "tipe": "formula_block", "latex": "\\int \\dfrac{1}{2} u^{-1/2} \\, du = \\dfrac{1}{2} \\cdot 2u^{1/2} + C = \\sqrt{2x^2-6x+5} + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = 2x^2 - 6x + 5$**" },
+        { "tipe": "formula_block", "latex": "du = (4x - 6) \\, dx = 2(2x - 3) \\, dx \\Rightarrow (2x - 3) \\, dx = \\dfrac{1}{2} \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int u^{-1/2} \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\cdot 2u^{1/2} + C = u^{1/2} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = 2x^2 - 6x + 5$**" },
+        { "tipe": "formula_block", "latex": "= \\sqrt{2x^2 - 6x + 5} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\sqrt{2x^2-6x+5} + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -130,16 +158,21 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{4} x\\sqrt{x^2+9} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{98}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{100}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{125}{3}$"}],
-        [{"tipe":"paragraph","text":"$40$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{92}{3}$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{98}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{100}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{125}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$40$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{92}{3}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u=x^2+9$, $du=2x dx$. Batas: $x=0 \\to u=9$; $x=4 \\to u=25$." },
-        { "tipe": "formula_block", "latex": "\\int_{9}^{25} \\dfrac{1}{2}u^{1/2} \\, du = [\\dfrac{1}{3}u^{3/2}]_{9}^{25} = \\dfrac{1}{3}(125 - 27) = \\dfrac{98}{3}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Lakukan substitusi $u = x^2 + 9$ sehingga $du = 2x \\, dx$ dan sesuaikan batas integral**" },
+        { "tipe": "paragraph", "text": "Untuk $x = 0 \\Rightarrow u = 0^2 + 9 = 9$, dan untuk $x = 4 \\Rightarrow u = 4^2 + 9 = 25$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral tentu dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int_{9}^{25} u^{1/2} \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\left[ \\dfrac{2}{3}u^{3/2} \\right]_{9}^{25} = \\left[ \\dfrac{1}{3}u^{3/2} \\right]_{9}^{25}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan batas atas $u = 25$ dan batas bawah $u = 9$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{3}\\left(25^{3/2} - 9^{3/2}\\right) = \\dfrac{1}{3}(125 - 27) = \\dfrac{98}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$\\dfrac{98}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -149,16 +182,21 @@
         { "tipe": "paragraph", "text": "Nilai dari $\\int_{0}^{1} 3x\\sqrt{3x^2+1} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{7}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{7}{2}$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{2}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u=3x^2+1$, $du=6x dx \\Rightarrow 3x dx = \\dfrac{1}{2}du$. Batas: $x=0 \\to u=1$; $x=1 \\to u=4$." },
-        { "tipe": "formula_block", "latex": "\\int_{1}^{4} \\dfrac{1}{2}u^{1/2} \\, du = [\\dfrac{1}{3}u^{3/2}]_{1}^{4} = \\dfrac{1}{3}(8 - 1) = \\dfrac{7}{3}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Lakukan substitusi $u = 3x^2 + 1$ sehingga $du = 6x \\, dx$ dan sesuaikan batas integral**" },
+        { "tipe": "paragraph", "text": "Perhatikan bahwa $3x \\, dx = \\dfrac{1}{2} \\, du$. Untuk $x = 0 \\Rightarrow u = 1$, dan untuk $x = 1 \\Rightarrow u = 4$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral tentu dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int_{1}^{4} u^{1/2} \\left(\\dfrac{1}{2} \\, du\\right) = \\dfrac{1}{2} \\left[ \\dfrac{2}{3}u^{3/2} \\right]_{1}^{4} = \\left[ \\dfrac{1}{3}u^{3/2} \\right]_{1}^{4}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan batas atas $u = 4$ dan batas bawah $u = 1$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{3}\\left(4^{3/2} - 1^{3/2}\\right) = \\dfrac{1}{3}(8 - 1) = \\dfrac{7}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai integral tentu tersebut adalah **$\\dfrac{7}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -168,18 +206,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int x(2x+1)^5 \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{84}(12x-1)(2x+1)^6 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{42}(6x-1)(2x+1)^6 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{84}(6x-1)(2x+1)^6 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{28}(12x-1)(2x+1)^6 + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{84}(12x+1)(2x+1)^6 + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{84}(12x-1)(2x+1)^6 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{42}(6x-1)(2x+1)^6 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{84}(6x-1)(2x+1)^6 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{28}(12x-1)(2x+1)^6 + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{84}(12x+1)(2x+1)^6 + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan integral parsial: $u=x \\Rightarrow du=dx$, $dv=(2x+1)^5 dx \\Rightarrow v=\\dfrac{1}{12}(2x+1)^6$." },
-        { "tipe": "formula_block", "latex": "\\int x(2x+1)^5 dx = \\dfrac{1}{12}x(2x+1)^6 - \\int \\dfrac{1}{12}(2x+1)^6 dx" },
-        { "tipe": "formula_block", "latex": "= \\dfrac{1}{12}x(2x+1)^6 - \\dfrac{1}{168}(2x+1)^7 + C" },
-        { "tipe": "paragraph", "text": "Faktorkan $\\dfrac{1}{168}(2x+1)^6$: $\\dfrac{1}{168}(2x+1)^6 [14x - (2x+1)] = \\dfrac{1}{168}(12x-1)(2x+1)^6 + C = \\dfrac{1}{84}(12x-1)(2x+1)^6 + C$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pemisalan $u$ dan $dv$ untuk integral parsial**" },
+        { "tipe": "paragraph", "text": "Pilih $u = x \\Rightarrow du = dx$ dan $dv = (2x + 1)^5 \\, dx \\Rightarrow v = \\dfrac{1}{2} \\cdot \\dfrac{1}{6}(2x + 1)^6 = \\dfrac{1}{12}(2x + 1)^6$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus integral parsial dan selesaikan integral sisanya**" },
+        { "tipe": "formula_block", "latex": "\\int x(2x + 1)^5 \\, dx = \\dfrac{1}{12}x(2x + 1)^6 - \\dfrac{1}{12} \\int (2x + 1)^6 \\, dx = \\dfrac{1}{12}x(2x + 1)^6 - \\dfrac{1}{168}(2x + 1)^7 + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Faktorkan $\\dfrac{1}{168}(2x + 1)^6$ dan sederhanakan**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{1}{168}(2x + 1)^6 \\left[ 14x - (2x + 1) \\right] = \\dfrac{1}{168}(12x - 1)(2x + 1)^6 + C = \\dfrac{1}{84}(12x - 1)(2x + 1)^6 + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{1}{84}(12x-1)(2x+1)^6 + C$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -189,17 +230,21 @@
         { "tipe": "paragraph", "text": "Hasil dari $\\int (6x^2+4x)\\sqrt{x^3+x^2-7} \\, dx$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}(x^3+x^2-7)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{2}{3}(x^3+x^2-7)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{1}{3}(x^3+x^2-7)^{3/2} + C$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{4}{3}(x^3+x^2-7)^{1/2} + C$"}],
-        [{"tipe":"paragraph","text":"$2(x^3+x^2-7)^{3/2} + C$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}(x^3+x^2-7)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{3}(x^3+x^2-7)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}(x^3+x^2-7)^{3/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{3}(x^3+x^2-7)^{1/2} + C$" } ],
+        [ { "tipe": "paragraph", "text": "$2(x^3+x^2-7)^{3/2} + C$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Misal $u = x^3+x^2-7$, maka $du = (3x^2+2x)dx$." },
-        { "tipe": "paragraph", "text": "Perhatikan bahwa $(6x^2+4x)dx = 2(3x^2+2x)dx = 2du$." },
-        { "tipe": "formula_block", "latex": "\\int 2u^{1/2} \\, du = 2 \\cdot \\dfrac{2}{3}u^{3/2} + C = \\dfrac{4}{3}(x^3+x^2-7)^{3/2} + C" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan teknik substitusi dengan memisalkan $u = x^3 + x^2 - 7$**" },
+        { "tipe": "formula_block", "latex": "du = (3x^2 + 2x) \\, dx \\Rightarrow (6x^2 + 4x) \\, dx = 2(3x^2 + 2x) \\, dx = 2 \\, du" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke dalam integral dan hitung antiturunannya**" },
+        { "tipe": "formula_block", "latex": "\\int u^{1/2} (2 \\, du) = 2 \\cdot \\dfrac{u^{3/2}}{3/2} + C = 2 \\cdot \\dfrac{2}{3}u^{3/2} + C = \\dfrac{4}{3}u^{3/2} + C" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $u = x^3 + x^2 - 7$**" },
+        { "tipe": "formula_block", "latex": "= \\dfrac{4}{3}(x^3 + x^2 - 7)^{3/2} + C" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil pengintegralannya adalah **$\\dfrac{4}{3}(x^3+x^2-7)^{3/2} + C$**." }
       ],
       "tingkat": "SULIT"
     }
