@@ -21,7 +21,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = 25 - 24 = 1 > 0$ → akar real berbeda." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai diskriminan ($D = b^2 - 4ac$)**" },
+        { "tipe": "formula_block", "latex": "D = (-5)^2 - 4(1)(6) = 25 - 24 = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jenis akar berdasarkan tanda $D$**" },
+        { "tipe": "paragraph", "text": "Karena $D = 1 > 0$, persamaan kuadrat memiliki dua akar real berbeda." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan tersebut memiliki akar **real berbeda**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,7 +43,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = 36 - 36 = 0$ → akar real kembar ($x = 3$)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai diskriminan ($D = b^2 - 4ac$)**" },
+        { "tipe": "formula_block", "latex": "D = (-6)^2 - 4(1)(9) = 36 - 36 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jenis akar berdasarkan tanda $D$**" },
+        { "tipe": "paragraph", "text": "Karena $D = 0$, persamaan kuadrat memiliki akar real kembar ($x = 3$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan tersebut memiliki akar **real kembar**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,7 +65,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = 1 - 4 = -3 < 0$ → akar imajiner." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung nilai diskriminan ($D = b^2 - 4ac$)**" },
+        { "tipe": "formula_block", "latex": "D = 1^2 - 4(1)(1) = 1 - 4 = -3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan jenis akar berdasarkan tanda $D$**" },
+        { "tipe": "paragraph", "text": "Karena $D = -3 < 0$, persamaan kuadrat memiliki akar imajiner (tidak real)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan tersebut memiliki akar **imajiner**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -75,8 +87,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Akar kembar: $D = 0$" },
-        { "tipe": "paragraph", "text": "$16 - 4k = 0 \\Rightarrow k = 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat akar kembar yaitu $D = 0$**" },
+        { "tipe": "formula_block", "latex": "D = (-4)^2 - 4(1)(k) = 0 \\Rightarrow 16 - 4k = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $k$**" },
+        { "tipe": "formula_block", "latex": "4k = 16 \\Rightarrow k = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ adalah **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -94,7 +109,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D > 0 \\Rightarrow 4 - 4m > 0 \\Rightarrow m < 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat dua akar real berbeda yaitu $D > 0$**" },
+        { "tipe": "formula_block", "latex": "D = 2^2 - 4(1)(m) > 0 \\Rightarrow 4 - 4m > 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan untuk mencari batas $m$**" },
+        { "tipe": "formula_block", "latex": "-4m > -4 \\Rightarrow m < 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $m$ yang memenuhi adalah **$m < 1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -112,7 +131,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = (-5)^2 - 4(3)(2) = 25 - 24 = 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 3$, $b = -5$, dan konstanta $c = 2$**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke rumus diskriminan $D = b^2 - 4ac$." },
+        { "tipe": "formula_block", "latex": "D = (-5)^2 - 4(3)(2) = 25 - 24 = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, diskriminan persamaan tersebut adalah **$1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -130,9 +152,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = 0 \\Rightarrow (k+2)^2 - 36 = 0$" },
-        { "tipe": "paragraph", "text": "$(k+2)^2 = 36 \\Rightarrow k + 2 = \\pm 6$" },
-        { "tipe": "paragraph", "text": "$k = 4$ (positif) atau $k = -8$ (negatif)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat akar kembar ($D = 0$)**" },
+        { "tipe": "formula_block", "latex": "D = (-(k + 2))^2 - 4(1)(9) = 0 \\Rightarrow (k + 2)^2 - 36 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $k$ positif**" },
+        { "tipe": "formula_block", "latex": "(k + 2)^2 = 36 \\Rightarrow k + 2 = \\pm 6 \\Rightarrow k = 4 \\text{ atau } k = -8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ positif yang memenuhi adalah **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -150,8 +174,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$(x - 3)(x + 1) = 0$" },
-        { "tipe": "paragraph", "text": "$x = 3$ atau $x = -1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan bentuk persamaan kuadrat**" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x - 3 = 0 \\Rightarrow (x - 3)(x + 1) = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $x$ dari setiap faktor**" },
+        { "tipe": "formula_block", "latex": "x - 3 = 0 \\Rightarrow x = 3 \\qquad \\text{atau} \\qquad x + 1 = 0 \\Rightarrow x = -1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, akar-akar persamaan tersebut adalah **$3$ dan $-1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -169,7 +196,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$D = 16 - 16 = 0$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi koefisien $a = 1$, $b = 4$, dan konstanta $c = 4$**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke rumus diskriminan $D = b^2 - 4ac$." },
+        { "tipe": "formula_block", "latex": "D = 4^2 - 4(1)(4) = 16 - 16 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai diskriminan persamaan tersebut adalah **$0$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -187,8 +217,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tidak punya akar real: $D < 0$" },
-        { "tipe": "paragraph", "text": "$k^2 - 16 < 0 \\Rightarrow (k-4)(k+4) < 0 \\Rightarrow -4 < k < 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat tidak memiliki akar real yaitu $D < 0$**" },
+        { "tipe": "formula_block", "latex": "D = k^2 - 4(1)(4) < 0 \\Rightarrow k^2 - 16 < 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan pertidaksamaan kuadrat dan tentukan interval $k$**" },
+        { "tipe": "formula_block", "latex": "(k - 4)(k + 4) < 0 \\Rightarrow -4 < k < 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ harus memenuhi **$-4 < k < 4$**." }
       ],
       "tingkat": "MUDAH"
     }
