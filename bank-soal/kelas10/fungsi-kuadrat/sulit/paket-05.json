@@ -21,15 +21,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar (Teorema Vieta).**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 - 5x + 3 = 0$ ($a = 1$, $b = -5$, $c = 3$):" },
-        { "tipe": "paragraph", "text": "$x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{-5}{1} = 5$" },
-        { "tipe": "paragraph", "text": "$x_1 x_2 = \\dfrac{c}{a} = \\dfrac{3}{1} = 3$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan bentuk aljabar yang ditanyakan.**" },
-        { "tipe": "paragraph", "text": "$x_1^2 x_2 + x_1 x_2^2 = x_1 x_2(x_1 + x_2)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui.**" },
-        { "tipe": "paragraph", "text": "$= 3 \\cdot 5 = 15$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $x_1^2 x_2 + x_1 x_2^2$ adalah $15$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar (Teorema Vieta)**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 5x + 3 = 0$ ($a = 1$, $b = -5$, $c = 3$), diperoleh:" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{-5}{1} = 5" },
+        { "tipe": "formula_block", "latex": "x_1 x_2 = \\dfrac{c}{a} = \\dfrac{3}{1} = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan bentuk aljabar yang ditanyakan**" },
+        { "tipe": "formula_block", "latex": "x_1^2 x_2 + x_1 x_2^2 = x_1 x_2(x_1 + x_2)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui**" },
+        { "tipe": "formula_block", "latex": "x_1 x_2(x_1 + x_2) = 3 \\cdot 5 = 15" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $x_1^2 x_2 + x_1 x_2^2$ adalah **$15$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -47,17 +47,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 - 3x + 1 = 0$ ($a = 1$, $b = -3$, $c = 1$):" },
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{-3}{1} = 3$" },
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{1}{1} = 1$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $\\alpha^2 + \\beta^2$.**" },
-        { "tipe": "paragraph", "text": "$\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta$" },
-        { "tipe": "paragraph", "text": "$\\alpha^2 + \\beta^2 = (3)^2 - 2(1) = 9 - 2 = 7$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $\\alpha^4 + \\beta^4$ menggunakan hasil dari Langkah 2.**" },
-        { "tipe": "paragraph", "text": "$\\alpha^4 + \\beta^4 = (\\alpha^2 + \\beta^2)^2 - 2(\\alpha\\beta)^2$" },
-        { "tipe": "paragraph", "text": "$\\alpha^4 + \\beta^4 = (7)^2 - 2(1)^2 = 49 - 2 = 47$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $\\alpha^4 + \\beta^4$ adalah $47$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 3x + 1 = 0$ ($a = 1$, $b = -3$, $c = 1$), diperoleh:" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-3}{1} = 3" },
+        { "tipe": "formula_block", "latex": "\\alpha\\beta = \\dfrac{1}{1} = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $\\alpha^2 + \\beta^2$ menggunakan identitas aljabar**" },
+        { "tipe": "formula_block", "latex": "\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = (3)^2 - 2(1) = 9 - 2 = 7" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $\\alpha^4 + \\beta^4$ menggunakan hasil dari Langkah 2**" },
+        { "tipe": "formula_block", "latex": "\\alpha^4 + \\beta^4 = (\\alpha^2 + \\beta^2)^2 - 2(\\alpha\\beta)^2 = (7)^2 - 2(1)^2 = 49 - 2 = 47" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $\\alpha^4 + \\beta^4$ adalah **$47$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -75,16 +73,17 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan pertama.**" },
-        { "tipe": "paragraph", "text": "$x^2 - 2x - 3 > 0 \\Rightarrow (x - 3)(x + 1) > 0$" },
-        { "tipe": "paragraph", "text": "Pembuat nol $x = -1$ dan $x = 3$. Karena tanda $> 0$, penyelesaiannya adalah: $x < -1$ atau $x > 3$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan kedua.**" },
-        { "tipe": "paragraph", "text": "$x^2 - 4x + 3 < 0 \\Rightarrow (x - 1)(x - 3) < 0$" },
-        { "tipe": "paragraph", "text": "Pembuat nol $x = 1$ dan $x = 3$. Karena tanda $< 0$, penyelesaiannya adalah: $1 < x < 3$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Cari irisan dari kedua penyelesaian.**" },
-        { "tipe": "paragraph", "text": "Kata hubung **dan** mengharuskan kita mencari irisan antara $(x < -1 \\text{ atau } x > 3)$ dengan $(1 < x < 3)$." },
-        { "tipe": "paragraph", "text": "Kedua interval tersebut tidak memiliki daerah yang saling beririsan (himpunan kosong)." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Sistem pertidaksamaan tersebut tidak memiliki solusi." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan kuadrat pertama**" },
+        { "tipe": "formula_block", "latex": "x^2 - 2x - 3 > 0 \\Rightarrow (x - 3)(x + 1) > 0" },
+        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = -1$ dan $x = 3$. Karena tanda $> 0$, diperoleh interval pertama:" },
+        { "tipe": "formula_block", "latex": "x < -1 \\quad \\text{atau} \\quad x > 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan pertidaksamaan kuadrat kedua**" },
+        { "tipe": "formula_block", "latex": "x^2 - 4x + 3 < 0 \\Rightarrow (x - 1)(x - 3) < 0" },
+        { "tipe": "paragraph", "text": "Pembuat nol adalah $x = 1$ dan $x = 3$. Karena tanda $< 0$, diperoleh interval kedua:" },
+        { "tipe": "formula_block", "latex": "1 < x < 3" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Iriskan kedua interval penyelesaian**" },
+        { "tipe": "paragraph", "text": "Kata hubung **dan** menunjukkan irisan antara $(x < -1 \\text{ atau } x > 3)$ dengan $1 < x < 3$. Kedua interval tersebut tidak memiliki daerah yang saling beririsan (himpunan kosong)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem pertidaksamaan tersebut **tidak memiliki solusi**." }
       ],
       "tingkat": "SULIT"
     },
@@ -102,12 +101,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah dua suku.**" },
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2 \\Rightarrow x^2 + y^2 = (x + y)^2 - 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 8$ dan $xy = 12$.**" },
-        { "tipe": "paragraph", "text": "$x^2 + y^2 = (8)^2 - 2(12)$" },
-        { "tipe": "paragraph", "text": "$x^2 + y^2 = 64 - 24 = 40$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $x^2 + y^2$ adalah $40$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah dua suku**" },
+        { "tipe": "formula_block", "latex": "(x + y)^2 = x^2 + 2xy + y^2 \\Rightarrow x^2 + y^2 = (x + y)^2 - 2xy" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 8$ dan $xy = 12$**" },
+        { "tipe": "formula_block", "latex": "x^2 + y^2 = (8)^2 - 2(12) = 64 - 24 = 40" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $x^2 + y^2$ adalah **$40$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -125,15 +123,16 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat dua akar saling berlawanan.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Pahami syarat dua akar saling berlawanan**" },
         { "tipe": "paragraph", "text": "Dua akar saling berlawanan berarti $x_1 = -x_2$, sehingga jumlah kedua akarnya sama dengan nol ($x_1 + x_2 = 0$)." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus jumlah akar (Teorema Vieta).**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 + ax + (a^2 - 4) = 0$, diketahui koefisien $x^2$ adalah $1$, koefisien $x$ adalah $a$, dan konstanta adalah $a^2 - 4$." },
-        { "tipe": "paragraph", "text": "$x_1 + x_2 = -\\dfrac{a}{1} = -a$" },
-        { "tipe": "paragraph", "text": "Karena $x_1 + x_2 = 0$, maka $-a = 0 \\Rightarrow a = 0$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Verifikasi keberadaan akar real ($D > 0$).**" },
-        { "tipe": "paragraph", "text": "Untuk $a = 0$, persamaan menjadi $x^2 - 4 = 0 \\Rightarrow x = 2$ dan $x = -2$ (terbukti dua akar real yang saling berlawanan)." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai $a$ yang memenuhi adalah $a = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan rumus jumlah akar (Teorema Vieta)**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 + ax + (a^2 - 4) = 0$, diketahui koefisien $x^2$ adalah $1$ dan koefisien $x$ adalah $a$:" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = -\\dfrac{a}{1} = -a" },
+        { "tipe": "formula_block", "latex": "-a = 0 \\Rightarrow a = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Verifikasi keberadaan akar real ($D > 0$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan $a = 0$ ke persamaan awal untuk memastikan akarnya real:" },
+        { "tipe": "formula_block", "latex": "x^2 - 4 = 0 \\Rightarrow x = 2 \\quad \\text{atau} \\quad x = -2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ yang memenuhi adalah **$a = 0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -151,13 +150,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) fungsi kuadrat.**" },
-        { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 2x + 3$, diketahui $a = 1 > 0$ (parabola terbuka ke atas sehingga memiliki nilai minimum) dan $b = -2$." },
-        { "tipe": "paragraph", "text": "$x_p = -\\dfrac{b}{2a} = -\\dfrac{-2}{2(1)} = 1$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 1$ ke fungsi $f(x)$ untuk mendapatkan nilai minimum.**" },
-        { "tipe": "paragraph", "text": "$f_{\\text{min}} = f(1) = (1)^2 - 2(1) + 3$" },
-        { "tipe": "paragraph", "text": "$f_{\\text{min}} = 1 - 2 + 3 = 2$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai minimum fungsi tersebut adalah $2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari sumbu simetri ($x_p$) fungsi kuadrat**" },
+        { "tipe": "paragraph", "text": "Dari $f(x) = x^2 - 2x + 3$, diketahui $a = 1 > 0$ (parabola terbuka ke atas sehingga memiliki nilai minimum) dan $b = -2$:" },
+        { "tipe": "formula_block", "latex": "x_p = -\\dfrac{b}{2a} = -\\dfrac{-2}{2(1)} = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 1$ ke fungsi $f(x)$ untuk mendapatkan nilai minimum**" },
+        { "tipe": "formula_block", "latex": "f_{\\text{min}} = f(1) = (1)^2 - 2(1) + 3 = 1 - 2 + 3 = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai minimum fungsi tersebut adalah **$2$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -175,16 +173,15 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Lakukan pemisalan variabel.**" },
-        { "tipe": "paragraph", "text": "Ingat sifat $x^2 = |x|^2$. Misalkan $t = |x|$ dengan syarat $t \\geq 0$, maka persamaan menjadi:" },
-        { "tipe": "paragraph", "text": "$t^2 - 3t - 4 = 0$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan persamaan kuadrat dalam $t$.**" },
-        { "tipe": "paragraph", "text": "$(t - 4)(t + 1) = 0$" },
-        { "tipe": "paragraph", "text": "Diperoleh $t = 4$ atau $t = -1$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $t = |x|$ dan uji syarat $t \\geq 0$.**" },
-        { "tipe": "paragraph", "text": "Untuk $t = -1$: tidak memenuhi karena nilai mutlak tidak pernah negatif ($|x| = -1$ tidak ada solusi)." },
-        { "tipe": "paragraph", "text": "Untuk $t = 4$: $|x| = 4 \\Rightarrow x = 4$ atau $x = -4$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Himpunan penyelesaiannya adalah $\\{-4, 4\\}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Lakukan pemisalan variabel $t = |x|$**" },
+        { "tipe": "paragraph", "text": "Dengan menggunakan sifat $x^2 = |x|^2$ dan syarat $t \\geq 0$, persamaan menjadi:" },
+        { "tipe": "formula_block", "latex": "t^2 - 3t - 4 = 0" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Faktorkan persamaan kuadrat dalam $t$**" },
+        { "tipe": "formula_block", "latex": "(t - 4)(t + 1) = 0 \\Rightarrow t = 4 \\quad \\text{atau} \\quad t = -1" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kembalikan pemisalan $t = |x|$ dan uji syarat $t \\geq 0$**" },
+        { "tipe": "formula_block", "latex": "t = -1 \\Rightarrow |x| = -1 \\quad [\\text{Tidak memenuhi karena } |x| \\geq 0]" },
+        { "tipe": "formula_block", "latex": "t = 4 \\Rightarrow |x| = 4 \\Rightarrow x = 4 \\quad \\text{atau} \\quad x = -4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{-4, 4\\}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -202,17 +199,17 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal.**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 - 5x + 6 = 0$ ($a = 1$, $b = -5$, $c = 6$):" },
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{-5}{1} = 5$" },
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{6}{1} = 6$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar-akar baru ($x_1 = \\alpha^2$ dan $x_2 = \\beta^2$).**" },
-        { "tipe": "paragraph", "text": "Jumlah akar baru: $x_1 + x_2 = \\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = (5)^2 - 2(6) = 25 - 12 = 13$" },
-        { "tipe": "paragraph", "text": "Hasil kali akar baru: $x_1 \\cdot x_2 = \\alpha^2 \\beta^2 = (\\alpha\\beta)^2 = (6)^2 = 36$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Susun persamaan kuadrat baru.**" },
-        { "tipe": "paragraph", "text": "$x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0$" },
-        { "tipe": "paragraph", "text": "$x^2 - 13x + 36 = 0$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Persamaan kuadrat barunya adalah $x^2 - 13x + 36 = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar persamaan awal**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 5x + 6 = 0$ ($a = 1$, $b = -5$, $c = 6$), diperoleh:" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-5}{1} = 5" },
+        { "tipe": "formula_block", "latex": "\\alpha\\beta = \\dfrac{6}{1} = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah dan hasil kali akar-akar baru ($x_1 = \\alpha^2$ dan $x_2 = \\beta^2$)**" },
+        { "tipe": "formula_block", "latex": "x_1 + x_2 = \\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = (5)^2 - 2(6) = 25 - 12 = 13" },
+        { "tipe": "formula_block", "latex": "x_1 \\cdot x_2 = \\alpha^2 \\beta^2 = (\\alpha\\beta)^2 = (6)^2 = 36" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Susun persamaan kuadrat baru**" },
+        { "tipe": "formula_block", "latex": "x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0" },
+        { "tipe": "formula_block", "latex": "x^2 - 13x + 36 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, persamaan kuadrat barunya adalah **$x^2 - 13x + 36 = 0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -230,16 +227,17 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk persamaan fungsi kuadrat dari dua titik potong sumbu-$x$.**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Bentuk persamaan fungsi kuadrat dari dua titik potong sumbu-$x$**" },
         { "tipe": "paragraph", "text": "Karena grafik memotong sumbu-$x$ di $(1, 0)$ dan $(2, 0)$, gunakan rumus $f(x) = a(x - x_1)(x - x_2)$:" },
-        { "tipe": "paragraph", "text": "$f(x) = a(x - 1)(x - 2)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai $a$ dengan mensubstitusikan titik lainnya $(0, 4)$.**" },
-        { "tipe": "paragraph", "text": "$f(0) = 4 \\Rightarrow a(0 - 1)(0 - 2) = 4$" },
-        { "tipe": "paragraph", "text": "$a(-1)(-2) = 4 \\Rightarrow 2a = 4 \\Rightarrow a = 2$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Jabarkan fungsi $f(x)$ dan hitung $a + b + c$.**" },
-        { "tipe": "paragraph", "text": "$f(x) = 2(x - 1)(x - 2) = 2(x^2 - 3x + 2) = 2x^2 - 6x + 4$" },
-        { "tipe": "paragraph", "text": "Diperoleh $a = 2$, $b = -6$, dan $c = 4$, sehingga $a + b + c = 2 + (-6) + 4 = 0$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $a + b + c$ adalah $0$." }
+        { "tipe": "formula_block", "latex": "f(x) = a(x - 1)(x - 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Cari nilai $a$ dengan mensubstitusikan titik lainnya $(0, 4)$**" },
+        { "tipe": "formula_block", "latex": "f(0) = 4 \\Rightarrow a(0 - 1)(0 - 2) = 4" },
+        { "tipe": "formula_block", "latex": "2a = 4 \\Rightarrow a = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Jabarkan fungsi $f(x)$ dan hitung $a + b + c$**" },
+        { "tipe": "formula_block", "latex": "f(x) = 2(x - 1)(x - 2) = 2(x^2 - 3x + 2) = 2x^2 - 6x + 4" },
+        { "tipe": "paragraph", "text": "Diperoleh $a = 2$, $b = -6$, dan $c = 4$, sehingga:" },
+        { "tipe": "formula_block", "latex": "a + b + c = 2 + (-6) + 4 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $a + b + c$ adalah **$0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -257,16 +255,15 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat.**" },
-        { "tipe": "paragraph", "text": "Dari $x^2 - 4x - 3 = 0$ ($a = 1$, $b = -4$, $c = -3$):" },
-        { "tipe": "paragraph", "text": "$\\alpha + \\beta = -\\dfrac{-4}{1} = 4$" },
-        { "tipe": "paragraph", "text": "$\\alpha\\beta = \\dfrac{-3}{1} = -3$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Ubah bentuk $\\alpha^3 + \\beta^3$ menggunakan identitas aljabar.**" },
-        { "tipe": "paragraph", "text": "$\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui.**" },
-        { "tipe": "paragraph", "text": "$\\alpha^3 + \\beta^3 = (4)^3 - 3(-3)(4)$" },
-        { "tipe": "paragraph", "text": "$\\alpha^3 + \\beta^3 = 64 + 36 = 100$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $\\alpha^3 + \\beta^3$ adalah $100$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan jumlah dan hasil kali akar dari persamaan kuadrat**" },
+        { "tipe": "paragraph", "text": "Dari $x^2 - 4x - 3 = 0$ ($a = 1$, $b = -4$, $c = -3$), diperoleh:" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -\\dfrac{-4}{1} = 4" },
+        { "tipe": "formula_block", "latex": "\\alpha\\beta = \\dfrac{-3}{1} = -3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Ubah bentuk $\\alpha^3 + \\beta^3$ menggunakan identitas aljabar**" },
+        { "tipe": "formula_block", "latex": "\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diketahui**" },
+        { "tipe": "formula_block", "latex": "\\alpha^3 + \\beta^3 = (4)^3 - 3(-3)(4) = 64 + 36 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $\\alpha^3 + \\beta^3$ adalah **$100$**." }
       ],
       "tingkat": "SULIT"
     }
