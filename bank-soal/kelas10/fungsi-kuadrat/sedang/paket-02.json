@@ -177,7 +177,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 + 3x - 10 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -3, \\Rightarrow \\alpha\\beta = -10" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -3 \\Rightarrow \\alpha\\beta = -10" },
         { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan nyatakan dalam $\\alpha + \\beta$ serta $\\alpha\\beta$**" },
         { "tipe": "formula_block", "latex": "\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}" },
         { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diperoleh**" },
