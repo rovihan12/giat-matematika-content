@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu bridge = 52, kartu merah (hati + wajik) = 26." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{26}{52} = \\dfrac{1}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu merah ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu dengan $26$ kartu berwarna merah (hati dan wajik)." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{26}{52} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu berwarna merah adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $8 + 5 + 7 = 20$." },
-        { "tipe": "paragraph", "text": "$P(\\text{kuning}) = \\dfrac{7}{20}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh kelereng ($n(S)$) dan banyak kelereng kuning ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total kelereng adalah $8 + 5 + 7 = 20$ sehingga $n(S) = 20$, sedangkan kelereng kuning berjumlah $n(A) = 7$." },
+        { "tipe": "formula_block", "latex": "P(\\text{kuning}) = \\dfrac{7}{20}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kelereng kuning adalah **$\\dfrac{7}{20}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +63,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu lebih dari $2$: $\\{3, 4, 5, 6\\} \\rightarrow n(A) = 4$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu lebih dari $2$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu lebih dari $2$ adalah $\\{3, 4, 5, 6\\}$ sehingga $n(A) = 4$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{6} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu lebih dari $2$ adalah **$\\dfrac{2}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,8 +84,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan sama: $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\rightarrow n(A) = 6$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu yang sama ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang sama adalah $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$ sehingga $n(A) = 6$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kedua mata dadu sama adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -97,7 +105,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{kalah}) = 1 - 0,35 = 0,65$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang kalah merupakan komplemen dari peluang menang dalam permainan." },
+        { "tipe": "formula_block", "latex": "P(\\text{kalah}) = 1 - 0{,}35 = 0{,}65" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kalah adalah **$0{,}65$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -115,8 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bilangan genap 1-10: $\\{2, 4, 6, 8, 10\\} \\rightarrow n(A) = 5$, $n(S) = 10$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{10} = \\dfrac{1}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak ruang sampel ($n(S)$) dan banyak bilangan genap ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Dari bilangan $1$ sampai $10$ diperoleh $n(S) = 10$, sedangkan bilangan genapnya adalah $\\{2, 4, 6, 8, 10\\}$ sehingga $n(A) = 5$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{10} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih bilangan genap adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -134,9 +147,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ruang sampel: $\\{AA, AG, GA, GG\\} \\rightarrow n(S) = 4$." },
-        { "tipe": "paragraph", "text": "Kejadian $\\{GG\\} \\rightarrow n(A) = 1$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak ruang sampel ($n(S)$) dan kejadian keduanya gambar ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Ruang sampel dua koin adalah $\\{AA, AG, GA, GG\\}$ sehingga $n(S) = 4$, sedangkan kejadian keduanya gambar adalah $\\{GG\\}$ sehingga $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul keduanya gambar adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -154,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $8$: $(2,6), (3,5), (4,4), (5,3), (6,2) \\rightarrow n(A) = 5$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{36}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $8$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang berjumlah $8$ adalah $(2,6), (3,5), (4,4), (5,3), (6,2)$ sehingga $n(A) = 5$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{36}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $8$ adalah **$\\dfrac{5}{36}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -173,8 +189,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu bergambar J, Q, K = $3 \\times 4 = 12$ kartu." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{12}{52} = \\dfrac{3}{13}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu bergambar ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu, dan kartu bergambar (J, Q, K) berjumlah $3 \\times 4 = 12$ kartu." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{12}{52} = \\dfrac{3}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu bergambar (J, Q, K) adalah **$\\dfrac{3}{13}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -192,7 +210,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak hujan}) = 1 - \\dfrac{2}{5} = \\dfrac{3}{5}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian hari ini tidak hujan merupakan komplemen dari kejadian hari ini hujan." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak hujan}) = 1 - \\dfrac{2}{5} = \\dfrac{3}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang hari ini tidak hujan adalah **$\\dfrac{3}{5}$**." }
       ],
       "tingkat": "MUDAH"
     }
