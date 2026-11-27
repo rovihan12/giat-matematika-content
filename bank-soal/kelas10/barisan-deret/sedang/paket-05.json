@@ -21,9 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$**" },
-        { "tipe": "paragraph", "text": "Diketahui $a = 2$, $r = 3$, dan $n = 6$." },
-        { "tipe": "formula_block", "latex": "U_6 = 2 \\cdot 3^{6-1} = 2 \\cdot 3^5 = 2 \\cdot 243 = 486" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur barisan geometri**" },
+        { "tipe": "paragraph", "text": "Diketahui suku pertama $a = 2$, rasio $r = 3$, dan indeks suku $n = 6$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $U_6$ dengan rumus $U_n = a \\cdot r^{n - 1}$**" },
+        { "tipe": "formula_block", "latex": "U_6 = 2 \\cdot 3^{6 - 1} = 2 \\cdot 3^5 = 2 \\cdot 243 = 486" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-6 barisan geometri tersebut adalah **$486$**." }
       ],
       "tingkat": "SEDANG"
@@ -42,8 +43,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $a = 4$, $b = 7 - 4 = 3$, dan $n = 10$**" },
-        { "tipe": "paragraph", "text": "Hitung $S_{10}$ menggunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur deret aritmatika**" },
+        { "tipe": "paragraph", "text": "Diketahui $a = 4$, beda $b = 7 - 4 = 3$, dan banyak suku $n = 10$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $S_{10}$ menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
         { "tipe": "formula_block", "latex": "S_{10} = \\dfrac{10}{2}\\left(2(4) + (10 - 1)3\\right) = 5(8 + 27) = 5 \\cdot 35 = 175" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $10$ suku pertama deret tersebut adalah **$175$**." }
       ],
@@ -63,8 +65,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 3$) dan beda ($b = 7 - 3 = 4$)**" },
-        { "tipe": "paragraph", "text": "Substitusikan $U_n = 79$ ke dalam rumus $U_n = a + (n - 1)b$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan beda ($b$)**" },
+        { "tipe": "formula_block", "latex": "a = 3, \\qquad b = 7 - 3 = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $U_n = 79$ ke rumus $U_n = a + (n - 1)b$ untuk mencari $n$**" },
         { "tipe": "formula_block", "latex": "79 = 3 + (n - 1) \\cdot 4 \\Rightarrow 76 = 4(n - 1) \\Rightarrow n - 1 = 19 \\Rightarrow n = 20" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku yang bernilai $79$ adalah suku ke-**$20$**." }
       ],
@@ -84,8 +87,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 3$) dan rasio ($r = \\dfrac{1}{3}$)**" },
-        { "tipe": "paragraph", "text": "Karena $|r| < 1$, jumlah deret geometri tak hingga dihitung dengan rumus $S_{\\infty} = \\dfrac{a}{1 - r}$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan rasio ($r$)**" },
+        { "tipe": "formula_block", "latex": "a = 3, \\qquad r = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah tak hingga dengan rumus $S_{\\infty} = \\dfrac{a}{1 - r}$ karena $|r| < 1$**" },
         { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{3}{1 - \\dfrac{1}{3}} = \\dfrac{3}{\\dfrac{2}{3}} = 3 \\times \\dfrac{3}{2} = \\dfrac{9}{2}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret geometri tak hingga tersebut adalah **$\\dfrac{9}{2}$**." }
       ],
@@ -127,8 +131,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(a + U_n)$**" },
-        { "tipe": "paragraph", "text": "Diketahui $n = 10$, $a = 2$, dan $U_{10} = 29$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi data yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui banyak suku $n = 10$, suku pertama $a = 2$, dan suku ke-10 $U_{10} = 29$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $S_{10}$ dengan rumus $S_n = \\dfrac{n}{2}(a + U_n)$**" },
         { "tipe": "formula_block", "latex": "S_{10} = \\dfrac{10}{2}(2 + 29) = 5(31) = 155" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $10$ suku pertamanya adalah **$155$**." }
       ],
@@ -148,11 +153,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Cari nilai suku ke-4 ($U_4$) dari selisih $S_4$ dan $S_3$**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai suku ke-4 ($U_4$) dari selisih $S_4$ dan $S_3$**" },
         { "tipe": "formula_block", "latex": "U_4 = S_4 - S_3 = 30 - 14 = 16" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Bandingkan $U_4 = ar^3$ dan $S_3 = a(1 + r + r^2)$**" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Bandingkan $U_4 = ar^3$ dengan $S_3 = a(1 + r + r^2)$**" },
         { "tipe": "formula_block", "latex": "\\dfrac{U_4}{S_3} = \\dfrac{ar^3}{a(1 + r + r^2)} = \\dfrac{16}{14} \\Rightarrow \\dfrac{r^3}{1 + r + r^2} = \\dfrac{8}{7}" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Uji nilai $r = 2$ ke persamaan**" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Uji nilai $r = 2$ pada persamaan**" },
         { "tipe": "formula_block", "latex": "\\dfrac{2^3}{1 + 2 + 2^2} = \\dfrac{8}{1 + 2 + 4} = \\dfrac{8}{7}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rasio deret geometri tersebut adalah **$2$**." }
       ],
@@ -173,10 +178,10 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi barisan bilangan ganjil antara $10$ dan $50$**" },
-        { "tipe": "paragraph", "text": "Barisannya adalah $11, 13, 15, \\ldots, 49$, sehingga $a = 11$, $b = 2$, dan $U_n = 49$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyaknya suku ($n$) dengan rumus $U_n = a + (n - 1)b$**" },
+        { "tipe": "paragraph", "text": "Barisannya adalah $11, 13, 15, \\ldots, 49$, sehingga $a = 11$, beda $b = 2$, dan suku terakhir $U_n = 49$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyak suku ($n$) menggunakan rumus $U_n = a + (n - 1)b$**" },
         { "tipe": "formula_block", "latex": "49 = 11 + (n - 1)2 \\Rightarrow 38 = 2(n - 1) \\Rightarrow n - 1 = 19 \\Rightarrow n = 20" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah deret ($S_{20}$) menggunakan $S_n = \\dfrac{n}{2}(a + U_n)$**" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung jumlah deret ($S_{20}$) dengan rumus $S_n = \\dfrac{n}{2}(a + U_n)$**" },
         { "tipe": "formula_block", "latex": "S_{20} = \\dfrac{20}{2}(11 + 49) = 10 \\cdot 60 = 600" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah semua bilangan ganjil antara $10$ dan $50$ adalah **$600$**." }
       ],
@@ -197,9 +202,9 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) dari perbandingan $U_5$ dan $U_1$**" },
-        { "tipe": "formula_block", "latex": "\\dfrac{U_5}{U_1} = r^{5-1} \\Rightarrow \\dfrac{324}{4} = r^4 \\Rightarrow 81 = r^4 \\Rightarrow r = 3" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-3 ($U_3$) menggunakan $U_n = a \\cdot r^{n-1}$ dengan $a = 4$**" },
-        { "tipe": "formula_block", "latex": "U_3 = 4 \\cdot 3^{3-1} = 4 \\cdot 3^2 = 4 \\cdot 9 = 36" },
+        { "tipe": "formula_block", "latex": "\\dfrac{U_5}{U_1} = r^{5 - 1} \\Rightarrow \\dfrac{324}{4} = r^4 \\Rightarrow 81 = r^4 \\Rightarrow r = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung suku ke-3 ($U_3$) menggunakan $U_n = a \\cdot r^{n - 1}$ dengan $a = 4$**" },
+        { "tipe": "formula_block", "latex": "U_3 = 4 \\cdot 3^{3 - 1} = 4 \\cdot 3^2 = 4 \\cdot 9 = 36" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $U_3$ pada barisan geometri tersebut adalah **$36$**." }
       ],
       "tingkat": "SEDANG"
@@ -218,8 +223,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $a = 1$, $b = 5 - 1 = 4$, dan $n = 15$**" },
-        { "tipe": "paragraph", "text": "Hitung $S_{15}$ menggunakan rumus jumlah deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur deret aritmatika**" },
+        { "tipe": "paragraph", "text": "Diketahui $a = 1$, beda $b = 5 - 1 = 4$, dan banyak suku $n = 15$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $S_{15}$ menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$**" },
         { "tipe": "formula_block", "latex": "S_{15} = \\dfrac{15}{2}\\left(2(1) + (15 - 1)4\\right) = \\dfrac{15}{2}(2 + 56) = \\dfrac{15}{2} \\cdot 58 = 15 \\cdot 29 = 435" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $15$ suku pertama deret aritmatika tersebut adalah **$435$**." }
       ],
