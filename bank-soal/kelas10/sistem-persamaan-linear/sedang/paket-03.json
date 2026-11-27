@@ -21,10 +21,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Sistem tidak punya solusi jika kedua garis sejajar (koefisien proporsional, konstanta tidak)." },
-        { "tipe": "paragraph", "text": "$\\dfrac{2}{1} = \\dfrac{a}{1} \\neq \\dfrac{8}{5}$" },
-        { "tipe": "paragraph", "text": "Dari $\\dfrac{2}{1} = \\dfrac{a}{1} \\Rightarrow a = 2$" },
-        { "tipe": "paragraph", "text": "Cek: $\\dfrac{8}{5} \\neq 2$ ✓. Jadi $a = 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat sistem tidak memiliki solusi (garis sejajar)**" },
+        { "tipe": "paragraph", "text": "Perbandingan koefisien variabel sama, sedangkan perbandingan konstantanya berbeda:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} = \\dfrac{a}{1} \\neq \\dfrac{8}{5}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $a$ dan periksa syarat konstanta**" },
+        { "tipe": "formula_block", "latex": "a = 2 \\quad \\text{dan} \\quad 2 \\neq \\dfrac{8}{5} \\text{ (memenuhi)}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem tersebut tidak memiliki solusi jika nilai $a$ adalah **$2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -42,8 +44,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tak hingga solusi jika kedua persamaan identik (proporsional semua)." },
-        { "tipe": "paragraph", "text": "$\\dfrac{6}{3} = \\dfrac{4}{2} = \\dfrac{k}{12} \\Rightarrow 2 = \\dfrac{k}{12} \\Rightarrow k = 24$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat sistem memiliki tak hingga solusi (garis berimpit)**" },
+        { "tipe": "paragraph", "text": "Seluruh perbandingan koefisien dan konstanta harus bernilai sama:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{6}{3} = \\dfrac{4}{2} = \\dfrac{k}{12} \\Rightarrow 2 = \\dfrac{k}{12} \\Rightarrow k = 24" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem tersebut memiliki tak hingga solusi jika $k$ sama dengan **$24$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -61,8 +65,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tepat satu solusi jika $\\dfrac{2}{1} \\neq \\dfrac{a}{-1} \\Rightarrow a \\neq -2$." },
-        { "tipe": "paragraph", "text": "Jadi $a = -2$ membuat sistem tidak punya solusi (garis sejajar)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat sistem memiliki tepat satu solusi**" },
+        { "tipe": "paragraph", "text": "Sistem memiliki tepat satu solusi apabila perbandingan koefisien $x$ dan $y$ tidak sama:" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} \\neq \\dfrac{a}{-1} \\Rightarrow a \\neq -2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi nilai $a$ yang tidak memenuhi**" },
+        { "tipe": "paragraph", "text": "Jika $a = -2$, perbandingan koefisiennya sama ($2 = 2$) sementara $\\dfrac{6}{3} = 2$, sehingga garis sejajar/berimpit dan tidak menghasilkan solusi tunggal." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ yang TIDAK mungkin adalah **$-2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -80,8 +88,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $(2, 0)$ ke $ax + 3y = 6$: $2a + 0 = 6 \\Rightarrow a = 3$." },
-        { "tipe": "paragraph", "text": "Cek dengan $2x + y = 4$: $4 + 0 = 4$ ✓" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $(x, y) = (2, 0)$ ke persamaan $ax + 3y = 6$**" },
+        { "tipe": "formula_block", "latex": "a(2) + 3(0) = 6 \\Rightarrow 2a = 6 \\Rightarrow a = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Verifikasi titik $(2, 0)$ pada persamaan kedua**" },
+        { "tipe": "formula_block", "latex": "2(2) + 0 = 4 \\quad (\\text{memenuhi})" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ adalah **$3$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -99,8 +110,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tak hingga solusi jika proporsional: $\\dfrac{3}{1} = \\dfrac{k}{2} = \\dfrac{15}{5}$." },
-        { "tipe": "paragraph", "text": "$3 = \\dfrac{k}{2} \\Rightarrow k = 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat proporsionalitas untuk tak hingga solusi**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{3}{1} = \\dfrac{k}{2} = \\dfrac{15}{5}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $k$**" },
+        { "tipe": "formula_block", "latex": "3 = \\dfrac{k}{2} \\Rightarrow k = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem tersebut memiliki tak hingga solusi jika $k$ sama dengan **$6$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -118,9 +132,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Sistem TIDAK punya solusi jika $\\dfrac{4}{2} = \\dfrac{-2}{-1} \\neq \\dfrac{m}{4}$." },
-        { "tipe": "paragraph", "text": "$2 = 2 \\neq \\dfrac{m}{4} \\Rightarrow m \\neq 8$" },
-        { "tipe": "paragraph", "text": "Dari opsi, $m = 6 \\neq 8$ → sistem tidak punya solusi. ✓" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat sistem tidak memiliki solusi**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{4}{2} = \\dfrac{-2}{-1} \\neq \\dfrac{m}{4} \\Rightarrow 2 = 2 \\neq \\dfrac{m}{4} \\Rightarrow m \\neq 8" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Pilih nilai $m$ pada pilihan yang memenuhi $m \\neq 8$**" },
+        { "tipe": "paragraph", "text": "Nilai $m = 6$ tidak sama dengan $8$, sehingga persamaan kedua sejajar dan tidak berimpit dengan persamaan pertama." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem tersebut TIDAK memiliki solusi jika $m$ sama dengan **$6$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -138,8 +154,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Solusi tunggal jika $\\dfrac{a}{1} \\neq \\dfrac{2}{1} \\Rightarrow a \\neq 2$." },
-        { "tipe": "paragraph", "text": "Jika $a = 2$: $\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{6}{3} = 2$ → tak hingga solusi (bukan solusi tunggal)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat sistem memiliki solusi tunggal**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{a}{1} \\neq \\dfrac{2}{1} \\Rightarrow a \\neq 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Analisis kondisi saat $a = 2$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{6}{3} = 2 \\quad (\\text{tak hingga solusi})" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ yang TIDAK boleh adalah **$2$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -157,8 +176,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Solusi tunggal jika $\\dfrac{k}{3} \\neq \\dfrac{2}{1} \\Rightarrow k \\neq 6$." },
-        { "tipe": "paragraph", "text": "Jadi $k = 6$ tidak diperbolehkan." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan syarat solusi tunggal dari perbandingan koefisien**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{k}{3} \\neq \\dfrac{2}{1} \\Rightarrow k \\neq 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ yang TIDAK diperbolehkan adalah **$6$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -176,7 +196,9 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Tak hingga solusi: $\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{k}{4} \\Rightarrow k = 8$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan syarat proporsionalitas untuk tak hingga solusi**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{k}{4} \\Rightarrow 2 = \\dfrac{k}{4} \\Rightarrow k = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $k$ adalah **$8$**." }
       ],
       "tingkat": "SEDANG"
     },
@@ -194,8 +216,9 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Proporsional: $\\dfrac{4}{2} = \\dfrac{a}{3} = \\dfrac{10}{5}$." },
-        { "tipe": "paragraph", "text": "$2 = \\dfrac{a}{3} \\Rightarrow a = 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Samakan perbandingan koefisien dan konstanta untuk tak hingga solusi**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{4}{2} = \\dfrac{a}{3} = \\dfrac{10}{5} \\Rightarrow 2 = \\dfrac{a}{3} \\Rightarrow a = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ adalah **$6$**." }
       ],
       "tingkat": "SEDANG"
     }
