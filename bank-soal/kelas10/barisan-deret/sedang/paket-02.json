@@ -22,8 +22,8 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi unsur barisan aritmatika**" },
-        { "tipe": "paragraph", "text": "Gaji tahun pertama (suku pertama) adalah $a = 2.000.000$ dan kenaikan tiap tahun (beda) adalah $b = 100.000$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung gaji pada tahun ke-5 ($U_5$) menggunakan $U_n = a + (n - 1)b$**" },
+        { "tipe": "paragraph", "text": "Gaji tahun pertama adalah $a = 2.000.000$ dan kenaikan tiap tahun adalah $b = 100.000$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung gaji pada tahun ke-5 ($U_5$) dengan rumus $U_n = a + (n - 1)b$**" },
         { "tipe": "formula_block", "latex": "U_5 = 2.000.000 + (5 - 1) \\cdot 100.000 = 2.000.000 + 400.000 = 2.400.000" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, gaji pada tahun ke-5 adalah **Rp2.400.000**." }
       ],
@@ -43,7 +43,7 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah deret geometri tak hingga untuk lintasan naik ($S_\\infty$)**" },
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah deret geometri tak hingga untuk lintasan naik ($S_{\\infty}$)**" },
         { "tipe": "paragraph", "text": "Ketinggian awal jatuh adalah $h = 8\\text{ m}$, tinggi pantulan pertama adalah $a = 8 \\cdot \\dfrac{1}{2} = 4\\text{ m}$, dan rasio pantulan adalah $r = \\dfrac{1}{2}$." },
         { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{a}{1 - r} = \\dfrac{4}{1 - \\dfrac{1}{2}} = \\dfrac{4}{\\dfrac{1}{2}} = 8\\text{ m}" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung total panjang lintasan (jatuh awal + lintasan naik dan turun)**" },
@@ -66,8 +66,8 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan model pertumbuhan geometri**" },
-        { "tipe": "paragraph", "text": "Diketahui jumlah penduduk awal $P_0 = 500.000$, persentase pertumbuhan $p = 2\\% = 0{,}02$, dan waktu $t = 3$ tahun." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi data pertumbuhan geometri**" },
+        { "tipe": "paragraph", "text": "Diketahui penduduk awal $P_0 = 500.000$, persentase pertumbuhan $p = 2\\% = 0{,}02$, dan waktu $t = 3$ tahun." },
         { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan ke rumus pertumbuhan $P_t = P_0(1 + p)^t$**" },
         { "tipe": "formula_block", "latex": "P_3 = 500.000 \\cdot (1 + 0{,}02)^3 = 500.000 \\cdot (1{,}02)^3" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah penduduk setelah $3$ tahun adalah **$500.000 \\cdot (1{,}02)^3$**." }
@@ -91,7 +91,7 @@
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jumlah $n$ bilangan asli pertama**" },
         { "tipe": "formula_block", "latex": "S_n = \\dfrac{n(n + 1)}{2} = 78 \\Rightarrow n(n + 1) = 156" },
         { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $n$ dari hasil kali dua bilangan bulat berurutan**" },
-        { "tipe": "paragraph", "text": "Karena $12 \\times 13 = 156$, maka diperoleh $n = 12$." },
+        { "tipe": "paragraph", "text": "Karena $12 \\times 13 = 156$, maka nilai $n$ yang memenuhi adalah $12$." },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $n$ adalah **$12$**." }
       ],
       "tingkat": "SEDANG"
@@ -111,7 +111,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan beda ($b$) barisan aritmatika**" },
-        { "tipe": "paragraph", "text": "Diketahui $a = 10$ dan $b = 12 - 10 = 2$." },
+        { "tipe": "formula_block", "latex": "a = 10, \\qquad b = 12 - 10 = 2" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung jarak pada menit ke-10 ($U_{10}$) menggunakan $U_n = a + (n - 1)b$**" },
         { "tipe": "formula_block", "latex": "U_{10} = 10 + (10 - 1) \\cdot 2 = 10 + 9 \\cdot 2 = 10 + 18 = 28\\text{ km}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jarak yang ditempuh pada menit ke-10 adalah **$28$ km**." }
@@ -155,7 +155,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a$) dan rasio ($r$) deret geometri**" },
-        { "tipe": "formula_block", "latex": "a = \\dfrac{1}{2}, \\qquad r = \\dfrac{1/6}{1/2} = \\dfrac{1}{6} \\times 2 = \\dfrac{1}{3}" },
+        { "tipe": "formula_block", "latex": "a = \\dfrac{1}{2}, \\qquad r = \\dfrac{\\dfrac{1}{6}}{\\dfrac{1}{2}} = \\dfrac{1}{6} \\times 2 = \\dfrac{1}{3}" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah deret geometri tak hingga dengan rumus $S_{\\infty} = \\dfrac{a}{1 - r}$**" },
         { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{\\dfrac{1}{2}}{1 - \\dfrac{1}{3}} = \\dfrac{\\dfrac{1}{2}}{\\dfrac{2}{3}} = \\dfrac{1}{2} \\times \\dfrac{3}{2} = \\dfrac{3}{4}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret geometri tak hingga tersebut adalah **$\\dfrac{3}{4}$**." }
