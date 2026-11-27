@@ -8,7 +8,7 @@
   "versi": "1.0.0",
   "soal": [
     {
-      "id": "bs-k10-stat-t-04-q01",
+      "id": "bs-k10-stat-t-09-q01",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $4, 6, 8, 10, 12$. Pernyataan yang benar adalah..." },
         { "tipe": "paragraph", "text": "(1) Mean = $8$" },
@@ -26,14 +26,14 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung mean, median, dan jangkauan untuk menguji pernyataan (1), (2), dan (3)**" },
-        { "formula_block", "latex": "\\bar{x} = \\dfrac{4 + 6 + 8 + 10 + 12}{5} = 8, \\qquad Me = 8, \\qquad R = 12 - 4 = 8" },
-        { "paragraph", "text": "Pernyataan (1), (2), dan (3) benar; sedangkan pernyataan (4) salah karena tiap nilai muncul tepat sekali (tidak ada modus)." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{4 + 6 + 8 + 10 + 12}{5} = 8, \\qquad Me = 8, \\qquad R = 12 - 4 = 8" },
+        { "tipe": "paragraph", "text": "Pernyataan (1), (2), dan (3) benar; sedangkan pernyataan (4) salah karena tiap nilai muncul tepat sekali (tidak ada modus)." },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, pernyataan yang benar adalah **1, 2, dan 3**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q02",
+      "id": "bs-k10-stat-t-09-q02",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 20 data adalah $15$. Jika setiap data dikalikan $2$ lalu dikurangi $5$, rata-rata baru adalah..." }
       ],
@@ -47,13 +47,13 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Terapkan transformasi linear rata-rata ($\\bar{x}_{\\text{baru}} = 2\\bar{x} - 5$) dengan $\\bar{x} = 15$**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 2(15) - 5 = 30 - 5 = 25" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 2(15) - 5 = 30 - 5 = 25" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata baru adalah **$25$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q03",
+      "id": "bs-k10-stat-t-09-q03",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $3, 5, 7, 9, 11$. Jika setiap data ditambah $4$, maka pernyataan yang benar adalah..." }
       ],
@@ -67,13 +67,13 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan perubahan mean dan jangkauan ketika tiap data ditambah $4$**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\bar{x}_{\\text{awal}} + 4, \\qquad R_{\\text{baru}} = (11 + 4) - (3 + 4) = 15 - 7 = 8 = R_{\\text{awal}}" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\bar{x}_{\\text{awal}} + 4, \\qquad R_{\\text{baru}} = (11 + 4) - (3 + 4) = 15 - 7 = 8 = R_{\\text{awal}}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, pernyataan yang benar adalah **Mean bertambah $4$, jangkauan tetap**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q04",
+      "id": "bs-k10-stat-t-09-q04",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Jika median data adalah $6$, maka nilai $x$ yang memenuhi adalah..." },
         { "tipe": "paragraph", "text": "Nilai: $4, 5, 6, 7$" },
@@ -89,17 +89,17 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $n$ dan tentukan posisi data sebelum nilai $6$**" },
-        { "formula_block", "latex": "n = 2 + 3 + x + 2 = x + 7" },
-        { "paragraph", "text": "Nilai $4$ dan $5$ memiliki frekuensi kumulatif $2 + 3 = 5$ (menempati data ke-$1$ s.d. $5$)." },
+        { "tipe": "formula_block", "latex": "n = 2 + 3 + x + 2 = x + 7" },
+        { "tipe": "paragraph", "text": "Nilai $4$ dan $5$ memiliki frekuensi kumulatif $2 + 3 = 5$ (menempati data ke-$1$ s.d. $5$)." },
         { "tipe": "paragraph", "text": "**Langkah 2: Uji nilai $x = 4$ agar median terletak pada nilai $6$**" },
-        { "formula_block", "latex": "x = 4 \\Rightarrow n = 11 \\Rightarrow \\text{letak } Me = \\dfrac{11 + 1}{2} = 6" },
-        { "paragraph", "text": "Data ke-$6$ berada pada kelompok nilai $6$ (data ke-$6$ s.d. $9$), sehingga median sama dengan $6$." },
+        { "tipe": "formula_block", "latex": "x = 4 \\Rightarrow n = 11 \\Rightarrow \\text{letak } Me = \\dfrac{11 + 1}{2} = 6" },
+        { "tipe": "paragraph", "text": "Data ke-$6$ berada pada kelompok nilai $6$ (data ke-$6$ s.d. $9$), sehingga median sama dengan $6$." },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$4$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q05",
+      "id": "bs-k10-stat-t-09-q05",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 10 data adalah $20$. Jika data terkecil $10$ dan data terbesar $30$ dikeluarkan, rata-rata data tersisa adalah..." }
       ],
@@ -113,13 +113,13 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Kurangi jumlah 10 data awal dengan $10$ dan $30$, lalu bagi dengan $8$ data tersisa**" },
-        { "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(10 \\times 20) - 10 - 30}{8} = \\dfrac{200 - 40}{8} = \\dfrac{160}{8} = 20" },
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = \\dfrac{(10 \\times 20) - 10 - 30}{8} = \\dfrac{200 - 40}{8} = \\dfrac{160}{8} = 20" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata data tersisa adalah **$20$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q06",
+      "id": "bs-k10-stat-t-09-q06",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $2, 4, 4, 6, 8, 8, 10$. Pernyataan yang benar adalah..." }
       ],
@@ -133,13 +133,13 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median (data ke-$4$) dan modus (frekuensi tertinggi $= 2$) dari data terurut ($n = 7$)**" },
-        { "formula_block", "latex": "Me = 6, \\qquad Mo = 4 \\text{ dan } 8" },
+        { "tipe": "formula_block", "latex": "Me = 6, \\qquad Mo = 4 \\text{ dan } 8" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, pernyataan yang benar adalah **Median = $6$, modus = $4$ dan $8$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q07",
+      "id": "bs-k10-stat-t-09-q07",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Rata-rata 6 data adalah $14$. Jika data $x$ ditambahkan sehingga rata-rata menjadi $15$, maka nilai $x$ adalah..." }
       ],
@@ -153,13 +153,13 @@
       "jawaban_benar": 3,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung selisih jumlah 7 data akhir dan 6 data awal**" },
-        { "formula_block", "latex": "x = (7 \\times 15) - (6 \\times 14) = 105 - 84 = 21" },
+        { "tipe": "formula_block", "latex": "x = (7 \\times 15) - (6 \\times 14) = 105 - 84 = 21" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ adalah **$21$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q08",
+      "id": "bs-k10-stat-t-09-q08",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $5, 7, 8, 10, 12, 15$. Jangkauan dan jangkauan interkuartil berturut-turut adalah..." }
       ],
@@ -173,16 +173,16 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jangkauan ($R$), kuartil bawah ($Q_1$), dan kuartil atas ($Q_3$) dari data terurut ($n = 6$)**" },
-        { "paragraph", "text": "Kelompok bawah adalah $5, 7, 8$ ($Q_1 = 7$) dan kelompok atas adalah $10, 12, 15$ ($Q_3 = 12$)." },
-        { "formula_block", "latex": "R = 15 - 5 = 10, \\qquad Q_1 = 7, \\qquad Q_3 = 12" },
+        { "tipe": "paragraph", "text": "Kelompok bawah adalah $5, 7, 8$ ($Q_1 = 7$) dan kelompok atas adalah $10, 12, 15$ ($Q_3 = 12$)." },
+        { "tipe": "formula_block", "latex": "R = 15 - 5 = 10, \\qquad Q_1 = 7, \\qquad Q_3 = 12" },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung jangkauan interkuartil ($H = Q_3 - Q_1$)**" },
-        { "formula_block", "latex": "H = 12 - 7 = 5" },
+        { "tipe": "formula_block", "latex": "H = 12 - 7 = 5" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jangkauan dan jangkauan interkuartil berturut-turut adalah **$10$ dan $5$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q09",
+      "id": "bs-k10-stat-t-09-q09",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan tabel berikut. Nilai rata-ratanya adalah..." },
         { "tipe": "paragraph", "text": "Nilai: $5, 6, 7, 8$" },
@@ -198,14 +198,14 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak data ($n$), jumlah hasil kali $\\sum f_i x_i$, dan rata-rata ($\\bar{x}$)**" },
-        { "formula_block", "latex": "n = 3 + 3 + 6 + 3 = 15, \\qquad \\sum f_i x_i = 5(3) + 6(3) + 7(6) + 8(3) = 15 + 18 + 42 + 24 = 99" },
-        { "formula_block", "latex": "\\bar{x} = \\dfrac{99}{15} = 6{,}6" },
+        { "tipe": "formula_block", "latex": "n = 3 + 3 + 6 + 3 = 15, \\qquad \\sum f_i x_i = 5(3) + 6(3) + 7(6) + 8(3) = 15 + 18 + 42 + 24 = 99" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{99}{15} = 6{,}6" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai rata-ratanya adalah **$6{,}6$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-stat-t-04-q10",
+      "id": "bs-k10-stat-t-09-q10",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Data: $6, 8, 10, 12, 14$. Jika data $4$ ditambahkan, median baru adalah..." }
       ],
@@ -219,7 +219,7 @@
       "jawaban_benar": 1,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Urutkan data baru ($4, 6, 8, 10, 12, 14$) lalu hitung rata-rata data ke-$3$ dan ke-$4$**" },
-        { "formula_block", "latex": "Me_{\\text{baru}} = \\dfrac{8 + 10}{2} = \\dfrac{18}{2} = 9" },
+        { "tipe": "formula_block", "latex": "Me_{\\text{baru}} = \\dfrac{8 + 10}{2} = \\dfrac{18}{2} = 9" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, median baru adalah **$9$**." }
       ],
       "tingkat": "SULIT"
