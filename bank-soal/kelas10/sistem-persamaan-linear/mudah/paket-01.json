@@ -21,10 +21,12 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan: $(x+y) + (x-y) = 7 + 3$" },
-        { "tipe": "paragraph", "text": "$2x = 10 \\Rightarrow x = 5$" },
-        { "tipe": "paragraph", "text": "Substitusi ke $x + y = 7$: $5 + y = 7 \\Rightarrow y = 2$" },
-        { "tipe": "paragraph", "text": "HP = $\\{(5, 2)\\}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $y$ untuk memperoleh nilai $x$**" },
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan $x + y = 7$ dan $x - y = 3$." },
+        { "tipe": "formula_block", "latex": "(x + y) + (x - y) = 7 + 3 \\Rightarrow 2x = 10 \\Rightarrow x = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 5$ untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "5 + y = 7 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian dari sistem persamaan tersebut adalah **$(5, 2)$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -42,8 +44,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $x = 3$: $2(3) + y = 8$" },
-        { "tipe": "paragraph", "text": "$6 + y = 8 \\Rightarrow y = 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 3$ ke persamaan $2x + y = 8$**" },
+        { "tipe": "formula_block", "latex": "2(3) + y = 8 \\Rightarrow 6 + y = 8 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $y$ yang memenuhi adalah **$2$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -61,8 +64,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $x = 2$: $3(2) + 2y = 12$" },
-        { "tipe": "paragraph", "text": "$6 + 2y = 12 \\Rightarrow 2y = 6 \\Rightarrow y = 3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 2$ ke persamaan $3x + 2y = 12$**" },
+        { "tipe": "formula_block", "latex": "3(2) + 2y = 12 \\Rightarrow 6 + 2y = 12 \\Rightarrow 2y = 6 \\Rightarrow y = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian sistem tersebut adalah **$(2, 3)$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -80,8 +84,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Substitusi $y = 2$: $x + 4 = 10$" },
-        { "tipe": "paragraph", "text": "$x = 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $y = 2$ ke persamaan $x + 2y = 10$**" },
+        { "tipe": "formula_block", "latex": "x + 2(2) = 10 \\Rightarrow x + 4 = 10 \\Rightarrow x = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ dari sistem tersebut adalah **$6$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -99,8 +104,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Persamaan kedua = 2 × persamaan pertama → kedua persamaan identik (berimpit)." },
-        { "tipe": "paragraph", "text": "Maka sistem memiliki tak hingga banyak solusi." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan koefisien dan konstanta kedua persamaan**" },
+        { "tipe": "paragraph", "text": "Persamaan kedua ($2x + 2y = 10$) merupakan kelipatan $2$ dari persamaan pertama ($x + y = 5$), sehingga kedua garis saling berimpit." },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{10}{5} = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem persamaan tersebut memiliki **tak hingga solusi**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -118,10 +125,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $x - y = 4 \\Rightarrow x = y + 4$" },
-        { "tipe": "paragraph", "text": "Substitusi: $2(y + 4) + y = 11 \\Rightarrow 2y + 8 + y = 11$" },
-        { "tipe": "paragraph", "text": "$3y = 3 \\Rightarrow y = 1$, maka $x = 5$" },
-        { "tipe": "paragraph", "text": "$x + y = 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan $x$ dalam $y$ lalu substitusikan ke persamaan kedua**" },
+        { "tipe": "paragraph", "text": "Dari $x - y = 4$ diperoleh $x = y + 4$, kemudian substitusikan ke $2x + y = 11$:" },
+        { "tipe": "formula_block", "latex": "2(y + 4) + y = 11 \\Rightarrow 3y + 8 = 11 \\Rightarrow y = 1 \\quad \\text{dan} \\quad x = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x + y$**" },
+        { "tipe": "formula_block", "latex": "x + y = 5 + 1 = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y$ adalah **$6$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -139,9 +148,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $3x = 9 \\Rightarrow x = 3$" },
-        { "tipe": "paragraph", "text": "Substitusi $x + y = 4$: $3 + y = 4 \\Rightarrow y = 1$" },
-        { "tipe": "paragraph", "text": "HP = $\\{(3, 1)\\}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $y$ untuk memperoleh nilai $x$**" },
+        { "tipe": "formula_block", "latex": "(2x - y) + (x + y) = 5 + 4 \\Rightarrow 3x = 9 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 3$ ke $x + y = 4$ untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "3 + y = 4 \\Rightarrow y = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$ \\{(3, 1)\\}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -159,9 +170,12 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $4x = 12 \\Rightarrow x = 3$" },
-        { "tipe": "paragraph", "text": "$x + y = 4 \\Rightarrow 3 + y = 4 \\Rightarrow y = 1$" },
-        { "tipe": "paragraph", "text": "$2x - y = 6 - 1 = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $x$ dan $y$**" },
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan untuk memperoleh $x$, lalu substitusikan ke $x + y = 4$ untuk memperoleh $y$:" },
+        { "tipe": "formula_block", "latex": "4x = 12 \\Rightarrow x = 3, \\qquad 3 + y = 4 \\Rightarrow y = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $2x - y$**" },
+        { "tipe": "formula_block", "latex": "2x - y = 2(3) - 1 = 6 - 1 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $2x - y$ adalah **$5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -179,9 +193,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $8x = 24 \\Rightarrow x = 3$" },
-        { "tipe": "paragraph", "text": "Substitusi: $4(3) + 3y = 15 \\Rightarrow 12 + 3y = 15 \\Rightarrow 3y = 3 \\Rightarrow y = 1$" },
-        { "tipe": "paragraph", "text": "HP = $\\{(3, 1)\\}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $y$ untuk memperoleh nilai $x$**" },
+        { "tipe": "formula_block", "latex": "(4x + 3y) + (4x - 3y) = 15 + 9 \\Rightarrow 8x = 24 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 3$ ke persamaan pertama untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "4(3) + 3y = 15 \\Rightarrow 12 + 3y = 15 \\Rightarrow 3y = 3 \\Rightarrow y = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian sistem tersebut adalah **$(3, 1)$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -199,10 +215,11 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dari $2x - y = 6 \\Rightarrow y = 2x - 6$" },
-        { "tipe": "paragraph", "text": "Substitusi: $x + 2(2x - 6) = 8 \\Rightarrow x + 4x - 12 = 8$" },
-        { "tipe": "paragraph", "text": "$5x = 20 \\Rightarrow x = 4$, maka $y = 2$" },
-        { "tipe": "paragraph", "text": "$x \\cdot y = 8$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $y = 2x - 6$ dari persamaan kedua ke persamaan pertama**" },
+        { "tipe": "formula_block", "latex": "x + 2(2x - 6) = 8 \\Rightarrow 5x - 12 = 8 \\Rightarrow 5x = 20 \\Rightarrow x = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $y$ lalu hitung $x \\cdot y$**" },
+        { "tipe": "formula_block", "latex": "y = 2(4) - 6 = 2 \\Rightarrow x \\cdot y = 4 \\cdot 2 = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x \\cdot y$ adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     }
