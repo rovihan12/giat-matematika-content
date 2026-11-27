@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dadu memiliki 6 sisi bernomor $1$ sampai $6$." },
-        { "tipe": "paragraph", "text": "Ruang sampel = semua kemungkinan hasil = $\\{1, 2, 3, 4, 5, 6\\}$, dengan $n(S) = 6$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi seluruh hasil yang mungkin muncul**" },
+        { "tipe": "paragraph", "text": "Sebuah dadu bersisi enam memiliki mata dadu bernomor $1$ sampai $6$." },
+        { "tipe": "formula_block", "latex": "S = \\{1, 2, 3, 4, 5, 6\\} \\Rightarrow n(S) = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, ruang sampel dari percobaan tersebut adalah **$S = \\{1, 2, 3, 4, 5, 6\\}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,9 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ruang sampel koin = $\\{A, G\\}$, $n(S) = 2$." },
-        { "tipe": "paragraph", "text": "Kejadian muncul angka: $n(A) = 1$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak anggota ruang sampel ($n(S)$) dan kejadian muncul angka ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Ruang sampel koin adalah $\\{A, G\\}$ sehingga $n(S) = 2$, dan sisi angka muncul $1$ kali sehingga $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul sisi angka adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -60,8 +63,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$n(S) = 6$, kejadian muncul mata $4$: $n(A) = 1$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{1}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $n(S)$ dan $n(A)$**" },
+        { "tipe": "paragraph", "text": "Pada pelemparan satu dadu diperoleh $n(S) = 6$, sedangkan mata dadu $4$ hanya ada $1$ sehingga $n(A) = 1$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu $4$ adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -79,8 +84,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Peluang selalu bernilai antara $0$ dan $1$ (inklusif)." },
-        { "tipe": "paragraph", "text": "$P(A) = 0$ berarti kejadian mustahil; $P(A) = 1$ berarti kejadian pasti terjadi." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat dasar nilai peluang suatu kejadian**" },
+        { "tipe": "paragraph", "text": "Peluang suatu kejadian selalu berada pada rentang $0$ sampai $1$, dengan $P(A) = 0$ untuk kejadian mustahil dan $P(A) = 1$ untuk kejadian pasti." },
+        { "tipe": "formula_block", "latex": "0 \\leq P(A) \\leq 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang suatu kejadian memiliki nilai antara **$0 \\leq P(A) \\leq 1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -98,8 +105,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu ganjil: $\\{1, 3, 5\\}$ → $n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak kejadian muncul mata dadu ganjil ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu ganjil adalah $\\{1, 3, 5\\}$ sehingga $n(A) = 3$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{6} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu ganjil adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -117,7 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(A^c) = 1 - P(A) = 1 - 0{,}3 = 0{,}7$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Jumlah peluang suatu kejadian dan komplemennya selalu sama dengan $1$." },
+        { "tipe": "formula_block", "latex": "P(A^c) = 1 - P(A) = 1 - 0{,}3 = 0{,}7" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang komplemen kejadian $A$ adalah **$0{,}7$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -135,8 +147,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu lebih dari $4$: $\\{5, 6\\}$ → $n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu lebih dari $4$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu lebih dari $4$ adalah $\\{5, 6\\}$ sehingga $n(A) = 2$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{6} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu lebih dari $4$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -154,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ruang sampel = $\\{AA, AG, GA, GG\\}$ → $n(S) = 4$." },
-        { "tipe": "paragraph", "text": "Secara umum, $n$ koin → $2^n$ anggota. Untuk 2 koin: $2^2 = 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel pelemparan $2$ koin**" },
+        { "tipe": "paragraph", "text": "Ruang sampelnya adalah $\\{AA, AG, GA, GG\\}$ atau menggunakan aturan pangkat $2^n$ untuk $n = 2$ koin." },
+        { "tipe": "formula_block", "latex": "n(S) = 2^2 = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, ruang sampelnya memiliki anggota sebanyak **$4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -173,9 +189,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ruang sampel: $\\{AA, AG, GA, GG\\}$, $n(S) = 4$." },
-        { "tipe": "paragraph", "text": "Tepat satu angka: $\\{AG, GA\\}$ → $n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{4} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi ruang sampel dan kejadian muncul tepat satu angka**" },
+        { "tipe": "paragraph", "text": "Ruang sampel $\\{AA, AG, GA, GG\\}$ memiliki $n(S) = 4$, sedangkan kejadian tepat satu angka adalah $\\{AG, GA\\}$ sehingga $n(A) = 2$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{4} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul tepat satu sisi angka adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -193,9 +210,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total bola = $5 + 3 = 8$ → $n(S) = 8$." },
-        { "tipe": "paragraph", "text": "Bola merah: $n(A) = 5$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{8}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh bola ($n(S)$) dan banyak bola merah ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total bola adalah $5 + 3 = 8$ sehingga $n(S) = 8$, dan banyak bola merah adalah $n(A) = 5$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{8}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola merah adalah **$\\dfrac{5}{8}$**." }
       ],
       "tingkat": "MUDAH"
     }
