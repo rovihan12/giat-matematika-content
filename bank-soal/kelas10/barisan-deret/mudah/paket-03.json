@@ -21,10 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$), beda ($b = 3 - 1 = 2$), dan banyaknya suku ($n = 10$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah $n$ suku pertama deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_{10} = \\dfrac{10}{2}(2(1) + (10-1)2) = 5(2 + 18) = 5 \\cdot 20 = 100$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 10 suku pertama adalah $100$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 1$), beda ($b = 3 - 1 = 2$), dan banyaknya suku ($n = 10$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_{10}$ menggunakan rumus jumlah $n$ suku pertama deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "formula_block", "latex": "S_{10} = \\dfrac{10}{2}\\left(2(1) + (10 - 1)2\\right) = 5(2 + 18) = 5 \\cdot 20 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $10$ suku pertama deret tersebut adalah **$100$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -42,10 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$), beda ($b = 4 - 2 = 2$), dan banyaknya suku ($n = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah $n$ suku pertama deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{5}{2}(2(2) + (5-1)2) = \\dfrac{5}{2}(4 + 8) = \\dfrac{5}{2}(12) = 30$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 5 suku pertama adalah $30$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$), beda ($b = 4 - 2 = 2$), dan banyaknya suku ($n = 5$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_5$ menggunakan rumus jumlah $n$ suku pertama deret aritmatika $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{5}{2}\\left(2(2) + (5 - 1)2\\right) = \\dfrac{5}{2}(4 + 8) = \\dfrac{5}{2}(12) = 30" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $5$ suku pertama deret tersebut adalah **$30$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -63,9 +63,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk rumus baku jumlah $n$ suku pertama ($S_n$) pada deret aritmatika." },
-        { "tipe": "paragraph", "text": "Rumusnya adalah $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "Jadi, jawaban yang benar adalah $S_n = \\dfrac{n}{2}(2a + (n-1)b)$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi rumus baku jumlah $n$ suku pertama ($S_n$) deret aritmatika**" },
+        { "tipe": "formula_block", "latex": "S_n = \\dfrac{n}{2}\\left(2a + (n - 1)b\\right)" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus jumlah $n$ suku pertama deret aritmatika adalah **$S_n = \\dfrac{n}{2}(2a + (n-1)b)$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -83,10 +83,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 3$), beda ($b = 7 - 3 = 4$), dan banyaknya suku ($n = 6$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Masukkan nilai ke dalam rumus $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_6 = \\dfrac{6}{2}(2(3) + (6-1)4) = 3(6 + 5(4)) = 3(6 + 20) = 3 \\cdot 26 = 78$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 6 suku pertama adalah $78$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 3$), beda ($b = 7 - 3 = 4$), dan banyaknya suku ($n = 6$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "formula_block", "latex": "S_6 = \\dfrac{6}{2}\\left(2(3) + (6 - 1)4\\right) = 3(6 + 20) = 3 \\cdot 26 = 78" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $6$ suku pertama deret tersebut adalah **$78$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -104,9 +104,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan secara langsung suku-suku yang diketahui karena sedikit ($n = 4$)." },
-        { "tipe": "paragraph", "text": "$S_4 = 1 + 2 + 4 + 8 = 15$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 4 suku pertama adalah $15$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan keempat suku pada deret geometri tersebut**" },
+        { "tipe": "formula_block", "latex": "S_4 = 1 + 2 + 4 + 8 = 15" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $4$ suku pertama deret geometri tersebut adalah **$15$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -124,9 +124,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Identifikasi bentuk rumus baku jumlah $n$ suku pertama ($S_n$) pada deret geometri untuk $r > 1$." },
-        { "tipe": "paragraph", "text": "Rumusnya adalah $S_n = \\dfrac{a(r^n - 1)}{r-1}$." },
-        { "tipe": "paragraph", "text": "Jadi, jawaban yang benar adalah $S_n = \\dfrac{a(r^n - 1)}{r-1}$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi rumus baku jumlah $n$ suku pertama ($S_n$) deret geometri**" },
+        { "tipe": "formula_block", "latex": "S_n = \\dfrac{a(r^n - 1)}{r - 1}, \\qquad r \\neq 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus jumlah $n$ suku pertama deret geometri dengan rasio $r \\neq 1$ adalah **$S_n = \\dfrac{a(r^n - 1)}{r-1}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -144,10 +144,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$), rasio ($r = \\dfrac{6}{2} = 3$), dan banyaknya suku ($n = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah $n$ suku pertama deret geometri $S_n = \\dfrac{a(r^n - 1)}{r-1}$." },
-        { "tipe": "paragraph", "text": "$S_5 = \\dfrac{2(3^5 - 1)}{3 - 1} = \\dfrac{2(243 - 1)}{2} = 243 - 1 = 242$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 5 suku pertama adalah $242$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$), rasio ($r = \\dfrac{6}{2} = 3$), dan banyaknya suku ($n = 5$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_5$ menggunakan rumus $S_n = \\dfrac{a(r^n - 1)}{r - 1}$." },
+        { "tipe": "formula_block", "latex": "S_5 = \\dfrac{2(3^5 - 1)}{3 - 1} = \\dfrac{2(243 - 1)}{2} = 243 - 1 = 242" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $5$ suku pertama deret geometri tersebut adalah **$242$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -165,10 +165,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$), beda ($b = 5 - 2 = 3$), dan banyaknya suku ($n = 8$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus $S_n = \\dfrac{n}{2}(2a + (n-1)b)$." },
-        { "tipe": "paragraph", "text": "$S_8 = \\dfrac{8}{2}(2(2) + (8-1)3) = 4(4 + 7(3)) = 4(4 + 21) = 4 \\cdot 25 = 100$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 8 suku pertama adalah $100$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$), beda ($b = 5 - 2 = 3$), dan banyaknya suku ($n = 8$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_8$ menggunakan rumus $S_n = \\dfrac{n}{2}(2a + (n - 1)b)$." },
+        { "tipe": "formula_block", "latex": "S_8 = \\dfrac{8}{2}\\left(2(2) + (8 - 1)3\\right) = 4(4 + 21) = 4 \\cdot 25 = 100" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $8$ suku pertama deret tersebut adalah **$100$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -186,9 +186,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan secara langsung suku-suku yang diketahui." },
-        { "tipe": "paragraph", "text": "$S_3 = 3 + 9 + 27 = 39$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 3 suku pertama adalah $39$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga suku pada deret geometri tersebut**" },
+        { "tipe": "formula_block", "latex": "S_3 = 3 + 9 + 27 = 39" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $3$ suku pertama deret geometri tersebut adalah **$39$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -206,10 +206,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 1$) dan rasio ($r = \\dfrac{1}{2}$) dari deret geometri tak hingga tersebut." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{1}{1 - \\dfrac{1}{2}} = \\dfrac{1}{\\dfrac{1}{2}} = 2$" },
-        { "tipe": "paragraph", "text": "Jadi, jumlah deret tak hingga tersebut adalah $2$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 1$) dan rasio ($r = \\dfrac{1}{2}$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_{\\infty}$ menggunakan rumus jumlah deret geometri tak hingga $S_{\\infty} = \\dfrac{a}{1 - r}$." },
+        { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{1}{1 - \\dfrac{1}{2}} = \\dfrac{1}{\\dfrac{1}{2}} = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah deret geometri tak hingga tersebut adalah **$2$**." }
       ],
       "tingkat": "MUDAH"
     }
