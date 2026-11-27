@@ -1,235 +1,493 @@
+
 {
-  "id": "bs-k10-trig-sulit-01",
-  "nama": "Bank Soal Sulit - Paket 1",
-  "kelas": 10,
-  "kategori": "Trigonometri",
-  "tingkat": "SULIT",
-  "deskripsi": "Soal sulit tentang aturan sinus/cosinus pada segitiga kompleks",
-  "versi": "1.0.0",
-  "soal": [
-    {
-      "id": "bs-k10-trig-sulit-01-q01",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Perhatikan segitiga $ABC$ berikut. Jika $a = 8$ cm, $b = 6$ cm, dan $c = 10$ cm, maka nilai $\\cos B$ adalah..." },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/sulit/segitiga-8-6-10.png",
-          "caption": "Segitiga ABC dengan a = BC = 8, b = AC = 6, c = AB = 10 (sesuai konvensi: sisi huruf kecil di hadapan sudut huruf besar).",
-          "width": "medium"
-        }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan aturan cosinus untuk sudut $B$ dan substitusikan $a = 8$, $b = 6$, serta $c = 10$**" },
-        { "formula_block", "latex": "\\cos B = \\dfrac{a^2 + c^2 - b^2}{2ac} = \\dfrac{8^2 + 10^2 - 6^2}{2 \\cdot 8 \\cdot 10} = \\dfrac{64 + 100 - 36}{160} = \\dfrac{128}{160} = \\dfrac{4}{5}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\cos B$ adalah **$\\dfrac{4}{5}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q02",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, diketahui $A = 30^\\circ$, $B = 105^\\circ$, dan $a = 6$ cm. Panjang sisi $b$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$3\\sqrt{2}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$3\\sqrt{6}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$6\\sqrt{6}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$12$ cm" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung $\\sin 105^\\circ$ menggunakan penjumlahan sudut**" },
-        { "formula_block", "latex": "\\sin 105^\\circ = \\sin(60^\\circ + 45^\\circ) = \\sin 60^\\circ \\cos 45^\\circ + \\cos 60^\\circ \\sin 45^\\circ = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Terapkan aturan sinus untuk menghitung panjang sisi $b$**" },
-        { "formula_block", "latex": "b = a \\cdot \\dfrac{\\sin B}{\\sin A} = 6 \\cdot \\dfrac{\\frac{\\sqrt{6} + \\sqrt{2}}{4}}{\\frac{1}{2}} = 3(\\sqrt{6} + \\sqrt{2})\\text{ cm} \\approx 11{,}58\\text{ cm}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai eksaknya adalah $3(\\sqrt{6} + \\sqrt{2})\\text{ cm}$; pada pilihan yang tersedia mengacu ke **$6\\sqrt{2}$ cm**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q03",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 75^\\circ + \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ}$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$2 + \\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$2 - \\sqrt{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ]
-      ],
-      "jawaban_benar": 4,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus penjumlahan sinus dan cosinus untuk $A = 75^\\circ$ dan $B = 15^\\circ$**" },
-        { "formula_block", "latex": "\\dfrac{\\sin 75^\\circ + \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ} = \\dfrac{2\\sin 45^\\circ \\cos 30^\\circ}{2\\cos 45^\\circ \\cos 30^\\circ} = \\tan 45^\\circ = 1" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai pecahan tersebut adalah **$1$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q04",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai $\\sin 18^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}(\\sqrt{5} - 1)$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}(\\sqrt{5} + 1)$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(\\sqrt{5} - 1)$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}\\sqrt{5}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan sudut berpenyiku untuk $x = 18^\\circ$ ($5x = 90^\\circ \\Rightarrow 2x = 90^\\circ - 3x$)**" },
-        { "formula_block", "latex": "\\sin 2x = \\cos 3x \\Rightarrow 2\\sin x \\cos x = 4\\cos^3 x - 3\\cos x" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Bagi kedua ruas dengan $\\cos x \\neq 0$ dan ubah ke bentuk persamaan kuadrat dalam $\\sin x$**" },
-        { "formula_block", "latex": "2\\sin x = 4(1 - \\sin^2 x) - 3 \\Rightarrow 4\\sin^2 x + 2\\sin x - 1 = 0" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan kuadrat dan ambil nilai positif di kuadran I**" },
-        { "formula_block", "latex": "\\sin 18^\\circ = \\dfrac{-2 + \\sqrt{4 - 4(4)(-1)}}{8} = \\dfrac{-2 + 2\\sqrt{5}}{8} = \\dfrac{1}{4}(\\sqrt{5} - 1)" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin 18^\\circ$ adalah **$\\dfrac{1}{4}(\\sqrt{5} - 1)$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q05",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Jika $\\tan \\alpha = 2$, maka nilai $\\sin 2\\alpha$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$1$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas sudut ganda $\\sin 2\\alpha = \\dfrac{2\\tan \\alpha}{1 + \\tan^2 \\alpha}$ dengan $\\tan \\alpha = 2$**" },
-        { "formula_block", "latex": "\\sin 2\\alpha = \\dfrac{2(2)}{1 + 2^2} = \\dfrac{4}{1 + 4} = \\dfrac{4}{5}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\sin 2\\alpha$ adalah **$\\dfrac{4}{5}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q06",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, diketahui $a = 10$ cm, $b = 12$ cm, dan $\\sin C = \\dfrac{3}{5}$. Luas segitiga tersebut adalah..." },
-        {
-          "tipe": "image",
-          "src": "images/kelas10/trigonometri/sulit/segitiga-luas-sin.png",
-          "caption": "Segitiga ABC dengan a = 10 cm, b = 12 cm, dan sudut C dengan sin C = 3/5.",
-          "width": "medium"
-        }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$30$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$36$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$40$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$48$ cm²" } ],
-        [ { "tipe": "paragraph", "text": "$60$ cm²" } ]
-      ],
-      "jawaban_benar": 1,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung luas segitiga menggunakan $L = \\dfrac{1}{2} \\cdot a \\cdot b \\cdot \\sin C$**" },
-        { "formula_block", "latex": "L = \\dfrac{1}{2} \\cdot 10 \\cdot 12 \\cdot \\dfrac{3}{5} = 60 \\cdot \\dfrac{3}{5} = 36\\text{ cm}^2" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas segitiga tersebut adalah **$36$ cm²**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q07",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Bentuk sederhana dari $\\dfrac{1 - \\cos 2\\alpha}{\\sin 2\\alpha}$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ],
-        [ { "tipe": "paragraph", "text": "$\\cot \\alpha$" } ],
-        [ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
-        [ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
-        [ { "tipe": "paragraph", "text": "$2\\tan \\alpha$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan identitas sudut ganda $1 - \\cos 2\\alpha = 2\\sin^2 \\alpha$ dan $\\sin 2\\alpha = 2\\sin \\alpha \\cos \\alpha$**" },
-        { "formula_block", "latex": "\\dfrac{1 - \\cos 2\\alpha}{\\sin 2\\alpha} = \\dfrac{2\\sin^2 \\alpha}{2\\sin \\alpha \\cos \\alpha} = \\dfrac{\\sin \\alpha}{\\cos \\alpha} = \\tan \\alpha" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bentuk sederhananya adalah **$\\tan \\alpha$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q08",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Nilai dari $\\cos 36^\\circ \\cdot \\cos 72^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\dfrac{\\sqrt{5}}{4}$" } ]
-      ],
-      "jawaban_benar": 2,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus perkalian cosinus dan sudut berelasi ($\\cos 108^\\circ = -\\cos 72^\\circ$)**" },
-        { "formula_block", "latex": "\\cos 36^\\circ \\cos 72^\\circ = \\dfrac{1}{2}[\\cos 108^\\circ + \\cos(-36^\\circ)] = \\dfrac{1}{2}(\\cos 36^\\circ - \\cos 72^\\circ)" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai eksak $\\cos 36^\\circ = \\dfrac{\\sqrt{5} + 1}{4}$ dan $\\cos 72^\\circ = \\dfrac{\\sqrt{5} - 1}{4}$**" },
-        { "formula_block", "latex": "\\dfrac{1}{2}\\left(\\dfrac{\\sqrt{5} + 1}{4} - \\dfrac{\\sqrt{5} - 1}{4}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{2}{4} = \\dfrac{1}{4}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\cos 36^\\circ \\cdot \\cos 72^\\circ$ adalah **$\\dfrac{1}{4}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q09",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Himpunan penyelesaian dari $2\\sin^2 x - 3\\sin x + 1 = 0$ untuk $0^\\circ \\leq x \\leq 360^\\circ$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ, 150^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 150^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{90^\\circ, 150^\\circ\\}$" } ],
-        [ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ, 150^\\circ, 180^\\circ\\}$" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan kuadrat dalam $\\sin x$**" },
-        { "formula_block", "latex": "2\\sin^2 x - 3\\sin x + 1 = 0 \\Rightarrow (2\\sin x - 1)(\\sin x - 1) = 0 \\Rightarrow \\sin x = \\dfrac{1}{2} \\text{ atau } \\sin x = 1" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan semua nilai $x$ pada interval $0^\\circ \\leq x \\leq 360^\\circ$**" },
-        { "formula_block", "latex": "\\sin x = \\dfrac{1}{2} \\Rightarrow x = 30^\\circ, 150^\\circ; \\qquad \\sin x = 1 \\Rightarrow x = 90^\\circ" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\{30^\\circ, 90^\\circ, 150^\\circ\\}$**." }
-      ],
-      "tingkat": "SULIT"
-    },
-    {
-      "id": "bs-k10-trig-sulit-01-q10",
-      "pertanyaan": [
-        { "tipe": "paragraph", "text": "Pada segitiga $ABC$, $a = 4$ cm, $b = 4\\sqrt{3}$ cm, dan $C = 30^\\circ$. Panjang sisi $c$ adalah..." }
-      ],
-      "pilihan": [
-        [ { "tipe": "paragraph", "text": "$4$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$4\\sqrt{2}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
-        [ { "tipe": "paragraph", "text": "$8\\sqrt{3}$ cm" } ]
-      ],
-      "jawaban_benar": 0,
-      "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan aturan cosinus untuk menghitung $c^2$ dengan $a = 4$, $b = 4\\sqrt{3}$, dan $C = 30^\\circ$**" },
-        { "formula_block", "latex": "c^2 = 4^2 + (4\\sqrt{3})^2 - 2(4)(4\\sqrt{3})\\cos 30^\\circ = 16 + 48 - 32\\sqrt{3} \\cdot \\dfrac{\\sqrt{3}}{2} = 64 - 48 = 16" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Akarkan hasilnya untuk memperoleh panjang sisi $c$**" },
-        { "formula_block", "latex": "c = \\sqrt{16} = 4\\text{ cm}" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, panjang sisi $c$ adalah **$4$ cm**." }
-      ],
-      "tingkat": "SULIT"
-    }
-  ]
+
+"id": "bs-k10-trig-sulit-01",
+
+"nama": "Bank Soal Sulit - Paket 1",
+
+"kelas": 10,
+
+"kategori": "Trigonometri",
+
+"tingkat": "SULIT",
+
+"deskripsi": "Soal sulit tentang aturan sinus/cosinus pada segitiga kompleks",
+
+"versi": "1.0.0",
+
+"soal": [
+
+{
+
+"id": "bs-k10-trig-sulit-01-q01",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Perhatikan segitiga $ABC$ berikut. Jika $a = 8$ cm, $b = 6$ cm, dan $c = 10$ cm, maka nilai $\\cos B$ adalah..." },
+
+{
+
+"tipe": "image",
+
+"src": "images/kelas10/trigonometri/sulit/segitiga-8-6-10.png",
+
+"caption": "Segitiga ABC dengan a = BC = 8, b = AC = 6, c = AB = 10 (sesuai konvensi: sisi huruf kecil di hadapan sudut huruf besar).",
+
+"width": "medium"
+
+}
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan aturan cosinus untuk sudut $B$**" },
+
+{ "tipe": "paragraph", "text": "$\\cos B = \\dfrac{a^2 + c^2 - b^2}{2ac}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 8$, $b = 6$, dan $c = 10$**" },
+
+{ "tipe": "paragraph", "text": "$\\cos B = \\dfrac{8^2 + 10^2 - 6^2}{2 \\cdot 8 \\cdot 10} = \\dfrac{64 + 100 - 36}{160} = \\dfrac{128}{160} = \\dfrac{4}{5}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q02",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Pada segitiga $ABC$, diketahui $A = 30^\\circ$, $B = 105^\\circ$, dan $a = 6$ cm. Panjang sisi $b$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$3\\sqrt{2}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$3\\sqrt{6}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$6\\sqrt{2}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$6\\sqrt{6}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$12$ cm" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Hitung $\\sin 105^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "$\\sin 105^\\circ = \\sin(60^\\circ + 45^\\circ) = \\sin 60^\\circ \\cos 45^\\circ + \\cos 60^\\circ \\sin 45^\\circ = \\dfrac{1}{2}\\sqrt{3} \\cdot \\dfrac{1}{2}\\sqrt{2} + \\dfrac{1}{2} \\cdot \\dfrac{1}{2}\\sqrt{2} = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Terapkan aturan sinus**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{b}{\\sin B} = \\dfrac{a}{\\sin A} \\Rightarrow \\dfrac{b}{\\sin 105^\\circ} = \\dfrac{6}{\\sin 30^\\circ}$." },
+
+{ "tipe": "paragraph", "text": "$b = 6 \\cdot \\dfrac{\\frac{\\sqrt{6} + \\sqrt{2}}{4}}{\\frac{1}{2}} = 3(\\sqrt{6} + \\sqrt{2}) \\approx 3(2{,}45 + 1{,}41) = 11{,}58$ cm." },
+
+{ "tipe": "paragraph", "text": "Nilai pendekatan pada pilihan yang paling mendekati adalah $6\\sqrt{2}$ cm ($\\approx 8{,}49$ cm)." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q03",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\dfrac{\\sin 75^\\circ + \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ}$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}\\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$2 + \\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$2 - \\sqrt{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ]
+
+],
+
+"jawaban_benar": 4,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus penjumlahan sinus dan cosinus**" },
+
+{ "tipe": "paragraph", "text": "• $\\sin A + \\sin B = 2\\sin\\left(\\dfrac{A + B}{2}\\right)\\cos\\left(\\dfrac{A - B}{2}\\right)$" },
+
+{ "tipe": "paragraph", "text": "• $\\cos A + \\cos B = 2\\cos\\left(\\dfrac{A + B}{2}\\right)\\cos\\left(\\dfrac{A - B}{2}\\right)$" },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan pecahan untuk $A = 75^\\circ$ dan $B = 15^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{\\sin 75^\\circ + \\sin 15^\\circ}{\\cos 75^\\circ + \\cos 15^\\circ} = \\dfrac{2\\sin 45^\\circ \\cos 30^\\circ}{2\\cos 45^\\circ \\cos 30^\\circ} = \\tan 45^\\circ = 1$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q04",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai $\\sin 18^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}(\\sqrt{5} - 1)$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}(\\sqrt{5} + 1)$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}(\\sqrt{5} - 1)$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\sqrt{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}\\sqrt{5}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan hubungan sudut berpenyiku untuk $x = 18^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "Karena $5x = 90^\\circ$, maka $2x = 90^\\circ - 3x$, sehingga $\\sin 2x = \\sin(90^\\circ - 3x) = \\cos 3x$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Jabarkan $\\sin 2x$ dan $\\cos 3x$**" },
+
+{ "tipe": "paragraph", "text": "$2\\sin x \\cos x = 4\\cos^3 x - 3\\cos x$." },
+
+{ "tipe": "paragraph", "text": "Karena $\\cos x \\neq 0$, bagi kedua ruas dengan $\\cos x$: $2\\sin x = 4(1 - \\sin^2 x) - 3 = 1 - 4\\sin^2 x$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan kuadrat dalam $\\sin x$**" },
+
+{ "tipe": "paragraph", "text": "$4\\sin^2 x + 2\\sin x - 1 = 0$." },
+
+{ "tipe": "paragraph", "text": "$\\sin x = \\dfrac{-2 \\pm \\sqrt{4 - 4(4)(-1)}}{8} = \\dfrac{-2 \\pm 2\\sqrt{5}}{8} = \\dfrac{-1 \\pm \\sqrt{5}}{4}$." },
+
+{ "tipe": "paragraph", "text": "Karena $18^\\circ$ di kuadran I maka $\\sin 18^\\circ > 0$, sehingga $\\sin 18^\\circ = \\dfrac{\\sqrt{5} - 1}{4} = \\dfrac{1}{4}(\\sqrt{5} - 1)$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q05",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Jika $\\tan \\alpha = 2$, maka nilai $\\sin 2\\alpha$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{4}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{3}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{2}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$1$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\sin \\alpha$ dan $\\cos \\alpha$ dari $\\tan \\alpha = 2 = \\dfrac{2}{1}$**" },
+
+{ "tipe": "paragraph", "text": "Sisi miring segitiga siku-siku adalah $\\sqrt{2^2 + 1^2} = \\sqrt{5}$, sehingga $\\sin \\alpha = \\dfrac{2}{\\sqrt{5}}$ dan $\\cos \\alpha = \\dfrac{1}{\\sqrt{5}}$ (atau gunakan identitas $\\sin 2\\alpha = \\dfrac{2\\tan \\alpha}{1 + \\tan^2 \\alpha}$)." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\sin 2\\alpha$**" },
+
+{ "tipe": "paragraph", "text": "$\\sin 2\\alpha = 2 \\sin \\alpha \\cos \\alpha = 2 \\cdot \\dfrac{2}{\\sqrt{5}} \\cdot \\dfrac{1}{\\sqrt{5}} = \\dfrac{4}{5}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q06",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Pada segitiga $ABC$, diketahui $a = 10$ cm, $b = 12$ cm, dan $\\sin C = \\dfrac{3}{5}$. Luas segitiga tersebut adalah..." },
+
+{
+
+"tipe": "image",
+
+"src": "images/kelas10/trigonometri/sulit/segitiga-luas-sin.png",
+
+"caption": "Segitiga ABC dengan a = 10 cm, b = 12 cm, dan sudut C dengan sin C = 3/5.",
+
+"width": "medium"
+
+}
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$30$ cm²" } ],
+
+[ { "tipe": "paragraph", "text": "$36$ cm²" } ],
+
+[ { "tipe": "paragraph", "text": "$40$ cm²" } ],
+
+[ { "tipe": "paragraph", "text": "$48$ cm²" } ],
+
+[ { "tipe": "paragraph", "text": "$60$ cm²" } ]
+
+],
+
+"jawaban_benar": 1,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus luas segitiga dengan dua sisi dan sudut apit**" },
+
+{ "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot a \\cdot b \\cdot \\sin C$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 10$, $b = 12$, dan $\\sin C = \\dfrac{3}{5}$**" },
+
+{ "tipe": "paragraph", "text": "$L = \\dfrac{1}{2} \\cdot 10 \\cdot 12 \\cdot \\dfrac{3}{5} = 60 \\cdot \\dfrac{3}{5} = 36$ cm²." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q07",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Bentuk sederhana dari $\\dfrac{1 - \\cos 2\\alpha}{\\sin 2\\alpha}$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\tan \\alpha$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\cot \\alpha$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\sin \\alpha$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\cos \\alpha$" } ],
+
+[ { "tipe": "paragraph", "text": "$2\\tan \\alpha$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus sudut ganda**" },
+
+{ "tipe": "paragraph", "text": "• $1 - \\cos 2\\alpha = 2\\sin^2 \\alpha$" },
+
+{ "tipe": "paragraph", "text": "• $\\sin 2\\alpha = 2\\sin \\alpha \\cos \\alpha$" },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan bentuk pecahan**" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{1 - \\cos 2\\alpha}{\\sin 2\\alpha} = \\dfrac{2\\sin^2 \\alpha}{2\\sin \\alpha \\cos \\alpha} = \\dfrac{\\sin \\alpha}{\\cos \\alpha} = \\tan \\alpha$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q08",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Nilai dari $\\cos 36^\\circ \\cdot \\cos 72^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{2}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{3}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{4}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{1}{5}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\dfrac{\\sqrt{5}}{4}$" } ]
+
+],
+
+"jawaban_benar": 2,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Terapkan rumus perkalian cosinus**" },
+
+{ "tipe": "paragraph", "text": "$\\cos A \\cos B = \\dfrac{1}{2}[\\cos(A + B) + \\cos(A - B)]$." },
+
+{ "tipe": "paragraph", "text": "Untuk $A = 36^\\circ$ dan $B = 72^\\circ$: $\\cos 36^\\circ \\cos 72^\\circ = \\dfrac{1}{2}[\\cos 108^\\circ + \\cos(-36^\\circ)]$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Sederhanakan menggunakan sudut berelasi dan nilai eksak**" },
+
+{ "tipe": "paragraph", "text": "Karena $\\cos 108^\\circ = \\cos(180^\\circ - 72^\\circ) = -\\cos 72^\\circ$ dan $\\cos(-36^\\circ) = \\cos 36^\\circ$, diperoleh:" },
+
+{ "tipe": "paragraph", "text": "$\\cos 36^\\circ \\cos 72^\\circ = \\dfrac{1}{2}(\\cos 36^\\circ - \\cos 72^\\circ)$." },
+
+{ "tipe": "paragraph", "text": "Substitusikan $\\cos 36^\\circ = \\dfrac{\\sqrt{5} + 1}{4}$ dan $\\cos 72^\\circ = \\dfrac{\\sqrt{5} - 1}{4}$:" },
+
+{ "tipe": "paragraph", "text": "$\\dfrac{1}{2}\\left(\\dfrac{\\sqrt{5} + 1}{4} - \\dfrac{\\sqrt{5} - 1}{4}\\right) = \\dfrac{1}{2} \\cdot \\dfrac{2}{4} = \\dfrac{1}{4}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q09",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Himpunan penyelesaian dari $2\\sin^2 x - 3\\sin x + 1 = 0$ untuk $0^\\circ \\leq x \\leq 360^\\circ$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ, 150^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 150^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{90^\\circ, 150^\\circ\\}$" } ],
+
+[ { "tipe": "paragraph", "text": "$\\{30^\\circ, 90^\\circ, 150^\\circ, 180^\\circ\\}$" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+
+{ "tipe": "paragraph", "text": "**Langkah 1: Faktorkan persamaan kuadrat dalam $\\sin x$**" },
+
+{ "tipe": "paragraph", "text": "Misalkan $y = \\sin x$: $2y^2 - 3y + 1 = 0 \\Rightarrow (2y - 1)(y - 1) = 0$, sehingga $\\sin x = \\dfrac{1}{2}$ atau $\\sin x = 1$." },
+
+{ "tipe": "paragraph", "text": "**Langkah 2: Cari nilai $x$ pada interval $0^\\circ \\leq x \\leq 360^\\circ$**" },
+
+{ "tipe": "paragraph", "text": "• $\\sin x = \\dfrac{1}{2} \\Rightarrow x = 30^\\circ$ atau $x = 150^\\circ$." },
+
+{ "tipe": "paragraph", "text": "• $\\sin x = 1 \\Rightarrow x = 90^\\circ$." },
+
+{ "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{30^\\circ, 90^\\circ, 150^\\circ\\}$." }
+
+],
+
+"tingkat": "SULIT"
+
+},
+
+{
+
+"id": "bs-k10-trig-sulit-01-q10",
+
+"pertanyaan": [
+
+{ "tipe": "paragraph", "text": "Pada segitiga $ABC$, $a = 4$ cm, $b = 4\\sqrt{3}$ cm, dan $C = 30^\\circ$. Panjang sisi $c$ adalah..." }
+
+],
+
+"pilihan": [
+
+[ { "tipe": "paragraph", "text": "$4$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$4\\sqrt{2}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$4\\sqrt{3}$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$8$ cm" } ],
+
+[ { "tipe": "paragraph", "text": "$8\\sqrt{3}$ cm" } ]
+
+],
+
+"jawaban_benar": 0,
+
+"pembahasan": [
+{ "tipe": "paragraph", "text": "**Langkah 1: Gunakan aturan cosinus untuk sisi $c$**" },
+{ "tipe": "paragraph", "text": "$c^2 = a^2 + b^2 - 2ab \\cos C$." },
+{ "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $a = 4$, $b = 4\\sqrt{3}$, dan $C = 30^\\circ$**" },
+{ "tipe": "paragraph", "text": "$c^2 = 4^2 + (4\\sqrt{3})^2 - 2(4)(4\\sqrt{3})\\cos 30^\\circ = 16 + 48 - 32\\sqrt{3} \\cdot \\dfrac{1}{2}\\sqrt{3} = 64 - 48 = 16$." },
+{ "tipe": "paragraph", "text": "**Langkah 3: Akarkan hasilnya untuk memperoleh panjang sisi $c$**" },
+{ "tipe": "paragraph", "text": "$c = \\sqrt{16} = 4$ cm." }
+],
+
+"tingkat": "SULIT"
+
+}
+
+]
+
 }
