@@ -23,18 +23,11 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah data ($n$) dan titik tengah ($x_i$) tiap interval**" },
-        { "tipe": "paragraph", "text": "• $n = 2 + 6 + 12 + 8 + 2 = 30$" },
-        { "tipe": "paragraph", "text": "• Titik tengah ($x_i$): $12$, $17$, $22$, $27$, dan $32$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah perkalian frekuensi dan titik tengah ($\\sum f_i \\cdot x_i$)**" },
-        { "tipe": "paragraph", "text": "• $2 \\times 12 = 24$" },
-        { "tipe": "paragraph", "text": "• $6 \\times 17 = 102$" },
-        { "tipe": "paragraph", "text": "• $12 \\times 22 = 264$" },
-        { "tipe": "paragraph", "text": "• $8 \\times 27 = 216$" },
-        { "tipe": "paragraph", "text": "• $2 \\times 32 = 64$" },
-        { "tipe": "paragraph", "text": "$\\sum f_i \\cdot x_i = 24 + 102 + 264 + 216 + 64 = 670$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung rata-rata ($\\bar{x}$)**" },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{\\sum f_i \\cdot x_i}{n} = \\dfrac{670}{30} \\approx 22{,}33$." },
-        { "tipe": "paragraph", "text": "Nilai pada pilihan yang paling mendekati adalah $22{,}5$." }
+        { "tipe": "paragraph", "text": "Diperoleh $n = 2 + 6 + 12 + 8 + 2 = 30$ dengan titik tengah masing-masing interval: $12$, $17$, $22$, $27$, dan $32$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung $\\sum f_i x_i$ dan nilai rata-rata ($\\bar{x}$)**" },
+        { "tipe": "formula_block", "latex": "\\sum f_i x_i = 2(12) + 6(17) + 12(22) + 8(27) + 2(32) = 24 + 102 + 264 + 216 + 64 = 670" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{670}{30} \\approx 22{,}33" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai pada pilihan yang paling mendekati adalah **$22{,}5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -54,17 +47,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan kelas modus**" },
-        { "tipe": "paragraph", "text": "Frekuensi tertinggi adalah $14$, sehingga kelas modusnya adalah interval $35-39$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus modus**" },
-        { "tipe": "paragraph", "text": "• $L = 35 - 0{,}5 = 34{,}5$" },
-        { "tipe": "paragraph", "text": "• $d_1 = 14 - 7 = 7$" },
-        { "tipe": "paragraph", "text": "• $d_2 = 14 - 8 = 6$" },
-        { "tipe": "paragraph", "text": "• $c = 5$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai modus ($Mo$)**" },
-        { "tipe": "paragraph", "text": "$Mo = L + \\left(\\dfrac{d_1}{d_1 + d_2}\\right) \\cdot c$" },
-        { "tipe": "paragraph", "text": "$Mo = 34{,}5 + \\left(\\dfrac{7}{7 + 6}\\right) \\cdot 5 = 34{,}5 + \\dfrac{35}{13} \\approx 34{,}5 + 2{,}69 = 37{,}19$." },
-        { "tipe": "paragraph", "text": "Pembulatan terdekat pada pilihan adalah $37{,}0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi kelas modus dan komponen rumusnya**" },
+        { "tipe": "paragraph", "text": "Frekuensi terbesar adalah $14$ pada interval $35-39$, sehingga $L = 34{,}5$, $d_1 = 14 - 7 = 7$, $d_2 = 14 - 8 = 6$, dan $c = 5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai modus ($Mo$)**" },
+        { "tipe": "formula_block", "latex": "Mo = L + \\left(\\dfrac{d_1}{d_1 + d_2}\\right) \\cdot c = 34{,}5 + \\left(\\dfrac{7}{7 + 6}\\right) \\cdot 5 = 34{,}5 + \\dfrac{35}{13} \\approx 37{,}19" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Pembulatan terdekat pada pilihan adalah **$37{,}0$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -84,18 +71,11 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas median**" },
-        { "tipe": "paragraph", "text": "Jumlah frekuensi $n = 4 + 8 + 14 + 10 + 4 = 40$, sehingga letak median berada pada data ke-$\\dfrac{n}{2} = 20$." },
-        { "tipe": "paragraph", "text": "Frekuensi kumulatif: $4$ (kelas 1), $12$ (kelas 2), $26$ (kelas 3). Data ke-$20$ berada di kelas ketiga, yaitu interval $60-64$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus median**" },
-        { "tipe": "paragraph", "text": "• $L = 60 - 0{,}5 = 59{,}5$" },
-        { "tipe": "paragraph", "text": "• $f_k = 12$" },
-        { "tipe": "paragraph", "text": "• $f_m = 14$" },
-        { "tipe": "paragraph", "text": "• $c = 5$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai median ($Me$)**" },
-        { "tipe": "paragraph", "text": "$Me = L + \\left(\\dfrac{\\frac{n}{2} - f_k}{f_m}\\right) \\cdot c$" },
-        { "tipe": "paragraph", "text": "$Me = 59{,}5 + \\left(\\dfrac{20 - 12}{14}\\right) \\cdot 5 = 59{,}5 + \\dfrac{40}{14} \\approx 59{,}5 + 2{,}86 = 62{,}36$." },
-        { "tipe": "paragraph", "text": "Nilai pada pilihan yang paling mendekati adalah $62{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak dan kelas median**" },
+        { "tipe": "paragraph", "text": "Dengan $n = 40$ dan frekuensi kumulatif $4, 12, 26, 36, 40$, data ke-$\\dfrac{n}{2} = 20$ berada pada interval $60-64$ dengan $L = 59{,}5$, $f_k = 12$, $f_m = 14$, dan $c = 5$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai median ($Me$)**" },
+        { "tipe": "formula_block", "latex": "Me = L + \\left(\\dfrac{\\frac{n}{2} - f_k}{f_m}\\right) \\cdot c = 59{,}5 + \\left(\\dfrac{20 - 12}{14}\\right) \\cdot 5 = 59{,}5 + \\dfrac{40}{14} \\approx 62{,}36" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai pada pilihan yang paling mendekati adalah **$62{,}5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -115,19 +95,11 @@
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak kelas desil ke-9 ($D_9$)**" },
-        { "tipe": "paragraph", "text": "Jumlah frekuensi $n = 5 + 8 + 12 + 15 + 10 = 50$." },
-        { "tipe": "paragraph", "text": "Letak $D_9$ berada pada data ke-$\\dfrac{9}{10} n = \\dfrac{9}{10} \\times 50 = 45$." },
-        { "tipe": "paragraph", "text": "Frekuensi kumulatif: $5$, $13$, $25$, $40$, $50$. Data ke-$45$ berada di kelas kelima, yaitu interval $50-59$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi komponen rumus desil**" },
-        { "tipe": "paragraph", "text": "• $L = 50 - 0{,}5 = 49{,}5$" },
-        { "tipe": "paragraph", "text": "• $f_k = 40$" },
-        { "tipe": "paragraph", "text": "• $f_D = 10$" },
-        { "tipe": "paragraph", "text": "• $c = 10$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $D_9$**" },
-        { "tipe": "paragraph", "text": "$D_9 = L + \\left(\\dfrac{\\frac{9}{10}n - f_k}{f_D}\\right) \\cdot c$" },
-        { "tipe": "paragraph", "text": "$D_9 = 49{,}5 + \\left(\\dfrac{45 - 40}{10}\\right) \\cdot 10 = 49{,}5 + 5 = 54{,}5$." },
-        { "tipe": "paragraph", "text": "Nilai pada pilihan yang paling mendekati adalah $53{,}5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan letak dan kelas desil ke-9 ($D_9$)**" },
+        { "tipe": "paragraph", "text": "Dengan $n = 50$, letak $D_9$ berada pada data ke-$\\dfrac{9}{10}(50) = 45$ (frekuensi kumulatif $5, 13, 25, 40, 50$), yaitu pada interval $50-59$ dengan $L = 49{,}5$, $f_k = 40$, $f_D = 10$, dan $c = 10$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $D_9$**" },
+        { "tipe": "formula_block", "latex": "D_9 = L + \\left(\\dfrac{\\frac{9}{10}n - f_k}{f_D}\\right) \\cdot c = 49{,}5 + \\left(\\dfrac{45 - 40}{10}\\right) \\cdot 10 = 49{,}5 + 5 = 54{,}5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai pada pilihan yang paling mendekati adalah **$53{,}5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -145,17 +117,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata ($\\bar{x}$)**" },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{8 + 10 + 12 + 14 + 16}{5} = \\dfrac{60}{5} = 12$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung jumlah nilai mutlak simpangan $|x_i - \\bar{x}|$**" },
-        { "tipe": "paragraph", "text": "• $|8 - 12| = 4$" },
-        { "tipe": "paragraph", "text": "• $|10 - 12| = 2$" },
-        { "tipe": "paragraph", "text": "• $|12 - 12| = 0$" },
-        { "tipe": "paragraph", "text": "• $|14 - 12| = 2$" },
-        { "tipe": "paragraph", "text": "• $|16 - 12| = 4$" },
-        { "tipe": "paragraph", "text": "Jumlah simpangan $= 4 + 2 + 0 + 2 + 4 = 12$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung simpangan rata-rata ($SR$)**" },
-        { "tipe": "paragraph", "text": "$SR = \\dfrac{\\sum |x_i - \\bar{x}|}{n} = \\dfrac{12}{5} = 2{,}4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata ($\\bar{x}$) data**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{8 + 10 + 12 + 14 + 16}{5} = \\dfrac{60}{5} = 12" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung simpangan rata-rata ($SR$)**" },
+        { "tipe": "formula_block", "latex": "SR = \\dfrac{|8 - 12| + |10 - 12| + |12 - 12| + |14 - 12| + |16 - 12|}{5} = \\dfrac{4 + 2 + 0 + 2 + 4}{5} = \\dfrac{12}{5} = 2{,}4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, simpangan rata-rata data tersebut adalah **$2{,}4$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -173,10 +139,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus koefisien variasi ($KV$)**" },
-        { "tipe": "paragraph", "text": "$KV = \\dfrac{S}{\\bar{x}} \\times 100\\%$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan simpangan baku $S = 5$ dan rata-rata $\\bar{x} = 50$**" },
-        { "tipe": "paragraph", "text": "$KV = \\dfrac{5}{50} \\times 100\\% = 0{,}1 \\times 100\\% = 10\\%$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus koefisien variasi ($KV$) dan substitusikan $S = 5$ serta $\\bar{x} = 50$**" },
+        { "tipe": "formula_block", "latex": "KV = \\dfrac{S}{\\bar{x}} \\times 100\\% = \\dfrac{5}{50} \\times 100\\% = 0{,}1 \\times 100\\% = 10\\%" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, koefisien variasi data tersebut adalah **$10\\%$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -195,9 +160,10 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Hitung rata-rata data awal ($\\bar{x}$)**" },
-        { "tipe": "paragraph", "text": "$\\bar{x} = \\dfrac{4 + 5 + 6 + 7 + 8}{5} = \\dfrac{30}{5} = 6$." },
+        { "tipe": "formula_block", "latex": "\\bar{x} = \\dfrac{4 + 5 + 6 + 7 + 8}{5} = \\dfrac{30}{5} = 6" },
         { "tipe": "paragraph", "text": "**Langkah 2: Terapkan transformasi linear $2\\bar{x} + 3$**" },
-        { "tipe": "paragraph", "text": "$\\bar{x}_{\\text{baru}} = 2(6) + 3 = 12 + 3 = 15$." }
+        { "tipe": "formula_block", "latex": "\\bar{x}_{\\text{baru}} = 2(6) + 3 = 12 + 3 = 15" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rata-rata baru data tersebut adalah **$15$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -215,10 +181,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jangkauan ($R$)**" },
-        { "tipe": "paragraph", "text": "$R = x_{\\text{maks}} - x_{\\text{min}}$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $R = 30$ dan $x_{\\text{min}} = 5$ untuk mencari $x_{\\text{maks}}$**" },
-        { "tipe": "paragraph", "text": "$30 = x_{\\text{maks}} - 5 \\Rightarrow x_{\\text{maks}} = 30 + 5 = 35$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus jangkauan ($R = x_{\\text{maks}} - x_{\\text{min}}$) dan substitusikan $R = 30$ serta $x_{\\text{min}} = 5$**" },
+        { "tipe": "formula_block", "latex": "30 = x_{\\text{maks}} - 5 \\Rightarrow x_{\\text{maks}} = 30 + 5 = 35" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, data terbesarnya adalah **$35$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -236,10 +201,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan median dan pisahkan kelompok data bawah ($n = 9$)**" },
-        { "tipe": "paragraph", "text": "Median berada pada data ke-$5$, yaitu $14$. Kelompok data di bawah median adalah $6, 8, 10, 12$." },
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan kelompok data di bawah median ($n = 9$)**" },
+        { "tipe": "paragraph", "text": "Median berada pada data ke-$5$ yaitu $14$, sehingga kelompok data di bawah median adalah $6, 8, 10, 12$." },
         { "tipe": "paragraph", "text": "**Langkah 2: Hitung kuartil pertama ($Q_1$) sebagai nilai tengah kelompok bawah**" },
-        { "tipe": "paragraph", "text": "$Q_1 = \\dfrac{8 + 10}{2} = \\dfrac{18}{2} = 9$." }
+        { "tipe": "formula_block", "latex": "Q_1 = \\dfrac{8 + 10}{2} = \\dfrac{18}{2} = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, kuartil pertama data tersebut adalah **$9$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -257,10 +223,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan nilai ketiga ukuran pemusatan data**" },
-        { "tipe": "paragraph", "text": "Diketahui rata-rata $\\bar{x} = 60$, median $Me = 58$, dan modus $Mo = 55$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Susun urutan ketidaksamaannya**" },
-        { "tipe": "paragraph", "text": "Karena $60 > 58 > 55$, maka hubungan yang benar adalah $\\bar{x} > Me > Mo$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan nilai rata-rata, median, dan modus**" },
+        { "tipe": "formula_block", "latex": "\\bar{x} = 60 > Me = 58 > Mo = 55 \\Rightarrow \\bar{x} > Me > Mo" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hubungan yang benar adalah **$\\bar{x} > Me > Mo$**." }
       ],
       "tingkat": "SULIT"
     }
