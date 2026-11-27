@@ -91,7 +91,7 @@
         { "tipe": "paragraph", "text": "**Langkah 1: Set ketinggian $h(t) = 0$ dan faktorkan persamaannya**" },
         { "tipe": "formula_block", "latex": "50t - 5t^2 = 0 \\Rightarrow 5t(10 - t) = 0" },
         { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $t$ dari setiap faktor**" },
-        { "tipe": "formula_block", "latex": "t = 0 \\text{ (saat ditembakkan)} \\qquad \\text{atau} \\qquad 10 - t = 0 \\Rightarrow t = 10 \\text{ detik}" },
+        { "tipe": "formula_block", "latex": "t = 0 \\text{ (saat ditembakkan)} \\Rightarrow \\text{atau} \\Rightarrow 10 - t = 0 \\Rightarrow t = 10 \\text{ detik}" },
         { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluru kembali ke tanah pada saat **$10$ detik**." }
       ],
       "tingkat": "SEDANG"
@@ -177,7 +177,7 @@
       "jawaban_benar": 0,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Tentukan $\\alpha + \\beta$ dan $\\alpha\\beta$ dari $x^2 + 2x - 8 = 0$**" },
-        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -2, \\qquad \\alpha\\beta = -8" },
+        { "tipe": "formula_block", "latex": "\\alpha + \\beta = -2 \\Rightarrow \\alpha\\beta = -8" },
         { "tipe": "paragraph", "text": "**Langkah 2: Samakan penyebut dan nyatakan dalam $(\\alpha + \\beta)^2 - 2\\alpha\\beta$**" },
         { "tipe": "formula_block", "latex": "\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\dfrac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}" },
         { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan nilai yang telah diperoleh**" },
