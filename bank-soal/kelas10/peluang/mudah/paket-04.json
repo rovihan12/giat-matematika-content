@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu bridge = 52, kartu merah (hati + wajik) = 26." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{26}{52} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu merah ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu dengan $26$ kartu berwarna merah (hati dan wajik)." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{26}{52} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu berwarna merah adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $8 + 5 + 7 = 20$." },
-        { "tipe": "paragraph", "text": "$P(\\text{kuning}) = \\dfrac{7}{20}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh kelereng ($n(S)$) dan banyak kelereng kuning ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total kelereng adalah $8 + 5 + 7 = 20$ sehingga $n(S) = 20$, sedangkan kelereng kuning berjumlah $n(A) = 7$." },
+        { "tipe": "formula_block", "latex": "P(\\text{kuning}) = \\dfrac{7}{20}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kelereng kuning adalah **$\\dfrac{7}{20}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +63,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $5$: $(1,4), (2,3), (3,2), (4,1)$ → $n(A) = 4$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{36} = \\dfrac{1}{9}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $5$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang berjumlah $5$ adalah $(1,4), (2,3), (3,2), (4,1)$ sehingga $n(A) = 4$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{36} = \\dfrac{1}{9}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $5$ adalah **$\\dfrac{1}{9}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,8 +84,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Bilangan genap 1-10: $\\{2, 4, 6, 8, 10\\}$ → $n(A) = 5$, $n(S) = 10$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{10} = \\dfrac{1}{2}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak ruang sampel ($n(S)$) dan banyak bilangan genap ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Dari bilangan $1$ sampai $10$ diperoleh $n(S) = 10$, sedangkan bilangan genapnya adalah $\\{2, 4, 6, 8, 10\\}$ sehingga $n(A) = 5$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{10} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih bilangan genap adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -97,8 +105,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $10$: $(4,6), (5,5), (6,4)$ → $n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{36} = \\dfrac{1}{12}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $10$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang berjumlah $10$ adalah $(4,6), (5,5), (6,4)$ sehingga $n(A) = 3$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{36} = \\dfrac{1}{12}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu berjumlah $10$ adalah **$\\dfrac{1}{12}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -116,9 +126,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kata \"PELUANG\" = 7 huruf: P-E-L-U-A-N-G." },
-        { "tipe": "paragraph", "text": "Vokal: E, U, A → $n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{7}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak huruf total ($n(S)$) dan banyak huruf vokal ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kata \"PELUANG\" terdiri dari $7$ huruf sehingga $n(S) = 7$, dan huruf vokalnya adalah $E, U, A$ sehingga $n(A) = 3$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{7}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih huruf vokal adalah **$\\dfrac{3}{7}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -136,8 +147,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu lebih dari $2$: $\\{3, 4, 5, 6\\}$ → $n(A) = 4$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{6} = \\dfrac{2}{3}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu lebih dari $2$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu lebih dari $2$ adalah $\\{3, 4, 5, 6\\}$ sehingga $n(A) = 4$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{6} = \\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu lebih dari $2$ adalah **$\\dfrac{2}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -155,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan sama: $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$ → $n(A) = 6$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{6}{36} = \\dfrac{1}{6}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu yang sama ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang sama adalah $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$ sehingga $n(A) = 6$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{6}{36} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kedua mata dadu sama adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -174,7 +189,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{kalah}) = 1 - 0{,}35 = 0{,}65$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang kalah merupakan komplemen dari peluang menang dalam permainan." },
+        { "tipe": "formula_block", "latex": "P(\\text{kalah}) = 1 - 0{,}35 = 0{,}65" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kalah adalah **$0{,}65$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -192,9 +210,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan komplemen: kejadian $\\{$tidak ada gambar$\\}$ = semua angka $\\{AAA\\}$." },
-        { "tipe": "paragraph", "text": "$P(AAA) = \\dfrac{1}{8}$" },
-        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan konsep kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian komplemen dari muncul paling sedikit satu gambar adalah tidak ada gambar (semua angka, yaitu $\\{AAA\\}$) dengan peluang $\\dfrac{1}{8}$." },
+        { "tipe": "formula_block", "latex": "P(\\text{paling sedikit satu gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul paling sedikit satu gambar adalah **$\\dfrac{7}{8}$**." }
       ],
       "tingkat": "MUDAH"
     }
