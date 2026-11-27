@@ -19,16 +19,23 @@
         }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x-4) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{8} \\sqrt{2x} \\, dx + \\int_{4}^{8} (x-4) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{8} (x-4) \\, dx - \\int_{0}^{8} \\sqrt{2x} \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{8} (\\sqrt{2x} - x + 4) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{4} \\sqrt{2x} \\, dx + \\int_{4}^{8} (\\sqrt{2x} - x + 4) \\, dx$"}]
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x-4) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{8} \\sqrt{2x} \\, dx + \\int_{4}^{8} (x-4) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{8} (x-4) \\, dx - \\int_{0}^{8} \\sqrt{2x} \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{8} (\\sqrt{2x} - x + 4) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{4} \\sqrt{2x} \\, dx + \\int_{4}^{8} (\\sqrt{2x} - x + 4) \\, dx$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Garis $x - y = 4 \\Rightarrow y = x - 4$. Kurva $y = \\sqrt{2x}$. Titik potong: $\\sqrt{2x} = x - 4 \\Rightarrow 2x = x^2 - 8x + 16 \\Rightarrow x^2 - 10x + 16 = 0 \\Rightarrow x=2$ atau $x=8$." },
-        { "tipe": "paragraph", "text": "Berdasarkan gambar, daerah dibatasi oleh kurva (atas) dari $x=0$ sampai $x=8$ dan garis (bawah) dari $x=4$ sampai $x=8$. Maka rumusnya adalah $\\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x-4) \\, dx$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan persamaan garis ke dalam bentuk $y = f(x)$ dan cari titik potong dengan kurva**" },
+        { "tipe": "formula_block", "latex": "x - y = 4 \\Rightarrow y = x - 4" },
+        { "tipe": "formula_block", "latex": "\\sqrt{2x} = x - 4 \\Rightarrow 2x = x^2 - 8x + 16 \\Rightarrow x^2 - 10x + 16 = 0 \\Rightarrow (x - 2)(x - 8) = 0" },
+        { "tipe": "paragraph", "text": "Diperoleh absis potong $x = 2$ dan $x = 8$ (pada kuadran I yang relevan dengan garis $y = x - 4$ yang memotong sumbu-$X$ di $x = 4$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Analisis batas daerah arsiran berdasarkan grafik**" },
+        { "tipe": "paragraph", "text": "Daerah di bawah kurva $y = \\sqrt{2x}$ terbentang dari $x = 0$ sampai $x = 8$, sedangkan bagian segitiga di bawah garis $y = x - 4$ pada kuadran I terbentang dari $x = 4$ sampai $x = 8$." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Susun rumus luas dengan mengurangkan luas di bawah kurva dengan luas di bawah garis**" },
+        { "tipe": "formula_block", "latex": "L = \\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x - 4) \\, dx" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus integral yang menyatakan luas daerah tersebut adalah **$\\int_{0}^{8} \\sqrt{2x} \\, dx - \\int_{4}^{8} (x-4) \\, dx$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -44,16 +51,22 @@
         }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{\\pi/6} (\\sin 2x - \\cos x) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{\\pi/6} (\\cos x - \\sin 2x) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{\\pi/6}^{\\pi/2} (\\sin 2x - \\cos x) \\, dx$"}]
+        [ { "tipe": "paragraph", "text": "$\\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{\\pi/6} (\\sin 2x - \\cos x) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{\\pi/6} (\\cos x - \\sin 2x) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{\\pi/6}^{\\pi/2} (\\sin 2x - \\cos x) \\, dx$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik potong: $\\cos x = \\sin 2x = 2\\sin x \\cos x \\Rightarrow \\cos x(1 - 2\\sin x) = 0 \\Rightarrow \\sin x = 1/2 \\Rightarrow x = \\pi/6$." },
-        { "tipe": "paragraph", "text": "Pada interval $[\\pi/6, \\pi/2]$, kurva $y = \\cos x$ berada di atas $y = \\sin 2x$. Jadi rumusnya $\\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong kedua kurva pada interval $\\left[0, \\dfrac{\\pi}{2}\\right]$**" },
+        { "tipe": "formula_block", "latex": "\\cos x = \\sin 2x \\Rightarrow \\cos x = 2\\sin x \\cos x \\Rightarrow \\cos x(1 - 2\\sin x) = 0" },
+        { "tipe": "paragraph", "text": "Pada interval $\\left[0, \\dfrac{\\pi}{2}\\right]$, diperoleh $\\sin x = \\dfrac{1}{2} \\Rightarrow x = \\dfrac{\\pi}{6}$ (serta $x = \\dfrac{\\pi}{2}$ sebagai batas kanan daerah)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi posisi kurva atas dan kurva bawah pada interval $\\left[\\dfrac{\\pi}{6}, \\dfrac{\\pi}{2}\\right]$**" },
+        { "tipe": "paragraph", "text": "Pada interval $\\left[\\dfrac{\\pi}{6}, \\dfrac{\\pi}{2}\\right]$, kurva $y = \\cos x$ berada di atas kurva $y = \\sin 2x$ (misalnya di $x = \\dfrac{\\pi}{3}$, $\\cos \\dfrac{\\pi}{3} = 0{,}5 > 0$ sedangkan $\\sin \\dfrac{2\\pi}{3} = \\dfrac{\\sqrt{3}}{2}$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Susun rumus integral luas daerah ($L = \\int_{a}^{b} (y_{\\text{atas}} - y_{\\text{bawah}}) \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "L = \\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus integral yang menyatakan luas daerah tersebut adalah **$\\int_{\\pi/6}^{\\pi/2} (\\cos x - \\sin 2x) \\, dx$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -69,16 +82,21 @@
         }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\int_{-1}^{2} ((x+2) - x^2) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{-1}^{2} (x^2 - (x+2)) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{-2}^{1} ((x+2) - x^2) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{-1}^{2} (x^2 + x + 2) \\, dx$"}],
-        [{"tipe":"paragraph","text":"$\\int_{0}^{2} ((x+2) - x^2) \\, dx$"}]
+        [ { "tipe": "paragraph", "text": "$\\int_{-1}^{2} ((x+2) - x^2) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{-1}^{2} (x^2 - (x+2)) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{-2}^{1} ((x+2) - x^2) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{-1}^{2} (x^2 + x + 2) \\, dx$" } ],
+        [ { "tipe": "paragraph", "text": "$\\int_{0}^{2} ((x+2) - x^2) \\, dx$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik potong: $x^2 = x + 2 \\Rightarrow x^2 - x - 2 = 0 \\Rightarrow (x-2)(x+1)=0 \\Rightarrow x=-1, x=2$." },
-        { "tipe": "paragraph", "text": "Garis berada di atas kurva, sehingga luas = $\\int_{-1}^{2} ((x+2) - x^2) \\, dx$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong kurva $y = x^2$ dan garis $y = x + 2$ sebagai batas integral**" },
+        { "tipe": "formula_block", "latex": "x^2 = x + 2 \\Rightarrow x^2 - x - 2 = 0 \\Rightarrow (x - 2)(x + 1) = 0 \\Rightarrow x = -1 \\quad \\text{atau} \\quad x = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Identifikasi posisi kurva atas dan kurva bawah pada interval $[-1, 2]$**" },
+        { "tipe": "paragraph", "text": "Pada interval $[-1, 2]$, garis $y = x + 2$ berada di atas parabola $y = x^2$ (uji $x = 0 \\Rightarrow 2 > 0$)." },
+        { "tipe": "paragraph", "text": "**Langkah 3: Susun rumus integral luas daerah ($L = \\int_{a}^{b} (y_{\\text{atas}} - y_{\\text{bawah}}) \\, dx$)**" },
+        { "tipe": "formula_block", "latex": "L = \\int_{-1}^{2} \\left((x + 2) - x^2\\right) dx" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus integral yang menyatakan luas daerah tersebut adalah **$\\int_{-1}^{2} ((x+2) - x^2) \\, dx$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -88,17 +106,22 @@
         { "tipe": "paragraph", "text": "Luas daerah yang dibatasi oleh kurva $y = x^2$ dan garis $y = 5x - 4$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{9}{2}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{11}{6}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{8}{3}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{11}{2}$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{15}{2}$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{9}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{8}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{11}{2}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{2}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik potong: $x^2 = 5x - 4 \\Rightarrow x^2 - 5x + 4 = 0 \\Rightarrow x=1, x=4$." },
-        { "tipe": "formula_block", "latex": "L = \\int_{1}^{4} ((5x-4) - x^2) \\, dx = [\\dfrac{5}{2}x^2 - 4x - \\dfrac{1}{3}x^3]_{1}^{4}" },
-        { "tipe": "formula_block", "latex": "= (40 - 16 - \\dfrac{64}{3}) - (2.5 - 4 - \\dfrac{1}{3}) = \\dfrac{8}{3} - (-\\dfrac{11}{6}) = \\dfrac{27}{6} = \\dfrac{9}{2}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong kurva $y = x^2$ dan garis $y = 5x - 4$ sebagai batas integral**" },
+        { "tipe": "formula_block", "latex": "x^2 = 5x - 4 \\Rightarrow x^2 - 5x + 4 = 0 \\Rightarrow (x - 1)(x - 4) = 0 \\Rightarrow x = 1 \\quad \\text{atau} \\quad x = 4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun integral tentu dengan kurva atas $y = 5x - 4$ dan kurva bawah $y = x^2$ pada interval $[1, 4]$**" },
+        { "tipe": "formula_block", "latex": "L = \\int_{1}^{4} \\left((5x - 4) - x^2\\right) dx = \\left[ \\dfrac{5}{2}x^2 - 4x - \\dfrac{1}{3}x^3 \\right]_{1}^{4}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan batas atas $x = 4$ dan batas bawah $x = 1$**" },
+        { "tipe": "formula_block", "latex": "L = \\left( \\dfrac{5}{2}(16) - 4(4) - \\dfrac{64}{3} \\right) - \\left( \\dfrac{5}{2}(1) - 4(1) - \\dfrac{1}{3}(1) \\right)" },
+        { "tipe": "formula_block", "latex": "L = \\left( 40 - 16 - \\dfrac{64}{3} \\right) - \\left( \\dfrac{5}{2} - 4 - \\dfrac{1}{3} \\right) = \\dfrac{8}{3} - \\left(-\\dfrac{11}{6}\\right) = \\dfrac{16 + 11}{6} = \\dfrac{27}{6} = \\dfrac{9}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas daerah tersebut adalah **$\\dfrac{9}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -108,15 +131,19 @@
         { "tipe": "paragraph", "text": "Volume benda putar yang dibatasi oleh kurva $y = \\sqrt{x}$, sumbu-$x$, garis $x = 1$, dan garis $x = 4$ diputar mengelilingi sumbu-$x$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{15}{2}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{7}{2}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{5}{2}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{3}{2}\\pi$"}],
-        [{"tipe":"paragraph","text":"$12\\pi$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{15}{2}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{7}{2}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{5}{2}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{3}{2}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$12\\pi$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "formula_block", "latex": "V = \\pi \\int_{1}^{4} (\\sqrt{x})^2 \\, dx = \\pi \\int_{1}^{4} x \\, dx = \\pi [\\dfrac{1}{2}x^2]_{1}^{4} = \\pi(8 - 0.5) = \\dfrac{15}{2}\\pi" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun integral volume benda putar dengan metode cakram pada interval $[1, 4]$**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{1}^{4} (\\sqrt{x})^2 \\, dx = \\pi \\int_{1}^{4} x \\, dx = \\pi \\left[ \\dfrac{1}{2}x^2 \\right]_{1}^{4}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan batas atas $x = 4$ dan batas bawah $x = 1$**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left( \\dfrac{1}{2}(4)^2 - \\dfrac{1}{2}(1)^2 \\right) = \\pi \\left( 8 - \\dfrac{1}{2} \\right) = \\dfrac{15}{2}\\pi" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, volume benda putar tersebut adalah **$\\dfrac{15}{2}\\pi$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,18 +153,22 @@
         { "tipe": "paragraph", "text": "Luas daerah yang dibatasi oleh parabola $y = 4x - x^2$, garis $y = -2x + 8$, dan sumbu-$Y$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$6\\dfrac{2}{3}$"}],
-        [{"tipe":"paragraph","text":"$4\\dfrac{2}{3}$"}],
-        [{"tipe":"paragraph","text":"$12\\dfrac{2}{3}$"}],
-        [{"tipe":"paragraph","text":"$20\\dfrac{2}{3}$"}],
-        [{"tipe":"paragraph","text":"$10\\dfrac{1}{3}$"}]
+        [ { "tipe": "paragraph", "text": "$6\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$4\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$12\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$20\\dfrac{2}{3}$" } ],
+        [ { "tipe": "paragraph", "text": "$10\\dfrac{1}{3}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik potong parabola dan garis: $4x-x^2 = -2x+8 \\Rightarrow x^2-6x+8=0 \\Rightarrow x=2, x=4$. Batas sumbu-Y adalah $x=0$." },
-        { "tipe": "paragraph", "text": "Pada interval $0 \\le x \\le 2$, garis $y = -2x+8$ berada di atas parabola $y = 4x-x^2$." },
-        { "tipe": "formula_block", "latex": "L = \\int_{0}^{2} ((-2x+8) - (4x-x^2)) \\, dx = \\int_{0}^{2} (x^2-6x+8) \\, dx" },
-        { "tipe": "formula_block", "latex": "= [\\dfrac{1}{3}x^3 - 3x^2 + 8x]_{0}^{2} = \\dfrac{8}{3} - 12 + 16 = \\dfrac{20}{3} = 6\\dfrac{2}{3}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari titik potong parabola dan garis untuk menentukan batas kanan daerah**" },
+        { "tipe": "formula_block", "latex": "4x - x^2 = -2x + 8 \\Rightarrow x^2 - 6x + 8 = 0 \\Rightarrow (x - 2)(x - 4) = 0 \\Rightarrow x = 2 \\quad \\text{atau} \\quad x = 4" },
+        { "tipe": "paragraph", "text": "Karena daerah dibatasi pula oleh sumbu-$Y$ ($x = 0$) dan pertemuan pertama dari kiri terjadi di $x = 2$, maka interval integrasinya adalah $[0, 2]$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun integral tentu dengan garis $y = -2x + 8$ sebagai kurva atas dan parabola $y = 4x - x^2$ sebagai kurva bawah**" },
+        { "tipe": "formula_block", "latex": "L = \\int_{0}^{2} \\left((-2x + 8) - (4x - x^2)\\right) dx = \\int_{0}^{2} (x^2 - 6x + 8) \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Integralkan dan substitusikan batas atas $x = 2$ serta batas bawah $x = 0$**" },
+        { "tipe": "formula_block", "latex": "L = \\left[ \\dfrac{1}{3}x^3 - 3x^2 + 8x \\right]_{0}^{2} = \\left( \\dfrac{1}{3}(2)^3 - 3(2)^2 + 8(2) \\right) - 0 = \\dfrac{8}{3} - 12 + 16 = \\dfrac{20}{3} = 6\\dfrac{2}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas daerah tersebut adalah **$6\\dfrac{2}{3}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -147,17 +178,22 @@
         { "tipe": "paragraph", "text": "Volume benda putar yang terjadi jika daerah yang dibatasi oleh kurva $y = 2x^2$ dan $y = 4x$ bila diputar mengelilingi sumbu-$X$ sejauh $360^\\circ$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{256}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{256}{18}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{320}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{265}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{320}{18}\\pi$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{256}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{256}{18}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{320}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{265}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{320}{18}\\pi$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik potong: $2x^2 = 4x \\Rightarrow 2x(x-2)=0 \\Rightarrow x=0, x=2$." },
-        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{2} [(4x)^2 - (2x^2)^2] \\, dx = \\pi \\int_{0}^{2} (16x^2 - 4x^4) \\, dx" },
-        { "tipe": "formula_block", "latex": "= \\pi [\\dfrac{16}{3}x^3 - \\dfrac{4}{5}x^5]_{0}^{2} = \\pi (\\dfrac{128}{3} - \\dfrac{128}{5}) = 128\\pi(\\dfrac{2}{15}) = \\dfrac{256}{15}\\pi" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong antara kurva $y = 2x^2$ dan garis $y = 4x$**" },
+        { "tipe": "formula_block", "latex": "2x^2 = 4x \\Rightarrow 2x(x - 2) = 0 \\Rightarrow x = 0 \\quad \\text{atau} \\quad x = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun integral volume metode cincin pada interval $[0, 2]$ dengan garis $y = 4x$ sebagai jari-jari luar**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{2} \\left[(4x)^2 - (2x^2)^2\\right] dx = \\pi \\int_{0}^{2} (16x^2 - 4x^4) \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Integralkan dan substitusikan batas atas $x = 2$ serta batas bawah $x = 0$**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left[ \\dfrac{16}{3}x^3 - \\dfrac{4}{5}x^5 \\right]_{0}^{2} = \\pi \\left( \\dfrac{16}{3}(8) - \\dfrac{4}{5}(32) \\right) - 0" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left( \\dfrac{128}{3} - \\dfrac{128}{5} \\right) = 128\\pi \\left( \\dfrac{5 - 3}{15} \\right) = \\dfrac{256}{15}\\pi" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, volume benda putar tersebut adalah **$\\dfrac{256}{15}\\pi$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -167,17 +203,23 @@
         { "tipe": "paragraph", "text": "Volume benda putar yang terbentuk dari daerah yang dibatasi oleh kurva $x = \\sqrt{3}y^2$, lingkaran $x^2 + y^2 = 4$ dan sumbu-$X$, diputar mengelilingi sumbu-$Y$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{46}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{16}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{34}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{32}{15}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{40}{15}\\pi$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{46}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{16}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{34}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{32}{15}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{40}{15}\\pi$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik potong: $(\\sqrt{3}y^2)^2 + y^2 = 4 \\Rightarrow 3y^4 + y^2 - 4 = 0 \\Rightarrow (3y^2+4)(y^2-1)=0 \\Rightarrow y=1$." },
-        { "tipe": "paragraph", "text": "Volume = $\\pi \\int_{0}^{1} [(\\sqrt{4-y^2})^2 - (\\sqrt{3}y^2)^2] \\, dy = \\pi \\int_{0}^{1} (4 - y^2 - 3y^4) \\, dy$." },
-        { "tipe": "formula_block", "latex": "= \\pi [4y - \\dfrac{1}{3}y^3 - \\dfrac{3}{5}y^5]_{0}^{1} = \\pi(4 - \\dfrac{1}{3} - \\dfrac{3}{5}) = \\pi(\\dfrac{60-5-9}{15}) = \\dfrac{46}{15}\\pi" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Cari titik potong kurva $x = \\sqrt{3}y^2$ dan lingkaran $x^2 + y^2 = 4$ ($y \\ge 0$)**" },
+        { "tipe": "formula_block", "latex": "(\\sqrt{3}y^2)^2 + y^2 = 4 \\Rightarrow 3y^4 + y^2 - 4 = 0 \\Rightarrow (3y^2 + 4)(y^2 - 1) = 0 \\Rightarrow y = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun integral volume mengelilingi sumbu-$Y$ pada batas $y = 0$ hingga $y = 1$**" },
+        { "tipe": "paragraph", "text": "Pada interval $[0, 1]$, batas luar adalah lingkaran $x^2 = 4 - y^2$ dan batas dalam adalah kurva $x^2 = 3y^4$, sehingga:" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{0}^{1} \\left[(4 - y^2) - 3y^4\\right] dy = \\pi \\int_{0}^{1} (4 - y^2 - 3y^4) \\, dy" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Integralkan dan substitusikan batas atas $y = 1$ serta batas bawah $y = 0$**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left[ 4y - \\dfrac{1}{3}y^3 - \\dfrac{3}{5}y^5 \\right]_{0}^{1} = \\pi \\left( 4 - \\dfrac{1}{3} - \\dfrac{3}{5} \\right) - 0" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left( \\dfrac{60 - 5 - 9}{15} \\right) = \\dfrac{46}{15}\\pi" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, volume benda putar tersebut adalah **$\\dfrac{46}{15}\\pi$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -187,17 +229,23 @@
         { "tipe": "paragraph", "text": "Daerah yang dibatasi oleh kurva $y = x^2$ dan garis $x + y - 2 = 0$ diputar mengelilingi sumbu-$X$. Volume benda putar yang terjadi adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$14\\dfrac{2}{5}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{72}{5}\\pi$"}],
-        [{"tipe":"paragraph","text":"$15\\dfrac{2}{3}\\pi$"}],
-        [{"tipe":"paragraph","text":"$10\\dfrac{3}{5}\\pi$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{32}{5}\\pi$"}]
+        [ { "tipe": "paragraph", "text": "$14\\dfrac{2}{5}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{72}{5}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$15\\dfrac{2}{3}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$10\\dfrac{3}{5}\\pi$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{32}{5}\\pi$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Garis $y = -x + 2$. Titik potong: $x^2 = -x + 2 \\Rightarrow x^2+x-2=0 \\Rightarrow x=1, x=-2$." },
-        { "tipe": "formula_block", "latex": "V = \\pi \\int_{-2}^{1} [(-x+2)^2 - (x^2)^2] \\, dx = \\pi \\int_{-2}^{1} (x^2 - 4x + 4 - x^4) \\, dx" },
-        { "tipe": "formula_block", "latex": "= \\pi [\\dfrac{1}{3}x^3 - 2x^2 + 4x - \\dfrac{1}{5}x^5]_{-2}^{1} = \\pi [\\dfrac{32}{15} - (-\\dfrac{184}{15})] = \\dfrac{216}{15}\\pi = \\dfrac{72}{5}\\pi = 14\\dfrac{2}{5}\\pi" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Ubah persamaan garis menjadi $y = -x + 2$ dan cari titik potong dengan kurva $y = x^2$**" },
+        { "tipe": "formula_block", "latex": "x^2 = -x + 2 \\Rightarrow x^2 + x - 2 = 0 \\Rightarrow (x - 1)(x + 2) = 0 \\Rightarrow x = -2 \\quad \\text{atau} \\quad x = 1" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun integral volume metode cincin pada interval $[-2, 1]$ dengan garis $y = -x + 2$ di luar parabola $y = x^2$**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\int_{-2}^{1} \\left[(-x + 2)^2 - (x^2)^2\\right] dx = \\pi \\int_{-2}^{1} (x^2 - 4x + 4 - x^4) \\, dx" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Integralkan dan substitusikan batas atas $x = 1$ serta batas bawah $x = -2$**" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left[ \\dfrac{1}{3}x^3 - 2x^2 + 4x - \\dfrac{1}{5}x^5 \\right]_{-2}^{1}" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left[ \\left(\\dfrac{1}{3} - 2 + 4 - \\dfrac{1}{5}\\right) - \\left(-\\dfrac{8}{3} - 8 - 8 + \\dfrac{32}{5}\\right) \\right]" },
+        { "tipe": "formula_block", "latex": "V = \\pi \\left( \\dfrac{32}{15} - \\left(-\\dfrac{184}{15}\\right) \\right) = \\dfrac{216}{15}\\pi = \\dfrac{72}{5}\\pi = 14\\dfrac{2}{5}\\pi" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, volume benda putar tersebut adalah **$14\\dfrac{2}{5}\\pi$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -207,17 +255,21 @@
         { "tipe": "paragraph", "text": "Luas daerah yang dibatasi oleh kurva $y = x^2$ dan garis $x + y = 6$ adalah ..." }
       ],
       "pilihan": [
-        [{"tipe":"paragraph","text":"$\\dfrac{125}{6}$"}],
-        [{"tipe":"paragraph","text":"$54$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{44}{6}$"}],
-        [{"tipe":"paragraph","text":"$18$"}],
-        [{"tipe":"paragraph","text":"$\\dfrac{32}{3}$"}]
+        [ { "tipe": "paragraph", "text": "$\\dfrac{125}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$54$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{44}{6}$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$\\dfrac{32}{3}$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Garis $y = -x + 6$. Titik potong: $x^2 = -x+6 \\Rightarrow x^2+x-6=0 \\Rightarrow x=-3, x=2$." },
-        { "tipe": "formula_block", "latex": "L = \\int_{-3}^{2} ((-x+6) - x^2) \\, dx = [-\\dfrac{1}{3}x^3 - \\dfrac{1}{2}x^2 + 6x]_{-3}^{2}" },
-        { "tipe": "formula_block", "latex": "= (-\\dfrac{8}{3} - 2 + 12) - (9 - 4.5 - 18) = (\\dfrac{22}{3}) - (-13.5) = \\dfrac{22}{3} + \\dfrac{27}{2} = \\dfrac{125}{6}" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan garis sebagai $y = -x + 6$ dan cari titik potong dengan parabola $y = x^2$**" },
+        { "tipe": "formula_block", "latex": "x^2 = -x + 6 \\Rightarrow x^2 + x - 6 = 0 \\Rightarrow (x + 3)(x - 2) = 0 \\Rightarrow x = -3 \\quad \\text{atau} \\quad x = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Susun integral tentu dengan garis $y = -x + 6$ sebagai kurva atas dan parabola $y = x^2$ sebagai kurva bawah pada interval $[-3, 2]$**" },
+        { "tipe": "formula_block", "latex": "L = \\int_{-3}^{2} \\left((-x + 6) - x^2\\right) dx = \\left[ -\\dfrac{1}{3}x^3 - \\dfrac{1}{2}x^2 + 6x \\right]_{-3}^{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Substitusikan batas atas $x = 2$ dan batas bawah $x = -3$**" },
+        { "tipe": "formula_block", "latex": "L = \\left( -\\dfrac{8}{3} - 2 + 12 \\right) - \\left( 9 - \\dfrac{9}{2} - 18 \\right) = \\dfrac{22}{3} - \\left(-\\dfrac{27}{2}\\right) = \\dfrac{44 + 81}{6} = \\dfrac{125}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas daerah tersebut adalah **$\\dfrac{125}{6}$**." }
       ],
       "tingkat": "SULIT"
     }
