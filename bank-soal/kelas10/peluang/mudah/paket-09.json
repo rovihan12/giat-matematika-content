@@ -21,8 +21,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $5$: $(1,4), (2,3), (3,2), (4,1) \\rightarrow n(A) = 4$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{4}{36} = \\dfrac{1}{9}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $5$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang berjumlah $5$ adalah $(1,4), (2,3), (3,2), (4,1)$ sehingga $n(A) = 4$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{36} = \\dfrac{1}{9}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul jumlah mata dadu $5$ adalah **$\\dfrac{1}{9}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -40,8 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Pasangan berjumlah $10$: $(4,6), (5,5), (6,4) \\rightarrow n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{36} = \\dfrac{1}{12}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak pasangan mata dadu berjumlah $10$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan mata dadu yang berjumlah $10$ adalah $(4,6), (5,5), (6,4)$ sehingga $n(A) = 3$, dengan $n(S) = 36$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{36} = \\dfrac{1}{12}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu berjumlah $10$ adalah **$\\dfrac{1}{12}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -59,8 +63,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian $\\{1, 2\\} \\rightarrow n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu $1$ atau $2$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kejadian muncul mata dadu $1$ atau $2$ adalah $\\{1, 2\\}$ sehingga $n(A) = 2$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{6} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu $1$ atau $2$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -78,8 +84,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total = $3 + 4 + 5 = 12$." },
-        { "tipe": "paragraph", "text": "$P(\\text{biru}) = \\dfrac{4}{12} = \\dfrac{1}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh bola ($n(S)$) dan banyak bola biru ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total bola adalah $3 + 4 + 5 = 12$ sehingga $n(S) = 12$, dan banyak bola biru adalah $n(A) = 4$." },
+        { "tipe": "formula_block", "latex": "P(\\text{biru}) = \\dfrac{4}{12} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil bola biru adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -97,7 +105,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian mustahil tidak mungkin terjadi $\\rightarrow P(A) = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat kejadian mustahil dalam peluang**" },
+        { "tipe": "paragraph", "text": "Kejadian mustahil tidak memiliki titik sampel ($n(A) = 0$) karena tidak mungkin terjadi." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{0}{n(S)} = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kejadian mustahil adalah **$0$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -115,9 +126,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Gunakan komplemen: kejadian $\\{$tidak ada gambar$\\}$ = semua angka $\\{AAA\\}$." },
-        { "tipe": "paragraph", "text": "$P(AAA) = \\dfrac{1}{8}$." },
-        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan konsep kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian komplemen dari muncul paling sedikit satu gambar adalah tidak ada gambar (semua angka, yaitu $\\{AAA\\}$) dengan peluang $\\dfrac{1}{8}$." },
+        { "tipe": "formula_block", "latex": "P(\\text{paling sedikit satu gambar}) = 1 - \\dfrac{1}{8} = \\dfrac{7}{8}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul paling sedikit satu gambar adalah **$\\dfrac{7}{8}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -135,9 +147,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu ganjil: $\\{1, 3, 5\\} \\rightarrow P = \\dfrac{3}{6} = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "Mata dadu genap: $\\{2, 4, 6\\} \\rightarrow P = \\dfrac{3}{6} = \\dfrac{1}{2}$." },
-        { "tipe": "paragraph", "text": "Peluang gabungan = $\\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan peluang masing-masing kejadian pada dadu pertama dan dadu kedua**" },
+        { "tipe": "paragraph", "text": "Mata dadu ganjil adalah $\\{1, 3, 5\\}$ dengan $P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}$, sedangkan mata dadu genap adalah $\\{2, 4, 6\\}$ dengan $P(B) = \\dfrac{3}{6} = \\dfrac{1}{2}$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang dua kejadian saling bebas**" },
+        { "tipe": "formula_block", "latex": "P(A \\cap B) = \\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu pertama ganjil dan mata dadu kedua genap adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -155,8 +169,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlah kartu As = 4, total kartu = 52." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{52} = \\dfrac{1}{13}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu As ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu dan memiliki $4$ kartu As." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{52} = \\dfrac{1}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu As adalah **$\\dfrac{1}{13}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -174,7 +190,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kejadian pasti/mutlak selalu memiliki peluang bernilai $1$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan sifat kejadian pasti dalam peluang**" },
+        { "tipe": "paragraph", "text": "Kejadian pasti selalu terjadi sehingga banyak titik sampel kejadian sama dengan banyak titik sampel ruang sampel ($n(A) = n(S)$)." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(S)}{n(S)} = 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang suatu kejadian pasti adalah **$1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -192,8 +211,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu prima ganjil: $\\{3, 5\\} \\rightarrow n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu prima ganjil ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu prima adalah $\\{2, 3, 5\\}$, sehingga yang bernilai ganjil adalah $\\{3, 5\\}$ dengan $n(A) = 2$ dan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{6} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu prima ganjil adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     }
