@@ -9,148 +9,208 @@
   "soal": [
     {
       "id": "bs-k10-spl-m-09-q01",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y + z = 14$, $x = 3$, $y = 5$. Nilai $z$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 14$, $x = 3$, $y = 5$. Nilai $z$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }]
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3 + 5 + z = 14 \\Rightarrow z = 6$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 3$ dan $y = 5$ ke persamaan $x + y + z = 14$**" },
+        { "tipe": "formula_block", "latex": "3 + 5 + z = 14 \\Rightarrow 8 + z = 14 \\Rightarrow z = 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $z$ adalah **$6$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $a + b = 7$, $b + c = 9$, dan $c = 4$. Nilai $a$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $a + b = 7$, $b + c = 9$, dan $c = 4$. Nilai $a$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$1$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$b = 9 - 4 = 5$; $a = 7 - 5 = 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $c = 4$ ke $b + c = 9$ untuk memperoleh nilai $b$**" },
+        { "tipe": "formula_block", "latex": "b + 4 = 9 \\Rightarrow b = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $b = 5$ ke $a + b = 7$ untuk memperoleh nilai $a$**" },
+        { "tipe": "formula_block", "latex": "a + 5 = 7 \\Rightarrow a = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a$ adalah **$2$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $x + 6 < 3x - 2$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $x + 6 < 3x - 2$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x > 4$" }],
-        [{ "tipe": "paragraph", "text": "$x < 4$" }],
-        [{ "tipe": "paragraph", "text": "$x > -4$" }],
-        [{ "tipe": "paragraph", "text": "$x < -4$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq 4$" }]
+        [ { "tipe": "paragraph", "text": "$x > 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 4$" } ],
+        [ { "tipe": "paragraph", "text": "$x > -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -4$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 4$" } ]
       ],
       "jawaban_benar": 0,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$8 < 2x \\Rightarrow x > 4$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Kelompokkan suku bervariabel $x$ dan konstanta pada ruas yang berbeda**" },
+        { "tipe": "formula_block", "latex": "6 + 2 < 3x - x \\Rightarrow 8 < 2x \\Rightarrow x > 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x > 4$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q04",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y + z = 20$, $x + y = 13$, $y + z = 15$. Nilai $y$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 20$, $x + y = 13$, $y + z = 15$. Nilai $y$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }],
-        [{ "tipe": "paragraph", "text": "$9$" }],
-        [{ "tipe": "paragraph", "text": "$10$" }]
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$z = 20 - 13 = 7$; $y = 15 - 7 = 8$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $z$ dari $x + y + z = 20$ dan $x + y = 13$**" },
+        { "tipe": "formula_block", "latex": "z = 20 - (x + y) = 20 - 13 = 7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $z = 7$ ke $y + z = 15$ untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "y + 7 = 15 \\Rightarrow y = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $y$ adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{2x - 1}{3} = 3$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{2x - 1}{3} = 3$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }]
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
       "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$2x - 1 = 9 \\Rightarrow 2x = 10 \\Rightarrow x = 5$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Kalikan kedua ruas dengan $3$ lalu selesaikan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{2x - 1}{3} = 3 \\Rightarrow 2x - 1 = 9 \\Rightarrow 2x = 10 \\Rightarrow x = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$5$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $4 - 5x \\leq -6$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $4 - 5x \\leq -6$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x \\leq 2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq 2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\leq -2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq -2$" }],
-        [{ "tipe": "paragraph", "text": "$x < 2$" }]
+        [ { "tipe": "paragraph", "text": "$x \\leq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$" } ]
       ],
       "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$-5x \\leq -10 \\Rightarrow x \\geq 2$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan $4$ lalu bagi kedua ruas dengan $-5$ (tanda dibalik)**" },
+        { "tipe": "formula_block", "latex": "4 - 5x \\leq -6 \\Rightarrow -5x \\leq -10 \\Rightarrow x \\geq 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\geq 2$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui sistem $x + y + z = 6$, $x = 1$, $z = 2$. Nilai $y$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui sistem $x + y + z = 6$, $x = 1$, $z = 2$. Nilai $y$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }]
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ]
       ],
       "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$1 + y + 2 = 6 \\Rightarrow y = 3$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 1$ dan $z = 2$ ke persamaan $x + y + z = 6$**" },
+        { "tipe": "formula_block", "latex": "1 + y + 2 = 6 \\Rightarrow 3 + y = 6 \\Rightarrow y = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $y$ adalah **$3$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $3(x + 2) \\geq 15$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $3(x + 2) \\geq 15$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x \\geq 3$" }],
-        [{ "tipe": "paragraph", "text": "$x \\leq 3$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq 5$" }],
-        [{ "tipe": "paragraph", "text": "$x \\leq 5$" }],
-        [{ "tipe": "paragraph", "text": "$x > 3$" }]
+        [ { "tipe": "paragraph", "text": "$x \\geq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 3$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\leq 5$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 3$" } ]
       ],
       "jawaban_benar": 0,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3x + 6 \\geq 15 \\Rightarrow 3x \\geq 9 \\Rightarrow x \\geq 3$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan tanda kurung dan selesaikan pertidaksamaan**" },
+        { "tipe": "formula_block", "latex": "3(x + 2) \\geq 15 \\Rightarrow 3x + 6 \\geq 15 \\Rightarrow 3x \\geq 9 \\Rightarrow x \\geq 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\geq 3$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $x + y = 12$, $y + z = 14$, $x + z = 16$. Nilai $x + y + z$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $x + y = 12$, $y + z = 14$, $x + z = 16$. Nilai $x + y + z$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$18$" }],
-        [{ "tipe": "paragraph", "text": "$19$" }],
-        [{ "tipe": "paragraph", "text": "$20$" }],
-        [{ "tipe": "paragraph", "text": "$21$" }],
-        [{ "tipe": "paragraph", "text": "$22$" }]
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$19$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ],
+        [ { "tipe": "paragraph", "text": "$21$" } ],
+        [ { "tipe": "paragraph", "text": "$22$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x + y + z = \\dfrac{12 + 14 + 16}{2} = 21$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan ketiga persamaan untuk memperoleh nilai $x + y + z$**" },
+        { "tipe": "formula_block", "latex": "(x + y) + (y + z) + (x + z) = 12 + 14 + 16 \\Rightarrow 2(x + y + z) = 42 \\Rightarrow x + y + z = 21" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y + z$ adalah **$21$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-09-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ bulat terbesar yang memenuhi $2x + 5 \\leq 11$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ bulat terbesar yang memenuhi $2x + 5 \\leq 11$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$1$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$2x \\leq 6 \\Rightarrow x \\leq 3$; bulat terbesar $= 3$." }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan untuk memperoleh batas nilai $x$**" },
+        { "tipe": "formula_block", "latex": "2x + 5 \\leq 11 \\Rightarrow 2x \\leq 6 \\Rightarrow x \\leq 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan bilangan bulat terbesar yang memenuhi $x \\leq 3$**" },
+        { "tipe": "paragraph", "text": "Bilangan bulat terbesar yang kurang dari atau sama dengan $3$ adalah $3$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ bulat terbesar yang memenuhi adalah **$3$**." }
+      ],
       "tingkat": "MUDAH"
     }
   ]
