@@ -21,16 +21,12 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat tiga variabel**" },
-        { "tipe": "paragraph", "text": "$(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui ke dalam rumus**" },
-        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 12$ dan $x^2 + y^2 + z^2 = 56$, maka:" },
-        { "tipe": "paragraph", "text": "$(12)^2 = 56 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "$144 = 56 + 2(xy + yz + zx)$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Selesaikan persamaan untuk mencari $xy + yz + zx$**" },
-        { "tipe": "paragraph", "text": "$2(xy + yz + zx) = 144 - 56$" },
-        { "tipe": "paragraph", "text": "$2(xy + yz + zx) = 88$" },
-        { "tipe": "paragraph", "text": "$xy + yz + zx = \\dfrac{88}{2} = 44$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat tiga variabel dan substitusikan nilai yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui $x + y + z = 12$ dan $x^2 + y^2 + z^2 = 56$:" },
+        { "tipe": "formula_block", "latex": "(x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx) \\Rightarrow 12^2 = 56 + 2(xy + yz + zx)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk memperoleh nilai $xy + yz + zx$**" },
+        { "tipe": "formula_block", "latex": "144 - 56 = 2(xy + yz + zx) \\Rightarrow 2(xy + yz + zx) = 88 \\Rightarrow xy + yz + zx = 44" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xy + yz + zx$ adalah **$44$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -48,15 +44,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $\\dfrac{1}{y}$ dengan menjumlahkan kedua persamaan**" },
-        { "tipe": "paragraph", "text": "$\\left(\\dfrac{1}{x} + \\dfrac{1}{y}\\right) + \\left(\\dfrac{1}{x} - \\dfrac{1}{y}\\right) = \\dfrac{5}{6} + \\dfrac{1}{6}$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{2}{x} = \\dfrac{6}{6} = 1 \\Rightarrow x = 2$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 2$ ke persamaan pertama untuk mencari $y$**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{2} + \\dfrac{1}{y} = \\dfrac{5}{6}$" },
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{y} = \\dfrac{5}{6} - \\dfrac{1}{2} = \\dfrac{5 - 3}{6} = \\dfrac{2}{6} = \\dfrac{1}{3}$" },
-        { "tipe": "paragraph", "text": "Diperoleh $y = 3$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $x + y$**" },
-        { "tipe": "paragraph", "text": "$x + y = 2 + 3 = 5$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan kedua persamaan untuk mencari nilai $x$**" },
+        { "tipe": "formula_block", "latex": "\\left(\\dfrac{1}{x} + \\dfrac{1}{y}\\right) + \\left(\\dfrac{1}{x} - \\dfrac{1}{y}\\right) = \\dfrac{5}{6} + \\dfrac{1}{6} \\Rightarrow \\dfrac{2}{x} = 1 \\Rightarrow x = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 2$ untuk mencari $y$, lalu hitung $x + y$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{2} + \\dfrac{1}{y} = \\dfrac{5}{6} \\Rightarrow \\dfrac{1}{y} = \\dfrac{1}{3} \\Rightarrow y = 3" },
+        { "tipe": "formula_block", "latex": "x + y = 2 + 3 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y$ adalah **$5$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -75,12 +68,11 @@
       "jawaban_benar": 2,
       "pembahasan": [
         { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas kuadrat jumlah tiga bilangan**" },
-        { "tipe": "paragraph", "text": "$(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui** (informasi $abc = 6$ tidak diperlukan dalam rumus ini)" },
-        { "tipe": "paragraph", "text": "$(6)^2 = a^2 + b^2 + c^2 + 2(11)$" },
-        { "tipe": "paragraph", "text": "$36 = a^2 + b^2 + c^2 + 22$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $a^2 + b^2 + c^2$**" },
-        { "tipe": "paragraph", "text": "$a^2 + b^2 + c^2 = 36 - 22 = 14$." }
+        { "tipe": "paragraph", "text": "Diketahui $a + b + c = 6$ dan $ab + bc + ca = 11$ (informasi $abc = 6$ tidak diperlukan pada rumus ini):" },
+        { "tipe": "formula_block", "latex": "(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui untuk mencari $a^2 + b^2 + c^2$**" },
+        { "tipe": "formula_block", "latex": "6^2 = a^2 + b^2 + c^2 + 2(11) \\Rightarrow 36 = a^2 + b^2 + c^2 + 22 \\Rightarrow a^2 + b^2 + c^2 = 14" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $a^2 + b^2 + c^2$ adalah **$14$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -98,17 +90,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik potong garis batas dengan sumbu koordinat**" },
-        { "tipe": "paragraph", "text": "• Garis $x + y = 6$: memotong sumbu-$x$ di $(6, 0)$ dan sumbu-$y$ di $(0, 6)$." },
-        { "tipe": "paragraph", "text": "• Garis $x + 2y = 6$: memotong sumbu-$x$ di $(6, 0)$ dan sumbu-$y$ di $(0, 3)$." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan titik-titik sudut daerah penyelesaian**" },
-        { "tipe": "paragraph", "text": "Daerah fisibel berada di kuadran I ($x \\geq 0, y \\geq 0$), di bawah garis $x + y = 6$, dan di atas garis $x + 2y = 6$." },
-        { "tipe": "paragraph", "text": "Ketiga titik sudut yang membatasi daerah segitiga tersebut adalah $(0, 3)$, $(0, 6)$, dan $(6, 0)$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Uji setiap titik sudut ke fungsi objektif $f(x, y) = 2x + 3y$**" },
-        { "tipe": "paragraph", "text": "• Titik $(0, 3)$: $f(0, 3) = 2(0) + 3(3) = 9$" },
-        { "tipe": "paragraph", "text": "• Titik $(0, 6)$: $f(0, 6) = 2(0) + 3(6) = 18$" },
-        { "tipe": "paragraph", "text": "• Titik $(6, 0)$: $f(6, 0) = 2(6) + 3(0) = 12$" },
-        { "tipe": "paragraph", "text": "Jadi, nilai maksimumnya adalah $18$ (dicapai di titik $(0, 6)$)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik-titik sudut daerah penyelesaian**" },
+        { "tipe": "paragraph", "text": "Pada kuadran I ($x \\geq 0, y \\geq 0$) di antara $x + 2y \\geq 6$ dan $x + y \\leq 6$, daerah fisibel dibatasi oleh titik sudut $(0, 3)$, $(0, 6)$, dan $(6, 0)$." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji nilai fungsi objektif $f(x, y) = 2x + 3y$ pada tiap titik sudut**" },
+        { "tipe": "formula_block", "latex": "f(0, 3) = 2(0) + 3(3) = 9, \\qquad f(0, 6) = 2(0) + 3(6) = 18, \\qquad f(6, 0) = 2(6) + 3(0) = 12" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai maksimum $f(x, y) = 2x + 3y$ adalah **$18$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -126,13 +112,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut ketiga pecahan menjadi $abc$**" },
-        { "tipe": "paragraph", "text": "$\\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{bc}{abc} + \\dfrac{ac}{abc} + \\dfrac{ab}{abc}$" },
-        { "tipe": "paragraph", "text": "Gabungkan pembilangnya dan urutkan:" },
-        { "tipe": "paragraph", "text": "$= \\dfrac{ab + bc + ca}{abc}$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui**" },
-        { "tipe": "paragraph", "text": "Diketahui $ab + bc + ca = 11$ dan $abc = 6$, maka:" },
-        { "tipe": "paragraph", "text": "$\\dfrac{ab + bc + ca}{abc} = \\dfrac{11}{6}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Samakan penyebut pecahan menjadi $abc$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{bc + ac + ab}{abc} = \\dfrac{ab + bc + ca}{abc}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $ab + bc + ca = 11$ dan $abc = 6$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{ab + bc + ca}{abc} = \\dfrac{11}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $\\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c}$ adalah **$\\dfrac{11}{6}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -150,22 +134,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan pembuat nol masing-masing nilai mutlak**" },
-        { "tipe": "paragraph", "text": "• $|x + 1| = 0 \\Rightarrow x = -1$" },
-        { "tipe": "paragraph", "text": "• $|x - 2| = 0 \\Rightarrow x = 2$" },
-        { "tipe": "paragraph", "text": "Kedua titik membagi garis bilangan menjadi 3 kasus interval:" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan pada setiap interval**" },
-        { "tipe": "paragraph", "text": "• **Kasus 1: Untuk $x < -1$**" },
-        { "tipe": "paragraph", "text": "Kedua bentuk di dalam mutlak bernilai negatif, sehingga:" },
-        { "tipe": "paragraph", "text": "$-(x - 2) - (x + 1) = 5 \\Rightarrow -2x + 1 = 5 \\Rightarrow -2x = 4 \\Rightarrow x = -2$ (Memenuhi karena $-2 < -1$)." },
-        { "tipe": "paragraph", "text": "• **Kasus 2: Untuk $-1 \\leq x < 2$**" },
-        { "tipe": "paragraph", "text": "$(x - 2)$ negatif dan $(x + 1)$ tak negatif, sehingga:" },
-        { "tipe": "paragraph", "text": "$-(x - 2) + (x + 1) = 5 \\Rightarrow -x + 2 + x + 1 = 5 \\Rightarrow 3 = 5$ (Tidak ada solusi pada interval ini)." },
-        { "tipe": "paragraph", "text": "• **Kasus 3: Untuk $x \\geq 2$**" },
-        { "tipe": "paragraph", "text": "Kedua bentuk di dalam mutlak bernilai tak negatif, sehingga:" },
-        { "tipe": "paragraph", "text": "$(x - 2) + (x + 1) = 5 \\Rightarrow 2x - 1 = 5 \\Rightarrow 2x = 6 \\Rightarrow x = 3$ (Memenuhi karena $3 \\geq 2$)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Gabungkan semua solusi yang memenuhi**" },
-        { "tipe": "paragraph", "text": "Jadi, himpunan penyelesaiannya adalah $\\{-2, 3\\}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bagi garis bilangan berdasarkan pembuat nol $x = -1$ dan $x = 2$**" },
+        { "tipe": "paragraph", "text": "Untuk $-1 \\leq x < 2$ diperoleh $-(x - 2) + (x + 1) = 5 \\Rightarrow 3 = 5$ (tidak memenuhi); sedangkan pada interval luar diperoleh:" },
+        { "tipe": "formula_block", "latex": "x < -1 : -(x - 2) - (x + 1) = 5 \\Rightarrow -2x + 1 = 5 \\Rightarrow x = -2" },
+        { "tipe": "formula_block", "latex": "x \\geq 2 : (x - 2) + (x + 1) = 5 \\Rightarrow 2x - 1 = 5 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Verifikasi syarat interval pada masing-masing solusi**" },
+        { "tipe": "paragraph", "text": "Nilai $x = -2$ memenuhi $x < -1$ dan $x = 3$ memenuhi $x \\geq 2$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$\\\\{-2, 3\\\\}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -183,16 +158,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan bentuk kuadrat $(x + y)^2$**" },
-        { "tipe": "paragraph", "text": "$(x + y)^2 = x^2 + 2xy + y^2$" },
-        { "tipe": "paragraph", "text": "Kelompokkan suku $x^2 + y^2$:" },
-        { "tipe": "paragraph", "text": "$(x + y)^2 = (x^2 + y^2) + 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 7$ dan $x^2 + y^2 = 25$**" },
-        { "tipe": "paragraph", "text": "$(7)^2 = 25 + 2xy$" },
-        { "tipe": "paragraph", "text": "$49 = 25 + 2xy$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung nilai $xy$**" },
-        { "tipe": "paragraph", "text": "$2xy = 49 - 25$" },
-        { "tipe": "paragraph", "text": "$2xy = 24 \\Rightarrow xy = \\dfrac{24}{2} = 12$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kuadratkan $x + y = 7$ dan substitusikan $x^2 + y^2 = 25$**" },
+        { "tipe": "formula_block", "latex": "(x + y)^2 = (x^2 + y^2) + 2xy \\Rightarrow 7^2 = 25 + 2xy" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Selesaikan persamaan untuk mencari nilai $xy$**" },
+        { "tipe": "formula_block", "latex": "49 - 25 = 2xy \\Rightarrow 2xy = 24 \\Rightarrow xy = 12" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $xy$ adalah **$12$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -210,13 +180,12 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hilangkan pecahan dengan mengalikan kedua persamaan dengan KPK penyebutnya ($6$)**" },
-        { "tipe": "paragraph", "text": "• Persamaan pertama dikali $6$: $6\\left(\\dfrac{x}{2} + \\dfrac{y}{3}\\right) = 6(5) \\Rightarrow 3x + 2y = 30$ ... (Persamaan 1)" },
-        { "tipe": "paragraph", "text": "• Persamaan kedua dikali $6$: $6\\left(\\dfrac{x}{3} + \\dfrac{y}{2}\\right) = 6\\left(\\dfrac{9}{2}\\right) \\Rightarrow 2x + 3y = 27$ ... (Persamaan 2)" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan persamaan (1) dan persamaan (2) secara langsung**" },
-        { "tipe": "paragraph", "text": "Perhatikan bahwa selisih koefisien kedua persamaan langsung menghasilkan $x - y$:" },
-        { "tipe": "paragraph", "text": "$(3x + 2y) - (2x + 3y) = 30 - 27$" },
-        { "tipe": "paragraph", "text": "$x - y = 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kalikan kedua persamaan dengan $6$ untuk menghilangkan penyebut**" },
+        { "tipe": "formula_block", "latex": "6\\left(\\dfrac{x}{2} + \\dfrac{y}{3}\\right) = 6(5) \\Rightarrow 3x + 2y = 30" },
+        { "tipe": "formula_block", "latex": "6\\left(\\dfrac{x}{3} + \\dfrac{y}{2}\\right) = 6\\left(\\dfrac{9}{2}\\right) \\Rightarrow 2x + 3y = 27" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan kedua persamaan untuk langsung memperoleh $x - y$**" },
+        { "tipe": "formula_block", "latex": "(3x + 2y) - (2x + 3y) = 30 - 27 \\Rightarrow x - y = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x - y$ adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -234,23 +203,13 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Misalkan ketiga bilangan barisan aritmatika secara simetris**" },
-        { "tipe": "paragraph", "text": "Misalkan suku tengah $= a$ dan beda barisan $= b$ (dengan $b > 0$), sehingga ketiga bilangan tersebut adalah:" },
-        { "tipe": "paragraph", "text": "• Bilangan terkecil $= a - b$" },
-        { "tipe": "paragraph", "text": "• Bilangan tengah $= a$" },
-        { "tipe": "paragraph", "text": "• Bilangan terbesar $= a + b$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Cari suku tengah ($a$) dari jumlah ketiga bilangan**" },
-        { "tipe": "paragraph", "text": "$(a - b) + a + (a + b) = 21$" },
-        { "tipe": "paragraph", "text": "$3a = 21 \\Rightarrow a = 7$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Cari beda barisan ($b$) dari hubungan bilangan terbesar dan terkecil**" },
-        { "tipe": "paragraph", "text": "Bilangan terbesar $= 2 \\times (\\text{bilangan terkecil}) + 5$" },
-        { "tipe": "paragraph", "text": "$a + b = 2(a - b) + 5$" },
-        { "tipe": "paragraph", "text": "Substitusikan $a = 7$:" },
-        { "tipe": "paragraph", "text": "$7 + b = 2(7 - b) + 5$" },
-        { "tipe": "paragraph", "text": "$7 + b = 14 - 2b + 5$" },
-        { "tipe": "paragraph", "text": "$b + 2b = 19 - 7 \\Rightarrow 3b = 12 \\Rightarrow b = 4$" },
-        { "tipe": "paragraph", "text": "**Langkah 4: Tentukan bilangan terkecil**" },
-        { "tipe": "paragraph", "text": "Bilangan terkecil $= a - b = 7 - 4 = 3$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Nyatakan tiga bilangan barisan aritmatika dengan suku tengah $a$ dan beda $b$**" },
+        { "tipe": "paragraph", "text": "Ketiga bilangan tersebut adalah $a - b$, $a$, dan $a + b$ dengan jumlah $21$:" },
+        { "tipe": "formula_block", "latex": "(a - b) + a + (a + b) = 21 \\Rightarrow 3a = 21 \\Rightarrow a = 7" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Gunakan hubungan bilangan terbesar dan terkecil untuk mencari $b$ dan bilangan terkecil**" },
+        { "tipe": "formula_block", "latex": "(7 + b) = 2(7 - b) + 5 \\Rightarrow 7 + b = 19 - 2b \\Rightarrow 3b = 12 \\Rightarrow b = 4" },
+        { "tipe": "formula_block", "latex": "a - b = 7 - 4 = 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan terkecil tersebut adalah **$3$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -268,12 +227,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas penjumlahan pangkat tiga**" },
-        { "tipe": "paragraph", "text": "Dari penjabaran $(x + y)^3 = x^3 + y^3 + 3xy(x + y)$, diperoleh:" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai $x + y = 5$ dan $xy = 4$**" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = (5)^3 - 3(4)(5)$" },
-        { "tipe": "paragraph", "text": "$x^3 + y^3 = 125 - 60 = 65$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan identitas jumlah pangkat tiga dan substitusikan nilai yang diketahui**" },
+        { "tipe": "paragraph", "text": "Diketahui $x + y = 5$ dan $xy = 4$:" },
+        { "tipe": "formula_block", "latex": "x^3 + y^3 = (x + y)^3 - 3xy(x + y) = 5^3 - 3(4)(5) = 125 - 60 = 65" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x^3 + y^3$ adalah **$65$**." }
       ],
       "tingkat": "SULIT"
     }
