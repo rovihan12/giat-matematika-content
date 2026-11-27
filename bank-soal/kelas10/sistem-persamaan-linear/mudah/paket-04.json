@@ -21,7 +21,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$x + 3 > 7 \\Rightarrow x > 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan kedua ruas dengan $3$**" },
+        { "tipe": "formula_block", "latex": "x + 3 > 7 \\Rightarrow x > 7 - 3 \\Rightarrow x > 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x > 4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -39,7 +41,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x \\leq 12 \\Rightarrow x \\leq 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tambahkan $5$ pada kedua ruas lalu bagi dengan $2$**" },
+        { "tipe": "formula_block", "latex": "2x - 5 \\leq 7 \\Rightarrow 2x \\leq 12 \\Rightarrow x \\leq 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\leq 6$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -57,8 +61,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$-3x > 9$ → bagi dengan $-3$ (tanda berbalik):" },
-        { "tipe": "paragraph", "text": "$x < -3$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bagi kedua ruas dengan $-3$ (tanda pertidaksamaan dibalik)**" },
+        { "tipe": "formula_block", "latex": "-3x > 9 \\Rightarrow x < \\dfrac{9}{-3} \\Rightarrow x < -3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x < -3$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -76,8 +81,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$4x - 2x \\geq 6 + 2$" },
-        { "tipe": "paragraph", "text": "$2x \\geq 8 \\Rightarrow x \\geq 4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kelompokkan suku bervariabel $x$ di kiri dan konstanta di kanan**" },
+        { "tipe": "formula_block", "latex": "4x - 2x \\geq 6 + 2 \\Rightarrow 2x \\geq 8 \\Rightarrow x \\geq 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\geq 4$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -95,8 +101,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$-2x < -2$" },
-        { "tipe": "paragraph", "text": "Bagi $-2$ (tanda berbalik): $x > 1$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan $5$ lalu bagi kedua ruas dengan $-2$ (tanda dibalik)**" },
+        { "tipe": "formula_block", "latex": "5 - 2x < 3 \\Rightarrow -2x < -2 \\Rightarrow x > 1" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x > 1$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -114,7 +121,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$\\dfrac{x}{2} \\leq 3 \\Rightarrow x \\leq 6$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan $1$ pada kedua ruas lalu kalikan dengan $2$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{x}{2} + 1 \\leq 4 \\Rightarrow \\dfrac{x}{2} \\leq 3 \\Rightarrow x \\leq 6" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\leq 6$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -132,7 +141,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3x - 6 > 9 \\Rightarrow 3x > 15 \\Rightarrow x > 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jabarkan tanda kurung dan selesaikan pertidaksamaan**" },
+        { "tipe": "formula_block", "latex": "3(x - 2) > 9 \\Rightarrow 3x - 6 > 9 \\Rightarrow 3x > 15 \\Rightarrow x > 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$x > 5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -150,7 +161,9 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x - x < 8 - 3 \\Rightarrow x < 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kelompokkan suku bervariabel $x$ di kiri dan konstanta di kanan**" },
+        { "tipe": "formula_block", "latex": "2x - x < 8 - 3 \\Rightarrow x < 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x < 5$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -168,8 +181,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3x \\geq 9 \\Rightarrow x \\geq 3$" },
-        { "tipe": "paragraph", "text": "Nilai bulat positif terkecil = 3." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pertidaksamaan untuk memperoleh batas nilai $x$**" },
+        { "tipe": "formula_block", "latex": "3x - 1 \\geq 8 \\Rightarrow 3x \\geq 9 \\Rightarrow x \\geq 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan bilangan bulat positif terkecil yang memenuhi $x \\geq 3$**" },
+        { "tipe": "paragraph", "text": "Bilangan bulat positif terkecil yang lebih besar atau sama dengan $3$ adalah $3$." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ bulat positif terkecil yang memenuhi adalah **$3$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -187,8 +203,9 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$-2x \\leq -4$" },
-        { "tipe": "paragraph", "text": "Bagi $-2$: $x \\geq 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan $5$ lalu bagi kedua ruas dengan $-2$ (tanda dibalik)**" },
+        { "tipe": "formula_block", "latex": "-2x + 5 \\leq 1 \\Rightarrow -2x \\leq -4 \\Rightarrow x \\geq 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x \\geq 2$**." }
       ],
       "tingkat": "MUDAH"
     }
