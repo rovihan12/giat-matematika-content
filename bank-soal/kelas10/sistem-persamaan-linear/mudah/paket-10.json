@@ -15,43 +15,58 @@
       ],
       "gambar_prompt": "Grafik kartesius garis lurus y = 2x - 4 pada bidang koordinat dengan sumbu X dan Y, titik potong sumbu Y di (0,-4) dan sumbu X di (2,0) ditandai dengan titik hitam, grid ringan, gaya bersih edukatif.",
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(0, -4)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(-4, 0)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 0)$" }],
-        [{ "tipe": "paragraph", "text": "$(2, 0)$" }]
+        [ { "tipe": "paragraph", "text": "$(0, -4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(-4, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 0)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 0)$" } ]
       ],
       "jawaban_benar": 0,
-      "pembahasan": [{ "tipe": "paragraph", "text": "Substitusi $x = 0$: $y = -4$. Titik potong sumbu Y = $(0, -4)$." }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 0$ ke persamaan garis $y = 2x - 4$**" },
+        { "tipe": "formula_block", "latex": "y = 2(0) - 4 = -4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, titik potong dengan sumbu Y berada di koordinat **$(0, -4)$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah taksi menetapkan tarif buka pintu Rp7.000 dan Rp4.000 per km. Jika jarak 5 km, total tarif adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah taksi menetapkan tarif buka pintu Rp7.000 dan Rp4.000 per km. Jika jarak 5 km, total tarif adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp25.000" }],
-        [{ "tipe": "paragraph", "text": "Rp26.000" }],
-        [{ "tipe": "paragraph", "text": "Rp27.000" }],
-        [{ "tipe": "paragraph", "text": "Rp28.000" }],
-        [{ "tipe": "paragraph", "text": "Rp29.000" }]
+        [ { "tipe": "paragraph", "text": "Rp25.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp26.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp27.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp28.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp29.000" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$7.000 + 5(4.000) = 27.000$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total tarif untuk jarak $5$ km**" },
+        { "tipe": "formula_block", "latex": "\\text{Total tarif} = 7.000 + 5 \\times 4.000 = 7.000 + 20.000 = 27.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, total tarif taksi tersebut adalah **Rp27.000**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Jumlah umur Ibu dan Anak 50 tahun. Umur Ibu 4 kali umur Anak. Umur Anak adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Jumlah umur Ibu dan Anak 50 tahun. Umur Ibu 4 kali umur Anak. Umur Anak adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$8$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$9$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$10$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$11$ tahun" }],
-        [{ "tipe": "paragraph", "text": "$12$ tahun" }]
+        [ { "tipe": "paragraph", "text": "$8$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$9$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$10$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$11$ tahun" } ],
+        [ { "tipe": "paragraph", "text": "$12$ tahun" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$I = 4a$; $4a + a = 50 \\Rightarrow a = 10$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan dari jumlah umur Ibu dan Anak**" },
+        { "tipe": "paragraph", "text": "Misalkan umur Anak adalah $a$ tahun, maka umur Ibu adalah $4a$ tahun." },
+        { "tipe": "formula_block", "latex": "4a + a = 50 \\Rightarrow 5a = 50 \\Rightarrow a = 10" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, umur Anak adalah **$10$ tahun**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -63,100 +78,142 @@
       ],
       "gambar_prompt": "Bidang koordinat dengan garis x + y = 6 melalui (6,0) dan (0,6), daerah di bawah garis diarsir abu-abu, sumbu X dan Y diberi label, gaya bersih edukatif.",
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(1, 2)$" }],
-        [{ "tipe": "paragraph", "text": "$(2, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 1)$" }],
-        [{ "tipe": "paragraph", "text": "$(3, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, 0)$" }]
+        [ { "tipe": "paragraph", "text": "$(1, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 1)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 0)$" } ]
       ],
       "jawaban_benar": 3,
-      "pembahasan": [{ "tipe": "paragraph", "text": "Cek $(3,4)$: $3+4 = 7 > 6$, jadi tidak termasuk." }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Uji setiap titik koordinat ke pertidaksamaan $x + y \\leq 6$**" },
+        { "tipe": "formula_block", "latex": "\\text{Untuk } (3, 4): \\quad 3 + 4 = 7 > 6 \\quad (\\text{tidak memenuhi})" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, titik yang TIDAK termasuk daerah penyelesaian adalah **$(3, 4)$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Harga 2 kg gula dan 1 kg tepung Rp38.000. Jika harga 1 kg tepung Rp12.000, harga 1 kg gula adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Harga 2 kg gula dan 1 kg tepung Rp38.000. Jika harga 1 kg tepung Rp12.000, harga 1 kg gula adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp11.000" }],
-        [{ "tipe": "paragraph", "text": "Rp12.000" }],
-        [{ "tipe": "paragraph", "text": "Rp13.000" }],
-        [{ "tipe": "paragraph", "text": "Rp14.000" }],
-        [{ "tipe": "paragraph", "text": "Rp15.000" }]
+        [ { "tipe": "paragraph", "text": "Rp11.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp12.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp13.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp14.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp15.000" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$2g + 12.000 = 38.000 \\Rightarrow 2g = 26.000 \\Rightarrow g = 13.000$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan harga $1$ kg tepung Rp12.000 ke persamaan harga total**" },
+        { "tipe": "paragraph", "text": "Misalkan harga $1$ kg gula adalah $g$ (dalam rupiah)." },
+        { "tipe": "formula_block", "latex": "2g + 12.000 = 38.000 \\Rightarrow 2g = 26.000 \\Rightarrow g = 13.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, harga 1 kg gula adalah **Rp13.000**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sebuah bilangan jika dikali 4 lalu dikurangi 7 hasilnya 25. Bilangan tersebut adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sebuah bilangan jika dikali 4 lalu dikurangi 7 hasilnya 25. Bilangan tersebut adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }],
-        [{ "tipe": "paragraph", "text": "$9$" }],
-        [{ "tipe": "paragraph", "text": "$10$" }]
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$4x - 7 = 25 \\Rightarrow 4x = 32 \\Rightarrow x = 8$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun persamaan linear dan selesaikan untuk $x$**" },
+        { "tipe": "paragraph", "text": "Misalkan bilangan tersebut adalah $x$." },
+        { "tipe": "formula_block", "latex": "4x - 7 = 25 \\Rightarrow 4x = 32 \\Rightarrow x = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan tersebut adalah **$8$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Diketahui $p + q = 15$ dan $p - q = 3$. Nilai $p \\cdot q$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Diketahui $p + q = 15$ dan $p - q = 3$. Nilai $p \\cdot q$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$36$" }],
-        [{ "tipe": "paragraph", "text": "$45$" }],
-        [{ "tipe": "paragraph", "text": "$54$" }],
-        [{ "tipe": "paragraph", "text": "$63$" }],
-        [{ "tipe": "paragraph", "text": "$72$" }]
+        [ { "tipe": "paragraph", "text": "$36$" } ],
+        [ { "tipe": "paragraph", "text": "$45$" } ],
+        [ { "tipe": "paragraph", "text": "$54$" } ],
+        [ { "tipe": "paragraph", "text": "$63$" } ],
+        [ { "tipe": "paragraph", "text": "$72$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$p = 9$, $q = 6 \\Rightarrow pq = 54$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $p$ dan $q$ dari sistem persamaan**" },
+        { "tipe": "formula_block", "latex": "(p + q) + (p - q) = 15 + 3 \\Rightarrow 2p = 18 \\Rightarrow p = 9, \\qquad q = 15 - 9 = 6" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $p \\cdot q$**" },
+        { "tipe": "formula_block", "latex": "p \\cdot q = 9 \\cdot 6 = 54" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $p \\cdot q$ adalah **$54$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{3x + 1}{2} = 8$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x$ yang memenuhi $\\dfrac{3x + 1}{2} = 8$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }]
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3x + 1 = 16 \\Rightarrow 3x = 15 \\Rightarrow x = 5$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Kalikan kedua ruas dengan $2$ lalu selesaikan untuk $x$**" },
+        { "tipe": "formula_block", "latex": "\\dfrac{3x + 1}{2} = 8 \\Rightarrow 3x + 1 = 16 \\Rightarrow 3x = 15 \\Rightarrow x = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x$ yang memenuhi adalah **$5$**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Keliling segitiga sama sisi adalah 27 cm. Panjang sisinya adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Keliling segitiga sama sisi adalah 27 cm. Panjang sisinya adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$7$ cm" }],
-        [{ "tipe": "paragraph", "text": "$8$ cm" }],
-        [{ "tipe": "paragraph", "text": "$9$ cm" }],
-        [{ "tipe": "paragraph", "text": "$10$ cm" }],
-        [{ "tipe": "paragraph", "text": "$11$ cm" }]
+        [ { "tipe": "paragraph", "text": "$7$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$8$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$9$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$10$ cm" } ],
+        [ { "tipe": "paragraph", "text": "$11$ cm" } ]
       ],
       "jawaban_benar": 2,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$3s = 27 \\Rightarrow s = 9$ cm" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus keliling segitiga sama sisi ($K = 3s$)**" },
+        { "tipe": "formula_block", "latex": "3s = 27 \\Rightarrow s = \\dfrac{27}{3} = 9" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, panjang sisi segitiga sama sisi tersebut adalah **$9$ cm**." }
+      ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-10-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $6 - 2x > 10$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $6 - 2x > 10$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x > -2$" }],
-        [{ "tipe": "paragraph", "text": "$x < -2$" }],
-        [{ "tipe": "paragraph", "text": "$x > 2$" }],
-        [{ "tipe": "paragraph", "text": "$x < 2$" }],
-        [{ "tipe": "paragraph", "text": "$x \\geq -2$" }]
+        [ { "tipe": "paragraph", "text": "$x > -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < -2$" } ],
+        [ { "tipe": "paragraph", "text": "$x > 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x < 2$" } ],
+        [ { "tipe": "paragraph", "text": "$x \\geq -2$" } ]
       ],
       "jawaban_benar": 1,
-      "pembahasan": [{ "tipe": "paragraph", "text": "$-2x > 4 \\Rightarrow x < -2$" }],
+      "pembahasan": [
+        { "tipe": "paragraph", "text": "**Langkah 1: Kurangkan $6$ lalu bagi kedua ruas dengan $-2$ (tanda dibalik)**" },
+        { "tipe": "formula_block", "latex": "6 - 2x > 10 \\Rightarrow -2x > 4 \\Rightarrow x < -2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$x < -2$**." }
+      ],
       "tingkat": "MUDAH"
     }
   ]
