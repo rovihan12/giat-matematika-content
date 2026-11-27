@@ -9,164 +9,217 @@
   "soal": [
     {
       "id": "bs-k10-spl-m-07-q01",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian dari $x + y = 9$ dan $x - y = 1$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian dari $x + y = 9$ dan $x - y = 1$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(5, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 5)$" }],
-        [{ "tipe": "paragraph", "text": "$(6, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(3, 6)$" }],
-        [{ "tipe": "paragraph", "text": "$(7, 2)$" }]
+        [ { "tipe": "paragraph", "text": "$(5, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(6, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 6)$" } ],
+        [ { "tipe": "paragraph", "text": "$(7, 2)$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $2x = 10 \\Rightarrow x = 5$, $y = 4$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $y$ untuk memperoleh nilai $x$**" },
+        { "tipe": "formula_block", "latex": "(x + y) + (x - y) = 9 + 1 \\Rightarrow 2x = 10 \\Rightarrow x = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 5$ ke $x + y = 9$ untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "5 + y = 9 \\Rightarrow y = 4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian dari sistem tersebut adalah **$(5, 4)$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $y$ dari sistem $2x + y = 10$ dan $x = 4$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $y$ dari sistem $2x + y = 10$ dan $x = 4$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$1$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
+        [ { "tipe": "paragraph", "text": "$1$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2(4) + y = 10 \\Rightarrow y = 2$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $x = 4$ ke persamaan $2x + y = 10$**" },
+        { "tipe": "formula_block", "latex": "2(4) + y = 10 \\Rightarrow 8 + y = 10 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $y$ dari sistem tersebut adalah **$2$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $3x + y = 11$ dan $x + y = 5$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $3x + y = 11$ dan $x + y = 5$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$\\{(2, 3)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(3, 2)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(4, 1)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(1, 4)\\}$" }],
-        [{ "tipe": "paragraph", "text": "$\\{(5, 0)\\}$" }]
+        [ { "tipe": "paragraph", "text": "$\\{(2, 3)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(3, 2)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(4, 1)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(1, 4)\\}$" } ],
+        [ { "tipe": "paragraph", "text": "$\\{(5, 0)\\}$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kurangkan: $2x = 6 \\Rightarrow x = 3$, $y = 2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Eliminasi variabel $y$ untuk memperoleh nilai $x$**" },
+        { "tipe": "formula_block", "latex": "(3x + y) - (x + y) = 11 - 5 \\Rightarrow 2x = 6 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 3$ ke $x + y = 5$ untuk memperoleh nilai $y$**" },
+        { "tipe": "formula_block", "latex": "3 + y = 5 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, himpunan penyelesaiannya adalah **$ \\{(3, 2)\\}$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q04",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Dua bilangan jumlahnya 24 dan selisihnya 8. Bilangan terkecil adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Dua bilangan jumlahnya 24 dan selisihnya 8. Bilangan terkecil adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }],
-        [{ "tipe": "paragraph", "text": "$9$" }],
-        [{ "tipe": "paragraph", "text": "$10$" }]
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ],
+        [ { "tipe": "paragraph", "text": "$9$" } ],
+        [ { "tipe": "paragraph", "text": "$10$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a + b = 24$, $a - b = 8$." },
-        { "tipe": "paragraph", "text": "$2b = 16 \\Rightarrow b = 8$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun SPLDV lalu kurangkan kedua persamaan untuk mencari bilangan terkecil ($b$)**" },
+        { "tipe": "paragraph", "text": "Misalkan dua bilangan tersebut adalah $a$ dan $b$ dengan $a + b = 24$ dan $a - b = 8$." },
+        { "tipe": "formula_block", "latex": "(a + b) - (a - b) = 24 - 8 \\Rightarrow 2b = 16 \\Rightarrow b = 8" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, bilangan terkecil dari kedua bilangan tersebut adalah **$8$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Harga 2 pensil dan 3 buku Rp19.000. Harga 1 buku Rp5.000. Harga 1 pensil adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Harga 2 pensil dan 3 buku Rp19.000. Harga 1 buku Rp5.000. Harga 1 pensil adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp1.000" }],
-        [{ "tipe": "paragraph", "text": "Rp1.500" }],
-        [{ "tipe": "paragraph", "text": "Rp2.000" }],
-        [{ "tipe": "paragraph", "text": "Rp2.500" }],
-        [{ "tipe": "paragraph", "text": "Rp3.000" }]
+        [ { "tipe": "paragraph", "text": "Rp1.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp1.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp2.500" } ],
+        [ { "tipe": "paragraph", "text": "Rp3.000" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2p + 15.000 = 19.000 \\Rightarrow 2p = 4.000 \\Rightarrow p = 2.000$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan harga buku Rp5.000 ke persamaan harga total**" },
+        { "tipe": "paragraph", "text": "Misalkan harga $1$ pensil adalah $p$ (dalam rupiah)." },
+        { "tipe": "formula_block", "latex": "2p + 3(5.000) = 19.000 \\Rightarrow 2p + 15.000 = 19.000 \\Rightarrow 2p = 4.000 \\Rightarrow p = 2.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, harga 1 pensil adalah **Rp2.000**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y = 6$ dan $2x + 2y = 12$ memiliki..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x + y = 6$ dan $2x + 2y = 12$ memiliki..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Tidak ada solusi" }],
-        [{ "tipe": "paragraph", "text": "Tepat satu solusi" }],
-        [{ "tipe": "paragraph", "text": "Tak hingga solusi" }],
-        [{ "tipe": "paragraph", "text": "Dua solusi" }],
-        [{ "tipe": "paragraph", "text": "Tiga solusi" }]
+        [ { "tipe": "paragraph", "text": "Tidak ada solusi" } ],
+        [ { "tipe": "paragraph", "text": "Tepat satu solusi" } ],
+        [ { "tipe": "paragraph", "text": "Tak hingga solusi" } ],
+        [ { "tipe": "paragraph", "text": "Dua solusi" } ],
+        [ { "tipe": "paragraph", "text": "Tiga solusi" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Persamaan kedua = 2 × pertama → berimpit → tak hingga solusi." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Bandingkan koefisien dan konstanta kedua persamaan**" },
+        { "tipe": "paragraph", "text": "Persamaan kedua ($2x + 2y = 12$) merupakan kelipatan $2$ dari persamaan pertama ($x + y = 6$), sehingga kedua garis saling berimpit." },
+        { "tipe": "formula_block", "latex": "\\dfrac{2}{1} = \\dfrac{2}{1} = \\dfrac{12}{6} = 2" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem tersebut memiliki **tak hingga solusi**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai $x + y$ dari $4x - y = 10$ dan $2x + y = 8$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai $x + y$ dari $4x - y = 10$ dan $2x + y = 8$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }],
-        [{ "tipe": "paragraph", "text": "$6$" }],
-        [{ "tipe": "paragraph", "text": "$7$" }],
-        [{ "tipe": "paragraph", "text": "$8$" }]
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ],
+        [ { "tipe": "paragraph", "text": "$6$" } ],
+        [ { "tipe": "paragraph", "text": "$7$" } ],
+        [ { "tipe": "paragraph", "text": "$8$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Jumlahkan: $6x = 18 \\Rightarrow x = 3$, $y = 2$." },
-        { "tipe": "paragraph", "text": "$x + y = 5$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan nilai $x$ dan $y$**" },
+        { "tipe": "paragraph", "text": "Jumlahkan kedua persamaan untuk memperoleh $x$, lalu substitusikan ke $2x + y = 8$ untuk memperoleh $y$:" },
+        { "tipe": "formula_block", "latex": "6x = 18 \\Rightarrow x = 3, \\qquad 2(3) + y = 8 \\Rightarrow y = 2" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $x + y$**" },
+        { "tipe": "formula_block", "latex": "x + y = 3 + 2 = 5" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai $x + y$ adalah **$5$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Andi membeli 3 roti dan 2 susu Rp17.000. Jika 1 susu Rp4.000, harga 1 roti adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Andi membeli 3 roti dan 2 susu Rp17.000. Jika 1 susu Rp4.000, harga 1 roti adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp2.000" }],
-        [{ "tipe": "paragraph", "text": "Rp3.000" }],
-        [{ "tipe": "paragraph", "text": "Rp4.000" }],
-        [{ "tipe": "paragraph", "text": "Rp5.000" }],
-        [{ "tipe": "paragraph", "text": "Rp6.000" }]
+        [ { "tipe": "paragraph", "text": "Rp2.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp3.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp4.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp5.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp6.000" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$3r + 8.000 = 17.000 \\Rightarrow 3r = 9.000 \\Rightarrow r = 3.000$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan harga susu Rp4.000 ke persamaan harga total**" },
+        { "tipe": "paragraph", "text": "Misalkan harga $1$ roti adalah $r$ (dalam rupiah)." },
+        { "tipe": "formula_block", "latex": "3r + 2(4.000) = 17.000 \\Rightarrow 3r + 8.000 = 17.000 \\Rightarrow 3r = 9.000 \\Rightarrow r = 3.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, harga 1 roti adalah **Rp3.000**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Penyelesaian $2x + 3y = 12$ dan $x = y$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Penyelesaian $2x + 3y = 12$ dan $x = y$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(2, 2)$" }],
-        [{ "tipe": "paragraph", "text": "$(2{,}4; 2{,}4)$" }],
-        [{ "tipe": "paragraph", "text": "$(3, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(1{,}5; 1{,}5)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 4)$" }]
+        [ { "tipe": "paragraph", "text": "$(2, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2{,}4; 2{,}4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(3, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1{,}5; 1{,}5)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 4)$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x + 3x = 12 \\Rightarrow 5x = 12 \\Rightarrow x = 2{,}4$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Substitusikan $y = x$ ke persamaan $2x + 3y = 12$**" },
+        { "tipe": "formula_block", "latex": "2x + 3x = 12 \\Rightarrow 5x = 12 \\Rightarrow x = 2{,}4" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan nilai $y$ karena $x = y$**" },
+        { "tipe": "formula_block", "latex": "y = 2{,}4" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, penyelesaian sistem tersebut adalah **$(2{,}4; 2{,}4)$**." }
       ],
       "tingkat": "MUDAH"
     },
     {
       "id": "bs-k10-spl-m-07-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Selisih dua bilangan 10, jumlahnya 30. Hasil kali kedua bilangan adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Selisih dua bilangan 10, jumlahnya 30. Hasil kali kedua bilangan adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$180$" }],
-        [{ "tipe": "paragraph", "text": "$200$" }],
-        [{ "tipe": "paragraph", "text": "$220$" }],
-        [{ "tipe": "paragraph", "text": "$240$" }],
-        [{ "tipe": "paragraph", "text": "$260$" }]
+        [ { "tipe": "paragraph", "text": "$180$" } ],
+        [ { "tipe": "paragraph", "text": "$200$" } ],
+        [ { "tipe": "paragraph", "text": "$220$" } ],
+        [ { "tipe": "paragraph", "text": "$240$" } ],
+        [ { "tipe": "paragraph", "text": "$260$" } ]
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$a + b = 30$, $a - b = 10 \\Rightarrow a = 20$, $b = 10$." },
-        { "tipe": "paragraph", "text": "$ab = 200$" }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan kedua bilangan dari jumlah dan selisihnya**" },
+        { "tipe": "paragraph", "text": "Misalkan dua bilangan tersebut adalah $a$ dan $b$ dengan $a + b = 30$ dan $a - b = 10$." },
+        { "tipe": "formula_block", "latex": "2a = 40 \\Rightarrow a = 20 \\quad \\text{dan} \\quad b = 30 - 20 = 10" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung hasil kali kedua bilangan ($a \\cdot b$)**" },
+        { "tipe": "formula_block", "latex": "a \\cdot b = 20 \\cdot 10 = 200" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, hasil kali kedua bilangan adalah **$200$**." }
       ],
       "tingkat": "MUDAH"
     }
