@@ -21,15 +21,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
-        { "tipe": "paragraph", "text": "Total bola = $6 + 4 = 10$ bola. Diambil 3 bola sekaligus:" },
-        { "tipe": "paragraph", "text": "$n(S) = C(10, 3) = \\dfrac{10!}{3!7!} = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung titik sampel kejadian yang diinginkan ($n(A)$).**" },
-        { "tipe": "paragraph", "text": "Terambil 3 bola merah dari 6 bola merah:" },
-        { "tipe": "paragraph", "text": "$n(A) = C(6, 3) = \\dfrac{6!}{3!3!} = \\dfrac{6 \\cdot 5 \\cdot 4}{3 \\cdot 2 \\cdot 1} = 20$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{20}{120} = \\dfrac{1}{6}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang terambil ketiganya merah adalah $\\dfrac{1}{6}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Jumlah seluruh bola adalah $6 + 4 = 10$ bola dan diambil $3$ bola sekaligus:" },
+        { "tipe": "formula_block", "latex": "n(S) = C(10, 3) = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak titik sampel kejadian ($n(A)$) terambil ketiganya merah**" },
+        { "tipe": "formula_block", "latex": "n(A) = C(6, 3) = \\dfrac{6 \\cdot 5 \\cdot 4}{3 \\cdot 2 \\cdot 1} = 20" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang kejadian $P(A)$**" },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{20}{120} = \\dfrac{1}{6}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil ketiganya merah adalah **$\\dfrac{1}{6}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -47,16 +46,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Analisis posisi angka pada kode PIN.**" },
-        { "tipe": "paragraph", "text": "Tersedia angka dari $0$ sampai $9$ (total ada $10$ angka). Susunan PIN terdiri dari 4 digit angka berbeda dengan ketentuan angka pertama tidak boleh nol." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyak pilihan untuk setiap posisi (aturan pengisian tempat).**" },
-        { "tipe": "paragraph", "text": "- **Digit Pertama:** Tidak boleh angka 0, sehingga pilihan yang tersedia adalah $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\} \\rightarrow$ **9 pilihan**." },
-        { "tipe": "paragraph", "text": "- **Digit Kedua:** Karena angka harus berbeda dan 1 angka sudah dipakai di digit pertama, tersisa $10 - 1 = 9$ pilihan angka (termasuk angka 0) $\\rightarrow$ **9 pilihan**." },
-        { "tipe": "paragraph", "text": "- **Digit Ketiga:** Karena 2 angka sudah dipakai, tersisa $10 - 2 = 8$ pilihan angka $\\rightarrow$ **8 pilihan**." },
-        { "tipe": "paragraph", "text": "- **Digit Keempat:** Karena 3 angka sudah dipakai, tersisa $10 - 3 = 7$ pilihan angka $\\rightarrow$ **7 pilihan**." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung total susunan PIN.**" },
-        { "tipe": "paragraph", "text": "Total PIN = $9 \\times 9 \\times 8 \\times 7 = 4536$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak PIN yang dapat dibentuk adalah $4536$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak pilihan untuk setiap digit PIN (4 angka berbeda)**" },
+        { "tipe": "paragraph", "text": "Dari $10$ angka ($0$–$9$), digit pertama tidak boleh $0$ sehingga ada **$9$ pilihan** ($1$–$9$). Digit kedua tersisa $9$ angka (termasuk $0$), digit ketiga tersisa $8$ angka, dan digit keempat tersisa $7$ angka." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak kode PIN menggunakan aturan perkalian**" },
+        { "tipe": "formula_block", "latex": "\\text{Banyak PIN} = 9 \\times 9 \\times 8 \\times 7 = 4536" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak PIN yang dapat dibentuk adalah **$4536$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -74,20 +68,15 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Hitung total titik sampel ($n(S)$).**" },
-        { "tipe": "paragraph", "text": "Total bola = 8 buah. Diambil 2 bola sekaligus:" },
-        { "tipe": "paragraph", "text": "$n(S) = C(8, 2) = \\dfrac{8!}{2!6!} = \\dfrac{8 \\cdot 7}{2 \\cdot 1} = 28$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan pasangan nomor bola yang jumlahnya merupakan bilangan prima.**" },
-        { "tipe": "paragraph", "text": "Bilangan prima yang mungkin dari penjumlahan dua angka antara $1$ sampai $8$ adalah $\\{3, 5, 7, 11, 13\\}$:" },
-        { "tipe": "paragraph", "text": "- **Jumlah 3:** $(1, 2) \\rightarrow 1$ pasang" },
-        { "tipe": "paragraph", "text": "- **Jumlah 5:** $(1, 4), (2, 3) \\rightarrow 2$ pasang" },
-        { "tipe": "paragraph", "text": "- **Jumlah 7:** $(1, 6), (2, 5), (3, 4) \\rightarrow 3$ pasang" },
-        { "tipe": "paragraph", "text": "- **Jumlah 11:** $(3, 8), (4, 7), (5, 6) \\rightarrow 3$ pasang" },
-        { "tipe": "paragraph", "text": "- **Jumlah 13:** $(5, 8), (6, 7) \\rightarrow 2$ pasang" },
-        { "tipe": "paragraph", "text": "Total pasang yang memenuhi adalah $n(A) = 1 + 2 + 3 + 3 + 2 = 11$." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang $P(A)$.**" },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{11}{28}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang jumlah kedua nomor bola adalah bilangan prima adalah $\\dfrac{11}{28}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak titik sampel ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Dari $8$ bola bernomor $1$ sampai $8$ diambil $2$ bola sekaligus:" },
+        { "tipe": "formula_block", "latex": "n(S) = C(8, 2) = \\dfrac{8 \\cdot 7}{2 \\cdot 1} = 28" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak pasangan bola yang jumlah nomornya bilangan prima ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Pasangan dengan jumlah prima ($\{3, 5, 7, 11, 13\}$) terdiri dari: jumlah $3$ ada $1$ pasang $(1,2)$, jumlah $5$ ada $2$ pasang $(1,4),(2,3)$, jumlah $7$ ada $3$ pasang $(1,6),(2,5),(3,4)$, jumlah $11$ ada $3$ pasang $(3,8),(4,7),(5,6)$, dan jumlah $13$ ada $2$ pasang $(5,8),(6,7)$:" },
+        { "tipe": "formula_block", "latex": "n(A) = 1 + 2 + 3 + 3 + 2 = 11" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang kejadian $P(A)$**" },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{11}{28}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang jumlah kedua nomor bola adalah bilangan prima adalah **$\\dfrac{11}{28}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -105,16 +94,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Selesaikan pemilihan ketua terlebih dahulu.**" },
-        { "tipe": "paragraph", "text": "Karena posisi ketua harus diisi oleh seorang **pria**, dan tersedia 6 pria, maka banyak pilihan untuk posisi ketua adalah $6$ cara." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Pilih sisa anggota panitia.**`" },
-        { "tipe": "paragraph", "text": "Panitia terdiri dari 4 orang. Karena 1 orang sudah terpilih sebagai ketua, maka sisa anggota yang harus dipilih adalah $4 - 1 = 3$ orang." },
-        { "tipe": "paragraph", "text": "Total sisa orang yang tersedia setelah 1 pria terpilih menjadi ketua adalah $(6 - 1) \\text{ pria} + 5 \\text{ wanita} = 5 + 5 = 10$ orang." },
-        { "tipe": "paragraph", "text": "Banyak cara memilih 3 orang dari 10 orang menggunakan konsep kombinasi:" },
-        { "tipe": "paragraph", "text": "$C(10, 3) = \\dfrac{10!}{3!7!} = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung total susunan panitia.**`" },
-        { "tipe": "paragraph", "text": "Total susunan = $(\\text{Pilihan Ketua}) \\times (\\text{Pilihan Sisa Anggota}) = 6 \\times 120 = 720$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak susunan panitia yang mungkin dibentuk adalah $720$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak pilihan posisi ketua pria**" },
+        { "tipe": "paragraph", "text": "Karena ketua harus pria dan tersedia $6$ pria, terdapat **$6$ pilihan** untuk posisi ketua." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung banyak cara memilih sisa 3 anggota panitia**" },
+        { "tipe": "paragraph", "text": "Setelah $1$ pria terpilih menjadi ketua, tersisa $(6 - 1) + 5 = 10$ orang untuk dipilih menjadi $3$ anggota lainnya:" },
+        { "tipe": "formula_block", "latex": "C(10, 3) = \\dfrac{10 \\cdot 9 \\cdot 8}{3 \\cdot 2 \\cdot 1} = 120" },
+        { "tipe": "paragraph", "text": "**Langkah 3: Kalikan banyak pilihan ketua dengan pilihan sisa anggota**" },
+        { "tipe": "formula_block", "latex": "\\text{Banyak susunan} = 6 \\times 120 = 720" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak susunan panitia adalah **$720$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -132,16 +119,12 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan konsep peluang komplemen.**" },
-        { "tipe": "paragraph", "text": "Peluang muncul mata dadu 6 paling sedikit satu kali dapat dihitung dengan rumus:" },
-        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu kali 6}) = 1 - P(\\text{tidak pernah muncul angka 6 dalam 5 lemparan})$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang tidak pernah muncul angka 6.**" },
-        { "tipe": "paragraph", "text": "Peluang bukan angka 6 dalam satu lemparan adalah $\\dfrac{5}{6}$." },
-        { "tipe": "paragraph", "text": "Peluang tidak muncul angka 6 selama 5 lemparan berturut-turut:" },
-        { "tipe": "paragraph", "text": "$P(\\text{tidak 6 semua}) = \\left(\\dfrac{5}{6}\\right)^5 = \\dfrac{3125}{7776}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang akhir.**" },
-        { "tipe": "paragraph", "text": "$P(\\text{paling sedikit satu kali 6}) = 1 - \\dfrac{3125}{7776} = \\dfrac{7776}{7776} - \\dfrac{3125}{7776} = \\dfrac{4651}{7776}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang muncul mata dadu 6 paling sedikit 1 kali adalah $\\dfrac{4651}{7776}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung peluang komplemen (tidak pernah muncul mata 6 dalam 5 lemparan)**" },
+        { "tipe": "paragraph", "text": "Peluang bukan mata $6$ pada satu lemparan dadu adalah $\\dfrac{5}{6}$, sehingga dalam $5$ lemparan:" },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak pernah } 6) = \\left(\\dfrac{5}{6}\\right)^5 = \\dfrac{3125}{7776}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan dari 1 untuk memperoleh peluang muncul paling sedikit 1 kali mata 6**" },
+        { "tipe": "formula_block", "latex": "P(\\text{paling sedikit satu } 6) = 1 - \\dfrac{3125}{7776} = \\dfrac{4651}{7776}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata $6$ paling sedikit 1 kali adalah **$\\dfrac{4651}{7776}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -159,30 +142,14 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi komposisi kelompok orang.**`" },
-        { "tipe": "paragraph", "text": "Terdapat 10 orang total, yang terdiri dari:" },
-        { "tipe": "paragraph", "text": "- 4 pasangan suami-istri ($4 \\times 2 = 8$ orang)" },
-        { "tipe": "paragraph", "text": "- 2 orang lainnya (lajang)" },
-        { "tipe": "paragraph", "text": "Syarat pemilihan: dipilih 4 orang sedemikian rupa sehingga **tidak boleh ada pasangan suami-istri yang terpilih bersamaan**." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Analisis kasus berdasarkan jumlah pasangan yang terpilih.**" },
-        { "tipe": "paragraph", "text": "Karena dipilih 4 orang dan tidak boleh ada pasangan yang sama-sama terpilih, maka jumlah pasangan suami-istri yang bisa ikut terpilih maksimal adalah 2 pasangan." },
-        { "tipe": "paragraph", "text": "- **Kasus A (Terpilih 2 pasangan dari 4 pasang, dan 0 orang lajang):**" },
-        { "tipe": "paragraph", "text": "  Dari 2 pasang tersebut, masing-masing diambil 1 orang (suami atau istri):" },
-        { "tipe": "paragraph", "text": "  $C(4, 2) \\cdot 2^2 \\cdot C(2, 0) = 6 \\cdot 4 \\cdot 1 = 24$" },
-        { "tipe": "paragraph", "text": "- **Kasus B (Terpilih 1 pasangan dari 4 pasang, dan 2 orang lajang):**" },
-        { "tipe": "paragraph", "text": "  $C(4, 1) \\cdot 2^1 \\cdot C(2, 2) = 4 \\cdot 2 \\cdot 1 = 8$" },
-        { "tipe": "paragraph", "text": "- **Kasus C (Terpilih 3 pasangan dari 4 pasang, dan 1 orang lajang):**" },
-        { "tipe": "paragraph", "text": "  Tidak mungkin karena $3 \\times 2 + 1 = 7 > 4$ orang." },
-        { "tipe": "paragraph", "text": "- **Kasus D (Terpilih 0 pasangan, dan mengambil dari 2 lajang serta masing-masing 1 orang dari 4 pasang):**" },
-        { "tipe": "paragraph", "text": "  Mari hitung berdasarkan jumlah pasangan yang ikut menyumbangkan 1 anggota (0, 1, atau 2 pasang):" },
-        { "tipe": "paragraph", "text": "  * *Sub-kasus D1 (0 pasang, 2 lajang + 2 orang dari pasang berbeda):* Lebih mudah menggunakan kombinasi langsung: memilih 4 orang dengan ketentuan dari 4 pasang diambil maksimal 1 orang per pasang." },
-        { "tipe": "paragraph", "text": "  Mari gunakan pendekatan kelompok: Pilih $k$ pasangan yang masing-masing diwakili 1 orang, dan sisanya diambil dari 2 orang lajang." },
-        { "tipe": "paragraph", "text": "  - Jika $k = 4$ (mengambil 1 orang dari ke-4 pasang): $C(4, 4) \\cdot 2^4 = 1 \\cdot 16 = 16$" },
-        { "tipe": "paragraph", "text": "  - Jika $k = 3$ (mengambil 1 orang dari 3 pasang, dan 1 orang lajang): $C(4, 3) \\cdot 2^3 \\cdot C(2, 1) = 4 \\cdot 8 \\cdot 2 = 64$" },
-        { "tipe": "paragraph", "text": "  - Jika $k = 2$ (mengambil 1 orang dari 2 pasang, dan 2 orang lajang): $C(4, 2) \\cdot 2^2 \\cdot C(2, 2) = 6 \\cdot 4 \\cdot 1 = 24$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Jumlahkan seluruh kemungkinan.**" },
-        { "tipe": "paragraph", "text": "Total cara = $16 + 64 + 24 = 104$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak cara pemilihan yang memenuhi syarat adalah $104$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Klasifikasikan kasus pemilihan 4 orang tanpa ada pasangan suami-istri bersamaan**" },
+        { "tipe": "paragraph", "text": "Terdapat $4$ pasangan suami-istri ($8$ orang) dan $2$ orang lajang. Agar tidak ada pasangan yang terpilih bersamaan, kita dapat mengambil $k$ pasangan (masing-masing $1$ orang dari tiap pasangan) dan $(4 - k)$ orang lajang, dengan $k \\in \\{2, 3, 4\\}$:" },
+        { "tipe": "formula_block", "latex": "k = 4 \\text{ (0 lajang)}: C(4, 4) \\cdot 2^4 \\cdot C(2, 0) = 1 \\cdot 16 \\cdot 1 = 16" },
+        { "tipe": "formula_block", "latex": "k = 3 \\text{ (1 lajang)}: C(4, 3) \\cdot 2^3 \\cdot C(2, 1) = 4 \\cdot 8 \\cdot 2 = 64" },
+        { "tipe": "formula_block", "latex": "k = 2 \\text{ (2 lajang)}: C(4, 2) \\cdot 2^2 \\cdot C(2, 2) = 6 \\cdot 4 \\cdot 1 = 24" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Jumlahkan seluruh kemungkinan kasus**" },
+        { "tipe": "formula_block", "latex": "\\text{Banyak cara} = 16 + 64 + 24 = 104" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak cara memilih 4 orang agar tidak ada pasangan suami-istri yang terpilih adalah **$104$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -200,15 +167,11 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Analisis kondisi setelah pengambilan pertama.**" },
-        { "tipe": "paragraph", "text": "Awalnya terdapat 5 bola merah dan 3 bola biru (total 8 bola). Pengambilan pertama adalah bola merah dan **tidak dikembalikan**." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung sisa komposisi bola di dalam kantong.**" },
-        { "tipe": "paragraph", "text": "- Sisa bola merah = $5 - 1 = 4$ bola" },
-        { "tipe": "paragraph", "text": "- Sisa bola biru = $3$ bola" },
-        { "tipe": "paragraph", "text": "- Total sisa bola = $4 + 3 = 7$ bola" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung peluang bersyarat.**" },
-        { "tipe": "paragraph", "text": "$P(\\text{biru kedua} | \\text{merah pertama}) = \\dfrac{\\text{jumlah bola biru yang tersisa}}{\\text{total sisa bola}} = \\dfrac{3}{7}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang bola kedua biru jika diketahui bola pertama merah adalah $\\dfrac{3}{7}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung sisa bola setelah bola pertama merah diambil tanpa pengembalian**" },
+        { "tipe": "paragraph", "text": "Dari $5$ bola merah dan $3$ bola biru ($8$ bola), setelah $1$ bola merah terambil tersisa $4$ bola merah dan $3$ bola biru, sehingga total sisa bola adalah $7$ bola." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang bersyarat terambil bola biru pada pengambilan kedua**" },
+        { "tipe": "formula_block", "latex": "P(\\text{biru}_2 \\mid \\text{merah}_1) = \\dfrac{3}{7}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang bola kedua biru jika diketahui bola pertama merah adalah **$\\dfrac{3}{7}$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -226,15 +189,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Analisis posisi angka pada bilangan 3 digit.**" },
-        { "tipe": "paragraph", "text": "Angka yang tersedia adalah $\\{0, 1, 2, 3, 4\\}$ (total 5 angka). Angka pertama (ratusan) tidak boleh bernilai 0." },
-        { "tipe": "paragraph", "text": "**Langkah 2: Tentukan banyak pilihan untuk setiap posisi (aturan pengisian tempat).**" },
-        { "tipe": "paragraph", "text": "- **Posisi Ratusan:** Hanya dapat diisi oleh angka $\\{1, 2, 3, 4\\} \\rightarrow$ **4 pilihan**." },
-        { "tipe": "paragraph", "text": "- **Posisi Puluhan:** Angka 0 sudah boleh digunakan kembali, tetapi 1 angka sudah dipakai di posisi ratusan. Sisa pilihan angka = $5 - 1 = 4 \\rightarrow$ **4 pilihan**." },
-        { "tipe": "paragraph", "text": "- **Posisi Satuan:** 2 angka sudah dipakai di posisi ratusan dan puluhan. Sisa pilihan angka = $5 - 2 = 3 \\rightarrow$ **3 pilihan**." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Hitung total bilangan yang dapat dibentuk.**`" },
-        { "tipe": "paragraph", "text": "Total bilangan = $\\text{Ratusan} \\times \\text{Puluhan} \\times \\text{Satuan} = 4 \\times 4 \\times 3 = 48$." },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Banyak bilangan 3 angka berbeda yang dapat dibentuk adalah $48$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak pilihan untuk tiap posisi bilangan 3 angka berbeda**" },
+        { "tipe": "paragraph", "text": "Dari angka $\{0, 1, 2, 3, 4\}$, posisi ratusan tidak boleh $0$ sehingga ada **$4$ pilihan**. Setelah dipakai $1$ angka, posisi puluhan memiliki $4$ pilihan dan posisi satuan memiliki $3$ pilihan." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung total bilangan menggunakan aturan perkalian**" },
+        { "tipe": "formula_block", "latex": "\\text{Banyak bilangan} = 4 \\times 4 \\times 3 = 48" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, banyak bilangan 3 angka berbeda yang dapat dibentuk adalah **$48$**." }
       ],
       "tingkat": "SULIT"
     },
@@ -252,18 +211,16 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus penjumlahan peluang (Aturan Inklusi-Eksklusi).**" },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui ke dalam rumus.**`" },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{1}{3} + \\dfrac{1}{4} - \\dfrac{1}{12}$" },
-        { "tipe": "paragraph", "text": "**Langkah 3: Samakan penyebut dan selesaikan perhitungan.**" },
-        { "tipe": "paragraph", "text": "$P(A \\cup B) = \\dfrac{4}{12} + \\dfrac{3}{12} - \\dfrac{1}{12} = \\dfrac{4 + 3 - 1}{12} = \\dfrac{6}{12} = \\dfrac{1}{2}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Nilai dari $P(A \\cup B)$ adalah $\\dfrac{1}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Terapkan aturan penjumlahan peluang (inklusi-eksklusi)**" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan nilai yang diketahui dan sederhanakan**" },
+        { "tipe": "formula_block", "latex": "P(A \\cup B) = \\dfrac{1}{3} + \\dfrac{1}{4} - \\dfrac{1}{12} = \\dfrac{4 + 3 - 1}{12} = \\dfrac{6}{12} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai dari $P(A \\cup B)$ adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "SULIT"
     },
     {
-      "id": "bs-k10-pel-sulit-05-q09",
+      "id": "bs-k10-pel-sulit-05-q10",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Dalam suatu kotak, ada 4 kunci berbeda. Hanya 1 kunci yang cocok dengan pintu. Kunci dicoba satu per satu tanpa pengembalian. Peluang kunci cocok ditemukan pada percobaan ke-2 adalah..." }
       ],
@@ -276,16 +233,11 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "**Langkah 1: Pahami urutan kejadian percobaan.**" },
-        { "tipe": "paragraph", "text": "Kunci cocok ditemukan pada percobaan kedua berarti:" },
-        { "tipe": "paragraph", "text": "- Percobaan 1: Gagal (salah)" },
-        { "tipe": "paragraph", "text": "- Percobaan 2: Berhasil (cocok)" },
-        { "tipe": "paragraph", "text": "**Langkah 2: Hitung peluang setiap tahap tanpa pengembalian.**" },
-        { "tipe": "paragraph", "text": "- Peluang gagal pada percobaan pertama: $\\dfrac{3}{4}$ (karena ada 3 kunci salah dari 4 kunci total)." },
-        { "tipe": "paragraph", "text": "- Peluang berhasil pada percobaan kedua: $\\dfrac{1}{3}$ (karena sisa 1 kunci cocok dari 3 kunci yang tersisa di kotak)." },
-        { "tipe": "paragraph", "text": "**Langkah 3: Kalikan kedua peluang tahapan tersebut.**" },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{3}{4} \\cdot \\dfrac{1}{3} = \\dfrac{3}{12} = \\dfrac{1}{4}$" },
-        { "tipe": "paragraph", "text": "**Kesimpulan:** Peluang kunci cocok ditemukan pada percobaan ke-2 adalah $\\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan alur percobaan tanpa pengembalian**" },
+        { "tipe": "paragraph", "text": "Kunci cocok ditemukan pada percobaan ke-2 berarti percobaan ke-1 gagal (peluang $\\dfrac{3}{4}$), lalu percobaan ke-2 berhasil dari $3$ kunci tersisa (peluang $\\dfrac{1}{3}$)." },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan peluang kedua tahapan tersebut**" },
+        { "tipe": "formula_block", "latex": "P = \\dfrac{3}{4} \\cdot \\dfrac{1}{3} = \\dfrac{3}{12} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kunci cocok ditemukan pada percobaan ke-2 adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "SULIT"
     }
