@@ -11,169 +11,217 @@
       "id": "bs-k10-spl-s-09-q01",
       "pertanyaan": [
         { "tipe": "paragraph", "text": "Perhatikan grafik daerah penyelesaian berikut. Sistem pertidaksamaan yang tepat adalah..." },
-        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Daerah+x%2By%E2%89%A44+dan+2x%2By%E2%89%A46", "caption": "Daerah penyelesaian dengan garis x+y=4 dan 2x+y=6" }
+        { "tipe": "image", "gambar": "https://placehold.co/400x300?text=Daerah+x%2By%E2%89%A54+dan+2x%2By%E2%89%A56", "caption": "Daerah penyelesaian dengan garis x+y=4 dan 2x+y=6" }
       ],
       "gambar_prompt": "Bidang koordinat dengan dua garis: x + y = 4 (melalui (4,0) dan (0,4)) dan 2x + y = 6 (melalui (3,0) dan (0,6)), daerah di atas kedua garis diarsir, label sumbu jelas, gaya edukatif.",
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$x+y \\geq 4$; $2x+y \\geq 6$; $x,y \\geq 0$" }],
-        [{ "tipe": "paragraph", "text": "$x+y \\leq 4$; $2x+y \\leq 6$; $x,y \\geq 0$" }],
-        [{ "tipe": "paragraph", "text": "$x+y \\geq 4$; $2x+y \\leq 6$; $x,y \\geq 0$" }],
-        [{ "tipe": "paragraph", "text": "$x+y \\leq 4$; $2x+y \\geq 6$; $x,y \\geq 0$" }],
-        [{ "tipe": "paragraph", "text": "$x+y \\geq 4$; $2x+y \\geq 6$; $x,y \\leq 0$" }]
+        [ { "tipe": "paragraph", "text": "$x + y \\geq 4$; $2x + y \\geq 6$; $x, y \\geq 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x + y \\leq 4$; $2x + y \\leq 6$; $x, y \\geq 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x + y \\geq 4$; $2x + y \\leq 6$; $x, y \\geq 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x + y \\leq 4$; $2x + y \\geq 6$; $x, y \\geq 0$" } ],
+        [ { "tipe": "paragraph", "text": "$x + y \\geq 4$; $2x + y \\geq 6$; $x, y \\leq 0$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Daerah di atas kedua garis → $\\geq$ untuk keduanya, dengan $x,y \\geq 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Identifikasi arah arsiran relatif terhadap garis batas**" },
+        { "tipe": "paragraph", "text": "Daerah arsiran berada di atas kedua garis batas $x + y = 4$ dan $2x + y = 6$ pada kuadran pertama." },
+        { "tipe": "formula_block", "latex": "x + y \\geq 4, \\qquad 2x + y \\geq 6, \\qquad x \\geq 0, \\quad y \\geq 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, sistem pertidaksamaan yang tepat adalah **$x + y \\geq 4$; $2x + y \\geq 6$; $x, y \\geq 0$**." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q02",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai maksimum $f = 3x + 2y$ pada daerah $x+y \\leq 6$, $x+2y \\leq 8$, $x,y \\geq 0$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum $f = 3x + 2y$ pada daerah $x + y \\leq 6$, $x + 2y \\leq 8$, $x, y \\geq 0$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$12$" }],
-        [{ "tipe": "paragraph", "text": "$14$" }],
-        [{ "tipe": "paragraph", "text": "$16$" }],
-        [{ "tipe": "paragraph", "text": "$18$" }],
-        [{ "tipe": "paragraph", "text": "$20$" }]
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut daerah penyelesaian: $(0,0) \\Rightarrow 0$, $(6,0) \\Rightarrow 18$, $(0,4) \\Rightarrow 8$, dan titik potong $(4,2) \\Rightarrow 16$." },
-        { "tipe": "paragraph", "text": "Nilai maksimum adalah $18$ di titik $(6,0)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik-titik sudut daerah penyelesaian**" },
+        { "tipe": "formula_block", "latex": "(0, 0), \\quad (6, 0), \\quad (0, 4), \\quad \\text{dan potong } x + y = 6 \\text{ dengan } x + 2y = 8 \\Rightarrow (4, 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $f = 3x + 2y$ pada setiap titik sudut dan pilih maksimumnya**" },
+        { "tipe": "formula_block", "latex": "f(0, 0) = 0, \\quad f(6, 0) = 18, \\quad f(0, 4) = 8, \\quad f(4, 2) = 3(4) + 2(2) = 16" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai maksimum $f = 3x + 2y$ adalah **$18$** (di titik $(6, 0)$)." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q03",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $2x + y \\leq 8$, $x + 2y \\leq 8$, $x \\geq 0$, $y \\geq 0$. Nilai minimum $f = x + y$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $2x + y \\leq 8$, $x + 2y \\leq 8$, $x \\geq 0$, $y \\geq 0$. Nilai minimum $f = x + y$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$0$" }],
-        [{ "tipe": "paragraph", "text": "$2$" }],
-        [{ "tipe": "paragraph", "text": "$3$" }],
-        [{ "tipe": "paragraph", "text": "$4$" }],
-        [{ "tipe": "paragraph", "text": "$5$" }]
+        [ { "tipe": "paragraph", "text": "$0$" } ],
+        [ { "tipe": "paragraph", "text": "$2$" } ],
+        [ { "tipe": "paragraph", "text": "$3$" } ],
+        [ { "tipe": "paragraph", "text": "$4$" } ],
+        [ { "tipe": "paragraph", "text": "$5$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik $(0,0)$ memenuhi semua kendala, sehingga nilai minimum $f = 0+0 = 0$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Periksa titik sudut daerah penyelesaian, termasuk titik asal $(0, 0)$**" },
+        { "tipe": "paragraph", "text": "Titik $(0, 0)$ memenuhi semua kendala ($0 \\leq 8$ dan $0 \\leq 8$) serta menjadi batas bawah untuk $x \\geq 0$ dan $y \\geq 0$." },
+        { "tipe": "formula_block", "latex": "f(0, 0) = 0 + 0 = 0" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai minimum $f = x + y$ adalah **$0$**." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q04",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Daerah $x + y \\geq 3$, $x + y \\leq 7$, $x \\geq 0$, $y \\geq 0$ memiliki luas..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Daerah $x + y \\geq 3$, $x + y \\leq 7$, $x \\geq 0$, $y \\geq 0$ memiliki luas..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$12$" }],
-        [{ "tipe": "paragraph", "text": "$14$" }],
-        [{ "tipe": "paragraph", "text": "$16$" }],
-        [{ "tipe": "paragraph", "text": "$18$" }],
-        [{ "tipe": "paragraph", "text": "$20$" }]
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ],
+        [ { "tipe": "paragraph", "text": "$20$" } ]
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Luas = Luas segitiga besar ($x+y=7$) - Luas segitiga kecil ($x+y=3$) = $\\dfrac{1}{2}(7)(7) - \\dfrac{1}{2}(3)(3) = \\dfrac{49}{2} - \\dfrac{9}{2} = 20$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung luas segitiga siku-siku pada kuadran pertama untuk masing-masing garis**" },
+        { "tipe": "formula_block", "latex": "L_{\\text{besar}} = \\dfrac{1}{2} \\times 7 \\times 7 = \\dfrac{49}{2}, \\qquad L_{\\text{kecil}} = \\dfrac{1}{2} \\times 3 \\times 3 = \\dfrac{9}{2}" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kurangkan luas segitiga besar dengan luas segitiga kecil**" },
+        { "tipe": "formula_block", "latex": "L = \\dfrac{49}{2} - \\dfrac{9}{2} = \\dfrac{40}{2} = 20" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, luas daerah tersebut adalah **$20$** satuan luas." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q05",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai maksimum $f = 2x + 3y$ pada $x + y \\leq 5$, $2x + y \\leq 8$, $x,y \\geq 0$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai maksimum $f = 2x + 3y$ pada $x + y \\leq 5$, $2x + y \\leq 8$, $x, y \\geq 0$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$10$" }],
-        [{ "tipe": "paragraph", "text": "$12$" }],
-        [{ "tipe": "paragraph", "text": "$14$" }],
-        [{ "tipe": "paragraph", "text": "$15$" }],
-        [{ "tipe": "paragraph", "text": "$16$" }]
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ]
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut: $(0,0) \\Rightarrow 0$, $(4,0) \\Rightarrow 8$, $(0,5) \\Rightarrow 15$, dan titik potong $(3,2) \\Rightarrow 12$." },
-        { "tipe": "paragraph", "text": "Nilai maksimum adalah $15$ di titik $(0,5)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik-titik sudut daerah penyelesaian**" },
+        { "tipe": "formula_block", "latex": "(0, 0), \\quad (4, 0), \\quad (0, 5), \\quad \\text{dan potong } x + y = 5 \\text{ dengan } 2x + y = 8 \\Rightarrow (3, 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Evaluasi fungsi objektif $f = 2x + 3y$ pada setiap titik sudut**" },
+        { "tipe": "formula_block", "latex": "f(0, 0) = 0, \\quad f(4, 0) = 8, \\quad f(0, 5) = 15, \\quad f(3, 2) = 2(3) + 3(2) = 12" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai maksimum $f = 2x + 3y$ adalah **$15$** (di titik $(0, 5)$)." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q06",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y \\leq 4$, $x - y \\leq 2$, $x \\geq 0$. Daerah penyelesaian terletak di..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x + y \\leq 4$, $x - y \\leq 2$, $x \\geq 0$. Daerah penyelesaian terletak di..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Kuadran I" }],
-        [{ "tipe": "paragraph", "text": "Kuadran II" }],
-        [{ "tipe": "paragraph", "text": "Kuadran III" }],
-        [{ "tipe": "paragraph", "text": "Kuadran IV" }],
-        [{ "tipe": "paragraph", "text": "Kuadran I dan II" }]
+        [ { "tipe": "paragraph", "text": "Kuadran I" } ],
+        [ { "tipe": "paragraph", "text": "Kuadran II" } ],
+        [ { "tipe": "paragraph", "text": "Kuadran III" } ],
+        [ { "tipe": "paragraph", "text": "Kuadran IV" } ],
+        [ { "tipe": "paragraph", "text": "Kuadran I dan II" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Dengan $x \\geq 0$ dan batasan $x+y \\leq 4$ serta $x-y \\leq 2$, daerah utama penyelesaian terletak di Kuadran I." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Analisis batas nilai $x$ dan $y$ pada daerah penyelesaian**" },
+        { "tipe": "paragraph", "text": "Dengan kendala $x \\geq 0$, $x + y \\leq 4$, dan $x - y \\leq 2$, bagian utama daerah penyelesaian berada di **Kuadran I** ($x \\geq 0$ dan $y \\geq 0$)." },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, daerah penyelesaian terletak di **Kuadran I**." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q07",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Pabrik membuat 2 produk. X butuh 2 jam mesin A, 1 jam B. Y butuh 1 jam A, 2 jam B. Tersedia 8 jam A dan 8 jam B. Jika keuntungan X Rp30.000 dan Y Rp20.000, keuntungan maksimum adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Pabrik membuat 2 produk. X butuh 2 jam mesin A, 1 jam B. Y butuh 1 jam A, 2 jam B. Tersedia 8 jam A dan 8 jam B. Jika keuntungan X Rp30.000 dan Y Rp20.000, keuntungan maksimum adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "Rp100.000" }],
-        [{ "tipe": "paragraph", "text": "Rp110.000" }],
-        [{ "tipe": "paragraph", "text": "Rp120.000" }],
-        [{ "tipe": "paragraph", "text": "Rp130.000" }],
-        [{ "tipe": "paragraph", "text": "Rp140.000" }]
+        [ { "tipe": "paragraph", "text": "Rp100.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp110.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp120.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp130.000" } ],
+        [ { "tipe": "paragraph", "text": "Rp140.000" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kendala: $2x+y \\leq 8$, $x+2y \\leq 8$, dengan $x,y \\ge 0$ (bilangan bulat)." },
-        { "tipe": "paragraph", "text": "Uji titik sudut bulat: $(0,0) \\Rightarrow 0$, $(4,0) \\Rightarrow 120.000$, $(0,4) \\Rightarrow 80.000$, $(2,2) \\Rightarrow 100.000$." },
-        { "tipe": "paragraph", "text": "Keuntungan maksimum adalah Rp120.000 di titik $(4,0)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Susun model matematika kendala jam mesin dan fungsi keuntungan**" },
+        { "tipe": "formula_block", "latex": "2x + y \\leq 8, \\qquad x + 2y \\leq 8, \\qquad x, y \\geq 0, \\qquad f(x, y) = 30.000x + 20.000y" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Uji titik sudut daerah penyelesaian untuk mencari keuntungan maksimum**" },
+        { "tipe": "formula_block", "latex": "f(0, 0) = 0, \\quad f(4, 0) = 120.000, \\quad f(0, 4) = 80.000, \\quad f\\left(\\dfrac{8}{3}, \\dfrac{8}{3}\\right) \\Rightarrow \\text{titik bulat } (2, 2): f(2, 2) = 100.000" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, keuntungan maksimum pabrik tersebut adalah **Rp120.000**." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q08",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Himpunan penyelesaian $y \\geq 2x - 4$ dan $y \\leq -x + 5$ memiliki titik potong di..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Himpunan penyelesaian $y \\geq 2x - 4$ dan $y \\leq -x + 5$ memiliki titik potong di..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$(3, 2)$" }],
-        [{ "tipe": "paragraph", "text": "$(2, 3)$" }],
-        [{ "tipe": "paragraph", "text": "$(1, 4)$" }],
-        [{ "tipe": "paragraph", "text": "$(4, 1)$" }],
-        [{ "tipe": "paragraph", "text": "$(0, 5)$" }]
+        [ { "tipe": "paragraph", "text": "$(3, 2)$" } ],
+        [ { "tipe": "paragraph", "text": "$(2, 3)$" } ],
+        [ { "tipe": "paragraph", "text": "$(1, 4)$" } ],
+        [ { "tipe": "paragraph", "text": "$(4, 1)$" } ],
+        [ { "tipe": "paragraph", "text": "$(0, 5)$" } ]
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$2x-4 = -x+5 \\Rightarrow 3x=9 \\Rightarrow x=3$, $y=2$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Samakan kedua persamaan garis batas untuk mencari absis $x$**" },
+        { "tipe": "formula_block", "latex": "2x - 4 = -x + 5 \\Rightarrow 2x + x = 5 + 4 \\Rightarrow 3x = 9 \\Rightarrow x = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Substitusikan $x = 3$ untuk memperoleh ordinat $y$**" },
+        { "tipe": "formula_block", "latex": "y = -3 + 5 = 2 \\Rightarrow (3, 2)" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, titik potong kedua garis batas berada di **$(3, 2)$**." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q09",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Nilai minimum $f = 3x + 4y$ pada $x + 2y \\geq 6$, $2x + y \\geq 6$, $x,y \\geq 0$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Nilai minimum $f = 3x + 4y$ pada $x + 2y \\geq 6$, $2x + y \\geq 6$, $x, y \\geq 0$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$10$" }],
-        [{ "tipe": "paragraph", "text": "$12$" }],
-        [{ "tipe": "paragraph", "text": "$14$" }],
-        [{ "tipe": "paragraph", "text": "$15$" }],
-        [{ "tipe": "paragraph", "text": "$16$" }]
+        [ { "tipe": "paragraph", "text": "$10$" } ],
+        [ { "tipe": "paragraph", "text": "$12$" } ],
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ]
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut: $(6,0) \\Rightarrow 18$, $(0,6) \\Rightarrow 24$, dan titik potong $(2,2) \\Rightarrow 3(2)+4(2) = 14$." },
-        { "tipe": "paragraph", "text": "Nilai minimum adalah $14$ di titik $(2,2)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik-titik sudut daerah penyelesaian**" },
+        { "tipe": "formula_block", "latex": "(6, 0), \\quad (0, 6), \\quad \\text{dan potong } x + 2y = 6 \\text{ dengan } 2x + y = 6 \\Rightarrow (2, 2)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Hitung nilai $f = 3x + 4y$ pada setiap titik sudut dan pilih minimumnya**" },
+        { "tipe": "formula_block", "latex": "f(6, 0) = 18, \\quad f(0, 6) = 24, \\quad f(2, 2) = 3(2) + 4(2) = 14" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai minimum $f = 3x + 4y$ adalah **$14$** (di titik $(2, 2)$)." }
       ],
       "tingkat": "SEDANG"
     },
     {
       "id": "bs-k10-spl-s-09-q10",
-      "pertanyaan": [{ "tipe": "paragraph", "text": "Sistem $x + y \\leq 10$, $x \\geq 2$, $y \\geq 3$. Nilai maksimum $f = x + 2y$ adalah..." }],
+      "pertanyaan": [
+        { "tipe": "paragraph", "text": "Sistem $x + y \\leq 10$, $x \\geq 2$, $y \\geq 3$. Nilai maksimum $f = x + 2y$ adalah..." }
+      ],
       "pilihan": [
-        [{ "tipe": "paragraph", "text": "$14$" }],
-        [{ "tipe": "paragraph", "text": "$15$" }],
-        [{ "tipe": "paragraph", "text": "$16$" }],
-        [{ "tipe": "paragraph", "text": "$17$" }],
-        [{ "tipe": "paragraph", "text": "$18$" }]
+        [ { "tipe": "paragraph", "text": "$14$" } ],
+        [ { "tipe": "paragraph", "text": "$15$" } ],
+        [ { "tipe": "paragraph", "text": "$16$" } ],
+        [ { "tipe": "paragraph", "text": "$17$" } ],
+        [ { "tipe": "paragraph", "text": "$18$" } ]
       ],
       "jawaban_benar": 4,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Titik sudut daerah: $(2,3) \\Rightarrow 8$, $(2,8) \\Rightarrow 2+2(8)=18$, $(7,3) \\Rightarrow 13$." },
-        { "tipe": "paragraph", "text": "Nilai maksimum adalah $18$ di titik $(2,8)$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan titik-titik sudut daerah penyelesaian**" },
+        { "tipe": "formula_block", "latex": "(2, 3), \\quad (2, 8), \\quad (7, 3)" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Evaluasi fungsi objektif $f = x + 2y$ pada setiap titik sudut**" },
+        { "tipe": "formula_block", "latex": "f(2, 3) = 2 + 2(3) = 8, \\quad f(2, 8) = 2 + 2(8) = 18, \\quad f(7, 3) = 7 + 2(3) = 13" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, nilai maksimum $f = x + 2y$ adalah **$18$** (di titik $(2, 8)$)." }
       ],
       "tingkat": "SEDANG"
     }
