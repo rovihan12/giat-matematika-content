@@ -21,9 +21,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan beda ($b$) dengan mengurangkan suku kedua dengan suku pertama ($13 - 8 = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Tambahkan beda ke suku terakhir yang diketahui ($23 + 5 = 28$)." },
-        { "tipe": "paragraph", "text": "Jadi, suku berikutnya adalah $28$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan beda ($b$) barisan aritmatika**" },
+        { "tipe": "formula_block", "latex": "b = 13 - 8 = 5" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Tambahkan beda ke suku terakhir ($23$) untuk mendapatkan suku berikutnya**" },
+        { "tipe": "formula_block", "latex": "U_5 = 23 + 5 = 28" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku berikutnya dari barisan tersebut adalah **$28$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -41,9 +43,11 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan rasio ($r$) dengan membagi suku kedua dengan suku pertama ($\\dfrac{9}{3} = 3$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Kalikan suku terakhir dengan rasio ($81 \\times 3 = 243$)." },
-        { "tipe": "paragraph", "text": "Jadi, suku berikutnya adalah $243$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan rasio ($r$) barisan geometri**" },
+        { "tipe": "formula_block", "latex": "r = \\dfrac{9}{3} = 3" },
+        { "tipe": "paragraph", "text": "**Langkah 2: Kalikan suku terakhir ($81$) dengan rasio untuk mendapatkan suku berikutnya**" },
+        { "tipe": "formula_block", "latex": "U_5 = 81 \\times 3 = 243" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku berikutnya dari barisan tersebut adalah **$243$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -61,10 +65,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 4$) dan beda ($b = 9 - 4 = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$." },
-        { "tipe": "paragraph", "text": "$U_{14} = 4 + (14 - 1) \\cdot 5 = 4 + 13 \\cdot 5 = 4 + 65 = 69$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-14 adalah $69$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 4$) dan beda ($b = 9 - 4 = 5$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_{14}$ menggunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_{14} = 4 + (14 - 1) \\cdot 5 = 4 + 13 \\cdot 5 = 4 + 65 = 69" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-14 barisan aritmatika tersebut adalah **$69$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -82,10 +86,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 6$) dan rasio ($r = \\dfrac{18}{6} = 3$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$." },
-        { "tipe": "paragraph", "text": "$U_4 = 6 \\cdot 3^{4-1} = 6 \\cdot 3^3 = 6 \\cdot 27 = 162$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-4 adalah $162$ (pilihan kedua)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 6$) dan rasio ($r = \\dfrac{18}{6} = 3$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_4$ menggunakan rumus suku ke-$n$ barisan geometri $U_n = a \\cdot r^{n-1}$." },
+        { "tipe": "formula_block", "latex": "U_4 = 6 \\cdot 3^{4-1} = 6 \\cdot 3^3 = 6 \\cdot 27 = 162" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-4 barisan geometri tersebut adalah **$162$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -103,10 +107,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$) dan beda ($b = 7 - 2 = 5$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $a$ dan $b$ ke dalam rumus $U_n = a + (n-1)b$." },
-        { "tipe": "paragraph", "text": "$U_n = 2 + (n-1) \\cdot 5 = 2 + 5n - 5 = 5n - 3$." },
-        { "tipe": "paragraph", "text": "Jadi, rumus suku ke-$n$ adalah $U_n = 5n - 3$ (pilihan pertama)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$) dan beda ($b = 7 - 2 = 5$)**" },
+        { "tipe": "paragraph", "text": "Substitusikan ke rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_n = 2 + (n - 1) \\cdot 5 = 2 + 5n - 5 = 5n - 3" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, rumus suku ke-$n$ barisan tersebut adalah **$U_n = 5n - 3$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -124,10 +128,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Kenali sifat jumlah $n$ bilangan ganjil pertama yang selalu bernilai sama dengan $n^2$." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 12$." },
-        { "tipe": "paragraph", "text": "$S_{12} = 12^2 = 144$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 12 suku pertama adalah $144$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan sifat jumlah $n$ bilangan ganjil pertama $S_n = n^2$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $n = 12$ ke dalam rumus tersebut." },
+        { "tipe": "formula_block", "latex": "S_{12} = 12^2 = 144" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $12$ suku pertama deret tersebut adalah **$144$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -145,10 +149,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Analisis pola barisan yang merupakan bentuk kuadrat bilangan ditambah $2$ ($U_n = n^2 + 2$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Substitusikan nilai $n = 9$." },
-        { "tipe": "paragraph", "text": "$U_9 = 9^2 + 2 = 81 + 2 = 83$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-9 adalah $83$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Kenali pola kuadrat ditambah dua dengan rumus $U_n = n^2 + 2$**" },
+        { "tipe": "paragraph", "text": "Substitusikan $n = 9$ ke dalam rumus pola tersebut." },
+        { "tipe": "formula_block", "latex": "U_9 = 9^2 + 2 = 81 + 2 = 83" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-9 barisan tersebut adalah **$83$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -166,9 +170,9 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Jumlahkan secara langsung suku-suku yang diketahui karena berjumlah 4 suku." },
-        { "tipe": "paragraph", "text": "$S_4 = 5 + 15 + 45 + 135 = 200$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah 4 suku pertama adalah $200$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Jumlahkan keempat suku pada deret geometri tersebut**" },
+        { "tipe": "formula_block", "latex": "S_4 = 5 + 15 + 45 + 135 = 200" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah $4$ suku pertama deret geometri tersebut adalah **$200$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -186,10 +190,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 2$) dan beda ($b = 5 - 2 = 3$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n-1)b$." },
-        { "tipe": "paragraph", "text": "$U_{13} = 2 + (13 - 1) \\cdot 3 = 2 + 12 \\cdot 3 = 2 + 36 = 38$." },
-        { "tipe": "paragraph", "text": "Jadi, suku ke-13 adalah $38$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 2$) dan beda ($b = 5 - 2 = 3$)**" },
+        { "tipe": "paragraph", "text": "Hitung $U_{13}$ menggunakan rumus suku ke-$n$ barisan aritmatika $U_n = a + (n - 1)b$." },
+        { "tipe": "formula_block", "latex": "U_{13} = 2 + (13 - 1) \\cdot 3 = 2 + 12 \\cdot 3 = 2 + 36 = 38" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, suku ke-13 barisan tersebut adalah **$38$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -207,10 +211,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "<strong>Langkah 1:</strong> Tentukan suku pertama ($a = 16$) dan rasio ($r = \\dfrac{8}{16} = \\dfrac{1}{2}$)." },
-        { "tipe": "paragraph", "text": "<strong>Langkah 2:</strong> Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\dfrac{a}{1-r}$." },
-        { "tipe": "paragraph", "text": "$S_\\infty = \\dfrac{16}{1 - \\dfrac{1}{2}} = \\dfrac{16}{\\dfrac{1}{2}} = 16 \\times 2 = 32$." },
-        { "tipe": "paragraph", "text": "Jadi, jumlah tak hingga deret tersebut adalah $32$ (pilihan ketiga)." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan suku pertama ($a = 16$) dan rasio ($r = \\dfrac{8}{16} = \\dfrac{1}{2}$)**" },
+        { "tipe": "paragraph", "text": "Hitung $S_{\\infty}$ menggunakan rumus jumlah deret geometri tak hingga $S_{\\infty} = \\dfrac{a}{1 - r}$." },
+        { "tipe": "formula_block", "latex": "S_{\\infty} = \\dfrac{16}{1 - \\dfrac{1}{2}} = \\dfrac{16}{\\dfrac{1}{2}} = 16 \\times 2 = 32" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, jumlah tak hingga deret geometri tersebut adalah **$32$**." }
       ],
       "tingkat": "MUDAH"
     }
