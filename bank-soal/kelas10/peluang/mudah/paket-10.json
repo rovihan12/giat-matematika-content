@@ -21,9 +21,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kata \"MATEMATIKA\" terdiri dari 10 huruf: M-A-T-E-M-A-T-I-K-A." },
-        { "tipe": "paragraph", "text": "Banyak huruf M = 2, sehingga $n(A) = 2$ dan $n(S) = 10$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{10} = \\dfrac{1}{5}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung banyak huruf total ($n(S)$) dan kemunculan huruf M ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Kata \"MATEMATIKA\" terdiri dari $10$ huruf sehingga $n(S) = 10$, dan huruf M muncul sebanyak $2$ kali sehingga $n(A) = 2$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{10} = \\dfrac{1}{5}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih huruf M adalah **$\\dfrac{1}{5}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -41,8 +42,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu prima: $\\{2, 3, 5\\} \\rightarrow n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{6} = \\dfrac{1}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu prima ($n(A)$) dan ruang sampel ($n(S)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu prima adalah $\\{2, 3, 5\\}$ sehingga $n(A) = 3$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{6} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu prima adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -60,8 +63,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Total kelereng = $5 + 3 + 2 = 10$." },
-        { "tipe": "paragraph", "text": "$P(\\text{merah}) = \\dfrac{5}{10} = \\dfrac{1}{2}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Hitung jumlah seluruh kelereng ($n(S)$) dan banyak kelereng merah ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Total kelereng adalah $5 + 3 + 2 = 10$ sehingga $n(S) = 10$, dan banyak kelereng merah adalah $n(A) = 5$." },
+        { "tipe": "formula_block", "latex": "P(\\text{merah}) = \\dfrac{5}{10} = \\dfrac{1}{2}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kelereng merah adalah **$\\dfrac{1}{2}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -79,9 +84,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Ruang sampel 2 koin: $\\{AA, AG, GA, GG\\} \\rightarrow n(S) = 4$." },
-        { "tipe": "paragraph", "text": "Paling sedikit satu angka: $\\{AA, AG, GA\\} \\rightarrow n(A) = 3$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{3}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan ruang sampel ($n(S)$) dan kejadian muncul paling sedikit satu angka ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Ruang sampel dua koin adalah $\\{AA, AG, GA, GG\\}$ sehingga $n(S) = 4$, sedangkan kejadian paling sedikit satu angka adalah $\\{AA, AG, GA\\}$ sehingga $n(A) = 3$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{3}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul paling sedikit satu angka adalah **$\\dfrac{3}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -99,7 +105,10 @@
       ],
       "jawaban_benar": 0,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak lulus}) = 1 - P(\\text{lulus}) = 1 - 0,82 = 0,18$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian tidak lulus ujian merupakan komplemen dari kejadian lulus ujian." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak lulus}) = 1 - P(\\text{lulus}) = 1 - 0{,}82 = 0{,}18" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang siswa tersebut tidak lulus ujian adalah **$0{,}18$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -117,8 +126,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kelipatan $4$ dari $1$ s.d. $20$: $\\{4, 8, 12, 16, 20\\} \\rightarrow n(A) = 5$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{5}{20} = \\dfrac{1}{4}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak ruang sampel ($n(S)$) dan banyak bilangan kelipatan $4$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Dari himpunan $\\{1, 2, 3, ..., 20\\}$ diperoleh $n(S) = 20$, sedangkan kelipatan $4$ adalah $\\{4, 8, 12, 16, 20\\}$ sehingga $n(A) = 5$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{5}{20} = \\dfrac{1}{4}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terpilih bilangan kelipatan $4$ adalah **$\\dfrac{1}{4}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -136,7 +147,10 @@
       ],
       "jawaban_benar": 3,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(\\text{tidak hujan}) = 1 - \\dfrac{3}{7} = \\dfrac{4}{7}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Kejadian besok tidak turun hujan merupakan komplemen dari kejadian besok turun hujan." },
+        { "tipe": "formula_block", "latex": "P(\\text{tidak hujan}) = 1 - \\dfrac{3}{7} = \\dfrac{4}{7}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang besok tidak turun hujan adalah **$\\dfrac{4}{7}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -154,8 +168,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Kartu bernomor $10$ berjumlah $4$ lembar (hati, keriting, sekop, wajik)." },
-        { "tipe": "paragraph", "text": "$P = \\dfrac{4}{52} = \\dfrac{1}{13}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak kartu dalam satu set bridge ($n(S)$) dan banyak kartu bernomor $10$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Satu set kartu bridge terdiri dari $52$ kartu dengan $4$ kartu bernomor $10$ (hati, keriting, sekop, dan wajik)." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{4}{52} = \\dfrac{1}{13}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang terambil kartu bernomor $10$ adalah **$\\dfrac{1}{13}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -173,8 +189,10 @@
       ],
       "jawaban_benar": 1,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "Mata dadu kurang dari $3$: $\\{1, 2\\} \\rightarrow n(A) = 2$." },
-        { "tipe": "paragraph", "text": "$P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Tentukan banyak mata dadu kurang dari $3$ ($n(A)$)**" },
+        { "tipe": "paragraph", "text": "Mata dadu kurang dari $3$ adalah $\\{1, 2\\}$ sehingga $n(A) = 2$, dengan $n(S) = 6$." },
+        { "tipe": "formula_block", "latex": "P(A) = \\dfrac{n(A)}{n(S)} = \\dfrac{2}{6} = \\dfrac{1}{3}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang muncul mata dadu kurang dari $3$ adalah **$\\dfrac{1}{3}$**." }
       ],
       "tingkat": "MUDAH"
     },
@@ -192,7 +210,10 @@
       ],
       "jawaban_benar": 2,
       "pembahasan": [
-        { "tipe": "paragraph", "text": "$P(E^c) = 1 - \\dfrac{5}{9} = \\dfrac{4}{9}$." }
+        { "tipe": "paragraph", "text": "**Langkah 1: Gunakan rumus peluang kejadian komplemen**" },
+        { "tipe": "paragraph", "text": "Peluang kejadian komplemen $E^c$ diperoleh dengan mengurangkan $P(E)$ dari $1$." },
+        { "tipe": "formula_block", "latex": "P(E^c) = 1 - \\dfrac{5}{9} = \\dfrac{4}{9}" },
+        { "tipe": "paragraph", "text": "**Kesimpulan:** Jadi, peluang kejadian komplemen $E^c$ adalah **$\\dfrac{4}{9}$**." }
       ],
       "tingkat": "MUDAH"
     }
